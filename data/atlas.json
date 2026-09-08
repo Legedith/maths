@@ -1,0 +1,398 @@
+{
+  "schema_version": "1.0",
+  "title": "Mathematics Atlas",
+  "scope": "Laplacians, electrical networks, and their connections",
+  "domains": [
+    "Mathematics",
+    "Physics",
+    "Computer science",
+    "Probability"
+  ],
+  "sources": [
+    {
+      "id": "spielman-laplacian",
+      "title": "The Laplacian",
+      "author": "Daniel A. Spielman",
+      "year": 2015,
+      "url": "https://cs.yale.edu/homes/spielman/561/lect02-15.pdf",
+      "locator": "§2.2, equations (2.1)–(2.3)",
+      "note": "Weighted Laplacian, its quadratic form, and matrix structure."
+    },
+    {
+      "id": "spielman-resistance",
+      "title": "Effective Resistance",
+      "author": "Daniel A. Spielman",
+      "year": 2018,
+      "url": "https://cs.yale.edu/homes/spielman/561/lect13-18.pdf",
+      "locator": "Lecture 13",
+      "note": "Electrical flows and effective resistance."
+    },
+    {
+      "id": "spielman-trees",
+      "title": "More Effective Resistance",
+      "author": "Daniel A. Spielman",
+      "year": 2018,
+      "url": "https://www.cs.yale.edu/homes/spielman/561/lect14-18.pdf",
+      "locator": "§14.2 and Theorem 14.6.1",
+      "note": "Energy dissipation and weighted spanning-tree edge probabilities."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "weighted-graph",
+      "label": "Weighted graph",
+      "kind": "concept",
+      "domains": [
+        "Mathematics"
+      ],
+      "cluster": "foundations",
+      "x": 160,
+      "y": 235,
+      "summary": "Objects joined by connections, each carrying a numerical weight.",
+      "explanation": "Here weights are positive conductances. Vertices can represent junctions, states, or pixels; choosing a representation is a modelling decision.",
+      "formula": "G = (V, E, w)",
+      "level": "Start here",
+      "aliases": [],
+      "assumptions": [
+        "Finite, connected, undirected graph",
+        "Positive conductances"
+      ],
+      "evidence": [
+        {
+          "source": "spielman-laplacian",
+          "locator": "§2.2, equations (2.1)–(2.3)"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "laplacian",
+      "label": "Graph Laplacian",
+      "kind": "concept",
+      "domains": [
+        "Mathematics"
+      ],
+      "cluster": "foundations",
+      "x": 360,
+      "y": 290,
+      "summary": "A matrix that measures differences between neighbouring vertices.",
+      "explanation": "Place each weighted degree on the diagonal and negative edge weights off the diagonal. Multiplying by a vector compares each value with its neighbours.",
+      "formula": "L = D − A",
+      "level": "Intermediate",
+      "aliases": [],
+      "assumptions": [
+        "Finite, connected, undirected graph",
+        "Positive conductances"
+      ],
+      "evidence": [
+        {
+          "source": "spielman-laplacian",
+          "locator": "§2.2, equations (2.1)–(2.3)"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "energy",
+      "label": "Dirichlet energy",
+      "kind": "concept",
+      "domains": [
+        "Mathematics"
+      ],
+      "cluster": "foundations",
+      "x": 345,
+      "y": 100,
+      "summary": "A score for how much values change across graph edges.",
+      "explanation": "A large difference across a highly conducting edge contributes more energy. This quadratic form connects the graph to electrical dissipation.",
+      "formula": "xᵀLx = Σ wᵤᵥ(xᵤ − xᵥ)²",
+      "level": "Intermediate",
+      "aliases": [],
+      "assumptions": [
+        "Finite, connected, undirected graph",
+        "Positive conductances"
+      ],
+      "evidence": [
+        {
+          "source": "spielman-laplacian",
+          "locator": "§2.2, equations (2.1)–(2.3)"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "electrical-flow",
+      "label": "Electrical flow",
+      "kind": "concept",
+      "domains": [
+        "Physics"
+      ],
+      "cluster": "physics",
+      "x": 140,
+      "y": 465,
+      "summary": "Currents move through a resistive network under imposed injections.",
+      "explanation": "Voltage differences and conductances determine currents. One unit enters at one vertex and leaves at another.",
+      "formula": "L v = eₛ − eₜ",
+      "level": "Intermediate",
+      "aliases": [],
+      "assumptions": [
+        "Finite, connected, undirected graph",
+        "Positive conductances"
+      ],
+      "evidence": [
+        {
+          "source": "spielman-resistance",
+          "locator": "Lecture 13"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "effective-resistance",
+      "label": "Effective resistance",
+      "kind": "concept",
+      "domains": [
+        "Physics"
+      ],
+      "cluster": "physics",
+      "x": 505,
+      "y": 405,
+      "summary": "The voltage needed to send one unit of current between two vertices.",
+      "explanation": "Multiple routes can lower the effective resistance. Its role reaches beyond circuits into the probabilities of graph edges appearing in spanning trees.",
+      "formula": "Rₛₜ = vₛ − vₜ",
+      "level": "Intermediate",
+      "aliases": [],
+      "assumptions": [
+        "Finite, connected, undirected graph",
+        "Positive conductances"
+      ],
+      "evidence": [
+        {
+          "source": "spielman-resistance",
+          "locator": "Lecture 13"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "spanning-tree",
+      "label": "Spanning tree",
+      "kind": "concept",
+      "domains": [
+        "Mathematics"
+      ],
+      "cluster": "probability",
+      "x": 660,
+      "y": 170,
+      "summary": "A connected selection of edges that reaches every vertex without a cycle.",
+      "explanation": "A connected finite graph can have many spanning trees. Weighting each tree by the product of its edge weights defines a probability distribution.",
+      "formula": "|E(T)| = |V| − 1",
+      "level": "Intermediate",
+      "aliases": [],
+      "assumptions": [
+        "Finite, connected, undirected graph",
+        "Positive conductances"
+      ],
+      "evidence": [
+        {
+          "source": "spielman-trees",
+          "locator": "§14.2 and Theorem 14.6.1"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "edge-probability",
+      "label": "Edge inclusion probability",
+      "kind": "concept",
+      "domains": [
+        "Probability"
+      ],
+      "cluster": "probability",
+      "x": 800,
+      "y": 350,
+      "summary": "How often an edge appears in a random spanning tree.",
+      "explanation": "For a tree drawn with probability proportional to its edge-weight product, an edge's inclusion probability is its conductance times its effective resistance.",
+      "formula": "Pr(e ∈ T) = wₑ Rₑ",
+      "level": "Intermediate",
+      "aliases": [],
+      "assumptions": [
+        "Finite, connected, undirected graph",
+        "Positive conductances"
+      ],
+      "evidence": [
+        {
+          "source": "spielman-trees",
+          "locator": "§14.2 and Theorem 14.6.1"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "leverage-score",
+      "label": "Edge leverage score",
+      "kind": "concept",
+      "domains": [
+        "Computer science"
+      ],
+      "cluster": "algorithms",
+      "x": 655,
+      "y": 535,
+      "summary": "A numerical measure of an edge's role in the network.",
+      "explanation": "For these graph edges the leverage score is conductance times effective resistance. A bridge that is the only connection between two parts has score one.",
+      "formula": "ℓₑ = wₑ Rₑ",
+      "level": "Intermediate",
+      "aliases": [],
+      "assumptions": [
+        "Finite, connected, undirected graph",
+        "Positive conductances"
+      ],
+      "evidence": [
+        {
+          "source": "spielman-trees",
+          "locator": "§14.2 and Theorem 14.6.1"
+        }
+      ],
+      "status": "sourced"
+    }
+  ],
+  "edges": [
+    {
+      "id": "r1",
+      "from": "weighted-graph",
+      "to": "laplacian",
+      "type": "defines",
+      "statement": "The edge weights define the combinatorial Laplacian.",
+      "assumptions": [
+        "Finite, connected, undirected graph with positive conductances"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-laplacian",
+          "locator": "§2.2, equations (2.1)–(2.3)"
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "from": "laplacian",
+      "to": "energy",
+      "type": "has_quadratic_form",
+      "statement": "The Laplacian quadratic form sums weighted squared differences.",
+      "assumptions": [
+        "Finite, connected, undirected graph with positive conductances"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-laplacian",
+          "locator": "§2.2, equations (2.1)–(2.3)"
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "from": "laplacian",
+      "to": "electrical-flow",
+      "type": "models",
+      "statement": "The Laplacian expresses current balance for voltage-driven flows.",
+      "assumptions": [
+        "Finite, connected, undirected graph with positive conductances"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-resistance",
+          "locator": "Lecture 13"
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "from": "electrical-flow",
+      "to": "effective-resistance",
+      "type": "defines",
+      "statement": "A unit current's voltage drop defines effective resistance.",
+      "assumptions": [
+        "Finite, connected, undirected graph with positive conductances"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-resistance",
+          "locator": "Lecture 13"
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "from": "effective-resistance",
+      "to": "edge-probability",
+      "type": "relates_by_theorem",
+      "statement": "For an existing edge, multiply its effective resistance by its conductance to get its tree-inclusion probability.",
+      "assumptions": [
+        "Finite, connected, undirected graph with positive conductances"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-trees",
+          "locator": "§14.6, Theorem 14.6.1"
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "from": "spanning-tree",
+      "to": "edge-probability",
+      "type": "defines",
+      "statement": "Sample a spanning tree with probability proportional to its edge-weight product.",
+      "assumptions": [
+        "Finite, connected, undirected graph with positive conductances"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-trees",
+          "locator": "§14.6, Theorem 14.6.1"
+        }
+      ]
+    },
+    {
+      "id": "r7",
+      "from": "edge-probability",
+      "to": "leverage-score",
+      "type": "equals_under_assumptions",
+      "statement": "The edge inclusion probability equals the edge leverage score.",
+      "assumptions": [
+        "Finite, connected, undirected graph with positive conductances"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-trees",
+          "locator": "§14.6, Theorem 14.6.1"
+        }
+      ]
+    },
+    {
+      "id": "r8",
+      "from": "energy",
+      "to": "effective-resistance",
+      "type": "characterizes",
+      "statement": "Effective resistance is the minimum dissipation among unit flows.",
+      "assumptions": [
+        "Finite, connected, undirected graph with positive conductances"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-trees",
+          "locator": "§14.2"
+        }
+      ]
+    }
+  ],
+  "journeys": [],
+  "opportunities": []
+}
