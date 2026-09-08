@@ -1,0 +1,22 @@
+[
+    {
+        "sha256":  "d052dcac8703fddd2f1bfaf7a1f5106a9e21f5117a343310aea822c76b585cb8",
+        "path":  "review.md"
+    },
+    {
+        "sha256":  "77d026ffa67416aea8efa742ca3181deb86b3521c0b6721fd09594000915dc1f",
+        "path":  "verdict.json"
+    },
+    {
+        "sha256":  "8acde80a12de5bb7b4cbc42bfd08e46663b6813e2e280aef6be2505ab565a3aa",
+        "path":  "integrity.json"
+    },
+    {
+        "sha256":  "eeac89002faf5b54bccdf86ab7d556723b8ed5b6b30f316713cd57d1030ba3ee",
+        "path":  "locators.json"
+    },
+    {
+        "sha256":  "acd2c4ba984ca4f2114d746b36a6580229f3dd5602ed2083d36b69ad113fe3a0",
+        "path":  "metadata-attempts.txt"
+    }
+]

@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "canonical_sha256": "dcfc9629fcd975a6dc6a22d1ed87bc6f60c3e92c779a4f2c37c029b77f6069c9",
+  "worker_and_distinct_replay_byte_equal": true,
+  "original_api_certificate_subtrees_equal": 4,
+  "total_grounded_objectives": 144,
+  "original_grounded_objectives": 80,
+  "new_wide_grounded_objectives": 64,
+  "symbolic_derivative_identities": 3,
+  "affine_crossproduct_identities": 2,
+  "invalid_inputs_rejected": 7,
+  "abstract_balance_cases": 5,
+  "implementation_hashes": {
+    "strength_minimax.py": "0057aae1dc61cfcb69c43bd2fcb5b43674e66a252c409a857b71a069eef82980",
+    "verify_strength_minimax.py": "0e44b6866f10db98dec5219333d0527890e768abc112d3953426077e93b5848b"
+  },
+  "runtime": {
+    "python": "3.12.11",
+    "sympy": "1.14.0"
+  },
+  "root_canonical_attempts": 1,
+  "returncode": 0,
+  "timed_out": false,
+  "timeout_seconds": 90
+}

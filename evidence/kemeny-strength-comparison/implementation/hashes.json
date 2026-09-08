@@ -1,0 +1,122 @@
+[
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-comparison-work\\attempt01-checker.py",
+        "Hash":  "B5A574705D148ACEFDF36D19DF73D509979771C6F9F23BA21A842D73FAC38B3B"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-comparison-work\\claims.json",
+        "Hash":  "F78CC112FCCB1F3028F107EA699159668A3B1E391D22CB75F67383057F9B5859"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-comparison-work\\plan.md",
+        "Hash":  "4514BB36C77C172DA3E2720C59D23AD624DB7C583483CDF036035F615AD55871"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-comparison-work\\pyproject.toml",
+        "Hash":  "043135469F15A65EC3BB4106A3D6798BCCCDD0F762288DB41FD740164762445F"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-comparison-work\\README.md",
+        "Hash":  "84439D1BCEADE44C62E1F469EB19D952641C4A42C0C4606EB5F784FD93C1626A"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-comparison-work\\result-02.json",
+        "Hash":  "DCFC9629FCD975A6DC6A22D1ED87BC6F60C3E92C779A4F2C37C029B77F6069C9"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-comparison-work\\result.json",
+        "Hash":  "EF16D71FF7A18A444944754F076B1C7FFBEA6E625EA894F2A4212C49A5708DDB"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-comparison-work\\strength_minimax.py",
+        "Hash":  "0057AAE1DC61CFCB69C43BD2FCB5B43674E66A252C409A857B71A069EEF82980"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-comparison-work\\uv.lock",
+        "Hash":  "378269213EB25AE37448F6993AC983809D7BAB05D3A47434C5BABD06DC0B874D"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-comparison-work\\verify_strength_minimax.py",
+        "Hash":  "0E44B6866F10DB98DEC5219333D0527890E768ABC112D3953426077E93B5848B"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-comparison-work\\wide-result.json",
+        "Hash":  "63DB07ACD6FB11F82A2806DF1AA0B3C842E58FD5E22D3727C3C873F7620C146A"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-comparison-work\\baseline\\result.json",
+        "Hash":  "734C9F73753F2AB07232AB8DBF2A1583B42565E88623F9B50D7779ABA904665B"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-comparison-work\\baseline\\strength_minimax.py",
+        "Hash":  "11152F62717A691450361C4227A70EB7674E65B1C3BB3D5889464956898AD1A9"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-comparison-work\\baseline\\verify_strength_minimax.py",
+        "Hash":  "4B648D90676F564B2AE12AA39B0EE1BE7144F547E39BDA3671B3F1813D22AE01"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-comparison-work\\logs\\attempt-comparison01.json",
+        "Hash":  "31FC16DC9F9F9008C42D630AA3F51CC5A9FAAA23E803ADFFC4D70A06532D6530"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-comparison-work\\logs\\attempt-comparison01.stderr.bin",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-comparison-work\\logs\\attempt-comparison01.stdout.bin",
+        "Hash":  "B82D5BB475ADA094E0DD5C20B134D07327EBB4D70524051ADC788F2BE9A9BE4D"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-comparison-work\\logs\\attempt-comparison02.json",
+        "Hash":  "704261528E434EF81B1505A3FCA19BB976B1958909AB8A95E53FE88F39DC9A89"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-comparison-work\\logs\\attempt-comparison02.stderr.bin",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-comparison-work\\logs\\attempt-comparison02.stdout.bin",
+        "Hash":  "B82D5BB475ADA094E0DD5C20B134D07327EBB4D70524051ADC788F2BE9A9BE4D"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-comparison-work\\logs\\attempts.jsonl",
+        "Hash":  "9D27D1A8CCA08697B0CE6510043C9A926A23A20371A824A26BA7EA4B23FA6BFB"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-comparison-work\\prior-inputs\\attempt-profile01.json",
+        "Hash":  "5E35F884E3E5C44FD33316728F25B4CAD8E413ED80F218D4EE254C0343B22C8B"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-comparison-work\\prior-inputs\\attempt-profile01.stderr.bin",
+        "Hash":  "43257A280428E8679D1CF47DA70E0A6FFB475D73C04661A11045F9E9BCEDE651"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-comparison-work\\prior-inputs\\attempt-profile01.stdout.bin",
+        "Hash":  "4A03D84E888E48B8D89BB7EB23B65962FB6306B648B27A2A9CE8CE0F14E5F61C"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-comparison-work\\prior-inputs\\check.py",
+        "Hash":  "65609534F5C3F75A24A29526E45D0E2444E6CA0AD28F985286A14D7A57C9F7D6"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-comparison-work\\prior-inputs\\profile_wrapper.py",
+        "Hash":  "D67103AF0EA37FB708124E7D033ADC62B94D03DD98F3BAC4B16540A6C434CF01"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-comparison-work\\prior-inputs\\report.md",
+        "Hash":  "E0887232DAC449DBA631E3D21A61A6FED684374B81511CC5730314FD5820DCDE"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-comparison-work\\prior-inputs\\run.json",
+        "Hash":  "55CEEBDCD9702359E95CD0FCFB435DAB8ED26B1484322D4A1ACE1AF4185CF49E"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-comparison-work\\prior-inputs\\stderr.bin",
+        "Hash":  "DAE0F011CB7E4319D1094A5BA898DD59CB4BF39B8C75B41254EC68EA102F47F0"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-comparison-work\\prior-inputs\\stdout.bin",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    }
+]

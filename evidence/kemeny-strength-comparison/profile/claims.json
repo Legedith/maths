@@ -1,0 +1,10 @@
+{
+  "schema": "typed-diagnostic-claims-v1",
+  "claims": [
+    {"id":"phase","type":"raw-stack-observation","evidence":"logs/attempt-profile01.stderr.bin","claim":"Sampled solve execution was inside compare -> simplify -> algebraic sign/minimal-polynomial processing."},
+    {"id":"exit","type":"raw-process-observation","evidence":"logs/attempt-profile01.json","claim":"One invocation ended abnormally before its 30-second timeout; return code 3221225477, timed_out false."},
+    {"id":"optimization","type":"algebraic-proposal-not-tested","evidence":"report.md","claim":"Positive-factor cancellation reduces endpoint ordering to an affine cross-product; balance identities can avoid generic equality simplification."}
+  ],
+  "independent_verification": "required before any implementation or release promotion",
+  "attempts": 1
+}

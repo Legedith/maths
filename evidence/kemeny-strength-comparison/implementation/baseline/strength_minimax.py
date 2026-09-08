@@ -168,17 +168,7 @@ def solve(n,edges,focus,interval,allowed):
             if same is not None:same['kinds'].append(name);continue
             f=[(m+t)*(tt-t*s/(1+r*t)) for tt,s in zip(T,g['s_endpoints'])]
             regrets=[value/o-1 for value,o in zip(f,O)]
-            # f_j/O_j=(m+t)/(1+r*t)*(T_j+B_j*t)/O_j.
-            # All cancelled factors are positive. A balance is constructed
-            # from this very affine equality after certifying its denominator;
-            # coincident branches have both cross-product coefficients zero.
-            # Keep the first endpoint on equality, as maximum() did before.
-            if name=='balance' or kind=='coincident':
-                endpoint_order=0
-            else:
-                endpoint_order=compare((T[0]+B0*t)*O[1]-(T[1]+B1*t)*O[0])
-            worst=regrets[0] if endpoint_order>=0 else regrets[1]
-            entries.append({'kinds':[name],'strength':t,'volume':m+t,'endpoint_f':f,'actual_endpoint_objectives':[2*(1-q)*value/n for q,value in zip((lo,hi),f)],'endpoint_regrets':regrets,'worst_relative_regret':worst})
+            entries.append({'kinds':[name],'strength':t,'volume':m+t,'endpoint_f':f,'actual_endpoint_objectives':[2*(1-q)*value/n for q,value in zip((lo,hi),f)],'endpoint_regrets':regrets,'worst_relative_regret':maximum(regrets)})
         best=minimum([row['worst_relative_regret'] for row in entries])
         winners=[row for row in entries if compare(row['worst_relative_regret'],best)==0]
         assert len(winners)==1,'strict convexity requires one distinct minimizing strength'

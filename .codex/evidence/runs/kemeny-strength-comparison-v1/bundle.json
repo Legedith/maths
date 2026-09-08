@@ -1,0 +1,962 @@
+{
+  "schema_version": "1.0",
+  "run_id": "kemeny-strength-comparison-v1",
+  "objective": "Preserve the exact conductance-minimax API while simplifying endpoint ordering and reproducing the previously difficult wide-interval input.",
+  "created_at": "2026-09-08T20:01:24.726335Z",
+  "task_spec_artifact_id": "A001",
+  "evaluator_command": "uv run --project experiments/kemeny-workload-proof --frozen python experiments/kemeny-three-part-proof/run_logged.py --attempt-id strength-comparison-01 --timeout-seconds 90 --log-dir work/kemeny-strength-comparison/logs -- uv run --project experiments/kemeny-workload-proof --frozen python experiments/kemeny-workload-proof/verify_strength_minimax.py --output work/kemeny-strength-comparison/check-01.json",
+  "artifacts": [
+    {
+      "id": "A001",
+      "kind": "spec",
+      "path": "docs/kemeny-strength-comparison-contract.md",
+      "sha256": "443c09903f73cc223dea975e576062513af59a099d2bae46677e614d9c8b2481",
+      "producer": "user-or-orchestrator"
+    },
+    {
+      "id": "A002",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-comparison/claim-plan.json",
+      "sha256": "64db1aff4ec9486ec9a5420d9e4ee690d25043770275c7f59d1c91e4a0e94a5d",
+      "producer": "/root"
+    },
+    {
+      "id": "A003",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-comparison/copy-manifest.json",
+      "sha256": "b0cb861ea0abb0dec106654b42eda1cc4745a33b6ee0b8e403714b34b4de9d01",
+      "producer": "/root"
+    },
+    {
+      "id": "A004",
+      "kind": "code",
+      "path": "evidence/kemeny-strength-comparison/implementation/attempt01-checker.py",
+      "sha256": "b5a574705d148acefdf36d19df73d509979771c6f9f23ba21a842d73fac38b3b",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A005",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-comparison/implementation/baseline/result.json",
+      "sha256": "734c9f73753f2ab07232ab8dbf2a1583b42565e88623f9b50d7779aba904665b",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A006",
+      "kind": "code",
+      "path": "evidence/kemeny-strength-comparison/implementation/baseline/strength_minimax.py",
+      "sha256": "11152f62717a691450361c4227a70eb7674e65b1c3bb3d5889464956898ad1a9",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A007",
+      "kind": "code",
+      "path": "evidence/kemeny-strength-comparison/implementation/baseline/verify_strength_minimax.py",
+      "sha256": "4b648d90676f564b2ae12aa39b0ee1be7144f547e39bda3671b3f1813d22ae01",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A008",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-comparison/implementation/claims.json",
+      "sha256": "f78cc112fccb1f3028f107ea699159668a3b1e391d22cb75f67383057f9b5859",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A009",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-comparison/implementation/hashes.json",
+      "sha256": "594e58742bd3e617a1c30754a6842bc1944c4e90ba236b9b1ff71a8450ad38c4",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A010",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-comparison/implementation/logs/attempt-comparison01.json",
+      "sha256": "31fc16dc9f9f9008c42d630aa3f51cc5a9faaa23e803adffc4d70a06532d6530",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A011",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-comparison/implementation/logs/attempt-comparison01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A012",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-comparison/implementation/logs/attempt-comparison01.stdout.bin",
+      "sha256": "b82d5bb475ada094e0dd5c20b134d07327ebb4d70524051adc788f2be9a9be4d",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A013",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-comparison/implementation/logs/attempt-comparison02.json",
+      "sha256": "704261528e434ef81b1505a3fca19bb976b1958909ab8a95e53fe88f39dc9a89",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A014",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-comparison/implementation/logs/attempt-comparison02.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A015",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-comparison/implementation/logs/attempt-comparison02.stdout.bin",
+      "sha256": "b82d5bb475ada094e0dd5c20b134d07327ebb4d70524051adc788f2be9a9be4d",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A016",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-comparison/implementation/logs/attempts.jsonl",
+      "sha256": "9d27d1a8cca08697b0ce6510043c9a926a23a20371a824a26ba7ea4b23fa6bfb",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A017",
+      "kind": "report",
+      "path": "evidence/kemeny-strength-comparison/implementation/plan.md",
+      "sha256": "4514bb36c77c172da3e2720c59d23ad624db7c583483cdf036035f615ad55871",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A018",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-comparison/implementation/prior-inputs/attempt-profile01.json",
+      "sha256": "5e35f884e3e5c44fd33316728f25b4cad8e413ed80f218d4ee254c0343b22c8b",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A019",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-comparison/implementation/prior-inputs/attempt-profile01.stderr.bin",
+      "sha256": "43257a280428e8679d1cf47da70e0a6ffb475d73c04661a11045f9e9bcede651",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A020",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-comparison/implementation/prior-inputs/attempt-profile01.stdout.bin",
+      "sha256": "4a03d84e888e48b8d89bb7eb23b65962fb6306b648b27a2a9ce8ce0f14e5f61c",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A021",
+      "kind": "code",
+      "path": "evidence/kemeny-strength-comparison/implementation/prior-inputs/check.py",
+      "sha256": "65609534f5c3f75a24a29526e45d0e2444e6ca0ad28f985286a14d7a57c9f7d6",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A022",
+      "kind": "code",
+      "path": "evidence/kemeny-strength-comparison/implementation/prior-inputs/profile_wrapper.py",
+      "sha256": "d67103af0ea37fb708124e7d033adc62b94d03dd98f3bac4b16540a6c434cf01",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A023",
+      "kind": "report",
+      "path": "evidence/kemeny-strength-comparison/implementation/prior-inputs/report.md",
+      "sha256": "e0887232dac449dba631e3d21a61a6fed684374b81511cc5730314fd5820dcde",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A024",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-comparison/implementation/prior-inputs/run.json",
+      "sha256": "55ceebdcd9702359e95cd0fcfb435dab8ed26b1484322d4a1ace1af4185cf49e",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A025",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-comparison/implementation/prior-inputs/stderr.bin",
+      "sha256": "dae0f011cb7e4319d1094a5ba898dd59cb4bf39b8c75b41254ec68ea102f47f0",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A026",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-comparison/implementation/prior-inputs/stdout.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A027",
+      "kind": "code",
+      "path": "evidence/kemeny-strength-comparison/implementation/pyproject.toml",
+      "sha256": "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A028",
+      "kind": "report",
+      "path": "evidence/kemeny-strength-comparison/implementation/README.md",
+      "sha256": "84439d1bceade44c62e1f469eb19d952641c4a42c0c4606eb5f784fd93c1626a",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A029",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-comparison/implementation/result-02.json",
+      "sha256": "dcfc9629fcd975a6dc6a22d1ed87bc6f60c3e92c779a4f2c37c029b77f6069c9",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A030",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-comparison/implementation/result.json",
+      "sha256": "ef16d71ff7a18a444944754f076b1c7ffbea6e625ea894f2a4212c49a5708ddb",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A031",
+      "kind": "code",
+      "path": "evidence/kemeny-strength-comparison/implementation/strength_minimax.py",
+      "sha256": "0057aae1dc61cfcb69c43bd2fcb5b43674e66a252c409a857b71a069eef82980",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A032",
+      "kind": "code",
+      "path": "evidence/kemeny-strength-comparison/implementation/uv.lock",
+      "sha256": "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A033",
+      "kind": "code",
+      "path": "evidence/kemeny-strength-comparison/implementation/verify_strength_minimax.py",
+      "sha256": "0e44b6866f10db98dec5219333d0527890e768abc112d3953426077e93b5848b",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A034",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-comparison/implementation/wide-result.json",
+      "sha256": "63db07acd6fb11f82a2806df1aa0b3c842e58fd5e22d3727c3c873f7620c146a",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A035",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-comparison/implementation-review/baseline/result.json",
+      "sha256": "734c9f73753f2ab07232ab8dbf2a1583b42565e88623f9b50d7779aba904665b",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A036",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-comparison/implementation-review/fresh-replay.json",
+      "sha256": "dcfc9629fcd975a6dc6a22d1ed87bc6f60c3e92c779a4f2c37c029b77f6069c9",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A037",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-comparison/implementation-review/hashes.json",
+      "sha256": "33e36b61b09807b75e255eb8c29f8923ab4ec4121a9fe3835ca246edc0d1d930",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A038",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-comparison/implementation-review/input-checks.json",
+      "sha256": "9960e9b68ffb3d46cf350a08b54d642ef684f779db4bdb4d25b52dbdf6df98a4",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A039",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-comparison/implementation-review/logs/attempt-review01.json",
+      "sha256": "2c4f1931afd1abf2d10d6ab923de76b0e27a9060c55818b848adac60e2c0cc3c",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A040",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-comparison/implementation-review/logs/attempt-review01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A041",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-comparison/implementation-review/logs/attempt-review01.stdout.bin",
+      "sha256": "b82d5bb475ada094e0dd5c20b134d07327ebb4d70524051adc788f2be9a9be4d",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A042",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-comparison/implementation-review/logs/attempt-review02.json",
+      "sha256": "37a5b6bc0cbe481278c70f21a376425e2c09b784ab0411c47ae06969f973b96f",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A043",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-comparison/implementation-review/logs/attempt-review02.stderr.bin",
+      "sha256": "c2fd4fd0387af192001ec307d7fa526e8c4167e0ac784f93e2e3b120bb9a8b5a",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A044",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-comparison/implementation-review/logs/attempt-review02.stdout.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A045",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-comparison/implementation-review/logs/attempts.jsonl",
+      "sha256": "d4a113eb04a75dedf562ab8f35b8f56613155c2e0cd66d757410726db162cc90",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A046",
+      "kind": "report",
+      "path": "evidence/kemeny-strength-comparison/implementation-review/plan.md",
+      "sha256": "21ecd0ce70869bef9578c5a0cb9c2d03497449a0bb72834eb8404750af779ebb",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A047",
+      "kind": "code",
+      "path": "evidence/kemeny-strength-comparison/implementation-review/pyproject.toml",
+      "sha256": "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A048",
+      "kind": "report",
+      "path": "evidence/kemeny-strength-comparison/implementation-review/review.md",
+      "sha256": "8f63509d912ed0c04f75d5baf2b5354bc1ca2c6efdb93216959650ceb442fb71",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A049",
+      "kind": "code",
+      "path": "evidence/kemeny-strength-comparison/implementation-review/run_logged.py",
+      "sha256": "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A050",
+      "kind": "code",
+      "path": "evidence/kemeny-strength-comparison/implementation-review/strength_minimax.py",
+      "sha256": "0057aae1dc61cfcb69c43bd2fcb5b43674e66a252c409a857b71a069eef82980",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A051",
+      "kind": "code",
+      "path": "evidence/kemeny-strength-comparison/implementation-review/uv.lock",
+      "sha256": "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A052",
+      "kind": "code",
+      "path": "evidence/kemeny-strength-comparison/implementation-review/verify_strength_minimax.py",
+      "sha256": "0e44b6866f10db98dec5219333d0527890e768abc112d3953426077e93b5848b",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A053",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-comparison/integration/check-01.json",
+      "sha256": "dcfc9629fcd975a6dc6a22d1ed87bc6f60c3e92c779a4f2c37c029b77f6069c9",
+      "producer": "/root"
+    },
+    {
+      "id": "A054",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-comparison/integration/comparison.json",
+      "sha256": "6756f1c2c5b34c6115d1187abad6d8a38817ffb8046edaa4f3bf895f934d4c6a",
+      "producer": "/root"
+    },
+    {
+      "id": "A055",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-comparison/integration/logs/attempt-strength-comparison-01.json",
+      "sha256": "d98ef7f3e1255afc44785707d419ea93d02a13eda245fee4b7ef43241dbb9be6",
+      "producer": "/root"
+    },
+    {
+      "id": "A056",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-comparison/integration/logs/attempt-strength-comparison-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A057",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-comparison/integration/logs/attempt-strength-comparison-01.stdout.bin",
+      "sha256": "b82d5bb475ada094e0dd5c20b134d07327ebb4d70524051adc788f2be9a9be4d",
+      "producer": "/root"
+    },
+    {
+      "id": "A058",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-comparison/integration/logs/attempts.jsonl",
+      "sha256": "68ad74fd4661f884ff0993d1a2d7854ee9550aa103a627fe8bdb9e738873bb45",
+      "producer": "/root"
+    },
+    {
+      "id": "A059",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-comparison/profile/claims.json",
+      "sha256": "895c1a7665e4434c45efc8ffb7bf27a89cece9204a40494d60f51a92428b9c14",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A060",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-comparison/profile/hashes.json",
+      "sha256": "c1675369f6604e3e0a0774029672330eb18759f0989fb66768ae5377a7c3608a",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A061",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-comparison/profile/logs/attempt-profile01.json",
+      "sha256": "5e35f884e3e5c44fd33316728f25b4cad8e413ed80f218d4ee254c0343b22c8b",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A062",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-comparison/profile/logs/attempt-profile01.stderr.bin",
+      "sha256": "43257a280428e8679d1cf47da70e0a6ffb475d73c04661a11045f9e9bcede651",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A063",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-comparison/profile/logs/attempt-profile01.stdout.bin",
+      "sha256": "4a03d84e888e48b8d89bb7eb23b65962fb6306b648b27a2a9ce8ce0f14e5f61c",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A064",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-comparison/profile/logs/attempts.jsonl",
+      "sha256": "ab6f21b37fe51a9cc95c8c63e54a19e21725ae72152de2a5a7a123c1b1b86792",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A065",
+      "kind": "report",
+      "path": "evidence/kemeny-strength-comparison/profile/plan.md",
+      "sha256": "54f527798deb1ffabfc956b3f2669a3a8a0ce7d4f54772ed98696a8168feb873",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A066",
+      "kind": "code",
+      "path": "evidence/kemeny-strength-comparison/profile/profile_wrapper.py",
+      "sha256": "d67103af0ea37fb708124e7d033adc62b94d03dd98f3bac4b16540a6c434cf01",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A067",
+      "kind": "code",
+      "path": "evidence/kemeny-strength-comparison/profile/pyproject.toml",
+      "sha256": "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A068",
+      "kind": "report",
+      "path": "evidence/kemeny-strength-comparison/profile/report.md",
+      "sha256": "e0887232dac449dba631e3d21a61a6fed684374b81511cc5730314fd5820dcde",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A069",
+      "kind": "code",
+      "path": "evidence/kemeny-strength-comparison/profile/uv.lock",
+      "sha256": "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A070",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-comparison/profile-review/hashes.json",
+      "sha256": "9d3d9a77c4d6c1a757a6b6f1deafbcbb01a98811ef4d5257f604a3c66d019063",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A071",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-comparison/profile-review/input-checks.json",
+      "sha256": "4f9a887ff46621aa31ff1e64b0ff29787caeb62a19abbf4d578eb3df8a41ee61",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A072",
+      "kind": "report",
+      "path": "evidence/kemeny-strength-comparison/profile-review/review.md",
+      "sha256": "7686885c3e6daf4f9791c20b289f4544a97bf4431b2f9d5c3bb845092bed0843",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A073",
+      "kind": "report",
+      "path": "evidence/kemeny-strength-minimax/general-author/proposal.md",
+      "sha256": "6ecc0d9aac9812c791998befc422b189e9d66662a002a889366125277c341f75",
+      "producer": "/root"
+    },
+    {
+      "id": "A074",
+      "kind": "report",
+      "path": "evidence/kemeny-strength-minimax/general-review/review.md",
+      "sha256": "69c937bc3765819ee8bd2cde5227588f5fde166da81b1e94dab4568a7527b006",
+      "producer": "/root"
+    },
+    {
+      "id": "A075",
+      "kind": "report",
+      "path": "evidence/kemeny-strength-minimax/portable-review/review.md",
+      "sha256": "58908bba4652d70611bb70584ec7f91556d7f4200ed5262d52bdf987f9b25834",
+      "producer": "/root"
+    },
+    {
+      "id": "A076",
+      "kind": "report",
+      "path": "evidence/kemeny-strength-minimax/final-review/runtime-evidence-review.md",
+      "sha256": "2a17ac54cbd0117b63a74c418e56709877a599a6993d5e3b5cd87eb1a464d922",
+      "producer": "/root"
+    },
+    {
+      "id": "A077",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/resource-limit/run.json",
+      "sha256": "55ceebdcd9702359e95cd0fcfb435dab8ed26b1484322d4a1ace1af4185cf49e",
+      "producer": "/root"
+    },
+    {
+      "id": "A078",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/resource-limit/facts.json",
+      "sha256": "47bbcd59540ae7eaaad8e6678ee38110720c1e7d19ff1c2c9452fd197f195656",
+      "producer": "/root"
+    },
+    {
+      "id": "A079",
+      "kind": "report",
+      "path": "docs/kemeny-strength-minimax.md",
+      "sha256": "52e4b1cbefefa7d1c554b4c455b84a6f1776d22d14c2fecfc312b19b39eb421a",
+      "producer": "/root"
+    },
+    {
+      "id": "A080",
+      "kind": "code",
+      "path": "experiments/kemeny-three-part-proof/run_logged.py",
+      "sha256": "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6",
+      "producer": "/root"
+    },
+    {
+      "id": "A081",
+      "kind": "code",
+      "path": "experiments/kemeny-workload-proof/strength_minimax.py",
+      "sha256": "0057aae1dc61cfcb69c43bd2fcb5b43674e66a252c409a857b71a069eef82980",
+      "producer": "/root"
+    },
+    {
+      "id": "A082",
+      "kind": "code",
+      "path": "experiments/kemeny-workload-proof/verify_strength_minimax.py",
+      "sha256": "0e44b6866f10db98dec5219333d0527890e768abc112d3953426077e93b5848b",
+      "producer": "/root"
+    },
+    {
+      "id": "A083",
+      "kind": "result",
+      "path": "experiments/kemeny-workload-proof/baseline/result.json",
+      "sha256": "734c9f73753f2ab07232ab8dbf2a1583b42565e88623f9b50d7779aba904665b",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A084",
+      "kind": "code",
+      "path": "experiments/kemeny-workload-proof/pyproject.toml",
+      "sha256": "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f",
+      "producer": "/root"
+    },
+    {
+      "id": "A085",
+      "kind": "code",
+      "path": "experiments/kemeny-workload-proof/uv.lock",
+      "sha256": "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d",
+      "producer": "/root"
+    },
+    {
+      "id": "A086",
+      "kind": "code",
+      "path": "experiments/kemeny-workload-proof/.python-version",
+      "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d",
+      "producer": "/root"
+    },
+    {
+      "id": "A087",
+      "kind": "report",
+      "path": "docs/kemeny-strength-comparison.md",
+      "sha256": "e31048855b1d7727a34b84b9a738936c7260820b8ff3c473f6ec0ddf94cd22b5",
+      "producer": "/root"
+    },
+    {
+      "id": "A088",
+      "kind": "report",
+      "path": "evidence/kemeny-strength-comparison/README.md",
+      "sha256": "047b771a18cab1e63830e671d561e40dd70acd79183e87d4742ec5a56d803e12",
+      "producer": "/root"
+    },
+    {
+      "id": "A089",
+      "kind": "report",
+      "path": "experiments/kemeny-workload-proof/README-strength-minimax.md",
+      "sha256": "14d1f16f2de76b075e89251783ce5b55f73d15ca7f0a48afcd3acc81af0b4ae4",
+      "producer": "/root"
+    },
+    {
+      "id": "A090",
+      "kind": "report",
+      "path": "README.md",
+      "sha256": "99d6abde5bdb768c5cfa3da30d97d731377626c1fd85a3062f680dfec7848280",
+      "producer": "/root"
+    },
+    {
+      "id": "A091",
+      "kind": "code",
+      "path": ".github/workflows/kemeny-three-part.yml",
+      "sha256": "42ad715744413fbb49ccf774cc9dccb1ea5566f3e8188b7ac86a250e5b61d2b7",
+      "producer": "/root"
+    },
+    {
+      "id": "A092",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-comparison/final-review/hashes.json",
+      "sha256": "09020acf9c9745dfd673a8111b9dfebfc6e4ff9001492ef784fe819d022b36cc",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A093",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-comparison/final-review/integrity.json",
+      "sha256": "8acde80a12de5bb7b4cbc42bfd08e46663b6813e2e280aef6be2505ab565a3aa",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A094",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-comparison/final-review/locators.json",
+      "sha256": "eeac89002faf5b54bccdf86ab7d556723b8ed5b6b30f316713cd57d1030ba3ee",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A095",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-comparison/final-review/metadata-attempts.txt",
+      "sha256": "acd2c4ba984ca4f2114d746b36a6580229f3dd5602ed2083d36b69ad113fe3a0",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A096",
+      "kind": "report",
+      "path": "evidence/kemeny-strength-comparison/final-review/review.md",
+      "sha256": "d052dcac8703fddd2f1bfaf7a1f5106a9e21f5117a343310aea822c76b585cb8",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A097",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-comparison/final-review/verdict.json",
+      "sha256": "77d026ffa67416aea8efa742ca3181deb86b3521c0b6721fd09594000915dc1f",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A098",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-comparison/resolve/review-input.json",
+      "sha256": "e9289919c5a85983d425dd668acfac2e3c70215f752ed4ffd2bae57f878763d0",
+      "producer": "/root"
+    },
+    {
+      "id": "A099",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-comparison/resolve/pre-review-bundle.json",
+      "sha256": "fb7844c4fe995578cf2e4b51927289d7abe3481ed073cfb5f77c8a1b977c6498",
+      "producer": "/root"
+    },
+    {
+      "id": "A100",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-comparison/final-review-copy-manifest.json",
+      "sha256": "75d566c788af1ae839ca78bf1e16fc32aef3abf7108b3410ac37a54174a6b88e",
+      "producer": "/root"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C001",
+      "type": "methodological",
+      "statement": "Endpoint maximum selection uses the sign of a positive-factor affine cross-product; certified balance or coincident equality selects endpoint zero. General comparator, candidates and global ties remain unchanged.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A081",
+          "locator": "contains:endpoint_order=compare("
+        },
+        {
+          "artifact_id": "A048",
+          "locator": "contains:Positive N selects endpoint0"
+        },
+        {
+          "artifact_id": "A074",
+          "locator": "line:1"
+        },
+        {
+          "artifact_id": "A072",
+          "locator": "contains:The factor(m+t)"
+        }
+      ]
+    },
+    {
+      "id": "C002",
+      "type": "numerical",
+      "statement": "The single root canonical output is byte-identical to the final worker result and distinct replay, with four original API certificate subtrees equal as inert parsed data, 144 direct grounded comparisons, five symbolic identities, seven invalid cases and five abstract degeneracy cases.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A054",
+          "locator": "json:",
+          "expected": {
+            "status": "PASS",
+            "canonical_sha256": "dcfc9629fcd975a6dc6a22d1ed87bc6f60c3e92c779a4f2c37c029b77f6069c9",
+            "worker_and_distinct_replay_byte_equal": true,
+            "original_api_certificate_subtrees_equal": 4,
+            "total_grounded_objectives": 144,
+            "original_grounded_objectives": 80,
+            "new_wide_grounded_objectives": 64,
+            "symbolic_derivative_identities": 3,
+            "affine_crossproduct_identities": 2,
+            "invalid_inputs_rejected": 7,
+            "abstract_balance_cases": 5,
+            "implementation_hashes": {
+              "strength_minimax.py": "0057aae1dc61cfcb69c43bd2fcb5b43674e66a252c409a857b71a069eef82980",
+              "verify_strength_minimax.py": "0e44b6866f10db98dec5219333d0527890e768abc112d3953426077e93b5848b"
+            },
+            "runtime": {
+              "python": "3.12.11",
+              "sympy": "1.14.0"
+            },
+            "root_canonical_attempts": 1,
+            "returncode": 0,
+            "timed_out": false,
+            "timeout_seconds": 90
+          }
+        },
+        {
+          "artifact_id": "A053",
+          "locator": "json:/original_api_certificates_byte_value_equal",
+          "expected": 4
+        },
+        {
+          "artifact_id": "A053",
+          "locator": "json:/direct_grounded_objective_checks",
+          "expected": {
+            "344": 64,
+            "344_wide": 64,
+            "cycle": 8,
+            "noop": 4,
+            "weighted_path": 4
+          }
+        },
+        {
+          "artifact_id": "A048",
+          "locator": "line:1"
+        }
+      ]
+    },
+    {
+      "id": "C003",
+      "type": "methodological",
+      "statement": "The portable checker requires pinned inert baseline JSON, rejects existing output unchanged, and introduces no expression evaluation. The importable solver is independent of the baseline; partial exact comparison and its limits remain.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A082",
+          "locator": "contains:baseline=json.loads"
+        },
+        {
+          "artifact_id": "A083",
+          "locator": "json:/status",
+          "expected": "PASS"
+        },
+        {
+          "artifact_id": "A048",
+          "locator": "contains:requested output stayed unchanged"
+        },
+        {
+          "artifact_id": "A042",
+          "locator": "json:/returncode",
+          "expected": 2
+        },
+        {
+          "artifact_id": "A053",
+          "locator": "json:/implementation_limits",
+          "expected": [
+            "Exact rational inputs only; floating inputs rejected.",
+            "Certified radical interval arithmetic at up to320 bits and exact symbolic zero simplification; unresolved comparisons raise InconclusiveError, never return a recommendation.",
+            "No polynomial-time or all-input termination guarantee; caller should enforce wall-clock resource limit.",
+            "Finite API cases validate implementation, not universal enumeration or proof-assistant formalization."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C004",
+      "type": "numerical",
+      "statement": "The original exploratory timeout rc124 and later instrumented abnormal exit3221225477 are separate failed attempts. The profile had a 30-second cap without timeout and no after_solve marker; sampled endpoint comparison does not establish crash cause or the earlier timeout cause. Its direct-Python outer logger was a historical convention deviation.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A077",
+          "locator": "json:/rc",
+          "expected": 124
+        },
+        {
+          "artifact_id": "A061",
+          "locator": "json:/returncode",
+          "expected": 3221225477
+        },
+        {
+          "artifact_id": "A061",
+          "locator": "json:/timed_out",
+          "expected": false
+        },
+        {
+          "artifact_id": "A072",
+          "locator": "contains:Execution convention: DEVIATION retained"
+        }
+      ]
+    },
+    {
+      "id": "C005",
+      "type": "conclusion",
+      "statement": "The declared wide-interval input now completes under the local cap while preserving original certificates. This establishes a scoped implementation result; no controlled speedup, crash prevention, all-input completion, priority or physical-impact conclusion follows.",
+      "status": "supported",
+      "supports": [
+        {
+          "claim_id": "C001"
+        },
+        {
+          "claim_id": "C002"
+        },
+        {
+          "claim_id": "C003"
+        },
+        {
+          "claim_id": "C004"
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "status": "pass",
+      "evidence": [
+        "A001",
+        "A048",
+        "A081",
+        "A082",
+        "A083",
+        "A089",
+        "A091",
+        "A096",
+        "A097"
+      ],
+      "id": "implementation_alignment",
+      "auditor": "/root/astra_ranking_verifier",
+      "note": "Deployed modules and baseline match accepted independent code review; API and CI configuration align."
+    },
+    {
+      "status": "pass",
+      "evidence": [
+        "A029",
+        "A036",
+        "A039",
+        "A042",
+        "A048",
+        "A053",
+        "A054",
+        "A055",
+        "A056",
+        "A057",
+        "A096",
+        "A097"
+      ],
+      "id": "reproduction",
+      "auditor": "/root/astra_ranking_verifier",
+      "note": "Root, worker and distinct replay bytes equal;144checks and expected rejection retained; no new evaluator."
+    },
+    {
+      "status": "pass",
+      "evidence": [
+        "A048",
+        "A072",
+        "A074",
+        "A081",
+        "A053",
+        "A054",
+        "A077",
+        "A096",
+        "A097"
+      ],
+      "id": "source_verification",
+      "auditor": "/root/astra_ranking_verifier",
+      "note": "91hashes and17typed locators pass; unchanged distinct mathematical audit reused; no new priority claim."
+    },
+    {
+      "status": "pass",
+      "evidence": [
+        "A001",
+        "A004",
+        "A010",
+        "A013",
+        "A029",
+        "A030",
+        "A061",
+        "A072",
+        "A077",
+        "A087",
+        "A089",
+        "A091",
+        "A096",
+        "A097"
+      ],
+      "id": "specification_compliance",
+      "auditor": "/root/astra_ranking_verifier",
+      "note": "Narrow scope and distinct failed histories preserved; local gate only, actual hosted CI remains separate."
+    }
+  ],
+  "limitations": [
+    "Local gate only; hosted CI is a separate post-push verification for the final commit.",
+    "No controlled performance comparison or established crash cause; historical failure records and the outer-logger uv deviation are retained.",
+    "Exact general comparison remains partial and potentially expensive; no all-input termination or complexity guarantee.",
+    "Graph-general positivity and candidate completeness reuse independently audited analytic proofs, not universal finite enumeration or Lean formalization.",
+    "No new mathematical priority or measured computer-network benefit is established.",
+    "Prior bundles remain immutable and reproduce against their historical commit; this bundle pins the new module versions and inert baseline."
+  ]
+}

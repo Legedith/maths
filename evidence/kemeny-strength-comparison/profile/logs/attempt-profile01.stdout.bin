@@ -1,0 +1,5 @@
+310434.953000 wrapper_started
+310434.968000 before_sympy_import
+310437.250000 after_sympy_import
+310437.250000 after_solver_import
+310437.250000 before_solve

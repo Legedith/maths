@@ -1,0 +1,70 @@
+﻿[
+    {
+        "sha256":  "dcfc9629fcd975a6dc6a22d1ed87bc6f60c3e92c779a4f2c37c029b77f6069c9",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-comparison-review-work\\fresh-replay.json"
+    },
+    {
+        "sha256":  "9960e9b68ffb3d46cf350a08b54d642ef684f779db4bdb4d25b52dbdf6df98a4",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-comparison-review-work\\input-checks.json"
+    },
+    {
+        "sha256":  "21ecd0ce70869bef9578c5a0cb9c2d03497449a0bb72834eb8404750af779ebb",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-comparison-review-work\\plan.md"
+    },
+    {
+        "sha256":  "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-comparison-review-work\\pyproject.toml"
+    },
+    {
+        "sha256":  "8f63509d912ed0c04f75d5baf2b5354bc1ca2c6efdb93216959650ceb442fb71",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-comparison-review-work\\review.md"
+    },
+    {
+        "sha256":  "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-comparison-review-work\\run_logged.py"
+    },
+    {
+        "sha256":  "0057aae1dc61cfcb69c43bd2fcb5b43674e66a252c409a857b71a069eef82980",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-comparison-review-work\\strength_minimax.py"
+    },
+    {
+        "sha256":  "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-comparison-review-work\\uv.lock"
+    },
+    {
+        "sha256":  "0e44b6866f10db98dec5219333d0527890e768abc112d3953426077e93b5848b",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-comparison-review-work\\verify_strength_minimax.py"
+    },
+    {
+        "sha256":  "734c9f73753f2ab07232ab8dbf2a1583b42565e88623f9b50d7779aba904665b",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-comparison-review-work\\baseline\\result.json"
+    },
+    {
+        "sha256":  "2c4f1931afd1abf2d10d6ab923de76b0e27a9060c55818b848adac60e2c0cc3c",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-comparison-review-work\\logs\\attempt-review01.json"
+    },
+    {
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-comparison-review-work\\logs\\attempt-review01.stderr.bin"
+    },
+    {
+        "sha256":  "b82d5bb475ada094e0dd5c20b134d07327ebb4d70524051adc788f2be9a9be4d",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-comparison-review-work\\logs\\attempt-review01.stdout.bin"
+    },
+    {
+        "sha256":  "37a5b6bc0cbe481278c70f21a376425e2c09b784ab0411c47ae06969f973b96f",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-comparison-review-work\\logs\\attempt-review02.json"
+    },
+    {
+        "sha256":  "c2fd4fd0387af192001ec307d7fa526e8c4167e0ac784f93e2e3b120bb9a8b5a",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-comparison-review-work\\logs\\attempt-review02.stderr.bin"
+    },
+    {
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-comparison-review-work\\logs\\attempt-review02.stdout.bin"
+    },
+    {
+        "sha256":  "d4a113eb04a75dedf562ab8f35b8f56613155c2e0cd66d757410726db162cc90",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-comparison-review-work\\logs\\attempts.jsonl"
+    }
+]

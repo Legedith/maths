@@ -1,0 +1,10 @@
+{
+  "schema":"targeted-implementation-claims-v1",
+  "claims":[
+    {"id":"exact-selection","type":"methodological","evidence":["strength_minimax.py","verify_strength_minimax.py"],"claim":"Endpoint ordering uses the positive-factor affine cross-product, with algebraically certified balance/coincident equality."},
+    {"id":"regression","type":"numerical","evidence":["result-02.json","logs/attempt-comparison02.json"],"claim":"Four original API certificate subtrees match frozen inert JSON exactly; all original validations and named wide-interval direct checks passed."},
+    {"id":"limits","type":"conclusion","evidence":["README.md"],"claim":"Targeted implementation candidate only; no general comparator weakening, universal completion guarantee, controlled speed claim or established crash cause."}
+  ],
+  "independent_gate":"PENDING distinct implementation audit",
+  "attempts":2
+}

@@ -1,0 +1,54 @@
+[
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-timeout-investigation-work\\plan.md",
+        "Hash":  "54F527798DEB1FFABFC956B3F2669A3A8A0CE7D4F54772ED98696A8168FEB873"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-timeout-investigation-work\\profile_wrapper.py",
+        "Hash":  "D67103AF0EA37FB708124E7D033ADC62B94D03DD98F3BAC4B16540A6C434CF01"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-timeout-investigation-work\\report.md",
+        "Hash":  "E0887232DAC449DBA631E3D21A61A6FED684374B81511CC5730314FD5820DCDE"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-timeout-investigation-work\\claims.json",
+        "Hash":  "895C1A7665E4434C45EFC8FFB7BF27A89CECE9204A40494D60F51A92428B9C14"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-timeout-investigation-work\\pyproject.toml",
+        "Hash":  "043135469F15A65EC3BB4106A3D6798BCCCDD0F762288DB41FD740164762445F"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-timeout-investigation-work\\uv.lock",
+        "Hash":  "378269213EB25AE37448F6993AC983809D7BAB05D3A47434C5BABD06DC0B874D"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-timeout-investigation-work\\logs\\attempt-profile01.json",
+        "Hash":  "5E35F884E3E5C44FD33316728F25B4CAD8E413ED80F218D4EE254C0343B22C8B"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-timeout-investigation-work\\logs\\attempt-profile01.stdout.bin",
+        "Hash":  "4A03D84E888E48B8D89BB7EB23B65962FB6306B648B27A2A9CE8CE0F14E5F61C"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-timeout-investigation-work\\logs\\attempt-profile01.stderr.bin",
+        "Hash":  "43257A280428E8679D1CF47DA70E0A6FFB475D73C04661A11045F9E9BCEDE651"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-timeout-investigation-work\\logs\\attempts.jsonl",
+        "Hash":  "AB6F21B37FE51A9CC95C8C63E54A19E21725AE72152DE2A5A7A123C1B1B86792"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-portable-work\\strength_minimax.py",
+        "Hash":  "11152F62717A691450361C4227A70EB7674E65B1C3BB3D5889464956898AD1A9"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-three-part-proof\\run_logged.py",
+        "Hash":  "B6F4C329387705B2ADF67F7DD3F806BBCD0A5906D476F5214FE8278D5EA5BFA6"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-timeout-investigation-work\\.venv\\Lib\\site-packages\\sympy\\simplify\\simplify.py",
+        "Hash":  "DEB2BB7027E4875B2F962315B02B93BFDFDA403CF79E666F03F1D102F98D912A"
+    }
+]

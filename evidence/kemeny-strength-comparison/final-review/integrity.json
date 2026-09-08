@@ -1,0 +1,548 @@
+﻿[
+    {
+        "id":  "A001",
+        "path":  "docs/kemeny-strength-comparison-contract.md",
+        "actual":  "443c09903f73cc223dea975e576062513af59a099d2bae46677e614d9c8b2481",
+        "pass":  true
+    },
+    {
+        "id":  "A002",
+        "path":  "evidence/kemeny-strength-comparison/claim-plan.json",
+        "actual":  "64db1aff4ec9486ec9a5420d9e4ee690d25043770275c7f59d1c91e4a0e94a5d",
+        "pass":  true
+    },
+    {
+        "id":  "A003",
+        "path":  "evidence/kemeny-strength-comparison/copy-manifest.json",
+        "actual":  "b0cb861ea0abb0dec106654b42eda1cc4745a33b6ee0b8e403714b34b4de9d01",
+        "pass":  true
+    },
+    {
+        "id":  "A004",
+        "path":  "evidence/kemeny-strength-comparison/implementation/attempt01-checker.py",
+        "actual":  "b5a574705d148acefdf36d19df73d509979771c6f9f23ba21a842d73fac38b3b",
+        "pass":  true
+    },
+    {
+        "id":  "A005",
+        "path":  "evidence/kemeny-strength-comparison/implementation/baseline/result.json",
+        "actual":  "734c9f73753f2ab07232ab8dbf2a1583b42565e88623f9b50d7779aba904665b",
+        "pass":  true
+    },
+    {
+        "id":  "A006",
+        "path":  "evidence/kemeny-strength-comparison/implementation/baseline/strength_minimax.py",
+        "actual":  "11152f62717a691450361c4227a70eb7674e65b1c3bb3d5889464956898ad1a9",
+        "pass":  true
+    },
+    {
+        "id":  "A007",
+        "path":  "evidence/kemeny-strength-comparison/implementation/baseline/verify_strength_minimax.py",
+        "actual":  "4b648d90676f564b2ae12aa39b0ee1be7144f547e39bda3671b3f1813d22ae01",
+        "pass":  true
+    },
+    {
+        "id":  "A008",
+        "path":  "evidence/kemeny-strength-comparison/implementation/claims.json",
+        "actual":  "f78cc112fccb1f3028f107ea699159668a3b1e391d22cb75f67383057f9b5859",
+        "pass":  true
+    },
+    {
+        "id":  "A009",
+        "path":  "evidence/kemeny-strength-comparison/implementation/hashes.json",
+        "actual":  "594e58742bd3e617a1c30754a6842bc1944c4e90ba236b9b1ff71a8450ad38c4",
+        "pass":  true
+    },
+    {
+        "id":  "A010",
+        "path":  "evidence/kemeny-strength-comparison/implementation/logs/attempt-comparison01.json",
+        "actual":  "31fc16dc9f9f9008c42d630aa3f51cc5a9faaa23e803adffc4d70a06532d6530",
+        "pass":  true
+    },
+    {
+        "id":  "A011",
+        "path":  "evidence/kemeny-strength-comparison/implementation/logs/attempt-comparison01.stderr.bin",
+        "actual":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "pass":  true
+    },
+    {
+        "id":  "A012",
+        "path":  "evidence/kemeny-strength-comparison/implementation/logs/attempt-comparison01.stdout.bin",
+        "actual":  "b82d5bb475ada094e0dd5c20b134d07327ebb4d70524051adc788f2be9a9be4d",
+        "pass":  true
+    },
+    {
+        "id":  "A013",
+        "path":  "evidence/kemeny-strength-comparison/implementation/logs/attempt-comparison02.json",
+        "actual":  "704261528e434ef81b1505a3fca19bb976b1958909ab8a95e53fe88f39dc9a89",
+        "pass":  true
+    },
+    {
+        "id":  "A014",
+        "path":  "evidence/kemeny-strength-comparison/implementation/logs/attempt-comparison02.stderr.bin",
+        "actual":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "pass":  true
+    },
+    {
+        "id":  "A015",
+        "path":  "evidence/kemeny-strength-comparison/implementation/logs/attempt-comparison02.stdout.bin",
+        "actual":  "b82d5bb475ada094e0dd5c20b134d07327ebb4d70524051adc788f2be9a9be4d",
+        "pass":  true
+    },
+    {
+        "id":  "A016",
+        "path":  "evidence/kemeny-strength-comparison/implementation/logs/attempts.jsonl",
+        "actual":  "9d27d1a8cca08697b0ce6510043c9a926a23a20371a824a26ba7ea4b23fa6bfb",
+        "pass":  true
+    },
+    {
+        "id":  "A017",
+        "path":  "evidence/kemeny-strength-comparison/implementation/plan.md",
+        "actual":  "4514bb36c77c172da3e2720c59d23ad624db7c583483cdf036035f615ad55871",
+        "pass":  true
+    },
+    {
+        "id":  "A018",
+        "path":  "evidence/kemeny-strength-comparison/implementation/prior-inputs/attempt-profile01.json",
+        "actual":  "5e35f884e3e5c44fd33316728f25b4cad8e413ed80f218d4ee254c0343b22c8b",
+        "pass":  true
+    },
+    {
+        "id":  "A019",
+        "path":  "evidence/kemeny-strength-comparison/implementation/prior-inputs/attempt-profile01.stderr.bin",
+        "actual":  "43257a280428e8679d1cf47da70e0a6ffb475d73c04661a11045f9e9bcede651",
+        "pass":  true
+    },
+    {
+        "id":  "A020",
+        "path":  "evidence/kemeny-strength-comparison/implementation/prior-inputs/attempt-profile01.stdout.bin",
+        "actual":  "4a03d84e888e48b8d89bb7eb23b65962fb6306b648b27a2a9ce8ce0f14e5f61c",
+        "pass":  true
+    },
+    {
+        "id":  "A021",
+        "path":  "evidence/kemeny-strength-comparison/implementation/prior-inputs/check.py",
+        "actual":  "65609534f5c3f75a24a29526e45d0e2444e6ca0ad28f985286a14d7a57c9f7d6",
+        "pass":  true
+    },
+    {
+        "id":  "A022",
+        "path":  "evidence/kemeny-strength-comparison/implementation/prior-inputs/profile_wrapper.py",
+        "actual":  "d67103af0ea37fb708124e7d033adc62b94d03dd98f3bac4b16540a6c434cf01",
+        "pass":  true
+    },
+    {
+        "id":  "A023",
+        "path":  "evidence/kemeny-strength-comparison/implementation/prior-inputs/report.md",
+        "actual":  "e0887232dac449dba631e3d21a61a6fed684374b81511cc5730314fd5820dcde",
+        "pass":  true
+    },
+    {
+        "id":  "A024",
+        "path":  "evidence/kemeny-strength-comparison/implementation/prior-inputs/run.json",
+        "actual":  "55ceebdcd9702359e95cd0fcfb435dab8ed26b1484322d4a1ace1af4185cf49e",
+        "pass":  true
+    },
+    {
+        "id":  "A025",
+        "path":  "evidence/kemeny-strength-comparison/implementation/prior-inputs/stderr.bin",
+        "actual":  "dae0f011cb7e4319d1094a5ba898dd59cb4bf39b8c75b41254ec68ea102f47f0",
+        "pass":  true
+    },
+    {
+        "id":  "A026",
+        "path":  "evidence/kemeny-strength-comparison/implementation/prior-inputs/stdout.bin",
+        "actual":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "pass":  true
+    },
+    {
+        "id":  "A027",
+        "path":  "evidence/kemeny-strength-comparison/implementation/pyproject.toml",
+        "actual":  "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f",
+        "pass":  true
+    },
+    {
+        "id":  "A028",
+        "path":  "evidence/kemeny-strength-comparison/implementation/README.md",
+        "actual":  "84439d1bceade44c62e1f469eb19d952641c4a42c0c4606eb5f784fd93c1626a",
+        "pass":  true
+    },
+    {
+        "id":  "A029",
+        "path":  "evidence/kemeny-strength-comparison/implementation/result-02.json",
+        "actual":  "dcfc9629fcd975a6dc6a22d1ed87bc6f60c3e92c779a4f2c37c029b77f6069c9",
+        "pass":  true
+    },
+    {
+        "id":  "A030",
+        "path":  "evidence/kemeny-strength-comparison/implementation/result.json",
+        "actual":  "ef16d71ff7a18a444944754f076b1c7ffbea6e625ea894f2a4212c49a5708ddb",
+        "pass":  true
+    },
+    {
+        "id":  "A031",
+        "path":  "evidence/kemeny-strength-comparison/implementation/strength_minimax.py",
+        "actual":  "0057aae1dc61cfcb69c43bd2fcb5b43674e66a252c409a857b71a069eef82980",
+        "pass":  true
+    },
+    {
+        "id":  "A032",
+        "path":  "evidence/kemeny-strength-comparison/implementation/uv.lock",
+        "actual":  "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d",
+        "pass":  true
+    },
+    {
+        "id":  "A033",
+        "path":  "evidence/kemeny-strength-comparison/implementation/verify_strength_minimax.py",
+        "actual":  "0e44b6866f10db98dec5219333d0527890e768abc112d3953426077e93b5848b",
+        "pass":  true
+    },
+    {
+        "id":  "A034",
+        "path":  "evidence/kemeny-strength-comparison/implementation/wide-result.json",
+        "actual":  "63db07acd6fb11f82a2806df1aa0b3c842e58fd5e22d3727c3c873f7620c146a",
+        "pass":  true
+    },
+    {
+        "id":  "A035",
+        "path":  "evidence/kemeny-strength-comparison/implementation-review/baseline/result.json",
+        "actual":  "734c9f73753f2ab07232ab8dbf2a1583b42565e88623f9b50d7779aba904665b",
+        "pass":  true
+    },
+    {
+        "id":  "A036",
+        "path":  "evidence/kemeny-strength-comparison/implementation-review/fresh-replay.json",
+        "actual":  "dcfc9629fcd975a6dc6a22d1ed87bc6f60c3e92c779a4f2c37c029b77f6069c9",
+        "pass":  true
+    },
+    {
+        "id":  "A037",
+        "path":  "evidence/kemeny-strength-comparison/implementation-review/hashes.json",
+        "actual":  "33e36b61b09807b75e255eb8c29f8923ab4ec4121a9fe3835ca246edc0d1d930",
+        "pass":  true
+    },
+    {
+        "id":  "A038",
+        "path":  "evidence/kemeny-strength-comparison/implementation-review/input-checks.json",
+        "actual":  "9960e9b68ffb3d46cf350a08b54d642ef684f779db4bdb4d25b52dbdf6df98a4",
+        "pass":  true
+    },
+    {
+        "id":  "A039",
+        "path":  "evidence/kemeny-strength-comparison/implementation-review/logs/attempt-review01.json",
+        "actual":  "2c4f1931afd1abf2d10d6ab923de76b0e27a9060c55818b848adac60e2c0cc3c",
+        "pass":  true
+    },
+    {
+        "id":  "A040",
+        "path":  "evidence/kemeny-strength-comparison/implementation-review/logs/attempt-review01.stderr.bin",
+        "actual":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "pass":  true
+    },
+    {
+        "id":  "A041",
+        "path":  "evidence/kemeny-strength-comparison/implementation-review/logs/attempt-review01.stdout.bin",
+        "actual":  "b82d5bb475ada094e0dd5c20b134d07327ebb4d70524051adc788f2be9a9be4d",
+        "pass":  true
+    },
+    {
+        "id":  "A042",
+        "path":  "evidence/kemeny-strength-comparison/implementation-review/logs/attempt-review02.json",
+        "actual":  "37a5b6bc0cbe481278c70f21a376425e2c09b784ab0411c47ae06969f973b96f",
+        "pass":  true
+    },
+    {
+        "id":  "A043",
+        "path":  "evidence/kemeny-strength-comparison/implementation-review/logs/attempt-review02.stderr.bin",
+        "actual":  "c2fd4fd0387af192001ec307d7fa526e8c4167e0ac784f93e2e3b120bb9a8b5a",
+        "pass":  true
+    },
+    {
+        "id":  "A044",
+        "path":  "evidence/kemeny-strength-comparison/implementation-review/logs/attempt-review02.stdout.bin",
+        "actual":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "pass":  true
+    },
+    {
+        "id":  "A045",
+        "path":  "evidence/kemeny-strength-comparison/implementation-review/logs/attempts.jsonl",
+        "actual":  "d4a113eb04a75dedf562ab8f35b8f56613155c2e0cd66d757410726db162cc90",
+        "pass":  true
+    },
+    {
+        "id":  "A046",
+        "path":  "evidence/kemeny-strength-comparison/implementation-review/plan.md",
+        "actual":  "21ecd0ce70869bef9578c5a0cb9c2d03497449a0bb72834eb8404750af779ebb",
+        "pass":  true
+    },
+    {
+        "id":  "A047",
+        "path":  "evidence/kemeny-strength-comparison/implementation-review/pyproject.toml",
+        "actual":  "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f",
+        "pass":  true
+    },
+    {
+        "id":  "A048",
+        "path":  "evidence/kemeny-strength-comparison/implementation-review/review.md",
+        "actual":  "8f63509d912ed0c04f75d5baf2b5354bc1ca2c6efdb93216959650ceb442fb71",
+        "pass":  true
+    },
+    {
+        "id":  "A049",
+        "path":  "evidence/kemeny-strength-comparison/implementation-review/run_logged.py",
+        "actual":  "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6",
+        "pass":  true
+    },
+    {
+        "id":  "A050",
+        "path":  "evidence/kemeny-strength-comparison/implementation-review/strength_minimax.py",
+        "actual":  "0057aae1dc61cfcb69c43bd2fcb5b43674e66a252c409a857b71a069eef82980",
+        "pass":  true
+    },
+    {
+        "id":  "A051",
+        "path":  "evidence/kemeny-strength-comparison/implementation-review/uv.lock",
+        "actual":  "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d",
+        "pass":  true
+    },
+    {
+        "id":  "A052",
+        "path":  "evidence/kemeny-strength-comparison/implementation-review/verify_strength_minimax.py",
+        "actual":  "0e44b6866f10db98dec5219333d0527890e768abc112d3953426077e93b5848b",
+        "pass":  true
+    },
+    {
+        "id":  "A053",
+        "path":  "evidence/kemeny-strength-comparison/integration/check-01.json",
+        "actual":  "dcfc9629fcd975a6dc6a22d1ed87bc6f60c3e92c779a4f2c37c029b77f6069c9",
+        "pass":  true
+    },
+    {
+        "id":  "A054",
+        "path":  "evidence/kemeny-strength-comparison/integration/comparison.json",
+        "actual":  "6756f1c2c5b34c6115d1187abad6d8a38817ffb8046edaa4f3bf895f934d4c6a",
+        "pass":  true
+    },
+    {
+        "id":  "A055",
+        "path":  "evidence/kemeny-strength-comparison/integration/logs/attempt-strength-comparison-01.json",
+        "actual":  "d98ef7f3e1255afc44785707d419ea93d02a13eda245fee4b7ef43241dbb9be6",
+        "pass":  true
+    },
+    {
+        "id":  "A056",
+        "path":  "evidence/kemeny-strength-comparison/integration/logs/attempt-strength-comparison-01.stderr.bin",
+        "actual":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "pass":  true
+    },
+    {
+        "id":  "A057",
+        "path":  "evidence/kemeny-strength-comparison/integration/logs/attempt-strength-comparison-01.stdout.bin",
+        "actual":  "b82d5bb475ada094e0dd5c20b134d07327ebb4d70524051adc788f2be9a9be4d",
+        "pass":  true
+    },
+    {
+        "id":  "A058",
+        "path":  "evidence/kemeny-strength-comparison/integration/logs/attempts.jsonl",
+        "actual":  "68ad74fd4661f884ff0993d1a2d7854ee9550aa103a627fe8bdb9e738873bb45",
+        "pass":  true
+    },
+    {
+        "id":  "A059",
+        "path":  "evidence/kemeny-strength-comparison/profile/claims.json",
+        "actual":  "895c1a7665e4434c45efc8ffb7bf27a89cece9204a40494d60f51a92428b9c14",
+        "pass":  true
+    },
+    {
+        "id":  "A060",
+        "path":  "evidence/kemeny-strength-comparison/profile/hashes.json",
+        "actual":  "c1675369f6604e3e0a0774029672330eb18759f0989fb66768ae5377a7c3608a",
+        "pass":  true
+    },
+    {
+        "id":  "A061",
+        "path":  "evidence/kemeny-strength-comparison/profile/logs/attempt-profile01.json",
+        "actual":  "5e35f884e3e5c44fd33316728f25b4cad8e413ed80f218d4ee254c0343b22c8b",
+        "pass":  true
+    },
+    {
+        "id":  "A062",
+        "path":  "evidence/kemeny-strength-comparison/profile/logs/attempt-profile01.stderr.bin",
+        "actual":  "43257a280428e8679d1cf47da70e0a6ffb475d73c04661a11045f9e9bcede651",
+        "pass":  true
+    },
+    {
+        "id":  "A063",
+        "path":  "evidence/kemeny-strength-comparison/profile/logs/attempt-profile01.stdout.bin",
+        "actual":  "4a03d84e888e48b8d89bb7eb23b65962fb6306b648b27a2a9ce8ce0f14e5f61c",
+        "pass":  true
+    },
+    {
+        "id":  "A064",
+        "path":  "evidence/kemeny-strength-comparison/profile/logs/attempts.jsonl",
+        "actual":  "ab6f21b37fe51a9cc95c8c63e54a19e21725ae72152de2a5a7a123c1b1b86792",
+        "pass":  true
+    },
+    {
+        "id":  "A065",
+        "path":  "evidence/kemeny-strength-comparison/profile/plan.md",
+        "actual":  "54f527798deb1ffabfc956b3f2669a3a8a0ce7d4f54772ed98696a8168feb873",
+        "pass":  true
+    },
+    {
+        "id":  "A066",
+        "path":  "evidence/kemeny-strength-comparison/profile/profile_wrapper.py",
+        "actual":  "d67103af0ea37fb708124e7d033adc62b94d03dd98f3bac4b16540a6c434cf01",
+        "pass":  true
+    },
+    {
+        "id":  "A067",
+        "path":  "evidence/kemeny-strength-comparison/profile/pyproject.toml",
+        "actual":  "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f",
+        "pass":  true
+    },
+    {
+        "id":  "A068",
+        "path":  "evidence/kemeny-strength-comparison/profile/report.md",
+        "actual":  "e0887232dac449dba631e3d21a61a6fed684374b81511cc5730314fd5820dcde",
+        "pass":  true
+    },
+    {
+        "id":  "A069",
+        "path":  "evidence/kemeny-strength-comparison/profile/uv.lock",
+        "actual":  "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d",
+        "pass":  true
+    },
+    {
+        "id":  "A070",
+        "path":  "evidence/kemeny-strength-comparison/profile-review/hashes.json",
+        "actual":  "9d3d9a77c4d6c1a757a6b6f1deafbcbb01a98811ef4d5257f604a3c66d019063",
+        "pass":  true
+    },
+    {
+        "id":  "A071",
+        "path":  "evidence/kemeny-strength-comparison/profile-review/input-checks.json",
+        "actual":  "4f9a887ff46621aa31ff1e64b0ff29787caeb62a19abbf4d578eb3df8a41ee61",
+        "pass":  true
+    },
+    {
+        "id":  "A072",
+        "path":  "evidence/kemeny-strength-comparison/profile-review/review.md",
+        "actual":  "7686885c3e6daf4f9791c20b289f4544a97bf4431b2f9d5c3bb845092bed0843",
+        "pass":  true
+    },
+    {
+        "id":  "A073",
+        "path":  "evidence/kemeny-strength-minimax/general-author/proposal.md",
+        "actual":  "6ecc0d9aac9812c791998befc422b189e9d66662a002a889366125277c341f75",
+        "pass":  true
+    },
+    {
+        "id":  "A074",
+        "path":  "evidence/kemeny-strength-minimax/general-review/review.md",
+        "actual":  "69c937bc3765819ee8bd2cde5227588f5fde166da81b1e94dab4568a7527b006",
+        "pass":  true
+    },
+    {
+        "id":  "A075",
+        "path":  "evidence/kemeny-strength-minimax/portable-review/review.md",
+        "actual":  "58908bba4652d70611bb70584ec7f91556d7f4200ed5262d52bdf987f9b25834",
+        "pass":  true
+    },
+    {
+        "id":  "A076",
+        "path":  "evidence/kemeny-strength-minimax/final-review/runtime-evidence-review.md",
+        "actual":  "2a17ac54cbd0117b63a74c418e56709877a599a6993d5e3b5cd87eb1a464d922",
+        "pass":  true
+    },
+    {
+        "id":  "A077",
+        "path":  "evidence/kemeny-strength-minimax/resource-limit/run.json",
+        "actual":  "55ceebdcd9702359e95cd0fcfb435dab8ed26b1484322d4a1ace1af4185cf49e",
+        "pass":  true
+    },
+    {
+        "id":  "A078",
+        "path":  "evidence/kemeny-strength-minimax/resource-limit/facts.json",
+        "actual":  "47bbcd59540ae7eaaad8e6678ee38110720c1e7d19ff1c2c9452fd197f195656",
+        "pass":  true
+    },
+    {
+        "id":  "A079",
+        "path":  "docs/kemeny-strength-minimax.md",
+        "actual":  "52e4b1cbefefa7d1c554b4c455b84a6f1776d22d14c2fecfc312b19b39eb421a",
+        "pass":  true
+    },
+    {
+        "id":  "A080",
+        "path":  "experiments/kemeny-three-part-proof/run_logged.py",
+        "actual":  "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6",
+        "pass":  true
+    },
+    {
+        "id":  "A081",
+        "path":  "experiments/kemeny-workload-proof/strength_minimax.py",
+        "actual":  "0057aae1dc61cfcb69c43bd2fcb5b43674e66a252c409a857b71a069eef82980",
+        "pass":  true
+    },
+    {
+        "id":  "A082",
+        "path":  "experiments/kemeny-workload-proof/verify_strength_minimax.py",
+        "actual":  "0e44b6866f10db98dec5219333d0527890e768abc112d3953426077e93b5848b",
+        "pass":  true
+    },
+    {
+        "id":  "A083",
+        "path":  "experiments/kemeny-workload-proof/baseline/result.json",
+        "actual":  "734c9f73753f2ab07232ab8dbf2a1583b42565e88623f9b50d7779aba904665b",
+        "pass":  true
+    },
+    {
+        "id":  "A084",
+        "path":  "experiments/kemeny-workload-proof/pyproject.toml",
+        "actual":  "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f",
+        "pass":  true
+    },
+    {
+        "id":  "A085",
+        "path":  "experiments/kemeny-workload-proof/uv.lock",
+        "actual":  "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d",
+        "pass":  true
+    },
+    {
+        "id":  "A086",
+        "path":  "experiments/kemeny-workload-proof/.python-version",
+        "actual":  "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d",
+        "pass":  true
+    },
+    {
+        "id":  "A087",
+        "path":  "docs/kemeny-strength-comparison.md",
+        "actual":  "e31048855b1d7727a34b84b9a738936c7260820b8ff3c473f6ec0ddf94cd22b5",
+        "pass":  true
+    },
+    {
+        "id":  "A088",
+        "path":  "evidence/kemeny-strength-comparison/README.md",
+        "actual":  "047b771a18cab1e63830e671d561e40dd70acd79183e87d4742ec5a56d803e12",
+        "pass":  true
+    },
+    {
+        "id":  "A089",
+        "path":  "experiments/kemeny-workload-proof/README-strength-minimax.md",
+        "actual":  "14d1f16f2de76b075e89251783ce5b55f73d15ca7f0a48afcd3acc81af0b4ae4",
+        "pass":  true
+    },
+    {
+        "id":  "A090",
+        "path":  "README.md",
+        "actual":  "99d6abde5bdb768c5cfa3da30d97d731377626c1fd85a3062f680dfec7848280",
+        "pass":  true
+    },
+    {
+        "id":  "A091",
+        "path":  ".github/workflows/kemeny-three-part.yml",
+        "actual":  "42ad715744413fbb49ccf774cc9dccb1ea5566f3e8188b7ac86a250e5b61d2b7",
+        "pass":  true
+    }
+]

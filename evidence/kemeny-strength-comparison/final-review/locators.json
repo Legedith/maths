@@ -1,0 +1,104 @@
+[
+    {
+        "claim":  "C001",
+        "artifact":  "A081",
+        "locator":  "contains:endpoint_order=compare(",
+        "pass":  true
+    },
+    {
+        "claim":  "C001",
+        "artifact":  "A048",
+        "locator":  "contains:Positive N selects endpoint0",
+        "pass":  true
+    },
+    {
+        "claim":  "C001",
+        "artifact":  "A074",
+        "locator":  "line:1",
+        "pass":  true
+    },
+    {
+        "claim":  "C001",
+        "artifact":  "A072",
+        "locator":  "contains:The factor(m+t)",
+        "pass":  true
+    },
+    {
+        "claim":  "C002",
+        "artifact":  "A054",
+        "locator":  "json:",
+        "pass":  true
+    },
+    {
+        "claim":  "C002",
+        "artifact":  "A053",
+        "locator":  "json:/original_api_certificates_byte_value_equal",
+        "pass":  true
+    },
+    {
+        "claim":  "C002",
+        "artifact":  "A053",
+        "locator":  "json:/direct_grounded_objective_checks",
+        "pass":  true
+    },
+    {
+        "claim":  "C002",
+        "artifact":  "A048",
+        "locator":  "line:1",
+        "pass":  true
+    },
+    {
+        "claim":  "C003",
+        "artifact":  "A082",
+        "locator":  "contains:baseline=json.loads",
+        "pass":  true
+    },
+    {
+        "claim":  "C003",
+        "artifact":  "A083",
+        "locator":  "json:/status",
+        "pass":  true
+    },
+    {
+        "claim":  "C003",
+        "artifact":  "A048",
+        "locator":  "contains:requested output stayed unchanged",
+        "pass":  true
+    },
+    {
+        "claim":  "C003",
+        "artifact":  "A042",
+        "locator":  "json:/returncode",
+        "pass":  true
+    },
+    {
+        "claim":  "C003",
+        "artifact":  "A053",
+        "locator":  "json:/implementation_limits",
+        "pass":  true
+    },
+    {
+        "claim":  "C004",
+        "artifact":  "A077",
+        "locator":  "json:/rc",
+        "pass":  true
+    },
+    {
+        "claim":  "C004",
+        "artifact":  "A061",
+        "locator":  "json:/returncode",
+        "pass":  true
+    },
+    {
+        "claim":  "C004",
+        "artifact":  "A061",
+        "locator":  "json:/timed_out",
+        "pass":  true
+    },
+    {
+        "claim":  "C004",
+        "artifact":  "A072",
+        "locator":  "contains:Execution convention: DEVIATION retained",
+        "pass":  true
+    }
+]

@@ -1,0 +1,53 @@
+Using CPython 3.12.11
+Creating virtual environment at: D:/CodexWorkspaces/mathematics-atlas/astra-strength-timeout-investigation-work/.venv
+Downloading sympy (6.0MiB)
+ Downloading sympy
+Installed 2 packages in 223ms
+Timeout (0:00:05)!
+Thread 0x00000aa4 (most recent call first):
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\simplify\radsimp.py", line 1138 in fraction
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\core\mul.py", line 548 in _eval_expand_mul
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\core\expr.py", line 3635 in _expand_hint
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\core\expr.py", line 3647 in _expand_hint
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\core\expr.py", line 3704 in expand
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\core\cache.py", line 72 in wrapper
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\polys\polytools.py", line 4660 in _poly_from_expr
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\polys\polytools.py", line 6312 in _symbolic_factor_list
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\polys\polytools.py", line 6379 in _generic_factor_list
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\polys\polytools.py", line 6641 in factor_list
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\polys\numberfields\minpoly.py", line 578 in _minpoly_compose
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\polys\numberfields\minpoly.py", line 346 in _minpoly_pow
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\polys\numberfields\minpoly.py", line 608 in _minpoly_compose
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\polys\numberfields\minpoly.py", line 703 in minimal_polynomial
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\polys\numberfields\minpoly.py", line 596 in _minpoly_compose
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\polys\numberfields\minpoly.py", line 253 in _minpoly_op_algebraic_element
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\polys\numberfields\minpoly.py", line 374 in _minpoly_add
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\polys\numberfields\minpoly.py", line 583 in _minpoly_compose
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\polys\numberfields\minpoly.py", line 346 in _minpoly_pow
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\polys\numberfields\minpoly.py", line 608 in _minpoly_compose
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\polys\numberfields\minpoly.py", line 703 in minimal_polynomial
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\polys\numberfields\minpoly.py", line 596 in _minpoly_compose
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\polys\numberfields\minpoly.py", line 251 in _minpoly_op_algebraic_element
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\polys\numberfields\minpoly.py", line 371 in _minpoly_add
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\polys\numberfields\minpoly.py", line 583 in _minpoly_compose
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\polys\numberfields\minpoly.py", line 703 in minimal_polynomial
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\core\expr.py", line 929 in _eval_is_extended_positive_negative
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\core\expr.py", line 935 in _eval_is_extended_positive
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\core\add.py", line 768 in _eval_is_extended_positive
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\core\assumptions.py", line 559 in _ask
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\core\assumptions.py", line 503 in getit
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\simplify\simplify.py", line 611 in simplify
+  File "D:\CodexWorkspaces\mathematics-atlas\strength-minimax-portable-work\strength_minimax.py", line 61 in compare
+  File "D:\CodexWorkspaces\mathematics-atlas\strength-minimax-portable-work\strength_minimax.py", line 72 in minimum
+  File "D:\CodexWorkspaces\mathematics-atlas\strength-minimax-portable-work\strength_minimax.py", line 75 in maximum
+  File "D:\CodexWorkspaces\mathematics-atlas\strength-minimax-portable-work\strength_minimax.py", line 171 in solve
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\profile_wrapper.py", line 20 in <module>
+Timeout (0:00:05)!
+Thread 0x00000aa4 (most recent call first):
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\core\basic.py", line 178 in __new__
+  File Windows fatal exception: access violation
+
+Thread 0x00000aa4 (most recent call first):
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-strength-timeout-investigation-work\.venv\Lib\site-packages\sympy\core\mul.py", line 855 in as_coeff_Mul
+  File Windows fatal exception: access violation
+

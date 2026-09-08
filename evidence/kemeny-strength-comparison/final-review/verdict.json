@@ -1,0 +1,80 @@
+{
+    "auditor":  "/root/astra_ranking_verifier",
+    "hosted_ci_approval":  false,
+    "checks":  [
+                   {
+                       "status":  "pass",
+                       "evidence":  [
+                                        "A001",
+                                        "A048",
+                                        "A081",
+                                        "A082",
+                                        "A083",
+                                        "A089",
+                                        "A091"
+                                    ],
+                       "id":  "implementation_alignment",
+                       "auditor":  "/root/astra_ranking_verifier",
+                       "note":  "Deployed modules and baseline match accepted independent code review; API and CI configuration align."
+                   },
+                   {
+                       "status":  "pass",
+                       "evidence":  [
+                                        "A029",
+                                        "A036",
+                                        "A039",
+                                        "A042",
+                                        "A048",
+                                        "A053",
+                                        "A054",
+                                        "A055",
+                                        "A056",
+                                        "A057"
+                                    ],
+                       "id":  "reproduction",
+                       "auditor":  "/root/astra_ranking_verifier",
+                       "note":  "Root, worker and distinct replay bytes equal;144checks and expected rejection retained; no new evaluator."
+                   },
+                   {
+                       "status":  "pass",
+                       "evidence":  [
+                                        "A048",
+                                        "A072",
+                                        "A074",
+                                        "A081",
+                                        "A053",
+                                        "A054",
+                                        "A077"
+                                    ],
+                       "id":  "source_verification",
+                       "auditor":  "/root/astra_ranking_verifier",
+                       "note":  "91hashes and17typed locators pass; unchanged distinct mathematical audit reused; no new priority claim."
+                   },
+                   {
+                       "status":  "pass",
+                       "evidence":  [
+                                        "A001",
+                                        "A004",
+                                        "A010",
+                                        "A013",
+                                        "A029",
+                                        "A030",
+                                        "A061",
+                                        "A072",
+                                        "A077",
+                                        "A087",
+                                        "A089",
+                                        "A091"
+                                    ],
+                       "id":  "specification_compliance",
+                       "auditor":  "/root/astra_ranking_verifier",
+                       "note":  "Narrow scope and distinct failed histories preserved; local gate only, actual hosted CI remains separate."
+                   }
+               ],
+    "round":  1,
+    "input_bundle_sha256":  "a2c038bf6cb2ac9ab360baa544e1cc32f799f8a562ad43c8ef4e54086c43e686",
+    "required_corrections":  [
+
+                             ],
+    "status":  "pass"
+}

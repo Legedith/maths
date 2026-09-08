@@ -1,0 +1,57 @@
+{
+  "objective": "Targeted exact endpoint ordering and named wide-interval regression, no new graph theorem or performance benchmark.",
+  "claims": [
+    {
+      "id": "C001",
+      "type": "methodological",
+      "statement": "Only endpoint maximum selection changes, using a positive affine cross-product and certified balance/coincident equality.",
+      "evidence": [
+        "promoted solver",
+        "distinct code review",
+        "accepted positive-oracle premises"
+      ]
+    },
+    {
+      "id": "C002",
+      "type": "numerical",
+      "statement": "Four old API certificate subtrees remain exactly equal as parsed data; all 144 direct checks and five total symbolic identities pass.",
+      "evidence": [
+        "root canonical result",
+        "worker final result",
+        "distinct replay",
+        "inert frozen baseline"
+      ]
+    },
+    {
+      "id": "C003",
+      "type": "methodological",
+      "statement": "Checker requires the inert baseline; importable solver does not. Existing-output rejection leaves result unchanged.",
+      "evidence": [
+        "checker",
+        "baseline",
+        "distinct rejection logs"
+      ]
+    },
+    {
+      "id": "C004",
+      "type": "numerical",
+      "statement": "Earlier timeout rc124 and later instrumented abnormal exit3221225477 remain separate unsuccessful historical observations.",
+      "evidence": [
+        "original timeout",
+        "profile streams and attempt",
+        "profile audit"
+      ]
+    },
+    {
+      "id": "C005",
+      "type": "conclusion",
+      "statement": "The declared difficult input now completes under the local cap; no controlled speedup, crash prevention, general completion, priority or physical impact follows.",
+      "dependencies": [
+        "C001",
+        "C002",
+        "C003",
+        "C004"
+      ]
+    }
+  ]
+}

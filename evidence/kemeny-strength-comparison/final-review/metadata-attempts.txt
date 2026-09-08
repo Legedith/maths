@@ -1,0 +1,2 @@
+Attempt1: PowerShell locator inspection; rc1; Missing closing '}' in statement block or type definition. ParserError MissingEndCurlyBrace; no script execution.
+Attempt2: corrected same-scope PowerShell locator inspection; rc0; locators=17; no failed rows.

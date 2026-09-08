@@ -1,0 +1,35 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--project",
+    "D:/CodexWorkspaces/mathematics-atlas/astra-strength-timeout-investigation-work",
+    "--frozen",
+    "python",
+    "D:/CodexWorkspaces/mathematics-atlas/astra-strength-timeout-investigation-work/profile_wrapper.py"
+  ],
+  "attempt_id": "profile01",
+  "ended_at_utc": "2026-09-08T19:42:36.371845+00:00",
+  "returncode": 3221225477,
+  "schema_version": "logged-command-attempt-v1",
+  "selected_environment": {
+    "PYTHONDONTWRITEBYTECODE": null,
+    "UV_CACHE_DIR": "D:/CodexWorkspaces/mathematics-atlas/astra-strength-timeout-investigation-work/uv-cache",
+    "UV_PROJECT_ENVIRONMENT": "D:/CodexWorkspaces/mathematics-atlas/astra-strength-timeout-investigation-work/.venv"
+  },
+  "started_at_utc": "2026-09-08T19:42:21.161315+00:00",
+  "stderr": {
+    "bytes": 6865,
+    "path": "attempt-profile01.stderr.bin",
+    "sha256": "43257a280428e8679d1cf47da70e0a6ffb475d73c04661a11045f9e9bcede651"
+  },
+  "stdout": {
+    "bytes": 163,
+    "path": "attempt-profile01.stdout.bin",
+    "sha256": "4a03d84e888e48b8d89bb7eb23b65962fb6306b648b27a2a9ce8ce0f14e5f61c"
+  },
+  "termination": null,
+  "timed_out": false,
+  "timeout_seconds": 30,
+  "working_directory": "C:\\Users\\Legedith\\Documents\\ChatGPT\\maths"
+}

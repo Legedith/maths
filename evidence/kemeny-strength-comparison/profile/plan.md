@@ -1,0 +1,2 @@
+# Frozen one-shot profile
+One30second invocation only, original solver bytes pinned11152f62717a691450361c4227a70eb7674e65b1c3bb3d5889464956898ad1a9. Same344[0,9/10] code sequence. Wrapper adds flushed phase markers and five-second repeating faulthandler stack dumps; no solver edits, retry or numerical search. Existing process-tree-aware logger with explicit uv child and D-local frozen environment. Report observed phase only; no causal speed/fix claim. Earlier timeout artifacts remain untouched.

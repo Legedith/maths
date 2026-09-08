@@ -1,0 +1,7 @@
+{
+  "bundle_sha256": "a2c038bf6cb2ac9ab360baa544e1cc32f799f8a562ad43c8ef4e54086c43e686",
+  "artifacts": 91,
+  "claims": 5,
+  "round": 1,
+  "pre_review_ground_resolution": "Corrected code substring locator and original timeout rc key; no code, result or claim change."
+}

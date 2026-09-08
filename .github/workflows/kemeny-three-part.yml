@@ -179,7 +179,7 @@ jobs:
           path: work/kemeny-minimax-ci/
           retention-days: 30
           if-no-files-found: warn
-      - name: Check graph-general conductance minimax and exact solver
+      - name: Check exact conductance minimax and affine endpoint regression
         run: >-
           uv run --project experiments/kemeny-workload-proof --frozen python
           experiments/kemeny-three-part-proof/run_logged.py

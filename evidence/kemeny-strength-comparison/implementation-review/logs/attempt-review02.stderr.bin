@@ -1,0 +1,2 @@
+usage: verify_strength_minimax.py [-h] --output OUTPUT
+verify_strength_minimax.py: error: output already exists; choose a fresh path

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "bundle": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.codex\\evidence\\runs\\kemeny-strength-comparison-v1\\bundle.json",
+  "workspace": "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+  "artifact_count": 100,
+  "claim_count": 5,
+  "claim_provenance_rate": 1.0,
+  "errors": []
+}

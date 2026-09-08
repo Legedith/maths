@@ -1,0 +1,38 @@
+[
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-comparison-release-review-work\\hashes.json",
+    "destination": "evidence/kemeny-strength-comparison/final-review/hashes.json",
+    "sha256": "09020acf9c9745dfd673a8111b9dfebfc6e4ff9001492ef784fe819d022b36cc",
+    "bytes": 693
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-comparison-release-review-work\\integrity.json",
+    "destination": "evidence/kemeny-strength-comparison/final-review/integrity.json",
+    "sha256": "8acde80a12de5bb7b4cbc42bfd08e46663b6813e2e280aef6be2505ab565a3aa",
+    "bytes": 21783
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-comparison-release-review-work\\locators.json",
+    "destination": "evidence/kemeny-strength-comparison/final-review/locators.json",
+    "sha256": "eeac89002faf5b54bccdf86ab7d556723b8ed5b6b30f316713cd57d1030ba3ee",
+    "bytes": 2452
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-comparison-release-review-work\\metadata-attempts.txt",
+    "destination": "evidence/kemeny-strength-comparison/final-review/metadata-attempts.txt",
+    "sha256": "acd2c4ba984ca4f2114d746b36a6580229f3dd5602ed2083d36b69ad113fe3a0",
+    "bytes": 256
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-comparison-release-review-work\\review.md",
+    "destination": "evidence/kemeny-strength-comparison/final-review/review.md",
+    "sha256": "d052dcac8703fddd2f1bfaf7a1f5106a9e21f5117a343310aea822c76b585cb8",
+    "bytes": 4205
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-comparison-release-review-work\\verdict.json",
+    "destination": "evidence/kemeny-strength-comparison/final-review/verdict.json",
+    "sha256": "77d026ffa67416aea8efa742ca3181deb86b3521c0b6721fd09594000915dc1f",
+    "bytes": 3807
+  }
+]

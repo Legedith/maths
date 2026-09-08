@@ -1,0 +1,10 @@
+﻿[
+    {
+        "sha256":  "4f9a887ff46621aa31ff1e64b0ff29787caeb62a19abbf4d578eb3df8a41ee61",
+        "path":  "input-checks.json"
+    },
+    {
+        "sha256":  "7686885c3e6daf4f9791c20b289f4544a97bf4431b2f9d5c3bb845092bed0843",
+        "path":  "review.md"
+    }
+]

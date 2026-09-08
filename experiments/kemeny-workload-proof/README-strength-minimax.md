@@ -12,6 +12,10 @@ directory:
 uv run --project experiments/kemeny-workload-proof --frozen python experiments/kemeny-workload-proof/verify_strength_minimax.py --output strength-minimax-replay.json
 ```
 
+The checker requires the packaged inert `baseline/result.json` to compare the
+four original API certificates. The importable solver needs no baseline file.
+See the [endpoint comparison update](../../docs/kemeny-strength-comparison.md).
+
 For an importable solver, put a script beside strength_minimax.py in this
 directory and run it with `uv run --frozen python your_script.py`:
 
@@ -57,13 +61,14 @@ is no promise of polynomial time or termination on arbitrarily large rational
 inputs. A failed comparison is an implementation limit, not a disproof of the
 mathematical finite characterization.
 
-A later exploratory invocation using the same frozen solver on344,[0,9/10]
+An earlier exploratory invocation using the PR14 solver on344,[0,9/10]
 exceeded its60-second subprocess limit and produced no diagnostic result.
 The record reports exit124 and132.485 seconds total elapsed, including setup
 and subsequent waiting. Retained logs do not identify which calculation
 consumed the time. This is a concrete resource limitation on an admitted
-input; the successful narrower-interval checks do not establish general
-runtime reliability. The invocation and raw streams are retained under
+input for that version. The current affine endpoint comparison completes this
+input in the declared local regression, while general runtime reliability
+remains unestablished. The invocation and raw streams are retained under
 evidence/kemeny-strength-minimax/resource-limit. The canonical logger below
 terminates the process tree on timeout; the exploratory launcher did not.
 
@@ -80,20 +85,21 @@ four exact classes and11candidate entries. It also checks a weighted path,
 a collapsed uniform cycle with tied locations, and the344 untouched-A-only
 set whose optimum is no action. Grounded graph inverses at strengths0 and1/2
 independently check actual covariance objectives for every physical edge and
-both endpoints:80 comparisons in total. Three symbolic identities, five
+both endpoints:80 original comparisons plus64 for the wide interval [0,9/10],
+144 in total. Three original and two cross-product symbolic identities, five
 abstract balance degeneracies and seven malformed-domain cases supplement
 these graph checks. The abstract cases are not asserted graph realizations.
 
 The canonical logged invocation is:
 
 ```powershell
-uv run --project experiments/kemeny-workload-proof --frozen python experiments/kemeny-three-part-proof/run_logged.py --attempt-id strength-minimax-01 --timeout-seconds 90 --log-dir work/kemeny-strength-minimax/logs -- uv run --project experiments/kemeny-workload-proof --frozen python experiments/kemeny-workload-proof/verify_strength_minimax.py --output work/kemeny-strength-minimax/check-01.json
+uv run --project experiments/kemeny-workload-proof --frozen python experiments/kemeny-three-part-proof/run_logged.py --attempt-id strength-comparison-01 --timeout-seconds 90 --log-dir work/kemeny-strength-comparison/logs -- uv run --project experiments/kemeny-workload-proof --frozen python experiments/kemeny-workload-proof/verify_strength_minimax.py --output work/kemeny-strength-comparison/check-01.json
 ```
 
 Choose a new attempt ID and output path for another run. On the author's
 Windows host, caches and the isolated uv environment remain on D. Original
 worker logs, the distinct replay and root canonical artifacts are retained in
-the [evidence directory](../../evidence/kemeny-strength-minimax/README.md).
+the [evidence directory](../../evidence/kemeny-strength-comparison/README.md).
 Actual hosted CI requires a separate record for the final pushed commit.
 
 The universal proof additionally uses the separately audited Dirichlet equality,

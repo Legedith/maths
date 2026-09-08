@@ -36,12 +36,6 @@ def certificate():
     assert S.cancel(S.diff(f,t)-(A+B*(2*t+r*t*t))/(1+r*t)**2)==0
     assert S.cancel(S.diff(f,t,2)-2*s*(m*r-1)/(1+r*t)**3)==0
     assert S.limit(f/t,t,S.oo)==B/r
-    T0,T1,s0,s1,O0,O1=S.symbols('T0 T1 s0 s1 O0 O1',positive=True)
-    B0=r*T0-s0;B1=r*T1-s1
-    N=(T0+B0*t)*O1-(T1+B1*t)*O0
-    assert S.cancel((m+t)*(T0-t*s0/(1+r*t))/O0-(m+t)*(T1-t*s1/(1+r*t))/O1-(m+t)*N/((1+r*t)*O0*O1))==0
-    balance=(T1*O0-T0*O1)/(B0*O1-B1*O0)
-    assert S.cancel(N.subs(t,balance))==0
     edges,allowed=multipartite()
     main=solve(12,edges,11,(0,'1/10'),allowed)
     assert len(main['allowed_edges'])==16 and len(main['classes'])==4
@@ -77,19 +71,7 @@ def certificate():
         else:raise AssertionError('invalid input accepted')
     counts={name:direct_checks(value) for name,value in [('344',main),('weighted_path',path),('cycle',cycle),('noop',noop)]}
     here=Path(__file__).resolve().parent
-    # Compare frozen certificate data as inert JSON, never executable strings.
-    baseline=json.loads((here/'baseline/result.json').read_text(encoding='utf-8'))
-    for key,value in [('witness344',main),('weighted_path',path),('collapsed_cycle',cycle),('untouched_only_noaction',noop)]:
-        assert encode_certificate(value)==baseline[key], 'original API certificate changed: '+key
-    wide=solve(12,edges,11,(0,'9/10'),allowed)
-    assert len(wide['allowed_edges'])==16
-    base=[wide['old_volume']*tt/oo-1 for tt,oo in zip(wide['T_endpoints'],wide['oracle_endpoint_f'])]
-    assert compare(base[1],base[0])>0
-    bc=next(g for g in wide['classes'] if (3,4) in g['edges'])
-    assert compare(bc['A_endpoints'][0])<0 and compare(bc['A_endpoints'][1])>0
-    assert compare(bc['optimum']['strength'])==0
-    counts['344_wide']=direct_checks(wide)
-    return {'status':'PASS','wide_interval_regression':wide,'affine_crossproduct_identities':2,'original_api_certificates_byte_value_equal':4,'runtime':{'python':platform.python_version(),'sympy':S.__version__},'implementation_hashes':{name:hashlib.sha256((here/name).read_bytes()).hexdigest() for name in ('strength_minimax.py','verify_strength_minimax.py')},'symbolic_derivative_identities':3,'direct_grounded_objective_checks':counts,'invalid_inputs_rejected':len(invalid),'balance_degeneracies':degeneracies,'witness344':main,'weighted_path':path,'collapsed_cycle':cycle,'untouched_only_noaction':noop,'analytic_bridges_required':['Dirichlet test-potential mr>=4 and complete equality conditions for absent pairs.','Graph pseudoinverse and fixed iid covariance/commute reduction with actual total conductance m+t.','PSD rank n-2 establishes positive B; compact workloads and finite edges give uniform positivity/coercivity and attained oracle.','Continuum supremum commutes with two-endpoint maximum after positivity is established.','Strict convexity gives one per-edge optimum; derivative and balance candidates exhaust all minimizers.','All t0 labels are one physical no action; distinct edge locations may tie.'],'implementation_limits':['Exact rational inputs only; floating inputs rejected.','Certified radical interval arithmetic at up to320 bits and exact symbolic zero simplification; unresolved comparisons raise InconclusiveError, never return a recommendation.','No polynomial-time or all-input termination guarantee; caller should enforce wall-clock resource limit.','Finite API cases validate implementation, not universal enumeration or proof-assistant formalization.']}
+    return {'status':'PASS','runtime':{'python':platform.python_version(),'sympy':S.__version__},'implementation_hashes':{name:hashlib.sha256((here/name).read_bytes()).hexdigest() for name in ('strength_minimax.py','verify_strength_minimax.py')},'symbolic_derivative_identities':3,'direct_grounded_objective_checks':counts,'invalid_inputs_rejected':len(invalid),'balance_degeneracies':degeneracies,'witness344':main,'weighted_path':path,'collapsed_cycle':cycle,'untouched_only_noaction':noop,'analytic_bridges_required':['Dirichlet test-potential mr>=4 and complete equality conditions for absent pairs.','Graph pseudoinverse and fixed iid covariance/commute reduction with actual total conductance m+t.','PSD rank n-2 establishes positive B; compact workloads and finite edges give uniform positivity/coercivity and attained oracle.','Continuum supremum commutes with two-endpoint maximum after positivity is established.','Strict convexity gives one per-edge optimum; derivative and balance candidates exhaust all minimizers.','All t0 labels are one physical no action; distinct edge locations may tie.'],'implementation_limits':['Exact rational inputs only; floating inputs rejected.','Certified radical interval arithmetic at up to320 bits and exact symbolic zero simplification; unresolved comparisons raise InconclusiveError, never return a recommendation.','No polynomial-time or all-input termination guarantee; caller should enforce wall-clock resource limit.','Finite API cases validate implementation, not universal enumeration or proof-assistant formalization.']}
 
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--output',type=Path,required=True);args=parser.parse_args()
