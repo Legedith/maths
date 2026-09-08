@@ -1,0 +1,14 @@
+Using CPython 3.13.7
+Creating virtual environment at: .venv
+Resolved 7 packages in 357ms
+   Building atlas-checks @ file:///D:/CodexWorkspaces/mathematics-atlas/assumption-work
+      Built atlas-checks @ file:///D:/CodexWorkspaces/mathematics-atlas/assumption-work
+Prepared 1 package in 1.40s
+Installed 7 packages in 51ms
+ + atlas-checks==0.1.0 (from file:///D:/CodexWorkspaces/mathematics-atlas/assumption-work)
+ + colorama==0.4.6
+ + iniconfig==2.3.0
+ + packaging==26.3
+ + pluggy==1.6.0
+ + pygments==2.21.0
+ + pytest==9.1.1

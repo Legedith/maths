@@ -1,0 +1,14 @@
+﻿{
+    "name":  "research-adapter-tests-attempt-02",
+    "command_argv":  [
+                         "node",
+                         "scripts/check-research-search.ts"
+                     ],
+    "command_display":  "node scripts/check-research-search.ts",
+    "working_directory":  "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "started_at":  "2026-09-08T07:42:25.7520325+05:30",
+    "ended_at":  "2026-09-08T07:42:25.8882530+05:30",
+    "runtime_seconds":  0.13120679999999998,
+    "exit_code":  0,
+    "console_log":  "logs/research-adapter-tests-attempt-02.console.log"
+}

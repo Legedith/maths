@@ -1,0 +1,17 @@
+﻿{
+    "name":  "assumption-public-plan-typed-records",
+    "command_argv":  [
+                         "uv",
+                         "run",
+                         "--frozen",
+                         "python",
+                         "scripts/retain_assumption_plan.py"
+                     ],
+    "command_display":  "uv run --frozen python scripts/retain_assumption_plan.py",
+    "working_directory":  "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "started_at":  "2026-09-08T07:49:51.6516613+05:30",
+    "ended_at":  "2026-09-08T07:49:51.8349341+05:30",
+    "runtime_seconds":  0.1805395,
+    "exit_code":  0,
+    "console_log":  "logs/assumption-public-plan-typed-records.console.log"
+}

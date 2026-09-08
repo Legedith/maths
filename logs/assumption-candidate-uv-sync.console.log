@@ -1,0 +1,13 @@
+﻿uv.exe :    Building atlas-engine @ file:///D:/CodexWorkspaces/mathematics-atlas/project
+At D:\CodexWorkspaces\mathematics-atlas\project\scripts\run_logged.ps1:22 char:11
++ $output = & $Command[0] $Command[1..($Command.Count - 1)] 2>&1 | Out- ...
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (   Building atl...s-atlas/project:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+      Built atlas-engine @ file:///D:/CodexWorkspaces/mathematics-atlas/project
+Prepared 1 package in 1.45s
+Uninstalled 1 package in 3ms
+Installed 1 package in 8ms
+ ~ atlas-engine==0.1.0 (from file:///D:/CodexWorkspaces/mathematics-atlas/project)
+

@@ -1,0 +1,22 @@
+{
+  "source": "TheoremSearch official API documentation",
+  "url": "https://www.theoremsearch.com/docs",
+  "retrieved_date": "2026-09-08",
+  "retrieval_method": "web open, primary provider documentation",
+  "locators": [
+    {
+      "section": "POST /search",
+      "note": "Natural-language query and n_results fields; response distinguishes theorem_id, slogan_id, body, slogan and paper metadata."
+    },
+    {
+      "section": "GET /graph/statement",
+      "note": "Separate statement-neighborhood endpoint; not implemented by this search-only adapter."
+    }
+  ],
+  "related_source": {
+    "url": "https://www.theoremsearch.com/theorem-graph",
+    "locator": "How It Works and Informal Dependency Extractors",
+    "note": "Informal dependency recovery includes heuristic and notation-based parsing. Formal graph relationships have separate semantic types. Generated or judged similarity does not itself prove mathematical equivalence."
+  },
+  "implementation_scope": "Reuse POST /search and preserve extracted versus generated content; no claim to have replicated or independently validated the provider's corpus or accuracy estimates."
+}

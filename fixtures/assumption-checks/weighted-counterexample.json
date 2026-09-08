@@ -1,0 +1,40 @@
+{
+  "id": "development-weighted-commute-normalization",
+  "graph": {
+    "n": 3,
+    "edges": [
+      {"u": 0, "v": 1, "conductance": "2"},
+      {"u": 1, "v": 2, "conductance": "1"}
+    ]
+  },
+  "source": 0,
+  "target": 2,
+  "provenance": {
+    "kind": "source_annotation",
+    "source_url": "https://pages.uoregon.edu/dlevin/MARKOV/markovmixing.pdf",
+    "source_locator": "PDF pp. 147-148, commute time identity",
+    "annotation_id": "development-annotation-weighted-commute",
+    "annotator": "implementation-development-worker",
+    "interpretation": "explicit"
+  },
+  "assumptions": [
+    {"id": "connected-network", "expression": {"kind": "quantity", "name": "connected"}},
+    {"id": "reachable-terminals", "expression": {"kind": "quantity", "name": "terminals_connected"}}
+  ],
+  "claim": {
+    "kind": "binary",
+    "op": "eq",
+    "left": {"kind": "quantity", "name": "commute"},
+    "right": {
+      "kind": "binary",
+      "op": "mul",
+      "left": {
+        "kind": "binary",
+        "op": "mul",
+        "left": {"kind": "rational", "value": "2"},
+        "right": {"kind": "quantity", "name": "edge_count"}
+      },
+      "right": {"kind": "quantity", "name": "resistance"}
+    }
+  }
+}

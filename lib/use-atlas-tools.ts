@@ -4,6 +4,10 @@ import { flushSync } from 'react-dom';
 import { atlas, connectionPath, domains, nodeById, searchNodes } from './atlas';
 import { analyzeGraph, type GraphInput, type GraphResult } from './exact-graph';
 import { validateFormalQuery, type FormalSearchResult } from './formal-search';
+import {
+  validateResearchQuery,
+  type ResearchSearchResult,
+} from './research-search';
 type Tool = {
   name: string;
   title: string;
@@ -19,6 +23,7 @@ type Context = {
   ) => void | Promise<void>;
 };
 type Actions = {
+  researchSearch: (query: string) => Promise<ResearchSearchResult>;
   formalSearch: (query: string) => Promise<FormalSearchResult>;
   search: (query: string, domain: string) => void;
   show: (id: string) => void;
@@ -42,6 +47,21 @@ function object(input: unknown, allowed: string[]) {
 const navigate = { readOnlyHint: false, untrustedContentHint: false };
 export function atlasTools(actions: Actions): Tool[] {
   return [
+    {
+      name: 'search_research_statements',
+      title: 'Find existing mathematical research',
+      description:
+        'Send a natural-language mathematical query to TheoremSearch and display external research results. Return generated summaries separately from extracted statements and original-source links. These are unreviewed retrievals, not proofs of applicability or novelty.',
+      inputSchema: schema(
+        { query: { type: 'string', minLength: 1, maxLength: 500 } },
+        ['query'],
+      ),
+      annotations: { readOnlyHint: false, untrustedContentHint: true },
+      async execute(input) {
+        const p = object(input, ['query']);
+        return actions.researchSearch(validateResearchQuery(p.query));
+      },
+    },
     {
       name: 'search_formal_library',
       title: 'Search the existing Mathlib index',
@@ -192,6 +212,7 @@ export function useAtlasTools(actions: Actions) {
     if (!context?.registerTool) return;
     const lifecycle = new AbortController();
     const synchronized: Actions = {
+      researchSearch: actions.researchSearch,
       formalSearch: actions.formalSearch,
       search: (query, domain) => flushSync(() => actions.search(query, domain)),
       show: (id) => flushSync(() => actions.show(id)),

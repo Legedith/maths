@@ -25,6 +25,7 @@ jobs:
       - run: node scripts/check-browser-engine.ts
       - run: node scripts/check-atlas.ts
       - run: node scripts/check-formal-search.ts
+      - run: node scripts/check-research-search.ts
       - run: npx tsc --noEmit
       - run: npm run lint
       - run: npm run build

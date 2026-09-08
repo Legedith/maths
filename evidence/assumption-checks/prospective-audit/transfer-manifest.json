@@ -1,0 +1,26 @@
+{
+  "scope": "Public preimplementation audit plans only; sealed inputs, labels and secret seed were not read.",
+  "source_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work",
+  "files": [
+    {
+      "path": "evidence/assumption-checks/prospective-audit/contract-audit.md",
+      "sha256": "a9c11582956efe38b56eb656e04cd27f7a0e9bfec7530a5e7eb2b6195a5d161e"
+    },
+    {
+      "path": "evidence/assumption-checks/prospective-audit/evaluation-plan.md",
+      "sha256": "f990ff143b329cfd671fe16e8501cb8422ff2fbaf81b29627fe8e17373069f20"
+    },
+    {
+      "path": "evidence/assumption-checks/prospective-audit/evaluator-schema-public.json",
+      "sha256": "b02f344e984d9a450a1fa1e248b5dfe97c3379e5f317b2e4b4b4280385c61dc2"
+    },
+    {
+      "path": "evidence/assumption-checks/prospective-audit/sealed-suite-manifest.json",
+      "sha256": "b2c36372e5207f521c804ab9cf0a1b0eb09ebef1cab1eeac10b9ed19712231a1"
+    },
+    {
+      "path": "evidence/assumption-checks/prospective-audit/source-locators.json",
+      "sha256": "87733a023fa8c3393fe54b5bba7748abbf94c85d23afd31144e67b194fba6361"
+    }
+  ]
+}

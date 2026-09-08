@@ -1,0 +1,19 @@
+﻿{
+    "name":  "research-ui-lint-attempt-03",
+    "command_argv":  [
+                         ".\\node_modules\\.bin\\oxlint.cmd",
+                         "app/page.tsx",
+                         "app/api/research-search/route.ts",
+                         "components/research-search.tsx",
+                         "lib/research-search.ts",
+                         "lib/use-atlas-tools.ts",
+                         "scripts/check-research-search.ts"
+                     ],
+    "command_display":  ".\\node_modules\\.bin\\oxlint.cmd app/page.tsx app/api/research-search/route.ts components/research-search.tsx lib/research-search.ts lib/use-atlas-tools.ts scripts/check-research-search.ts",
+    "working_directory":  "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "started_at":  "2026-09-08T07:42:58.0113681+05:30",
+    "ended_at":  "2026-09-08T07:42:58.9454274+05:30",
+    "runtime_seconds":  0.9308649,
+    "exit_code":  0,
+    "console_log":  "logs/research-ui-lint-attempt-03.console.log"
+}

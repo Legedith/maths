@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "suite_id": "structured-transfer-heldout-v1",
+  "status": "sealed_before_implementation_code_freeze",
+  "auditor": "/root/sol_atlas_audit",
+  "counts": {
+    "total": 80,
+    "well_formed_mathematical": 54,
+    "definedness_provenance_precedence": 12,
+    "malformed_type_resource": 14,
+    "expected_label_histogram": "withheld"
+  },
+  "seed_commitment_sha256": "70bf5e5b10c54cf0505229e3e9721d6c2c65bb150c841215da7e15acbe82ccd6",
+  "canonical_plaintext_sha256": "ddf50219b87547a9cae547d936a7afba76380f11c4cda7c5fbb473635a01d9ee",
+  "sealed_ciphertext_sha256": "3c96287617319c73631c4586296f541204f7d16ed35088e6888ba4595cbc57c4",
+  "sealed_ciphertext_bytes": 156867,
+  "generator_sha256": "deaada903b476b8513142c46a2fbe9cf9957ad9d2d25be4be5eddb8949c7fdce",
+  "encryption": {
+    "algorithm": "AES-256-GCM",
+    "key_derivation": "sha256(assumption-eval-aes-key-v1\\0 || secret_seed)",
+    "nonce_derivation": "first12(sha256(assumption-eval-aes-nonce-v1\\0 || secret_seed))",
+    "aad": "structured-transfer-heldout-v1",
+    "key_and_seed": "withheld_until_implementation_code_freeze"
+  },
+  "confidential": [
+    "case_bodies",
+    "graph_list",
+    "conductances",
+    "expressions",
+    "expected_values",
+    "expected_verdicts",
+    "expected_label_histogram",
+    "secret_seed"
+  ]
+}

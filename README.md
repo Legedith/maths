@@ -12,7 +12,8 @@ The first region connects **graph Laplacians, electrical networks, random walks,
 - Follow beginner journeys and find contribution tasks with acceptance criteria.
 - Edit a graph with 2–6 vertices and compute exact resistance, directed hitting times, commute time and enumerated spanning-tree counts in your browser. Export the actual result.
 - Search the live Loogle Mathlib index by declaration-name substring, with returned formal statement types and documentation links. External results remain separate from reviewed Atlas entries.
-- Retrieve the corpus as JSON at `/api/atlas`. Five WebMCP tools expose the same curated search, navigation, path, experiment and external-library workflows to supporting agents.
+- Describe a mathematical problem and search the existing TheoremSearch index. Inspect generated summaries separately from extracted statements and save a source packet for review.
+- Retrieve the corpus as JSON at `/api/atlas`. Six WebMCP tools expose the same curated search, navigation, path, experiment and external-library workflows to supporting agents.
 
 ## Run locally
 
@@ -41,6 +42,7 @@ uv run --frozen python scripts/check_normalization_case.py
 node scripts/check-browser-engine.ts
 node scripts/check-atlas.ts
 node scripts/check-formal-search.ts
+node scripts/check-research-search.ts
 npx tsc --noEmit
 npm run lint
 ```
@@ -51,12 +53,12 @@ The engine separately solves the electrical equations, solves Markov first-step 
 
 ## Discovery and evidence
 
-Known identities are useful rediscoveries, not new mathematics. A missing search result or graph edge never establishes that a problem is open. The project is investigating a provable optimization of its batch computation workload; its selection and evaluation requirements are frozen in [the symmetry contract](docs/symmetry-contract.md). Performance or novelty claims must wait for the retained canonical artifacts and a separate auditor.
+Known identities are useful rediscoveries, not new mathematics. A missing search result or graph edge never establishes that a problem is open. The terminal-symmetry cache now has an independently audited correctness argument and a bounded benchmark; see [its scope and reproduction commands](README-symmetry.md). Canonical graph caching has direct prior art, so this optimization is not claimed as a globally new algorithm.
 
 The broader objective remains active: progressively map more mathematics and use its connections to support verified discoveries. This finite region does not fulfill that full coverage objective. Proof status, source support, finite computation and novelty are separate questions. No current entry claims Lean 4 verification.
 
-See [contribution guidance](CONTRIBUTING.md), [data semantics](docs/data-model.md), and [coverage and next regions](docs/coverage.md). The evidence bundle in `.codex/evidence/runs/atlas-foundation/` is a provenance record; a pending gate is not a certification.
+See [contribution guidance](CONTRIBUTING.md), [data semantics](docs/data-model.md), and [coverage and next regions](docs/coverage.md). The foundation evidence bundle certifies the published snapshot at commit `9e0adc5d7f7fb994d6e302086da47a13ac2a8561`; reproduce that historical gate from that revision. The current assumption-check milestone has a separate prospective contract and pending evidence bundle in `.codex/evidence/runs/assumption-checks-v1/`. An earlier certificate does not certify later edits.
 
 ## Verification limits
 
-Curated search uses explicit lexical substring scoring, with eight retrieval sanity cases. The separate external search reuses Loogle; neither is an evaluated novelty detector. See the [reuse decision](docs/reuse-decision.md) and [independently checked normalization case](docs/normalization-case.md). The exact lab is restricted to connected simple undirected unweighted graphs, even where a source entry discusses a weighted theorem. Source PDFs stay local under ignored `work/sources/`; only paraphrases, bibliographic metadata and limited evidence extracts belong in the repository. Untouched generated UI components are excluded from lint because the scaffold itself has existing lint violations; the full TypeScript project is checked. Browser checks cover focused WebMCP contracts, not general visual or responsive QA.
+Curated search uses explicit lexical substring scoring, with eight retrieval sanity cases. External searches reuse Loogle and TheoremSearch; none is an evaluated novelty detector. See the [reuse decision](docs/reuse-decision.md), [research-search boundary](docs/research-search.md) and [independently checked normalization case](docs/normalization-case.md). The exact browser lab is restricted to connected simple undirected unweighted graphs, even where a source entry discusses a weighted theorem. Source PDFs stay local under ignored `work/sources/`; only paraphrases, bibliographic metadata and limited evidence extracts belong in the repository. Untouched generated UI components are excluded from lint because the scaffold itself has existing lint violations; the full TypeScript project is checked. Browser checks cover focused WebMCP contracts, not general visual or responsive QA.

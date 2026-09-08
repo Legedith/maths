@@ -23,6 +23,11 @@ import {
 import { AtlasMap, colors } from '@/components/atlas-map';
 import { AtlasLab, presets } from '@/components/atlas-lab';
 import { FormalSearch } from '@/components/formal-search';
+import { ResearchSearch } from '@/components/research-search';
+import {
+  validateResearchQuery,
+  type ResearchSearchResult,
+} from '@/lib/research-search';
 import {
   validateFormalQuery,
   type FormalSearchResult,
@@ -35,6 +40,15 @@ import {
 } from '@/lib/exact-graph';
 import { useAtlasTools } from '@/lib/use-atlas-tools';
 export default function Home() {
+  const [libraryMode, setLibraryMode] = useState<'research' | 'formal'>(
+    'research',
+  );
+  const [researchQuery, setResearchQuery] = useState('');
+  const [researchResult, setResearchResult] =
+    useState<ResearchSearchResult | null>(null);
+  const [researchLoading, setResearchLoading] = useState(false);
+  const [researchError, setResearchError] = useState('');
+  const researchGeneration = useRef(0);
   const [formalQuery, setFormalQuery] = useState('lapMatrix');
   const [formalResult, setFormalResult] = useState<FormalSearchResult | null>(
     null,
@@ -70,6 +84,7 @@ export default function Home() {
       const generation = ++formalGeneration.current;
       flushSync(() => {
         setTab('search');
+        setLibraryMode('formal');
         setFormalQuery(q);
         setFormalLoading(true);
         setFormalError('');
@@ -113,6 +128,56 @@ export default function Home() {
     },
     [],
   );
+  const runResearchSearch = useCallback(
+    async (rawQuery: string): Promise<ResearchSearchResult> => {
+      const q = validateResearchQuery(rawQuery);
+      const generation = ++researchGeneration.current;
+      flushSync(() => {
+        setTab('search');
+        setLibraryMode('research');
+        setResearchQuery(q);
+        setResearchLoading(true);
+        setResearchError('');
+        setResearchResult(null);
+      });
+      try {
+        const response = await fetch(
+          `/api/research-search?q=${encodeURIComponent(q)}`,
+          { signal: AbortSignal.timeout(20000) },
+        );
+        const value: unknown = await response.json();
+        if (!response.ok)
+          throw new Error(
+            value &&
+              typeof value === 'object' &&
+              'error' in value &&
+              typeof value.error === 'string'
+              ? value.error
+              : 'Research search failed.',
+          );
+        if (generation !== researchGeneration.current)
+          throw new Error('This search was superseded by a newer query.');
+        const result = value as ResearchSearchResult;
+        flushSync(() => {
+          setResearchResult(result);
+          setResearchLoading(false);
+        });
+        return result;
+      } catch (error) {
+        if (generation === researchGeneration.current)
+          flushSync(() => {
+            setResearchError(
+              error instanceof Error
+                ? error.message
+                : 'Research search failed.',
+            );
+            setResearchLoading(false);
+          });
+        throw error;
+      }
+    },
+    [],
+  );
   const actions = useMemo(
     () => ({
       search: (q: string, d: string) => {
@@ -122,6 +187,7 @@ export default function Home() {
       },
       show: select,
       formalSearch: runFormalSearch,
+      researchSearch: runResearchSearch,
       path: (from: string, to: string) => {
         setPathFrom(from);
         setDestination(to);
@@ -134,7 +200,7 @@ export default function Home() {
         setTab('lab');
       },
     }),
-    [select, runFormalSearch],
+    [select, runFormalSearch, runResearchSearch],
   );
   useAtlasTools(actions);
   const results = searchNodes(query, domain),
@@ -290,14 +356,42 @@ export default function Home() {
             />
           </TabsContent>
           <TabsContent value="search">
-            <FormalSearch
-              query={formalQuery}
-              setQuery={setFormalQuery}
-              result={formalResult}
-              loading={formalLoading}
-              error={formalError}
-              search={runFormalSearch}
-            />
+            <fieldset className="library-switch">
+              <legend className="sr-only">Choose a research library</legend>
+              <Button
+                variant={libraryMode === 'research' ? 'default' : 'outline'}
+                aria-pressed={libraryMode === 'research'}
+                onClick={() => setLibraryMode('research')}
+              >
+                Describe an idea
+              </Button>
+              <Button
+                variant={libraryMode === 'formal' ? 'default' : 'outline'}
+                aria-pressed={libraryMode === 'formal'}
+                onClick={() => setLibraryMode('formal')}
+              >
+                Search Lean names
+              </Button>
+            </fieldset>
+            {libraryMode === 'research' ? (
+              <ResearchSearch
+                query={researchQuery}
+                setQuery={setResearchQuery}
+                result={researchResult}
+                loading={researchLoading}
+                error={researchError}
+                search={runResearchSearch}
+              />
+            ) : (
+              <FormalSearch
+                query={formalQuery}
+                setQuery={setFormalQuery}
+                result={formalResult}
+                loading={formalLoading}
+                error={formalError}
+                search={runFormalSearch}
+              />
+            )}
           </TabsContent>
           <TabsContent value="learn">
             <section className="content-page">

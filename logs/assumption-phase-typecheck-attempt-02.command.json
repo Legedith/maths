@@ -1,0 +1,14 @@
+﻿{
+    "name":  "assumption-phase-typecheck-attempt-02",
+    "command_argv":  [
+                         ".\\node_modules\\.bin\\tsc.cmd",
+                         "--noEmit"
+                     ],
+    "command_display":  ".\\node_modules\\.bin\\tsc.cmd --noEmit",
+    "working_directory":  "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "started_at":  "2026-09-08T07:42:25.8081057+05:30",
+    "ended_at":  "2026-09-08T07:42:31.7030321+05:30",
+    "runtime_seconds":  5.8919567,
+    "exit_code":  0,
+    "console_log":  "logs/assumption-phase-typecheck-attempt-02.console.log"
+}

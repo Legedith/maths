@@ -1,0 +1,16 @@
+﻿{
+  "passed": true,
+  "checks": [
+    "query bounds",
+    "summary/body separation",
+    "source packet provenance",
+    "unsafe-link rejection",
+    "nullable metadata",
+    "malformed response rejection",
+    "stable safe identifiers",
+    "result cap",
+    "empty results"
+  ],
+  "scope": "Adapter and source-packet boundary tests; no claim about mathematical truth, search accuracy or browser behavior."
+}
+

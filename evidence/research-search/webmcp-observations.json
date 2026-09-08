@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "environment": "local development site http://localhost:3000/",
+  "date": "2026-09-08",
+  "method": "Focused CUA WebMCP invocation and supported visible-state readback; no general visual QA.",
+  "registered_tool_count": 6,
+  "valid_research": {
+    "tool": "search_research_statements",
+    "query": "compact Hausdorff continuous bijection",
+    "retrieved_at": "2026-09-08T02:14:36.784Z",
+    "returned_count": 8,
+    "theorem_ids_in_order": [
+      26572040, 25852161, 24583129, 24091086, 26414332, 19838333, 19471829,
+      23932742
+    ],
+    "visible_query": "compact Hausdorff continuous bijection",
+    "visible_heading": "8 research results\n\nThese results have not been added to the reviewed map.",
+    "research_button_aria_pressed": "true"
+  },
+  "invalid_research": {
+    "query": "   ",
+    "error": "Describe a mathematical idea in 1–500 characters.",
+    "visible_query_after_rejection": "compact Hausdorff continuous bijection",
+    "visible_heading_after_rejection": "8 research results\n\nThese results have not been added to the reviewed map."
+  },
+  "formal_regression": {
+    "tool": "search_formal_library",
+    "query": "lapMatrix",
+    "returned_count": 23,
+    "first_name": "SimpleGraph.lapMatrix",
+    "formal_button_aria_pressed": "true",
+    "visible_query": "lapMatrix",
+    "visible_heading": "23 declarations found for “lapMatrix”\n\nShowing 23. Results come from the live Loogle index; they have not been added to the curated map."
+  },
+  "retained_setup_misses": [
+    "An initial refresh selected the published version's tab, which correctly did not expose the new tool. The local development tab was then selected.",
+    "An initial formal-query readback used an incorrect label and timed out. It was corrected to the actual component label, Lean declaration name or fragment."
+  ],
+  "scope": "Integration observations only. No claim about source truth, retrieval accuracy, novelty, mathematical coverage or the prospective 24-result study."
+}

@@ -1,0 +1,154 @@
+{
+    "freeze_id":  "assumption-checker-v1-implementation-2026-09-08T07-51-39+05-30",
+    "manifest_sha256":  "3f81fa516b2e9240abdc9141874b2108bc6b02af84de2f62b593a211ce58c8c5",
+    "verified_at":  "2026-09-08T02:25:55.1757495Z",
+    "status":  "all_listed_file_hashes_match",
+    "count":  24,
+    "files":  [
+                  {
+                      "path":  "pyproject.toml",
+                      "expected":  "64c0329072b7e530ee6b553bb82101cd30e0b3a34ca917085533c5727bb426a3",
+                      "actual":  "64c0329072b7e530ee6b553bb82101cd30e0b3a34ca917085533c5727bb426a3",
+                      "matches":  true
+                  },
+                  {
+                      "path":  "README-checks.md",
+                      "expected":  "bbe8243a2967654a0ced0a64927eb6d766ac41c36efe03a8aa64161ee57ca863",
+                      "actual":  "bbe8243a2967654a0ced0a64927eb6d766ac41c36efe03a8aa64161ee57ca863",
+                      "matches":  true
+                  },
+                  {
+                      "path":  "scripts/exhaustive_development.py",
+                      "expected":  "1767eae2b8529a28af31bae72833f4645075ca921d0fe12524e04b732b668f31",
+                      "actual":  "1767eae2b8529a28af31bae72833f4645075ca921d0fe12524e04b732b668f31",
+                      "matches":  true
+                  },
+                  {
+                      "path":  "scripts/weighted-counterexample-input.json",
+                      "expected":  "5c097e35a425812de20bad926bac7a6e4ea9fa0b501f1ad07714424d5b95b324",
+                      "actual":  "5c097e35a425812de20bad926bac7a6e4ea9fa0b501f1ad07714424d5b95b324",
+                      "matches":  true
+                  },
+                  {
+                      "path":  "src/atlas_checks/__init__.py",
+                      "expected":  "c2a7512c2ecfca5bbe67ca895fc756a6826b2a846699946c2d591deb38085e92",
+                      "actual":  "c2a7512c2ecfca5bbe67ca895fc756a6826b2a846699946c2d591deb38085e92",
+                      "matches":  true
+                  },
+                  {
+                      "path":  "src/atlas_checks/__main__.py",
+                      "expected":  "7b4ae5d66b6bb8409ca5753002fbbf51ea6fee986bca2f546c0334e22b92f2b4",
+                      "actual":  "7b4ae5d66b6bb8409ca5753002fbbf51ea6fee986bca2f546c0334e22b92f2b4",
+                      "matches":  true
+                  },
+                  {
+                      "path":  "src/atlas_checks/api.py",
+                      "expected":  "6a0c3424b3f2e4fb1422a2bff2221876ec96e4e13f5586a533baa1e95bdd4d17",
+                      "actual":  "6a0c3424b3f2e4fb1422a2bff2221876ec96e4e13f5586a533baa1e95bdd4d17",
+                      "matches":  true
+                  },
+                  {
+                      "path":  "src/atlas_checks/electrical.py",
+                      "expected":  "be40427533fb3957d329ad8e1180974bc90314b7777e6480762ae5650ee15bb2",
+                      "actual":  "be40427533fb3957d329ad8e1180974bc90314b7777e6480762ae5650ee15bb2",
+                      "matches":  true
+                  },
+                  {
+                      "path":  "src/atlas_checks/expressions.py",
+                      "expected":  "ebf7b2434dd4df26eb1dc16518fb1fb88b72b6729752b7fde65d16ba6fc10134",
+                      "actual":  "ebf7b2434dd4df26eb1dc16518fb1fb88b72b6729752b7fde65d16ba6fc10134",
+                      "matches":  true
+                  },
+                  {
+                      "path":  "src/atlas_checks/graph_math.py",
+                      "expected":  "460b3d7b43055f388e249673811b13f6f90612ba76c0a0b1c56e411287692367",
+                      "actual":  "460b3d7b43055f388e249673811b13f6f90612ba76c0a0b1c56e411287692367",
+                      "matches":  true
+                  },
+                  {
+                      "path":  "src/atlas_checks/linear.py",
+                      "expected":  "467d80a5f007740e63edc559e8ecfe70c27fb1618e092a82068723d50c274132",
+                      "actual":  "467d80a5f007740e63edc559e8ecfe70c27fb1618e092a82068723d50c274132",
+                      "matches":  true
+                  },
+                  {
+                      "path":  "src/atlas_checks/markov.py",
+                      "expected":  "6fe40dedd88cf032c77484cbc1722a49388f72036d59b920586bbbf1e5e2e219",
+                      "actual":  "6fe40dedd88cf032c77484cbc1722a49388f72036d59b920586bbbf1e5e2e219",
+                      "matches":  true
+                  },
+                  {
+                      "path":  "src/atlas_checks/model.py",
+                      "expected":  "c43232afb9993af8aed20f5ab51ab3d80b74997615b3613c766e3a07975a12da",
+                      "actual":  "c43232afb9993af8aed20f5ab51ab3d80b74997615b3613c766e3a07975a12da",
+                      "matches":  true
+                  },
+                  {
+                      "path":  "src/atlas_checks/period.py",
+                      "expected":  "a1e9f85c214e96b36b9058bab12dccd6065e926c23ef3b12bb0ad908c33161bb",
+                      "actual":  "a1e9f85c214e96b36b9058bab12dccd6065e926c23ef3b12bb0ad908c33161bb",
+                      "matches":  true
+                  },
+                  {
+                      "path":  "src/atlas_checks/quantities.py",
+                      "expected":  "a6380c7ab8b43e492a037bfff90bcacf988fa1250a67cf7a841021ac8f71dc3c",
+                      "actual":  "a6380c7ab8b43e492a037bfff90bcacf988fa1250a67cf7a841021ac8f71dc3c",
+                      "matches":  true
+                  },
+                  {
+                      "path":  "src/atlas_checks/trees.py",
+                      "expected":  "6e2447dfc6207acee3c40e942ea08fcec08a6f031dbbfeaf7b57b49ab92abd3e",
+                      "actual":  "6e2447dfc6207acee3c40e942ea08fcec08a6f031dbbfeaf7b57b49ab92abd3e",
+                      "matches":  true
+                  },
+                  {
+                      "path":  "src/atlas_checks/validation.py",
+                      "expected":  "1dee57509e708e133266243a5356742657241e5d838bd9a1945d2d871ecb1e57",
+                      "actual":  "1dee57509e708e133266243a5356742657241e5d838bd9a1945d2d871ecb1e57",
+                      "matches":  true
+                  },
+                  {
+                      "path":  "src/atlas_checks/values.py",
+                      "expected":  "01326d451569901e8e6d2fb5e3137724b4feb92840967d6b3ab85e17344d8614",
+                      "actual":  "01326d451569901e8e6d2fb5e3137724b4feb92840967d6b3ab85e17344d8614",
+                      "matches":  true
+                  },
+                  {
+                      "path":  "tests/__init__.py",
+                      "expected":  "91347d112a664d33f9e6b78238cf499d60d5b737ae26b4874f4e62529dbbfd3e",
+                      "actual":  "91347d112a664d33f9e6b78238cf499d60d5b737ae26b4874f4e62529dbbfd3e",
+                      "matches":  true
+                  },
+                  {
+                      "path":  "tests/helpers.py",
+                      "expected":  "0af2599dc517ed3d2d09249631ea5ac277544a84b4b42b0746c3a134d0f54f7d",
+                      "actual":  "0af2599dc517ed3d2d09249631ea5ac277544a84b4b42b0746c3a134d0f54f7d",
+                      "matches":  true
+                  },
+                  {
+                      "path":  "tests/test_api_development.py",
+                      "expected":  "58361fbf40c4bd6e1de6f7c965b4fe19babbfa9a1e466de8a2d42758e601b62b",
+                      "actual":  "58361fbf40c4bd6e1de6f7c965b4fe19babbfa9a1e466de8a2d42758e601b62b",
+                      "matches":  true
+                  },
+                  {
+                      "path":  "tests/test_cli_development.py",
+                      "expected":  "f5b0ae30d8e0e2097cb32df9fb036e338c90559406924ee323cbd92fbae7cd5e",
+                      "actual":  "f5b0ae30d8e0e2097cb32df9fb036e338c90559406924ee323cbd92fbae7cd5e",
+                      "matches":  true
+                  },
+                  {
+                      "path":  "tests/test_validation_development.py",
+                      "expected":  "0ec222f480fc380b757c6e654e13bc62b533690b63a686a4cd546b35405c6f70",
+                      "actual":  "0ec222f480fc380b757c6e654e13bc62b533690b63a686a4cd546b35405c6f70",
+                      "matches":  true
+                  },
+                  {
+                      "path":  "uv.lock",
+                      "expected":  "60dd28f123eaea3d3c16bd456dd1bc49190ac992f98a18b161eb4a7643964c89",
+                      "actual":  "60dd28f123eaea3d3c16bd456dd1bc49190ac992f98a18b161eb4a7643964c89",
+                      "matches":  true
+                  }
+              ],
+    "scope":  "Root transport and hash check only; independent mathematical verification remains pending."
+}

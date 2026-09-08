@@ -1,0 +1,20 @@
+﻿{
+  "cases": [
+    {
+      "case": "invalid-utf8",
+      "exit_code": 1,
+      "structured_invalid": false
+    },
+    {
+      "case": "parser-depth",
+      "exit_code": 0,
+      "structured_invalid": true
+    },
+    {
+      "case": "parser-integer-limit",
+      "exit_code": 1,
+      "structured_invalid": false
+    }
+  ]
+}
+

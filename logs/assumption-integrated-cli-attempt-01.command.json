@@ -1,0 +1,19 @@
+﻿{
+    "name":  "assumption-integrated-cli-attempt-01",
+    "command_argv":  [
+                         "uv",
+                         "run",
+                         "--frozen",
+                         "python",
+                         "-m",
+                         "atlas_checks",
+                         "fixtures/assumption-checks/weighted-counterexample.json"
+                     ],
+    "command_display":  "uv run --frozen python -m atlas_checks fixtures/assumption-checks/weighted-counterexample.json",
+    "working_directory":  "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "started_at":  "2026-09-08T07:58:33.8611731+05:30",
+    "ended_at":  "2026-09-08T07:58:34.0834383+05:30",
+    "runtime_seconds":  0.2189866,
+    "exit_code":  0,
+    "console_log":  "logs/assumption-integrated-cli-attempt-01.console.log"
+}

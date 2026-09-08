@@ -1,0 +1,1098 @@
+{"checks": 11, "edge_count": 0, "mask": 0, "n": 2, "status": "pass"}
+{"checks": 20, "edge_count": 1, "mask": 1, "n": 2, "status": "pass"}
+{"checks": 23, "edge_count": 0, "mask": 0, "n": 3, "status": "pass"}
+{"checks": 23, "edge_count": 1, "mask": 1, "n": 3, "status": "pass"}
+{"checks": 23, "edge_count": 1, "mask": 2, "n": 3, "status": "pass"}
+{"checks": 48, "edge_count": 2, "mask": 3, "n": 3, "status": "pass"}
+{"checks": 23, "edge_count": 1, "mask": 4, "n": 3, "status": "pass"}
+{"checks": 48, "edge_count": 2, "mask": 5, "n": 3, "status": "pass"}
+{"checks": 48, "edge_count": 2, "mask": 6, "n": 3, "status": "pass"}
+{"checks": 48, "edge_count": 3, "mask": 7, "n": 3, "status": "pass"}
+{"checks": 41, "edge_count": 0, "mask": 0, "n": 4, "status": "pass"}
+{"checks": 41, "edge_count": 1, "mask": 1, "n": 4, "status": "pass"}
+{"checks": 41, "edge_count": 1, "mask": 2, "n": 4, "status": "pass"}
+{"checks": 41, "edge_count": 2, "mask": 3, "n": 4, "status": "pass"}
+{"checks": 41, "edge_count": 1, "mask": 4, "n": 4, "status": "pass"}
+{"checks": 41, "edge_count": 2, "mask": 5, "n": 4, "status": "pass"}
+{"checks": 41, "edge_count": 2, "mask": 6, "n": 4, "status": "pass"}
+{"checks": 90, "edge_count": 3, "mask": 7, "n": 4, "status": "pass"}
+{"checks": 41, "edge_count": 1, "mask": 8, "n": 4, "status": "pass"}
+{"checks": 41, "edge_count": 2, "mask": 9, "n": 4, "status": "pass"}
+{"checks": 41, "edge_count": 2, "mask": 10, "n": 4, "status": "pass"}
+{"checks": 41, "edge_count": 3, "mask": 11, "n": 4, "status": "pass"}
+{"checks": 41, "edge_count": 2, "mask": 12, "n": 4, "status": "pass"}
+{"checks": 90, "edge_count": 3, "mask": 13, "n": 4, "status": "pass"}
+{"checks": 90, "edge_count": 3, "mask": 14, "n": 4, "status": "pass"}
+{"checks": 90, "edge_count": 4, "mask": 15, "n": 4, "status": "pass"}
+{"checks": 41, "edge_count": 1, "mask": 16, "n": 4, "status": "pass"}
+{"checks": 41, "edge_count": 2, "mask": 17, "n": 4, "status": "pass"}
+{"checks": 41, "edge_count": 2, "mask": 18, "n": 4, "status": "pass"}
+{"checks": 90, "edge_count": 3, "mask": 19, "n": 4, "status": "pass"}
+{"checks": 41, "edge_count": 2, "mask": 20, "n": 4, "status": "pass"}
+{"checks": 41, "edge_count": 3, "mask": 21, "n": 4, "status": "pass"}
+{"checks": 90, "edge_count": 3, "mask": 22, "n": 4, "status": "pass"}
+{"checks": 90, "edge_count": 4, "mask": 23, "n": 4, "status": "pass"}
+{"checks": 41, "edge_count": 2, "mask": 24, "n": 4, "status": "pass"}
+{"checks": 90, "edge_count": 3, "mask": 25, "n": 4, "status": "pass"}
+{"checks": 90, "edge_count": 3, "mask": 26, "n": 4, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [1, 2, "1"], [1, 3, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 27, "n": 4, "status": "fail"}
+{"checks": 90, "edge_count": 3, "mask": 28, "n": 4, "status": "pass"}
+{"checks": 90, "edge_count": 4, "mask": 29, "n": 4, "status": "pass"}
+{"checks": 90, "edge_count": 4, "mask": 30, "n": 4, "status": "pass"}
+{"checks": 90, "edge_count": 5, "mask": 31, "n": 4, "status": "pass"}
+{"checks": 41, "edge_count": 1, "mask": 32, "n": 4, "status": "pass"}
+{"checks": 41, "edge_count": 2, "mask": 33, "n": 4, "status": "pass"}
+{"checks": 41, "edge_count": 2, "mask": 34, "n": 4, "status": "pass"}
+{"checks": 90, "edge_count": 3, "mask": 35, "n": 4, "status": "pass"}
+{"checks": 41, "edge_count": 2, "mask": 36, "n": 4, "status": "pass"}
+{"checks": 90, "edge_count": 3, "mask": 37, "n": 4, "status": "pass"}
+{"checks": 41, "edge_count": 3, "mask": 38, "n": 4, "status": "pass"}
+{"checks": 90, "edge_count": 4, "mask": 39, "n": 4, "status": "pass"}
+{"checks": 41, "edge_count": 2, "mask": 40, "n": 4, "status": "pass"}
+{"checks": 90, "edge_count": 3, "mask": 41, "n": 4, "status": "pass"}
+{"checks": 90, "edge_count": 3, "mask": 42, "n": 4, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [1, 2, "1"], [2, 3, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 43, "n": 4, "status": "fail"}
+{"checks": 90, "edge_count": 3, "mask": 44, "n": 4, "status": "pass"}
+{"checks": 90, "edge_count": 4, "mask": 45, "n": 4, "status": "pass"}
+{"checks": 90, "edge_count": 4, "mask": 46, "n": 4, "status": "pass"}
+{"checks": 90, "edge_count": 5, "mask": 47, "n": 4, "status": "pass"}
+{"checks": 41, "edge_count": 2, "mask": 48, "n": 4, "status": "pass"}
+{"checks": 90, "edge_count": 3, "mask": 49, "n": 4, "status": "pass"}
+{"checks": 90, "edge_count": 3, "mask": 50, "n": 4, "status": "pass"}
+{"checks": 90, "edge_count": 4, "mask": 51, "n": 4, "status": "pass"}
+{"checks": 90, "edge_count": 3, "mask": 52, "n": 4, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [1, 3, "1"], [2, 3, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 53, "n": 4, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [1, 3, "1"], [2, 3, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 54, "n": 4, "status": "fail"}
+{"checks": 90, "edge_count": 5, "mask": 55, "n": 4, "status": "pass"}
+{"checks": 41, "edge_count": 3, "mask": 56, "n": 4, "status": "pass"}
+{"checks": 90, "edge_count": 4, "mask": 57, "n": 4, "status": "pass"}
+{"checks": 90, "edge_count": 4, "mask": 58, "n": 4, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [1, 2, "1"], [1, 3, "1"], [2, 3, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 59, "n": 4, "status": "fail"}
+{"checks": 90, "edge_count": 4, "mask": 60, "n": 4, "status": "pass"}
+{"checks": 90, "edge_count": 5, "mask": 61, "n": 4, "status": "pass"}
+{"checks": 90, "edge_count": 5, "mask": 62, "n": 4, "status": "pass"}
+{"checks": 90, "edge_count": 6, "mask": 63, "n": 4, "status": "pass"}
+{"checks": 65, "edge_count": 0, "mask": 0, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 1, "mask": 1, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 1, "mask": 2, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 3, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 1, "mask": 4, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 5, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 6, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 7, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 1, "mask": 8, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 9, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 10, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 11, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 12, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 13, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 14, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 15, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 1, "mask": 16, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 17, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 18, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 19, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 20, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 21, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 22, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 23, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 24, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 25, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 26, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 27, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 28, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 29, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 30, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 31, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 1, "mask": 32, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 33, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 34, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 35, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 36, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 37, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 38, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 39, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 40, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 41, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 42, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 43, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 44, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 45, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 46, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 47, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 48, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 49, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 50, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 51, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 52, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 53, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 54, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 5, "mask": 55, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 56, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 57, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 58, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [1, 3, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 59, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 4, "mask": 60, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 61, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 62, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 63, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 1, "mask": 64, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 65, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 66, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 67, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 68, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 69, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 70, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 71, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 72, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 73, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 74, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 75, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 76, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 77, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 78, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 79, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 80, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 81, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 82, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 83, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 84, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 85, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 86, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [1, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 87, "n": 5, "status": "fail"}
+{"checks": 65, "edge_count": 3, "mask": 88, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 89, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 90, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 5, "mask": 91, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 92, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 93, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 94, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 95, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 96, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 97, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 98, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 99, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 100, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 101, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 102, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 3, "1"], [1, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 103, "n": 5, "status": "fail"}
+{"checks": 65, "edge_count": 3, "mask": 104, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 105, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 106, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 107, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 108, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 5, "mask": 109, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 110, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 111, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 112, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 113, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 114, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 115, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 4, "mask": 116, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 117, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 118, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 119, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 4, "mask": 120, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 121, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 122, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 123, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 124, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 125, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 126, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 127, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 1, "mask": 128, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 129, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 130, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 131, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 132, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 133, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 134, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 135, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 136, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 137, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 138, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 139, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 140, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 141, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 142, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 143, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 144, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 145, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 146, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 147, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 148, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 149, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 150, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 5, "mask": 151, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 152, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 153, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 154, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [2, 3, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 155, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 4, "mask": 156, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 157, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 158, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 159, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 160, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 161, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 162, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 163, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 164, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 165, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 166, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 5, "mask": 167, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 168, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 169, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 170, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 171, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 172, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [0, 4, "1"], [1, 3, "1"], [2, 3, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 173, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [0, 4, "1"], [1, 3, "1"], [2, 3, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 174, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 175, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 176, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 177, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 178, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 5, "mask": 179, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 180, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 5, "mask": 181, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 5, "mask": 182, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 6, "mask": 183, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 184, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 185, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 186, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [1, 3, "1"], [2, 3, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 187, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 188, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 189, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 190, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 191, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 192, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 193, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 194, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 195, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 196, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 197, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 198, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 199, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 200, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 201, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 202, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 4, "1"], [2, 3, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 203, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 4, "mask": 204, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [0, 4, "1"], [1, 4, "1"], [2, 3, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 205, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [0, 4, "1"], [1, 4, "1"], [2, 3, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 206, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 207, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 208, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 209, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 210, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [1, 2, "1"], [1, 4, "1"], [2, 3, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 211, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 4, "mask": 212, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 213, "n": 5, "status": "pass"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [1, 4, "1"], [2, 3, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 214, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [1, 4, "1"], [2, 3, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 215, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 4, "mask": 216, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 4, "1"], [1, 2, "1"], [1, 4, "1"], [2, 3, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 217, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 218, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [1, 4, "1"], [2, 3, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 219, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 220, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 221, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 222, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 223, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 224, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 225, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 226, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 227, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 228, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 229, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 230, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 231, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 4, "mask": 232, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 4, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 233, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 234, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 235, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 236, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [0, 4, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 237, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [0, 4, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 238, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 7, "mask": 239, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 240, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 241, "n": 5, "status": "pass"}
+{"edges": [[0, 2, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 242, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 243, "n": 5, "status": "fail"}
+{"edges": [[0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 244, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 245, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 246, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 247, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 248, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 249, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 250, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 251, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 252, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 253, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 254, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 8, "mask": 255, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 1, "mask": 256, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 257, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 258, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 259, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 260, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 261, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 262, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 263, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 264, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 265, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 266, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 267, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 268, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 269, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 270, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 271, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 272, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 273, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 274, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 275, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 276, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 277, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 278, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 279, "n": 5, "status": "fail"}
+{"checks": 65, "edge_count": 3, "mask": 280, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 281, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 282, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 5, "mask": 283, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 284, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 285, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 286, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 287, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 288, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 289, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 290, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 291, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 292, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 293, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 294, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 295, "n": 5, "status": "fail"}
+{"checks": 65, "edge_count": 3, "mask": 296, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 297, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 298, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 299, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 300, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [0, 4, "1"], [1, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 301, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [0, 4, "1"], [1, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 302, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 303, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 304, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 305, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 306, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [1, 2, "1"], [1, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 307, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 4, "mask": 308, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 309, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 310, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 311, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 4, "mask": 312, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 313, "n": 5, "status": "pass"}
+{"edges": [[0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [1, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 314, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [1, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 315, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 316, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 317, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 318, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 319, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 320, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 321, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 322, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 323, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 324, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 325, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 326, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 327, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 328, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 329, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 330, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 5, "mask": 331, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 332, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [0, 4, "1"], [1, 4, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 333, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [0, 4, "1"], [1, 4, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 334, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 335, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 336, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 337, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 338, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 5, "mask": 339, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 340, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 341, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 342, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [1, 4, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 343, "n": 5, "status": "fail"}
+{"checks": 65, "edge_count": 4, "mask": 344, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 5, "mask": 345, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 5, "mask": 346, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 6, "mask": 347, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 348, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 349, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 350, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 351, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 352, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 353, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 354, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 355, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 356, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [1, 3, "1"], [1, 4, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 357, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 358, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 3, "1"], [1, 4, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 359, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 4, "mask": 360, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 4, "1"], [1, 3, "1"], [1, 4, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 361, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 4, "1"], [1, 3, "1"], [1, 4, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 362, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 363, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 364, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [0, 4, "1"], [1, 3, "1"], [1, 4, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 365, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [0, 4, "1"], [1, 3, "1"], [1, 4, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 366, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 7, "mask": 367, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 368, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 369, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 370, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 371, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 372, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 373, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 374, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 375, "n": 5, "status": "fail"}
+{"edges": [[0, 4, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 376, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 377, "n": 5, "status": "pass"}
+{"edges": [[0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 378, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 379, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 380, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 381, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 382, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 8, "mask": 383, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 384, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 385, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 386, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 387, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 388, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 389, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 390, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 391, "n": 5, "status": "fail"}
+{"checks": 65, "edge_count": 3, "mask": 392, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 393, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 394, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 395, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 396, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 397, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 5, "mask": 398, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 399, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 400, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 401, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 402, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [1, 2, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 403, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 4, "mask": 404, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 405, "n": 5, "status": "pass"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 406, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 407, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 4, "mask": 408, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 409, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 410, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 411, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 412, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 413, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 414, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 415, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 416, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 417, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 418, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 419, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 420, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [1, 3, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 421, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [1, 3, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 422, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 3, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 423, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 4, "mask": 424, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 425, "n": 5, "status": "pass"}
+{"edges": [[0, 2, "1"], [0, 4, "1"], [1, 3, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 426, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 427, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 428, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [0, 4, "1"], [1, 3, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 429, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [0, 4, "1"], [1, 3, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 430, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 7, "mask": 431, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 432, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [1, 2, "1"], [1, 3, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 433, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 434, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [1, 2, "1"], [1, 3, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 435, "n": 5, "status": "fail"}
+{"edges": [[0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 436, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 437, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 438, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 439, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 440, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 441, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 442, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [1, 3, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 443, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 444, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 445, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 446, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 8, "mask": 447, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 448, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 449, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 450, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 451, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 452, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 453, "n": 5, "status": "pass"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 454, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 455, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 456, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 4, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 457, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 4, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 458, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 459, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 460, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [0, 4, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 461, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [0, 4, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 462, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 7, "mask": 463, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 464, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 465, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 466, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [1, 2, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 467, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 468, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 469, "n": 5, "status": "pass"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 470, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 471, "n": 5, "status": "fail"}
+{"edges": [[0, 4, "1"], [1, 2, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 472, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 4, "1"], [1, 2, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 473, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 474, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 475, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 476, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 477, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 478, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 8, "mask": 479, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 480, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 481, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 482, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 483, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 484, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 485, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 486, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 487, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 488, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 4, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 489, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 4, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 490, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 7, "mask": 491, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 492, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [0, 4, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 493, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [0, 4, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 494, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 8, "mask": 495, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 5, "mask": 496, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 497, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 498, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 499, "n": 5, "status": "fail"}
+{"edges": [[0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 500, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 501, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 502, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 503, "n": 5, "status": "fail"}
+{"edges": [[0, 4, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 504, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 7, "mask": 505, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 506, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 507, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 7, "mask": 508, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 8, "mask": 509, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 8, "mask": 510, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 9, "mask": 511, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 1, "mask": 512, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 513, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 514, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 515, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 516, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 517, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 518, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 519, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 520, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 521, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 522, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 523, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 524, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 525, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 526, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 527, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 528, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 529, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 530, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 531, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 532, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 533, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 534, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 535, "n": 5, "status": "fail"}
+{"checks": 65, "edge_count": 3, "mask": 536, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 537, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 538, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 539, "n": 5, "status": "fail"}
+{"checks": 65, "edge_count": 4, "mask": 540, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 541, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 542, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 543, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 544, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 545, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 546, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 547, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 548, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 549, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 550, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 551, "n": 5, "status": "fail"}
+{"checks": 65, "edge_count": 3, "mask": 552, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 553, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 554, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 555, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 556, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 5, "mask": 557, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 558, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 559, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 560, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 561, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 562, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [1, 2, "1"], [1, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 563, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 4, "mask": 564, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 565, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 566, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 567, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 4, "mask": 568, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 569, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 570, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [1, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 571, "n": 5, "status": "fail"}
+{"edges": [[0, 3, "1"], [0, 4, "1"], [1, 2, "1"], [1, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 572, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 573, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 574, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 575, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 576, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 577, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 578, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 579, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 580, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 581, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 582, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 583, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 584, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 585, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 586, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 587, "n": 5, "status": "fail"}
+{"checks": 65, "edge_count": 4, "mask": 588, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 5, "mask": 589, "n": 5, "status": "pass"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [0, 4, "1"], [1, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 590, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 591, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 592, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 593, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 594, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [1, 2, "1"], [1, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 595, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 4, "mask": 596, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 597, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 598, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [1, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 599, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 4, "mask": 600, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 4, "1"], [1, 2, "1"], [1, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 601, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 602, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [1, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 603, "n": 5, "status": "fail"}
+{"edges": [[0, 3, "1"], [0, 4, "1"], [1, 2, "1"], [1, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 604, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 605, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 606, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 607, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 608, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 609, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 610, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 611, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 612, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 5, "mask": 613, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 614, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 3, "1"], [1, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 615, "n": 5, "status": "fail"}
+{"checks": 65, "edge_count": 4, "mask": 616, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 5, "mask": 617, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 618, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 619, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 5, "mask": 620, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 6, "mask": 621, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 622, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 623, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 624, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 625, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 626, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 627, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 628, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 629, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 630, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 631, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 632, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 633, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 634, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 635, "n": 5, "status": "fail"}
+{"edges": [[0, 3, "1"], [0, 4, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 636, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 7, "mask": 637, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 638, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 8, "mask": 639, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 640, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 641, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 642, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 643, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 644, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 645, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 646, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 647, "n": 5, "status": "fail"}
+{"checks": 65, "edge_count": 3, "mask": 648, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 649, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 650, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 651, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 652, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 653, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 5, "mask": 654, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 655, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 656, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 657, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 658, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [1, 2, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 659, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 4, "mask": 660, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 661, "n": 5, "status": "pass"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 662, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 663, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 4, "mask": 664, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 665, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 666, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 667, "n": 5, "status": "fail"}
+{"edges": [[0, 3, "1"], [0, 4, "1"], [1, 2, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 668, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 669, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 670, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 671, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 672, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 673, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 674, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 675, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 676, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [1, 3, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 677, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [1, 3, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 678, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 3, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 679, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 4, "mask": 680, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 681, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 682, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 683, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 684, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [0, 4, "1"], [1, 3, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 685, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [0, 4, "1"], [1, 3, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 686, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 7, "mask": 687, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 688, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [1, 2, "1"], [1, 3, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 689, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [1, 2, "1"], [1, 3, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 690, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [1, 2, "1"], [1, 3, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 691, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 692, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 693, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 694, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 695, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 696, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 697, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 698, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [1, 3, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 699, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 700, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 701, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 702, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 8, "mask": 703, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 704, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 705, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 706, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 707, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 708, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 709, "n": 5, "status": "pass"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [1, 4, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 710, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 711, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 712, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 4, "1"], [1, 4, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 713, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 714, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 4, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 715, "n": 5, "status": "fail"}
+{"edges": [[0, 3, "1"], [0, 4, "1"], [1, 4, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 716, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [0, 4, "1"], [1, 4, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 717, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [0, 4, "1"], [1, 4, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 718, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 7, "mask": 719, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 720, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 721, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 722, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [1, 2, "1"], [1, 4, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 723, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 724, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 725, "n": 5, "status": "pass"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [1, 4, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 726, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [1, 4, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 727, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 728, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 4, "1"], [1, 2, "1"], [1, 4, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 729, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 730, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [1, 4, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 731, "n": 5, "status": "fail"}
+{"edges": [[0, 3, "1"], [0, 4, "1"], [1, 2, "1"], [1, 4, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 732, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 7, "mask": 733, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 734, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 8, "mask": 735, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 736, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 737, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 738, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 739, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 740, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 741, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 742, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 743, "n": 5, "status": "fail"}
+{"edges": [[0, 4, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 744, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 4, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 745, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 746, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 747, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 748, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [0, 4, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 749, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [0, 4, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 750, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 8, "mask": 751, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 5, "mask": 752, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 753, "n": 5, "status": "pass"}
+{"edges": [[0, 2, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 754, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 755, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 756, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 757, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 758, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 759, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 760, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 761, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 762, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 763, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 7, "mask": 764, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 8, "mask": 765, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 8, "mask": 766, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 9, "mask": 767, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 2, "mask": 768, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 769, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 770, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 771, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 772, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 773, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 774, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 775, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 776, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 777, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 778, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 779, "n": 5, "status": "fail"}
+{"checks": 65, "edge_count": 4, "mask": 780, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [0, 4, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 781, "n": 5, "status": "fail"}
+{"checks": 65, "edge_count": 5, "mask": 782, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 783, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 784, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 785, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 786, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [1, 2, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 787, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 4, "mask": 788, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 789, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 790, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 791, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 4, "mask": 792, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 793, "n": 5, "status": "pass"}
+{"edges": [[0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 794, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 795, "n": 5, "status": "fail"}
+{"edges": [[0, 3, "1"], [0, 4, "1"], [1, 2, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 796, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 797, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 798, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 799, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 800, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 801, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 802, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 803, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 804, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [1, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 805, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 806, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 807, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 4, "mask": 808, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 809, "n": 5, "status": "pass"}
+{"edges": [[0, 2, "1"], [0, 4, "1"], [1, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 810, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 811, "n": 5, "status": "pass"}
+{"edges": [[0, 3, "1"], [0, 4, "1"], [1, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 812, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [0, 4, "1"], [1, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 813, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [0, 4, "1"], [1, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 814, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 7, "mask": 815, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 816, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 817, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 818, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [1, 2, "1"], [1, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 819, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 820, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 821, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 822, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 823, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 824, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 825, "n": 5, "status": "pass"}
+{"edges": [[0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [1, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 826, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [1, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 827, "n": 5, "status": "fail"}
+{"edges": [[0, 3, "1"], [0, 4, "1"], [1, 2, "1"], [1, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 828, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 7, "mask": 829, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 830, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 8, "mask": 831, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 832, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 833, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 834, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 835, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 836, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 837, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 838, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 839, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 4, "mask": 840, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 4, "1"], [1, 4, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 841, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 4, "1"], [1, 4, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 842, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 4, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 843, "n": 5, "status": "fail"}
+{"edges": [[0, 3, "1"], [0, 4, "1"], [1, 4, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 844, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [0, 4, "1"], [1, 4, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 845, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [0, 4, "1"], [1, 4, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 846, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 7, "mask": 847, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 848, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [1, 2, "1"], [1, 4, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 849, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [1, 2, "1"], [1, 4, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 850, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [1, 2, "1"], [1, 4, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 851, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 852, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 853, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 854, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [1, 4, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 855, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 856, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 4, "1"], [1, 2, "1"], [1, 4, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 857, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [1, 4, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 858, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [1, 4, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 859, "n": 5, "status": "fail"}
+{"edges": [[0, 3, "1"], [0, 4, "1"], [1, 2, "1"], [1, 4, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 860, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 7, "mask": 861, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 862, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 8, "mask": 863, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 864, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [1, 3, "1"], [1, 4, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 865, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 866, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 867, "n": 5, "status": "pass"}
+{"edges": [[0, 3, "1"], [1, 3, "1"], [1, 4, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 868, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [1, 3, "1"], [1, 4, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 869, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 870, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 3, "1"], [1, 4, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 871, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 872, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 4, "1"], [1, 3, "1"], [1, 4, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 873, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 4, "1"], [1, 3, "1"], [1, 4, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 874, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 7, "mask": 875, "n": 5, "status": "pass"}
+{"edges": [[0, 3, "1"], [0, 4, "1"], [1, 3, "1"], [1, 4, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 876, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [0, 4, "1"], [1, 3, "1"], [1, 4, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 877, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [0, 4, "1"], [1, 3, "1"], [1, 4, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 878, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 8, "mask": 879, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 5, "mask": 880, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 881, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 882, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 883, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 884, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 885, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 7, "mask": 886, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 887, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 888, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 889, "n": 5, "status": "pass"}
+{"edges": [[0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 890, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 891, "n": 5, "status": "fail"}
+{"edges": [[0, 3, "1"], [0, 4, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 892, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 8, "mask": 893, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 8, "mask": 894, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 9, "mask": 895, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 3, "mask": 896, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 897, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 898, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 899, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 900, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 901, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 5, "mask": 902, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 903, "n": 5, "status": "fail"}
+{"checks": 65, "edge_count": 4, "mask": 904, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 905, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 5, "mask": 906, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 907, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 5, "mask": 908, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 909, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 6, "mask": 910, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 911, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 912, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 913, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 914, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [1, 2, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 915, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 916, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 917, "n": 5, "status": "pass"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 918, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 919, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 5, "mask": 920, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 921, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 922, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 923, "n": 5, "status": "fail"}
+{"edges": [[0, 3, "1"], [0, 4, "1"], [1, 2, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 924, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 7, "mask": 925, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 926, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 8, "mask": 927, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 928, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 929, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 930, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 931, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 932, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [1, 3, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 933, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [1, 3, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 934, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 3, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 935, "n": 5, "status": "fail"}
+{"edges": [[0, 4, "1"], [1, 3, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 936, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 937, "n": 5, "status": "pass"}
+{"edges": [[0, 2, "1"], [0, 4, "1"], [1, 3, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 938, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 7, "mask": 939, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 940, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [0, 4, "1"], [1, 3, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 941, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [0, 4, "1"], [1, 3, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 942, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 8, "mask": 943, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 5, "mask": 944, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [1, 2, "1"], [1, 3, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 945, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 946, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [1, 2, "1"], [1, 3, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 947, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 948, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 949, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 950, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 951, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 952, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 953, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 954, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [1, 3, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 955, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 7, "mask": 956, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 8, "mask": 957, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 8, "mask": 958, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 9, "mask": 959, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 4, "mask": 960, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 961, "n": 5, "status": "pass"}
+{"edges": [[0, 2, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 962, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 963, "n": 5, "status": "pass"}
+{"edges": [[0, 3, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 964, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 965, "n": 5, "status": "pass"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 966, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 7, "mask": 967, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 5, "mask": 968, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 4, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 969, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 4, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 970, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 971, "n": 5, "status": "fail"}
+{"edges": [[0, 3, "1"], [0, 4, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 972, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [0, 4, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 973, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [0, 4, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 974, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 8, "mask": 975, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 5, "mask": 976, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 977, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 978, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [1, 2, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 979, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 980, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 981, "n": 5, "status": "pass"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 982, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 983, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 984, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 4, "1"], [1, 2, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 985, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 7, "mask": 986, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 987, "n": 5, "status": "fail"}
+{"edges": [[0, 3, "1"], [0, 4, "1"], [1, 2, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 988, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 8, "mask": 989, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 8, "mask": 990, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 9, "mask": 991, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 5, "mask": 992, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 993, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 994, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 995, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 6, "mask": 996, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 997, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 998, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 999, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 6, "mask": 1000, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 4, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 1001, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 4, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 1002, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 8, "mask": 1003, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 1004, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [0, 4, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 1005, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [0, 4, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 1006, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 9, "mask": 1007, "n": 5, "status": "pass"}
+{"checks": 65, "edge_count": 6, "mask": 1008, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 1009, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 7, "mask": 1010, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 1011, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 7, "mask": 1012, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 1013, "n": 5, "status": "fail"}
+{"edges": [[0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 1014, "n": 5, "status": "fail"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 3, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 1015, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 7, "mask": 1016, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 8, "mask": 1017, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 8, "mask": 1018, "n": 5, "status": "pass"}
+{"edges": [[0, 1, "1"], [0, 2, "1"], [0, 4, "1"], [1, 2, "1"], [1, 3, "1"], [1, 4, "1"], [2, 3, "1"], [2, 4, "1"], [3, 4, "1"]], "error": "period requires a connected graph", "error_type": "ValueError", "mask": 1019, "n": 5, "status": "fail"}
+{"checks": 146, "edge_count": 8, "mask": 1020, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 9, "mask": 1021, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 9, "mask": 1022, "n": 5, "status": "pass"}
+{"checks": 146, "edge_count": 10, "mask": 1023, "n": 5, "status": "pass"}

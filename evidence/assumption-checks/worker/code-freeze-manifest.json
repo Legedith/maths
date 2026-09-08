@@ -1,0 +1,183 @@
+{
+  "freeze_id": "assumption-checker-v1-implementation-2026-09-08T07-51-39+05-30",
+  "frozen_at": "2026-09-08T07:51:39.8879350+05:30",
+  "status": "implementation_frozen_pending_independent_verification",
+  "algorithm_version": "atlas-checks/1.0.0",
+  "environment": {
+    "uv": "0.8.19",
+    "python": "3.13.7",
+    "runtime_dependencies": []
+  },
+  "frozen_contracts": {
+    "D:/CodexWorkspaces/mathematics-atlas/project/docs/assumption-check-contract.md": "6EAF5F003B0CF6F34B7B416EDC229072079244FF0008CF53A208ABC8B40A8E20",
+    "D:/CodexWorkspaces/mathematics-atlas/project/docs/assumption-check-interface.md": "63BEA7E1BE12EF64E172508D235D1F1FF5CBCA137D461C51D849C1EF160A26BF"
+  },
+  "promotion_candidates": [
+    "pyproject.toml",
+    "uv.lock",
+    "README-checks.md",
+    "src/atlas_checks/__init__.py",
+    "src/atlas_checks/__main__.py",
+    "src/atlas_checks/api.py",
+    "src/atlas_checks/electrical.py",
+    "src/atlas_checks/expressions.py",
+    "src/atlas_checks/graph_math.py",
+    "src/atlas_checks/linear.py",
+    "src/atlas_checks/markov.py",
+    "src/atlas_checks/model.py",
+    "src/atlas_checks/period.py",
+    "src/atlas_checks/quantities.py",
+    "src/atlas_checks/trees.py",
+    "src/atlas_checks/validation.py",
+    "src/atlas_checks/values.py",
+    "scripts/weighted-counterexample-input.json"
+  ],
+  "development_only_files": [
+    "scripts/exhaustive_development.py",
+    "tests/__init__.py",
+    "tests/helpers.py",
+    "tests/test_api_development.py",
+    "tests/test_cli_development.py",
+    "tests/test_validation_development.py"
+  ],
+  "file_sha256": {
+    "pyproject.toml": "64C0329072B7E530EE6B553BB82101CD30E0B3A34CA917085533C5727BB426A3",
+    "README-checks.md": "BBE8243A2967654A0CED0A64927EB6D766AC41C36EFE03A8AA64161EE57CA863",
+    "scripts/exhaustive_development.py": "1767EAE2B8529A28AF31BAE72833F4645075CA921D0FE12524E04B732B668F31",
+    "scripts/weighted-counterexample-input.json": "5C097E35A425812DE20BAD926BAC7A6E4EA9FA0B501F1AD07714424D5B95B324",
+    "src/atlas_checks/__init__.py": "C2A7512C2ECFCA5BBE67CA895FC756A6826B2A846699946C2D591DEB38085E92",
+    "src/atlas_checks/__main__.py": "7B4AE5D66B6BB8409CA5753002FBBF51EA6FEE986BCA2F546C0334E22B92F2B4",
+    "src/atlas_checks/api.py": "6A0C3424B3F2E4FB1422A2BFF2221876EC96E4E13F5586A533BAA1E95BDD4D17",
+    "src/atlas_checks/electrical.py": "BE40427533FB3957D329AD8E1180974BC90314B7777E6480762AE5650EE15BB2",
+    "src/atlas_checks/expressions.py": "EBF7B2434DD4DF26EB1DC16518FB1FB88B72B6729752B7FDE65D16BA6FC10134",
+    "src/atlas_checks/graph_math.py": "460B3D7B43055F388E249673811B13F6F90612BA76C0A0B1C56E411287692367",
+    "src/atlas_checks/linear.py": "467D80A5F007740E63EDC559E8ECFE70C27FB1618E092A82068723D50C274132",
+    "src/atlas_checks/markov.py": "6FE40DEDD88CF032C77484CBC1722A49388F72036D59B920586BBBF1E5E2E219",
+    "src/atlas_checks/model.py": "C43232AFB9993AF8AED20F5AB51AB3D80B74997615B3613C766E3A07975A12DA",
+    "src/atlas_checks/period.py": "A1E9F85C214E96B36B9058BAB12DCCD6065E926C23EF3B12BB0AD908C33161BB",
+    "src/atlas_checks/quantities.py": "A6380C7AB8B43E492A037BFFF90BCACF988FA1250A67CF7A841021AC8F71DC3C",
+    "src/atlas_checks/trees.py": "6E2447DFC6207ACEE3C40E942EA08FCEC08A6F031DBBFEAF7B57B49AB92ABD3E",
+    "src/atlas_checks/validation.py": "1DEE57509E708E133266243A5356742657241E5D838BD9A1945D2D871ECB1E57",
+    "src/atlas_checks/values.py": "01326D451569901E8E6D2FB5E3137724B4FEB92840967D6B3AB85E17344D8614",
+    "tests/__init__.py": "91347D112A664D33F9E6B78238CF499D60D5B737AE26B4874F4E62529DBBFD3E",
+    "tests/helpers.py": "0AF2599DC517ED3D2D09249631EA5AC277544A84B4B42B0746C3A134D0F54F7D",
+    "tests/test_api_development.py": "58361FBF40C4BD6E1DE6F7C965B4FE19BABBFA9A1E466DE8A2D42758E601B62B",
+    "tests/test_cli_development.py": "F5B0AE30D8E0E2097CB32DF9FB036E338C90559406924EE323CBD92FBAE7CD5E",
+    "tests/test_validation_development.py": "0EC222F480FC380B757C6E654E13BC62B533690B63A686A4CD546B35405C6F70",
+    "uv.lock": "60DD28F123EAEA3D3C16BD456DD1BC49190AC992F98A18B161EB4A7643964C89"
+  },
+  "chronological_runs": [
+    {
+      "order": 1,
+      "command": "$env:UV_CACHE_DIR='D:/CodexWorkspaces/mathematics-atlas/uv-cache'; uv sync",
+      "exit_code": 0,
+      "raw_log": "logs/uv-sync-attempt01.txt"
+    },
+    {
+      "order": 2,
+      "command": "uv run --no-project python -c <initial invalid-input API smoke>",
+      "exit_code": 0,
+      "result": "invalid_input",
+      "raw_log": "logs/smoke-attempt01.txt"
+    },
+    {
+      "order": 3,
+      "command": "$env:UV_CACHE_DIR='D:/CodexWorkspaces/mathematics-atlas/uv-cache'; uv run pytest",
+      "exit_code": 0,
+      "result": "51 passed",
+      "raw_log": "logs/pytest-attempt01.txt"
+    },
+    {
+      "order": 4,
+      "commands": [
+        "$env:UV_CACHE_DIR='D:/CodexWorkspaces/mathematics-atlas/uv-cache'; uv run pytest",
+        "$env:UV_CACHE_DIR='D:/CodexWorkspaces/mathematics-atlas/uv-cache'; uv run python scripts/exhaustive_development.py --max-n 5 --output logs/exhaustive-development-attempt01.jsonl --summary logs/exhaustive-development-summary-attempt01.json"
+      ],
+      "exit_codes": [0, 1],
+      "result": "52 tests passed; exhaustive run found 263 period-certificate failures",
+      "raw_logs": [
+        "logs/pytest-attempt02.txt",
+        "logs/exhaustive-development-attempt01.txt",
+        "logs/exhaustive-development-attempt01.jsonl",
+        "logs/exhaustive-development-summary-attempt01.json"
+      ],
+      "resolution": "BFS had stopped at the first same-color conflict and left later vertices uncolored; traversal now completes while retaining the conflict, with a triangle-plus-tail regression case."
+    },
+    {
+      "order": 5,
+      "commands": [
+        "$env:UV_CACHE_DIR='D:/CodexWorkspaces/mathematics-atlas/uv-cache'; uv run pytest",
+        "$env:UV_CACHE_DIR='D:/CodexWorkspaces/mathematics-atlas/uv-cache'; uv run python scripts/exhaustive_development.py --max-n 5 --output logs/exhaustive-development-attempt02.jsonl --summary logs/exhaustive-development-summary-attempt02.json"
+      ],
+      "exit_codes": [0, 0],
+      "result": "52 tests passed; 1098/1098 graphs and 130329/130329 exact checks passed",
+      "raw_logs": [
+        "logs/pytest-attempt03.txt",
+        "logs/exhaustive-development-attempt02.txt",
+        "logs/exhaustive-development-attempt02.jsonl",
+        "logs/exhaustive-development-summary-attempt02.json"
+      ]
+    },
+    {
+      "order": 6,
+      "command": "$env:UV_CACHE_DIR='D:/CodexWorkspaces/mathematics-atlas/uv-cache'; uv run pytest",
+      "exit_code": 0,
+      "result": "56 passed",
+      "raw_log": "logs/pytest-attempt04.txt"
+    },
+    {
+      "order": 7,
+      "commands": [
+        "$env:UV_CACHE_DIR='D:/CodexWorkspaces/mathematics-atlas/uv-cache'; uv run pytest",
+        "$env:UV_CACHE_DIR='D:/CodexWorkspaces/mathematics-atlas/uv-cache'; uv run python scripts/exhaustive_development.py --max-n 5 --output logs/exhaustive-development-final.jsonl --summary logs/exhaustive-development-final-summary.json",
+        "$env:UV_CACHE_DIR='D:/CodexWorkspaces/mathematics-atlas/uv-cache'; uv lock --check"
+      ],
+      "exit_codes": [0, 0, 0],
+      "result": "57 passed; 1098/1098 graphs and 130329/130329 exact checks passed; lock resolved",
+      "raw_logs": [
+        "logs/pytest-final.txt",
+        "logs/exhaustive-development-final.txt",
+        "logs/exhaustive-development-final.jsonl",
+        "logs/exhaustive-development-final-summary.json",
+        "logs/uv-lock-check-final.txt"
+      ]
+    },
+    {
+      "order": 8,
+      "command": "$env:UV_CACHE_DIR='D:/CodexWorkspaces/mathematics-atlas/uv-cache'; uv run python -m atlas_checks scripts/weighted-counterexample-input.json",
+      "exit_code": 0,
+      "result": "counterexample; exact commute 9 versus transferred expression 6",
+      "raw_log": "logs/weighted-counterexample-output.json"
+    }
+  ],
+  "canonical_development_results": {
+    "pytest": {"passed": 57, "failed": 0, "runtime_seconds": 0.41},
+    "exhaustive": {
+      "graphs": 1098,
+      "exact_checks": 130329,
+      "passed_graphs": 1098,
+      "failed_graphs": 0,
+      "max_n": 5
+    },
+    "uv_lock_check_exit_code": 0,
+    "weighted_example": {
+      "verdict": "counterexample",
+      "commute": "9",
+      "resistance": "3/2",
+      "transferred_right_hand_side": "6"
+    }
+  },
+  "evidence_sha256": {
+    "logs/exhaustive-development-attempt01.jsonl": "6E6D47A55D743762D7E0000850C62B7FB9A472D69A19078E92B7CCCAB5744278",
+    "logs/exhaustive-development-attempt01.txt": "0BB87489B4F1E78DBBF7EAD4523E5BE354B9DE6E5381C2D23C86777D69E64CC4",
+    "logs/exhaustive-development-summary-attempt01.json": "3AACA5AF5D5B927EA82C3B8CB1C977E76942202297E7529648CF5E8EC2AFCC2B",
+    "logs/exhaustive-development-final.jsonl": "B9433DCF2B2923E5CF83BEDD1D2ADC937B610B509579A61493C09BEF477E0225",
+    "logs/exhaustive-development-final-summary.json": "B533C662624ADF9BC755BCC44C01BF4E6CFB81E1380D811B8EB251EB2310FCD9",
+    "logs/exhaustive-development-final.txt": "B441ABD831950FBF26D246F64435ED5952D2C66C2952DE71C222F298739C494A",
+    "logs/pytest-final.txt": "8C8F10ADB0D093C9317A8E08F5DFD9EE753B5FD1B307DD37681FBF4775523370",
+    "logs/source-locators.jsonl": "FCBA884609EACC9BB95510F4AB0FF38A2E4B9C707B16C5A8A4C3E13C7F2AD40F",
+    "logs/uv-lock-check-final.txt": "945ABD45BBA4025CE3312E5E3AE32BFE2D2B58E18B91889B52D3CE2E62B1EAC4",
+    "logs/weighted-counterexample-output.json": "9A8A35CCFB2D65634478C902F02E516510863279040B78876A9F21D0F8152430"
+  },
+  "scope_statement": "Development evidence only. The implementation worker has not accessed independent evaluation cases or gold labels and does not certify the final evidence gate."
+}

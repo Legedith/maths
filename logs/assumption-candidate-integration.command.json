@@ -1,0 +1,17 @@
+﻿{
+    "name":  "assumption-candidate-integration",
+    "command_argv":  [
+                         "uv",
+                         "run",
+                         "--frozen",
+                         "python",
+                         "..\\integration-work\\integrate_assumption_checker.py"
+                     ],
+    "command_display":  "uv run --frozen python ..\\integration-work\\integrate_assumption_checker.py",
+    "working_directory":  "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "started_at":  "2026-09-08T07:58:07.3611437+05:30",
+    "ended_at":  "2026-09-08T07:58:07.8444648+05:30",
+    "runtime_seconds":  0.48087149999999995,
+    "exit_code":  0,
+    "console_log":  "logs/assumption-candidate-integration.console.log"
+}

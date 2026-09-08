@@ -1,0 +1,3 @@
+﻿app/page.tsx:361:15: error jsx-a11y(prefer-tag-over-role): Prefer `address, details, fieldset, hgroup, optgroup` over `role` attribute `group`. help: Replace HTML elements with `role` attribute `group` to corresponding semantic HTML tag `address, details, fieldset, hgroup, optgroup`.
+lib/research-search.ts:81:52: error typescript(restrict-template-expressions): Invalid type used in template literal expression.
+

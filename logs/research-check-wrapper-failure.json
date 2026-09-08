@@ -1,0 +1,8 @@
+{
+  "status": "failed_before_execution",
+  "stage": "PowerShell parameter binding",
+  "affected_attempts": ["research-adapter-tests-attempt-01", "assumption-phase-typecheck-attempt-01", "research-ui-lint-attempt-01"],
+  "error": "A positional parameter cannot be found that accepts argument 'scripts/check-research-search.ts' / '--noEmit' / 'app/page.tsx'.",
+  "cause": "The caller supplied separate positional tokens instead of an array to the named Command parameter.",
+  "correction": "Rerun with -Command @('executable', 'argument', ...). No evaluator executed in the failed calls."
+}

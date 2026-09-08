@@ -1,0 +1,14 @@
+﻿{
+    "name":  "research-final-typecheck",
+    "command_argv":  [
+                         ".\\node_modules\\.bin\\tsc.cmd",
+                         "--noEmit"
+                     ],
+    "command_display":  ".\\node_modules\\.bin\\tsc.cmd --noEmit",
+    "working_directory":  "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "started_at":  "2026-09-08T07:58:33.8804919+05:30",
+    "ended_at":  "2026-09-08T07:58:37.4428944+05:30",
+    "runtime_seconds":  3.5571192,
+    "exit_code":  0,
+    "console_log":  "logs/research-final-typecheck.console.log"
+}

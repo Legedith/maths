@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "run_id": "assumption-checks-v1",
+  "objective": "Develop and independently evaluate a general exact structured mathematical transfer checker and a separately annotated prospective theorem-retrieval study; preserve the larger mapping and discovery objective.",
+  "created_at": "2026-09-08T01:57:57.843633Z",
+  "task_spec_artifact_id": "A001",
+  "evaluator_command": null,
+  "artifacts": [
+    {
+      "id": "A001",
+      "kind": "spec",
+      "path": "docs/assumption-check-contract.md",
+      "producer": "user-or-orchestrator",
+      "sha256": "6eaf5f003b0cf6f34b7b416edc229072079244ff0008cf53a208abc8b40a8e20"
+    },
+    {
+      "id": "A002",
+      "kind": "spec",
+      "path": "docs/assumption-check-interface.md",
+      "producer": "user-or-orchestrator",
+      "sha256": "63bea7e1be12ef64e172508d235d1f1ff5cbca137d461c51d849c1ef160a26bf"
+    },
+    {
+      "id": "A003",
+      "kind": "spec",
+      "path": "docs/assumption-check-clarifications.md",
+      "producer": "user-or-orchestrator",
+      "sha256": "3c4569b9e8f534253b45a629afb8b43d82c3f3b384fd15a4c1a4d7930c642bb2"
+    },
+    {
+      "id": "A004",
+      "kind": "spec",
+      "path": "docs/assumption-check-clarification-2.md",
+      "producer": "user-or-orchestrator",
+      "sha256": "f4d886d29c6f61951c26eb4b9b3209a562a2be6f65fc55abe9d56cc68e576edd"
+    },
+    {
+      "id": "A005",
+      "kind": "spec",
+      "path": "fixtures/retrieval-study-v1.json",
+      "producer": "user-or-orchestrator",
+      "sha256": "848ac3e25222af20cf86429b9648d9c282275a437f69401f51f300e9279ff224"
+    },
+    {
+      "id": "A006",
+      "kind": "source",
+      "path": "evidence/research-search/provider-source-notes.json",
+      "producer": "root-source-reading",
+      "sha256": "7f8b696fb9fd29849ee20dbd0f04d5458491b74cccb454cf824e32bcc7e6e760"
+    },
+    {
+      "id": "A007",
+      "kind": "report",
+      "path": "evidence/assumption-checks/prospective-audit/contract-audit.md",
+      "producer": "independent-verifier-sol-atlas-audit",
+      "sha256": "a9c11582956efe38b56eb656e04cd27f7a0e9bfec7530a5e7eb2b6195a5d161e"
+    },
+    {
+      "id": "A008",
+      "kind": "spec",
+      "path": "evidence/assumption-checks/prospective-audit/evaluation-plan.md",
+      "producer": "independent-verifier-sol-atlas-audit",
+      "sha256": "f990ff143b329cfd671fe16e8501cb8422ff2fbaf81b29627fe8e17373069f20"
+    },
+    {
+      "id": "A009",
+      "kind": "spec",
+      "path": "evidence/assumption-checks/prospective-audit/evaluator-schema-public.json",
+      "producer": "independent-verifier-sol-atlas-audit",
+      "sha256": "b02f344e984d9a450a1fa1e248b5dfe97c3379e5f317b2e4b4b4280385c61dc2"
+    },
+    {
+      "id": "A010",
+      "kind": "log",
+      "path": "evidence/assumption-checks/prospective-audit/sealed-suite-manifest.json",
+      "producer": "independent-verifier-sol-atlas-audit",
+      "sha256": "b2c36372e5207f521c804ab9cf0a1b0eb09ebef1cab1eeac10b9ed19712231a1"
+    },
+    {
+      "id": "A011",
+      "kind": "source",
+      "path": "evidence/assumption-checks/prospective-audit/source-locators.json",
+      "producer": "independent-verifier-sol-atlas-audit",
+      "sha256": "87733a023fa8c3393fe54b5bba7748abbf94c85d23afd31144e67b194fba6361"
+    }
+  ],
+  "claims": [],
+  "checks": [
+    {
+      "id": "implementation_alignment",
+      "status": "pending",
+      "auditor": "unassigned",
+      "evidence": [],
+      "note": ""
+    },
+    {
+      "id": "reproduction",
+      "status": "pending",
+      "auditor": "unassigned",
+      "evidence": [],
+      "note": ""
+    },
+    {
+      "id": "source_verification",
+      "status": "pending",
+      "auditor": "unassigned",
+      "evidence": [],
+      "note": ""
+    },
+    {
+      "id": "specification_compliance",
+      "status": "pending",
+      "auditor": "unassigned",
+      "evidence": [],
+      "note": ""
+    }
+  ],
+  "limitations": [
+    "Implementation and independent evaluation are in progress; no semantic gate is claimed passed.",
+    "The blinded structured suite and both prospective retrieval reviews remain separate from development fixtures."
+  ]
+}
