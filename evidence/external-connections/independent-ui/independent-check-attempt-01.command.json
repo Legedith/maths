@@ -1,0 +1,23 @@
+{
+  "schema_version": "independent-command-v1",
+  "argv": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\relation-ui-review-work\\audit\\check-frozen-ui-api.mjs"
+  ],
+  "cwd": "D:/CodexWorkspaces/mathematics-atlas/relation-ui-review-work/audit",
+  "started_at_utc": "2026-09-08T06:19:12.3901562Z",
+  "ended_at_utc": "2026-09-08T06:19:12.8670403Z",
+  "elapsed_seconds": 0.4768841,
+  "exit_code": 1,
+  "stdout": {
+    "path": "independent-check.stdout.json",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stderr": {
+    "path": "independent-check.stderr.log",
+    "bytes": 429,
+    "sha256": "3ce4bfcdd3116c26a5dc2a7b602f4302ba861a0399671e6be6c6a4c8572f2bdc"
+  },
+  "node_version": "v24.12.0"
+}

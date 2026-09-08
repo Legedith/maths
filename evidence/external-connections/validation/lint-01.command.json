@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "C:\\Program Files\\nodejs\\npm.CMD",
+    "run",
+    "lint"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+  "started_at": "2026-09-08T06:07:25.798502+00:00",
+  "ended_at": "2026-09-08T06:07:27.956760+00:00",
+  "exit_code": 1
+}

@@ -1,0 +1,264 @@
+{
+  "schema_version": "mathgloss-wikidata-provenance-probe-findings-v1",
+  "created_at_utc": "2026-09-08T05:24:13.569051+00:00",
+  "status": "three_preselected_exploratory_rows_completed",
+  "inputs": {
+    "frozen_inputs_path": "frozen-inputs.json",
+    "frozen_inputs_sha256": "0d651c128bc77695df9e3737956e0b8ce7dc16cd68b78e9554b12e8b7017284b",
+    "raw_response_path": "wikidata-response.json",
+    "raw_response_sha256": "b1c172ecdb9784ab3412431517740c1e7c9505d3f52d180a9f2870dad5878655",
+    "raw_response_bytes": 15595
+  },
+  "request_observation": {
+    "method": "GET",
+    "requested_url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&formatversion=2&ids=Q1000116%7CQ1000660%7CQ1051696&props=info%7Cclaims",
+    "started_at_utc": "2026-09-08T05:21:17.1946388+00:00",
+    "ended_at_utc": "2026-09-08T05:21:18.0403102+00:00",
+    "http_status": 200,
+    "response_content_type": "application/json; charset=utf-8",
+    "server_date": "Tue, 08 Sep 2026 05:21:17 GMT",
+    "x_request_id": "ea759863-c914-43b5-a82f-ab9ef149b573",
+    "api_success": 1
+  },
+  "cases": [
+    {
+      "property_id": "P279",
+      "csv_row": {
+        "source_id": "Q1000116",
+        "source_label": "axiom of countable choice",
+        "target_id": "Q179692",
+        "target_label": "axiom of choice",
+        "logical_data_record_1_based": 23,
+        "physical_lines_1_based": [
+          24,
+          24
+        ]
+      },
+      "entity_response": {
+        "present": true,
+        "pageid": 949649,
+        "lastrevid": 2464905102,
+        "modified": "2026-02-20T10:20:01Z"
+      },
+      "property_statement_count": 1,
+      "matching_statement_count": 1,
+      "matching_statements": [
+        {
+          "claim_array_index": 0,
+          "statement_id": "Q1000116$c413fb0a-44a0-002c-c229-b2806eda7853",
+          "statement_type": "statement",
+          "rank": "normal",
+          "mainsnak": {
+            "property_id": "P279",
+            "snaktype": "value",
+            "hash": "7057fa46417d033c7875d7092f94f9ad727c66ae",
+            "datatype": "wikibase-item",
+            "datavalue": {
+              "type": "wikibase-entityid",
+              "value": {
+                "id": "Q179692",
+                "entity_type": "item",
+                "numeric_id": 179692
+              }
+            }
+          },
+          "qualifiers": [],
+          "qualifier_order": [],
+          "references": []
+        }
+      ],
+      "missing_or_failed_replacement_used": false,
+      "csv_omissions_compared_to_matching_current_statement": {
+        "statement_id": true,
+        "rank": true,
+        "mainsnak_hash": true,
+        "qualifiers": true,
+        "references_field": true,
+        "entity_lastrevid": true,
+        "entity_modified": true
+      }
+    },
+    {
+      "property_id": "P460",
+      "csv_row": {
+        "source_id": "Q1051696",
+        "source_label": "NS5-brane",
+        "target_id": "Q28649150",
+        "target_label": "M5-brane",
+        "logical_data_record_1_based": 175,
+        "physical_lines_1_based": [
+          176,
+          176
+        ]
+      },
+      "entity_response": {
+        "present": true,
+        "pageid": 1000677,
+        "lastrevid": 2429536034,
+        "modified": "2025-11-14T14:42:12Z"
+      },
+      "property_statement_count": 1,
+      "matching_statement_count": 1,
+      "matching_statements": [
+        {
+          "claim_array_index": 0,
+          "statement_id": "Q1051696$4412a53f-44f9-cad4-9731-c4f99d820ea7",
+          "statement_type": "statement",
+          "rank": "normal",
+          "mainsnak": {
+            "property_id": "P460",
+            "snaktype": "value",
+            "hash": "6b54ed62181d0a159c715b38b6b5da59c9d23fc1",
+            "datatype": "wikibase-item",
+            "datavalue": {
+              "type": "wikibase-entityid",
+              "value": {
+                "id": "Q28649150",
+                "entity_type": "item",
+                "numeric_id": 28649150
+              }
+            }
+          },
+          "qualifiers": [
+            {
+              "property_id": "P518",
+              "snaktype": "value",
+              "hash": "4378bbad6dbdc4b1f8f507d93c595fb5778f2632",
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "id": "Q9085982",
+                  "entity_type": "item",
+                  "numeric_id": 9085982
+                }
+              }
+            }
+          ],
+          "qualifier_order": [
+            "P518"
+          ],
+          "references": []
+        }
+      ],
+      "missing_or_failed_replacement_used": false,
+      "csv_omissions_compared_to_matching_current_statement": {
+        "statement_id": true,
+        "rank": true,
+        "mainsnak_hash": true,
+        "qualifiers": true,
+        "references_field": true,
+        "entity_lastrevid": true,
+        "entity_modified": true
+      }
+    },
+    {
+      "property_id": "P1889",
+      "csv_row": {
+        "source_id": "Q1000660",
+        "source_label": "algebra over a field",
+        "target_id": "Q2030545",
+        "target_label": "algebra over a ring",
+        "logical_data_record_1_based": 26,
+        "physical_lines_1_based": [
+          27,
+          27
+        ]
+      },
+      "entity_response": {
+        "present": true,
+        "pageid": 950189,
+        "lastrevid": 2541300043,
+        "modified": "2026-09-06T20:28:20Z"
+      },
+      "property_statement_count": 1,
+      "matching_statement_count": 1,
+      "matching_statements": [
+        {
+          "claim_array_index": 0,
+          "statement_id": "Q1000660$a08b7033-4356-b859-1568-310fe7b273d5",
+          "statement_type": "statement",
+          "rank": "normal",
+          "mainsnak": {
+            "property_id": "P1889",
+            "snaktype": "value",
+            "hash": "c68d051b50becdcdbddeb6cd479369cceff94567",
+            "datatype": "wikibase-item",
+            "datavalue": {
+              "type": "wikibase-entityid",
+              "value": {
+                "id": "Q2030545",
+                "entity_type": "item",
+                "numeric_id": 2030545
+              }
+            }
+          },
+          "qualifiers": [],
+          "qualifier_order": [],
+          "references": []
+        }
+      ],
+      "missing_or_failed_replacement_used": false,
+      "csv_omissions_compared_to_matching_current_statement": {
+        "statement_id": true,
+        "rank": true,
+        "mainsnak_hash": true,
+        "qualifiers": true,
+        "references_field": true,
+        "entity_lastrevid": true,
+        "entity_modified": true
+      }
+    }
+  ],
+  "aggregate_observation": {
+    "preselected_rows": 3,
+    "source_entities_returned": 3,
+    "matching_statement_rows": 3,
+    "matching_statement_objects": 3,
+    "matching_normal_rank": 3,
+    "matching_with_qualifiers": 1,
+    "matching_with_references": 0,
+    "notable_qualifier": "The P460 match has P518 with item value Q9085982; P279 and P1889 matches have no qualifiers in this response."
+  },
+  "old_export_comparison": {
+    "old_fields": [
+      "source_id",
+      "source_label",
+      "property_id",
+      "property_label",
+      "target_id",
+      "target_label"
+    ],
+    "finding": "The old CSV retained a direct triple and labels only. It had no capacity to retain statement identity, rank, mainsnak hash, qualifiers, references, entity revision, modified timestamp, or fetch metadata.",
+    "reference_precision": "All three current matches have zero references. The old schema still cannot distinguish a checked zero-reference observation from metadata that was never queried.",
+    "current_api_capability": "This wbgetentities response carries statement IDs, rank, complete qualifier/reference containers, and per-entity lastrevid/modified fields, so a later candidate import can retain materially better provenance than a bare triple."
+  },
+  "safe_reuse_recommendation": {
+    "minimum_fields_for_a_later_probe_or_import": [
+      "requested_url",
+      "retrieved_at_utc",
+      "raw_response_sha256",
+      "source_qid",
+      "property_id",
+      "target_qid",
+      "entity_lastrevid",
+      "entity_modified",
+      "statement_id",
+      "rank",
+      "mainsnak_hash",
+      "qualifiers",
+      "references",
+      "original_csv_sha256",
+      "original_csv_record_locator",
+      "review_status"
+    ],
+    "policy": "Keep the record as an unreviewed external assertion and preserve the raw response. Qualifiers must stay attached to the statement. A missing match must be retained as missing rather than replaced. Statement presence does not establish truth or mathematical equivalence."
+  },
+  "limits": [
+    "The three rows were purposively property-stratified after deterministic within-property selection; they are not a random sample.",
+    "Three matches cannot estimate persistence, error rate, completeness, reference quality, or import accuracy.",
+    "The API response is a time-stamped observation and not a frozen Wikidata dump.",
+    "No cited source behind a Wikidata statement was assessed.",
+    "No equivalence, truth, accuracy, or mathematical validity claim is made."
+  ]
+}

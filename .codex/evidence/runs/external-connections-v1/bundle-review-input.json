@@ -1,0 +1,920 @@
+{
+  "schema_version": "1.0",
+  "run_id": "external-connections-v1",
+  "objective": "Reuse the pinned MathGloss relationship export for directed concept navigation with exact source rows, distinct property types and separately preserved Wikidata statement metadata; make no equivalence, novelty or productivity claim.",
+  "created_at": "2026-09-08T05:50:37.493939Z",
+  "task_spec_artifact_id": "A016",
+  "evaluator_command": "node scripts/check-external-relations.ts",
+  "artifacts": [
+    {
+      "id": "A001",
+      "kind": "code",
+      "path": ".github/workflows/external-connections.yml",
+      "sha256": "21cbbbae6b69f41bbfbe5e98c3e23d2e41b427eba0355fc6e7ac7e44841857e1",
+      "producer": "/root"
+    },
+    {
+      "id": "A002",
+      "kind": "code",
+      "path": "app/api/concept-library/route.ts",
+      "sha256": "07267a6a061ce776a66db568f7986558537551372fddaa87cab8a976e5fbdb9b",
+      "producer": "/root"
+    },
+    {
+      "id": "A003",
+      "kind": "code",
+      "path": "app/api/external-relations/route.ts",
+      "sha256": "a53e2e5eca38ab08d33126ef22f75318712a5620bd26f666cbf6eece141ff998",
+      "producer": "/root"
+    },
+    {
+      "id": "A004",
+      "kind": "code",
+      "path": "app/connections/page.tsx",
+      "sha256": "ac90cc98ad743d978f81d45b910d2bc9ac28e64a38abab7fbfd23cb49f81ba90",
+      "producer": "/root"
+    },
+    {
+      "id": "A005",
+      "kind": "code",
+      "path": "app/page.tsx",
+      "sha256": "21500cf3c158b7f98543d79b62ab8871f023793fa402ab0865f17f8571a14070",
+      "producer": "/root"
+    },
+    {
+      "id": "A006",
+      "kind": "code",
+      "path": "components/external-connections.module.css",
+      "sha256": "627e448d1afec55946d278981478ce1f062e6f828f82a7066a223c2e24499359",
+      "producer": "/root"
+    },
+    {
+      "id": "A007",
+      "kind": "code",
+      "path": "components/external-connections.tsx",
+      "sha256": "a701d8c4694963016f384d597831ea95251b31e853f891fa8342e596b1912a56",
+      "producer": "/root"
+    },
+    {
+      "id": "A008",
+      "kind": "report",
+      "path": "data/mathgloss/candidate-index.json",
+      "sha256": "282ed1fd858595b782c856fbd2c96964a0b6ff3850fedf21105ca9bbb7edb4da",
+      "producer": "/root"
+    },
+    {
+      "id": "A009",
+      "kind": "source",
+      "path": "data/mathgloss/MATHGLOSS-LICENSE",
+      "sha256": "5dc6b930900926814fc7bb9ff45dfcceae3aa33780eb010c83e6df58493594e7",
+      "producer": "/root"
+    },
+    {
+      "id": "A010",
+      "kind": "result",
+      "path": "data/mathgloss/relations/relation-index.json",
+      "sha256": "9f5f4d53c2c95cad05a61bc5a936300e277a60fd1e63e163c6d9eb799b34bdb1",
+      "producer": "/root"
+    },
+    {
+      "id": "A011",
+      "kind": "result",
+      "path": "data/mathgloss/relations/relation-ledger.json",
+      "sha256": "fc0d04344de071ef6ea79c3950ae6475989a6fe6ac6c17724d53d03e757d86a7",
+      "producer": "/root"
+    },
+    {
+      "id": "A012",
+      "kind": "result",
+      "path": "data/mathgloss/relations/relation-summary.json",
+      "sha256": "44292c55f303bc16f9eb96a20f2eac6733aee70062533dc514546062bd3df7f0",
+      "producer": "/root"
+    },
+    {
+      "id": "A013",
+      "kind": "source",
+      "path": "data/mathgloss/relations/source/graph_edges.csv",
+      "sha256": "54f58f2fe3303c7caf139132cd4301b44643c735334469ebcd7f995cc7884aec",
+      "producer": "/root"
+    },
+    {
+      "id": "A014",
+      "kind": "source",
+      "path": "data/mathgloss/source/database.csv",
+      "sha256": "933a72820fe7ede53a803b750a480def205677e5722ae5f9589b0d1d9bf832b2",
+      "producer": "/root"
+    },
+    {
+      "id": "A015",
+      "kind": "report",
+      "path": "docs/external-connections.md",
+      "sha256": "542aadd8aca550a1899a0500493ff7077d614452b406a41db47c7ff330a100f0",
+      "producer": "/root"
+    },
+    {
+      "id": "A016",
+      "kind": "spec",
+      "path": "docs/relation-explorer-contract.md",
+      "sha256": "dc2f005ebc13533d07abe19731b8684968be4bf46505d94bc1c842edb0758370",
+      "producer": "/root"
+    },
+    {
+      "id": "A017",
+      "kind": "spec",
+      "path": "docs/relation-import-interface.md",
+      "sha256": "52ac14f024e4e29e8eacf9b289d92fd3efc8cf0fc95fca4cd95a8cc44e603ba0",
+      "producer": "/root"
+    },
+    {
+      "id": "A018",
+      "kind": "code",
+      "path": "evidence/external-connections/app-page-before.tsx",
+      "sha256": "f2353e35324a75b589acec59050f4cb9568a0677b6bcdffaf00fe20271f8ba8e",
+      "producer": "/root"
+    },
+    {
+      "id": "A019",
+      "kind": "report",
+      "path": "evidence/external-connections/application-freeze.json",
+      "sha256": "51033889d3d1b7666349fd51d97b56cf5c9fe014f17817ae671ffa91d934547c",
+      "producer": "/root"
+    },
+    {
+      "id": "A020",
+      "kind": "report",
+      "path": "evidence/external-connections/author/input-freeze.json",
+      "sha256": "66fd1e4950bc519d08a2ef72852bbb9649471864c59ffd710699c84058b658de",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A021",
+      "kind": "log",
+      "path": "evidence/external-connections/author/logs/canonical-command.txt",
+      "sha256": "8304dfd4e7f978046c7f40a48dee5b1a2f323746d47fbf74784fa02733c2435b",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A022",
+      "kind": "report",
+      "path": "evidence/external-connections/author/logs/canonical-exit.json",
+      "sha256": "1641347910b9f8011bd2eff7ebf6685ff1a3022188274aa93771eb8b20135e93",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A023",
+      "kind": "report",
+      "path": "evidence/external-connections/author/logs/canonical-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A024",
+      "kind": "report",
+      "path": "evidence/external-connections/author/logs/canonical-stdout.txt",
+      "sha256": "50c1e02f7d3effaf94f3547e3c92454137bd4dfa7fb7b580dc64d58211afd9fc",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A025",
+      "kind": "report",
+      "path": "evidence/external-connections/author/logs/postrun-tests.json",
+      "sha256": "196d87c36c911ca54be146f21d26d05269461841a8c726097c6f2abcb339fc12",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A026",
+      "kind": "report",
+      "path": "evidence/external-connections/author/logs/preflight.json",
+      "sha256": "23de4f077421249811b374a4f871690b2410f8a915953121337d890f3bd36203",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A027",
+      "kind": "code",
+      "path": "evidence/external-connections/author/pyproject.toml",
+      "sha256": "2eded9e06b46cf660cda5855c673a23fa66cc4fe7e7b42a7af9cad8bd6e4615c",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A028",
+      "kind": "report",
+      "path": "evidence/external-connections/author/result-manifest.json",
+      "sha256": "b4d3cc3ccc745902ccc55c324c6208d20951fb3840c570c675c00f640dc3ce67",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A029",
+      "kind": "code",
+      "path": "evidence/external-connections/author/tests/test_canonical_outputs.py",
+      "sha256": "0b3e86a84f5e145f62005ab31acd4cdf68a9b479adab429fec993df0126a75d2",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A030",
+      "kind": "code",
+      "path": "evidence/external-connections/author/tests/test_import_relations.py",
+      "sha256": "46376e5902dbef5312108618e2009f5126d70d4d5c27de646e188103fd80cb0f",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A031",
+      "kind": "code",
+      "path": "evidence/external-connections/author/uv.lock",
+      "sha256": "2c92fe7fa75289a0d7c8ba9541241e6f91f4de7342ca68d5727c0bf0ea13aa78",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A032",
+      "kind": "report",
+      "path": "evidence/external-connections/import-transfer.json",
+      "sha256": "fa556b4b0f1f4d299a3ee27035d2cf5b92395b3fcc783f28e6c581b59f676b01",
+      "producer": "/root"
+    },
+    {
+      "id": "A033",
+      "kind": "report",
+      "path": "evidence/external-connections/independent-import/final-relation-import-audit.json",
+      "sha256": "d1de3647e631892a4fd198325a30eebf2d01444fa21d6493ac11531ea4d776bb",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A034",
+      "kind": "report",
+      "path": "evidence/external-connections/independent-import/publication-manifest.json",
+      "sha256": "4698e1b00f1a1873d35a4ea8feaf77e1c3cb1f729fd0e1dd46c2cbedc764af20",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A035",
+      "kind": "result",
+      "path": "evidence/external-connections/independent-import/raw/author-output-comparison-attempt01.json",
+      "sha256": "dd083917a740fc11ebfdd5e1582ee6de471215966ef942a384846e673184583a",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A036",
+      "kind": "result",
+      "path": "evidence/external-connections/independent-import/raw/author-output-comparison-attempt02.json",
+      "sha256": "dae0261e2b7e230c277d5aea82fcf6304d1dd2fab5cff927279cda03b7e0328c",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A037",
+      "kind": "result",
+      "path": "evidence/external-connections/independent-import/raw/freeze-hash-check.json",
+      "sha256": "aef1270da3749ef89fa7d4d66543b501dc11b502def3786c102a237dfc5ebb32",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A038",
+      "kind": "result",
+      "path": "evidence/external-connections/independent-import/raw/nonempty-output-probe.json",
+      "sha256": "fb570405a7727c3be774e92e9969abe98440d5c8d8911be46162bd87be457464",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A039",
+      "kind": "log",
+      "path": "evidence/external-connections/independent-import/raw/reproduction-command.json",
+      "sha256": "805e54fe31fbd4ee18ec98f7df9ee5b1d2ed98d8493b53cd075cd46f14e9f021",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A040",
+      "kind": "result",
+      "path": "evidence/external-connections/independent-import/raw/reproduction-output-comparison.json",
+      "sha256": "0a2946d3981e2e98bd3683c02888171faa0e09fe532f63acc354a79193d67e74",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A041",
+      "kind": "log",
+      "path": "evidence/external-connections/independent-import/raw/reproduction-stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A042",
+      "kind": "log",
+      "path": "evidence/external-connections/independent-import/raw/reproduction-stdout.log",
+      "sha256": "50c1e02f7d3effaf94f3547e3c92454137bd4dfa7fb7b580dc64d58211afd9fc",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A043",
+      "kind": "result",
+      "path": "evidence/external-connections/independent-import/raw/source-oracle-attempt01.json",
+      "sha256": "f9f1422870affc6209e11ba06d1e1c41d52ec59ca130bd911831f1788d05735b",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A044",
+      "kind": "result",
+      "path": "evidence/external-connections/independent-import/raw/source-oracle-attempt02.json",
+      "sha256": "0610a91432da40f867e5c404bb37e0da18bf897b557a27f0547547063f1d9549",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A045",
+      "kind": "code",
+      "path": "evidence/external-connections/independent-import/verify_relation_import.py",
+      "sha256": "14aecabcde38c6211901b491a8b193a038958af55a22313d193c0826a85fbb28",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A046",
+      "kind": "report",
+      "path": "evidence/external-connections/source-transfer.json",
+      "sha256": "70fd5256b8cc8233254cb4103f4a2773ce0e7747d3f237ccc10644419c5ebd14",
+      "producer": "/root"
+    },
+    {
+      "id": "A047",
+      "kind": "source",
+      "path": "evidence/external-connections/sources/probe/command-log.json",
+      "sha256": "5df43553b450c713a1866f4cbabce8fdc66471cfa2874f5feba76c3684a879d0",
+      "producer": "/root"
+    },
+    {
+      "id": "A048",
+      "kind": "source",
+      "path": "evidence/external-connections/sources/probe/findings.json",
+      "sha256": "61ede9c1357a05809932e90893fdbb677386871be249e64bbef83850b81a5b56",
+      "producer": "/root"
+    },
+    {
+      "id": "A049",
+      "kind": "source",
+      "path": "evidence/external-connections/sources/probe/frozen-inputs.json",
+      "sha256": "0d651c128bc77695df9e3737956e0b8ce7dc16cd68b78e9554b12e8b7017284b",
+      "producer": "/root"
+    },
+    {
+      "id": "A050",
+      "kind": "source",
+      "path": "evidence/external-connections/sources/probe/wikidata-response.json",
+      "sha256": "b1c172ecdb9784ab3412431517740c1e7c9505d3f52d180a9f2870dad5878655",
+      "producer": "/root"
+    },
+    {
+      "id": "A051",
+      "kind": "source",
+      "path": "evidence/external-connections/sources/relation-probe-review.json",
+      "sha256": "29e3a0f92165e4f7eb0b7ed9a30fcc6c3446e9ab16cc562f2742e5c858757f04",
+      "producer": "/root"
+    },
+    {
+      "id": "A052",
+      "kind": "source",
+      "path": "evidence/external-connections/sources/semantics/source-notes.json",
+      "sha256": "83ff730f355cf523a55994b6bdbc9ab30350318542b4188c2e13c867759a8a4e",
+      "producer": "/root"
+    },
+    {
+      "id": "A053",
+      "kind": "source",
+      "path": "evidence/external-connections/sources/semantics/wikidata-semantics-response.json",
+      "sha256": "3db472c2cf98ff6f867f20d56a983a4703c317d6855a40ad2e0cdc096641bec1",
+      "producer": "/root"
+    },
+    {
+      "id": "A054",
+      "kind": "source",
+      "path": "evidence/external-connections/sources/source-reuse-review.json",
+      "sha256": "a565206a1d8b9c7bee11a432eed7b85280091e6b88847ed911e2a63935488f4c",
+      "producer": "/root"
+    },
+    {
+      "id": "A055",
+      "kind": "source",
+      "path": "evidence/external-connections/sources/supporting-command-log.txt",
+      "sha256": "669c7b13501801069255072b11c36de252c7614a38e6e7fcf69b6429f53a1d03",
+      "producer": "/root"
+    },
+    {
+      "id": "A056",
+      "kind": "log",
+      "path": "evidence/external-connections/validation/build-01.command.json",
+      "sha256": "ab51577efe63ac0509cd25f35ceef004247d5b8e06538fe014209359bca7104f",
+      "producer": "/root"
+    },
+    {
+      "id": "A057",
+      "kind": "log",
+      "path": "evidence/external-connections/validation/build-01.stderr.log",
+      "sha256": "729d8972b51de5e2457a45b53681f0065959be096264bf3ccc0a93db9432920d",
+      "producer": "/root"
+    },
+    {
+      "id": "A058",
+      "kind": "log",
+      "path": "evidence/external-connections/validation/build-01.stdout.log",
+      "sha256": "39145a6238891ff2caa243a9ef2e0ca7bb0240848022ae7add403d379546d6b7",
+      "producer": "/root"
+    },
+    {
+      "id": "A059",
+      "kind": "code",
+      "path": "evidence/external-connections/validation/history/navigation-01/check-external-relations.ts",
+      "sha256": "b201a6073f1fbaf28fa8e4fa593eb29cae6c3f6b37447e84deb82e4557e80975",
+      "producer": "/root"
+    },
+    {
+      "id": "A060",
+      "kind": "code",
+      "path": "evidence/external-connections/validation/history/navigation-01/external-connections.tsx",
+      "sha256": "7bb13d19b073e7abdd7f64794b502248ab024c17520368f482dbd2247ba8ebea",
+      "producer": "/root"
+    },
+    {
+      "id": "A061",
+      "kind": "code",
+      "path": "evidence/external-connections/validation/history/navigation-01/external-relations.ts",
+      "sha256": "63c0cfc740ae49457c1f72c1798b2353bc210ff6fee4ff2fd5422e4da15671f4",
+      "producer": "/root"
+    },
+    {
+      "id": "A062",
+      "kind": "code",
+      "path": "evidence/external-connections/validation/history/typecheck-01/check-external-relations.ts",
+      "sha256": "2a2eae30b3f3850c0a65793306ea8b2f5ce0e56ced69075931dcb9f833b7922c",
+      "producer": "/root"
+    },
+    {
+      "id": "A063",
+      "kind": "report",
+      "path": "evidence/external-connections/validation/lint-01-resolution.json",
+      "sha256": "6a3502fb0060c5b67b41f2108a8563672c09c9c2a8669e36ca231c2ae1153037",
+      "producer": "/root"
+    },
+    {
+      "id": "A064",
+      "kind": "log",
+      "path": "evidence/external-connections/validation/lint-01.command.json",
+      "sha256": "b1cdf9df732012dc7bb135258c35765d9ab46dd2e16edcfc2df3a23a51a60ba3",
+      "producer": "/root"
+    },
+    {
+      "id": "A065",
+      "kind": "log",
+      "path": "evidence/external-connections/validation/lint-01.stderr.log",
+      "sha256": "729d8972b51de5e2457a45b53681f0065959be096264bf3ccc0a93db9432920d",
+      "producer": "/root"
+    },
+    {
+      "id": "A066",
+      "kind": "log",
+      "path": "evidence/external-connections/validation/lint-01.stdout.log",
+      "sha256": "d0cb410e2e83fddc7792e0d6e0149bf802061f356e4fce179abf11d8cf346ae3",
+      "producer": "/root"
+    },
+    {
+      "id": "A067",
+      "kind": "log",
+      "path": "evidence/external-connections/validation/lint-02.command.json",
+      "sha256": "ac6dd36f736a1217567999c9a2c06718e57baa33e52208ad8e9587c6dadfccdb",
+      "producer": "/root"
+    },
+    {
+      "id": "A068",
+      "kind": "log",
+      "path": "evidence/external-connections/validation/lint-02.stderr.log",
+      "sha256": "729d8972b51de5e2457a45b53681f0065959be096264bf3ccc0a93db9432920d",
+      "producer": "/root"
+    },
+    {
+      "id": "A069",
+      "kind": "log",
+      "path": "evidence/external-connections/validation/lint-02.stdout.log",
+      "sha256": "f4a112dacf63631ed0ac74c16088acbf51bdc7b1a5a7ab41c2f9aab01d08991d",
+      "producer": "/root"
+    },
+    {
+      "id": "A070",
+      "kind": "report",
+      "path": "evidence/external-connections/validation/navigation-01-resolution.json",
+      "sha256": "fb5cff4f4f0ce619346271a6dfcc646b069b6a7a0aab06f43ee74978443af090",
+      "producer": "/root"
+    },
+    {
+      "id": "A071",
+      "kind": "log",
+      "path": "evidence/external-connections/validation/navigation-01.command.json",
+      "sha256": "a74f655f105649bace2a5ba10b98d547f3f20720a1db0281596e7df96cb63249",
+      "producer": "/root"
+    },
+    {
+      "id": "A072",
+      "kind": "log",
+      "path": "evidence/external-connections/validation/navigation-01.stderr.log",
+      "sha256": "17113810e82e7ae98d45261e3879dc2feed87913ea70e6f13bd08073b3f814d6",
+      "producer": "/root"
+    },
+    {
+      "id": "A073",
+      "kind": "log",
+      "path": "evidence/external-connections/validation/navigation-01.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A074",
+      "kind": "log",
+      "path": "evidence/external-connections/validation/navigation-02.command.json",
+      "sha256": "16142d1ecac8405ad17daf0337921eacb4d0be1fb9c08addccd324deee64cf3f",
+      "producer": "/root"
+    },
+    {
+      "id": "A075",
+      "kind": "log",
+      "path": "evidence/external-connections/validation/navigation-02.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A076",
+      "kind": "log",
+      "path": "evidence/external-connections/validation/navigation-02.stdout.log",
+      "sha256": "c39533da40c383550824f326b92cc943b47138032d8a13a2f2fd3d5add651808",
+      "producer": "/root"
+    },
+    {
+      "id": "A077",
+      "kind": "log",
+      "path": "evidence/external-connections/validation/navigation-03.command.json",
+      "sha256": "0fe6c03c8165fa4141d8565049eda5727a9f580b7ecf82225b1c3abb5b285a60",
+      "producer": "/root"
+    },
+    {
+      "id": "A078",
+      "kind": "log",
+      "path": "evidence/external-connections/validation/navigation-03.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A079",
+      "kind": "log",
+      "path": "evidence/external-connections/validation/navigation-03.stdout.log",
+      "sha256": "c39533da40c383550824f326b92cc943b47138032d8a13a2f2fd3d5add651808",
+      "producer": "/root"
+    },
+    {
+      "id": "A080",
+      "kind": "report",
+      "path": "evidence/external-connections/validation/typecheck-01-resolution.json",
+      "sha256": "d9c032c5dfc8eeda5784088dff87dfbcf5f3902633b9ffbe5e05d9d1117efe40",
+      "producer": "/root"
+    },
+    {
+      "id": "A081",
+      "kind": "log",
+      "path": "evidence/external-connections/validation/typecheck-01.command.json",
+      "sha256": "702df6ed82c0e108d163fbbedf75b0b4b15514161b35082a78d6fd94f34f9473",
+      "producer": "/root"
+    },
+    {
+      "id": "A082",
+      "kind": "log",
+      "path": "evidence/external-connections/validation/typecheck-01.stderr.log",
+      "sha256": "729d8972b51de5e2457a45b53681f0065959be096264bf3ccc0a93db9432920d",
+      "producer": "/root"
+    },
+    {
+      "id": "A083",
+      "kind": "log",
+      "path": "evidence/external-connections/validation/typecheck-01.stdout.log",
+      "sha256": "da904ae1f8677f8a4750adfffa88acafad1e7e9b1858a9a0219f2a474bb86220",
+      "producer": "/root"
+    },
+    {
+      "id": "A084",
+      "kind": "log",
+      "path": "evidence/external-connections/validation/typecheck-02.command.json",
+      "sha256": "ea7e713eea4bf7a98946f4709c83cf9e6c48f199e87ce8f0237932e8421f3e32",
+      "producer": "/root"
+    },
+    {
+      "id": "A085",
+      "kind": "log",
+      "path": "evidence/external-connections/validation/typecheck-02.stderr.log",
+      "sha256": "729d8972b51de5e2457a45b53681f0065959be096264bf3ccc0a93db9432920d",
+      "producer": "/root"
+    },
+    {
+      "id": "A086",
+      "kind": "log",
+      "path": "evidence/external-connections/validation/typecheck-02.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A087",
+      "kind": "log",
+      "path": "evidence/external-connections/validation/typecheck-03.command.json",
+      "sha256": "05bc2ce4d13cfa228ed37079f5f3e497f6c199f0c90689754f92bdb368585ef0",
+      "producer": "/root"
+    },
+    {
+      "id": "A088",
+      "kind": "log",
+      "path": "evidence/external-connections/validation/typecheck-03.stderr.log",
+      "sha256": "729d8972b51de5e2457a45b53681f0065959be096264bf3ccc0a93db9432920d",
+      "producer": "/root"
+    },
+    {
+      "id": "A089",
+      "kind": "log",
+      "path": "evidence/external-connections/validation/typecheck-03.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A090",
+      "kind": "log",
+      "path": "evidence/external-connections/validation/webmcp-observation.json",
+      "sha256": "d2b6d9c812edd6d998f9fd5bc98338c739d1c23eeee285351f1af515777c170c",
+      "producer": "/root"
+    },
+    {
+      "id": "A091",
+      "kind": "code",
+      "path": "lib/concept-library.ts",
+      "sha256": "065191c9a5ce80ddb02dd64214856fd334183d2bcc228bfa5918e6a954e63db1",
+      "producer": "/root"
+    },
+    {
+      "id": "A092",
+      "kind": "code",
+      "path": "lib/external-relations-server.ts",
+      "sha256": "64fedff69bb0ceb0f5b57a9c83050f03ffec63497193ba688d171a538c9c4b09",
+      "producer": "/root"
+    },
+    {
+      "id": "A093",
+      "kind": "code",
+      "path": "lib/external-relations.ts",
+      "sha256": "cf9e1a1e0222c3eda957a92ea2ac04810f6578a6ee09677d75730b7f0d057bdc",
+      "producer": "/root"
+    },
+    {
+      "id": "A094",
+      "kind": "code",
+      "path": "lib/use-external-relation-tools.ts",
+      "sha256": "4340b0d084831d27d9811870520ed74ea63f6819e0e997f390c8bfa33ea75358",
+      "producer": "/root"
+    },
+    {
+      "id": "A095",
+      "kind": "code",
+      "path": "scripts/check-external-relations.ts",
+      "sha256": "33b3e24caf447ea6adcbe194e1a51942062601245ebf0b229787c5e007287def",
+      "producer": "/root"
+    },
+    {
+      "id": "A096",
+      "kind": "code",
+      "path": "scripts/import_relations.py",
+      "sha256": "2df16d7a3b2eaae64b634495d53c341f01852b2e68b1b05745e5a19b1faac72b",
+      "producer": "/root/sol_symmetry_worker"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C001",
+      "type": "numerical",
+      "statement": "The pinned 9159-row relation export joins 5390 rows to both endpoints in the existing catalogue, retaining 3769 exclusions in its ledger; included rows connect 3372 QIDs through 81 property IDs.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A012",
+          "locator": "json:/summary/total_rows",
+          "expected": 9159
+        },
+        {
+          "artifact_id": "A012",
+          "locator": "json:/summary/included_rows",
+          "expected": 5390
+        },
+        {
+          "artifact_id": "A012",
+          "locator": "json:/summary/excluded_rows",
+          "expected": 3769
+        },
+        {
+          "artifact_id": "A012",
+          "locator": "json:/summary/endpoint_count",
+          "expected": 3372
+        },
+        {
+          "artifact_id": "A012",
+          "locator": "json:/summary/property_count",
+          "expected": 81
+        }
+      ]
+    },
+    {
+      "id": "C002",
+      "type": "methodological",
+      "statement": "The pinned standard-library importer preserves original six-field rows and locators, exact QID joins, distinct property IDs and source order. An independent source-derived oracle and isolated uv reproduction verified the three deterministic outputs; imported rows remain unreviewed external assertions.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A096",
+          "locator": "contains:PINNED_INPUTS"
+        },
+        {
+          "artifact_id": "A033",
+          "locator": "json:/overall_status",
+          "expected": "pass_scoped"
+        },
+        {
+          "artifact_id": "A039",
+          "locator": "contains:uv"
+        },
+        {
+          "artifact_id": "A045",
+          "locator": "contains:csv"
+        }
+      ]
+    },
+    {
+      "id": "C003",
+      "type": "citation",
+      "statement": "The legacy export omits statement identity, ranks, qualifiers, references and revisions. Three separately dated observations retain raw matching statements and field-presence flags; the P460 example retains P518=Q9085982. Those source assertions are not mathematical equivalence proofs.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A054",
+          "locator": "json:/provenance_review/graph_edges/preserves_qualifiers",
+          "expected": false
+        },
+        {
+          "artifact_id": "A054",
+          "locator": "json:/provenance_review/graph_edges/preserves_references",
+          "expected": false
+        },
+        {
+          "artifact_id": "A051",
+          "locator": "contains:No references were present on the three matching statements in this response."
+        },
+        {
+          "artifact_id": "A010",
+          "locator": "json:/observations/mathgloss-row-175/matching_statements/0/qualifiers/P518/0/datavalue/value/id",
+          "expected": "Q9085982"
+        },
+        {
+          "artifact_id": "A024",
+          "locator": "json:/observation_check/actual",
+          "expected": 3
+        }
+      ]
+    },
+    {
+      "id": "C004",
+      "type": "numerical",
+      "statement": "The canonical navigation check passed 20569 selections over all 4814 catalogue records, including 21560 paginated row visits, exact preservation of 3 probe overlays, 17 invalid structured inputs and 13 invalid API requests. Typecheck, lint and production build passed after retained corrections.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A079",
+          "locator": "json:/selections_checked",
+          "expected": 20569
+        },
+        {
+          "artifact_id": "A079",
+          "locator": "json:/catalog_concepts",
+          "expected": 4814
+        },
+        {
+          "artifact_id": "A079",
+          "locator": "json:/paginated_row_visits",
+          "expected": 21560
+        },
+        {
+          "artifact_id": "A079",
+          "locator": "json:/exact_probe_overlays",
+          "expected": 3
+        },
+        {
+          "artifact_id": "A079",
+          "locator": "json:/invalid_inputs",
+          "expected": 17
+        },
+        {
+          "artifact_id": "A079",
+          "locator": "json:/invalid_api_requests",
+          "expected": 13
+        },
+        {
+          "artifact_id": "A087",
+          "locator": "json:/exit_code",
+          "expected": 0
+        },
+        {
+          "artifact_id": "A067",
+          "locator": "json:/exit_code",
+          "expected": 0
+        },
+        {
+          "artifact_id": "A056",
+          "locator": "json:/exit_code",
+          "expected": 0
+        }
+      ]
+    },
+    {
+      "id": "C005",
+      "type": "methodological",
+      "statement": "The external-connections page reuses library search and lets users select concepts, filter typed directed neighbors, paginate, follow neighbors and open learning resources. Its WebMCP action uses the same selection callback; the focused browser observation saw the qualified row displayed and explicit null rejected without changing the selection or URL.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A007",
+          "locator": "contains:useExternalRelationTools(select)"
+        },
+        {
+          "artifact_id": "A094",
+          "locator": "contains:execute: (input: unknown) => select(validateRelationQuery(input))"
+        },
+        {
+          "artifact_id": "A090",
+          "locator": "json:/valid_call/selected_fields_from_actual_return/total",
+          "expected": 1
+        },
+        {
+          "artifact_id": "A090",
+          "locator": "json:/invalid_call/rejected",
+          "expected": true
+        },
+        {
+          "artifact_id": "A090",
+          "locator": "contains:There has been no change in the accessibility tree."
+        }
+      ]
+    },
+    {
+      "id": "C006",
+      "type": "conclusion",
+      "statement": "This layer makes existing external assertions navigable with their distinct relation types and available conditions. It does not establish mathematical truth, equivalence, new discovery, complete mathematical coverage or measured researcher benefit.",
+      "status": "supported",
+      "supports": [
+        {
+          "claim_id": "C001"
+        },
+        {
+          "claim_id": "C002"
+        },
+        {
+          "claim_id": "C003"
+        },
+        {
+          "claim_id": "C004"
+        },
+        {
+          "claim_id": "C005"
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "implementation_alignment",
+      "status": "pending",
+      "auditor": "/root/sol_symmetry_audit",
+      "evidence": [],
+      "note": "Final combined application and claim review pending; independent importer gate is pass_scoped."
+    },
+    {
+      "id": "reproduction",
+      "status": "pending",
+      "auditor": "/root/sol_symmetry_audit",
+      "evidence": [],
+      "note": "Final combined application and claim review pending; independent importer gate is pass_scoped."
+    },
+    {
+      "id": "source_verification",
+      "status": "pending",
+      "auditor": "/root/sol_symmetry_audit",
+      "evidence": [],
+      "note": "Final combined application and claim review pending; independent importer gate is pass_scoped."
+    },
+    {
+      "id": "specification_compliance",
+      "status": "pending",
+      "auditor": "/root/sol_symmetry_audit",
+      "evidence": [],
+      "note": "Final combined application and claim review pending; independent importer gate is pass_scoped."
+    }
+  ],
+  "limitations": [
+    "Every imported relation remains an unreviewed external assertion. No mathematical validity, equivalence or composed proof is certified.",
+    "The three dated Wikidata observations are a purposive exploratory sample. They do not estimate error rates, reference quality, persistence or completeness.",
+    "Legacy statement metadata is unknown, not an assertion of no conditions. The retained normalized probe summary has a documented wording correction.",
+    "The first navigation run found a nested revision-field integration mismatch; typecheck and lint also required corrections. Their failures and resolutions are retained.",
+    "The independent importer oracle first overconstrained output layout; its failed comparison and corrected interpretation are retained without changing author bytes.",
+    "The root-observed WebMCP check covers one valid qualified selection and one explicit-null rejection. No broad visual QA or independent browser replication is claimed.",
+    "Earlier certificates apply to their recorded snapshots. The new homepage link is assessed against a retained earlier page snapshot.",
+    "No discovery, novelty, complete coverage or measured practical-impact claim follows from engineering checks."
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "schema_version": "focused-webmcp-observation-v1",
+  "observer": "/root",
+  "application_freeze_sha256": "51033889d3d1b7666349fd51d97b56cf5c9fe014f17817ae671ffa91d934547c",
+  "date_utc": "2026-09-08",
+  "page": "http://localhost:3000/connections",
+  "browser_tab": "3",
+  "scope": "Focused page-defined WebMCP registration, valid action and invalid-input readback only. No screenshot or broad visual QA.",
+  "registration_chronology": [
+    "The first fetch immediately after navigation returned no tools.",
+    "A subsequent browser notification announced explore_external_connections; the page had hydrated. No console errors or warnings were returned by the focused log check.",
+    "The tool handle was fetched again after that tool-change notification and used for the two calls below."
+  ],
+  "registered_tool": {
+    "name": "explore_external_connections",
+    "title": "Explore a concept’s external connections",
+    "description": "Select a library concept by Wikidata QID, filter incoming/outgoing typed MathGloss relations and display a page. These are unreviewed external assertions; they do not prove equivalence or novelty. Updates the visible neighborhood and URL.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "qid": {"type": "string", "pattern": "^Q[1-9][0-9]{0,14}$"},
+        "property": {"type": "string", "pattern": "^(All|P[1-9][0-9]{0,14})$", "description": "All or an available Wikidata property ID."},
+        "direction": {"type": "string", "enum": ["both", "incoming", "outgoing"]},
+        "page": {"type": "integer", "minimum": 1, "maximum": 1000000}
+      },
+      "required": ["qid"],
+      "additionalProperties": false
+    },
+    "annotations": {"readOnlyHint": false, "untrustedContentHint": true},
+    "origin": "http://localhost:3000",
+    "pageUrl": "http://localhost:3000/connections"
+  },
+  "valid_call": {
+    "api": "connectionTools.call('explore_external_connections', input)",
+    "input": {"qid": "Q1051696", "property": "P460", "direction": "outgoing", "page": 1},
+    "selected_fields_from_actual_return": {
+      "qid": "Q1051696",
+      "property": "P460",
+      "direction": "outgoing",
+      "page": 1,
+      "total": 1,
+      "edges": [{
+        "id": "mathgloss-row-175",
+        "legacy_statement_metadata": "not_retrieved",
+        "line_end": 176,
+        "line_start": 176,
+        "property": {"id": "P460", "label": "said to be the same as"},
+        "record": 175,
+        "review_status": "unreviewed_external_assertion",
+        "source": {"id": "Q1051696", "label": "NS5-brane"},
+        "target": {"id": "Q28649150", "label": "M5-brane"}
+      }],
+      "observations": {
+        "mathgloss-row-175": {
+          "display_labels": {"P460": "said to be the same as", "P518": "applies to part", "Q9085982": "type IIA string theory"},
+          "field_presence": [{"qualifiers": true, "references": false, "statement_id": true}],
+          "matching_statements": [{
+            "id": "Q1051696$4412a53f-44f9-cad4-9731-c4f99d820ea7",
+            "mainsnak": {
+              "datatype": "wikibase-item",
+              "datavalue": {"type": "wikibase-entityid", "value": {"entity-type": "item", "id": "Q28649150", "numeric-id": 28649150}},
+              "hash": "6b54ed62181d0a159c715b38b6b5da59c9d23fc1",
+              "property": "P460",
+              "snaktype": "value"
+            },
+            "qualifiers": {"P518": [{
+              "datatype": "wikibase-item",
+              "datavalue": {"type": "wikibase-entityid", "value": {"entity-type": "item", "id": "Q9085982", "numeric-id": 9085982}},
+              "hash": "4378bbad6dbdc4b1f8f507d93c595fb5778f2632",
+              "property": "P518",
+              "snaktype": "value"
+            }]},
+            "qualifiers-order": ["P518"],
+            "rank": "normal",
+            "type": "statement"
+          }],
+          "raw_response_sha256": "b1c172ecdb9784ab3412431517740c1e7c9505d3f52d180a9f2870dad5878655",
+          "requested_url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&formatversion=2&ids=Q1000116%7CQ1000660%7CQ1051696&props=info%7Cclaims",
+          "retrieved_at_utc": "2026-09-08T05:21:18.0403102+00:00",
+          "source_entity": {"id": "Q1051696", "lastrevid": 2429536034, "modified": "2025-11-14T14:42:12Z"},
+          "triple": {"property_id": "P460", "source_id": "Q1051696", "target_id": "Q28649150"}
+        }
+      }
+    },
+    "selection_note": "The tool returned additional catalogue/global property metadata. The fields above are the actual returned selection, edges and observation; omitted fields are not claimed as a complete raw response.",
+    "accessibility_readback_exact_excerpts": [
+      "~\t\t19 text Selected concept ·  Q1051696",
+      "~\t\t20 heading NS5-brane, Value: 2",
+      "~\t\t\t31 pop up button (collapsed, settable) Relation type, Value: said to be the same as (P460), Secondary Actions: Expand",
+      "~\t\t\t39 pop up button (collapsed, settable) Direction, Value: Outgoing from this concept, Secondary Actions: Expand",
+      "~\t\t44 text 1 matching relations",
+      "+\t\t\t\t247 link Description: applies to part (P518), Value: wikidata.org/wiki/Property:P518",
+      "+\t\t\t\t249 link Description: type IIA string theory (Q9085982), Value: wikidata.org/wiki/Q9085982"
+    ]
+  },
+  "invalid_call": {
+    "input": {"qid": "Q1051696", "property": null},
+    "rejected": true,
+    "name": "Error",
+    "message": "Browser Use encountered an error interacting with this webpage: Error: Choose an available relation type.",
+    "after_url": "http://localhost:3000/connections?qid=Q1051696&property=P460&direction=outgoing&page=1",
+    "after_accessibility_state": "Browser tab: 3, Title: \"Explore connections — Mathematics Atlas\", URL: \"http://localhost:3000/connections?qid=Q1051696&property=P460&direction=outgoing&page=1\".\nThere has been no change in the accessibility tree.\nThe focused UI element is 1 AXWebArea Explore connections — Mathematics Atlas, URL: localhost:3000/connections?qid=Q1051696&property=P460&direction=outgoing&page=1"
+  },
+  "observation_outcome": "The registered tool completed the selected visible workflow, retained the visible P518 condition, and rejected explicit null without changing the displayed selection or URL.",
+  "independent_gate": "pending"
+}

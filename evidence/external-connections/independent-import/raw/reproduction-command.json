@@ -1,0 +1,60 @@
+{
+  "schema_version": "relation-import-independent-reproduction-command-v1",
+  "argv": [
+    "C:\\Users\\Legedith\\.local\\bin\\uv.exe",
+    "run",
+    "--project",
+    "relation-import-work",
+    "--frozen",
+    "--python",
+    "3.12.11",
+    "python",
+    "relation-import-work/import_relations.py",
+    "--relations-csv",
+    "backbone-reuse-work/raw/mathgloss/data/relations/graph_edges.csv",
+    "--catalog-csv",
+    "project/data/mathgloss/source/database.csv",
+    "--probe-inputs",
+    "relation-source-review-work/probe/frozen-inputs.json",
+    "--probe-response",
+    "relation-source-review-work/probe/wikidata-response.json",
+    "--probe-command-log",
+    "relation-source-review-work/probe/command-log.json",
+    "--semantics-response",
+    "relation-source-review-work/semantics/wikidata-semantics-response.json",
+    "--output-dir",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\relation-import-audit-work\\reproduction\\run-01"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas",
+  "environment": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "UV_CACHE_DIR": "D:\\CodexWorkspaces\\mathematics-atlas\\uv-cache"
+  },
+  "started_at_utc": "2026-09-08T06:10:36.844015+00:00",
+  "ended_at_utc": "2026-09-08T06:10:37.150643+00:00",
+  "elapsed_seconds": 0.3070636999909766,
+  "timeout_seconds": 60,
+  "timed_out": false,
+  "exit_code": 0,
+  "stdout_path": "raw/reproduction-stdout.log",
+  "stdout_bytes": 1121,
+  "stderr_path": "raw/reproduction-stderr.log",
+  "stderr_bytes": 0,
+  "output_files": [
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-import-audit-work\\reproduction\\run-01\\relation-index.json",
+      "bytes": 1731941,
+      "sha256": "9f5f4d53c2c95cad05a61bc5a936300e277a60fd1e63e163c6d9eb799b34bdb1"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-import-audit-work\\reproduction\\run-01\\relation-ledger.json",
+      "bytes": 2411231,
+      "sha256": "fc0d04344de071ef6ea79c3950ae6475989a6fe6ac6c17724d53d03e757d86a7"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-import-audit-work\\reproduction\\run-01\\relation-summary.json",
+      "bytes": 5947,
+      "sha256": "44292c55f303bc16f9eb96a20f2eac6733aee70062533dc514546062bd3df7f0"
+    }
+  ]
+}

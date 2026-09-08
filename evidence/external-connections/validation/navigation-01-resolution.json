@@ -1,0 +1,9 @@
+{
+  "status": "retained_integration_failure_corrected_before_publication",
+  "failed_check": "navigation-01",
+  "finding": "The UI type and canonical check assumed top-level observation.lastrevid. The importer preserved this field under source_entity.lastrevid, consistent with the source-entity metadata grouping.",
+  "effect": "The raw imported metadata was intact; the UI would have emitted an undefined revision link.",
+  "correction": "Read source_entity.lastrevid/modified/id in the application type, revision link and canonical check. No frozen importer code or output bytes were changed.",
+  "retained_prior_code": "history/navigation-01/",
+  "next_check": "navigation-02"
+}

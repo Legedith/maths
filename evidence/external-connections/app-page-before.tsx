@@ -242,12 +242,6 @@ export default function Home() {
             >
               Browse concept resources <ArrowRight size={14} />
             </Link>
-            <Link
-              href="/connections"
-              className="mt-3 ml-5 inline-flex items-center gap-1 text-sm text-blue-700 underline underline-offset-4"
-            >
-              Explore external connections <ArrowRight size={14} />
-            </Link>
           </div>
           <div className="search-box">
             <Search size={18} />

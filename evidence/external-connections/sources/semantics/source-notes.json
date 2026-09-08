@@ -1,0 +1,228 @@
+{
+  "schema_version": "1.0",
+  "status": "bounded_source_review_complete",
+  "created_utc": "2026-09-08T05:40:58Z",
+  "scope": {
+    "question": "How should an atlas present Wikidata P460, especially Q1051696 P460 Q28649150 qualified by P518 Q9085982, without treating it as proved mathematical equivalence?",
+    "relation_count": 1,
+    "new_connection_claimed": false,
+    "physics_result_claimed": false
+  },
+  "retrieval": {
+    "method": "one ordinary Wikidata wbgetentities batch GET for two properties and three items",
+    "requested_url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&formatversion=2&ids=P460%7CP518%7CQ1051696%7CQ28649150%7CQ9085982&props=info%7Clabels%7Cdescriptions%7Cclaims&languages=en&languagefallback=1",
+    "user_agent": "MathematicsAtlasRelationSemanticsReview/0.1 (read-only; local research)",
+    "started_utc": "2026-09-08T05:34:22.5542060Z",
+    "finished_utc": "2026-09-08T05:34:23.5916706Z",
+    "duration_seconds": 1.037465,
+    "http_status": 200,
+    "response_content_type": "application/json; charset=utf-8",
+    "server_date_utc": "2026-09-08T05:34:22Z",
+    "x_request_id": "4ef83e86-9e4f-45ec-80af-bdae5d0bc421",
+    "raw_response": {
+      "path_relative_to_semantics": "wikidata-semantics-response.json",
+      "bytes": 47391,
+      "sha256": "3db472c2cf98ff6f867f20d56a983a4703c317d6855a40ad2e0cdc096641bec1"
+    }
+  },
+  "primary_sources": [
+    {
+      "source_id": "wikidata_p460_property",
+      "type": "primary_property_documentation",
+      "live_url": "https://www.wikidata.org/wiki/Property:P460",
+      "stable_url": "https://www.wikidata.org/w/index.php?title=Property:P460&oldid=2541122014",
+      "revision_id": 2541122014,
+      "locator": "English label and description; Statements: instance of symmetric property; Constraints: allowed qualifiers includes P518",
+      "supports": [
+        "P460 is labelled said to be the same as",
+        "Its description expressly allows uncertainty or dispute",
+        "Wikidata models the property as symmetric",
+        "P518 is an allowed qualifier"
+      ]
+    },
+    {
+      "source_id": "wikidata_p518_property",
+      "type": "primary_property_documentation",
+      "live_url": "https://www.wikidata.org/wiki/Property:P518",
+      "stable_url": "https://www.wikidata.org/w/index.php?title=Property:P518&oldid=2531568100",
+      "revision_id": 2531568100,
+      "locator": "English label and description; Statements: instance of restrictive qualifier",
+      "supports": [
+        "P518 is labelled applies to part",
+        "Its value identifies the part, aspect, or form to which a claim applies",
+        "Wikidata classifies P518 as a restrictive qualifier"
+      ]
+    },
+    {
+      "source_id": "wikidata_ranking_help",
+      "type": "primary_platform_documentation",
+      "live_url": "https://www.wikidata.org/wiki/Help:Ranking",
+      "stable_url": "https://www.wikidata.org/w/index.php?title=Help:Ranking&oldid=2530015510",
+      "revision_id": 2530015510,
+      "locator": "What ranks are not; Usage; Normal rank",
+      "supports": [
+        "Normal is the default rank",
+        "Normal rank provides no judgement or evaluation of accuracy or currency",
+        "Ranks and references are different metadata"
+      ]
+    },
+    {
+      "source_id": "mathlib_equivalence_relation",
+      "type": "primary_formal_library_documentation",
+      "url": "https://leanprover-community.github.io/mathlib4_docs/Mathlib/CategoryTheory/EquivalenceRelation.html",
+      "locator": "CategoryTheory.EquivalenceRelation definition, rendered lines 267-270",
+      "supports": [
+        "A formal equivalence relation extends reflexive, symmetric, and transitive relation structures"
+      ]
+    },
+    {
+      "source_id": "wikidata_entity_batch",
+      "type": "primary_structured_data_response",
+      "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&formatversion=2&ids=P460%7CP518%7CQ1051696%7CQ28649150%7CQ9085982&props=info%7Clabels%7Cdescriptions%7Cclaims&languages=en&languagefallback=1",
+      "locator": "entities.P460, entities.P518, entities.Q1051696, entities.Q28649150, entities.Q9085982",
+      "local_evidence": "wikidata-semantics-response.json"
+    }
+  ],
+  "entities_observed": [
+    {
+      "id": "P460",
+      "label_en": "said to be the same as",
+      "description_en": "this item is said to be the same as that item, though this may be uncertain or disputed",
+      "revision_id": 2541122014,
+      "modified_utc": "2026-09-06T14:15:11Z",
+      "canonical_url": "https://www.wikidata.org/wiki/Property:P460"
+    },
+    {
+      "id": "P518",
+      "label_en": "applies to part",
+      "description_en": "part, aspect, or form of the item to which the claim applies",
+      "revision_id": 2531568100,
+      "modified_utc": "2026-08-15T03:08:36Z",
+      "canonical_url": "https://www.wikidata.org/wiki/Property:P518"
+    },
+    {
+      "id": "Q1051696",
+      "label_en": "NS5-brane",
+      "revision_id": 2429536034,
+      "modified_utc": "2025-11-14T14:42:12Z",
+      "canonical_url": "https://www.wikidata.org/wiki/Q1051696",
+      "stable_url": "https://www.wikidata.org/w/index.php?title=Q1051696&oldid=2429536034"
+    },
+    {
+      "id": "Q28649150",
+      "label_en": "M5-brane",
+      "revision_id": 2482467675,
+      "modified_utc": "2026-04-17T15:22:22Z",
+      "canonical_url": "https://www.wikidata.org/wiki/Q28649150",
+      "stable_url": "https://www.wikidata.org/w/index.php?title=Q28649150&oldid=2482467675"
+    },
+    {
+      "id": "Q9085982",
+      "label_en": "type IIA string theory",
+      "revision_id": 2445343768,
+      "modified_utc": "2025-12-22T04:53:50Z",
+      "canonical_url": "https://www.wikidata.org/wiki/Q9085982",
+      "stable_url": "https://www.wikidata.org/w/index.php?title=Q9085982&oldid=2445343768"
+    }
+  ],
+  "statement_observed": {
+    "subject": {
+      "id": "Q1051696",
+      "label_en": "NS5-brane"
+    },
+    "property": {
+      "id": "P460",
+      "label_en": "said to be the same as"
+    },
+    "object": {
+      "id": "Q28649150",
+      "label_en": "M5-brane"
+    },
+    "statement_id": "Q1051696$4412a53f-44f9-cad4-9731-c4f99d820ea7",
+    "statement_type": "statement",
+    "rank": "normal",
+    "mainsnak_hash": "6b54ed62181d0a159c715b38b6b5da59c9d23fc1",
+    "qualifier_order": [
+      "P518"
+    ],
+    "qualifiers": [
+      {
+        "property_id": "P518",
+        "property_label_en": "applies to part",
+        "value_id": "Q9085982",
+        "value_label_en": "type IIA string theory",
+        "snaktype": "value",
+        "datatype": "wikibase-item",
+        "hash": "4378bbad6dbdc4b1f8f507d93c595fb5778f2632"
+      }
+    ],
+    "reference_count": 0,
+    "references": []
+  },
+  "semantic_findings": [
+    {
+      "finding_id": "F1",
+      "finding": "P460 records that one Wikidata item is said to be the same as another; its own description says the assertion may be uncertain or disputed.",
+      "evidence": [
+        "wikidata_p460_property"
+      ]
+    },
+    {
+      "finding_id": "F2",
+      "finding": "P518 is restrictive. On this statement it limits the P460 assertion to the named part, aspect, or form Q9085982, labelled type IIA string theory. This review does not replace the official qualifier wording with a stronger physics interpretation.",
+      "evidence": [
+        "wikidata_p518_property",
+        "wikidata_entity_batch"
+      ]
+    },
+    {
+      "finding_id": "F3",
+      "finding": "P460 being symmetric does not make the observed edge a formal mathematical equivalence relation. Formal equivalence also requires reflexivity and transitivity, and these sources supply neither those properties for this item set nor a proof of physical equivalence.",
+      "evidence": [
+        "wikidata_p460_property",
+        "mathlib_equivalence_relation"
+      ]
+    },
+    {
+      "finding_id": "F4",
+      "finding": "The statement has normal rank and no references. Wikidata documents normal rank as neutral and as making no accuracy or currency judgement, so rank must not be displayed as verification or confidence.",
+      "evidence": [
+        "wikidata_entity_batch",
+        "wikidata_ranking_help"
+      ]
+    }
+  ],
+  "atlas_handling_recommendation": {
+    "decision": "Retain this as a qualified, source-attributed assertion edge. Do not merge nodes, render equality, compute transitive closure, or present it as a proved mathematical or physical equivalence.",
+    "ui_wording": [
+      {
+        "order": 1,
+        "placement": "edge label and status",
+        "text": "NS5-brane - said to be the same as - M5-brane",
+        "badge": "Wikidata assertion: may be uncertain or disputed"
+      },
+      {
+        "order": 2,
+        "placement": "always-visible qualifier line",
+        "text": "Applies to part/aspect/form: type IIA string theory (Q9085982)",
+        "interaction": "Link the qualifier value and do not collapse this line into an equals sign."
+      },
+      {
+        "order": 3,
+        "placement": "provenance drawer",
+        "text": "Normal rank (neutral; no accuracy judgement); no references supplied",
+        "interaction": "Show the statement ID, source revision, retrieval time, and links to both items, P460, and P518."
+      }
+    ]
+  },
+  "physics_source_decision": {
+    "original_physics_source_consulted": false,
+    "reason": "The bounded question can be answered from the current Wikidata statement and property semantics. The statement supplies no reference, and this review makes no claim about the underlying brane physics. Any future explanatory physics claim requires a separate original-source and domain-expert review."
+  },
+  "limitations": [
+    "This is one purposively specified Wikidata statement and cannot estimate relation quality or error prevalence.",
+    "The review establishes data-model semantics and UI safeguards, not the truth of the brane assertion.",
+    "Item labels and statement content are current only at the recorded revisions and retrieval time.",
+    "No new mathematical or physical connection is claimed."
+  ]
+}

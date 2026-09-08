@@ -1,0 +1,27 @@
+{
+  "schema_version": "independent-frozen-relation-ui-api-check-v1",
+  "status": "pass",
+  "auditor": "/root/sol_symmetry_audit",
+  "application_freeze_sha256": "51033889d3d1b7666349fd51d97b56cf5c9fe014f17817ae671ffa91d934547c",
+  "frozen_files_checked": 24,
+  "freeze_mismatches": [],
+  "catalog_records": 4814,
+  "relation_edges": 5390,
+  "relation_properties": 81,
+  "query_selections_checked": 32475,
+  "page_visits_checked": 32666,
+  "returned_edge_visits": 43120,
+  "valid_api_requests": 5,
+  "invalid_api_requests": 13,
+  "invalid_direct_inputs": 17,
+  "tool_calls_reaching_action": 2,
+  "exact_probe_overlays": 3,
+  "webmcp_observation_sha256": "d2b6d9c812edd6d998f9fd5bc98338c739d1c23eeee285351f1af515777c170c",
+  "webmcp_evidence_scope": "Root-observed focused browser-host transcript, independently cross-checked against frozen tool code, query result and imported observation; no independent browser replication.",
+  "home_page_delta": {
+    "removed_lines": 0,
+    "added_lines": 6,
+    "connection_link_only": true
+  },
+  "limits": "Application/query correctness for the frozen imported index. Whole-row source fidelity and importer reproduction are separately owned; no relation truth, identity, equivalence, completeness, novelty, productivity or broad visual claim."
+}

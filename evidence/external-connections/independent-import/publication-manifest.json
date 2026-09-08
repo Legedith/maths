@@ -1,0 +1,144 @@
+{
+  "schema_version": "relation-import-independent-publication-manifest-v1",
+  "created_at_utc": "2026-09-08T06:15:53.625050+00:00",
+  "status": "frozen",
+  "scope": "Independent source-derived row/observation fidelity, freeze, and deterministic reproduction review of the arithmetic-free MathGloss relation import.",
+  "root": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-import-audit-work",
+  "copy_file_count": 12,
+  "copy_total_bytes": 117163,
+  "files": [
+    {
+      "path": "final-relation-import-audit.json",
+      "bytes": 13085,
+      "sha256": "d1de3647e631892a4fd198325a30eebf2d01444fa21d6493ac11531ea4d776bb",
+      "copy": true
+    },
+    {
+      "path": "verify_relation_import.py",
+      "bytes": 15862,
+      "sha256": "14aecabcde38c6211901b491a8b193a038958af55a22313d193c0826a85fbb28",
+      "copy": true
+    },
+    {
+      "path": "raw/source-oracle-attempt01.json",
+      "bytes": 12143,
+      "sha256": "f9f1422870affc6209e11ba06d1e1c41d52ec59ca130bd911831f1788d05735b",
+      "copy": true
+    },
+    {
+      "path": "raw/source-oracle-attempt02.json",
+      "bytes": 12143,
+      "sha256": "0610a91432da40f867e5c404bb37e0da18bf897b557a27f0547547063f1d9549",
+      "copy": true
+    },
+    {
+      "path": "raw/author-output-comparison-attempt01.json",
+      "bytes": 15516,
+      "sha256": "dd083917a740fc11ebfdd5e1582ee6de471215966ef942a384846e673184583a",
+      "copy": true
+    },
+    {
+      "path": "raw/author-output-comparison-attempt02.json",
+      "bytes": 15481,
+      "sha256": "dae0261e2b7e230c277d5aea82fcf6304d1dd2fab5cff927279cda03b7e0328c",
+      "copy": true
+    },
+    {
+      "path": "raw/freeze-hash-check.json",
+      "bytes": 12138,
+      "sha256": "aef1270da3749ef89fa7d4d66543b501dc11b502def3786c102a237dfc5ebb32",
+      "copy": true
+    },
+    {
+      "path": "raw/reproduction-command.json",
+      "bytes": 2314,
+      "sha256": "805e54fe31fbd4ee18ec98f7df9ee5b1d2ed98d8493b53cd075cd46f14e9f021",
+      "copy": true
+    },
+    {
+      "path": "raw/reproduction-stdout.log",
+      "bytes": 1121,
+      "sha256": "50c1e02f7d3effaf94f3547e3c92454137bd4dfa7fb7b580dc64d58211afd9fc",
+      "copy": true
+    },
+    {
+      "path": "raw/reproduction-stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "copy": true
+    },
+    {
+      "path": "raw/reproduction-output-comparison.json",
+      "bytes": 15538,
+      "sha256": "0a2946d3981e2e98bd3683c02888171faa0e09fe532f63acc354a79193d67e74",
+      "copy": true
+    },
+    {
+      "path": "raw/nonempty-output-probe.json",
+      "bytes": 1822,
+      "sha256": "fb570405a7727c3be774e92e9969abe98440d5c8d8911be46162bd87be457464",
+      "copy": true
+    }
+  ],
+  "external_dependencies": [
+    {
+      "path": "project/docs/relation-explorer-contract.md",
+      "expected_sha256": "dc2f005ebc13533d07abe19731b8684968be4bf46505d94bc1c842edb0758370",
+      "actual_sha256": "dc2f005ebc13533d07abe19731b8684968be4bf46505d94bc1c842edb0758370",
+      "hash_match": true,
+      "copy": false
+    },
+    {
+      "path": "project/docs/relation-import-interface.md",
+      "expected_sha256": "52ac14f024e4e29e8eacf9b289d92fd3efc8cf0fc95fca4cd95a8cc44e603ba0",
+      "actual_sha256": "52ac14f024e4e29e8eacf9b289d92fd3efc8cf0fc95fca4cd95a8cc44e603ba0",
+      "hash_match": true,
+      "copy": false
+    },
+    {
+      "path": "relation-import-work/result-manifest.json",
+      "expected_sha256": "b4d3cc3ccc745902ccc55c324c6208d20951fb3840c570c675c00f640dc3ce67",
+      "actual_sha256": "b4d3cc3ccc745902ccc55c324c6208d20951fb3840c570c675c00f640dc3ce67",
+      "hash_match": true,
+      "copy": false
+    },
+    {
+      "path": "relation-import-work/import_relations.py",
+      "expected_sha256": "2df16d7a3b2eaae64b634495d53c341f01852b2e68b1b05745e5a19b1faac72b",
+      "actual_sha256": "2df16d7a3b2eaae64b634495d53c341f01852b2e68b1b05745e5a19b1faac72b",
+      "hash_match": true,
+      "copy": false
+    },
+    {
+      "path": "relation-import-work/outputs/relation-index.json",
+      "expected_sha256": "9f5f4d53c2c95cad05a61bc5a936300e277a60fd1e63e163c6d9eb799b34bdb1",
+      "actual_sha256": "9f5f4d53c2c95cad05a61bc5a936300e277a60fd1e63e163c6d9eb799b34bdb1",
+      "hash_match": true,
+      "copy": false
+    },
+    {
+      "path": "relation-import-work/outputs/relation-ledger.json",
+      "expected_sha256": "fc0d04344de071ef6ea79c3950ae6475989a6fe6ac6c17724d53d03e757d86a7",
+      "actual_sha256": "fc0d04344de071ef6ea79c3950ae6475989a6fe6ac6c17724d53d03e757d86a7",
+      "hash_match": true,
+      "copy": false
+    },
+    {
+      "path": "relation-import-work/outputs/relation-summary.json",
+      "expected_sha256": "44292c55f303bc16f9eb96a20f2eac6733aee70062533dc514546062bd3df7f0",
+      "actual_sha256": "44292c55f303bc16f9eb96a20f2eac6733aee70062533dc514546062bd3df7f0",
+      "hash_match": true,
+      "copy": false
+    }
+  ],
+  "ordered_interpretation": [
+    "Attempt-01 oracle/comparison are retained as an auditor layout overconstraint, not a worker failure.",
+    "Attempt-02 source oracle and author-output comparison are the final row and observation fidelity result.",
+    "The reproduction command/log and reproduction comparison establish byte determinism independently.",
+    "The final report supplies the scoped four-gate decision."
+  ],
+  "limitations": [
+    "No relation truth, mathematical equivalence, novelty, completeness or practical-impact claim is certified.",
+    "UI/API/WebMCP behavior is outside this manifest."
+  ]
+}

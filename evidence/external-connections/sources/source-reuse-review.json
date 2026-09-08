@@ -1,0 +1,243 @@
+{
+  "schema_version": "mathgloss-relation-source-reuse-review-v1",
+  "created_at_utc": "2026-09-08T05:10:17.1924933Z",
+  "status": "independent_read_only_source_review",
+  "scope": "Pinned MathGloss relation exports and their producing scripts. No relation import, endpoint refresh, broad benchmark, or mathematical equivalence inference was performed.",
+  "source_snapshot": {
+    "repository": "https://github.com/MathGloss/MathGloss.git",
+    "commit": "b8f659605486f80f2816515f525af2c395c711fa",
+    "working_tree_clean_when_inspected": true,
+    "files": [
+      {
+        "path": "data/database.csv",
+        "bytes": 674640,
+        "sha256": "933a72820fe7ede53a803b750a480def205677e5722ae5f9589b0d1d9bf832b2"
+      },
+      {
+        "path": "data/relations/graph_edges.csv",
+        "bytes": 616177,
+        "sha256": "54f58f2fe3303c7caf139132cd4301b44643c735334469ebcd7f995cc7884aec",
+        "last_file_commit": "a9f417faab11a1a636c53eb151b041875118bb9e",
+        "last_file_commit_time": "2025-10-01T09:56:14-07:00"
+      },
+      {
+        "path": "data/relations/mathlib_extends_relations.csv",
+        "bytes": 81863,
+        "sha256": "aff064f2dcc80e7062e9fdcfb46c379d82db5913908823827acd95a240e57a9a",
+        "last_file_commit": "a9f417faab11a1a636c53eb151b041875118bb9e",
+        "last_file_commit_time": "2025-10-01T09:56:14-07:00"
+      },
+      {
+        "path": "scripts/graphing/fetch_relations.py",
+        "bytes": 11201,
+        "sha256": "62f377a16a96a2f0c1e208aca1129e3eb694b93fffe9595855054a4075de9def"
+      },
+      {
+        "path": "scripts/graphing/mathlib_extends_relations.py",
+        "bytes": 24892,
+        "sha256": "1974a4560c9e056c1f08836a850b1c685eb44a690b3c230518a6f7ede874351f"
+      },
+      {
+        "path": "LICENSE",
+        "bytes": 1066,
+        "sha256": "5dc6b930900926814fc7bb9ff45dfcceae3aa33780eb010c83e6df58493594e7"
+      },
+      {
+        "path": "README.md",
+        "bytes": 8354,
+        "sha256": "f889000d3335f29672eba7914501cf5a9cc7af12e2b7594549e503b98d5237c4"
+      }
+    ],
+    "historical_alignment_note": "The two CSVs were last changed at commit a9f417f. The current producer scripts differ from that commit only by renaming their default/example database path from data/database_compiled_pruned.csv to data/database.csv. Exact generation argv, query time, cache contents, and upstream Mathlib commit were not retained."
+  },
+  "independent_count_reproduction": {
+    "catalog": {
+      "logical_rows": 4814,
+      "nonempty_distinct_qids": 4814
+    },
+    "graph_edges": {
+      "header": [
+        "source_id",
+        "source_label",
+        "property_id",
+        "property_label",
+        "target_id",
+        "target_label"
+      ],
+      "logical_rows": 9159,
+      "unique_source_property_target_triples": 9159,
+      "both_endpoints_in_current_catalog": 5390,
+      "rows_not_joining_both_current_catalog_endpoints": 3769,
+      "joined_distinct_endpoints": 3372,
+      "joined_distinct_property_ids": 81,
+      "selected_joined_property_counts": {
+        "P279_subclass_of": 2509,
+        "P31_instance_of": 887,
+        "P1889_different_from": 357,
+        "P460_said_to_be_the_same_as": 52
+      },
+      "all_six_fields_blank_count": 0
+    },
+    "mathlib_extends": {
+      "header": [
+        "Child Lean",
+        "Child Label",
+        "Child Wikidata ID",
+        "Child Mathlib Link",
+        "Parent Lean",
+        "Parent Label",
+        "Parent Wikidata ID",
+        "Parent Mathlib Link",
+        "Depth",
+        "Path"
+      ],
+      "logical_rows": 295,
+      "both_endpoints_in_current_catalog": 34,
+      "rows_not_joining_both_current_catalog_endpoints": 261,
+      "joined_distinct_endpoints": 22,
+      "joined_depth_counts": {
+        "1": 10,
+        "2": 10,
+        "3": 9,
+        "4": 4,
+        "5": 1
+      },
+      "joined_depth_one_non_alias_rows": 8,
+      "joined_transitive_depth_greater_than_one_rows": 24,
+      "joined_same_lean_name_alias_rows": 2,
+      "joined_duplicate_full_rows": 0,
+      "all_rows_blank_parent_wikidata_id": 260,
+      "all_rows_blank_parent_label": 260,
+      "all_rows_blank_parent_mathlib_link": 69
+    },
+    "comparison_to_exploratory_inventory": {
+      "inventory_path": "D:/CodexWorkspaces/mathematics-atlas/relation-profile-work/inventory.json",
+      "inventory_sha256": "db1893711763b83d621df2b38c19d332fe994649f7aec1881a17522f55d9f898",
+      "graph_total_join_endpoint_and_complete_property_counts_match": true,
+      "extends_total_join_endpoint_and_complete_depth_counts_match": true,
+      "all_replayed_checks_match": true
+    }
+  },
+  "provenance_review": {
+    "graph_edges": {
+      "producer_evidence": [
+        "fetch_relations.py:69-89 builds a query over wdt: direct predicates and selects only source, source label, property, property label, target, and target label.",
+        "fetch_relations.py:131-157 converts bindings to six-value tuples and keys the result by source QID, property ID, and target QID.",
+        "fetch_relations.py:208-221 writes exactly the six CSV columns reproduced above."
+      ],
+      "representation": "A deduplicated subject-QID/property-ID/object-QID truthy direct assertion with display labels.",
+      "preserves_statement_id": false,
+      "preserves_rank": false,
+      "preserves_qualifiers": false,
+      "preserves_references": false,
+      "preserves_fetch_timestamp_or_wikidata_revision": false,
+      "why_metadata_is_absent": "The producer uses the wdt: direct-claim form and never selects a full statement node. Wikibase documents wdt: predicates as best non-deprecated truthy values, with qualifiers ignored; full p:/wds: statement nodes carry statement identity, rank, qualifiers, and references.",
+      "semantic_limit": "property_id is the Wikidata predicate and must remain property-specific. These rows are not a mathematical-equivalence relation. P279 is class subsumption, P31 is instance membership, P1889 is difference, and even P460 is only Wikidata's 'said to be the same as', not a proof of mathematical equivalence.",
+      "freshness_limit": "The bytes are reproducible at the pinned MathGloss commit, but the exact Wikidata query time/revision is absent and current truthy statements may differ."
+    },
+    "mathlib_extends": {
+      "producer_evidence": [
+        "mathlib_extends_relations.py:18-20 explicitly calls the parser heuristic.",
+        "Lines 232-250 parse extends text with regular expressions; lines 367-390 compute ancestor paths and retain shortest depths.",
+        "Lines 393-414 map Lean names back to MathGloss entries by fragment, suffix, normalized Mathlib name, or camel-cased label.",
+        "Lines 526-569 add duplicate-fragment preference rows that are not parsed extends ancestry.",
+        "Lines 581-610 write names, QIDs, links, depth, and path but no upstream commit, source file/line, extracted signature, invocation, or run timestamp.",
+        "The optional edge exporter at lines 645-656 assigns P279 to mapped edges; that assignment is produced by MathGloss and is not a retrieved Wikidata P279 statement."
+      ],
+      "representation": "A heuristic parse and name/QID mapping of Lean structure/class inheritance, including transitive ancestors and a separate duplicate-fragment preference branch.",
+      "formally_checked_by_lean": false,
+      "upstream_mathlib_commit_preserved": false,
+      "source_file_and_line_preserved": false,
+      "extracted_signature_preserved": false,
+      "generation_invocation_and_time_preserved": false,
+      "semantic_limit": "Lean extends describes inheritance between formal declarations. Mapping those declarations to Wikidata concepts is heuristic and does not by itself prove identity, mathematical equivalence, pedagogical prerequisite order, or a Wikidata subclass claim.",
+      "specific_alias_warning": [
+        {
+          "child_qid": "Q1476663",
+          "child_label": "irreducible polynomial",
+          "parent_qid": "Q2989575",
+          "parent_label": "irreducible element",
+          "lean_name_on_both_sides": "Irreducible"
+        },
+        {
+          "child_qid": "Q125977",
+          "child_label": "vector space",
+          "parent_qid": "Q18848",
+          "parent_label": "Module (algebra)",
+          "lean_name_on_both_sides": "Module"
+        }
+      ]
+    },
+    "cross_snapshot_limit": {
+      "facts": "The relation CSVs were last changed at 09:56:14-07:00, while current data/database.csv was last changed later at 11:23:50-07:00 on 2025-10-01. Only 5,390 of 9,159 graph rows and 34 of 295 Mathlib rows join both current catalog QIDs.",
+      "inference": "Post-export catalog pruning is a plausible explanation for nonjoining rows, but exact generator inputs were not retained, so this is not established as the sole cause."
+    }
+  },
+  "license_review": {
+    "mathgloss": {
+      "notice": "Repository README says MathGloss is released under its LICENSE; the pinned LICENSE contains the MIT License text and a Copyright (c) GitHub, Inc. notice.",
+      "pinned_primary_url": "https://github.com/MathGloss/MathGloss/blob/b8f659605486f80f2816515f525af2c395c711fa/LICENSE",
+      "reuse_action": "Retain the pinned MathGloss LICENSE and repository/commit attribution with any copied export rows or producer code."
+    },
+    "wikidata": {
+      "notice": "Wikidata states that structured data in the main and Property namespaces is CC0.",
+      "primary_url": "https://www.wikidata.org/wiki/Wikidata:Copyright",
+      "reuse_action": "Label graph rows as Wikidata-derived truthy assertions and retain the pinned export locator even though CC0 does not require attribution."
+    },
+    "mathlib": {
+      "notice": "The official mathlib4 repository identifies its license as Apache-2.0.",
+      "primary_url": "https://github.com/leanprover-community/mathlib4/blob/master/LICENSE",
+      "reuse_action": "Retain a mathlib license/source reference for derived inheritance metadata, but do not claim a reproducible upstream revision because the CSV omits the Mathlib checkout commit."
+    },
+    "boundary": "The two CSVs contain IDs, labels, links, property metadata, and paths rather than source glossary definitions. The MathGloss repository notice, Wikidata data license, and Mathlib source notice describe different layers and should remain separately recorded. This is a provenance recommendation, not legal advice."
+  },
+  "primary_source_locators": [
+    {
+      "claim": "wdt: is the truthy direct form; it uses best non-deprecated rank and ignores qualifiers, while full statements carry rank, qualifiers, and references.",
+      "url": "https://www.mediawiki.org/wiki/Wikibase/Indexing/RDF_Dump_Format",
+      "locator": "Truthy statements and full statements sections; retrieved 2026-09-08."
+    },
+    {
+      "claim": "Wikidata structured data in main and Property namespaces is CC0.",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Copyright",
+      "locator": "Copyright statement; retrieved 2026-09-08."
+    },
+    {
+      "claim": "P279 means subclass, P31 means instance, P1889 means different, and P460 means said to be the same as.",
+      "urls": [
+        "https://www.wikidata.org/wiki/Property:P279",
+        "https://www.wikidata.org/wiki/Property:P31",
+        "https://www.wikidata.org/wiki/Property:P1889",
+        "https://www.wikidata.org/wiki/Property:P460"
+      ],
+      "locator": "Official property pages; retrieved 2026-09-08."
+    }
+  ],
+  "reuse_recommendation": {
+    "decision": "Reuse only as a provenance-rich candidate layer; do not bulk-promote either export into trusted mathematical relationships.",
+    "graph_minimum_record": [
+      "subject_qid",
+      "property_id",
+      "object_qid",
+      "source_file_sha256",
+      "one_based_logical_csv_record",
+      "mathgloss_commit",
+      "origin=wikidata_truthy_direct_export",
+      "status=unreviewed_external_relation",
+      "property_page_url",
+      "subject_and_object_urls",
+      "license_notice_ids"
+    ],
+    "graph_policy": "Start with the 2,509 joined P279 rows as taxonomy candidates, keeping every direction and property ID unchanged. Do not translate P460 or label similarity into mathematical equivalence, and do not use P31 as subclass. Because statement IDs/references/qualifiers are absent, publication as a supported relation requires a fresh full-statement lookup or explicit manual source review.",
+    "mathlib_policy": "Use at most the 8 joined depth-one rows with different child and parent Lean names as a first manual-review queue. Keep the 24 depth-greater-than-one rows labeled derived transitive ancestry and exclude the 2 same-Lean-name alias rows from inheritance import. Preserve Lean links and path text, and label every row heuristic until checked against a pinned Mathlib source revision.",
+    "identity_policy": "Existing imported QIDs may be used only as join keys. Labels or shared Lean fragments do not establish concept identity or relationship equivalence.",
+    "stop_rule": "Do not expand beyond the bounded P279 and 8-row Mathlib candidate queues until sampled reviewers can reproduce the intended relation from preserved statement/source evidence and disagreements are measured separately by origin.",
+    "content_policy": "Copy no glossary definitions or explanatory prose in this relation step; link to source entities/declarations and retain notices."
+  },
+  "claims_not_made": [
+    "No relationship was proved mathematically.",
+    "No Wikidata statement was refreshed or checked against its cited references.",
+    "No Lean file was compiled or declaration inheritance verified.",
+    "No completeness, accuracy, novelty, or broad quality claim is made."
+  ]
+}

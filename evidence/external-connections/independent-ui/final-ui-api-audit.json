@@ -1,0 +1,238 @@
+{
+  "schema_version": "external-connections-independent-final-audit-v1",
+  "created_at_utc": "2026-09-08T06:27:12.1640227Z",
+  "auditor": {
+    "identity": "/root/sol_symmetry_audit",
+    "role": "independent read-only application, API, WebMCP-code and final-claim reviewer; not the importer or application author"
+  },
+  "overall_status": "pass_scoped",
+  "decision": "Approve claims C001-C006 exactly as worded in the input bundle and recommend PASS for all four scoped integrity checks. The decision covers the pinned import and frozen application behavior only.",
+  "input_bundle": {
+    "path": "project/.codex/evidence/runs/external-connections-v1/bundle.json",
+    "sha256": "5206e2fa8da45e0d0161c68dfb14bc4bb91505e3094f6d3ef7b5446306a469ab",
+    "artifacts": 96,
+    "claims": 6,
+    "hash_and_reference_check": {
+      "path": "bundle-hash-check.json",
+      "sha256": "aed841a13cbcd64e4e7d88b18c6c32feaa1c08844c75a0f2343ba270b4474333",
+      "status": "pass",
+      "artifact_mismatches": 0,
+      "missing_support_references": 0
+    }
+  },
+  "frozen_application": {
+    "path": "project/evidence/external-connections/application-freeze.json",
+    "sha256": "51033889d3d1b7666349fd51d97b56cf5c9fe014f17817ae671ffa91d934547c",
+    "files_checked_independently": 24,
+    "mismatches": 0
+  },
+  "approved_claim_ids": [
+    "C001",
+    "C002",
+    "C003",
+    "C004",
+    "C005",
+    "C006"
+  ],
+  "claim_decisions": [
+    {
+      "claim_id": "C001",
+      "status": "approved",
+      "existing_bundle_artifact_ids": [
+        "A012",
+        "A013",
+        "A014",
+        "A033",
+        "A044"
+      ],
+      "note": "The five inventory values match the pinned summary and the independent all-row source oracle. The counts describe this pinned export and catalogue join."
+    },
+    {
+      "claim_id": "C002",
+      "status": "approved",
+      "existing_bundle_artifact_ids": [
+        "A033",
+        "A039",
+        "A040",
+        "A044",
+        "A045",
+        "A096"
+      ],
+      "note": "The independent importer audit checked every source row and locator and reproduced all three outputs byte for byte with an isolated frozen uv run. The unreviewed-assertion qualifier is preserved."
+    },
+    {
+      "claim_id": "C003",
+      "status": "approved",
+      "existing_bundle_artifact_ids": [
+        "A010",
+        "A024",
+        "A050",
+        "A051",
+        "A052",
+        "A054"
+      ],
+      "note": "The omission statement describes fields absent from the six-column legacy export. The separately dated three-probe observations retain the raw matching statements and presence flags, including P518=Q9085982 on row 175. No truth or equivalence inference is made."
+    },
+    {
+      "claim_id": "C004",
+      "status": "approved",
+      "existing_bundle_artifact_ids": [
+        "A019",
+        "A056",
+        "A063",
+        "A067",
+        "A070",
+        "A079",
+        "A080",
+        "A087"
+      ],
+      "note": "The stated canonical counts and successful typecheck, lint and build are present in the retained root logs. A separate independent frozen-data harness passed a larger 32475-selection oracle plus API and tool boundary checks."
+    },
+    {
+      "claim_id": "C005",
+      "status": "approved",
+      "existing_bundle_artifact_ids": [
+        "A003",
+        "A007",
+        "A090",
+        "A091",
+        "A093",
+        "A094"
+      ],
+      "note": "Frozen code uses the same validated selection callback for page and WebMCP transitions. The focused browser record is explicitly a root observation; this audit cross-checked its selected fields and accessibility excerpts against the frozen tool, query result and probe data without claiming an independent browser replay."
+    },
+    {
+      "claim_id": "C006",
+      "status": "approved",
+      "existing_bundle_artifact_ids": [
+        "A015",
+        "A016",
+        "A033",
+        "A051",
+        "A052",
+        "A090"
+      ],
+      "note": "The conclusion is limited to navigation of the pinned external assertions and explicitly excludes truth, equivalence, discovery, completeness and measured-benefit claims."
+    }
+  ],
+  "checks": [
+    {
+      "id": "reproduction",
+      "status": "pass",
+      "existing_bundle_artifact_ids": [
+        "A019",
+        "A033",
+        "A039",
+        "A040",
+        "A044",
+        "A079"
+      ],
+      "audit_evidence": [
+        "check-frozen-ui-api.mjs",
+        "independent-check.command.json",
+        "independent-check.stdout.json",
+        "independent-check.stderr.log"
+      ],
+      "note": "The independent importer reproduction is byte-identical for all three generated outputs. The audit-owned Node/Vite harness loaded the frozen application modules and independently checked every catalogue concept across incident property filters, all directions and every page: 32475 selections, 32666 pages and 43120 returned edge visits, plus 5 valid and 13 invalid API requests and strict tool boundaries."
+    },
+    {
+      "id": "specification_compliance",
+      "status": "pass",
+      "existing_bundle_artifact_ids": [
+        "A003",
+        "A007",
+        "A016",
+        "A017",
+        "A033",
+        "A079",
+        "A090",
+        "A093",
+        "A094"
+      ],
+      "audit_evidence": [
+        "initial-code-review.json",
+        "check-frozen-ui-api.mjs",
+        "independent-check.stdout.json"
+      ],
+      "note": "The frozen implementation meets the two pinned contracts for exact direction and property preservation, 20-row pagination, strict null and unknown-field rejection, no-store API behavior, bounded controlled errors, distinct missing/empty qualifier displays, current-response provenance, URL/state restoration and the shared WebMCP action. It performs no transitive closure or inferred equivalence."
+    },
+    {
+      "id": "source_verification",
+      "status": "pass",
+      "existing_bundle_artifact_ids": [
+        "A010",
+        "A013",
+        "A014",
+        "A033",
+        "A044",
+        "A050",
+        "A051",
+        "A052",
+        "A054"
+      ],
+      "audit_evidence": [
+        "independent-check.stdout.json"
+      ],
+      "note": "The independent importer oracle ties all rows to the pinned CSVs and all three overlays to the pinned dated responses. The application harness independently checked exact probe attachment, raw field-presence distinctions and P460/P518 display data. Property wording and caveats match the retained primary-source semantics notes."
+    },
+    {
+      "id": "implementation_alignment",
+      "status": "pass",
+      "existing_bundle_artifact_ids": [
+        "A003",
+        "A007",
+        "A019",
+        "A033",
+        "A056",
+        "A067",
+        "A079",
+        "A087",
+        "A090",
+        "A092",
+        "A093",
+        "A094"
+      ],
+      "audit_evidence": [
+        "bundle-hash-check.json",
+        "check-frozen-ui-api.mjs",
+        "independent-check.command.json",
+        "independent-check.stdout.json"
+      ],
+      "note": "All 96 input-bundle artifact hashes and all 24 application-freeze hashes match. The frozen code, imported index, API route, UI and tool behavior align with the canonical logs and the independent query oracle. Earlier source-entity, typecheck and lint failures and their corrections remain retained as evidence."
+    }
+  ],
+  "independent_application_result": {
+    "status": "pass",
+    "command_sha256": "4b6d2ca72b14ad52b906ec5ae020e233f1c9712d9611d4e4de9f530c1790ec04",
+    "stdout_sha256": "ad2321298766b697023266bfb9f50a2cfca248c104bbcb8435f7dd653e892161",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "frozen_files_checked": 24,
+    "catalog_records": 4814,
+    "relation_edges": 5390,
+    "relation_properties": 81,
+    "query_selections_checked": 32475,
+    "page_visits_checked": 32666,
+    "returned_edge_visits": 43120,
+    "valid_api_requests": 5,
+    "invalid_api_requests": 13,
+    "invalid_direct_inputs": 17,
+    "exact_probe_overlays": 3
+  },
+  "retained_audit_failure": {
+    "attempt": 1,
+    "status": "fail_harness_only",
+    "command_path": "independent-check-attempt-01.command.json",
+    "stderr_path": "independent-check-attempt-01.stderr.log",
+    "cause": "The audit harness searched case-sensitively for lowercase 'said to be the same as'; the UI renders the same required phrase with an initial capital.",
+    "resolution": "Only the harness needle was corrected. Attempt 1 remains retained, and attempt 2 passed against the same 24-file application freeze.",
+    "product_defect": false
+  },
+  "material_defects": [],
+  "limitations": [
+    "The focused browser/WebMCP interaction is root-observed evidence that this auditor cross-checked against frozen code and data; this auditor did not independently replay a browser session.",
+    "No broad visual, accessibility, performance, concurrency or deployment review was performed.",
+    "The audit approves navigation and faithful display of a pinned relation export. It does not validate the mathematical truth, identity, equivalence or persistence of any external assertion.",
+    "The three dated probe observations do not estimate corpus-wide provenance, reference quality, completeness or error rates, and current external pages may differ.",
+    "No novelty, discovery, complete-map, user-productivity or real-world-impact conclusion follows from this gate."
+  ]
+}

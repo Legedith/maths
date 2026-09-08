@@ -1,0 +1,100 @@
+MathGloss relation source review - supporting command log
+Task evidence started: 2026-09-08T05:02:11.2055109Z
+Log completed: 2026-09-08T05:15:18.2882920Z
+Review artifact before log: source-reuse-review.json
+Review SHA-256: a565206a1d8b9c7bee11a432eed7b85280091e6b88847ed911e2a63935488f4c
+
+Scope
+Read-only inspection of pinned snapshot D:/CodexWorkspaces/mathematics-atlas/backbone-reuse-work/raw/mathgloss at commit b8f659605486f80f2816515f525af2c395c711fa. No producer, CSV, project, Git, or Site mutation. No endpoint crawl or relation import.
+
+Retained failed attempt
+The first PowerShell inventory command placed a pipeline immediately after a foreach statement and failed before any mutation:
+ParserError: An empty pipe element is not allowed.
+Resolution: collect objects in an array, then pipe the array.
+
+Input hash command
+Get-FileHash -Algorithm SHA256 over data/database.csv, the two relation CSVs, both producer scripts, LICENSE, README.md, and relation-profile-work/inventory.json.
+
+Input hash output
+catalog 933a72820fe7ede53a803b750a480def205677e5722ae5f9589b0d1d9bf832b2 (674640 bytes)
+graph_edges 54f58f2fe3303c7caf139132cd4301b44643c735334469ebcd7f995cc7884aec (616177 bytes)
+mathlib_extends aff064f2dcc80e7062e9fdcfb46c379d82db5913908823827acd95a240e57a9a (81863 bytes)
+fetch_relations.py 62f377a16a96a2f0c1e208aca1129e3eb694b93fffe9595855054a4075de9def (11201 bytes)
+mathlib_extends_relations.py 1974a4560c9e056c1f08836a850b1c685eb44a690b3c230518a6f7ede874351f (24892 bytes)
+LICENSE 5dc6b930900926814fc7bb9ff45dfcceae3aa33780eb010c83e6df58493594e7 (1066 bytes)
+README f889000d3335f29672eba7914501cf5a9cc7af12e2b7594549e503b98d5237c4 (8354 bytes)
+prior inventory db1893711763b83d621df2b38c19d332fe994649f7aec1881a17522f55d9f898 (3422 bytes)
+
+Independent count command
+UV_CACHE_DIR was set to the owned staging cache. Executed with uv 0.8.19 and installed CPython 3.12:
+C:/Users/Legedith/.local/bin/uv.exe run --no-project --python 3.12 python -c <the following code>
+
+import csv,json
+from collections import Counter
+from pathlib import Path
+b=Path('D:/CodexWorkspaces/mathematics-atlas')
+r=b/'backbone-reuse-work/raw/mathgloss'
+inv=json.loads((b/'relation-profile-work/inventory.json').read_text(encoding='utf-8'))
+with (r/'data/database.csv').open(encoding='utf-8',newline='') as f:
+    q={x['Wikidata ID'].strip() for x in csv.DictReader(f) if x['Wikidata ID'].strip()}
+with (r/'data/relations/graph_edges.csv').open(encoding='utf-8',newline='') as f:
+    g=list(csv.DictReader(f))
+with (r/'data/relations/mathlib_extends_relations.csv').open(encoding='utf-8',newline='') as f:
+    e=list(csv.DictReader(f))
+gj=[x for x in g if x['source_id'] in q and x['target_id'] in q]
+ej=[x for x in e if x['Child Wikidata ID'] in q and x['Parent Wikidata ID'] in q]
+checks={
+ 'graph_total_rows':len(g)==inv['files'][0]['rows']==9159,
+ 'graph_join_rows':len(gj)==inv['files'][0]['both_endpoints_in_imported_catalog']==5390,
+ 'graph_distinct_endpoints':len({v for x in gj for v in (x['source_id'],x['target_id'])})==inv['files'][0]['linked_distinct_endpoints']==3372,
+ 'graph_property_counts':dict(Counter(x['property_id'] for x in gj))==inv['files'][0]['linked_type_counts'],
+ 'extends_total_rows':len(e)==inv['files'][1]['rows']==295,
+ 'extends_join_rows':len(ej)==inv['files'][1]['both_endpoints_in_imported_catalog']==34,
+ 'extends_distinct_endpoints':len({v for x in ej for v in (x['Child Wikidata ID'],x['Parent Wikidata ID'])})==inv['files'][1]['linked_distinct_endpoints']==22,
+ 'extends_depth_counts':dict(Counter(x['Depth'] for x in ej))==inv['files'][1]['linked_type_counts']}
+print(checks)
+
+Independent count output
+All eight checks: True.
+graph total/join/distinct endpoints: 9159 / 5390 / 3372
+graph nonjoining current-catalog rows: 3769
+graph unique source-property-target triples: 9159; duplicate triple rows: 0
+extends total/join/distinct endpoints: 295 / 34 / 22
+extends joined depth counts: 1=10, 2=10, 3=9, 4=4, 5=1
+extends joined depth-one non-alias: 8
+extends joined depth greater than one: 24
+extends joined same-Lean-name alias: 2
+extends nonjoining current-catalog rows: 261
+
+Git provenance commands
+git -C <snapshot> rev-parse HEAD
+git -C <snapshot> status --short
+git -C <snapshot> log -1 --format=commit/date/subject -- <path>
+git -C <snapshot> diff a9f417faab11a1a636c53eb151b041875118bb9e..b8f659605486f80f2816515f525af2c395c711fa -- <two producer scripts>
+
+Git provenance output
+HEAD b8f659605486f80f2816515f525af2c395c711fa; status output empty.
+Both relation CSVs last changed at a9f417faab11a1a636c53eb151b041875118bb9e, 2025-10-01T09:56:14-07:00, subject 'new relations'.
+data/database.csv last changed later at 03310672fbfc31b8a96e979d6cc0ca47e8f5feb1, 2025-10-01T11:23:50-07:00, subject 'remove planetmath_only'.
+Producer-script diff after the relation commit changes only the documented/default database path from data/database_compiled_pruned.csv to data/database.csv (5 insertions, 5 deletions across two scripts).
+
+Producer locators inspected
+fetch_relations.py:69-89, 131-157, 208-221.
+mathlib_extends_relations.py:18-20, 232-250, 367-414, 485-569, 581-610, 627-678.
+
+Primary pages retrieved read-only on 2026-09-08
+https://github.com/MathGloss/MathGloss/blob/b8f659605486f80f2816515f525af2c395c711fa/LICENSE
+https://www.mediawiki.org/wiki/Wikibase/Indexing/RDF_Dump_Format
+https://www.wikidata.org/wiki/Wikidata:Copyright
+https://www.wikidata.org/wiki/Property:P279
+https://www.wikidata.org/wiki/Property:P31
+https://www.wikidata.org/wiki/Property:P1889
+https://www.wikidata.org/wiki/Property:P460
+https://github.com/leanprover-community/mathlib4/blob/master/LICENSE
+
+Validation command
+C:/Users/Legedith/.local/bin/uv.exe run --no-project --python 3.12 python -c "load source-reuse-review.json with json.loads and print schema, replay flag, decision"
+Validation output
+schema_version=mathgloss-relation-source-reuse-review-v1
+all_replayed_checks_match=true
+JSON parse passed.

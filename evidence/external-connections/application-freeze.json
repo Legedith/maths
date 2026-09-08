@@ -1,0 +1,139 @@
+{
+  "frozen_at": "2026-09-08T06:10:41.804674+00:00",
+  "status": "application_frozen_after_navigation_typecheck_lint_build_before_final_review",
+  "base_commit": "8f1f2d6053224f049025169613b61e79128e966d",
+  "files": [
+    {
+      "path": "app/page.tsx",
+      "bytes": 21559,
+      "sha256": "21500cf3c158b7f98543d79b62ab8871f023793fa402ab0865f17f8571a14070"
+    },
+    {
+      "path": "app/connections/page.tsx",
+      "bytes": 535,
+      "sha256": "ac90cc98ad743d978f81d45b910d2bc9ac28e64a38abab7fbfd23cb49f81ba90"
+    },
+    {
+      "path": "app/api/external-relations/route.ts",
+      "bytes": 258,
+      "sha256": "a53e2e5eca38ab08d33126ef22f75318712a5620bd26f666cbf6eece141ff998"
+    },
+    {
+      "path": "components/external-connections.tsx",
+      "bytes": 18383,
+      "sha256": "a701d8c4694963016f384d597831ea95251b31e853f891fa8342e596b1912a56"
+    },
+    {
+      "path": "components/external-connections.module.css",
+      "bytes": 4963,
+      "sha256": "627e448d1afec55946d278981478ce1f062e6f828f82a7066a223c2e24499359"
+    },
+    {
+      "path": "lib/external-relations.ts",
+      "bytes": 6249,
+      "sha256": "cf9e1a1e0222c3eda957a92ea2ac04810f6578a6ee09677d75730b7f0d057bdc"
+    },
+    {
+      "path": "lib/external-relations-server.ts",
+      "bytes": 414,
+      "sha256": "64fedff69bb0ceb0f5b57a9c83050f03ffec63497193ba688d171a538c9c4b09"
+    },
+    {
+      "path": "lib/use-external-relation-tools.ts",
+      "bytes": 1949,
+      "sha256": "4340b0d084831d27d9811870520ed74ea63f6819e0e997f390c8bfa33ea75358"
+    },
+    {
+      "path": "scripts/check-external-relations.ts",
+      "bytes": 6614,
+      "sha256": "33b3e24caf447ea6adcbe194e1a51942062601245ebf0b229787c5e007287def"
+    },
+    {
+      "path": "scripts/import_relations.py",
+      "bytes": 22643,
+      "sha256": "2df16d7a3b2eaae64b634495d53c341f01852b2e68b1b05745e5a19b1faac72b"
+    },
+    {
+      "path": ".github/workflows/external-connections.yml",
+      "bytes": 1148,
+      "sha256": "21cbbbae6b69f41bbfbe5e98c3e23d2e41b427eba0355fc6e7ac7e44841857e1"
+    },
+    {
+      "path": "docs/relation-explorer-contract.md",
+      "bytes": 5521,
+      "sha256": "dc2f005ebc13533d07abe19731b8684968be4bf46505d94bc1c842edb0758370"
+    },
+    {
+      "path": "docs/relation-import-interface.md",
+      "bytes": 3293,
+      "sha256": "52ac14f024e4e29e8eacf9b289d92fd3efc8cf0fc95fca4cd95a8cc44e603ba0"
+    },
+    {
+      "path": "docs/external-connections.md",
+      "bytes": 4746,
+      "sha256": "542aadd8aca550a1899a0500493ff7077d614452b406a41db47c7ff330a100f0"
+    },
+    {
+      "path": "data/mathgloss/relations/relation-index.json",
+      "bytes": 1731941,
+      "sha256": "9f5f4d53c2c95cad05a61bc5a936300e277a60fd1e63e163c6d9eb799b34bdb1"
+    },
+    {
+      "path": "data/mathgloss/relations/relation-ledger.json",
+      "bytes": 2411231,
+      "sha256": "fc0d04344de071ef6ea79c3950ae6475989a6fe6ac6c17724d53d03e757d86a7"
+    },
+    {
+      "path": "data/mathgloss/relations/relation-summary.json",
+      "bytes": 5947,
+      "sha256": "44292c55f303bc16f9eb96a20f2eac6733aee70062533dc514546062bd3df7f0"
+    },
+    {
+      "path": "data/mathgloss/relations/source/graph_edges.csv",
+      "bytes": 616177,
+      "sha256": "54f58f2fe3303c7caf139132cd4301b44643c735334469ebcd7f995cc7884aec"
+    },
+    {
+      "path": "data/mathgloss/candidate-index.json",
+      "bytes": 5134168,
+      "sha256": "282ed1fd858595b782c856fbd2c96964a0b6ff3850fedf21105ca9bbb7edb4da"
+    },
+    {
+      "path": "data/mathgloss/source/database.csv",
+      "bytes": 674640,
+      "sha256": "933a72820fe7ede53a803b750a480def205677e5722ae5f9589b0d1d9bf832b2"
+    },
+    {
+      "path": "data/mathgloss/MATHGLOSS-LICENSE",
+      "bytes": 1066,
+      "sha256": "5dc6b930900926814fc7bb9ff45dfcceae3aa33780eb010c83e6df58493594e7"
+    },
+    {
+      "path": "lib/concept-library.ts",
+      "bytes": 4253,
+      "sha256": "065191c9a5ce80ddb02dd64214856fd334183d2bcc228bfa5918e6a954e63db1"
+    },
+    {
+      "path": "app/api/concept-library/route.ts",
+      "bytes": 1235,
+      "sha256": "07267a6a061ce776a66db568f7986558537551372fddaa87cab8a976e5fbdb9b"
+    },
+    {
+      "path": "evidence/external-connections/app-page-before.tsx",
+      "bytes": 21287,
+      "sha256": "f2353e35324a75b589acec59050f4cb9568a0677b6bcdffaf00fe20271f8ba8e"
+    }
+  ],
+  "validation": [
+    "validation/navigation-03.command.json",
+    "validation/typecheck-03.command.json",
+    "validation/lint-02.command.json",
+    "validation/build-01.command.json"
+  ],
+  "retained_failures": [
+    "validation/navigation-01-resolution.json",
+    "validation/typecheck-01-resolution.json",
+    "validation/lint-01-resolution.json"
+  ],
+  "browser_scope": "Only focused WebMCP contract checks are intended; no broad visual QA."
+}

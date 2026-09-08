@@ -1,0 +1,1 @@
+scripts/check-external-relations.ts(84,10): error TS2571: Object is of type 'unknown'.

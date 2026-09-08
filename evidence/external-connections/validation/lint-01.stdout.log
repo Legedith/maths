@@ -1,0 +1,9 @@
+
+> sites-project@0.1.0 lint
+> oxlint
+
+components/external-connections.tsx:64:10: error jsx-a11y(prefer-tag-over-role): Prefer `button` over `role` attribute `button`. help: Replace HTML elements with `role` attribute `button` to corresponding semantic HTML tag `button`.
+components/external-connections.tsx:75:78: error jsx-a11y(prefer-tag-over-role): Prefer `address, details, fieldset, hgroup, optgroup` over `role` attribute `group`. help: Replace HTML elements with `role` attribute `group` to corresponding semantic HTML tag `address, details, fieldset, hgroup, optgroup`.
+components/external-connections.tsx:148:69: error react-hooks(exhaustive-deps): The ref's value `.current` is accessed directly in the effect cleanup function. help: The ref value will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by react, copy it to a variable inside the effect and use that variable in the cleanup function.
+components/external-connections.tsx:148:91: error react-hooks(exhaustive-deps): The ref's value `.current` is accessed directly in the effect cleanup function. help: The ref value will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by react, copy it to a variable inside the effect and use that variable in the cleanup function.
+components/external-connections.tsx:190:14: error jsx-a11y(prefer-tag-over-role): Prefer `output` over `role` attribute `status`. help: Replace HTML elements with `role` attribute `status` to corresponding semantic HTML tag `output`.

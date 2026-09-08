@@ -1,0 +1,156 @@
+{
+  "schema_version": "relation-import-result-manifest-v1",
+  "created_at_utc": "2026-09-08T06:01:52.4417790Z",
+  "status": "author_canonical_run_complete_pending_independent_audit",
+  "governing_documents": [
+    {
+      "path": "../relation-profile-work/relation-explorer-contract.md",
+      "sha256": "dc2f005ebc13533d07abe19731b8684968be4bf46505d94bc1c842edb0758370"
+    },
+    {
+      "path": "../relation-profile-work/import-interface.md",
+      "sha256": "52ac14f024e4e29e8eacf9b289d92fd3efc8cf0fc95fca4cd95a8cc44e603ba0"
+    }
+  ],
+  "runtime": {
+    "uv": "uv 0.8.19 (fc7c2f8b5 2025-09-19)",
+    "python": "Python 3.12.11",
+    "dependencies": "standard library only"
+  },
+  "input_freeze": {
+    "path": "input-freeze.json",
+    "bytes": 2995,
+    "sha256": "66fd1e4950bc519d08a2ef72852bbb9649471864c59ffd710699c84058b658de"
+  },
+  "implementation_files": [
+    {
+      "path": "import_relations.py",
+      "bytes": 22643,
+      "sha256": "2df16d7a3b2eaae64b634495d53c341f01852b2e68b1b05745e5a19b1faac72b"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 220,
+      "sha256": "2eded9e06b46cf660cda5855c673a23fa66cc4fe7e7b42a7af9cad8bd6e4615c"
+    },
+    {
+      "path": "uv.lock",
+      "bytes": 143,
+      "sha256": "2c92fe7fa75289a0d7c8ba9541241e6f91f4de7342ca68d5727c0bf0ea13aa78"
+    }
+  ],
+  "test_files": [
+    {
+      "path": "tests/test_import_relations.py",
+      "bytes": 7507,
+      "sha256": "46376e5902dbef5312108618e2009f5126d70d4d5c27de646e188103fd80cb0f"
+    },
+    {
+      "path": "tests/test_canonical_outputs.py",
+      "bytes": 9251,
+      "sha256": "0b3e86a84f5e145f62005ab31acd4cdf68a9b479adab429fec993df0126a75d2"
+    }
+  ],
+  "output_files": [
+    {
+      "path": "outputs/relation-index.json",
+      "bytes": 1731941,
+      "sha256": "9f5f4d53c2c95cad05a61bc5a936300e277a60fd1e63e163c6d9eb799b34bdb1"
+    },
+    {
+      "path": "outputs/relation-ledger.json",
+      "bytes": 2411231,
+      "sha256": "fc0d04344de071ef6ea79c3950ae6475989a6fe6ac6c17724d53d03e757d86a7"
+    },
+    {
+      "path": "outputs/relation-summary.json",
+      "bytes": 5947,
+      "sha256": "44292c55f303bc16f9eb96a20f2eac6733aee70062533dc514546062bd3df7f0"
+    }
+  ],
+  "evidence_files": [
+    {
+      "path": "logs/preflight.json",
+      "bytes": 1235,
+      "sha256": "23de4f077421249811b374a4f871690b2410f8a915953121337d890f3bd36203"
+    },
+    {
+      "path": "logs/canonical-command.txt",
+      "bytes": 621,
+      "sha256": "8304dfd4e7f978046c7f40a48dee5b1a2f323746d47fbf74784fa02733c2435b"
+    },
+    {
+      "path": "logs/canonical-stdout.txt",
+      "bytes": 1121,
+      "sha256": "50c1e02f7d3effaf94f3547e3c92454137bd4dfa7fb7b580dc64d58211afd9fc"
+    },
+    {
+      "path": "logs/canonical-stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/canonical-exit.json",
+      "bytes": 212,
+      "sha256": "1641347910b9f8011bd2eff7ebf6685ff1a3022188274aa93771eb8b20135e93"
+    },
+    {
+      "path": "logs/postrun-tests.json",
+      "bytes": 1997,
+      "sha256": "196d87c36c911ca54be146f21d26d05269461841a8c726097c6f2abcb339fc12"
+    }
+  ],
+  "canonical_run": {
+    "invocation_count": 1,
+    "started_at_utc": "2026-09-08T05:58:12.0587911Z",
+    "ended_at_utc": "2026-09-08T05:58:12.3814219Z",
+    "duration_seconds": 0.322631,
+    "exit_code": 0,
+    "stderr_bytes": 0,
+    "inventory_checks": {
+      "endpoint_count": {
+        "actual": 3372,
+        "expected": 3372,
+        "passed": true
+      },
+      "excluded_rows": {
+        "actual": 3769,
+        "expected": 3769,
+        "passed": true
+      },
+      "included_rows": {
+        "actual": 5390,
+        "expected": 5390,
+        "passed": true
+      },
+      "property_count": {
+        "actual": 81,
+        "expected": 81,
+        "passed": true
+      },
+      "total_rows": {
+        "actual": 9159,
+        "expected": 9159,
+        "passed": true
+      }
+    },
+    "observation_check": {
+      "actual": 3,
+      "expected": 3,
+      "passed": true
+    }
+  },
+  "retained_author_checks": {
+    "preflight": "4 tests passed before the canonical run",
+    "postrun": "8 tests passed, including full 9,159-row reconciliation and exact raw probe comparison",
+    "independent_evidence_gate": "pending; these author checks do not certify the final gate"
+  },
+  "scope": {
+    "network_calls": 0,
+    "imported_relation_source": "pinned graph_edges.csv only",
+    "mathlib_extends_imported": false,
+    "ui_or_api_implemented": false,
+    "review_status": "unreviewed_external_assertion",
+    "novelty_claimed": false
+  }
+}

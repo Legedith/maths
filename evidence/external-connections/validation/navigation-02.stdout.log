@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "catalog_concepts": 4814,
+  "source_edges": 5390,
+  "selections_checked": 20569,
+  "paginated_row_visits": 21560,
+  "exact_probe_overlays": 3,
+  "reproduced_files_checked": 0,
+  "invalid_inputs": 17,
+  "invalid_api_requests": 13,
+  "scope": "Import navigation and preservation checks; no mathematical truth or equivalence is established."
+}

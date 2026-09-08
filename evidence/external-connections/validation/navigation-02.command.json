@@ -1,0 +1,10 @@
+{
+  "argv": [
+    "C:\\Program Files\\nodejs\\node.EXE",
+    "scripts/check-external-relations.ts"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+  "started_at": "2026-09-08T06:05:45.127710+00:00",
+  "ended_at": "2026-09-08T06:05:45.912644+00:00",
+  "exit_code": 0
+}

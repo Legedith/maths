@@ -1,0 +1,62 @@
+[
+  {
+    "source": "backbone-reuse-work/raw/mathgloss/data/relations/graph_edges.csv",
+    "path": "data/mathgloss/relations/source/graph_edges.csv",
+    "sha256": "54f58f2fe3303c7caf139132cd4301b44643c735334469ebcd7f995cc7884aec",
+    "bytes": 616177
+  },
+  {
+    "source": "relation-source-review-work/source-reuse-review.json",
+    "path": "evidence/external-connections/sources/source-reuse-review.json",
+    "sha256": "a565206a1d8b9c7bee11a432eed7b85280091e6b88847ed911e2a63935488f4c",
+    "bytes": 13673
+  },
+  {
+    "source": "relation-source-review-work/supporting-command-log.txt",
+    "path": "evidence/external-connections/sources/supporting-command-log.txt",
+    "sha256": "669c7b13501801069255072b11c36de252c7614a38e6e7fcf69b6429f53a1d03",
+    "bytes": 5926
+  },
+  {
+    "source": "next-value-audit-work/relation-probe-review.json",
+    "path": "evidence/external-connections/sources/relation-probe-review.json",
+    "sha256": "29e3a0f92165e4f7eb0b7ed9a30fcc6c3446e9ab16cc562f2742e5c858757f04",
+    "bytes": 8636
+  },
+  {
+    "source": "relation-source-review-work/probe/frozen-inputs.json",
+    "path": "evidence/external-connections/sources/probe/frozen-inputs.json",
+    "sha256": "0d651c128bc77695df9e3737956e0b8ce7dc16cd68b78e9554b12e8b7017284b",
+    "bytes": 3358
+  },
+  {
+    "source": "relation-source-review-work/probe/wikidata-response.json",
+    "path": "evidence/external-connections/sources/probe/wikidata-response.json",
+    "sha256": "b1c172ecdb9784ab3412431517740c1e7c9505d3f52d180a9f2870dad5878655",
+    "bytes": 15595
+  },
+  {
+    "source": "relation-source-review-work/probe/findings.json",
+    "path": "evidence/external-connections/sources/probe/findings.json",
+    "sha256": "61ede9c1357a05809932e90893fdbb677386871be249e64bbef83850b81a5b56",
+    "bytes": 9449
+  },
+  {
+    "source": "relation-source-review-work/probe/command-log.json",
+    "path": "evidence/external-connections/sources/probe/command-log.json",
+    "sha256": "5df43553b450c713a1866f4cbabce8fdc66471cfa2874f5feba76c3684a879d0",
+    "bytes": 3820
+  },
+  {
+    "source": "relation-source-review-work/semantics/source-notes.json",
+    "path": "evidence/external-connections/sources/semantics/source-notes.json",
+    "sha256": "83ff730f355cf523a55994b6bdbc9ab30350318542b4188c2e13c867759a8a4e",
+    "bytes": 10062
+  },
+  {
+    "source": "relation-source-review-work/semantics/wikidata-semantics-response.json",
+    "path": "evidence/external-connections/sources/semantics/wikidata-semantics-response.json",
+    "sha256": "3db472c2cf98ff6f867f20d56a983a4703c317d6855a40ad2e0cdc096641bec1",
+    "bytes": 47391
+  }
+]

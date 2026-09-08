@@ -1,0 +1,49 @@
+{
+  "inventory_checks": {
+    "endpoint_count": {
+      "actual": 3372,
+      "expected": 3372,
+      "passed": true
+    },
+    "excluded_rows": {
+      "actual": 3769,
+      "expected": 3769,
+      "passed": true
+    },
+    "included_rows": {
+      "actual": 5390,
+      "expected": 5390,
+      "passed": true
+    },
+    "property_count": {
+      "actual": 81,
+      "expected": 81,
+      "passed": true
+    },
+    "total_rows": {
+      "actual": 9159,
+      "expected": 9159,
+      "passed": true
+    }
+  },
+  "observation_check": {
+    "actual": 3,
+    "expected": 3,
+    "passed": true
+  },
+  "output_files": {
+    "relation-index.json": {
+      "bytes": 1731941,
+      "sha256": "9f5f4d53c2c95cad05a61bc5a936300e277a60fd1e63e163c6d9eb799b34bdb1"
+    },
+    "relation-ledger.json": {
+      "bytes": 2411231,
+      "sha256": "fc0d04344de071ef6ea79c3950ae6475989a6fe6ac6c17724d53d03e757d86a7"
+    },
+    "relation-summary.json": {
+      "bytes": 5947,
+      "sha256": "44292c55f303bc16f9eb96a20f2eac6733aee70062533dc514546062bd3df7f0"
+    }
+  },
+  "status": "success"
+}

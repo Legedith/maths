@@ -1,0 +1,7 @@
+{
+  "status": "retained_typecheck_failure_corrected_before_publication",
+  "finding": "The response.json return type was unknown in the installed DOM type definitions; the canonical check accessed edges without a type assertion.",
+  "correction": "Added a response shape assertion and an explicit Array.isArray guard before the bounded edge-length check.",
+  "runtime_feature_change": false,
+  "next_check": "typecheck-02"
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": "relation-import-postrun-tests-v1",
+  "scope": "Author consistency checks; not the independent evidence gate.",
+  "command": "C:/Users/Legedith/.local/bin/uv.exe run --project relation-import-work --python 3.12.11 python -m unittest discover -s tests -v",
+  "working_directory": "relation-import-work",
+  "started_at_utc": "2026-09-08T06:00:42.2563296Z",
+  "ended_at_utc": "2026-09-08T06:00:42.7079334Z",
+  "duration_seconds": 0.451604,
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "test_every_csv_record_matches_ledger_and_included_edge (test_canonical_outputs.CanonicalOutputTests.test_every_csv_record_matches_ledger_and_included_edge) ... ok\r\ntest_probe_observations_are_exact_raw_matches_with_presence_flags (test_canonical_outputs.CanonicalOutputTests.test_probe_observations_are_exact_raw_matches_with_presence_flags) ... ok\r\ntest_source_summary_and_properties_are_shared_exactly (test_canonical_outputs.CanonicalOutputTests.test_source_summary_and_properties_are_shared_exactly) ... ok\r\ntest_three_files_are_utf8_lf_and_summary_hashes_match (test_canonical_outputs.CanonicalOutputTests.test_three_files_are_utf8_lf_and_summary_hashes_match) ... ok\r\ntest_deterministic_json_is_utf8_sorted_compact_and_lf_terminated (test_import_relations.RelationImporterTests.test_deterministic_json_is_utf8_sorted_compact_and_lf_terminated) ... ok\r\ntest_existing_nonempty_output_directory_is_rejected (test_import_relations.RelationImporterTests.test_existing_nonempty_output_directory_is_rejected) ... ok\r\ntest_multiline_locator_original_fields_and_strict_qid_join (test_import_relations.RelationImporterTests.test_multiline_locator_original_fields_and_strict_qid_join) ... ok\r\ntest_observation_retains_raw_statement_and_presence_flags (test_import_relations.RelationImporterTests.test_observation_retains_raw_statement_and_presence_flags) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 8 tests in 0.184s\r\n\r\nOK\r\n"
+}

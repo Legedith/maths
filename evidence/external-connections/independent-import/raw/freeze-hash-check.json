@@ -1,0 +1,275 @@
+{
+  "schema_version": "relation-import-freeze-hash-check-v1",
+  "manifest": {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-import-work\\result-manifest.json",
+    "bytes": 4611,
+    "sha256": "b4d3cc3ccc745902ccc55c324c6208d20951fb3840c570c675c00f640dc3ce67",
+    "expected_sha256": "b4d3cc3ccc745902ccc55c324c6208d20951fb3840c570c675c00f640dc3ce67",
+    "pass": true
+  },
+  "manifest_files": [
+    {
+      "group": "governing_documents",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-profile-work\\relation-explorer-contract.md",
+      "present": true,
+      "bytes_expected": null,
+      "bytes_actual": 5521,
+      "sha256_expected": "dc2f005ebc13533d07abe19731b8684968be4bf46505d94bc1c842edb0758370",
+      "sha256_actual": "dc2f005ebc13533d07abe19731b8684968be4bf46505d94bc1c842edb0758370",
+      "pass": true
+    },
+    {
+      "group": "governing_documents",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-profile-work\\import-interface.md",
+      "present": true,
+      "bytes_expected": null,
+      "bytes_actual": 3293,
+      "sha256_expected": "52ac14f024e4e29e8eacf9b289d92fd3efc8cf0fc95fca4cd95a8cc44e603ba0",
+      "sha256_actual": "52ac14f024e4e29e8eacf9b289d92fd3efc8cf0fc95fca4cd95a8cc44e603ba0",
+      "pass": true
+    },
+    {
+      "group": "implementation_files",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-import-work\\import_relations.py",
+      "present": true,
+      "bytes_expected": 22643,
+      "bytes_actual": 22643,
+      "sha256_expected": "2df16d7a3b2eaae64b634495d53c341f01852b2e68b1b05745e5a19b1faac72b",
+      "sha256_actual": "2df16d7a3b2eaae64b634495d53c341f01852b2e68b1b05745e5a19b1faac72b",
+      "pass": true
+    },
+    {
+      "group": "implementation_files",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-import-work\\pyproject.toml",
+      "present": true,
+      "bytes_expected": 220,
+      "bytes_actual": 220,
+      "sha256_expected": "2eded9e06b46cf660cda5855c673a23fa66cc4fe7e7b42a7af9cad8bd6e4615c",
+      "sha256_actual": "2eded9e06b46cf660cda5855c673a23fa66cc4fe7e7b42a7af9cad8bd6e4615c",
+      "pass": true
+    },
+    {
+      "group": "implementation_files",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-import-work\\uv.lock",
+      "present": true,
+      "bytes_expected": 143,
+      "bytes_actual": 143,
+      "sha256_expected": "2c92fe7fa75289a0d7c8ba9541241e6f91f4de7342ca68d5727c0bf0ea13aa78",
+      "sha256_actual": "2c92fe7fa75289a0d7c8ba9541241e6f91f4de7342ca68d5727c0bf0ea13aa78",
+      "pass": true
+    },
+    {
+      "group": "test_files",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-import-work\\tests\\test_import_relations.py",
+      "present": true,
+      "bytes_expected": 7507,
+      "bytes_actual": 7507,
+      "sha256_expected": "46376e5902dbef5312108618e2009f5126d70d4d5c27de646e188103fd80cb0f",
+      "sha256_actual": "46376e5902dbef5312108618e2009f5126d70d4d5c27de646e188103fd80cb0f",
+      "pass": true
+    },
+    {
+      "group": "test_files",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-import-work\\tests\\test_canonical_outputs.py",
+      "present": true,
+      "bytes_expected": 9251,
+      "bytes_actual": 9251,
+      "sha256_expected": "0b3e86a84f5e145f62005ab31acd4cdf68a9b479adab429fec993df0126a75d2",
+      "sha256_actual": "0b3e86a84f5e145f62005ab31acd4cdf68a9b479adab429fec993df0126a75d2",
+      "pass": true
+    },
+    {
+      "group": "output_files",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-import-work\\outputs\\relation-index.json",
+      "present": true,
+      "bytes_expected": 1731941,
+      "bytes_actual": 1731941,
+      "sha256_expected": "9f5f4d53c2c95cad05a61bc5a936300e277a60fd1e63e163c6d9eb799b34bdb1",
+      "sha256_actual": "9f5f4d53c2c95cad05a61bc5a936300e277a60fd1e63e163c6d9eb799b34bdb1",
+      "pass": true
+    },
+    {
+      "group": "output_files",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-import-work\\outputs\\relation-ledger.json",
+      "present": true,
+      "bytes_expected": 2411231,
+      "bytes_actual": 2411231,
+      "sha256_expected": "fc0d04344de071ef6ea79c3950ae6475989a6fe6ac6c17724d53d03e757d86a7",
+      "sha256_actual": "fc0d04344de071ef6ea79c3950ae6475989a6fe6ac6c17724d53d03e757d86a7",
+      "pass": true
+    },
+    {
+      "group": "output_files",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-import-work\\outputs\\relation-summary.json",
+      "present": true,
+      "bytes_expected": 5947,
+      "bytes_actual": 5947,
+      "sha256_expected": "44292c55f303bc16f9eb96a20f2eac6733aee70062533dc514546062bd3df7f0",
+      "sha256_actual": "44292c55f303bc16f9eb96a20f2eac6733aee70062533dc514546062bd3df7f0",
+      "pass": true
+    },
+    {
+      "group": "evidence_files",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-import-work\\logs\\preflight.json",
+      "present": true,
+      "bytes_expected": 1235,
+      "bytes_actual": 1235,
+      "sha256_expected": "23de4f077421249811b374a4f871690b2410f8a915953121337d890f3bd36203",
+      "sha256_actual": "23de4f077421249811b374a4f871690b2410f8a915953121337d890f3bd36203",
+      "pass": true
+    },
+    {
+      "group": "evidence_files",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-import-work\\logs\\canonical-command.txt",
+      "present": true,
+      "bytes_expected": 621,
+      "bytes_actual": 621,
+      "sha256_expected": "8304dfd4e7f978046c7f40a48dee5b1a2f323746d47fbf74784fa02733c2435b",
+      "sha256_actual": "8304dfd4e7f978046c7f40a48dee5b1a2f323746d47fbf74784fa02733c2435b",
+      "pass": true
+    },
+    {
+      "group": "evidence_files",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-import-work\\logs\\canonical-stdout.txt",
+      "present": true,
+      "bytes_expected": 1121,
+      "bytes_actual": 1121,
+      "sha256_expected": "50c1e02f7d3effaf94f3547e3c92454137bd4dfa7fb7b580dc64d58211afd9fc",
+      "sha256_actual": "50c1e02f7d3effaf94f3547e3c92454137bd4dfa7fb7b580dc64d58211afd9fc",
+      "pass": true
+    },
+    {
+      "group": "evidence_files",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-import-work\\logs\\canonical-stderr.txt",
+      "present": true,
+      "bytes_expected": 0,
+      "bytes_actual": 0,
+      "sha256_expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "pass": true
+    },
+    {
+      "group": "evidence_files",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-import-work\\logs\\canonical-exit.json",
+      "present": true,
+      "bytes_expected": 212,
+      "bytes_actual": 212,
+      "sha256_expected": "1641347910b9f8011bd2eff7ebf6685ff1a3022188274aa93771eb8b20135e93",
+      "sha256_actual": "1641347910b9f8011bd2eff7ebf6685ff1a3022188274aa93771eb8b20135e93",
+      "pass": true
+    },
+    {
+      "group": "evidence_files",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-import-work\\logs\\postrun-tests.json",
+      "present": true,
+      "bytes_expected": 1997,
+      "bytes_actual": 1997,
+      "sha256_expected": "196d87c36c911ca54be146f21d26d05269461841a8c726097c6f2abcb339fc12",
+      "sha256_actual": "196d87c36c911ca54be146f21d26d05269461841a8c726097c6f2abcb339fc12",
+      "pass": true
+    }
+  ],
+  "source_inputs": [
+    {
+      "role": "relation_contract",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-profile-work\\relation-explorer-contract.md",
+      "present": true,
+      "bytes_expected": 5521,
+      "bytes_actual": 5521,
+      "sha256_expected": "dc2f005ebc13533d07abe19731b8684968be4bf46505d94bc1c842edb0758370",
+      "sha256_actual": "dc2f005ebc13533d07abe19731b8684968be4bf46505d94bc1c842edb0758370",
+      "pass": true
+    },
+    {
+      "role": "import_interface",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-profile-work\\import-interface.md",
+      "present": true,
+      "bytes_expected": 3293,
+      "bytes_actual": 3293,
+      "sha256_expected": "52ac14f024e4e29e8eacf9b289d92fd3efc8cf0fc95fca4cd95a8cc44e603ba0",
+      "sha256_actual": "52ac14f024e4e29e8eacf9b289d92fd3efc8cf0fc95fca4cd95a8cc44e603ba0",
+      "pass": true
+    },
+    {
+      "role": "relations_csv",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\backbone-reuse-work\\raw\\mathgloss\\data\\relations\\graph_edges.csv",
+      "present": true,
+      "bytes_expected": 616177,
+      "bytes_actual": 616177,
+      "sha256_expected": "54f58f2fe3303c7caf139132cd4301b44643c735334469ebcd7f995cc7884aec",
+      "sha256_actual": "54f58f2fe3303c7caf139132cd4301b44643c735334469ebcd7f995cc7884aec",
+      "pass": true
+    },
+    {
+      "role": "catalog_csv",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\data\\mathgloss\\source\\database.csv",
+      "present": true,
+      "bytes_expected": 674640,
+      "bytes_actual": 674640,
+      "sha256_expected": "933a72820fe7ede53a803b750a480def205677e5722ae5f9589b0d1d9bf832b2",
+      "sha256_actual": "933a72820fe7ede53a803b750a480def205677e5722ae5f9589b0d1d9bf832b2",
+      "pass": true
+    },
+    {
+      "role": "probe_inputs",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-source-review-work\\probe\\frozen-inputs.json",
+      "present": true,
+      "bytes_expected": 3358,
+      "bytes_actual": 3358,
+      "sha256_expected": "0d651c128bc77695df9e3737956e0b8ce7dc16cd68b78e9554b12e8b7017284b",
+      "sha256_actual": "0d651c128bc77695df9e3737956e0b8ce7dc16cd68b78e9554b12e8b7017284b",
+      "pass": true
+    },
+    {
+      "role": "probe_response",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-source-review-work\\probe\\wikidata-response.json",
+      "present": true,
+      "bytes_expected": 15595,
+      "bytes_actual": 15595,
+      "sha256_expected": "b1c172ecdb9784ab3412431517740c1e7c9505d3f52d180a9f2870dad5878655",
+      "sha256_actual": "b1c172ecdb9784ab3412431517740c1e7c9505d3f52d180a9f2870dad5878655",
+      "pass": true
+    },
+    {
+      "role": "probe_command_log",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-source-review-work\\probe\\command-log.json",
+      "present": true,
+      "bytes_expected": 3820,
+      "bytes_actual": 3820,
+      "sha256_expected": "5df43553b450c713a1866f4cbabce8fdc66471cfa2874f5feba76c3684a879d0",
+      "sha256_actual": "5df43553b450c713a1866f4cbabce8fdc66471cfa2874f5feba76c3684a879d0",
+      "pass": true
+    },
+    {
+      "role": "semantics_response",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-source-review-work\\semantics\\wikidata-semantics-response.json",
+      "present": true,
+      "bytes_expected": 47391,
+      "bytes_actual": 47391,
+      "sha256_expected": "3db472c2cf98ff6f867f20d56a983a4703c317d6855a40ad2e0cdc096641bec1",
+      "sha256_actual": "3db472c2cf98ff6f867f20d56a983a4703c317d6855a40ad2e0cdc096641bec1",
+      "pass": true
+    },
+    {
+      "role": "probe_independent_review",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\next-value-audit-work\\relation-probe-review.json",
+      "present": true,
+      "bytes_expected": 8636,
+      "bytes_actual": 8636,
+      "sha256_expected": "29e3a0f92165e4f7eb0b7ed9a30fcc6c3446e9ab16cc562f2742e5c858757f04",
+      "sha256_actual": "29e3a0f92165e4f7eb0b7ed9a30fcc6c3446e9ab16cc562f2742e5c858757f04",
+      "pass": true
+    },
+    {
+      "role": "mathgloss_license",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\backbone-reuse-work\\raw\\mathgloss\\LICENSE",
+      "present": true,
+      "bytes_expected": 1066,
+      "bytes_actual": 1066,
+      "sha256_expected": "5dc6b930900926814fc7bb9ff45dfcceae3aa33780eb010c83e6df58493594e7",
+      "sha256_actual": "5dc6b930900926814fc7bb9ff45dfcceae3aa33780eb010c83e6df58493594e7",
+      "pass": true
+    }
+  ],
+  "status": "pass"
+}

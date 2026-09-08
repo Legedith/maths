@@ -1,0 +1,314 @@
+{
+  "schema_version": "relation-import-independent-final-audit-v1",
+  "created_at_utc": "2026-09-08T06:15:03.031442+00:00",
+  "auditor": {
+    "identity": "/root/sol_atlas_audit",
+    "role": "independent read-only import fidelity and reproduction verifier; not importer author"
+  },
+  "overall_status": "pass_scoped",
+  "decision": "Approve the frozen importer and its three deterministic outputs for the external-connections engineering layer. Approval covers byte-faithful import, QID joins, retained exclusions, three exact probe observations, deterministic reproduction, and the specified provenance labels only.",
+  "frozen_subject": {
+    "worker_result_manifest": {
+      "path": "relation-import-work/result-manifest.json",
+      "sha256": "b4d3cc3ccc745902ccc55c324c6208d20951fb3840c570c675c00f640dc3ce67",
+      "expected_sha256": "b4d3cc3ccc745902ccc55c324c6208d20951fb3840c570c675c00f640dc3ce67",
+      "match": true
+    },
+    "importer": {
+      "path": "relation-import-work/import_relations.py",
+      "sha256": "2df16d7a3b2eaae64b634495d53c341f01852b2e68b1b05745e5a19b1faac72b",
+      "expected_sha256": "2df16d7a3b2eaae64b634495d53c341f01852b2e68b1b05745e5a19b1faac72b",
+      "match": true
+    },
+    "contract": {
+      "path": "project/docs/relation-explorer-contract.md",
+      "sha256": "dc2f005ebc13533d07abe19731b8684968be4bf46505d94bc1c842edb0758370"
+    },
+    "interface": {
+      "path": "project/docs/relation-import-interface.md",
+      "sha256": "52ac14f024e4e29e8eacf9b289d92fd3efc8cf0fc95fca4cd95a8cc44e603ba0"
+    }
+  },
+  "checks": [
+    {
+      "id": "source_and_freeze_integrity",
+      "status": "pass",
+      "note": "Worker manifest matches its announced hash; all 16 governed implementation/test/output/log records and all 10 input-freeze source records match byte sizes and SHA-256 values.",
+      "evidence": [
+        "raw/freeze-hash-check.json"
+      ]
+    },
+    {
+      "id": "row_and_join_fidelity",
+      "status": "pass",
+      "note": "An independently written CSV oracle exactly matches all 9,159 ledger rows, all physical/logical locators and six original fields, all QID-join decisions and missing_qids, and all 5,390 included edge records in original CSV order. The 3,769 exclusions remain in the ledger.",
+      "evidence": [
+        "verify_relation_import.py",
+        "raw/author-output-comparison-attempt02.json"
+      ]
+    },
+    {
+      "id": "probe_observation_fidelity",
+      "status": "pass",
+      "note": "Exactly the three frozen edge IDs are observed. Requested URL, response-completion time, raw response hash, source revision fields, triple, raw statement objects, field-presence booleans, and the three allowed semantic display labels all match their pinned inputs. P460 retains P518=Q9085982.",
+      "evidence": [
+        "raw/source-oracle-attempt02.json",
+        "raw/author-output-comparison-attempt02.json"
+      ]
+    },
+    {
+      "id": "deterministic_reproduction",
+      "status": "pass",
+      "note": "One audit-owned uv --frozen reproduction exited 0 with empty stderr. Its index, ledger and summary are byte-identical to all three author outputs. Reapplying the command to the nonempty directory exited 2 and left all bytes unchanged.",
+      "evidence": [
+        "raw/reproduction-command.json",
+        "raw/reproduction-stdout.log",
+        "raw/reproduction-stderr.log",
+        "raw/reproduction-output-comparison.json",
+        "raw/nonempty-output-probe.json"
+      ]
+    },
+    {
+      "id": "implementation_and_portability",
+      "status": "pass",
+      "note": "Static review confirms standard-library-only imports, argument-supplied paths, pinned input size/hash checks, strict CSV headers, numeric property sorting, exact raw-object retention, deterministic compact UTF-8/LF JSON, no volatile output timestamp, and no network operation. The published form remains portable when invoked with checkout-relative input paths.",
+      "evidence": [
+        "relation-import-work/import_relations.py lines 1-11, 40-126, 160-266, 276-416, 419-590",
+        "raw/reproduction-command.json"
+      ]
+    }
+  ],
+  "inventory": {
+    "total_rows": 9159,
+    "included_rows": 5390,
+    "excluded_rows": 3769,
+    "endpoint_count": 3372,
+    "property_count": 81
+  },
+  "canonical_content_digests": {
+    "ledger_rows_canonical_sha256": "5407b267ac443b611ff0a2e880193bdddd89876cdadcfdea66f5faffd553398d",
+    "included_edges_canonical_sha256": "8e22c2fc4d8e183fe66eedb8b6f0a2ff891e7148fc12a8daf3c94d1f35a861ee",
+    "properties_canonical_sha256": "7461aefdf0814a450b271d8853cb0e503212befc622c8ef0d425505d7f095a7d",
+    "observations_canonical_sha256": "67c12835d8dcfc934b15cd3ac9fd0d445b6ba7f7efdad102373113b420233e26"
+  },
+  "property_order_check": {
+    "status": "pass",
+    "property_records": 81,
+    "sort": "numeric Wikidata property ID",
+    "canonical_sha256": "7461aefdf0814a450b271d8853cb0e503212befc622c8ef0d425505d7f095a7d"
+  },
+  "probe_rows": [
+    {
+      "edge_id": "mathgloss-row-23",
+      "source_qid": "Q1000116",
+      "property_id": "P279",
+      "target_qid": "Q179692",
+      "statement_id": "Q1000116$c413fb0a-44a0-002c-c229-b2806eda7853",
+      "rank": "normal",
+      "field_presence": {
+        "statement_id": true,
+        "qualifiers": false,
+        "references": false
+      },
+      "qualifier_ids": [],
+      "raw_statement_sha256": "9cce06f85d4ea8d1c9e9c9c6faf5832fbf273de79b4aeebea1e290e5d557e435"
+    },
+    {
+      "edge_id": "mathgloss-row-175",
+      "source_qid": "Q1051696",
+      "property_id": "P460",
+      "target_qid": "Q28649150",
+      "statement_id": "Q1051696$4412a53f-44f9-cad4-9731-c4f99d820ea7",
+      "rank": "normal",
+      "field_presence": {
+        "statement_id": true,
+        "qualifiers": true,
+        "references": false
+      },
+      "qualifier_ids": [
+        "P518"
+      ],
+      "raw_statement_sha256": "6a6c4542e28239816699c0f123dd3bdbaa09d5080c29bc0d31e23e4a5d49c7d9"
+    },
+    {
+      "edge_id": "mathgloss-row-26",
+      "source_qid": "Q1000660",
+      "property_id": "P1889",
+      "target_qid": "Q2030545",
+      "statement_id": "Q1000660$a08b7033-4356-b859-1568-310fe7b273d5",
+      "rank": "normal",
+      "field_presence": {
+        "statement_id": true,
+        "qualifiers": false,
+        "references": false
+      },
+      "qualifier_ids": [],
+      "raw_statement_sha256": "0afde9689dccfe033b559b953bd68a379bb788b8d7173e6346fd2693b4f8f13e"
+    }
+  ],
+  "probe_detail": {
+    "mathgloss-row-23": {
+      "record": 23,
+      "physical_line": 24,
+      "triple": [
+        "Q1000116",
+        "P279",
+        "Q179692"
+      ],
+      "qualifiers_field_present": false,
+      "references_field_present": false
+    },
+    "mathgloss-row-175": {
+      "record": 175,
+      "physical_line": 176,
+      "triple": [
+        "Q1051696",
+        "P460",
+        "Q28649150"
+      ],
+      "qualifier": {
+        "property_id": "P518",
+        "display_label": "applies to part",
+        "value_id": "Q9085982",
+        "value_display_label": "type IIA string theory"
+      },
+      "qualifiers_field_present": true,
+      "references_field_present": false
+    },
+    "mathgloss-row-26": {
+      "record": 26,
+      "physical_line": 27,
+      "triple": [
+        "Q1000660",
+        "P1889",
+        "Q2030545"
+      ],
+      "qualifiers_field_present": false,
+      "references_field_present": false
+    }
+  },
+  "output_reproduction": {
+    "command_exit_code": 0,
+    "timed_out": false,
+    "stderr_bytes": 0,
+    "files": [
+      {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-import-audit-work\\reproduction\\run-01\\relation-index.json",
+        "bytes": 1731941,
+        "sha256": "9f5f4d53c2c95cad05a61bc5a936300e277a60fd1e63e163c6d9eb799b34bdb1"
+      },
+      {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-import-audit-work\\reproduction\\run-01\\relation-ledger.json",
+        "bytes": 2411231,
+        "sha256": "fc0d04344de071ef6ea79c3950ae6475989a6fe6ac6c17724d53d03e757d86a7"
+      },
+      {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-import-audit-work\\reproduction\\run-01\\relation-summary.json",
+        "bytes": 5947,
+        "sha256": "44292c55f303bc16f9eb96a20f2eac6733aee70062533dc514546062bd3df7f0"
+      }
+    ],
+    "all_three_match_author_hashes": true
+  },
+  "auditor_correction_history": {
+    "retained_attempt_01": {
+      "path": "raw/author-output-comparison-attempt01.json",
+      "bytes": 15516,
+      "sha256": "dd083917a740fc11ebfdd5e1582ee6de471215966ef942a384846e673184583a"
+    },
+    "attempt_01_status": "fail",
+    "cause": "The first oracle overconstrained an interface-neutral observation layout by placing entity revision fields at top level and display labels only on P460. The frozen interface permits source_entity nesting and specifies the same bounded display-label map per observation.",
+    "resolution": "Only the expected observation layout was corrected. CSV row, edge, property and raw statement derivations were unchanged; attempt 01 remains retained.",
+    "attempt_02": {
+      "path": "raw/author-output-comparison-attempt02.json",
+      "bytes": 15481,
+      "sha256": "dae0261e2b7e230c277d5aea82fcf6304d1dd2fab5cff927279cda03b7e0328c"
+    },
+    "attempt_02_status": "pass"
+  },
+  "four_integrity_gates": [
+    {
+      "id": "reproduction",
+      "status": "pass",
+      "evidence": [
+        "raw/reproduction-command.json",
+        "raw/reproduction-output-comparison.json"
+      ],
+      "note": "Independent frozen run reproduced all three author outputs byte for byte."
+    },
+    {
+      "id": "specification_compliance",
+      "status": "pass",
+      "evidence": [
+        "raw/author-output-comparison-attempt02.json",
+        "raw/nonempty-output-probe.json"
+      ],
+      "note": "All mandated schemas, inventories, ordering, exclusions, missing-metadata semantics and bounded observations match."
+    },
+    {
+      "id": "source_verification",
+      "status": "pass",
+      "evidence": [
+        "raw/source-oracle-attempt02.json",
+        "raw/author-output-comparison-attempt02.json"
+      ],
+      "note": "Every imported field derives from hash-pinned CSV/catalog/probe/semantics inputs; raw statement absence is preserved rather than normalized."
+    },
+    {
+      "id": "implementation_alignment",
+      "status": "pass",
+      "evidence": [
+        "raw/freeze-hash-check.json",
+        "verify_relation_import.py",
+        "raw/reproduction-output-comparison.json"
+      ],
+      "note": "Frozen worker code, author bytes, independently derived expected objects and reproduced bytes align."
+    }
+  ],
+  "material_defects": [],
+  "limitations": [
+    "This is an engineering import audit, not a review of whether any external relation is mathematically true.",
+    "Included edges remain unreviewed_external_assertion; P460 is not promoted to mathematical equivalence.",
+    "The three probe observations are purposively preselected dated API observations and do not estimate persistence, error rates, completeness or reference quality.",
+    "All three matching raw statements omit references; this is preserved field absence for those statements only, not a corpus-wide no-reference claim.",
+    "No novelty, discovery, map completeness, user-productivity or practical-impact conclusion follows.",
+    "UI, API and WebMCP behavior are outside this importer audit and require their separately assigned review."
+  ],
+  "artifacts": {
+    "verifier": {
+      "path": "verify_relation_import.py",
+      "bytes": 15862,
+      "sha256": "14aecabcde38c6211901b491a8b193a038958af55a22313d193c0826a85fbb28"
+    },
+    "oracle_final": {
+      "path": "raw/source-oracle-attempt02.json",
+      "bytes": 12143,
+      "sha256": "0610a91432da40f867e5c404bb37e0da18bf897b557a27f0547547063f1d9549"
+    },
+    "author_comparison_final": {
+      "path": "raw/author-output-comparison-attempt02.json",
+      "bytes": 15481,
+      "sha256": "dae0261e2b7e230c277d5aea82fcf6304d1dd2fab5cff927279cda03b7e0328c"
+    },
+    "reproduction_comparison": {
+      "path": "raw/reproduction-output-comparison.json",
+      "bytes": 15538,
+      "sha256": "0a2946d3981e2e98bd3683c02888171faa0e09fe532f63acc354a79193d67e74"
+    },
+    "reproduction_log": {
+      "path": "raw/reproduction-command.json",
+      "bytes": 2314,
+      "sha256": "805e54fe31fbd4ee18ec98f7df9ee5b1d2ed98d8493b53cd075cd46f14e9f021"
+    },
+    "freeze_check": {
+      "path": "raw/freeze-hash-check.json",
+      "bytes": 12138,
+      "sha256": "aef1270da3749ef89fa7d4d66543b501dc11b502def3786c102a237dfc5ebb32"
+    },
+    "nonempty_probe": {
+      "path": "raw/nonempty-output-probe.json",
+      "bytes": 1822,
+      "sha256": "fb570405a7727c3be774e92e9969abe98440d5c8d8911be46162bd87be457464"
+    }
+  }
+}

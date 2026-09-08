@@ -1,0 +1,91 @@
+{
+  "schema_version": "external-relations-initial-code-review-v1",
+  "created_at_utc": "2026-09-08T05:58:40.6315595Z",
+  "reviewer": "/root/sol_symmetry_audit",
+  "status": "changes_requested_before_freeze",
+  "scope": "Static read-only review of the root-authored UI, API, pure query module and WebMCP hook before imported application data was available. No browser or shared-file write was performed.",
+  "contracts": [
+    {
+      "path": "docs/relation-explorer-contract.md",
+      "sha256": "dc2f005ebc13533d07abe19731b8684968be4bf46505d94bc1c842edb0758370"
+    },
+    {
+      "path": "docs/relation-import-interface.md",
+      "sha256": "52ac14f024e4e29e8eacf9b289d92fd3efc8cf0fc95fca4cd95a8cc44e603ba0"
+    }
+  ],
+  "reviewed_files": [
+    {
+      "path": "lib/external-relations.ts",
+      "sha256": "8ebccdb445cca90e4420117285dd5b30e6d91440b9c88cef480e9b5f617c5617"
+    },
+    {
+      "path": "lib/external-relations-server.ts",
+      "sha256": "64fedff69bb0ceb0f5b57a9c83050f03ffec63497193ba688d171a538c9c4b09"
+    },
+    {
+      "path": "lib/use-external-relation-tools.ts",
+      "sha256": "4340b0d084831d27d9811870520ed74ea63f6819e0e997f390c8bfa33ea75358"
+    },
+    {
+      "path": "app/api/external-relations/route.ts",
+      "sha256": "a53e2e5eca38ab08d33126ef22f75318712a5620bd26f666cbf6eece141ff998"
+    },
+    {
+      "path": "app/connections/page.tsx",
+      "sha256": "ac90cc98ad743d978f81d45b910d2bc9ac28e64a38abab7fbfd23cb49f81ba90"
+    },
+    {
+      "path": "components/external-connections.tsx",
+      "sha256": "9eb39e51a8637b87352b67057a61fdecd0c657c56b94589651647b55c4efc24c"
+    },
+    {
+      "path": "components/external-connections.module.css",
+      "sha256": "627e448d1afec55946d278981478ce1f062e6f828f82a7066a223c2e24499359"
+    }
+  ],
+  "findings": [
+    {
+      "id": "strict_optional_input_presence",
+      "severity": "material",
+      "status": "open_in_reviewed_bytes",
+      "location": "lib/external-relations.ts:73-80",
+      "finding": "Nullish-coalescing defaults accept explicitly present null values for property, direction and page. The WebMCP schema declares typed fields, and present invalid fields must reject rather than become defaults.",
+      "required_change": "Default only when the property is undefined; reject null and every other wrong type."
+    },
+    {
+      "id": "field_presence_type",
+      "severity": "material",
+      "status": "open_in_reviewed_bytes",
+      "location": "lib/external-relations.ts:34",
+      "finding": "RelationObservation.field_presence types statement_id as string, while the frozen import interface requires statement_id, qualifiers and references to be booleans.",
+      "required_change": "Use boolean for statement_id and verify the imported observation shape in focused checks."
+    },
+    {
+      "id": "qualifier_missing_vs_empty",
+      "severity": "material",
+      "status": "open_in_reviewed_bytes",
+      "location": "components/external-connections.tsx:17-26",
+      "finding": "The fallback text combines a missing qualifiers field and a present-but-empty qualifier container, contrary to the explicit missing-versus-empty display requirement.",
+      "required_change": "Pair each raw statement with its field_presence record or Object.hasOwn and render distinct missing, supplied-empty, and supplied-with-values states."
+    },
+    {
+      "id": "observation_request_locator",
+      "severity": "minor",
+      "status": "open_in_reviewed_bytes",
+      "location": "components/external-connections.tsx:35-42",
+      "finding": "The expandable observation detail shows date, entity revision, raw statement and response hash but does not expose the retained requested_url.",
+      "required_change": "Display or link the exact dated request URL in the observation provenance detail."
+    }
+  ],
+  "aligned_static_behavior": [
+    "Incident edges retain their original source and target; direction filtering does not reverse rows.",
+    "The list displays the original property label and property ID, and P460 gets explicit non-equivalence wording.",
+    "The diagram is bounded to six incoming and six outgoing edges from the current page and states its shown/full counts; the complete page list follows.",
+    "The route rejects repeated and unknown URL parameters, emits controlled non-echoing errors, limits pages to 20 records in the pure query layer, and sets no-store on success and failure.",
+    "Concept finding reuses the existing same-origin concept-library API; neighbor, filter, pagination and WebMCP paths share the same selection callback and URL update.",
+    "The selected ConceptRecord exposes its existing resource links and pinned concept source record without merging edge labels into library labels.",
+    "No transitive closure, path proof, inverse predicate, inferred identity, or mathematical equivalence is computed."
+  ],
+  "next_review": "After the findings are corrected and importer outputs are frozen, inspect only the delta plus whole-row fidelity, exact pagination/property/direction oracles, probe raw-field preservation, P518=Q9085982 display data, malformed API/tool inputs, URL/state consistency, and the canonical typecheck/build records."
+}

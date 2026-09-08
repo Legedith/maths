@@ -1,0 +1,44 @@
+{
+  "schema_version": "relation-import-nonempty-output-probe-v1",
+  "argv": [
+    "C:\\Users\\Legedith\\.local\\bin\\uv.exe",
+    "run",
+    "--project",
+    "relation-import-work",
+    "--frozen",
+    "--python",
+    "3.12.11",
+    "python",
+    "relation-import-work/import_relations.py",
+    "--relations-csv",
+    "backbone-reuse-work/raw/mathgloss/data/relations/graph_edges.csv",
+    "--catalog-csv",
+    "project/data/mathgloss/source/database.csv",
+    "--probe-inputs",
+    "relation-source-review-work/probe/frozen-inputs.json",
+    "--probe-response",
+    "relation-source-review-work/probe/wikidata-response.json",
+    "--probe-command-log",
+    "relation-source-review-work/probe/command-log.json",
+    "--semantics-response",
+    "relation-source-review-work/semantics/wikidata-semantics-response.json",
+    "--output-dir",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\relation-import-audit-work\\reproduction\\run-01"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas",
+  "exit_code": 2,
+  "stdout_utf8": "",
+  "stderr_utf8": "error: output-dir exists and is nonempty\r\n",
+  "output_hashes_before": {
+    "relation-index.json": "9f5f4d53c2c95cad05a61bc5a936300e277a60fd1e63e163c6d9eb799b34bdb1",
+    "relation-ledger.json": "fc0d04344de071ef6ea79c3950ae6475989a6fe6ac6c17724d53d03e757d86a7",
+    "relation-summary.json": "44292c55f303bc16f9eb96a20f2eac6733aee70062533dc514546062bd3df7f0"
+  },
+  "output_hashes_after": {
+    "relation-index.json": "9f5f4d53c2c95cad05a61bc5a936300e277a60fd1e63e163c6d9eb799b34bdb1",
+    "relation-ledger.json": "fc0d04344de071ef6ea79c3950ae6475989a6fe6ac6c17724d53d03e757d86a7",
+    "relation-summary.json": "44292c55f303bc16f9eb96a20f2eac6733aee70062533dc514546062bd3df7f0"
+  },
+  "outputs_unchanged": true,
+  "pass": true
+}

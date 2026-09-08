@@ -1,0 +1,82 @@
+{
+  "schema_version": "mathgloss-wikidata-probe-command-log-v1",
+  "completed_at_utc": "2026-09-08T05:25:18.1655639Z",
+  "scope": "One deterministic three-property selection, one ordinary batched GET, and local parsing. No replacement requests.",
+  "events": [
+    {
+      "sequence": 1,
+      "operation": "freeze deterministic inputs before fetch",
+      "started_at_utc": "2026-09-08T05:20:42.671032+00:00",
+      "command": "C:/Users/Legedith/.local/bin/uv.exe run --no-project --python 3.12 python -c <inline csv selection recorded semantically in frozen-inputs.json>",
+      "result": "success",
+      "selected": [
+        "P279 Q1000116 -> Q179692 record 23 physical line 24",
+        "P460 Q1051696 -> Q28649150 record 175 physical line 176",
+        "P1889 Q1000660 -> Q2030545 record 26 physical line 27"
+      ],
+      "artifact": "frozen-inputs.json",
+      "sha256": "0d651c128bc77695df9e3737956e0b8ce7dc16cd68b78e9554b12e8b7017284b"
+    },
+    {
+      "sequence": 2,
+      "operation": "one batched primary API request",
+      "started_at_utc": "2026-09-08T05:21:17.1946388+00:00",
+      "ended_at_utc": "2026-09-08T05:21:18.0403102+00:00",
+      "duration_seconds": 0.845671,
+      "method": "GET",
+      "requested_url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&formatversion=2&ids=Q1000116%7CQ1000660%7CQ1051696&props=info%7Cclaims",
+      "user_agent": "MathematicsAtlasRelationProvenanceProbe/0.1 (read-only; local research)",
+      "http_status": 200,
+      "reason": "OK",
+      "safe_response_headers": {
+        "date": "Tue, 08 Sep 2026 05:21:17 GMT",
+        "content_type": "application/json; charset=utf-8",
+        "x_request_id": "ea759863-c914-43b5-a82f-ab9ef149b573"
+      },
+      "artifact": "wikidata-response.json",
+      "bytes": 15595,
+      "sha256": "b1c172ecdb9784ab3412431517740c1e7c9505d3f52d180a9f2870dad5878655"
+    },
+    {
+      "sequence": 3,
+      "operation": "first local response parser",
+      "command": "uv run --no-project --python 3.12 python -c <inline parser>",
+      "result": "failed_without_artifact_mutation",
+      "stderr": "TypeError: string indices must be integers, not str",
+      "cause": "The parser assumed formatversion=2 entities was a list; this response represents entities as a QID-keyed object.",
+      "resolution": "Preserved the raw response and changed only the local traversal to use the QID-keyed object. No new HTTP request was issued."
+    },
+    {
+      "sequence": 4,
+      "operation": "corrected local response parse",
+      "command": "uv run --no-project --python 3.12 python -c <inline exact QID/property/target matcher>",
+      "result": "success",
+      "observed": [
+        "P279: 1 matching statement, normal rank, 0 qualifiers, 0 references",
+        "P460: 1 matching statement, normal rank, 1 P518 qualifier with Q9085982, 0 references",
+        "P1889: 1 matching statement, normal rank, 0 qualifiers, 0 references"
+      ]
+    },
+    {
+      "sequence": 5,
+      "operation": "write structured findings from frozen inputs and preserved response",
+      "command": "uv run --no-project --python 3.12 python -c <inline deterministic report builder>",
+      "result": "success",
+      "artifact": "findings.json",
+      "sha256": "61ede9c1357a05809932e90893fdbb677386871be249e64bbef83850b81a5b56"
+    }
+  ],
+  "accounting": {
+    "ordinary_http_requests": 1,
+    "replacement_requests": 0,
+    "selected_rows": 3,
+    "raw_response_files": 1,
+    "claims_not_tested": [
+      "truth",
+      "accuracy",
+      "mathematical equivalence",
+      "population error rate"
+    ]
+  },
+  "privacy_note": "Only safe response headers are retained here; cookie and network-location headers were intentionally excluded."
+}

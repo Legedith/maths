@@ -1,0 +1,630 @@
+{
+  "schema_version": "relation-import-independent-verification-v1",
+  "mode": "import_comparison",
+  "status": "pass",
+  "oracle": {
+    "source_hash_checks": {
+      "relations_csv": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\backbone-reuse-work\\raw\\mathgloss\\data\\relations\\graph_edges.csv",
+        "bytes": 616177,
+        "sha256": "54f58f2fe3303c7caf139132cd4301b44643c735334469ebcd7f995cc7884aec",
+        "pass": true
+      },
+      "catalog_csv": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\data\\mathgloss\\source\\database.csv",
+        "bytes": 674640,
+        "sha256": "933a72820fe7ede53a803b750a480def205677e5722ae5f9589b0d1d9bf832b2",
+        "pass": true
+      },
+      "probe_inputs": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-source-review-work\\probe\\frozen-inputs.json",
+        "bytes": 3358,
+        "sha256": "0d651c128bc77695df9e3737956e0b8ce7dc16cd68b78e9554b12e8b7017284b",
+        "pass": true
+      },
+      "probe_response": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-source-review-work\\probe\\wikidata-response.json",
+        "bytes": 15595,
+        "sha256": "b1c172ecdb9784ab3412431517740c1e7c9505d3f52d180a9f2870dad5878655",
+        "pass": true
+      },
+      "probe_command_log": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-source-review-work\\probe\\command-log.json",
+        "bytes": 3820,
+        "sha256": "5df43553b450c713a1866f4cbabce8fdc66471cfa2874f5feba76c3684a879d0",
+        "pass": true
+      },
+      "semantics_response": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-source-review-work\\semantics\\wikidata-semantics-response.json",
+        "bytes": 47391,
+        "sha256": "3db472c2cf98ff6f867f20d56a983a4703c317d6855a40ad2e0cdc096641bec1",
+        "pass": true
+      }
+    },
+    "catalog": {
+      "logical_rows": 4814,
+      "nonempty_unique_qids": 4814
+    },
+    "summary": {
+      "total_rows": 9159,
+      "included_rows": 5390,
+      "excluded_rows": 3769,
+      "endpoint_count": 3372,
+      "property_count": 81
+    },
+    "properties": [
+      {
+        "id": "P31",
+        "label": "instance of",
+        "count": 887
+      },
+      {
+        "id": "P61",
+        "label": "discoverer or inventor",
+        "count": 1
+      },
+      {
+        "id": "P101",
+        "label": "field of work",
+        "count": 3
+      },
+      {
+        "id": "P111",
+        "label": "measured physical quantity",
+        "count": 2
+      },
+      {
+        "id": "P136",
+        "label": "genre",
+        "count": 3
+      },
+      {
+        "id": "P138",
+        "label": "named after",
+        "count": 46
+      },
+      {
+        "id": "P144",
+        "label": "based on",
+        "count": 5
+      },
+      {
+        "id": "P155",
+        "label": "follows",
+        "count": 36
+      },
+      {
+        "id": "P156",
+        "label": "followed by",
+        "count": 36
+      },
+      {
+        "id": "P180",
+        "label": "depicts",
+        "count": 5
+      },
+      {
+        "id": "P186",
+        "label": "made from material",
+        "count": 1
+      },
+      {
+        "id": "P279",
+        "label": "subclass of",
+        "count": 2509
+      },
+      {
+        "id": "P360",
+        "label": "is a list of",
+        "count": 1
+      },
+      {
+        "id": "P361",
+        "label": "part of",
+        "count": 211
+      },
+      {
+        "id": "P366",
+        "label": "has use",
+        "count": 28
+      },
+      {
+        "id": "P459",
+        "label": "determination method or standard",
+        "count": 1
+      },
+      {
+        "id": "P460",
+        "label": "said to be the same as",
+        "count": 52
+      },
+      {
+        "id": "P461",
+        "label": "opposite of",
+        "count": 136
+      },
+      {
+        "id": "P517",
+        "label": "interaction",
+        "count": 1
+      },
+      {
+        "id": "P527",
+        "label": "has part(s)",
+        "count": 207
+      },
+      {
+        "id": "P737",
+        "label": "influenced by",
+        "count": 2
+      },
+      {
+        "id": "P793",
+        "label": "significant event",
+        "count": 3
+      },
+      {
+        "id": "P816",
+        "label": "decays to",
+        "count": 2
+      },
+      {
+        "id": "P828",
+        "label": "has cause",
+        "count": 4
+      },
+      {
+        "id": "P921",
+        "label": "main subject",
+        "count": 44
+      },
+      {
+        "id": "P941",
+        "label": "inspired by",
+        "count": 2
+      },
+      {
+        "id": "P1171",
+        "label": "approximation algorithm",
+        "count": 3
+      },
+      {
+        "id": "P1268",
+        "label": "represents",
+        "count": 3
+      },
+      {
+        "id": "P1269",
+        "label": "facet of",
+        "count": 159
+      },
+      {
+        "id": "P1299",
+        "label": "depicted by",
+        "count": 1
+      },
+      {
+        "id": "P1312",
+        "label": "has facet polytope",
+        "count": 1
+      },
+      {
+        "id": "P1322",
+        "label": "dual to",
+        "count": 6
+      },
+      {
+        "id": "P1343",
+        "label": "described by source",
+        "count": 3
+      },
+      {
+        "id": "P1382",
+        "label": "partially coincident with",
+        "count": 3
+      },
+      {
+        "id": "P1419",
+        "label": "shape",
+        "count": 2
+      },
+      {
+        "id": "P1535",
+        "label": "used by",
+        "count": 8
+      },
+      {
+        "id": "P1542",
+        "label": "has effect",
+        "count": 5
+      },
+      {
+        "id": "P1552",
+        "label": "has characteristic",
+        "count": 123
+      },
+      {
+        "id": "P1557",
+        "label": "manifestation of",
+        "count": 2
+      },
+      {
+        "id": "P1568",
+        "label": "definition domain",
+        "count": 21
+      },
+      {
+        "id": "P1571",
+        "label": "codomain",
+        "count": 8
+      },
+      {
+        "id": "P1678",
+        "label": "has vertex figure",
+        "count": 2
+      },
+      {
+        "id": "P1851",
+        "label": "input set",
+        "count": 2
+      },
+      {
+        "id": "P1889",
+        "label": "different from",
+        "count": 357
+      },
+      {
+        "id": "P2152",
+        "label": "antiparticle",
+        "count": 2
+      },
+      {
+        "id": "P2159",
+        "label": "computes solution to",
+        "count": 3
+      },
+      {
+        "id": "P2184",
+        "label": "history of topic",
+        "count": 1
+      },
+      {
+        "id": "P2283",
+        "label": "uses",
+        "count": 42
+      },
+      {
+        "id": "P2375",
+        "label": "has superpartner",
+        "count": 6
+      },
+      {
+        "id": "P2376",
+        "label": "superpartner of",
+        "count": 5
+      },
+      {
+        "id": "P2384",
+        "label": "statement describes",
+        "count": 20
+      },
+      {
+        "id": "P2396",
+        "label": "image of function",
+        "count": 5
+      },
+      {
+        "id": "P2445",
+        "label": "metasubclass of",
+        "count": 1
+      },
+      {
+        "id": "P2577",
+        "label": "admissible rule in",
+        "count": 1
+      },
+      {
+        "id": "P2578",
+        "label": "is the study of",
+        "count": 19
+      },
+      {
+        "id": "P2579",
+        "label": "studied by",
+        "count": 151
+      },
+      {
+        "id": "P2670",
+        "label": "has part(s) of the class",
+        "count": 58
+      },
+      {
+        "id": "P3113",
+        "label": "does not have part",
+        "count": 3
+      },
+      {
+        "id": "P3712",
+        "label": "has goal",
+        "count": 1
+      },
+      {
+        "id": "P3966",
+        "label": "programming paradigm",
+        "count": 5
+      },
+      {
+        "id": "P4330",
+        "label": "contains",
+        "count": 1
+      },
+      {
+        "id": "P4428",
+        "label": "implementation of",
+        "count": 1
+      },
+      {
+        "id": "P4510",
+        "label": "describes a project that uses",
+        "count": 1
+      },
+      {
+        "id": "P4777",
+        "label": "has boundary",
+        "count": 2
+      },
+      {
+        "id": "P4934",
+        "label": "calculated from",
+        "count": 9
+      },
+      {
+        "id": "P5135",
+        "label": "greater than",
+        "count": 1
+      },
+      {
+        "id": "P5136",
+        "label": "less than",
+        "count": 1
+      },
+      {
+        "id": "P5869",
+        "label": "model item",
+        "count": 3
+      },
+      {
+        "id": "P6153",
+        "label": "research site",
+        "count": 2
+      },
+      {
+        "id": "P6477",
+        "label": "does not have characteristic",
+        "count": 3
+      },
+      {
+        "id": "P7719",
+        "label": "generalization of",
+        "count": 18
+      },
+      {
+        "id": "P8111",
+        "label": "recommended unit of measurement",
+        "count": 1
+      },
+      {
+        "id": "P8225",
+        "label": "is metaclass for",
+        "count": 2
+      },
+      {
+        "id": "P8864",
+        "label": "identity element",
+        "count": 2
+      },
+      {
+        "id": "P8865",
+        "label": "mathematical inverse",
+        "count": 5
+      },
+      {
+        "id": "P8866",
+        "label": "has operator",
+        "count": 1
+      },
+      {
+        "id": "P11279",
+        "label": "counts number of",
+        "count": 3
+      },
+      {
+        "id": "P12322",
+        "label": "underlying structure(s)",
+        "count": 51
+      },
+      {
+        "id": "P12457",
+        "label": "invariant under",
+        "count": 6
+      },
+      {
+        "id": "P13044",
+        "label": "characteristic of",
+        "count": 14
+      },
+      {
+        "id": "P13359",
+        "label": "items classified",
+        "count": 3
+      }
+    ],
+    "observation_summaries": [
+      {
+        "edge_id": "mathgloss-row-23",
+        "source_qid": "Q1000116",
+        "property_id": "P279",
+        "target_qid": "Q179692",
+        "statement_id": "Q1000116$c413fb0a-44a0-002c-c229-b2806eda7853",
+        "rank": "normal",
+        "field_presence": {
+          "statement_id": true,
+          "qualifiers": false,
+          "references": false
+        },
+        "qualifier_ids": [],
+        "raw_statement_sha256": "9cce06f85d4ea8d1c9e9c9c6faf5832fbf273de79b4aeebea1e290e5d557e435"
+      },
+      {
+        "edge_id": "mathgloss-row-175",
+        "source_qid": "Q1051696",
+        "property_id": "P460",
+        "target_qid": "Q28649150",
+        "statement_id": "Q1051696$4412a53f-44f9-cad4-9731-c4f99d820ea7",
+        "rank": "normal",
+        "field_presence": {
+          "statement_id": true,
+          "qualifiers": true,
+          "references": false
+        },
+        "qualifier_ids": [
+          "P518"
+        ],
+        "raw_statement_sha256": "6a6c4542e28239816699c0f123dd3bdbaa09d5080c29bc0d31e23e4a5d49c7d9"
+      },
+      {
+        "edge_id": "mathgloss-row-26",
+        "source_qid": "Q1000660",
+        "property_id": "P1889",
+        "target_qid": "Q2030545",
+        "statement_id": "Q1000660$a08b7033-4356-b859-1568-310fe7b273d5",
+        "rank": "normal",
+        "field_presence": {
+          "statement_id": true,
+          "qualifiers": false,
+          "references": false
+        },
+        "qualifier_ids": [],
+        "raw_statement_sha256": "0afde9689dccfe033b559b953bd68a379bb788b8d7173e6346fd2693b4f8f13e"
+      }
+    ],
+    "digests": {
+      "ledger_rows_canonical_sha256": "5407b267ac443b611ff0a2e880193bdddd89876cdadcfdea66f5faffd553398d",
+      "included_edges_canonical_sha256": "8e22c2fc4d8e183fe66eedb8b6f0a2ff891e7148fc12a8daf3c94d1f35a861ee",
+      "properties_canonical_sha256": "7461aefdf0814a450b271d8853cb0e503212befc622c8ef0d425505d7f095a7d",
+      "observations_canonical_sha256": "67c12835d8dcfc934b15cd3ac9fd0d445b6ba7f7efdad102373113b420233e26"
+    },
+    "retrieved_at_interpretation": "response-completion ended_at_utc from the sole retained request event"
+  },
+  "comparison": {
+    "status": "pass",
+    "checks": {
+      "index_schema": true,
+      "ledger_rows_exact": true,
+      "index_edges_exact": true,
+      "index_summary_exact": true,
+      "summary_summary_exact": true,
+      "index_properties_exact": true,
+      "summary_properties_exact": true,
+      "observation_keys_exact": true,
+      "observations_exact": true,
+      "index_source": true,
+      "ledger_source": true,
+      "summary_source": true,
+      "summary_has_index_hash": true,
+      "summary_has_ledger_hash": true,
+      "index_no_volatile_timestamp": true,
+      "ledger_no_volatile_timestamp": true,
+      "summary_no_volatile_timestamp": true
+    },
+    "failed_checks": [],
+    "source_metadata_checks": {
+      "index": {
+        "repository": true,
+        "commit": true,
+        "relations_csv": true,
+        "catalog_csv": true,
+        "probe_inputs": true,
+        "probe_response": true,
+        "probe_command_log": true,
+        "semantics_response": true,
+        "MIT": true,
+        "CC0": true
+      },
+      "ledger": {
+        "repository": true,
+        "commit": true,
+        "relations_csv": true,
+        "catalog_csv": true,
+        "probe_inputs": true,
+        "probe_response": true,
+        "probe_command_log": true,
+        "semantics_response": true,
+        "MIT": true,
+        "CC0": true
+      },
+      "summary": {
+        "repository": true,
+        "commit": true,
+        "relations_csv": true,
+        "catalog_csv": true,
+        "probe_inputs": true,
+        "probe_response": true,
+        "probe_command_log": true,
+        "semantics_response": true,
+        "MIT": true,
+        "CC0": true
+      }
+    },
+    "observation_checks": {
+      "mathgloss-row-23": {
+        "requested_url": true,
+        "retrieved_at_utc": true,
+        "raw_response_sha256": true,
+        "source_entity": true,
+        "triple": true,
+        "matching_statements": true,
+        "field_presence": true,
+        "display_labels": true
+      },
+      "mathgloss-row-175": {
+        "requested_url": true,
+        "retrieved_at_utc": true,
+        "raw_response_sha256": true,
+        "source_entity": true,
+        "triple": true,
+        "matching_statements": true,
+        "field_presence": true,
+        "display_labels": true
+      },
+      "mathgloss-row-26": {
+        "requested_url": true,
+        "retrieved_at_utc": true,
+        "raw_response_sha256": true,
+        "source_entity": true,
+        "triple": true,
+        "matching_statements": true,
+        "field_presence": true,
+        "display_labels": true
+      }
+    },
+    "output_files": {
+      "index": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-import-work\\outputs\\relation-index.json",
+        "bytes": 1731941,
+        "sha256": "9f5f4d53c2c95cad05a61bc5a936300e277a60fd1e63e163c6d9eb799b34bdb1"
+      },
+      "ledger": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-import-work\\outputs\\relation-ledger.json",
+        "bytes": 2411231,
+        "sha256": "fc0d04344de071ef6ea79c3950ae6475989a6fe6ac6c17724d53d03e757d86a7"
+      },
+      "summary": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\relation-import-work\\outputs\\relation-summary.json",
+        "bytes": 5947,
+        "sha256": "44292c55f303bc16f9eb96a20f2eac6733aee70062533dc514546062bd3df7f0"
+      }
+    }
+  },
+  "scope": "Arithmetic-free import fidelity only; no relation truth, equivalence, novelty, completeness, or impact claim."
+}

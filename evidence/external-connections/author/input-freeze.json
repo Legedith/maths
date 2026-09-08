@@ -1,0 +1,74 @@
+{
+  "schema_version": "relation-import-input-freeze-v1",
+  "frozen_at_utc": "2026-09-08T05:56:37.8110236Z",
+  "mathgloss": {
+    "repository": "https://github.com/MathGloss/MathGloss",
+    "commit": "b8f659605486f80f2816515f525af2c395c711fa"
+  },
+  "inputs": {
+    "relation_contract": {
+      "workspace_relative_path": "relation-profile-work/relation-explorer-contract.md",
+      "bytes": 5521,
+      "sha256": "dc2f005ebc13533d07abe19731b8684968be4bf46505d94bc1c842edb0758370"
+    },
+    "import_interface": {
+      "workspace_relative_path": "relation-profile-work/import-interface.md",
+      "bytes": 3293,
+      "sha256": "52ac14f024e4e29e8eacf9b289d92fd3efc8cf0fc95fca4cd95a8cc44e603ba0"
+    },
+    "relations_csv": {
+      "workspace_relative_path": "backbone-reuse-work/raw/mathgloss/data/relations/graph_edges.csv",
+      "bytes": 616177,
+      "sha256": "54f58f2fe3303c7caf139132cd4301b44643c735334469ebcd7f995cc7884aec"
+    },
+    "catalog_csv": {
+      "workspace_relative_path": "project/data/mathgloss/source/database.csv",
+      "bytes": 674640,
+      "sha256": "933a72820fe7ede53a803b750a480def205677e5722ae5f9589b0d1d9bf832b2"
+    },
+    "probe_inputs": {
+      "workspace_relative_path": "relation-source-review-work/probe/frozen-inputs.json",
+      "bytes": 3358,
+      "sha256": "0d651c128bc77695df9e3737956e0b8ce7dc16cd68b78e9554b12e8b7017284b"
+    },
+    "probe_response": {
+      "workspace_relative_path": "relation-source-review-work/probe/wikidata-response.json",
+      "bytes": 15595,
+      "sha256": "b1c172ecdb9784ab3412431517740c1e7c9505d3f52d180a9f2870dad5878655"
+    },
+    "probe_command_log": {
+      "workspace_relative_path": "relation-source-review-work/probe/command-log.json",
+      "bytes": 3820,
+      "sha256": "5df43553b450c713a1866f4cbabce8fdc66471cfa2874f5feba76c3684a879d0"
+    },
+    "semantics_response": {
+      "workspace_relative_path": "relation-source-review-work/semantics/wikidata-semantics-response.json",
+      "bytes": 47391,
+      "sha256": "3db472c2cf98ff6f867f20d56a983a4703c317d6855a40ad2e0cdc096641bec1"
+    },
+    "probe_independent_review": {
+      "workspace_relative_path": "next-value-audit-work/relation-probe-review.json",
+      "bytes": 8636,
+      "sha256": "29e3a0f92165e4f7eb0b7ed9a30fcc6c3446e9ab16cc562f2742e5c858757f04"
+    },
+    "mathgloss_license": {
+      "workspace_relative_path": "backbone-reuse-work/raw/mathgloss/LICENSE",
+      "bytes": 1066,
+      "sha256": "5dc6b930900926814fc7bb9ff45dfcceae3aa33780eb010c83e6df58493594e7"
+    }
+  },
+  "expected_inventory": {
+    "total_rows": 9159,
+    "included_rows": 5390,
+    "excluded_rows": 3769,
+    "endpoint_count": 3372,
+    "property_count": 81,
+    "probe_observations": 3
+  },
+  "scope_limits": [
+    "No network access during import.",
+    "Only graph_edges.csv is imported; heuristic mathlib_extends_relations.csv is excluded.",
+    "Imported edges remain unreviewed external assertions.",
+    "The author run is not an independent evidence gate."
+  ]
+}

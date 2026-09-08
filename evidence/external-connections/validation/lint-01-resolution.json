@@ -1,0 +1,6 @@
+{
+  "status": "retained_lint_failure_corrected_before_publication",
+  "finding": "The linter required native elements instead of SVG role=button/group and HTML role=status, and rejected direct ref access in effect cleanup.",
+  "correction": "Diagram neighbors use native SVG links with the same selection action; the SVG has an accessible label without an invented group role; live status uses output; cleanup invokes a stable invalidation callback.",
+  "next_checks": ["typecheck-03", "lint-02", "build-01"]
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": "external-connections-bundle-hash-check-v1",
+  "auditor": "/root/sol_symmetry_audit",
+  "input_bundle": {
+    "path": ".codex/evidence/runs/external-connections-v1/bundle.json",
+    "sha256": "5206e2fa8da45e0d0161c68dfb14bc4bb91505e3094f6d3ef7b5446306a469ab"
+  },
+  "status": "pass",
+  "artifacts_checked": 96,
+  "artifact_mismatches": [],
+  "claims_checked": 6,
+  "missing_support_references": [],
+  "check_ids": [
+    "implementation_alignment",
+    "reproduction",
+    "source_verification",
+    "specification_compliance"
+  ],
+  "note": "Byte hashes and claim-support identifiers only; semantic claim alignment is recorded in final-ui-api-audit.json."
+}

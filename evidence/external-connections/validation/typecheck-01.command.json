@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "C:\\Program Files\\nodejs\\npx.CMD",
+    "tsc",
+    "--noEmit"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+  "started_at": "2026-09-08T06:05:45.926078+00:00",
+  "ended_at": "2026-09-08T06:05:55.131413+00:00",
+  "exit_code": 2
+}

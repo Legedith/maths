@@ -1,0 +1,73 @@
+{
+  "schema_version": "external-connections-independent-publication-manifest-v1",
+  "created_at_utc": "2026-09-08T06:29:00Z",
+  "auditor": "/root/sol_symmetry_audit",
+  "input_bundle_sha256": "5206e2fa8da45e0d0161c68dfb14bc4bb91505e3094f6d3ef7b5446306a469ab",
+  "files": [
+    {
+      "path": "bundle-hash-check.json",
+      "kind": "result",
+      "bytes": 700,
+      "sha256": "aed841a13cbcd64e4e7d88b18c6c32feaa1c08844c75a0f2343ba270b4474333"
+    },
+    {
+      "path": "check-frozen-ui-api.mjs",
+      "kind": "code",
+      "bytes": 14235,
+      "sha256": "31d45c43b4e75308d5aa2228790574f80f19242786c3708e94d5029e23a358a1"
+    },
+    {
+      "path": "final-ui-api-audit.json",
+      "kind": "report",
+      "bytes": 9395,
+      "sha256": "2cbeda3bc29d57f8892f315c1dbf0cf4be330d3f0285f94676222a9e8a31ae3c"
+    },
+    {
+      "path": "independent-check-attempt-01.command.json",
+      "kind": "log",
+      "bytes": 817,
+      "sha256": "6fca520e9870d5e893c71d35be765ed25976a8c67e757d6173c6581d3e1fd5b7"
+    },
+    {
+      "path": "independent-check-attempt-01.stderr.log",
+      "kind": "log",
+      "bytes": 429,
+      "sha256": "3ce4bfcdd3116c26a5dc2a7b602f4302ba861a0399671e6be6c6a4c8572f2bdc"
+    },
+    {
+      "path": "independent-check-attempt-01.stdout.json",
+      "kind": "log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "independent-check.command.json",
+      "kind": "log",
+      "bytes": 835,
+      "sha256": "4b6d2ca72b14ad52b906ec5ae020e233f1c9712d9611d4e4de9f530c1790ec04"
+    },
+    {
+      "path": "independent-check.stderr.log",
+      "kind": "log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "independent-check.stdout.json",
+      "kind": "result",
+      "bytes": 1286,
+      "sha256": "ad2321298766b697023266bfb9f50a2cfca248c104bbcb8435f7dd653e892161"
+    },
+    {
+      "path": "initial-code-review.json",
+      "kind": "report",
+      "bytes": 5186,
+      "sha256": "eaecd43c195b57f17ec012800e898e5d4f306e38933d221c53f0471251e9135c"
+    }
+  ],
+  "exclusions": [
+    "No project source, generated relation data, root validation logs or independent-import artifacts are copied here; the final report refers to their existing bundle artifact IDs.",
+    "No browser capture is republished; project artifact A090 remains the root-observed focused WebMCP record.",
+    "The manifest does not list itself."
+  ]
+}

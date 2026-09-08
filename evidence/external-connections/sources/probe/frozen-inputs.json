@@ -1,0 +1,99 @@
+{
+  "schema_version": "mathgloss-wikidata-probe-frozen-input-v1",
+  "frozen_at_utc": "2026-09-08T05:20:42.671032+00:00",
+  "selection_policy": "For each requested property, among graph_edges.csv rows whose source_id and target_id are both nonempty QIDs in pinned data/database.csv, choose min(source_id,target_id) by Unicode code-point lexicographic order. record_index breaks an impossible duplicate-key tie. No missing or failed selection may be replaced.",
+  "requested_properties": [
+    "P279",
+    "P460",
+    "P1889"
+  ],
+  "source_files": {
+    "catalog": {
+      "path": "backbone-reuse-work/raw/mathgloss/data/database.csv",
+      "bytes": 674640,
+      "sha256": "933a72820fe7ede53a803b750a480def205677e5722ae5f9589b0d1d9bf832b2"
+    },
+    "graph": {
+      "path": "backbone-reuse-work/raw/mathgloss/data/relations/graph_edges.csv",
+      "bytes": 616177,
+      "sha256": "54f58f2fe3303c7caf139132cd4301b44643c735334469ebcd7f995cc7884aec"
+    }
+  },
+  "selected_rows": [
+    {
+      "property_id": "P279",
+      "selection_key": [
+        "Q1000116",
+        "Q179692"
+      ],
+      "logical_data_record_1_based": 23,
+      "physical_line_start_1_based": 24,
+      "physical_line_end_1_based": 24,
+      "fields": {
+        "source_id": "Q1000116",
+        "source_label": "axiom of countable choice",
+        "property_id": "P279",
+        "property_label": "subclass of",
+        "target_id": "Q179692",
+        "target_label": "axiom of choice"
+      }
+    },
+    {
+      "property_id": "P460",
+      "selection_key": [
+        "Q1051696",
+        "Q28649150"
+      ],
+      "logical_data_record_1_based": 175,
+      "physical_line_start_1_based": 176,
+      "physical_line_end_1_based": 176,
+      "fields": {
+        "source_id": "Q1051696",
+        "source_label": "NS5-brane",
+        "property_id": "P460",
+        "property_label": "said to be the same as",
+        "target_id": "Q28649150",
+        "target_label": "M5-brane"
+      }
+    },
+    {
+      "property_id": "P1889",
+      "selection_key": [
+        "Q1000660",
+        "Q2030545"
+      ],
+      "logical_data_record_1_based": 26,
+      "physical_line_start_1_based": 27,
+      "physical_line_end_1_based": 27,
+      "fields": {
+        "source_id": "Q1000660",
+        "source_label": "algebra over a field",
+        "property_id": "P1889",
+        "property_label": "different from",
+        "target_id": "Q2030545",
+        "target_label": "algebra over a ring"
+      }
+    }
+  ],
+  "request": {
+    "method": "GET",
+    "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&formatversion=2&ids=Q1000116%7CQ1000660%7CQ1051696&props=info%7Cclaims",
+    "source_qids": [
+      "Q1000116",
+      "Q1000660",
+      "Q1051696"
+    ],
+    "api_action": "wbgetentities",
+    "props": [
+      "info",
+      "claims"
+    ],
+    "user_agent": "MathematicsAtlasRelationProvenanceProbe/0.1 (read-only; local research)",
+    "ordinary_request_count": 1
+  },
+  "interpretation_limits": [
+    "Selection was frozen before fetching current entity JSON.",
+    "Missing entities, properties, targets, or request failures will be retained without replacement.",
+    "The probe does not assess truth, mathematical equivalence, accuracy, or population error rates."
+  ]
+}

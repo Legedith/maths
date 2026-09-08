@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.venv\\Scripts\\python.exe",
+    "C:/Users/Legedith/.codex/skills/chain-of-evidence/scripts/evidence_gate.py",
+    "verify",
+    "--workspace",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+  "exit_code": 0
+}

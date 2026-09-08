@@ -1,0 +1,193 @@
+{
+  "schema_version": "mathgloss-relation-probe-independent-review-v1",
+  "created_at_utc": "2026-09-08T05:40:06.658147+00:00",
+  "auditor": {
+    "identity": "independent Sol audit branch",
+    "role": "read-only chain-of-evidence verifier; not probe author"
+  },
+  "scope": "Byte-level and structural review of the frozen three-row MathGloss/Wikidata capability probe. No HTTP request, semantic source review, equivalence judgment, import, or population estimate was performed.",
+  "overall_status": "pass_with_representation_wording_correction",
+  "checks": [
+    {
+      "id": "input_integrity",
+      "status": "pass",
+      "note": "Pinned CSV and probe artifact hashes/sizes agree with the frozen records.",
+      "evidence": {
+        "catalog": {
+          "bytes": 674640,
+          "sha256": "933a72820fe7ede53a803b750a480def205677e5722ae5f9589b0d1d9bf832b2",
+          "matches_frozen": true
+        },
+        "graph": {
+          "bytes": 616177,
+          "sha256": "54f58f2fe3303c7caf139132cd4301b44643c735334469ebcd7f995cc7884aec",
+          "matches_frozen": true
+        },
+        "frozen_inputs": {
+          "bytes": 3358,
+          "sha256": "0d651c128bc77695df9e3737956e0b8ce7dc16cd68b78e9554b12e8b7017284b",
+          "matches_findings": true
+        },
+        "raw_response": {
+          "bytes": 15595,
+          "sha256": "b1c172ecdb9784ab3412431517740c1e7c9505d3f52d180a9f2870dad5878655",
+          "matches_findings": true
+        },
+        "findings": {
+          "bytes": 9449,
+          "sha256": "61ede9c1357a05809932e90893fdbb677386871be249e64bbef83850b81a5b56"
+        },
+        "command_log": {
+          "bytes": 3820,
+          "sha256": "5df43553b450c713a1866f4cbabce8fdc66471cfa2874f5feba76c3684a879d0"
+        },
+        "prior_source_reuse_review": {
+          "bytes": 13673,
+          "sha256": "a565206a1d8b9c7bee11a432eed7b85280091e6b88847ed911e2a63935488f4c"
+        }
+      }
+    },
+    {
+      "id": "deterministic_selection",
+      "status": "pass",
+      "note": "Independent CSV parsing and Unicode tuple sorting reproduce all three selected minima, logical records, physical lines, and six fields.",
+      "rows": [
+        {
+          "property_id": "P279",
+          "eligible_row_count": 2509,
+          "recomputed_minimum": [
+            "Q1000116",
+            "Q179692",
+            23
+          ],
+          "physical_lines_1_based": [
+            24,
+            24
+          ],
+          "fields_match_exactly": true,
+          "pass": true
+        },
+        {
+          "property_id": "P460",
+          "eligible_row_count": 52,
+          "recomputed_minimum": [
+            "Q1051696",
+            "Q28649150",
+            175
+          ],
+          "physical_lines_1_based": [
+            176,
+            176
+          ],
+          "fields_match_exactly": true,
+          "pass": true
+        },
+        {
+          "property_id": "P1889",
+          "eligible_row_count": 357,
+          "recomputed_minimum": [
+            "Q1000660",
+            "Q2030545",
+            26
+          ],
+          "physical_lines_1_based": [
+            27,
+            27
+          ],
+          "fields_match_exactly": true,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "statement_identity_and_rank",
+      "status": "pass",
+      "note": "Each selected property-target pair has exactly one matching statement; statement IDs, types, normal ranks, mainsnaks, and entity revision fields agree with the preserved raw response.",
+      "rows": [
+        {
+          "property_id": "P279",
+          "source_qid": "Q1000116",
+          "target_qid": "Q179692",
+          "property_statement_count": 1,
+          "matching_statement_count": 1,
+          "statement_id_exact": true,
+          "rank_exact": true,
+          "mainsnak_exact_after_documented_key_normalisation": true,
+          "qualifier_order_and_snaks_exact_after_documented_normalisation": true,
+          "raw_qualifiers_field_present": false,
+          "raw_reference_field_present": false,
+          "normalised_reference_value": [],
+          "semantic_no_reference_observation_matches": true,
+          "pass": true
+        },
+        {
+          "property_id": "P460",
+          "source_qid": "Q1051696",
+          "target_qid": "Q28649150",
+          "property_statement_count": 1,
+          "matching_statement_count": 1,
+          "statement_id_exact": true,
+          "rank_exact": true,
+          "mainsnak_exact_after_documented_key_normalisation": true,
+          "qualifier_order_and_snaks_exact_after_documented_normalisation": true,
+          "raw_qualifiers_field_present": true,
+          "raw_reference_field_present": false,
+          "normalised_reference_value": [],
+          "semantic_no_reference_observation_matches": true,
+          "pass": true
+        },
+        {
+          "property_id": "P1889",
+          "source_qid": "Q1000660",
+          "target_qid": "Q2030545",
+          "property_statement_count": 1,
+          "matching_statement_count": 1,
+          "statement_id_exact": true,
+          "rank_exact": true,
+          "mainsnak_exact_after_documented_key_normalisation": true,
+          "qualifier_order_and_snaks_exact_after_documented_normalisation": true,
+          "raw_qualifiers_field_present": false,
+          "raw_reference_field_present": false,
+          "normalised_reference_value": [],
+          "semantic_no_reference_observation_matches": true,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "qualifier_content",
+      "status": "pass",
+      "note": "The P460 P518 qualifier order and snak content are faithfully normalised; P279 and P1889 have no qualifier fields in the raw matching statements and are normalised to empty lists."
+    },
+    {
+      "id": "reference_content",
+      "status": "pass_with_precision_note",
+      "note": "All three raw matching statements omit the references key; findings.json normalises that omission to references: []. The zero-reference observation is faithful, but it is not literal preservation of a returned reference container."
+    },
+    {
+      "id": "prior_reuse_boundary_alignment",
+      "status": "pass",
+      "note": "The probe implements the prior review recommendation to retain full current statement metadata and raw bytes for a bounded candidate layer, and it keeps the rows unreviewed external assertions without semantic promotion."
+    }
+  ],
+  "required_wording_correction": {
+    "finding": "findings.json old_export_comparison.current_api_capability says this response carries complete qualifier/reference containers. For these exact matches, the raw response omits references on all three and omits qualifiers on two; findings.json creates empty lists and renames/flattens keys.",
+    "recommended_wording": "The preserved response carries exact statement IDs and ranks, the P460 qualifier structure, and statement-level omission of qualifier/reference fields where none were returned. findings.json provides a documented normalised view; the raw-response hash remains the exact representation.",
+    "impact": "No selected row, statement ID, rank, qualifier value, or conclusion that zero references were observed changes. This only prevents a false literal-preservation claim."
+  },
+  "transport_accounting_scope": "command-log.json records one ordinary request and no replacement request, consistent with one raw response file. This audit did not observe the live transport and does not independently certify request count.",
+  "claims_supported": [
+    "The three chosen CSV rows are deterministic within their frozen property strata and endpoint-join rule.",
+    "The frozen API response contains one current matching normal-rank statement for each selected source/property/target triple.",
+    "The preserved raw response makes statement identity, rank, P460 qualifier content, and entity revision metadata available beyond the six-column CSV.",
+    "No references were present on the three matching statements in this response."
+  ],
+  "claims_not_supported": [
+    "truth or mathematical correctness of any relation",
+    "mathematical equivalence, including for P460",
+    "persistence, completeness, import accuracy, or population rates",
+    "quality of sources behind Wikidata statements",
+    "literal structural identity between raw statements and the normalised findings objects",
+    "independent live-transport or request-count certification"
+  ]
+}
