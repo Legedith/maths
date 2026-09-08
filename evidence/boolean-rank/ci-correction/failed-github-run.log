@@ -1,0 +1,27 @@
+﻿foundation	Check Boolean-rank connection projection and rendering	﻿2026-09-08T12:45:48.9305098Z ##[group]Run uv run --project experiments/msc-index --frozen python experiments/msc-index/run_logged.py --attempt-id boolean-rank-ci --timeout-seconds 300 --log-dir work/boolean-rank-ci/logs -- node scripts/check-boolean-rank.mjs --output work/boolean-rank-ci/functional.json
+foundation	Check Boolean-rank connection projection and rendering	2026-09-08T12:45:48.9308346Z [36;1muv run --project experiments/msc-index --frozen python experiments/msc-index/run_logged.py --attempt-id boolean-rank-ci --timeout-seconds 300 --log-dir work/boolean-rank-ci/logs -- node scripts/check-boolean-rank.mjs --output work/boolean-rank-ci/functional.json[0m
+foundation	Check Boolean-rank connection projection and rendering	2026-09-08T12:45:48.9343119Z shell: /usr/bin/bash -e {0}
+foundation	Check Boolean-rank connection projection and rendering	2026-09-08T12:45:48.9343721Z env:
+foundation	Check Boolean-rank connection projection and rendering	2026-09-08T12:45:48.9343998Z   UV_PYTHON: 3.13
+foundation	Check Boolean-rank connection projection and rendering	2026-09-08T12:45:48.9344410Z   UV_CACHE_DIR: /home/runner/work/_temp/setup-uv-cache
+foundation	Check Boolean-rank connection projection and rendering	2026-09-08T12:45:48.9344898Z ##[endgroup]
+foundation	Check Boolean-rank connection projection and rendering	2026-09-08T12:45:48.9509506Z Using CPython 3.13.7
+foundation	Check Boolean-rank connection projection and rendering	2026-09-08T12:45:48.9514258Z error: The requested interpreter resolved to Python 3.13.7, which is incompatible with the project's Python requirement: `==3.12.*` (from `project.requires-python`)
+foundation	Check Boolean-rank connection projection and rendering	2026-09-08T12:45:48.9534336Z ##[error]Process completed with exit code 2.
+foundation	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	﻿2026-09-08T12:45:48.9628588Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+foundation	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-09-08T12:45:48.9629887Z ##[group]Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+foundation	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-09-08T12:45:48.9630290Z with:
+foundation	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-09-08T12:45:48.9630515Z   name: boolean-rank-functional
+foundation	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-09-08T12:45:48.9630794Z   path: work/boolean-rank-ci/
+foundation	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-09-08T12:45:48.9631057Z   if-no-files-found: error
+foundation	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-09-08T12:45:48.9631308Z   retention-days: 30
+foundation	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-09-08T12:45:48.9631539Z   compression-level: 6
+foundation	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-09-08T12:45:48.9631759Z   overwrite: false
+foundation	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-09-08T12:45:48.9631980Z   include-hidden-files: false
+foundation	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-09-08T12:45:48.9632221Z env:
+foundation	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-09-08T12:45:48.9632410Z   UV_PYTHON: 3.13
+foundation	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-09-08T12:45:48.9632673Z   UV_CACHE_DIR: /home/runner/work/_temp/setup-uv-cache
+foundation	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-09-08T12:45:48.9633003Z ##[endgroup]
+foundation	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-09-08T12:45:49.1207345Z (node:2419) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+foundation	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-09-08T12:45:49.1208128Z (Use `node --trace-deprecation ...` to show where the warning was created)
+foundation	Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02	2026-09-08T12:45:49.1239758Z ##[error]No files were found with the provided path: work/boolean-rank-ci/. No artifacts will be uploaded.

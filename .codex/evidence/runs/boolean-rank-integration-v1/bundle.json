@@ -780,7 +780,7 @@
       "id": "A111",
       "kind": "code",
       "path": ".github/workflows/verify.yml",
-      "sha256": "afbebe72181060269c6615d83e81b703a9aa395df31476f5f143ed4671b89cb0",
+      "sha256": "92c1b96515431320d6ecdddb55b26ce0c22e0d364a309e2edda5278e4f5c319a",
       "producer": "/root"
     },
     {
@@ -2042,6 +2042,69 @@
       "path": "evidence/boolean-rank/author/release/assembled-bundle-before-ack.json",
       "sha256": "1a2f4d1b4e4c6c186e9d91e8605d6b4851accdf6d5ca5e28aaeee12c334b1f16",
       "producer": "/root"
+    },
+    {
+      "id": "A292",
+      "kind": "report",
+      "path": "evidence/boolean-rank/ci-correction/ci-correction-acknowledgment.json",
+      "sha256": "4fda528b465f2053733a9467dac468a2614f9c5cd5c4d501f036f367c82e3333",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A293",
+      "kind": "log",
+      "path": "evidence/boolean-rank/ci-correction/failed-github-run.log",
+      "sha256": "e78eaa7da25b31c9070be29ce6577858c592ee9773951e1b07d318f966e3cb42",
+      "producer": "/root"
+    },
+    {
+      "id": "A294",
+      "kind": "result",
+      "path": "evidence/boolean-rank/ci-correction/local-smoke/functional.json",
+      "sha256": "13d40391635b61be04918d4d20e177236df8e1cc4d1c985808ff4a26900cdd27",
+      "producer": "/root"
+    },
+    {
+      "id": "A295",
+      "kind": "log",
+      "path": "evidence/boolean-rank/ci-correction/local-smoke/logs/attempt-boolean-ci-local-01.json",
+      "sha256": "2c74c89e11e3e9299b05791cf3966b340754a4950cd607ed9394da77281aaabc",
+      "producer": "/root"
+    },
+    {
+      "id": "A296",
+      "kind": "log",
+      "path": "evidence/boolean-rank/ci-correction/failure-fetch/boolean-ci-failure-fetch-01.json",
+      "sha256": "da3762408ff0e4189a2c758a887120e934fba22aa7779bd3f8bb67cf59a17571",
+      "producer": "/root"
+    },
+    {
+      "id": "A297",
+      "kind": "log",
+      "path": "evidence/boolean-rank/ci-correction/local-smoke/logs/attempt-boolean-ci-local-01.stdout.bin",
+      "sha256": "13d40391635b61be04918d4d20e177236df8e1cc4d1c985808ff4a26900cdd27",
+      "producer": "/root"
+    },
+    {
+      "id": "A298",
+      "kind": "log",
+      "path": "evidence/boolean-rank/ci-correction/failure-fetch/boolean-ci-failure-fetch-01.stdout.bin",
+      "sha256": "b72941a24290e6c91defd4afff82f9014bb63d6a7ccc99ae2ef157f4c9fb7caa",
+      "producer": "/root"
+    },
+    {
+      "id": "A299",
+      "kind": "log",
+      "path": "evidence/boolean-rank/ci-correction/local-smoke/logs/attempt-boolean-ci-local-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A300",
+      "kind": "log",
+      "path": "evidence/boolean-rank/ci-correction/failure-fetch/boolean-ci-failure-fetch-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
     }
   ],
   "claims": [
@@ -2209,7 +2272,8 @@
         "A122",
         "A278",
         "A099",
-        "A145"
+        "A145",
+        "A292"
       ],
       "note": "Actual data, TypeScript types, API, find_connection tool and connection rendering retain every admitted R1-R4 semantic field. All old corpus records remain value-identical to baseline; the release adds exactly 7 nodes, 8 edges, 2 sources and 2 journeys."
     },
@@ -2220,7 +2284,8 @@
       "evidence": [
         "A122",
         "A278",
-        "A184"
+        "A184",
+        "A292"
       ],
       "note": "Frozen independent checks and four canonical replays all exited zero: 22/22 independent data checks, 15/15 fresh malformed cases, 6/6 runtime checks, structural validation, 9/9 author functional checks, 1,600 ordered navigation pairs and 35 targeted pytest cases."
     },
@@ -2231,7 +2296,8 @@
       "evidence": [
         "A122",
         "A278",
-        "A096"
+        "A096",
+        "A292"
       ],
       "note": "Scoped product-source gate: the implementation exactly projects the four relationships admitted by the pinned independent correction review. This audit checked source IDs, URLs, locators, scope limits and local-convention attribution; it did not perform a new primary-paper entailment review."
     },
@@ -2242,7 +2308,8 @@
       "evidence": [
         "A122",
         "A278",
-        "A008"
+        "A008",
+        "A292"
       ],
       "note": "The frozen implementation meets the contract's typed schema, exact addition counts, old-record preservation, source/witness/boundary/notation display, strict malformed-input behavior, search and navigation requirements."
     }

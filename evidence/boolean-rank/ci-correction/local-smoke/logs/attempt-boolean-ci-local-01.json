@@ -1,0 +1,32 @@
+{
+  "argv": [
+    "node",
+    "scripts/check-boolean-rank.mjs",
+    "--output",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\publish-work\\boolean-ci-local-replay\\functional.json"
+  ],
+  "attempt_id": "boolean-ci-local-01",
+  "ended_at_utc": "2026-09-08T12:50:03.134119+00:00",
+  "returncode": 0,
+  "schema_version": "logged-command-attempt-v1",
+  "selected_environment": {
+    "PYTHONDONTWRITEBYTECODE": null,
+    "UV_CACHE_DIR": "D:\\CodexWorkspaces\\mathematics-atlas\\uv-cache",
+    "UV_PROJECT_ENVIRONMENT": null
+  },
+  "started_at_utc": "2026-09-08T12:50:01.720043+00:00",
+  "stderr": {
+    "bytes": 0,
+    "path": "attempt-boolean-ci-local-01.stderr.bin",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 1529,
+    "path": "attempt-boolean-ci-local-01.stdout.bin",
+    "sha256": "13d40391635b61be04918d4d20e177236df8e1cc4d1c985808ff4a26900cdd27"
+  },
+  "termination": null,
+  "timed_out": false,
+  "timeout_seconds": 300,
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\project"
+}

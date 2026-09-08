@@ -1,0 +1,37 @@
+{
+  "schema_version": "independent-command-attempt-v1",
+  "attempt_id": "boolean-ci-failure-fetch-01",
+  "argv": [
+    "C:\\Program Files\\GitHub CLI\\gh.exe",
+    "run",
+    "view",
+    "34227855748",
+    "--repo",
+    "Legedith/maths",
+    "--log-failed"
+  ],
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+  "started_at_utc": "2026-09-08T12:51:40.704689+00:00",
+  "ended_at_utc": "2026-09-08T12:51:42.104706+00:00",
+  "elapsed_seconds": 1.400017,
+  "timeout_seconds": 120,
+  "timed_out": false,
+  "termination": null,
+  "returncode": 0,
+  "selected_environment": {
+    "UV_CACHE_DIR": "D:\\CodexWorkspaces\\mathematics-atlas\\uv-cache",
+    "UV_PROJECT_ENVIRONMENT": null,
+    "VIRTUAL_ENV": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.venv",
+    "PYTHONDONTWRITEBYTECODE": null
+  },
+  "stdout": {
+    "path": "boolean-ci-failure-fetch-01.stdout.bin",
+    "bytes": 4689,
+    "sha256": "b72941a24290e6c91defd4afff82f9014bb63d6a7ccc99ae2ef157f4c9fb7caa"
+  },
+  "stderr": {
+    "path": "boolean-ci-failure-fetch-01.stderr.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "artifact_count": 300,
+  "bundle": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.codex\\evidence\\runs\\boolean-rank-integration-v1\\bundle.json",
+  "claim_count": 7,
+  "claim_provenance_rate": 1.0,
+  "errors": [],
+  "status": "PASS",
+  "workspace": "D:\\CodexWorkspaces\\mathematics-atlas\\project"
+}

@@ -1,0 +1,142 @@
+{
+  "schema_version": "boolean-rank-ci-correction-independent-ack-v1",
+  "created_at_utc": "2026-09-08T12:52:55.3952180Z",
+  "reviewer": {
+    "identity": "/root/sol_symmetry_audit",
+    "role": "independent reviewer of the one-line workflow correction; not its implementer"
+  },
+  "scope": "Interpreter-project selection for the existing Boolean-rank CI logger invocation only. No product, mathematical, source, solver, or claim re-evaluation was performed.",
+  "decision": "PASS_WITH_CORRECTED_GITHUB_EXECUTION_PENDING",
+  "inputs": [
+    {
+      "id": "workflow_corrected",
+      "path": "D:/CodexWorkspaces/mathematics-atlas/project/.github/workflows/verify.yml",
+      "sha256": "92c1b96515431320d6ecdddb55b26ce0c22e0d364a309e2edda5278e4f5c319a",
+      "bytes": 2149,
+      "locators": ["lines 27-33", "lines 42-48"]
+    },
+    {
+      "id": "workflow_pre_correction",
+      "path": "git:HEAD:.github/workflows/verify.yml",
+      "commit": "756338e552f2c484ed11a3925cd76a14ea94591b",
+      "sha256": "afbebe72181060269c6615d83e81b703a9aa395df31476f5f143ed4671b89cb0",
+      "bytes": 2181,
+      "locator": "Boolean-rank step"
+    },
+    {
+      "id": "root_python_project",
+      "path": "D:/CodexWorkspaces/mathematics-atlas/project/pyproject.toml",
+      "sha256": "546f4ce267864644b6abe78daeae2ea255bc80dafe087e9952b51cd26eb8c81c",
+      "locator": "line 9: requires-python >=3.11"
+    },
+    {
+      "id": "msc_python_project",
+      "path": "D:/CodexWorkspaces/mathematics-atlas/project/experiments/msc-index/pyproject.toml",
+      "sha256": "e32f3a3dfcab81fb00fc1e149f7b807c047b51159a50d42efe609551dfc2ebd2",
+      "locator": "line 4: requires-python ==3.12.*"
+    },
+    {
+      "id": "generic_logger",
+      "path": "D:/CodexWorkspaces/mathematics-atlas/project/experiments/msc-index/run_logged.py",
+      "sha256": "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6",
+      "locators": ["lines 1-11", "lines 84-95", "lines 130-134"]
+    },
+    {
+      "id": "node_checker",
+      "path": "D:/CodexWorkspaces/mathematics-atlas/project/scripts/check-boolean-rank.mjs",
+      "sha256": "6856aa8ad98c384e360d32345b9ba62574865f215582cdf2d403f58bb8e0bf11",
+      "locators": ["lines 13-14", "lines 109-116"]
+    },
+    {
+      "id": "failed_github_run",
+      "path": "D:/CodexWorkspaces/mathematics-atlas/publish-work/boolean-ci-failure-34227855748.log",
+      "sha256": "e78eaa7da25b31c9070be29ce6577858c592ee9773951e1b07d318f966e3cb42",
+      "github_run_id": "34227855748",
+      "commit": "756338e552f2c484ed11a3925cd76a14ea94591b",
+      "locators": ["lines 1-10", "lines 11-27"]
+    },
+    {
+      "id": "local_smoke_attempt",
+      "path": "D:/CodexWorkspaces/mathematics-atlas/publish-work/boolean-ci-local-replay/logs/attempt-boolean-ci-local-01.json",
+      "sha256": "2c74c89e11e3e9299b05791cf3966b340754a4950cd607ed9394da77281aaabc",
+      "locators": ["json:/argv", "json:/returncode", "json:/timed_out", "json:/stderr"]
+    },
+    {
+      "id": "local_smoke_result",
+      "path": "D:/CodexWorkspaces/mathematics-atlas/publish-work/boolean-ci-local-replay/functional.json",
+      "sha256": "13d40391635b61be04918d4d20e177236df8e1cc4d1c985808ff4a26900cdd27",
+      "locators": ["json:/passed", "json:/check_count", "json:/scope"]
+    },
+    {
+      "id": "prior_evidence_kind_correction",
+      "path": "D:/CodexWorkspaces/mathematics-atlas/project/.codex/evidence/runs/boolean-rank-integration-v1/gate-records/gate-evidence-kind-correction.json",
+      "sha256": "e20b9f07106fa76131af28bb91428a78ac84a005197b5d3842661217e2917d00",
+      "locators": ["json:/after_sha256", "json:/added_direct_evidence", "json:/claim_and_semantic_check_content_unchanged"]
+    },
+    {
+      "id": "reviewed_bundle",
+      "path": "D:/CodexWorkspaces/mathematics-atlas/project/.codex/evidence/runs/boolean-rank-integration-v1/bundle.json",
+      "sha256": "4aa8631f863b85fc2c065fc687521c1e7fef28c44fd4176058af893caa8083c4",
+      "artifact_count": 291,
+      "claim_count": 7
+    }
+  ],
+  "findings": [
+    {
+      "id": "F1",
+      "status": "pass",
+      "statement": "The scoped Git diff is exactly one deleted line and one added line. It removes only '--project experiments/msc-index' from the outer uv invocation. The logger path, attempt ID, timeout, log directory, Node checker command, functional-result path, and artifact-upload block are unchanged."
+    },
+    {
+      "id": "F2",
+      "status": "pass",
+      "statement": "The retained GitHub failure is explained by interpreter selection before the logger started: CI supplied Python 3.13, while the selected MSC subproject requires Python 3.12. The checker therefore did not execute and the always-run upload step found no files."
+    },
+    {
+      "id": "F3",
+      "status": "pass",
+      "statement": "From the repository-root working directory, the corrected outer uv command selects the root project, whose Python requirement accepts 3.13. The invoked logger imports only Python standard-library modules, and its child remains the same audited Node checker, so no MSC rdflib dependency is needed for this step."
+    },
+    {
+      "id": "F4",
+      "status": "pass",
+      "statement": "The current logger and checker hashes equal their artifacts in the reviewed bundle. The local smoke record has a zero return code, no timeout and empty stderr, and its functional result reports passed. This supports the correction but is not a substitute for execution by GitHub on the corrected exact commit."
+    },
+    {
+      "id": "F5",
+      "status": "pass",
+      "statement": "The reviewed bundle hash exactly equals the prior evidence-kind correction's recorded after_sha256. That earlier correction only attached already-reviewed direct evidence and explicitly left claim and semantic-check content unchanged."
+    }
+  ],
+  "limitations": [
+    "Actual corrected GitHub CI remains required as the operational execution evidence.",
+    "The local smoke attempt record does not retain UV_PYTHON in selected_environment, so this review does not independently attest the root-reported local interpreter version from that record alone.",
+    "This acknowledgment does not alter or recertify the seven product, mathematical, source, or status claims."
+  ],
+  "authorized_bundle_mutation": {
+    "approved": true,
+    "base_bundle_sha256": "4aa8631f863b85fc2c065fc687521c1e7fef28c44fd4176058af893caa8083c4",
+    "workflow_artifact": {
+      "id": "A111",
+      "path": ".github/workflows/verify.yml",
+      "old_sha256": "afbebe72181060269c6615d83e81b703a9aa395df31476f5f143ed4671b89cb0",
+      "new_sha256": "92c1b96515431320d6ecdddb55b26ce0c22e0d364a309e2edda5278e4f5c319a",
+      "only_existing_field_authorized_to_change": "sha256"
+    },
+    "may_append": [
+      "this exact acknowledgment as a new audit artifact",
+      "the retained failed-GitHub-run log as failure evidence",
+      "the local smoke attempt and result as explicitly limited supplementary evidence"
+    ],
+    "check_evidence_arrays": "The new acknowledgment artifact ID may be appended as supplemental evidence to each existing check evidence array; it must not replace the existing direct code, specification, source, or result evidence.",
+    "must_remain_unchanged": [
+      "all seven claim IDs, statements, types, statuses, supports and locators",
+      "all product and source artifacts other than the A111 hash update",
+      "all four check statuses",
+      "all four check auditor identities",
+      "all four check notes",
+      "the prior direct-evidence-kind wiring"
+    ]
+  },
+  "final_condition": "Promotion of this correction as executed in GitHub is contingent on a corrected exact-commit GitHub run reaching the checker and producing the retained functional/log artifacts."
+}
