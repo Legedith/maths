@@ -1,0 +1,116 @@
+[
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\arithmetic.json",
+    "destination": "evidence/kemeny-uniform-repair/final-review/arithmetic.json",
+    "sha256": "c2f8af1dd9aec06e3a57d02a212a9fb80bae6ce97d1b3a8035fe3cbb4cca59df",
+    "bytes": 229
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\arithmetic.py",
+    "destination": "evidence/kemeny-uniform-repair/final-review/arithmetic.py",
+    "sha256": "78f7e2cb7ca0643c92998ff284ca5cb9fabf9443cf37d6b9ee3a973f368158fd",
+    "bytes": 1324
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\arithmetic.rc",
+    "destination": "evidence/kemeny-uniform-repair/final-review/arithmetic.rc",
+    "sha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+    "bytes": 3
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\arithmetic.stderr",
+    "destination": "evidence/kemeny-uniform-repair/final-review/arithmetic.stderr",
+    "sha256": "f68b64a0c9e0dddfec14675e06ab59607a57602c17b0ec203c7b575e4bed9062",
+    "bytes": 812
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\arithmetic.stdout",
+    "destination": "evidence/kemeny-uniform-repair/final-review/arithmetic.stdout",
+    "sha256": "7035ebd74a045fcebf59f6f17c959451ff4bdb76037a30282c670bdeb7223d98",
+    "bytes": 110
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\attestation.json",
+    "destination": "evidence/kemeny-uniform-repair/final-review/attestation.json",
+    "sha256": "01df0f6736be0449a405e75d7fe65266e335f0ba70c37f2f0eae71683f9ad728",
+    "bytes": 1665
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\hashes.json",
+    "destination": "evidence/kemeny-uniform-repair/final-review/hashes.json",
+    "sha256": "45db7d734e0b7b0c42c3176acd2406eb0333191e41ba3a0d5e11ad47fd4a4afd",
+    "bytes": 3751
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\inspect-round1.py",
+    "destination": "evidence/kemeny-uniform-repair/final-review/inspect-round1.py",
+    "sha256": "c3ffe6763889dc8c86c5d062606ebe460aa0361610c71ea78b7bfe9dcf8694c0",
+    "bytes": 2769
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\inspect.py",
+    "destination": "evidence/kemeny-uniform-repair/final-review/inspect.py",
+    "sha256": "980d9c06d8e6e52f2993cba78f26459756dfab4306e485f1c7ba7e177077feaa",
+    "bytes": 2847
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\inspect.rc",
+    "destination": "evidence/kemeny-uniform-repair/final-review/inspect.rc",
+    "sha256": "f1b2f662800122bed0ff255693df89c4487fbdcf453d3524a42d4ec20c3d9c04",
+    "bytes": 3
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\inspect.stderr",
+    "destination": "evidence/kemeny-uniform-repair/final-review/inspect.stderr",
+    "sha256": "6172edd829d6e50864f0a102498022294ad35224a4e9fc73f839f5e988e0d8ba",
+    "bytes": 2716
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\inspect.stdout",
+    "destination": "evidence/kemeny-uniform-repair/final-review/inspect.stdout",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\inspection.json",
+    "destination": "evidence/kemeny-uniform-repair/final-review/inspection.json",
+    "sha256": "b4360100b2fa12aaba184f12f27029c1ce366345fe9dec46269db643a33720bc",
+    "bytes": 212
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\plan.md",
+    "destination": "evidence/kemeny-uniform-repair/final-review/plan.md",
+    "sha256": "05e52fa86d1ce081f4a1b81a033f9ea72d3690939b90e7f72bdb1230cb79836a",
+    "bytes": 530
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\review.md",
+    "destination": "evidence/kemeny-uniform-repair/final-review/review.md",
+    "sha256": "eb232195ce3cb8bc3dc9fbe81623f483845bfbb7460575d213c50a46106d7603",
+    "bytes": 5501
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\round2-plan.md",
+    "destination": "evidence/kemeny-uniform-repair/final-review/round2-plan.md",
+    "sha256": "dcbaf991dcbf4b6ad5cecf792b52d331f0677184c43b62413dadedad8cd4b731",
+    "bytes": 388
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\round2.rc",
+    "destination": "evidence/kemeny-uniform-repair/final-review/round2.rc",
+    "sha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+    "bytes": 3
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\round2.stderr",
+    "destination": "evidence/kemeny-uniform-repair/final-review/round2.stderr",
+    "sha256": "dd887ff25d4499cec1946a473cbf4b4b7c2fa7da5aa5ad8269934629f74db1d7",
+    "bytes": 810
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\round2.stdout",
+    "destination": "evidence/kemeny-uniform-repair/final-review/round2.stdout",
+    "sha256": "4443cfc19fa840106c523c2709eae2df27f1a68628da6cdc4aaffb0f67966452",
+    "bytes": 430
+  }
+]

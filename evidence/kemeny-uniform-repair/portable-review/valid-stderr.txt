@@ -1,0 +1,4 @@
+Downloading cpython-3.12.11-windows-x86_64-none (download) (20.7MiB)
+ Downloading cpython-3.12.11-windows-x86_64-none (download)
+Using CPython 3.12.11
+Creating virtual environment at: D:/CodexWorkspaces/mathematics-atlas/astra-uniform-portable-review-work/.venv

@@ -1,0 +1,11 @@
+{
+  "artifact_count": 133,
+  "bundle": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.codex\\evidence\\runs\\kemeny-uniform-repair-v1\\bundle.json",
+  "claim_count": 9,
+  "claim_provenance_rate": 1.0,
+  "errors": [
+    "claims[8].supports[1].locator invalid: 'utf-8' codec can't decode byte 0x96 in position 1258: invalid start byte"
+  ],
+  "status": "FAIL",
+  "workspace": "D:\\CodexWorkspaces\\mathematics-atlas\\project"
+}

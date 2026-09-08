@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-uniform-portable-review-work\verify_uniform_repair.py", line 126, in <module>
+    main()
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-uniform-portable-review-work\verify_uniform_repair.py", line 85, in main
+    ranking, rank_hash = read_pinned(args.ranking_certificate, RANKING_SHA256)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-uniform-portable-review-work\verify_uniform_repair.py", line 74, in read_pinned
+    require(digest == expected, 'changed frozen uniform certificate: '+path.name)
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-uniform-portable-review-work\verify_certificate.py", line 17, in require
+    raise ValueError(message)
+ValueError: changed frozen uniform certificate: modified.json

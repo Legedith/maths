@@ -1,0 +1,10 @@
+{
+  "table_deltas": {
+    "restore": "-41/3150",
+    "uv": "-1567/48825",
+    "untouched": "31/3150"
+  },
+  "weighted_threshold": "1043/1322",
+  "open_interval_confirmed": true,
+  "four_portable_byte_pairs_match": true
+}

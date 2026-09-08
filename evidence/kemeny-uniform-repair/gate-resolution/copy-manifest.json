@@ -1,0 +1,26 @@
+[
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-gate-resolution-work\\addendum.md",
+    "destination": "evidence/kemeny-uniform-repair/gate-resolution/addendum.md",
+    "sha256": "12e3cca82d5d0f9611c5037beeada8809dd3b2ef5622da0ac99200e2ba26b9e0",
+    "bytes": 1689
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-gate-resolution-work\\attestation.json",
+    "destination": "evidence/kemeny-uniform-repair/gate-resolution/attestation.json",
+    "sha256": "ec039ddbe5c7676c50ee1140f695c5699227a88c3dc310454f50945b188cf017",
+    "bytes": 680
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-gate-resolution-work\\hashes.json",
+    "destination": "evidence/kemeny-uniform-repair/gate-resolution/hashes.json",
+    "sha256": "694a06be55231e9a6590141b8443a5bbaeb1826c0c03fa37293bb1f69c92ff92",
+    "bytes": 643
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-gate-resolution-work\\input-hashes.json",
+    "destination": "evidence/kemeny-uniform-repair/gate-resolution/input-hashes.json",
+    "sha256": "be3f7aab7fb52d6c56f60c6e30a7e9cb688f8fc04f2461af956954ef83852f3e",
+    "bytes": 680
+  }
+]

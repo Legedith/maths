@@ -1,0 +1,4 @@
+usage: verify_uniform_repair.py [-h] --ranking-certificate RANKING_CERTIFICATE
+                                --noop-certificate NOOP_CERTIFICATE --output
+                                OUTPUT
+verify_uniform_repair.py: error: the following arguments are required: --noop-certificate

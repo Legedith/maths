@@ -1,0 +1,58 @@
+[
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-priority-work\\report.md",
+        "match":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-priority-work\\uniform_priority_follow1.json",
+        "match":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-priority-work\\uniform_priority_follow2.json",
+        "match":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-priority-work\\uniform_priority_q1.json",
+        "match":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-priority-work\\uniform_priority_q2.json",
+        "match":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-fixed-workload-source-work\\fw_follow.json",
+        "match":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-fixed-workload-source-work\\fw_primary1.json",
+        "match":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-fixed-workload-source-work\\fw_primary2.json",
+        "match":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-fixed-workload-source-work\\fw_primary3.json",
+        "match":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-fixed-workload-source-work\\fw_search1.json",
+        "match":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-fixed-workload-source-work\\fw_search2.json",
+        "match":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-fixed-workload-source-work\\report.md",
+        "match":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-fixed-workload-source-work\\retrieval-log.json",
+        "match":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-fixed-workload-source-work\\retrieve.py",
+        "match":  true
+    }
+]

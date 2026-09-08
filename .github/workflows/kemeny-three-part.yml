@@ -91,6 +91,16 @@ jobs:
           --certificate experiments/kemeny-one-deletion-proof/alternative-repair.json
           --prior-certificate experiments/kemeny-one-deletion-proof/optimal-repair.json
           --output work/kemeny-failure-ci/alternative-repair.json
+      - name: Check fixed-uniform optimal insertion and no-op comparison
+        run: >-
+          uv run --project experiments/kemeny-one-deletion-proof --frozen python
+          experiments/kemeny-three-part-proof/run_logged.py
+          --attempt-id uniform-repair --timeout-seconds 90
+          --log-dir work/kemeny-failure-ci/logs -- python
+          experiments/kemeny-one-deletion-proof/verify_uniform_repair.py
+          --ranking-certificate experiments/kemeny-one-deletion-proof/uniform-ranking.json
+          --noop-certificate experiments/kemeny-one-deletion-proof/uniform-noop.json
+          --output work/kemeny-failure-ci/uniform-repair.json
       - name: Retain single-failure proof results
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4

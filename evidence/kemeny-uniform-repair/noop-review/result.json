@@ -1,0 +1,17 @@
+{
+  "identities": {
+    "equal": true,
+    "one_larger": true,
+    "both_larger": true
+  },
+  "T": "751/630",
+  "m": "35",
+  "r": "2/7",
+  "s": "2/49",
+  "U": "751/90",
+  "bad_delta": "31/3150",
+  "threshold": "1043/1322",
+  "weighted_identity": true,
+  "sympy": "1.14.0",
+  "python": "3.9.9 (tags/v3.9.9:ccb0e6a, Nov 15 2021, 18:08:50) [MSC v.1929 64 bit (AMD64)]"
+}

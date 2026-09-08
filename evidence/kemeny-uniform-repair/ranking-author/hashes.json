@@ -1,0 +1,77 @@
+[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "41E1F566B1D1C5EED84F07DD46B14084A087CFC5D748EE28EAF03481B3701DD3",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-repair-design-work\\batch1-argv.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "13BF7B3039C63BF5A50491FA3CFD8EB4E699D1BA1436315AEF9CBE5711530354",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-repair-design-work\\batch1-rc.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-repair-design-work\\batch1-stderr.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "56ED2B69DEF6706C8A33886BC9D3918A57AFDA79D6BF7D661BCFDE5BBB973030",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-repair-design-work\\batch1-stdout.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "E826037CB5F7ED929784531FBC2CD01BF161A5DFA21C2C66F8632FB156EABF68",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-repair-design-work\\batch1.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "771FB989F143D6E524A7081099C83C8A822F284737E3B980A0C67FA694B20A85",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-repair-design-work\\batch1.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "8B64A0A2988B972C82985D2104ED4CD3E2E860B9708E2E0DFCC4311EBBF10D76",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-repair-design-work\\batch2-argv.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "51841309CF2189B5876646303DC5D9629E959B770DC7F0E22D522BFEE2D6391B",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-repair-design-work\\batch2-plan.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "13BF7B3039C63BF5A50491FA3CFD8EB4E699D1BA1436315AEF9CBE5711530354",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-repair-design-work\\batch2-rc.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-repair-design-work\\batch2-stderr.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "22BA09895F535BEBDB2B4E9D3B09312F302144D11A51EE6CE44042B5F9CC265D",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-repair-design-work\\batch2-stdout.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "F0F6C30DFEF0BC7836B5BC6FEEB1999968D9A81A89330AA59C70A1B1CAB9517C",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-repair-design-work\\batch2.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "1DD705578C7CEF5D327A77B67A7643F697858EE417F0474A1C463CC4FA3B81AB",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-repair-design-work\\batch2.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "367541EAD99CFF3F72EF6969F2DA2B72D077F2AD8F1CAB9D014F451F0030F7ED",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-repair-design-work\\plan.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "39070AE3AA8C1940F452CFB7504BDD760D530D7A4E795C8B078409B5E93EFB05",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-repair-design-work\\proposal.md"
+    }
+]

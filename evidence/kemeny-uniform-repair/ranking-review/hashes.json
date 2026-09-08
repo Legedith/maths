@@ -1,0 +1,38 @@
+[
+    {
+        "Hash":  "B656700FCDF6A410C38214310DE54A6039AE1E5FB80ED48CA68F8BFF0E27E9CD",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-repair-review-work\\batch1-argv.json"
+    },
+    {
+        "Hash":  "13BF7B3039C63BF5A50491FA3CFD8EB4E699D1BA1436315AEF9CBE5711530354",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-repair-review-work\\batch1-rc.txt"
+    },
+    {
+        "Hash":  "48130D49178D382D10D75624286FDDF2718C37EE9CAE179E5656C880CF7313D8",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-repair-review-work\\batch1-stderr.txt"
+    },
+    {
+        "Hash":  "479288F2C677626217817A2AB9935361F562AD50927379F91DA43CA9747DD4C0",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-repair-review-work\\batch1-stdout.txt"
+    },
+    {
+        "Hash":  "815E7F91A96F8A9B906E466DAE49E7B02A4BBD833B1C76F27656E29E0D540DDC",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-repair-review-work\\check.py"
+    },
+    {
+        "Hash":  "CE35937FCC5D1E1A73187955EC6278513096E936775D931B21B2DD98E222DB9E",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-repair-review-work\\input-hash-check.json"
+    },
+    {
+        "Hash":  "CB4132E3B1898D68931BE1F9807219E2A9F217FA0D9E7070B4C6CAD36306C34D",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-repair-review-work\\plan.md"
+    },
+    {
+        "Hash":  "D07C236E8375203C1777BA94A04944ED6F79EB689F3AA891130A2B371CB80490",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-repair-review-work\\result.json"
+    },
+    {
+        "Hash":  "E6818CD99AE6F7BFA14D7D118C48BE3A60B381BA7457A9FF661EF45E518F0BD4",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-repair-review-work\\review.md"
+    }
+]

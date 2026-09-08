@@ -1,0 +1,14 @@
+[
+    "run",
+    "--frozen",
+    "--project",
+    "D:/CodexWorkspaces/mathematics-atlas/astra-uniform-portable-review-work",
+    "python",
+    "D:/CodexWorkspaces/mathematics-atlas/astra-uniform-portable-review-work/verify_uniform_repair.py",
+    "--ranking-certificate",
+    "D:/CodexWorkspaces/mathematics-atlas/astra-uniform-portable-review-work/modified.json",
+    "--noop-certificate",
+    "D:/CodexWorkspaces/mathematics-atlas/astra-uniform-portable-review-work/noop.json",
+    "--output",
+    "D:/CodexWorkspaces/mathematics-atlas/astra-uniform-portable-review-work/rejected-output.json"
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\arithmetic.json",
+        "Hash":  "C2F8AF1DD9AEC06E3A57D02A212A9FB80BAE6CE97D1B3A8035FE3CBB4CCA59DF"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\arithmetic.py",
+        "Hash":  "78F7E2CB7CA0643C92998FF284CA5CB9FABF9443CF37D6B9EE3A973F368158FD"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\arithmetic.rc",
+        "Hash":  "13BF7B3039C63BF5A50491FA3CFD8EB4E699D1BA1436315AEF9CBE5711530354"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\arithmetic.stderr",
+        "Hash":  "F68B64A0C9E0DDDFEC14675E06AB59607A57602C17B0EC203C7B575E4BED9062"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\arithmetic.stdout",
+        "Hash":  "7035EBD74A045FCEBF59F6F17C959451FF4BDB76037A30282C670BDEB7223D98"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\attestation.json",
+        "Hash":  "01DF0F6736BE0449A405E75D7FE65266E335F0BA70C37F2F0EAE71683F9AD728"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\inspect-round1.py",
+        "Hash":  "C3FFE6763889DC8C86C5D062606EBE460AA0361610C71EA78B7BFE9DCF8694C0"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\inspect.py",
+        "Hash":  "980D9C06D8E6E52F2993CBA78F26459756DFAB4306E485F1C7BA7E177077FEAA"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\inspect.rc",
+        "Hash":  "F1B2F662800122BED0FF255693DF89C4487FBDCF453D3524A42D4EC20C3D9C04"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\inspect.stderr",
+        "Hash":  "6172EDD829D6E50864F0A102498022294AD35224A4E9FC73F839F5E988E0D8BA"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\inspect.stdout",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\inspection.json",
+        "Hash":  "B4360100B2FA12AABA184F12F27029C1CE366345FE9DEC46269DB643A33720BC"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\plan.md",
+        "Hash":  "05E52FA86D1CE081F4A1B81A033F9EA72D3690939B90E7F72BDB1230CB79836A"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\review.md",
+        "Hash":  "EB232195CE3CB8BC3DC9FBE81623F483845BFBB7460575D213C50A46106D7603"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\round2-plan.md",
+        "Hash":  "DCBAF991DCBF4B6AD5CECF792B52D331F0677184C43B62413DADEDAD8CD4B731"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\round2.rc",
+        "Hash":  "13BF7B3039C63BF5A50491FA3CFD8EB4E699D1BA1436315AEF9CBE5711530354"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\round2.stderr",
+        "Hash":  "DD887FF25D4499CEC1946A473CBF4B4B7C2FA7DA5AA5AD8269934629F74DB1D7"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-final-review-work\\round2.stdout",
+        "Hash":  "4443CFC19FA840106C523C2709EAE2DF27F1A68628DA6CDC4AAFFB0F67966452"
+    }
+]

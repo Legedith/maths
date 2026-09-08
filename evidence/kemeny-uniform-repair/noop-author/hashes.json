@@ -1,0 +1,77 @@
+[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "54F9F15715487CA3BC142D9CBE42F5D1F7B98A969F63BDECFA3E1B4019DBE25E",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-noop-work\\batch1-argv.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "13BF7B3039C63BF5A50491FA3CFD8EB4E699D1BA1436315AEF9CBE5711530354",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-noop-work\\batch1-rc.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-noop-work\\batch1-stderr.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "58EDAF327FBA1794CEC52BAA0827D712A1266BB27627DFFBE72F7E4E107CACA3",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-noop-work\\batch1-stdout.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "BC7D124C20F38117A9A07616C380FBC5F084BADB4AF4EB9C7DB0ADA8D611F634",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-noop-work\\batch1.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "528A474E3E0BF35EBA4A10D427CA58771EC36176B970CB384584326E63748A9B",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-noop-work\\batch1.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "66372E9850DE372CC68D531B138DCE4617D8D5E30649F6205AB593035B5A8915",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-noop-work\\batch2-argv.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "3476F81E7835C90904E346B468BF8FD99D8454A83BB61237073372CB1B6C7C89",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-noop-work\\batch2-plan.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "13BF7B3039C63BF5A50491FA3CFD8EB4E699D1BA1436315AEF9CBE5711530354",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-noop-work\\batch2-rc.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-noop-work\\batch2-stderr.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "A6EE45616107AE316D04252298F87EE64CEF1E869ED9638FF5146FB22B260380",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-noop-work\\batch2-stdout.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "DAA02C1A3656829DEF24A7E81ABE69D55AFE77E7FFA97A7311A788C1893D280F",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-noop-work\\batch2.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "CC041EB793828AA013F9C1A782A7159289FB645E3034320AB7C296D3385495CD",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-noop-work\\batch2.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "3BB777A96A83B1444E2D60FABF9822718FA3E0270CE2A99D7A3FB2ED8447AF55",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-noop-work\\plan.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "AFE924A4CE94F671B97855E852C42F7D38293807C86E7990DB211BB351773117",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-noop-work\\proposal.md"
+    }
+]

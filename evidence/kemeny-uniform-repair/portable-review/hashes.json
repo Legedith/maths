@@ -1,0 +1,106 @@
+[
+    {
+        "Hash":  "43FD694BD564DD2215F51A6B23F6A3712834850225E629D7781C81C71076092D",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-portable-review-work\\.python-version"
+    },
+    {
+        "Hash":  "BD45025E68C5766271D9668E805997FCEDFEDE6B11779EB82BC7AA27FB69BB6A",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-portable-review-work\\correction.md"
+    },
+    {
+        "Hash":  "70B78F268C0058AB8156ABD9B4A00698548CCD9CF45BC12CFF9D0E15862B2376",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-portable-review-work\\helper-hashes.json"
+    },
+    {
+        "Hash":  "38B313A20B28A9737D3CBCE845A8C4B6895E651200C1FFE176B5092E516A08A7",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-portable-review-work\\modified.json"
+    },
+    {
+        "Hash":  "DAA02C1A3656829DEF24A7E81ABE69D55AFE77E7FFA97A7311A788C1893D280F",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-portable-review-work\\noop.json"
+    },
+    {
+        "Hash":  "8BA76675DD24536261B38F6C61077FEB39F18992A21AE077C6D00FFCE95F2EB0",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-portable-review-work\\plan.md"
+    },
+    {
+        "Hash":  "A8679BFC0476154DDC4EF5826510445DB303E16ADD568BED3A580AE72254BEDF",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-portable-review-work\\pyproject.toml"
+    },
+    {
+        "Hash":  "F0F6C30DFEF0BC7836B5BC6FEEB1999968D9A81A89330AA59C70A1B1CAB9517C",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-portable-review-work\\ranking.json"
+    },
+    {
+        "Hash":  "BC69EFCDAACC566B44C67DD37753676B3EE649CA9A419C93CC9AA3BC83E0C871",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-portable-review-work\\reject-argv.json"
+    },
+    {
+        "Hash":  "DF4E26A04A444901B95AFEF44E4A96CFAE34690FFF2AD2C66389C70079CDFF2B",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-portable-review-work\\reject-rc.txt"
+    },
+    {
+        "Hash":  "F5624CD86483B69202807EE9DE98CB5DAE3A938E4EC2BA5D791F7CA5F9AC280C",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-portable-review-work\\reject-stderr.txt"
+    },
+    {
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-portable-review-work\\reject-stdout.txt"
+    },
+    {
+        "Hash":  "A113CD4584E76290BB84784FE07F46A434A8C7653BB08EF1481F7906642A7016",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-portable-review-work\\reject2-argv.json"
+    },
+    {
+        "Hash":  "F1B2F662800122BED0FF255693DF89C4487FBDCF453D3524A42D4EC20C3D9C04",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-portable-review-work\\reject2-rc.txt"
+    },
+    {
+        "Hash":  "65C9B48F6DF71961545A3378C23DE45A8E40E0B2C0FE94452C9060302919E2AC",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-portable-review-work\\reject2-stderr.txt"
+    },
+    {
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-portable-review-work\\reject2-stdout.txt"
+    },
+    {
+        "Hash":  "3BAD57883DBD0EBBF5DB99EAE5F38F47B2F518F0EF15BAFA6FDCDCE916A1F631",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-portable-review-work\\replay.json"
+    },
+    {
+        "Hash":  "F048FB40FAEA90571591C70A1E7AC5D63DCDD8663349BF0C4D5B1DCF53CDF38F",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-portable-review-work\\review.md"
+    },
+    {
+        "Hash":  "BEE89F2A7C9AE018F566FCEC18F429F8BD5C388BF3CFFEA1FC35CF118B89754F",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-portable-review-work\\uv.lock"
+    },
+    {
+        "Hash":  "99F7C317E1F3C35B1C681BA47B2CEA1CC794A3657A10129B7E2E76497FBD9630",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-portable-review-work\\valid-argv.json"
+    },
+    {
+        "Hash":  "13BF7B3039C63BF5A50491FA3CFD8EB4E699D1BA1436315AEF9CBE5711530354",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-portable-review-work\\valid-rc.txt"
+    },
+    {
+        "Hash":  "F2A152CD0C0DE64C68965F164CF10DD839B07D47F8907FCDFA33180071E5277C",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-portable-review-work\\valid-stderr.txt"
+    },
+    {
+        "Hash":  "19F5EC54DAA1E07445C3C4622726CBF83E4E628343B4BB42EB1477CC51A207DD",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-portable-review-work\\valid-stdout.txt"
+    },
+    {
+        "Hash":  "4EBDE785CE3515A0D4D5284B71F5E04A5A536197DC315CAE60D293435682B2F9",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-portable-review-work\\verify_all_deletions.py"
+    },
+    {
+        "Hash":  "EF5D3B84E9F78AC3E6E4840A3BE675C2806F3DF7AA89EFA1EF4D5B776DCC4FFD",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-portable-review-work\\verify_certificate.py"
+    },
+    {
+        "Hash":  "08D338487DDA30C3E7ABCAE09DC70B644073ADB348762F5419DC17C1EB0F4302",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-portable-review-work\\verify_uniform_repair.py"
+    }
+]

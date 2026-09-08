@@ -1,0 +1,20 @@
+[
+    {
+        "id":  "A096",
+        "path":  "evidence/kemeny-uniform-repair/source/review.md",
+        "sha256":  "fcca0b3422f74729cda211c71db65c864d74999f6faab0e2678b68afb5f513a6",
+        "matches":  true
+    },
+    {
+        "id":  "A097",
+        "path":  "evidence/kemeny-uniform-repair/source/source-notes.md",
+        "sha256":  "f5c3594f3e79c7009970b1e3490eb640090928e594995bfb94a0c734b185155f",
+        "matches":  true
+    },
+    {
+        "id":  "A098",
+        "path":  "evidence/kemeny-uniform-repair/source/verdict.json",
+        "sha256":  "575df775747bc90126f90fd4015d1d022d1d390dfc2508282a9a3b0f9e599839",
+        "matches":  true
+    }
+]

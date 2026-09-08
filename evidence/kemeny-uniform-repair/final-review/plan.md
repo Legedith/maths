@@ -1,0 +1,2 @@
+# Final unit-uniform review round1
+Inspect all113artifact hashes/95copy source bytes, typed supports/locators/types and conclusion dependencies; read final prose/contract/workflow and reused independent audits. Check exact333table arithmetic and weighted threshold using rational arithmetic only, not a symbolic/numeric theorem rerun. Verify implementation/replay bytes match independent portable copies. Max2rounds; no shared writes. Commands uv run --python3.12.11 --no-project inspect.py and arithmetic.py, stage-local cache.

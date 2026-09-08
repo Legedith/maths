@@ -1,0 +1,34 @@
+[
+    {
+        "Hash":  "8092494D4D7DAC3C13FD7BA11EA901D485448B7BA07053CAE45CFD30D20A38EC",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-noop-review-work\\batch1-argv.json"
+    },
+    {
+        "Hash":  "13BF7B3039C63BF5A50491FA3CFD8EB4E699D1BA1436315AEF9CBE5711530354",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-noop-review-work\\batch1-rc.txt"
+    },
+    {
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-noop-review-work\\batch1-stderr.txt"
+    },
+    {
+        "Hash":  "165FF91B7E072E34D4699F000D20C1F76584DE6113403A3D3DF1CA7A7C4401C9",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-noop-review-work\\batch1-stdout.txt"
+    },
+    {
+        "Hash":  "85B94069A1DA685E4DD4111016F750DEF5CEA3D54CC5D6D1BC64E980487C6D17",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-noop-review-work\\check.py"
+    },
+    {
+        "Hash":  "413FD5F53A521EC0651F935359ED8A71F519DB11B3B21298B2A8EC70B3DF2D1B",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-noop-review-work\\plan.md"
+    },
+    {
+        "Hash":  "1B2999EF87DD36A97A3E835F9599A17B7FD38E98C517AC440B49FF4FD67D3D2F",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-noop-review-work\\result.json"
+    },
+    {
+        "Hash":  "EF3022359A4883B8F07211B5B3BAAB6F3ED15FA05588D0B262D116425EF81624",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-noop-review-work\\review.md"
+    }
+]

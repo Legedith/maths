@@ -1,0 +1,27 @@
+# Independent uniform-workload theorem review
+
+Verdict: PASS within the frozen integer graph and exactly-one-insertion scope. Reviewer authored neither candidate theorem nor author implementation. One bounded batch used; no retry or second batch. No shared/project edits.
+
+Inputs: proposal.md SHA256 39070ae3aa8c1940f452cfb7504bdd760d530d7a4e795c8b078409b5e93efb05; batch2.json SHA256 f0f6c30dfef0bc7836b5bc6feeb1999968d9a81a89330aa59c70a1b1cab9517c in ../astra-uniform-repair-design-work. Source bridge reused from ../astra-fixed-workload-source-work/report.md and its retained primary returns; no new searches.
+
+## Four checks
+
+- reproduction: PASS. plan.md froze four falsifiable hypotheses. check.py independently constructs grounded Kirchhoff equations from adjacency and cell multiplicities, uses Cramer's rule with full exact determinants, centers potentials, and computes their squared norm and resistance. It does not use the author's base inverse/projector or deletion formula. result.json /identities contains three true exact rational comparisons against the complete author coefficient dictionaries. All listed coefficients and constants are positive. result.json /finite records full adjacency pseudoinverse agreement on 15 orbit instances, at (3,5,4), (4,4,4), (3,6,6). These cover asymmetric largest part, all equal, and tied maxima. I do not claim independent replay of all author's 35 cases.
+- specification_compliance: PASS. Missing edges are precisely uh, incident-u A pairs, other A pairs, B pairs, C pairs. For a>=3 each exists. Permutations fixing u,h and original parts preserve the graph and workload. b,c are not ordered; exchanging B,C supplies the other strict inequality. The third orthant covers b>=a+1, which covers b>a only because sizes are integers. Together with monotonicity of 2/[(n-t)(n-t+2)], the strict inequalities give exactly the announced sets, not unique individual edges. At a=b=c all a-1 incident-u pairs win; otherwise all internal pairs in each maximum part win. Restoration is strictly dominated by incident-u pairs, so permitting it does not affect this optimum.
+- source_verification: PASS for generic machinery only. Chandra et al., Theorem2.1, retained primary text lines371–390, establishes commute=2mR. Summing commutes with diagonal zero and L+1=0 gives U=(2m/n)trace(L+). Monnig–Meyer arXiv1605.01091 Theorem2 eq37 and Section8.1 explicitly address exact single-edge Kirchhoff reduction and optimal addition. The independently derived positive-addition Sherman–Morrison convention applies on 1-perp. These sources support the generic method, not this family-specific optimum or novelty.
+- implementation_alignment: PASS for the frozen author research scripts/proposal, not any future portable checker. batch1.py uses uniform all-pairs hitting times with zero diagonal and equal final volume. batch2.py constructs the same five scores and the three stated orthants; the independently reconstructed differences match its actual dictionaries. The code's finite cases are diagnostics, and universal sign reasoning uses certificates. Runtime batch1-rc.txt is 0; raw argv/stdout/stderr retained. stderr contains uv package-selection warnings/download notices, not an empty stream.
+
+## Mathematical boundary details
+
+Grounded equations use off-diagonal entry -size_j for connected different-part cells, diagonal equal to neighbor count, and delete only u-h. Splitting injected endpoints ensures injection is constant per cell. Every other vertex in a cell has the same solution by graph symmetry and grounded-solution uniqueness. Subtracting the weighted mean turns that solution into L_H+ times the injection. This justifies symbolic weighted squared norms.
+
+For the untouched-A construction the residual A cell has size a-3, possibly zero. At zero its potential has zero weight and its column has zero influence on occupied equations; its own equation has positive degree b+c+1 and merely defines an auxiliary value. Thus the formal identity extends without changing the occupied graph. The explicit a=3 full-matrix checks confirm this boundary. Other residual sizes are nonnegative and endpoint cells always exist.
+
+H is connected: u reaches B and C; all vertices connect through different parts, with h adjacent to all except u. On 1-perp its Laplacian is positive definite. Therefore every insertion denominator 1+R is positive. The author's k=(n-1)(d-1)/(nd)>0; all closed score denominators and shifted certificate denominators are positive. There is no hidden pole on the full domain.
+
+The proof of the base spectrum is also valid: within-part zero-sum vectors have eigenvalue n-q; orthogonal part-constant vectors in 1-perp have eigenvalue n. The stated w coordinates sum to zero, their squared norm is the stated W, and rank-one deletion gives the stated five scores. The independent graph-equation route validates these expressions without relying on that derivation.
+
+The rule minimizes among exactly one inserted unit missing edge. It does not compare with no action: m changes in that comparison. It does not establish latency/throughput, weighted or nonuniform workloads, multiple repair optimality, or novelty. Existing Kemeny PR remains outside this review.
+
+No required mathematical correction identified. A future publication should cite the primary generic method explicitly and retain the integer-domain and exactly-one-insertion qualifications. Any promoted portable implementation requires its own alignment check.
+

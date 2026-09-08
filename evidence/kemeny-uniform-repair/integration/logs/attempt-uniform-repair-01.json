@@ -1,0 +1,36 @@
+{
+  "argv": [
+    "python",
+    "experiments/kemeny-one-deletion-proof/verify_uniform_repair.py",
+    "--ranking-certificate",
+    "experiments/kemeny-one-deletion-proof/uniform-ranking.json",
+    "--noop-certificate",
+    "experiments/kemeny-one-deletion-proof/uniform-noop.json",
+    "--output",
+    "work/kemeny-uniform-repair/check-01.json"
+  ],
+  "attempt_id": "uniform-repair-01",
+  "ended_at_utc": "2026-09-08T15:07:55.171918+00:00",
+  "returncode": 0,
+  "schema_version": "logged-command-attempt-v1",
+  "selected_environment": {
+    "PYTHONDONTWRITEBYTECODE": null,
+    "UV_CACHE_DIR": "D:/CodexWorkspaces/mathematics-atlas/uv-cache",
+    "UV_PROJECT_ENVIRONMENT": null
+  },
+  "started_at_utc": "2026-09-08T15:07:54.940558+00:00",
+  "stderr": {
+    "bytes": 0,
+    "path": "attempt-uniform-repair-01.stderr.bin",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 3767,
+    "path": "attempt-uniform-repair-01.stdout.bin",
+    "sha256": "19f5ec54daa1e07445c3c4622726cbf83e4e628343b4bb42eb1477cc51a207dd"
+  },
+  "termination": null,
+  "timed_out": false,
+  "timeout_seconds": 90,
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\project"
+}
