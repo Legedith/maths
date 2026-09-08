@@ -1,0 +1,31 @@
+{
+  "schema_version": "kemeny-command-attempt-v1",
+  "attempt_id": "canonical-01",
+  "phase": "canonical_author_evaluation",
+  "executable": "uv",
+  "argv": [
+    "uv",
+    "run",
+    "--project",
+    ".",
+    "--frozen",
+    "python",
+    "census.py",
+    "--input-dir",
+    "D:/CodexWorkspaces/mathematics-atlas/kemeny-input-work",
+    "--output-dir",
+    "D:/CodexWorkspaces/mathematics-atlas/kemeny-author-work/run-01"
+  ],
+  "working_directory": "D:/CodexWorkspaces/mathematics-atlas/kemeny-author-work",
+  "uv_cache_dir": "D:/CodexWorkspaces/mathematics-atlas/uv-cache",
+  "input_freeze_path": "input-freeze.json",
+  "input_freeze_sha256": "b5b8c286047194b1ddcea1e2b4ff6a79d58d939bcc2124951fe36bb90d012b15",
+  "timeout_seconds": 1800,
+  "started_at_utc": "2026-09-08T07:10:07.9263489+00:00",
+  "ended_at_utc": "2026-09-08T07:10:16.2212822+00:00",
+  "elapsed_milliseconds": 8295,
+  "return_code": 0,
+  "timeout": false,
+  "stdout_path": "logs/canonical-01/stdout.txt",
+  "stderr_path": "logs/canonical-01/stderr.txt"
+}

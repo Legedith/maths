@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "immutable_initial_four_source_review_seal",
+  "sealed_at_utc": "2026-09-08T06:47:30.3643405Z",
+  "records": [
+    {
+      "path": "source-notes.json",
+      "bytes": 8276,
+      "sha256": "eefafc33143c177442d35bfa123ddcb7a4232014b679f1211b73b98d19cf23f6"
+    },
+    {
+      "path": "verdict.md",
+      "bytes": 1569,
+      "sha256": "977c80b81a4ef99b012306ee86c345846432cb2db3095dce700053ed61679a59"
+    },
+    {
+      "path": "sources/breen-deblieck-vandermeulen-2608.04150.pdf",
+      "bytes": 473374,
+      "sha256": "69037b759b6c7948fba80c77c4e50823c4d051658ff93eedf1113d7c21a3d660"
+    },
+    {
+      "path": "sources/faught-kempton-knudson-2108.01061.pdf",
+      "bytes": 228469,
+      "sha256": "7becf39902ff7eb8c0eb02589a09cd57dd18ecd5972bb0520d5306f624bd2274"
+    },
+    {
+      "path": "sources/jang-et-al-2309.02977.pdf",
+      "bytes": 360120,
+      "sha256": "9e375fff3951607c3f2b3fdc54b7af5535136c72194f72a2ffb12ea49abc8f96"
+    },
+    {
+      "path": "sources/kim-2021-thesis.pdf",
+      "bytes": 1334335,
+      "sha256": "a5912addef9a102528ac59663c84571734f6f934fd92e3bd792d60a18803c40a"
+    }
+  ]
+}

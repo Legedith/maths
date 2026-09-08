@@ -1,0 +1,23 @@
+{
+  "schema_version": "kemeny-author-postrun-validation-v1",
+  "status": "author_artifact_integrity_checks_passed_pending_independent_mathematical_verification",
+  "validated_at_utc": "2026-09-08T07:12:30.7120944+00:00",
+  "checks": {
+    "frozen_file_count": 17,
+    "frozen_file_mismatches": [],
+    "required_outputs_missing": [],
+    "required_json_parsed": true,
+    "pairs_jsonl_records_parsed": 2390,
+    "pairs_match_summary": true,
+    "pair_indices_sequential": true,
+    "witness_count_matches_summary": true,
+    "p7_qualifies": true,
+    "canonical_stderr_bytes": 0,
+    "canonical_return_code": 0,
+    "canonical_timeout": false
+  },
+  "limitations": [
+    "These checks validate file integrity and internal record counts only.",
+    "They do not independently reproduce the graph mathematics or establish novelty."
+  ]
+}

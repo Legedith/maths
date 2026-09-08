@@ -1,0 +1,5 @@
+Using CPython 3.12.11
+Creating virtual environment at: .venv
+Prepared 1 package in 105ms
+Installed 1 package in 22ms
+ + pypdf==6.0.0

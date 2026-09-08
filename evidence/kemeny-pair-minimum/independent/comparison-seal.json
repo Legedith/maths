@@ -1,0 +1,71 @@
+{
+  "schema_version": "kemeny-independent-comparison-seal-v1",
+  "status": "sealed_exact_cross_evaluator_agreement_pending_final_independent_review",
+  "sealed_at_utc": "2026-09-08T07:35:09.5639478Z",
+  "auditor": "/root/sol_atlas_audit",
+  "baseline_refs": {
+    "independent_pre_author_output_seal_sha256": "7ccdcbbd54a21fec1bfdfc668c05c9cc06564a985e82e68e9c4958a110994b2d",
+    "author_result_manifest_sha256": "78b4121cc83d7e06bed7470f70c1cbb365ba1d24543595f7620b9e15e0524a9d",
+    "comparison_input_freeze_sha256": "ea07c6b324ea2d8d0b8bdde77811611fd543d0c630c7b31f58a62290f825188c"
+  },
+  "result": {
+    "all_checks_pass": true,
+    "graph_state_count": 1848,
+    "pair_count": 2390,
+    "source_graph_count": 142,
+    "witness_count": 1,
+    "candidate_minimum_order": 6,
+    "final_semantic_gate_pending": true,
+    "publication_novelty_not_certified": true
+  },
+  "files": [
+    {
+      "role": "comparison_input_freeze",
+      "path": "comparison-input-freeze.json",
+      "bytes": 7114,
+      "sha256": "ea07c6b324ea2d8d0b8bdde77811611fd543d0c630c7b31f58a62290f825188c"
+    },
+    {
+      "role": "comparison_code",
+      "path": "compare_outputs.py",
+      "bytes": 58203,
+      "sha256": "76f03190d2286fb95cd01740703fe9ab05104b632b3dee81138e8d1857e734f7"
+    },
+    {
+      "role": "initial_author_manifest_hash_verification",
+      "path": "author-manifest-verification.json",
+      "bytes": 10704,
+      "sha256": "2c9094a69a7f4a0b9d31fee65969831a2b9e41a141fc5aecb450ff044eb978c0"
+    },
+    {
+      "role": "sealed_comparison_report",
+      "path": "comparison-01/comparison.json",
+      "bytes": 27181,
+      "sha256": "4e72ec56615441992dd5685ad72c4968820d26bfd7e3c909324ace42de3af24b"
+    },
+    {
+      "role": "comparison_command_log",
+      "path": "comparison-logs/attempt-comparison-01.json",
+      "bytes": 1398,
+      "sha256": "013e64282cfdd8f571c9ba6345c33e2b513dbe4c928e73793510ed63a76f7781"
+    },
+    {
+      "role": "comparison_stdout",
+      "path": "comparison-logs/attempt-comparison-01.stdout.bin",
+      "bytes": 350,
+      "sha256": "b890782e6043d015413c81052cb92fb6b8ab42a74a374af02318bb1e84d25994"
+    },
+    {
+      "role": "comparison_stderr",
+      "path": "comparison-logs/attempt-comparison-01.stderr.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "role": "comparison_attempt_ledger",
+      "path": "comparison-logs/attempts.jsonl",
+      "bytes": 1214,
+      "sha256": "aa6fef78ff9d2ec319365e9f0ae083f415235de3e7d892688aece1d936e70bee"
+    }
+  ]
+}

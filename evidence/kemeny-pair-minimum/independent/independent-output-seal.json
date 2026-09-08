@@ -1,0 +1,67 @@
+{
+  "schema_version": "kemeny-independent-output-seal-v1",
+  "status": "sealed_before_any_author_result_or_verdict_access",
+  "sealed_at_utc": "2026-09-08T07:12:55.4328210Z",
+  "owner": "/root/sol_atlas_audit",
+  "blinding": {
+    "author_directory_read": false,
+    "author_code_read": false,
+    "author_results_or_verdicts_read": false
+  },
+  "input_freeze_manifest_sha256": "e76e474f723cfdc6af6014cf35371601a2525a6ee78e148bb72ef99b9249019d",
+  "input_freeze_seal_sha256": "d0ce60abc7d207bba46f86e4da7551d3c7b1b8f4d9f4eaf07bdeb68720932389",
+  "deterministic_outputs": [
+    {
+      "path": "run-01/summary.json",
+      "bytes": 11115,
+      "sha256": "a1f5c91e0c085d5e026dea901013c544c201fcfb24e05460952ddfad3f5370f4"
+    },
+    {
+      "path": "run-01/graph-values.json",
+      "bytes": 3212732,
+      "sha256": "bf6c9fad7bb6f1473dbb55d4eb608d28481fc6548badca173907316cc3925f2b"
+    },
+    {
+      "path": "run-01/pairs.jsonl",
+      "bytes": 2759071,
+      "sha256": "a3aa0acbc0f8ca592525344388d045afd926702dd4e9cbdd886c04b0b4ef2c64"
+    },
+    {
+      "path": "run-01/witnesses.json",
+      "bytes": 4258,
+      "sha256": "3e21183af71a6fa69e14a8f73084e1f20626a612c1c71f8341dfa88921939d8c"
+    },
+    {
+      "path": "run-01/published-p7.json",
+      "bytes": 4264,
+      "sha256": "51354922fa541d010e0e12f8a8af2933b4c3f655b850a2eb465219b33e8b41bb"
+    },
+    {
+      "path": "run-01/completeness.json",
+      "bytes": 155476,
+      "sha256": "4d0bd778eef0b9781f3d6931257f2d59ce1eaa2c50eee2d7c1c011d6dbc5dea7"
+    }
+  ],
+  "command_logs": [
+    {
+      "path": "logs/attempt-run-01.json",
+      "bytes": 1154,
+      "sha256": "3dad8107c96c7e67054d7672617e8473ba630906a291ce7c31765aae5e86eaa2"
+    },
+    {
+      "path": "logs/attempt-run-01.stdout.bin",
+      "bytes": 323,
+      "sha256": "4512335c11f74c577f6ea1a0d67e66ba8e766d42bf6407568a8766e376eaac82"
+    },
+    {
+      "path": "logs/attempt-run-01.stderr.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/attempts.jsonl",
+      "bytes": 980,
+      "sha256": "8e62c1fb1bc97392d4001ce71520db2eb1a941bef771c437dd0f15eb4b1b61eb"
+    }
+  ]
+}

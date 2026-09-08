@@ -1,0 +1,39 @@
+{
+  "auditor": "/root/sol_symmetry_audit",
+  "ci_workflow_static_review": {
+    "actions_pinned_by_commit": true,
+    "job_timeout_minutes": 70,
+    "permissions_contents_read": true,
+    "python_version": "3.12.11",
+    "raw_outputs_uploaded_even_after_failure": true,
+    "same_portable_command": true,
+    "status": "pass_pending_first_remote_run",
+    "ubuntu_latest": true,
+    "uv_version": "0.8.19"
+  },
+  "exact_transfer": {
+    "all_recorded_sources_and_destinations_byte_identical": true,
+    "project_package_file_count": 33,
+    "project_package_file_set_exactly_matches_frozen_staging_package": true,
+    "study_evidence_file_count": 85
+  },
+  "inputs": {
+    "portable_result_manifest_sha256": "d5bbdd58126de29f2db378c08a287ac4d28272569ee386aa2347fbc6f898f420",
+    "transfer": {
+      "bytes": 39006,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-study-work\\evidence\\portable-transfer.json",
+      "sha256": "a9f24df57d0ae0fa764db60c32925e2d8f00f18824b280e64cb0f393ffa60131"
+    },
+    "workflow": {
+      "bytes": 927,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.github\\workflows\\kemeny-pair.yml",
+      "sha256": "265beb623e16cec99b81dfd8532f6d96b56fd6daa173c47b47a5e3158038aae2"
+    }
+  },
+  "limitations": [
+    "This check proves byte-exact local transfer and reviews the workflow text. The Ubuntu run is future CI evidence and is not represented as already observed.",
+    "The 70-minute job limit is compatible with two sequential 1800-second child limits plus runner overhead, but an actual platform run remains the operational check."
+  ],
+  "schema_version": "kemeny-portable-transfer-independent-check-v1",
+  "status": "pass"
+}

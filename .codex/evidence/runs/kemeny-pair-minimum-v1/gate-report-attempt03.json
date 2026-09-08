@@ -1,0 +1,11 @@
+{
+  "status": "FAIL",
+  "bundle": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.codex\\evidence\\runs\\kemeny-pair-minimum-v1\\bundle.json",
+  "workspace": "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+  "artifact_count": 327,
+  "claim_count": 9,
+  "claim_provenance_rate": 1.0,
+  "errors": [
+    "check source_verification needs evidence kind in ['source']"
+  ]
+}

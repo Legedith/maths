@@ -1,0 +1,47 @@
+{
+  "schema_version": "kemeny-atlas-focused-webmcp-observation-v1",
+  "observer": "/root",
+  "date_utc": "2026-09-08",
+  "scope": "Focused observation of the existing shared show_concept action against the two-concept data extension. No broad visual, accessibility, performance or concurrency review.",
+  "source_hashes": {
+    "project/data/atlas.json": "6d0b37a4f7bdd7181b45d464bb5ea5f038cd097e33d56140c8beb74a3158276d",
+    "project/lib/use-atlas-tools.ts": "04cc7a2700f225cab9d1884931f4e416433951bb20d60248bb5af06400873dca",
+    "project/components/atlas-map.tsx": "9913b1f3496210bf878b0da92275ea8011da3d52d20d379cdfe45d1ce146bd26"
+  },
+  "surface": {"browser": "Codex In-app Browser", "tab_id": "4", "url": "http://localhost:3000/", "visible": false},
+  "setup_observation": "The previous temporary tab 3 was no longer part of the session. cua.getState showed the published tab only. A fresh hidden local tab 4 was created; no product change was required.",
+  "registered_tool": {
+    "name": "show_concept",
+    "title": "Open a concept",
+    "description": "Navigate the map to one curated concept and display its assumptions and source-backed connections.",
+    "inputSchema": {"additionalProperties": false, "properties": {"id": {"type": "string"}}, "required": ["id"], "type": "object"},
+    "annotations": {"readOnlyHint": false, "untrustedContentHint": false}
+  },
+  "valid_action": {
+    "input": {"id": "kemeny-constant"},
+    "returned": {"id": "kemeny-constant", "label": "Kemeny's constant", "status": "sourced"},
+    "visible_state_method": "Accessibility-state diff read immediately after the awaited tool call.",
+    "exact_accessibility_excerpts": [
+      "checkbox Kemeny's constant Mathematics · Probability · Computer science ↗, Value: 1",
+      "text Kemeny's constant 4  direct neighbors ·  33  concepts in this region",
+      "text An average of random-walk travel times to destinations weighted by their long-run fraction of visits.",
+      "text K(G) = sum_j (d_j / (2m)) H_ij = d^T R d / (4m)",
+      "text At each step choose a neighbouring vertex uniformly. Choose a destination with probability proportional to its degree. With zero steps assigned when the destination is the starting point, the expected number of steps to reach that destination is Kemeny's constant. It has the same value for every starting vertex.",
+      "text weighted average A stationary-distribution-weighted average of hitting times is independent of the starting vertex. The hitting time from a vertex to itself is zero in this convention.",
+      "link Value: arxiv.org/html/2608.04150, Description: Kemeny's constant and Braess cliques in graphs Jane Breen, Emma deBlieck and Kevin N. Vander Meulen · Section 2.1, hitting-time definition and Theorem 2.1; Section 2.2, graph transition matrix and resistance formula"
+    ]
+  },
+  "invalid_action": {
+    "input": {"id": null},
+    "error": "Error: Browser Use encountered an error interacting with this webpage: Error: Unknown concept ID.",
+    "visible_state_method": "Accessibility-state read immediately after catching the failed tool call.",
+    "exact_accessibility_response": "There has been no change in the accessibility tree.",
+    "url_in_response": "http://localhost:3000/"
+  },
+  "retention_boundary": "The selected tool schema, complete small valid return, exact error and relevant accessibility excerpts are retained. This is not a full browser trace. Sibling registered tools were inspected but not invoked.",
+  "limitations": [
+    "Root-observed interaction; no independent browser replay is claimed.",
+    "This checks presentation and shared-action behavior, not the mathematical census or truth of the source papers.",
+    "No unrequested screenshot or broad browser QA was performed."
+  ]
+}

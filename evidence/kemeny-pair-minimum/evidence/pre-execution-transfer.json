@@ -1,0 +1,105 @@
+{
+  "schema_version": "kemeny-study-transfer-v1",
+  "status": "copied_exactly_before_any_study_result_received",
+  "files": [
+    {
+      "source": "kemeny-spec-work/contract-v1.md",
+      "path": "docs/contract-v1.md",
+      "bytes": 10309,
+      "sha256": "1ff78636c4dcadc7d8f9d6a3a36c144e193e5f90cbb970ab846c877cdf0c6ac6"
+    },
+    {
+      "source": "kemeny-spec-work/contract-freeze.json",
+      "path": "evidence/spec/contract-freeze.json",
+      "bytes": 326,
+      "sha256": "55fd516c94127c2fe1c31526366ef4449262b0d4057f1fe3eb31d770b514bbcc"
+    },
+    {
+      "source": "discovery-next-work/proposal.md",
+      "path": "evidence/proposal/proposal.md",
+      "bytes": 6556,
+      "sha256": "ffc32445ce13f69c058039a1183becd6a91ce30eb9230209ce90efd1b67123b1"
+    },
+    {
+      "source": "discovery-next-work/source-notes.json",
+      "path": "evidence/proposal/source-notes.json",
+      "bytes": 6651,
+      "sha256": "ee4695ff47051b563731b4a957313df78cea1151e8704861ed936c8d384d892f"
+    },
+    {
+      "source": "discovery-next-audit-work/source-method-assessment.json",
+      "path": "evidence/source-review/source-method-assessment.json",
+      "bytes": 19858,
+      "sha256": "12d46fa4127e98aea459fae586fa57e16377b4426b3966ffd6bb287caa38bc96"
+    },
+    {
+      "source": "kemeny-prior-art-work/source-notes.json",
+      "path": "evidence/prior-art/source-notes.json",
+      "bytes": 8276,
+      "sha256": "eefafc33143c177442d35bfa123ddcb7a4232014b679f1211b73b98d19cf23f6"
+    },
+    {
+      "source": "kemeny-prior-art-work/verdict.md",
+      "path": "evidence/prior-art/verdict.md",
+      "bytes": 1569,
+      "sha256": "977c80b81a4ef99b012306ee86c345846432cb2db3095dce700053ed61679a59"
+    },
+    {
+      "source": "kemeny-prior-art-work/initial-four-source-seal.json",
+      "path": "evidence/prior-art/initial-four-source-seal.json",
+      "bytes": 1202,
+      "sha256": "3ef26d1c35e1c60abc62cb3efc48a1f1cea26907c6c2b05f306e6abe26df4541"
+    },
+    {
+      "source": "kemeny-prior-art-work/supplement-2306.04005.json",
+      "path": "evidence/prior-art/supplement-2306.04005.json",
+      "bytes": 3297,
+      "sha256": "5ed72f2385d33dbf082c0eff26fa8f9275865353151fecaaf45df51aed8a5827"
+    },
+    {
+      "source": "kemeny-input-work/source-manifest.json",
+      "path": "data/source-manifest.json",
+      "bytes": 2505,
+      "sha256": "e4a02bdeb62d8e6b0e68849b4aa3d65d9a37744578bebd48abe740fe94c52c7f"
+    },
+    {
+      "source": "kemeny-input-work/retrieve.py",
+      "path": "evidence/input-retrieval/retrieve.py",
+      "bytes": 1411,
+      "sha256": "d95aaff1d7f892c55e7d36ef50a6b39cedd5df297615b68cbf097cc9500d4586"
+    },
+    {
+      "source": "kemeny-input-work/graph2c.g6",
+      "path": "data/graph2c.g6",
+      "bytes": 3,
+      "sha256": "fae4bfc454bd04363dcd5222772f2973b1193e1ff6f676e822a427323a677ef9"
+    },
+    {
+      "source": "kemeny-input-work/graph3c.g6",
+      "path": "data/graph3c.g6",
+      "bytes": 6,
+      "sha256": "5966edf890849db6cb03626431916231a81a30c9db9a4781a4a8f2e5dc7e6129"
+    },
+    {
+      "source": "kemeny-input-work/graph4c.g6",
+      "path": "data/graph4c.g6",
+      "bytes": 18,
+      "sha256": "d7da485669f2dc74b81c02f18774a07430937684896833d59f138b10debb5005"
+    },
+    {
+      "source": "kemeny-input-work/graph5c.g6",
+      "path": "data/graph5c.g6",
+      "bytes": 84,
+      "sha256": "3c436a6a15f554e3eff3ce9178fddd3d75db6d365b3c6b102b64afe82145050b"
+    },
+    {
+      "source": "kemeny-input-work/graph6c.g6",
+      "path": "data/graph6c.g6",
+      "bytes": 560,
+      "sha256": "2dc8cbb1c05a12b5dcb28b6227cee86d585f203347f6aebb8fcbdb2b9bdf5fd7"
+    }
+  ],
+  "exclusions": [
+    "Full third-party paper snapshots remain in local research staging; URLs, hashes and locators are retained in source notes."
+  ]
+}

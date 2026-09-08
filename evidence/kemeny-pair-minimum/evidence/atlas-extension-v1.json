@@ -1,0 +1,88 @@
+{
+  "schema_version": "source-grounded-atlas-extension-draft-v1",
+  "status": "source_reviewed_with_the_two_optional_robustness_refinements",
+  "scope": "Two established concepts connecting the existing random-walk, hitting-time and electrical-resistance map; no experimental result or novelty claim is included.",
+  "source_review": {
+    "path": "evidence/source-review/source-method-assessment.json",
+    "sha256": "12d46fa4127e98aea459fae586fa57e16377b4426b3966ffd6bb287caa38bc96"
+  },
+  "concepts": [
+    {
+      "id": "kemeny-constant",
+      "label": "Kemeny's constant",
+      "kind": "concept",
+      "domains": [
+        "Mathematics",
+        "Probability",
+        "Computer science"
+      ],
+      "summary": "An average of random-walk travel times to destinations weighted by their long-run fraction of visits.",
+      "explanation": "At each step choose a neighbouring vertex uniformly. Choose a destination with probability proportional to its degree. With zero steps assigned when the destination is the starting point, the expected number of steps to reach that destination is Kemeny's constant. It has the same value for every starting vertex.",
+      "formula": "K(G) = sum_j (d_j / (2m)) H_ij = d^T R d / (4m)",
+      "conditions": [
+        "Finite connected simple undirected unweighted graph with at least two vertices",
+        "Simple random walk P = D^-1 A",
+        "H_ii = 0",
+        "Destination probabilities are recomputed when graph degrees change"
+      ],
+      "source": "https://arxiv.org/html/2608.04150",
+      "locator": "Section 2.1, hitting-time definition and Theorem 2.1; Section 2.2, graph transition matrix and resistance formula",
+      "review_locator": "json:/source_assessment/2",
+      "claim_type": "citation"
+    },
+    {
+      "id": "kemeny-braess-set",
+      "label": "Braess set for a random walk",
+      "kind": "concept",
+      "domains": [
+        "Mathematics",
+        "Probability",
+        "Computer science"
+      ],
+      "summary": "A group of added connections that increases Kemeny's constant.",
+      "explanation": "Under the strict convention used here, a missing edge or set of missing edges is Braess when adding it makes K larger. The effect of adding edges together can differ from their individual effects. This compares a specific random-walk statistic; it does not by itself establish slower traffic, a longer shortest path, or worse performance for an application.",
+      "formula": "K(G + S) > K(G)",
+      "conditions": [
+        "The same connected simple undirected unweighted graph model and K convention",
+        "S is a nonempty set of distinct missing edges",
+        "Strict increase; exact equality is not classified as Braess here"
+      ],
+      "source": "https://arxiv.org/html/2108.01061v1",
+      "locator": "Definition 4.1 and the P7 example immediately after Corollary 4.3",
+      "review_locator": "json:/source_assessment/0",
+      "claim_type": "citation"
+    }
+  ],
+  "connections": [
+    {
+      "from": "random-walk",
+      "to": "kemeny-constant",
+      "type": "defines_statistic",
+      "statement": "The simple random walk defines Kemeny's constant through its expected hitting times.",
+      "source_review_locator": "json:/source_assessment/2"
+    },
+    {
+      "from": "hitting-time",
+      "to": "kemeny-constant",
+      "type": "weighted_average",
+      "statement": "A stationary-distribution-weighted average of hitting times is independent of the starting vertex. The hitting time from a vertex to itself is zero in this convention.",
+      "source_review_locator": "json:/source_assessment/2"
+    },
+    {
+      "from": "effective-resistance",
+      "to": "kemeny-constant",
+      "type": "exact_formula",
+      "statement": "For the stated graph model, electrical effective resistances and vertex degrees determine K exactly by d^T R d/(4m).",
+      "source_review_locator": "json:/source_assessment/1"
+    },
+    {
+      "from": "kemeny-constant",
+      "to": "kemeny-braess-set",
+      "type": "defines_change_condition",
+      "statement": "A strict increase of K after adding an edge set defines a Braess set under the pinned convention.",
+      "source_review_locator": "json:/source_assessment/0"
+    }
+  ],
+  "human_judgment_prompt": "Does a random walk with degree-weighted destinations represent the application you care about? Adding edges changes both the walk and those destination weights, so a mathematical increase in K needs interpretation before it supports a practical decision.",
+  "experimental_claims": []
+}

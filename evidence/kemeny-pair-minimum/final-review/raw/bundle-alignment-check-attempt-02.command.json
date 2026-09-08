@@ -1,0 +1,27 @@
+{
+  "schema_version": "kemeny-independent-check-command-v1",
+  "attempt_id": "bundle-alignment-check-02",
+  "argv": [
+    "uv",
+    "run",
+    "--project",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-independent-work",
+    "--frozen",
+    "python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-final-review-work\\bundle_alignment_check.py"
+  ],
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-final-review-work",
+  "started_at_utc": "2026-09-08T08:22:38.0658325+00:00",
+  "ended_at_utc": "2026-09-08T08:22:38.5637170+00:00",
+  "returncode": 1,
+  "stdout": {
+    "path": "raw/bundle-alignment-check.stdout",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stderr": {
+    "path": "raw/bundle-alignment-check.stderr",
+    "bytes": 449,
+    "sha256": "3a06c0b3c7ec039ced80ea26e893c3ec95c3cc2d3f85172ec90782d688247514"
+  }
+}

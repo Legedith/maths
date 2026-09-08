@@ -1,0 +1,8 @@
+{
+  "schema_version": "kemeny-independent-input-freeze-seal-v1",
+  "sealed_at_utc": "2026-09-08T07:11:15.4221934Z",
+  "manifest_path": "input-freeze-manifest.json",
+  "manifest_bytes": 7395,
+  "manifest_sha256": "e76e474f723cfdc6af6014cf35371601a2525a6ee78e148bb72ef99b9249019d",
+  "status": "sealed_before_canonical_run"
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "kemeny-promotion-source-reference-correction-v1",
+  "reason": "The initial promotion mapped the auditor source check only to review reports. The deterministic gate additionally requires direct source-kind evidence. Attach the already reviewed source notes without changing any source, claim or semantic decision.",
+  "prior_bundle_sha256": "0c53d379a07e92cd1ffd631e436ea1d1b5c09ef41c64b278aba4462e6fa9e9f4",
+  "before_evidence_ids": [
+    "A286",
+    "A287",
+    "A128",
+    "A098"
+  ],
+  "after_evidence_ids": [
+    "A286",
+    "A287",
+    "A128",
+    "A098",
+    "A004",
+    "A006",
+    "A132"
+  ],
+  "retained_failed_gate": ".codex/evidence/runs/kemeny-pair-minimum-v1/gate-report-attempt03.json",
+  "mathematical_outputs_changed": false,
+  "claims_changed": false,
+  "auditor_decisions_changed": false
+}

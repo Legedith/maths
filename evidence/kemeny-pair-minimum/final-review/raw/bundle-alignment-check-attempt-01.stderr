@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "D:\CodexWorkspaces\mathematics-atlas\kemeny-final-review-work\bundle_alignment_check.py", line 154, in <module>
+    main()
+  File "D:\CodexWorkspaces\mathematics-atlas\kemeny-final-review-work\bundle_alignment_check.py", line 98, in main
+    assert bundle["evaluator_command"] == [
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

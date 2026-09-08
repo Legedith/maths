@@ -1,0 +1,36 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--project",
+    "independent",
+    "--frozen",
+    "python",
+    "-c",
+    "import ast,pathlib; files=('reproduce.py','author/portable_entry.py','author/census.py','independent/verify_census.py','independent/run_logged.py'); [ast.parse(pathlib.Path(p).read_text(encoding='utf-8'),filename=p) for p in files]; print('syntax_files=5')"
+  ],
+  "attempt_id": "prep-syntax",
+  "ended_at_utc": "2026-09-08T08:01:30.869723+00:00",
+  "returncode": 0,
+  "schema_version": "logged-command-attempt-v1",
+  "selected_environment": {
+    "PYTHONDONTWRITEBYTECODE": null,
+    "UV_CACHE_DIR": "D:/CodexWorkspaces/mathematics-atlas/uv-cache",
+    "UV_PROJECT_ENVIRONMENT": null
+  },
+  "started_at_utc": "2026-09-08T08:01:30.743860+00:00",
+  "stderr": {
+    "bytes": 0,
+    "path": "attempt-prep-syntax.stderr.bin",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 16,
+    "path": "attempt-prep-syntax.stdout.bin",
+    "sha256": "528c2551705050fd08b4d8d5fbccf64b4f5514e7bc31b48d5cf24fe18d81d335"
+  },
+  "termination": null,
+  "timed_out": false,
+  "timeout_seconds": 300,
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-portable-work\\experiments\\kemeny-pair-minimum"
+}

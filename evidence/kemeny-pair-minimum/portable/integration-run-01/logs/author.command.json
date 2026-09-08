@@ -1,0 +1,128 @@
+{
+  "auditor_attempt": {
+    "argv": [
+      "C:\\Users\\Legedith\\.local\\bin\\uv.EXE",
+      "run",
+      "--project",
+      "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-portable-work\\experiments\\kemeny-pair-minimum\\author",
+      "--frozen",
+      "python",
+      "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-portable-work\\experiments\\kemeny-pair-minimum\\author\\portable_entry.py",
+      "--input-dir",
+      "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-portable-work\\experiments\\kemeny-pair-minimum\\data",
+      "--output-dir",
+      "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-portable-work\\integration-run-01\\author",
+      "--contract-path",
+      "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-portable-work\\experiments\\kemeny-pair-minimum\\docs\\contract-v1.md"
+    ],
+    "attempt_id": "portable-author",
+    "ended_at_utc": "2026-09-08T08:03:00.943904+00:00",
+    "returncode": 0,
+    "schema_version": "logged-command-attempt-v1",
+    "selected_environment": {
+      "PYTHONDONTWRITEBYTECODE": null,
+      "UV_CACHE_DIR": "D:/CodexWorkspaces/mathematics-atlas/uv-cache",
+      "UV_PROJECT_ENVIRONMENT": null
+    },
+    "started_at_utc": "2026-09-08T08:02:50.208078+00:00",
+    "stderr": {
+      "bytes": 0,
+      "path": "attempt-portable-author.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout": {
+      "bytes": 267,
+      "path": "attempt-portable-author.stdout.bin",
+      "sha256": "ddae227ff51a2f047a7256a2619397b946062234115d00ed9075fdf0a6698200"
+    },
+    "termination": null,
+    "timed_out": false,
+    "timeout_seconds": 1800,
+    "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-portable-work\\experiments\\kemeny-pair-minimum"
+  },
+  "auditor_attempt_record": {
+    "bytes": 1668,
+    "path": "logs/attempt-portable-author.json",
+    "sha256": "cb75c47e9819333814d0e6835d12982caa779ce9b73cbec2c59dda82a9d8e28d"
+  },
+  "census_argv": [
+    "C:\\Users\\Legedith\\.local\\bin\\uv.EXE",
+    "run",
+    "--project",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-portable-work\\experiments\\kemeny-pair-minimum\\author",
+    "--frozen",
+    "python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-portable-work\\experiments\\kemeny-pair-minimum\\author\\portable_entry.py",
+    "--input-dir",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-portable-work\\experiments\\kemeny-pair-minimum\\data",
+    "--output-dir",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-portable-work\\integration-run-01\\author",
+    "--contract-path",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-portable-work\\experiments\\kemeny-pair-minimum\\docs\\contract-v1.md"
+  ],
+  "cwd": "D:/CodexWorkspaces/mathematics-atlas/kemeny-portable-work/experiments/kemeny-pair-minimum",
+  "duration_seconds": 10.844000000040978,
+  "ended_at_utc": "2026-09-08T08:03:00.955054+00:00",
+  "implementation": "author",
+  "logging_wrapper": {
+    "lineage": "byte-identical independent auditor B wrapper",
+    "path": "independent/run_logged.py",
+    "sha256": "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6"
+  },
+  "outer_cleanup": null,
+  "outer_wrapper_timeout_seconds": 1860,
+  "portable_argv_from_package_root": [
+    "uv",
+    "run",
+    "--project",
+    "author",
+    "--frozen",
+    "python",
+    "author/portable_entry.py",
+    "--input-dir",
+    "data",
+    "--output-dir",
+    "D:/CodexWorkspaces/mathematics-atlas/kemeny-portable-work/integration-run-01/author",
+    "--contract-path",
+    "docs/contract-v1.md"
+  ],
+  "return_code": 0,
+  "started_at_utc": "2026-09-08T08:02:50.111806+00:00",
+  "timed_out": false,
+  "timeout_seconds_for_census": 1800,
+  "wrapper_argv": [
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-portable-work\\experiments\\kemeny-pair-minimum\\independent\\.venv\\Scripts\\python.exe",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-portable-work\\experiments\\kemeny-pair-minimum\\independent\\run_logged.py",
+    "--attempt-id",
+    "portable-author",
+    "--timeout-seconds",
+    "1800",
+    "--log-dir",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-portable-work\\integration-run-01\\logs",
+    "--",
+    "C:\\Users\\Legedith\\.local\\bin\\uv.EXE",
+    "run",
+    "--project",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-portable-work\\experiments\\kemeny-pair-minimum\\author",
+    "--frozen",
+    "python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-portable-work\\experiments\\kemeny-pair-minimum\\author\\portable_entry.py",
+    "--input-dir",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-portable-work\\experiments\\kemeny-pair-minimum\\data",
+    "--output-dir",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-portable-work\\integration-run-01\\author",
+    "--contract-path",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-portable-work\\experiments\\kemeny-pair-minimum\\docs\\contract-v1.md"
+  ],
+  "wrapper_return_code": 0,
+  "wrapper_stderr": {
+    "bytes": 0,
+    "path": "logs/author.wrapper.stderr.bin",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "wrapper_stdout": {
+    "bytes": 1484,
+    "path": "logs/author.wrapper.stdout.bin",
+    "sha256": "23b005f7cd51a3886df2000404da5d4c0df2bafc3c7b2e8b68f5e2124592ed91"
+  }
+}

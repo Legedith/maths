@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "D:\CodexWorkspaces\mathematics-atlas\kemeny-postresult-review-work\seal_review.py", line 199, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "D:\CodexWorkspaces\mathematics-atlas\kemeny-postresult-review-work\seal_review.py", line 131, in main
+    "new_mathematical_census_run": false,
+                                   ^^^^^
+NameError: name 'false' is not defined. Did you mean: 'False'?

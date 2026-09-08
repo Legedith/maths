@@ -1,0 +1,1442 @@
+{
+  "schema_version": "kemeny-project-candidate-transfer-v1",
+  "status": "exact_copy_pending_final_publication_gate",
+  "source_bundle_artifact_count": 107,
+  "source_workspace": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-study-work",
+  "files": [
+    {
+      "path": "evidence/kemeny-pair-minimum/author/.python-version",
+      "bytes": 8,
+      "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d",
+      "source_relative_path": "author/.python-version"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/author/census.py",
+      "bytes": 36833,
+      "sha256": "6560176884fc4ce67b8da38465867f0a89491f087794258c7bd627225b5d6341",
+      "source_relative_path": "author/census.py"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/author/code-freeze-manifest.json",
+      "bytes": 1952,
+      "sha256": "b547315c11ff260e7b4fc1edd3cc6840a423dbc4dcfc6b4f3ec02a14c4b8ee60",
+      "source_relative_path": "author/code-freeze-manifest.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/author/freeze_inputs.ps1",
+      "bytes": 4301,
+      "sha256": "8802a50508d804db450dd8a22fcfc4b37d0419037b1fb503f87bea376170d495",
+      "source_relative_path": "author/freeze_inputs.ps1"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/author/input-freeze.json",
+      "bytes": 5422,
+      "sha256": "b5b8c286047194b1ddcea1e2b4ff6a79d58d939bcc2124951fe36bb90d012b15",
+      "source_relative_path": "author/input-freeze.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/author/logs/attempts.jsonl",
+      "bytes": 4514,
+      "sha256": "50ad63f8a28d0b1d4f45834ee62d0ba280c266fc18c036cabd2c4dddeec9a3b5",
+      "source_relative_path": "author/logs/attempts.jsonl"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/author/logs/canonical-01/command.json",
+      "bytes": 1054,
+      "sha256": "aded62b97299ea2f085ce3b869213775632b0aba0dfb6f2eaea2233532b87b37",
+      "source_relative_path": "author/logs/canonical-01/command.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/author/logs/canonical-01/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_relative_path": "author/logs/canonical-01/stderr.txt"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/author/logs/canonical-01/stdout.txt",
+      "bytes": 245,
+      "sha256": "36f3ce782f6e7b4c89dcfb0599e030ed33f5e2ef930d1579e36aabc00e3405d0",
+      "source_relative_path": "author/logs/canonical-01/stdout.txt"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/author/logs/preparation-01/01-uv-version.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_relative_path": "author/logs/preparation-01/01-uv-version.stderr.txt"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/author/logs/preparation-01/01-uv-version.stdout.txt",
+      "bytes": 33,
+      "sha256": "b8efdf882e013e974b58ac07babfdc9ee1540650ef8f847379269bb4546ab7a6",
+      "source_relative_path": "author/logs/preparation-01/01-uv-version.stdout.txt"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/author/logs/preparation-01/02-uv-lock.stderr.txt",
+      "bytes": 51,
+      "sha256": "2b3c59686f3fbd4c8e3565f5ef7a09a6180193cd3543002a794127ea9ce9d71c",
+      "source_relative_path": "author/logs/preparation-01/02-uv-lock.stderr.txt"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/author/logs/preparation-01/02-uv-lock.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_relative_path": "author/logs/preparation-01/02-uv-lock.stdout.txt"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/author/logs/preparation-01/03-uv-sync.stderr.txt",
+      "bytes": 125,
+      "sha256": "d468c2eceb2b7d05bc2516803c9885cc405aad6e2dc4a2fb2906986f83a32f60",
+      "source_relative_path": "author/logs/preparation-01/03-uv-sync.stderr.txt"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/author/logs/preparation-01/03-uv-sync.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_relative_path": "author/logs/preparation-01/03-uv-sync.stdout.txt"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/author/logs/preparation-01/04-python-version.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_relative_path": "author/logs/preparation-01/04-python-version.stderr.txt"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/author/logs/preparation-01/04-python-version.stdout.txt",
+      "bytes": 16,
+      "sha256": "9d18cd5d2d739ea285b1423577b15c33e4dadbe56200a1283ff6b4c616a395f8",
+      "source_relative_path": "author/logs/preparation-01/04-python-version.stdout.txt"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/author/logs/preparation-01/05-sympy-version.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_relative_path": "author/logs/preparation-01/05-sympy-version.stderr.txt"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/author/logs/preparation-01/05-sympy-version.stdout.txt",
+      "bytes": 8,
+      "sha256": "55b67c988a1290318c2f11bfb4f3eebca966a46c2628e9dee46114650a447887",
+      "source_relative_path": "author/logs/preparation-01/05-sympy-version.stdout.txt"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/author/logs/preparation-01/06-syntax-check.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_relative_path": "author/logs/preparation-01/06-syntax-check.stderr.txt"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/author/logs/preparation-01/06-syntax-check.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_relative_path": "author/logs/preparation-01/06-syntax-check.stdout.txt"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/author/postrun-validation.json",
+      "bytes": 858,
+      "sha256": "707dce1c2da756f8d983fc29aadaa580c976437d5428c91428e1f166e7d472ad",
+      "source_relative_path": "author/postrun-validation.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/author/prepare.ps1",
+      "bytes": 3964,
+      "sha256": "540dfc8d580be1df11bb7fa8a2030d7c16d29a04f39aa19fc35216344a719114",
+      "source_relative_path": "author/prepare.ps1"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/author/pyproject.toml",
+      "bytes": 236,
+      "sha256": "728e600f9f2ddef2008f879ffb077957bc874c8d9ea7a66fcbe3c2230f4ca651",
+      "source_relative_path": "author/pyproject.toml"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/author/result-manifest.json",
+      "bytes": 5978,
+      "sha256": "78b4121cc83d7e06bed7470f70c1cbb365ba1d24543595f7620b9e15e0524a9d",
+      "source_relative_path": "author/result-manifest.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/author/run-01/graph-values.json",
+      "bytes": 2690990,
+      "sha256": "8b4c070abde7153bfea2edf628e8d8188363dc65587a1fb750939c0ec6003327",
+      "source_relative_path": "author/run-01/graph-values.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/author/run-01/pairs.jsonl",
+      "bytes": 3417436,
+      "sha256": "1973ee7b63cd94d0e1e3171e88cce714c1d6853f766397967dfc0ed49a84f62c",
+      "source_relative_path": "author/run-01/pairs.jsonl"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/author/run-01/published-p7.json",
+      "bytes": 1679,
+      "sha256": "d87979be4b43b44a89f3eb6c475976b3d25bf18975dc87128c50d6134d1096cf",
+      "source_relative_path": "author/run-01/published-p7.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/author/run-01/summary.json",
+      "bytes": 181512,
+      "sha256": "14367bd2c8c9539206754f65b2da7b17baa5430cde97c33a070ddfc35ffc37f4",
+      "source_relative_path": "author/run-01/summary.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/author/run-01/witnesses.json",
+      "bytes": 1573,
+      "sha256": "11667e046a4fff70fff23b5e7f501a7941def67c8067edd9034f56555a40b13f",
+      "source_relative_path": "author/run-01/witnesses.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/author/run_logged.ps1",
+      "bytes": 4049,
+      "sha256": "83710fdd812cbdb01293a0085528c42ed61cc63f75abadb4fb61f4c35c95644c",
+      "source_relative_path": "author/run_logged.ps1"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/author/uv.lock",
+      "bytes": 1691,
+      "sha256": "afdad7f8e3c5b68a9effb77dc6c05ff1767fa6206aa14cecc21cc90b0acda073",
+      "source_relative_path": "author/uv.lock"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/data/graph2c.g6",
+      "bytes": 3,
+      "sha256": "fae4bfc454bd04363dcd5222772f2973b1193e1ff6f676e822a427323a677ef9",
+      "source_relative_path": "data/graph2c.g6"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/data/graph3c.g6",
+      "bytes": 6,
+      "sha256": "5966edf890849db6cb03626431916231a81a30c9db9a4781a4a8f2e5dc7e6129",
+      "source_relative_path": "data/graph3c.g6"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/data/graph4c.g6",
+      "bytes": 18,
+      "sha256": "d7da485669f2dc74b81c02f18774a07430937684896833d59f138b10debb5005",
+      "source_relative_path": "data/graph4c.g6"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/data/graph5c.g6",
+      "bytes": 84,
+      "sha256": "3c436a6a15f554e3eff3ce9178fddd3d75db6d365b3c6b102b64afe82145050b",
+      "source_relative_path": "data/graph5c.g6"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/data/graph6c.g6",
+      "bytes": 560,
+      "sha256": "2dc8cbb1c05a12b5dcb28b6227cee86d585f203347f6aebb8fcbdb2b9bdf5fd7",
+      "source_relative_path": "data/graph6c.g6"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/data/source-manifest.json",
+      "bytes": 2505,
+      "sha256": "e4a02bdeb62d8e6b0e68849b4aa3d65d9a37744578bebd48abe740fe94c52c7f",
+      "source_relative_path": "data/source-manifest.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/docs/contract-v1.md",
+      "bytes": 10309,
+      "sha256": "1ff78636c4dcadc7d8f9d6a3a36c144e193e5f90cbb970ab846c877cdf0c6ac6",
+      "source_relative_path": "docs/contract-v1.md"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/atlas-before.json",
+      "bytes": 60125,
+      "sha256": "401e00c67d1b54d5986e750dc9ef9fe5dec76b269d2219267b385d6f0054f2d9",
+      "source_relative_path": "evidence/atlas-before.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/atlas-extension-draft.json",
+      "bytes": 4203,
+      "sha256": "fd172aedb7ef3ac15c06b4ce8076e050b1e5c0630dbf830951058adcca93dbb6",
+      "source_relative_path": "evidence/atlas-extension-draft.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/atlas-extension-transfer.json",
+      "bytes": 871,
+      "sha256": "10f0b63ffe6e8d28743b6cb826ced0b48a1aeaef97a0b4e1babab9ddbda1da4d",
+      "source_relative_path": "evidence/atlas-extension-transfer.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/atlas-extension-v1.json",
+      "bytes": 4550,
+      "sha256": "edbfe87e80a0435e209d32013ac9362eb95067604f56c603eb064a08f95a070c",
+      "source_relative_path": "evidence/atlas-extension-v1.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/author-transfer.json",
+      "bytes": 5668,
+      "sha256": "4b5d9f2f098c2db38dc19d6805b75b62ad7d6ff0afbb50578ee531de88cbe58c",
+      "source_relative_path": "evidence/author-transfer.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/corpus/search-and-paths.json",
+      "bytes": 428,
+      "sha256": "f16fb8552e32e4a0de887552e672a9d2f6c44c3b36b0f5de9e65492160c20b35",
+      "source_relative_path": "evidence/corpus/search-and-paths.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/independent-explanation-transfer.json",
+      "bytes": 7095,
+      "sha256": "2171e9325d4e1dd893f5013509d2d39017ccb51f995fca4e1ffc778f14b7b686",
+      "source_relative_path": "evidence/independent-explanation-transfer.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/input-retrieval/retrieve.py",
+      "bytes": 1411,
+      "sha256": "d95aaff1d7f892c55e7d36ef50a6b39cedd5df297615b68cbf097cc9500d4586",
+      "source_relative_path": "evidence/input-retrieval/retrieve.py"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/integration-validation/navigation.command.json",
+      "bytes": 340,
+      "sha256": "323cfd0826d1d8cc2d82ccef45f4dcb77c7cc71b83585de907d212274c0e0702",
+      "source_relative_path": "evidence/integration-validation/navigation.command.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/integration-validation/navigation.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_relative_path": "evidence/integration-validation/navigation.stderr.log"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/integration-validation/navigation.stdout.log",
+      "bytes": 428,
+      "sha256": "f16fb8552e32e4a0de887552e672a9d2f6c44c3b36b0f5de9e65492160c20b35",
+      "source_relative_path": "evidence/integration-validation/navigation.stdout.log"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/integration-validation/structure-result.json",
+      "bytes": 295,
+      "sha256": "487fd63ef0ab353dd2215e9944ccc07d0c5db6928340bc627b596a81173b13f3",
+      "source_relative_path": "evidence/integration-validation/structure-result.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/integration-validation/structure.command.json",
+      "bytes": 584,
+      "sha256": "a0a4bb61d770d07d107a74ce1c440ae7604906ad3d5729c410782ff21d8d9260",
+      "source_relative_path": "evidence/integration-validation/structure.command.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/integration-validation/structure.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_relative_path": "evidence/integration-validation/structure.stderr.log"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/integration-validation/structure.stdout.log",
+      "bytes": 295,
+      "sha256": "487fd63ef0ab353dd2215e9944ccc07d0c5db6928340bc627b596a81173b13f3",
+      "source_relative_path": "evidence/integration-validation/structure.stdout.log"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/integration-validation/webmcp-observation.json",
+      "bytes": 3779,
+      "sha256": "b22a93c395dc4e2088a28b7b32b183d786689947306d35d1eef886a797cc0b44",
+      "source_relative_path": "evidence/integration-validation/webmcp-observation.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/portable-transfer.json",
+      "bytes": 39006,
+      "sha256": "a9f24df57d0ae0fa764db60c32925e2d8f00f18824b280e64cb0f393ffa60131",
+      "source_relative_path": "evidence/portable-transfer.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/pre-execution-transfer.json",
+      "bytes": 3784,
+      "sha256": "ed6912c255dc3a25edd9e23fe615e6f4c234e9f744c8b37fdd343ae1aa249c7e",
+      "source_relative_path": "evidence/pre-execution-transfer.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/initial-four-source-seal.json",
+      "bytes": 1202,
+      "sha256": "3ef26d1c35e1c60abc62cb3efc48a1f1cea26907c6c2b05f306e6abe26df4541",
+      "source_relative_path": "evidence/prior-art/initial-four-source-seal.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/.python-version",
+      "bytes": 8,
+      "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d",
+      "source_relative_path": "evidence/prior-art/post-result/.python-version"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/extract_pdf_text.py",
+      "bytes": 1431,
+      "sha256": "296cf000ca112bee2858c9e5ecfbbc2ea06c1ff01b404da9cc6fa4f6c7de3f4d",
+      "source_relative_path": "evidence/prior-art/post-result/extract_pdf_text.py"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/logs/extract.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_relative_path": "evidence/prior-art/post-result/logs/extract.stderr.txt"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/logs/extract.stdout.json",
+      "bytes": 853,
+      "sha256": "780721d84c01977e690be58e20dd64b7aab4c6eae1ae90b56a38d33c0dcb938c",
+      "source_relative_path": "evidence/prior-art/post-result/logs/extract.stdout.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/logs/local-clique-1210.6965.fetch.json",
+      "bytes": 454,
+      "sha256": "6d3f50c7c4d7a773841c618adff5432fd9d8181c83760de8925fb6eeeb74fda8",
+      "source_relative_path": "evidence/prior-art/post-result/logs/local-clique-1210.6965.fetch.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/logs/local-clique-1210.6965.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_relative_path": "evidence/prior-art/post-result/logs/local-clique-1210.6965.stderr.txt"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/logs/pdftotext-check.json",
+      "bytes": 315,
+      "sha256": "aa7047e2b14516bf54f798318980a6f13281297829d4cdebf8b727662a8434b2",
+      "source_relative_path": "evidence/prior-art/post-result/logs/pdftotext-check.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/logs/pdftotext-check.stderr.txt",
+      "bytes": 414,
+      "sha256": "2d9fcd90af6aa70f7b6c9db29454ff24cfbd7a9a676b4519ea086cbe44a3dcea",
+      "source_relative_path": "evidence/prior-art/post-result/logs/pdftotext-check.stderr.txt"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/logs/pdftotext-check.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_relative_path": "evidence/prior-art/post-result/logs/pdftotext-check.stdout.txt"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/logs/seal-attempt01.stderr.txt",
+      "bytes": 470,
+      "sha256": "33492392819f23c2be3c6a28fdf00aed09dfb5192858ee8ee33895b20c759407",
+      "source_relative_path": "evidence/prior-art/post-result/logs/seal-attempt01.stderr.txt"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/logs/seal-attempt01.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_relative_path": "evidence/prior-art/post-result/logs/seal-attempt01.stdout.txt"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/logs/term-scan.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_relative_path": "evidence/prior-art/post-result/logs/term-scan.stderr.txt"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/logs/term-scan.stdout.txt",
+      "bytes": 99,
+      "sha256": "6641aad34ec0c857883c397a0214eb0c4926e03608ebacd2b30df115c0c93ac2",
+      "source_relative_path": "evidence/prior-art/post-result/logs/term-scan.stdout.txt"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/logs/uv-lock.txt",
+      "bytes": 52,
+      "sha256": "31c80175bf716369c917b0d412268519f52b32407427bc0cf7550436e5841481",
+      "source_relative_path": "evidence/prior-art/post-result/logs/uv-lock.txt"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/logs/uv-sync.txt",
+      "bytes": 138,
+      "sha256": "a44c04ee1ca6dc2b03c52e2438a9ada1cd2cd0911dc9ecdddf9c675cf224d705",
+      "source_relative_path": "evidence/prior-art/post-result/logs/uv-sync.txt"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/namespace-source-check.json",
+      "bytes": 2279,
+      "sha256": "757c8b776c545b9d0409a09de7f918f8c14fd8a15ff1a3c263fc1d0a549cedd0",
+      "source_relative_path": "evidence/prior-art/post-result/namespace-source-check.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/publication-manifest.json",
+      "bytes": 5375,
+      "sha256": "1c10b10c7a0b77d431d3fa5871b77cba69a700ecd35b733b9179fbadebdd582f",
+      "source_relative_path": "evidence/prior-art/post-result/publication-manifest.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/pyproject.toml",
+      "bytes": 124,
+      "sha256": "15ce4e660926cb7bf26c17f204a950176434594e01510c683295eb0e69fa932a",
+      "source_relative_path": "evidence/prior-art/post-result/pyproject.toml"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/retrieval.json",
+      "bytes": 2373,
+      "sha256": "d467719ea0ec24d37928f205650a05581b49ec3104ffd285451e1a7ad1201979",
+      "source_relative_path": "evidence/prior-art/post-result/retrieval.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/review-seal.json",
+      "bytes": 9130,
+      "sha256": "f382c2414ed213f9ccc9cb140a739d53a3a4e4965016a3f8865d35b5f2f2f880",
+      "source_relative_path": "evidence/prior-art/post-result/review-seal.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/scan_terms.py",
+      "bytes": 1872,
+      "sha256": "0ef5e6325763d7c3577ee5b24096ec9d8ce54995c21f03739a6bbe0a0073c5f2",
+      "source_relative_path": "evidence/prior-art/post-result/scan_terms.py"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/seal_review.py",
+      "bytes": 7831,
+      "sha256": "a5e12ff660b11bd0f18f6681a6698b5a82c2bc29df1fb9592a6a1dee15724af2",
+      "source_relative_path": "evidence/prior-art/post-result/seal_review.py"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/search-log.json",
+      "bytes": 3340,
+      "sha256": "d4729f46126963b4d7509eec9cc32b4cf5823720e87eb4b68da89bd46927585b",
+      "source_relative_path": "evidence/prior-art/post-result/search-log.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/source-notes.json",
+      "bytes": 13834,
+      "sha256": "c68fa80b81a003711dade344ad071167cb06ca18f383016882ac1875824b60b3",
+      "source_relative_path": "evidence/prior-art/post-result/source-notes.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/term-scan.json",
+      "bytes": 5660,
+      "sha256": "0039958b461c147dc40bfd478d16e12458b2b164a6334664650693a17dcdbcfc",
+      "source_relative_path": "evidence/prior-art/post-result/term-scan.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/uv.lock",
+      "bytes": 957,
+      "sha256": "3290a914510b003fa591458e35b76f094c7d0e12508af46b0b6f060038a1e94c",
+      "source_relative_path": "evidence/prior-art/post-result/uv.lock"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/verdict.md",
+      "bytes": 2404,
+      "sha256": "b11486dd7506ce9582eccc3a7c69a22519d4bbf3956689f8bf41cd89b1a9ca73",
+      "source_relative_path": "evidence/prior-art/post-result/verdict.md"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result-root-notes.json",
+      "bytes": 4172,
+      "sha256": "feb916bf533eaf41d7b9058380e7c4b1b5b1ee90e47a497bba3e894efdb9d858",
+      "source_relative_path": "evidence/prior-art/post-result-root-notes.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/source-notes.json",
+      "bytes": 8276,
+      "sha256": "eefafc33143c177442d35bfa123ddcb7a4232014b679f1211b73b98d19cf23f6",
+      "source_relative_path": "evidence/prior-art/source-notes.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/supplement-2306.04005.json",
+      "bytes": 3297,
+      "sha256": "5ed72f2385d33dbf082c0eff26fa8f9275865353151fecaaf45df51aed8a5827",
+      "source_relative_path": "evidence/prior-art/supplement-2306.04005.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/verdict.md",
+      "bytes": 1569,
+      "sha256": "977c80b81a4ef99b012306ee86c345846432cb2db3095dce700053ed61679a59",
+      "source_relative_path": "evidence/prior-art/verdict.md"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/proposal/proposal.md",
+      "bytes": 6556,
+      "sha256": "ffc32445ce13f69c058039a1183becd6a91ce30eb9230209ce90efd1b67123b1",
+      "source_relative_path": "evidence/proposal/proposal.md"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/proposal/source-notes.json",
+      "bytes": 6651,
+      "sha256": "ee4695ff47051b563731b4a957313df78cea1151e8704861ed936c8d384d892f",
+      "source_relative_path": "evidence/proposal/source-notes.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/proposed-claims.json",
+      "bytes": 7143,
+      "sha256": "aca8ab330d972ac32f62cbe5a28978df6d2c8e9d2ad3e9a5acde3c08dd66a762",
+      "source_relative_path": "evidence/proposed-claims.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/site-build/attempt-site-build-01.json",
+      "bytes": 941,
+      "sha256": "94be3c3333a03d8fb62e9fe421571846b765736d03ebb6c7e5c490c01fe91489",
+      "source_relative_path": "evidence/site-build/attempt-site-build-01.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/site-build/attempt-site-build-01.stderr.bin",
+      "bytes": 153,
+      "sha256": "729d8972b51de5e2457a45b53681f0065959be096264bf3ccc0a93db9432920d",
+      "source_relative_path": "evidence/site-build/attempt-site-build-01.stderr.bin"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/site-build/attempt-site-build-01.stdout.bin",
+      "bytes": 1356,
+      "sha256": "345cb8fe5f3a01a105afa49f36244edc09908e8a7a4241e8cda8be4ddc07f7b9",
+      "source_relative_path": "evidence/site-build/attempt-site-build-01.stdout.bin"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/site-build/attempts.jsonl",
+      "bytes": 802,
+      "sha256": "5b8342c2d29d6af6217f0bfe065e97d3826c9c1d98546b79c6ba46b4d0c50287",
+      "source_relative_path": "evidence/site-build/attempts.jsonl"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/source-review/atlas-extension-semantic-review.json",
+      "bytes": 7289,
+      "sha256": "f78d09edc5fabdcf515c2301a46361c2735ef135f1aa2123d4daf39c9c14e468",
+      "source_relative_path": "evidence/source-review/atlas-extension-semantic-review.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/source-review/atlas-integration-review.json",
+      "bytes": 8156,
+      "sha256": "3c8065f6f40741ff8aa7464572036ea70e98396829ba407795f48a5b84ab9af3",
+      "source_relative_path": "evidence/source-review/atlas-integration-review.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/source-review/source-method-assessment.json",
+      "bytes": 19858,
+      "sha256": "12d46fa4127e98aea459fae586fa57e16377b4426b3966ffd6bb287caa38bc96",
+      "source_relative_path": "evidence/source-review/source-method-assessment.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/spec/contract-freeze.json",
+      "bytes": 326,
+      "sha256": "55fd516c94127c2fe1c31526366ef4449262b0d4057f1fe3eb31d770b514bbcc",
+      "source_relative_path": "evidence/spec/contract-freeze.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/evidence/strict-singleton-corollary-proposal.json",
+      "bytes": 2129,
+      "sha256": "0467c9b37bce74911f4e9673027ee031a74ff6a86400984350014e9e3c5be1e3",
+      "source_relative_path": "evidence/strict-singleton-corollary-proposal.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/explanation/.python-version",
+      "bytes": 8,
+      "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d",
+      "source_relative_path": "explanation/.python-version"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/explanation/build_explanation.py",
+      "bytes": 19335,
+      "sha256": "3f1646c4a8a13065f27dcc4f9a8f6578290f0d9389ce375ef8d48556b9b8cdfa",
+      "source_relative_path": "explanation/build_explanation.py"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/explanation/logs/canonical-01/command.json",
+      "bytes": 863,
+      "sha256": "7633e4a5e4e316bb21f8f9472125f999f78b645edc8de55a7881ced63bc9e791",
+      "source_relative_path": "explanation/logs/canonical-01/command.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/explanation/logs/canonical-01/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_relative_path": "explanation/logs/canonical-01/stderr.txt"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/explanation/logs/canonical-01/stdout.txt",
+      "bytes": 178,
+      "sha256": "bb06a538526ac29c044175bad20fd6be54f9a445e167b05d3946cfd0315e3043",
+      "source_relative_path": "explanation/logs/canonical-01/stdout.txt"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/explanation/pyproject.toml",
+      "bytes": 218,
+      "sha256": "0231a60cd4293713ee57c81c00e607007abce03c551f59df535e38dbb8149a18",
+      "source_relative_path": "explanation/pyproject.toml"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/explanation/result-manifest.json",
+      "bytes": 2318,
+      "sha256": "a63d110932bbe064d16d13370a222d495c8f10d2a92101354ff078ecb0a9f915",
+      "source_relative_path": "explanation/result-manifest.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/explanation/run_logged.py",
+      "bytes": 2072,
+      "sha256": "26a37b00a6e0af11f9f7bfd3217999e8c0ea44d3d7e654d1a9e63285855962e1",
+      "source_relative_path": "explanation/run_logged.py"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/explanation/seal.py",
+      "bytes": 2794,
+      "sha256": "56308344d3ec104ba3cca0fe0e6238a48feb52f3a8f6c139071db0daa649cc10",
+      "source_relative_path": "explanation/seal.py"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/explanation/uv.lock",
+      "bytes": 149,
+      "sha256": "44cad3e0749285a8583ca92afa71307284667dce60a5c0bc5b370330ff0645c2",
+      "source_relative_path": "explanation/uv.lock"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/explanation/witness-explanation.json",
+      "bytes": 7422,
+      "sha256": "944aedd72b479ea875fef53780da3d80d18007521eb8e774b5bfabef48baf396",
+      "source_relative_path": "explanation/witness-explanation.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/independent/.python-version",
+      "bytes": 8,
+      "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d",
+      "source_relative_path": "independent/.python-version"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/independent/author-manifest-verification.json",
+      "bytes": 10704,
+      "sha256": "2c9094a69a7f4a0b9d31fee65969831a2b9e41a141fc5aecb450ff044eb978c0",
+      "source_relative_path": "independent/author-manifest-verification.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/independent/canonical-command.json",
+      "bytes": 1273,
+      "sha256": "0df23e8053fe44f14810ff6901a55fb0b50737492d3bf1c5bf7c31aa384f005d",
+      "source_relative_path": "independent/canonical-command.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/independent/compare_outputs.py",
+      "bytes": 58203,
+      "sha256": "76f03190d2286fb95cd01740703fe9ab05104b632b3dee81138e8d1857e734f7",
+      "source_relative_path": "independent/compare_outputs.py"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/independent/comparison-01/comparison.json",
+      "bytes": 27181,
+      "sha256": "4e72ec56615441992dd5685ad72c4968820d26bfd7e3c909324ace42de3af24b",
+      "source_relative_path": "independent/comparison-01/comparison.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/independent/comparison-input-freeze.json",
+      "bytes": 7114,
+      "sha256": "ea07c6b324ea2d8d0b8bdde77811611fd543d0c630c7b31f58a62290f825188c",
+      "source_relative_path": "independent/comparison-input-freeze.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/independent/comparison-logs/attempt-comparison-01.json",
+      "bytes": 1398,
+      "sha256": "013e64282cfdd8f571c9ba6345c33e2b513dbe4c928e73793510ed63a76f7781",
+      "source_relative_path": "independent/comparison-logs/attempt-comparison-01.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/independent/comparison-logs/attempt-comparison-01.stderr.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_relative_path": "independent/comparison-logs/attempt-comparison-01.stderr.bin"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/independent/comparison-logs/attempt-comparison-01.stdout.bin",
+      "bytes": 350,
+      "sha256": "b890782e6043d015413c81052cb92fb6b8ab42a74a374af02318bb1e84d25994",
+      "source_relative_path": "independent/comparison-logs/attempt-comparison-01.stdout.bin"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/independent/comparison-logs/attempts.jsonl",
+      "bytes": 1214,
+      "sha256": "aa6fef78ff9d2ec319365e9f0ae083f415235de3e7d892688aece1d936e70bee",
+      "source_relative_path": "independent/comparison-logs/attempts.jsonl"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/independent/comparison-seal.json",
+      "bytes": 2642,
+      "sha256": "c7e0cd6892639dd5403c4275b3904afcf2536fedd32f059e4a7c77cc11829204",
+      "source_relative_path": "independent/comparison-seal.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/independent/environment.json",
+      "bytes": 967,
+      "sha256": "778b1596cfdd837ff1e222215ad65ad35ff6bca6f375571588d7d8ea40103734",
+      "source_relative_path": "independent/environment.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/independent/independent-output-seal.json",
+      "bytes": 2256,
+      "sha256": "7ccdcbbd54a21fec1bfdfc668c05c9cc06564a985e82e68e9c4958a110994b2d",
+      "source_relative_path": "independent/independent-output-seal.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/independent/input-freeze-manifest.json",
+      "bytes": 7395,
+      "sha256": "e76e474f723cfdc6af6014cf35371601a2525a6ee78e148bb72ef99b9249019d",
+      "source_relative_path": "independent/input-freeze-manifest.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/independent/input-freeze-seal.json",
+      "bytes": 332,
+      "sha256": "d0ce60abc7d207bba46f86e4da7551d3c7b1b8f4d9f4eaf07bdeb68720932389",
+      "source_relative_path": "independent/input-freeze-seal.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/independent/logs/attempt-run-01.json",
+      "bytes": 1154,
+      "sha256": "3dad8107c96c7e67054d7672617e8473ba630906a291ce7c31765aae5e86eaa2",
+      "source_relative_path": "independent/logs/attempt-run-01.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/independent/logs/attempt-run-01.stderr.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_relative_path": "independent/logs/attempt-run-01.stderr.bin"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/independent/logs/attempt-run-01.stdout.bin",
+      "bytes": 323,
+      "sha256": "4512335c11f74c577f6ea1a0d67e66ba8e766d42bf6407568a8766e376eaac82",
+      "source_relative_path": "independent/logs/attempt-run-01.stdout.bin"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/independent/logs/attempts.jsonl",
+      "bytes": 980,
+      "sha256": "8e62c1fb1bc97392d4001ce71520db2eb1a941bef771c437dd0f15eb4b1b61eb",
+      "source_relative_path": "independent/logs/attempts.jsonl"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/independent/method-proof.md",
+      "bytes": 1230,
+      "sha256": "27afc0864cbee8c7b53fac800a7f26a5a2deed4575d7cc389699d94e51c1b5d0",
+      "source_relative_path": "independent/method-proof.md"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/independent/pyproject.toml",
+      "bytes": 223,
+      "sha256": "fce7a8b02373c175639015a4aa39059cedf9614e2ab139f4de82d02efe9f59d6",
+      "source_relative_path": "independent/pyproject.toml"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/independent/run-01/completeness.json",
+      "bytes": 155476,
+      "sha256": "4d0bd778eef0b9781f3d6931257f2d59ce1eaa2c50eee2d7c1c011d6dbc5dea7",
+      "source_relative_path": "independent/run-01/completeness.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/independent/run-01/graph-values.json",
+      "bytes": 3212732,
+      "sha256": "bf6c9fad7bb6f1473dbb55d4eb608d28481fc6548badca173907316cc3925f2b",
+      "source_relative_path": "independent/run-01/graph-values.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/independent/run-01/pairs.jsonl",
+      "bytes": 2759071,
+      "sha256": "a3aa0acbc0f8ca592525344388d045afd926702dd4e9cbdd886c04b0b4ef2c64",
+      "source_relative_path": "independent/run-01/pairs.jsonl"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/independent/run-01/published-p7.json",
+      "bytes": 4264,
+      "sha256": "51354922fa541d010e0e12f8a8af2933b4c3f655b850a2eb465219b33e8b41bb",
+      "source_relative_path": "independent/run-01/published-p7.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/independent/run-01/summary.json",
+      "bytes": 11115,
+      "sha256": "a1f5c91e0c085d5e026dea901013c544c201fcfb24e05460952ddfad3f5370f4",
+      "source_relative_path": "independent/run-01/summary.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/independent/run-01/witnesses.json",
+      "bytes": 4258,
+      "sha256": "3e21183af71a6fa69e14a8f73084e1f20626a612c1c71f8341dfa88921939d8c",
+      "source_relative_path": "independent/run-01/witnesses.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/independent/run_logged.py",
+      "bytes": 4600,
+      "sha256": "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6",
+      "source_relative_path": "independent/run_logged.py"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/independent/uv.lock",
+      "bytes": 150,
+      "sha256": "8989367db45d2529caae2472a11b4239266064167074f58adcb97b88867040ad",
+      "source_relative_path": "independent/uv.lock"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/independent/verify_census.py",
+      "bytes": 36772,
+      "sha256": "3399bcfaef7aa81687ae6f5fd65d67f9adfa5618e8faeb38a8e556f789eb0399",
+      "source_relative_path": "independent/verify_census.py"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/integration/attempt-integration-01.json",
+      "bytes": 1113,
+      "sha256": "06a7c6228283d5351801ca2fdc68c2acd62c6cd8b8ee3370534b3e44b2c221c2",
+      "source_relative_path": "portable/evidence/integration/attempt-integration-01.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/integration/attempt-integration-01.stderr.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_relative_path": "portable/evidence/integration/attempt-integration-01.stderr.bin"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/integration/attempt-integration-01.stdout.bin",
+      "bytes": 369,
+      "sha256": "45c74510888adaf09c3a1ef4197d69feabd0e8c46a8a64d9b57420d311456d61",
+      "source_relative_path": "portable/evidence/integration/attempt-integration-01.stdout.bin"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/integration/attempts.jsonl",
+      "bytes": 949,
+      "sha256": "fc3d4565af7363cb44194f0d27fc394d2bc261276724bc9ca16f05640bc228ee",
+      "source_relative_path": "portable/evidence/integration/attempts.jsonl"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/preparation/attempt-prep-author-sync.json",
+      "bytes": 1004,
+      "sha256": "2a1ecc6bf1b3f82e6063c03ba30fc6aa66a1f932ee9e1c16f5eea7eeaa3f6baa",
+      "source_relative_path": "portable/evidence/preparation/attempt-prep-author-sync.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/preparation/attempt-prep-author-sync.stderr.bin",
+      "bytes": 132,
+      "sha256": "3ee0bf4cf33ef5545e86ba3b22add748344812cc139b9606e8359590ca28aae5",
+      "source_relative_path": "portable/evidence/preparation/attempt-prep-author-sync.stderr.bin"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/preparation/attempt-prep-author-sync.stdout.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_relative_path": "portable/evidence/preparation/attempt-prep-author-sync.stdout.bin"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/preparation/attempt-prep-freeze.json",
+      "bytes": 998,
+      "sha256": "d51219e22fe18c42aaf063e17d758108715033a3157e5a6f2f15c834e8457c53",
+      "source_relative_path": "portable/evidence/preparation/attempt-prep-freeze.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/preparation/attempt-prep-freeze.stderr.bin",
+      "bytes": 59,
+      "sha256": "dd7241fb9634d51d4b90a8782d9a26dd3fe2ada28ad873374b2d9b28b76827ef",
+      "source_relative_path": "portable/evidence/preparation/attempt-prep-freeze.stderr.bin"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/preparation/attempt-prep-freeze.stdout.bin",
+      "bytes": 239,
+      "sha256": "b6c031e112684275d6eb76408d242b93373bcdf999b94a4d949af79c45ed1e34",
+      "source_relative_path": "portable/evidence/preparation/attempt-prep-freeze.stdout.bin"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/preparation/attempt-prep-independent-sync.json",
+      "bytes": 1023,
+      "sha256": "ade9363103e9a04934c8fa16c2b230d53afa6e1308a6f15c9c3bc3c1b08f3c8a",
+      "source_relative_path": "portable/evidence/preparation/attempt-prep-independent-sync.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/preparation/attempt-prep-independent-sync.stderr.bin",
+      "bytes": 91,
+      "sha256": "d190b8595fc565ba65c2e404e997a3d7fc1546f9d351bf0f141bd2ad560e9a12",
+      "source_relative_path": "portable/evidence/preparation/attempt-prep-independent-sync.stderr.bin"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/preparation/attempt-prep-independent-sync.stdout.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_relative_path": "portable/evidence/preparation/attempt-prep-independent-sync.stdout.bin"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/preparation/attempt-prep-syntax.json",
+      "bytes": 1280,
+      "sha256": "ee0837a7ad1ed3f1dd705597cb960a1b9d7cd3a025e77cc09617d4aa1bd7e9ad",
+      "source_relative_path": "portable/evidence/preparation/attempt-prep-syntax.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/preparation/attempt-prep-syntax.stderr.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_relative_path": "portable/evidence/preparation/attempt-prep-syntax.stderr.bin"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/preparation/attempt-prep-syntax.stdout.bin",
+      "bytes": 16,
+      "sha256": "528c2551705050fd08b4d8d5fbccf64b4f5514e7bc31b48d5cf24fe18d81d335",
+      "source_relative_path": "portable/evidence/preparation/attempt-prep-syntax.stdout.bin"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/preparation/attempts.jsonl",
+      "bytes": 3704,
+      "sha256": "54ce4798cfbc9160f0b5f0ba6a1388f314580dc858ecabb13f6384ed858f1b00",
+      "source_relative_path": "portable/evidence/preparation/attempts.jsonl"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/rejection/attempt-existing-dir-01.json",
+      "bytes": 1117,
+      "sha256": "d2dff4e50f1755eabc68a2c2c3cbd4d2475378b6b5b3116e785757921b6655e5",
+      "source_relative_path": "portable/evidence/rejection/attempt-existing-dir-01.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/rejection/attempt-existing-dir-01.stderr.bin",
+      "bytes": 214,
+      "sha256": "f97afaad642de4f5d96a287124da8f7e146c6e3ceebc44c831e25844b3b4a912",
+      "source_relative_path": "portable/evidence/rejection/attempt-existing-dir-01.stderr.bin"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/rejection/attempt-existing-dir-01.stdout.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_relative_path": "portable/evidence/rejection/attempt-existing-dir-01.stdout.bin"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/rejection/attempts.jsonl",
+      "bytes": 953,
+      "sha256": "f903878ae40bc3a1ca0d90f3713e5d606c841b85c93c5011eb244e77944c6d87",
+      "source_relative_path": "portable/evidence/rejection/attempts.jsonl"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/existing-output-probe/sentinel.txt",
+      "bytes": 21,
+      "sha256": "07a61bf1bdba1f8061b97415c9410e3f722a545e9dd3b7a1c56a4332529049ee",
+      "source_relative_path": "portable/existing-output-probe/sentinel.txt"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/.gitignore",
+      "bytes": 49,
+      "sha256": "325af892224415487af15dd748b3f099bbe386ef119b990ad6ae351cfe5a8e04",
+      "source_relative_path": "portable/experiments/kemeny-pair-minimum/.gitignore"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/author/.python-version",
+      "bytes": 8,
+      "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d",
+      "source_relative_path": "portable/experiments/kemeny-pair-minimum/author/.python-version"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/author/census.py",
+      "bytes": 36833,
+      "sha256": "6560176884fc4ce67b8da38465867f0a89491f087794258c7bd627225b5d6341",
+      "source_relative_path": "portable/experiments/kemeny-pair-minimum/author/census.py"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/author/portable_entry.py",
+      "bytes": 2088,
+      "sha256": "b3b587ec83bd67fd0080736a5094dc8fa0309e3f41377bde5b59d1b40cf4fb68",
+      "source_relative_path": "portable/experiments/kemeny-pair-minimum/author/portable_entry.py"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/author/pyproject.toml",
+      "bytes": 236,
+      "sha256": "728e600f9f2ddef2008f879ffb077957bc874c8d9ea7a66fcbe3c2230f4ca651",
+      "source_relative_path": "portable/experiments/kemeny-pair-minimum/author/pyproject.toml"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/author/uv.lock",
+      "bytes": 1691,
+      "sha256": "afdad7f8e3c5b68a9effb77dc6c05ff1767fa6206aa14cecc21cc90b0acda073",
+      "source_relative_path": "portable/experiments/kemeny-pair-minimum/author/uv.lock"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/baseline/author/graph-values.json",
+      "bytes": 2690990,
+      "sha256": "8b4c070abde7153bfea2edf628e8d8188363dc65587a1fb750939c0ec6003327",
+      "source_relative_path": "portable/experiments/kemeny-pair-minimum/baseline/author/graph-values.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/baseline/author/pairs.jsonl",
+      "bytes": 3417436,
+      "sha256": "1973ee7b63cd94d0e1e3171e88cce714c1d6853f766397967dfc0ed49a84f62c",
+      "source_relative_path": "portable/experiments/kemeny-pair-minimum/baseline/author/pairs.jsonl"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/baseline/author/published-p7.json",
+      "bytes": 1679,
+      "sha256": "d87979be4b43b44a89f3eb6c475976b3d25bf18975dc87128c50d6134d1096cf",
+      "source_relative_path": "portable/experiments/kemeny-pair-minimum/baseline/author/published-p7.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/baseline/author/summary.json",
+      "bytes": 181512,
+      "sha256": "14367bd2c8c9539206754f65b2da7b17baa5430cde97c33a070ddfc35ffc37f4",
+      "source_relative_path": "portable/experiments/kemeny-pair-minimum/baseline/author/summary.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/baseline/author/witnesses.json",
+      "bytes": 1573,
+      "sha256": "11667e046a4fff70fff23b5e7f501a7941def67c8067edd9034f56555a40b13f",
+      "source_relative_path": "portable/experiments/kemeny-pair-minimum/baseline/author/witnesses.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/baseline/independent/completeness.json",
+      "bytes": 155476,
+      "sha256": "4d0bd778eef0b9781f3d6931257f2d59ce1eaa2c50eee2d7c1c011d6dbc5dea7",
+      "source_relative_path": "portable/experiments/kemeny-pair-minimum/baseline/independent/completeness.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/baseline/independent/graph-values.json",
+      "bytes": 3212732,
+      "sha256": "bf6c9fad7bb6f1473dbb55d4eb608d28481fc6548badca173907316cc3925f2b",
+      "source_relative_path": "portable/experiments/kemeny-pair-minimum/baseline/independent/graph-values.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/baseline/independent/pairs.jsonl",
+      "bytes": 2759071,
+      "sha256": "a3aa0acbc0f8ca592525344388d045afd926702dd4e9cbdd886c04b0b4ef2c64",
+      "source_relative_path": "portable/experiments/kemeny-pair-minimum/baseline/independent/pairs.jsonl"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/baseline/independent/published-p7.json",
+      "bytes": 4264,
+      "sha256": "51354922fa541d010e0e12f8a8af2933b4c3f655b850a2eb465219b33e8b41bb",
+      "source_relative_path": "portable/experiments/kemeny-pair-minimum/baseline/independent/published-p7.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/baseline/independent/summary.json",
+      "bytes": 11115,
+      "sha256": "a1f5c91e0c085d5e026dea901013c544c201fcfb24e05460952ddfad3f5370f4",
+      "source_relative_path": "portable/experiments/kemeny-pair-minimum/baseline/independent/summary.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/baseline/independent/witnesses.json",
+      "bytes": 4258,
+      "sha256": "3e21183af71a6fa69e14a8f73084e1f20626a612c1c71f8341dfa88921939d8c",
+      "source_relative_path": "portable/experiments/kemeny-pair-minimum/baseline/independent/witnesses.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/data/graph2c.g6",
+      "bytes": 3,
+      "sha256": "fae4bfc454bd04363dcd5222772f2973b1193e1ff6f676e822a427323a677ef9",
+      "source_relative_path": "portable/experiments/kemeny-pair-minimum/data/graph2c.g6"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/data/graph3c.g6",
+      "bytes": 6,
+      "sha256": "5966edf890849db6cb03626431916231a81a30c9db9a4781a4a8f2e5dc7e6129",
+      "source_relative_path": "portable/experiments/kemeny-pair-minimum/data/graph3c.g6"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/data/graph4c.g6",
+      "bytes": 18,
+      "sha256": "d7da485669f2dc74b81c02f18774a07430937684896833d59f138b10debb5005",
+      "source_relative_path": "portable/experiments/kemeny-pair-minimum/data/graph4c.g6"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/data/graph5c.g6",
+      "bytes": 84,
+      "sha256": "3c436a6a15f554e3eff3ce9178fddd3d75db6d365b3c6b102b64afe82145050b",
+      "source_relative_path": "portable/experiments/kemeny-pair-minimum/data/graph5c.g6"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/data/graph6c.g6",
+      "bytes": 560,
+      "sha256": "2dc8cbb1c05a12b5dcb28b6227cee86d585f203347f6aebb8fcbdb2b9bdf5fd7",
+      "source_relative_path": "portable/experiments/kemeny-pair-minimum/data/graph6c.g6"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/data/source-manifest.json",
+      "bytes": 2505,
+      "sha256": "e4a02bdeb62d8e6b0e68849b4aa3d65d9a37744578bebd48abe740fe94c52c7f",
+      "source_relative_path": "portable/experiments/kemeny-pair-minimum/data/source-manifest.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/docs/contract-v1.md",
+      "bytes": 10309,
+      "sha256": "1ff78636c4dcadc7d8f9d6a3a36c144e193e5f90cbb970ab846c877cdf0c6ac6",
+      "source_relative_path": "portable/experiments/kemeny-pair-minimum/docs/contract-v1.md"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/independent/.python-version",
+      "bytes": 8,
+      "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d",
+      "source_relative_path": "portable/experiments/kemeny-pair-minimum/independent/.python-version"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/independent/pyproject.toml",
+      "bytes": 223,
+      "sha256": "fce7a8b02373c175639015a4aa39059cedf9614e2ab139f4de82d02efe9f59d6",
+      "source_relative_path": "portable/experiments/kemeny-pair-minimum/independent/pyproject.toml"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/independent/run_logged.py",
+      "bytes": 4600,
+      "sha256": "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6",
+      "source_relative_path": "portable/experiments/kemeny-pair-minimum/independent/run_logged.py"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/independent/uv.lock",
+      "bytes": 150,
+      "sha256": "8989367db45d2529caae2472a11b4239266064167074f58adcb97b88867040ad",
+      "source_relative_path": "portable/experiments/kemeny-pair-minimum/independent/uv.lock"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/independent/verify_census.py",
+      "bytes": 36772,
+      "sha256": "3399bcfaef7aa81687ae6f5fd65d67f9adfa5618e8faeb38a8e556f789eb0399",
+      "source_relative_path": "portable/experiments/kemeny-pair-minimum/independent/verify_census.py"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/preexecution-freeze.json",
+      "bytes": 7023,
+      "sha256": "8c490bc29364495c4eb3e154193824d8eb8cc8cd49828259745fee12a23adaea",
+      "source_relative_path": "portable/experiments/kemeny-pair-minimum/preexecution-freeze.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/README.md",
+      "bytes": 2271,
+      "sha256": "3f7767e0bc3fdadc27d417c303b29e7fcd344bc421031e0d0a8091ece8c06784",
+      "source_relative_path": "portable/experiments/kemeny-pair-minimum/README.md"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/reproduce.py",
+      "bytes": 19986,
+      "sha256": "ed672109e11adbfd022c12010f3b34abd02d813cac8b085608588e5579672681",
+      "source_relative_path": "portable/experiments/kemeny-pair-minimum/reproduce.py"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/source-pins.json",
+      "bytes": 6138,
+      "sha256": "a54738f15cdc11aa383a452e7a464be80aafe9eb3ad609e2313f65dfaa4b2b87",
+      "source_relative_path": "portable/experiments/kemeny-pair-minimum/source-pins.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/freeze_package.py",
+      "bytes": 3125,
+      "sha256": "c84da0aa84ef74bea880500880390e1da5903f20f1e6f091bad4114350cb6fe2",
+      "source_relative_path": "portable/freeze_package.py"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/author/graph-values.json",
+      "bytes": 2690990,
+      "sha256": "8b4c070abde7153bfea2edf628e8d8188363dc65587a1fb750939c0ec6003327",
+      "source_relative_path": "portable/integration-run-01/author/graph-values.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/author/pairs.jsonl",
+      "bytes": 3417436,
+      "sha256": "1973ee7b63cd94d0e1e3171e88cce714c1d6853f766397967dfc0ed49a84f62c",
+      "source_relative_path": "portable/integration-run-01/author/pairs.jsonl"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/author/published-p7.json",
+      "bytes": 1679,
+      "sha256": "d87979be4b43b44a89f3eb6c475976b3d25bf18975dc87128c50d6134d1096cf",
+      "source_relative_path": "portable/integration-run-01/author/published-p7.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/author/summary.json",
+      "bytes": 181512,
+      "sha256": "14367bd2c8c9539206754f65b2da7b17baa5430cde97c33a070ddfc35ffc37f4",
+      "source_relative_path": "portable/integration-run-01/author/summary.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/author/witnesses.json",
+      "bytes": 1573,
+      "sha256": "11667e046a4fff70fff23b5e7f501a7941def67c8067edd9034f56555a40b13f",
+      "source_relative_path": "portable/integration-run-01/author/witnesses.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/independent/completeness.json",
+      "bytes": 155476,
+      "sha256": "4d0bd778eef0b9781f3d6931257f2d59ce1eaa2c50eee2d7c1c011d6dbc5dea7",
+      "source_relative_path": "portable/integration-run-01/independent/completeness.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/independent/graph-values.json",
+      "bytes": 3212732,
+      "sha256": "bf6c9fad7bb6f1473dbb55d4eb608d28481fc6548badca173907316cc3925f2b",
+      "source_relative_path": "portable/integration-run-01/independent/graph-values.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/independent/pairs.jsonl",
+      "bytes": 2759071,
+      "sha256": "a3aa0acbc0f8ca592525344388d045afd926702dd4e9cbdd886c04b0b4ef2c64",
+      "source_relative_path": "portable/integration-run-01/independent/pairs.jsonl"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/independent/published-p7.json",
+      "bytes": 4264,
+      "sha256": "51354922fa541d010e0e12f8a8af2933b4c3f655b850a2eb465219b33e8b41bb",
+      "source_relative_path": "portable/integration-run-01/independent/published-p7.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/independent/summary.json",
+      "bytes": 11115,
+      "sha256": "a1f5c91e0c085d5e026dea901013c544c201fcfb24e05460952ddfad3f5370f4",
+      "source_relative_path": "portable/integration-run-01/independent/summary.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/independent/witnesses.json",
+      "bytes": 4258,
+      "sha256": "3e21183af71a6fa69e14a8f73084e1f20626a612c1c71f8341dfa88921939d8c",
+      "source_relative_path": "portable/integration-run-01/independent/witnesses.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/logs/attempt-portable-author.json",
+      "bytes": 1668,
+      "sha256": "cb75c47e9819333814d0e6835d12982caa779ce9b73cbec2c59dda82a9d8e28d",
+      "source_relative_path": "portable/integration-run-01/logs/attempt-portable-author.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/logs/attempt-portable-author.stderr.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_relative_path": "portable/integration-run-01/logs/attempt-portable-author.stderr.bin"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/logs/attempt-portable-author.stdout.bin",
+      "bytes": 267,
+      "sha256": "ddae227ff51a2f047a7256a2619397b946062234115d00ed9075fdf0a6698200",
+      "source_relative_path": "portable/integration-run-01/logs/attempt-portable-author.stdout.bin"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/logs/attempt-portable-independent.json",
+      "bytes": 1550,
+      "sha256": "06fe59be9a956b9f7298bbdab3c4b55583aed8ab398dbcb7b364780a0441e086",
+      "source_relative_path": "portable/integration-run-01/logs/attempt-portable-independent.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/logs/attempt-portable-independent.stderr.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_relative_path": "portable/integration-run-01/logs/attempt-portable-independent.stderr.bin"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/logs/attempt-portable-independent.stdout.bin",
+      "bytes": 345,
+      "sha256": "5d0a095503392a34fc13141edaff7ae607572bfba63bd9b9166ca9a5f4d36040",
+      "source_relative_path": "portable/integration-run-01/logs/attempt-portable-independent.stdout.bin"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/logs/attempts.jsonl",
+      "bytes": 2860,
+      "sha256": "1898bb4cd77bc1039a611cc1d7d46326b5f8961a624a962fd6a8909d9148a559",
+      "source_relative_path": "portable/integration-run-01/logs/attempts.jsonl"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/logs/author.command.json",
+      "bytes": 5311,
+      "sha256": "8c751dbfe8ec8d1a399ab6a2d5fdc7f62f55f8888b2942dab31db53089ac505a",
+      "source_relative_path": "portable/integration-run-01/logs/author.command.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/logs/author.wrapper.stderr.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_relative_path": "portable/integration-run-01/logs/author.wrapper.stderr.bin"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/logs/author.wrapper.stdout.bin",
+      "bytes": 1484,
+      "sha256": "23b005f7cd51a3886df2000404da5d4c0df2bafc3c7b2e8b68f5e2124592ed91",
+      "source_relative_path": "portable/integration-run-01/logs/author.wrapper.stdout.bin"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/logs/independent.command.json",
+      "bytes": 4911,
+      "sha256": "2fb5868874a3b31af95eced90fbfb9a447034346a592e878a84fca07319ead9f",
+      "source_relative_path": "portable/integration-run-01/logs/independent.command.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/logs/independent.wrapper.stderr.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_relative_path": "portable/integration-run-01/logs/independent.wrapper.stderr.bin"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/logs/independent.wrapper.stdout.bin",
+      "bytes": 1376,
+      "sha256": "9106764b3d50b79c9fdf8c8127f62e02dbcea22e56aa32b2d1ae10b693a820b3",
+      "source_relative_path": "portable/integration-run-01/logs/independent.wrapper.stdout.bin"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/logs/runner.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_relative_path": "portable/integration-run-01/logs/runner.stderr.txt"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/logs/runner.stdout.txt",
+      "bytes": 369,
+      "sha256": "45c74510888adaf09c3a1ef4197d69feabd0e8c46a8a64d9b57420d311456d61",
+      "source_relative_path": "portable/integration-run-01/logs/runner.stdout.txt"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/run.json",
+      "bytes": 24272,
+      "sha256": "096c85f7dea51516b2038b8585b42d4bc266ca1bb398663fde5207cdab51b08d",
+      "source_relative_path": "portable/integration-run-01/run.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/result-manifest.json",
+      "bytes": 24483,
+      "sha256": "d5bbdd58126de29f2db378c08a287ac4d28272569ee386aa2347fbc6f898f420",
+      "source_relative_path": "portable/result-manifest.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/portable/seal_results.py",
+      "bytes": 9958,
+      "sha256": "5948318a46744b078df115264dfb2482bd3e88c9f23e93c196806d8b340d1399",
+      "source_relative_path": "portable/seal_results.py"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/process-correction/author-run-02/graph-values.json",
+      "bytes": 2690990,
+      "sha256": "8b4c070abde7153bfea2edf628e8d8188363dc65587a1fb750939c0ec6003327",
+      "source_relative_path": "process-correction/author-run-02/graph-values.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/process-correction/author-run-02/pairs.jsonl",
+      "bytes": 3417436,
+      "sha256": "1973ee7b63cd94d0e1e3171e88cce714c1d6853f766397967dfc0ed49a84f62c",
+      "source_relative_path": "process-correction/author-run-02/pairs.jsonl"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/process-correction/author-run-02/published-p7.json",
+      "bytes": 1679,
+      "sha256": "d87979be4b43b44a89f3eb6c475976b3d25bf18975dc87128c50d6134d1096cf",
+      "source_relative_path": "process-correction/author-run-02/published-p7.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/process-correction/author-run-02/summary.json",
+      "bytes": 181512,
+      "sha256": "14367bd2c8c9539206754f65b2da7b17baa5430cde97c33a070ddfc35ffc37f4",
+      "source_relative_path": "process-correction/author-run-02/summary.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/process-correction/author-run-02/witnesses.json",
+      "bytes": 1573,
+      "sha256": "11667e046a4fff70fff23b5e7f501a7941def67c8067edd9034f56555a40b13f",
+      "source_relative_path": "process-correction/author-run-02/witnesses.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/process-correction/comparison.json",
+      "bytes": 8273,
+      "sha256": "83163cbc70e953684bf15ddeb8dd7e112260d2872099744719326c852912ace3",
+      "source_relative_path": "process-correction/comparison.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/process-correction/freeze.json",
+      "bytes": 14011,
+      "sha256": "387e46dd4e66e2b2f08f2b5e849f59c989817038007fa08a7ae8277f71174703",
+      "source_relative_path": "process-correction/freeze.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/process-correction/logs/attempt-author-correction-02.json",
+      "bytes": 1316,
+      "sha256": "c70d75d589fa4ea4aaa14bcb0a14eaf2bd5c03befbc46442c0c4231602343078",
+      "source_relative_path": "process-correction/logs/attempt-author-correction-02.json"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/process-correction/logs/attempt-author-correction-02.stderr.bin",
+      "bytes": 219,
+      "sha256": "220cb9dce899c1053834fa234a4dcf4941c9bb27ccc936ca2d76d8a5fa7bcd8c",
+      "source_relative_path": "process-correction/logs/attempt-author-correction-02.stderr.bin"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/process-correction/logs/attempt-author-correction-02.stdout.bin",
+      "bytes": 271,
+      "sha256": "dcb2e345ea0587bc294033ae7deb78a4a91503294679d23ae8ad1e112ae15bb0",
+      "source_relative_path": "process-correction/logs/attempt-author-correction-02.stdout.bin"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/process-correction/logs/attempts.jsonl",
+      "bytes": 1142,
+      "sha256": "ca4db46f9ed0d0a56a3c8b7a5c0f5232efe7534b677e8735d505ca606a4924e1",
+      "source_relative_path": "process-correction/logs/attempts.jsonl"
+    },
+    {
+      "path": "evidence/kemeny-pair-minimum/README.md",
+      "bytes": 8712,
+      "sha256": "e82c8b25b369420c43561730c248990af02851c72fdd21682719fa3082c3b7c4",
+      "source_relative_path": "README.md"
+    }
+  ]
+}

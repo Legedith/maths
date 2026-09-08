@@ -1,0 +1,16 @@
+{
+  "schema_version": "kemeny-independent-environment-v1",
+  "captured_at_utc": "2026-09-08T07:08:18.2212266Z",
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-independent-work",
+  "uv_cache_dir": "D:\\CodexWorkspaces\\mathematics-atlas\\uv-cache",
+  "python_dont_write_bytecode": "1",
+  "uv_version": "uv 0.8.19 (fc7c2f8b5 2025-09-19)",
+  "uv_executable": "C:\\Users\\Legedith\\.local\\bin\\uv.exe",
+  "uv_executable_sha256": "270d3e2a49b6ab86bd3b17994ad4a2c9c9ccf2b48ba714a093c1d59ca055244e",
+  "python_version": "3.12.11",
+  "python_executable": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-independent-work\\.venv\\Scripts\\python.exe",
+  "python_executable_sha256": "029a267ad77f51e532876f0ebe6fd6e98893647a2499f33521bc7bcc5bfc0625",
+  "virtual_environment": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-independent-work\\.venv",
+  "dependencies": "standard_library_only",
+  "platform": "Windows-10-10.0.19045-SP0"
+}

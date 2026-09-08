@@ -1,0 +1,178 @@
+{
+  "schema_version": "kemeny-portable-source-pins-v1",
+  "status": "copied_from_sealed_sources",
+  "hash_algorithm": "sha256",
+  "comparison": "byte_length_and_sha256",
+  "upstream_seals": {
+    "author_code_freeze_sha256": "b547315c11ff260e7b4fc1edd3cc6840a423dbc4dcfc6b4f3ec02a14c4b8ee60",
+    "author_result_manifest_sha256": "78b4121cc83d7e06bed7470f70c1cbb365ba1d24543595f7620b9e15e0524a9d",
+    "contract_freeze_sha256": "55fd516c94127c2fe1c31526366ef4449262b0d4057f1fe3eb31d770b514bbcc",
+    "independent_input_freeze_sha256": "e76e474f723cfdc6af6014cf35371601a2525a6ee78e148bb72ef99b9249019d",
+    "independent_output_seal_sha256": "7ccdcbbd54a21fec1bfdfc668c05c9cc06564a985e82e68e9c4958a110994b2d",
+    "source_manifest_sha256": "e4a02bdeb62d8e6b0e68849b4aa3d65d9a37744578bebd48abe740fe94c52c7f"
+  },
+  "files": [
+    {
+      "path": "author/.python-version",
+      "role": "author_environment",
+      "bytes": 8,
+      "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d"
+    },
+    {
+      "path": "author/pyproject.toml",
+      "role": "author_environment",
+      "bytes": 236,
+      "sha256": "728e600f9f2ddef2008f879ffb077957bc874c8d9ea7a66fcbe3c2230f4ca651"
+    },
+    {
+      "path": "author/uv.lock",
+      "role": "author_environment",
+      "bytes": 1691,
+      "sha256": "afdad7f8e3c5b68a9effb77dc6c05ff1767fa6206aa14cecc21cc90b0acda073"
+    },
+    {
+      "path": "author/census.py",
+      "role": "author_mathematical_code",
+      "bytes": 36833,
+      "sha256": "6560176884fc4ce67b8da38465867f0a89491f087794258c7bd627225b5d6341"
+    },
+    {
+      "path": "independent/.python-version",
+      "role": "independent_environment",
+      "bytes": 8,
+      "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d"
+    },
+    {
+      "path": "independent/pyproject.toml",
+      "role": "independent_environment",
+      "bytes": 223,
+      "sha256": "fce7a8b02373c175639015a4aa39059cedf9614e2ab139f4de82d02efe9f59d6"
+    },
+    {
+      "path": "independent/uv.lock",
+      "role": "independent_environment",
+      "bytes": 150,
+      "sha256": "8989367db45d2529caae2472a11b4239266064167074f58adcb97b88867040ad"
+    },
+    {
+      "path": "independent/verify_census.py",
+      "role": "independent_mathematical_code",
+      "bytes": 36772,
+      "sha256": "3399bcfaef7aa81687ae6f5fd65d67f9adfa5618e8faeb38a8e556f789eb0399"
+    },
+    {
+      "path": "independent/run_logged.py",
+      "role": "independent_auditor_logging_wrapper",
+      "bytes": 4600,
+      "sha256": "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6"
+    },
+    {
+      "path": "docs/contract-v1.md",
+      "role": "frozen_contract",
+      "bytes": 10309,
+      "sha256": "1ff78636c4dcadc7d8f9d6a3a36c144e193e5f90cbb970ab846c877cdf0c6ac6"
+    },
+    {
+      "path": "data/source-manifest.json",
+      "role": "source_manifest",
+      "bytes": 2505,
+      "sha256": "e4a02bdeb62d8e6b0e68849b4aa3d65d9a37744578bebd48abe740fe94c52c7f"
+    },
+    {
+      "path": "data/graph2c.g6",
+      "role": "graph6_input",
+      "bytes": 3,
+      "sha256": "fae4bfc454bd04363dcd5222772f2973b1193e1ff6f676e822a427323a677ef9"
+    },
+    {
+      "path": "data/graph3c.g6",
+      "role": "graph6_input",
+      "bytes": 6,
+      "sha256": "5966edf890849db6cb03626431916231a81a30c9db9a4781a4a8f2e5dc7e6129"
+    },
+    {
+      "path": "data/graph4c.g6",
+      "role": "graph6_input",
+      "bytes": 18,
+      "sha256": "d7da485669f2dc74b81c02f18774a07430937684896833d59f138b10debb5005"
+    },
+    {
+      "path": "data/graph5c.g6",
+      "role": "graph6_input",
+      "bytes": 84,
+      "sha256": "3c436a6a15f554e3eff3ce9178fddd3d75db6d365b3c6b102b64afe82145050b"
+    },
+    {
+      "path": "data/graph6c.g6",
+      "role": "graph6_input",
+      "bytes": 560,
+      "sha256": "2dc8cbb1c05a12b5dcb28b6227cee86d585f203347f6aebb8fcbdb2b9bdf5fd7"
+    },
+    {
+      "path": "baseline/author/summary.json",
+      "role": "author_baseline",
+      "bytes": 181512,
+      "sha256": "14367bd2c8c9539206754f65b2da7b17baa5430cde97c33a070ddfc35ffc37f4"
+    },
+    {
+      "path": "baseline/author/graph-values.json",
+      "role": "author_baseline",
+      "bytes": 2690990,
+      "sha256": "8b4c070abde7153bfea2edf628e8d8188363dc65587a1fb750939c0ec6003327"
+    },
+    {
+      "path": "baseline/author/pairs.jsonl",
+      "role": "author_baseline",
+      "bytes": 3417436,
+      "sha256": "1973ee7b63cd94d0e1e3171e88cce714c1d6853f766397967dfc0ed49a84f62c"
+    },
+    {
+      "path": "baseline/author/witnesses.json",
+      "role": "author_baseline",
+      "bytes": 1573,
+      "sha256": "11667e046a4fff70fff23b5e7f501a7941def67c8067edd9034f56555a40b13f"
+    },
+    {
+      "path": "baseline/author/published-p7.json",
+      "role": "author_baseline",
+      "bytes": 1679,
+      "sha256": "d87979be4b43b44a89f3eb6c475976b3d25bf18975dc87128c50d6134d1096cf"
+    },
+    {
+      "path": "baseline/independent/summary.json",
+      "role": "independent_baseline",
+      "bytes": 11115,
+      "sha256": "a1f5c91e0c085d5e026dea901013c544c201fcfb24e05460952ddfad3f5370f4"
+    },
+    {
+      "path": "baseline/independent/graph-values.json",
+      "role": "independent_baseline",
+      "bytes": 3212732,
+      "sha256": "bf6c9fad7bb6f1473dbb55d4eb608d28481fc6548badca173907316cc3925f2b"
+    },
+    {
+      "path": "baseline/independent/pairs.jsonl",
+      "role": "independent_baseline",
+      "bytes": 2759071,
+      "sha256": "a3aa0acbc0f8ca592525344388d045afd926702dd4e9cbdd886c04b0b4ef2c64"
+    },
+    {
+      "path": "baseline/independent/witnesses.json",
+      "role": "independent_baseline",
+      "bytes": 4258,
+      "sha256": "3e21183af71a6fa69e14a8f73084e1f20626a612c1c71f8341dfa88921939d8c"
+    },
+    {
+      "path": "baseline/independent/published-p7.json",
+      "role": "independent_baseline",
+      "bytes": 4264,
+      "sha256": "51354922fa541d010e0e12f8a8af2933b4c3f655b850a2eb465219b33e8b41bb"
+    },
+    {
+      "path": "baseline/independent/completeness.json",
+      "role": "independent_baseline",
+      "bytes": 155476,
+      "sha256": "4d0bd778eef0b9781f3d6931257f2d59ce1eaa2c50eee2d7c1c011d6dbc5dea7"
+    }
+  ]
+}

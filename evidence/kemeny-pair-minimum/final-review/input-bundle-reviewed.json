@@ -1,0 +1,2402 @@
+{
+  "schema_version": "1.0",
+  "run_id": "kemeny-pair-minimum-v1",
+  "objective": "Determine by a complete exact census the minimum order of a connected simple unweighted undirected graph with two individually nonincreasing edge additions whose joint addition strictly increases Kemenys constant; preserve prior-art and novelty limits.",
+  "created_at": "2026-09-08T06:54:38.903519Z",
+  "task_spec_artifact_id": "A001",
+  "evaluator_command": "uv run --project experiments/kemeny-pair-minimum/independent --frozen python experiments/kemeny-pair-minimum/reproduce.py --output-dir work/kemeny-pair-run",
+  "artifacts": [
+    {
+      "id": "A001",
+      "kind": "spec",
+      "path": "evidence/kemeny-pair-minimum/docs/contract-v1.md",
+      "sha256": "1ff78636c4dcadc7d8f9d6a3a36c144e193e5f90cbb970ab846c877cdf0c6ac6",
+      "producer": "user-or-orchestrator"
+    },
+    {
+      "id": "A002",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/evidence/spec/contract-freeze.json",
+      "sha256": "55fd516c94127c2fe1c31526366ef4449262b0d4057f1fe3eb31d770b514bbcc",
+      "producer": "/root"
+    },
+    {
+      "id": "A003",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/evidence/proposal/proposal.md",
+      "sha256": "ffc32445ce13f69c058039a1183becd6a91ce30eb9230209ce90efd1b67123b1",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A004",
+      "kind": "source",
+      "path": "evidence/kemeny-pair-minimum/evidence/proposal/source-notes.json",
+      "sha256": "ee4695ff47051b563731b4a957313df78cea1151e8704861ed936c8d384d892f",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A005",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/evidence/source-review/source-method-assessment.json",
+      "sha256": "12d46fa4127e98aea459fae586fa57e16377b4426b3966ffd6bb287caa38bc96",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A006",
+      "kind": "source",
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/source-notes.json",
+      "sha256": "eefafc33143c177442d35bfa123ddcb7a4232014b679f1211b73b98d19cf23f6",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A007",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/verdict.md",
+      "sha256": "977c80b81a4ef99b012306ee86c345846432cb2db3095dce700053ed61679a59",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A008",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/initial-four-source-seal.json",
+      "sha256": "3ef26d1c35e1c60abc62cb3efc48a1f1cea26907c6c2b05f306e6abe26df4541",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A009",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/supplement-2306.04005.json",
+      "sha256": "5ed72f2385d33dbf082c0eff26fa8f9275865353151fecaaf45df51aed8a5827",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A010",
+      "kind": "source",
+      "path": "evidence/kemeny-pair-minimum/data/source-manifest.json",
+      "sha256": "e4a02bdeb62d8e6b0e68849b4aa3d65d9a37744578bebd48abe740fe94c52c7f",
+      "producer": "/root"
+    },
+    {
+      "id": "A011",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/evidence/input-retrieval/retrieve.py",
+      "sha256": "d95aaff1d7f892c55e7d36ef50a6b39cedd5df297615b68cbf097cc9500d4586",
+      "producer": "/root"
+    },
+    {
+      "id": "A012",
+      "kind": "source",
+      "path": "evidence/kemeny-pair-minimum/data/graph2c.g6",
+      "sha256": "fae4bfc454bd04363dcd5222772f2973b1193e1ff6f676e822a427323a677ef9",
+      "producer": "/root"
+    },
+    {
+      "id": "A013",
+      "kind": "source",
+      "path": "evidence/kemeny-pair-minimum/data/graph3c.g6",
+      "sha256": "5966edf890849db6cb03626431916231a81a30c9db9a4781a4a8f2e5dc7e6129",
+      "producer": "/root"
+    },
+    {
+      "id": "A014",
+      "kind": "source",
+      "path": "evidence/kemeny-pair-minimum/data/graph4c.g6",
+      "sha256": "d7da485669f2dc74b81c02f18774a07430937684896833d59f138b10debb5005",
+      "producer": "/root"
+    },
+    {
+      "id": "A015",
+      "kind": "source",
+      "path": "evidence/kemeny-pair-minimum/data/graph5c.g6",
+      "sha256": "3c436a6a15f554e3eff3ce9178fddd3d75db6d365b3c6b102b64afe82145050b",
+      "producer": "/root"
+    },
+    {
+      "id": "A016",
+      "kind": "source",
+      "path": "evidence/kemeny-pair-minimum/data/graph6c.g6",
+      "sha256": "2dc8cbb1c05a12b5dcb28b6227cee86d585f203347f6aebb8fcbdb2b9bdf5fd7",
+      "producer": "/root"
+    },
+    {
+      "id": "A017",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/evidence/pre-execution-transfer.json",
+      "sha256": "ed6912c255dc3a25edd9e23fe615e6f4c234e9f744c8b37fdd343ae1aa249c7e",
+      "producer": "/root"
+    },
+    {
+      "id": "A018",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/author/.python-version",
+      "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A019",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/author/pyproject.toml",
+      "sha256": "728e600f9f2ddef2008f879ffb077957bc874c8d9ea7a66fcbe3c2230f4ca651",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A020",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/author/uv.lock",
+      "sha256": "afdad7f8e3c5b68a9effb77dc6c05ff1767fa6206aa14cecc21cc90b0acda073",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A021",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/author/census.py",
+      "sha256": "6560176884fc4ce67b8da38465867f0a89491f087794258c7bd627225b5d6341",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A022",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/author/prepare.ps1",
+      "sha256": "540dfc8d580be1df11bb7fa8a2030d7c16d29a04f39aa19fc35216344a719114",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A023",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/author/freeze_inputs.ps1",
+      "sha256": "8802a50508d804db450dd8a22fcfc4b37d0419037b1fb503f87bea376170d495",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A024",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/author/run_logged.ps1",
+      "sha256": "83710fdd812cbdb01293a0085528c42ed61cc63f75abadb4fb61f4c35c95644c",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A025",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/author/code-freeze-manifest.json",
+      "sha256": "b547315c11ff260e7b4fc1edd3cc6840a423dbc4dcfc6b4f3ec02a14c4b8ee60",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A026",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/author/input-freeze.json",
+      "sha256": "b5b8c286047194b1ddcea1e2b4ff6a79d58d939bcc2124951fe36bb90d012b15",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A027",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/author/postrun-validation.json",
+      "sha256": "707dce1c2da756f8d983fc29aadaa580c976437d5428c91428e1f166e7d472ad",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A028",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/author/logs/attempts.jsonl",
+      "sha256": "50ad63f8a28d0b1d4f45834ee62d0ba280c266fc18c036cabd2c4dddeec9a3b5",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A029",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/author/logs/preparation-01/01-uv-version.stdout.txt",
+      "sha256": "b8efdf882e013e974b58ac07babfdc9ee1540650ef8f847379269bb4546ab7a6",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A030",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/author/logs/preparation-01/01-uv-version.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A031",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/author/logs/preparation-01/02-uv-lock.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A032",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/author/logs/preparation-01/02-uv-lock.stderr.txt",
+      "sha256": "2b3c59686f3fbd4c8e3565f5ef7a09a6180193cd3543002a794127ea9ce9d71c",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A033",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/author/logs/preparation-01/03-uv-sync.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A034",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/author/logs/preparation-01/03-uv-sync.stderr.txt",
+      "sha256": "d468c2eceb2b7d05bc2516803c9885cc405aad6e2dc4a2fb2906986f83a32f60",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A035",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/author/logs/preparation-01/04-python-version.stdout.txt",
+      "sha256": "9d18cd5d2d739ea285b1423577b15c33e4dadbe56200a1283ff6b4c616a395f8",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A036",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/author/logs/preparation-01/04-python-version.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A037",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/author/logs/preparation-01/05-sympy-version.stdout.txt",
+      "sha256": "55b67c988a1290318c2f11bfb4f3eebca966a46c2628e9dee46114650a447887",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A038",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/author/logs/preparation-01/05-sympy-version.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A039",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/author/logs/preparation-01/06-syntax-check.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A040",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/author/logs/preparation-01/06-syntax-check.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A041",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/author/logs/canonical-01/command.json",
+      "sha256": "aded62b97299ea2f085ce3b869213775632b0aba0dfb6f2eaea2233532b87b37",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A042",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/author/logs/canonical-01/stdout.txt",
+      "sha256": "36f3ce782f6e7b4c89dcfb0599e030ed33f5e2ef930d1579e36aabc00e3405d0",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A043",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/author/logs/canonical-01/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A044",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/author/run-01/summary.json",
+      "sha256": "14367bd2c8c9539206754f65b2da7b17baa5430cde97c33a070ddfc35ffc37f4",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A045",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/author/run-01/graph-values.json",
+      "sha256": "8b4c070abde7153bfea2edf628e8d8188363dc65587a1fb750939c0ec6003327",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A046",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/author/run-01/pairs.jsonl",
+      "sha256": "1973ee7b63cd94d0e1e3171e88cce714c1d6853f766397967dfc0ed49a84f62c",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A047",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/author/run-01/witnesses.json",
+      "sha256": "11667e046a4fff70fff23b5e7f501a7941def67c8067edd9034f56555a40b13f",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A048",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/author/run-01/published-p7.json",
+      "sha256": "d87979be4b43b44a89f3eb6c475976b3d25bf18975dc87128c50d6134d1096cf",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A049",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/author/result-manifest.json",
+      "sha256": "78b4121cc83d7e06bed7470f70c1cbb365ba1d24543595f7620b9e15e0524a9d",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A050",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/evidence/author-transfer.json",
+      "sha256": "4b5d9f2f098c2db38dc19d6805b75b62ad7d6ff0afbb50578ee531de88cbe58c",
+      "producer": "/root"
+    },
+    {
+      "id": "A051",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/independent/.python-version",
+      "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A052",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/independent/author-manifest-verification.json",
+      "sha256": "2c9094a69a7f4a0b9d31fee65969831a2b9e41a141fc5aecb450ff044eb978c0",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A053",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/independent/canonical-command.json",
+      "sha256": "0df23e8053fe44f14810ff6901a55fb0b50737492d3bf1c5bf7c31aa384f005d",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A054",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/independent/compare_outputs.py",
+      "sha256": "76f03190d2286fb95cd01740703fe9ab05104b632b3dee81138e8d1857e734f7",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A055",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/independent/comparison-01/comparison.json",
+      "sha256": "4e72ec56615441992dd5685ad72c4968820d26bfd7e3c909324ace42de3af24b",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A056",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/independent/comparison-input-freeze.json",
+      "sha256": "ea07c6b324ea2d8d0b8bdde77811611fd543d0c630c7b31f58a62290f825188c",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A057",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/independent/comparison-logs/attempt-comparison-01.json",
+      "sha256": "013e64282cfdd8f571c9ba6345c33e2b513dbe4c928e73793510ed63a76f7781",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A058",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/independent/comparison-logs/attempt-comparison-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A059",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/independent/comparison-logs/attempt-comparison-01.stdout.bin",
+      "sha256": "b890782e6043d015413c81052cb92fb6b8ab42a74a374af02318bb1e84d25994",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A060",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/independent/comparison-logs/attempts.jsonl",
+      "sha256": "aa6fef78ff9d2ec319365e9f0ae083f415235de3e7d892688aece1d936e70bee",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A061",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/independent/comparison-seal.json",
+      "sha256": "c7e0cd6892639dd5403c4275b3904afcf2536fedd32f059e4a7c77cc11829204",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A062",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/independent/environment.json",
+      "sha256": "778b1596cfdd837ff1e222215ad65ad35ff6bca6f375571588d7d8ea40103734",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A063",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/independent/independent-output-seal.json",
+      "sha256": "7ccdcbbd54a21fec1bfdfc668c05c9cc06564a985e82e68e9c4958a110994b2d",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A064",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/independent/input-freeze-manifest.json",
+      "sha256": "e76e474f723cfdc6af6014cf35371601a2525a6ee78e148bb72ef99b9249019d",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A065",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/independent/input-freeze-seal.json",
+      "sha256": "d0ce60abc7d207bba46f86e4da7551d3c7b1b8f4d9f4eaf07bdeb68720932389",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A066",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/independent/logs/attempt-run-01.json",
+      "sha256": "3dad8107c96c7e67054d7672617e8473ba630906a291ce7c31765aae5e86eaa2",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A067",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/independent/logs/attempt-run-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A068",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/independent/logs/attempt-run-01.stdout.bin",
+      "sha256": "4512335c11f74c577f6ea1a0d67e66ba8e766d42bf6407568a8766e376eaac82",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A069",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/independent/logs/attempts.jsonl",
+      "sha256": "8e62c1fb1bc97392d4001ce71520db2eb1a941bef771c437dd0f15eb4b1b61eb",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A070",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/independent/method-proof.md",
+      "sha256": "27afc0864cbee8c7b53fac800a7f26a5a2deed4575d7cc389699d94e51c1b5d0",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A071",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/independent/pyproject.toml",
+      "sha256": "fce7a8b02373c175639015a4aa39059cedf9614e2ab139f4de82d02efe9f59d6",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A072",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/independent/run-01/completeness.json",
+      "sha256": "4d0bd778eef0b9781f3d6931257f2d59ce1eaa2c50eee2d7c1c011d6dbc5dea7",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A073",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/independent/run-01/graph-values.json",
+      "sha256": "bf6c9fad7bb6f1473dbb55d4eb608d28481fc6548badca173907316cc3925f2b",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A074",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/independent/run-01/pairs.jsonl",
+      "sha256": "a3aa0acbc0f8ca592525344388d045afd926702dd4e9cbdd886c04b0b4ef2c64",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A075",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/independent/run-01/published-p7.json",
+      "sha256": "51354922fa541d010e0e12f8a8af2933b4c3f655b850a2eb465219b33e8b41bb",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A076",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/independent/run-01/summary.json",
+      "sha256": "a1f5c91e0c085d5e026dea901013c544c201fcfb24e05460952ddfad3f5370f4",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A077",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/independent/run-01/witnesses.json",
+      "sha256": "3e21183af71a6fa69e14a8f73084e1f20626a612c1c71f8341dfa88921939d8c",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A078",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/independent/run_logged.py",
+      "sha256": "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A079",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/independent/uv.lock",
+      "sha256": "8989367db45d2529caae2472a11b4239266064167074f58adcb97b88867040ad",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A080",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/independent/verify_census.py",
+      "sha256": "3399bcfaef7aa81687ae6f5fd65d67f9adfa5618e8faeb38a8e556f789eb0399",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A081",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/explanation/.python-version",
+      "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A082",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/explanation/build_explanation.py",
+      "sha256": "3f1646c4a8a13065f27dcc4f9a8f6578290f0d9389ce375ef8d48556b9b8cdfa",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A083",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/explanation/logs/canonical-01/command.json",
+      "sha256": "7633e4a5e4e316bb21f8f9472125f999f78b645edc8de55a7881ced63bc9e791",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A084",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/explanation/logs/canonical-01/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A085",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/explanation/logs/canonical-01/stdout.txt",
+      "sha256": "bb06a538526ac29c044175bad20fd6be54f9a445e167b05d3946cfd0315e3043",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A086",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/explanation/pyproject.toml",
+      "sha256": "0231a60cd4293713ee57c81c00e607007abce03c551f59df535e38dbb8149a18",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A087",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/explanation/result-manifest.json",
+      "sha256": "a63d110932bbe064d16d13370a222d495c8f10d2a92101354ff078ecb0a9f915",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A088",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/explanation/run_logged.py",
+      "sha256": "26a37b00a6e0af11f9f7bfd3217999e8c0ea44d3d7e654d1a9e63285855962e1",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A089",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/explanation/seal.py",
+      "sha256": "56308344d3ec104ba3cca0fe0e6238a48feb52f3a8f6c139071db0daa649cc10",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A090",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/explanation/uv.lock",
+      "sha256": "44cad3e0749285a8583ca92afa71307284667dce60a5c0bc5b370330ff0645c2",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A091",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/explanation/witness-explanation.json",
+      "sha256": "944aedd72b479ea875fef53780da3d80d18007521eb8e774b5bfabef48baf396",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A092",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/evidence/independent-explanation-transfer.json",
+      "sha256": "2171e9325d4e1dd893f5013509d2d39017ccb51f995fca4e1ffc778f14b7b686",
+      "producer": "/root"
+    },
+    {
+      "id": "A093",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/evidence/atlas-before.json",
+      "sha256": "401e00c67d1b54d5986e750dc9ef9fe5dec76b269d2219267b385d6f0054f2d9",
+      "producer": "/root"
+    },
+    {
+      "id": "A094",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/evidence/atlas-extension-draft.json",
+      "sha256": "fd172aedb7ef3ac15c06b4ce8076e050b1e5c0630dbf830951058adcca93dbb6",
+      "producer": "/root"
+    },
+    {
+      "id": "A095",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/evidence/atlas-extension-v1.json",
+      "sha256": "edbfe87e80a0435e209d32013ac9362eb95067604f56c603eb064a08f95a070c",
+      "producer": "/root"
+    },
+    {
+      "id": "A096",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/evidence/atlas-extension-transfer.json",
+      "sha256": "10f0b63ffe6e8d28743b6cb826ced0b48a1aeaef97a0b4e1babab9ddbda1da4d",
+      "producer": "/root"
+    },
+    {
+      "id": "A097",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/evidence/source-review/atlas-extension-semantic-review.json",
+      "sha256": "f78d09edc5fabdcf515c2301a46361c2735ef135f1aa2123d4daf39c9c14e468",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A098",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/evidence/source-review/atlas-integration-review.json",
+      "sha256": "3c8065f6f40741ff8aa7464572036ea70e98396829ba407795f48a5b84ab9af3",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A099",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/evidence/corpus/search-and-paths.json",
+      "sha256": "f16fb8552e32e4a0de887552e672a9d2f6c44c3b36b0f5de9e65492160c20b35",
+      "producer": "/root"
+    },
+    {
+      "id": "A100",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/evidence/integration-validation/navigation.command.json",
+      "sha256": "323cfd0826d1d8cc2d82ccef45f4dcb77c7cc71b83585de907d212274c0e0702",
+      "producer": "/root"
+    },
+    {
+      "id": "A101",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/evidence/integration-validation/navigation.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A102",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/evidence/integration-validation/navigation.stdout.log",
+      "sha256": "f16fb8552e32e4a0de887552e672a9d2f6c44c3b36b0f5de9e65492160c20b35",
+      "producer": "/root"
+    },
+    {
+      "id": "A103",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/evidence/integration-validation/structure-result.json",
+      "sha256": "487fd63ef0ab353dd2215e9944ccc07d0c5db6928340bc627b596a81173b13f3",
+      "producer": "/root"
+    },
+    {
+      "id": "A104",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/evidence/integration-validation/structure.command.json",
+      "sha256": "a0a4bb61d770d07d107a74ce1c440ae7604906ad3d5729c410782ff21d8d9260",
+      "producer": "/root"
+    },
+    {
+      "id": "A105",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/evidence/integration-validation/structure.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A106",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/evidence/integration-validation/structure.stdout.log",
+      "sha256": "487fd63ef0ab353dd2215e9944ccc07d0c5db6928340bc627b596a81173b13f3",
+      "producer": "/root"
+    },
+    {
+      "id": "A107",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/evidence/integration-validation/webmcp-observation.json",
+      "sha256": "b22a93c395dc4e2088a28b7b32b183d786689947306d35d1eef886a797cc0b44",
+      "producer": "/root"
+    },
+    {
+      "id": "A108",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/evidence/portable-transfer.json",
+      "sha256": "a9f24df57d0ae0fa764db60c32925e2d8f00f18824b280e64cb0f393ffa60131",
+      "producer": "/root"
+    },
+    {
+      "id": "A109",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/.python-version",
+      "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A110",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/extract_pdf_text.py",
+      "sha256": "296cf000ca112bee2858c9e5ecfbbc2ea06c1ff01b404da9cc6fa4f6c7de3f4d",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A111",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/logs/extract.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A112",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/logs/extract.stdout.json",
+      "sha256": "780721d84c01977e690be58e20dd64b7aab4c6eae1ae90b56a38d33c0dcb938c",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A113",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/logs/local-clique-1210.6965.fetch.json",
+      "sha256": "6d3f50c7c4d7a773841c618adff5432fd9d8181c83760de8925fb6eeeb74fda8",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A114",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/logs/local-clique-1210.6965.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A115",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/logs/pdftotext-check.json",
+      "sha256": "aa7047e2b14516bf54f798318980a6f13281297829d4cdebf8b727662a8434b2",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A116",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/logs/pdftotext-check.stderr.txt",
+      "sha256": "2d9fcd90af6aa70f7b6c9db29454ff24cfbd7a9a676b4519ea086cbe44a3dcea",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A117",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/logs/pdftotext-check.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A118",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/logs/seal-attempt01.stderr.txt",
+      "sha256": "33492392819f23c2be3c6a28fdf00aed09dfb5192858ee8ee33895b20c759407",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A119",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/logs/seal-attempt01.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A120",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/logs/term-scan.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A121",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/logs/term-scan.stdout.txt",
+      "sha256": "6641aad34ec0c857883c397a0214eb0c4926e03608ebacd2b30df115c0c93ac2",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A122",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/logs/uv-lock.txt",
+      "sha256": "31c80175bf716369c917b0d412268519f52b32407427bc0cf7550436e5841481",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A123",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/logs/uv-sync.txt",
+      "sha256": "a44c04ee1ca6dc2b03c52e2438a9ada1cd2cd0911dc9ecdddf9c675cf224d705",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A124",
+      "kind": "source",
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/namespace-source-check.json",
+      "sha256": "757c8b776c545b9d0409a09de7f918f8c14fd8a15ff1a3c263fc1d0a549cedd0",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A125",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/publication-manifest.json",
+      "sha256": "1c10b10c7a0b77d431d3fa5871b77cba69a700ecd35b733b9179fbadebdd582f",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A126",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/pyproject.toml",
+      "sha256": "15ce4e660926cb7bf26c17f204a950176434594e01510c683295eb0e69fa932a",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A127",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/retrieval.json",
+      "sha256": "d467719ea0ec24d37928f205650a05581b49ec3104ffd285451e1a7ad1201979",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A128",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/review-seal.json",
+      "sha256": "f382c2414ed213f9ccc9cb140a739d53a3a4e4965016a3f8865d35b5f2f2f880",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A129",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/scan_terms.py",
+      "sha256": "0ef5e6325763d7c3577ee5b24096ec9d8ce54995c21f03739a6bbe0a0073c5f2",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A130",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/seal_review.py",
+      "sha256": "a5e12ff660b11bd0f18f6681a6698b5a82c2bc29df1fb9592a6a1dee15724af2",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A131",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/search-log.json",
+      "sha256": "d4729f46126963b4d7509eec9cc32b4cf5823720e87eb4b68da89bd46927585b",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A132",
+      "kind": "source",
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/source-notes.json",
+      "sha256": "c68fa80b81a003711dade344ad071167cb06ca18f383016882ac1875824b60b3",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A133",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/term-scan.json",
+      "sha256": "0039958b461c147dc40bfd478d16e12458b2b164a6334664650693a17dcdbcfc",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A134",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/uv.lock",
+      "sha256": "3290a914510b003fa591458e35b76f094c7d0e12508af46b0b6f060038a1e94c",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A135",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result/verdict.md",
+      "sha256": "b11486dd7506ce9582eccc3a7c69a22519d4bbf3956689f8bf41cd89b1a9ca73",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A136",
+      "kind": "source",
+      "path": "evidence/kemeny-pair-minimum/evidence/prior-art/post-result-root-notes.json",
+      "sha256": "feb916bf533eaf41d7b9058380e7c4b1b5b1ee90e47a497bba3e894efdb9d858",
+      "producer": "/root"
+    },
+    {
+      "id": "A137",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/evidence/proposed-claims.json",
+      "sha256": "aca8ab330d972ac32f62cbe5a28978df6d2c8e9d2ad3e9a5acde3c08dd66a762",
+      "producer": "/root"
+    },
+    {
+      "id": "A138",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/evidence/site-build/attempt-site-build-01.json",
+      "sha256": "94be3c3333a03d8fb62e9fe421571846b765736d03ebb6c7e5c490c01fe91489",
+      "producer": "/root"
+    },
+    {
+      "id": "A139",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/evidence/site-build/attempt-site-build-01.stderr.bin",
+      "sha256": "729d8972b51de5e2457a45b53681f0065959be096264bf3ccc0a93db9432920d",
+      "producer": "/root"
+    },
+    {
+      "id": "A140",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/evidence/site-build/attempt-site-build-01.stdout.bin",
+      "sha256": "345cb8fe5f3a01a105afa49f36244edc09908e8a7a4241e8cda8be4ddc07f7b9",
+      "producer": "/root"
+    },
+    {
+      "id": "A141",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/evidence/site-build/attempts.jsonl",
+      "sha256": "5b8342c2d29d6af6217f0bfe065e97d3826c9c1d98546b79c6ba46b4d0c50287",
+      "producer": "/root"
+    },
+    {
+      "id": "A142",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/evidence/strict-singleton-corollary-proposal.json",
+      "sha256": "0467c9b37bce74911f4e9673027ee031a74ff6a86400984350014e9e3c5be1e3",
+      "producer": "/root"
+    },
+    {
+      "id": "A143",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/integration/attempt-integration-01.json",
+      "sha256": "06a7c6228283d5351801ca2fdc68c2acd62c6cd8b8ee3370534b3e44b2c221c2",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A144",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/integration/attempt-integration-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A145",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/integration/attempt-integration-01.stdout.bin",
+      "sha256": "45c74510888adaf09c3a1ef4197d69feabd0e8c46a8a64d9b57420d311456d61",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A146",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/integration/attempts.jsonl",
+      "sha256": "fc3d4565af7363cb44194f0d27fc394d2bc261276724bc9ca16f05640bc228ee",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A147",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/preparation/attempt-prep-author-sync.json",
+      "sha256": "2a1ecc6bf1b3f82e6063c03ba30fc6aa66a1f932ee9e1c16f5eea7eeaa3f6baa",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A148",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/preparation/attempt-prep-author-sync.stderr.bin",
+      "sha256": "3ee0bf4cf33ef5545e86ba3b22add748344812cc139b9606e8359590ca28aae5",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A149",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/preparation/attempt-prep-author-sync.stdout.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A150",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/preparation/attempt-prep-freeze.json",
+      "sha256": "d51219e22fe18c42aaf063e17d758108715033a3157e5a6f2f15c834e8457c53",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A151",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/preparation/attempt-prep-freeze.stderr.bin",
+      "sha256": "dd7241fb9634d51d4b90a8782d9a26dd3fe2ada28ad873374b2d9b28b76827ef",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A152",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/preparation/attempt-prep-freeze.stdout.bin",
+      "sha256": "b6c031e112684275d6eb76408d242b93373bcdf999b94a4d949af79c45ed1e34",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A153",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/preparation/attempt-prep-independent-sync.json",
+      "sha256": "ade9363103e9a04934c8fa16c2b230d53afa6e1308a6f15c9c3bc3c1b08f3c8a",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A154",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/preparation/attempt-prep-independent-sync.stderr.bin",
+      "sha256": "d190b8595fc565ba65c2e404e997a3d7fc1546f9d351bf0f141bd2ad560e9a12",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A155",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/preparation/attempt-prep-independent-sync.stdout.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A156",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/preparation/attempt-prep-syntax.json",
+      "sha256": "ee0837a7ad1ed3f1dd705597cb960a1b9d7cd3a025e77cc09617d4aa1bd7e9ad",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A157",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/preparation/attempt-prep-syntax.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A158",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/preparation/attempt-prep-syntax.stdout.bin",
+      "sha256": "528c2551705050fd08b4d8d5fbccf64b4f5514e7bc31b48d5cf24fe18d81d335",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A159",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/preparation/attempts.jsonl",
+      "sha256": "54ce4798cfbc9160f0b5f0ba6a1388f314580dc858ecabb13f6384ed858f1b00",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A160",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/rejection/attempt-existing-dir-01.json",
+      "sha256": "d2dff4e50f1755eabc68a2c2c3cbd4d2475378b6b5b3116e785757921b6655e5",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A161",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/rejection/attempt-existing-dir-01.stderr.bin",
+      "sha256": "f97afaad642de4f5d96a287124da8f7e146c6e3ceebc44c831e25844b3b4a912",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A162",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/rejection/attempt-existing-dir-01.stdout.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A163",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/portable/evidence/rejection/attempts.jsonl",
+      "sha256": "f903878ae40bc3a1ca0d90f3713e5d606c841b85c93c5011eb244e77944c6d87",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A164",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/portable/existing-output-probe/sentinel.txt",
+      "sha256": "07a61bf1bdba1f8061b97415c9410e3f722a545e9dd3b7a1c56a4332529049ee",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A165",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/.gitignore",
+      "sha256": "325af892224415487af15dd748b3f099bbe386ef119b990ad6ae351cfe5a8e04",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A166",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/author/.python-version",
+      "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A167",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/author/census.py",
+      "sha256": "6560176884fc4ce67b8da38465867f0a89491f087794258c7bd627225b5d6341",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A168",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/author/portable_entry.py",
+      "sha256": "b3b587ec83bd67fd0080736a5094dc8fa0309e3f41377bde5b59d1b40cf4fb68",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A169",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/author/pyproject.toml",
+      "sha256": "728e600f9f2ddef2008f879ffb077957bc874c8d9ea7a66fcbe3c2230f4ca651",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A170",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/author/uv.lock",
+      "sha256": "afdad7f8e3c5b68a9effb77dc6c05ff1767fa6206aa14cecc21cc90b0acda073",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A171",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/baseline/author/graph-values.json",
+      "sha256": "8b4c070abde7153bfea2edf628e8d8188363dc65587a1fb750939c0ec6003327",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A172",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/baseline/author/pairs.jsonl",
+      "sha256": "1973ee7b63cd94d0e1e3171e88cce714c1d6853f766397967dfc0ed49a84f62c",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A173",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/baseline/author/published-p7.json",
+      "sha256": "d87979be4b43b44a89f3eb6c475976b3d25bf18975dc87128c50d6134d1096cf",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A174",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/baseline/author/summary.json",
+      "sha256": "14367bd2c8c9539206754f65b2da7b17baa5430cde97c33a070ddfc35ffc37f4",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A175",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/baseline/author/witnesses.json",
+      "sha256": "11667e046a4fff70fff23b5e7f501a7941def67c8067edd9034f56555a40b13f",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A176",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/baseline/independent/completeness.json",
+      "sha256": "4d0bd778eef0b9781f3d6931257f2d59ce1eaa2c50eee2d7c1c011d6dbc5dea7",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A177",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/baseline/independent/graph-values.json",
+      "sha256": "bf6c9fad7bb6f1473dbb55d4eb608d28481fc6548badca173907316cc3925f2b",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A178",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/baseline/independent/pairs.jsonl",
+      "sha256": "a3aa0acbc0f8ca592525344388d045afd926702dd4e9cbdd886c04b0b4ef2c64",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A179",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/baseline/independent/published-p7.json",
+      "sha256": "51354922fa541d010e0e12f8a8af2933b4c3f655b850a2eb465219b33e8b41bb",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A180",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/baseline/independent/summary.json",
+      "sha256": "a1f5c91e0c085d5e026dea901013c544c201fcfb24e05460952ddfad3f5370f4",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A181",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/baseline/independent/witnesses.json",
+      "sha256": "3e21183af71a6fa69e14a8f73084e1f20626a612c1c71f8341dfa88921939d8c",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A182",
+      "kind": "source",
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/data/graph2c.g6",
+      "sha256": "fae4bfc454bd04363dcd5222772f2973b1193e1ff6f676e822a427323a677ef9",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A183",
+      "kind": "source",
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/data/graph3c.g6",
+      "sha256": "5966edf890849db6cb03626431916231a81a30c9db9a4781a4a8f2e5dc7e6129",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A184",
+      "kind": "source",
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/data/graph4c.g6",
+      "sha256": "d7da485669f2dc74b81c02f18774a07430937684896833d59f138b10debb5005",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A185",
+      "kind": "source",
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/data/graph5c.g6",
+      "sha256": "3c436a6a15f554e3eff3ce9178fddd3d75db6d365b3c6b102b64afe82145050b",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A186",
+      "kind": "source",
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/data/graph6c.g6",
+      "sha256": "2dc8cbb1c05a12b5dcb28b6227cee86d585f203347f6aebb8fcbdb2b9bdf5fd7",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A187",
+      "kind": "source",
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/data/source-manifest.json",
+      "sha256": "e4a02bdeb62d8e6b0e68849b4aa3d65d9a37744578bebd48abe740fe94c52c7f",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A188",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/docs/contract-v1.md",
+      "sha256": "1ff78636c4dcadc7d8f9d6a3a36c144e193e5f90cbb970ab846c877cdf0c6ac6",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A189",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/independent/.python-version",
+      "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A190",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/independent/pyproject.toml",
+      "sha256": "fce7a8b02373c175639015a4aa39059cedf9614e2ab139f4de82d02efe9f59d6",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A191",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/independent/run_logged.py",
+      "sha256": "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A192",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/independent/uv.lock",
+      "sha256": "8989367db45d2529caae2472a11b4239266064167074f58adcb97b88867040ad",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A193",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/independent/verify_census.py",
+      "sha256": "3399bcfaef7aa81687ae6f5fd65d67f9adfa5618e8faeb38a8e556f789eb0399",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A194",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/preexecution-freeze.json",
+      "sha256": "8c490bc29364495c4eb3e154193824d8eb8cc8cd49828259745fee12a23adaea",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A195",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/README.md",
+      "sha256": "3f7767e0bc3fdadc27d417c303b29e7fcd344bc421031e0d0a8091ece8c06784",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A196",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/reproduce.py",
+      "sha256": "ed672109e11adbfd022c12010f3b34abd02d813cac8b085608588e5579672681",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A197",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/portable/experiments/kemeny-pair-minimum/source-pins.json",
+      "sha256": "a54738f15cdc11aa383a452e7a464be80aafe9eb3ad609e2313f65dfaa4b2b87",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A198",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/portable/freeze_package.py",
+      "sha256": "c84da0aa84ef74bea880500880390e1da5903f20f1e6f091bad4114350cb6fe2",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A199",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/author/graph-values.json",
+      "sha256": "8b4c070abde7153bfea2edf628e8d8188363dc65587a1fb750939c0ec6003327",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A200",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/author/pairs.jsonl",
+      "sha256": "1973ee7b63cd94d0e1e3171e88cce714c1d6853f766397967dfc0ed49a84f62c",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A201",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/author/published-p7.json",
+      "sha256": "d87979be4b43b44a89f3eb6c475976b3d25bf18975dc87128c50d6134d1096cf",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A202",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/author/summary.json",
+      "sha256": "14367bd2c8c9539206754f65b2da7b17baa5430cde97c33a070ddfc35ffc37f4",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A203",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/author/witnesses.json",
+      "sha256": "11667e046a4fff70fff23b5e7f501a7941def67c8067edd9034f56555a40b13f",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A204",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/independent/completeness.json",
+      "sha256": "4d0bd778eef0b9781f3d6931257f2d59ce1eaa2c50eee2d7c1c011d6dbc5dea7",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A205",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/independent/graph-values.json",
+      "sha256": "bf6c9fad7bb6f1473dbb55d4eb608d28481fc6548badca173907316cc3925f2b",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A206",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/independent/pairs.jsonl",
+      "sha256": "a3aa0acbc0f8ca592525344388d045afd926702dd4e9cbdd886c04b0b4ef2c64",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A207",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/independent/published-p7.json",
+      "sha256": "51354922fa541d010e0e12f8a8af2933b4c3f655b850a2eb465219b33e8b41bb",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A208",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/independent/summary.json",
+      "sha256": "a1f5c91e0c085d5e026dea901013c544c201fcfb24e05460952ddfad3f5370f4",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A209",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/independent/witnesses.json",
+      "sha256": "3e21183af71a6fa69e14a8f73084e1f20626a612c1c71f8341dfa88921939d8c",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A210",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/logs/attempt-portable-author.json",
+      "sha256": "cb75c47e9819333814d0e6835d12982caa779ce9b73cbec2c59dda82a9d8e28d",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A211",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/logs/attempt-portable-author.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A212",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/logs/attempt-portable-author.stdout.bin",
+      "sha256": "ddae227ff51a2f047a7256a2619397b946062234115d00ed9075fdf0a6698200",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A213",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/logs/attempt-portable-independent.json",
+      "sha256": "06fe59be9a956b9f7298bbdab3c4b55583aed8ab398dbcb7b364780a0441e086",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A214",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/logs/attempt-portable-independent.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A215",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/logs/attempt-portable-independent.stdout.bin",
+      "sha256": "5d0a095503392a34fc13141edaff7ae607572bfba63bd9b9166ca9a5f4d36040",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A216",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/logs/attempts.jsonl",
+      "sha256": "1898bb4cd77bc1039a611cc1d7d46326b5f8961a624a962fd6a8909d9148a559",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A217",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/logs/author.command.json",
+      "sha256": "8c751dbfe8ec8d1a399ab6a2d5fdc7f62f55f8888b2942dab31db53089ac505a",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A218",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/logs/author.wrapper.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A219",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/logs/author.wrapper.stdout.bin",
+      "sha256": "23b005f7cd51a3886df2000404da5d4c0df2bafc3c7b2e8b68f5e2124592ed91",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A220",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/logs/independent.command.json",
+      "sha256": "2fb5868874a3b31af95eced90fbfb9a447034346a592e878a84fca07319ead9f",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A221",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/logs/independent.wrapper.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A222",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/logs/independent.wrapper.stdout.bin",
+      "sha256": "9106764b3d50b79c9fdf8c8127f62e02dbcea22e56aa32b2d1ae10b693a820b3",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A223",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/logs/runner.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A224",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/logs/runner.stdout.txt",
+      "sha256": "45c74510888adaf09c3a1ef4197d69feabd0e8c46a8a64d9b57420d311456d61",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A225",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/portable/integration-run-01/run.json",
+      "sha256": "096c85f7dea51516b2038b8585b42d4bc266ca1bb398663fde5207cdab51b08d",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A226",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/portable/result-manifest.json",
+      "sha256": "d5bbdd58126de29f2db378c08a287ac4d28272569ee386aa2347fbc6f898f420",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A227",
+      "kind": "code",
+      "path": "evidence/kemeny-pair-minimum/portable/seal_results.py",
+      "sha256": "5948318a46744b078df115264dfb2482bd3e88c9f23e93c196806d8b340d1399",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A228",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/process-correction/author-run-02/graph-values.json",
+      "sha256": "8b4c070abde7153bfea2edf628e8d8188363dc65587a1fb750939c0ec6003327",
+      "producer": "/root"
+    },
+    {
+      "id": "A229",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/process-correction/author-run-02/pairs.jsonl",
+      "sha256": "1973ee7b63cd94d0e1e3171e88cce714c1d6853f766397967dfc0ed49a84f62c",
+      "producer": "/root"
+    },
+    {
+      "id": "A230",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/process-correction/author-run-02/published-p7.json",
+      "sha256": "d87979be4b43b44a89f3eb6c475976b3d25bf18975dc87128c50d6134d1096cf",
+      "producer": "/root"
+    },
+    {
+      "id": "A231",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/process-correction/author-run-02/summary.json",
+      "sha256": "14367bd2c8c9539206754f65b2da7b17baa5430cde97c33a070ddfc35ffc37f4",
+      "producer": "/root"
+    },
+    {
+      "id": "A232",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/process-correction/author-run-02/witnesses.json",
+      "sha256": "11667e046a4fff70fff23b5e7f501a7941def67c8067edd9034f56555a40b13f",
+      "producer": "/root"
+    },
+    {
+      "id": "A233",
+      "kind": "result",
+      "path": "evidence/kemeny-pair-minimum/process-correction/comparison.json",
+      "sha256": "83163cbc70e953684bf15ddeb8dd7e112260d2872099744719326c852912ace3",
+      "producer": "/root"
+    },
+    {
+      "id": "A234",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/process-correction/freeze.json",
+      "sha256": "387e46dd4e66e2b2f08f2b5e849f59c989817038007fa08a7ae8277f71174703",
+      "producer": "/root"
+    },
+    {
+      "id": "A235",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/process-correction/logs/attempt-author-correction-02.json",
+      "sha256": "c70d75d589fa4ea4aaa14bcb0a14eaf2bd5c03befbc46442c0c4231602343078",
+      "producer": "/root"
+    },
+    {
+      "id": "A236",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/process-correction/logs/attempt-author-correction-02.stderr.bin",
+      "sha256": "220cb9dce899c1053834fa234a4dcf4941c9bb27ccc936ca2d76d8a5fa7bcd8c",
+      "producer": "/root"
+    },
+    {
+      "id": "A237",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/process-correction/logs/attempt-author-correction-02.stdout.bin",
+      "sha256": "dcb2e345ea0587bc294033ae7deb78a4a91503294679d23ae8ad1e112ae15bb0",
+      "producer": "/root"
+    },
+    {
+      "id": "A238",
+      "kind": "log",
+      "path": "evidence/kemeny-pair-minimum/process-correction/logs/attempts.jsonl",
+      "sha256": "ca4db46f9ed0d0a56a3c8b7a5c0f5232efe7534b677e8735d505ca606a4924e1",
+      "producer": "/root"
+    },
+    {
+      "id": "A239",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/README.md",
+      "sha256": "e82c8b25b369420c43561730c248990af02851c72fdd21682719fa3082c3b7c4",
+      "producer": "/root"
+    },
+    {
+      "id": "A240",
+      "kind": "report",
+      "path": "experiments/kemeny-pair-minimum/.gitignore",
+      "sha256": "325af892224415487af15dd748b3f099bbe386ef119b990ad6ae351cfe5a8e04",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A241",
+      "kind": "code",
+      "path": "experiments/kemeny-pair-minimum/author/.python-version",
+      "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A242",
+      "kind": "code",
+      "path": "experiments/kemeny-pair-minimum/author/census.py",
+      "sha256": "6560176884fc4ce67b8da38465867f0a89491f087794258c7bd627225b5d6341",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A243",
+      "kind": "code",
+      "path": "experiments/kemeny-pair-minimum/author/portable_entry.py",
+      "sha256": "b3b587ec83bd67fd0080736a5094dc8fa0309e3f41377bde5b59d1b40cf4fb68",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A244",
+      "kind": "code",
+      "path": "experiments/kemeny-pair-minimum/author/pyproject.toml",
+      "sha256": "728e600f9f2ddef2008f879ffb077957bc874c8d9ea7a66fcbe3c2230f4ca651",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A245",
+      "kind": "code",
+      "path": "experiments/kemeny-pair-minimum/author/uv.lock",
+      "sha256": "afdad7f8e3c5b68a9effb77dc6c05ff1767fa6206aa14cecc21cc90b0acda073",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A246",
+      "kind": "result",
+      "path": "experiments/kemeny-pair-minimum/baseline/author/graph-values.json",
+      "sha256": "8b4c070abde7153bfea2edf628e8d8188363dc65587a1fb750939c0ec6003327",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A247",
+      "kind": "result",
+      "path": "experiments/kemeny-pair-minimum/baseline/author/pairs.jsonl",
+      "sha256": "1973ee7b63cd94d0e1e3171e88cce714c1d6853f766397967dfc0ed49a84f62c",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A248",
+      "kind": "result",
+      "path": "experiments/kemeny-pair-minimum/baseline/author/published-p7.json",
+      "sha256": "d87979be4b43b44a89f3eb6c475976b3d25bf18975dc87128c50d6134d1096cf",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A249",
+      "kind": "result",
+      "path": "experiments/kemeny-pair-minimum/baseline/author/summary.json",
+      "sha256": "14367bd2c8c9539206754f65b2da7b17baa5430cde97c33a070ddfc35ffc37f4",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A250",
+      "kind": "result",
+      "path": "experiments/kemeny-pair-minimum/baseline/author/witnesses.json",
+      "sha256": "11667e046a4fff70fff23b5e7f501a7941def67c8067edd9034f56555a40b13f",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A251",
+      "kind": "result",
+      "path": "experiments/kemeny-pair-minimum/baseline/independent/completeness.json",
+      "sha256": "4d0bd778eef0b9781f3d6931257f2d59ce1eaa2c50eee2d7c1c011d6dbc5dea7",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A252",
+      "kind": "result",
+      "path": "experiments/kemeny-pair-minimum/baseline/independent/graph-values.json",
+      "sha256": "bf6c9fad7bb6f1473dbb55d4eb608d28481fc6548badca173907316cc3925f2b",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A253",
+      "kind": "result",
+      "path": "experiments/kemeny-pair-minimum/baseline/independent/pairs.jsonl",
+      "sha256": "a3aa0acbc0f8ca592525344388d045afd926702dd4e9cbdd886c04b0b4ef2c64",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A254",
+      "kind": "result",
+      "path": "experiments/kemeny-pair-minimum/baseline/independent/published-p7.json",
+      "sha256": "51354922fa541d010e0e12f8a8af2933b4c3f655b850a2eb465219b33e8b41bb",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A255",
+      "kind": "result",
+      "path": "experiments/kemeny-pair-minimum/baseline/independent/summary.json",
+      "sha256": "a1f5c91e0c085d5e026dea901013c544c201fcfb24e05460952ddfad3f5370f4",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A256",
+      "kind": "result",
+      "path": "experiments/kemeny-pair-minimum/baseline/independent/witnesses.json",
+      "sha256": "3e21183af71a6fa69e14a8f73084e1f20626a612c1c71f8341dfa88921939d8c",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A257",
+      "kind": "source",
+      "path": "experiments/kemeny-pair-minimum/data/graph2c.g6",
+      "sha256": "fae4bfc454bd04363dcd5222772f2973b1193e1ff6f676e822a427323a677ef9",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A258",
+      "kind": "source",
+      "path": "experiments/kemeny-pair-minimum/data/graph3c.g6",
+      "sha256": "5966edf890849db6cb03626431916231a81a30c9db9a4781a4a8f2e5dc7e6129",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A259",
+      "kind": "source",
+      "path": "experiments/kemeny-pair-minimum/data/graph4c.g6",
+      "sha256": "d7da485669f2dc74b81c02f18774a07430937684896833d59f138b10debb5005",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A260",
+      "kind": "source",
+      "path": "experiments/kemeny-pair-minimum/data/graph5c.g6",
+      "sha256": "3c436a6a15f554e3eff3ce9178fddd3d75db6d365b3c6b102b64afe82145050b",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A261",
+      "kind": "source",
+      "path": "experiments/kemeny-pair-minimum/data/graph6c.g6",
+      "sha256": "2dc8cbb1c05a12b5dcb28b6227cee86d585f203347f6aebb8fcbdb2b9bdf5fd7",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A262",
+      "kind": "source",
+      "path": "experiments/kemeny-pair-minimum/data/source-manifest.json",
+      "sha256": "e4a02bdeb62d8e6b0e68849b4aa3d65d9a37744578bebd48abe740fe94c52c7f",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A263",
+      "kind": "report",
+      "path": "experiments/kemeny-pair-minimum/docs/contract-v1.md",
+      "sha256": "1ff78636c4dcadc7d8f9d6a3a36c144e193e5f90cbb970ab846c877cdf0c6ac6",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A264",
+      "kind": "code",
+      "path": "experiments/kemeny-pair-minimum/independent/.python-version",
+      "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A265",
+      "kind": "code",
+      "path": "experiments/kemeny-pair-minimum/independent/pyproject.toml",
+      "sha256": "fce7a8b02373c175639015a4aa39059cedf9614e2ab139f4de82d02efe9f59d6",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A266",
+      "kind": "code",
+      "path": "experiments/kemeny-pair-minimum/independent/run_logged.py",
+      "sha256": "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A267",
+      "kind": "code",
+      "path": "experiments/kemeny-pair-minimum/independent/uv.lock",
+      "sha256": "8989367db45d2529caae2472a11b4239266064167074f58adcb97b88867040ad",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A268",
+      "kind": "code",
+      "path": "experiments/kemeny-pair-minimum/independent/verify_census.py",
+      "sha256": "3399bcfaef7aa81687ae6f5fd65d67f9adfa5618e8faeb38a8e556f789eb0399",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A269",
+      "kind": "report",
+      "path": "experiments/kemeny-pair-minimum/preexecution-freeze.json",
+      "sha256": "8c490bc29364495c4eb3e154193824d8eb8cc8cd49828259745fee12a23adaea",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A270",
+      "kind": "report",
+      "path": "experiments/kemeny-pair-minimum/README.md",
+      "sha256": "3f7767e0bc3fdadc27d417c303b29e7fcd344bc421031e0d0a8091ece8c06784",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A271",
+      "kind": "code",
+      "path": "experiments/kemeny-pair-minimum/reproduce.py",
+      "sha256": "ed672109e11adbfd022c12010f3b34abd02d813cac8b085608588e5579672681",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A272",
+      "kind": "report",
+      "path": "experiments/kemeny-pair-minimum/source-pins.json",
+      "sha256": "a54738f15cdc11aa383a452e7a464be80aafe9eb3ad609e2313f65dfaa4b2b87",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "id": "A273",
+      "kind": "code",
+      "path": ".github/workflows/kemeny-pair.yml",
+      "sha256": "265beb623e16cec99b81dfd8532f6d96b56fd6daa173c47b47a5e3158038aae2",
+      "producer": "/root"
+    },
+    {
+      "id": "A274",
+      "kind": "code",
+      "path": ".gitignore",
+      "sha256": "85b44472a95675179078d0db7c19e41da9ebe5327298096af2f4da6f4d1cfa48",
+      "producer": "/root"
+    },
+    {
+      "id": "A275",
+      "kind": "report",
+      "path": "README.md",
+      "sha256": "8f1647d488484874213a5b056a667bfe5c303b6017b1c73a62debd9a5f28acd8",
+      "producer": "/root"
+    },
+    {
+      "id": "A276",
+      "kind": "code",
+      "path": "data/atlas.json",
+      "sha256": "6d0b37a4f7bdd7181b45d464bb5ea5f038cd097e33d56140c8beb74a3158276d",
+      "producer": "/root"
+    },
+    {
+      "id": "A277",
+      "kind": "code",
+      "path": "lib/atlas.ts",
+      "sha256": "5d5e666c98eb2a1392a109fc1678b52bed736beb87975173ae81155e95c32812",
+      "producer": "/root"
+    },
+    {
+      "id": "A278",
+      "kind": "code",
+      "path": "lib/use-atlas-tools.ts",
+      "sha256": "04cc7a2700f225cab9d1884931f4e416433951bb20d60248bb5af06400873dca",
+      "producer": "/root"
+    },
+    {
+      "id": "A279",
+      "kind": "code",
+      "path": "components/atlas-map.tsx",
+      "sha256": "9913b1f3496210bf878b0da92275ea8011da3d52d20d379cdfe45d1ce146bd26",
+      "producer": "/root"
+    },
+    {
+      "id": "A280",
+      "kind": "code",
+      "path": "app/page.tsx",
+      "sha256": "21500cf3c158b7f98543d79b62ab8871f023793fa402ab0865f17f8571a14070",
+      "producer": "/root"
+    },
+    {
+      "id": "A281",
+      "kind": "code",
+      "path": "package.json",
+      "sha256": "4995cbbd54b3038468bb9393a0413ffcd6927ce1a040c53e23544c7ec71f68dd",
+      "producer": "/root"
+    },
+    {
+      "id": "A282",
+      "kind": "code",
+      "path": "package-lock.json",
+      "sha256": "59f2697b0a268b4b20033bab4a8ba156ec21d7bd709350482264061509ec56f7",
+      "producer": "/root"
+    },
+    {
+      "id": "A283",
+      "kind": "report",
+      "path": "evidence/kemeny-pair-minimum/project-transfer.json",
+      "sha256": "4b98490034882b17ad2052d6487937468163bfb301e556054e7fd20044aaa8ca",
+      "producer": "/root"
+    },
+    {
+      "id": "A284",
+      "kind": "report",
+      "path": "README-kemeny.md",
+      "sha256": "2761e3d592c5816511e2f1a90c1a2a7bc09224d71c52fa323bd49d26d71ed47f",
+      "producer": "/root"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C001",
+      "type": "citation",
+      "statement": "Faught, Kempton and Knudson's 2021 preprint already supplies the strict-increase Braess-set convention, the exact resistance formula and a P7 pair example; those are reused prior work.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A004",
+          "locator": "json:/primary_sources/0/id",
+          "expected": "faught-kempton-knudson-2021"
+        },
+        {
+          "artifact_id": "A004",
+          "locator": "json:/primary_sources/0/claim_locators"
+        },
+        {
+          "artifact_id": "A005",
+          "locator": "contains:P7"
+        }
+      ]
+    },
+    {
+      "id": "C002",
+      "type": "numerical",
+      "statement": "The complete orders-2-through-6 census contains 142 connected representatives and 2390 unordered distinct-nonedge pairs, with full labelled orbit-union coverage and no omitted zero-pair source rows.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A055",
+          "locator": "json:/per_graph_comparison/shared_count",
+          "expected": 142
+        },
+        {
+          "artifact_id": "A055",
+          "locator": "json:/pair_comparison/shared_count",
+          "expected": 2390
+        },
+        {
+          "artifact_id": "A055",
+          "locator": "json:/completeness_internal_checks/pass",
+          "expected": true
+        },
+        {
+          "artifact_id": "A072"
+        },
+        {
+          "artifact_id": "A044"
+        }
+      ]
+    },
+    {
+      "id": "C003",
+      "type": "numerical",
+      "statement": "The displayed six-vertex E?zW graph and additions {1,2},{3,4} have exact K values 135/28,77/16,135/28,1229/252; their singleton changes are -1/112 and exactly zero, with joint change +1/18.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A047",
+          "locator": "json:/witnesses/0/source_graph6",
+          "expected": "E?zW"
+        },
+        {
+          "artifact_id": "A047",
+          "locator": "json:/witnesses/0/base_edges",
+          "expected": [
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ]
+        },
+        {
+          "artifact_id": "A047",
+          "locator": "json:/witnesses/0/added_edges",
+          "expected": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        {
+          "artifact_id": "A047",
+          "locator": "json:/witnesses/0/kemeny",
+          "expected": {
+            "base": {
+              "numerator": 135,
+              "denominator": 28
+            },
+            "single_e": {
+              "numerator": 77,
+              "denominator": 16
+            },
+            "single_f": {
+              "numerator": 135,
+              "denominator": 28
+            },
+            "joint": {
+              "numerator": 1229,
+              "denominator": 252
+            }
+          }
+        },
+        {
+          "artifact_id": "A047",
+          "locator": "json:/witnesses/0/deltas",
+          "expected": {
+            "single_e_minus_base": {
+              "numerator": -1,
+              "denominator": 112
+            },
+            "single_f_minus_base": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "joint_minus_base": {
+              "numerator": 1,
+              "denominator": 18
+            }
+          }
+        },
+        {
+          "artifact_id": "A055",
+          "locator": "json:/witness_comparison/pass",
+          "expected": true
+        }
+      ]
+    },
+    {
+      "id": "C004",
+      "type": "numerical",
+      "statement": "The author and blind independent evaluators agree exactly on all 1848 stored graph states, all 2390 pair rows and the fixed published P7 replay, with no stored-output integrity issues in the comparison.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A055",
+          "locator": "json:/graph_state_comparison/shared_count",
+          "expected": 1848
+        },
+        {
+          "artifact_id": "A055",
+          "locator": "json:/graph_state_comparison/value_mismatch_count",
+          "expected": 0
+        },
+        {
+          "artifact_id": "A055",
+          "locator": "json:/pair_comparison/shared_count",
+          "expected": 2390
+        },
+        {
+          "artifact_id": "A055",
+          "locator": "json:/pair_comparison/value_mismatch_count",
+          "expected": 0
+        },
+        {
+          "artifact_id": "A055",
+          "locator": "json:/published_p7_comparison/pass",
+          "expected": true
+        },
+        {
+          "artifact_id": "A055",
+          "locator": "json:/stored_output_integrity_issues",
+          "expected": []
+        }
+      ]
+    },
+    {
+      "id": "C005",
+      "type": "methodological",
+      "statement": "The two computations use separate exact implementations: grounded-Laplacian resistances with SymPy and an independently implemented characteristic-polynomial calculation with standard-library Fraction. The independent census outputs were sealed before access to author results.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A021"
+        },
+        {
+          "artifact_id": "A080"
+        },
+        {
+          "artifact_id": "A070"
+        },
+        {
+          "artifact_id": "A041"
+        },
+        {
+          "artifact_id": "A066"
+        },
+        {
+          "artifact_id": "A063",
+          "locator": "json:/blinding",
+          "expected": {
+            "author_directory_read": false,
+            "author_code_read": false,
+            "author_results_or_verdicts_read": false
+          }
+        },
+        {
+          "artifact_id": "A061"
+        }
+      ]
+    },
+    {
+      "id": "C006",
+      "type": "conclusion",
+      "statement": "For finite connected simple undirected unweighted graphs with the frozen Kemeny convention and singleton changes <=0, the minimum vertex count allowing a jointly strictly increasing pair is six. The positive six-vertex witness and complete exclusion of all smaller orders suffice; this is not a classification of larger graphs, a strict-singleton-decrease theorem, or a claim of publication novelty.",
+      "status": "supported",
+      "supports": [
+        {
+          "claim_id": "C002"
+        },
+        {
+          "claim_id": "C003"
+        },
+        {
+          "claim_id": "C004"
+        },
+        {
+          "claim_id": "C005"
+        },
+        {
+          "artifact_id": "A001"
+        },
+        {
+          "artifact_id": "A091",
+          "locator": "json:/finite_census_minimum_logic/lower_order_witness_counts",
+          "expected": {
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          }
+        },
+        {
+          "artifact_id": "A055",
+          "locator": "json:/result/candidate_minimum_order",
+          "expected": 6
+        }
+      ]
+    },
+    {
+      "id": "C007",
+      "type": "conclusion",
+      "statement": "As a post-hoc secondary corollary in the same graph class, requiring both singleton changes to be strictly negative gives minimum order seven: there are no strict witnesses through six, while the already fixed published P7 has singleton changes -1/14,-1/14 and joint change +1/24. This uses unchanged outputs and does not redefine the primary question or establish novelty.",
+      "status": "supported",
+      "supports": [
+        {
+          "claim_id": "C002"
+        },
+        {
+          "claim_id": "C003"
+        },
+        {
+          "claim_id": "C004"
+        },
+        {
+          "claim_id": "C006"
+        },
+        {
+          "artifact_id": "A055",
+          "locator": "json:/result/qualifying_witness_count_through_order_6",
+          "expected": 1
+        },
+        {
+          "artifact_id": "A048",
+          "locator": "json:/deltas",
+          "expected": {
+            "single_e_minus_base": {
+              "numerator": -1,
+              "denominator": 14
+            },
+            "single_f_minus_base": {
+              "numerator": -1,
+              "denominator": 14
+            },
+            "joint_minus_base": {
+              "numerator": 1,
+              "denominator": 24
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "C008",
+      "type": "numerical",
+      "statement": "The source-backed atlas extension adds two concepts, four relations, two primary sources, one learning journey and one modelling task, for totals of 33 concepts, 44 relations, nine sources, four journeys and six contribution tasks. The map itself adds no census-result or novelty claim.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A096",
+          "locator": "json:/added_counts",
+          "expected": {
+            "nodes": 2,
+            "edges": 4,
+            "sources": 2,
+            "journeys": 1,
+            "opportunities": 1
+          }
+        },
+        {
+          "artifact_id": "A096",
+          "locator": "json:/counts",
+          "expected": {
+            "nodes": 33,
+            "edges": 44,
+            "sources": 9,
+            "journeys": 4,
+            "opportunities": 6
+          }
+        },
+        {
+          "artifact_id": "A098",
+          "locator": "json:/overall_status",
+          "expected": "pass_scoped"
+        }
+      ]
+    },
+    {
+      "id": "C009",
+      "type": "numerical",
+      "statement": "The portable integration replay reproduces all eleven deterministic author and independent output files byte for byte while preserving both frozen mathematical implementations; it is a packaging replay, not a new search or novelty certificate.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A225",
+          "locator": "json:/deterministic_file_count",
+          "expected": 11
+        },
+        {
+          "artifact_id": "A225",
+          "locator": "json:/all_byte_identical",
+          "expected": true
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "implementation_alignment",
+      "status": "pending",
+      "auditor": "unassigned",
+      "evidence": [],
+      "note": ""
+    },
+    {
+      "id": "reproduction",
+      "status": "pending",
+      "auditor": "unassigned",
+      "evidence": [],
+      "note": ""
+    },
+    {
+      "id": "source_verification",
+      "status": "pending",
+      "auditor": "unassigned",
+      "evidence": [],
+      "note": ""
+    },
+    {
+      "id": "specification_compliance",
+      "status": "pending",
+      "auditor": "unassigned",
+      "evidence": [],
+      "note": ""
+    }
+  ],
+  "limitations": [
+    "Publication novelty, first-known status, real-world impact and full mathematical coverage are not established.",
+    "The frozen primary predicate permits neutral singleton changes; the strict-singleton minimum is an explicitly post-hoc logical corollary from unchanged outputs.",
+    "Original author wrapper ownership deviated from the contract; the original record is retained, and an auditor-owned-wrapper corrective run reproduced all five outputs exactly.",
+    "The unchanged author mathematical module contains its historical machine-specific contract path. The portable adapter rebinds only that path to a hash-identical packaged contract.",
+    "Historical records retain their original provisional labels and absolute staging paths. Current publication status is attested separately by the final independent review and this gate.",
+    "The atlas extension adds source-backed concepts and a modelling task, with no experimental minimum or novelty claim inserted into the curated map.",
+    "Focused WebMCP contract checks are retained; general visual or responsive browser QA was not performed."
+  ]
+}

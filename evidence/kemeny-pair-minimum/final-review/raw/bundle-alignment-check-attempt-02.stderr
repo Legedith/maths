@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "D:\CodexWorkspaces\mathematics-atlas\kemeny-final-review-work\bundle_alignment_check.py", line 147, in <module>
+    main()
+  File "D:\CodexWorkspaces\mathematics-atlas\kemeny-final-review-work\bundle_alignment_check.py", line 118, in main
+    assert statement in report_text, statement
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: The original author run used an author-owned logging wrapper

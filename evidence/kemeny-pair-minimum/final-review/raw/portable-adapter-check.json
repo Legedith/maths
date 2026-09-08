@@ -1,0 +1,275 @@
+{
+  "adapter_alignment": {
+    "author_adapter_effect": "Hash-check the unchanged census and packaged contract, assign only the imported module's CONTRACT_PATH, then call the unchanged run_census with resolved explicit paths.",
+    "author_adapter_sha256": "b3b587ec83bd67fd0080736a5094dc8fa0309e3f41377bde5b59d1b40cf4fb68",
+    "no_mathematical_predicate_or_evaluator_change": true,
+    "runner_effect": "Verify 27 pinned package files, select pinned uv projects, remove inherited VIRTUAL_ENV, invoke both unchanged evaluators through the sealed independent wrapper, retain raw logs, and compare the exact expected output file sets byte-for-byte.",
+    "runner_sha256": "ed672109e11adbfd022c12010f3b34abd02d813cac8b085608588e5579672681",
+    "status": "pass"
+  },
+  "auditor": "/root/sol_symmetry_audit",
+  "inputs": {
+    "integration_run": {
+      "bytes": 24272,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-portable-work\\integration-run-01\\run.json",
+      "sha256": "096c85f7dea51516b2038b8585b42d4bc266ca1bb398663fde5207cdab51b08d"
+    },
+    "preexecution_freeze": {
+      "bytes": 7023,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-portable-work\\experiments\\kemeny-pair-minimum\\preexecution-freeze.json",
+      "sha256": "8c490bc29364495c4eb3e154193824d8eb8cc8cd49828259745fee12a23adaea"
+    },
+    "result_manifest": {
+      "bytes": 24483,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-portable-work\\result-manifest.json",
+      "sha256": "d5bbdd58126de29f2db378c08a287ac4d28272569ee386aa2347fbc6f898f420"
+    },
+    "source_pins": {
+      "bytes": 6138,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-portable-work\\experiments\\kemeny-pair-minimum\\source-pins.json",
+      "sha256": "a54738f15cdc11aa383a452e7a464be80aafe9eb3ad609e2313f65dfaa4b2b87"
+    }
+  },
+  "integration_reproduction": {
+    "all_outputs_byte_identical": true,
+    "children": [
+      {
+        "duration_seconds": 10.844000000040978,
+        "implementation": "author",
+        "return_code": 0,
+        "timed_out": false
+      },
+      {
+        "duration_seconds": 4.702999999979511,
+        "implementation": "independent",
+        "return_code": 0,
+        "timed_out": false
+      }
+    ],
+    "deterministic_file_count": 11,
+    "python_version": "3.12.11",
+    "status": "pass_on_recorded_windows_environment",
+    "uv_version": "uv 0.8.19 (fc7c2f8b5 2025-09-19)"
+  },
+  "limitations": [
+    "The retained integration replay was executed on Windows 10. Static review finds a POSIX process-group branch and no staging-specific path in the portable flow, but this audit does not claim an observed Ubuntu replay.",
+    "The package reproduces two frozen finite computations; it is not a third mathematical implementation and adds no novelty or performance evidence.",
+    "The source-pins manifest protects every mathematical input, environment lock, wrapper and baseline. The adapter and runner are instead pinned by the preexecution freeze and final result manifest, as expected for code that reads source-pins.json."
+  ],
+  "manifest_integrity": {
+    "all_current_non_environment_files_exactly_accounted_for": true,
+    "all_recorded_bytes_and_sha256_match": true,
+    "artifact_count": 84,
+    "status": "pass"
+  },
+  "no_overwrite_boundary": {
+    "child_output_must_not_exist": true,
+    "output_inside_package_rejected_by_resolved_path_check": true,
+    "recorded_existing_directory_probe_child_invocations": 0,
+    "recorded_existing_directory_probe_returncode": 2,
+    "recorded_sentinel_unchanged": true,
+    "root_output_must_not_exist": true,
+    "status": "pass"
+  },
+  "schema_version": "kemeny-portable-adapter-independent-check-v1",
+  "source_alignment": {
+    "all_pinned_package_files_byte_identical_to_sealed_upstream": true,
+    "author_mathematical_source_unchanged": true,
+    "checks": [
+      {
+        "byte_identical_to_sealed_upstream": true,
+        "bytes": 8,
+        "path": "author/.python-version",
+        "role": "author_environment",
+        "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d"
+      },
+      {
+        "byte_identical_to_sealed_upstream": true,
+        "bytes": 236,
+        "path": "author/pyproject.toml",
+        "role": "author_environment",
+        "sha256": "728e600f9f2ddef2008f879ffb077957bc874c8d9ea7a66fcbe3c2230f4ca651"
+      },
+      {
+        "byte_identical_to_sealed_upstream": true,
+        "bytes": 1691,
+        "path": "author/uv.lock",
+        "role": "author_environment",
+        "sha256": "afdad7f8e3c5b68a9effb77dc6c05ff1767fa6206aa14cecc21cc90b0acda073"
+      },
+      {
+        "byte_identical_to_sealed_upstream": true,
+        "bytes": 36833,
+        "path": "author/census.py",
+        "role": "author_mathematical_code",
+        "sha256": "6560176884fc4ce67b8da38465867f0a89491f087794258c7bd627225b5d6341"
+      },
+      {
+        "byte_identical_to_sealed_upstream": true,
+        "bytes": 8,
+        "path": "independent/.python-version",
+        "role": "independent_environment",
+        "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d"
+      },
+      {
+        "byte_identical_to_sealed_upstream": true,
+        "bytes": 223,
+        "path": "independent/pyproject.toml",
+        "role": "independent_environment",
+        "sha256": "fce7a8b02373c175639015a4aa39059cedf9614e2ab139f4de82d02efe9f59d6"
+      },
+      {
+        "byte_identical_to_sealed_upstream": true,
+        "bytes": 150,
+        "path": "independent/uv.lock",
+        "role": "independent_environment",
+        "sha256": "8989367db45d2529caae2472a11b4239266064167074f58adcb97b88867040ad"
+      },
+      {
+        "byte_identical_to_sealed_upstream": true,
+        "bytes": 36772,
+        "path": "independent/verify_census.py",
+        "role": "independent_mathematical_code",
+        "sha256": "3399bcfaef7aa81687ae6f5fd65d67f9adfa5618e8faeb38a8e556f789eb0399"
+      },
+      {
+        "byte_identical_to_sealed_upstream": true,
+        "bytes": 4600,
+        "path": "independent/run_logged.py",
+        "role": "independent_auditor_logging_wrapper",
+        "sha256": "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6"
+      },
+      {
+        "byte_identical_to_sealed_upstream": true,
+        "bytes": 10309,
+        "path": "docs/contract-v1.md",
+        "role": "frozen_contract",
+        "sha256": "1ff78636c4dcadc7d8f9d6a3a36c144e193e5f90cbb970ab846c877cdf0c6ac6"
+      },
+      {
+        "byte_identical_to_sealed_upstream": true,
+        "bytes": 2505,
+        "path": "data/source-manifest.json",
+        "role": "source_manifest",
+        "sha256": "e4a02bdeb62d8e6b0e68849b4aa3d65d9a37744578bebd48abe740fe94c52c7f"
+      },
+      {
+        "byte_identical_to_sealed_upstream": true,
+        "bytes": 3,
+        "path": "data/graph2c.g6",
+        "role": "graph6_input",
+        "sha256": "fae4bfc454bd04363dcd5222772f2973b1193e1ff6f676e822a427323a677ef9"
+      },
+      {
+        "byte_identical_to_sealed_upstream": true,
+        "bytes": 6,
+        "path": "data/graph3c.g6",
+        "role": "graph6_input",
+        "sha256": "5966edf890849db6cb03626431916231a81a30c9db9a4781a4a8f2e5dc7e6129"
+      },
+      {
+        "byte_identical_to_sealed_upstream": true,
+        "bytes": 18,
+        "path": "data/graph4c.g6",
+        "role": "graph6_input",
+        "sha256": "d7da485669f2dc74b81c02f18774a07430937684896833d59f138b10debb5005"
+      },
+      {
+        "byte_identical_to_sealed_upstream": true,
+        "bytes": 84,
+        "path": "data/graph5c.g6",
+        "role": "graph6_input",
+        "sha256": "3c436a6a15f554e3eff3ce9178fddd3d75db6d365b3c6b102b64afe82145050b"
+      },
+      {
+        "byte_identical_to_sealed_upstream": true,
+        "bytes": 560,
+        "path": "data/graph6c.g6",
+        "role": "graph6_input",
+        "sha256": "2dc8cbb1c05a12b5dcb28b6227cee86d585f203347f6aebb8fcbdb2b9bdf5fd7"
+      },
+      {
+        "byte_identical_to_sealed_upstream": true,
+        "bytes": 181512,
+        "path": "baseline/author/summary.json",
+        "role": "author_baseline",
+        "sha256": "14367bd2c8c9539206754f65b2da7b17baa5430cde97c33a070ddfc35ffc37f4"
+      },
+      {
+        "byte_identical_to_sealed_upstream": true,
+        "bytes": 2690990,
+        "path": "baseline/author/graph-values.json",
+        "role": "author_baseline",
+        "sha256": "8b4c070abde7153bfea2edf628e8d8188363dc65587a1fb750939c0ec6003327"
+      },
+      {
+        "byte_identical_to_sealed_upstream": true,
+        "bytes": 3417436,
+        "path": "baseline/author/pairs.jsonl",
+        "role": "author_baseline",
+        "sha256": "1973ee7b63cd94d0e1e3171e88cce714c1d6853f766397967dfc0ed49a84f62c"
+      },
+      {
+        "byte_identical_to_sealed_upstream": true,
+        "bytes": 1573,
+        "path": "baseline/author/witnesses.json",
+        "role": "author_baseline",
+        "sha256": "11667e046a4fff70fff23b5e7f501a7941def67c8067edd9034f56555a40b13f"
+      },
+      {
+        "byte_identical_to_sealed_upstream": true,
+        "bytes": 1679,
+        "path": "baseline/author/published-p7.json",
+        "role": "author_baseline",
+        "sha256": "d87979be4b43b44a89f3eb6c475976b3d25bf18975dc87128c50d6134d1096cf"
+      },
+      {
+        "byte_identical_to_sealed_upstream": true,
+        "bytes": 11115,
+        "path": "baseline/independent/summary.json",
+        "role": "independent_baseline",
+        "sha256": "a1f5c91e0c085d5e026dea901013c544c201fcfb24e05460952ddfad3f5370f4"
+      },
+      {
+        "byte_identical_to_sealed_upstream": true,
+        "bytes": 3212732,
+        "path": "baseline/independent/graph-values.json",
+        "role": "independent_baseline",
+        "sha256": "bf6c9fad7bb6f1473dbb55d4eb608d28481fc6548badca173907316cc3925f2b"
+      },
+      {
+        "byte_identical_to_sealed_upstream": true,
+        "bytes": 2759071,
+        "path": "baseline/independent/pairs.jsonl",
+        "role": "independent_baseline",
+        "sha256": "a3aa0acbc0f8ca592525344388d045afd926702dd4e9cbdd886c04b0b4ef2c64"
+      },
+      {
+        "byte_identical_to_sealed_upstream": true,
+        "bytes": 4258,
+        "path": "baseline/independent/witnesses.json",
+        "role": "independent_baseline",
+        "sha256": "3e21183af71a6fa69e14a8f73084e1f20626a612c1c71f8341dfa88921939d8c"
+      },
+      {
+        "byte_identical_to_sealed_upstream": true,
+        "bytes": 4264,
+        "path": "baseline/independent/published-p7.json",
+        "role": "independent_baseline",
+        "sha256": "51354922fa541d010e0e12f8a8af2933b4c3f655b850a2eb465219b33e8b41bb"
+      },
+      {
+        "byte_identical_to_sealed_upstream": true,
+        "bytes": 155476,
+        "path": "baseline/independent/completeness.json",
+        "role": "independent_baseline",
+        "sha256": "4d0bd778eef0b9781f3d6931257f2d59ce1eaa2c50eee2d7c1c011d6dbc5dea7"
+      }
+    ],
+    "contract_inputs_environments_baselines_and_wrapper_unchanged": true,
+    "independent_mathematical_source_unchanged": true,
+    "pin_count": 27,
+    "status": "pass"
+  },
+  "status": "pass_with_platform_scope_limit"
+}

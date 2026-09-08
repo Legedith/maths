@@ -1,0 +1,53 @@
+{
+  "schema_version": "kemeny-independent-canonical-command-v1",
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-independent-work",
+  "timeout_seconds": 1800,
+  "evaluator_argv": [
+    "uv",
+    "run",
+    "--project",
+    ".",
+    "--frozen",
+    "python",
+    "verify_census.py",
+    "--input-dir",
+    "D:/CodexWorkspaces/mathematics-atlas/kemeny-input-work",
+    "--output-dir",
+    "D:/CodexWorkspaces/mathematics-atlas/kemeny-independent-work/run-01"
+  ],
+  "wrapper_argv": [
+    "uv",
+    "run",
+    "--project",
+    ".",
+    "--frozen",
+    "python",
+    "run_logged.py",
+    "--attempt-id",
+    "run-01",
+    "--timeout-seconds",
+    "1800",
+    "--log-dir",
+    "D:/CodexWorkspaces/mathematics-atlas/kemeny-independent-work/logs",
+    "--",
+    "uv",
+    "run",
+    "--project",
+    ".",
+    "--frozen",
+    "python",
+    "verify_census.py",
+    "--input-dir",
+    "D:/CodexWorkspaces/mathematics-atlas/kemeny-input-work",
+    "--output-dir",
+    "D:/CodexWorkspaces/mathematics-atlas/kemeny-independent-work/run-01"
+  ],
+  "required_outputs": [
+    "summary.json",
+    "graph-values.json",
+    "pairs.jsonl",
+    "witnesses.json",
+    "published-p7.json",
+    "completeness.json"
+  ]
+}

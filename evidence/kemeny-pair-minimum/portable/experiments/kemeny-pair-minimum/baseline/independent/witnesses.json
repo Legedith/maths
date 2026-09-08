@@ -1,0 +1,248 @@
+{
+  "schema_version": "kemeny-independent-witnesses-v1",
+  "scope": "connected simple undirected unweighted representatives, all unordered distinct nonedge pairs, n=2..6",
+  "witness_count": 1,
+  "witnesses": [
+    {
+      "added_edges": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "base_edges": [
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "classification": {
+        "delta_both_equal": false,
+        "delta_both_sign": "positive",
+        "delta_e_equal": false,
+        "delta_e_sign": "negative",
+        "delta_f_equal": true,
+        "delta_f_sign": "zero",
+        "joint_strict_increase": true,
+        "qualifies": true,
+        "singleton_e_nonincreasing": true,
+        "singleton_f_nonincreasing": true
+      },
+      "deltas": {
+        "both": {
+          "denominator": 18,
+          "numerator": 1
+        },
+        "e": {
+          "denominator": 112,
+          "numerator": -1
+        },
+        "f": {
+          "denominator": 1,
+          "numerator": 0
+        }
+      },
+      "graph6": "E?zW",
+      "kemeny": {
+        "G": {
+          "denominator": 28,
+          "numerator": 135
+        },
+        "G_plus_e": {
+          "denominator": 16,
+          "numerator": 77
+        },
+        "G_plus_e_plus_f": {
+          "denominator": 252,
+          "numerator": 1229
+        },
+        "G_plus_f": {
+          "denominator": 28,
+          "numerator": 135
+        }
+      },
+      "n": 6,
+      "record_id": "n=6;source=graph6c.g6:10;graph6=E?zW;e=1-2;f=3-4",
+      "source_file": "graph6c.g6",
+      "source_line": 10,
+      "states": {
+        "G": {
+          "edges": [
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "n": 6
+        },
+        "G_plus_e": {
+          "edges": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "n": 6
+        },
+        "G_plus_e_plus_f": {
+          "edges": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "n": 6
+        },
+        "G_plus_f": {
+          "edges": [
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "n": 6
+        }
+      }
+    }
+  ]
+}

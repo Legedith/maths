@@ -1,0 +1,140 @@
+{
+  "schema_version": "kemeny-atlas-extension-independent-semantic-review-v1",
+  "created_at_utc": "2026-09-08T06:57:47.0981898Z",
+  "auditor": {
+    "identity": "/root/sol_symmetry_audit",
+    "role": "independent read-only source and semantics reviewer; not the map-extension author"
+  },
+  "input": {
+    "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-study-work/evidence/atlas-extension-draft.json",
+    "bytes": 4203,
+    "sha256": "fd172aedb7ef3ac15c06b4ce8076e050b1e5c0630dbf830951058adcca93dbb6"
+  },
+  "source_review": {
+    "path": "D:/CodexWorkspaces/mathematics-atlas/discovery-next-audit-work/source-method-assessment.json",
+    "sha256": "12d46fa4127e98aea459fae586fa57e16377b4426b3966ffd6bb287caa38bc96"
+  },
+  "overall_status": "pass_scoped",
+  "decision": "Approve the two established concepts and four links as source-aligned learning-map material. No experimental, minimum-order, novelty, prevalence, or practical-performance claim is present.",
+  "checks": [
+    {
+      "id": "zero_diagonal_hitting_time_convention",
+      "status": "pass",
+      "artifact_locators": [
+        "json:/concepts/0/explanation",
+        "json:/concepts/0/formula",
+        "json:/concepts/0/conditions/2"
+      ],
+      "source": "https://arxiv.org/html/2608.04150",
+      "source_locator": "Section 2.1, HTML lines 84-100",
+      "note": "The explanation assigns zero steps when destination equals start, the condition states H_ii=0, and the sum over all j is therefore equivalent to the source's sum over j unequal to i. It does not import the alternative mean-recurrence-time diagonal."
+    },
+    {
+      "id": "starting_state_independence",
+      "status": "pass",
+      "artifact_locators": [
+        "json:/concepts/0/explanation",
+        "json:/connections/1/statement"
+      ],
+      "source": "https://arxiv.org/html/2608.04150",
+      "source_locator": "Section 2.1, HTML lines 84-100",
+      "note": "For the stationary-distribution-weighted destination and the pinned zero diagonal, the expected hitting-time average is independent of the fixed starting vertex."
+    },
+    {
+      "id": "stationary_degree_weights",
+      "status": "pass",
+      "artifact_locators": [
+        "json:/concepts/0/summary",
+        "json:/concepts/0/explanation",
+        "json:/concepts/0/formula"
+      ],
+      "source": "https://arxiv.org/html/2608.04150",
+      "source_locator": "Section 2.2, HTML lines 105-114",
+      "note": "For the simple random walk P=D^-1 A on a connected undirected graph, the source gives stationary probability pi_j=d_j/(2m). 'How often the walk visits them in the long run' is a sound ELI15 description of stationary visit frequency, including for periodic connected graphs when read as long-run frequency rather than pointwise convergence."
+    },
+    {
+      "id": "resistance_identity",
+      "status": "pass",
+      "artifact_locators": [
+        "json:/concepts/0/formula",
+        "json:/connections/2/statement"
+      ],
+      "sources": [
+        "https://arxiv.org/html/2108.01061v1",
+        "https://arxiv.org/html/2608.04150"
+      ],
+      "source_locators": [
+        "Lemma 1.1, HTML lines 55-59",
+        "Section 2.2, HTML lines 112-122"
+      ],
+      "note": "The stated model conditions and identity K=d^T R d/(4m) match both reviewed sources."
+    },
+    {
+      "id": "changed_transition_and_target_distribution",
+      "status": "pass",
+      "artifact_locators": [
+        "json:/concepts/0/conditions/3",
+        "json:/human_judgment_prompt"
+      ],
+      "derivation": "Adding an edge changes the two endpoint degrees and their rows of P. It also changes m and hence every normalized target weight d_j/(2m); even vertices whose degrees do not change receive a different normalized weight. Recomputing destination probabilities for each graph state is therefore mathematically required.",
+      "note": "The human-judgment prompt correctly warns that the comparison changes both the walk and the degree-weighted destination distribution."
+    },
+    {
+      "id": "strict_braess_convention",
+      "status": "pass",
+      "artifact_locators": [
+        "json:/concepts/1/explanation",
+        "json:/concepts/1/formula",
+        "json:/concepts/1/conditions/2",
+        "json:/connections/3/statement"
+      ],
+      "source": "https://arxiv.org/html/2108.01061v1",
+      "source_locator": "Definition 4.1, HTML lines 281-289",
+      "note": "The map pins strict K(G+S)>K(G) and explicitly excludes equality. This is consistent with the selected source and avoids the later paper's non-strict notation variance."
+    },
+    {
+      "id": "joint_vs_single_effect",
+      "status": "pass",
+      "artifact_locator": "json:/concepts/1/explanation",
+      "source": "https://arxiv.org/html/2108.01061v1",
+      "source_locator": "Paragraph after Corollary 4.3, HTML line 318",
+      "note": "The restrained statement that joint and individual effects can differ is supported by the published P7 example; the draft does not present that example as new."
+    },
+    {
+      "id": "practical_interpretation_boundary",
+      "status": "pass",
+      "artifact_locators": [
+        "json:/concepts/1/explanation",
+        "json:/human_judgment_prompt",
+        "json:/experimental_claims"
+      ],
+      "note": "The text correctly limits K to a particular random-walk statistic and does not infer slower road traffic, longer shortest paths, worse application performance, experimental benefit, or novelty. Asking whether degree-weighted destinations fit the user's application is useful and mathematically pertinent."
+    },
+    {
+      "id": "connection_typing",
+      "status": "pass",
+      "artifact_locator": "json:/connections",
+      "note": "The four links accurately separate definition by the random walk, weighted-average interpretation, exact resistance formula, and the Braess change condition. None asserts identity, equivalence, causation outside the graph model, or an experimental result."
+    }
+  ],
+  "material_findings": [],
+  "optional_wording_refinements": [
+    {
+      "locator": "json:/concepts/0/summary",
+      "current": "weighted by how often the walk visits them in the long run",
+      "suggestion": "weighted by their long-run fraction of visits",
+      "reason": "This makes the empirical-frequency meaning explicit and avoids a possible pointwise-convergence reading for periodic walks. The current wording is still correct in context, so this is not required for approval."
+    },
+    {
+      "locator": "json:/connections/1/statement",
+      "suggestion": "If the connection may ever render without its concept conditions, append 'with H_ii=0' so the diagonal convention travels with the statement.",
+      "reason": "The draft already states H_ii=0 in the concept, so this is only a robustness improvement for detached rendering."
+    }
+  ],
+  "limitations": [
+    "This review covers definitions, formulas, source alignment and learner-facing semantics only.",
+    "It does not review or disclose either live census implementation or any experiment result.",
+    "It does not establish that Kemeny's constant models any particular real application or that a Braess increase has practical harm.",
+    "It does not support a novelty, minimum-order, frequency, completeness or impact claim."
+  ]
+}

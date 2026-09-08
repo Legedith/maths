@@ -1,0 +1,337 @@
+{
+  "schema_version": "jointly-braess-pair-preregistration-review-v1",
+  "created_at_utc": "2026-09-08T06:49:08.7642088Z",
+  "auditor": {
+    "identity": "/root/sol_symmetry_audit",
+    "role": "independent read-only source and mathematical-method reviewer; not the proposal, contract, evaluator, or verifier author"
+  },
+  "scope": "Pre-execution review only. No graph6 record was decoded, no graph or marked pair was enumerated, no Kemeny value was evaluated, and the P7 witness was not computationally tested.",
+  "inputs": [
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/discovery-next-work/proposal.md",
+      "bytes": 6556,
+      "sha256": "ffc32445ce13f69c058039a1183becd6a91ce30eb9230209ce90efd1b67123b1",
+      "match_announced_hash": true
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/discovery-next-work/source-notes.json",
+      "bytes": 6651,
+      "sha256": "ee4695ff47051b563731b4a957313df78cea1151e8704861ed936c8d384d892f",
+      "match_announced_hash": true
+    }
+  ],
+  "advisory_inputs": [
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-spec-work/draft-contract.md",
+      "bytes": 6913,
+      "sha256": "1af8618635866ca49fd8ec7c533c3ce7be8e39d9f27f02c9f7d8711a0ac828be",
+      "status": "draft_reviewed_not_frozen"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-input-work/source-manifest.json",
+      "bytes": 2505,
+      "sha256": "e4a02bdeb62d8e6b0e68849b4aa3d65d9a37744578bebd48abe740fe94c52c7f",
+      "status": "source_inputs_only_no_graph_computation"
+    }
+  ],
+  "overall_decision": "approve_for_contract_freeze_with_mandatory_evaluator_obligations",
+  "blocking_defects": [],
+  "source_assessment": [
+    {
+      "id": "strict_definition_and_p7_upper_bound",
+      "status": "supported",
+      "source": {
+        "title": "A 1-Separation Formula for the Graph Kemeny Constant and Braess Edges",
+        "url": "https://arxiv.org/html/2108.01061v1",
+        "version": "arXiv:2108.01061v1"
+      },
+      "locators": [
+        "Definition 4.1, HTML lines 281-289",
+        "paragraph after Corollary 4.3, HTML line 318"
+      ],
+      "assessment": "Definition 4.1 defines an edge or set by an increase in Kemeny's constant. The cited paragraph states that naturally labelled P7 has the set {(1,3),(5,7)} while neither singleton is Braess. Under the proposal's strict-increase convention, this supports joint delta > 0 and both singleton deltas <= 0. It is an order-7 witness only, not a minimum-order statement."
+    },
+    {
+      "id": "resistance_identity",
+      "status": "supported",
+      "source": {
+        "title": "A 1-Separation Formula for the Graph Kemeny Constant and Braess Edges",
+        "url": "https://arxiv.org/html/2108.01061v1",
+        "version": "arXiv:2108.01061v1"
+      },
+      "locators": [
+        "Introduction definition, HTML lines 39-42",
+        "Lemma 1.1, HTML lines 55-59"
+      ],
+      "assessment": "For a connected simple graph with degree vector d, resistance matrix R, and m edges, the source gives K=d^T R d/(4m). This is the proposal's primary exact route."
+    },
+    {
+      "id": "transition_and_spectral_convention",
+      "status": "supported",
+      "source": {
+        "title": "Kemeny's constant and Braess cliques in graphs",
+        "url": "https://arxiv.org/html/2608.04150",
+        "version": "arXiv:2608.04150v1"
+      },
+      "locators": [
+        "Section 2.1, HTML lines 84-100",
+        "Section 2.2, HTML lines 105-114"
+      ],
+      "assessment": "The source excludes the diagonal target in the hitting-time sum, gives K=sum_{j=2}^n 1/(1-lambda_j), and defines the graph transition matrix as D^-1 A. It also repeats K=d^T R d/(4m). Irreducibility, rather than aperiodicity, is the stated hypothesis, so connected bipartite graphs are within scope."
+    },
+    {
+      "id": "definition_variance",
+      "status": "supported_with_disclosed_variance",
+      "source": {
+        "title": "Kemeny's constant and Braess cliques in graphs",
+        "url": "https://arxiv.org/html/2608.04150",
+        "version": "arXiv:2608.04150v1"
+      },
+      "locators": [
+        "Introduction, HTML lines 41-49",
+        "Theorem 4.7 proof, HTML lines 483-494"
+      ],
+      "assessment": "The introduction writes a non-strict comparison for a Braess edge while the surrounding prose and later sign arguments speak of an increase or a positive difference. Pinning the earlier strict definition and retaining exact equality as its own category is necessary and sufficient to avoid silently changing conventions."
+    },
+    {
+      "id": "published_clique_interactions",
+      "status": "supported_but_not_the_same_question",
+      "source": {
+        "title": "Kemeny's constant and Braess cliques in graphs",
+        "url": "https://arxiv.org/html/2608.04150",
+        "version": "arXiv:2608.04150v1"
+      },
+      "locators": [
+        "Abstract and introduction, HTML lines 35-55",
+        "Remark 5.2 and Theorem 5.3, HTML lines 513-535",
+        "Concluding notes, HTML lines 699-702"
+      ],
+      "assessment": "The paper studies clique additions and proves examples of a Braess K3 containing no individually Braess edge. It motivates interaction questions but does not by itself settle the minimum order for an arbitrary unordered pair of distinct nonedges."
+    },
+    {
+      "id": "nonisomorphic_source_and_counts",
+      "status": "supported",
+      "source": {
+        "title": "nauty and Traces official site and Combinatorial Data catalogue",
+        "urls": [
+          "https://users.cecs.anu.edu.au/~bdm/nauty/",
+          "https://users.cecs.anu.edu.au/~bdm/data/graphs.html",
+          "https://users.cecs.anu.edu.au/~bdm/nauty/nug29.pdf"
+        ]
+      },
+      "locators": [
+        "Official nauty page Summary, HTML lines 5-10",
+        "Official catalogue simple-graphs table entries graph2c.g6 through graph6c.g6",
+        "nauty and Traces User's Guide v2.9.3, title page and graph-format/generator documentation"
+      ],
+      "assessment": "The official page states that geng generates non-isomorphic graphs. The official catalogue advertises connected simple graph counts 1, 2, 6, 21, and 112 for orders 2 through 6, totaling 142. Count agreement is a source sanity check, not alone a completeness proof."
+    }
+  ],
+  "source_input_cross_check": {
+    "status": "pass",
+    "method": "Fresh HTTPS GET of each observed official file; response bytes hashed in memory and compared with the advisory source manifest. No file was decoded.",
+    "files": [
+      {
+        "path": "graph2c.g6",
+        "http_status": 200,
+        "bytes": 3,
+        "sha256": "fae4bfc454bd04363dcd5222772f2973b1193e1ff6f676e822a427323a677ef9",
+        "matches_manifest": true
+      },
+      {
+        "path": "graph3c.g6",
+        "http_status": 200,
+        "bytes": 6,
+        "sha256": "5966edf890849db6cb03626431916231a81a30c9db9a4781a4a8f2e5dc7e6129",
+        "matches_manifest": true
+      },
+      {
+        "path": "graph4c.g6",
+        "http_status": 200,
+        "bytes": 18,
+        "sha256": "d7da485669f2dc74b81c02f18774a07430937684896833d59f138b10debb5005",
+        "matches_manifest": true
+      },
+      {
+        "path": "graph5c.g6",
+        "http_status": 200,
+        "bytes": 84,
+        "sha256": "3c436a6a15f554e3eff3ce9178fddd3d75db6d365b3c6b102b64afe82145050b",
+        "matches_manifest": true
+      },
+      {
+        "path": "graph6c.g6",
+        "http_status": 200,
+        "bytes": 560,
+        "sha256": "2dc8cbb1c05a12b5dcb28b6227cee86d585f203347f6aebb8fcbdb2b9bdf5fd7",
+        "matches_manifest": true
+      }
+    ]
+  },
+  "mathematical_assessment": {
+    "candidate_condition": {
+      "status": "well_defined",
+      "condition": "For connected finite simple undirected unweighted G and distinct nonedges e,f: K(G+e)-K(G) <= 0, K(G+f)-K(G) <= 0, and K(G+e+f)-K(G) > 0.",
+      "notes": [
+        "The pair is unordered; the two nonedges may share a vertex.",
+        "Adding either or both edges preserves connectivity and simplicity when inputs are validated.",
+        "Every graph state must use its own degrees, edge count, transition matrix, Laplacian, and K value."
+      ]
+    },
+    "small_order_discharge": {
+      "status": "proved_without_enumeration",
+      "argument": "A connected simple graph on n vertices has at least n-1 edges, hence at most C(n,2)-(n-1)=(n-1)(n-2)/2 nonedges. Orders 0, 1, and 2 have none, and order 3 has at most one, so none can supply two distinct nonedges. The census may still retain the advertised order-2 and order-3 representatives with zero candidate-pair records."
+    },
+    "isomorphism_reduction": {
+      "status": "sufficient_if_frozen_checks_pass",
+      "argument": "Every connected labelled graph is isomorphic to exactly one supplied representative if the disjoint full permutation-orbit check passes. An isomorphism transports every unordered pair of distinct nonedges and all four added graph states, while K is invariant under relabelling. Enumerating every marked pair on each representative therefore covers all marked choices; retaining automorphic duplicates cannot create a false existence or absence conclusion."
+    },
+    "spectral_coefficient_route": {
+      "status": "algebraically_correct",
+      "derivation": "Let the eigenvalues of I-P be 0,mu_2,...,mu_n and p(x)=det(xI-(I-P))=x q(x). Then q(x)=product_{i=2}^n(x-mu_i). Its constant coefficient q_0 is (-1)^(n-1) product mu_i and its coefficient q_1 of x is (-1)^(n-2) times the sum of products omitting one mu_i. Thus -q_1/q_0=sum_{i=2}^n 1/mu_i=K. Connectedness makes the zero eigenvalue simple, so q_0 is nonzero even for a periodic connected walk.",
+      "required_naming": "q_0 must mean the constant coefficient and q_1 the coefficient of x; neither may mean the first two leading coefficients."
+    },
+    "resistance_route": {
+      "status": "sufficient_if_exact",
+      "argument": "For every connected state with n at least 2, a grounded Laplacian minor is nonsingular. Its exact rational inverse determines all pairwise effective resistances, after which the sourced identity gives K exactly. Sign decisions must use reduced rational numerators only."
+    },
+    "minimum_inference": {
+      "status": "valid_only_after_full_gate",
+      "argument": "An exact P7 replay supplies existence at order 7. Complete exclusion at every smaller order, including zero-pair orders, then proves minimum order 7 in the frozen graph class. If a smaller witness is found, its order is minimal only after every lower order is fully excluded."
+    }
+  },
+  "material_traps_and_disposition": [
+    {
+      "id": "positive_only_cross_check",
+      "severity": "critical",
+      "trap": "Replaying only author-reported witnesses cannot certify a no-smaller result because a primary evaluator could omit or misclassify a positive pair.",
+      "disposition": "resolved_in_reviewed_draft",
+      "required_text": "The independent evaluator derives and seals its own full pair census before reading author verdicts, then compares every graph-state value and every pair classification."
+    },
+    {
+      "id": "class_counts_not_completeness",
+      "severity": "critical",
+      "trap": "Five correct representative counts do not exclude duplicate representatives paired with omitted isomorphism classes.",
+      "disposition": "resolved_in_reviewed_draft",
+      "required_text": "For each n, representative permutation orbits are internally unique, pairwise disjoint, and their union equals an independently generated set of every connected labelled graph."
+    },
+    {
+      "id": "state_parameter_reuse",
+      "severity": "critical",
+      "trap": "Reusing base-graph d, m, D, P, or L after an edge addition gives a wrong K value.",
+      "disposition": "resolved_in_reviewed_draft",
+      "required_text": "Recompute the full graph-state data after each addition and key any cache by the complete labelled edge set plus order."
+    },
+    {
+      "id": "strict_vs_nonstrict",
+      "severity": "material",
+      "trap": "Treating an exact zero singleton delta as Braess in one place and non-Braess in another changes the candidate set.",
+      "disposition": "resolved_in_reviewed_draft",
+      "required_text": "Joint delta must be strictly positive; singleton deltas may be negative or zero, and zero is stored separately."
+    },
+    {
+      "id": "coefficient_orientation",
+      "severity": "material",
+      "trap": "Characteristic-polynomial libraries commonly expose coefficients in descending order, making an unqualified q_0/q_1 extraction error-prone.",
+      "disposition": "mandatory_evaluator_assertion",
+      "required_text": "Verify p(0)=0 exactly, divide by exactly one factor x, verify q(0) is nonzero, identify coefficients by powers of x, and prove or test the -q_1/q_0 sign convention before the sealed census."
+    },
+    {
+      "id": "p7_label_origin",
+      "severity": "material",
+      "trap": "The paper's P7 labels are 1 through 7 while graph6 decoders conventionally use 0 through n-1.",
+      "disposition": "mandatory_evaluator_assertion",
+      "required_text": "Freeze the P7 base edge list and its one-based labels explicitly; do not silently reuse graph6 vertex numbering for the witness."
+    },
+    {
+      "id": "timeout_as_negative_result",
+      "severity": "critical",
+      "trap": "A partial or timed-out census cannot support absence.",
+      "disposition": "resolved_in_reviewed_draft",
+      "required_text": "A timeout or any nonzero process result invalidates the attempt; partial output remains historical evidence only."
+    }
+  ],
+  "recommended_frozen_evaluator_obligations": [
+    {
+      "id": "E01_input_pins",
+      "obligation": "Freeze the final contract hash, source-manifest hash, all five input byte hashes, implementation hashes, Python version, SymPy version, uv lock, exact argv and working directories before mathematical execution."
+    },
+    {
+      "id": "E02_decoder_and_class_integrity",
+      "obligation": "Both evaluators independently validate graph6 syntax, order, simplicity, connectivity, source-record uniqueness and advertised class counts."
+    },
+    {
+      "id": "E03_labelled_coverage",
+      "obligation": "For n=2,...,6 compare the disjoint representative-orbit union with all connected labelled graphs. Record orbit sizes, union hashes and independently derived labelled connected counts 1, 4, 38, 728, and 26704. These counts are sanity checks; equality of the actual sets is the certificate."
+    },
+    {
+      "id": "E04_pair_census",
+      "obligation": "For each representative with r nonedges, enumerate exactly C(r,2) normalized unordered distinct pairs. Seal per-graph and per-order candidate counts and a canonical digest so omissions, duplicate iteration and early stopping are detectable."
+    },
+    {
+      "id": "E05_exact_author_route",
+      "obligation": "Use SymPy Integer/Rational objects throughout grounded solves and d^T R d/(4m); prove the selected grounded minor nonsingular, require reduced numerator/positive denominator output, and forbid float-created rationals or float sign checks."
+    },
+    {
+      "id": "E06_exact_independent_route",
+      "obligation": "Use a separately authored graph6 decoder, graph representation, pair iterator and standard-library Fraction characteristic-coefficient routine. Verify p(0)=0, q_0!=0, and K=-[x]q/q(0) for every distinct graph state."
+    },
+    {
+      "id": "E07_blind_full_comparison",
+      "obligation": "The independent evaluator completes and hashes its P7 record, graph-state table and full pair ledger before access to author verdicts. Compare every exact K numerator/denominator, every delta sign, equality flag, candidate classification and aggregate count."
+    },
+    {
+      "id": "E08_p7_control",
+      "obligation": "Freeze P7 as edges {1,2},{2,3},{3,4},{4,5},{5,6},{6,7} with additions {1,3} and {5,7}; record all four exact K values and three reduced deltas. Failure of the sourced inequalities invalidates interpretation of the census."
+    },
+    {
+      "id": "E09_complete_outputs",
+      "obligation": "Retain a deterministic graph-state table, complete marked-pair sign ledger, zero-pair graph entries, equality categories, per-order summaries, witness edge lists and graph6 identifiers, raw command/stdout/stderr, timestamps, return codes, timeout status and all failed attempts."
+    },
+    {
+      "id": "E10_minimum_and_claim_scope",
+      "obligation": "Permit a minimum-order conclusion only from one exact witness plus complete exclusion of every smaller order. Describe any passing result as a candidate exact finite computation until independent gates and broader expert prior-art review finish; make no algorithmic novelty, global novelty, prevalence, runtime, impact or researcher-benefit claim."
+    }
+  ],
+  "draft_contract_assessment": {
+    "status": "methodologically_sufficient_if_obligations_are_frozen",
+    "strengths": [
+      "It fixes the graph class, strict convention, equality handling, pair scope and no-expansion rule.",
+      "It strengthens source counts with complete labelled-orbit set equality.",
+      "It requires a full independently derived ledger sealed before author comparison.",
+      "It separates the exact resistance and characteristic-coefficient implementations.",
+      "It preserves timeouts, mismatches and corrected attempts as invalid history."
+    ],
+    "remaining_contract_edits_before_freeze": [
+      "Insert the final source-manifest SHA-256 and exact five source hashes rather than relying on a mutable staging path.",
+      "Insert exact canonical commands, Python/SymPy versions and uv lock hashes.",
+      "Make E03, E04, E05, E06, E07 and the explicit one-based P7 edge list machine-checkable output obligations.",
+      "State that an empty graph is outside the random-walk domain or discharge it with the same no-two-nonedges argument."
+    ]
+  },
+  "targeted_prior_art_check": {
+    "status": "no_duplicate_result_identified_in_bounded_check_novelty_unestablished",
+    "method": "Primary-source-oriented web search for Kemeny Braess sets, two-edge additions, minimum order and exhaustive graph studies; inspection of the cited 2021 and 2026 works plus two additional directly relevant arXiv records.",
+    "additional_sources": [
+      {
+        "title": "Edge Addition and the Change in Kemeny's Constant",
+        "url": "https://arxiv.org/abs/2306.04005",
+        "locator": "abstract",
+        "scope_found": "Quantitative extrema for one edge added to a tree; the inspected abstract does not state the arbitrary two-nonedge minimum question."
+      },
+      {
+        "title": "Kemeny's constant and enumerating Braess edges in trees",
+        "url": "https://arxiv.org/html/2309.02977",
+        "locator": "abstract and introduction, HTML lines 28-71; within-document searches for 'Braess set', 'two edges', and 'minimum order'",
+        "scope_found": "Enumeration and asymptotics for individual Braess edges in selected tree families; no matching joint-pair minimum statement was located in the document."
+      }
+    ],
+    "boundary": "This bounded search supports running the calculation but cannot establish novelty, openness, completeness of the literature, or publishability. A later exact-result search and expert review remain mandatory."
+  },
+  "limitations": [
+    "The cited P7 statement was source-verified but deliberately not numerically replayed in this preregistration review.",
+    "The five graph6 bytes were re-fetched and hashed but deliberately not decoded or enumerated.",
+    "No claim is made that the proposed minimum result is new, open, useful beyond the stated graph class, or likely to have practical impact.",
+    "Passing this review authorizes only a frozen bounded experiment; it is not a mathematical-result certificate."
+  ]
+}

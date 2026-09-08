@@ -1,0 +1,3 @@
+wrote=D:\CodexWorkspaces\mathematics-atlas\kemeny-explanation-work\witness-explanation.json
+bytes=7422
+sha256=944aedd72b479ea875fef53780da3d80d18007521eb8e774b5bfabef48baf396

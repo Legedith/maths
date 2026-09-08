@@ -1,0 +1,225 @@
+{
+  "schema_version": "kemeny-postresult-prior-art-review-v1",
+  "artifact_type": "bounded_postresult_primary_source_review",
+  "as_of": "2026-09-08",
+  "auditor": "/root/sol_atlas_audit",
+  "question": "Does prior work already state the candidate minimum order six for a two-nonedge Braess set whose two singleton additions are non-Braess under the <= 0 convention, or explicitly give the E?zW witness and its exact sign pattern?",
+  "candidate": {
+    "graph6": "E?zW",
+    "n": 6,
+    "description": "A diamond on vertices {1,2,5,6}, with pendant vertex 3 at 5 and pendant vertex 4 at 6.",
+    "base_edges": [[1,5],[1,6],[2,5],[2,6],[3,5],[4,6],[5,6]],
+    "added_edges": {
+      "e": [1,2],
+      "f": [3,4]
+    },
+    "stored_exact_deltas": {
+      "e": "-1/112",
+      "f": "0",
+      "joint": "+1/18"
+    },
+    "evidence_inputs": [
+      {
+        "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-independent-work/run-01/witnesses.json",
+        "bytes": 4258,
+        "sha256": "3e21183af71a6fa69e14a8f73084e1f20626a612c1c71f8341dfa88921939d8c",
+        "role": "sealed blind independent exact witness record"
+      },
+      {
+        "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-independent-work/comparison-01/comparison.json",
+        "bytes": 27181,
+        "sha256": "4e72ec56615441992dd5685ad72c4968820d26bfd7e3c909324ace42de3af24b",
+        "role": "exact cross-evaluator agreement; final semantic gate remained separate"
+      }
+    ]
+  },
+  "scope": {
+    "search_log": "search-log.json",
+    "targeted_queries_used": 6,
+    "new_relevant_full_papers_inspected": 3,
+    "previously_reviewed_sources_reused": [
+      "arXiv:2108.01061",
+      "arXiv:2309.02977",
+      "arXiv:2608.04150",
+      "arXiv:2306.04005",
+      "Sooyeong Kim's 2021 University of Manitoba thesis"
+    ],
+    "fulltext_term_scan": {
+      "path": "term-scan.json",
+      "sha256": "0039958b461c147dc40bfd478d16e12458b2b164a6334664650693a17dcdbcfc",
+      "interpretation_limit": "Literal term absence supplements manual inspection and cannot establish absence of an equivalent result."
+    },
+    "no_new_mathematical_census": true,
+    "novelty_from_search_absence": false
+  },
+  "sources": [
+    {
+      "source_id": "N1",
+      "citation": "Yuxiang Hu and Steve Kirkland, Complete Multipartite Graphs and Braess Edges, Linear Algebra and its Applications 579 (2019), 284-301, DOI 10.1016/j.laa.2019.05.035.",
+      "primary_url": "https://mspace.lib.umanitoba.ca/server/api/core/bitstreams/04a4246d-2b67-4e4c-9c4b-60f0c5417031/content",
+      "local_pdf": "sources/hu-kirkland-2019.pdf",
+      "pdf_sha256": "c896d263c6bec602274f84a29c30492f99e85e3bde654f3e61dcf5aa10718c77",
+      "local_page_marked_text": "sources/hu-kirkland-2019.page-marked.txt",
+      "text_sha256": "603a2406e9d3ae27f07f008aa0a5797f1ea161ce13f4a66e2049fd9177cdb917",
+      "locators": [
+        {
+          "locator": "PDF page 3, paragraph defining Braess and non-Braess edges",
+          "finding": "A Braess edge has strict positive change; a non-Braess edge is defined by change <= 0. The candidate's exactly zero f singleton therefore belongs to the published non-Braess side of the boundary."
+        },
+        {
+          "locator": "PDF page 6, Example 2.0.2",
+          "finding": "Adding an edge to K_{8,8} is stated to have no effect on Kemeny's constant. Exact-zero edge additions were therefore already known; 'neutral edge' should be treated as descriptive wording rather than a new notion."
+        },
+        {
+          "locator": "PDF page 6, Example 2.0.4",
+          "finding": "The paper gives another zero-change family boundary for complete split graphs and an explicit large integer example."
+        },
+        {
+          "locator": "PDF pages 6-9, twin definition and Theorem 3.1.2",
+          "finding": "Nonadjacent vertices with the same neighborhood are twins, and Theorem 3.1.2 gives the exact Kemeny change after inserting their connecting edge for a general connected graph through quotient-chain stationary and hitting-time data."
+        }
+      ],
+      "candidate_relation": {
+        "applies_to_e_12": true,
+        "reason": "In E?zW, N(1)=N(2)={5,6}; vertices 1 and 2 are nonadjacent twins of degree two. The same remains true after f=34 is added, so the theorem can analytically replay the sign of e before and after f once its quotient quantities are evaluated.",
+        "family_classification_directly_applies": false,
+        "reason_family_does_not_apply": "The pendant vertices at 5 and 6 make the whole candidate neither a complete multipartite graph nor one of the complete split graphs classified in the paper.",
+        "explicit_candidate_or_two_edge_minimum_in_source": false
+      }
+    },
+    {
+      "source_id": "N2",
+      "citation": "Lorenzo Ciardo, The Braess' Paradox for Pendant Twins, Linear Algebra and its Applications 590 (2020), 304-316, DOI 10.1016/j.laa.2019.12.040; arXiv:1909.12549v1.",
+      "primary_url": "https://arxiv.org/abs/1909.12549",
+      "full_text_url": "https://arxiv.org/pdf/1909.12549",
+      "local_pdf": "sources/ciardo-1909.12549.pdf",
+      "pdf_sha256": "162fced8772d45186afdbec1db7c05b225b1d84e953bd534189b70ff27aab1f0",
+      "local_page_marked_text": "sources/ciardo-1909.12549.page-marked.txt",
+      "text_sha256": "938c1882689ec879017c937cdc49990569fe1091c3b751d50d221941cf8fae3b",
+      "locators": [
+        {
+          "locator": "PDF page 3, Theorem 2.2",
+          "finding": "Every nontrivial connected graph becomes strictly twin-Braess when two new pendant twins at a common vertex are joined."
+        },
+        {
+          "locator": "PDF page 7, note after Proposition 2.4",
+          "finding": "The paper points to Hu-Kirkland Theorem 3.1.2 for the distinct general formula concerning an edge between arbitrary nonadjacent twins."
+        },
+        {
+          "locator": "PDF page 11, Corollary 4.1",
+          "finding": "In any connected graph of order at least four, joining existing pendant twins with a common neighbor strictly increases Kemeny's constant."
+        }
+      ],
+      "candidate_relation": {
+        "applies_to_f_34": false,
+        "reason": "Vertices 3 and 4 are pendant but N(3)={5} and N(4)={6}; they are not pendant twins under the source's common-neighbor definition. The f=34 zero change does not contradict the strict pendant-twin theorem.",
+        "applies_to_e_12": false,
+        "reason_e": "Vertices 1 and 2 are twins but are not pendant; the broader Hu-Kirkland formula is the applicable result.",
+        "explicit_candidate_or_two_edge_minimum_in_source": false
+      }
+    },
+    {
+      "source_id": "N3",
+      "citation": "Sooyeong Kim, Families of graphs with twin pendent paths and the Braess edge, Electronic Journal of Linear Algebra 38 (2022), 9-31, DOI 10.13001/ela.2022.5913; arXiv:2112.03655v1.",
+      "primary_url": "https://arxiv.org/abs/2112.03655",
+      "full_text_url": "https://arxiv.org/pdf/2112.03655",
+      "local_pdf": "sources/kim-2112.03655.pdf",
+      "pdf_sha256": "4bd8cd8c3e46fc697049fa27e8d4cb31857c10202215105c938239bfeaec2d94",
+      "local_page_marked_text": "sources/kim-2112.03655.page-marked.txt",
+      "text_sha256": "459411a20af4999a9e7d0d24ddd452fe1aafbc71c8d4e36372ce915c97809591",
+      "locators": [
+        {
+          "locator": "PDF pages 2-3, construction and definition of twin pendent paths",
+          "finding": "The two paths emanate from the same identified vertex, and the studied edge joins their pendant endpoints."
+        },
+        {
+          "locator": "PDF page 6, Definition 3.6; PDF pages 7-8, Theorem 3.10",
+          "finding": "The paper defines the strict one-edge predicate and gives an exact sign criterion Phi_G(v,k1,k2)>0 for that construction."
+        },
+        {
+          "locator": "PDF page 9, Remark 3.12",
+          "finding": "Some parameter pairs make the auxiliary term phi_1 equal zero. This is not by itself a zero Kemeny change because the full criterion also contains phi_G, phi_2, and phi_3 terms."
+        },
+        {
+          "locator": "PDF page 10, Theorem 3.13",
+          "finding": "The length-one/length-one common-root construction is always strictly Braess, restating the pendant-twin result."
+        }
+      ],
+      "candidate_relation": {
+        "applies_to_f_34": false,
+        "reason": "The unique neighbors of candidate endpoints 3 and 4 are different, and they are not endpoints of two pendant path branches from one common cut vertex in the source's construction.",
+        "explicit_candidate_or_two_edge_minimum_in_source": false
+      }
+    },
+    {
+      "source_id": "R1",
+      "citation": "Nolan Faught, Mark Kempton, and Adam Knudson, A 1-Separation Formula for the Graph Kemeny Constant and Braess Edges, Journal of Mathematical Chemistry 60 (2022), 49-69; arXiv:2108.01061v1.",
+      "primary_url": "https://arxiv.org/abs/2108.01061",
+      "review_status": "previously reviewed; findings reused without counting against the three-new-paper cap",
+      "locators": [
+        {
+          "locator": "PDF page 9, Definition 4.1",
+          "finding": "A Braess set is any set of nonedges whose joint insertion strictly raises Kemeny's constant. The definition does not require any proper subset, including singleton additions, to be non-Braess."
+        },
+        {
+          "locator": "PDF page 10, paragraph immediately after Corollary 4.3",
+          "finding": "The P7 pair is a published two-edge example where neither singleton is Braess; it supplied the prior upper bound but was not claimed smallest."
+        }
+      ],
+      "candidate_relation": "The n=6 condition is a stricter, inclusion-minimal size-two Braess-set pattern under the <= 0 singleton convention. The general Braess-set notion and the existence of such singleton interaction are not new concepts."
+    }
+  ],
+  "namespace_mismatch_check": {
+    "source": {
+      "citation": "Ramin Javadi, Zeinab Maleki, and Behanz Omoomi, Local Clique Covering of Graphs, arXiv:1210.6965v1.",
+      "url": "https://arxiv.org/html/1210.6965v1",
+      "local_snapshot": "sources/local-clique-1210.6965.html",
+      "snapshot_bytes": 391154,
+      "snapshot_sha256": "0f2a4b2ad0fb0a1d5ada90eeebd7b41872ed14c4a507c2ce14c05c270cae22ff",
+      "locators": [
+        "arXiv HTML abstract paragraph abstract1.1 (local snapshot line 225)",
+        "arXiv HTML introduction paragraph S1.p2 and displayed definition S1.Ex1 (local snapshot lines 240 and 245)"
+      ]
+    },
+    "finding": "The symbol rendered as kc(G) denotes the local clique cover number: the minimum per-vertex valency of a clique covering. It is unrelated to Kemeny's constant.",
+    "bounded_implication": "Any summary of this source that expands its kc(G) as Kemeny's constant is refuted by the primary text and illustrates a namespace collision. This source-side check does not score a retrieval system, because no raw retrieval output was audited here."
+  },
+  "synthesis": {
+    "primary_singleton_convention_supported": true,
+    "convention": "strict positive change is Braess; zero or negative change is non-Braess",
+    "zero_change_edge_additions_known_before_candidate": true,
+    "general_twin_edge_change_formula_known_before_candidate": true,
+    "candidate_e_is_an_instance_of_known_twin_formula": true,
+    "candidate_f_is_not_covered_by_pendant_twin_or_common_root_twin_path_results": true,
+    "generic_braess_set_notion_known_before_candidate": true,
+    "exact_n6_graph_or_pair_located": false,
+    "published_minimum_order_six_located": false,
+    "published_complete_orders_two_through_six_census_located": false,
+    "exact_prior_art_blocker_located": false,
+    "calibration": "The last four false values mean only 'not located in this bounded review.' They do not establish global openness, first discovery, or publication novelty."
+  },
+  "claim_guidance": {
+    "supported": [
+      "By excluding every connected graph of orders two through five and exhibiting an order-six witness, the sealed two-evaluator exact finite census supports six as the candidate minimum order within the frozen connected simple undirected unweighted graph scope and <= 0 singleton convention, pending its designated final semantic gate; this is not a classification of larger graphs.",
+      "The six-vertex E?zW pair is smaller than the previously reviewed published P7 example.",
+      "The candidate combines one known-type twin edge with a second, non-twin neutral edge whose addition reverses the twin edge's sign."
+    ],
+    "requires_care": [
+      "Call the result a candidate literature novelty or a new computationally located witness, not a new Braess-set concept.",
+      "Do not call exact-zero edges 'neutral Braess edges'; under Hu-Kirkland's definition they are non-Braess edges.",
+      "Do not infer total Kemeny neutrality from an auxiliary polynomial term being zero in Kim's criterion."
+    ],
+    "unsupported": [
+      "first known example",
+      "globally new theorem",
+      "first proof that the minimum is six in the literature",
+      "broad retrieval accuracy or failure rate from one namespace mismatch"
+    ]
+  },
+  "useful_validation_shortcut": {
+    "available": true,
+    "proposal": "For a human-checkable one-instance derivation, apply Hu-Kirkland Theorem 3.1.2 to twin edge e=12 in both G and G+f, and independently derive the f=34 zero change from a standard exact Kemeny formula. This checks the sign reversal without repeating the full census.",
+    "limit": "The shortcut validates the witness only. It cannot prove the minimum; the exhaustive lower-order census remains necessary for that claim."
+  },
+  "method_note": "Primary full texts were retrieved and page-marked locally. The review used manual locator inspection plus a literal term scan. No graph enumeration or new Kemeny census was run."
+}

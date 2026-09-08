@@ -1,0 +1,42 @@
+{
+  "schema_version": "kemeny-namespace-source-check-v1",
+  "artifact_type": "bounded_primary_source_namespace_check",
+  "as_of": "2026-09-08",
+  "auditor": "/root/sol_atlas_audit",
+  "trigger": {
+    "description": "A root-retained exploratory TheoremSearch observation reported a generated summary that treated kc(G) in arXiv:1210.6965v1 as Kemeny's constant.",
+    "input_path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-study-work/evidence/prior-art/post-result-root-notes.json",
+    "scope_limit": "The raw retrieval result and the other returned results were not audited here."
+  },
+  "source": {
+    "citation": "Ramin Javadi, Zeinab Maleki, and Behanz Omoomi, Local Clique Covering of Graphs, arXiv:1210.6965v1.",
+    "url": "https://arxiv.org/html/1210.6965v1",
+    "retrieved_at_utc_start": "2026-09-08T08:02:24.4023617Z",
+    "retrieved_at_utc_end": "2026-09-08T08:02:25.5877656Z",
+    "local_snapshot": "sources/local-clique-1210.6965.html",
+    "bytes": 391154,
+    "sha256": "0f2a4b2ad0fb0a1d5ada90eeebd7b41872ed14c4a507c2ce14c05c270cae22ff",
+    "fetch_record": "logs/local-clique-1210.6965.fetch.json",
+    "locators": [
+      {
+        "locator": "HTML title at local line 4; author block at local lines 206-216",
+        "finding": "The source is Local Clique Covering of Graphs by Javadi, Maleki, and Omoomi."
+      },
+      {
+        "locator": "Abstract paragraph abstract1.1 at local line 225",
+        "finding": "The paper defines the displayed kc(G) macro as the local clique cover number, based on the maximum number of covering cliques incident to any vertex."
+      },
+      {
+        "locator": "Introduction paragraph S1.p2 and display S1.Ex1 at local lines 240 and 245",
+        "finding": "The formal definition again identifies kc(G) with a minimum over clique-cover valency, not a random-walk invariant."
+      }
+    ]
+  },
+  "verdict": "source_refutes_kemeny_expansion",
+  "reason": "Within this paper, kc(G) denotes local clique cover number. It does not denote Kemeny's constant.",
+  "limits": [
+    "This is one source-side namespace check.",
+    "It does not estimate retrieval accuracy, error prevalence, ranking quality, or novelty-detection performance.",
+    "It does not alter the bounded minimum-order prior-art conclusion."
+  ]
+}

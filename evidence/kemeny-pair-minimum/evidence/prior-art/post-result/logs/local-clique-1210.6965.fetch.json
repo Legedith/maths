@@ -1,0 +1,10 @@
+{
+  "url": "https://arxiv.org/html/1210.6965v1",
+  "started_at_utc": "2026-09-08T08:02:24.4023617Z",
+  "ended_at_utc": "2026-09-08T08:02:25.5877656Z",
+  "exit_code": 0,
+  "bytes": 391154,
+  "sha256": "0f2a4b2ad0fb0a1d5ada90eeebd7b41872ed14c4a507c2ce14c05c270cae22ff",
+  "headers_sha256": "d7b73d12b724461786717b263bf1e9788a89fd2ed696a95dd3804015efcf3e24",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,33 @@
+{
+  "argv": [
+    "uv",
+    "sync",
+    "--project",
+    "author",
+    "--frozen"
+  ],
+  "attempt_id": "prep-author-sync",
+  "ended_at_utc": "2026-09-08T08:01:03.748857+00:00",
+  "returncode": 0,
+  "schema_version": "logged-command-attempt-v1",
+  "selected_environment": {
+    "PYTHONDONTWRITEBYTECODE": null,
+    "UV_CACHE_DIR": "D:/CodexWorkspaces/mathematics-atlas/uv-cache",
+    "UV_PROJECT_ENVIRONMENT": null
+  },
+  "started_at_utc": "2026-09-08T08:01:03.502125+00:00",
+  "stderr": {
+    "bytes": 132,
+    "path": "attempt-prep-author-sync.stderr.bin",
+    "sha256": "3ee0bf4cf33ef5545e86ba3b22add748344812cc139b9606e8359590ca28aae5"
+  },
+  "stdout": {
+    "bytes": 0,
+    "path": "attempt-prep-author-sync.stdout.bin",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "termination": null,
+  "timed_out": false,
+  "timeout_seconds": 300,
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-portable-work\\experiments\\kemeny-pair-minimum"
+}

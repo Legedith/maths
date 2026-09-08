@@ -1,0 +1,200 @@
+{
+  "schema_version": "kemeny-atlas-integration-independent-review-v1",
+  "created_at_utc": "2026-09-08T07:08:01.6229448Z",
+  "auditor": {
+    "identity": "/root/sol_symmetry_audit",
+    "role": "independent read-only integration and source-status reviewer; not the atlas editor"
+  },
+  "overall_status": "pass_scoped",
+  "decision": "Approve the source-grounded atlas extension. The candidate preserves every baseline record, projects exactly the two reviewed concepts and four reviewed relations, and adds only a learning journey and human modelling task within the approved interpretation boundary.",
+  "inputs": [
+    {
+      "role": "candidate_atlas",
+      "path": "D:/CodexWorkspaces/mathematics-atlas/project/data/atlas.json",
+      "bytes": 68783,
+      "sha256": "6d0b37a4f7bdd7181b45d464bb5ea5f038cd097e33d56140c8beb74a3158276d",
+      "match_announced_hash": true
+    },
+    {
+      "role": "baseline_atlas",
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-study-work/evidence/atlas-before.json",
+      "bytes": 60125,
+      "sha256": "401e00c67d1b54d5986e750dc9ef9fe5dec76b269d2219267b385d6f0054f2d9"
+    },
+    {
+      "role": "reviewed_projection",
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-study-work/evidence/atlas-extension-v1.json",
+      "bytes": 4550,
+      "sha256": "edbfe87e80a0435e209d32013ac9362eb95067604f56c603eb064a08f95a070c"
+    },
+    {
+      "role": "transfer_record",
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-study-work/evidence/atlas-extension-transfer.json",
+      "bytes": 871,
+      "sha256": "10f0b63ffe6e8d28743b6cb826ced0b48a1aeaef97a0b4e1babab9ddbda1da4d"
+    },
+    {
+      "role": "semantic_review",
+      "path": "D:/CodexWorkspaces/mathematics-atlas/discovery-next-audit-work/atlas-extension-semantic-review.json",
+      "bytes": 7289,
+      "sha256": "f78d09edc5fabdcf515c2301a46361c2735ef135f1aa2123d4daf39c9c14e468"
+    }
+  ],
+  "checks": [
+    {
+      "id": "baseline_preservation",
+      "status": "pass",
+      "method": "Parse both pinned JSON documents, map every collection by stable record id, require deep equality of every baseline record, and require the existing record order to remain unchanged.",
+      "results": {
+        "top_level_keys_equal": true,
+        "unchanged_top_level_fields": [
+          "schema_version",
+          "title",
+          "scope",
+          "domains"
+        ],
+        "existing_records": {
+          "sources": {
+            "checked": 7,
+            "changed": 0,
+            "missing": 0,
+            "order_preserved": true
+          },
+          "nodes": {
+            "checked": 31,
+            "changed": 0,
+            "missing": 0,
+            "order_preserved": true
+          },
+          "edges": {
+            "checked": 40,
+            "changed": 0,
+            "missing": 0,
+            "order_preserved": true
+          },
+          "journeys": {
+            "checked": 3,
+            "changed": 0,
+            "missing": 0,
+            "order_preserved": true
+          },
+          "opportunities": {
+            "checked": 5,
+            "changed": 0,
+            "missing": 0,
+            "order_preserved": true
+          },
+          "examples": {
+            "checked": 7,
+            "changed": 0,
+            "missing": 0,
+            "order_preserved": true
+          }
+        }
+      }
+    },
+    {
+      "id": "reviewed_projection_fidelity",
+      "status": "pass",
+      "added_ids": {
+        "sources": [
+          "faught-kemeny-braess",
+          "breen-kemeny-cliques"
+        ],
+        "nodes": [
+          "kemeny-constant",
+          "kemeny-braess-set"
+        ],
+        "edges": [
+          "kemeny-r1",
+          "kemeny-r2",
+          "kemeny-r3",
+          "kemeny-r4"
+        ],
+        "journeys": [
+          "kemeny-networks"
+        ],
+        "opportunities": [
+          "choose-network-objective"
+        ],
+        "examples": []
+      },
+      "note": "Node labels, domains, summaries, explanations, formulas and assumptions equal the reviewed projection. Edge endpoints, types, statements and matching assumptions preserve the four reviewed connections."
+    },
+    {
+      "id": "approved_refinement_only",
+      "status": "pass",
+      "comparison": "atlas-extension-draft.json versus atlas-extension-v1.json",
+      "changed_fields": [
+        {
+          "path": "/concepts/0/summary",
+          "change": "Uses 'long-run fraction of visits', the approved periodic-walk clarity refinement."
+        },
+        {
+          "path": "/connections/1/statement",
+          "change": "Carries H_ii=0 with the relation statement, the approved detached-rendering refinement."
+        },
+        {
+          "path": "/status",
+          "change": "Marks completion of independent source review."
+        }
+      ],
+      "unexpected_changes": []
+    },
+    {
+      "id": "source_and_assumption_projection",
+      "status": "pass",
+      "note": "Kemeny's constant retains H_ii=0, starting-state independence, pi_j=d_j/(2m), state-specific destination weights, P=D^-1 A, the exact resistance identity and its graph-class assumptions. The Braess-set node retains a strict increase, equality exclusion, distinct missing edges and the practical interpretation boundary. Evidence points to the correct added source IDs and locators."
+    },
+    {
+      "id": "source_status_calibration",
+      "status": "pass",
+      "note": "The two concept records are marked sourced and the four definitional/formula relations established. Those statuses apply only to the cited definitions and identities. The Faught source note explicitly says its P7 example is not a minimum-order theorem, and the Breen note discloses convention variance. No proposed census result is present or promoted."
+    },
+    {
+      "id": "journey_and_opportunity_scope",
+      "status": "pass",
+      "note": "The journey teaches transition, hitting time, degree-weighted averaging, exact resistance evaluation and joint edge comparison while telling the learner to check assumptions. The opportunity is explicitly a human modelling judgment and 'not an asserted open theorem'; its acceptance criteria ask for model interpretation rather than claiming practical harm or benefit."
+    },
+    {
+      "id": "reference_integrity",
+      "status": "pass",
+      "results": {
+        "edge_endpoint_errors": 0,
+        "node_evidence_source_errors": 0,
+        "edge_evidence_source_errors": 0,
+        "journey_node_errors": 0,
+        "opportunity_node_errors": 0,
+        "example_node_errors": 0
+      },
+      "supporting_records": [
+        {
+          "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-study-work/evidence/integration-validation/structure-result.json",
+          "sha256": "487fd63ef0ab353dd2215e9944ccc07d0c5db6928340bc627b596a81173b13f3",
+          "result": "pass; 33 nodes, 44 edges, 9 sources, 4 journeys, 6 opportunities, 7 examples"
+        },
+        {
+          "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-study-work/evidence/corpus/search-and-paths.json",
+          "sha256": "f16fb8552e32e4a0de887552e672a9d2f6c44c3b36b0f5de9e65492160c20b35",
+          "result": "pass; 1089 navigation pairs and 8 retrieval sanity cases"
+        }
+      ],
+      "note": "The navigation record is a structural/search check. Its own limitations correctly state that a traversal path is not a logical composition of mathematical relations."
+    }
+  ],
+  "final_counts": {
+    "nodes": 33,
+    "edges": 44,
+    "sources": 9,
+    "journeys": 4,
+    "opportunities": 6,
+    "examples": 7
+  },
+  "material_findings": [],
+  "limitations": [
+    "This is a record-preservation, source-projection and claim-scope review; it is not broad product or visual QA.",
+    "The existing navigation and retrieval logs support deterministic reachability only, not semantic recall, mathematical entailment or novelty detection.",
+    "No live author or independent census artifact was read, and no census result is certified or disclosed here.",
+    "The extension does not establish an open problem, minimum order, mathematical novelty, practical harm, practical benefit or measured impact."
+  ]
+}

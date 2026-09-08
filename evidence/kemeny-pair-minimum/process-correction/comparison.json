@@ -1,0 +1,226 @@
+{
+  "schema_version": "kemeny-author-wrapper-correction-comparison-v1",
+  "checked_at_utc": "2026-09-08T07:55:32.320409+00:00",
+  "status": "exact_match_pending_independent_review",
+  "freeze_sha256": "387e46dd4e66e2b2f08f2b5e849f59c989817038007fa08a7ae8277f71174703",
+  "all_frozen_pins_unchanged": true,
+  "pins": [
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-author-work\\.python-version",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-author-work\\pyproject.toml",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-author-work\\uv.lock",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-author-work\\census.py",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-author-work\\prepare.ps1",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-author-work\\freeze_inputs.ps1",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-author-work\\run_logged.ps1",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-author-work\\code-freeze-manifest.json",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-author-work\\input-freeze.json",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-author-work\\postrun-validation.json",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-author-work\\logs\\attempts.jsonl",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-author-work\\logs\\preparation-01\\01-uv-version.stdout.txt",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-author-work\\logs\\preparation-01\\01-uv-version.stderr.txt",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-author-work\\logs\\preparation-01\\02-uv-lock.stdout.txt",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-author-work\\logs\\preparation-01\\02-uv-lock.stderr.txt",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-author-work\\logs\\preparation-01\\03-uv-sync.stdout.txt",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-author-work\\logs\\preparation-01\\03-uv-sync.stderr.txt",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-author-work\\logs\\preparation-01\\04-python-version.stdout.txt",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-author-work\\logs\\preparation-01\\04-python-version.stderr.txt",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-author-work\\logs\\preparation-01\\05-sympy-version.stdout.txt",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-author-work\\logs\\preparation-01\\05-sympy-version.stderr.txt",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-author-work\\logs\\preparation-01\\06-syntax-check.stdout.txt",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-author-work\\logs\\preparation-01\\06-syntax-check.stderr.txt",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-author-work\\logs\\canonical-01\\command.json",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-author-work\\logs\\canonical-01\\stdout.txt",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-author-work\\logs\\canonical-01\\stderr.txt",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-author-work\\run-01\\summary.json",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-author-work\\run-01\\graph-values.json",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-author-work\\run-01\\pairs.jsonl",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-author-work\\run-01\\witnesses.json",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-author-work\\run-01\\published-p7.json",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-spec-work\\contract-v1.md",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-spec-work\\contract-freeze.json",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-input-work\\source-manifest.json",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-input-work\\graph2c.g6",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-input-work\\graph3c.g6",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-input-work\\graph4c.g6",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-input-work\\graph5c.g6",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-input-work\\graph6c.g6",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-independent-work\\run_logged.py",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-author-work\\.venv\\Scripts\\python.exe",
+      "match": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-spec-work\\prepare_author_wrapper_correction.py",
+      "match": true
+    }
+  ],
+  "all_five_outputs_byte_identical": true,
+  "files": [
+    {
+      "name": "summary.json",
+      "bytes": 181512,
+      "sha256": "14367bd2c8c9539206754f65b2da7b17baa5430cde97c33a070ddfc35ffc37f4",
+      "original_sha256": "14367bd2c8c9539206754f65b2da7b17baa5430cde97c33a070ddfc35ffc37f4",
+      "byte_identical": true
+    },
+    {
+      "name": "graph-values.json",
+      "bytes": 2690990,
+      "sha256": "8b4c070abde7153bfea2edf628e8d8188363dc65587a1fb750939c0ec6003327",
+      "original_sha256": "8b4c070abde7153bfea2edf628e8d8188363dc65587a1fb750939c0ec6003327",
+      "byte_identical": true
+    },
+    {
+      "name": "pairs.jsonl",
+      "bytes": 3417436,
+      "sha256": "1973ee7b63cd94d0e1e3171e88cce714c1d6853f766397967dfc0ed49a84f62c",
+      "original_sha256": "1973ee7b63cd94d0e1e3171e88cce714c1d6853f766397967dfc0ed49a84f62c",
+      "byte_identical": true
+    },
+    {
+      "name": "witnesses.json",
+      "bytes": 1573,
+      "sha256": "11667e046a4fff70fff23b5e7f501a7941def67c8067edd9034f56555a40b13f",
+      "original_sha256": "11667e046a4fff70fff23b5e7f501a7941def67c8067edd9034f56555a40b13f",
+      "byte_identical": true
+    },
+    {
+      "name": "published-p7.json",
+      "bytes": 1679,
+      "sha256": "d87979be4b43b44a89f3eb6c475976b3d25bf18975dc87128c50d6134d1096cf",
+      "original_sha256": "d87979be4b43b44a89f3eb6c475976b3d25bf18975dc87128c50d6134d1096cf",
+      "byte_identical": true
+    }
+  ],
+  "returncode": 0,
+  "timed_out": false,
+  "timeout_seconds": 1800,
+  "stdout_only_output_path_differs": true,
+  "stdout_paths": {
+    "old": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-author-work\\run-01",
+    "new": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-study-work\\process-correction\\author-run-02"
+  },
+  "stderr_bytes": 219,
+  "stderr_text": "warning: `VIRTUAL_ENV=D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-independent-work\\.venv` does not match the project environment path `.venv` and will be ignored; use `--active` to target the active environment instead\n",
+  "review_boundary": "Root comparison is mechanical; final independent review remains required. Original author run and its ownership deviation remain retained."
+}

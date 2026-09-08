@@ -1,0 +1,9 @@
+{
+  "schema_version": "root-evidence-gate-command-observation-v1",
+  "status": "ERROR",
+  "exit_code": 1,
+  "working_directory": "D:/CodexWorkspaces/mathematics-atlas/project",
+  "command": "uv run --frozen python C:/Users/Legedith/.codex/skills/chain-of-evidence/scripts/evidence_gate.py verify --workspace . --bundle .codex/evidence/runs/kemeny-pair-minimum-v1/bundle.json --report D:/CodexWorkspaces/mathematics-atlas/kemeny-study-work/gate-preaudit.json",
+  "output": {"status":"ERROR","error":"absolute paths are forbidden: D:/CodexWorkspaces/mathematics-atlas/kemeny-study-work/gate-preaudit.json"},
+  "correction": "Use a report path relative to the selected workspace. No mathematical code, result or claim was changed by this command-line correction."
+}

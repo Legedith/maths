@@ -1,0 +1,558 @@
+{
+  "candidate_key_digest": {
+    "encoding": "canonical compact sorted-key ASCII JSON object per pair with terminal newline, in required census order",
+    "sha256": "b4d7d443852df73158fd227d76f3f48867ad95ff742d952923e3f057b525b6de"
+  },
+  "definition": {
+    "equality_handling": "singleton equality is non-Braess and retained separately",
+    "kemeny": "sum of reciprocals of nonzero eigenvalues of I-P",
+    "qualifying_predicate": "delta_e<=0 and delta_f<=0 and delta_both>0",
+    "transition_matrix": "P=D^-1 A"
+  },
+  "deterministic_pre_summary_output_hashes": {
+    "completeness.json": "4d0bd778eef0b9781f3d6931257f2d59ce1eaa2c50eee2d7c1c011d6dbc5dea7",
+    "graph-values.json": "bf6c9fad7bb6f1473dbb55d4eb608d28481fc6548badca173907316cc3925f2b",
+    "pairs.jsonl": "a3aa0acbc0f8ca592525344388d045afd926702dd4e9cbdd886c04b0b4ef2c64",
+    "published-p7.json": "51354922fa541d010e0e12f8a8af2933b4c3f655b850a2eb465219b33e8b41bb",
+    "witnesses.json": "3e21183af71a6fa69e14a8f73084e1f20626a612c1c71f8341dfa88921939d8c"
+  },
+  "inputs": {
+    "source_manifest_sha256": "e4a02bdeb62d8e6b0e68849b4aa3d65d9a37744578bebd48abe740fe94c52c7f",
+    "verified_files": [
+      {
+        "bytes": 3,
+        "n": 2,
+        "path": "graph2c.g6",
+        "sha256": "fae4bfc454bd04363dcd5222772f2973b1193e1ff6f676e822a427323a677ef9"
+      },
+      {
+        "bytes": 6,
+        "n": 3,
+        "path": "graph3c.g6",
+        "sha256": "5966edf890849db6cb03626431916231a81a30c9db9a4781a4a8f2e5dc7e6129"
+      },
+      {
+        "bytes": 18,
+        "n": 4,
+        "path": "graph4c.g6",
+        "sha256": "d7da485669f2dc74b81c02f18774a07430937684896833d59f138b10debb5005"
+      },
+      {
+        "bytes": 84,
+        "n": 5,
+        "path": "graph5c.g6",
+        "sha256": "3c436a6a15f554e3eff3ce9178fddd3d75db6d365b3c6b102b64afe82145050b"
+      },
+      {
+        "bytes": 560,
+        "n": 6,
+        "path": "graph6c.g6",
+        "sha256": "2dc8cbb1c05a12b5dcb28b6227cee86d585f203347f6aebb8fcbdb2b9bdf5fd7"
+      }
+    ]
+  },
+  "method": {
+    "arithmetic": "python_stdlib_fractions.Fraction_only",
+    "cache_key": "full labelled graph state: n plus lexicographic edge mask",
+    "early_stop": false,
+    "formula": "Faddeev-LeVerrier characteristic polynomial of I-P; K=-q_linear/q_constant after one exact factor x"
+  },
+  "minimum_order_result": {
+    "all_orders_2_through_6_completed": true,
+    "basis": "smallest complete census order containing an exact witness",
+    "candidate_minimum_order": 6,
+    "final_semantic_gate_pending": true,
+    "global_novelty_not_certified": true,
+    "orders_0_and_1_out_of_scope_and_have_fewer_than_two_nonedges": true
+  },
+  "orders": [
+    {
+      "candidate_pair_count": 0,
+      "complete": true,
+      "delta_both_equality_count": 0,
+      "delta_both_sign_counts": {},
+      "delta_e_equality_count": 0,
+      "delta_e_sign_counts": {},
+      "delta_f_equality_count": 0,
+      "delta_f_sign_counts": {},
+      "n": 2,
+      "sign_pattern_counts": {},
+      "source_graph_count": 1,
+      "witness_count": 0,
+      "zero_pair_source_row_count": 1
+    },
+    {
+      "candidate_pair_count": 0,
+      "complete": true,
+      "delta_both_equality_count": 0,
+      "delta_both_sign_counts": {},
+      "delta_e_equality_count": 0,
+      "delta_e_sign_counts": {},
+      "delta_f_equality_count": 0,
+      "delta_f_sign_counts": {},
+      "n": 3,
+      "sign_pattern_counts": {},
+      "source_graph_count": 2,
+      "witness_count": 0,
+      "zero_pair_source_row_count": 2
+    },
+    {
+      "candidate_pair_count": 8,
+      "complete": true,
+      "delta_both_equality_count": 0,
+      "delta_both_sign_counts": {
+        "negative": 8
+      },
+      "delta_e_equality_count": 0,
+      "delta_e_sign_counts": {
+        "negative": 5,
+        "positive": 3
+      },
+      "delta_f_equality_count": 0,
+      "delta_f_sign_counts": {
+        "negative": 5,
+        "positive": 3
+      },
+      "n": 4,
+      "sign_pattern_counts": {
+        "negative|negative|negative": 5,
+        "positive|positive|negative": 3
+      },
+      "source_graph_count": 6,
+      "witness_count": 0,
+      "zero_pair_source_row_count": 2
+    },
+    {
+      "candidate_pair_count": 139,
+      "complete": true,
+      "delta_both_equality_count": 0,
+      "delta_both_sign_counts": {
+        "negative": 124,
+        "positive": 15
+      },
+      "delta_e_equality_count": 0,
+      "delta_e_sign_counts": {
+        "negative": 119,
+        "positive": 20
+      },
+      "delta_f_equality_count": 0,
+      "delta_f_sign_counts": {
+        "negative": 120,
+        "positive": 19
+      },
+      "n": 5,
+      "sign_pattern_counts": {
+        "negative|negative|negative": 115,
+        "negative|positive|negative": 4,
+        "positive|negative|negative": 5,
+        "positive|positive|positive": 15
+      },
+      "source_graph_count": 21,
+      "witness_count": 0,
+      "zero_pair_source_row_count": 2
+    },
+    {
+      "candidate_pair_count": 2243,
+      "complete": true,
+      "delta_both_equality_count": 0,
+      "delta_both_sign_counts": {
+        "negative": 2146,
+        "positive": 97
+      },
+      "delta_e_equality_count": 2,
+      "delta_e_sign_counts": {
+        "negative": 1909,
+        "positive": 332,
+        "zero": 2
+      },
+      "delta_f_equality_count": 5,
+      "delta_f_sign_counts": {
+        "negative": 1982,
+        "positive": 256,
+        "zero": 5
+      },
+      "n": 6,
+      "sign_pattern_counts": {
+        "negative|negative|negative": 1782,
+        "negative|positive|negative": 115,
+        "negative|positive|positive": 11,
+        "negative|zero|positive": 1,
+        "positive|negative|negative": 187,
+        "positive|negative|positive": 11,
+        "positive|positive|negative": 56,
+        "positive|positive|positive": 74,
+        "positive|zero|negative": 4,
+        "zero|negative|negative": 2
+      },
+      "source_graph_count": 112,
+      "witness_count": 1,
+      "zero_pair_source_row_count": 2
+    }
+  ],
+  "published_p7": {
+    "path": "published-p7.json",
+    "source_inequalities_pass": true,
+    "status": "pass_published_upper_bound_replayed"
+  },
+  "schema_version": "kemeny-independent-summary-v1",
+  "status": "complete_independent_evaluator_result_not_final_gate",
+  "totals": {
+    "candidate_pair_count": 2390,
+    "graph_state_value_count_including_p7_states": 1848,
+    "source_graph_count": 142,
+    "witness_count": 1,
+    "zero_pair_source_row_count": 9
+  },
+  "zero_pair_source_rows": [
+    {
+      "edges": [
+        [
+          1,
+          2
+        ]
+      ],
+      "graph6": "A_",
+      "n": 2,
+      "nonedge_count": 0,
+      "pair_count": 0,
+      "source_file": "graph2c.g6",
+      "source_line": 1
+    },
+    {
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "graph6": "BW",
+      "n": 3,
+      "nonedge_count": 1,
+      "pair_count": 0,
+      "source_file": "graph3c.g6",
+      "source_line": 1
+    },
+    {
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "graph6": "Bw",
+      "n": 3,
+      "nonedge_count": 0,
+      "pair_count": 0,
+      "source_file": "graph3c.g6",
+      "source_line": 2
+    },
+    {
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "graph6": "C^",
+      "n": 4,
+      "nonedge_count": 1,
+      "pair_count": 0,
+      "source_file": "graph4c.g6",
+      "source_line": 5
+    },
+    {
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "graph6": "C~",
+      "n": 4,
+      "nonedge_count": 0,
+      "pair_count": 0,
+      "source_file": "graph4c.g6",
+      "source_line": 6
+    },
+    {
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "graph6": "D^{",
+      "n": 5,
+      "nonedge_count": 1,
+      "pair_count": 0,
+      "source_file": "graph5c.g6",
+      "source_line": 20
+    },
+    {
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "graph6": "D~{",
+      "n": 5,
+      "nonedge_count": 0,
+      "pair_count": 0,
+      "source_file": "graph5c.g6",
+      "source_line": 21
+    },
+    {
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "graph6": "E^~w",
+      "n": 6,
+      "nonedge_count": 1,
+      "pair_count": 0,
+      "source_file": "graph6c.g6",
+      "source_line": 111
+    },
+    {
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "graph6": "E~~w",
+      "n": 6,
+      "nonedge_count": 0,
+      "pair_count": 0,
+      "source_file": "graph6c.g6",
+      "source_line": 112
+    }
+  ]
+}

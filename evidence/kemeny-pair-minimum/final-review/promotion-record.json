@@ -1,0 +1,24 @@
+{
+  "schema_version": "kemeny-publication-promotion-v1",
+  "recorded_at_utc": "2026-09-08T08:31:03.968856+00:00",
+  "reviewed_bundle_sha256": "e503ebb7cd844c14ee85efe4267393c709fc8c4a8d4e189a23f0ce1aabe28a72",
+  "reviewed_artifact_count": 284,
+  "reviewed_claim_ids": [
+    "C001",
+    "C002",
+    "C003",
+    "C004",
+    "C005",
+    "C006",
+    "C007",
+    "C008",
+    "C009"
+  ],
+  "all_reviewed_artifacts_unchanged": true,
+  "all_claims_unchanged": true,
+  "final_review_manifest_sha256": "82b000e1cd51dfa43ceeafeefe3c9539eb263adb86fd231cc8fda4727c7df9ab",
+  "final_audit_sha256": "be41edc3e5acac5e3310124ec1919af97c9d9fef2d370f11713aabfde50dff08",
+  "new_records": "39 exact final-review files, the reviewed input bundle, two retained preaudit gate attempts and this promotion record",
+  "status_source": "Four checks copied from the independent reviewer; root does not self-certify the semantic gates.",
+  "limitations": "Novelty, real-world impact, full mathematical coverage and Ubuntu execution are not certified by this promotion."
+}

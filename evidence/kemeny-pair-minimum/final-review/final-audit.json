@@ -1,0 +1,330 @@
+{
+  "approved_claim_ids": [
+    "C001",
+    "C002",
+    "C003",
+    "C004",
+    "C005",
+    "C006",
+    "C007",
+    "C008",
+    "C009"
+  ],
+  "auditor": {
+    "identity": "/root/sol_symmetry_audit",
+    "role": "final independent source, proof, implementation, completeness, reproduction and claim reviewer; not an evaluator author"
+  },
+  "checks": [
+    {
+      "auditor": "/root/sol_symmetry_audit",
+      "evidence": [
+        {
+          "path": "raw/audit-check.json",
+          "sha256": "4813edd0d32db596cb1722ec3e8e95e95d177770e69c3618dc2326fd20850ca9"
+        },
+        {
+          "bytes": 36833,
+          "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-author-work/census.py",
+          "sha256": "6560176884fc4ce67b8da38465867f0a89491f087794258c7bd627225b5d6341"
+        },
+        {
+          "bytes": 36772,
+          "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-independent-work/verify_census.py",
+          "sha256": "3399bcfaef7aa81687ae6f5fd65d67f9adfa5618e8faeb38a8e556f789eb0399"
+        },
+        {
+          "bytes": 27181,
+          "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-independent-work/comparison-01/comparison.json",
+          "sha256": "4e72ec56615441992dd5685ad72c4968820d26bfd7e3c909324ace42de3af24b"
+        },
+        {
+          "path": "raw/portable-adapter-check.json",
+          "sha256": "ac87630c37e0d3c02b815e059f0b7fca236586765f94809cafe2e306aac944c4"
+        }
+      ],
+      "id": "implementation_alignment",
+      "note": "Pass for the frozen graph class and predicate. Direct code inspection confirmed two separate exact methods, complete nonedge-pair evaluation, periodic-state retention, and exact sign/equality handling. The independent audit rederived all 2390 ledger rows, compared all 1848 stored states, independently reconstructed full labelled orbit coverage, and checked the selected witness, P7, and K2 with a third exact fundamental-matrix calculation.",
+      "status": "pass"
+    },
+    {
+      "auditor": "/root/sol_symmetry_audit",
+      "evidence": [
+        {
+          "path": "raw/audit-check.json",
+          "sha256": "4813edd0d32db596cb1722ec3e8e95e95d177770e69c3618dc2326fd20850ca9"
+        },
+        {
+          "bytes": 27181,
+          "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-independent-work/comparison-01/comparison.json",
+          "sha256": "4e72ec56615441992dd5685ad72c4968820d26bfd7e3c909324ace42de3af24b"
+        },
+        {
+          "bytes": 2642,
+          "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-independent-work/comparison-seal.json",
+          "sha256": "c7e0cd6892639dd5403c4275b3904afcf2536fedd32f059e4a7c77cc11829204"
+        },
+        {
+          "path": "raw/process-correction-check.json",
+          "sha256": "22f14ca0fce1433d9d34c54789ca1e9d3318d88ed1ed4a8570498354ae249230"
+        },
+        {
+          "path": "raw/portable-adapter-check.json",
+          "sha256": "ac87630c37e0d3c02b815e059f0b7fca236586765f94809cafe2e306aac944c4"
+        },
+        {
+          "path": "raw/portable-transfer-check.json",
+          "sha256": "4c8c2ee9b1edf5d981b751698e1709250cbe3ec57243a44c6908b5889584fdd6"
+        }
+      ],
+      "id": "reproduction",
+      "note": "Pass. The separately sealed implementations agree exactly on all states, pairs, summaries, witness and P7. The auditor-owned-wrapper corrective author rerun returned zero without timeout and reproduced all five author files byte-for-byte. The frozen portable Windows replay returned zero for both children and reproduced all eleven deterministic files byte-for-byte; all 33 project package files match the frozen staging package.",
+      "status": "pass"
+    },
+    {
+      "auditor": "/root/sol_symmetry_audit",
+      "evidence": [
+        {
+          "path": "source-verification.json",
+          "sha256": "789427eb172830499c6ed976c69d69f1fc86ebd7ccb21730452f2ec99ed47883"
+        },
+        {
+          "bytes": 9130,
+          "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-postresult-review-work/review-seal.json",
+          "sha256": "f382c2414ed213f9ccc9cb140a739d53a3a4e4965016a3f8865d35b5f2f2f880"
+        },
+        {
+          "bytes": 8156,
+          "path": "D:/CodexWorkspaces/mathematics-atlas/discovery-next-audit-work/atlas-integration-review.json",
+          "sha256": "3c8065f6f40741ff8aa7464572036ea70e98396829ba407795f48a5b84ab9af3"
+        }
+      ],
+      "id": "source_verification",
+      "note": "Pass for the cited formula, strict Braess convention, P7 control, periodic-chain applicability, and atlas definition projection. The bounded pre- and post-result source reviews located established Braess-set, neutral-edge, and twin-edge prior art but no exact minimum-order-six statement in their inspected sources. That non-location does not establish novelty, openness, literature completeness, or publishability.",
+      "status": "pass"
+    },
+    {
+      "auditor": "/root/sol_symmetry_audit",
+      "evidence": [
+        {
+          "bytes": 10309,
+          "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-spec-work/contract-v1.md",
+          "sha256": "1ff78636c4dcadc7d8f9d6a3a36c144e193e5f90cbb970ab846c877cdf0c6ac6"
+        },
+        {
+          "path": "raw/audit-check.json",
+          "sha256": "4813edd0d32db596cb1722ec3e8e95e95d177770e69c3618dc2326fd20850ca9"
+        },
+        {
+          "bytes": 14011,
+          "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-study-work/process-correction/freeze.json",
+          "sha256": "387e46dd4e66e2b2f08f2b5e849f59c989817038007fa08a7ae8277f71174703"
+        },
+        {
+          "bytes": 8273,
+          "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-study-work/process-correction/comparison.json",
+          "sha256": "83163cbc70e953684bf15ddeb8dd7e112260d2872099744719326c852912ace3"
+        },
+        {
+          "path": "raw/process-correction-check.json",
+          "sha256": "22f14ca0fce1433d9d34c54789ca1e9d3318d88ed1ed4a8570498354ae249230"
+        },
+        {
+          "bytes": 2129,
+          "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-study-work/evidence/strict-singleton-corollary-proposal.json",
+          "sha256": "0467c9b37bce74911f4e9673027ee031a74ff6a86400984350014e9e3c5be1e3"
+        }
+      ],
+      "id": "specification_compliance",
+      "note": "Pass after the documented corrective rerun. The original author run remains preserved with its literal audit-owned-wrapper deviation. Before the correction, the unchanged source, inputs, environment, independent-owned wrapper and 1800-second limit were re-pinned; the corrected outputs are byte-identical. The primary predicate remains unchanged. The strict-singleton order-seven result is separately labelled post hoc and uses no new graph evaluation.",
+      "status": "pass"
+    }
+  ],
+  "claim_alignment": [
+    {
+      "id": "C001",
+      "note": "Correctly credits the formula, strict convention and P7 example as prior work.",
+      "status": "approved"
+    },
+    {
+      "id": "C002",
+      "note": "Counts and full graph-orbit set equality were independently recomputed; all zero-pair rows were retained.",
+      "status": "approved"
+    },
+    {
+      "id": "C003",
+      "note": "Graph, additions, four exact K values and three exact deltas match both ledgers and the third exact certificate.",
+      "status": "approved"
+    },
+    {
+      "id": "C004",
+      "note": "All 1848 state values and 2390 pair rows agree. Blindness is understood as the recorded sealed chronology and declarations, with the negative-access limitation below.",
+      "status": "approved"
+    },
+    {
+      "id": "C005",
+      "note": "The SymPy grounded-resistance and standard-library Fraction characteristic-polynomial methods are substantively independent implementations.",
+      "status": "approved"
+    },
+    {
+      "id": "C006",
+      "note": "Witness at six plus exclusion below six proves the global minimum order in the stated class. Its strict-singleton caveat is read as a boundary of this primary claim; C007 is a separate post-hoc result.",
+      "status": "approved"
+    },
+    {
+      "id": "C007",
+      "note": "A strict witness is a subset of weak witnesses; none exists through six, and the preselected P7 is strict, so minimum order seven follows without a new census.",
+      "status": "approved_secondary_post_hoc"
+    },
+    {
+      "id": "C008",
+      "note": "Atlas deltas, totals, source status and no-result/no-novelty boundary match the prior independent integration review.",
+      "status": "approved"
+    },
+    {
+      "id": "C009",
+      "note": "The portable replay preserved the frozen mathematical code and produced all eleven baseline files byte-for-byte; it is packaging evidence only.",
+      "status": "approved"
+    }
+  ],
+  "created_at_utc": "2026-09-08T08:27:06.957129+00:00",
+  "input_bundle": {
+    "bytes": 89478,
+    "path": "D:/CodexWorkspaces/mathematics-atlas/project/.codex/evidence/runs/kemeny-pair-minimum-v1/bundle.json",
+    "sha256": "e503ebb7cd844c14ee85efe4267393c709fc8c4a8d4e189a23f0ce1aabe28a72"
+  },
+  "limitations": [
+    "The two full censuses share the same official graph6 inputs, frozen contract, Python version and uv toolchain; their mathematical algorithms and code are separate.",
+    "The third exact fundamental-matrix evaluator was applied to the selected order-six witness, the fixed P7 and periodic K2, not all 1848 stored states.",
+    "Hashes, timestamps and auditor declarations support the recorded blinding chronology; filesystem evidence cannot prove the universal negative that no unrecorded access occurred.",
+    "The original author wrapper-ownership deviation is historical and remains visible even though the corrected run satisfies the literal requirement.",
+    "No aggregate 20-minute workflow target, earlier 15-minute tool-readiness target, human-time saving or efficiency benefit is certified; only the frozen per-process 1800-second limits are in scope and passed.",
+    "The portable integration replay was observed on Windows 10. Ubuntu compatibility is pending the configured CI run.",
+    "Bounded literature searches located no exact-result blocker in inspected sources, but do not establish novelty, first-known status, openness, literature completeness or publishability.",
+    "This is an exact finite theorem for the stated graph class and convention, not a theorem about weighted, directed, infinite or nonsimple graphs, a larger-order classification, measured prevalence, or demonstrated real-world impact."
+  ],
+  "mathematical_result": {
+    "coverage": {
+      "connected_labelled_graphs_in_orbit_check": 27475,
+      "connected_representatives": 142,
+      "orders": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "qualifying_primary_pairs": 1,
+      "stored_graph_states_including_four_P7_states": 1848,
+      "unordered_nonedge_pairs": 2390
+    },
+    "logical_scope": "Exclusion of every smaller order and a witness at six proves the minimum over all finite connected simple undirected unweighted graphs under the frozen convention. No enumeration above six is needed for that minimum; the result does not classify graphs of order seven or more and does not extend to weighted, directed or nonsimple classes.",
+    "minimum_order": 6,
+    "primary_predicate": "delta_e <= 0 and delta_f <= 0 and delta_both > 0",
+    "witness": {
+      "added_edges": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "base_edges": [
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "deltas": {
+        "both": "+1/18",
+        "e": "-1/112",
+        "f": "0"
+      },
+      "graph6": "E?zW",
+      "kemeny": {
+        "base": "135/28",
+        "both": "1229/252",
+        "e": "77/16",
+        "f": "135/28"
+      }
+    }
+  },
+  "portable_package": {
+    "deterministic_outputs_byte_identical": 11,
+    "existing_directory_probe": {
+      "child_invocations": 0,
+      "return_code": 2,
+      "sentinel_unchanged": true
+    },
+    "pinned_package_files": 27,
+    "project_package_files_byte_identical_to_staging": 33,
+    "result_manifest": {
+      "bytes": 24483,
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-portable-work/result-manifest.json",
+      "sha256": "d5bbdd58126de29f2db378c08a287ac4d28272569ee386aa2347fbc6f898f420"
+    },
+    "status": "approved_for_recorded_windows_reproduction",
+    "ubuntu_scope": "Workflow and POSIX path/process handling pass static review; no Ubuntu execution result existed at this audit freeze, so CI remains the platform observation."
+  },
+  "process_correction": {
+    "frozen_pin_count": 42,
+    "literal_audit_owned_wrapper_requirement": "satisfied_by_documented_corrective_rerun",
+    "original_deviation_retained": true,
+    "output_files_byte_identical": 5,
+    "path_spelling": "Frozen backslashes and logged forward slashes normalize to the same four absolute Windows paths; every non-path argv token matches.",
+    "return_code": 0,
+    "status": "accepted",
+    "stderr": "The sole 219-byte uv warning says the inherited independent-project VIRTUAL_ENV did not match the inner author project and was ignored. With --project fixed to the author project, it discloses environment selection and is not a mathematical failure.",
+    "timed_out": false
+  },
+  "report_alignment": {
+    "mermaid_graph_matches_seven_base_edges_and_two_additions": true,
+    "minimum_logic_correct": true,
+    "no_real_world_impact_claim": true,
+    "novelty_unresolved": true,
+    "primary_and_post_hoc_predicates_distinguished": true,
+    "prior_work_credited": true,
+    "status": "pass"
+  },
+  "schema_version": "kemeny-pair-minimum-final-independent-audit-v1",
+  "secondary_corollary": {
+    "boundary": "Secondary logical deduction after results; not the preregistered primary question, no new evaluation, and no novelty claim.",
+    "lower_exclusion": "The complete unchanged weak-predicate ledger has no strict witness through order six.",
+    "minimum_order": 7,
+    "predicate": "delta_e < 0 and delta_f < 0 and delta_both > 0",
+    "status": "approved_post_hoc",
+    "upper_witness": "The fixed published P7 has deltas -1/14, -1/14 and +1/24."
+  },
+  "status": "pass_scoped",
+  "user_report": {
+    "bytes": 8992,
+    "path": "D:/CodexWorkspaces/mathematics-atlas/project/README-kemeny.md",
+    "sha256": "2761e3d592c5816511e2f1a90c1a2a7bc09224d71c52fa323bd49d26d71ed47f"
+  }
+}

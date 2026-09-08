@@ -1,0 +1,26 @@
+{
+  "schema_version": "kemeny-strict-singleton-corollary-proposal-v1",
+  "status": "post_hoc_logical_corollary_pending_independent_review",
+  "primary_predicate_unchanged": true,
+  "new_graph_evaluations": 0,
+  "statement": "If both singleton additions must strictly decrease Kemeny's constant while the joint addition strictly increases it, the minimum order in the same graph class is seven.",
+  "derivation": [
+    "Every strict-singleton witness is a witness for the frozen nonincreasing-singleton predicate.",
+    "The complete original census has no weak-predicate witnesses on fewer than six vertices, and exactly one recorded weak-predicate pair at six vertices.",
+    "That six-vertex pair has an exactly zero second-singleton delta, so it does not satisfy the strict-singleton predicate.",
+    "The already fixed, published and exactly replayed P7 has singleton deltas -1/14 and -1/14 and joint delta +1/24, so it supplies a strict-singleton witness on seven vertices.",
+    "The lower exclusion through six and the fixed order-seven witness together imply minimum seven; no order-seven census or new numerical search is involved."
+  ],
+  "inputs": [
+    {"path": "author/run-01/summary.json", "sha256": "14367bd2c8c9539206754f65b2da7b17baa5430cde97c33a070ddfc35ffc37f4"},
+    {"path": "author/run-01/witnesses.json", "sha256": "11667e046a4fff70fff23b5e7f501a7941def67c8067edd9034f56555a40b13f"},
+    {"path": "author/run-01/published-p7.json", "sha256": "d87979be4b43b44a89f3eb6c475976b3d25bf18975dc87128c50d6134d1096cf"},
+    {"path": "independent/comparison-01/comparison.json", "sha256": "4e72ec56615441992dd5685ad72c4968820d26bfd7e3c909324ace42de3af24b"}
+  ],
+  "limits": [
+    "This corollary was identified after the primary results were known and is not described as the preregistered primary question.",
+    "The published P7 example and its phenomenon remain credited to prior work.",
+    "Neither this deduction nor a search miss establishes publication novelty.",
+    "The historical author explanation's no-alternative-theorem statement described that earlier artifact's scope; it is not rewritten."
+  ]
+}

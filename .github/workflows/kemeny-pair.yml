@@ -1,0 +1,24 @@
+name: Reproduce Kemeny pair minimum
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  exact-census:
+    runs-on: ubuntu-latest
+    timeout-minutes: 70
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: astral-sh/setup-uv@d0d8abe699bfb85fec6de9f7adb5ae17292296ff # v6
+        with:
+          version: '0.8.19'
+          python-version: '3.12.11'
+      - name: Reproduce both exact censuses
+        run: uv run --project experiments/kemeny-pair-minimum/independent --frozen python experiments/kemeny-pair-minimum/reproduce.py --output-dir work/kemeny-pair-ci
+      - name: Retain raw reproduction outputs
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: kemeny-pair-reproduction
+          path: work/kemeny-pair-ci/
+          retention-days: 30
+          if-no-files-found: warn

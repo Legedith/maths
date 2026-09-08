@@ -1,0 +1,1 @@
+{"all_byte_identical":true,"child_invocations":2,"deterministic_file_count":11,"output_dir":"D:/CodexWorkspaces/mathematics-atlas/kemeny-portable-work/integration-run-01","run_record_sha256":"096c85f7dea51516b2038b8585b42d4bc266ca1bb398663fde5207cdab51b08d","schema_version":"kemeny-portable-run-status-v1","status":"complete_all_deterministic_outputs_byte_identical"}

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "counts": {
+    "nodes": 33,
+    "edges": 44,
+    "sources": 9,
+    "journeys": 4,
+    "opportunities": 6,
+    "examples": 7
+  },
+  "errors": [],
+  "scope": "Structural consistency only. Independent review must establish source entailment and proof status."
+}

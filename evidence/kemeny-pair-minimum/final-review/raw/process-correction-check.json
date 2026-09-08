@@ -1,0 +1,115 @@
+{
+  "auditor": "/root/sol_symmetry_audit",
+  "checks": {
+    "all_42_pins_currently_match": true,
+    "child_argv_matches_freeze_after_windows_separator_normalization": true,
+    "elapsed_seconds": 8.307056,
+    "five_deterministic_outputs_byte_identical_to_original": true,
+    "freeze_precedes_run": true,
+    "normalized_path_positions": [
+      3,
+      6,
+      8,
+      10
+    ],
+    "not_timed_out": true,
+    "outputs": [
+      {
+        "byte_identical_to_original": true,
+        "bytes": 181512,
+        "name": "summary.json",
+        "sha256": "14367bd2c8c9539206754f65b2da7b17baa5430cde97c33a070ddfc35ffc37f4"
+      },
+      {
+        "byte_identical_to_original": true,
+        "bytes": 2690990,
+        "name": "graph-values.json",
+        "sha256": "8b4c070abde7153bfea2edf628e8d8188363dc65587a1fb750939c0ec6003327"
+      },
+      {
+        "byte_identical_to_original": true,
+        "bytes": 3417436,
+        "name": "pairs.jsonl",
+        "sha256": "1973ee7b63cd94d0e1e3171e88cce714c1d6853f766397967dfc0ed49a84f62c"
+      },
+      {
+        "byte_identical_to_original": true,
+        "bytes": 1573,
+        "name": "witnesses.json",
+        "sha256": "11667e046a4fff70fff23b5e7f501a7941def67c8067edd9034f56555a40b13f"
+      },
+      {
+        "byte_identical_to_original": true,
+        "bytes": 1679,
+        "name": "published-p7.json",
+        "sha256": "d87979be4b43b44a89f3eb6c475976b3d25bf18975dc87128c50d6134d1096cf"
+      }
+    ],
+    "returncode_zero": true,
+    "stdout_and_stderr_hashes_match": true,
+    "wrapper_records_timeout_argv_cwd_utc_result_and_raw_streams": true,
+    "wrapper_was_independently_owned_and_preexecution_sealed": true
+  },
+  "inputs": {
+    "comparison": {
+      "bytes": 8273,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-study-work\\process-correction\\comparison.json",
+      "sha256": "83163cbc70e953684bf15ddeb8dd7e112260d2872099744719326c852912ace3"
+    },
+    "freeze": {
+      "bytes": 14011,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-study-work\\process-correction\\freeze.json",
+      "sha256": "387e46dd4e66e2b2f08f2b5e849f59c989817038007fa08a7ae8277f71174703"
+    },
+    "wrapper": {
+      "bytes": 4600,
+      "owner_from_preexecution_seal": "/root/sol_atlas_audit",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-independent-work\\run_logged.py",
+      "sha256": "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6"
+    }
+  },
+  "limitations": [
+    "The original author run remains a preserved process deviation; the corrective run repairs wrapper ownership prospectively and does not rewrite its chronology.",
+    "The correction freeze records that output and log directories were absent before execution; this independent post-run review verifies chronology and resulting files but cannot retroactively observe directory absence.",
+    "The wrapper evidence and recorded ownership establish the scoped process record; they cannot prove a universal negative about unrecorded filesystem access."
+  ],
+  "post_hoc_strict_singleton_corollary": {
+    "definition": "delta_e<0 and delta_f<0 and delta_both>0",
+    "logic": "Every strict-singleton witness is also a weak-singleton witness. The complete unchanged ledger contains none at orders 2 through 5 and its unique weak witness at order 6 has delta_f=0, while the separately fixed published P7 control has both singleton deltas negative and its joint delta positive.",
+    "minimum_order": 7,
+    "published_p7_deltas": {
+      "both": {
+        "denominator": 24,
+        "numerator": 1
+      },
+      "e": {
+        "denominator": 14,
+        "numerator": -1
+      },
+      "f": {
+        "denominator": 14,
+        "numerator": -1
+      }
+    },
+    "scope": "Post hoc logical corollary of the frozen ledger and preselected P7 control; it was not the preregistered primary predicate and carries no novelty claim.",
+    "status": "pass_as_secondary_derived_result",
+    "strict_witness_count_through_order_6_author": 0,
+    "strict_witness_count_through_order_6_independent": 0,
+    "strict_witness_counts_by_order": {
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    }
+  },
+  "schema_version": "kemeny-process-correction-independent-check-v1",
+  "status": "pass",
+  "verdict": {
+    "literal_wrapper_requirement": "satisfied_by_documented_corrective_rerun",
+    "mathematical_result_changed": false,
+    "original_run": "retained_with_author-wrapper-ownership_deviation",
+    "path_interpretation": "The freeze used Windows backslashes and the logged child argv used forward slashes at four absolute-path positions; ntpath normalization gives the same paths and every non-path token is exact.",
+    "stderr_interpretation": "A single uv warning records that the inherited independent-project VIRTUAL_ENV was ignored because it did not match the inner author project. With --project fixed to the author project, this is environment-selection disclosure and not a mathematical failure."
+  }
+}

@@ -1,0 +1,6 @@
+Get-Command: 
+Line |
+   2 |  … tderr.txt'; Get-Command pdftotext -ErrorAction Continue 1> $out 2> $e …
+     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The term 'pdftotext' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.

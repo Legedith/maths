@@ -1,0 +1,49 @@
+{
+  "schema_version": "kemeny-author-code-freeze-v1",
+  "status": "frozen_before_study_computation",
+  "frozen_at_utc": "2026-09-08T07:09:40.9047749+00:00",
+  "files": [
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-author-work/.python-version",
+      "role": "author_code_or_environment",
+      "bytes": 8,
+      "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-author-work/pyproject.toml",
+      "role": "author_code_or_environment",
+      "bytes": 236,
+      "sha256": "728e600f9f2ddef2008f879ffb077957bc874c8d9ea7a66fcbe3c2230f4ca651"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-author-work/uv.lock",
+      "role": "author_code_or_environment",
+      "bytes": 1691,
+      "sha256": "afdad7f8e3c5b68a9effb77dc6c05ff1767fa6206aa14cecc21cc90b0acda073"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-author-work/census.py",
+      "role": "author_code_or_environment",
+      "bytes": 36833,
+      "sha256": "6560176884fc4ce67b8da38465867f0a89491f087794258c7bd627225b5d6341"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-author-work/prepare.ps1",
+      "role": "author_code_or_environment",
+      "bytes": 3964,
+      "sha256": "540dfc8d580be1df11bb7fa8a2030d7c16d29a04f39aa19fc35216344a719114"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-author-work/freeze_inputs.ps1",
+      "role": "author_code_or_environment",
+      "bytes": 4301,
+      "sha256": "8802a50508d804db450dd8a22fcfc4b37d0419037b1fb503f87bea376170d495"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-author-work/run_logged.ps1",
+      "role": "author_code_or_environment",
+      "bytes": 4049,
+      "sha256": "83710fdd812cbdb01293a0085528c42ed61cc63f75abadb4fb61f4c35c95644c"
+    }
+  ]
+}

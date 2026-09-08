@@ -1,0 +1,76 @@
+{
+  "schema_version": "kemeny-witness-explanation-manifest-v1",
+  "status": "sealed_explanation_pending_final_audit",
+  "sealed_at_utc": "2026-09-08T07:28:23.483063+00:00",
+  "scope": "postprocessing and explanation only; no graph evaluation",
+  "artifacts": [
+    {
+      "path": ".python-version",
+      "bytes": 8,
+      "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 218,
+      "sha256": "0231a60cd4293713ee57c81c00e607007abce03c551f59df535e38dbb8149a18"
+    },
+    {
+      "path": "uv.lock",
+      "bytes": 149,
+      "sha256": "44cad3e0749285a8583ca92afa71307284667dce60a5c0bc5b370330ff0645c2"
+    },
+    {
+      "path": "build_explanation.py",
+      "bytes": 19335,
+      "sha256": "3f1646c4a8a13065f27dcc4f9a8f6578290f0d9389ce375ef8d48556b9b8cdfa"
+    },
+    {
+      "path": "run_logged.py",
+      "bytes": 2072,
+      "sha256": "26a37b00a6e0af11f9f7bfd3217999e8c0ea44d3d7e654d1a9e63285855962e1"
+    },
+    {
+      "path": "seal.py",
+      "bytes": 2794,
+      "sha256": "56308344d3ec104ba3cca0fe0e6238a48feb52f3a8f6c139071db0daa649cc10"
+    },
+    {
+      "path": "witness-explanation.json",
+      "bytes": 7422,
+      "sha256": "944aedd72b479ea875fef53780da3d80d18007521eb8e774b5bfabef48baf396"
+    },
+    {
+      "path": "logs/canonical-01/command.json",
+      "bytes": 863,
+      "sha256": "7633e4a5e4e316bb21f8f9472125f999f78b645edc8de55a7881ced63bc9e791"
+    },
+    {
+      "path": "logs/canonical-01/stdout.txt",
+      "bytes": 178,
+      "sha256": "bb06a538526ac29c044175bad20fd6be54f9a445e167b05d3946cfd0315e3043"
+    },
+    {
+      "path": "logs/canonical-01/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "source_author_result_manifest_sha256": "78b4121cc83d7e06bed7470f70c1cbb365ba1d24543595f7620b9e15e0524a9d",
+  "seal_reproduction_argv": [
+    "uv",
+    "run",
+    "--project",
+    ".",
+    "--frozen",
+    "python",
+    "seal.py",
+    "--root",
+    ".",
+    "--output",
+    "result-manifest.json"
+  ],
+  "limitations": [
+    "Author-produced explanation artifact; independent final audit remains pending.",
+    "The source experiment and every author artifact remain outside this staging directory and were read only."
+  ]
+}

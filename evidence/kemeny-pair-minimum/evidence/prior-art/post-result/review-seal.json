@@ -1,0 +1,243 @@
+{
+  "schema_version": "kemeny-postresult-review-seal-v1",
+  "artifact_type": "independent_bounded_source_review_seal",
+  "frozen_at_utc": "2026-09-08T08:08:54.292597Z",
+  "auditor": "/root/sol_atlas_audit",
+  "status": "bounded_review_complete_no_exact_prior_art_blocker_located",
+  "scope": {
+    "targeted_queries": 6,
+    "new_relevant_full_primary_papers": 3,
+    "new_mathematical_census_run": false,
+    "global_novelty_certified": false,
+    "finite_census_final_semantic_gate_certified_here": false
+  },
+  "findings": {
+    "zero_change_single_edge_additions_are_prior_art": true,
+    "general_nonadjacent_twin_edge_change_formula_is_prior_art": true,
+    "generic_braess_set_and_published_p7_interaction_are_prior_art": true,
+    "exact_e_question_z_w_witness_located_in_reviewed_sources": false,
+    "published_minimum_order_six_located_in_reviewed_sources": false,
+    "exact_prior_art_blocker_located": false,
+    "namespace_source_check": "arXiv:1210.6965v1 uses kc(G) for local clique cover number, not Kemeny's constant"
+  },
+  "calibration": "The negative literature-search findings are bounded non-locations, not evidence of global novelty. The minimum-order statement comes from excluding orders two through five and exhibiting an order-six witness in the separately sealed census; it is not a classification of larger graphs and remains subject to its designated final semantic gate.",
+  "artifacts": [
+    {
+      "path": ".python-version",
+      "bytes": 8,
+      "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 124,
+      "sha256": "15ce4e660926cb7bf26c17f204a950176434594e01510c683295eb0e69fa932a"
+    },
+    {
+      "path": "uv.lock",
+      "bytes": 957,
+      "sha256": "3290a914510b003fa591458e35b76f094c7d0e12508af46b0b6f060038a1e94c"
+    },
+    {
+      "path": "extract_pdf_text.py",
+      "bytes": 1431,
+      "sha256": "296cf000ca112bee2858c9e5ecfbbc2ea06c1ff01b404da9cc6fa4f6c7de3f4d"
+    },
+    {
+      "path": "scan_terms.py",
+      "bytes": 1872,
+      "sha256": "0ef5e6325763d7c3577ee5b24096ec9d8ce54995c21f03739a6bbe0a0073c5f2"
+    },
+    {
+      "path": "seal_review.py",
+      "bytes": 7831,
+      "sha256": "a5e12ff660b11bd0f18f6681a6698b5a82c2bc29df1fb9592a6a1dee15724af2"
+    },
+    {
+      "path": "retrieval.json",
+      "bytes": 2373,
+      "sha256": "d467719ea0ec24d37928f205650a05581b49ec3104ffd285451e1a7ad1201979"
+    },
+    {
+      "path": "search-log.json",
+      "bytes": 3340,
+      "sha256": "d4729f46126963b4d7509eec9cc32b4cf5823720e87eb4b68da89bd46927585b"
+    },
+    {
+      "path": "source-notes.json",
+      "bytes": 13834,
+      "sha256": "c68fa80b81a003711dade344ad071167cb06ca18f383016882ac1875824b60b3"
+    },
+    {
+      "path": "term-scan.json",
+      "bytes": 5660,
+      "sha256": "0039958b461c147dc40bfd478d16e12458b2b164a6334664650693a17dcdbcfc"
+    },
+    {
+      "path": "namespace-source-check.json",
+      "bytes": 2279,
+      "sha256": "757c8b776c545b9d0409a09de7f918f8c14fd8a15ff1a3c263fc1d0a549cedd0"
+    },
+    {
+      "path": "verdict.md",
+      "bytes": 2404,
+      "sha256": "b11486dd7506ce9582eccc3a7c69a22519d4bbf3956689f8bf41cd89b1a9ca73"
+    },
+    {
+      "path": "logs/extract.stdout.json",
+      "bytes": 853,
+      "sha256": "780721d84c01977e690be58e20dd64b7aab4c6eae1ae90b56a38d33c0dcb938c"
+    },
+    {
+      "path": "logs/extract.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/term-scan.stdout.txt",
+      "bytes": 99,
+      "sha256": "6641aad34ec0c857883c397a0214eb0c4926e03608ebacd2b30df115c0c93ac2"
+    },
+    {
+      "path": "logs/term-scan.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/uv-lock.txt",
+      "bytes": 52,
+      "sha256": "31c80175bf716369c917b0d412268519f52b32407427bc0cf7550436e5841481"
+    },
+    {
+      "path": "logs/uv-sync.txt",
+      "bytes": 138,
+      "sha256": "a44c04ee1ca6dc2b03c52e2438a9ada1cd2cd0911dc9ecdddf9c675cf224d705"
+    },
+    {
+      "path": "logs/local-clique-1210.6965.fetch.json",
+      "bytes": 454,
+      "sha256": "6d3f50c7c4d7a773841c618adff5432fd9d8181c83760de8925fb6eeeb74fda8"
+    },
+    {
+      "path": "logs/local-clique-1210.6965.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/pdftotext-check.json",
+      "bytes": 315,
+      "sha256": "aa7047e2b14516bf54f798318980a6f13281297829d4cdebf8b727662a8434b2"
+    },
+    {
+      "path": "logs/pdftotext-check.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/pdftotext-check.stderr.txt",
+      "bytes": 414,
+      "sha256": "2d9fcd90af6aa70f7b6c9db29454ff24cfbd7a9a676b4519ea086cbe44a3dcea"
+    },
+    {
+      "path": "logs/seal-attempt01.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/seal-attempt01.stderr.txt",
+      "bytes": 470,
+      "sha256": "33492392819f23c2be3c6a28fdf00aed09dfb5192858ee8ee33895b20c759407"
+    }
+  ],
+  "retained_local_sources": [
+    {
+      "path": "sources/hu-kirkland-2019.pdf",
+      "bytes": 291152,
+      "sha256": "c896d263c6bec602274f84a29c30492f99e85e3bde654f3e61dcf5aa10718c77"
+    },
+    {
+      "path": "sources/hu-kirkland-2019.page-marked.txt",
+      "bytes": 33766,
+      "sha256": "603a2406e9d3ae27f07f008aa0a5797f1ea161ce13f4a66e2049fd9177cdb917"
+    },
+    {
+      "path": "sources/ciardo-1909.12549.pdf",
+      "bytes": 155299,
+      "sha256": "162fced8772d45186afdbec1db7c05b225b1d84e953bd534189b70ff27aab1f0"
+    },
+    {
+      "path": "sources/ciardo-1909.12549.page-marked.txt",
+      "bytes": 25516,
+      "sha256": "938c1882689ec879017c937cdc49990569fe1091c3b751d50d221941cf8fae3b"
+    },
+    {
+      "path": "sources/kim-2112.03655.pdf",
+      "bytes": 322346,
+      "sha256": "4bd8cd8c3e46fc697049fa27e8d4cb31857c10202215105c938239bfeaec2d94"
+    },
+    {
+      "path": "sources/kim-2112.03655.page-marked.txt",
+      "bytes": 65887,
+      "sha256": "459411a20af4999a9e7d0d24ddd452fe1aafbc71c8d4e36372ce915c97809591"
+    },
+    {
+      "path": "sources/local-clique-1210.6965.html",
+      "bytes": 391154,
+      "sha256": "0f2a4b2ad0fb0a1d5ada90eeebd7b41872ed14c4a507c2ce14c05c270cae22ff"
+    }
+  ],
+  "external_inputs": [
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/discovery-next-work/proposal.md",
+      "bytes": 6556,
+      "sha256": "ffc32445ce13f69c058039a1183becd6a91ce30eb9230209ce90efd1b67123b1",
+      "role": "proposal reviewed before the bounded post-result source check"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/discovery-next-work/source-notes.json",
+      "bytes": 6651,
+      "sha256": "ee4695ff47051b563731b4a957313df78cea1151e8704861ed936c8d384d892f",
+      "role": "pre-study source notes reviewed as an input"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-prior-art-work/source-notes.json",
+      "bytes": 8276,
+      "sha256": "eefafc33143c177442d35bfa123ddcb7a4232014b679f1211b73b98d19cf23f6",
+      "role": "sealed pre-computation four-source prior-art review"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-prior-art-work/supplement-2306.04005.json",
+      "bytes": 3297,
+      "sha256": "5ed72f2385d33dbf082c0eff26fa8f9275865353151fecaaf45df51aed8a5827",
+      "role": "sealed supplementary primary-source check"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-independent-work/independent-output-seal.json",
+      "bytes": 2256,
+      "sha256": "7ccdcbbd54a21fec1bfdfc668c05c9cc06564a985e82e68e9c4958a110994b2d",
+      "role": "blind independent census output seal"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-independent-work/run-01/witnesses.json",
+      "bytes": 4258,
+      "sha256": "3e21183af71a6fa69e14a8f73084e1f20626a612c1c71f8341dfa88921939d8c",
+      "role": "blind independent exact witness record"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-independent-work/comparison-01/comparison.json",
+      "bytes": 27181,
+      "sha256": "4e72ec56615441992dd5685ad72c4968820d26bfd7e3c909324ace42de3af24b",
+      "role": "exact author-independent structural comparison"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-study-work/evidence/prior-art/post-result-root-notes.json",
+      "bytes": 4172,
+      "sha256": "feb916bf533eaf41d7b9058380e7c4b1b5b1ee90e47a497bba3e894efdb9d858",
+      "role": "unsealed root note consumed only as the trigger for the separate namespace check"
+    }
+  ],
+  "publication_boundary": {
+    "full_pdfs_page_marked_full_texts_and_raw_html": "retained locally; excluded from publication copy set",
+    "virtual_environment_and_cache": "excluded",
+    "raw_http_headers": "retained locally but excluded because they contain transient cookies"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "schema_version": "kemeny-pair-contract-freeze-v1",
+  "frozen_at_utc": "2026-09-08T06:52:02.482669+00:00",
+  "path": "contract-v1.md",
+  "sha256": "1ff78636c4dcadc7d8f9d6a3a36c144e193e5f90cbb970ab846c877cdf0c6ac6",
+  "bytes": 10309,
+  "producer": "/root",
+  "status": "frozen_before_implementation_and_graph_evaluation"
+}

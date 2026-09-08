@@ -1,0 +1,32 @@
+{
+  "schema_version": "kemeny-final-audit-command-v1",
+  "argv": [
+    "uv",
+    "run",
+    "--python",
+    "3.12",
+    "python",
+    "audit_check.py"
+  ],
+  "working_directory": "D:/CodexWorkspaces/mathematics-atlas/kemeny-final-review-work",
+  "uv_cache_dir": "D:/CodexWorkspaces/mathematics-atlas/uv-cache",
+  "started_at_utc": "2026-09-08T07:52:57.5932512+00:00",
+  "ended_at_utc": "2026-09-08T07:53:00.2763071+00:00",
+  "elapsed_milliseconds": 2683.0,
+  "return_code": 0,
+  "stdout": {
+    "path": "raw/audit-check.stdout.txt",
+    "bytes": 199,
+    "sha256": "67ccd8f615c74b3f8d9b0c85cc84febfe1176bc0cf25d8414fb42464565488c0"
+  },
+  "stderr": {
+    "path": "raw/audit-check.stderr.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "result": {
+    "path": "raw/audit-check.json",
+    "bytes": 77698,
+    "sha256": "4813edd0d32db596cb1722ec3e8e95e95d177770e69c3618dc2326fd20850ca9"
+  }
+}

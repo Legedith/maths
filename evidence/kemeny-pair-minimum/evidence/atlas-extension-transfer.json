@@ -1,0 +1,25 @@
+{
+  "schema_version": "kemeny-atlas-extension-transfer-v1",
+  "before_sha256": "401e00c67d1b54d5986e750dc9ef9fe5dec76b269d2219267b385d6f0054f2d9",
+  "after_sha256": "6d0b37a4f7bdd7181b45d464bb5ea5f038cd097e33d56140c8beb74a3158276d",
+  "semantically_reviewed_draft_sha256": "fd172aedb7ef3ac15c06b4ce8076e050b1e5c0630dbf830951058adcca93dbb6",
+  "review_sha256": "f78d09edc5fabdcf515c2301a46361c2735ef135f1aa2123d4daf39c9c14e468",
+  "added_counts": {
+    "nodes": 2,
+    "edges": 4,
+    "sources": 2,
+    "journeys": 1,
+    "opportunities": 1
+  },
+  "counts": {
+    "nodes": 33,
+    "edges": 44,
+    "sources": 9,
+    "journeys": 4,
+    "opportunities": 6
+  },
+  "limitations": [
+    "Established source-grounded concepts only; no census result or novelty claim added.",
+    "The final project projection and source references still require integration verification."
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "schema_version": "kemeny-postresult-publication-manifest-v1",
+  "artifact_type": "compact_independent_review_publication_manifest",
+  "created_at_utc": "2026-09-08T08:08:54.292597Z",
+  "source_review_seal": {
+    "path": "review-seal.json",
+    "bytes": 9130,
+    "sha256": "f382c2414ed213f9ccc9cb140a739d53a3a4e4965016a3f8865d35b5f2f2f880"
+  },
+  "records": [
+    {
+      "path": ".python-version",
+      "bytes": 8,
+      "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d",
+      "copy": true
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 124,
+      "sha256": "15ce4e660926cb7bf26c17f204a950176434594e01510c683295eb0e69fa932a",
+      "copy": true
+    },
+    {
+      "path": "uv.lock",
+      "bytes": 957,
+      "sha256": "3290a914510b003fa591458e35b76f094c7d0e12508af46b0b6f060038a1e94c",
+      "copy": true
+    },
+    {
+      "path": "extract_pdf_text.py",
+      "bytes": 1431,
+      "sha256": "296cf000ca112bee2858c9e5ecfbbc2ea06c1ff01b404da9cc6fa4f6c7de3f4d",
+      "copy": true
+    },
+    {
+      "path": "scan_terms.py",
+      "bytes": 1872,
+      "sha256": "0ef5e6325763d7c3577ee5b24096ec9d8ce54995c21f03739a6bbe0a0073c5f2",
+      "copy": true
+    },
+    {
+      "path": "seal_review.py",
+      "bytes": 7831,
+      "sha256": "a5e12ff660b11bd0f18f6681a6698b5a82c2bc29df1fb9592a6a1dee15724af2",
+      "copy": true
+    },
+    {
+      "path": "retrieval.json",
+      "bytes": 2373,
+      "sha256": "d467719ea0ec24d37928f205650a05581b49ec3104ffd285451e1a7ad1201979",
+      "copy": true
+    },
+    {
+      "path": "search-log.json",
+      "bytes": 3340,
+      "sha256": "d4729f46126963b4d7509eec9cc32b4cf5823720e87eb4b68da89bd46927585b",
+      "copy": true
+    },
+    {
+      "path": "source-notes.json",
+      "bytes": 13834,
+      "sha256": "c68fa80b81a003711dade344ad071167cb06ca18f383016882ac1875824b60b3",
+      "copy": true
+    },
+    {
+      "path": "term-scan.json",
+      "bytes": 5660,
+      "sha256": "0039958b461c147dc40bfd478d16e12458b2b164a6334664650693a17dcdbcfc",
+      "copy": true
+    },
+    {
+      "path": "namespace-source-check.json",
+      "bytes": 2279,
+      "sha256": "757c8b776c545b9d0409a09de7f918f8c14fd8a15ff1a3c263fc1d0a549cedd0",
+      "copy": true
+    },
+    {
+      "path": "verdict.md",
+      "bytes": 2404,
+      "sha256": "b11486dd7506ce9582eccc3a7c69a22519d4bbf3956689f8bf41cd89b1a9ca73",
+      "copy": true
+    },
+    {
+      "path": "logs/extract.stdout.json",
+      "bytes": 853,
+      "sha256": "780721d84c01977e690be58e20dd64b7aab4c6eae1ae90b56a38d33c0dcb938c",
+      "copy": true
+    },
+    {
+      "path": "logs/extract.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "copy": true
+    },
+    {
+      "path": "logs/term-scan.stdout.txt",
+      "bytes": 99,
+      "sha256": "6641aad34ec0c857883c397a0214eb0c4926e03608ebacd2b30df115c0c93ac2",
+      "copy": true
+    },
+    {
+      "path": "logs/term-scan.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "copy": true
+    },
+    {
+      "path": "logs/uv-lock.txt",
+      "bytes": 52,
+      "sha256": "31c80175bf716369c917b0d412268519f52b32407427bc0cf7550436e5841481",
+      "copy": true
+    },
+    {
+      "path": "logs/uv-sync.txt",
+      "bytes": 138,
+      "sha256": "a44c04ee1ca6dc2b03c52e2438a9ada1cd2cd0911dc9ecdddf9c675cf224d705",
+      "copy": true
+    },
+    {
+      "path": "logs/local-clique-1210.6965.fetch.json",
+      "bytes": 454,
+      "sha256": "6d3f50c7c4d7a773841c618adff5432fd9d8181c83760de8925fb6eeeb74fda8",
+      "copy": true
+    },
+    {
+      "path": "logs/local-clique-1210.6965.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "copy": true
+    },
+    {
+      "path": "logs/pdftotext-check.json",
+      "bytes": 315,
+      "sha256": "aa7047e2b14516bf54f798318980a6f13281297829d4cdebf8b727662a8434b2",
+      "copy": true
+    },
+    {
+      "path": "logs/pdftotext-check.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "copy": true
+    },
+    {
+      "path": "logs/pdftotext-check.stderr.txt",
+      "bytes": 414,
+      "sha256": "2d9fcd90af6aa70f7b6c9db29454ff24cfbd7a9a676b4519ea086cbe44a3dcea",
+      "copy": true
+    },
+    {
+      "path": "logs/seal-attempt01.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "copy": true
+    },
+    {
+      "path": "logs/seal-attempt01.stderr.txt",
+      "bytes": 470,
+      "sha256": "33492392819f23c2be3c6a28fdf00aed09dfb5192858ee8ee33895b20c759407",
+      "copy": true
+    },
+    {
+      "path": "review-seal.json",
+      "bytes": 9130,
+      "sha256": "f382c2414ed213f9ccc9cb140a739d53a3a4e4965016a3f8865d35b5f2f2f880",
+      "copy": true
+    }
+  ],
+  "totals": {
+    "copy_files": 26,
+    "copy_bytes": 54038
+  },
+  "excluded": [
+    "sources/*.pdf",
+    "sources/*.page-marked.txt",
+    "sources/local-clique-1210.6965.html",
+    ".venv/**",
+    "logs/*.headers.txt",
+    "empty download stderr logs not otherwise needed"
+  ],
+  "note": "Primary-source URLs, exact source hashes, and locators remain in source-notes.json and review-seal.json. Full texts stay in the independent staging directory only."
+}

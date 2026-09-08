@@ -1,0 +1,51 @@
+{
+  "all_artifact_hashes_match": true,
+  "all_claim_support_references_resolve": true,
+  "all_machine_checkable_expected_values_match": true,
+  "artifact_count": 284,
+  "artifact_kind_counts": {
+    "code": 59,
+    "log": 79,
+    "report": 67,
+    "result": 55,
+    "source": 23,
+    "spec": 1
+  },
+  "auditor": "/root/sol_symmetry_audit",
+  "claim_count": 9,
+  "claim_dependency_count": 8,
+  "claim_ids": [
+    "C001",
+    "C002",
+    "C003",
+    "C004",
+    "C005",
+    "C006",
+    "C007",
+    "C008",
+    "C009"
+  ],
+  "inputs": {
+    "bundle": {
+      "bytes": 89478,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.codex\\evidence\\runs\\kemeny-pair-minimum-v1\\bundle.json",
+      "sha256": "e503ebb7cd844c14ee85efe4267393c709fc8c4a8d4e189a23f0ce1aabe28a72"
+    },
+    "user_report": {
+      "bytes": 8992,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\README-kemeny.md",
+      "sha256": "2761e3d592c5816511e2f1a90c1a2a7bc09224d71c52fa323bd49d26d71ed47f"
+    }
+  },
+  "machine_checked_locator_count": 28,
+  "note": "Semantic approval and limitations are recorded separately in final-audit.json.",
+  "pending_check_ids": [
+    "implementation_alignment",
+    "reproduction",
+    "source_verification",
+    "specification_compliance"
+  ],
+  "report_scope_anchors_present": true,
+  "schema_version": "kemeny-final-bundle-alignment-check-v1",
+  "status": "pass_pending_semantic_attestation_in_final_audit"
+}

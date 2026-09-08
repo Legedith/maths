@@ -1,0 +1,8 @@
+{
+  "checked_at_utc": "2026-09-08T08:03:30.7032249Z",
+  "command": "Get-Command pdftotext",
+  "exit_code": 1,
+  "available": false,
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "2d9fcd90af6aa70f7b6c9db29454ff24cfbd7a9a676b4519ea086cbe44a3dcea"
+}

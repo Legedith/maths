@@ -1,0 +1,89 @@
+{
+  "schema_version": "kemeny-postresult-search-log-v1",
+  "as_of": "2026-09-08",
+  "boundary": {
+    "targeted_query_cap": 6,
+    "targeted_queries_used": 6,
+    "new_relevant_full_paper_cap": 3,
+    "new_relevant_full_papers_inspected": 3,
+    "systematic_review": false,
+    "citation_graph_traversal": false,
+    "novelty_from_absence": false
+  },
+  "queries": [
+    {
+      "index": 1,
+      "query": "\"Kemeny's constant\" \"Braess set\" neutral edge",
+      "purpose": "Exact terminology plus zero-change singleton cases."
+    },
+    {
+      "index": 2,
+      "query": "\"Kemeny constant\" \"two edges\" Braess set graph",
+      "purpose": "Two-edge interaction or minimum-order result."
+    },
+    {
+      "index": 3,
+      "query": "\"Complete multipartite graphs and Braess edges\" Hu Kirkland",
+      "purpose": "Resolve the supplied primary-source lead."
+    },
+    {
+      "index": 4,
+      "query": "\"Kemeny's constant\" twins \"Braess edge\"",
+      "purpose": "Twin formulas applicable to candidate edge 12."
+    },
+    {
+      "index": 5,
+      "query": "\"Kemeny\" neutral \"Braess edge\" graph",
+      "purpose": "Alternative terminology for exact-zero edge changes."
+    },
+    {
+      "index": 6,
+      "query": "\"Kemeny's constant\" \"no change\" \"edge\" twins graph",
+      "purpose": "Literal no-change language in primary sources."
+    }
+  ],
+  "relevant_results": [
+    {
+      "title": "Complete Multipartite Graphs and Braess Edges",
+      "url": "https://mspace.lib.umanitoba.ca/server/api/core/bitstreams/04a4246d-2b67-4e4c-9c4b-60f0c5417031/content",
+      "disposition": "retrieved_full_primary_author_manuscript"
+    },
+    {
+      "title": "The Braess' Paradox for Pendant Twins",
+      "url": "https://arxiv.org/abs/1909.12549",
+      "disposition": "retrieved_full_primary_arxiv_v1"
+    },
+    {
+      "title": "Families of graphs with twin pendent paths and the Braess edge",
+      "url": "https://arxiv.org/abs/2112.03655",
+      "disposition": "retrieved_full_primary_arxiv_v1"
+    },
+    {
+      "title": "A 1-Separation Formula for the Graph Kemeny Constant and Braess Edges",
+      "url": "https://arxiv.org/abs/2108.01061",
+      "disposition": "already_reviewed_primary_source_reused"
+    }
+  ],
+  "access_events": [
+    {
+      "resource": "Hu-Kirkland author PDF through web open",
+      "outcome": "internal_error",
+      "effect": "none; direct HTTPS retrieval of the same official bitstream later succeeded"
+    },
+    {
+      "resource": "https://doi.org/10.1016/j.laa.2019.05.035 through web open",
+      "outcome": "safe-open rejection",
+      "effect": "none; DOI was supplied and the official author manuscript was available"
+    },
+    {
+      "resource": "local pdftotext executable",
+      "outcome": "not_installed",
+      "effect": "retained failure; page-marked extraction used pypdf 6.0.0 in an isolated uv environment"
+    }
+  ],
+  "retrieval_record": {
+    "path": "retrieval.json",
+    "sha256": "d467719ea0ec24d37928f205650a05581b49ec3104ffd285451e1a7ad1201979"
+  },
+  "search_result_interpretation": "No result title or inspected source exposed the exact E?zW witness, the two-singleton-nonincreasing/joint-increasing predicate as a minimum-order theorem, or a complete connected-graph census. This bounded observation is not evidence that no such publication exists."
+}

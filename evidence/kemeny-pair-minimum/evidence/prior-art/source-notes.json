@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "bounded_primary_source_prior_art_review",
+  "as_of": "2026-09-08",
+  "question": "For connected simple undirected G, what is the minimum n for which distinct nonedges e,f satisfy K(G+e)<=K(G), K(G+f)<=K(G), and K(G+e+f)>K(G), for the standard simple random walk?",
+  "input_records": [
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/discovery-next-work/proposal.md",
+      "sha256": "ffc32445ce13f69c058039a1183becd6a91ce30eb9230209ce90efd1b67123b1"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/discovery-next-work/source-notes.json",
+      "sha256": "ee4695ff47051b563731b4a957313df78cea1151e8704861ed936c8d384d892f"
+    }
+  ],
+  "search_boundary": {
+    "targeted_queries_used": 4,
+    "primary_sources_inspected": 4,
+    "queries": [
+      "\"Kemeny's constant\" \"Braess set\" minimum order graph",
+      "\"Kemeny constant\" \"two edges\" Braess graph smallest",
+      "\"P_7\" Braess edge Kemeny constant pair",
+      "Kemeny Braess edge exhaustive enumeration connected graphs"
+    ],
+    "scope_statement": "This was a deliberately small exact-match and adjacent-work search, not a systematic literature review or citation-graph traversal.",
+    "novelty_from_absence": false
+  },
+  "sources": [
+    {
+      "source_id": "S1",
+      "citation": "Nolan Faught, Mark Kempton, and Adam Knudson, A 1-Separation Formula for the Graph Kemeny Constant and Braess Edges, arXiv:2108.01061v1; later Journal of Mathematical Chemistry 60(1):49-69 (2022).",
+      "url": "https://arxiv.org/abs/2108.01061",
+      "full_text_url": "https://arxiv.org/html/2108.01061v1",
+      "local_snapshot": "sources/faught-kempton-knudson-2108.01061.pdf",
+      "sha256": "7becf39902ff7eb8c0eb02589a09cd57dd18ecd5972bb0520d5306f624bd2274",
+      "locators": [
+        {
+          "locator": "PDF page 9, Definition 4.1; HTML lines 278-290",
+          "finding": "Defines a Braess edge and a Braess set using a strict increase in Kemeny's constant."
+        },
+        {
+          "locator": "PDF page 10, paragraph immediately after Corollary 4.3; HTML line 318",
+          "finding": "States that naturally labelled P7 with added nonedges (1,3) and (5,7) is a Braess set although neither singleton is Braess. This exactly supplies an n=7 upper-bound witness for the candidate predicate."
+        }
+      ],
+      "exact_question_status": "The paper gives the witness but does not call it smallest or minimum and does not report a complete census of smaller connected graphs.",
+      "full_text_checks": {
+        "minimum order": 0,
+        "smallest graph": 0,
+        "exhaustive": 0,
+        "path on 7": "present at the cited P7 example"
+      }
+    },
+    {
+      "source_id": "S2",
+      "citation": "Jihyeug Jang, Mark Kempton, Sooyeong Kim, Adam Knudson, Neal Madras, and Minho Song, Kemeny's constant and enumerating Braess edges in trees, arXiv:2309.02977v1 (2023).",
+      "url": "https://arxiv.org/abs/2309.02977",
+      "local_snapshot": "sources/jang-et-al-2309.02977.pdf",
+      "sha256": "9e375fff3951607c3f2b3fdc54b7af5535136c72194f72a2ffb12ea49abc8f96",
+      "locators": [
+        {
+          "locator": "PDF pages 1-2, abstract and introduction",
+          "finding": "The study counts individual Braess nonedges in selected tree families (paths, spiders, and brooms) and presents asymptotic bounds. Its declared object is a single added edge, not jointly added edge sets."
+        }
+      ],
+      "exact_question_status": "No treatment of Braess sets or two-nonedge synergy was located in the full text, and no minimum-order or all-connected-small-graphs census was stated.",
+      "full_text_checks": {
+        "Braess set": 0,
+        "minimum order": 0,
+        "smallest graph": 0,
+        "exhaustive": 0
+      }
+    },
+    {
+      "source_id": "S3",
+      "citation": "Jane Breen, Emma deBlieck, and Kevin N. Vander Meulen, Kemeny's constant and Braess cliques in graphs, arXiv:2608.04150v1 (2026).",
+      "url": "https://arxiv.org/abs/2608.04150",
+      "full_text_url": "https://arxiv.org/html/2608.04150",
+      "local_snapshot": "sources/breen-deblieck-vandermeulen-2608.04150.pdf",
+      "sha256": "69037b759b6c7948fba80c77c4e50823c4d051658ff93eedf1113d7c21a3d660",
+      "locators": [
+        {
+          "locator": "PDF page 2; HTML lines 18-23",
+          "finding": "Explicitly narrows the paper from general Braess sets to sets forming a clique."
+        },
+        {
+          "locator": "PDF pages 20 and 24; HTML lines 566-571 and 685-698",
+          "finding": "Constructs Braess K3 examples illustrating interactions between the whole three-edge clique and its individual edges. These predicates add three edges and do not answer the proposed two-edge minimum."
+        },
+        {
+          "locator": "PDF page 24, concluding notes; HTML lines 699-702",
+          "finding": "Calls for further study of changes from adding edges or larger cliques, without giving the proposed minimum or a small-graph census."
+        }
+      ],
+      "exact_question_status": "Adjacent interaction results, but no exact two-nonedge minimum or exhaustive order-at-most-6 classification was located.",
+      "full_text_checks": {
+        "minimum order": 0,
+        "smallest graph": 0,
+        "exhaustive": 0
+      }
+    },
+    {
+      "source_id": "S4",
+      "citation": "Sooyeong Kim, Qualitative and Quantitative Research on Graphs via Matrices: Gram Mates, Fiedler Vectors, Kemeny's Constant, and Perfect State Transfer, PhD thesis, University of Manitoba (2021).",
+      "url": "https://mspace.lib.umanitoba.ca/bitstreams/45e50023-c465-4947-814b-171fe6907a03/download",
+      "local_snapshot": "sources/kim-2021-thesis.pdf",
+      "sha256": "a5912addef9a102528ac59663c84571734f6f934fd92e3bd792d60a18803c40a",
+      "locators": [
+        {
+          "locator": "PDF pages 118-119, Chapter 5 heading and introduction",
+          "finding": "Studies when one specified nonedge between twin pendant paths is a Braess edge."
+        }
+      ],
+      "exact_question_status": "No Braess-set terminology, two-added-edge predicate, minimum order, or exhaustive small-graph census was located in normalized full-text checks.",
+      "full_text_checks": {
+        "Braess set": 0,
+        "minimum order": 0,
+        "smallest graph": 0,
+        "exhaustive": 0
+      }
+    }
+  ],
+  "synthesis": {
+    "exact_published_minimum_found": false,
+    "published_complete_small_graph_enumeration_found": false,
+    "meaning": "Neither result was located within these four queries and four inspected primary texts. This does not establish that the question is globally open.",
+    "strongest_existing_exact_match": "S1's P7 example proves only n<=7 for the specified predicate.",
+    "adjacent_results": [
+      "S2 enumerates single Braess edges within selected tree families.",
+      "S3 studies three-or-more-edge clique additions and individual-edge interactions.",
+      "S4 studies one specified edge in pendant-path families."
+    ],
+    "unreviewed_lead": "S2 cites arXiv:2306.04005, Edge addition and the change in Kemeny's constant. It was not opened because the four-source cap had been reached; any publication-level novelty review should inspect it and forward/backward citations."
+  },
+  "recommendation": {
+    "worth_small_computation": true,
+    "reason": "The known exact witness fixes the upper bound at seven, so the proposed finite search only needs to exclude orders below seven and can produce a clear exact certificate or a smaller witness.",
+    "conditions": [
+      "Keep strict increase for the pair and retain exact zero singleton deltas separately.",
+      "Prove census completeness and replay the P7 source witness independently.",
+      "Describe a passing result as a candidate exact minimum-order computation, not a globally novel theorem, until a broader literature and citation review is completed."
+    ],
+    "stop_condition": "If a broader prepublication search locates the same minimum or an equivalent complete census, retain the run only as reproduction evidence rather than discovery."
+  },
+  "method_note": "Only document retrieval and normalized full-text term/content inspection were performed. No graph, matrix, or Kemeny computation was run."
+}

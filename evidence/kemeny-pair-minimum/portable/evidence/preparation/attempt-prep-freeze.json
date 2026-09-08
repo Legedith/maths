@@ -1,0 +1,35 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--no-project",
+    "--python",
+    "3.12.11",
+    "python",
+    "freeze_package.py"
+  ],
+  "attempt_id": "prep-freeze",
+  "ended_at_utc": "2026-09-08T08:01:46.170252+00:00",
+  "returncode": 0,
+  "schema_version": "logged-command-attempt-v1",
+  "selected_environment": {
+    "PYTHONDONTWRITEBYTECODE": null,
+    "UV_CACHE_DIR": "D:/CodexWorkspaces/mathematics-atlas/uv-cache",
+    "UV_PROJECT_ENVIRONMENT": null
+  },
+  "started_at_utc": "2026-09-08T08:01:45.745465+00:00",
+  "stderr": {
+    "bytes": 59,
+    "path": "attempt-prep-freeze.stderr.bin",
+    "sha256": "dd7241fb9634d51d4b90a8782d9a26dd3fe2ada28ad873374b2d9b28b76827ef"
+  },
+  "stdout": {
+    "bytes": 239,
+    "path": "attempt-prep-freeze.stdout.bin",
+    "sha256": "b6c031e112684275d6eb76408d242b93373bcdf999b94a4d949af79c45ed1e34"
+  },
+  "termination": null,
+  "timed_out": false,
+  "timeout_seconds": 300,
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-portable-work"
+}

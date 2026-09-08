@@ -1,0 +1,130 @@
+{
+  "artifact_type": "exploratory_source_notes",
+  "status": "proposal_only_no_experiment_run",
+  "as_of": "2026-09-08",
+  "primary_source_count": 3,
+  "candidate_question": "What is the minimum order of a connected simple graph having two distinct nonedges whose joint addition strictly increases Kemeny's constant although neither singleton addition strictly increases it?",
+  "local_scope_evidence": [
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/project/docs/reuse-decision.md",
+      "sha256": "6cbf8717ec718222853168f497f703b709e300f955c7a18ef17b1e3daf476eca",
+      "bytes": 4533,
+      "use": "Rules out another broad map/checker build: the retained checker added zero source refutations, and the existing-tool replay only repeated known cases."
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/symmetry-work/README-symmetry.md",
+      "sha256": "a3d47d68a082c07786898caeae9a314f34fa0fa211dcad45b1a0c55dcb26086c",
+      "bytes": 12918,
+      "use": "Rules out treating canonical graph caching, relabelling, or the prior order-at-most-6 analyzer as a new algorithmic result."
+    }
+  ],
+  "primary_sources": [
+    {
+      "id": "faught-kempton-knudson-2021",
+      "type": "primary_research_preprint",
+      "title": "A 1-Separation Formula for the Graph Kemeny Constant and Braess Edges",
+      "authors": [
+        "Nolan Faught",
+        "Mark Kempton",
+        "Adam Knudson"
+      ],
+      "version": "arXiv:2108.01061v1, submitted 2021-08-02; journal reference reported by the 2026 paper as J. Math. Chem. 60(1):49-69 (2022)",
+      "urls": [
+        "https://arxiv.org/abs/2108.01061",
+        "https://arxiv.org/html/2108.01061v1"
+      ],
+      "license_locator": "arXiv HTML header, line 27: CC BY 4.0",
+      "claim_locators": [
+        {
+          "locator": "Definition 4.1, HTML lines 281-290",
+          "supports": "A Braess edge or set is defined by a strict increase in Kemeny's constant."
+        },
+        {
+          "locator": "Immediately after Corollary 4.3, HTML line 318",
+          "supports": "The naturally labelled path P7 has the two-edge Braess set {(1,3),(5,7)}, while neither singleton is Braess. This gives an order-7 upper-bound witness for the proposed minimum search."
+        },
+        {
+          "locator": "Lemma 1.1, HTML lines 55-59",
+          "supports": "For a connected simple graph, K(G)=d^T R d/(4m), enabling exact rational evaluation from effective resistances."
+        }
+      ],
+      "boundary": "This source supplies the definition and an order-7 example. Searches within its full HTML for 'minimum order' and 'smallest graph' returned no matching statement; that is a within-document observation, not evidence that no minimum result exists elsewhere."
+    },
+    {
+      "id": "breen-deblieck-vandermeulen-2026",
+      "type": "primary_research_preprint",
+      "title": "Kemeny's constant and Braess cliques in graphs",
+      "authors": [
+        "Jane Breen",
+        "Emma deBlieck",
+        "Kevin N. Vander Meulen"
+      ],
+      "version": "arXiv:2608.04150v1, submitted 2026-08-04",
+      "urls": [
+        "https://arxiv.org/abs/2608.04150",
+        "https://arxiv.org/html/2608.04150"
+      ],
+      "license_locator": "arXiv HTML header, line 28: CC BY 4.0",
+      "claim_locators": [
+        {
+          "locator": "Abstract and Section 1, HTML lines 35-37 and 48-66 in the PDF text",
+          "supports": "The later work studies clique-shaped Braess sets and the interaction between individual Braess edges and a jointly added clique."
+        },
+        {
+          "locator": "Theorem 2.1 and Proposition 2.2, HTML lines 95-122",
+          "supports": "It records both the transition-spectrum expression for Kemeny's constant and an exact spanning-forest expression."
+        },
+        {
+          "locator": "Remark 5.2, Theorem 5.3, and Section 6, HTML lines 524-570 and 699-702",
+          "supports": "It constructs Braess K3 examples with no individually Braess edge and calls for further study of changes caused by adding edges or larger cliques."
+        }
+      ],
+      "definition_note": "Its introduction writes a non-strict >= comparison for a Braess edge while repeatedly describing an increase. The proposed experiment therefore pins the earlier Definition 4.1 strict-increase convention and retains exact zero differences separately."
+    },
+    {
+      "id": "nauty-official",
+      "type": "primary_software_and_data_documentation",
+      "title": "nauty and Traces official site and official graph catalogue",
+      "authors": [
+        "Brendan D. McKay",
+        "Adolfo Piperno"
+      ],
+      "urls": [
+        "https://users.cecs.anu.edu.au/~bdm/nauty/",
+        "https://users.cecs.anu.edu.au/~bdm/data/graphs.html",
+        "https://users.cecs.anu.edu.au/~bdm/nauty/nug29.pdf"
+      ],
+      "license_locator": "Official nauty page, Restrictions section; the package has copyright-specific usage conditions and no redistribution should occur without checking its COPYRIGHT file.",
+      "claim_locators": [
+        {
+          "locator": "Official nauty page, Summary",
+          "supports": "geng generates non-isomorphic graphs; nauty/Traces provide canonical labelling."
+        },
+        {
+          "locator": "Official graph catalogue, Simple graphs table",
+          "supports": "Connected simple graph counts for orders 2 through 6 are 1, 2, 6, 21, and 112, respectively, for a total of 142 isomorphism classes. The page supplies the corresponding graph files."
+        },
+        {
+          "locator": "nauty User's Guide 2.9, geng synopsis",
+          "supports": "The -c option restricts generation to connected graphs and graph6 is the default output."
+        }
+      ]
+    }
+  ],
+  "retrieval_scope": {
+    "method": "Targeted reading of two directly relevant research papers and one official software/data project; no mass scraping.",
+    "full_text_terms_checked": [
+      "minimum order",
+      "smallest graph",
+      "path on 7"
+    ],
+    "finding": "The two inspected papers contain the order-7 example and later clique constructions, but the inspected text did not state a minimum order for a two-nonedge Braess set with non-Braess singletons. This is only a proposal lead."
+  },
+  "unsupported_claims": [
+    "That the minimum-order question is globally open.",
+    "That a bounded computation would be publication-novel.",
+    "That the order-7 example is minimum before an independently verified complete search.",
+    "That the standard enumeration or exact-linear-algebra method is a new algorithm.",
+    "Any prevalence, runtime, researcher-time, or practical-impact estimate."
+  ]
+}

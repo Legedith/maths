@@ -1,0 +1,2 @@
+Using CPython 3.12.11
+Resolved 2 packages in 75ms

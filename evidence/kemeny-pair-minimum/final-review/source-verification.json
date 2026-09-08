@@ -1,0 +1,77 @@
+{
+  "schema_version": "kemeny-final-source-verification-v1",
+  "auditor": "/root/sol_symmetry_audit",
+  "status": "pass_for_scoped_source_premises_novelty_unestablished",
+  "sources": [
+    {
+      "id": "faught-kempton-knudson-2108.01061v1",
+      "title": "A 1-Separation Formula for the Graph Kemeny Constant and Braess Edges",
+      "url": "https://arxiv.org/html/2108.01061v1",
+      "local_pdf": "D:/CodexWorkspaces/mathematics-atlas/kemeny-prior-art-work/sources/faught-kempton-knudson-2108.01061.pdf",
+      "pdf_sha256": "7becf39902ff7eb8c0eb02589a09cd57dd18ecd5972bb0520d5306f624bd2274",
+      "locators": [
+        {
+          "location": "PDF page 2, Lemma 1.1",
+          "supports": "For a connected simple graph, K=d^T R d/(4m)."
+        },
+        {
+          "location": "PDF page 9, Definition 4.1",
+          "supports": "A Braess edge or set is defined by strict increase of Kemeny's constant."
+        },
+        {
+          "location": "PDF page 10, paragraph immediately after Corollary 4.3",
+          "supports": "The naturally labelled P7 additions {1,3} and {5,7} form a Braess set while neither singleton is Braess."
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "breen-deblieck-vandermeulen-2608.04150v1",
+      "title": "Kemeny's constant and Braess cliques in graphs",
+      "url": "https://arxiv.org/html/2608.04150",
+      "local_pdf": "D:/CodexWorkspaces/mathematics-atlas/kemeny-prior-art-work/sources/breen-deblieck-vandermeulen-2608.04150.pdf",
+      "pdf_sha256": "69037b759b6c7948fba80c77c4e50823c4d051658ff93eedf1113d7c21a3d660",
+      "locators": [
+        {
+          "location": "PDF pages 3-4, Section 2.1 and Theorem 2.1",
+          "supports": "Irreducibility suffices, periodic irreducible chains retain a unique stationary distribution, and K is the sum of 1/(1-lambda_j) over nonstationary eigenvalues."
+        },
+        {
+          "location": "PDF page 5, Section 2.2",
+          "supports": "For graph random walks P=D^-1 A and K=d^T R d/(4m)."
+        }
+      ],
+      "status": "supported"
+    }
+  ],
+  "source_alignment": {
+    "strict_predicate": "The experiment's singleton <=0 and joint >0 predicate correctly treats singleton equality as non-Braess under the pinned strict-increase definition.",
+    "p7_scope": "The source supplies an order-7 upper-bound example only; the exact replay confirms its inequalities and does not attribute novelty to this project.",
+    "periodic_scope": "Connected bipartite graphs are valid because the sourced Markov-chain hypothesis is irreducibility, not aperiodicity.",
+    "minimum_logic": "The source does not state a minimum. The minimum-order conclusion comes from the exact witness plus exhaustive lower-order exclusion, not from the citation."
+  },
+  "prior_art_boundary": {
+    "status": "novelty_unestablished",
+    "evidence": [
+      {
+        "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-prior-art-work/source-notes.json",
+        "sha256": "eefafc33143c177442d35bfa123ddcb7a4232014b679f1211b73b98d19cf23f6"
+      },
+      {
+        "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-prior-art-work/supplement-2306.04005.json",
+        "sha256": "5ed72f2385d33dbf082c0eff26fa8f9275865353151fecaaf45df51aed8a5827"
+      }
+    ],
+    "note": "The bounded searches found no exact-result blocker in the inspected sources. Search absence does not establish novelty, openness, literature completeness, or publishability."
+  },
+  "extraction_records": {
+    "failed_attempt": "raw/source-extract-attempt-01.json",
+    "successful_locator_outputs": [
+      "raw/source-extract-attempt-02.stdout.txt",
+      "raw/source-formula-locator.stdout.txt",
+      "raw/source-definition-locator.stdout.txt",
+      "raw/source-spectral-locator.stdout.txt"
+    ],
+    "publication_note": "Locator outputs are local audit working records and are excluded from the publication manifest because they contain third-party text excerpts."
+  }
+}

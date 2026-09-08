@@ -1,0 +1,112 @@
+{
+  "status": "proposed_for_independent_final_review_not_promoted",
+  "claims": [
+    {
+      "id": "C001",
+      "type": "citation",
+      "statement": "Faught, Kempton and Knudson's 2021 preprint already supplies the strict-increase Braess-set convention, the exact resistance formula and a P7 pair example; those are reused prior work.",
+      "status": "supported",
+      "supports": [
+        {"artifact_id": "A004", "locator": "json:/primary_sources/0/id", "expected": "faught-kempton-knudson-2021"},
+        {"artifact_id": "A004", "locator": "json:/primary_sources/0/claim_locators"},
+        {"artifact_id": "A005", "locator": "contains:P7"}
+      ]
+    },
+    {
+      "id": "C002",
+      "type": "numerical",
+      "statement": "The complete orders-2-through-6 census contains 142 connected representatives and 2390 unordered distinct-nonedge pairs, with full labelled orbit-union coverage and no omitted zero-pair source rows.",
+      "status": "supported",
+      "supports": [
+        {"artifact_id": "A055", "locator": "json:/per_graph_comparison/shared_count", "expected": 142},
+        {"artifact_id": "A055", "locator": "json:/pair_comparison/shared_count", "expected": 2390},
+        {"artifact_id": "A055", "locator": "json:/completeness_internal_checks/pass", "expected": true},
+        {"artifact_id": "A072"},
+        {"artifact_id": "A044"}
+      ]
+    },
+    {
+      "id": "C003",
+      "type": "numerical",
+      "statement": "The displayed six-vertex E?zW graph and additions {1,2},{3,4} have exact K values 135/28,77/16,135/28,1229/252; their singleton changes are -1/112 and exactly zero, with joint change +1/18.",
+      "status": "supported",
+      "supports": [
+        {"artifact_id": "A047", "locator": "json:/witnesses/0/source_graph6", "expected": "E?zW"},
+        {"artifact_id": "A047", "locator": "json:/witnesses/0/base_edges", "expected": [[1,5],[1,6],[2,5],[2,6],[3,5],[4,6],[5,6]]},
+        {"artifact_id": "A047", "locator": "json:/witnesses/0/added_edges", "expected": [[1,2],[3,4]]},
+        {"artifact_id": "A047", "locator": "json:/witnesses/0/kemeny", "expected": {"base":{"numerator":135,"denominator":28},"single_e":{"numerator":77,"denominator":16},"single_f":{"numerator":135,"denominator":28},"joint":{"numerator":1229,"denominator":252}}},
+        {"artifact_id": "A047", "locator": "json:/witnesses/0/deltas", "expected": {"single_e_minus_base":{"numerator":-1,"denominator":112},"single_f_minus_base":{"numerator":0,"denominator":1},"joint_minus_base":{"numerator":1,"denominator":18}}},
+        {"artifact_id": "A055", "locator": "json:/witness_comparison/pass", "expected": true}
+      ]
+    },
+    {
+      "id": "C004",
+      "type": "numerical",
+      "statement": "The author and blind independent evaluators agree exactly on all 1848 stored graph states, all 2390 pair rows and the fixed published P7 replay, with no stored-output integrity issues in the comparison.",
+      "status": "supported",
+      "supports": [
+        {"artifact_id": "A055", "locator": "json:/graph_state_comparison/shared_count", "expected": 1848},
+        {"artifact_id": "A055", "locator": "json:/graph_state_comparison/value_mismatch_count", "expected": 0},
+        {"artifact_id": "A055", "locator": "json:/pair_comparison/shared_count", "expected": 2390},
+        {"artifact_id": "A055", "locator": "json:/pair_comparison/value_mismatch_count", "expected": 0},
+        {"artifact_id": "A055", "locator": "json:/published_p7_comparison/pass", "expected": true},
+        {"artifact_id": "A055", "locator": "json:/stored_output_integrity_issues", "expected": []}
+      ]
+    },
+    {
+      "id": "C005",
+      "type": "methodological",
+      "statement": "The two computations use separate exact implementations: grounded-Laplacian resistances with SymPy and an independently implemented characteristic-polynomial calculation with standard-library Fraction. The independent census outputs were sealed before access to author results.",
+      "status": "supported",
+      "supports": [
+        {"artifact_id": "A021"},
+        {"artifact_id": "A080"},
+        {"artifact_id": "A070"},
+        {"artifact_id": "A041"},
+        {"artifact_id": "A066"},
+        {"artifact_id": "A063", "locator": "json:/blinding", "expected": {"author_directory_read":false,"author_code_read":false,"author_results_or_verdicts_read":false}},
+        {"artifact_id": "A061"}
+      ]
+    },
+    {
+      "id": "C006",
+      "type": "conclusion",
+      "statement": "For finite connected simple undirected unweighted graphs with the frozen Kemeny convention and singleton changes <=0, the minimum vertex count allowing a jointly strictly increasing pair is six. The positive six-vertex witness and complete exclusion of all smaller orders suffice; this is not a classification of larger graphs, a strict-singleton-decrease theorem, or a claim of publication novelty.",
+      "status": "supported",
+      "supports": [
+        {"claim_id": "C002"},
+        {"claim_id": "C003"},
+        {"claim_id": "C004"},
+        {"claim_id": "C005"},
+        {"artifact_id": "A001"},
+        {"artifact_id": "A091", "locator": "json:/finite_census_minimum_logic/lower_order_witness_counts", "expected": {"2":0,"3":0,"4":0,"5":0}},
+        {"artifact_id": "A055", "locator": "json:/result/candidate_minimum_order", "expected": 6}
+      ]
+    },
+    {
+      "id": "C007",
+      "type": "conclusion",
+      "statement": "As a post-hoc secondary corollary in the same graph class, requiring both singleton changes to be strictly negative gives minimum order seven: there are no strict witnesses through six, while the already fixed published P7 has singleton changes -1/14,-1/14 and joint change +1/24. This uses unchanged outputs and does not redefine the primary question or establish novelty.",
+      "status": "supported",
+      "supports": [
+        {"claim_id": "C002"},
+        {"claim_id": "C003"},
+        {"claim_id": "C004"},
+        {"claim_id": "C006"},
+        {"artifact_id": "A055", "locator": "json:/result/qualifying_witness_count_through_order_6", "expected": 1},
+        {"artifact_id": "A048", "locator": "json:/deltas", "expected": {"single_e_minus_base":{"numerator":-1,"denominator":14},"single_f_minus_base":{"numerator":-1,"denominator":14},"joint_minus_base":{"numerator":1,"denominator":24}}}
+      ]
+    },
+    {
+      "id": "C008",
+      "type": "numerical",
+      "statement": "The source-backed atlas extension adds two concepts, four relations, two primary sources, one learning journey and one modelling task, for totals of 33 concepts, 44 relations, nine sources, four journeys and six contribution tasks. The map itself adds no census-result or novelty claim.",
+      "status": "supported",
+      "supports": [
+        {"artifact_id": "A096", "locator": "json:/added_counts", "expected": {"nodes":2,"edges":4,"sources":2,"journeys":1,"opportunities":1}},
+        {"artifact_id": "A096", "locator": "json:/counts", "expected": {"nodes":33,"edges":44,"sources":9,"journeys":4,"opportunities":6}},
+        {"artifact_id": "A098", "locator": "json:/overall_status", "expected": "pass_scoped"}
+      ]
+    }
+  ]
+}

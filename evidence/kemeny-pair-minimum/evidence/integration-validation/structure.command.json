@@ -1,0 +1,13 @@
+{
+  "argv": [
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.venv\\Scripts\\python.exe",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\scripts\\validate_atlas.py",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\data\\atlas.json",
+    "--output",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-study-work\\evidence\\integration-validation\\structure-result.json"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+  "started_at_utc": "2026-09-08T07:03:46.530206+00:00",
+  "ended_at_utc": "2026-09-08T07:03:46.631488+00:00",
+  "exit_code": 0
+}

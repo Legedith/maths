@@ -1,0 +1,35 @@
+{
+  "schema_version": "retained-command-v1",
+  "started_at_utc": "2026-09-08T07:27:45.971768+00:00",
+  "ended_at_utc": "2026-09-08T07:27:46.074382+00:00",
+  "cwd": "D:/CodexWorkspaces/mathematics-atlas/kemeny-explanation-work",
+  "subject_argv": [
+    "python",
+    "build_explanation.py",
+    "--author-dir",
+    "D:/CodexWorkspaces/mathematics-atlas/kemeny-author-work",
+    "--output",
+    "witness-explanation.json"
+  ],
+  "uv_reproduction_argv": [
+    "uv",
+    "run",
+    "--project",
+    ".",
+    "--frozen",
+    "python",
+    "run_logged.py",
+    "--log-dir",
+    "logs/canonical-01",
+    "--",
+    "python",
+    "build_explanation.py",
+    "--author-dir",
+    "D:/CodexWorkspaces/mathematics-atlas/kemeny-author-work",
+    "--output",
+    "witness-explanation.json"
+  ],
+  "return_code": 0,
+  "stdout_file": "stdout.txt",
+  "stderr_file": "stderr.txt"
+}

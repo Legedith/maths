@@ -1,0 +1,6994 @@
+{
+  "decoder": {
+    "format": "graph6 for n<=62",
+    "internal_mask_edge_order": "lexicographic (u,v), 0<=u<v<n",
+    "payload_bit_order": "(0,1),(0,2),(1,2),(0,3),(1,3),(2,3),..."
+  },
+  "orders": [
+    {
+      "actual_connected_labelled_count": 1,
+      "actual_representative_count": 1,
+      "actual_sets_equal": true,
+      "all_labelled_simple_graph_count": 2,
+      "all_source_graphs_connected": true,
+      "candidate_pair_count": 0,
+      "connected_labelled_set_sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+      "coverage_extra_count": 0,
+      "coverage_missing_count": 0,
+      "expected_connected_labelled_count": 1,
+      "expected_representative_count": 1,
+      "mask_hash_encoding": "lowercase zero-padded hexadecimal masks in lexicographic edge-bit order, numerically sorted, one per ASCII line with terminal newline",
+      "n": 2,
+      "orbit_union_count": 1,
+      "representative_orbit_union_sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+      "representative_orbits_pairwise_disjoint": true,
+      "representatives": [
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              2
+            ]
+          ],
+          "evaluated_pair_count": 0,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 0,
+          "graph6": "A_",
+          "nonedge_count": 0,
+          "orbit_sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "orbit_size": 1,
+          "pair_count": 0,
+          "permutation_count": 2,
+          "source_file": "graph2c.g6",
+          "source_line": 1,
+          "zero_pair_row": true
+        }
+      ],
+      "source_file": "graph2c.g6",
+      "source_records_unique": true,
+      "zero_pair_source_row_count": 1
+    },
+    {
+      "actual_connected_labelled_count": 4,
+      "actual_representative_count": 2,
+      "actual_sets_equal": true,
+      "all_labelled_simple_graph_count": 8,
+      "all_source_graphs_connected": true,
+      "candidate_pair_count": 0,
+      "connected_labelled_set_sha256": "07ae53c0c24d0025072ad0e74591136d1e63843c9a9de48b28618375cacd5a93",
+      "coverage_extra_count": 0,
+      "coverage_missing_count": 0,
+      "expected_connected_labelled_count": 4,
+      "expected_representative_count": 2,
+      "mask_hash_encoding": "lowercase zero-padded hexadecimal masks in lexicographic edge-bit order, numerically sorted, one per ASCII line with terminal newline",
+      "n": 3,
+      "orbit_union_count": 4,
+      "representative_orbit_union_sha256": "07ae53c0c24d0025072ad0e74591136d1e63843c9a9de48b28618375cacd5a93",
+      "representative_orbits_pairwise_disjoint": true,
+      "representatives": [
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "evaluated_pair_count": 0,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 0,
+          "graph6": "BW",
+          "nonedge_count": 1,
+          "orbit_sha256": "e3063621bf5f6a6f1f6ceb5e6056ed540802a3cd00d5aa426b7259ddae3f6233",
+          "orbit_size": 3,
+          "pair_count": 0,
+          "permutation_count": 6,
+          "source_file": "graph3c.g6",
+          "source_line": 1,
+          "zero_pair_row": true
+        },
+        {
+          "automorphism_multiplicity": 6,
+          "edges": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "evaluated_pair_count": 0,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 0,
+          "graph6": "Bw",
+          "nonedge_count": 0,
+          "orbit_sha256": "10159baf262b43a92d95db59dae1f72c645127301661e0a3ce4e38b295a97c58",
+          "orbit_size": 1,
+          "pair_count": 0,
+          "permutation_count": 6,
+          "source_file": "graph3c.g6",
+          "source_line": 2,
+          "zero_pair_row": true
+        }
+      ],
+      "source_file": "graph3c.g6",
+      "source_records_unique": true,
+      "zero_pair_source_row_count": 2
+    },
+    {
+      "actual_connected_labelled_count": 38,
+      "actual_representative_count": 6,
+      "actual_sets_equal": true,
+      "all_labelled_simple_graph_count": 64,
+      "all_source_graphs_connected": true,
+      "candidate_pair_count": 8,
+      "connected_labelled_set_sha256": "6a68c464923f5b687879c3d4386a82c407691e56e3f9881b7899a82dfdf44c9b",
+      "coverage_extra_count": 0,
+      "coverage_missing_count": 0,
+      "expected_connected_labelled_count": 38,
+      "expected_representative_count": 6,
+      "mask_hash_encoding": "lowercase zero-padded hexadecimal masks in lexicographic edge-bit order, numerically sorted, one per ASCII line with terminal newline",
+      "n": 4,
+      "orbit_union_count": 38,
+      "representative_orbit_union_sha256": "6a68c464923f5b687879c3d4386a82c407691e56e3f9881b7899a82dfdf44c9b",
+      "representative_orbits_pairwise_disjoint": true,
+      "representatives": [
+        {
+          "automorphism_multiplicity": 6,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "evaluated_pair_count": 3,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 3,
+          "graph6": "CF",
+          "nonedge_count": 3,
+          "orbit_sha256": "0aa741e7c734cdd45a52ae1998a34d7d84d50016c06c735186b2f280bafaedb1",
+          "orbit_size": 4,
+          "pair_count": 3,
+          "permutation_count": 24,
+          "source_file": "graph4c.g6",
+          "source_line": 1,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          "evaluated_pair_count": 3,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 3,
+          "graph6": "CU",
+          "nonedge_count": 3,
+          "orbit_sha256": "76cb0e0b09e5cf11a415aa08711e80aee33b6159a86eb9e32fd2498dede4a34c",
+          "orbit_size": 12,
+          "pair_count": 3,
+          "permutation_count": 24,
+          "source_file": "graph4c.g6",
+          "source_line": 2,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "evaluated_pair_count": 1,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 1,
+          "graph6": "CV",
+          "nonedge_count": 2,
+          "orbit_sha256": "231d7a8d2d1b37302c5fa148c6d2d9909646ea12bd24fbb93439eeef7f773f99",
+          "orbit_size": 12,
+          "pair_count": 1,
+          "permutation_count": 24,
+          "source_file": "graph4c.g6",
+          "source_line": 3,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 8,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          "evaluated_pair_count": 1,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 1,
+          "graph6": "C]",
+          "nonedge_count": 2,
+          "orbit_sha256": "0831831eb1c50c72c58172cc58b818fa364dd05a4c251e1d00a289a1c31fb4c6",
+          "orbit_size": 3,
+          "pair_count": 1,
+          "permutation_count": 24,
+          "source_file": "graph4c.g6",
+          "source_line": 4,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 4,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "evaluated_pair_count": 0,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 0,
+          "graph6": "C^",
+          "nonedge_count": 1,
+          "orbit_sha256": "94f286d2356d056a92d4a61a8e9bfea9f4a79cf9a92c55cc0c575728ae73ddc4",
+          "orbit_size": 6,
+          "pair_count": 0,
+          "permutation_count": 24,
+          "source_file": "graph4c.g6",
+          "source_line": 5,
+          "zero_pair_row": true
+        },
+        {
+          "automorphism_multiplicity": 24,
+          "edges": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "evaluated_pair_count": 0,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 0,
+          "graph6": "C~",
+          "nonedge_count": 0,
+          "orbit_sha256": "27714a4560be0ce4338d2aa53f1b1d397e4f7dc52c603cf745005bd4ecfe2dbd",
+          "orbit_size": 1,
+          "pair_count": 0,
+          "permutation_count": 24,
+          "source_file": "graph4c.g6",
+          "source_line": 6,
+          "zero_pair_row": true
+        }
+      ],
+      "source_file": "graph4c.g6",
+      "source_records_unique": true,
+      "zero_pair_source_row_count": 2
+    },
+    {
+      "actual_connected_labelled_count": 728,
+      "actual_representative_count": 21,
+      "actual_sets_equal": true,
+      "all_labelled_simple_graph_count": 1024,
+      "all_source_graphs_connected": true,
+      "candidate_pair_count": 139,
+      "connected_labelled_set_sha256": "699dc5f25bbe76a7f8afd69c16539a8aa37a2e52ffecfe25eb5a6f762eae0fa5",
+      "coverage_extra_count": 0,
+      "coverage_missing_count": 0,
+      "expected_connected_labelled_count": 728,
+      "expected_representative_count": 21,
+      "mask_hash_encoding": "lowercase zero-padded hexadecimal masks in lexicographic edge-bit order, numerically sorted, one per ASCII line with terminal newline",
+      "n": 5,
+      "orbit_union_count": 728,
+      "representative_orbit_union_sha256": "699dc5f25bbe76a7f8afd69c16539a8aa37a2e52ffecfe25eb5a6f762eae0fa5",
+      "representative_orbits_pairwise_disjoint": true,
+      "representatives": [
+        {
+          "automorphism_multiplicity": 24,
+          "edges": [
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "evaluated_pair_count": 15,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 15,
+          "graph6": "D?{",
+          "nonedge_count": 6,
+          "orbit_sha256": "caefa15720399bb00f227019dfb3a73201966ce99e104ccf0de538514e1e807d",
+          "orbit_size": 5,
+          "pair_count": 15,
+          "permutation_count": 120,
+          "source_file": "graph5c.g6",
+          "source_line": 1,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "evaluated_pair_count": 15,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 15,
+          "graph6": "DCw",
+          "nonedge_count": 6,
+          "orbit_sha256": "a329eac6ef5f86f7b7fe4dd28044a54e9dea1afb08ae5b8712e0e585d22929cf",
+          "orbit_size": 60,
+          "pair_count": 15,
+          "permutation_count": 120,
+          "source_file": "graph5c.g6",
+          "source_line": 2,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 4,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "evaluated_pair_count": 10,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 10,
+          "graph6": "DC{",
+          "nonedge_count": 5,
+          "orbit_sha256": "d5e3b9902f6bd1479d19c7c3136707436f2ff9825f0be188a6663c395c7bb6ac",
+          "orbit_size": 30,
+          "pair_count": 10,
+          "permutation_count": 120,
+          "source_file": "graph5c.g6",
+          "source_line": 3,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "evaluated_pair_count": 10,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 10,
+          "graph6": "DEk",
+          "nonedge_count": 5,
+          "orbit_sha256": "4310b0029f77b226a14d6ace9ce42878c6db8e7fd8eea3d1b677323d17b6170c",
+          "orbit_size": 60,
+          "pair_count": 10,
+          "permutation_count": 120,
+          "source_file": "graph5c.g6",
+          "source_line": 4,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "evaluated_pair_count": 10,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 10,
+          "graph6": "DEw",
+          "nonedge_count": 5,
+          "orbit_sha256": "eab6dc1fcb9800a3c99b5172253dd33272a130e035192e9a4bac6522b8c49432",
+          "orbit_size": 60,
+          "pair_count": 10,
+          "permutation_count": 120,
+          "source_file": "graph5c.g6",
+          "source_line": 5,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "evaluated_pair_count": 6,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 6,
+          "graph6": "DE{",
+          "nonedge_count": 4,
+          "orbit_sha256": "a8c07f8f60eae71617f7dd369145c0f13f7abf3f4524cd3026933521bdd5c12b",
+          "orbit_size": 60,
+          "pair_count": 6,
+          "permutation_count": 120,
+          "source_file": "graph5c.g6",
+          "source_line": 6,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 12,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "evaluated_pair_count": 6,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 6,
+          "graph6": "DFw",
+          "nonedge_count": 4,
+          "orbit_sha256": "234da4548a0ebf3c3a986d7d308b7b029cc7763ffd966494e583ab696701543b",
+          "orbit_size": 10,
+          "pair_count": 6,
+          "permutation_count": 120,
+          "source_file": "graph5c.g6",
+          "source_line": 7,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 12,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "evaluated_pair_count": 3,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 3,
+          "graph6": "DF{",
+          "nonedge_count": 3,
+          "orbit_sha256": "10971a2cffafe19711e98e8a95170f6cb2b10027be192bbb5b1ff6702366b6db",
+          "orbit_size": 10,
+          "pair_count": 3,
+          "permutation_count": 120,
+          "source_file": "graph5c.g6",
+          "source_line": 8,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ]
+          ],
+          "evaluated_pair_count": 15,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 15,
+          "graph6": "DQo",
+          "nonedge_count": 6,
+          "orbit_sha256": "417aed583d6f7a015c8dc35ff0168936ce83cad161439fd55f830bb879e84f68",
+          "orbit_size": 60,
+          "pair_count": 15,
+          "permutation_count": 120,
+          "source_file": "graph5c.g6",
+          "source_line": 9,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "evaluated_pair_count": 10,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 10,
+          "graph6": "DQw",
+          "nonedge_count": 5,
+          "orbit_sha256": "0dbaf011599ae13f7290ad4c37bc5231fe5e203d0406d86ee5c0bb1713807f4e",
+          "orbit_size": 60,
+          "pair_count": 10,
+          "permutation_count": 120,
+          "source_file": "graph5c.g6",
+          "source_line": 10,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 8,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "evaluated_pair_count": 6,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 6,
+          "graph6": "DQ{",
+          "nonedge_count": 4,
+          "orbit_sha256": "16ae873f0d66dd3e80698cfa7c71636c471250f9ddcc068ef23dfe1f58da947f",
+          "orbit_size": 15,
+          "pair_count": 6,
+          "permutation_count": 120,
+          "source_file": "graph5c.g6",
+          "source_line": 11,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "evaluated_pair_count": 6,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 6,
+          "graph6": "DTw",
+          "nonedge_count": 4,
+          "orbit_sha256": "f3f2e782e79968b6cb785cf6fd7723aa133bf03952e475cc027d63f54cb72bfd",
+          "orbit_size": 60,
+          "pair_count": 6,
+          "permutation_count": 120,
+          "source_file": "graph5c.g6",
+          "source_line": 12,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 6,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "evaluated_pair_count": 3,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 3,
+          "graph6": "DT{",
+          "nonedge_count": 3,
+          "orbit_sha256": "2630eff122e03cfed4a145dadb0cc54581fcf48c4a7a976b2806b3d82424d5c4",
+          "orbit_size": 20,
+          "pair_count": 3,
+          "permutation_count": 120,
+          "source_file": "graph5c.g6",
+          "source_line": 13,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 10,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "evaluated_pair_count": 10,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 10,
+          "graph6": "DUW",
+          "nonedge_count": 5,
+          "orbit_sha256": "2bbbeafbd69228c3bade7cc710f113b056025cb7ca70039003777f0dcb0e776a",
+          "orbit_size": 12,
+          "pair_count": 10,
+          "permutation_count": 120,
+          "source_file": "graph5c.g6",
+          "source_line": 14,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "evaluated_pair_count": 6,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 6,
+          "graph6": "DUw",
+          "nonedge_count": 4,
+          "orbit_sha256": "ec5e43a4df6b5a6ea40675eacfc023b9d0a0dcebc998a03219fbea24a008b6d4",
+          "orbit_size": 60,
+          "pair_count": 6,
+          "permutation_count": 120,
+          "source_file": "graph5c.g6",
+          "source_line": 15,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "evaluated_pair_count": 3,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 3,
+          "graph6": "DU{",
+          "nonedge_count": 3,
+          "orbit_sha256": "b6db09334384c138132e91f380b03be3979dc9fa8f469d63539505ca6c595281",
+          "orbit_size": 60,
+          "pair_count": 3,
+          "permutation_count": 120,
+          "source_file": "graph5c.g6",
+          "source_line": 16,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 4,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "evaluated_pair_count": 1,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 1,
+          "graph6": "DV{",
+          "nonedge_count": 2,
+          "orbit_sha256": "624463a565ffb1ce5d52ef2490ffe24b60c35079b647a7e57fc9f28dff76101a",
+          "orbit_size": 30,
+          "pair_count": 1,
+          "permutation_count": 120,
+          "source_file": "graph5c.g6",
+          "source_line": 17,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 4,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "evaluated_pair_count": 3,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 3,
+          "graph6": "D]w",
+          "nonedge_count": 3,
+          "orbit_sha256": "ca45071b09855837f55e7179227961d60d571b76cfb9542ee4b03da5b426f62f",
+          "orbit_size": 30,
+          "pair_count": 3,
+          "permutation_count": 120,
+          "source_file": "graph5c.g6",
+          "source_line": 18,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 8,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "evaluated_pair_count": 1,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 1,
+          "graph6": "D]{",
+          "nonedge_count": 2,
+          "orbit_sha256": "2679a4dafc46df0f391460b80c68718e72c3f6868d8b584f108c13758355c5b9",
+          "orbit_size": 15,
+          "pair_count": 1,
+          "permutation_count": 120,
+          "source_file": "graph5c.g6",
+          "source_line": 19,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 12,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "evaluated_pair_count": 0,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 0,
+          "graph6": "D^{",
+          "nonedge_count": 1,
+          "orbit_sha256": "beeb7c442d714289a0e6bfebb1ea32c549f57aeffb7d105f9867dc0cc846d495",
+          "orbit_size": 10,
+          "pair_count": 0,
+          "permutation_count": 120,
+          "source_file": "graph5c.g6",
+          "source_line": 20,
+          "zero_pair_row": true
+        },
+        {
+          "automorphism_multiplicity": 120,
+          "edges": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "evaluated_pair_count": 0,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 0,
+          "graph6": "D~{",
+          "nonedge_count": 0,
+          "orbit_sha256": "af4a016d9b651a37c3f21fe86b5f470494ad32be322f1274c43f704ce6babae3",
+          "orbit_size": 1,
+          "pair_count": 0,
+          "permutation_count": 120,
+          "source_file": "graph5c.g6",
+          "source_line": 21,
+          "zero_pair_row": true
+        }
+      ],
+      "source_file": "graph5c.g6",
+      "source_records_unique": true,
+      "zero_pair_source_row_count": 2
+    },
+    {
+      "actual_connected_labelled_count": 26704,
+      "actual_representative_count": 112,
+      "actual_sets_equal": true,
+      "all_labelled_simple_graph_count": 32768,
+      "all_source_graphs_connected": true,
+      "candidate_pair_count": 2243,
+      "connected_labelled_set_sha256": "ab8af5a0473b38a68700681d2d0e0e08411c513e30657bb974e37421bc87f8a4",
+      "coverage_extra_count": 0,
+      "coverage_missing_count": 0,
+      "expected_connected_labelled_count": 26704,
+      "expected_representative_count": 112,
+      "mask_hash_encoding": "lowercase zero-padded hexadecimal masks in lexicographic edge-bit order, numerically sorted, one per ASCII line with terminal newline",
+      "n": 6,
+      "orbit_union_count": 26704,
+      "representative_orbit_union_sha256": "ab8af5a0473b38a68700681d2d0e0e08411c513e30657bb974e37421bc87f8a4",
+      "representative_orbits_pairwise_disjoint": true,
+      "representatives": [
+        {
+          "automorphism_multiplicity": 120,
+          "edges": [
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 45,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 45,
+          "graph6": "E?Bw",
+          "nonedge_count": 10,
+          "orbit_sha256": "2b53befcd7242f1d12f4778b38d415ed6c33454db1505d2c2f3fb6b4fead4472",
+          "orbit_size": 6,
+          "pair_count": 45,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 1,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 6,
+          "edges": [
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 45,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 45,
+          "graph6": "E?bo",
+          "nonedge_count": 10,
+          "orbit_sha256": "ca6602c29df0d07afeb7d41e3674bf794ff830392e841919e6c4aad493172654",
+          "orbit_size": 120,
+          "pair_count": 45,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 2,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 12,
+          "edges": [
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 36,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 36,
+          "graph6": "E?bw",
+          "nonedge_count": 9,
+          "orbit_sha256": "016d8fcc56b6b0b89955d7e59aed4101bb57bd31852068309a1a7e79cdedfd2e",
+          "orbit_size": 60,
+          "pair_count": 36,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 3,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 8,
+          "edges": [
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 45,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 45,
+          "graph6": "E?ow",
+          "nonedge_count": 10,
+          "orbit_sha256": "7021e2d49696bbe1a2182062c873e537096c6e1903ced09aa56672b7688c12bd",
+          "orbit_size": 90,
+          "pair_count": 45,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 4,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 45,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 45,
+          "graph6": "E?qo",
+          "nonedge_count": 10,
+          "orbit_sha256": "23a176c185c3aabbf92c7bf32a87dbb2e36d7b4082ffb92c1dd7c228a2318939",
+          "orbit_size": 360,
+          "pair_count": 45,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 5,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 36,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 36,
+          "graph6": "E?qw",
+          "nonedge_count": 9,
+          "orbit_sha256": "e8920eafaf01061fc42123b2ad44e33c7e84a417890ee624f5a0192a42f6a873",
+          "orbit_size": 360,
+          "pair_count": 36,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 6,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 4,
+          "edges": [
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 36,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 36,
+          "graph6": "E?ro",
+          "nonedge_count": 9,
+          "orbit_sha256": "d82ef1f341663c4587d51e9b60d1e9f49e2e86d5cb7c89ea2cc0c0c5e60af9e9",
+          "orbit_size": 180,
+          "pair_count": 36,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 7,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 4,
+          "edges": [
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 28,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 28,
+          "graph6": "E?rw",
+          "nonedge_count": 8,
+          "orbit_sha256": "6d0de485c4d1a9def82710ffb2987c71f45122be0ebf4b8e858b92eda5064ad2",
+          "orbit_size": 180,
+          "pair_count": 28,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 8,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 4,
+          "edges": [
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 36,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 36,
+          "graph6": "E?zO",
+          "nonedge_count": 9,
+          "orbit_sha256": "98c820e823eb5f94a6550d91b8f48d57b3b137143ca81307416f43d4af958342",
+          "orbit_size": 180,
+          "pair_count": 36,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 9,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 4,
+          "edges": [
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 28,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 28,
+          "graph6": "E?zW",
+          "nonedge_count": 8,
+          "orbit_sha256": "6c233f211dbad19b4b089cf83e6ef9da8846432830b6942141f4184d46725493",
+          "orbit_size": 180,
+          "pair_count": 28,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 10,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 6,
+          "edges": [
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 28,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 28,
+          "graph6": "E?zo",
+          "nonedge_count": 8,
+          "orbit_sha256": "d798f25c94f76828e69bb779fedb8467d3b0e664e58ac9dee68aae34907f4430",
+          "orbit_size": 120,
+          "pair_count": 28,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 11,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 6,
+          "edges": [
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 21,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 21,
+          "graph6": "E?zw",
+          "nonedge_count": 7,
+          "orbit_sha256": "bbcab2ed84d33f381bba09955c6613878a35aa370ab7825dbf505851b29e5e08",
+          "orbit_size": 120,
+          "pair_count": 21,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 12,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 48,
+          "edges": [
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 21,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 21,
+          "graph6": "E?~o",
+          "nonedge_count": 7,
+          "orbit_sha256": "0184b34a65e9738ed233c6fb0370075f13cd01123bb3a5c21fb2e6a4fe07d429",
+          "orbit_size": 15,
+          "pair_count": 21,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 13,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 48,
+          "edges": [
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 15,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 15,
+          "graph6": "E?~w",
+          "nonedge_count": 6,
+          "orbit_sha256": "813f1b178a18641e367852df06abff707659190ad88e60cc0adfc5742f4d02bd",
+          "orbit_size": 15,
+          "pair_count": 15,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 14,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 45,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 45,
+          "graph6": "ECR_",
+          "nonedge_count": 10,
+          "orbit_sha256": "32508b35dc7b597221fff29d095a72705f9c584e065c94b3a7b400439a458aab",
+          "orbit_size": 360,
+          "pair_count": 45,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 15,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 36,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 36,
+          "graph6": "ECRo",
+          "nonedge_count": 9,
+          "orbit_sha256": "1effca650740120d3e3fcff567c92188b6ea829be7520adab4d3260a57a20414",
+          "orbit_size": 360,
+          "pair_count": 36,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 16,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 8,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 28,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 28,
+          "graph6": "ECRw",
+          "nonedge_count": 8,
+          "orbit_sha256": "7580d56df811f929c5f4b3f9bc90668ba379ea992a9a6d9e544936a11c422529",
+          "orbit_size": 90,
+          "pair_count": 28,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 17,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 4,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 36,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 36,
+          "graph6": "ECYW",
+          "nonedge_count": 9,
+          "orbit_sha256": "0bcf8e4afbd345df3c54f3b5087baec93280b219a780e03d9d903dab7d8af4ac",
+          "orbit_size": 180,
+          "pair_count": 36,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 18,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "evaluated_pair_count": 45,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 45,
+          "graph6": "ECZ?",
+          "nonedge_count": 10,
+          "orbit_sha256": "466d70f6f5fc6398faf38bf8553c275faab9723c967c3fbdcae31c415a390cd3",
+          "orbit_size": 360,
+          "pair_count": 45,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 19,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 1,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 36,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 36,
+          "graph6": "ECZG",
+          "nonedge_count": 9,
+          "orbit_sha256": "b25b311680fb0ed439445ba483f8bb95c0f969c1794e92c989a7de9bc194f7be",
+          "orbit_size": 720,
+          "pair_count": 36,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 20,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 36,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 36,
+          "graph6": "ECZO",
+          "nonedge_count": 9,
+          "orbit_sha256": "1bfabdf8b92ca60886121b3e832c7f1f708f61e00724479f0839c7d499352f0a",
+          "orbit_size": 360,
+          "pair_count": 36,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 21,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 28,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 28,
+          "graph6": "ECZW",
+          "nonedge_count": 8,
+          "orbit_sha256": "4c8ff2e540f75ef5afa6982d2d08081b7622d04f56f477c5327b9b6ef0968d5f",
+          "orbit_size": 360,
+          "pair_count": 28,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 22,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 36,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 36,
+          "graph6": "ECZ_",
+          "nonedge_count": 9,
+          "orbit_sha256": "8f365bb4c9b505bbbf33a8d328bf4073b88bdb5115c3f5f436411ef8cb1d7a4b",
+          "orbit_size": 360,
+          "pair_count": 36,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 23,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 28,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 28,
+          "graph6": "ECZg",
+          "nonedge_count": 8,
+          "orbit_sha256": "cd44be03bb4135e3bfd09795499b30516c2455a47755b46afd3fe39a339ece1d",
+          "orbit_size": 360,
+          "pair_count": 28,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 24,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 4,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 28,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 28,
+          "graph6": "ECZo",
+          "nonedge_count": 8,
+          "orbit_sha256": "8128342fe9f984f674c24925d99dbc9d8aadbb621ea98ff9f0d72d8e87871220",
+          "orbit_size": 180,
+          "pair_count": 28,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 25,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 4,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 21,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 21,
+          "graph6": "ECZw",
+          "nonedge_count": 7,
+          "orbit_sha256": "1fef68c2314d9e4bea2ca442fb4e3ab0c113e90d30d6dce776fafd1519b71e44",
+          "orbit_size": 180,
+          "pair_count": 21,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 26,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 4,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 28,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 28,
+          "graph6": "ECfo",
+          "nonedge_count": 8,
+          "orbit_sha256": "00c84e564a56711e67dc354e6f74397bf080f41437fed9d3cb795e9014121e3e",
+          "orbit_size": 180,
+          "pair_count": 28,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 27,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 12,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 21,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 21,
+          "graph6": "ECfw",
+          "nonedge_count": 7,
+          "orbit_sha256": "d757591f21490cf9a14345e9a153d383f38bd872e8af7e519ebc33c24690c5e7",
+          "orbit_size": 60,
+          "pair_count": 21,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 28,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 36,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 36,
+          "graph6": "ECpo",
+          "nonedge_count": 9,
+          "orbit_sha256": "501a32758175636931bf3ae441f908d3dde7143f474201e92b88abf9dca84d94",
+          "orbit_size": 360,
+          "pair_count": 36,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 29,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 6,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 36,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 36,
+          "graph6": "ECqg",
+          "nonedge_count": 9,
+          "orbit_sha256": "07d7342b2a581a64869a4f463896f4f2ba33000997122a1057d0c3ca1187c829",
+          "orbit_size": 120,
+          "pair_count": 36,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 30,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 36,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 36,
+          "graph6": "ECr_",
+          "nonedge_count": 9,
+          "orbit_sha256": "010dd1a5cfb34802b9b839b2cbf86434971c28aa7296273b299fc5338f1b6502",
+          "orbit_size": 360,
+          "pair_count": 36,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 31,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 1,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 28,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 28,
+          "graph6": "ECrg",
+          "nonedge_count": 8,
+          "orbit_sha256": "1e14ed69eb14a62962cd764dfcc8817e70e26ca8b0b21215c6f445c8cc788d20",
+          "orbit_size": 720,
+          "pair_count": 28,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 32,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 1,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 28,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 28,
+          "graph6": "ECro",
+          "nonedge_count": 8,
+          "orbit_sha256": "5a12e1c7f4c0e5e2efebad2366ab9b0ecc332d5c1b6ca8b35c3f45ec770a0e08",
+          "orbit_size": 720,
+          "pair_count": 28,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 33,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 21,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 21,
+          "graph6": "ECrw",
+          "nonedge_count": 7,
+          "orbit_sha256": "6e7619f15d8d6dd08d1aaa25cd68f74bf1868c29ea9fe51e6779c05ee1303b20",
+          "orbit_size": 360,
+          "pair_count": 21,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 34,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 4,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 21,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 21,
+          "graph6": "ECuw",
+          "nonedge_count": 7,
+          "orbit_sha256": "7e7924de0513bb23a25c4d6450c84831e37b0a72095a3bb890dff4ce5f1f0953",
+          "orbit_size": 180,
+          "pair_count": 21,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 35,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 21,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 21,
+          "graph6": "ECvo",
+          "nonedge_count": 7,
+          "orbit_sha256": "68665fbd74dfb846c24fb0dfcfabedc1bbab4e0d67021ba49ef49c9d71b2b4b1",
+          "orbit_size": 360,
+          "pair_count": 21,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 36,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 15,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 15,
+          "graph6": "ECvw",
+          "nonedge_count": 6,
+          "orbit_sha256": "e8547495508548b0fa00f2ba4efc352a719bd0321b96bdb8b214e29ad6f81649",
+          "orbit_size": 360,
+          "pair_count": 15,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 37,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 4,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 28,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 28,
+          "graph6": "ECxo",
+          "nonedge_count": 8,
+          "orbit_sha256": "a82f74a15aef0114e95d02dfddf1e5158e6197f00634ad9e3d792e9f462141df",
+          "orbit_size": 180,
+          "pair_count": 28,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 38,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 4,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 21,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 21,
+          "graph6": "ECxw",
+          "nonedge_count": 7,
+          "orbit_sha256": "b9e97b59c87113480c9e0aa280ea3382166810596d34bab84c889a51466911a4",
+          "orbit_size": 180,
+          "pair_count": 21,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 39,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 1,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 21,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 21,
+          "graph6": "ECzW",
+          "nonedge_count": 7,
+          "orbit_sha256": "2250584f8007450943fd227485c30ba90926faf9859540cb3f088b8873cb6e5f",
+          "orbit_size": 720,
+          "pair_count": 21,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 40,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 4,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 21,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 21,
+          "graph6": "ECzg",
+          "nonedge_count": 7,
+          "orbit_sha256": "961127371fc6463ee05d6e04af95da6b426b43b5873a74b5d4985722a8f7083f",
+          "orbit_size": 180,
+          "pair_count": 21,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 41,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 21,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 21,
+          "graph6": "ECzo",
+          "nonedge_count": 7,
+          "orbit_sha256": "8b4b6ac61e28ddb20bef02ca4eed551958970aadb503dddbac53ad4395cb4d02",
+          "orbit_size": 360,
+          "pair_count": 21,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 42,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 15,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 15,
+          "graph6": "ECzw",
+          "nonedge_count": 6,
+          "orbit_sha256": "18ca1db9d898fe58b57e19786836dc005d8b172c5215ad1ef146a54fae134da3",
+          "orbit_size": 360,
+          "pair_count": 15,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 43,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 8,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 15,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 15,
+          "graph6": "EC~o",
+          "nonedge_count": 6,
+          "orbit_sha256": "3c5ce78b14daf58b4ece3d5aba0afab96ca5b680afa85774cd9bd163a05df17f",
+          "orbit_size": 90,
+          "pair_count": 15,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 44,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 8,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 10,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 10,
+          "graph6": "EC~w",
+          "nonedge_count": 5,
+          "orbit_sha256": "94f63e3b4dc70bcb060e0fa42205b14a2b8fa937d2c2b53d79eb1d47db66817f",
+          "orbit_size": 90,
+          "pair_count": 10,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 45,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 1,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 28,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 28,
+          "graph6": "EEhW",
+          "nonedge_count": 8,
+          "orbit_sha256": "fb7e4935ef4d9e319037c9a5a556832c1be7410eb55860d48bb6ae52ee80d852",
+          "orbit_size": 720,
+          "pair_count": 28,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 46,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 12,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 36,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 36,
+          "graph6": "EEh_",
+          "nonedge_count": 9,
+          "orbit_sha256": "2673b271a72223558def32a714fb1c5445afe83230f75442dc9c578b176f995a",
+          "orbit_size": 60,
+          "pair_count": 36,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 47,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 28,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 28,
+          "graph6": "EEho",
+          "nonedge_count": 8,
+          "orbit_sha256": "fa763bc86bb5b51a3b84675f2412951d9fdc85b2fc0feebe0f380f5fefbd2005",
+          "orbit_size": 360,
+          "pair_count": 28,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 48,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 21,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 21,
+          "graph6": "EEhw",
+          "nonedge_count": 7,
+          "orbit_sha256": "46e895c088c2514a40fc086a5929615a59f4813fc12b617c6660cdb5efb8c18a",
+          "orbit_size": 360,
+          "pair_count": 21,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 49,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 4,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 28,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 28,
+          "graph6": "EEiW",
+          "nonedge_count": 8,
+          "orbit_sha256": "36ebf956ad55ba7a072dcbb5085b1ce0dd7ca59c5db0ac7d7dd675889219a38a",
+          "orbit_size": 180,
+          "pair_count": 28,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 50,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 28,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 28,
+          "graph6": "EEio",
+          "nonedge_count": 8,
+          "orbit_sha256": "06536efe1c4049be16ef666c5572d1d9e10f17f899104d4349d52c98bef21872",
+          "orbit_size": 360,
+          "pair_count": 28,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 51,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 1,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 21,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 21,
+          "graph6": "EEjW",
+          "nonedge_count": 7,
+          "orbit_sha256": "8ee0b1b5cbafb6f7ae955b99ee2f3bf1d343599d70beb08e806d103bd6caf061",
+          "orbit_size": 720,
+          "pair_count": 21,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 52,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 4,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 28,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 28,
+          "graph6": "EEj_",
+          "nonedge_count": 8,
+          "orbit_sha256": "99f889bb9ae8d0fd473d0dc331589464940ff9a33df3c202d31a1a58d0a9a2c2",
+          "orbit_size": 180,
+          "pair_count": 28,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 53,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 1,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 21,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 21,
+          "graph6": "EEjo",
+          "nonedge_count": 7,
+          "orbit_sha256": "560acc0930c08cf10d1f632ba5b363b581ff5a4f49b37c02846a0f01e9444671",
+          "orbit_size": 720,
+          "pair_count": 21,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 54,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 15,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 15,
+          "graph6": "EEjw",
+          "nonedge_count": 6,
+          "orbit_sha256": "0457b3ba3c15be9242893265af8a7d2e1c39faaf5efeabc6e846f55790abbf7e",
+          "orbit_size": 360,
+          "pair_count": 15,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 55,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 6,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 15,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 15,
+          "graph6": "EElw",
+          "nonedge_count": 6,
+          "orbit_sha256": "88c33c738621a840305799cc864025a8019290e5dabe845ee7c0ab9bbf65a0dc",
+          "orbit_size": 120,
+          "pair_count": 15,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 56,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 1,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 15,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 15,
+          "graph6": "EEno",
+          "nonedge_count": 6,
+          "orbit_sha256": "bd18004263be16db5ca2e74badaebb76bc69584cc6f314ca5691d7ed2786e42a",
+          "orbit_size": 720,
+          "pair_count": 15,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 57,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 10,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 10,
+          "graph6": "EEnw",
+          "nonedge_count": 5,
+          "orbit_sha256": "ae5b93e20aa03fe4c99cb204a22dfc26a3138e94c24cc1f5560796dfe34fbb3f",
+          "orbit_size": 360,
+          "pair_count": 10,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 58,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 4,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 28,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 28,
+          "graph6": "EEr_",
+          "nonedge_count": 8,
+          "orbit_sha256": "6662860b119d2e3445cbff7efd935b3956c2e076ff33fe6c820ec98a590b543a",
+          "orbit_size": 180,
+          "pair_count": 28,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 59,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 21,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 21,
+          "graph6": "EEro",
+          "nonedge_count": 7,
+          "orbit_sha256": "2038ae68af4a90174e6361f3ecdcf93fe60c636690e95e0ebb314d11bee861c2",
+          "orbit_size": 360,
+          "pair_count": 21,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 60,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 8,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 15,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 15,
+          "graph6": "EErw",
+          "nonedge_count": 6,
+          "orbit_sha256": "3f4ad225b536d47d717d5f5336c048f15bccf9265544aa14062515d7cb179a5a",
+          "orbit_size": 90,
+          "pair_count": 15,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 61,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 15,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 15,
+          "graph6": "EEuw",
+          "nonedge_count": 6,
+          "orbit_sha256": "35120eaa58348533a7c89a3400ae0b86a3d1d71da8d43bf50440edde981773af",
+          "orbit_size": 360,
+          "pair_count": 15,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 62,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 15,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 15,
+          "graph6": "EEvo",
+          "nonedge_count": 6,
+          "orbit_sha256": "6103ecc572422531a0679820866654a637e5b07ff0ea077f9ccd1f1eb018910a",
+          "orbit_size": 360,
+          "pair_count": 15,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 63,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 4,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 10,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 10,
+          "graph6": "EEvw",
+          "nonedge_count": 5,
+          "orbit_sha256": "fe6d0468bc14d09e195fd4dd9f528b6485c4e60352f85030a5e1f4151113fa57",
+          "orbit_size": 180,
+          "pair_count": 10,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 64,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 4,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 21,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 21,
+          "graph6": "EEzO",
+          "nonedge_count": 7,
+          "orbit_sha256": "e230850b8d6b2a2ca4ed2e21348a85b430f4757490df1e4a9c2007088802505e",
+          "orbit_size": 180,
+          "pair_count": 21,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 65,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 8,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 21,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 21,
+          "graph6": "EEz_",
+          "nonedge_count": 7,
+          "orbit_sha256": "ee4ab1a9b34a53498a1c330cec768aa5aec7c7126058d3ea00382d2f69e170ca",
+          "orbit_size": 90,
+          "pair_count": 21,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 66,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 4,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 15,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 15,
+          "graph6": "EEzg",
+          "nonedge_count": 6,
+          "orbit_sha256": "a5f3425343e7214975d7129782ab5bcc77f0c0041b45c516f287427684a30da3",
+          "orbit_size": 180,
+          "pair_count": 15,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 67,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 15,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 15,
+          "graph6": "EEzo",
+          "nonedge_count": 6,
+          "orbit_sha256": "1a1d83044a779bbc0057be6f39ef3050e3413f17d779c1b9d67273abf43586a5",
+          "orbit_size": 360,
+          "pair_count": 15,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 68,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 10,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 10,
+          "graph6": "EEzw",
+          "nonedge_count": 5,
+          "orbit_sha256": "bbf34208a9aadd46f5a014226bd338b81a7f01b83c5b2a3d19eb5edf177dad7f",
+          "orbit_size": 360,
+          "pair_count": 10,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 69,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 4,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 6,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 6,
+          "graph6": "EE~w",
+          "nonedge_count": 4,
+          "orbit_sha256": "8f1e1ff9bc9dd242a01a545712692378d11230ac95b9e05de8da3e90bef69a07",
+          "orbit_size": 180,
+          "pair_count": 6,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 70,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 4,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 10,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 10,
+          "graph6": "EFzW",
+          "nonedge_count": 5,
+          "orbit_sha256": "7c5a5c657f21cd3b2913756d61afa726299a2f2f75631dff861f15f7631a275f",
+          "orbit_size": 180,
+          "pair_count": 10,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 71,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 72,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 15,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 15,
+          "graph6": "EFz_",
+          "nonedge_count": 6,
+          "orbit_sha256": "e29c837909548a5652ffb64e05994c2401dd6f755eb2e00fe75ba2d4f91093e1",
+          "orbit_size": 10,
+          "pair_count": 15,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 72,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 12,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 10,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 10,
+          "graph6": "EFzo",
+          "nonedge_count": 5,
+          "orbit_sha256": "a19b95a101d2fc10394ec5777386acce112c1f0a5f5b43f825602976515445ef",
+          "orbit_size": 60,
+          "pair_count": 10,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 73,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 12,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 6,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 6,
+          "graph6": "EFzw",
+          "nonedge_count": 4,
+          "orbit_sha256": "6a51049b691bd7139c3b44834a402f945468e6ef1bb6f877d399e78a137236ca",
+          "orbit_size": 60,
+          "pair_count": 6,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 74,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 36,
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 3,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 3,
+          "graph6": "EF~w",
+          "nonedge_count": 3,
+          "orbit_sha256": "9b03a63a745bf779f59ada19eb2f23ecdfcde06562711fb98149972a7eb369fd",
+          "orbit_size": 20,
+          "pair_count": 3,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 75,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 8,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 28,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 28,
+          "graph6": "EQjO",
+          "nonedge_count": 8,
+          "orbit_sha256": "2a7550d95fe5f6dcb594eaf183e35cc65ae946e867b62f68b960b06a9badaf2f",
+          "orbit_size": 90,
+          "pair_count": 28,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 76,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 28,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 28,
+          "graph6": "EQj_",
+          "nonedge_count": 8,
+          "orbit_sha256": "9fc6f1af5070ca53400da374ef21c002fd4022c598b7ca7036493f41349997cd",
+          "orbit_size": 360,
+          "pair_count": 28,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 77,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 6,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 21,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 21,
+          "graph6": "EQjg",
+          "nonedge_count": 7,
+          "orbit_sha256": "66b3bceac449f4058f12eb4e55541ac13b4f4a1a156749b1cc8b91bb4b3d1992",
+          "orbit_size": 120,
+          "pair_count": 21,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 78,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 4,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 21,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 21,
+          "graph6": "EQjo",
+          "nonedge_count": 7,
+          "orbit_sha256": "ac4bf356bb2f494ede22937d0c9414eb779f37eb9b4ae8b2ee302ea7d717d1b6",
+          "orbit_size": 180,
+          "pair_count": 21,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 79,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 12,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 15,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 15,
+          "graph6": "EQjw",
+          "nonedge_count": 6,
+          "orbit_sha256": "4dfee8c6fafee723f17cbf11378bfd3498c945efd960fd9f033363fe7544234b",
+          "orbit_size": 60,
+          "pair_count": 15,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 80,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 4,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 15,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 15,
+          "graph6": "EQyw",
+          "nonedge_count": 6,
+          "orbit_sha256": "524b56cdfbb37a70c1a68749d17ac5eb77a72f7e2adcbe9ceb04bba6021f5cae",
+          "orbit_size": 180,
+          "pair_count": 15,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 81,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 4,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 21,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 21,
+          "graph6": "EQzO",
+          "nonedge_count": 7,
+          "orbit_sha256": "17de7af77b22d99caa854fc53bbe580e5845eb49145a65c03793dabc8b5e5f60",
+          "orbit_size": 180,
+          "pair_count": 21,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 82,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 15,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 15,
+          "graph6": "EQzW",
+          "nonedge_count": 6,
+          "orbit_sha256": "01fd593dac392ab37f45f58a86ad488d0729f089353a3424c7a5967a3e239503",
+          "orbit_size": 360,
+          "pair_count": 15,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 83,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 4,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 15,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 15,
+          "graph6": "EQzg",
+          "nonedge_count": 6,
+          "orbit_sha256": "87e125633bb9acf077e38a38cc3a42352a62d1f825f8e49f37ed1ba2b9699834",
+          "orbit_size": 180,
+          "pair_count": 15,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 84,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 15,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 15,
+          "graph6": "EQzo",
+          "nonedge_count": 6,
+          "orbit_sha256": "7403a70d70bc3858569e1dff7646ef2476430c8d7bad5d033c172f35f95a9163",
+          "orbit_size": 360,
+          "pair_count": 15,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 85,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 10,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 10,
+          "graph6": "EQzw",
+          "nonedge_count": 5,
+          "orbit_sha256": "4bd2a6f7e7c951bf46055e0cba48d5a144b232cee19cc477cc1b5d32219e0928",
+          "orbit_size": 360,
+          "pair_count": 10,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 86,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 16,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 10,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 10,
+          "graph6": "EQ~o",
+          "nonedge_count": 5,
+          "orbit_sha256": "66d0abaa59a79d58cfa904df284cc6084fa34e456eb133aab5bce44ba38fc639",
+          "orbit_size": 45,
+          "pair_count": 10,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 87,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 16,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 6,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 6,
+          "graph6": "EQ~w",
+          "nonedge_count": 4,
+          "orbit_sha256": "12bf10f2da4b69977e9bd865fea16da562b69b7446cfd01ea15ce1cb126e7784",
+          "orbit_size": 45,
+          "pair_count": 6,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 88,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 6,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 10,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 10,
+          "graph6": "ETno",
+          "nonedge_count": 5,
+          "orbit_sha256": "2d0c7900f380a2e755b78a8439cb8b54a242f686f349e3517ed3fbae47799760",
+          "orbit_size": 120,
+          "pair_count": 10,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 89,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 24,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 6,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 6,
+          "graph6": "ETnw",
+          "nonedge_count": 4,
+          "orbit_sha256": "e23ee72265e5de44482f9c31bf53d731d718d2f9c11e3bec028df3ab0a330d81",
+          "orbit_size": 30,
+          "pair_count": 6,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 90,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 8,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 10,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 10,
+          "graph6": "ETzg",
+          "nonedge_count": 5,
+          "orbit_sha256": "a85de95eb57a28905ee1b807e45b1fb90aa656913d47a3c7bfc28cc8fdf70286",
+          "orbit_size": 90,
+          "pair_count": 10,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 91,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 10,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 10,
+          "graph6": "ETzo",
+          "nonedge_count": 5,
+          "orbit_sha256": "5afc4705a0cc7fd3085e900db8e51018beae5f461bd07cb7df5420f310bb64ad",
+          "orbit_size": 360,
+          "pair_count": 10,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 92,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 6,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 6,
+          "graph6": "ETzw",
+          "nonedge_count": 4,
+          "orbit_sha256": "9feef18b39c705416b4edf0d848c8b40b30535d7b8498b03d059b2455823e097",
+          "orbit_size": 360,
+          "pair_count": 6,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 93,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 12,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 3,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 3,
+          "graph6": "ET~w",
+          "nonedge_count": 3,
+          "orbit_sha256": "576f3d49a77746f3f57a99e3561210447b1ecc12baef4ddc6a298049a7b3ebef",
+          "orbit_size": 60,
+          "pair_count": 3,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 94,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 4,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 21,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 21,
+          "graph6": "EUZO",
+          "nonedge_count": 7,
+          "orbit_sha256": "6341e208e9188fdc1ef4a77e1f2daedab5e4ea88ff40d48fdeb3ea47e2b91cda",
+          "orbit_size": 180,
+          "pair_count": 21,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 95,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 21,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 21,
+          "graph6": "EUZ_",
+          "nonedge_count": 7,
+          "orbit_sha256": "78fe37780b1bf78ccf5264387fa673517da78a39340bc13f19d11ae495132f21",
+          "orbit_size": 360,
+          "pair_count": 21,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 96,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 15,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 15,
+          "graph6": "EUZo",
+          "nonedge_count": 6,
+          "orbit_sha256": "07a72fd6aa0c91035a405d766db13a14e2a16731074d3998b4130e71e5b6c5b7",
+          "orbit_size": 360,
+          "pair_count": 15,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 97,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 10,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 10,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 10,
+          "graph6": "EUZw",
+          "nonedge_count": 5,
+          "orbit_sha256": "ea01bef38f485177b7980830da2e9b908b575c44ef27c68999bdb3414b357c63",
+          "orbit_size": 72,
+          "pair_count": 10,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 98,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 12,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 15,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 15,
+          "graph6": "EUxo",
+          "nonedge_count": 6,
+          "orbit_sha256": "336d71ab933d6ea3cb607b2801d19317b1293f8838170b3af30094e868897471",
+          "orbit_size": 60,
+          "pair_count": 15,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 99,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 10,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 10,
+          "graph6": "EUzW",
+          "nonedge_count": 5,
+          "orbit_sha256": "26d00181b2e642e797619dee2c30a5e88b79672dfcc833b61f5f7e716dcad41b",
+          "orbit_size": 360,
+          "pair_count": 10,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 100,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 10,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 10,
+          "graph6": "EUzo",
+          "nonedge_count": 5,
+          "orbit_sha256": "cbd196fe2fa53dcdaa532695cbd116de4ab71f99b6c683f91788482a468e34e0",
+          "orbit_size": 360,
+          "pair_count": 10,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 101,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 2,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 6,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 6,
+          "graph6": "EUzw",
+          "nonedge_count": 4,
+          "orbit_sha256": "e626d225bfa544a4b301dac4d65d446dbc7c08de813b96c5cd5b3e2ea7faa278",
+          "orbit_size": 360,
+          "pair_count": 6,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 102,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 4,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 3,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 3,
+          "graph6": "EU~w",
+          "nonedge_count": 3,
+          "orbit_sha256": "4593ea8232a93daca6639dfd291b921d14e599404f62711124031370c99cc111",
+          "orbit_size": 180,
+          "pair_count": 3,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 103,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 12,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 1,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 1,
+          "graph6": "EV~w",
+          "nonedge_count": 2,
+          "orbit_sha256": "21cf8828f7758bd4707d702d00103d840dd9849c047a6f910b8202459ebcd192",
+          "orbit_size": 60,
+          "pair_count": 1,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 104,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 8,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 6,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 6,
+          "graph6": "E]yw",
+          "nonedge_count": 4,
+          "orbit_sha256": "fb490ce256e1780f811e500092363b87f8c1f6b608d591867d30ec7aad1f2f85",
+          "orbit_size": 90,
+          "pair_count": 6,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 105,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 12,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 6,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 6,
+          "graph6": "E]zg",
+          "nonedge_count": 4,
+          "orbit_sha256": "c9a9835d71ce5465d244000e7258e6def051bf10eb85bc80bc24e92eea7a5429",
+          "orbit_size": 60,
+          "pair_count": 6,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 106,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 4,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 6,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 6,
+          "graph6": "E]zo",
+          "nonedge_count": 4,
+          "orbit_sha256": "26ecc9d6c15225c0be5d190d25a95c6056ed3c83843cbe0d354e0d2af8a2a67d",
+          "orbit_size": 180,
+          "pair_count": 6,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 107,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 4,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 3,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 3,
+          "graph6": "E]zw",
+          "nonedge_count": 3,
+          "orbit_sha256": "83bc0b337c99b7ac73d1639e4d921eccb1fe4f3828749d6cf83ae6d4dc5c96fb",
+          "orbit_size": 180,
+          "pair_count": 3,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 108,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 48,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 3,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 3,
+          "graph6": "E]~o",
+          "nonedge_count": 3,
+          "orbit_sha256": "9989e559b539eb1b5ae7f7c0adfd03bdae0401a894ffec5bc261aa9c65775e80",
+          "orbit_size": 15,
+          "pair_count": 3,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 109,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 16,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 1,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 1,
+          "graph6": "E]~w",
+          "nonedge_count": 2,
+          "orbit_sha256": "357e238f10fbcdb1494c19d8c0a772a76e1fa97b83600e7b146cf00ea4e7bc6e",
+          "orbit_size": 45,
+          "pair_count": 1,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 110,
+          "zero_pair_row": false
+        },
+        {
+          "automorphism_multiplicity": 48,
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 0,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 0,
+          "graph6": "E^~w",
+          "nonedge_count": 1,
+          "orbit_sha256": "7779e391edadb232a7217791f82155d6c36b9358344ad38989b4fc5fe3a5c2d1",
+          "orbit_size": 15,
+          "pair_count": 0,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 111,
+          "zero_pair_row": true
+        },
+        {
+          "automorphism_multiplicity": 720,
+          "edges": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "evaluated_pair_count": 0,
+          "evaluated_pair_count_matches": true,
+          "expected_choose_nonedge_2": 0,
+          "graph6": "E~~w",
+          "nonedge_count": 0,
+          "orbit_sha256": "5c5192fbecd638e447101e5e3b1ea24284015314bcf564e78e0fcf260cdbfd56",
+          "orbit_size": 1,
+          "pair_count": 0,
+          "permutation_count": 720,
+          "source_file": "graph6c.g6",
+          "source_line": 112,
+          "zero_pair_row": true
+        }
+      ],
+      "source_file": "graph6c.g6",
+      "source_records_unique": true,
+      "zero_pair_source_row_count": 2
+    }
+  ],
+  "pair_census_count_verified": true,
+  "schema_version": "kemeny-independent-completeness-v1",
+  "status": "complete_set_equality_verified",
+  "totals": {
+    "candidate_pair_count": 2390,
+    "connected_labelled_count": 27475,
+    "representative_count": 142
+  }
+}

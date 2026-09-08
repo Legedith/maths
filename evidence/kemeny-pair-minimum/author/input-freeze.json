@@ -1,0 +1,138 @@
+{
+  "schema_version": "kemeny-author-input-freeze-v1",
+  "status": "frozen_before_study_computation",
+  "frozen_at_utc": "2026-09-08T07:09:41.6439813+00:00",
+  "author": "/root/sol_symmetry_worker",
+  "working_directory": "D:/CodexWorkspaces/mathematics-atlas/kemeny-author-work",
+  "uv_cache_dir": "D:/CodexWorkspaces/mathematics-atlas/uv-cache",
+  "canonical_argv": [
+    "uv",
+    "run",
+    "--project",
+    ".",
+    "--frozen",
+    "python",
+    "census.py",
+    "--input-dir",
+    "D:/CodexWorkspaces/mathematics-atlas/kemeny-input-work",
+    "--output-dir",
+    "D:/CodexWorkspaces/mathematics-atlas/kemeny-author-work/run-01"
+  ],
+  "timeout_seconds": 1800,
+  "environment": {
+    "uv": "uv 0.8.19 (fc7c2f8b5 2025-09-19)",
+    "python": "3.12.11",
+    "python_executable": "D:/CodexWorkspaces/mathematics-atlas/kemeny-author-work/.venv/Scripts/python.exe",
+    "sympy": "1.14.0"
+  },
+  "code_manifest": {
+    "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-author-work/code-freeze-manifest.json",
+    "role": "code_freeze_manifest",
+    "bytes": 1952,
+    "sha256": "b547315c11ff260e7b4fc1edd3cc6840a423dbc4dcfc6b4f3ec02a14c4b8ee60"
+  },
+  "frozen_files": [
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-author-work/.python-version",
+      "role": "author_code_or_environment",
+      "bytes": 8,
+      "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-author-work/pyproject.toml",
+      "role": "author_code_or_environment",
+      "bytes": 236,
+      "sha256": "728e600f9f2ddef2008f879ffb077957bc874c8d9ea7a66fcbe3c2230f4ca651"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-author-work/uv.lock",
+      "role": "author_code_or_environment",
+      "bytes": 1691,
+      "sha256": "afdad7f8e3c5b68a9effb77dc6c05ff1767fa6206aa14cecc21cc90b0acda073"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-author-work/census.py",
+      "role": "author_code_or_environment",
+      "bytes": 36833,
+      "sha256": "6560176884fc4ce67b8da38465867f0a89491f087794258c7bd627225b5d6341"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-author-work/prepare.ps1",
+      "role": "author_code_or_environment",
+      "bytes": 3964,
+      "sha256": "540dfc8d580be1df11bb7fa8a2030d7c16d29a04f39aa19fc35216344a719114"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-author-work/freeze_inputs.ps1",
+      "role": "author_code_or_environment",
+      "bytes": 4301,
+      "sha256": "8802a50508d804db450dd8a22fcfc4b37d0419037b1fb503f87bea376170d495"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-author-work/run_logged.ps1",
+      "role": "author_code_or_environment",
+      "bytes": 4049,
+      "sha256": "83710fdd812cbdb01293a0085528c42ed61cc63f75abadb4fb61f4c35c95644c"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-spec-work/contract-v1.md",
+      "role": "frozen_contract",
+      "bytes": 10309,
+      "sha256": "1ff78636c4dcadc7d8f9d6a3a36c144e193e5f90cbb970ab846c877cdf0c6ac6"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-spec-work/contract-freeze.json",
+      "role": "contract_freeze",
+      "bytes": 326,
+      "sha256": "55fd516c94127c2fe1c31526366ef4449262b0d4057f1fe3eb31d770b514bbcc"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/discovery-next-audit-work/source-method-assessment.json",
+      "role": "source_method_review",
+      "bytes": 19858,
+      "sha256": "12d46fa4127e98aea459fae586fa57e16377b4426b3966ffd6bb287caa38bc96"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-input-work/source-manifest.json",
+      "role": "source_manifest",
+      "bytes": 2505,
+      "sha256": "e4a02bdeb62d8e6b0e68849b4aa3d65d9a37744578bebd48abe740fe94c52c7f"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-input-work/graph2c.g6",
+      "role": "graph6_input",
+      "bytes": 3,
+      "sha256": "fae4bfc454bd04363dcd5222772f2973b1193e1ff6f676e822a427323a677ef9"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-input-work/graph3c.g6",
+      "role": "graph6_input",
+      "bytes": 6,
+      "sha256": "5966edf890849db6cb03626431916231a81a30c9db9a4781a4a8f2e5dc7e6129"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-input-work/graph4c.g6",
+      "role": "graph6_input",
+      "bytes": 18,
+      "sha256": "d7da485669f2dc74b81c02f18774a07430937684896833d59f138b10debb5005"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-input-work/graph5c.g6",
+      "role": "graph6_input",
+      "bytes": 84,
+      "sha256": "3c436a6a15f554e3eff3ce9178fddd3d75db6d365b3c6b102b64afe82145050b"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-input-work/graph6c.g6",
+      "role": "graph6_input",
+      "bytes": 560,
+      "sha256": "2dc8cbb1c05a12b5dcb28b6227cee86d585f203347f6aebb8fcbdb2b9bdf5fd7"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-author-work/code-freeze-manifest.json",
+      "role": "code_freeze_manifest",
+      "bytes": 1952,
+      "sha256": "b547315c11ff260e7b4fc1edd3cc6840a423dbc4dcfc6b4f3ec02a14c4b8ee60"
+    }
+  ]
+}

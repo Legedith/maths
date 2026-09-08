@@ -2,7 +2,7 @@
 
 An expanding, source-backed map of mathematics and its connections to other fields. Start with a concept, follow an explained relation, inspect its assumptions, learn the prerequisites, and test a finite example.
 
-The first region connects **graph Laplacians, electrical networks, random walks, spanning trees, spectral algorithms, image segmentation and chemical graph descriptors**. It contains 31 concepts, 40 directed relations, seven authoritative sources (four research papers and three first-party lecture notes), three learning journeys and five concrete contribution tasks. These are corpus counts, not measures of all mathematics. Economics, biology and most mathematical areas remain outside this first region.
+The first region connects **graph Laplacians, electrical networks, random walks, spanning trees, spectral algorithms, image segmentation and chemical graph descriptors**, including Kemeny's constant and Braess sets. It contains 33 concepts, 44 directed relations, nine authoritative sources (six research papers and three first-party lecture notes), four learning journeys and six concrete contribution tasks. These are corpus counts, not measures of all mathematics. Economics, biology and most mathematical areas remain outside this first region.
 
 The broader **concept and resource library** reuses a pinned MathGloss export with 4,814 concept records and 7,217 resource links. Its source fidelity and navigation have [passed independent verification](docs/concept-library-verification.md); its proposed identities and resource mappings remain unreviewed. These records expand searchable vocabulary without being promoted to proved relationships in the curated map.
 
@@ -59,6 +59,8 @@ The engine separately solves the electrical equations, solves Markov first-step 
 ## Discovery and evidence
 
 Known identities are useful rediscoveries, not new mathematics. A missing search result or graph edge never establishes that a problem is open. The terminal-symmetry cache now has an independently audited correctness argument and a bounded benchmark; see [its scope and reproduction commands](README-symmetry.md). Canonical graph caching has direct prior art, so this optimization is not claimed as a globally new algorithm.
+
+The [Kemeny pair study](README-kemeny.md) determines a minimum of six vertices when individually neutral additions are allowed, and seven when both additions must individually decrease the constant. It retains two independent exact censuses, complete lower-order exclusion, a separately reviewed process correction, and a [portable uv reproduction package](experiments/kemeny-pair-minimum/README.md). The seven-vertex example and the evaluation formulas are prior work; publication-level novelty of the minimum results remains unresolved.
 
 The broader objective remains active: progressively map more mathematics and use its connections to support verified discoveries. This finite region does not fulfill that full coverage objective. Proof status, source support, finite computation and novelty are separate questions. No current entry claims Lean 4 verification.
 

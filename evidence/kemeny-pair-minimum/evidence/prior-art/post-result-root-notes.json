@@ -1,0 +1,54 @@
+{
+  "schema_version": "kemeny-post-result-root-notes-v1",
+  "status": "scoped_primary_source_notes_not_a_novelty_certificate",
+  "recorded_date_utc": "2026-09-08",
+  "chronology": "These searches followed the sealed author and blind independent census outputs. They did not select or change the frozen predicate or numerical outputs.",
+  "queries": [
+    {"query": "\"Kemeny\" \"Braess set\" \"six\"", "domains": []},
+    {"query": "\"Kemeny\" \"135/28\"", "domains": []},
+    {"query": "\"Kemeny\" \"Braess\" \"minimum order\"", "domains": []},
+    {"query": "\"Kemeny\" \"Braess\" \"diamond\"", "domains": []},
+    {"query": "Kemeny Braess pair two nonedges minimum six vertices", "domains": ["arxiv.org", "springer.com", "sciencedirect.com"]},
+    {"query": "Kemeny Braess sets neutral edge six vertices diamond graph", "domains": ["arxiv.org", "springer.com", "sciencedirect.com"]},
+    {"query": "\"Complete multipartite graphs and Braess edges\" pdf", "domains": []}
+  ],
+  "primary_reads": [
+    {
+      "title": "Complete multipartite graphs and Braess edges",
+      "authors": "Yuxiang Hu and Steve Kirkland",
+      "year": 2019,
+      "doi": "10.1016/j.laa.2019.05.035",
+      "url": "https://mspace.lib.umanitoba.ca/server/api/core/bitstreams/04a4246d-2b67-4e4c-9c4b-60f0c5417031/content",
+      "locators": ["Section 2, strict Braess/non-Braess convention", "Example 2.0.2, neutral single-edge addition", "Section 3.1 and Theorem 3.1.2, a single edge joining twin vertices"],
+      "observation": "The paper treats single-edge changes, including exact neutrality and a formula for joining twins. Vertices 1 and 2 in our candidate are twins, so this is relevant prior work to reuse when explaining that addition.",
+      "access_limits": "The official university PDF initially opened. The publisher page returned 403. Later web open/find calls failed; those failures are not valid within-document no-match evidence. Root did not establish full-paper absence of the proposed minimum theorem. A separate post-result source reviewer is checking relevant primary texts."
+    },
+    {
+      "title": "Families of graphs with twin pendent paths and the Braess edge",
+      "identifier": "arXiv:2112.03655",
+      "url": "https://arxiv.org/abs/2112.03655",
+      "locators": ["abstract"],
+      "observation": "The abstract concerns a particular single edge between pendant paths attached at a common cut vertex. This read alone does not resolve the exact two-addition minimum question.",
+      "access_limits": "Abstract only in this root read; no full-text exclusion claim."
+    }
+  ],
+  "external_search_observation": {
+    "provider": "TheoremSearch via Atlas search_research_statements WebMCP tool",
+    "retrieved_at_utc": "2026-09-08T07:24:51.728Z",
+    "query": "Minimum order of a connected simple undirected graph with two nonedges e and f such that Kemeny's constant does not increase when either edge is added alone, but strictly increases when both edges are added. Six-vertex Braess sets, neutral singleton edge, diamond graph with two pendant vertices.",
+    "requested_results": 8,
+    "top_result": {
+      "theorem_id": 25002513,
+      "slogan_id": 9896717,
+      "paper": "Local Clique Covering of Graphs",
+      "paper_id": "1210.6965v1",
+      "statement_label": "Proposition 3",
+      "primary_url": "https://arxiv.org/html/1210.6965v1",
+      "primary_locators": ["Abstract", "Introduction, definition of local clique cover number"],
+      "observation": "The returned generated summary described the symbol kc as Kemeny's constant. The primary paper explicitly defines kc as the local clique cover number. Root excludes this search hit as evidence of the requested Kemeny theorem.",
+      "status": "root_source_check_pending_independent_review"
+    },
+    "limits": "This is an observed retrieval, not a retrieval benchmark. Other returned hits were not individually source-reviewed. No accuracy or novelty-detection claim follows."
+  },
+  "conclusion": "No global novelty conclusion is drawn. Relevant known twin-edge and neutral-edge results must be acknowledged. Search misses and tool errors do not prove the minimum question was open."
+}

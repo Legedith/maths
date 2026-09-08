@@ -1,0 +1,39 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--project",
+    ".",
+    "--frozen",
+    "python",
+    "verify_census.py",
+    "--input-dir",
+    "D:/CodexWorkspaces/mathematics-atlas/kemeny-input-work",
+    "--output-dir",
+    "D:/CodexWorkspaces/mathematics-atlas/kemeny-independent-work/run-01"
+  ],
+  "attempt_id": "run-01",
+  "ended_at_utc": "2026-09-08T07:12:09.416652+00:00",
+  "returncode": 0,
+  "schema_version": "logged-command-attempt-v1",
+  "selected_environment": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "UV_CACHE_DIR": "D:\\CodexWorkspaces\\mathematics-atlas\\uv-cache",
+    "UV_PROJECT_ENVIRONMENT": null
+  },
+  "started_at_utc": "2026-09-08T07:12:04.614962+00:00",
+  "stderr": {
+    "bytes": 0,
+    "path": "attempt-run-01.stderr.bin",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 323,
+    "path": "attempt-run-01.stdout.bin",
+    "sha256": "4512335c11f74c577f6ea1a0d67e66ba8e766d42bf6407568a8766e376eaac82"
+  },
+  "termination": null,
+  "timed_out": false,
+  "timeout_seconds": 1800,
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-independent-work"
+}

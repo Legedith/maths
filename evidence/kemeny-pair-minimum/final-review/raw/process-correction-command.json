@@ -1,0 +1,31 @@
+{
+  "schema_version": "kemeny-independent-check-command-v1",
+  "argv": [
+    "uv",
+    "run",
+    "--project",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-independent-work",
+    "--frozen",
+    "python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-final-review-work\\process_correction_check.py"
+  ],
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-final-review-work",
+  "started_at_utc": "2026-09-08T08:04:53.3671661+00:00",
+  "ended_at_utc": "2026-09-08T08:04:53.7541051+00:00",
+  "returncode": 0,
+  "selected_environment": {
+    "UV_CACHE_DIR": "D:\\CodexWorkspaces\\mathematics-atlas\\uv-cache",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "VIRTUAL_ENV": null
+  },
+  "stdout": {
+    "path": "raw/process-correction-check.stdout",
+    "bytes": 212,
+    "sha256": "ce9041cd14f70f2ac9c2343347d99dd2ef289d171f2a9f5d8eb5b2ba128f1166"
+  },
+  "stderr": {
+    "path": "raw/process-correction-check.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

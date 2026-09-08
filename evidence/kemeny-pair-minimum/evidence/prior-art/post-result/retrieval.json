@@ -1,0 +1,45 @@
+{
+  "schema_version": "kemeny-postresult-source-retrieval-v1",
+  "as_of": "2026-09-08",
+  "records": [
+    {
+      "id": "hu-kirkland-2019",
+      "url": "https://mspace.lib.umanitoba.ca/server/api/core/bitstreams/04a4246d-2b67-4e4c-9c4b-60f0c5417031/content",
+      "started_at_utc": "2026-09-08T07:45:02.3946938Z",
+      "ended_at_utc": "2026-09-08T07:45:09.0234723Z",
+      "exit_code": 0,
+      "success": true,
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-postresult-review-work/sources/hu-kirkland-2019.pdf",
+      "bytes": 291152,
+      "sha256": "c896d263c6bec602274f84a29c30492f99e85e3bde654f3e61dcf5aa10718c77",
+      "headers_path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-postresult-review-work/logs/hu-kirkland-2019.headers.txt",
+      "stderr_path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-postresult-review-work/logs/hu-kirkland-2019.stderr.txt"
+    },
+    {
+      "id": "ciardo-1909.12549",
+      "url": "https://arxiv.org/pdf/1909.12549",
+      "started_at_utc": "2026-09-08T07:45:09.0475047Z",
+      "ended_at_utc": "2026-09-08T07:45:09.8853027Z",
+      "exit_code": 0,
+      "success": true,
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-postresult-review-work/sources/ciardo-1909.12549.pdf",
+      "bytes": 155299,
+      "sha256": "162fced8772d45186afdbec1db7c05b225b1d84e953bd534189b70ff27aab1f0",
+      "headers_path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-postresult-review-work/logs/ciardo-1909.12549.headers.txt",
+      "stderr_path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-postresult-review-work/logs/ciardo-1909.12549.stderr.txt"
+    },
+    {
+      "id": "kim-2112.03655",
+      "url": "https://arxiv.org/pdf/2112.03655",
+      "started_at_utc": "2026-09-08T07:45:09.8915220Z",
+      "ended_at_utc": "2026-09-08T07:45:10.2512009Z",
+      "exit_code": 0,
+      "success": true,
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-postresult-review-work/sources/kim-2112.03655.pdf",
+      "bytes": 322346,
+      "sha256": "4bd8cd8c3e46fc697049fa27e8d4cb31857c10202215105c938239bfeaec2d94",
+      "headers_path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-postresult-review-work/logs/kim-2112.03655.headers.txt",
+      "stderr_path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-postresult-review-work/logs/kim-2112.03655.stderr.txt"
+    }
+  ]
+}

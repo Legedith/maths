@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "D:\CodexWorkspaces\mathematics-atlas\kemeny-final-review-work\portable_adapter_check.py", line 316, in <module>
+    main()
+  File "D:\CodexWorkspaces\mathematics-atlas\kemeny-final-review-work\portable_adapter_check.py", line 195, in main
+    assert child["auditor_attempt"]["selected_environment"]["VIRTUAL_ENV"] is None
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+KeyError: 'VIRTUAL_ENV'

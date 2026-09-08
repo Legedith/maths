@@ -1,0 +1,58 @@
+{
+  "schema_version": "kemeny-pair-source-inputs-v1",
+  "selection": "All five official connected simple graph files for orders 2 through 6; filenames observed in the official catalogue.",
+  "status": "source_inputs_only_no_graph_computation",
+  "catalogue_url": "https://users.cecs.anu.edu.au/~bdm/data/graphs.html",
+  "files": [
+    {
+      "path": "graph2c.g6",
+      "source_url": "https://users.cecs.anu.edu.au/~bdm/data/graph2c.g6",
+      "final_url": "https://users.cecs.anu.edu.au/~bdm/data/graph2c.g6",
+      "started_at_utc": "2026-09-08T06:42:17.369840+00:00",
+      "ended_at_utc": "2026-09-08T06:42:18.000943+00:00",
+      "http_status": 200,
+      "bytes": 3,
+      "sha256": "fae4bfc454bd04363dcd5222772f2973b1193e1ff6f676e822a427323a677ef9"
+    },
+    {
+      "path": "graph3c.g6",
+      "source_url": "https://users.cecs.anu.edu.au/~bdm/data/graph3c.g6",
+      "final_url": "https://users.cecs.anu.edu.au/~bdm/data/graph3c.g6",
+      "started_at_utc": "2026-09-08T06:42:18.001075+00:00",
+      "ended_at_utc": "2026-09-08T06:42:18.581041+00:00",
+      "http_status": 200,
+      "bytes": 6,
+      "sha256": "5966edf890849db6cb03626431916231a81a30c9db9a4781a4a8f2e5dc7e6129"
+    },
+    {
+      "path": "graph4c.g6",
+      "source_url": "https://users.cecs.anu.edu.au/~bdm/data/graph4c.g6",
+      "final_url": "https://users.cecs.anu.edu.au/~bdm/data/graph4c.g6",
+      "started_at_utc": "2026-09-08T06:42:18.581199+00:00",
+      "ended_at_utc": "2026-09-08T06:42:19.173184+00:00",
+      "http_status": 200,
+      "bytes": 18,
+      "sha256": "d7da485669f2dc74b81c02f18774a07430937684896833d59f138b10debb5005"
+    },
+    {
+      "path": "graph5c.g6",
+      "source_url": "https://users.cecs.anu.edu.au/~bdm/data/graph5c.g6",
+      "final_url": "https://users.cecs.anu.edu.au/~bdm/data/graph5c.g6",
+      "started_at_utc": "2026-09-08T06:42:19.173297+00:00",
+      "ended_at_utc": "2026-09-08T06:42:19.771209+00:00",
+      "http_status": 200,
+      "bytes": 84,
+      "sha256": "3c436a6a15f554e3eff3ce9178fddd3d75db6d365b3c6b102b64afe82145050b"
+    },
+    {
+      "path": "graph6c.g6",
+      "source_url": "https://users.cecs.anu.edu.au/~bdm/data/graph6c.g6",
+      "final_url": "https://users.cecs.anu.edu.au/~bdm/data/graph6c.g6",
+      "started_at_utc": "2026-09-08T06:42:19.771341+00:00",
+      "ended_at_utc": "2026-09-08T06:42:20.358742+00:00",
+      "http_status": 200,
+      "bytes": 560,
+      "sha256": "2dc8cbb1c05a12b5dcb28b6227cee86d585f203347f6aebb8fcbdb2b9bdf5fd7"
+    }
+  ]
+}

@@ -72,6 +72,24 @@
       "url": "https://hrcak.srce.hr/127542",
       "locator": "Abstract; Introduction, journal p.633",
       "note": "Resistance distance and graph-invariant sum rules in chemical graph theory. This is not an empirical chemical-property prediction."
+    },
+    {
+      "id": "faught-kemeny-braess",
+      "title": "A 1-Separation Formula for the Graph Kemeny Constant and Braess Edges",
+      "author": "Nolan Faught, Mark Kempton and Adam Knudson",
+      "year": 2021,
+      "url": "https://arxiv.org/html/2108.01061v1",
+      "locator": "Lemma 1.1; Definition 4.1; paragraph after Corollary 4.3",
+      "note": "Exact resistance formula, strict Braess-set convention and the published P7 example; the example is not a minimum-order theorem."
+    },
+    {
+      "id": "breen-kemeny-cliques",
+      "title": "Kemeny's constant and Braess cliques in graphs",
+      "author": "Jane Breen, Emma deBlieck and Kevin N. Vander Meulen",
+      "year": 2026,
+      "url": "https://arxiv.org/html/2608.04150",
+      "locator": "Sections 2.1 and 2.2",
+      "note": "Hitting-time and spectral conventions, simple-random-walk transition matrix and resistance formula. This atlas separately pins a strict Braess comparison because conventions differ in the literature."
     }
   ],
   "nodes": [
@@ -1054,6 +1072,74 @@
         }
       ],
       "status": "sourced"
+    },
+    {
+      "id": "kemeny-constant",
+      "label": "Kemeny's constant",
+      "kind": "concept",
+      "domains": [
+        "Mathematics",
+        "Probability",
+        "Computer science"
+      ],
+      "summary": "An average of random-walk travel times to destinations weighted by their long-run fraction of visits.",
+      "explanation": "At each step choose a neighbouring vertex uniformly. Choose a destination with probability proportional to its degree. With zero steps assigned when the destination is the starting point, the expected number of steps to reach that destination is Kemeny's constant. It has the same value for every starting vertex.",
+      "formula": "K(G) = sum_j (d_j / (2m)) H_ij = d^T R d / (4m)",
+      "cluster": "probability",
+      "x": 590,
+      "y": 55,
+      "level": "Intermediate",
+      "aliases": [
+        "Kemeny constant",
+        "stationary weighted hitting time"
+      ],
+      "assumptions": [
+        "Finite connected simple undirected unweighted graph with at least two vertices",
+        "Simple random walk P = D^-1 A",
+        "H_ii = 0",
+        "Destination probabilities are recomputed when graph degrees change"
+      ],
+      "evidence": [
+        {
+          "source": "breen-kemeny-cliques",
+          "locator": "Section 2.1, hitting-time definition and Theorem 2.1; Section 2.2, graph transition matrix and resistance formula"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "kemeny-braess-set",
+      "label": "Braess set for a random walk",
+      "kind": "concept",
+      "domains": [
+        "Mathematics",
+        "Probability",
+        "Computer science"
+      ],
+      "summary": "A group of added connections that increases Kemeny's constant.",
+      "explanation": "Under the strict convention used here, a missing edge or set of missing edges is Braess when adding it makes K larger. The effect of adding edges together can differ from their individual effects. This compares a specific random-walk statistic; it does not by itself establish slower traffic, a longer shortest path, or worse performance for an application.",
+      "formula": "K(G + S) > K(G)",
+      "cluster": "probability",
+      "x": 690,
+      "y": 55,
+      "level": "Intermediate",
+      "aliases": [
+        "Braess set",
+        "joint edge addition",
+        "Braess paradox for Kemeny constant"
+      ],
+      "assumptions": [
+        "The same connected simple undirected unweighted graph model and K convention",
+        "S is a nonempty set of distinct missing edges",
+        "Strict increase; exact equality is not classified as Braess here"
+      ],
+      "evidence": [
+        {
+          "source": "faught-kemeny-braess",
+          "locator": "Definition 4.1 and the P7 example immediately after Corollary 4.3"
+        }
+      ],
+      "status": "sourced"
     }
   ],
   "edges": [
@@ -1750,6 +1836,85 @@
           "locator": "Abstract; Introduction"
         }
       ]
+    },
+    {
+      "from": "random-walk",
+      "to": "kemeny-constant",
+      "type": "defines_statistic",
+      "statement": "The simple random walk defines Kemeny's constant through its expected hitting times.",
+      "id": "kemeny-r1",
+      "assumptions": [
+        "Finite connected simple undirected unweighted graph with at least two vertices",
+        "Simple random walk P = D^-1 A",
+        "H_ii = 0",
+        "Destination probabilities are recomputed when graph degrees change"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "breen-kemeny-cliques",
+          "locator": "Sections 2.1 and 2.2"
+        }
+      ]
+    },
+    {
+      "from": "hitting-time",
+      "to": "kemeny-constant",
+      "type": "weighted_average",
+      "statement": "A stationary-distribution-weighted average of hitting times is independent of the starting vertex. The hitting time from a vertex to itself is zero in this convention.",
+      "id": "kemeny-r2",
+      "assumptions": [
+        "Finite connected simple undirected unweighted graph with at least two vertices",
+        "Simple random walk P = D^-1 A",
+        "H_ii = 0",
+        "Destination probabilities are recomputed when graph degrees change"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "breen-kemeny-cliques",
+          "locator": "Sections 2.1 and 2.2"
+        }
+      ]
+    },
+    {
+      "from": "effective-resistance",
+      "to": "kemeny-constant",
+      "type": "exact_formula",
+      "statement": "For the stated graph model, electrical effective resistances and vertex degrees determine K exactly by d^T R d/(4m).",
+      "id": "kemeny-r3",
+      "assumptions": [
+        "Finite connected simple undirected unweighted graph with at least two vertices",
+        "Simple random walk P = D^-1 A",
+        "H_ii = 0",
+        "Destination probabilities are recomputed when graph degrees change"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "faught-kemeny-braess",
+          "locator": "Lemma 1.1"
+        }
+      ]
+    },
+    {
+      "from": "kemeny-constant",
+      "to": "kemeny-braess-set",
+      "type": "defines_change_condition",
+      "statement": "A strict increase of K after adding an edge set defines a Braess set under the pinned convention.",
+      "id": "kemeny-r4",
+      "assumptions": [
+        "The same connected simple undirected unweighted graph model and K convention",
+        "S is a nonempty set of distinct missing edges",
+        "Strict increase; exact equality is not classified as Braess here"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "faught-kemeny-braess",
+          "locator": "Definition 4.1"
+        }
+      ]
     }
   ],
   "journeys": [
@@ -1835,6 +2000,33 @@
         {
           "node": "image-segmentation",
           "prompt": "Inspect what the model needs and what it does not guarantee."
+        }
+      ]
+    },
+    {
+      "id": "kemeny-networks",
+      "title": "When adding connections changes a random walk",
+      "description": "Follow a random-walk statistic into an electrical calculation, then examine how groups of added edges can interact.",
+      "steps": [
+        {
+          "node": "random-walk",
+          "prompt": "At each step, choose one neighbour uniformly."
+        },
+        {
+          "node": "hitting-time",
+          "prompt": "Count the expected steps to reach a destination."
+        },
+        {
+          "node": "kemeny-constant",
+          "prompt": "Average over destinations using degree weights, with zero time to the starting vertex."
+        },
+        {
+          "node": "effective-resistance",
+          "prompt": "Use the electrical formula to compute that same average exactly."
+        },
+        {
+          "node": "kemeny-braess-set",
+          "prompt": "Compare individual edge additions with their joint effect. Check the model assumptions before interpreting a larger value."
         }
       ]
     }
@@ -1925,6 +2117,25 @@
         "spectral-approximation"
       ],
       "status": "ready"
+    },
+    {
+      "id": "choose-network-objective",
+      "title": "Choose the network measure that fits the application",
+      "kind": "Human modelling judgment",
+      "difficulty": "Intermediate",
+      "description": "Does a random walk with degree-weighted destinations represent the application you care about? Adding edges changes both the walk and those destination weights, so a mathematical increase in K needs interpretation before it supports a practical decision.",
+      "acceptance": [
+        "State the transition rule and how destinations are chosen.",
+        "Explain whether destination weights should change when edges are added.",
+        "State what an increase in the chosen statistic would mean for the application, and what it would not establish."
+      ],
+      "nodes": [
+        "random-walk",
+        "hitting-time",
+        "kemeny-constant",
+        "kemeny-braess-set"
+      ],
+      "status": "Modelling task; not an asserted open theorem"
     }
   ],
   "examples": [
