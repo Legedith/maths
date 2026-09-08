@@ -1,0 +1,185 @@
+{
+    "schema_version":  "msc-import-independent-publication-manifest-v1",
+    "auditor":  "/root/sol_symmetry_audit",
+    "target_result_manifest_sha256":  "a3ad7a74a90e516a17173604adc87262c524ecc3d5ad000d611d90218a245f3e",
+    "artifacts":  [
+                      {
+                          "path":  "checker-correction-01.json",
+                          "bytes":  720,
+                          "sha256":  "c7fc427aed7555e3f876156615abbd778934ae4f9685f786188f21c26e77bdc6"
+                      },
+                      {
+                          "path":  "final-audit.json",
+                          "bytes":  8251,
+                          "sha256":  "878a51115ef7a4a720a3e33b36933c3f16385dc8a47873524ef8ced226dc0ad1"
+                      },
+                      {
+                          "path":  "logs/canonical-replay-01.json",
+                          "bytes":  1562,
+                          "sha256":  "ab3dd8076cd33141aca31d80c1ab19a459f5e786f1effa3b30396d6950970d98"
+                      },
+                      {
+                          "path":  "logs/canonical-replay-01.stderr.bin",
+                          "bytes":  771,
+                          "sha256":  "161100e33c4276b3250dc16127e0a4f667b77964e65bab647ef25fe14bb36148"
+                      },
+                      {
+                          "path":  "logs/canonical-replay-01.stdout.bin",
+                          "bytes":  691,
+                          "sha256":  "aee36b2fda63784ad203e6cd6e5d1780f8d26bfdb9f9cea3b70d7ab6ab9cd97e"
+                      },
+                      {
+                          "path":  "logs/csv-pin-probe-01.json",
+                          "bytes":  1576,
+                          "sha256":  "ce5d2331bb2198e5d5ed98d5885fdaac1a4d56562e0b9b647faae8d724a31e42"
+                      },
+                      {
+                          "path":  "logs/csv-pin-probe-01.stderr.bin",
+                          "bytes":  957,
+                          "sha256":  "43b27f4629a29b4072c7117ffdbd9e5e290aeffc4719a7d589cd7900dcb3e5c0"
+                      },
+                      {
+                          "path":  "logs/csv-pin-probe-01.stdout.bin",
+                          "bytes":  0,
+                          "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                      },
+                      {
+                          "path":  "logs/exhaustive-check-01.json",
+                          "bytes":  1975,
+                          "sha256":  "c2a62bc8e68696ede8e7d398db086c3803bb5d46391eecb22e3989b8d57f1da7"
+                      },
+                      {
+                          "path":  "logs/exhaustive-check-01.stderr.bin",
+                          "bytes":  1502,
+                          "sha256":  "aa5a74679b17b47fc4b442ef3f8ab1cdaf3a6254c526c0fab317be7d080830b8"
+                      },
+                      {
+                          "path":  "logs/exhaustive-check-01.stdout.bin",
+                          "bytes":  0,
+                          "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                      },
+                      {
+                          "path":  "logs/exhaustive-check-02.json",
+                          "bytes":  1976,
+                          "sha256":  "337a7cc1a0da3bc93287d7a48bc98500cfce46b05cac188b8c28a138cfd0e72d"
+                      },
+                      {
+                          "path":  "logs/exhaustive-check-02.stderr.bin",
+                          "bytes":  771,
+                          "sha256":  "990491a58042a94e509ced70f677d5f6a2ac055f7737f479129641115ddc2de3"
+                      },
+                      {
+                          "path":  "logs/exhaustive-check-02.stdout.bin",
+                          "bytes":  936,
+                          "sha256":  "a41bf1f97f30467e3a39a1d5492a8524e2d7a377018a8560d02d63dcff9c577f"
+                      },
+                      {
+                          "path":  "logs/existing-output-probe-01.json",
+                          "bytes":  1583,
+                          "sha256":  "7876eb94b00c23024eee3e43866111bfbb2f84d85f013accde0cd31393da355e"
+                      },
+                      {
+                          "path":  "logs/existing-output-probe-01.stderr.bin",
+                          "bytes":  560,
+                          "sha256":  "b332b5549e0d09e360ac920efe77f925d6efb3270f2bf0fdf54182afeb06b912"
+                      },
+                      {
+                          "path":  "logs/existing-output-probe-01.stdout.bin",
+                          "bytes":  0,
+                          "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                      },
+                      {
+                          "path":  "logs/manifest-pin-probe-01.json",
+                          "bytes":  1602,
+                          "sha256":  "572cca0bde009212bbc539bad149a9686f920047e7cce20e36a3abd22e1df007"
+                      },
+                      {
+                          "path":  "logs/manifest-pin-probe-01.stderr.bin",
+                          "bytes":  1073,
+                          "sha256":  "3f66948780be73526381e0a9aaac513c669e2132366d9a7cb3628e17b1d74cab"
+                      },
+                      {
+                          "path":  "logs/manifest-pin-probe-01.stdout.bin",
+                          "bytes":  0,
+                          "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                      },
+                      {
+                          "path":  "logs/ttl-pin-probe-01.json",
+                          "bytes":  1576,
+                          "sha256":  "387f8795466e010db56409e4b363de00140e58bc78a7b277dd52c2cdc042a889"
+                      },
+                      {
+                          "path":  "logs/ttl-pin-probe-01.stderr.bin",
+                          "bytes":  963,
+                          "sha256":  "07f4ba977e142d4ab2f96d48c1695b52bb17876108977c1177c87d723fd8e16e"
+                      },
+                      {
+                          "path":  "logs/ttl-pin-probe-01.stdout.bin",
+                          "bytes":  0,
+                          "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                      },
+                      {
+                          "path":  "preexecution-freeze.json",
+                          "bytes":  5343,
+                          "sha256":  "bd3aa259cb71dd8dd4857f9ce5597ee66a30d39b249e21b2a5b715a886fc1bc4"
+                      },
+                      {
+                          "path":  "preexecution-freeze-02.json",
+                          "bytes":  879,
+                          "sha256":  "a311893406dcf4f0e2f53c8b3fef1d31408f0d92bf22871b4023253db0276aea"
+                      },
+                      {
+                          "path":  "probe-preexecution-freeze.json",
+                          "bytes":  1970,
+                          "sha256":  "dfa0eb31c693283deedf49f97a7bc1ae9e4fafa482e01488af8eff60245dffbc"
+                      },
+                      {
+                          "path":  "probes/existing-output/sentinel.txt",
+                          "bytes":  31,
+                          "sha256":  "9edb8213b653c79e2ec9c26a9b8101b704f4e6d1f5a1cb025cb7fd777ecb4800"
+                      },
+                      {
+                          "path":  "probes/prepared-probes.json",
+                          "bytes":  1526,
+                          "sha256":  "e1d517266343f664f9ee15c2b71d9e03d7062af946c9fc38206bed9e39d46bf4"
+                      },
+                      {
+                          "path":  "results/independent-check.json",
+                          "bytes":  7151,
+                          "sha256":  "a22a382eb5adaea22b027c64bf984c435fceaef93a2b936c3b5deb2cc120b7e3"
+                      },
+                      {
+                          "path":  "results/probe-check.json",
+                          "bytes":  1506,
+                          "sha256":  "c11ab7121e2f1426a3e2587645a16d6ad13ab061a9e577bc984f13e3b2e52325"
+                      },
+                      {
+                          "path":  "scripts/check_msc_import.py",
+                          "bytes":  19150,
+                          "sha256":  "86da13adfba768632cf530783ee0d9245ad1fc2d979432540a9fc0ef574f5e0f"
+                      },
+                      {
+                          "path":  "scripts/run_logged.py",
+                          "bytes":  3420,
+                          "sha256":  "8638ae3652333bc043116b9a5afe540e4af664e9d7e324f34c5f46b1f67c7e5d"
+                      }
+                  ],
+    "exclusions":  [
+                       {
+                           "path":  ".venv/",
+                           "reason":  "Auditor-local isolated dependency environment."
+                       },
+                       {
+                           "path":  "scripts/__pycache__/",
+                           "reason":  "Generated Python bytecode."
+                       },
+                       {
+                           "path":  "replay-output/",
+                           "reason":  "Large byte-identical output duplicate; hashes and three-way comparisons are retained in results/independent-check.json."
+                       },
+                       {
+                           "path":  "probes/*/inputs/",
+                           "reason":  "Auditor-local copies of third-party source bytes used only for one-byte pin mutations; prepared hashes and rejection logs are retained."
+                       }
+                   ]
+}

@@ -1,0 +1,102 @@
+{
+    "schema_version":  "msc-product-freeze-v2",
+    "frozen_at_utc":  "2026-09-08T09:46:45.8827814Z",
+    "change":  "Only three Response type annotations in test code; runtime/data unchanged. Documentation and CI added.",
+    "files":  [
+                  {
+                      "path":  "docs/subject-browser-contract.md",
+                      "sha256":  "fb3479a4cbf69a14343a13960a16d4ec424e818618071630d8e382252a8fb05b",
+                      "bytes":  3345
+                  },
+                  {
+                      "path":  "lib/subject-index.ts",
+                      "sha256":  "2d9db19faccc7048584edc1e9079f44dc10dbfbccc35256f8bdcce4fdf3791d4",
+                      "bytes":  7760
+                  },
+                  {
+                      "path":  "lib/subject-data.ts",
+                      "sha256":  "0e46513b1005887a80bc1e46476982b7e8fd6b5301a0abad6b987a81aac4a164",
+                      "bytes":  329
+                  },
+                  {
+                      "path":  "app/api/subjects/route.ts",
+                      "sha256":  "ec56c5edefb01856901224c12471f40d8bfbf7eef9f0716136f4d5d95ea9f667",
+                      "bytes":  1143
+                  },
+                  {
+                      "path":  "app/subjects/page.tsx",
+                      "sha256":  "2b8e9150598df9a457f0e4ee62295d8283b6b941499f6b608a21cfcd0a9aec15",
+                      "bytes":  3441
+                  },
+                  {
+                      "path":  "app/subjects/[code]/page.tsx",
+                      "sha256":  "5369fca27869abd8b259820271a42895ca10704e449169d7b7e98aee43cd2824",
+                      "bytes":  5614
+                  },
+                  {
+                      "path":  "components/subject-navigation.tsx",
+                      "sha256":  "bb4edd2e4c579a6af22e2c101a2b4e9203fe495e8100ca3cc2c896b265d9ec8d",
+                      "bytes":  1761
+                  },
+                  {
+                      "path":  "components/subject-navigation.module.css",
+                      "sha256":  "266596ecded2629466a72e4d74ef71e1ce78496b780626a9de3bf4464d0d7f48",
+                      "bytes":  2570
+                  },
+                  {
+                      "path":  "app/page.tsx",
+                      "sha256":  "202c6e495587ed050267a4031ea060866a683925d839a9ea5f930f4d2fa95347",
+                      "bytes":  21823
+                  },
+                  {
+                      "path":  "scripts/check-subjects.ts",
+                      "sha256":  "35539aebb6b682f068c5081082c523db2cd10fd3edfb3a4179122a45f2e01782",
+                      "bytes":  7621
+                  },
+                  {
+                      "path":  "data/msc/subjects.json",
+                      "sha256":  "32fb0eddc9f189e68b9fa312e8e29c399deee65d4d282d1e61235be33a22400e",
+                      "bytes":  7900506
+                  },
+                  {
+                      "path":  "data/msc/references.json",
+                      "sha256":  "75ecd4b71056274ad342c72a5324770e2257e0ff3a88662dfe457c9127b4bc35",
+                      "bytes":  1366532
+                  },
+                  {
+                      "path":  "data/msc/summary.json",
+                      "sha256":  "7816ecdc34c3fe3981bef3f18a6ff0effe16e12aca5dc95460f8604dee7715ed",
+                      "bytes":  802
+                  },
+                  {
+                      "path":  "README.md",
+                      "sha256":  "df6fde12fa563588fb3c8b0e967084a195319bbfab46191bbf0721569825f149",
+                      "bytes":  8264
+                  },
+                  {
+                      "path":  "docs/coverage.md",
+                      "sha256":  "92358d4e3d47e2035207132c1a1044f113bae32a5366a78bec51574f44051361",
+                      "bytes":  2550
+                  },
+                  {
+                      "path":  "docs/reuse-decision.md",
+                      "sha256":  "74d5e1613f4cf83b2215ddbb5ce1c09f0fa606c97343ab8b0208a4698409bb75",
+                      "bytes":  5074
+                  },
+                  {
+                      "path":  "docs/subject-browser.md",
+                      "sha256":  "ddf644f5f8b20980ccb4fa553715c92b37b628a1606f4c146787f972509098d5",
+                      "bytes":  3919
+                  },
+                  {
+                      "path":  ".github/workflows/verify.yml",
+                      "sha256":  "1bb07fc334a822ba8aeb36353aa6114c3441f7e06490cad2152670053220f3ab",
+                      "bytes":  1522
+                  },
+                  {
+                      "path":  ".github/workflows/reproduce-subject-classification.yml",
+                      "sha256":  "7a5d84a6da913dcf4994f7b6831ab536981062abee7c34b749be190428eb1875",
+                      "bytes":  1885
+                  }
+              ]
+}

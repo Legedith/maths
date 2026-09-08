@@ -1,0 +1,21 @@
+{
+  "schema_version": "msc-product-http-response-v1",
+  "request": {
+    "method": "GET",
+    "url": "http://localhost:3000/api/subjects?code="
+  },
+  "response": {
+    "status": 400,
+    "headers": {
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+      "cache-control": "no-store",
+      "content-type": "application/json",
+      "transfer-encoding": "chunked",
+      "date": "Tue, 08 Sep 2026 10:01:35 GMT",
+      "connection": "close"
+    },
+    "body_path": "invalid-01.body.bin",
+    "body_bytes": 40,
+    "body_sha256": "cdd13009172b38c1c525ca1310b47ce7204281c8004fa359aa1d99bf0e924fb5"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "output": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\additive-check.json",
+  "output_sha256": "06a03df10a44ffcce150128bbe2d4503c45d69196e1ba400b8ce56a81831c163",
+  "candidate_sha256": "71027167d7c0f6e370f85aedcaac3725c1668c1b0d772307c0db9be8ff2a1bde",
+  "prior_artifacts_preserved": true,
+  "nonartifact_values_unchanged": true,
+  "added": {
+    "total": 37,
+    "review": 27,
+    "assembly": 9,
+    "receipt": 1
+  },
+  "all_pass": true
+}

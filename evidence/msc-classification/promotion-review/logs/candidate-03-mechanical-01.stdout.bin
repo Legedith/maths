@@ -1,0 +1,23 @@
+{
+  "output": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\candidate-03-mechanical-check.json",
+  "output_sha256": "a611c2cd44095d99d5451aed2d33b83bc130f12dd96e7a30fd0fe68d62bc35bb",
+  "artifact_summary": {
+    "exists": 265,
+    "hash_matches": 265,
+    "all_match": true,
+    "canonical_actual_inventory_sha256": "9ea515e0f24db9849ee12fec517caa86f0636cba4d2b9d0b521532128f312168"
+  },
+  "claim_summary": {
+    "locator_checks": 42,
+    "claims_with_all_declared_locators_passing": 9,
+    "all_declared_locators_pass": true
+  },
+  "structural_checks": {
+    "artifact_count": 265,
+    "claim_count": 9,
+    "artifact_ids_unique": true,
+    "artifact_paths_unique": true,
+    "claim_ids_unique": true,
+    "all_paths_structurally_safe": true
+  }
+}

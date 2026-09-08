@@ -1,0 +1,41 @@
+{
+  "schema_version": "independent-msc-promotion-additive-acknowledgement-v1",
+  "reviewer": "/root/sol_symmetry_worker",
+  "prior_reviewed_candidate": {
+    "artifact_count": 265,
+    "sha256": "f57ccfddf20064d1df481e289925f09b66657ce604f1047d8dce8ba9ba8d9e49"
+  },
+  "acknowledged_candidate": {
+    "path": "project/.codex/evidence/runs/msc-classification-v1/bundle.json",
+    "identical_staging_path": "msc-product-work/bundle-final-candidate-04.json",
+    "artifact_count": 302,
+    "claim_count": 9,
+    "sha256": "71027167d7c0f6e370f85aedcaac3725c1668c1b0d772307c0db9be8ff2a1bde"
+  },
+  "status": "ACKNOWLEDGED_AS_STRICTLY_ADDITIVE",
+  "checks": {
+    "prior_265_artifact_records_preserved_as_prefix": true,
+    "nine_claims_and_all_supports_unchanged": true,
+    "four_check_decisions_unchanged": true,
+    "limitations_unchanged": true,
+    "added_artifact_count": 37,
+    "added_exact_review_copies": 27,
+    "added_assembly_history_records": 9,
+    "added_copy_receipts": 1,
+    "unexpected_added_paths": [],
+    "all_302_artifacts_exist_and_match_declared_hashes": true,
+    "candidate_matches_staging_bytes": true,
+    "gate_04_status": "PASS"
+  },
+  "evidence": [
+    {
+      "path": "additive-check.json",
+      "sha256": "06a03df10a44ffcce150128bbe2d4503c45d69196e1ba400b8ce56a81831c163"
+    },
+    {
+      "path": "msc-product-work/gate-logs/attempt-msc-gate-04.stdout.bin",
+      "sha256": "191b25d23f3873a7f999fd2922b3a432ffc5dcb25e0faa339d6e7f1f9c946f33"
+    }
+  ],
+  "scope": "This acknowledgement confirms packaging-only additions to the previously approved candidate. It adds no semantic claim, does not repeat the product audit, and does not approve any later modification."
+}

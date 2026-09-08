@@ -1,0 +1,32 @@
+{
+    "schema_version":  "msc-import-independent-probe-check-v1",
+    "all_pass":  true,
+    "existing_output":  {
+                            "returncode":  1,
+                            "sentinel_sha256":  "9edb8213b653c79e2ec9c26a9b8101b704f4e6d1f5a1cb025cb7fd777ecb4800",
+                            "files":  [
+                                          "D:/CodexWorkspaces/mathematics-atlas/msc-import-review-work/probes/existing-output/sentinel.txt"
+                                      ],
+                            "expected_message":  true
+                        },
+    "pin_rejections":  [
+                           {
+                               "input":  "source-manifest.json",
+                               "returncode":  1,
+                               "output_exists":  false,
+                               "expected_message":  true
+                           },
+                           {
+                               "input":  "official.csv",
+                               "returncode":  1,
+                               "output_exists":  false,
+                               "expected_message":  true
+                           },
+                           {
+                               "input":  "suggestion4.ttl",
+                               "returncode":  1,
+                               "output_exists":  false,
+                               "expected_message":  true
+                           }
+                       ]
+}

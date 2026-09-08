@@ -27,6 +27,7 @@ jobs:
       - run: node scripts/check-formal-search.ts
       - run: node scripts/check-research-search.ts
       - run: node scripts/check-concept-library.ts
+      - run: node scripts/check-subjects.ts
       - run: uv run --frozen python scripts/import_mathgloss.py --source-csv data/mathgloss/source/database.csv --source-license data/mathgloss/MATHGLOSS-LICENSE --output-dir work/mathgloss-ci
       - run: npx tsc --noEmit
       - run: npm run lint

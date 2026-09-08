@@ -1,0 +1,9 @@
+{
+  "schema_version": "publication-copy-correction-v1",
+  "producer": "root",
+  "original_script": "copy_reviewed_evidence-v1.py",
+  "failure": "JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)",
+  "failure_evidence": "Original exec tool output; no separate raw subprocess capture was made for the first file-copy operation.",
+  "effect": "Failure occurred during manifest preflight before creating evidence/msc-classification. The destination's absence was checked before correcting the script.",
+  "correction": "Read JSON manifests with utf-8-sig while continuing to hash and copy their exact original bytes. No data, source or audit artifact is changed."
+}

@@ -1,0 +1,32 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--frozen",
+    "pytest"
+  ],
+  "attempt_id": "msc-regression-pytest-01",
+  "ended_at_utc": "2026-09-08T09:47:36.182519+00:00",
+  "returncode": 0,
+  "schema_version": "logged-command-attempt-v1",
+  "selected_environment": {
+    "PYTHONDONTWRITEBYTECODE": null,
+    "UV_CACHE_DIR": "D:/CodexWorkspaces/mathematics-atlas/uv-cache",
+    "UV_PROJECT_ENVIRONMENT": null
+  },
+  "started_at_utc": "2026-09-08T09:47:32.895614+00:00",
+  "stderr": {
+    "bytes": 0,
+    "path": "attempt-msc-regression-pytest-01.stderr.bin",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 264,
+    "path": "attempt-msc-regression-pytest-01.stdout.bin",
+    "sha256": "867b992f048de6d2ddaa957c101fc7e964d79b9bd88f4094585af9f7632f5a4d"
+  },
+  "termination": null,
+  "timed_out": false,
+  "timeout_seconds": 300,
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\project"
+}

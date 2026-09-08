@@ -1,0 +1,31 @@
+{
+  "schema_version": "logged-command-v1",
+  "started_at_utc": "2026-09-08T10:34:44.898329+00:00",
+  "ended_at_utc": "2026-09-08T10:34:45.315929+00:00",
+  "elapsed_seconds": 0.41821,
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work",
+  "command": [
+    "D:/CodexWorkspaces/mathematics-atlas/msc-promotion-review-work/.venv/Scripts/python.exe",
+    "D:/CodexWorkspaces/mathematics-atlas/msc-promotion-review-work/validate_copies.py",
+    "--workspace",
+    "D:/CodexWorkspaces/mathematics-atlas",
+    "--project",
+    "D:/CodexWorkspaces/mathematics-atlas/project",
+    "--output",
+    "D:/CodexWorkspaces/mathematics-atlas/msc-promotion-review-work/copy-validation-final.json"
+  ],
+  "timeout_seconds": 300.0,
+  "timed_out": false,
+  "returncode": 0,
+  "python": "3.12.11 (main, Sep 18 2025, 19:45:51) [MSC v.1944 64 bit (AMD64)]",
+  "stdout": {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\logs\\copy-validation-04.stdout.bin",
+    "bytes": 1589,
+    "sha256": "6b8877193e74a976116718a88c2ddc960c850c2232d004d2dcb654082248a53f"
+  },
+  "stderr": {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\logs\\copy-validation-04.stderr.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

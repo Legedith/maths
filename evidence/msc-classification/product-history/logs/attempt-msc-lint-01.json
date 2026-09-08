@@ -1,0 +1,32 @@
+{
+  "argv": [
+    "cmd.exe",
+    "/d",
+    "/c",
+    "npm run lint"
+  ],
+  "attempt_id": "msc-lint-01",
+  "ended_at_utc": "2026-09-08T09:39:22.893740+00:00",
+  "returncode": 1,
+  "schema_version": "logged-command-attempt-v1",
+  "selected_environment": {
+    "PYTHONDONTWRITEBYTECODE": null,
+    "UV_CACHE_DIR": "D:/CodexWorkspaces/mathematics-atlas/uv-cache",
+    "UV_PROJECT_ENVIRONMENT": null
+  },
+  "started_at_utc": "2026-09-08T09:39:19.335669+00:00",
+  "stderr": {
+    "bytes": 153,
+    "path": "attempt-msc-lint-01.stderr.bin",
+    "sha256": "729d8972b51de5e2457a45b53681f0065959be096264bf3ccc0a93db9432920d"
+  },
+  "stdout": {
+    "bytes": 650,
+    "path": "attempt-msc-lint-01.stdout.bin",
+    "sha256": "9527054fc34eab9658294c8b1f108e9b7a77ec91edfee47245f8a0b63c6e7e54"
+  },
+  "termination": null,
+  "timed_out": false,
+  "timeout_seconds": 300,
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\project"
+}

@@ -1,0 +1,266 @@
+{
+  "schema_version": "msc-import-independent-check-v1",
+  "auditor": "/root/sol_symmetry_audit",
+  "all_pass": true,
+  "checks": [
+    {
+      "id": "rdflib-version",
+      "pass": true,
+      "details": "7.1.4"
+    },
+    {
+      "id": "package-importer-pin",
+      "pass": true,
+      "details": "ae950530f861a55ae894c27f02a759c68207eff18aba8a9dcfa5bf3b326fba12"
+    },
+    {
+      "id": "package-contract-pin",
+      "pass": true,
+      "details": "85108635a9b398db4d9c0fb3720aaccf3b69ef749666e8c83261659edf5404f6"
+    },
+    {
+      "id": "portable-raw-file-set",
+      "pass": true,
+      "details": [
+        "raw/official.csv",
+        "raw/suggestion4.ttl"
+      ]
+    },
+    {
+      "id": "source-object-subjects.json",
+      "pass": true,
+      "details": {
+        "rows": 6603
+      }
+    },
+    {
+      "id": "author-object-subjects.json",
+      "pass": true,
+      "details": "32fb0eddc9f189e68b9fa312e8e29c399deee65d4d282d1e61235be33a22400e"
+    },
+    {
+      "id": "project-object-subjects.json",
+      "pass": true,
+      "details": "32fb0eddc9f189e68b9fa312e8e29c399deee65d4d282d1e61235be33a22400e"
+    },
+    {
+      "id": "byte-equality-subjects.json",
+      "pass": true,
+      "details": {
+        "candidate": "32fb0eddc9f189e68b9fa312e8e29c399deee65d4d282d1e61235be33a22400e",
+        "author_run_03": "32fb0eddc9f189e68b9fa312e8e29c399deee65d4d282d1e61235be33a22400e",
+        "project_data": "32fb0eddc9f189e68b9fa312e8e29c399deee65d4d282d1e61235be33a22400e"
+      }
+    },
+    {
+      "id": "source-object-references.json",
+      "pass": true,
+      "details": {
+        "rows": 3083
+      }
+    },
+    {
+      "id": "author-object-references.json",
+      "pass": true,
+      "details": "75ecd4b71056274ad342c72a5324770e2257e0ff3a88662dfe457c9127b4bc35"
+    },
+    {
+      "id": "project-object-references.json",
+      "pass": true,
+      "details": "75ecd4b71056274ad342c72a5324770e2257e0ff3a88662dfe457c9127b4bc35"
+    },
+    {
+      "id": "byte-equality-references.json",
+      "pass": true,
+      "details": {
+        "candidate": "75ecd4b71056274ad342c72a5324770e2257e0ff3a88662dfe457c9127b4bc35",
+        "author_run_03": "75ecd4b71056274ad342c72a5324770e2257e0ff3a88662dfe457c9127b4bc35",
+        "project_data": "75ecd4b71056274ad342c72a5324770e2257e0ff3a88662dfe457c9127b4bc35"
+      }
+    },
+    {
+      "id": "source-object-summary.json",
+      "pass": true,
+      "details": {
+        "rows": null
+      }
+    },
+    {
+      "id": "author-object-summary.json",
+      "pass": true,
+      "details": "7816ecdc34c3fe3981bef3f18a6ff0effe16e12aca5dc95460f8604dee7715ed"
+    },
+    {
+      "id": "project-object-summary.json",
+      "pass": true,
+      "details": "7816ecdc34c3fe3981bef3f18a6ff0effe16e12aca5dc95460f8604dee7715ed"
+    },
+    {
+      "id": "byte-equality-summary.json",
+      "pass": true,
+      "details": {
+        "candidate": "7816ecdc34c3fe3981bef3f18a6ff0effe16e12aca5dc95460f8604dee7715ed",
+        "author_run_03": "7816ecdc34c3fe3981bef3f18a6ff0effe16e12aca5dc95460f8604dee7715ed",
+        "project_data": "7816ecdc34c3fe3981bef3f18a6ff0effe16e12aca5dc95460f8604dee7715ed"
+      }
+    },
+    {
+      "id": "count-csv_records",
+      "pass": true,
+      "details": 6603
+    },
+    {
+      "id": "count-hierarchy_levels",
+      "pass": true,
+      "details": {
+        "1": 63,
+        "2": 1037,
+        "3": 5503
+      }
+    },
+    {
+      "id": "count-hierarchy_disagreements",
+      "pass": true,
+      "details": [
+        "32-00",
+        "32-01",
+        "32-02",
+        "32-03",
+        "32-04",
+        "32-06",
+        "32-08",
+        "32-11"
+      ]
+    },
+    {
+      "id": "count-exact_label_difference_count",
+      "pass": true,
+      "details": 120
+    },
+    {
+      "id": "count-rdf_scope_notes",
+      "pass": true,
+      "details": 2271
+    },
+    {
+      "id": "count-reference_triples",
+      "pass": true,
+      "details": 3083
+    },
+    {
+      "id": "count-typed_conditional_reifications",
+      "pass": true,
+      "details": 415
+    },
+    {
+      "id": "count-scope_records",
+      "pass": true,
+      "details": 415
+    },
+    {
+      "id": "count-scope_terms",
+      "pass": true,
+      "details": 415
+    },
+    {
+      "id": "count-referenced_collections",
+      "pass": true,
+      "details": 1
+    },
+    {
+      "id": "count-collection_members",
+      "pass": true,
+      "details": 62
+    },
+    {
+      "id": "reference-predicate-counts",
+      "pass": true,
+      "details": {
+        "http://msc2020.org/resources/MSC/msc2020/mscvocab#seeAlso": 2642,
+        "http://msc2020.org/resources/MSC/msc2020/mscvocab#seeConditionally": 415,
+        "http://msc2020.org/resources/MSC/msc2020/mscvocab#seeMainly": 26
+      }
+    },
+    {
+      "id": "scope-term-forms",
+      "pass": true,
+      "details": {
+        "language='en';datatype=None": 1,
+        "language=None;datatype='http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral'": 414
+      }
+    },
+    {
+      "id": "hierarchy-level-vs-leaf-distinct",
+      "pass": true,
+      "details": {
+        "leaf_true": 6006,
+        "leaf_false": 597,
+        "levels": {
+          "1": 63,
+          "2": 1037,
+          "3": 5503
+        }
+      }
+    }
+  ],
+  "source_facts": {
+    "csv_records": 6603,
+    "csv_physical_lines": 6604,
+    "hierarchy_levels": {
+      "1": 63,
+      "2": 1037,
+      "3": 5503
+    },
+    "leaf_true": 6006,
+    "leaf_false": 597,
+    "hierarchy_disagreements": [
+      "32-00",
+      "32-01",
+      "32-02",
+      "32-03",
+      "32-04",
+      "32-06",
+      "32-08",
+      "32-11"
+    ],
+    "exact_label_difference_count": 120,
+    "rdf_labels": 6620,
+    "rdf_broader_terms": 6548,
+    "rdf_scope_notes": 2271,
+    "reference_triples": 3083,
+    "reference_predicates": {
+      "http://msc2020.org/resources/MSC/msc2020/mscvocab#seeAlso": 2642,
+      "http://msc2020.org/resources/MSC/msc2020/mscvocab#seeConditionally": 415,
+      "http://msc2020.org/resources/MSC/msc2020/mscvocab#seeMainly": 26
+    },
+    "typed_conditional_reifications": 415,
+    "scope_records": 415,
+    "scope_terms": 415,
+    "scope_term_forms": {
+      "language='en';datatype=None": 1,
+      "language=None;datatype='http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral'": 414
+    },
+    "referenced_collections": 1,
+    "collection_members": 62
+  },
+  "byte_comparison": [
+    {
+      "file": "subjects.json",
+      "bytes": 7900506,
+      "sha256": "32fb0eddc9f189e68b9fa312e8e29c399deee65d4d282d1e61235be33a22400e",
+      "all_three_equal": true
+    },
+    {
+      "file": "references.json",
+      "bytes": 1366532,
+      "sha256": "75ecd4b71056274ad342c72a5324770e2257e0ff3a88662dfe457c9127b4bc35",
+      "all_three_equal": true
+    },
+    {
+      "file": "summary.json",
+      "bytes": 802,
+      "sha256": "7816ecdc34c3fe3981bef3f18a6ff0effe16e12aca5dc95460f8604dee7715ed",
+      "all_three_equal": true
+    }
+  ]
+}

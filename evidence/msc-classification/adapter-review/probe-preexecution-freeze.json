@@ -1,0 +1,34 @@
+{
+    "schema_version":  "msc-import-independent-probe-freeze-v1",
+    "auditor":  "/root/sol_symmetry_audit",
+    "frozen_at_utc":  "2026-09-08T09:38:27.5290102Z",
+    "wrapper_sha256":  "8638ae3652333bc043116b9a5afe540e4af664e9d7e324f34c5f46b1f67c7e5d",
+    "importer_sha256":  "ae950530f861a55ae894c27f02a759c68207eff18aba8a9dcfa5bf3b326fba12",
+    "prepared_probes_sha256":  "e1d517266343f664f9ee15c2b71d9e03d7062af946c9fc38206bed9e39d46bf4",
+    "probes":  [
+                   {
+                       "id":  "existing-output",
+                       "source_root":  "project/experiments/msc-index/inputs",
+                       "output_dir":  "msc-import-review-work/probes/existing-output",
+                       "expected":  "nonzero; sentinel unchanged; no added files"
+                   },
+                   {
+                       "id":  "manifest-pin",
+                       "source_root":  "msc-import-review-work/probes/manifest-mismatch/inputs",
+                       "output_dir":  "msc-import-review-work/probes/manifest-mismatch/output",
+                       "expected":  "nonzero; output absent; Source pin mismatch: source-manifest.json"
+                   },
+                   {
+                       "id":  "csv-pin",
+                       "source_root":  "msc-import-review-work/probes/csv-mismatch/inputs",
+                       "output_dir":  "msc-import-review-work/probes/csv-mismatch/output",
+                       "expected":  "nonzero; output absent; Source pin mismatch: official.csv"
+                   },
+                   {
+                       "id":  "ttl-pin",
+                       "source_root":  "msc-import-review-work/probes/ttl-mismatch/inputs",
+                       "output_dir":  "msc-import-review-work/probes/ttl-mismatch/output",
+                       "expected":  "nonzero; output absent; Source pin mismatch: suggestion4.ttl"
+                   }
+               ]
+}

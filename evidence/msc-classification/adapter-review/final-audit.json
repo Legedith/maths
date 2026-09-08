@@ -1,0 +1,160 @@
+{
+  "schema_version": "msc-import-independent-final-audit-v1",
+  "auditor": {
+    "identity": "/root/sol_symmetry_audit",
+    "role": "independent adapter and data reviewer"
+  },
+  "target": {
+    "result_manifest": "msc-import-work/result-manifest-v3.json",
+    "result_manifest_sha256": "a3ad7a74a90e516a17173604adc87262c524ecc3d5ad000d611d90218a245f3e",
+    "selected_importer_sha256": "ae950530f861a55ae894c27f02a759c68207eff18aba8a9dcfa5bf3b326fba12",
+    "selected_run": "msc-import-work/run-03",
+    "contract_sha256": "85108635a9b398db4d9c0fb3720aaccf3b69ef749666e8c83261659edf5404f6"
+  },
+  "recommendation": "PASS_FOR_SCOPED_DATA_ADAPTER",
+  "checks": [
+    {
+      "id": "reproduction",
+      "status": "PASS",
+      "decision": "The frozen project package ran once through the auditor-owned wrapper in an isolated uv environment. It returned zero in 3.065 seconds. subjects.json, references.json, and summary.json are byte-identical across the fresh replay, author run-03, and the unpublished project copies.",
+      "evidence": [
+        "preexecution-freeze.json",
+        "logs/canonical-replay-01.json",
+        "logs/canonical-replay-01.stdout.bin",
+        "logs/canonical-replay-01.stderr.bin",
+        "results/independent-check.json"
+      ]
+    },
+    {
+      "id": "specification_compliance",
+      "status": "PASS",
+      "decision": "All output fields were reconstructed from the frozen sources and compared, including all 6,603 CSV records and physical locators, explicit hierarchy levels, independently derived leaf flags, raw RDF parents, 3,083 directed references, 415 qualified records and their literal forms, and the 62 members of the sole referenced collection. Existing output was unchanged, and isolated mutations of each declared processing input were rejected before output creation.",
+      "evidence": [
+        "results/independent-check.json",
+        "probe-preexecution-freeze.json",
+        "results/probe-check.json",
+        "logs/existing-output-probe-01.json",
+        "logs/manifest-pin-probe-01.json",
+        "logs/csv-pin-probe-01.json",
+        "logs/ttl-pin-probe-01.json"
+      ]
+    },
+    {
+      "id": "source_verification",
+      "status": "PASS",
+      "decision": "The checker independently parsed the exact official tab-separated bytes as ISO-8859-1 and the exact suggested Turtle with RDFLib 7.1.4. Every emitted official field, source-order locator, RDF label, broader parent, subject scope note, selected direct reference, reification endpoint, qualifier lexical value/language/datatype, collection label, and member matched the source reconstruction. The eight raw hierarchy disagreements remain present; the 120 exact label differences are comparison flags, not findings that the source is wrong.",
+      "evidence": [
+        "scripts/check_msc_import.py",
+        "logs/exhaustive-check-02.json",
+        "logs/exhaustive-check-02.stdout.bin",
+        "logs/exhaustive-check-02.stderr.bin",
+        "results/independent-check.json"
+      ]
+    },
+    {
+      "id": "implementation_alignment",
+      "status": "PASS",
+      "decision": "The project importer and contract are byte-identical to the selected frozen files. The implementation pins the manifest, CSV, Turtle, RDFLib version, and repository revision; reads local files only; builds all data before creating a new output directory; rejects malformed conditional records and unknown targets; preserves source terms; and emits stable timestamp-free JSON. The portable raw directory intentionally contains only official.csv and suggestion4.ttl while the exact manifest retains provenance for omitted research snapshots, as the portability clarification and package notice disclose.",
+      "evidence": [
+        "results/independent-check.json",
+        "results/probe-check.json",
+        "preexecution-freeze-02.json",
+        "msc-import-work/portable-input-clarification.json",
+        "msc-import-work/hierarchy-level-clarification.json",
+        "project/experiments/msc-index/README.md",
+        "project/data/msc/NOTICE.md"
+      ]
+    }
+  ],
+  "verified_counts": {
+    "subjects": 6603,
+    "physical_csv_lines_including_header": 6604,
+    "hierarchy_levels": {
+      "1": 63,
+      "2": 1037,
+      "3": 5503
+    },
+    "leaf_true": 6006,
+    "leaf_false": 597,
+    "rdf_labels": 6620,
+    "rdf_broader_terms": 6548,
+    "rdf_scope_notes": 2271,
+    "hierarchy_disagreements": 8,
+    "exact_label_differences": 120,
+    "references": 3083,
+    "see_also": 2642,
+    "see_mainly": 26,
+    "see_conditionally": 415,
+    "conditional_reifications": 415,
+    "conditional_scope_terms": 415,
+    "xml_literal_scopes": 414,
+    "english_language_scopes": 1,
+    "referenced_collections": 1,
+    "collection_members": 62
+  },
+  "deterministic_output": [
+    {
+      "path": "subjects.json",
+      "bytes": 7900506,
+      "sha256": "32fb0eddc9f189e68b9fa312e8e29c399deee65d4d282d1e61235be33a22400e"
+    },
+    {
+      "path": "references.json",
+      "bytes": 1366532,
+      "sha256": "75ecd4b71056274ad342c72a5324770e2257e0ff3a88662dfe457c9127b4bc35"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 802,
+      "sha256": "7816ecdc34c3fe3981bef3f18a6ff0effe16e12aca5dc95460f8604dee7715ed"
+    }
+  ],
+  "source_locators": [
+    {
+      "source_id": "msc2020-official-csv",
+      "url": "https://msc2020.org/MSC_2020.csv",
+      "sha256": "f7c889354c202551fe01f89bad2ae95ccadec4c57ac1f6f9de38bbd658d3c78c",
+      "local_locator": "project/experiments/msc-index/inputs/raw/official.csv"
+    },
+    {
+      "source_id": "msc2020-skos-suggestion4",
+      "url": "https://raw.githubusercontent.com/TIBHannover/MSC2020_SKOS/33972ddb6a72c3660a6e499ee5f881b57fa92d41/msc-2020-suggestion4.ttl",
+      "revision": "33972ddb6a72c3660a6e499ee5f881b57fa92d41",
+      "sha256": "ee4afa1f198ffd0f5ea807377e46420c5fd7537991928c67c759fa44640421e9",
+      "local_locator": "project/experiments/msc-index/inputs/raw/suggestion4.ttl"
+    },
+    {
+      "source_id": "msc-source-manifest",
+      "sha256": "90602331e367f13fb21b0bc1d535f45326b6adf67165a369a681b6738f468f70",
+      "local_locator": "project/experiments/msc-index/inputs/source-manifest.json"
+    }
+  ],
+  "attribution_and_status": {
+    "license_text_sha256": "1349a4b6148492b44f629e64eed676612e234fe9a839e4f3b277c1482c8849f1",
+    "license_text_byte_equal_to_pinned_upstream_copy": true,
+    "data_terms": "CC-BY-NC-SA-4.0",
+    "adapter_code_terms_separate": true,
+    "subject_status": "upstream_subject_classification",
+    "reference_status": "upstream_classification_reference",
+    "rdf_status": "upstream_suggested_serialization"
+  },
+  "retained_failure": {
+    "attempt": "exhaustive-check-01",
+    "classification": "auditor_harness_failure",
+    "effect": "The first checker reached source reconstruction but failed while calling len() on the integer summary count for a diagnostic. No target file changed. The attempt, stderr, correction record, and second freeze are retained; corrected attempt 02 passed.",
+    "evidence": [
+      "logs/exhaustive-check-01.json",
+      "logs/exhaustive-check-01.stderr.bin",
+      "checker-correction-01.json",
+      "preexecution-freeze-02.json"
+    ]
+  },
+  "limitations": [
+    "This approval covers the frozen data adapter and exact copied data only; the changing browser API and UI require their own review.",
+    "The records are a subject-classification navigation index. They do not prove mathematical equivalence, implication, completeness, learner level, open-problem status, research impact, or novelty.",
+    "The single collection target remains a collection with 62 exact members; it is neither unresolved nor flattened into inferred subject links.",
+    "The source Turtle's invalid xsd:date lexical value 2021-03-xx produces the retained RDFLib warning. The importer does not consume that metadata field, and deterministic outputs still match.",
+    "The five source-manifest research snapshots omitted from the portable package are provenance inputs to the separate source review, not conversion inputs. Their absence is explicitly disclosed and is not evidence that their source claims were reverified by this adapter replay.",
+    "No performance, global coverage, or novelty claim was evaluated."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "argv": [
+    "node",
+    "scripts/check-subjects.ts",
+    "--http-origin",
+    "http://localhost:3000",
+    "--output",
+    "D:/CodexWorkspaces/mathematics-atlas/msc-product-work/checks-01.json"
+  ],
+  "attempt_id": "msc-product-checks-01",
+  "ended_at_utc": "2026-09-08T09:28:23.275555+00:00",
+  "returncode": 0,
+  "schema_version": "logged-command-attempt-v1",
+  "selected_environment": {
+    "PYTHONDONTWRITEBYTECODE": null,
+    "UV_CACHE_DIR": "D:/CodexWorkspaces/mathematics-atlas/uv-cache",
+    "UV_PROJECT_ENVIRONMENT": null
+  },
+  "started_at_utc": "2026-09-08T09:28:21.950410+00:00",
+  "stderr": {
+    "bytes": 0,
+    "path": "attempt-msc-product-checks-01.stderr.bin",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 3186,
+    "path": "attempt-msc-product-checks-01.stdout.bin",
+    "sha256": "6ca4d8b87725036681d5004668f0eb51569c284e6eb495acb2a33bc825d9c28e"
+  },
+  "termination": null,
+  "timed_out": false,
+  "timeout_seconds": 300,
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\project"
+}

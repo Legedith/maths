@@ -1,0 +1,32 @@
+{
+  "argv": [
+    "cmd.exe",
+    "/d",
+    "/c",
+    "npm run build"
+  ],
+  "attempt_id": "msc-production-build-01",
+  "ended_at_utc": "2026-09-08T09:29:28.133499+00:00",
+  "returncode": 0,
+  "schema_version": "logged-command-attempt-v1",
+  "selected_environment": {
+    "PYTHONDONTWRITEBYTECODE": null,
+    "UV_CACHE_DIR": "D:/CodexWorkspaces/mathematics-atlas/uv-cache",
+    "UV_PROJECT_ENVIRONMENT": null
+  },
+  "started_at_utc": "2026-09-08T09:29:16.565773+00:00",
+  "stderr": {
+    "bytes": 153,
+    "path": "attempt-msc-production-build-01.stderr.bin",
+    "sha256": "729d8972b51de5e2457a45b53681f0065959be096264bf3ccc0a93db9432920d"
+  },
+  "stdout": {
+    "bytes": 1466,
+    "path": "attempt-msc-production-build-01.stdout.bin",
+    "sha256": "6e56d72f16f4bfd25de4ca56050337062e5bde614bd3137fb4f4177c96e23561"
+  },
+  "termination": null,
+  "timed_out": false,
+  "timeout_seconds": 600,
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\project"
+}

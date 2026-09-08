@@ -1,0 +1,139 @@
+{
+  "schema_version": "independent-msc-docs-ci-review-v1",
+  "auditor": "/root/sol_atlas_audit",
+  "status": "pass",
+  "scope": "Frozen subject-browser counts, boundary wording, documented commands and CI command/flag alignment; workflow was inspected, not executed on GitHub.",
+  "freeze": {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\preexecution-freeze-03.json",
+    "sha256": "e6b099e05f093250af9b89aa94fe2bdfb67c1506767d2a937ab7c61ecc4d0e0b"
+  },
+  "reviewed_files": [
+    {
+      "path": "README.md",
+      "sha256": "df6fde12fa563588fb3c8b0e967084a195319bbfab46191bbf0721569825f149"
+    },
+    {
+      "path": "docs/coverage.md",
+      "sha256": "92358d4e3d47e2035207132c1a1044f113bae32a5366a78bec51574f44051361"
+    },
+    {
+      "path": "docs/reuse-decision.md",
+      "sha256": "74d5e1613f4cf83b2215ddbb5ce1c09f0fa606c97343ab8b0208a4698409bb75"
+    },
+    {
+      "path": "docs/subject-browser.md",
+      "sha256": "c8f454011e9e9411a77d3340e05d49b53c7223ce2edb8d83110c7c534c1b18bb"
+    },
+    {
+      "path": ".github/workflows/verify.yml",
+      "sha256": "1bb07fc334a822ba8aeb36353aa6114c3441f7e06490cad2152670053220f3ab"
+    },
+    {
+      "path": ".github/workflows/reproduce-subject-classification.yml",
+      "sha256": "7a5d84a6da913dcf4994f7b6831ab536981062abee7c34b749be190428eb1875"
+    }
+  ],
+  "checks": [
+    {
+      "name": "frozen hash README.md",
+      "passed": true,
+      "note": "df6fde12fa563588fb3c8b0e967084a195319bbfab46191bbf0721569825f149"
+    },
+    {
+      "name": "frozen hash docs/coverage.md",
+      "passed": true,
+      "note": "92358d4e3d47e2035207132c1a1044f113bae32a5366a78bec51574f44051361"
+    },
+    {
+      "name": "frozen hash docs/reuse-decision.md",
+      "passed": true,
+      "note": "74d5e1613f4cf83b2215ddbb5ce1c09f0fa606c97343ab8b0208a4698409bb75"
+    },
+    {
+      "name": "frozen hash docs/subject-browser.md",
+      "passed": true,
+      "note": "c8f454011e9e9411a77d3340e05d49b53c7223ce2edb8d83110c7c534c1b18bb"
+    },
+    {
+      "name": "frozen hash .github/workflows/verify.yml",
+      "passed": true,
+      "note": "1bb07fc334a822ba8aeb36353aa6114c3441f7e06490cad2152670053220f3ab"
+    },
+    {
+      "name": "frozen hash .github/workflows/reproduce-subject-classification.yml",
+      "passed": true,
+      "note": "7a5d84a6da913dcf4994f7b6831ab536981062abee7c34b749be190428eb1875"
+    },
+    {
+      "name": "README states bounded classification counts",
+      "passed": true,
+      "note": "Subject and source-reference counts are labelled as classification records."
+    },
+    {
+      "name": "coverage keeps imported layers distinct",
+      "passed": true,
+      "note": "No proof or universal-coverage promotion."
+    },
+    {
+      "name": "reuse decision keeps subject navigation scoped",
+      "passed": true,
+      "note": "The MSC import is not promoted to a mathematical crosswalk."
+    },
+    {
+      "name": "subject guide gives exact count and condition scope",
+      "passed": true,
+      "note": "Condition-bearing and collection records remain explicit."
+    },
+    {
+      "name": "subject guide distinguishes detail and list payloads",
+      "passed": true,
+      "note": "Reviewer-requested precision correction is present."
+    },
+    {
+      "name": "subject guide disclaims proof and completeness",
+      "passed": true,
+      "note": "No formal-proof or coverage overclaim."
+    },
+    {
+      "name": "README reproduction includes product check",
+      "passed": true,
+      "note": "Documented project check exists."
+    },
+    {
+      "name": "main verification workflow includes product check",
+      "passed": true,
+      "note": "Existing verification job runs the catalogue checker."
+    },
+    {
+      "name": "reproduction workflow invokes frozen uv importer",
+      "passed": true,
+      "note": "Command uses the packaged uv project and retained inputs."
+    },
+    {
+      "name": "reproduction workflow compares all outputs",
+      "passed": true,
+      "note": "All three generated artifacts are byte-compared."
+    },
+    {
+      "name": "reproduction workflow runs navigation check",
+      "passed": true,
+      "note": "The product checker runs without requiring a live server."
+    },
+    {
+      "name": "workflow wrapper flag matches implementation",
+      "passed": true,
+      "note": "CI uses the wrapper's implemented flag."
+    },
+    {
+      "name": "workflow importer flags match implementation",
+      "passed": true,
+      "note": "CI uses implemented importer options."
+    },
+    {
+      "name": "workflow retains evidence on failure",
+      "passed": true,
+      "note": "The CI output directory is uploaded for passing and failing runs."
+    }
+  ],
+  "failed": 0
+}

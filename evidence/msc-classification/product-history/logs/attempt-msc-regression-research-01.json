@@ -1,0 +1,30 @@
+{
+  "argv": [
+    "node",
+    "scripts/check-research-search.ts"
+  ],
+  "attempt_id": "msc-regression-research-01",
+  "ended_at_utc": "2026-09-08T09:47:41.589091+00:00",
+  "returncode": 0,
+  "schema_version": "logged-command-attempt-v1",
+  "selected_environment": {
+    "PYTHONDONTWRITEBYTECODE": null,
+    "UV_CACHE_DIR": "D:/CodexWorkspaces/mathematics-atlas/uv-cache",
+    "UV_PROJECT_ENVIRONMENT": null
+  },
+  "started_at_utc": "2026-09-08T09:47:41.483110+00:00",
+  "stderr": {
+    "bytes": 0,
+    "path": "attempt-msc-regression-research-01.stderr.bin",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 483,
+    "path": "attempt-msc-regression-research-01.stdout.bin",
+    "sha256": "706b3dd79cdf12c9e75badbce322b44c3bc36d7a1ca2ee79fc75a6a783a6fddc"
+  },
+  "termination": null,
+  "timed_out": false,
+  "timeout_seconds": 300,
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\project"
+}

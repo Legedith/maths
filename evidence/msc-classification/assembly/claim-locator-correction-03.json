@@ -1,0 +1,296 @@
+{
+  "schema_version": "msc-additive-claim-locators-v1",
+  "producer": "root",
+  "prior_bundle_sha256": "ebf6ccdebf606a1890964ed32253a706a3573312e4377dfdd2a1aaf35633f52f",
+  "candidate_bundle_sha256": "f57ccfddf20064d1df481e289925f09b66657ce604f1047d8dce8ba9ba8d9e49",
+  "change": "Added exact locators for clauses identified by independent promotion review. Claim statements, original supports, all 265 artifact records and bytes, and all four check decisions remain unchanged.",
+  "additions": {
+    "C001": [
+      {
+        "artifact_id": "A159",
+        "locator": "json:/sources/2/url",
+        "expected": "https://raw.githubusercontent.com/TIBHannover/MSC2020_SKOS/33972ddb6a72c3660a6e499ee5f881b57fa92d41/msc-2020-suggestion4.ttl"
+      },
+      {
+        "artifact_id": "A012",
+        "locator": "contains:Changes: conversion to JSON navigation records; parent derivation from classification-code structure"
+      },
+      {
+        "artifact_id": "A001",
+        "locator": "contains:The generated files must remain byte-identical to the independently reviewed adapter outputs. The official CSV supplies display labels and descriptions; raw suggested-RDF labels/parents and discrepancy flags remain inspectable."
+      }
+    ],
+    "C003": [
+      {
+        "artifact_id": "A050",
+        "locator": "json:/checks/2/decision",
+        "expected": "The checker independently parsed the exact official tab-separated bytes as ISO-8859-1 and the exact suggested Turtle with RDFLib 7.1.4. Every emitted official field, source-order locator, RDF label, broader parent, subject scope note, selected direct reference, reification endpoint, qualifier lexical value/language/datatype, collection label, and member matched the source reconstruction. The eight raw hierarchy disagreements remain present; the 120 exact label differences are comparison flags, not findings that the source is wrong."
+      }
+    ],
+    "C005": [
+      {
+        "artifact_id": "A092",
+        "locator": "json:/checks",
+        "expected": [
+          {
+            "name": "catalogue totals",
+            "passed": true
+          },
+          {
+            "name": "all catalogue pages retain every source record in order",
+            "passed": true
+          },
+          {
+            "name": "all parent pages retain every subject exactly once",
+            "passed": true
+          },
+          {
+            "name": "every detail retains its subject and exact hierarchy depth",
+            "passed": true
+          },
+          {
+            "name": "code search 68Q25",
+            "passed": true
+          },
+          {
+            "name": "code search ６８Ｑ２５",
+            "passed": true
+          },
+          {
+            "name": "all three conditional references retain scopes",
+            "passed": true
+          },
+          {
+            "name": "collection target stays a 62-member collection",
+            "passed": true
+          },
+          {
+            "name": "dual-parent source record is preserved",
+            "passed": true
+          },
+          {
+            "name": "label differences stay marked",
+            "passed": true
+          },
+          {
+            "name": "invalid search 1",
+            "passed": true
+          },
+          {
+            "name": "invalid search 2",
+            "passed": true
+          },
+          {
+            "name": "invalid search 3",
+            "passed": true
+          },
+          {
+            "name": "invalid search 4",
+            "passed": true
+          },
+          {
+            "name": "invalid search 5",
+            "passed": true
+          },
+          {
+            "name": "invalid search 6",
+            "passed": true
+          },
+          {
+            "name": "invalid search 7",
+            "passed": true
+          },
+          {
+            "name": "invalid search 8",
+            "passed": true
+          },
+          {
+            "name": "invalid search 9",
+            "passed": true
+          },
+          {
+            "name": "invalid search 10",
+            "passed": true
+          },
+          {
+            "name": "invalid search 11",
+            "passed": true
+          },
+          {
+            "name": "invalid search 12",
+            "passed": true
+          },
+          {
+            "name": "invalid search 13",
+            "passed": true
+          },
+          {
+            "name": "invalid detail 1",
+            "passed": true
+          },
+          {
+            "name": "invalid detail 2",
+            "passed": true
+          },
+          {
+            "name": "invalid detail 3",
+            "passed": true
+          },
+          {
+            "name": "invalid detail 4",
+            "passed": true
+          },
+          {
+            "name": "invalid detail 5",
+            "passed": true
+          },
+          {
+            "name": "empty result page is explicit",
+            "passed": true
+          },
+          {
+            "name": "HTTP exact response /api/subjects",
+            "passed": true
+          },
+          {
+            "name": "HTTP exact response /api/subjects?q=68Q25",
+            "passed": true
+          },
+          {
+            "name": "HTTP exact response /api/subjects?parent=68-XX&page=2",
+            "passed": true
+          },
+          {
+            "name": "HTTP exact response /api/subjects?code=03B45",
+            "passed": true
+          },
+          {
+            "name": "HTTP exact response /api/subjects?code=00A15",
+            "passed": true
+          },
+          {
+            "name": "HTTP exact response /api/subjects?code=32-00",
+            "passed": true
+          },
+          {
+            "name": "HTTP exact response /api/subjects?code=01A16",
+            "passed": true
+          },
+          {
+            "name": "HTTP exact response /api/subjects?code=68Q25",
+            "passed": true
+          },
+          {
+            "name": "HTTP rejected code=99-XX",
+            "passed": true
+          },
+          {
+            "name": "HTTP rejected code=68-XX&q=x",
+            "passed": true
+          },
+          {
+            "name": "HTTP rejected q=x&q=y",
+            "passed": true
+          },
+          {
+            "name": "HTTP rejected code=68-XX&code=03B45",
+            "passed": true
+          },
+          {
+            "name": "HTTP rejected page=0",
+            "passed": true
+          },
+          {
+            "name": "HTTP rejected page=01",
+            "passed": true
+          },
+          {
+            "name": "HTTP rejected page=1.5",
+            "passed": true
+          },
+          {
+            "name": "HTTP rejected page=1000001",
+            "passed": true
+          },
+          {
+            "name": "HTTP rejected parent=99-XX",
+            "passed": true
+          },
+          {
+            "name": "HTTP rejected unknown=x",
+            "passed": true
+          },
+          {
+            "name": "HTTP rejected oversized query",
+            "passed": true
+          },
+          {
+            "name": "server route /subjects",
+            "passed": true
+          },
+          {
+            "name": "server route /subjects/68-XX",
+            "passed": true
+          },
+          {
+            "name": "server route /subjects/03B45",
+            "passed": true
+          },
+          {
+            "name": "server route /subjects/00A15",
+            "passed": true
+          },
+          {
+            "name": "server route /subjects/32-00",
+            "passed": true
+          },
+          {
+            "name": "server route /subjects/01A16",
+            "passed": true
+          },
+          {
+            "name": "server route /subjects/99-XX",
+            "passed": true
+          }
+        ]
+      },
+      {
+        "artifact_id": "A092",
+        "locator": "json:/limitation",
+        "expected": "Functional source/navigation/API checks; no semantic-equivalence or visual-browser evaluation."
+      }
+    ],
+    "C007": [
+      {
+        "artifact_id": "A164",
+        "locator": "contains:value.normalize('NFKC').toLowerCase()"
+      },
+      {
+        "artifact_id": "A164",
+        "locator": "contains:const decorate = (relation: SubjectReference) => ({ ...relation, from: endpoint(relation.from_uri), to: endpoint(relation.to_uri) });"
+      },
+      {
+        "artifact_id": "A170",
+        "locator": "json:/checks/2/decision",
+        "expected": "This product gate starts from the exact three adapter outputs independently approved by the separate source/import audit. Against those bytes, seven selected API details matched independently reconstructed source records exactly, including original descriptions and locators, all relation source IDs and RDF predicate/endpoints, conditional qualifier URIs and literal metadata, the 62-member collection target, hierarchy and label disagreements, an empty leaf, TeX-looking text and the 62-incident maximum case. This reviewer did not repeat the raw CSV/Turtle import audit."
+      },
+      {
+        "artifact_id": "A170",
+        "locator": "json:/limitations/4",
+        "expected": "No classification record or lexical result is certified as a proof, semantic equivalence, prerequisite, exhaustive account of mathematics, novelty result or open-problem determination."
+      }
+    ],
+    "C009": [
+      {
+        "artifact_id": "A170",
+        "locator": "json:/checks/0/decision",
+        "expected": "The corrected independent run issued 971 localhost requests and passed every check. All 276 paginated all-subject pages returned the 6,603 source-ordered records exactly once. All 598 populated root/immediate-child scopes partitioned the same 6,603 records, and five complete search traversals matched the independent Unicode-NFKC, lowercase, punctuation-normalized AND-term oracle. The retained author rerun also reports 55/55 checks passing; the retained production build returned zero."
+      },
+      {
+        "artifact_id": "A170",
+        "locator": "json:/limitations/3",
+        "expected": "No browser DOM, screenshot, responsive-layout, assistive-technology or general visual evaluation was performed or claimed."
+      }
+    ]
+  }
+}

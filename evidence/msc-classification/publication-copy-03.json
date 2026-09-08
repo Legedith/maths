@@ -1,0 +1,261 @@
+{
+  "schema_version": "msc-final-additive-promotion-v1",
+  "producer": "root",
+  "independently_reviewed_candidate_sha256": "f57ccfddf20064d1df481e289925f09b66657ce604f1047d8dce8ba9ba8d9e49",
+  "review_manifest_sha256": "eab4bb969fabf3f15bb0e1097d06451ea9627efa2efd44fe032e2dabf0921a9a",
+  "change": "Append exact sealed independent promotion artifacts and retained assembly correction/check history. All prior artifact records, nine claims and supports, four check records and limitations remain unchanged.",
+  "files": [
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\.python-version",
+      "path": "evidence/msc-classification/promotion-review/.python-version",
+      "bytes": 8,
+      "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\pyproject.toml",
+      "path": "evidence/msc-classification/promotion-review/pyproject.toml",
+      "bytes": 132,
+      "sha256": "1683b093ecf92362361a9481695b7b418bf91e8d4987090af62d612ce6428e93",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\uv.lock",
+      "path": "evidence/msc-classification/promotion-review/uv.lock",
+      "bytes": 143,
+      "sha256": "d034c414c6aa70b2bf175be975536b0f00a153de0a9dccbd5904face3eb33c79",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\claims-provenance-review.json",
+      "path": "evidence/msc-classification/promotion-review/claims-provenance-review.json",
+      "bytes": 12212,
+      "sha256": "63bdb0f202e8321b83ab9a7b168eaac39aa8d19791015bf51b27f18fe35433d0",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\candidate-03-mechanical-check.json",
+      "path": "evidence/msc-classification/promotion-review/candidate-03-mechanical-check.json",
+      "bytes": 159245,
+      "sha256": "a611c2cd44095d99d5451aed2d33b83bc130f12dd96e7a30fd0fe68d62bc35bb",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\copy-validation-final.json",
+      "path": "evidence/msc-classification/promotion-review/copy-validation-final.json",
+      "bytes": 116615,
+      "sha256": "7aaacccdf2619f56e91cfb5f05df4aa0a2fca6b764f047c6cbfcd0886fdeafa9",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\candidate-delta-02-to-03.json",
+      "path": "evidence/msc-classification/promotion-review/candidate-delta-02-to-03.json",
+      "bytes": 3412,
+      "sha256": "a042841988574618e39f88aebbadc173dec5dc0738be2cc229353ed734eeb85f",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\checker-correction-01.json",
+      "path": "evidence/msc-classification/promotion-review/checker-correction-01.json",
+      "bytes": 646,
+      "sha256": "21ba76315404c289e5629fef1b965a4a996dfcab7974df9bf00c563d49546b8f",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\review_bundle.py",
+      "path": "evidence/msc-classification/promotion-review/review_bundle.py",
+      "bytes": 6965,
+      "sha256": "66a32d8e5f6778889b6a5d2ac7b736fba18f43f4888391143687001761683726",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\validate_copies.py",
+      "path": "evidence/msc-classification/promotion-review/validate_copies.py",
+      "bytes": 10890,
+      "sha256": "9653ff323c917476637d9645c16ccfc2364c60e2c88cbf54801bdb8bc4cdb7f5",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\compare_candidates.py",
+      "path": "evidence/msc-classification/promotion-review/compare_candidates.py",
+      "bytes": 3275,
+      "sha256": "7db022285d6c77d9c566b3ffa81c9d69589186e44394d71dd1e6afc4f6f94ac2",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\run_logged.py",
+      "path": "evidence/msc-classification/promotion-review/run_logged.py",
+      "bytes": 2565,
+      "sha256": "1ee9b49bd1109d2fe6851673d92b72e0e8ff7b0445ee5d29fee791cc713493ed",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\make_publication_manifest.py",
+      "path": "evidence/msc-classification/promotion-review/make_publication_manifest.py",
+      "bytes": 4735,
+      "sha256": "789f2751383d44e609b4da6efa2143fa97fba6e7669916d2ce8be759bf1bac3a",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\logs\\candidate-03-mechanical-01.json",
+      "path": "evidence/msc-classification/promotion-review/logs/candidate-03-mechanical-01.json",
+      "bytes": 1443,
+      "sha256": "c7b317946892a2b0a39a97c98e7f72cb728cc31f9f1488eee4a049429d900317",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\logs\\candidate-03-mechanical-01.stdout.bin",
+      "path": "evidence/msc-classification/promotion-review/logs/candidate-03-mechanical-01.stdout.bin",
+      "bytes": 794,
+      "sha256": "c9bf3d62b08e0a32d2bcb2fdd8cfe51bc1075585b67894c9ab45dd2d53993c59",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\logs\\candidate-03-mechanical-01.stderr.bin",
+      "path": "evidence/msc-classification/promotion-review/logs/candidate-03-mechanical-01.stderr.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\logs\\copy-validation-04.json",
+      "path": "evidence/msc-classification/promotion-review/logs/copy-validation-04.json",
+      "bytes": 1362,
+      "sha256": "b3f3d8094394d636e9db1477f87564651621aa34a4def74073fb0b845e0c9e34",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\logs\\copy-validation-04.stdout.bin",
+      "path": "evidence/msc-classification/promotion-review/logs/copy-validation-04.stdout.bin",
+      "bytes": 1589,
+      "sha256": "6b8877193e74a976116718a88c2ddc960c850c2232d004d2dcb654082248a53f",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\logs\\copy-validation-04.stderr.bin",
+      "path": "evidence/msc-classification/promotion-review/logs/copy-validation-04.stderr.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\logs\\candidate-delta-01.json",
+      "path": "evidence/msc-classification/promotion-review/logs/candidate-delta-01.json",
+      "bytes": 1454,
+      "sha256": "d995aefca739f8cc07538c52b75bd42767093768b7bf6750b23ddff196d03894",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\logs\\candidate-delta-01.stdout.bin",
+      "path": "evidence/msc-classification/promotion-review/logs/candidate-delta-01.stdout.bin",
+      "bytes": 284,
+      "sha256": "dca04bd3965e577a9f74327558dcae5ba71976032fe3e6382224686c02ed699f",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\logs\\candidate-delta-01.stderr.bin",
+      "path": "evidence/msc-classification/promotion-review/logs/candidate-delta-01.stderr.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\copy-validation.json",
+      "path": "evidence/msc-classification/promotion-review/copy-validation.json",
+      "bytes": 108680,
+      "sha256": "309f57b32978ed5f5d482f9ddad912550fb18decae5f896e0d07ce102ea96b88",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\logs\\copy-validation-01.json",
+      "path": "evidence/msc-classification/promotion-review/logs/copy-validation-01.json",
+      "bytes": 1356,
+      "sha256": "12ccf487fdb385374b7c1e9fdff9691adf8f54778da1e2963ea765c441dd4e00",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\logs\\copy-validation-01.stdout.bin",
+      "path": "evidence/msc-classification/promotion-review/logs/copy-validation-01.stdout.bin",
+      "bytes": 957,
+      "sha256": "72fc21bc13cecc0a828b1784d4cbb5f0e1e8bd77fcca1efbf2d9a982c7bae47d",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\logs\\copy-validation-01.stderr.bin",
+      "path": "evidence/msc-classification/promotion-review/logs/copy-validation-01.stderr.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\publication-manifest.json",
+      "path": "evidence/msc-classification/promotion-review/publication-manifest.json",
+      "bytes": 8858,
+      "sha256": "eab4bb969fabf3f15bb0e1097d06451ea9627efa2efd44fe032e2dabf0921a9a",
+      "producer": "/root/sol_symmetry_worker"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\add_claim_locators.py",
+      "path": "evidence/msc-classification/assembly/add_claim_locators.py",
+      "bytes": 4373,
+      "sha256": "902c53e91efc14562514c851bf8d9e04499d387bbb3e191945856b2d4201d243",
+      "producer": "root"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\claim-locator-correction-03.json",
+      "path": "evidence/msc-classification/assembly/claim-locator-correction-03.json",
+      "bytes": 10146,
+      "sha256": "4f589b9cbe88b75bbe689f31ba2a8eed5f139959cfd4ba7ad1e8a860e0cd0bc1",
+      "producer": "root"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\append_promotion_review.py",
+      "path": "evidence/msc-classification/assembly/append_promotion_review.py",
+      "bytes": 4169,
+      "sha256": "106c7a1d404c1f59fd2ac97cd0bf1af571bd638b42fbc8b508ed44985d9fe8ea",
+      "producer": "root"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\gate-logs\\attempt-msc-gate-02.json",
+      "path": "evidence/msc-classification/assembly/attempt-msc-gate-02.json",
+      "bytes": 1048,
+      "sha256": "0e8afe3bb600ffa1cc2f76dac54f4b6a72e9dc4fecdca61138d2878fd14f1566",
+      "producer": "root"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\gate-logs\\attempt-msc-gate-02.stdout.bin",
+      "path": "evidence/msc-classification/assembly/attempt-msc-gate-02.stdout.bin",
+      "bytes": 314,
+      "sha256": "be3a847fac2ce00aac4b3a03258eff8cf6ad53292342a61e3fd536e4483d6e70",
+      "producer": "root"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\gate-logs\\attempt-msc-gate-02.stderr.bin",
+      "path": "evidence/msc-classification/assembly/attempt-msc-gate-02.stderr.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "root"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\gate-logs\\attempt-msc-gate-03.json",
+      "path": "evidence/msc-classification/assembly/attempt-msc-gate-03.json",
+      "bytes": 1207,
+      "sha256": "e08f121eefaff09d6446489d58f529aa16a9b41281185bca0dede38270579081",
+      "producer": "root"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\gate-logs\\attempt-msc-gate-03.stdout.bin",
+      "path": "evidence/msc-classification/assembly/attempt-msc-gate-03.stdout.bin",
+      "bytes": 314,
+      "sha256": "be3a847fac2ce00aac4b3a03258eff8cf6ad53292342a61e3fd536e4483d6e70",
+      "producer": "root"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\gate-logs\\attempt-msc-gate-03.stderr.bin",
+      "path": "evidence/msc-classification/assembly/attempt-msc-gate-03.stderr.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "root"
+    }
+  ]
+}

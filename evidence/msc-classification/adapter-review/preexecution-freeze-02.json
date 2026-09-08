@@ -1,0 +1,13 @@
+{
+    "schema_version":  "msc-import-independent-preexecution-freeze-v2",
+    "auditor":  "/root/sol_symmetry_audit",
+    "frozen_at_utc":  "2026-09-08T09:36:54.7875793Z",
+    "retained_failed_freeze_sha256":  "bd3aa259cb71dd8dd4857f9ce5597ee66a30d39b249e21b2a5b715a886fc1bc4",
+    "correction_record_sha256":  "c7fc427aed7555e3f876156615abbd778934ae4f9685f786188f21c26e77bdc6",
+    "wrapper_sha256":  "8638ae3652333bc043116b9a5afe540e4af664e9d7e324f34c5f46b1f67c7e5d",
+    "checker_sha256":  "86da13adfba768632cf530783ee0d9245ad1fc2d979432540a9fc0ef574f5e0f",
+    "target_importer_sha256":  "ae950530f861a55ae894c27f02a759c68207eff18aba8a9dcfa5bf3b326fba12",
+    "target_result_manifest_sha256":  "a3ad7a74a90e516a17173604adc87262c524ecc3d5ad000d611d90218a245f3e",
+    "canonical_replay_attempt":  "canonical-replay-01",
+    "next_attempt":  "exhaustive-check-02"
+}

@@ -1,0 +1,3 @@
+scripts/check-subjects.ts(68,13): error TS7022: 'response' implicitly has type 'any' because it does not have a type annotation and is referenced directly or indirectly in its own initializer.
+scripts/check-subjects.ts(73,13): error TS7022: 'response' implicitly has type 'any' because it does not have a type annotation and is referenced directly or indirectly in its own initializer.
+scripts/check-subjects.ts(78,13): error TS7022: 'response' implicitly has type 'any' because it does not have a type annotation and is referenced directly or indirectly in its own initializer.

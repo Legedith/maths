@@ -1,0 +1,31 @@
+{
+  "schema_version": "logged-command-v1",
+  "started_at_utc": "2026-09-08T10:31:33.361594+00:00",
+  "ended_at_utc": "2026-09-08T10:31:33.626032+00:00",
+  "elapsed_seconds": 0.268915,
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work",
+  "command": [
+    "D:/CodexWorkspaces/mathematics-atlas/msc-promotion-review-work/.venv/Scripts/python.exe",
+    "D:/CodexWorkspaces/mathematics-atlas/msc-promotion-review-work/review_bundle.py",
+    "--draft",
+    "D:/CodexWorkspaces/mathematics-atlas/project/.codex/evidence/runs/msc-classification-v1/bundle.json",
+    "--project",
+    "D:/CodexWorkspaces/mathematics-atlas/project",
+    "--output",
+    "D:/CodexWorkspaces/mathematics-atlas/msc-promotion-review-work/candidate-03-mechanical-check.json"
+  ],
+  "timeout_seconds": 300.0,
+  "timed_out": false,
+  "returncode": 0,
+  "python": "3.12.11 (main, Sep 18 2025, 19:45:51) [MSC v.1944 64 bit (AMD64)]",
+  "stdout": {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\logs\\candidate-03-mechanical-01.stdout.bin",
+    "bytes": 794,
+    "sha256": "c9bf3d62b08e0a32d2bcb2fdd8cfe51bc1075585b67894c9ab45dd2d53993c59"
+  },
+  "stderr": {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\logs\\candidate-03-mechanical-01.stderr.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

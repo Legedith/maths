@@ -1,10 +1,12 @@
 # Coverage and expansion
 
-The finite seed region covers Laplacians and networks. Its established bridges reach probability, physics, computer science and a limited chemical graph-theory context. It is not a universal mathematical ontology. Mathematics Subject Classification, formal-library dependencies, encyclopedias and literature indexes are possible future source systems; none is currently imported or counted as covered.
+The reviewed region covers Laplacians and networks, with 33 concepts and 44 directed relations. Its established bridges reach probability, physics, computer science and a limited chemical graph-theory context. This is a finite region of mathematical content.
+
+Broader navigation reuses existing work. The MathGloss library imports 4,814 concept records and 7,217 resource links, with 5,390 separately represented external relations. The MSC2020 subject browser imports 6,603 classification records, their hierarchy and 3,083 source cross-references. Neither import automatically establishes a mathematical identity, a prerequisite or a proved theorem. The live Loogle and TheoremSearch integrations retrieve external statements; a search result does not demonstrate applicability or novelty. These layers are not summed into a universal coverage percentage.
 
 Next work must extend both content and verification capacity:
 
-1. Complete the independently audited batch symmetry optimization and publish its exact proof, limits and measured workload results.
+1. Use the independently audited symmetry cache and Kemeny minimum study as existing verification infrastructure. Their finite results and novelty limits are documented in the repository; further discovery requires a distinct mathematical contribution.
 2. Add weighted exact computation, including conductance conventions and weighted spanning-tree measures. Preserve an independent oracle.
 3. Explore binary energy minimization, submodularity and min-cut as a second region, with exact transfer conditions and non-submodular counterexamples.
 4. Explore optimization duality and transport to connect mathematical algorithms to economics, distinguishing equivalent formulations from analogies.

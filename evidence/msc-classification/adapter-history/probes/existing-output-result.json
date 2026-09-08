@@ -1,0 +1,8 @@
+﻿{
+    "expected_nonzero":  true,
+    "actual_exit_code":  1,
+    "sentinel_before_sha256":  "fe7879d9782ed6fcd68ab2b9c0ea507b6dd36649cafb625617ea5b690dc46faf",
+    "sentinel_after_sha256":  "fe7879d9782ed6fcd68ab2b9c0ea507b6dd36649cafb625617ea5b690dc46faf",
+    "sentinel_unchanged":  true,
+    "file_count":  1
+}

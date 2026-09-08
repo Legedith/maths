@@ -1,0 +1,19 @@
+{
+  "schema_version": "msc-replay-comparison-v1",
+  "compared_at_utc": "2026-09-08T09:18:39.566705+00:00",
+  "source_output": {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-work\\inspection-03.json",
+    "bytes": 1740826,
+    "sha256": "b563fdfcd37f813ad9c6dc598e2464a39511f84a13d4e797598b051b945f8a46"
+  },
+  "independent_replay_output": {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-review-work\\raw\\replay-01\\inspection.json",
+    "bytes": 1740826,
+    "sha256": "b563fdfcd37f813ad9c6dc598e2464a39511f84a13d4e797598b051b945f8a46"
+  },
+  "byte_identical": true,
+  "json_semantically_equal": true,
+  "expected_hash": "b563fdfcd37f813ad9c6dc598e2464a39511f84a13d4e797598b051b945f8a46",
+  "matches_expected_hash": true,
+  "stderr_note": "Both successful inspections retain the RDFLib warning caused by the source lexical placeholder 2021-03-xx typed as xsd:date. Traceback function addresses differ between processes and are not deterministic output fields."
+}

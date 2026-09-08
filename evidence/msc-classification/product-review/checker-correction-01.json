@@ -1,0 +1,19 @@
+{
+  "schema_version": "independent-msc-product-checker-correction-v1",
+  "auditor": "/root/sol_atlas_audit",
+  "classification": "auditor_checker_false_negative",
+  "prior_run": {
+    "result_path": "results/audit-01.json",
+    "result_sha256": "0662a0a73be2f9134845468d4a28cf9e6093dda0f74977c948dccb5f1196c582",
+    "command_record_path": "logs/msc-independent-audit-01.json",
+    "command_record_sha256": "7ea2c7a3b87d941716a24d698688ab1be38553e2a6c4f62cb2051dadda7ff27a",
+    "stdout_sha256": "6961e90dc07311c5f6b729aa41f05874f0a4388e9f7fb3161d61424226930dad",
+    "checker_sha256": "379eccc35d866613f1e5faad2c7a121ad780e3c7be82015846e9a8afcd2a3a82"
+  },
+  "observed_failure": "The checker searched for one contiguous `6,603 subject categories` byte sequence. React emitted adjacent text nodes separated by the empty hydration marker `<!-- -->`.",
+  "product_assessment": "The HTTP body contains both exact visible text fragments and renders the intended phrase. This is not a product failure.",
+  "correction": "Remove only React's empty adjacent-text marker before HTTP-body text assertions and use the two contributor names actually displayed in the compact footer attribution.",
+  "new_checker_sha256": "7a7d66514fbe94918f66372847c4ce24d97481a3c9d38a05abe94f62f2011344",
+  "scope_change": false,
+  "prior_run_preserved": true
+}

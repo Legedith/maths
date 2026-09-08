@@ -1,0 +1,36 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--frozen",
+    "python",
+    "C:/Users/Legedith/.codex/skills/chain-of-evidence/scripts/evidence_gate.py",
+    "verify",
+    "--workspace",
+    "."
+  ],
+  "attempt_id": "msc-gate-02",
+  "ended_at_utc": "2026-09-08T10:19:10.515729+00:00",
+  "returncode": 0,
+  "schema_version": "logged-command-attempt-v1",
+  "selected_environment": {
+    "PYTHONDONTWRITEBYTECODE": null,
+    "UV_CACHE_DIR": "D:/CodexWorkspaces/mathematics-atlas/uv-cache",
+    "UV_PROJECT_ENVIRONMENT": null
+  },
+  "started_at_utc": "2026-09-08T10:19:10.081094+00:00",
+  "stderr": {
+    "bytes": 0,
+    "path": "attempt-msc-gate-02.stderr.bin",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 314,
+    "path": "attempt-msc-gate-02.stdout.bin",
+    "sha256": "be3a847fac2ce00aac4b3a03258eff8cf6ad53292342a61e3fd536e4483d6e70"
+  },
+  "termination": null,
+  "timed_out": false,
+  "timeout_seconds": 300,
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\project"
+}

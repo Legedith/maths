@@ -1,0 +1,112 @@
+{
+  "schema_version": "msc-promotion-candidate-delta-v1",
+  "prior": {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\bundle-final-candidate-02.json",
+    "sha256": "ebf6ccdebf606a1890964ed32253a706a3573312e4377dfdd2a1aaf35633f52f"
+  },
+  "candidate": {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\bundle-final-candidate-03.json",
+    "sha256": "f57ccfddf20064d1df481e289925f09b66657ce604f1047d8dce8ba9ba8d9e49"
+  },
+  "artifact_records_unchanged": true,
+  "artifact_count": 265,
+  "claim_id_set_unchanged": true,
+  "claim_rows": [
+    {
+      "id": "C001",
+      "type_unchanged": true,
+      "statement_unchanged": true,
+      "status_unchanged": true,
+      "prior_supports_preserved_as_prefix": true,
+      "prior_support_count": 2,
+      "candidate_support_count": 5,
+      "added_support_count": 3
+    },
+    {
+      "id": "C002",
+      "type_unchanged": true,
+      "statement_unchanged": true,
+      "status_unchanged": true,
+      "prior_supports_preserved_as_prefix": true,
+      "prior_support_count": 4,
+      "candidate_support_count": 4,
+      "added_support_count": 0
+    },
+    {
+      "id": "C003",
+      "type_unchanged": true,
+      "statement_unchanged": true,
+      "status_unchanged": true,
+      "prior_supports_preserved_as_prefix": true,
+      "prior_support_count": 3,
+      "candidate_support_count": 4,
+      "added_support_count": 1
+    },
+    {
+      "id": "C004",
+      "type_unchanged": true,
+      "statement_unchanged": true,
+      "status_unchanged": true,
+      "prior_supports_preserved_as_prefix": true,
+      "prior_support_count": 3,
+      "candidate_support_count": 3,
+      "added_support_count": 0
+    },
+    {
+      "id": "C005",
+      "type_unchanged": true,
+      "statement_unchanged": true,
+      "status_unchanged": true,
+      "prior_supports_preserved_as_prefix": true,
+      "prior_support_count": 2,
+      "candidate_support_count": 4,
+      "added_support_count": 2
+    },
+    {
+      "id": "C006",
+      "type_unchanged": true,
+      "statement_unchanged": true,
+      "status_unchanged": true,
+      "prior_supports_preserved_as_prefix": true,
+      "prior_support_count": 4,
+      "candidate_support_count": 4,
+      "added_support_count": 0
+    },
+    {
+      "id": "C007",
+      "type_unchanged": true,
+      "statement_unchanged": true,
+      "status_unchanged": true,
+      "prior_supports_preserved_as_prefix": true,
+      "prior_support_count": 4,
+      "candidate_support_count": 8,
+      "added_support_count": 4
+    },
+    {
+      "id": "C008",
+      "type_unchanged": true,
+      "statement_unchanged": true,
+      "status_unchanged": true,
+      "prior_supports_preserved_as_prefix": true,
+      "prior_support_count": 6,
+      "candidate_support_count": 6,
+      "added_support_count": 0
+    },
+    {
+      "id": "C009",
+      "type_unchanged": true,
+      "statement_unchanged": true,
+      "status_unchanged": true,
+      "prior_supports_preserved_as_prefix": true,
+      "prior_support_count": 2,
+      "candidate_support_count": 4,
+      "added_support_count": 2
+    }
+  ],
+  "all_claim_metadata_unchanged": true,
+  "all_prior_supports_preserved_as_prefix": true,
+  "total_added_supports": 12,
+  "checks_unchanged": true,
+  "limitations_unchanged": true,
+  "all_pass": true
+}

@@ -6,6 +6,8 @@ The first region connects **graph Laplacians, electrical networks, random walks,
 
 The broader **concept and resource library** reuses a pinned MathGloss export with 4,814 concept records and 7,217 resource links. Its source fidelity and navigation have [passed independent verification](docs/concept-library-verification.md); its proposed identities and resource mappings remain unreviewed. These records expand searchable vocabulary without being promoted to proved relationships in the curated map.
 
+The **subject browser** at `/subjects` reuses the pinned MSC2020 classification: 6,603 subject records in 63 top-level areas, with 3,083 retained source cross-references. Browse the hierarchy, search recorded labels and descriptions, and inspect reference conditions and source differences. These are classification records, not a count of known theorems or proved connections. See [source scope and reproduction](docs/subject-browser.md).
+
 ## What works
 
 - Search concepts and aliases; filter by field.
@@ -16,6 +18,7 @@ The broader **concept and resource library** reuses a pinned MathGloss export wi
 - Search the live Loogle Mathlib index by declaration-name substring, with returned formal statement types and documentation links. External results remain separate from reviewed Atlas entries.
 - Describe a mathematical problem and search the existing TheoremSearch index. Inspect generated summaries separately from extracted statements and save a source packet for review.
 - Browse `/library` by concept name or Wikidata QID, filter by resource, and follow each mapping to its original source record. See the [library's matching rules, import and limits](docs/concept-library.md).
+- Browse `/subjects` and `/subjects/[code]` for the MSC2020 hierarchy, original descriptions and qualified cross-references. `/api/subjects` provides paginated lists or a single subject detail.
 - Retrieve the corpus as JSON at `/api/atlas`. Six WebMCP tools expose the same curated search, navigation, path, experiment and external-library workflows to supporting agents.
 - Use `search_learning_resources` on the library page to operate the same visible resource search and pagination through WebMCP.
 
@@ -48,6 +51,7 @@ node scripts/check-atlas.ts
 node scripts/check-formal-search.ts
 node scripts/check-research-search.ts
 node scripts/check-concept-library.ts
+node scripts/check-subjects.ts
 npx tsc --noEmit
 npm run lint
 ```

@@ -1,0 +1,22 @@
+{
+  "schema_version": "msc-product-http-response-v1",
+  "request": {
+    "method": "GET",
+    "url": "http://localhost:3000/subjects?q=x&q=y"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+      "cache-control": "no-store, must-revalidate",
+      "content-type": "text/html; charset=utf-8",
+      "link": "</_next/static/_vinext_fonts/geist-8ac0455e797f/geist-98bbbccb.woff2>; rel=preload; as=font; type=font/woff2; crossorigin, </_next/static/_vinext_fonts/geist-mono-00e989178794/geist-mono-013b2f2f.woff2>; rel=preload; as=font; type=font/woff2; crossorigin",
+      "transfer-encoding": "chunked",
+      "date": "Tue, 08 Sep 2026 10:01:36 GMT",
+      "connection": "close"
+    },
+    "body_path": "page-duplicate_query.body.bin",
+    "body_bytes": 57381,
+    "body_sha256": "d905e98ba2e85ea953ba36fb6f6f03cdac423b4e84990c9382d1bbc04c5bf71b"
+  }
+}

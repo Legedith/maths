@@ -1,0 +1,144 @@
+{
+  "schema_version": "msc-independent-pre-replay-freeze-v1",
+  "frozen_at_utc": "2026-09-08T09:01:46.743918+00:00",
+  "inputs": [
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-work\\spec-v1.md",
+      "bytes": 2321,
+      "sha256": "0d4f0ceda221b6e9fe56716ca191267a55994e3facf19f20ae81c228941b8214",
+      "expected_sha256": "0d4f0ceda221b6e9fe56716ca191267a55994e3facf19f20ae81c228941b8214",
+      "matches_expected": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-work\\source-manifest.json",
+      "bytes": 5225,
+      "sha256": "90602331e367f13fb21b0bc1d535f45326b6adf67165a369a681b6738f468f70",
+      "expected_sha256": "90602331e367f13fb21b0bc1d535f45326b6adf67165a369a681b6738f468f70",
+      "matches_expected": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-work\\inspect_sources.py",
+      "bytes": 9254,
+      "sha256": "010fd76be27b231c1fc31183be97725121a01b9b4e95a82b1b597c9fea4fb5e5",
+      "expected_sha256": "010fd76be27b231c1fc31183be97725121a01b9b4e95a82b1b597c9fea4fb5e5",
+      "matches_expected": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-work\\inspection-03.json",
+      "bytes": 1740826,
+      "sha256": "b563fdfcd37f813ad9c6dc598e2464a39511f84a13d4e797598b051b945f8a46",
+      "expected_sha256": "b563fdfcd37f813ad9c6dc598e2464a39511f84a13d4e797598b051b945f8a46",
+      "matches_expected": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-work\\source-notes.json",
+      "bytes": 4532,
+      "sha256": "54563f2b357830daacf262c1fb40d5372fb09aee557afaf6bd230e62a0c840eb",
+      "expected_sha256": null,
+      "matches_expected": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-work\\encoding-correction.json",
+      "bytes": 1085,
+      "sha256": "c81009c13f88e9f86f00ff0e4ffbaca9b03f8308c056c2e779fd27f3a47227ab",
+      "expected_sha256": null,
+      "matches_expected": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-work\\reification-correction.json",
+      "bytes": 1118,
+      "sha256": "24370efcda745e8d85debfd419b44dbf7c2e158b2d8b9db84c053e32aa660ee7",
+      "expected_sha256": null,
+      "matches_expected": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-work\\pyproject.toml",
+      "bytes": 121,
+      "sha256": "e32f3a3dfcab81fb00fc1e149f7b807c047b51159a50d42efe609551dfc2ebd2",
+      "expected_sha256": null,
+      "matches_expected": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-work\\uv.lock",
+      "bytes": 1703,
+      "sha256": "9afc286067c54bf67e098e7fe85af1bd7223a179b7a1d18800df5ce5264c22db",
+      "expected_sha256": null,
+      "matches_expected": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-review-work\\run_logged_replay.py",
+      "bytes": 3901,
+      "sha256": "ab47002c450274266eab8c8564cc21175a4e6adcec83e4917576a5eeb8d7c8ce",
+      "expected_sha256": null,
+      "matches_expected": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-work\\raw\\official.csv",
+      "bytes": 797211,
+      "sha256": "f7c889354c202551fe01f89bad2ae95ccadec4c57ac1f6f9de38bbd658d3c78c",
+      "expected_sha256": "f7c889354c202551fe01f89bad2ae95ccadec4c57ac1f6f9de38bbd658d3c78c",
+      "matches_expected": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-work\\raw\\official-home.html",
+      "bytes": 28721,
+      "sha256": "a2e36ac47314e3be646d0ab589319d1164ad92174717f656e90c3b191b25a0ae",
+      "expected_sha256": "a2e36ac47314e3be646d0ab589319d1164ad92174717f656e90c3b191b25a0ae",
+      "matches_expected": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-work\\raw\\suggestion4.ttl",
+      "bytes": 5074747,
+      "sha256": "ee4afa1f198ffd0f5ea807377e46420c5fd7537991928c67c759fa44640421e9",
+      "expected_sha256": "ee4afa1f198ffd0f5ea807377e46420c5fd7537991928c67c759fa44640421e9",
+      "matches_expected": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-work\\raw\\vocabulary.ttl",
+      "bytes": 9131,
+      "sha256": "2ef6944bfaae5b4b16ace02dd7a9d364c140322e7d72335fb89f70c062dabafe",
+      "expected_sha256": "2ef6944bfaae5b4b16ace02dd7a9d364c140322e7d72335fb89f70c062dabafe",
+      "matches_expected": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-work\\raw\\upstream-license.md",
+      "bytes": 20849,
+      "sha256": "1349a4b6148492b44f629e64eed676612e234fe9a839e4f3b277c1482c8849f1",
+      "expected_sha256": "1349a4b6148492b44f629e64eed676612e234fe9a839e4f3b277c1482c8849f1",
+      "matches_expected": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-work\\raw\\upstream-readme.md",
+      "bytes": 355,
+      "sha256": "ec51a9b95ce5ed9427690e45986d1a58bdc86f3b8768736858c7629973b8b9fa",
+      "expected_sha256": "ec51a9b95ce5ed9427690e45986d1a58bdc86f3b8768736858c7629973b8b9fa",
+      "matches_expected": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-work\\raw\\procedure.md",
+      "bytes": 102224,
+      "sha256": "67357ed70e0333e8e0a936c84cde50e42199a6c899d7e8d518bde6feab3c0f3b",
+      "expected_sha256": "67357ed70e0333e8e0a936c84cde50e42199a6c899d7e8d518bde6feab3c0f3b",
+      "matches_expected": true
+    }
+  ],
+  "all_hashes_match": true,
+  "fresh_output_absent": true,
+  "command": [
+    "uv",
+    "run",
+    "--frozen",
+    "python",
+    "inspect_sources.py",
+    "--csv-encoding",
+    "iso-8859-1",
+    "--output",
+    "D:/CodexWorkspaces/mathematics-atlas/msc-reuse-review-work/raw/replay-01/inspection.json"
+  ],
+  "working_directory": "D:/CodexWorkspaces/mathematics-atlas/msc-reuse-work",
+  "selected_environment": {
+    "UV_CACHE_DIR": "D:/CodexWorkspaces/mathematics-atlas/uv-cache",
+    "VIRTUAL_ENV": null,
+    "UV_PROJECT_ENVIRONMENT": null
+  }
+}

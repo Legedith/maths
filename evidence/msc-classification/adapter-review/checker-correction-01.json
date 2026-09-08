@@ -1,0 +1,11 @@
+{
+    "schema_version":  "msc-import-audit-checker-correction-v1",
+    "attempt":  "exhaustive-check-01",
+    "status":  "auditor_harness_failure",
+    "failed_checker_sha256":  "4efd2e5ca0a6c911054b76a9bf48c7610b1ea774c1cb6fabf56eaed00904958a",
+    "stderr_sha256":  "aa5a74679b17b47fc4b442ef3f8ab1cdaf3a6254c526c0fab317be7d080830b8",
+    "cause":  "Diagnostic attempted len() on integer summary subjects count after source reconstruction completed.",
+    "change":  "Compute optional diagnostic row_count only from list-valued subjects or relations fields.",
+    "mathematical_or_importer_change":  false,
+    "corrected_checker_sha256":  "86da13adfba768632cf530783ee0d9245ad1fc2d979432540a9fc0ef574f5e0f"
+}

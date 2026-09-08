@@ -1,0 +1,8 @@
+{
+  "schema_version": "typed-evidence-link-correction-v1",
+  "producer": "root",
+  "prior_bundle_sha256": "57516686bab492c0a48b04534d8e8f6907b75245d47c2657d6fbad83a12beb4a",
+  "failure": "Gate 01 required direct spec/source/code-or-log artifacts in the corresponding check evidence lists; only independent reports had been linked.",
+  "change": "Added references to already hashed and independently reviewed artifacts, plus retained packaging code and failure logs. No existing artifact bytes, claim statements, product code or data changed.",
+  "independent_semantic_decisions": "The same sealed source, adapter and product reports remain the basis of the four decisions."
+}

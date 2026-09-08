@@ -1,0 +1,9 @@
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x000001ED582FE5C0>
+Traceback (most recent call last):
+  File "D:\CodexWorkspaces\mathematics-atlas\msc-reuse-work\.venv\Lib\site-packages\rdflib\term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\CodexWorkspaces\mathematics-atlas\msc-reuse-work\.venv\Lib\site-packages\rdflib\xsd_datetime.py", line 593, in parse_xsd_date
+    return parse_date(date_string if not minus else ("-" + date_string))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Invalid isoformat string: '2021-03-xx'

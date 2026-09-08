@@ -1,0 +1,13 @@
+{
+  "artifact_count": 257,
+  "bundle": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.codex\\evidence\\runs\\msc-classification-v1\\bundle.json",
+  "claim_count": 9,
+  "claim_provenance_rate": 1.0,
+  "errors": [
+    "check specification_compliance needs evidence kind in ['spec']",
+    "check source_verification needs evidence kind in ['source']",
+    "check implementation_alignment needs evidence kind in ['code', 'log']"
+  ],
+  "status": "FAIL",
+  "workspace": "D:\\CodexWorkspaces\\mathematics-atlas\\project"
+}

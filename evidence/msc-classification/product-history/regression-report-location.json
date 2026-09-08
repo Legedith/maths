@@ -1,0 +1,9 @@
+{
+  "schema_version": "regression-report-preservation-v1",
+  "producer": "root",
+  "command": "node scripts/check-atlas.ts",
+  "raw_command_record": "logs/attempt-msc-regression-atlas-01.json",
+  "original_output_path": "evidence/corpus/search-and-paths.json",
+  "preserved_output": "atlas-regression-search-and-paths.json",
+  "explanation": "The existing test writes its report to a tracked historical evidence path. The rerun covers the current 33-node corpus and reports 1089 navigation pairs. Its fresh bytes are retained here; the historical tracked report was restored from HEAD so this release does not rewrite that earlier artifact. No corpus or test code was changed."
+}

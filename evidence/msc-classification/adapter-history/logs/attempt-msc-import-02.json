@@ -1,0 +1,39 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--project",
+    "D:/CodexWorkspaces/mathematics-atlas/msc-reuse-work",
+    "--frozen",
+    "python",
+    "import_msc.py",
+    "--source-root",
+    "D:/CodexWorkspaces/mathematics-atlas/msc-reuse-work",
+    "--output-dir",
+    "run-02"
+  ],
+  "attempt_id": "msc-import-02",
+  "ended_at_utc": "2026-09-08T09:09:00.165548+00:00",
+  "returncode": 0,
+  "schema_version": "logged-command-attempt-v1",
+  "selected_environment": {
+    "PYTHONDONTWRITEBYTECODE": null,
+    "UV_CACHE_DIR": "D:/CodexWorkspaces/mathematics-atlas/uv-cache",
+    "UV_PROJECT_ENVIRONMENT": null
+  },
+  "started_at_utc": "2026-09-08T09:08:57.195098+00:00",
+  "stderr": {
+    "bytes": 755,
+    "path": "attempt-msc-import-02.stderr.bin",
+    "sha256": "65935aaef5a3bc4b689061a4d510bd193d74ab6d2c2f6822af68dd75557e1616"
+  },
+  "stdout": {
+    "bytes": 638,
+    "path": "attempt-msc-import-02.stdout.bin",
+    "sha256": "22019e95ca0929f2736e164090ef8ee3346b8f12567d3359fd73a3a1e975f862"
+  },
+  "termination": null,
+  "timed_out": false,
+  "timeout_seconds": 180,
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work"
+}

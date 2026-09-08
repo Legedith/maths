@@ -1,0 +1,10 @@
+{
+  "schema_version": "msc-import-clarification-v1",
+  "source": "Independent source audit msc-reuse-review-work/final-audit.json, SHA256 125591a3779538bf87d844d845e24167af5f5b90893fba80fa6df1f02d04f50b",
+  "requirement": "Store hierarchy level independently of leaf status. The primary paper places NN-dd hyphen classes at level two, even though they have no children.",
+  "change": "Add hierarchy_level (1 top classes; 2 letter groups and hyphen classes; 3 letter-number classes) and is_leaf derived from actual navigation-parent references. Retain the existing kind, source parents, labels and all discrepancy fields.",
+  "retained_code": "import_msc-v2.py",
+  "retained_outputs": "run-02",
+  "validation_required": "Fresh canonical run and independent field-level verification. Existing substantive source fields and all references must remain unchanged; subject and summary files gain only the declared hierarchy fields.",
+  "independent_importer_review": "pending"
+}

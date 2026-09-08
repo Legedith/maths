@@ -1,0 +1,37 @@
+{
+  "output": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\copy-validation.json",
+  "output_sha256": "309f57b32978ed5f5d482f9ddad912550fb18decae5f896e0d07ce102ea96b88",
+  "all_checks_pass": false,
+  "trees": {
+    "source_review": {
+      "published_files": 16,
+      "byte_identical": 16,
+      "all_byte_identical": true
+    },
+    "adapter_review": {
+      "published_files": 33,
+      "byte_identical": 33,
+      "all_byte_identical": true
+    },
+    "product_review": {
+      "published_files": 88,
+      "byte_identical": 88,
+      "all_byte_identical": true
+    },
+    "product_history": {
+      "published_files": 47,
+      "byte_identical": 45,
+      "all_byte_identical": false
+    }
+  },
+  "product_manifest": {
+    "copy_records": 86,
+    "copy_records_pass": 86,
+    "external_records": 7,
+    "external_records_pass": 7
+  },
+  "direct_pairs": {
+    "count": 13,
+    "pass": 13
+  }
+}

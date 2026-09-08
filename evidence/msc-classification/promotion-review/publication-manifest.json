@@ -1,0 +1,236 @@
+{
+  "schema_version": "independent-msc-promotion-publication-manifest-v1",
+  "reviewer": "/root/sol_symmetry_worker",
+  "recommendation": "PASS_FOR_SCOPED_MSC_PROMOTION_EVIDENCE",
+  "reviewed_bundle_sha256": "f57ccfddf20064d1df481e289925f09b66657ce604f1047d8dce8ba9ba8d9e49",
+  "unresolved_findings": 0,
+  "copy_records": [
+    {
+      "path": ".python-version",
+      "bytes": 8,
+      "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 132,
+      "sha256": "1683b093ecf92362361a9481695b7b418bf91e8d4987090af62d612ce6428e93"
+    },
+    {
+      "path": "uv.lock",
+      "bytes": 143,
+      "sha256": "d034c414c6aa70b2bf175be975536b0f00a153de0a9dccbd5904face3eb33c79"
+    },
+    {
+      "path": "claims-provenance-review.json",
+      "bytes": 12212,
+      "sha256": "63bdb0f202e8321b83ab9a7b168eaac39aa8d19791015bf51b27f18fe35433d0"
+    },
+    {
+      "path": "candidate-03-mechanical-check.json",
+      "bytes": 159245,
+      "sha256": "a611c2cd44095d99d5451aed2d33b83bc130f12dd96e7a30fd0fe68d62bc35bb"
+    },
+    {
+      "path": "copy-validation-final.json",
+      "bytes": 116615,
+      "sha256": "7aaacccdf2619f56e91cfb5f05df4aa0a2fca6b764f047c6cbfcd0886fdeafa9"
+    },
+    {
+      "path": "candidate-delta-02-to-03.json",
+      "bytes": 3412,
+      "sha256": "a042841988574618e39f88aebbadc173dec5dc0738be2cc229353ed734eeb85f"
+    },
+    {
+      "path": "checker-correction-01.json",
+      "bytes": 646,
+      "sha256": "21ba76315404c289e5629fef1b965a4a996dfcab7974df9bf00c563d49546b8f"
+    },
+    {
+      "path": "review_bundle.py",
+      "bytes": 6965,
+      "sha256": "66a32d8e5f6778889b6a5d2ac7b736fba18f43f4888391143687001761683726"
+    },
+    {
+      "path": "validate_copies.py",
+      "bytes": 10890,
+      "sha256": "9653ff323c917476637d9645c16ccfc2364c60e2c88cbf54801bdb8bc4cdb7f5"
+    },
+    {
+      "path": "compare_candidates.py",
+      "bytes": 3275,
+      "sha256": "7db022285d6c77d9c566b3ffa81c9d69589186e44394d71dd1e6afc4f6f94ac2"
+    },
+    {
+      "path": "run_logged.py",
+      "bytes": 2565,
+      "sha256": "1ee9b49bd1109d2fe6851673d92b72e0e8ff7b0445ee5d29fee791cc713493ed"
+    },
+    {
+      "path": "make_publication_manifest.py",
+      "bytes": 4735,
+      "sha256": "789f2751383d44e609b4da6efa2143fa97fba6e7669916d2ce8be759bf1bac3a"
+    },
+    {
+      "path": "logs/candidate-03-mechanical-01.json",
+      "bytes": 1443,
+      "sha256": "c7b317946892a2b0a39a97c98e7f72cb728cc31f9f1488eee4a049429d900317"
+    },
+    {
+      "path": "logs/candidate-03-mechanical-01.stdout.bin",
+      "bytes": 794,
+      "sha256": "c9bf3d62b08e0a32d2bcb2fdd8cfe51bc1075585b67894c9ab45dd2d53993c59"
+    },
+    {
+      "path": "logs/candidate-03-mechanical-01.stderr.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/copy-validation-04.json",
+      "bytes": 1362,
+      "sha256": "b3f3d8094394d636e9db1477f87564651621aa34a4def74073fb0b845e0c9e34"
+    },
+    {
+      "path": "logs/copy-validation-04.stdout.bin",
+      "bytes": 1589,
+      "sha256": "6b8877193e74a976116718a88c2ddc960c850c2232d004d2dcb654082248a53f"
+    },
+    {
+      "path": "logs/copy-validation-04.stderr.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/candidate-delta-01.json",
+      "bytes": 1454,
+      "sha256": "d995aefca739f8cc07538c52b75bd42767093768b7bf6750b23ddff196d03894"
+    },
+    {
+      "path": "logs/candidate-delta-01.stdout.bin",
+      "bytes": 284,
+      "sha256": "dca04bd3965e577a9f74327558dcae5ba71976032fe3e6382224686c02ed699f"
+    },
+    {
+      "path": "logs/candidate-delta-01.stderr.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "copy-validation.json",
+      "bytes": 108680,
+      "sha256": "309f57b32978ed5f5d482f9ddad912550fb18decae5f896e0d07ce102ea96b88"
+    },
+    {
+      "path": "logs/copy-validation-01.json",
+      "bytes": 1356,
+      "sha256": "12ccf487fdb385374b7c1e9fdff9691adf8f54778da1e2963ea765c441dd4e00"
+    },
+    {
+      "path": "logs/copy-validation-01.stdout.bin",
+      "bytes": 957,
+      "sha256": "72fc21bc13cecc0a828b1784d4cbb5f0e1e8bd77fcca1efbf2d9a982c7bae47d"
+    },
+    {
+      "path": "logs/copy-validation-01.stderr.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "external_evidence_records": [
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/project/.codex/evidence/runs/msc-classification-v1/bundle.json",
+      "bytes": 89372,
+      "sha256": "f57ccfddf20064d1df481e289925f09b66657ce604f1047d8dce8ba9ba8d9e49",
+      "role": "reviewed_bundle"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/msc-product-work/bundle-final-candidate-03.json",
+      "bytes": 89372,
+      "sha256": "f57ccfddf20064d1df481e289925f09b66657ce604f1047d8dce8ba9ba8d9e49",
+      "role": "identical_staging_candidate"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/msc-product-work/claim-locator-correction-03.json",
+      "bytes": 10146,
+      "sha256": "4f589b9cbe88b75bbe689f31ba2a8eed5f139959cfd4ba7ad1e8a860e0cd0bc1",
+      "role": "claim_locator_correction"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/project/evidence/msc-classification/source-review/final-audit.json",
+      "bytes": 15145,
+      "sha256": "125591a3779538bf87d844d845e24167af5f5b90893fba80fa6df1f02d04f50b",
+      "role": "source_audit"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/project/evidence/msc-classification/adapter-review/final-audit.json",
+      "bytes": 8251,
+      "sha256": "878a51115ef7a4a720a3e33b36933c3f16385dc8a47873524ef8ced226dc0ad1",
+      "role": "adapter_audit"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/project/evidence/msc-classification/product-review/final-msc-product-audit.json",
+      "bytes": 6121,
+      "sha256": "9e2b5c2f609ac271f4cc913f464f5d4745cce648d1ef9469be9cde90ea47715e",
+      "role": "product_audit"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/project/evidence/msc-classification/product-review/publication-manifest.json",
+      "bytes": 19398,
+      "sha256": "276f99ecee69ce233746961a0edba709cf4634f7e6198a5831ae4dd0e7c49e3c",
+      "role": "product_audit_manifest"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/project/evidence/msc-classification/product-review/review-seal.json",
+      "bytes": 1625,
+      "sha256": "4d511324cc3604224513b3dd1bc35cfc72025f04d9bd753bccf4b73902b5b382",
+      "role": "product_audit_seal"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/project/docs/subject-browser-verification.md",
+      "bytes": 3799,
+      "sha256": "212449c89437070b9c4f966521d280b68b628c9165e98e4515b3a085779303f4",
+      "role": "verification_document"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/project/data/msc/LICENSE-CC-BY-NC-SA-4.0.md",
+      "bytes": 20849,
+      "sha256": "1349a4b6148492b44f629e64eed676612e234fe9a839e4f3b277c1482c8849f1",
+      "role": "retained_source_license"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/msc-product-work/gate-logs/attempt-msc-gate-03.json",
+      "bytes": 1207,
+      "sha256": "e08f121eefaff09d6446489d58f529aa16a9b41281185bca0dede38270579081",
+      "role": "root_gate_03_record"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/msc-product-work/gate-logs/attempt-msc-gate-03.stdout.bin",
+      "bytes": 314,
+      "sha256": "be3a847fac2ce00aac4b3a03258eff8cf6ad53292342a61e3fd536e4483d6e70",
+      "role": "root_gate_03_stdout"
+    }
+  ],
+  "excluded": [
+    {
+      "pattern": ".venv/**",
+      "reason": "disposable isolated runtime"
+    },
+    {
+      "pattern": "**/__pycache__/**",
+      "reason": "generated bytecode"
+    },
+    {
+      "pattern": "draft-mechanical-check.json and candidate-mechanical-check.json",
+      "reason": "candidate 03 supersedes draft and candidate 02 mechanical results"
+    },
+    {
+      "pattern": "copy-validation-02.json, copy-validation-03.json and their logs",
+      "reason": "intermediate corrected passes superseded by the final expanded copy check"
+    },
+    {
+      "pattern": "remaining exploratory command outputs",
+      "reason": "the compact packet retains the failed attempt, correction, and final canonical checks"
+    }
+  ],
+  "manifest_self_hash": "excluded because a file cannot contain its own cryptographic digest"
+}

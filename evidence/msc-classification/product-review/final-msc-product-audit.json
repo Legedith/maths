@@ -1,0 +1,100 @@
+{
+  "schema_version": "independent-msc-product-final-audit-v1",
+  "auditor": {
+    "identity": "/root/sol_atlas_audit",
+    "role": "independent product and HTTP/API verifier"
+  },
+  "target": {
+    "project_root": "D:/CodexWorkspaces/mathematics-atlas/project",
+    "final_freeze": "D:/CodexWorkspaces/mathematics-atlas/msc-product-work/preexecution-freeze-03.json",
+    "final_freeze_sha256": "e6b099e05f093250af9b89aa94fe2bdfb67c1506767d2a937ab7c61ecc4d0e0b",
+    "independent_input_freeze": "reviewed-inputs-attempt02.json",
+    "data_sha256": {
+      "subjects.json": "32fb0eddc9f189e68b9fa312e8e29c399deee65d4d282d1e61235be33a22400e",
+      "references.json": "75ecd4b71056274ad342c72a5324770e2257e0ff3a88662dfe457c9127b4bc35",
+      "summary.json": "7816ecdc34c3fe3981bef3f18a6ff0effe16e12aca5dc95460f8604dee7715ed"
+    }
+  },
+  "recommendation": "PASS_FOR_SCOPED_SUBJECT_BROWSER_PRODUCT",
+  "checks": [
+    {
+      "id": "reproduction",
+      "status": "PASS",
+      "decision": "The corrected independent run issued 971 localhost requests and passed every check. All 276 paginated all-subject pages returned the 6,603 source-ordered records exactly once. All 598 populated root/immediate-child scopes partitioned the same 6,603 records, and five complete search traversals matched the independent Unicode-NFKC, lowercase, punctuation-normalized AND-term oracle. The retained author rerun also reports 55/55 checks passing; the retained production build returned zero.",
+      "evidence": [
+        "results/audit-02.json",
+        "logs/msc-independent-audit-02.json",
+        "logs/msc-independent-audit-02.stdout.bin",
+        "reviewed-inputs-attempt02.json"
+      ]
+    },
+    {
+      "id": "specification_compliance",
+      "status": "PASS",
+      "decision": "List responses are limited to 24 records; detail children are limited to 24 with an explicit total and navigation link; the frozen maximum incident-reference and collection-member counts are both 62, below the 512 load boundary. Twenty-one malformed, duplicate, mixed, unknown, oversized and invalid-page GET requests returned structured HTTP 400 responses with Cache-Control no-store. The exact 300-character limit and page 1,000,000 were accepted, POST returned 405, and malformed dynamic subject routes returned 404.",
+      "evidence": [
+        "results/audit-02.json",
+        "raw-http-02/valid-query-limit.json",
+        "raw-http-02/valid-far-page.json",
+        "raw-http-02/invalid-method-post.json",
+        "raw-http-02/page-invalid.json"
+      ]
+    },
+    {
+      "id": "source_verification",
+      "status": "PASS_SCOPED",
+      "decision": "This product gate starts from the exact three adapter outputs independently approved by the separate source/import audit. Against those bytes, seven selected API details matched independently reconstructed source records exactly, including original descriptions and locators, all relation source IDs and RDF predicate/endpoints, conditional qualifier URIs and literal metadata, the 62-member collection target, hierarchy and label disagreements, an empty leaf, TeX-looking text and the 62-incident maximum case. This reviewer did not repeat the raw CSV/Turtle import audit.",
+      "evidence": [
+        "results/audit-02.json",
+        "reviewed-inputs-attempt02.json",
+        "D:/CodexWorkspaces/mathematics-atlas/msc-import-review-work/final-audit.json#sha256=878a51115ef7a4a720a3e33b36933c3f16385dc8a47873524ef8ced226dc0ad1"
+      ]
+    },
+    {
+      "id": "implementation_alignment",
+      "status": "PASS",
+      "decision": "The frozen catalogue, route and server-rendered page code implement the contracted hierarchy, lexical search, strict read-only API, directed reference display, collection handling and source text escaping. Selected HTML response bodies contain the required attribution, terms, exact descriptions, qualifiers, collection members, disagreement explanations and bounded-scope caveats. The final documentation and CI supplement passed 20/20 static alignment checks, including the corrected detail-versus-list wording, implemented wrapper/importer flags, three byte comparisons and retained CI artifacts.",
+      "evidence": [
+        "results/audit-02.json",
+        "results/docs-ci-review-01.json",
+        "logs/docs-ci-review-01.json",
+        "findings.json",
+        "reviewed-inputs-attempt02.json"
+      ]
+    }
+  ],
+  "verified_observations": {
+    "subjects": 6603,
+    "top_levels": 63,
+    "source_references": 3083,
+    "conditional_references": 415,
+    "see_also": 2642,
+    "see_mainly": 26,
+    "collection_targets": 1,
+    "collection_members": 62,
+    "hierarchy_disagreements": 8,
+    "exact_label_differences": 120,
+    "independent_http_requests": 971,
+    "independent_http_statuses": {
+      "200": 947,
+      "400": 21,
+      "404": 2,
+      "405": 1
+    },
+    "independent_http_ledger_sha256": "1de5738e8c01156462ac61bbfe659f30a938889084e7c566081548bdab232d08",
+    "author_product_checks": "55/55 pass",
+    "docs_ci_checks": "20/20 pass"
+  },
+  "resolved_findings": [
+    "DOC-01: Detail-versus-list API wording was corrected and rechecked.",
+    "HARNESS-01: The first auditor run's React comment-marker false negative was corrected; the original failed result remains retained."
+  ],
+  "unresolved_substantive_findings": [],
+  "limitations": [
+    "This review covers the exact frozen product source, data, documentation, workflows and localhost HTTP responses. It does not certify a later edit.",
+    "The raw CSV/Turtle importer is covered by a separate independent audit; this gate verifies the product against its exact reviewed JSON outputs.",
+    "The GitHub workflows were checked for frozen text, file existence and command/flag alignment, but were not executed on GitHub by this reviewer.",
+    "No browser DOM, screenshot, responsive-layout, assistive-technology or general visual evaluation was performed or claimed.",
+    "No classification record or lexical result is certified as a proof, semantic equivalence, prerequisite, exhaustive account of mathematics, novelty result or open-problem determination."
+  ]
+}

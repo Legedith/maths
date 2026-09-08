@@ -1,0 +1,40 @@
+{
+  "schema_version": "independent-command-attempt-v1",
+  "attempt_id": "freeze-02",
+  "argv": [
+    ".\\.venv\\Scripts\\python.exe",
+    "scripts\\freeze_review.py",
+    "--project-root",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "--author-work",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work",
+    "--review-root",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-review-work",
+    "--output",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-review-work\\reviewed-inputs-attempt02.json"
+  ],
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-review-work",
+  "started_at_utc": "2026-09-08T10:00:49.942754+00:00",
+  "ended_at_utc": "2026-09-08T10:00:50.068589+00:00",
+  "elapsed_seconds": 0.125835,
+  "timeout_seconds": 120,
+  "timed_out": false,
+  "termination": null,
+  "returncode": 0,
+  "selected_environment": {
+    "UV_CACHE_DIR": "D:\\CodexWorkspaces\\mathematics-atlas\\uv-cache",
+    "UV_PROJECT_ENVIRONMENT": null,
+    "VIRTUAL_ENV": null,
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "stdout": {
+    "path": "freeze-02.stdout.bin",
+    "bytes": 169,
+    "sha256": "8d585f7389e4ae1ce49d143b637780bfd7b9b092982329fd00643234b566f24e"
+  },
+  "stderr": {
+    "path": "freeze-02.stderr.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

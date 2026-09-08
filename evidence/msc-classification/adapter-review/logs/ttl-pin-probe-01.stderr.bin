@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "D:\CodexWorkspaces\mathematics-atlas\project\experiments\msc-index\import_msc.py", line 220, in <module>
+    main()
+  File "D:\CodexWorkspaces\mathematics-atlas\project\experiments\msc-index\import_msc.py", line 210, in main
+    outputs = compile_index(args.source_root.resolve())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\CodexWorkspaces\mathematics-atlas\project\experiments\msc-index\import_msc.py", line 77, in compile_index
+    pinned(source_root / "raw/suggestion4.ttl", TTL_HASH)
+  File "D:\CodexWorkspaces\mathematics-atlas\project\experiments\msc-index\import_msc.py", line 32, in pinned
+    require(hashlib.sha256(data).hexdigest() == expected, f"Source pin mismatch: {path.name}")
+  File "D:\CodexWorkspaces\mathematics-atlas\project\experiments\msc-index\import_msc.py", line 27, in require
+    raise ValueError(message)
+ValueError: Source pin mismatch: suggestion4.ttl

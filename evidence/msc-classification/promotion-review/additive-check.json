@@ -1,0 +1,568 @@
+{
+  "schema_version": "msc-promotion-additive-check-v1",
+  "prior": {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\bundle-final-candidate-03.json",
+    "sha256": "f57ccfddf20064d1df481e289925f09b66657ce604f1047d8dce8ba9ba8d9e49",
+    "artifacts": 265
+  },
+  "candidate": {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\bundle-final-candidate-04.json",
+    "sha256": "71027167d7c0f6e370f85aedcaac3725c1668c1b0d772307c0db9be8ff2a1bde",
+    "artifacts": 302
+  },
+  "candidate_matches_project_bundle": true,
+  "prior_artifact_records_preserved_as_prefix": true,
+  "all_nonartifact_top_level_values_unchanged": true,
+  "top_level_value_checks": {
+    "checks": true,
+    "claims": true,
+    "created_at": true,
+    "evaluator_command": true,
+    "limitations": true,
+    "objective": true,
+    "run_id": true,
+    "schema_version": true,
+    "task_spec_artifact_id": true
+  },
+  "added_artifacts": {
+    "count": 37,
+    "ids": [
+      "A266",
+      "A267",
+      "A268",
+      "A269",
+      "A270",
+      "A271",
+      "A272",
+      "A273",
+      "A274",
+      "A275",
+      "A276",
+      "A277",
+      "A278",
+      "A279",
+      "A280",
+      "A281",
+      "A282",
+      "A283",
+      "A284",
+      "A285",
+      "A286",
+      "A287",
+      "A288",
+      "A289",
+      "A290",
+      "A291",
+      "A292",
+      "A293",
+      "A294",
+      "A295",
+      "A296",
+      "A297",
+      "A298",
+      "A299",
+      "A300",
+      "A301",
+      "A302"
+    ],
+    "all_exist_and_hash_match": true,
+    "promotion_review_count": 27,
+    "assembly_history_count": 9,
+    "copy_receipt_count": 1,
+    "paths_with_unexpected_scope": [],
+    "rows": [
+      {
+        "id": "A266",
+        "path": "evidence/msc-classification/promotion-review/.python-version",
+        "exists": true,
+        "expected_sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d",
+        "actual_sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d",
+        "pass": true
+      },
+      {
+        "id": "A267",
+        "path": "evidence/msc-classification/promotion-review/pyproject.toml",
+        "exists": true,
+        "expected_sha256": "1683b093ecf92362361a9481695b7b418bf91e8d4987090af62d612ce6428e93",
+        "actual_sha256": "1683b093ecf92362361a9481695b7b418bf91e8d4987090af62d612ce6428e93",
+        "pass": true
+      },
+      {
+        "id": "A268",
+        "path": "evidence/msc-classification/promotion-review/uv.lock",
+        "exists": true,
+        "expected_sha256": "d034c414c6aa70b2bf175be975536b0f00a153de0a9dccbd5904face3eb33c79",
+        "actual_sha256": "d034c414c6aa70b2bf175be975536b0f00a153de0a9dccbd5904face3eb33c79",
+        "pass": true
+      },
+      {
+        "id": "A269",
+        "path": "evidence/msc-classification/promotion-review/claims-provenance-review.json",
+        "exists": true,
+        "expected_sha256": "63bdb0f202e8321b83ab9a7b168eaac39aa8d19791015bf51b27f18fe35433d0",
+        "actual_sha256": "63bdb0f202e8321b83ab9a7b168eaac39aa8d19791015bf51b27f18fe35433d0",
+        "pass": true
+      },
+      {
+        "id": "A270",
+        "path": "evidence/msc-classification/promotion-review/candidate-03-mechanical-check.json",
+        "exists": true,
+        "expected_sha256": "a611c2cd44095d99d5451aed2d33b83bc130f12dd96e7a30fd0fe68d62bc35bb",
+        "actual_sha256": "a611c2cd44095d99d5451aed2d33b83bc130f12dd96e7a30fd0fe68d62bc35bb",
+        "pass": true
+      },
+      {
+        "id": "A271",
+        "path": "evidence/msc-classification/promotion-review/copy-validation-final.json",
+        "exists": true,
+        "expected_sha256": "7aaacccdf2619f56e91cfb5f05df4aa0a2fca6b764f047c6cbfcd0886fdeafa9",
+        "actual_sha256": "7aaacccdf2619f56e91cfb5f05df4aa0a2fca6b764f047c6cbfcd0886fdeafa9",
+        "pass": true
+      },
+      {
+        "id": "A272",
+        "path": "evidence/msc-classification/promotion-review/candidate-delta-02-to-03.json",
+        "exists": true,
+        "expected_sha256": "a042841988574618e39f88aebbadc173dec5dc0738be2cc229353ed734eeb85f",
+        "actual_sha256": "a042841988574618e39f88aebbadc173dec5dc0738be2cc229353ed734eeb85f",
+        "pass": true
+      },
+      {
+        "id": "A273",
+        "path": "evidence/msc-classification/promotion-review/checker-correction-01.json",
+        "exists": true,
+        "expected_sha256": "21ba76315404c289e5629fef1b965a4a996dfcab7974df9bf00c563d49546b8f",
+        "actual_sha256": "21ba76315404c289e5629fef1b965a4a996dfcab7974df9bf00c563d49546b8f",
+        "pass": true
+      },
+      {
+        "id": "A274",
+        "path": "evidence/msc-classification/promotion-review/review_bundle.py",
+        "exists": true,
+        "expected_sha256": "66a32d8e5f6778889b6a5d2ac7b736fba18f43f4888391143687001761683726",
+        "actual_sha256": "66a32d8e5f6778889b6a5d2ac7b736fba18f43f4888391143687001761683726",
+        "pass": true
+      },
+      {
+        "id": "A275",
+        "path": "evidence/msc-classification/promotion-review/validate_copies.py",
+        "exists": true,
+        "expected_sha256": "9653ff323c917476637d9645c16ccfc2364c60e2c88cbf54801bdb8bc4cdb7f5",
+        "actual_sha256": "9653ff323c917476637d9645c16ccfc2364c60e2c88cbf54801bdb8bc4cdb7f5",
+        "pass": true
+      },
+      {
+        "id": "A276",
+        "path": "evidence/msc-classification/promotion-review/compare_candidates.py",
+        "exists": true,
+        "expected_sha256": "7db022285d6c77d9c566b3ffa81c9d69589186e44394d71dd1e6afc4f6f94ac2",
+        "actual_sha256": "7db022285d6c77d9c566b3ffa81c9d69589186e44394d71dd1e6afc4f6f94ac2",
+        "pass": true
+      },
+      {
+        "id": "A277",
+        "path": "evidence/msc-classification/promotion-review/run_logged.py",
+        "exists": true,
+        "expected_sha256": "1ee9b49bd1109d2fe6851673d92b72e0e8ff7b0445ee5d29fee791cc713493ed",
+        "actual_sha256": "1ee9b49bd1109d2fe6851673d92b72e0e8ff7b0445ee5d29fee791cc713493ed",
+        "pass": true
+      },
+      {
+        "id": "A278",
+        "path": "evidence/msc-classification/promotion-review/make_publication_manifest.py",
+        "exists": true,
+        "expected_sha256": "789f2751383d44e609b4da6efa2143fa97fba6e7669916d2ce8be759bf1bac3a",
+        "actual_sha256": "789f2751383d44e609b4da6efa2143fa97fba6e7669916d2ce8be759bf1bac3a",
+        "pass": true
+      },
+      {
+        "id": "A279",
+        "path": "evidence/msc-classification/promotion-review/logs/candidate-03-mechanical-01.json",
+        "exists": true,
+        "expected_sha256": "c7b317946892a2b0a39a97c98e7f72cb728cc31f9f1488eee4a049429d900317",
+        "actual_sha256": "c7b317946892a2b0a39a97c98e7f72cb728cc31f9f1488eee4a049429d900317",
+        "pass": true
+      },
+      {
+        "id": "A280",
+        "path": "evidence/msc-classification/promotion-review/logs/candidate-03-mechanical-01.stdout.bin",
+        "exists": true,
+        "expected_sha256": "c9bf3d62b08e0a32d2bcb2fdd8cfe51bc1075585b67894c9ab45dd2d53993c59",
+        "actual_sha256": "c9bf3d62b08e0a32d2bcb2fdd8cfe51bc1075585b67894c9ab45dd2d53993c59",
+        "pass": true
+      },
+      {
+        "id": "A281",
+        "path": "evidence/msc-classification/promotion-review/logs/candidate-03-mechanical-01.stderr.bin",
+        "exists": true,
+        "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "pass": true
+      },
+      {
+        "id": "A282",
+        "path": "evidence/msc-classification/promotion-review/logs/copy-validation-04.json",
+        "exists": true,
+        "expected_sha256": "b3f3d8094394d636e9db1477f87564651621aa34a4def74073fb0b845e0c9e34",
+        "actual_sha256": "b3f3d8094394d636e9db1477f87564651621aa34a4def74073fb0b845e0c9e34",
+        "pass": true
+      },
+      {
+        "id": "A283",
+        "path": "evidence/msc-classification/promotion-review/logs/copy-validation-04.stdout.bin",
+        "exists": true,
+        "expected_sha256": "6b8877193e74a976116718a88c2ddc960c850c2232d004d2dcb654082248a53f",
+        "actual_sha256": "6b8877193e74a976116718a88c2ddc960c850c2232d004d2dcb654082248a53f",
+        "pass": true
+      },
+      {
+        "id": "A284",
+        "path": "evidence/msc-classification/promotion-review/logs/copy-validation-04.stderr.bin",
+        "exists": true,
+        "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "pass": true
+      },
+      {
+        "id": "A285",
+        "path": "evidence/msc-classification/promotion-review/logs/candidate-delta-01.json",
+        "exists": true,
+        "expected_sha256": "d995aefca739f8cc07538c52b75bd42767093768b7bf6750b23ddff196d03894",
+        "actual_sha256": "d995aefca739f8cc07538c52b75bd42767093768b7bf6750b23ddff196d03894",
+        "pass": true
+      },
+      {
+        "id": "A286",
+        "path": "evidence/msc-classification/promotion-review/logs/candidate-delta-01.stdout.bin",
+        "exists": true,
+        "expected_sha256": "dca04bd3965e577a9f74327558dcae5ba71976032fe3e6382224686c02ed699f",
+        "actual_sha256": "dca04bd3965e577a9f74327558dcae5ba71976032fe3e6382224686c02ed699f",
+        "pass": true
+      },
+      {
+        "id": "A287",
+        "path": "evidence/msc-classification/promotion-review/logs/candidate-delta-01.stderr.bin",
+        "exists": true,
+        "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "pass": true
+      },
+      {
+        "id": "A288",
+        "path": "evidence/msc-classification/promotion-review/copy-validation.json",
+        "exists": true,
+        "expected_sha256": "309f57b32978ed5f5d482f9ddad912550fb18decae5f896e0d07ce102ea96b88",
+        "actual_sha256": "309f57b32978ed5f5d482f9ddad912550fb18decae5f896e0d07ce102ea96b88",
+        "pass": true
+      },
+      {
+        "id": "A289",
+        "path": "evidence/msc-classification/promotion-review/logs/copy-validation-01.json",
+        "exists": true,
+        "expected_sha256": "12ccf487fdb385374b7c1e9fdff9691adf8f54778da1e2963ea765c441dd4e00",
+        "actual_sha256": "12ccf487fdb385374b7c1e9fdff9691adf8f54778da1e2963ea765c441dd4e00",
+        "pass": true
+      },
+      {
+        "id": "A290",
+        "path": "evidence/msc-classification/promotion-review/logs/copy-validation-01.stdout.bin",
+        "exists": true,
+        "expected_sha256": "72fc21bc13cecc0a828b1784d4cbb5f0e1e8bd77fcca1efbf2d9a982c7bae47d",
+        "actual_sha256": "72fc21bc13cecc0a828b1784d4cbb5f0e1e8bd77fcca1efbf2d9a982c7bae47d",
+        "pass": true
+      },
+      {
+        "id": "A291",
+        "path": "evidence/msc-classification/promotion-review/logs/copy-validation-01.stderr.bin",
+        "exists": true,
+        "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "pass": true
+      },
+      {
+        "id": "A292",
+        "path": "evidence/msc-classification/promotion-review/publication-manifest.json",
+        "exists": true,
+        "expected_sha256": "eab4bb969fabf3f15bb0e1097d06451ea9627efa2efd44fe032e2dabf0921a9a",
+        "actual_sha256": "eab4bb969fabf3f15bb0e1097d06451ea9627efa2efd44fe032e2dabf0921a9a",
+        "pass": true
+      },
+      {
+        "id": "A293",
+        "path": "evidence/msc-classification/assembly/add_claim_locators.py",
+        "exists": true,
+        "expected_sha256": "902c53e91efc14562514c851bf8d9e04499d387bbb3e191945856b2d4201d243",
+        "actual_sha256": "902c53e91efc14562514c851bf8d9e04499d387bbb3e191945856b2d4201d243",
+        "pass": true
+      },
+      {
+        "id": "A294",
+        "path": "evidence/msc-classification/assembly/claim-locator-correction-03.json",
+        "exists": true,
+        "expected_sha256": "4f589b9cbe88b75bbe689f31ba2a8eed5f139959cfd4ba7ad1e8a860e0cd0bc1",
+        "actual_sha256": "4f589b9cbe88b75bbe689f31ba2a8eed5f139959cfd4ba7ad1e8a860e0cd0bc1",
+        "pass": true
+      },
+      {
+        "id": "A295",
+        "path": "evidence/msc-classification/assembly/append_promotion_review.py",
+        "exists": true,
+        "expected_sha256": "106c7a1d404c1f59fd2ac97cd0bf1af571bd638b42fbc8b508ed44985d9fe8ea",
+        "actual_sha256": "106c7a1d404c1f59fd2ac97cd0bf1af571bd638b42fbc8b508ed44985d9fe8ea",
+        "pass": true
+      },
+      {
+        "id": "A296",
+        "path": "evidence/msc-classification/assembly/attempt-msc-gate-02.json",
+        "exists": true,
+        "expected_sha256": "0e8afe3bb600ffa1cc2f76dac54f4b6a72e9dc4fecdca61138d2878fd14f1566",
+        "actual_sha256": "0e8afe3bb600ffa1cc2f76dac54f4b6a72e9dc4fecdca61138d2878fd14f1566",
+        "pass": true
+      },
+      {
+        "id": "A297",
+        "path": "evidence/msc-classification/assembly/attempt-msc-gate-02.stdout.bin",
+        "exists": true,
+        "expected_sha256": "be3a847fac2ce00aac4b3a03258eff8cf6ad53292342a61e3fd536e4483d6e70",
+        "actual_sha256": "be3a847fac2ce00aac4b3a03258eff8cf6ad53292342a61e3fd536e4483d6e70",
+        "pass": true
+      },
+      {
+        "id": "A298",
+        "path": "evidence/msc-classification/assembly/attempt-msc-gate-02.stderr.bin",
+        "exists": true,
+        "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "pass": true
+      },
+      {
+        "id": "A299",
+        "path": "evidence/msc-classification/assembly/attempt-msc-gate-03.json",
+        "exists": true,
+        "expected_sha256": "e08f121eefaff09d6446489d58f529aa16a9b41281185bca0dede38270579081",
+        "actual_sha256": "e08f121eefaff09d6446489d58f529aa16a9b41281185bca0dede38270579081",
+        "pass": true
+      },
+      {
+        "id": "A300",
+        "path": "evidence/msc-classification/assembly/attempt-msc-gate-03.stdout.bin",
+        "exists": true,
+        "expected_sha256": "be3a847fac2ce00aac4b3a03258eff8cf6ad53292342a61e3fd536e4483d6e70",
+        "actual_sha256": "be3a847fac2ce00aac4b3a03258eff8cf6ad53292342a61e3fd536e4483d6e70",
+        "pass": true
+      },
+      {
+        "id": "A301",
+        "path": "evidence/msc-classification/assembly/attempt-msc-gate-03.stderr.bin",
+        "exists": true,
+        "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "pass": true
+      },
+      {
+        "id": "A302",
+        "path": "evidence/msc-classification/publication-copy-03.json",
+        "exists": true,
+        "expected_sha256": "b47976414ddd30cfde873a47c5a0ccf54c46e7c664655525b93e7175d574d9a9",
+        "actual_sha256": "b47976414ddd30cfde873a47c5a0ccf54c46e7c664655525b93e7175d574d9a9",
+        "pass": true
+      }
+    ]
+  },
+  "promotion_review_copies": {
+    "count": 27,
+    "all_byte_identical": true,
+    "rows": [
+      {
+        "path": ".python-version",
+        "source_exists": true,
+        "source_sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d",
+        "candidate_sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d",
+        "byte_identical": true
+      },
+      {
+        "path": "pyproject.toml",
+        "source_exists": true,
+        "source_sha256": "1683b093ecf92362361a9481695b7b418bf91e8d4987090af62d612ce6428e93",
+        "candidate_sha256": "1683b093ecf92362361a9481695b7b418bf91e8d4987090af62d612ce6428e93",
+        "byte_identical": true
+      },
+      {
+        "path": "uv.lock",
+        "source_exists": true,
+        "source_sha256": "d034c414c6aa70b2bf175be975536b0f00a153de0a9dccbd5904face3eb33c79",
+        "candidate_sha256": "d034c414c6aa70b2bf175be975536b0f00a153de0a9dccbd5904face3eb33c79",
+        "byte_identical": true
+      },
+      {
+        "path": "claims-provenance-review.json",
+        "source_exists": true,
+        "source_sha256": "63bdb0f202e8321b83ab9a7b168eaac39aa8d19791015bf51b27f18fe35433d0",
+        "candidate_sha256": "63bdb0f202e8321b83ab9a7b168eaac39aa8d19791015bf51b27f18fe35433d0",
+        "byte_identical": true
+      },
+      {
+        "path": "candidate-03-mechanical-check.json",
+        "source_exists": true,
+        "source_sha256": "a611c2cd44095d99d5451aed2d33b83bc130f12dd96e7a30fd0fe68d62bc35bb",
+        "candidate_sha256": "a611c2cd44095d99d5451aed2d33b83bc130f12dd96e7a30fd0fe68d62bc35bb",
+        "byte_identical": true
+      },
+      {
+        "path": "copy-validation-final.json",
+        "source_exists": true,
+        "source_sha256": "7aaacccdf2619f56e91cfb5f05df4aa0a2fca6b764f047c6cbfcd0886fdeafa9",
+        "candidate_sha256": "7aaacccdf2619f56e91cfb5f05df4aa0a2fca6b764f047c6cbfcd0886fdeafa9",
+        "byte_identical": true
+      },
+      {
+        "path": "candidate-delta-02-to-03.json",
+        "source_exists": true,
+        "source_sha256": "a042841988574618e39f88aebbadc173dec5dc0738be2cc229353ed734eeb85f",
+        "candidate_sha256": "a042841988574618e39f88aebbadc173dec5dc0738be2cc229353ed734eeb85f",
+        "byte_identical": true
+      },
+      {
+        "path": "checker-correction-01.json",
+        "source_exists": true,
+        "source_sha256": "21ba76315404c289e5629fef1b965a4a996dfcab7974df9bf00c563d49546b8f",
+        "candidate_sha256": "21ba76315404c289e5629fef1b965a4a996dfcab7974df9bf00c563d49546b8f",
+        "byte_identical": true
+      },
+      {
+        "path": "review_bundle.py",
+        "source_exists": true,
+        "source_sha256": "66a32d8e5f6778889b6a5d2ac7b736fba18f43f4888391143687001761683726",
+        "candidate_sha256": "66a32d8e5f6778889b6a5d2ac7b736fba18f43f4888391143687001761683726",
+        "byte_identical": true
+      },
+      {
+        "path": "validate_copies.py",
+        "source_exists": true,
+        "source_sha256": "9653ff323c917476637d9645c16ccfc2364c60e2c88cbf54801bdb8bc4cdb7f5",
+        "candidate_sha256": "9653ff323c917476637d9645c16ccfc2364c60e2c88cbf54801bdb8bc4cdb7f5",
+        "byte_identical": true
+      },
+      {
+        "path": "compare_candidates.py",
+        "source_exists": true,
+        "source_sha256": "7db022285d6c77d9c566b3ffa81c9d69589186e44394d71dd1e6afc4f6f94ac2",
+        "candidate_sha256": "7db022285d6c77d9c566b3ffa81c9d69589186e44394d71dd1e6afc4f6f94ac2",
+        "byte_identical": true
+      },
+      {
+        "path": "run_logged.py",
+        "source_exists": true,
+        "source_sha256": "1ee9b49bd1109d2fe6851673d92b72e0e8ff7b0445ee5d29fee791cc713493ed",
+        "candidate_sha256": "1ee9b49bd1109d2fe6851673d92b72e0e8ff7b0445ee5d29fee791cc713493ed",
+        "byte_identical": true
+      },
+      {
+        "path": "make_publication_manifest.py",
+        "source_exists": true,
+        "source_sha256": "789f2751383d44e609b4da6efa2143fa97fba6e7669916d2ce8be759bf1bac3a",
+        "candidate_sha256": "789f2751383d44e609b4da6efa2143fa97fba6e7669916d2ce8be759bf1bac3a",
+        "byte_identical": true
+      },
+      {
+        "path": "logs/candidate-03-mechanical-01.json",
+        "source_exists": true,
+        "source_sha256": "c7b317946892a2b0a39a97c98e7f72cb728cc31f9f1488eee4a049429d900317",
+        "candidate_sha256": "c7b317946892a2b0a39a97c98e7f72cb728cc31f9f1488eee4a049429d900317",
+        "byte_identical": true
+      },
+      {
+        "path": "logs/candidate-03-mechanical-01.stdout.bin",
+        "source_exists": true,
+        "source_sha256": "c9bf3d62b08e0a32d2bcb2fdd8cfe51bc1075585b67894c9ab45dd2d53993c59",
+        "candidate_sha256": "c9bf3d62b08e0a32d2bcb2fdd8cfe51bc1075585b67894c9ab45dd2d53993c59",
+        "byte_identical": true
+      },
+      {
+        "path": "logs/candidate-03-mechanical-01.stderr.bin",
+        "source_exists": true,
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "candidate_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "byte_identical": true
+      },
+      {
+        "path": "logs/copy-validation-04.json",
+        "source_exists": true,
+        "source_sha256": "b3f3d8094394d636e9db1477f87564651621aa34a4def74073fb0b845e0c9e34",
+        "candidate_sha256": "b3f3d8094394d636e9db1477f87564651621aa34a4def74073fb0b845e0c9e34",
+        "byte_identical": true
+      },
+      {
+        "path": "logs/copy-validation-04.stdout.bin",
+        "source_exists": true,
+        "source_sha256": "6b8877193e74a976116718a88c2ddc960c850c2232d004d2dcb654082248a53f",
+        "candidate_sha256": "6b8877193e74a976116718a88c2ddc960c850c2232d004d2dcb654082248a53f",
+        "byte_identical": true
+      },
+      {
+        "path": "logs/copy-validation-04.stderr.bin",
+        "source_exists": true,
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "candidate_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "byte_identical": true
+      },
+      {
+        "path": "logs/candidate-delta-01.json",
+        "source_exists": true,
+        "source_sha256": "d995aefca739f8cc07538c52b75bd42767093768b7bf6750b23ddff196d03894",
+        "candidate_sha256": "d995aefca739f8cc07538c52b75bd42767093768b7bf6750b23ddff196d03894",
+        "byte_identical": true
+      },
+      {
+        "path": "logs/candidate-delta-01.stdout.bin",
+        "source_exists": true,
+        "source_sha256": "dca04bd3965e577a9f74327558dcae5ba71976032fe3e6382224686c02ed699f",
+        "candidate_sha256": "dca04bd3965e577a9f74327558dcae5ba71976032fe3e6382224686c02ed699f",
+        "byte_identical": true
+      },
+      {
+        "path": "logs/candidate-delta-01.stderr.bin",
+        "source_exists": true,
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "candidate_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "byte_identical": true
+      },
+      {
+        "path": "copy-validation.json",
+        "source_exists": true,
+        "source_sha256": "309f57b32978ed5f5d482f9ddad912550fb18decae5f896e0d07ce102ea96b88",
+        "candidate_sha256": "309f57b32978ed5f5d482f9ddad912550fb18decae5f896e0d07ce102ea96b88",
+        "byte_identical": true
+      },
+      {
+        "path": "logs/copy-validation-01.json",
+        "source_exists": true,
+        "source_sha256": "12ccf487fdb385374b7c1e9fdff9691adf8f54778da1e2963ea765c441dd4e00",
+        "candidate_sha256": "12ccf487fdb385374b7c1e9fdff9691adf8f54778da1e2963ea765c441dd4e00",
+        "byte_identical": true
+      },
+      {
+        "path": "logs/copy-validation-01.stdout.bin",
+        "source_exists": true,
+        "source_sha256": "72fc21bc13cecc0a828b1784d4cbb5f0e1e8bd77fcca1efbf2d9a982c7bae47d",
+        "candidate_sha256": "72fc21bc13cecc0a828b1784d4cbb5f0e1e8bd77fcca1efbf2d9a982c7bae47d",
+        "byte_identical": true
+      },
+      {
+        "path": "logs/copy-validation-01.stderr.bin",
+        "source_exists": true,
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "candidate_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "byte_identical": true
+      },
+      {
+        "path": "publication-manifest.json",
+        "source_exists": true,
+        "source_sha256": "eab4bb969fabf3f15bb0e1097d06451ea9627efa2efd44fe032e2dabf0921a9a",
+        "candidate_sha256": "eab4bb969fabf3f15bb0e1097d06451ea9627efa2efd44fe032e2dabf0921a9a",
+        "byte_identical": true
+      }
+    ]
+  },
+  "all_pass": true
+}

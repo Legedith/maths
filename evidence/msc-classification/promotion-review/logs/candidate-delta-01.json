@@ -1,0 +1,31 @@
+{
+  "schema_version": "logged-command-v1",
+  "started_at_utc": "2026-09-08T10:33:20.044167+00:00",
+  "ended_at_utc": "2026-09-08T10:33:20.144967+00:00",
+  "elapsed_seconds": 0.102154,
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work",
+  "command": [
+    "D:/CodexWorkspaces/mathematics-atlas/msc-promotion-review-work/.venv/Scripts/python.exe",
+    "D:/CodexWorkspaces/mathematics-atlas/msc-promotion-review-work/compare_candidates.py",
+    "--prior",
+    "D:/CodexWorkspaces/mathematics-atlas/msc-product-work/bundle-final-candidate-02.json",
+    "--candidate",
+    "D:/CodexWorkspaces/mathematics-atlas/msc-product-work/bundle-final-candidate-03.json",
+    "--output",
+    "D:/CodexWorkspaces/mathematics-atlas/msc-promotion-review-work/candidate-delta-02-to-03.json"
+  ],
+  "timeout_seconds": 300.0,
+  "timed_out": false,
+  "returncode": 0,
+  "python": "3.12.11 (main, Sep 18 2025, 19:45:51) [MSC v.1944 64 bit (AMD64)]",
+  "stdout": {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\logs\\candidate-delta-01.stdout.bin",
+    "bytes": 284,
+    "sha256": "dca04bd3965e577a9f74327558dcae5ba71976032fe3e6382224686c02ed699f"
+  },
+  "stderr": {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\logs\\candidate-delta-01.stderr.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

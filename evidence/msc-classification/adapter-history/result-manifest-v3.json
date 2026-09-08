@@ -1,0 +1,203 @@
+﻿{
+    "schema_version":  "msc-import-result-manifest-v3",
+    "status":  "independent_review_pending",
+    "selected_code":  "import_msc.py",
+    "selected_run":  "run-03",
+    "clarifications":  [
+                           "portable-input-clarification.json",
+                           "hierarchy-level-clarification.json"
+                       ],
+    "artifacts":  [
+                      {
+                          "path":  "contract-v1.md",
+                          "bytes":  4996,
+                          "sha256":  "85108635a9b398db4d9c0fb3720aaccf3b69ef749666e8c83261659edf5404f6"
+                      },
+                      {
+                          "path":  "hierarchy-level-clarification.json",
+                          "bytes":  973,
+                          "sha256":  "76b5776cb70dfcefb020f2abf52f45dcd5b76b2ce734147b05acc1f1ffbe6f35"
+                      },
+                      {
+                          "path":  "import_msc.py",
+                          "bytes":  12806,
+                          "sha256":  "ae950530f861a55ae894c27f02a759c68207eff18aba8a9dcfa5bf3b326fba12"
+                      },
+                      {
+                          "path":  "import_msc-v1.py",
+                          "bytes":  12722,
+                          "sha256":  "86277d196bc202c691b41e66d61d329d5d9c47a215cbd0caab1ede0706037d92"
+                      },
+                      {
+                          "path":  "import_msc-v2.py",
+                          "bytes":  12416,
+                          "sha256":  "c676a8499ed7766e7fc8be45e85d91aebf0199276d84664cf8ea607ded0b80c1"
+                      },
+                      {
+                          "path":  "logs/attempt-msc-existing-output-probe-01.json",
+                          "bytes":  1202,
+                          "sha256":  "92dd81cd08e9ea615c3f0ffdc651b8d26a24ab91ec9fcc47a5d2990a663600fe"
+                      },
+                      {
+                          "path":  "logs/attempt-msc-existing-output-probe-01.stderr.bin",
+                          "bytes":  518,
+                          "sha256":  "85f44e30bc4378b7240ad40e8975c993783201566ee9715eb4608609423fecf5"
+                      },
+                      {
+                          "path":  "logs/attempt-msc-existing-output-probe-01.stdout.bin",
+                          "bytes":  0,
+                          "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                      },
+                      {
+                          "path":  "logs/attempt-msc-import-01.json",
+                          "bytes":  1151,
+                          "sha256":  "30161d81052fd0bd5d92483c5ed0ee3695d0318d4c8b8702f5e4cda3b9bcde46"
+                      },
+                      {
+                          "path":  "logs/attempt-msc-import-01.stderr.bin",
+                          "bytes":  755,
+                          "sha256":  "a30ca1da888f93f18c7cbf127cbc12b73c78e364860b9129e152026b67b61acd"
+                      },
+                      {
+                          "path":  "logs/attempt-msc-import-01.stdout.bin",
+                          "bytes":  638,
+                          "sha256":  "22019e95ca0929f2736e164090ef8ee3346b8f12567d3359fd73a3a1e975f862"
+                      },
+                      {
+                          "path":  "logs/attempt-msc-import-02.json",
+                          "bytes":  1151,
+                          "sha256":  "29fd5b8af941192bc5a29deec3c966b90a0685c92dfd8a6b8565621037554ea9"
+                      },
+                      {
+                          "path":  "logs/attempt-msc-import-02.stderr.bin",
+                          "bytes":  755,
+                          "sha256":  "65935aaef5a3bc4b689061a4d510bd193d74ab6d2c2f6822af68dd75557e1616"
+                      },
+                      {
+                          "path":  "logs/attempt-msc-import-02.stdout.bin",
+                          "bytes":  638,
+                          "sha256":  "22019e95ca0929f2736e164090ef8ee3346b8f12567d3359fd73a3a1e975f862"
+                      },
+                      {
+                          "path":  "logs/attempt-msc-import-03.json",
+                          "bytes":  1151,
+                          "sha256":  "d2a131315e77a19db47ecd95ccd5c2d3490e4335057e4ac84dbfebe2150cec16"
+                      },
+                      {
+                          "path":  "logs/attempt-msc-import-03.stderr.bin",
+                          "bytes":  755,
+                          "sha256":  "de512b1e06143836f176cfe8a7e6b4fadf62a493ad30a75d342688fc912c1679"
+                      },
+                      {
+                          "path":  "logs/attempt-msc-import-03.stdout.bin",
+                          "bytes":  691,
+                          "sha256":  "aee36b2fda63784ad203e6cd6e5d1780f8d26bfdb9f9cea3b70d7ab6ab9cd97e"
+                      },
+                      {
+                          "path":  "logs/attempts.jsonl",
+                          "bytes":  3959,
+                          "sha256":  "7840d09c24d635d5093b655f1c9c3da71e7b4effa9bd3b910de59b1f0a639843"
+                      },
+                      {
+                          "path":  "portable-input-clarification.json",
+                          "bytes":  1120,
+                          "sha256":  "a449f0b4c1914525cf8e970037c81cc943e9df0d071d5cb9367b02b4ea3bf418"
+                      },
+                      {
+                          "path":  "portable-input-comparison.json",
+                          "bytes":  798,
+                          "sha256":  "45b895496d74c360e80d5cb92447fbeb95ba45eb39713df297b388375fe694d2"
+                      },
+                      {
+                          "path":  "preexecution-02-freeze.json",
+                          "bytes":  1372,
+                          "sha256":  "a8dcc5a2520cb0d598121f856c8eaa4f3f286bdc212b3bfb92ddabd7e6525ccf"
+                      },
+                      {
+                          "path":  "preexecution-03-freeze.json",
+                          "bytes":  1373,
+                          "sha256":  "f624db3203bd6d091f556974131a26ad6f89fdaba83d8efe0010f5095a12140b"
+                      },
+                      {
+                          "path":  "preexecution-freeze.json",
+                          "bytes":  1160,
+                          "sha256":  "a37bf3178000866b75eb495c17a1ee2488aa5ae92859fbcc667c8059da703400"
+                      },
+                      {
+                          "path":  "probes/existing/sentinel.txt",
+                          "bytes":  27,
+                          "sha256":  "fe7879d9782ed6fcd68ab2b9c0ea507b6dd36649cafb625617ea5b690dc46faf"
+                      },
+                      {
+                          "path":  "probes/existing-output-result.json",
+                          "bytes":  325,
+                          "sha256":  "16f99b6dbce9315caa08ce5ecf01f493c8e220547c7ea3f6a6656c8e73cdc9a6"
+                      },
+                      {
+                          "path":  "project-transfer.json",
+                          "bytes":  3372,
+                          "sha256":  "0435f619f658eb6897abb60a9fd98b6823bfab635cf7990917f9899a15dab762"
+                      },
+                      {
+                          "path":  "project-transfer-03.json",
+                          "bytes":  1208,
+                          "sha256":  "f8666a5220ff7cf20439956c3a5a339d00ad4bd5a244aeecaa876d01916c62c3"
+                      },
+                      {
+                          "path":  "result-manifest.json",
+                          "bytes":  5139,
+                          "sha256":  "15f8ec0c80741be7d1e9ecd796f8dda2b3b2d423a8c342df3235060185730a51"
+                      },
+                      {
+                          "path":  "run_logged.py",
+                          "bytes":  4600,
+                          "sha256":  "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6"
+                      },
+                      {
+                          "path":  "run-01/references.json",
+                          "bytes":  1366532,
+                          "sha256":  "75ecd4b71056274ad342c72a5324770e2257e0ff3a88662dfe457c9127b4bc35"
+                      },
+                      {
+                          "path":  "run-01/subjects.json",
+                          "bytes":  7563156,
+                          "sha256":  "e069a3d0836a58e915c728e92a24fbabe9041b81e0d45b46cfa8e67cdb8c6fb0"
+                      },
+                      {
+                          "path":  "run-01/summary.json",
+                          "bytes":  731,
+                          "sha256":  "de1ddce65ea413b2fe154a898530d03a952bf6f7b728bd7f0013bfbd33655765"
+                      },
+                      {
+                          "path":  "run-02/references.json",
+                          "bytes":  1366532,
+                          "sha256":  "75ecd4b71056274ad342c72a5324770e2257e0ff3a88662dfe457c9127b4bc35"
+                      },
+                      {
+                          "path":  "run-02/subjects.json",
+                          "bytes":  7563156,
+                          "sha256":  "e069a3d0836a58e915c728e92a24fbabe9041b81e0d45b46cfa8e67cdb8c6fb0"
+                      },
+                      {
+                          "path":  "run-02/summary.json",
+                          "bytes":  731,
+                          "sha256":  "de1ddce65ea413b2fe154a898530d03a952bf6f7b728bd7f0013bfbd33655765"
+                      },
+                      {
+                          "path":  "run-03/references.json",
+                          "bytes":  1366532,
+                          "sha256":  "75ecd4b71056274ad342c72a5324770e2257e0ff3a88662dfe457c9127b4bc35"
+                      },
+                      {
+                          "path":  "run-03/subjects.json",
+                          "bytes":  7900506,
+                          "sha256":  "32fb0eddc9f189e68b9fa312e8e29c399deee65d4d282d1e61235be33a22400e"
+                      },
+                      {
+                          "path":  "run-03/summary.json",
+                          "bytes":  802,
+                          "sha256":  "7816ecdc34c3fe3981bef3f18a6ff0effe16e12aca5dc95460f8604dee7715ed"
+                      }
+                  ],
+    "historical_manifest_note":  "result-manifest.json records the earlier v1 working paths; its code is retained as import_msc-v1.py. Use this v3 manifest for current hashes."
+}

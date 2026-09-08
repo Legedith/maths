@@ -1,0 +1,54 @@
+{
+  "schema_version": "msc-release-seal-v1",
+  "bundle": ".codex/evidence/runs/msc-classification-v1/bundle.json",
+  "bundle_sha256": "71027167d7c0f6e370f85aedcaac3725c1668c1b0d772307c0db9be8ff2a1bde",
+  "status": "INDEPENDENT_PROMOTION_REVIEW_AND_ADDITIVE_ACKNOWLEDGEMENT_PASS",
+  "scope": "The unchanged 302-artifact, nine-claim bundle passed the deterministic gate and independent promotion acknowledgement. These final sidecars refer to that exact bundle; they are not inserted into it, avoiding a self-referential hash cycle.",
+  "sidecars": [
+    {
+      "path": "evidence/msc-classification/promotion-review/additive-acknowledgement.json",
+      "sha256": "66c382e4e7960b1e3819940ba1ffceea18001703d9b8ee67b728a45554c9ca12",
+      "bytes": 1700
+    },
+    {
+      "path": "evidence/msc-classification/promotion-review/additive-check.json",
+      "sha256": "06a03df10a44ffcce150128bbe2d4503c45d69196e1ba400b8ce56a81831c163",
+      "bytes": 24275
+    },
+    {
+      "path": "evidence/msc-classification/promotion-review/verify_additive.py",
+      "sha256": "c5f44a9f756790e0d9e4d8d4d7301fdb59b02f719d9adb7ffd496f7ef2500ed3",
+      "bytes": 5656
+    },
+    {
+      "path": "evidence/msc-classification/promotion-review/logs/additive-check-01.json",
+      "sha256": "2e907d9f1c27466ffc2b318f97336ad52935a56d931518137f2c1921de070ba2",
+      "bytes": 1605
+    },
+    {
+      "path": "evidence/msc-classification/promotion-review/logs/additive-check-01.stdout.bin",
+      "sha256": "e652c42b7aa85fc93f0d43bf59853fd6187e3c0347b8994e6cd76ad7a1efb7c4",
+      "bytes": 482
+    },
+    {
+      "path": "evidence/msc-classification/promotion-review/logs/additive-check-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "evidence/msc-classification/assembly/attempt-msc-gate-04.json",
+      "sha256": "aeb9ffc6b85067d4ed497d2e54d68fdaca5cb73735eff5565f8b2c0803ca975f",
+      "bytes": 1207
+    },
+    {
+      "path": "evidence/msc-classification/assembly/attempt-msc-gate-04.stdout.bin",
+      "sha256": "191b25d23f3873a7f999fd2922b3a432ffc5dcb25e0faa339d6e7f1f9c946f33",
+      "bytes": 314
+    },
+    {
+      "path": "evidence/msc-classification/assembly/attempt-msc-gate-04.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  ]
+}

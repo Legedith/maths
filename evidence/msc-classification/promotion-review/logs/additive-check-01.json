@@ -1,0 +1,35 @@
+{
+  "schema_version": "logged-command-v1",
+  "started_at_utc": "2026-09-08T10:47:39.551897+00:00",
+  "ended_at_utc": "2026-09-08T10:47:39.673412+00:00",
+  "elapsed_seconds": 0.126692,
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work",
+  "command": [
+    "D:/CodexWorkspaces/mathematics-atlas/msc-promotion-review-work/.venv/Scripts/python.exe",
+    "D:/CodexWorkspaces/mathematics-atlas/msc-promotion-review-work/verify_additive.py",
+    "--prior",
+    "D:/CodexWorkspaces/mathematics-atlas/msc-product-work/bundle-final-candidate-03.json",
+    "--candidate",
+    "D:/CodexWorkspaces/mathematics-atlas/msc-product-work/bundle-final-candidate-04.json",
+    "--project",
+    "D:/CodexWorkspaces/mathematics-atlas/project",
+    "--review-source",
+    "D:/CodexWorkspaces/mathematics-atlas/msc-promotion-review-work",
+    "--output",
+    "D:/CodexWorkspaces/mathematics-atlas/msc-promotion-review-work/additive-check.json"
+  ],
+  "timeout_seconds": 300.0,
+  "timed_out": false,
+  "returncode": 0,
+  "python": "3.12.11 (main, Sep 18 2025, 19:45:51) [MSC v.1944 64 bit (AMD64)]",
+  "stdout": {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\logs\\additive-check-01.stdout.bin",
+    "bytes": 482,
+    "sha256": "e652c42b7aa85fc93f0d43bf59853fd6187e3c0347b8994e6cd76ad7a1efb7c4"
+  },
+  "stderr": {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\logs\\additive-check-01.stderr.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "artifact_count": 302,
+  "bundle": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.codex\\evidence\\runs\\msc-classification-v1\\bundle.json",
+  "claim_count": 9,
+  "claim_provenance_rate": 1.0,
+  "errors": [],
+  "status": "PASS",
+  "workspace": "D:\\CodexWorkspaces\\mathematics-atlas\\project"
+}

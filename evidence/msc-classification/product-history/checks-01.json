@@ -1,0 +1,230 @@
+{
+  "schema_version": "msc-product-checks-v1",
+  "status": "pass",
+  "checks": [
+    {
+      "name": "catalogue totals",
+      "passed": true
+    },
+    {
+      "name": "all catalogue pages retain every source record in order",
+      "passed": true
+    },
+    {
+      "name": "all parent pages retain every subject exactly once",
+      "passed": true
+    },
+    {
+      "name": "every detail retains its subject and exact hierarchy depth",
+      "passed": true
+    },
+    {
+      "name": "code search 68Q25",
+      "passed": true
+    },
+    {
+      "name": "code search ６８Ｑ２５",
+      "passed": true
+    },
+    {
+      "name": "all three conditional references retain scopes",
+      "passed": true
+    },
+    {
+      "name": "collection target stays a 62-member collection",
+      "passed": true
+    },
+    {
+      "name": "dual-parent source record is preserved",
+      "passed": true
+    },
+    {
+      "name": "label differences stay marked",
+      "passed": true
+    },
+    {
+      "name": "invalid search 1",
+      "passed": true
+    },
+    {
+      "name": "invalid search 2",
+      "passed": true
+    },
+    {
+      "name": "invalid search 3",
+      "passed": true
+    },
+    {
+      "name": "invalid search 4",
+      "passed": true
+    },
+    {
+      "name": "invalid search 5",
+      "passed": true
+    },
+    {
+      "name": "invalid search 6",
+      "passed": true
+    },
+    {
+      "name": "invalid search 7",
+      "passed": true
+    },
+    {
+      "name": "invalid search 8",
+      "passed": true
+    },
+    {
+      "name": "invalid search 9",
+      "passed": true
+    },
+    {
+      "name": "invalid search 10",
+      "passed": true
+    },
+    {
+      "name": "invalid search 11",
+      "passed": true
+    },
+    {
+      "name": "invalid search 12",
+      "passed": true
+    },
+    {
+      "name": "invalid search 13",
+      "passed": true
+    },
+    {
+      "name": "invalid detail 1",
+      "passed": true
+    },
+    {
+      "name": "invalid detail 2",
+      "passed": true
+    },
+    {
+      "name": "invalid detail 3",
+      "passed": true
+    },
+    {
+      "name": "invalid detail 4",
+      "passed": true
+    },
+    {
+      "name": "invalid detail 5",
+      "passed": true
+    },
+    {
+      "name": "empty result page is explicit",
+      "passed": true
+    },
+    {
+      "name": "HTTP exact response /api/subjects",
+      "passed": true
+    },
+    {
+      "name": "HTTP exact response /api/subjects?q=68Q25",
+      "passed": true
+    },
+    {
+      "name": "HTTP exact response /api/subjects?parent=68-XX&page=2",
+      "passed": true
+    },
+    {
+      "name": "HTTP exact response /api/subjects?code=03B45",
+      "passed": true
+    },
+    {
+      "name": "HTTP exact response /api/subjects?code=00A15",
+      "passed": true
+    },
+    {
+      "name": "HTTP exact response /api/subjects?code=32-00",
+      "passed": true
+    },
+    {
+      "name": "HTTP exact response /api/subjects?code=01A16",
+      "passed": true
+    },
+    {
+      "name": "HTTP exact response /api/subjects?code=68Q25",
+      "passed": true
+    },
+    {
+      "name": "HTTP rejected code=99-XX",
+      "passed": true
+    },
+    {
+      "name": "HTTP rejected code=68-XX&q=x",
+      "passed": true
+    },
+    {
+      "name": "HTTP rejected q=x&q=y",
+      "passed": true
+    },
+    {
+      "name": "HTTP rejected code=68-XX&code=03B45",
+      "passed": true
+    },
+    {
+      "name": "HTTP rejected page=0",
+      "passed": true
+    },
+    {
+      "name": "HTTP rejected page=01",
+      "passed": true
+    },
+    {
+      "name": "HTTP rejected page=1.5",
+      "passed": true
+    },
+    {
+      "name": "HTTP rejected page=1000001",
+      "passed": true
+    },
+    {
+      "name": "HTTP rejected parent=99-XX",
+      "passed": true
+    },
+    {
+      "name": "HTTP rejected unknown=x",
+      "passed": true
+    },
+    {
+      "name": "HTTP rejected oversized query",
+      "passed": true
+    },
+    {
+      "name": "server route /subjects",
+      "passed": true
+    },
+    {
+      "name": "server route /subjects/68-XX",
+      "passed": true
+    },
+    {
+      "name": "server route /subjects/03B45",
+      "passed": true
+    },
+    {
+      "name": "server route /subjects/00A15",
+      "passed": true
+    },
+    {
+      "name": "server route /subjects/32-00",
+      "passed": true
+    },
+    {
+      "name": "server route /subjects/01A16",
+      "passed": true
+    },
+    {
+      "name": "server route /subjects/99-XX",
+      "passed": true
+    }
+  ],
+  "passed": 55,
+  "failed": 0,
+  "http_origin": "http://localhost:3000",
+  "limitation": "Functional source/navigation/API checks; no semantic-equivalence or visual-browser evaluation."
+}

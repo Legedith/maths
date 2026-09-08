@@ -1,0 +1,44 @@
+name: Reproduce subject classification
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  source-fidelity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: astral-sh/setup-uv@d0d8abe699bfb85fec6de9f7adb5ae17292296ff # v6
+        with:
+          version: '0.8.19'
+          python-version: '3.12.11'
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+      - name: Rebuild from retained source bytes
+        run: >-
+          uv run --project experiments/msc-index --frozen python
+          experiments/msc-index/run_logged.py
+          --attempt-id msc-ci-import --timeout-seconds 300
+          --log-dir work/msc-ci/logs --
+          uv run --project experiments/msc-index --frozen python
+          experiments/msc-index/import_msc.py
+          --source-root experiments/msc-index/inputs --output-dir work/msc-ci/index
+      - name: Compare all generated data bytes
+        run: |
+          cmp data/msc/subjects.json work/msc-ci/index/subjects.json
+          cmp data/msc/references.json work/msc-ci/index/references.json
+          cmp data/msc/summary.json work/msc-ci/index/summary.json
+      - name: Check complete catalogue navigation and invalid requests
+        run: >-
+          uv run --project experiments/msc-index --frozen python
+          experiments/msc-index/run_logged.py
+          --attempt-id msc-ci-navigation --timeout-seconds 300
+          --log-dir work/msc-ci/logs --
+          node scripts/check-subjects.ts --output work/msc-ci/product-checks.json
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        if: always()
+        with:
+          name: msc-source-fidelity
+          path: work/msc-ci/
+          if-no-files-found: error
+          retention-days: 30

@@ -1,0 +1,436 @@
+{
+  "schema_version": "msc-independent-source-check-v1",
+  "source_manifest_sha256": "90602331e367f13fb21b0bc1d535f45326b6adf67165a369a681b6738f468f70",
+  "source_integrity": [
+    {
+      "path": "raw/official.csv",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "raw/official-home.html",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "raw/suggestion4.ttl",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "raw/vocabulary.ttl",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "raw/upstream-license.md",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "raw/upstream-readme.md",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "raw/procedure.md",
+      "bytes_match": true,
+      "sha256_match": true
+    }
+  ],
+  "encoding": {
+    "utf8_failure": {
+      "start": 21552,
+      "end": 21553,
+      "reason": "invalid start byte",
+      "byte_hex": "f6"
+    },
+    "iso_8859_1_round_trip": true,
+    "replacement_character_count": 0,
+    "non_ascii_byte_counts": {
+      "201": 6,
+      "224": 12,
+      "225": 2,
+      "228": 22,
+      "232": 16,
+      "233": 36,
+      "243": 2,
+      "246": 44,
+      "252": 14,
+      "253": 2
+    }
+  },
+  "codes": {
+    "csv_rows": 6603,
+    "csv_unique": 6603,
+    "rdf_current": 6603,
+    "level_counts": {
+      "hyphen_leaf": 503,
+      "letter_group": 534,
+      "letter_leaf": 5503,
+      "top": 63
+    },
+    "csv_minus_rdf": [],
+    "rdf_minus_csv": []
+  },
+  "labels": {
+    "exact_match_count": 6483,
+    "difference_count": 120,
+    "difference_ledger_sha256": "cccf1b8eac92d43e71b6959d23fa29b6e2a6a16789ca0e326923909ab6c16b06",
+    "probes": [
+      {
+        "code": "00A79",
+        "csv_record_index": 25,
+        "rdf_uri": "http://msc2020.org/resources/MSC/msc2020/00A79",
+        "csv_text": "Physics",
+        "rdf_english_preferred_labels": [
+          "Physics (Use more specific entries from Sections 70-XX through 86-XX when possible)"
+        ],
+        "exact_label_match": false,
+        "csv_physical_line": 25,
+        "rdf_header_line": 4738
+      },
+      {
+        "code": "01A07",
+        "csv_record_index": 46,
+        "rdf_uri": "http://msc2020.org/resources/MSC/msc2020/01A07",
+        "csv_text": "Ethnomathematics (general)",
+        "rdf_english_preferred_labels": [
+          "Ethnomathematics, general"
+        ],
+        "exact_label_match": false,
+        "csv_physical_line": 46,
+        "rdf_header_line": 4904
+      },
+      {
+        "code": "01A29",
+        "csv_record_index": 56,
+        "rdf_uri": "http://msc2020.org/resources/MSC/msc2020/01A29",
+        "csv_text": "History of East and Southeast Asian mathematics (non-Chinese, non-Japanese)",
+        "rdf_english_preferred_labels": [
+          "History of mathematics in Southeast Asia"
+        ],
+        "exact_label_match": false,
+        "csv_physical_line": 56,
+        "rdf_header_line": 4994
+      }
+    ],
+    "interpretation": "Exact inequality is a byte-level/string observation. The probes include surface rewording, a moved usage qualification, and a potentially scope-changing omission; no blanket error label is assigned to all 120 rows."
+  },
+  "hierarchy": {
+    "record_count": 6603,
+    "disagreement_count": 8,
+    "disagreements": [
+      {
+        "code": "32-00",
+        "recorded_parents": [
+          "http://msc2020.org/resources/MSC/msc2020/32-XX",
+          "http://msc2020.org/resources/MSC/msc2020/33-XX"
+        ],
+        "notation_derived_parents": [
+          "http://msc2020.org/resources/MSC/msc2020/32-XX"
+        ]
+      },
+      {
+        "code": "32-01",
+        "recorded_parents": [
+          "http://msc2020.org/resources/MSC/msc2020/32-XX",
+          "http://msc2020.org/resources/MSC/msc2020/33-XX"
+        ],
+        "notation_derived_parents": [
+          "http://msc2020.org/resources/MSC/msc2020/32-XX"
+        ]
+      },
+      {
+        "code": "32-02",
+        "recorded_parents": [
+          "http://msc2020.org/resources/MSC/msc2020/32-XX",
+          "http://msc2020.org/resources/MSC/msc2020/33-XX"
+        ],
+        "notation_derived_parents": [
+          "http://msc2020.org/resources/MSC/msc2020/32-XX"
+        ]
+      },
+      {
+        "code": "32-03",
+        "recorded_parents": [
+          "http://msc2020.org/resources/MSC/msc2020/32-XX",
+          "http://msc2020.org/resources/MSC/msc2020/33-XX"
+        ],
+        "notation_derived_parents": [
+          "http://msc2020.org/resources/MSC/msc2020/32-XX"
+        ]
+      },
+      {
+        "code": "32-04",
+        "recorded_parents": [
+          "http://msc2020.org/resources/MSC/msc2020/32-XX",
+          "http://msc2020.org/resources/MSC/msc2020/33-XX"
+        ],
+        "notation_derived_parents": [
+          "http://msc2020.org/resources/MSC/msc2020/32-XX"
+        ]
+      },
+      {
+        "code": "32-06",
+        "recorded_parents": [
+          "http://msc2020.org/resources/MSC/msc2020/32-XX",
+          "http://msc2020.org/resources/MSC/msc2020/33-XX"
+        ],
+        "notation_derived_parents": [
+          "http://msc2020.org/resources/MSC/msc2020/32-XX"
+        ]
+      },
+      {
+        "code": "32-08",
+        "recorded_parents": [
+          "http://msc2020.org/resources/MSC/msc2020/32-XX",
+          "http://msc2020.org/resources/MSC/msc2020/33-XX"
+        ],
+        "notation_derived_parents": [
+          "http://msc2020.org/resources/MSC/msc2020/32-XX"
+        ]
+      },
+      {
+        "code": "32-11",
+        "recorded_parents": [
+          "http://msc2020.org/resources/MSC/msc2020/32-XX",
+          "http://msc2020.org/resources/MSC/msc2020/33-XX"
+        ],
+        "notation_derived_parents": [
+          "http://msc2020.org/resources/MSC/msc2020/32-XX"
+        ]
+      }
+    ],
+    "source_locators": [
+      {
+        "code": "32-00",
+        "header_line": 27899,
+        "parent_lines": [
+          27902,
+          27903
+        ]
+      },
+      {
+        "code": "32-01",
+        "header_line": 27909,
+        "parent_lines": [
+          27912,
+          27913
+        ]
+      },
+      {
+        "code": "32-02",
+        "header_line": 27919,
+        "parent_lines": [
+          27922,
+          27923
+        ]
+      },
+      {
+        "code": "32-03",
+        "header_line": 27929,
+        "parent_lines": [
+          27932,
+          27933
+        ]
+      },
+      {
+        "code": "32-04",
+        "header_line": 27941,
+        "parent_lines": [
+          27944,
+          27945
+        ]
+      },
+      {
+        "code": "32-06",
+        "header_line": 27951,
+        "parent_lines": [
+          27954,
+          27955
+        ]
+      },
+      {
+        "code": "32-08",
+        "header_line": 27961,
+        "parent_lines": [
+          27965,
+          27966
+        ]
+      },
+      {
+        "code": "32-11",
+        "header_line": 27973,
+        "parent_lines": [
+          27976,
+          27977
+        ]
+      }
+    ],
+    "interpretation": "All eight are actual dual-parent RDF records. The notation rule supplies a comparison expectation only; neither parent is silently deleted or declared erroneous."
+  },
+  "cross_references": {
+    "selected_count": 3083,
+    "counts_by_predicate": {
+      "http://msc2020.org/resources/MSC/msc2020/mscvocab#seeAlso": 2642,
+      "http://msc2020.org/resources/MSC/msc2020/mscvocab#seeConditionally": 415,
+      "http://msc2020.org/resources/MSC/msc2020/mscvocab#seeMainly": 26
+    },
+    "conditional_count": 415,
+    "reification_count": 415,
+    "linkage_ledger_sha256": "2edb08e3525c0c4c4af04741b6769cd9978ee5701de2ec9691032c073424d68c",
+    "linkage_errors": [],
+    "scope_term_forms": [
+      {
+        "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral",
+        "language": null,
+        "count": 414
+      },
+      {
+        "datatype": null,
+        "language": "en",
+        "count": 1
+      }
+    ],
+    "special_scope_records": [
+      {
+        "reification_uri": "http://msc2020.org/resources/MSC/msc2020/seeForStatement-76-XX-to-74Axx",
+        "subjects": [
+          "http://msc2020.org/resources/MSC/msc2020/76-XX"
+        ],
+        "predicates": [
+          "http://msc2020.org/resources/MSC/msc2020/mscvocab#seeConditionally"
+        ],
+        "objects": [
+          "http://msc2020.org/resources/MSC/msc2020/74Axx"
+        ],
+        "scopes": [
+          {
+            "lexical": "For general continuum mechanics",
+            "datatype": null,
+            "language": "en"
+          }
+        ],
+        "incoming_see_for_subjects": [
+          "http://msc2020.org/resources/MSC/msc2020/76-XX"
+        ]
+      }
+    ],
+    "nonconcept_targets": [
+      "http://msc2020.org/resources/MSC/msc2020/GeneralReferenceWorksCollection"
+    ],
+    "collection_target": {
+      "uri": "http://msc2020.org/resources/MSC/msc2020/GeneralReferenceWorksCollection",
+      "types": [
+        "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "http://www.w3.org/2004/02/skos/core#Collection"
+      ],
+      "labels": [
+        [
+          "general reference works collection",
+          "en"
+        ]
+      ],
+      "notations": [
+        "XX-00"
+      ],
+      "member_count": 62,
+      "all_members_are_current_concepts": true,
+      "incoming_selected_references": [
+        [
+          "http://msc2020.org/resources/MSC/msc2020/00A15",
+          "http://msc2020.org/resources/MSC/msc2020/mscvocab#seeAlso",
+          "http://msc2020.org/resources/MSC/msc2020/GeneralReferenceWorksCollection"
+        ]
+      ]
+    },
+    "interpretation": "Outside the selected code-concept set does not mean unresolved. The sole such target is a defined SKOS collection and must retain target_kind=collection rather than being expanded into inferred code-to-code edges."
+  },
+  "vocabulary_mismatch": {
+    "dataset_namespace": "http://msc2020.org/resources/MSC/msc2020/mscvocab#",
+    "separate_vocabulary_namespace": "https://msc2020.org/resources/MSC/2020/MSC2020/mscvocab#",
+    "dataset_reification_class": "http://msc2020.org/resources/MSC/msc2020/mscvocab#seeForStatement",
+    "separate_vocabulary_class": "https://msc2020.org/resources/MSC/2020/MSC2020/mscvocab#SeeForStatement",
+    "used_dataset_predicates": [
+      "http://msc2020.org/resources/MSC/msc2020/mscvocab#scope",
+      "http://msc2020.org/resources/MSC/msc2020/mscvocab#seeAlso",
+      "http://msc2020.org/resources/MSC/msc2020/mscvocab#seeConditionally",
+      "http://msc2020.org/resources/MSC/msc2020/mscvocab#seeFor",
+      "http://msc2020.org/resources/MSC/msc2020/mscvocab#seeMainly"
+    ],
+    "used_dataset_predicates_absent_as_separate_vocabulary_subjects": [
+      "http://msc2020.org/resources/MSC/msc2020/mscvocab#scope",
+      "http://msc2020.org/resources/MSC/msc2020/mscvocab#seeAlso",
+      "http://msc2020.org/resources/MSC/msc2020/mscvocab#seeConditionally",
+      "http://msc2020.org/resources/MSC/msc2020/mscvocab#seeFor",
+      "http://msc2020.org/resources/MSC/msc2020/mscvocab#seeMainly"
+    ],
+    "explicit_equivalence_bridges": [],
+    "interpretation": "The pinned files use distinct case-sensitive IRIs with no checked explicit bridge. Preserve the observed source IRIs and do not merge them by spelling similarity."
+  },
+  "source_and_terms": {
+    "official_home": {
+      "csv_link_line": 484,
+      "maintainers_line": 500,
+      "published_license_line": 525,
+      "historical_count_line": 504,
+      "license_href_present": true,
+      "historical_prose_counts": {
+        "top": 63,
+        "three_digit": 529,
+        "five_digit": 6022
+      }
+    },
+    "suggestion_repository": {
+      "suggestion_wording_line": 3,
+      "license_title_line": 1,
+      "attribution_condition_line": 242,
+      "sharealike_condition_line": 283
+    },
+    "vocabulary": {
+      "namespace_line": 1,
+      "class_line": 102
+    }
+  },
+  "comparison_to_inspection_03": {
+    "csv_summary_matches": true,
+    "code_sets_match_author": true,
+    "label_difference_rows_match_author": true,
+    "hierarchy_disagreements_match_author": true,
+    "all_hierarchy_rows_match_author": true,
+    "direct_references_match_author": true,
+    "reifications_match_author": true
+  },
+  "checks": {
+    "all_source_hashes_match": true,
+    "utf8_strict_decode_failed": true,
+    "latin1_round_trip_exact": true,
+    "no_replacement_character": true,
+    "encoding_non_ascii_counts_match_correction": true,
+    "csv_header_exact": true,
+    "csv_codes_unique_and_valid": true,
+    "code_sets_equal": true,
+    "label_count_accounting": true,
+    "hierarchy_issue_set_exact": true,
+    "no_dangling_hierarchy_parent": true,
+    "conditional_linkage_count": true,
+    "conditional_linkages_complete": true,
+    "conditional_linkages_bijective": true,
+    "reification_headers_count": true,
+    "selected_reference_counts": true,
+    "only_nonconcept_target_is_collection": true,
+    "collection_resolves_as_collection": true,
+    "data_vocab_predicates_absent_from_separate_vocab": true,
+    "vocabulary_iri_and_case_mismatch_present": true,
+    "no_explicit_class_bridge": true,
+    "author_comparisons_all_match": true,
+    "source_term_locators_present": true
+  },
+  "all_pass": true,
+  "limitations": [
+    "This verifies the declared structural fields and full selected relation ledgers, not every RDF triple or the mathematical correctness of classifications.",
+    "No label mismatch is called an error without semantic adjudication.",
+    "No importer, product behavior, performance, completeness, impact, or novelty claim is tested here."
+  ]
+}

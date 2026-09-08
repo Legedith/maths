@@ -1,0 +1,10 @@
+{
+  "schema_version": "msc-import-portability-clarification-v1",
+  "retained_code": "import_msc-v1.py",
+  "retained_code_sha256": "86277d196bc202c691b41e66d61d329d5d9c47a215cbd0caab1ede0706037d92",
+  "retained_run": "run-01",
+  "change": "The importer continues to verify every pin declared as an importer input in contract-v1.md: the exact official CSV, suggested Turtle, and source-manifest bytes. It no longer additionally opens unrelated research snapshots listed inside that manifest (homepage HTML, procedure notes, vocabulary and license) which do not influence the conversion.",
+  "reason": "A portable source package should need only its declared processing inputs and attribution record; full third-party webpage snapshots should remain in the local source-review evidence. The independent source review still verifies those snapshots separately.",
+  "validation_required": "A fresh canonical run must produce the same three output hashes as run-01. The auditor must inspect this change and confirm all processing inputs remain pinned; no acceptance criterion is removed.",
+  "independent_review": "pending"
+}

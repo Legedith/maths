@@ -1,0 +1,56 @@
+{
+  "output": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-promotion-review-work\\copy-validation-final.json",
+  "output_sha256": "7aaacccdf2619f56e91cfb5f05df4aa0a2fca6b764f047c6cbfcd0886fdeafa9",
+  "all_checks_pass": true,
+  "trees": {
+    "source_review": {
+      "published_files": 16,
+      "with_original": 16,
+      "without_original": 0,
+      "byte_identical": 16,
+      "all_existing_originals_byte_identical": true,
+      "unmatched_published_paths": []
+    },
+    "adapter_review": {
+      "published_files": 33,
+      "with_original": 33,
+      "without_original": 0,
+      "byte_identical": 33,
+      "all_existing_originals_byte_identical": true,
+      "unmatched_published_paths": []
+    },
+    "product_review": {
+      "published_files": 88,
+      "with_original": 88,
+      "without_original": 0,
+      "byte_identical": 88,
+      "all_existing_originals_byte_identical": true,
+      "unmatched_published_paths": []
+    },
+    "product_history": {
+      "published_files": 47,
+      "with_original": 45,
+      "without_original": 2,
+      "byte_identical": 45,
+      "all_existing_originals_byte_identical": true,
+      "unmatched_published_paths": [
+        "atlas-regression-search-and-paths.json",
+        "regression-report-location.json"
+      ]
+    }
+  },
+  "product_manifest": {
+    "copy_records": 86,
+    "copy_records_pass": 86,
+    "external_records": 7,
+    "external_records_pass": 7
+  },
+  "direct_pairs": {
+    "count": 16,
+    "pass": 16
+  },
+  "freeze_03": {
+    "count": 19,
+    "pass": 19
+  }
+}

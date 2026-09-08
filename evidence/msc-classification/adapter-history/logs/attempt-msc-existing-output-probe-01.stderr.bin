@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "D:\CodexWorkspaces\mathematics-atlas\msc-import-work\import_msc.py", line 218, in <module>
+    main()
+  File "D:\CodexWorkspaces\mathematics-atlas\msc-import-work\import_msc.py", line 207, in main
+    require(not args.output_dir.exists(), "Output path exists; it will not be changed")
+  File "D:\CodexWorkspaces\mathematics-atlas\msc-import-work\import_msc.py", line 27, in require
+    raise ValueError(message)
+ValueError: Output path exists; it will not be changed

@@ -1,0 +1,49 @@
+{
+  "schema_version": "auditor-logged-command-v1",
+  "attempt_id": "msc-independent-replay-01",
+  "started_at_utc": "2026-09-08T09:02:00.479828+00:00",
+  "ended_at_utc": "2026-09-08T09:02:03.063159+00:00",
+  "working_directory": "D:/CodexWorkspaces/mathematics-atlas/msc-reuse-work",
+  "argv": [
+    "uv",
+    "run",
+    "--frozen",
+    "python",
+    "inspect_sources.py",
+    "--csv-encoding",
+    "iso-8859-1",
+    "--output",
+    "D:/CodexWorkspaces/mathematics-atlas/msc-reuse-review-work/raw/replay-01/inspection.json"
+  ],
+  "selected_environment": {
+    "UV_CACHE_DIR": "D:/CodexWorkspaces/mathematics-atlas/uv-cache",
+    "VIRTUAL_ENV": null,
+    "UV_PROJECT_ENVIRONMENT": null
+  },
+  "versions": {
+    "uv": "uv 0.8.19 (fc7c2f8b5 2025-09-19)",
+    "target_environment": {
+      "python": "3.12.11",
+      "rdflib": "7.1.4"
+    }
+  },
+  "timeout_seconds": 180,
+  "timed_out": false,
+  "termination": null,
+  "returncode": 0,
+  "stdout": {
+    "path": "stdout.bin",
+    "bytes": 262,
+    "sha256": "44033ac32c32c3080a235cab552d626f4fcc0f99d59fe67a54e6adf3fe398a3c"
+  },
+  "stderr": {
+    "path": "stderr.bin",
+    "bytes": 755,
+    "sha256": "cc810094610af6df446aac82854d5bee1fc120304c0995341b956d046989a864"
+  },
+  "output": {
+    "path": "D:/CodexWorkspaces/mathematics-atlas/msc-reuse-review-work/raw/replay-01/inspection.json",
+    "bytes": 1740826,
+    "sha256": "b563fdfcd37f813ad9c6dc598e2464a39511f84a13d4e797598b051b945f8a46"
+  }
+}

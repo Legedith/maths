@@ -1,0 +1,32 @@
+{
+  "argv": [
+    "cmd.exe",
+    "/d",
+    "/c",
+    "npx tsc --noEmit"
+  ],
+  "attempt_id": "msc-tsc-01",
+  "ended_at_utc": "2026-09-08T09:39:27.317476+00:00",
+  "returncode": 2,
+  "schema_version": "logged-command-attempt-v1",
+  "selected_environment": {
+    "PYTHONDONTWRITEBYTECODE": null,
+    "UV_CACHE_DIR": "D:/CodexWorkspaces/mathematics-atlas/uv-cache",
+    "UV_PROJECT_ENVIRONMENT": null
+  },
+  "started_at_utc": "2026-09-08T09:39:19.335877+00:00",
+  "stderr": {
+    "bytes": 153,
+    "path": "attempt-msc-tsc-01.stderr.bin",
+    "sha256": "729d8972b51de5e2457a45b53681f0065959be096264bf3ccc0a93db9432920d"
+  },
+  "stdout": {
+    "bytes": 582,
+    "path": "attempt-msc-tsc-01.stdout.bin",
+    "sha256": "c2246722da2fe112d5254b60518d1c56caa75cfed603d5025a5108b32508359e"
+  },
+  "termination": null,
+  "timed_out": false,
+  "timeout_seconds": 300,
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\project"
+}

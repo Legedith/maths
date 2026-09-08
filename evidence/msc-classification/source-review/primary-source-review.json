@@ -1,0 +1,101 @@
+{
+  "schema_version": "msc-primary-source-semantic-review-v1",
+  "reviewed_at_utc": "2026-09-08T09:17:34.426835+00:00",
+  "auditor": "/root/sol_symmetry_audit",
+  "sources": [
+    {
+      "id": "official-site",
+      "url": "https://msc2020.org/",
+      "pinned_local": "msc-reuse-work/raw/official-home.html",
+      "pinned_sha256": "a2e36ac47314e3be646d0ab589319d1164ad92174717f656e90c3b191b25a0ae",
+      "locators": [
+        "local HTML lines 481-525: downloadable CSV, maintenance by Mathematical Reviews and zbMATH, joint CC-BY-NC-SA-4.0 publication"
+      ],
+      "assessment": "Supports treating the downloaded CSV as the official classification snapshot and carrying the joint-maintainer attribution and data terms. Prose totals are contextual metadata, not replacements for counts measured from the later pinned CSV."
+    },
+    {
+      "id": "official-csv",
+      "url": "https://msc2020.org/MSC_2020.csv",
+      "pinned_local": "msc-reuse-work/raw/official.csv",
+      "pinned_sha256": "f7c889354c202551fe01f89bad2ae95ccadec4c57ac1f6f9de38bbd658d3c78c",
+      "locators": [
+        "header and all 6603 tab-delimited records"
+      ],
+      "assessment": "Primary candidate backbone for code, raw label, and description fields. HTTP supplied no charset; strict UTF-8 fails, while the explicitly declared ISO-8859-1 interpretation is lossless for this byte snapshot."
+    },
+    {
+      "id": "skos-paper",
+      "url": "https://arxiv.org/html/2107.13877v2",
+      "locators": [
+        "Introduction paragraphs describing the three hierarchy levels and code forms",
+        "Section 2.1 paragraphs describing source-table conversion, qualified references, RDF reification, hierarchy and collections"
+      ],
+      "assessment": "Supports the hierarchy model, separate hyphen-form second-level classes, qualified cross-reference scope, and reification semantics. Its example uses an uppercase SeeForStatement spelling, while the pinned suggestion dataset actually uses lowercase seeForStatement in a different namespace; the exact dataset records control ingestion. The paper calls the conceptual MSC a tree, but the pinned suggested RDF has eight actual dual-parent records, so a product must retain or explicitly reconcile that source divergence."
+    },
+    {
+      "id": "suggestion-readme",
+      "url": "https://github.com/TIBHannover/MSC2020_SKOS/tree/33972ddb6a72c3660a6e499ee5f881b57fa92d41",
+      "pinned_local": "msc-reuse-work/raw/upstream-readme.md",
+      "pinned_sha256": "ec51a9b95ce5ed9427690e45986d1a58bdc86f3b8768736858c7629973b8b9fa",
+      "locators": [
+        "README line 3"
+      ],
+      "assessment": "The repository calls the Turtle representation a suggestion. It must be attributed and versioned separately from the official CSV rather than promoted as the version of record."
+    },
+    {
+      "id": "suggestion-data",
+      "url": "https://raw.githubusercontent.com/TIBHannover/MSC2020_SKOS/33972ddb6a72c3660a6e499ee5f881b57fa92d41/msc-2020-suggestion4.ttl",
+      "pinned_local": "msc-reuse-work/raw/suggestion4.ttl",
+      "pinned_sha256": "ee4afa1f198ffd0f5ea807377e46420c5fd7537991928c67c759fa44640421e9",
+      "locators": [
+        "lines 1-15 and 153-202 for data namespace and relation vocabulary declarations",
+        "lines 818 onward for lowercase reification records",
+        "lines 27899-27980 for eight dual-parent 32-* records",
+        "lines 428-495 and 4601-4605 for the GeneralReferenceWorksCollection target"
+      ],
+      "assessment": "Actual source of the 6603 suggested SKOS concepts, 3083 selected navigation relations, 415 qualified linkage records, collection target, and observed inconsistencies."
+    },
+    {
+      "id": "separate-vocabulary",
+      "url": "https://raw.githubusercontent.com/TIBHannover/MSC2020_SKOS/33972ddb6a72c3660a6e499ee5f881b57fa92d41/mscvocab-2020.ttl",
+      "pinned_local": "msc-reuse-work/raw/vocabulary.ttl",
+      "pinned_sha256": "2ef6944bfaae5b4b16ace02dd7a9d364c140322e7d72335fb89f70c062dabafe",
+      "locators": [
+        "lines 1-15 for the HTTPS /2020/MSC2020/ namespace",
+        "lines 50-88 for relation properties",
+        "lines 102-107 for uppercase SeeForStatement"
+      ],
+      "assessment": "Its namespace and class IRI differ from those used by suggestion4.ttl. No checked explicit equivalence bridge exists; spelling similarity cannot authorize silent identity."
+    },
+    {
+      "id": "data-license",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "pinned_local": "msc-reuse-work/raw/upstream-license.md",
+      "pinned_sha256": "1349a4b6148492b44f629e64eed676612e234fe9a839e4f3b277c1482c8849f1",
+      "locators": [
+        "lines 57-67 license identity",
+        "lines 237-293 attribution and ShareAlike conditions",
+        "lines 303-319 database-rights section"
+      ],
+      "assessment": "Any redistribution plan must retain source/license links, attribution and modification status and evaluate NonCommercial/ShareAlike compatibility. Project code licensing remains a separate decision."
+    }
+  ],
+  "correction_history": [
+    {
+      "id": "encoding",
+      "decision": "validated",
+      "evidence": "Strict UTF-8 independently failed at byte offset 5168 on 0xf6; ISO-8859-1 decoded and re-encoded all bytes exactly, produced no replacement characters, and matched the recorded non-ASCII byte histogram."
+    },
+    {
+      "id": "reification-class",
+      "decision": "validated",
+      "evidence": "The pinned dataset contains 415 instances of lowercase data-namespace seeForStatement and zero of the uppercase data-namespace spelling; the separate vocabulary defines uppercase SeeForStatement in its distinct HTTPS namespace. Attempt 02 therefore measured its own query mismatch, not missing source scopes."
+    },
+    {
+      "id": "invalid-date-warning",
+      "decision": "retained_source_condition",
+      "evidence": "suggestion4.ttl line 54 contains the lexical placeholder 2021-03-xx typed as xsd:date. RDFLib emits the retained warning; an importer must preserve or quarantine the lexical source value rather than inventing a valid date."
+    }
+  ],
+  "conclusion": "The source notes are supported after preserving their stated boundaries. The source set is feasible for a source-pinned importer; it does not support claims of ontology identity, mathematical equivalence, complete coverage, or error prevalence."
+}

@@ -237,6 +237,12 @@ export default function Home() {
             <h1>Explore connections</h1>
             <p>Start with an idea. See where it leads.</p>
             <Link
+              href="/subjects"
+              className="mt-3 inline-flex items-center gap-1 text-sm text-blue-700 underline underline-offset-4"
+            >
+              Browse mathematical subjects <ArrowRight size={14} />
+            </Link>
+            <Link
               href="/library"
               className="mt-3 inline-flex items-center gap-1 text-sm text-blue-700 underline underline-offset-4"
             >

@@ -1,0 +1,792 @@
+{
+  "schema_version": "msc-publication-copy-v1",
+  "producer": "root",
+  "files": [
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-review-work\\pre-replay-freeze.json",
+      "path": "evidence/msc-classification/source-review/pre-replay-freeze.json",
+      "bytes": 6162,
+      "sha256": "28370257288ad52d35ea3ca90c4c3e8ad53e0d288a911c730b755b66bab42475"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-review-work\\run_logged_replay.py",
+      "path": "evidence/msc-classification/source-review/run_logged_replay.py",
+      "bytes": 3901,
+      "sha256": "ab47002c450274266eab8c8564cc21175a4e6adcec83e4917576a5eeb8d7c8ce"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-review-work\\raw\\replay-01\\run.json",
+      "path": "evidence/msc-classification/source-review/raw/replay-01/run.json",
+      "bytes": 1497,
+      "sha256": "58e41ae16d72cf4c8e6008c9473ecd7188ff2673d664dd193360d8db3557afea"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-review-work\\raw\\replay-01\\stdout.bin",
+      "path": "evidence/msc-classification/source-review/raw/replay-01/stdout.bin",
+      "bytes": 262,
+      "sha256": "44033ac32c32c3080a235cab552d626f4fcc0f99d59fe67a54e6adf3fe398a3c"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-review-work\\raw\\replay-01\\stderr.bin",
+      "path": "evidence/msc-classification/source-review/raw/replay-01/stderr.bin",
+      "bytes": 755,
+      "sha256": "cc810094610af6df446aac82854d5bee1fc120304c0995341b956d046989a864"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-review-work\\replay-comparison.json",
+      "path": "evidence/msc-classification/source-review/replay-comparison.json",
+      "bytes": 1018,
+      "sha256": "e19a60f7c94cbf66af796b24f66830dcdc4d4b93d0eb66245ee0f234b929be1c"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-review-work\\pre-independent-check-freeze.json",
+      "path": "evidence/msc-classification/source-review/pre-independent-check-freeze.json",
+      "bytes": 6496,
+      "sha256": "03f7dea525f550838bbf8dbfed360afa0b95eca8b6d5bd7e0fd4d7a7fddcef2a"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-review-work\\independent_source_check.py",
+      "path": "evidence/msc-classification/source-review/independent_source_check.py",
+      "bytes": 21983,
+      "sha256": "2bdcf608a28def0e594eddf48aed2f3634365f8cc40dc13ff6d119a2883e2f6c"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-review-work\\run_logged_independent_check.py",
+      "path": "evidence/msc-classification/source-review/run_logged_independent_check.py",
+      "bytes": 3017,
+      "sha256": "583f078d7220d26b9f89a9a745355c70880a9e4a8f050803daf0ffcf27c3d6ea"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-review-work\\raw\\independent-check-01\\run.json",
+      "path": "evidence/msc-classification/source-review/raw/independent-check-01/run.json",
+      "bytes": 1467,
+      "sha256": "a7494ad8cf0f16331d70e5c5c2a0b4d6d017e31ce1877cac2e208780513a1e5c"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-review-work\\raw\\independent-check-01\\stdout.bin",
+      "path": "evidence/msc-classification/source-review/raw/independent-check-01/stdout.bin",
+      "bytes": 249,
+      "sha256": "3c8335dbd7e283c4ee54d029d810c7f29df698ecc80ee309cf08b26cabf18934"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-review-work\\raw\\independent-check-01\\stderr.bin",
+      "path": "evidence/msc-classification/source-review/raw/independent-check-01/stderr.bin",
+      "bytes": 755,
+      "sha256": "fa7dd1101a5be5aea37fcf8ff1f0df350f274beaabd975cd06809fa27467fe68"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-review-work\\raw\\independent-check-01\\result.json",
+      "path": "evidence/msc-classification/source-review/raw/independent-check-01/result.json",
+      "bytes": 14041,
+      "sha256": "caea590ece7586e39a1990e264563cbf75f259593ebd564d9bed9606972c2fe4"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-review-work\\primary-source-review.json",
+      "path": "evidence/msc-classification/source-review/primary-source-review.json",
+      "bytes": 6501,
+      "sha256": "3f10924d08f2b11e8c1f557565ba113aea386cbe634a5da996093aa4a096e6fd"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-review-work\\final-audit.json",
+      "path": "evidence/msc-classification/source-review/final-audit.json",
+      "bytes": 15145,
+      "sha256": "125591a3779538bf87d844d845e24167af5f5b90893fba80fa6df1f02d04f50b"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-review-work\\publication-manifest.json",
+      "path": "evidence/msc-classification/source-review/publication-manifest.json",
+      "bytes": 3936,
+      "sha256": "676f12cf881b414a8fe4bdbd53d4626e168920a70a0376e6ea05d2124656b505"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\checker-correction-01.json",
+      "path": "evidence/msc-classification/adapter-review/checker-correction-01.json",
+      "bytes": 720,
+      "sha256": "c7fc427aed7555e3f876156615abbd778934ae4f9685f786188f21c26e77bdc6"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\final-audit.json",
+      "path": "evidence/msc-classification/adapter-review/final-audit.json",
+      "bytes": 8251,
+      "sha256": "878a51115ef7a4a720a3e33b36933c3f16385dc8a47873524ef8ced226dc0ad1"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\logs\\canonical-replay-01.json",
+      "path": "evidence/msc-classification/adapter-review/logs/canonical-replay-01.json",
+      "bytes": 1562,
+      "sha256": "ab3dd8076cd33141aca31d80c1ab19a459f5e786f1effa3b30396d6950970d98"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\logs\\canonical-replay-01.stderr.bin",
+      "path": "evidence/msc-classification/adapter-review/logs/canonical-replay-01.stderr.bin",
+      "bytes": 771,
+      "sha256": "161100e33c4276b3250dc16127e0a4f667b77964e65bab647ef25fe14bb36148"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\logs\\canonical-replay-01.stdout.bin",
+      "path": "evidence/msc-classification/adapter-review/logs/canonical-replay-01.stdout.bin",
+      "bytes": 691,
+      "sha256": "aee36b2fda63784ad203e6cd6e5d1780f8d26bfdb9f9cea3b70d7ab6ab9cd97e"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\logs\\csv-pin-probe-01.json",
+      "path": "evidence/msc-classification/adapter-review/logs/csv-pin-probe-01.json",
+      "bytes": 1576,
+      "sha256": "ce5d2331bb2198e5d5ed98d5885fdaac1a4d56562e0b9b647faae8d724a31e42"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\logs\\csv-pin-probe-01.stderr.bin",
+      "path": "evidence/msc-classification/adapter-review/logs/csv-pin-probe-01.stderr.bin",
+      "bytes": 957,
+      "sha256": "43b27f4629a29b4072c7117ffdbd9e5e290aeffc4719a7d589cd7900dcb3e5c0"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\logs\\csv-pin-probe-01.stdout.bin",
+      "path": "evidence/msc-classification/adapter-review/logs/csv-pin-probe-01.stdout.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\logs\\exhaustive-check-01.json",
+      "path": "evidence/msc-classification/adapter-review/logs/exhaustive-check-01.json",
+      "bytes": 1975,
+      "sha256": "c2a62bc8e68696ede8e7d398db086c3803bb5d46391eecb22e3989b8d57f1da7"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\logs\\exhaustive-check-01.stderr.bin",
+      "path": "evidence/msc-classification/adapter-review/logs/exhaustive-check-01.stderr.bin",
+      "bytes": 1502,
+      "sha256": "aa5a74679b17b47fc4b442ef3f8ab1cdaf3a6254c526c0fab317be7d080830b8"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\logs\\exhaustive-check-01.stdout.bin",
+      "path": "evidence/msc-classification/adapter-review/logs/exhaustive-check-01.stdout.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\logs\\exhaustive-check-02.json",
+      "path": "evidence/msc-classification/adapter-review/logs/exhaustive-check-02.json",
+      "bytes": 1976,
+      "sha256": "337a7cc1a0da3bc93287d7a48bc98500cfce46b05cac188b8c28a138cfd0e72d"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\logs\\exhaustive-check-02.stderr.bin",
+      "path": "evidence/msc-classification/adapter-review/logs/exhaustive-check-02.stderr.bin",
+      "bytes": 771,
+      "sha256": "990491a58042a94e509ced70f677d5f6a2ac055f7737f479129641115ddc2de3"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\logs\\exhaustive-check-02.stdout.bin",
+      "path": "evidence/msc-classification/adapter-review/logs/exhaustive-check-02.stdout.bin",
+      "bytes": 936,
+      "sha256": "a41bf1f97f30467e3a39a1d5492a8524e2d7a377018a8560d02d63dcff9c577f"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\logs\\existing-output-probe-01.json",
+      "path": "evidence/msc-classification/adapter-review/logs/existing-output-probe-01.json",
+      "bytes": 1583,
+      "sha256": "7876eb94b00c23024eee3e43866111bfbb2f84d85f013accde0cd31393da355e"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\logs\\existing-output-probe-01.stderr.bin",
+      "path": "evidence/msc-classification/adapter-review/logs/existing-output-probe-01.stderr.bin",
+      "bytes": 560,
+      "sha256": "b332b5549e0d09e360ac920efe77f925d6efb3270f2bf0fdf54182afeb06b912"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\logs\\existing-output-probe-01.stdout.bin",
+      "path": "evidence/msc-classification/adapter-review/logs/existing-output-probe-01.stdout.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\logs\\manifest-pin-probe-01.json",
+      "path": "evidence/msc-classification/adapter-review/logs/manifest-pin-probe-01.json",
+      "bytes": 1602,
+      "sha256": "572cca0bde009212bbc539bad149a9686f920047e7cce20e36a3abd22e1df007"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\logs\\manifest-pin-probe-01.stderr.bin",
+      "path": "evidence/msc-classification/adapter-review/logs/manifest-pin-probe-01.stderr.bin",
+      "bytes": 1073,
+      "sha256": "3f66948780be73526381e0a9aaac513c669e2132366d9a7cb3628e17b1d74cab"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\logs\\manifest-pin-probe-01.stdout.bin",
+      "path": "evidence/msc-classification/adapter-review/logs/manifest-pin-probe-01.stdout.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\logs\\ttl-pin-probe-01.json",
+      "path": "evidence/msc-classification/adapter-review/logs/ttl-pin-probe-01.json",
+      "bytes": 1576,
+      "sha256": "387f8795466e010db56409e4b363de00140e58bc78a7b277dd52c2cdc042a889"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\logs\\ttl-pin-probe-01.stderr.bin",
+      "path": "evidence/msc-classification/adapter-review/logs/ttl-pin-probe-01.stderr.bin",
+      "bytes": 963,
+      "sha256": "07f4ba977e142d4ab2f96d48c1695b52bb17876108977c1177c87d723fd8e16e"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\logs\\ttl-pin-probe-01.stdout.bin",
+      "path": "evidence/msc-classification/adapter-review/logs/ttl-pin-probe-01.stdout.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\preexecution-freeze.json",
+      "path": "evidence/msc-classification/adapter-review/preexecution-freeze.json",
+      "bytes": 5343,
+      "sha256": "bd3aa259cb71dd8dd4857f9ce5597ee66a30d39b249e21b2a5b715a886fc1bc4"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\preexecution-freeze-02.json",
+      "path": "evidence/msc-classification/adapter-review/preexecution-freeze-02.json",
+      "bytes": 879,
+      "sha256": "a311893406dcf4f0e2f53c8b3fef1d31408f0d92bf22871b4023253db0276aea"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\probe-preexecution-freeze.json",
+      "path": "evidence/msc-classification/adapter-review/probe-preexecution-freeze.json",
+      "bytes": 1970,
+      "sha256": "dfa0eb31c693283deedf49f97a7bc1ae9e4fafa482e01488af8eff60245dffbc"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\probes\\existing-output\\sentinel.txt",
+      "path": "evidence/msc-classification/adapter-review/probes/existing-output/sentinel.txt",
+      "bytes": 31,
+      "sha256": "9edb8213b653c79e2ec9c26a9b8101b704f4e6d1f5a1cb025cb7fd777ecb4800"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\probes\\prepared-probes.json",
+      "path": "evidence/msc-classification/adapter-review/probes/prepared-probes.json",
+      "bytes": 1526,
+      "sha256": "e1d517266343f664f9ee15c2b71d9e03d7062af946c9fc38206bed9e39d46bf4"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\results\\independent-check.json",
+      "path": "evidence/msc-classification/adapter-review/results/independent-check.json",
+      "bytes": 7151,
+      "sha256": "a22a382eb5adaea22b027c64bf984c435fceaef93a2b936c3b5deb2cc120b7e3"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\results\\probe-check.json",
+      "path": "evidence/msc-classification/adapter-review/results/probe-check.json",
+      "bytes": 1506,
+      "sha256": "c11ab7121e2f1426a3e2587645a16d6ad13ab061a9e577bc984f13e3b2e52325"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\scripts\\check_msc_import.py",
+      "path": "evidence/msc-classification/adapter-review/scripts/check_msc_import.py",
+      "bytes": 19150,
+      "sha256": "86da13adfba768632cf530783ee0d9245ad1fc2d979432540a9fc0ef574f5e0f"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\scripts\\run_logged.py",
+      "path": "evidence/msc-classification/adapter-review/scripts/run_logged.py",
+      "bytes": 3420,
+      "sha256": "8638ae3652333bc043116b9a5afe540e4af664e9d7e324f34c5f46b1f67c7e5d"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\publication-manifest.json",
+      "path": "evidence/msc-classification/adapter-review/publication-manifest.json",
+      "bytes": 9848,
+      "sha256": "23757db4d2d1fd8c573c8479d8af27cd2d3772ff498d8ca1437945ab4e19e5f1"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\contract-v1.md",
+      "path": "evidence/msc-classification/adapter-history/contract-v1.md",
+      "bytes": 4996,
+      "sha256": "85108635a9b398db4d9c0fb3720aaccf3b69ef749666e8c83261659edf5404f6"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\hierarchy-level-clarification.json",
+      "path": "evidence/msc-classification/adapter-history/hierarchy-level-clarification.json",
+      "bytes": 973,
+      "sha256": "76b5776cb70dfcefb020f2abf52f45dcd5b76b2ce734147b05acc1f1ffbe6f35"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\import_msc.py",
+      "path": "evidence/msc-classification/adapter-history/import_msc.py",
+      "bytes": 12806,
+      "sha256": "ae950530f861a55ae894c27f02a759c68207eff18aba8a9dcfa5bf3b326fba12"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\import_msc-v1.py",
+      "path": "evidence/msc-classification/adapter-history/import_msc-v1.py",
+      "bytes": 12722,
+      "sha256": "86277d196bc202c691b41e66d61d329d5d9c47a215cbd0caab1ede0706037d92"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\import_msc-v2.py",
+      "path": "evidence/msc-classification/adapter-history/import_msc-v2.py",
+      "bytes": 12416,
+      "sha256": "c676a8499ed7766e7fc8be45e85d91aebf0199276d84664cf8ea607ded0b80c1"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\logs\\attempt-msc-existing-output-probe-01.json",
+      "path": "evidence/msc-classification/adapter-history/logs/attempt-msc-existing-output-probe-01.json",
+      "bytes": 1202,
+      "sha256": "92dd81cd08e9ea615c3f0ffdc651b8d26a24ab91ec9fcc47a5d2990a663600fe"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\logs\\attempt-msc-existing-output-probe-01.stderr.bin",
+      "path": "evidence/msc-classification/adapter-history/logs/attempt-msc-existing-output-probe-01.stderr.bin",
+      "bytes": 518,
+      "sha256": "85f44e30bc4378b7240ad40e8975c993783201566ee9715eb4608609423fecf5"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\logs\\attempt-msc-existing-output-probe-01.stdout.bin",
+      "path": "evidence/msc-classification/adapter-history/logs/attempt-msc-existing-output-probe-01.stdout.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\logs\\attempt-msc-import-01.json",
+      "path": "evidence/msc-classification/adapter-history/logs/attempt-msc-import-01.json",
+      "bytes": 1151,
+      "sha256": "30161d81052fd0bd5d92483c5ed0ee3695d0318d4c8b8702f5e4cda3b9bcde46"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\logs\\attempt-msc-import-01.stderr.bin",
+      "path": "evidence/msc-classification/adapter-history/logs/attempt-msc-import-01.stderr.bin",
+      "bytes": 755,
+      "sha256": "a30ca1da888f93f18c7cbf127cbc12b73c78e364860b9129e152026b67b61acd"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\logs\\attempt-msc-import-01.stdout.bin",
+      "path": "evidence/msc-classification/adapter-history/logs/attempt-msc-import-01.stdout.bin",
+      "bytes": 638,
+      "sha256": "22019e95ca0929f2736e164090ef8ee3346b8f12567d3359fd73a3a1e975f862"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\logs\\attempt-msc-import-02.json",
+      "path": "evidence/msc-classification/adapter-history/logs/attempt-msc-import-02.json",
+      "bytes": 1151,
+      "sha256": "29fd5b8af941192bc5a29deec3c966b90a0685c92dfd8a6b8565621037554ea9"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\logs\\attempt-msc-import-02.stderr.bin",
+      "path": "evidence/msc-classification/adapter-history/logs/attempt-msc-import-02.stderr.bin",
+      "bytes": 755,
+      "sha256": "65935aaef5a3bc4b689061a4d510bd193d74ab6d2c2f6822af68dd75557e1616"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\logs\\attempt-msc-import-02.stdout.bin",
+      "path": "evidence/msc-classification/adapter-history/logs/attempt-msc-import-02.stdout.bin",
+      "bytes": 638,
+      "sha256": "22019e95ca0929f2736e164090ef8ee3346b8f12567d3359fd73a3a1e975f862"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\logs\\attempt-msc-import-03.json",
+      "path": "evidence/msc-classification/adapter-history/logs/attempt-msc-import-03.json",
+      "bytes": 1151,
+      "sha256": "d2a131315e77a19db47ecd95ccd5c2d3490e4335057e4ac84dbfebe2150cec16"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\logs\\attempt-msc-import-03.stderr.bin",
+      "path": "evidence/msc-classification/adapter-history/logs/attempt-msc-import-03.stderr.bin",
+      "bytes": 755,
+      "sha256": "de512b1e06143836f176cfe8a7e6b4fadf62a493ad30a75d342688fc912c1679"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\logs\\attempt-msc-import-03.stdout.bin",
+      "path": "evidence/msc-classification/adapter-history/logs/attempt-msc-import-03.stdout.bin",
+      "bytes": 691,
+      "sha256": "aee36b2fda63784ad203e6cd6e5d1780f8d26bfdb9f9cea3b70d7ab6ab9cd97e"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\logs\\attempts.jsonl",
+      "path": "evidence/msc-classification/adapter-history/logs/attempts.jsonl",
+      "bytes": 3959,
+      "sha256": "7840d09c24d635d5093b655f1c9c3da71e7b4effa9bd3b910de59b1f0a639843"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\portable-input-clarification.json",
+      "path": "evidence/msc-classification/adapter-history/portable-input-clarification.json",
+      "bytes": 1120,
+      "sha256": "a449f0b4c1914525cf8e970037c81cc943e9df0d071d5cb9367b02b4ea3bf418"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\portable-input-comparison.json",
+      "path": "evidence/msc-classification/adapter-history/portable-input-comparison.json",
+      "bytes": 798,
+      "sha256": "45b895496d74c360e80d5cb92447fbeb95ba45eb39713df297b388375fe694d2"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\preexecution-02-freeze.json",
+      "path": "evidence/msc-classification/adapter-history/preexecution-02-freeze.json",
+      "bytes": 1372,
+      "sha256": "a8dcc5a2520cb0d598121f856c8eaa4f3f286bdc212b3bfb92ddabd7e6525ccf"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\preexecution-03-freeze.json",
+      "path": "evidence/msc-classification/adapter-history/preexecution-03-freeze.json",
+      "bytes": 1373,
+      "sha256": "f624db3203bd6d091f556974131a26ad6f89fdaba83d8efe0010f5095a12140b"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\preexecution-freeze.json",
+      "path": "evidence/msc-classification/adapter-history/preexecution-freeze.json",
+      "bytes": 1160,
+      "sha256": "a37bf3178000866b75eb495c17a1ee2488aa5ae92859fbcc667c8059da703400"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\probes\\existing\\sentinel.txt",
+      "path": "evidence/msc-classification/adapter-history/probes/existing/sentinel.txt",
+      "bytes": 27,
+      "sha256": "fe7879d9782ed6fcd68ab2b9c0ea507b6dd36649cafb625617ea5b690dc46faf"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\probes\\existing-output-result.json",
+      "path": "evidence/msc-classification/adapter-history/probes/existing-output-result.json",
+      "bytes": 325,
+      "sha256": "16f99b6dbce9315caa08ce5ecf01f493c8e220547c7ea3f6a6656c8e73cdc9a6"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\project-transfer.json",
+      "path": "evidence/msc-classification/adapter-history/project-transfer.json",
+      "bytes": 3372,
+      "sha256": "0435f619f658eb6897abb60a9fd98b6823bfab635cf7990917f9899a15dab762"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\project-transfer-03.json",
+      "path": "evidence/msc-classification/adapter-history/project-transfer-03.json",
+      "bytes": 1208,
+      "sha256": "f8666a5220ff7cf20439956c3a5a339d00ad4bd5a244aeecaa876d01916c62c3"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\result-manifest.json",
+      "path": "evidence/msc-classification/adapter-history/result-manifest.json",
+      "bytes": 5139,
+      "sha256": "15f8ec0c80741be7d1e9ecd796f8dda2b3b2d423a8c342df3235060185730a51"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\run_logged.py",
+      "path": "evidence/msc-classification/adapter-history/run_logged.py",
+      "bytes": 4600,
+      "sha256": "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\result-manifest-v3.json",
+      "path": "evidence/msc-classification/adapter-history/result-manifest-v3.json",
+      "bytes": 10713,
+      "sha256": "a3ad7a74a90e516a17173604adc87262c524ecc3d5ad000d611d90218a245f3e"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\preexecution-freeze.json",
+      "path": "evidence/msc-classification/product-history/preexecution-freeze.json",
+      "bytes": 1942,
+      "sha256": "86853651fc47ae360a089e5c8866b63ba4aea6ab1aa068c0afce5656d195601b"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\preexecution-freeze-02.json",
+      "path": "evidence/msc-classification/product-history/preexecution-freeze-02.json",
+      "bytes": 4903,
+      "sha256": "929a0ac46ffb523ed62e4d3ad8391b32afdf373225a7d54edf90d9d1534aaefa"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\check-subjects-v1.ts",
+      "path": "evidence/msc-classification/product-history/check-subjects-v1.ts",
+      "bytes": 7591,
+      "sha256": "7b9705cc51c434661ba94b341dc3cb3778318b9d508b308ab7e0b605a8e6f894"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\checks-01.json",
+      "path": "evidence/msc-classification/product-history/checks-01.json",
+      "bytes": 4648,
+      "sha256": "cc4e87d71e6a225404d596597d20880ab5901d65622b51fc23d1e0a1c5e1d8b1"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\checks-02.json",
+      "path": "evidence/msc-classification/product-history/checks-02.json",
+      "bytes": 4648,
+      "sha256": "cc4e87d71e6a225404d596597d20880ab5901d65622b51fc23d1e0a1c5e1d8b1"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-lint-01.json",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-lint-01.json",
+      "bytes": 930,
+      "sha256": "89a9935c212463af055902e4a3f16d87d98f0dd6e2ff81be3d27f7ccedb05ccd"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-lint-01.stderr.bin",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-lint-01.stderr.bin",
+      "bytes": 153,
+      "sha256": "729d8972b51de5e2457a45b53681f0065959be096264bf3ccc0a93db9432920d"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-lint-01.stdout.bin",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-lint-01.stdout.bin",
+      "bytes": 650,
+      "sha256": "9527054fc34eab9658294c8b1f108e9b7a77ec91edfee47245f8a0b63c6e7e54"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-lint-02.json",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-lint-02.json",
+      "bytes": 929,
+      "sha256": "13afdb4ac94cbb1a9bf1b290c9bc949b4b995439071527828ca646def14124da"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-lint-02.stderr.bin",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-lint-02.stderr.bin",
+      "bytes": 153,
+      "sha256": "729d8972b51de5e2457a45b53681f0065959be096264bf3ccc0a93db9432920d"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-lint-02.stdout.bin",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-lint-02.stdout.bin",
+      "bytes": 38,
+      "sha256": "f4a112dacf63631ed0ac74c16088acbf51bdc7b1a5a7ab41c2f9aab01d08991d"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-product-checks-01.json",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-product-checks-01.json",
+      "bytes": 1091,
+      "sha256": "bc83f2fa01f5f86b0e68f30427d11347e1e439834c2cd82ca6e8787ebdf4a1c6"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-product-checks-01.stderr.bin",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-product-checks-01.stderr.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-product-checks-01.stdout.bin",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-product-checks-01.stdout.bin",
+      "bytes": 3186,
+      "sha256": "6ca4d8b87725036681d5004668f0eb51569c284e6eb495acb2a33bc825d9c28e"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-product-checks-02.json",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-product-checks-02.json",
+      "bytes": 1091,
+      "sha256": "4249f7ff534f460d81142b6f81467a53bd03e8df5d2cc519c1cb371a25c024d4"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-product-checks-02.stderr.bin",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-product-checks-02.stderr.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-product-checks-02.stdout.bin",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-product-checks-02.stdout.bin",
+      "bytes": 3186,
+      "sha256": "6ca4d8b87725036681d5004668f0eb51569c284e6eb495acb2a33bc825d9c28e"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-production-build-01.json",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-production-build-01.json",
+      "bytes": 968,
+      "sha256": "c054b8b9676146f51bcf17f6d89e04bf27b8caa1248cf11cf308ffa854425a3a"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-production-build-01.stderr.bin",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-production-build-01.stderr.bin",
+      "bytes": 153,
+      "sha256": "729d8972b51de5e2457a45b53681f0065959be096264bf3ccc0a93db9432920d"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-production-build-01.stdout.bin",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-production-build-01.stdout.bin",
+      "bytes": 1466,
+      "sha256": "6e56d72f16f4bfd25de4ca56050337062e5bde614bd3137fb4f4177c96e23561"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-regression-atlas-01.json",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-regression-atlas-01.json",
+      "bytes": 951,
+      "sha256": "594b457d41ce06915fadf1e2fdee14697740bcd2a169e24702b23140900b6e2c"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-regression-atlas-01.stderr.bin",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-regression-atlas-01.stderr.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-regression-atlas-01.stdout.bin",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-regression-atlas-01.stdout.bin",
+      "bytes": 428,
+      "sha256": "f16fb8552e32e4a0de887552e672a9d2f6c44c3b36b0f5de9e65492160c20b35"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-regression-browser-01.json",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-regression-browser-01.json",
+      "bytes": 966,
+      "sha256": "16929b057ba11b24c7f1e3e541525b62b8808d2c98c8048b1e7e0951be6830f9"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-regression-browser-01.stderr.bin",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-regression-browser-01.stderr.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-regression-browser-01.stdout.bin",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-regression-browser-01.stdout.bin",
+      "bytes": 534,
+      "sha256": "b987e7c907c030f3af038504d2f40cffc26ed87e170bf34b69225269498ef591"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-regression-formal-01.json",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-regression-formal-01.json",
+      "bytes": 962,
+      "sha256": "925953bd898a3b763c64742e15666bc84630cb406458fd69e46c4933eb1b1336"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-regression-formal-01.stderr.bin",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-regression-formal-01.stderr.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-regression-formal-01.stdout.bin",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-regression-formal-01.stdout.bin",
+      "bytes": 294,
+      "sha256": "c3bdb3a8100a4d5c386e72f6d3f64ab6ef9fd21c3eecc6dab28896a7ab84ae7f"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-regression-library-01.json",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-regression-library-01.json",
+      "bytes": 967,
+      "sha256": "b00135ffc391ba40707fcbe8b1bb99dada93eb01e304fb34903365de5c9fa987"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-regression-library-01.stderr.bin",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-regression-library-01.stderr.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-regression-library-01.stdout.bin",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-regression-library-01.stdout.bin",
+      "bytes": 390,
+      "sha256": "564dd965d4e9387b9c09513d2ba146c1bdbd5ae02d4a114d004b3e7fb2d3c5c2"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-regression-pytest-01.json",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-regression-pytest-01.json",
+      "bytes": 963,
+      "sha256": "2c47c267caa9cf9d3a3633d5d0e56ab7427e4b7d13331e14530de3124047be43"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-regression-pytest-01.stderr.bin",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-regression-pytest-01.stderr.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-regression-pytest-01.stdout.bin",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-regression-pytest-01.stdout.bin",
+      "bytes": 264,
+      "sha256": "867b992f048de6d2ddaa957c101fc7e964d79b9bd88f4094585af9f7632f5a4d"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-regression-research-01.json",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-regression-research-01.json",
+      "bytes": 970,
+      "sha256": "a195a26a86f75c78d0a52544d2607d9d16b904f9431c1bb3f3e2997d9386e4ba"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-regression-research-01.stderr.bin",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-regression-research-01.stderr.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-regression-research-01.stdout.bin",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-regression-research-01.stdout.bin",
+      "bytes": 483,
+      "sha256": "706b3dd79cdf12c9e75badbce322b44c3bc36d7a1ca2ee79fc75a6a783a6fddc"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-tsc-01.json",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-tsc-01.json",
+      "bytes": 931,
+      "sha256": "3d6de64e9b5a11183bd9e1b9a2ea2d603b044dd11d693c7b39d49a0009090a19"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-tsc-01.stderr.bin",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-tsc-01.stderr.bin",
+      "bytes": 153,
+      "sha256": "729d8972b51de5e2457a45b53681f0065959be096264bf3ccc0a93db9432920d"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-tsc-01.stdout.bin",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-tsc-01.stdout.bin",
+      "bytes": 582,
+      "sha256": "c2246722da2fe112d5254b60518d1c56caa75cfed603d5025a5108b32508359e"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-tsc-02.json",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-tsc-02.json",
+      "bytes": 929,
+      "sha256": "d96938006e003828d28d070c9d7c63543ec56b034184ea8ea2d60a39fec100ed"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-tsc-02.stderr.bin",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-tsc-02.stderr.bin",
+      "bytes": 153,
+      "sha256": "729d8972b51de5e2457a45b53681f0065959be096264bf3ccc0a93db9432920d"
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-work\\logs\\attempt-msc-tsc-02.stdout.bin",
+      "path": "evidence/msc-classification/product-history/logs/attempt-msc-tsc-02.stdout.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "omitted_duplicate_outputs": [
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\run-01\\references.json",
+      "sha256": "75ecd4b71056274ad342c72a5324770e2257e0ff3a88662dfe457c9127b4bc35",
+      "reason": "Retained locally; selected run-03 outputs are already published under data/msc. Earlier deterministic output versions remain represented by their sealed history hashes."
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\run-01\\subjects.json",
+      "sha256": "e069a3d0836a58e915c728e92a24fbabe9041b81e0d45b46cfa8e67cdb8c6fb0",
+      "reason": "Retained locally; selected run-03 outputs are already published under data/msc. Earlier deterministic output versions remain represented by their sealed history hashes."
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\run-01\\summary.json",
+      "sha256": "de1ddce65ea413b2fe154a898530d03a952bf6f7b728bd7f0013bfbd33655765",
+      "reason": "Retained locally; selected run-03 outputs are already published under data/msc. Earlier deterministic output versions remain represented by their sealed history hashes."
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\run-02\\references.json",
+      "sha256": "75ecd4b71056274ad342c72a5324770e2257e0ff3a88662dfe457c9127b4bc35",
+      "reason": "Retained locally; selected run-03 outputs are already published under data/msc. Earlier deterministic output versions remain represented by their sealed history hashes."
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\run-02\\subjects.json",
+      "sha256": "e069a3d0836a58e915c728e92a24fbabe9041b81e0d45b46cfa8e67cdb8c6fb0",
+      "reason": "Retained locally; selected run-03 outputs are already published under data/msc. Earlier deterministic output versions remain represented by their sealed history hashes."
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\run-02\\summary.json",
+      "sha256": "de1ddce65ea413b2fe154a898530d03a952bf6f7b728bd7f0013bfbd33655765",
+      "reason": "Retained locally; selected run-03 outputs are already published under data/msc. Earlier deterministic output versions remain represented by their sealed history hashes."
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\run-03\\references.json",
+      "sha256": "75ecd4b71056274ad342c72a5324770e2257e0ff3a88662dfe457c9127b4bc35",
+      "reason": "Retained locally; selected run-03 outputs are already published under data/msc. Earlier deterministic output versions remain represented by their sealed history hashes."
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\run-03\\subjects.json",
+      "sha256": "32fb0eddc9f189e68b9fa312e8e29c399deee65d4d282d1e61235be33a22400e",
+      "reason": "Retained locally; selected run-03 outputs are already published under data/msc. Earlier deterministic output versions remain represented by their sealed history hashes."
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\run-03\\summary.json",
+      "sha256": "7816ecdc34c3fe3981bef3f18a6ff0effe16e12aca5dc95460f8604dee7715ed",
+      "reason": "Retained locally; selected run-03 outputs are already published under data/msc. Earlier deterministic output versions remain represented by their sealed history hashes."
+    }
+  ],
+  "limitations": "Full external research webpage snapshots remain local and are not required by the portable importer. Historical review paths retain their original locations. This byte-copy manifest does not self-certify semantic review."
+}

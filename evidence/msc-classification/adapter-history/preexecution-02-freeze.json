@@ -1,0 +1,30 @@
+﻿[
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\contract-v1.md",
+        "Hash":  "85108635A9B398DB4D9C0FB3720AACCF3B69EF749666E8C83261659EDF5404F6"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\import_msc.py",
+        "Hash":  "C676A8499ED7766E7FC8BE45E85D91AEBF0199276D84664CF8EA607DED0B80C1"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\portable-input-clarification.json",
+        "Hash":  "A449F0B4C1914525CF8E970037C81CC943E9DF0D071D5CB9367B02B4EA3BF418"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-work\\run_logged.py",
+        "Hash":  "B6F4C329387705B2ADF67F7DD3F806BBCD0A5906D476F5214FE8278D5EA5BFA6"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-work\\source-manifest.json",
+        "Hash":  "90602331E367F13FB21B0BC1D535F45326B6ADF67165A369A681B6738F468F70"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-work\\pyproject.toml",
+        "Hash":  "E32F3A3DFCAB81FB00FC1E149F7B807C047B51159A50D42EFE609551DFC2EBD2"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-work\\uv.lock",
+        "Hash":  "9AFC286067C54BF67E098E7FE85AF1BD7223A179B7A1D18800DF5CE5264C22DB"
+    }
+]

@@ -1,0 +1,94 @@
+﻿{
+    "schema_version":  "msc-import-result-manifest-v1",
+    "status":  "independent_review_pending",
+    "contract":  "contract-v1.md",
+    "canonical_command":  "uv run --project D:/CodexWorkspaces/mathematics-atlas/msc-reuse-work --frozen python import_msc.py --source-root D:/CodexWorkspaces/mathematics-atlas/msc-reuse-work --output-dir \u003cnew-directory\u003e",
+    "source_manifest_sha256":  "90602331e367f13fb21b0bc1d535f45326b6adf67165a369a681b6738f468f70",
+    "artifacts":  [
+                      {
+                          "path":  "contract-v1.md",
+                          "bytes":  4996,
+                          "sha256":  "85108635a9b398db4d9c0fb3720aaccf3b69ef749666e8c83261659edf5404f6"
+                      },
+                      {
+                          "path":  "import_msc.py",
+                          "bytes":  12722,
+                          "sha256":  "86277d196bc202c691b41e66d61d329d5d9c47a215cbd0caab1ede0706037d92"
+                      },
+                      {
+                          "path":  "logs/attempt-msc-existing-output-probe-01.json",
+                          "bytes":  1202,
+                          "sha256":  "92dd81cd08e9ea615c3f0ffdc651b8d26a24ab91ec9fcc47a5d2990a663600fe"
+                      },
+                      {
+                          "path":  "logs/attempt-msc-existing-output-probe-01.stderr.bin",
+                          "bytes":  518,
+                          "sha256":  "85f44e30bc4378b7240ad40e8975c993783201566ee9715eb4608609423fecf5"
+                      },
+                      {
+                          "path":  "logs/attempt-msc-existing-output-probe-01.stdout.bin",
+                          "bytes":  0,
+                          "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                      },
+                      {
+                          "path":  "logs/attempt-msc-import-01.json",
+                          "bytes":  1151,
+                          "sha256":  "30161d81052fd0bd5d92483c5ed0ee3695d0318d4c8b8702f5e4cda3b9bcde46"
+                      },
+                      {
+                          "path":  "logs/attempt-msc-import-01.stderr.bin",
+                          "bytes":  755,
+                          "sha256":  "a30ca1da888f93f18c7cbf127cbc12b73c78e364860b9129e152026b67b61acd"
+                      },
+                      {
+                          "path":  "logs/attempt-msc-import-01.stdout.bin",
+                          "bytes":  638,
+                          "sha256":  "22019e95ca0929f2736e164090ef8ee3346b8f12567d3359fd73a3a1e975f862"
+                      },
+                      {
+                          "path":  "logs/attempts.jsonl",
+                          "bytes":  2005,
+                          "sha256":  "1c67d955295b629e36e58b6da9e29f7835289d0e76a12785d1329a473e358ad5"
+                      },
+                      {
+                          "path":  "preexecution-freeze.json",
+                          "bytes":  1160,
+                          "sha256":  "a37bf3178000866b75eb495c17a1ee2488aa5ae92859fbcc667c8059da703400"
+                      },
+                      {
+                          "path":  "probes/existing/sentinel.txt",
+                          "bytes":  27,
+                          "sha256":  "fe7879d9782ed6fcd68ab2b9c0ea507b6dd36649cafb625617ea5b690dc46faf"
+                      },
+                      {
+                          "path":  "probes/existing-output-result.json",
+                          "bytes":  325,
+                          "sha256":  "16f99b6dbce9315caa08ce5ecf01f493c8e220547c7ea3f6a6656c8e73cdc9a6"
+                      },
+                      {
+                          "path":  "run_logged.py",
+                          "bytes":  4600,
+                          "sha256":  "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6"
+                      },
+                      {
+                          "path":  "run-01/references.json",
+                          "bytes":  1366532,
+                          "sha256":  "75ecd4b71056274ad342c72a5324770e2257e0ff3a88662dfe457c9127b4bc35"
+                      },
+                      {
+                          "path":  "run-01/subjects.json",
+                          "bytes":  7563156,
+                          "sha256":  "e069a3d0836a58e915c728e92a24fbabe9041b81e0d45b46cfa8e67cdb8c6fb0"
+                      },
+                      {
+                          "path":  "run-01/summary.json",
+                          "bytes":  731,
+                          "sha256":  "de1ddce65ea413b2fe154a898530d03a952bf6f7b728bd7f0013bfbd33655765"
+                      }
+                  ],
+    "limitations":  [
+                        "Data adapter only; no UI or product import yet.",
+                        "No discovery, performance or complete mathematics coverage claim.",
+                        "Review must compare source records, qualifiers, hierarchy and licensing, not only hashes."
+                    ]
+}

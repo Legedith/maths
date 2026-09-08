@@ -1,0 +1,1036 @@
+{
+  "schema_version": "independent-msc-product-audit-v1",
+  "auditor": "/root/sol_atlas_audit",
+  "scope": "Code, raw data, HTTP/API behavior and server-rendered response bodies; no browser DOM, screenshot, visual, semantic-equivalence, mathematical-truth or coverage evaluation.",
+  "project_root": "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+  "origin": "http://localhost:3000",
+  "status": "fail",
+  "gates": {
+    "source_to_view_fidelity": "pass",
+    "specification_compliance": "pass",
+    "implementation_alignment": "fail",
+    "functional_reproduction": "pass"
+  },
+  "checks": [
+    {
+      "name": "frozen data and structural source metadata",
+      "gate": "source_to_view_fidelity",
+      "passed": true,
+      "detail": {
+        "hashes": {
+          "data/msc/subjects.json": "32fb0eddc9f189e68b9fa312e8e29c399deee65d4d282d1e61235be33a22400e",
+          "data/msc/references.json": "75ecd4b71056274ad342c72a5324770e2257e0ff3a88662dfe457c9127b4bc35",
+          "data/msc/summary.json": "7816ecdc34c3fe3981bef3f18a6ff0effe16e12aca5dc95460f8604dee7715ed"
+        },
+        "subjects": 6603,
+        "top_levels": 63,
+        "references": 3083,
+        "predicate_counts": {
+          "seeConditionally": 415,
+          "seeAlso": 2642,
+          "seeMainly": 26
+        },
+        "max_incident_references": 62,
+        "max_collection_members": 62
+      }
+    },
+    {
+      "name": "all catalogue API pages preserve source order",
+      "gate": "functional_reproduction",
+      "passed": true,
+      "detail": {
+        "query": "",
+        "parent": "all",
+        "records": 6603,
+        "pages": 276,
+        "codes_sha256": "6b427a27e7215c1fe354edebdeb143d1daf468f619208ab80aa68b21043ec6b6",
+        "page_body_hashes_sha256": "14d37eae0678b0b576c609a530c87bf0582f275da0244d7b62fe88f4cf06ed6c"
+      }
+    },
+    {
+      "name": "all populated immediate-child API scopes preserve the hierarchy",
+      "gate": "functional_reproduction",
+      "passed": true,
+      "detail": {
+        "navigation_scopes": 598,
+        "records_across_scopes": 6603,
+        "scope_summaries_sha256": "d42a02fb9d8c5fd7843d65f9177501ef4b91c7d863192d4582ac5f82b07d03df"
+      }
+    },
+    {
+      "name": "representative normalized AND-search pages match an independent lexical oracle",
+      "gate": "functional_reproduction",
+      "passed": true,
+      "detail": [
+        {
+          "query": "graph theory",
+          "parent": "all",
+          "records": 53,
+          "pages": 3,
+          "codes_sha256": "da411f7011927c8737d21f5b9bf290e50a76fd0611df3a7a1173d9e2bcd822d2",
+          "page_body_hashes_sha256": "5aee771f627ff818aff98d2ba525d5a6af41448364f6cedc57b1b751eafb7fb9"
+        },
+        {
+          "query": "68-q25",
+          "parent": "all",
+          "records": 6,
+          "pages": 1,
+          "codes_sha256": "c03d5656efcc0820267aa400c54f5355c8e07c902618f791e9fdd798be73c9e2",
+          "page_body_hashes_sha256": "c756cd16b7f13ff64b67e6833e90c6fd020f65018dd9545e5095a39979a10966"
+        },
+        {
+          "query": "６８Ｑ２５",
+          "parent": "all",
+          "records": 6,
+          "pages": 1,
+          "codes_sha256": "c03d5656efcc0820267aa400c54f5355c8e07c902618f791e9fdd798be73c9e2",
+          "page_body_hashes_sha256": "fd3aff63b9aba4caa14effafbcb9cde115901276d9106246375d56c687bbbdc3"
+        },
+        {
+          "query": "n-folds",
+          "parent": "all",
+          "records": 210,
+          "pages": 9,
+          "codes_sha256": "e715f1dfae4e6e1ed2b7d732cda4d2d871a87566d949f10b11530ae9804e8766",
+          "page_body_hashes_sha256": "80222afcd71b51c5bb894300f4331367b0ba0bb4d7a5965fdd192e8df6200bf8"
+        },
+        {
+          "query": "differential numerical",
+          "parent": "all",
+          "records": 20,
+          "pages": 1,
+          "codes_sha256": "09a775ab7c8847d10ca8805ed32d403a76bd60f6a977890d290e368c309b14e6",
+          "page_body_hashes_sha256": "0e23e6d546f60480cab4012806de385ff029a73c9fb1ea119e9dd78feb6d134d"
+        }
+      ]
+    },
+    {
+      "name": "selected detail API records match raw source-derived records",
+      "gate": "source_to_view_fidelity",
+      "passed": true,
+      "detail": [
+        {
+          "code": "03B45",
+          "body_sha256": "f19155563ca919ac6845700c11d8fc02733e5d05364683dbb74e10d8635c315d",
+          "children_returned": 0,
+          "child_count": 0,
+          "outgoing": 3,
+          "incoming": 2,
+          "collections": 0
+        },
+        {
+          "code": "00A15",
+          "body_sha256": "30281f99cde2cf1d2cac68ae6d651675cf82e4c42338663773a7ff5b240a0f8e",
+          "children_returned": 0,
+          "child_count": 0,
+          "outgoing": 2,
+          "incoming": 0,
+          "collections": 1
+        },
+        {
+          "code": "32-00",
+          "body_sha256": "671f326a778891c0809d2fe14234b1324c72d8b802b9f9c3777daf431d2068b7",
+          "children_returned": 0,
+          "child_count": 0,
+          "outgoing": 0,
+          "incoming": 0,
+          "collections": 0
+        },
+        {
+          "code": "01A16",
+          "body_sha256": "356317f4d402eef6d3ce9e4f357bdc882e5ea051454889cd2b920c6cd5920e7c",
+          "children_returned": 0,
+          "child_count": 0,
+          "outgoing": 0,
+          "incoming": 0,
+          "collections": 0
+        },
+        {
+          "code": "00-01",
+          "body_sha256": "6b6a2052954a94bda0dacc8cb3f9acf75fd8f1e00cc6845223b86ce0d2d5cb20",
+          "children_returned": 0,
+          "child_count": 0,
+          "outgoing": 0,
+          "incoming": 0,
+          "collections": 0
+        },
+        {
+          "code": "14J40",
+          "body_sha256": "f3266f7da4067936a093b44a353846d9f6cf863b19b6eaab6a973274b1d6821e",
+          "children_returned": 0,
+          "child_count": 0,
+          "outgoing": 0,
+          "incoming": 0,
+          "collections": 0
+        },
+        {
+          "code": "01-XX",
+          "body_sha256": "eebe962f1c3ca87c48cf2823b383984d888887d7a254f2992bb6edbca00e1895",
+          "children_returned": 6,
+          "child_count": 6,
+          "outgoing": 61,
+          "incoming": 1,
+          "collections": 0
+        }
+      ]
+    },
+    {
+      "name": "strict API and bounded edge cases",
+      "gate": "specification_compliance",
+      "passed": true,
+      "detail": {
+        "invalid_get_cases": [
+          {
+            "path": "/api/subjects?code=",
+            "status": 400,
+            "error": "Use an MSC2020 subject code."
+          },
+          {
+            "path": "/api/subjects?code=99-XX",
+            "status": 400,
+            "error": "Unknown MSC2020 subject."
+          },
+          {
+            "path": "/api/subjects?code=68-xx",
+            "status": 400,
+            "error": "Use an MSC2020 subject code."
+          },
+          {
+            "path": "/api/subjects?code=68-XX&q=",
+            "status": 400,
+            "error": "Use a code alone for subject details."
+          },
+          {
+            "path": "/api/subjects?code=68-XX&page=1",
+            "status": 400,
+            "error": "Use a code alone for subject details."
+          },
+          {
+            "path": "/api/subjects?q=x&q=y",
+            "status": 400,
+            "error": "Use each supported parameter once."
+          },
+          {
+            "path": "/api/subjects?%71=x&q=y",
+            "status": 400,
+            "error": "Use each supported parameter once."
+          },
+          {
+            "path": "/api/subjects?parent=68-XX&parent=68-XX",
+            "status": 400,
+            "error": "Use each supported parameter once."
+          },
+          {
+            "path": "/api/subjects?unknown=x",
+            "status": 400,
+            "error": "Use each supported parameter once."
+          },
+          {
+            "path": "/api/subjects?Q=x",
+            "status": 400,
+            "error": "Use each supported parameter once."
+          },
+          {
+            "path": "/api/subjects?parent=99-XX",
+            "status": 400,
+            "error": "Unknown MSC2020 subject."
+          },
+          {
+            "path": "/api/subjects?parent=68-xx",
+            "status": 400,
+            "error": "Choose an existing parent subject, root or all."
+          },
+          {
+            "path": "/api/subjects?page=0",
+            "status": 400,
+            "error": "Page must be a positive integer."
+          },
+          {
+            "path": "/api/subjects?page=-1",
+            "status": 400,
+            "error": "Page must be a positive integer."
+          },
+          {
+            "path": "/api/subjects?page=01",
+            "status": 400,
+            "error": "Page must be a positive integer."
+          },
+          {
+            "path": "/api/subjects?page=1.0",
+            "status": 400,
+            "error": "Page must be a positive integer."
+          },
+          {
+            "path": "/api/subjects?page=1e1",
+            "status": 400,
+            "error": "Page must be a positive integer."
+          },
+          {
+            "path": "/api/subjects?page=%2B1",
+            "status": 400,
+            "error": "Page must be a positive integer."
+          },
+          {
+            "path": "/api/subjects?page=%201",
+            "status": 400,
+            "error": "Page must be a positive integer."
+          },
+          {
+            "path": "/api/subjects?page=1000001",
+            "status": 400,
+            "error": "Page must be a positive integer no greater than 1000000."
+          },
+          {
+            "path": "/api/subjects?q=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            "status": 400,
+            "error": "Use a query of at most 300 characters."
+          }
+        ],
+        "exact_query_limit_status": 200,
+        "far_page_status": 200,
+        "post_status": 405
+      }
+    },
+    {
+      "name": "server-rendered HTTP bodies preserve required labels, qualifiers and caveats",
+      "gate": "implementation_alignment",
+      "passed": false,
+      "error": "AssertionError: root count is absent",
+      "traceback": "Traceback (most recent call last):\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-review-work\\scripts\\audit_msc_product.py\", line 101, in check\n    detail = action()\n             ^^^^^^^^\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-review-work\\scripts\\audit_msc_product.py\", line 448, in check_html_views\n    self.expect(\"6,603 subject categories\" in html.unescape(root_body), \"root count is absent\")\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-review-work\\scripts\\audit_msc_product.py\", line 162, in expect\n    raise AssertionError(message)\nAssertionError: root count is absent\n"
+    }
+  ],
+  "http": {
+    "requests": 971,
+    "statuses": {
+      "200": 947,
+      "400": 21,
+      "404": 2,
+      "405": 1
+    },
+    "request_body_ledger_sha256": "781034e1557f8675a67de9865d7ae21aa29d585c6ed5131c35ca1d9e43498fba",
+    "retained_responses": [
+      {
+        "name": "all-subjects-page-1",
+        "status": 200,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:55:51 GMT",
+          "connection": "close"
+        },
+        "body_path": "all-subjects-page-1.body.bin",
+        "body_bytes": 4470,
+        "body_sha256": "2a96887a47da8d52b5697e7b1dcef1b21f8bcf1bf202812f8df78ceabb304aef"
+      },
+      {
+        "name": "search-1-page-1",
+        "status": 200,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:18 GMT",
+          "connection": "close"
+        },
+        "body_path": "search-1-page-1.body.bin",
+        "body_bytes": 5249,
+        "body_sha256": "4579a6895432057818bb756ff6ce60b3db4b0fe3305c3f4d21af1b92e7e1224d"
+      },
+      {
+        "name": "search-2-page-1",
+        "status": 200,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:18 GMT",
+          "connection": "close"
+        },
+        "body_path": "search-2-page-1.body.bin",
+        "body_bytes": 2726,
+        "body_sha256": "1d1026b64005bbe92770a976622985b9594949a284b5b156ed1179975a8ef2ba"
+      },
+      {
+        "name": "search-3-page-1",
+        "status": 200,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:18 GMT",
+          "connection": "close"
+        },
+        "body_path": "search-3-page-1.body.bin",
+        "body_bytes": 2735,
+        "body_sha256": "fb845bfdb251aed63901b42667dbda08937ed4b292a2a295cbadfc7aec350676"
+      },
+      {
+        "name": "search-4-page-1",
+        "status": 200,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:19 GMT",
+          "connection": "close"
+        },
+        "body_path": "search-4-page-1.body.bin",
+        "body_bytes": 4735,
+        "body_sha256": "eadba88c6c9ee96e5c048d67310d8d3fc363d5164ec9833ff727e05f7b98295d"
+      },
+      {
+        "name": "search-5-page-1",
+        "status": 200,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:19 GMT",
+          "connection": "close"
+        },
+        "body_path": "search-5-page-1.body.bin",
+        "body_bytes": 5014,
+        "body_sha256": "048f358962967ca5d4612e03e460aa94385ac42e6cb83baa7d15b74a90935ad8"
+      },
+      {
+        "name": "detail-conditional",
+        "status": 200,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:19 GMT",
+          "connection": "close"
+        },
+        "body_path": "detail-conditional.body.bin",
+        "body_bytes": 7203,
+        "body_sha256": "f19155563ca919ac6845700c11d8fc02733e5d05364683dbb74e10d8635c315d"
+      },
+      {
+        "name": "detail-collection",
+        "status": 200,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:19 GMT",
+          "connection": "close"
+        },
+        "body_path": "detail-collection.body.bin",
+        "body_bytes": 18870,
+        "body_sha256": "30281f99cde2cf1d2cac68ae6d651675cf82e4c42338663773a7ff5b240a0f8e"
+      },
+      {
+        "name": "detail-hierarchy-disagreement",
+        "status": 200,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:19 GMT",
+          "connection": "close"
+        },
+        "body_path": "detail-hierarchy-disagreement.body.bin",
+        "body_bytes": 3272,
+        "body_sha256": "671f326a778891c0809d2fe14234b1324c72d8b802b9f9c3777daf431d2068b7"
+      },
+      {
+        "name": "detail-label-difference",
+        "status": 200,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:19 GMT",
+          "connection": "close"
+        },
+        "body_path": "detail-label-difference.body.bin",
+        "body_bytes": 3011,
+        "body_sha256": "356317f4d402eef6d3ce9e4f357bdc882e5ea051454889cd2b920c6cd5920e7c"
+      },
+      {
+        "name": "detail-empty-leaf",
+        "status": 200,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:19 GMT",
+          "connection": "close"
+        },
+        "body_path": "detail-empty-leaf.body.bin",
+        "body_bytes": 3105,
+        "body_sha256": "6b6a2052954a94bda0dacc8cb3f9acf75fd8f1e00cc6845223b86ce0d2d5cb20"
+      },
+      {
+        "name": "detail-tex-string",
+        "status": 200,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:19 GMT",
+          "connection": "close"
+        },
+        "body_path": "detail-tex-string.body.bin",
+        "body_bytes": 2989,
+        "body_sha256": "f3266f7da4067936a093b44a353846d9f6cf863b19b6eaab6a973274b1d6821e"
+      },
+      {
+        "name": "detail-max-outgoing",
+        "status": 200,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:19 GMT",
+          "connection": "close"
+        },
+        "body_path": "detail-max-outgoing.body.bin",
+        "body_bytes": 40865,
+        "body_sha256": "eebe962f1c3ca87c48cf2823b383984d888887d7a254f2992bb6edbca00e1895"
+      },
+      {
+        "name": "invalid-01",
+        "status": 400,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:19 GMT",
+          "connection": "close"
+        },
+        "body_path": "invalid-01.body.bin",
+        "body_bytes": 40,
+        "body_sha256": "cdd13009172b38c1c525ca1310b47ce7204281c8004fa359aa1d99bf0e924fb5"
+      },
+      {
+        "name": "invalid-02",
+        "status": 400,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:19 GMT",
+          "connection": "close"
+        },
+        "body_path": "invalid-02.body.bin",
+        "body_bytes": 36,
+        "body_sha256": "c52337c7fe6f1e0b15fc7ca7c89c687d47c36f9713e317bcf693bcb8996178e8"
+      },
+      {
+        "name": "invalid-03",
+        "status": 400,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:19 GMT",
+          "connection": "close"
+        },
+        "body_path": "invalid-03.body.bin",
+        "body_bytes": 40,
+        "body_sha256": "cdd13009172b38c1c525ca1310b47ce7204281c8004fa359aa1d99bf0e924fb5"
+      },
+      {
+        "name": "invalid-04",
+        "status": 400,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:19 GMT",
+          "connection": "close"
+        },
+        "body_path": "invalid-04.body.bin",
+        "body_bytes": 49,
+        "body_sha256": "7bb6c07b63f8de97b4ce4aa48bf10358f5844f2ce382430ee747803dc879e0db"
+      },
+      {
+        "name": "invalid-05",
+        "status": 400,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:19 GMT",
+          "connection": "close"
+        },
+        "body_path": "invalid-05.body.bin",
+        "body_bytes": 49,
+        "body_sha256": "7bb6c07b63f8de97b4ce4aa48bf10358f5844f2ce382430ee747803dc879e0db"
+      },
+      {
+        "name": "invalid-06",
+        "status": 400,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:19 GMT",
+          "connection": "close"
+        },
+        "body_path": "invalid-06.body.bin",
+        "body_bytes": 46,
+        "body_sha256": "492a27a7e7edadcb33b195405c192319223b496bf794b21da867f5416ae2deaa"
+      },
+      {
+        "name": "invalid-07",
+        "status": 400,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:19 GMT",
+          "connection": "close"
+        },
+        "body_path": "invalid-07.body.bin",
+        "body_bytes": 46,
+        "body_sha256": "492a27a7e7edadcb33b195405c192319223b496bf794b21da867f5416ae2deaa"
+      },
+      {
+        "name": "invalid-08",
+        "status": 400,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:19 GMT",
+          "connection": "close"
+        },
+        "body_path": "invalid-08.body.bin",
+        "body_bytes": 46,
+        "body_sha256": "492a27a7e7edadcb33b195405c192319223b496bf794b21da867f5416ae2deaa"
+      },
+      {
+        "name": "invalid-09",
+        "status": 400,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:19 GMT",
+          "connection": "close"
+        },
+        "body_path": "invalid-09.body.bin",
+        "body_bytes": 46,
+        "body_sha256": "492a27a7e7edadcb33b195405c192319223b496bf794b21da867f5416ae2deaa"
+      },
+      {
+        "name": "invalid-10",
+        "status": 400,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:19 GMT",
+          "connection": "close"
+        },
+        "body_path": "invalid-10.body.bin",
+        "body_bytes": 46,
+        "body_sha256": "492a27a7e7edadcb33b195405c192319223b496bf794b21da867f5416ae2deaa"
+      },
+      {
+        "name": "invalid-11",
+        "status": 400,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:19 GMT",
+          "connection": "close"
+        },
+        "body_path": "invalid-11.body.bin",
+        "body_bytes": 36,
+        "body_sha256": "c52337c7fe6f1e0b15fc7ca7c89c687d47c36f9713e317bcf693bcb8996178e8"
+      },
+      {
+        "name": "invalid-12",
+        "status": 400,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:19 GMT",
+          "connection": "close"
+        },
+        "body_path": "invalid-12.body.bin",
+        "body_bytes": 59,
+        "body_sha256": "b745ecbb616b914ac179033fe7ff5bc54b643eddd3a5a5db140f6ed58ebaed61"
+      },
+      {
+        "name": "invalid-13",
+        "status": 400,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:20 GMT",
+          "connection": "close"
+        },
+        "body_path": "invalid-13.body.bin",
+        "body_bytes": 44,
+        "body_sha256": "7e4ca43df584e0d1e9b20f70063c7fb1a4fb185e3d43c7e97b59605bffa6aa31"
+      },
+      {
+        "name": "invalid-14",
+        "status": 400,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:20 GMT",
+          "connection": "close"
+        },
+        "body_path": "invalid-14.body.bin",
+        "body_bytes": 44,
+        "body_sha256": "7e4ca43df584e0d1e9b20f70063c7fb1a4fb185e3d43c7e97b59605bffa6aa31"
+      },
+      {
+        "name": "invalid-15",
+        "status": 400,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:20 GMT",
+          "connection": "close"
+        },
+        "body_path": "invalid-15.body.bin",
+        "body_bytes": 44,
+        "body_sha256": "7e4ca43df584e0d1e9b20f70063c7fb1a4fb185e3d43c7e97b59605bffa6aa31"
+      },
+      {
+        "name": "invalid-16",
+        "status": 400,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:20 GMT",
+          "connection": "close"
+        },
+        "body_path": "invalid-16.body.bin",
+        "body_bytes": 44,
+        "body_sha256": "7e4ca43df584e0d1e9b20f70063c7fb1a4fb185e3d43c7e97b59605bffa6aa31"
+      },
+      {
+        "name": "invalid-17",
+        "status": 400,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:20 GMT",
+          "connection": "close"
+        },
+        "body_path": "invalid-17.body.bin",
+        "body_bytes": 44,
+        "body_sha256": "7e4ca43df584e0d1e9b20f70063c7fb1a4fb185e3d43c7e97b59605bffa6aa31"
+      },
+      {
+        "name": "invalid-18",
+        "status": 400,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:20 GMT",
+          "connection": "close"
+        },
+        "body_path": "invalid-18.body.bin",
+        "body_bytes": 44,
+        "body_sha256": "7e4ca43df584e0d1e9b20f70063c7fb1a4fb185e3d43c7e97b59605bffa6aa31"
+      },
+      {
+        "name": "invalid-19",
+        "status": 400,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:20 GMT",
+          "connection": "close"
+        },
+        "body_path": "invalid-19.body.bin",
+        "body_bytes": 44,
+        "body_sha256": "7e4ca43df584e0d1e9b20f70063c7fb1a4fb185e3d43c7e97b59605bffa6aa31"
+      },
+      {
+        "name": "invalid-20",
+        "status": 400,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:20 GMT",
+          "connection": "close"
+        },
+        "body_path": "invalid-20.body.bin",
+        "body_bytes": 68,
+        "body_sha256": "c1c2ffeca82863cd3cb582e4eb6b4145388365aac4e6232a6fcef8f3f2be84fe"
+      },
+      {
+        "name": "invalid-21",
+        "status": 400,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:20 GMT",
+          "connection": "close"
+        },
+        "body_path": "invalid-21.body.bin",
+        "body_bytes": 50,
+        "body_sha256": "89b99db69f6152f2ed5245c03ef2dc9ba9c1ed5da074b89d027d380a42837deb"
+      },
+      {
+        "name": "valid-query-limit",
+        "status": 200,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:20 GMT",
+          "connection": "close"
+        },
+        "body_path": "valid-query-limit.body.bin",
+        "body_bytes": 2350,
+        "body_sha256": "e80edc3a26d7ca64041f8331cab362c361fb9fb7fe11d83070e7ec6c0d369385"
+      },
+      {
+        "name": "valid-far-page",
+        "status": 200,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store",
+          "content-type": "application/json",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:20 GMT",
+          "connection": "close"
+        },
+        "body_path": "valid-far-page.body.bin",
+        "body_bytes": 2061,
+        "body_sha256": "4e6b074f9bd8fb3acce14f5d66ac23143a143acece033a61f28e605350f8b2bc"
+      },
+      {
+        "name": "invalid-method-post",
+        "status": 405,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "content-length": "0",
+          "date": "Tue, 08 Sep 2026 09:56:20 GMT",
+          "connection": "close"
+        },
+        "body_path": "invalid-method-post.body.bin",
+        "body_bytes": 0,
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "page-root",
+        "status": 200,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store, must-revalidate",
+          "content-type": "text/html; charset=utf-8",
+          "link": "</_next/static/_vinext_fonts/geist-8ac0455e797f/geist-98bbbccb.woff2>; rel=preload; as=font; type=font/woff2; crossorigin, </_next/static/_vinext_fonts/geist-mono-00e989178794/geist-mono-013b2f2f.woff2>; rel=preload; as=font; type=font/woff2; crossorigin",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:20 GMT",
+          "connection": "close"
+        },
+        "body_path": "page-root.body.bin",
+        "body_bytes": 116553,
+        "body_sha256": "c8f83e8acb3e9a81e68abcd1da2015317adc9cd2bd22a389c704f0b4687a21dc"
+      },
+      {
+        "name": "page-conditional",
+        "status": 200,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "content-type": "text/html; charset=utf-8",
+          "link": "</_next/static/_vinext_fonts/geist-8ac0455e797f/geist-98bbbccb.woff2>; rel=preload; as=font; type=font/woff2; crossorigin, </_next/static/_vinext_fonts/geist-mono-00e989178794/geist-mono-013b2f2f.woff2>; rel=preload; as=font; type=font/woff2; crossorigin",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:20 GMT",
+          "connection": "close"
+        },
+        "body_path": "page-conditional.body.bin",
+        "body_bytes": 109284,
+        "body_sha256": "77d30da988ad5bd6e260640d4978a9997a74167fea8a24fda1273476e2300d43"
+      },
+      {
+        "name": "page-collection",
+        "status": 200,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "content-type": "text/html; charset=utf-8",
+          "link": "</_next/static/_vinext_fonts/geist-8ac0455e797f/geist-98bbbccb.woff2>; rel=preload; as=font; type=font/woff2; crossorigin, </_next/static/_vinext_fonts/geist-mono-00e989178794/geist-mono-013b2f2f.woff2>; rel=preload; as=font; type=font/woff2; crossorigin",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:20 GMT",
+          "connection": "close"
+        },
+        "body_path": "page-collection.body.bin",
+        "body_bytes": 246737,
+        "body_sha256": "bc6e724994006b14d5ba943b084c7f360594bfe4157279f1c4d1d59c5a405049"
+      },
+      {
+        "name": "page-hierarchy",
+        "status": 200,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "content-type": "text/html; charset=utf-8",
+          "link": "</_next/static/_vinext_fonts/geist-8ac0455e797f/geist-98bbbccb.woff2>; rel=preload; as=font; type=font/woff2; crossorigin, </_next/static/_vinext_fonts/geist-mono-00e989178794/geist-mono-013b2f2f.woff2>; rel=preload; as=font; type=font/woff2; crossorigin",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:20 GMT",
+          "connection": "close"
+        },
+        "body_path": "page-hierarchy.body.bin",
+        "body_bytes": 70881,
+        "body_sha256": "a59cc7e9efa86b06bdd3a79811e378288cec1778985ff03c57d7de0c3299d89b"
+      },
+      {
+        "name": "page-label",
+        "status": 200,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "content-type": "text/html; charset=utf-8",
+          "link": "</_next/static/_vinext_fonts/geist-8ac0455e797f/geist-98bbbccb.woff2>; rel=preload; as=font; type=font/woff2; crossorigin, </_next/static/_vinext_fonts/geist-mono-00e989178794/geist-mono-013b2f2f.woff2>; rel=preload; as=font; type=font/woff2; crossorigin",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:20 GMT",
+          "connection": "close"
+        },
+        "body_path": "page-label.body.bin",
+        "body_bytes": 69659,
+        "body_sha256": "1a2f2f004cf7e486d19f24861e6ad43fbf1bae5944b6b813ef7fc6a289f4a4cc"
+      },
+      {
+        "name": "page-empty",
+        "status": 200,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "content-type": "text/html; charset=utf-8",
+          "link": "</_next/static/_vinext_fonts/geist-8ac0455e797f/geist-98bbbccb.woff2>; rel=preload; as=font; type=font/woff2; crossorigin, </_next/static/_vinext_fonts/geist-mono-00e989178794/geist-mono-013b2f2f.woff2>; rel=preload; as=font; type=font/woff2; crossorigin",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:20 GMT",
+          "connection": "close"
+        },
+        "body_path": "page-empty.body.bin",
+        "body_bytes": 69270,
+        "body_sha256": "00a210ee4e19192c9ac842d2a09dc2616b5587db6fb172cbc2c9cccc6e75fca5"
+      },
+      {
+        "name": "page-tex",
+        "status": 200,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "content-type": "text/html; charset=utf-8",
+          "link": "</_next/static/_vinext_fonts/geist-8ac0455e797f/geist-98bbbccb.woff2>; rel=preload; as=font; type=font/woff2; crossorigin, </_next/static/_vinext_fonts/geist-mono-00e989178794/geist-mono-013b2f2f.woff2>; rel=preload; as=font; type=font/woff2; crossorigin",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:21 GMT",
+          "connection": "close"
+        },
+        "body_path": "page-tex.body.bin",
+        "body_bytes": 69103,
+        "body_sha256": "43109f96f35f6dbf58dbf7f4af39a174fb53a825675ef60e164e8b084f8a74c3"
+      },
+      {
+        "name": "page-invalid",
+        "status": 404,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "content-type": "text/html; charset=utf-8",
+          "link": "</_next/static/_vinext_fonts/geist-8ac0455e797f/geist-98bbbccb.woff2>; rel=preload; as=font; type=font/woff2; crossorigin, </_next/static/_vinext_fonts/geist-mono-00e989178794/geist-mono-013b2f2f.woff2>; rel=preload; as=font; type=font/woff2; crossorigin",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:21 GMT",
+          "connection": "close"
+        },
+        "body_path": "page-invalid.body.bin",
+        "body_bytes": 22436,
+        "body_sha256": "0bf47fa65d5502a0c0fe4fcbbc777b64848e4ce86203797690b5a687e874c94a"
+      },
+      {
+        "name": "page-invalid_case",
+        "status": 404,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "content-type": "text/html; charset=utf-8",
+          "link": "</_next/static/_vinext_fonts/geist-8ac0455e797f/geist-98bbbccb.woff2>; rel=preload; as=font; type=font/woff2; crossorigin, </_next/static/_vinext_fonts/geist-mono-00e989178794/geist-mono-013b2f2f.woff2>; rel=preload; as=font; type=font/woff2; crossorigin",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:21 GMT",
+          "connection": "close"
+        },
+        "body_path": "page-invalid_case.body.bin",
+        "body_bytes": 22436,
+        "body_sha256": "cc32fcaabecdf5902bd79a4a5f8110a0b6b744e76e9c17aa7444dba537f749ed"
+      },
+      {
+        "name": "page-search",
+        "status": 200,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store, must-revalidate",
+          "content-type": "text/html; charset=utf-8",
+          "link": "</_next/static/_vinext_fonts/geist-8ac0455e797f/geist-98bbbccb.woff2>; rel=preload; as=font; type=font/woff2; crossorigin, </_next/static/_vinext_fonts/geist-mono-00e989178794/geist-mono-013b2f2f.woff2>; rel=preload; as=font; type=font/woff2; crossorigin",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:21 GMT",
+          "connection": "close"
+        },
+        "body_path": "page-search.body.bin",
+        "body_bytes": 119440,
+        "body_sha256": "4df90a4fea0e1efd684a8359984f4595aeac6333ae634fdc596a3b9fc5fda806"
+      },
+      {
+        "name": "page-duplicate_query",
+        "status": 200,
+        "headers": {
+          "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode",
+          "cache-control": "no-store, must-revalidate",
+          "content-type": "text/html; charset=utf-8",
+          "link": "</_next/static/_vinext_fonts/geist-8ac0455e797f/geist-98bbbccb.woff2>; rel=preload; as=font; type=font/woff2; crossorigin, </_next/static/_vinext_fonts/geist-mono-00e989178794/geist-mono-013b2f2f.woff2>; rel=preload; as=font; type=font/woff2; crossorigin",
+          "transfer-encoding": "chunked",
+          "date": "Tue, 08 Sep 2026 09:56:21 GMT",
+          "connection": "close"
+        },
+        "body_path": "page-duplicate_query.body.bin",
+        "body_bytes": 57369,
+        "body_sha256": "c387b08c15dbbe733bfd0ed1b847cfa4b5fa343f273f560984ab7cdb4ca1ef81"
+      }
+    ]
+  },
+  "failed_checks": 1
+}

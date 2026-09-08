@@ -1,0 +1,26 @@
+.page { max-width: 1160px; margin: 0 auto; padding: 2rem 1.5rem 4rem; font-size: 1rem; line-height: 1.65; color: #17273b; }
+.page a { color: #115bab; text-underline-offset: .2em; overflow-wrap: anywhere; }
+.page h1 { font-size: clamp(1.8rem, 4vw, 2.6rem); line-height: 1.2; font-weight: 700; margin: .8rem 0; }
+.page h2 { font-size: 1.3rem; font-weight: 650; margin: 1.8rem 0 .8rem; }
+.page h3 { font-size: 1.05rem; font-weight: 600; }
+.header, .pagination, .breadcrumbs { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .75rem 1.5rem; margin-bottom: 1.5rem; }
+.header, .scope, .footer { color: #425873; }
+.search { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 1rem; margin: 1.5rem 0; }
+.search label { display: flex; flex: 1 1 22rem; flex-direction: column; gap: .35rem; font-size: .9rem; font-weight: 550; }
+.search input[type=search] { width: 100%; min-height: 46px; padding: .65rem .8rem; border: 1px solid #7e93ab; border-radius: .4rem; background: white; color: #17273b; font-size: 1rem; }
+.search button { min-height: 46px; padding: .6rem 1rem; border: 1px solid #176bd0; border-radius: .4rem; background: #176bd0; color: white; font-size: 1rem; cursor: pointer; }
+.page :is(a, input, button, summary):focus-visible { outline: 3px solid #1374d8; outline-offset: 3px; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: .7rem; padding: 0; list-style: none; margin: 1rem 0 1.5rem; }
+.cards a { display: flex; align-items: baseline; gap: .8rem; min-height: 76px; border: 1px solid #ccd9e7; border-radius: .5rem; padding: .85rem 1rem; background: white; text-decoration: none; }
+.cards a:hover { border-color: #176bd0; background: #f3f8fe; }
+.code { font-size: .9rem; font-variant-numeric: tabular-nums; white-space: nowrap; font-weight: 600; color: #425873; }
+.shortcuts { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; margin: .7rem 0; }
+.breadcrumbs { justify-content: flex-start; font-size: .9rem; }
+.reference { padding: 1rem 0; border-top: 1px solid #dce5ef; }
+.reference p { margin: .35rem 0; }
+.condition { padding-left: 1rem; border-left: 3px solid #176bd0; margin: .7rem 0; }
+.page details { margin: 1rem 0; }
+.page summary { cursor: pointer; font-weight: 550; }
+.page pre { max-width: 100%; overflow: auto; padding: .8rem; font-size: .8rem; background: #f1f5fa; border-radius: .35rem; white-space: pre-wrap; overflow-wrap: anywhere; }
+.footer { border-top: 1px solid #ccd9e7; margin-top: 2rem; padding-top: 1rem; font-size: .9rem; }
+.footer p { margin: .5rem 0; }

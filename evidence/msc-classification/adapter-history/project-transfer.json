@@ -1,0 +1,67 @@
+﻿[
+    {
+        "source":  "D:/CodexWorkspaces/mathematics-atlas/msc-import-work/run-02/subjects.json",
+        "destination":  "data/msc/subjects.json",
+        "sha256":  "e069a3d0836a58e915c728e92a24fbabe9041b81e0d45b46cfa8e67cdb8c6fb0"
+    },
+    {
+        "source":  "D:/CodexWorkspaces/mathematics-atlas/msc-import-work/run-02/references.json",
+        "destination":  "data/msc/references.json",
+        "sha256":  "75ecd4b71056274ad342c72a5324770e2257e0ff3a88662dfe457c9127b4bc35"
+    },
+    {
+        "source":  "D:/CodexWorkspaces/mathematics-atlas/msc-import-work/run-02/summary.json",
+        "destination":  "data/msc/summary.json",
+        "sha256":  "de1ddce65ea413b2fe154a898530d03a952bf6f7b728bd7f0013bfbd33655765"
+    },
+    {
+        "source":  "D:/CodexWorkspaces/mathematics-atlas/msc-import-work/import_msc.py",
+        "destination":  "experiments/msc-index/import_msc.py",
+        "sha256":  "c676a8499ed7766e7fc8be45e85d91aebf0199276d84664cf8ea607ded0b80c1"
+    },
+    {
+        "source":  "D:/CodexWorkspaces/mathematics-atlas/msc-import-work/run_logged.py",
+        "destination":  "experiments/msc-index/run_logged.py",
+        "sha256":  "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6"
+    },
+    {
+        "source":  "D:/CodexWorkspaces/mathematics-atlas/msc-import-work/contract-v1.md",
+        "destination":  "experiments/msc-index/contract-v1.md",
+        "sha256":  "85108635a9b398db4d9c0fb3720aaccf3b69ef749666e8c83261659edf5404f6"
+    },
+    {
+        "source":  "D:/CodexWorkspaces/mathematics-atlas/msc-reuse-work/raw/official.csv",
+        "destination":  "experiments/msc-index/inputs/raw/official.csv",
+        "sha256":  "f7c889354c202551fe01f89bad2ae95ccadec4c57ac1f6f9de38bbd658d3c78c"
+    },
+    {
+        "source":  "D:/CodexWorkspaces/mathematics-atlas/msc-reuse-work/raw/suggestion4.ttl",
+        "destination":  "experiments/msc-index/inputs/raw/suggestion4.ttl",
+        "sha256":  "ee4afa1f198ffd0f5ea807377e46420c5fd7537991928c67c759fa44640421e9"
+    },
+    {
+        "source":  "D:/CodexWorkspaces/mathematics-atlas/msc-reuse-work/source-manifest.json",
+        "destination":  "experiments/msc-index/inputs/source-manifest.json",
+        "sha256":  "90602331e367f13fb21b0bc1d535f45326b6adf67165a369a681b6738f468f70"
+    },
+    {
+        "source":  "D:/CodexWorkspaces/mathematics-atlas/msc-reuse-work/raw/upstream-license.md",
+        "destination":  "data/msc/LICENSE-CC-BY-NC-SA-4.0.md",
+        "sha256":  "1349a4b6148492b44f629e64eed676612e234fe9a839e4f3b277c1482c8849f1"
+    },
+    {
+        "source":  "D:/CodexWorkspaces/mathematics-atlas/msc-reuse-work/pyproject.toml",
+        "destination":  "experiments/msc-index/pyproject.toml",
+        "sha256":  "e32f3a3dfcab81fb00fc1e149f7b807c047b51159a50d42efe609551dfc2ebd2"
+    },
+    {
+        "source":  "D:/CodexWorkspaces/mathematics-atlas/msc-reuse-work/.python-version",
+        "destination":  "experiments/msc-index/.python-version",
+        "sha256":  "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d"
+    },
+    {
+        "source":  "D:/CodexWorkspaces/mathematics-atlas/msc-reuse-work/uv.lock",
+        "destination":  "experiments/msc-index/uv.lock",
+        "sha256":  "9afc286067c54bf67e098e7fe85af1bd7223a179b7a1d18800df5ce5264c22db"
+    }
+]

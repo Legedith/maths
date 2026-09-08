@@ -1,0 +1,22 @@
+{
+  "schema_version": "independent-msc-product-final-validation-v1",
+  "auditor": "/root/sol_atlas_audit",
+  "checks": {
+    "final_gate_ids_exact": true,
+    "final_gate_statuses_approved": true,
+    "final_recommendation": true,
+    "no_unresolved_substantive_findings": true,
+    "corrected_audit_passes": true,
+    "first_audit_failure_preserved": true,
+    "docs_ci_passes": true,
+    "current_project_matches_freeze": true,
+    "freeze_hash_matches_report": true,
+    "author_checks_pass": true,
+    "author_build_pass": true,
+    "author_typecheck_pass": true,
+    "author_lint_pass": true,
+    "separate_import_audit_pass": true
+  },
+  "all_pass": true,
+  "current_project_mismatches": []
+}

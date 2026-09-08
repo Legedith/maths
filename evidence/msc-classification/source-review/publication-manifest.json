@@ -1,0 +1,112 @@
+{
+  "schema_version": "msc-reuse-review-publication-manifest-v1",
+  "sealed_at_utc": "2026-09-08T09:21:36.038842+00:00",
+  "auditor": "/root/sol_symmetry_audit",
+  "status": "sealed_pass_with_required_importer_controls",
+  "artifacts": [
+    {
+      "path": "pre-replay-freeze.json",
+      "kind": "input_freeze",
+      "bytes": 6162,
+      "sha256": "28370257288ad52d35ea3ca90c4c3e8ad53e0d288a911c730b755b66bab42475"
+    },
+    {
+      "path": "run_logged_replay.py",
+      "kind": "auditor_code",
+      "bytes": 3901,
+      "sha256": "ab47002c450274266eab8c8564cc21175a4e6adcec83e4917576a5eeb8d7c8ce"
+    },
+    {
+      "path": "raw/replay-01/run.json",
+      "kind": "raw_run_record",
+      "bytes": 1497,
+      "sha256": "58e41ae16d72cf4c8e6008c9473ecd7188ff2673d664dd193360d8db3557afea"
+    },
+    {
+      "path": "raw/replay-01/stdout.bin",
+      "kind": "raw_log",
+      "bytes": 262,
+      "sha256": "44033ac32c32c3080a235cab552d626f4fcc0f99d59fe67a54e6adf3fe398a3c"
+    },
+    {
+      "path": "raw/replay-01/stderr.bin",
+      "kind": "raw_log",
+      "bytes": 755,
+      "sha256": "cc810094610af6df446aac82854d5bee1fc120304c0995341b956d046989a864"
+    },
+    {
+      "path": "replay-comparison.json",
+      "kind": "reproduction_comparison",
+      "bytes": 1018,
+      "sha256": "e19a60f7c94cbf66af796b24f66830dcdc4d4b93d0eb66245ee0f234b929be1c"
+    },
+    {
+      "path": "pre-independent-check-freeze.json",
+      "kind": "input_freeze",
+      "bytes": 6496,
+      "sha256": "03f7dea525f550838bbf8dbfed360afa0b95eca8b6d5bd7e0fd4d7a7fddcef2a"
+    },
+    {
+      "path": "independent_source_check.py",
+      "kind": "independent_verifier_code",
+      "bytes": 21983,
+      "sha256": "2bdcf608a28def0e594eddf48aed2f3634365f8cc40dc13ff6d119a2883e2f6c"
+    },
+    {
+      "path": "run_logged_independent_check.py",
+      "kind": "auditor_code",
+      "bytes": 3017,
+      "sha256": "583f078d7220d26b9f89a9a745355c70880a9e4a8f050803daf0ffcf27c3d6ea"
+    },
+    {
+      "path": "raw/independent-check-01/run.json",
+      "kind": "raw_run_record",
+      "bytes": 1467,
+      "sha256": "a7494ad8cf0f16331d70e5c5c2a0b4d6d017e31ce1877cac2e208780513a1e5c"
+    },
+    {
+      "path": "raw/independent-check-01/stdout.bin",
+      "kind": "raw_log",
+      "bytes": 249,
+      "sha256": "3c8335dbd7e283c4ee54d029d810c7f29df698ecc80ee309cf08b26cabf18934"
+    },
+    {
+      "path": "raw/independent-check-01/stderr.bin",
+      "kind": "raw_log",
+      "bytes": 755,
+      "sha256": "fa7dd1101a5be5aea37fcf8ff1f0df350f274beaabd975cd06809fa27467fe68"
+    },
+    {
+      "path": "raw/independent-check-01/result.json",
+      "kind": "independent_verifier_output",
+      "bytes": 14041,
+      "sha256": "caea590ece7586e39a1990e264563cbf75f259593ebd564d9bed9606972c2fe4"
+    },
+    {
+      "path": "primary-source-review.json",
+      "kind": "source_review",
+      "bytes": 6501,
+      "sha256": "3f10924d08f2b11e8c1f557565ba113aea386cbe634a5da996093aa4a096e6fd"
+    },
+    {
+      "path": "final-audit.json",
+      "kind": "independent_audit",
+      "bytes": 15145,
+      "sha256": "125591a3779538bf87d844d845e24167af5f5b90893fba80fa6df1f02d04f50b"
+    }
+  ],
+  "excluded": [
+    {
+      "path": "raw/replay-01/inspection.json",
+      "bytes": 1740826,
+      "sha256": "b563fdfcd37f813ad9c6dc598e2464a39511f84a13d4e797598b051b945f8a46",
+      "reason": "Byte-identical 1.74 MB duplicate of the already pinned author inspection-03.json; equality is recorded in replay-comparison.json."
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/msc-reuse-work/raw/*",
+      "reason": "Third-party/full source snapshots remain in source staging and are not copied into the review publication subset."
+    }
+  ],
+  "input_files_copied": false,
+  "scope": "Source-feasibility audit only; importer and product remain unapproved."
+}

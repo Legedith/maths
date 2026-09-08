@@ -1,0 +1,8 @@
+{
+  "schema_version": "msc-promotion-review-checker-correction-v1",
+  "reviewer": "/root/sol_symmetry_worker",
+  "failed_result": "copy-validation.json",
+  "failure": "The first tree comparison treated two project-local root reports in product-history as failed copies because no same-relative-path files exist in the author's staging directory.",
+  "correction": "The corrected check reports unmatched published paths separately and requires byte equality for every published file that has an original counterpart. Manifest-declared copies, external records, baseline outputs, and direct pairs remain strict.",
+  "target_files_changed": false
+}

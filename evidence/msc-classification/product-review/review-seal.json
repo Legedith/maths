@@ -1,0 +1,48 @@
+{
+  "schema_version": "independent-msc-product-review-seal-v1",
+  "auditor": "/root/sol_atlas_audit",
+  "sealed_files": {
+    "final-msc-product-audit.json": {
+      "path": "final-msc-product-audit.json",
+      "bytes": 6121,
+      "sha256": "9e2b5c2f609ac271f4cc913f464f5d4745cce648d1ef9469be9cde90ea47715e",
+      "copy": true
+    },
+    "findings.json": {
+      "path": "findings.json",
+      "bytes": 1295,
+      "sha256": "3a91272c23e3e95e7c5cf0fb074d1de0f86dba3a6f56bec5e2917e702e1a6d8f",
+      "copy": true
+    },
+    "final-validation.json": {
+      "path": "final-validation.json",
+      "bytes": 721,
+      "sha256": "43e14c02e9ab4843cecf90b13f12b592cc03e12ec5294ba337207ab7f16edacd",
+      "copy": true
+    },
+    "results/audit-02.json": {
+      "path": "results/audit-02.json",
+      "bytes": 47619,
+      "sha256": "5b83f98a7e08dd7bd4e2514b1286068f872ea6cf69a4cdff7e4b4d13903a4205",
+      "copy": true
+    },
+    "results/docs-ci-review-01.json": {
+      "path": "results/docs-ci-review-01.json",
+      "bytes": 4857,
+      "sha256": "4f2f444aedf77edaa209bffec07b1cb88194e10c3947382b1f6ccbb38a257e56",
+      "copy": true
+    },
+    "reviewed-inputs-attempt02.json": {
+      "path": "reviewed-inputs-attempt02.json",
+      "bytes": 6793,
+      "sha256": "e6d59626f849ee68875188b3e5395c63a34d1fc7d4cd2ee6babae17ad0bc05c4",
+      "copy": true
+    },
+    "publication-manifest.json": {
+      "path": "publication-manifest.json",
+      "bytes": 19398,
+      "sha256": "276f99ecee69ce233746961a0edba709cf4634f7e6198a5831ae4dd0e7c49e3c",
+      "copy": true
+    }
+  }
+}

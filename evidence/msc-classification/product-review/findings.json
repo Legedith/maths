@@ -1,0 +1,28 @@
+{
+  "schema_version": "independent-msc-product-findings-v1",
+  "auditor": "/root/sol_atlas_audit",
+  "unresolved_substantive_findings": [],
+  "resolved_findings": [
+    {
+      "id": "DOC-01",
+      "severity": "wording_precision",
+      "path": "project/docs/subject-browser.md",
+      "line": 23,
+      "finding": "The initial text said responses retain source locators and exact RDF identifiers even though paginated list responses intentionally contain summaries.",
+      "resolution": "The final frozen text now says detail responses retain those fields and paginated lists contain subject summaries.",
+      "before_sha256": "ddf644f5f8b20980ccb4fa553715c92b37b628a1606f4c146787f972509098d5",
+      "after_sha256": "c8f454011e9e9411a77d3340e05d49b53c7223ce2edb8d83110c7c534c1b18bb",
+      "status": "resolved_and_rechecked"
+    }
+  ],
+  "auditor_harness_corrections": [
+    {
+      "id": "HARNESS-01",
+      "finding": "The first independent run treated React's empty adjacent-text hydration marker as visible text and falsely reported that the root count was absent.",
+      "correction_record": "checker-correction-01.json",
+      "first_result": "results/audit-01.json",
+      "corrected_result": "results/audit-02.json",
+      "status": "corrected_with_original_preserved"
+    }
+  ]
+}

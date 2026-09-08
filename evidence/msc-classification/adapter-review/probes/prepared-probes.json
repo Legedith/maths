@@ -1,0 +1,27 @@
+{
+    "schema_version":  "msc-import-pin-probe-preparation-v1",
+    "sentinel":  {
+                     "path":  "probes/existing-output/sentinel.txt",
+                     "bytes":  31,
+                     "sha256":  "9edb8213b653c79e2ec9c26a9b8101b704f4e6d1f5a1cb025cb7fd777ecb4800"
+                 },
+    "mutations":  "One trailing ASCII space appended to exactly one declared input per isolated copy.",
+    "mutated_inputs":  [
+                           {
+                               "path":  "probes/manifest-mismatch/inputs/source-manifest.json",
+                               "bytes":  5226,
+                               "sha256":  "9660d115adbc5380ff3d12de07ac0e45b28e6024e7dace0625de257ccaae651f"
+                           },
+                           {
+                               "path":  "probes/csv-mismatch/inputs/raw/official.csv",
+                               "bytes":  797212,
+                               "sha256":  "7a24b5d92cb5cb2d08da48ce409961b412999cff759efd1d36e752e0f900cec0"
+                           },
+                           {
+                               "path":  "probes/ttl-mismatch/inputs/raw/suggestion4.ttl",
+                               "bytes":  5074748,
+                               "sha256":  "6dff4466dca6adb356d8ad78b06b55213f38291323e647ba07eb18f991515192"
+                           }
+                       ],
+    "publication_exclusion":  "Auditor-owned source copies are local only and excluded from publication manifest."
+}

@@ -1,0 +1,333 @@
+{
+  "schema_version": "msc-reuse-independent-audit-v1",
+  "audited_at_utc": "2026-09-08T09:21:00.923195+00:00",
+  "auditor": {
+    "identity": "/root/sol_symmetry_audit",
+    "role": "independent source, reproduction, and implementation-alignment reviewer",
+    "independent_of_author": true
+  },
+  "scope": {
+    "input_root": "D:/CodexWorkspaces/mathematics-atlas/msc-reuse-work",
+    "audit_root": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-reuse-review-work",
+    "reviewed": "Frozen source feasibility inspection and its adoption recommendation",
+    "not_reviewed": [
+      "candidate importer in msc-import-work",
+      "product integration",
+      "performance",
+      "mathematical correctness of subject assignments",
+      "global coverage",
+      "novelty"
+    ],
+    "source_snapshots_republished": false
+  },
+  "input_pins": [
+    {
+      "path": "spec-v1.md",
+      "sha256": "0d4f0ceda221b6e9fe56716ca191267a55994e3facf19f20ae81c228941b8214"
+    },
+    {
+      "path": "source-manifest.json",
+      "sha256": "90602331e367f13fb21b0bc1d535f45326b6adf67165a369a681b6738f468f70"
+    },
+    {
+      "path": "inspect_sources.py",
+      "sha256": "010fd76be27b231c1fc31183be97725121a01b9b4e95a82b1b597c9fea4fb5e5"
+    },
+    {
+      "path": "inspection-03.json",
+      "sha256": "b563fdfcd37f813ad9c6dc598e2464a39511f84a13d4e797598b051b945f8a46"
+    },
+    {
+      "path": "encoding-correction.json",
+      "sha256": "c81009c13f88e9f86f00ff0e4ffbaca9b03f8308c056c2e779fd27f3a47227ab"
+    },
+    {
+      "path": "reification-correction.json",
+      "sha256": "24370efcda745e8d85debfd419b44dbf7c2e158b2d8b9db84c053e32aa660ee7"
+    }
+  ],
+  "gate_decisions": [
+    {
+      "id": "reproduction",
+      "status": "PASS",
+      "basis": "Auditor-owned wrapper invoked the frozen command with explicit ISO-8859-1, uv 0.8.19, Python 3.12.11, RDFLib 7.1.4, the D: cache and original project environment. Return code was 0, no timeout occurred, and the 1,740,826-byte output is byte-identical to inspection-03.json at SHA-256 b563fdfc....",
+      "evidence": [
+        "pre-replay-freeze.json",
+        "raw/replay-01/run.json",
+        "raw/replay-01/stdout.bin",
+        "raw/replay-01/stderr.bin",
+        "replay-comparison.json"
+      ]
+    },
+    {
+      "id": "specification_compliance",
+      "status": "PASS",
+      "basis": "The final inspector verifies every manifest pin before parsing, requires an explicit encoding and a fresh output, retains the UTF-8 and class-IRI correction history, reports rather than repairs label/hierarchy differences, and stays within structural feasibility scope. The RDFLib invalid-date warning remains visible.",
+      "limitations": [
+        "The field hyphen_leaf_count is a structural leaf count, not the primary paper’s hierarchy-level terminology; NN-dd codes are second-level hyphen classes.",
+        "The field cross_references.dangling means outside the selected code-concept set, not unresolved resource."
+      ],
+      "evidence": [
+        "input pins in pre-replay-freeze.json",
+        "primary-source-review.json",
+        "raw/independent-check-01/result.json"
+      ]
+    },
+    {
+      "id": "source_verification",
+      "status": "PASS",
+      "basis": "All seven snapshots match the source manifest. Primary source/site locators support the official CSV role, suggestion status, hierarchy/code forms, qualified-reference reification and CC-BY-NC-SA-4.0 source terms. Direct record checks confirm the eight dual parents, the collection target, actual lowercase data class, separate-vocabulary IRI mismatch and invalid date lexical form.",
+      "limitations": [
+        "License identity and relevant source terms were verified; this is not legal advice or a certification of a downstream use.",
+        "The source paper’s model and examples do not override differing exact IRIs or dual-parent triples in the pinned dataset."
+      ],
+      "evidence": [
+        "primary-source-review.json",
+        "raw/independent-check-01/result.json"
+      ]
+    },
+    {
+      "id": "implementation_alignment",
+      "status": "PASS",
+      "basis": "The final code was read in full. A separately written checker passed 23 checks and exactly matched the author output’s CSV summary, code sets, all 120 label-difference rows, all 6603 hierarchy rows, eight disagreement rows, all 3083 selected direct triples and all 415 reification rows. It additionally verified one-to-one seeFor pointers and RDF scope term forms.",
+      "limitations": [
+        "inspection-03 stringifies scopes and therefore does not itself retain datatype/language; the importer must read the pinned RDF or otherwise preserve this information.",
+        "The inspector does not validate every RDF triple and does not adjudicate semantic correctness of labels or parents."
+      ],
+      "evidence": [
+        "pre-independent-check-freeze.json",
+        "independent_source_check.py",
+        "raw/independent-check-01/run.json",
+        "raw/independent-check-01/stdout.bin",
+        "raw/independent-check-01/stderr.bin",
+        "raw/independent-check-01/result.json"
+      ]
+    }
+  ],
+  "verified_observations": {
+    "source_hashes": {
+      "count": 7,
+      "all_match": true
+    },
+    "csv": {
+      "decoding": "iso-8859-1 explicit interpretation",
+      "row_count": 6603,
+      "unique_codes": 6603,
+      "strict_utf8": "fails at byte offset 5168 on f6",
+      "round_trip_exact": true,
+      "replacement_characters": 0
+    },
+    "code_sets": {
+      "csv": 6603,
+      "rdf": 6603,
+      "csv_only": 0,
+      "rdf_only": 0,
+      "top_level": 63,
+      "second_level_hyphen_form": 503,
+      "second_level_letter_group": 534,
+      "second_level_total": 1037,
+      "third_level_letter_digit": 5503
+    },
+    "labels": {
+      "exact_matches": 6483,
+      "exact_differences": 120,
+      "difference_ledger_sha256": "cccf1b8eac92d43e71b6959d23fa29b6e2a6a16789ca0e326923909ab6c16b06",
+      "interpretation": "A string mismatch is not automatically a semantic error. Reviewed probes show a mix of surface rewording, moved qualification and potentially scope-changing text."
+    },
+    "hierarchy": {
+      "records": 6603,
+      "notation_disagreements": 8,
+      "codes": [
+        "32-00",
+        "32-01",
+        "32-02",
+        "32-03",
+        "32-04",
+        "32-06",
+        "32-08",
+        "32-11"
+      ],
+      "actual_source_condition": "Each has both 32-XX and 33-XX as recorded parents; all parent URIs resolve to selected concepts.",
+      "adjudication": "Retain and flag; notation expectation alone does not authorize deleting a parent or declaring a source error."
+    },
+    "selected_cross_references": {
+      "total": 3083,
+      "seeAlso": 2642,
+      "seeMainly": 26,
+      "seeConditionally": 415
+    },
+    "conditional_scope_linkages": {
+      "direct": 415,
+      "reifications": 415,
+      "complete_and_bijective": true,
+      "each_has_exactly_one_subject_predicate_object_scope_and_incoming_seeFor": true,
+      "scope_term_forms": {
+        "rdf_XMLLiteral": 414,
+        "english_language_literal": 1
+      },
+      "ledger_sha256": "2edb08e3525c0c4c4af04741b6769cd9978ee5701de2ec9691032c073424d68c"
+    },
+    "outside_concept_target": {
+      "count": 1,
+      "uri": "http://msc2020.org/resources/MSC/msc2020/GeneralReferenceWorksCollection",
+      "resolved_type": "skos:Collection",
+      "member_count": 62,
+      "all_members_selected_concepts": true,
+      "meaning_of_author_dangling": "target is outside the selected concept set only"
+    },
+    "vocabulary": {
+      "dataset_namespace": "http://msc2020.org/resources/MSC/msc2020/mscvocab#",
+      "separate_file_namespace": "https://msc2020.org/resources/MSC/2020/MSC2020/mscvocab#",
+      "dataset_class": "seeForStatement",
+      "separate_file_class": "SeeForStatement",
+      "checked_explicit_identity_bridge": false
+    },
+    "corrections": {
+      "utf8_failure_retained_and_explained": true,
+      "uppercase_scope_lookup_failure_retained_and_explained": true,
+      "invalid_typed_date_warning_retained": true
+    }
+  },
+  "adoption_decision": {
+    "status": "SUPPORTED_FOR_SEPARATELY_FROZEN_IMPORTER_WITH_REQUIREMENTS",
+    "statement": "Use the pinned official CSV as the candidate classification backbone. Treat the pinned Turtle as a separately attributed suggestion supplying source assertions and qualified navigation records. Do not import it wholesale as an official ontology or as a proved mathematical graph.",
+    "requirements": [
+      {
+        "id": "IR01",
+        "text": "Pin and verify all source bytes and the Git revision; fail closed on hash mismatch. Do not fetch mutable latest inputs during an import."
+      },
+      {
+        "id": "IR02",
+        "text": "Require the CSV encoding explicitly as ISO-8859-1 for this snapshot, preserve raw bytes, reject replacement characters, and record that HTTP declared no charset."
+      },
+      {
+        "id": "IR03",
+        "text": "Retain CSV code, text, description and physical record locator exactly. Use measured snapshot counts rather than website or paper prose totals."
+      },
+      {
+        "id": "IR04",
+        "text": "Represent NN-dd as a second-level hyphen-form class even when it is structurally a leaf; store hierarchy level, notation form and has-children status separately."
+      },
+      {
+        "id": "IR05",
+        "text": "If notation-derived CSV hierarchy is selected as the backbone, retain the RDF broader assertions separately. Emit all eight dual-parent disagreements as source conflicts without silent deletion, addition or error adjudication."
+      },
+      {
+        "id": "IR06",
+        "text": "Retain both raw labels for all 120 differences with exact-match status and source locator. Choose any display-label precedence explicitly; do not label the entire set erroneous without semantic review."
+      },
+      {
+        "id": "IR07",
+        "text": "Emit all 3083 selected relations with raw source URI, predicate IRI, target URI, target kind, source revision and locator. Treat them as MSC navigation assertions, not equivalence, implication or proof."
+      },
+      {
+        "id": "IR08",
+        "text": "For each of the 415 conditional relations, preserve the reification URI, exact rdf:subject/predicate/object, incoming seeFor pointer, scope lexical value, datatype/language and the direct seeConditionally edge. Reject incomplete, duplicate or mismatched linkage records."
+      },
+      {
+        "id": "IR09",
+        "text": "Resolve GeneralReferenceWorksCollection as target_kind=collection with its own metadata. Do not call it dangling/unresolved or expand its 62 members into inferred direct edges."
+      },
+      {
+        "id": "IR10",
+        "text": "Preserve the data file’s actual HTTP/lowercase IRIs and the separate vocabulary file’s HTTPS/path/uppercase IRIs. Do not assert identity from spelling similarity; any application enum mapping must retain the raw IRI and be explicitly local."
+      },
+      {
+        "id": "IR11",
+        "text": "Retain the lexical placeholder 2021-03-xx and validation warning or quarantine that metadata field; do not synthesize a valid source date."
+      },
+      {
+        "id": "IR12",
+        "text": "Carry source-specific attribution, source and license URLs, CC-BY-NC-SA-4.0 identity and modification status. Keep official MR/zbMATH classification attribution, suggested-SKOS provenance and project code licensing distinct; assess downstream license compatibility before redistribution."
+      },
+      {
+        "id": "IR13",
+        "text": "Reject duplicate/invalid codes and unresolved hierarchy identifiers; produce deterministic output and a complete source-to-output accounting ledger before product promotion."
+      },
+      {
+        "id": "IR14",
+        "text": "Do not automatically map Atlas concepts to MSC codes or claim complete mathematical coverage, source correctness, practical impact, performance or novelty."
+      }
+    ]
+  },
+  "overall_status": "PASS_WITH_REQUIRED_IMPORTER_CONTROLS",
+  "all_four_gates_pass": true,
+  "blocking_findings": [],
+  "limitations": [
+    "This gate approves the source-feasibility conclusion only. It does not approve the separately authored importer or any product use.",
+    "No full source snapshot or paper text is included in the publication subset.",
+    "No claim is made that any of the 120 label differences or eight parent differences is a source error without further adjudication."
+  ],
+  "evidence_inventory": [
+    {
+      "path": "pre-replay-freeze.json",
+      "bytes": 6162,
+      "sha256": "28370257288ad52d35ea3ca90c4c3e8ad53e0d288a911c730b755b66bab42475"
+    },
+    {
+      "path": "run_logged_replay.py",
+      "bytes": 3901,
+      "sha256": "ab47002c450274266eab8c8564cc21175a4e6adcec83e4917576a5eeb8d7c8ce"
+    },
+    {
+      "path": "raw/replay-01/run.json",
+      "bytes": 1497,
+      "sha256": "58e41ae16d72cf4c8e6008c9473ecd7188ff2673d664dd193360d8db3557afea"
+    },
+    {
+      "path": "raw/replay-01/stdout.bin",
+      "bytes": 262,
+      "sha256": "44033ac32c32c3080a235cab552d626f4fcc0f99d59fe67a54e6adf3fe398a3c"
+    },
+    {
+      "path": "raw/replay-01/stderr.bin",
+      "bytes": 755,
+      "sha256": "cc810094610af6df446aac82854d5bee1fc120304c0995341b956d046989a864"
+    },
+    {
+      "path": "replay-comparison.json",
+      "bytes": 1018,
+      "sha256": "e19a60f7c94cbf66af796b24f66830dcdc4d4b93d0eb66245ee0f234b929be1c"
+    },
+    {
+      "path": "pre-independent-check-freeze.json",
+      "bytes": 6496,
+      "sha256": "03f7dea525f550838bbf8dbfed360afa0b95eca8b6d5bd7e0fd4d7a7fddcef2a"
+    },
+    {
+      "path": "independent_source_check.py",
+      "bytes": 21983,
+      "sha256": "2bdcf608a28def0e594eddf48aed2f3634365f8cc40dc13ff6d119a2883e2f6c"
+    },
+    {
+      "path": "run_logged_independent_check.py",
+      "bytes": 3017,
+      "sha256": "583f078d7220d26b9f89a9a745355c70880a9e4a8f050803daf0ffcf27c3d6ea"
+    },
+    {
+      "path": "raw/independent-check-01/run.json",
+      "bytes": 1467,
+      "sha256": "a7494ad8cf0f16331d70e5c5c2a0b4d6d017e31ce1877cac2e208780513a1e5c"
+    },
+    {
+      "path": "raw/independent-check-01/stdout.bin",
+      "bytes": 249,
+      "sha256": "3c8335dbd7e283c4ee54d029d810c7f29df698ecc80ee309cf08b26cabf18934"
+    },
+    {
+      "path": "raw/independent-check-01/stderr.bin",
+      "bytes": 755,
+      "sha256": "fa7dd1101a5be5aea37fcf8ff1f0df350f274beaabd975cd06809fa27467fe68"
+    },
+    {
+      "path": "raw/independent-check-01/result.json",
+      "bytes": 14041,
+      "sha256": "caea590ece7586e39a1990e264563cbf75f259593ebd564d9bed9606972c2fe4"
+    },
+    {
+      "path": "primary-source-review.json",
+      "bytes": 6501,
+      "sha256": "3f10924d08f2b11e8c1f557565ba113aea386cbe634a5da996093aa4a096e6fd"
+    }
+  ]
+}

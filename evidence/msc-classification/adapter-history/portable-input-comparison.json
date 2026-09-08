@@ -1,0 +1,20 @@
+﻿[
+    {
+        "file":  "subjects.json",
+        "before_sha256":  "e069a3d0836a58e915c728e92a24fbabe9041b81e0d45b46cfa8e67cdb8c6fb0",
+        "after_sha256":  "e069a3d0836a58e915c728e92a24fbabe9041b81e0d45b46cfa8e67cdb8c6fb0",
+        "equal":  true
+    },
+    {
+        "file":  "references.json",
+        "before_sha256":  "75ecd4b71056274ad342c72a5324770e2257e0ff3a88662dfe457c9127b4bc35",
+        "after_sha256":  "75ecd4b71056274ad342c72a5324770e2257e0ff3a88662dfe457c9127b4bc35",
+        "equal":  true
+    },
+    {
+        "file":  "summary.json",
+        "before_sha256":  "de1ddce65ea413b2fe154a898530d03a952bf6f7b728bd7f0013bfbd33655765",
+        "after_sha256":  "de1ddce65ea413b2fe154a898530d03a952bf6f7b728bd7f0013bfbd33655765",
+        "equal":  true
+    }
+]

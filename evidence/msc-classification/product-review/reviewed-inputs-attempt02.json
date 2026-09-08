@@ -1,0 +1,201 @@
+{
+  "schema_version": "independent-msc-product-review-freeze-v1",
+  "auditor": "/root/sol_atlas_audit",
+  "frozen_at_utc": "2026-09-08T10:00:50.057381+00:00",
+  "scope": "Frozen project product/data/test/docs/workflow files plus auditor-owned checker; project remains read-only.",
+  "project_root": "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+  "upstream_freeze": {
+    "path": "preexecution-freeze-02.json",
+    "bytes": 4903,
+    "sha256": "929a0ac46ffb523ed62e4d3ad8391b32afdf373225a7d54edf90d9d1534aaefa"
+  },
+  "project_files": [
+    {
+      "path": "docs/subject-browser-contract.md",
+      "bytes": 3345,
+      "sha256": "fb3479a4cbf69a14343a13960a16d4ec424e818618071630d8e382252a8fb05b"
+    },
+    {
+      "path": "lib/subject-index.ts",
+      "bytes": 7760,
+      "sha256": "2d9db19faccc7048584edc1e9079f44dc10dbfbccc35256f8bdcce4fdf3791d4"
+    },
+    {
+      "path": "lib/subject-data.ts",
+      "bytes": 329,
+      "sha256": "0e46513b1005887a80bc1e46476982b7e8fd6b5301a0abad6b987a81aac4a164"
+    },
+    {
+      "path": "app/api/subjects/route.ts",
+      "bytes": 1143,
+      "sha256": "ec56c5edefb01856901224c12471f40d8bfbf7eef9f0716136f4d5d95ea9f667"
+    },
+    {
+      "path": "app/subjects/page.tsx",
+      "bytes": 3441,
+      "sha256": "2b8e9150598df9a457f0e4ee62295d8283b6b941499f6b608a21cfcd0a9aec15"
+    },
+    {
+      "path": "app/subjects/[code]/page.tsx",
+      "bytes": 5614,
+      "sha256": "5369fca27869abd8b259820271a42895ca10704e449169d7b7e98aee43cd2824"
+    },
+    {
+      "path": "components/subject-navigation.tsx",
+      "bytes": 1761,
+      "sha256": "bb4edd2e4c579a6af22e2c101a2b4e9203fe495e8100ca3cc2c896b265d9ec8d"
+    },
+    {
+      "path": "components/subject-navigation.module.css",
+      "bytes": 2570,
+      "sha256": "266596ecded2629466a72e4d74ef71e1ce78496b780626a9de3bf4464d0d7f48"
+    },
+    {
+      "path": "app/page.tsx",
+      "bytes": 21823,
+      "sha256": "202c6e495587ed050267a4031ea060866a683925d839a9ea5f930f4d2fa95347"
+    },
+    {
+      "path": "scripts/check-subjects.ts",
+      "bytes": 7621,
+      "sha256": "35539aebb6b682f068c5081082c523db2cd10fd3edfb3a4179122a45f2e01782"
+    },
+    {
+      "path": "data/msc/subjects.json",
+      "bytes": 7900506,
+      "sha256": "32fb0eddc9f189e68b9fa312e8e29c399deee65d4d282d1e61235be33a22400e"
+    },
+    {
+      "path": "data/msc/references.json",
+      "bytes": 1366532,
+      "sha256": "75ecd4b71056274ad342c72a5324770e2257e0ff3a88662dfe457c9127b4bc35"
+    },
+    {
+      "path": "data/msc/summary.json",
+      "bytes": 802,
+      "sha256": "7816ecdc34c3fe3981bef3f18a6ff0effe16e12aca5dc95460f8604dee7715ed"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8264,
+      "sha256": "df6fde12fa563588fb3c8b0e967084a195319bbfab46191bbf0721569825f149"
+    },
+    {
+      "path": "docs/coverage.md",
+      "bytes": 2550,
+      "sha256": "92358d4e3d47e2035207132c1a1044f113bae32a5366a78bec51574f44051361"
+    },
+    {
+      "path": "docs/reuse-decision.md",
+      "bytes": 5074,
+      "sha256": "74d5e1613f4cf83b2215ddbb5ce1c09f0fa606c97343ab8b0208a4698409bb75"
+    },
+    {
+      "path": "docs/subject-browser.md",
+      "bytes": 3969,
+      "sha256": "c8f454011e9e9411a77d3340e05d49b53c7223ce2edb8d83110c7c534c1b18bb"
+    },
+    {
+      "path": ".github/workflows/verify.yml",
+      "bytes": 1522,
+      "sha256": "1bb07fc334a822ba8aeb36353aa6114c3441f7e06490cad2152670053220f3ab"
+    },
+    {
+      "path": ".github/workflows/reproduce-subject-classification.yml",
+      "bytes": 1885,
+      "sha256": "7a5d84a6da913dcf4994f7b6831ab536981062abee7c34b749be190428eb1875"
+    }
+  ],
+  "author_evidence_inputs": [
+    {
+      "path": "preexecution-freeze-02.json",
+      "bytes": 4903,
+      "sha256": "929a0ac46ffb523ed62e4d3ad8391b32afdf373225a7d54edf90d9d1534aaefa"
+    },
+    {
+      "path": "preexecution-freeze-03.json",
+      "bytes": 5438,
+      "sha256": "e6b099e05f093250af9b89aa94fe2bdfb67c1506767d2a937ab7c61ecc4d0e0b"
+    },
+    {
+      "path": "checks-02.json",
+      "bytes": 4648,
+      "sha256": "cc4e87d71e6a225404d596597d20880ab5901d65622b51fc23d1e0a1c5e1d8b1"
+    },
+    {
+      "path": "logs/attempt-msc-product-checks-02.json",
+      "bytes": 1091,
+      "sha256": "4249f7ff534f460d81142b6f81467a53bd03e8df5d2cc519c1cb371a25c024d4"
+    },
+    {
+      "path": "logs/attempt-msc-product-checks-02.stdout.bin",
+      "bytes": 3186,
+      "sha256": "6ca4d8b87725036681d5004668f0eb51569c284e6eb495acb2a33bc825d9c28e"
+    },
+    {
+      "path": "logs/attempt-msc-product-checks-02.stderr.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/attempt-msc-production-build-01.json",
+      "bytes": 968,
+      "sha256": "c054b8b9676146f51bcf17f6d89e04bf27b8caa1248cf11cf308ffa854425a3a"
+    },
+    {
+      "path": "logs/attempt-msc-production-build-01.stdout.bin",
+      "bytes": 1466,
+      "sha256": "6e56d72f16f4bfd25de4ca56050337062e5bde614bd3137fb4f4177c96e23561"
+    },
+    {
+      "path": "logs/attempt-msc-production-build-01.stderr.bin",
+      "bytes": 153,
+      "sha256": "729d8972b51de5e2457a45b53681f0065959be096264bf3ccc0a93db9432920d"
+    },
+    {
+      "path": "logs/attempt-msc-tsc-01.json",
+      "bytes": 931,
+      "sha256": "3d6de64e9b5a11183bd9e1b9a2ea2d603b044dd11d693c7b39d49a0009090a19"
+    },
+    {
+      "path": "logs/attempt-msc-tsc-02.json",
+      "bytes": 929,
+      "sha256": "d96938006e003828d28d070c9d7c63543ec56b034184ea8ea2d60a39fec100ed"
+    },
+    {
+      "path": "logs/attempt-msc-lint-01.json",
+      "bytes": 930,
+      "sha256": "89a9935c212463af055902e4a3f16d87d98f0dd6e2ff81be3d27f7ccedb05ccd"
+    },
+    {
+      "path": "logs/attempt-msc-lint-02.json",
+      "bytes": 929,
+      "sha256": "13afdb4ac94cbb1a9bf1b290c9bc949b4b995439071527828ca646def14124da"
+    }
+  ],
+  "independent_files": [
+    {
+      "path": "scripts/audit_msc_product.py",
+      "bytes": 30384,
+      "sha256": "7a7d66514fbe94918f66372847c4ce24d97481a3c9d38a05abe94f62f2011344"
+    },
+    {
+      "path": "scripts/run_logged.py",
+      "bytes": 3420,
+      "sha256": "8638ae3652333bc043116b9a5afe540e4af664e9d7e324f34c5f46b1f67c7e5d"
+    },
+    {
+      "path": "scripts/freeze_review.py",
+      "bytes": 3784,
+      "sha256": "8014c1604bc0715fa152c08048f920323f73bc903ab25b5cad21eaa20026bd40"
+    },
+    {
+      "path": "checker-correction-01.json",
+      "bytes": 1335,
+      "sha256": "da93ba323bc12dd992fa3d20858e26eb4ae92f26c55d9423573149292d8e8859"
+    }
+  ],
+  "project_hash_mismatches": [],
+  "execution_pending": true,
+  "visual_or_dom_review_authorized": false
+}

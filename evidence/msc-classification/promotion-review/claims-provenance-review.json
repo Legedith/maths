@@ -1,0 +1,227 @@
+{
+  "schema_version": "independent-msc-promotion-review-v1",
+  "reviewer": {
+    "identity": "/root/sol_symmetry_worker",
+    "role": "independent release evidence reviewer",
+    "independence": "The reviewer did not author the MSC source inspection, importer, product code, product tests, product audit, or evidence bundle."
+  },
+  "target": {
+    "path": "project/.codex/evidence/runs/msc-classification-v1/bundle.json",
+    "candidate": "msc-product-work/bundle-final-candidate-03.json",
+    "bytes": 89372,
+    "sha256": "f57ccfddf20064d1df481e289925f09b66657ce604f1047d8dce8ba9ba8d9e49",
+    "artifact_count": 265,
+    "claim_count": 9
+  },
+  "recommendation": "PASS_FOR_SCOPED_MSC_PROMOTION_EVIDENCE",
+  "recommendation_statement": "Candidate 03 is suitable for scoped promotion. Its exact artifacts, claim values, claim meanings, copy provenance, source/license boundary, regression records, and independent product gate support the stated classification-navigation claims. This approval applies only to the target hash and the limitations below.",
+  "checks": [
+    {
+      "id": "artifact_integrity_and_typed_locators",
+      "status": "PASS",
+      "observations": {
+        "artifacts_present_and_hash_matching": "265/265",
+        "safe_unique_artifact_paths": true,
+        "unique_artifact_and_claim_ids": true,
+        "claim_support_locators_matching": "42/42",
+        "claims_with_all_declared_locators_matching": "9/9",
+        "canonical_inventory_sha256": "9ea515e0f24db9849ee12fec517caa86f0636cba4d2b9d0b521532128f312168"
+      },
+      "evidence": [
+        {
+          "path": "candidate-03-mechanical-check.json",
+          "sha256": "a611c2cd44095d99d5451aed2d33b83bc130f12dd96e7a30fd0fe68d62bc35bb"
+        },
+        {
+          "path": "msc-product-work/gate-logs/attempt-msc-gate-03.stdout.bin",
+          "sha256": "be3a847fac2ce00aac4b3a03258eff8cf6ad53292342a61e3fd536e4483d6e70"
+        }
+      ]
+    },
+    {
+      "id": "candidate_delta",
+      "status": "PASS",
+      "observations": {
+        "artifact_records_unchanged_from_candidate_02": true,
+        "claim_ids_types_statements_and_statuses_unchanged": true,
+        "prior_supports_preserved": true,
+        "added_exact_support_locators": 12,
+        "check_decisions_and_limitations_unchanged": true
+      },
+      "evidence": [
+        {
+          "path": "candidate-delta-02-to-03.json",
+          "sha256": "a042841988574618e39f88aebbadc173dec5dc0738be2cc229353ed734eeb85f"
+        },
+        {
+          "path": "msc-product-work/claim-locator-correction-03.json",
+          "sha256": "4f589b9cbe88b75bbe689f31ba2a8eed5f139959cfd4ba7ad1e8a860e0cd0bc1"
+        }
+      ]
+    },
+    {
+      "id": "copy_and_freeze_fidelity",
+      "status": "PASS",
+      "observations": {
+        "source_review_files_byte_identical": "16/16",
+        "adapter_review_files_byte_identical": "33/33",
+        "product_review_files_byte_identical": "88/88",
+        "product_history_files_with_original_counterparts_byte_identical": "45/45",
+        "project_local_product_history_reports_without_author_staging_counterparts": [
+          "atlas-regression-search-and-paths.json",
+          "regression-report-location.json"
+        ],
+        "product_manifest_copy_records_matching": "86/86",
+        "product_manifest_external_records_matching": "7/7",
+        "selected_direct_source_code_data_and_baseline_pairs_matching": "16/16",
+        "current_product_files_matching_freeze_03": "19/19",
+        "candidate_and_staging_copy_byte_identical": true
+      },
+      "evidence": [
+        {
+          "path": "copy-validation-final.json",
+          "sha256": "7aaacccdf2619f56e91cfb5f05df4aa0a2fca6b764f047c6cbfcd0886fdeafa9"
+        }
+      ],
+      "interpretation": "The two project-local reports are root-produced release records rather than claimed copies; both are separately hash-bound in the candidate. No counterpart mismatch was observed."
+    },
+    {
+      "id": "source_license_and_meaning_boundary",
+      "status": "PASS_SCOPED",
+      "observations": {
+        "source_audit": {
+          "path": "project/evidence/msc-classification/source-review/final-audit.json",
+          "sha256": "125591a3779538bf87d844d845e24167af5f5b90893fba80fa6df1f02d04f50b",
+          "status": "PASS_WITH_REQUIRED_IMPORTER_CONTROLS"
+        },
+        "adapter_audit": {
+          "path": "project/evidence/msc-classification/adapter-review/final-audit.json",
+          "sha256": "878a51115ef7a4a720a3e33b36933c3f16385dc8a47873524ef8ced226dc0ad1",
+          "recommendation": "PASS_FOR_SCOPED_DATA_ADAPTER"
+        },
+        "official_csv_and_suggested_rdf_are_distinguished": true,
+        "license_text_matches_pinned_upstream_bytes": {
+          "bytes": 20849,
+          "sha256": "1349a4b6148492b44f629e64eed676612e234fe9a839e4f3b277c1482c8849f1"
+        },
+        "recorded_data_terms": "CC-BY-NC-SA-4.0",
+        "data_and_application_code_terms_are_kept_separate": true,
+        "attribution_and_modification_notice_present": true
+      },
+      "interpretation": "The evidence supports reuse as a pinned subject-classification navigation layer. It does not turn the suggested RDF into an official version of record or its relations into mathematical proofs.",
+      "limitation": "This is a provenance and source-term check, not legal advice or a license-compatibility certification for an unspecified downstream use."
+    },
+    {
+      "id": "product_and_regression_evidence",
+      "status": "PASS_SCOPED",
+      "observations": {
+        "independent_product_audit": {
+          "path": "project/evidence/msc-classification/product-review/final-msc-product-audit.json",
+          "sha256": "9e2b5c2f609ac271f4cc913f464f5d4745cce648d1ef9469be9cde90ea47715e",
+          "recommendation": "PASS_FOR_SCOPED_SUBJECT_BROWSER_PRODUCT",
+          "independent_http_requests": 971,
+          "unresolved_substantive_findings": 0,
+          "docs_ci_checks": "20/20 pass"
+        },
+        "author_functional_checks": "55/55 pass",
+        "python_regression": "155 passed",
+        "corrected_typescript_returncode": 0,
+        "corrected_lint_returncode": 0,
+        "production_build_returncode": 0,
+        "other_retained_regression_commands": [
+          "node scripts/check-atlas.ts",
+          "node scripts/check-browser-engine.ts",
+          "node scripts/check-concept-library.ts",
+          "node scripts/check-formal-search.ts",
+          "node scripts/check-research-search.ts"
+        ]
+      },
+      "interpretation": "These are retained command and independent-review results for the frozen snapshot. The promotion reviewer verified their hashes, return codes, outputs, scopes, and copy chain without repeating the 971-request browser sweep."
+    },
+    {
+      "id": "verification_document",
+      "status": "PASS",
+      "observations": {
+        "path": "project/docs/subject-browser-verification.md",
+        "bytes": 3799,
+        "sha256": "212449c89437070b9c4f966521d280b68b628c9165e98e4515b3a085779303f4",
+        "source_adapter_product_reviews_linked_separately": true,
+        "counts_and_replay_claims_match_sealed_evidence": true,
+        "retained_failures_and_corrections_disclosed": true,
+        "workflow_nonexecution_disclosed": true,
+        "semantic_novelty_coverage_and_visual_limits_disclosed": true
+      }
+    }
+  ],
+  "claim_review": [
+    {
+      "id": "C001",
+      "status": "SUPPORTED_AS_SCOPED",
+      "assessment": "The locators now identify both pinned source URLs and revision, the source-to-reviewed-output requirement, and the adaptation-only changes. The official classification and suggested RDF roles remain distinct."
+    },
+    {
+      "id": "C002",
+      "status": "SUPPORTED",
+      "assessment": "The four exact summary fields support 6603 subjects, 63 top-level areas, 3083 references, and 415 scope records."
+    },
+    {
+      "id": "C003",
+      "status": "SUPPORTED_AS_SCOPED",
+      "assessment": "Independent adapter reconstruction supplies all three counts, and the added decision locator states that label differences are comparison flags rather than source-error findings."
+    },
+    {
+      "id": "C004",
+      "status": "SUPPORTED",
+      "assessment": "The auditor-owned replay returned zero, the independent reconstruction reports all checks passing, and all three project outputs are byte-identical to both author and auditor replay outputs."
+    },
+    {
+      "id": "C005",
+      "status": "SUPPORTED_AS_AUTHOR_CHECK_RESULT",
+      "assessment": "The complete 55-entry author check ledger and its limitation now directly support the traversal, valid API, invalid-request, and nonvisual/nonsemantic scope clauses. C009 separately records the independent product check."
+    },
+    {
+      "id": "C006",
+      "status": "SUPPORTED_AS_RECORDED_REGRESSION_RESULT",
+      "assessment": "The retained pytest output contains 155 passed; corrected TypeScript and lint records and the production-build record each have return code zero. Initial TypeScript and lint failures remain retained."
+    },
+    {
+      "id": "C007",
+      "status": "SUPPORTED_AS_SCOPED",
+      "assessment": "The code locators identify NFKC/lowercase normalization, AND matching, page size, relation spreading, and directional output. Independent selected-detail reconstruction confirms source identifiers and conditional qualifier metadata; the semantic/prerequisite disclaimer is explicit."
+    },
+    {
+      "id": "C008",
+      "status": "SUPPORTED_CONCLUSION",
+      "assessment": "The conclusion follows from the scoped source, adapter, navigation, and functional claims and repeats their universal-coverage, discovery, novelty, and impact exclusions."
+    },
+    {
+      "id": "C009",
+      "status": "SUPPORTED_AS_SCOPED",
+      "assessment": "The independent final audit locates 971 requests, an empty unresolved-findings list, the traversal decision, and the explicit absence of general visual evaluation."
+    }
+  ],
+  "resolved_findings": [
+    {
+      "id": "PROMO-LOCATOR-01",
+      "status": "RESOLVED_IN_CANDIDATE_03",
+      "finding": "Candidate 02 had correct support artifacts but underlocalized semantic clauses in C001, C003, C005, C007, and C009.",
+      "resolution": "Candidate 03 adds 12 exact locators to already hashed artifacts without changing any statement, artifact record, check decision, or limitation."
+    },
+    {
+      "id": "REVIEW-HARNESS-01",
+      "status": "RESOLVED_WITH_FAILED_RESULT_RETAINED",
+      "finding": "The first copy checker treated two project-local release reports as failed copies because they had no same-relative-path staging counterpart.",
+      "resolution": "The corrected checker separates unmatched project-local paths from byte comparisons and keeps all manifest-declared copies and direct pairs strict."
+    }
+  ],
+  "unresolved_findings": [],
+  "limitations": [
+    "Approval is bound to SHA-256 f57ccfddf20064d1df481e289925f09b66657ce604f1047d8dce8ba9ba8d9e49; a later change needs a new or explicitly additive review.",
+    "The promotion reviewer did not repeat the source parser, importer replay, 971-request HTTP sweep, or product tests. Those executions are covered by their retained independent and author artifacts; this review checks their chain, hashes, locators, meaning, and release scope.",
+    "No browser DOM, screenshot, responsive-layout, assistive-technology, or general visual evaluation is promoted.",
+    "No semantic equivalence, prerequisite, universal mathematical coverage, source-error adjudication, open-problem status, discovery, publication novelty, real-world impact, or Lean verification is promoted.",
+    "GitHub workflow text and command alignment were independently checked, but no GitHub workflow execution is claimed.",
+    "Historical command records retain D-drive staging paths; portable importer instructions are separately documented."
+  ],
+  "additive_packaging_acknowledgement": "The reviewer may acknowledge a later bundle that only appends exact copies of this review packet, provided the 265 reviewed artifact records, C001-C009 statements and supports, four check decisions, and limitations remain unchanged and the prior target hash is explicitly retained."
+}

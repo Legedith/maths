@@ -1,0 +1,41 @@
+{
+  "schema_version": "independent-command-attempt-v1",
+  "attempt_id": "canonical-replay-01",
+  "argv": [
+    "uv",
+    "run",
+    "--project",
+    "D:/CodexWorkspaces/mathematics-atlas/project/experiments/msc-index",
+    "--frozen",
+    "python",
+    "D:/CodexWorkspaces/mathematics-atlas/project/experiments/msc-index/import_msc.py",
+    "--source-root",
+    "D:/CodexWorkspaces/mathematics-atlas/project/experiments/msc-index/inputs",
+    "--output-dir",
+    "D:/CodexWorkspaces/mathematics-atlas/msc-import-review-work/replay-output"
+  ],
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work",
+  "started_at_utc": "2026-09-08T09:35:33.439102+00:00",
+  "ended_at_utc": "2026-09-08T09:35:36.504091+00:00",
+  "elapsed_seconds": 3.064989,
+  "timeout_seconds": 180,
+  "timed_out": false,
+  "termination": null,
+  "returncode": 0,
+  "selected_environment": {
+    "UV_CACHE_DIR": "D:/CodexWorkspaces/mathematics-atlas/uv-cache",
+    "UV_PROJECT_ENVIRONMENT": "D:/CodexWorkspaces/mathematics-atlas/msc-import-review-work/.venv",
+    "VIRTUAL_ENV": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-import-review-work\\.venv",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "stdout": {
+    "path": "canonical-replay-01.stdout.bin",
+    "bytes": 691,
+    "sha256": "aee36b2fda63784ad203e6cd6e5d1780f8d26bfdb9f9cea3b70d7ab6ab9cd97e"
+  },
+  "stderr": {
+    "path": "canonical-replay-01.stderr.bin",
+    "bytes": 771,
+    "sha256": "161100e33c4276b3250dc16127e0a4f667b77964e65bab647ef25fe14bb36148"
+  }
+}

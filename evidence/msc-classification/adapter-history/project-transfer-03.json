@@ -1,0 +1,26 @@
+﻿[
+    {
+        "source":  "import_msc.py",
+        "destination":  "experiments/msc-index/import_msc.py",
+        "before_sha256":  "c676a8499ed7766e7fc8be45e85d91aebf0199276d84664cf8ea607ded0b80c1",
+        "after_sha256":  "ae950530f861a55ae894c27f02a759c68207eff18aba8a9dcfa5bf3b326fba12"
+    },
+    {
+        "source":  "run-03/subjects.json",
+        "destination":  "data/msc/subjects.json",
+        "before_sha256":  "e069a3d0836a58e915c728e92a24fbabe9041b81e0d45b46cfa8e67cdb8c6fb0",
+        "after_sha256":  "32fb0eddc9f189e68b9fa312e8e29c399deee65d4d282d1e61235be33a22400e"
+    },
+    {
+        "source":  "run-03/references.json",
+        "destination":  "data/msc/references.json",
+        "before_sha256":  "75ecd4b71056274ad342c72a5324770e2257e0ff3a88662dfe457c9127b4bc35",
+        "after_sha256":  "75ecd4b71056274ad342c72a5324770e2257e0ff3a88662dfe457c9127b4bc35"
+    },
+    {
+        "source":  "run-03/summary.json",
+        "destination":  "data/msc/summary.json",
+        "before_sha256":  "de1ddce65ea413b2fe154a898530d03a952bf6f7b728bd7f0013bfbd33655765",
+        "after_sha256":  "7816ecdc34c3fe3981bef3f18a6ff0effe16e12aca5dc95460f8604dee7715ed"
+    }
+]

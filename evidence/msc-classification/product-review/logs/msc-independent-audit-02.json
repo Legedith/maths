@@ -1,0 +1,40 @@
+{
+  "schema_version": "independent-command-attempt-v1",
+  "attempt_id": "msc-independent-audit-02",
+  "argv": [
+    ".\\.venv\\Scripts\\python.exe",
+    "scripts\\audit_msc_product.py",
+    "--project-root",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "--origin",
+    "http://localhost:3000",
+    "--output",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-review-work\\results\\audit-02.json",
+    "--raw-dir",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-review-work\\raw-http-02"
+  ],
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\msc-product-review-work",
+  "started_at_utc": "2026-09-08T10:01:05.712786+00:00",
+  "ended_at_utc": "2026-09-08T10:01:37.095171+00:00",
+  "elapsed_seconds": 31.382385,
+  "timeout_seconds": 600,
+  "timed_out": false,
+  "termination": null,
+  "returncode": 0,
+  "selected_environment": {
+    "UV_CACHE_DIR": "D:\\CodexWorkspaces\\mathematics-atlas\\uv-cache",
+    "UV_PROJECT_ENVIRONMENT": null,
+    "VIRTUAL_ENV": null,
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "stdout": {
+    "path": "msc-independent-audit-02.stdout.bin",
+    "bytes": 504,
+    "sha256": "ebebc921fda90bcb0652bb326983e83667ae332bc95b144efb66b4779eb72d03"
+  },
+  "stderr": {
+    "path": "msc-independent-audit-02.stderr.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}
