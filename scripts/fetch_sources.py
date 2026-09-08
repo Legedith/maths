@@ -16,8 +16,8 @@ SOURCES = {
     'spielman-resistance': 'https://cs.yale.edu/homes/spielman/561/lect13-18.pdf',
     'spielman-trees': 'https://www.cs.yale.edu/homes/spielman/561/lect14-18.pdf',
     'chandra-commute': 'https://homes.cs.washington.edu/~ruzzo/papers/resist.pdf',
-    'grady-segmentation': 'https://leogrady.net/wp-content/uploads/2017/01/grady2006random.pdf',
-    'klein-resistance': 'https://www.math.pku.edu.cn/teachers/yaoy/Fall2011/KleinRandic1993.pdf',
+    'grady-segmentation': 'https://www.cs.bu.edu/groups/ivc/pubs/Grady06.pdf',
+    'klein-sum-rules': 'https://hrcak.srce.hr/file/188316',
     'spielman-sparsification': 'https://arxiv.org/pdf/0803.0929',
 }
 
@@ -48,5 +48,6 @@ if __name__ == '__main__':
     with ThreadPoolExecutor(max_workers=4) as pool:
         results = list(pool.map(fetch, SOURCES.items()))
     report = {'pypdf_version': pypdf.__version__, 'sources': results}
-    Path('work/sources/retrieval.json').write_text(json.dumps(report, indent=2)+'\n', encoding='utf-8')
+    stamp = datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ')
+    Path(f'work/sources/retrieval-{stamp}.json').write_text(json.dumps(report, indent=2)+'\n', encoding='utf-8')
     print(json.dumps(report, indent=2))

@@ -1,0 +1,1787 @@
+{
+  "schema_version": "1.0",
+  "run_id": "atlas-foundation",
+  "objective": "Deliver the source-grounded Laplacian atlas milestone, bounded symmetry optimization and reviewed reuse example while preserving the full active mathematical mapping and discovery objective.",
+  "created_at": "2026-09-08T01:42:17.571669+00:00",
+  "task_spec_artifact_id": "A001",
+  "evaluator_command": "uv run --frozen python -m atlas_engine evaluate --output-dir evidence/baseline; uv run --frozen python scripts/run_symmetry_correctness.py --output-dir evidence/symmetry/local-correctness; uv run --frozen python scripts/run_symmetry_benchmark.py --output-dir evidence/symmetry/local-benchmark",
+  "artifacts": [
+    {
+      "id": "A001",
+      "kind": "spec",
+      "path": "docs/task-spec.md",
+      "sha256": "2417ac0ee8963499e5c29e698aa42748180ef49adab407c23ebd311e9595d6ce",
+      "producer": "user-or-orchestrator"
+    },
+    {
+      "id": "A002",
+      "kind": "spec",
+      "path": "docs/engine-contract.md",
+      "sha256": "66ff2c63060159040b4fd1dc3c62e6bf2d5ccf40600eb0d6bd483b594582124a",
+      "producer": "root, frozen before the governed implementation"
+    },
+    {
+      "id": "A003",
+      "kind": "spec",
+      "path": "docs/symmetry-contract.md",
+      "sha256": "2446b9f007bbebaa942baf680b4750907027551d7fbfa916b20339563c6c3b0e",
+      "producer": "root, frozen before the governed implementation"
+    },
+    {
+      "id": "A004",
+      "kind": "spec",
+      "path": "docs/discovery-contract.md",
+      "sha256": "36e41a88083f144c5b5f8b3efed3c906c0c0cf00f33ce1d10e9f4c8f2abaa9cf",
+      "producer": "root, frozen before the governed implementation"
+    },
+    {
+      "id": "A005",
+      "kind": "log",
+      "path": "evidence/baseline/records.jsonl",
+      "sha256": "b05d83051ba0f92713c87ced4742d1a902297b998d6f221250bef0f80890dd8c",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A006",
+      "kind": "result",
+      "path": "evidence/baseline/summary.json",
+      "sha256": "6aa33a313df56798330b57f73633c3a6cbdba846adbf1bf718b15ef32130507f",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A007",
+      "kind": "result",
+      "path": "evidence/browser-engine/summary.json",
+      "sha256": "b987e7c907c030f3af038504d2f40cffc26ed87e170bf34b69225269498ef591",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A008",
+      "kind": "result",
+      "path": "evidence/corpus/search-and-paths.json",
+      "sha256": "8eeebc21190634802c42542791e8041f95f52eac03714c47836a4ed0b58893ea",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A009",
+      "kind": "result",
+      "path": "evidence/corpus/validation.json",
+      "sha256": "a91fa942d7f00e0419e6d0b0ce75fd87e9f120bed56d1c9d49434596e2fad2e1",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A010",
+      "kind": "result",
+      "path": "evidence/exploration/explore_duality.json",
+      "sha256": "89bc7689828596d9c257af506abc2c554c34a1cf5a644fddb4b755a9f300fb0a",
+      "producer": "retained original agent"
+    },
+    {
+      "id": "A011",
+      "kind": "result",
+      "path": "evidence/exploration/explore_energy.json",
+      "sha256": "da2ed67fff4ce75f51ac24962070e4f2c6b8c463cb89748bfca42d6c2fa38991",
+      "producer": "retained original agent"
+    },
+    {
+      "id": "A012",
+      "kind": "result",
+      "path": "evidence/exploration/explore_laplacian.json",
+      "sha256": "8e3e8b551efdffe9c82ffc81e5dbd637833e9a65a9c47367b0064af183d050f2",
+      "producer": "retained original agent"
+    },
+    {
+      "id": "A013",
+      "kind": "result",
+      "path": "evidence/exploration/provenance.json",
+      "sha256": "b291fbcebc7139cf2f9ec6be96663ef04e71d9f46864ab3eae5a6c0ddb9311c4",
+      "producer": "retained original agent"
+    },
+    {
+      "id": "A014",
+      "kind": "result",
+      "path": "evidence/exploration/sol_discovery_a.json",
+      "sha256": "4901ecd4547495ecca0fc6b6ace2ea7baf9f4392b60afd9cb5f2f425d859e658",
+      "producer": "retained original agent"
+    },
+    {
+      "id": "A015",
+      "kind": "result",
+      "path": "evidence/exploration/sol_discovery_b.json",
+      "sha256": "ae6a14925314de48dfbee867fc95dae041ed1c4d0f14ce980939be36b7fffd66",
+      "producer": "retained original agent"
+    },
+    {
+      "id": "A016",
+      "kind": "result",
+      "path": "evidence/exploration/sol_discovery_c.json",
+      "sha256": "f26609affc61f83f92a73207f8211dfc104dea66eee906af00ddba220dd24025",
+      "producer": "retained original agent"
+    },
+    {
+      "id": "A017",
+      "kind": "log",
+      "path": "evidence/foundation/independent/canonical/records.jsonl",
+      "sha256": "b05d83051ba0f92713c87ced4742d1a902297b998d6f221250bef0f80890dd8c",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A018",
+      "kind": "result",
+      "path": "evidence/foundation/independent/canonical/summary.json",
+      "sha256": "9c2dfbdec9f34ff8c5119ebe6e3952fd375f242da98cacf6070daea1d8b8a307",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A019",
+      "kind": "result",
+      "path": "evidence/foundation/independent/console/browser-engine.txt",
+      "sha256": "d4de0f2f758cb27da8667cf93363e9634e4732838b1b3f3e7ebc1110e35740d0",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A020",
+      "kind": "result",
+      "path": "evidence/foundation/independent/console/check-atlas.txt",
+      "sha256": "cff902b33af8c89e3d6befe8de65892be6240ed8945dcd80493d6775caed08cc",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A021",
+      "kind": "result",
+      "path": "evidence/foundation/independent/console/check-formal-search.txt",
+      "sha256": "0ae3f33f9490800b353934dc2c0143b587f96ef19a1b2eff4444fc3037905a52",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A022",
+      "kind": "result",
+      "path": "evidence/foundation/independent/console/corpus-validation.txt",
+      "sha256": "e3118e2a0b04c2384689faabc48f5d6dab8859b13ea066fd3ffa5536a9295e18",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A023",
+      "kind": "result",
+      "path": "evidence/foundation/independent/console/evaluator.txt",
+      "sha256": "49e61ab995a101fb37a1e82de5602d028042b8a04b8c74f6549a5193124a190c",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A024",
+      "kind": "result",
+      "path": "evidence/foundation/independent/console/evidence-gate-preassembly.txt",
+      "sha256": "d6d69abd64f4d4f13787fe7e5340c441bc62734af3b46b1c09162f6b84a14a0c",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A025",
+      "kind": "result",
+      "path": "evidence/foundation/independent/console/exploration-provenance.txt",
+      "sha256": "3647f2c2fc78c153fbedde803008625ceb3cd272841b77a1fd92b2a494353382",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A026",
+      "kind": "result",
+      "path": "evidence/foundation/independent/console/formal-live.txt",
+      "sha256": "82b1cbff4db55363f817e0e914885421ba6a0f78786651e3fc08d842fffcf0ce",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A027",
+      "kind": "result",
+      "path": "evidence/foundation/independent/console/lint.txt",
+      "sha256": "fa112338db084be942cb302e316622647de19bceb36962499a77628ab53920b5",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A028",
+      "kind": "result",
+      "path": "evidence/foundation/independent/console/normalization-case.txt",
+      "sha256": "4603d0348949233edae51b461a813217ba2b169c489dbc442cdc8bf6678c3c75",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A029",
+      "kind": "result",
+      "path": "evidence/foundation/independent/console/pytest.txt",
+      "sha256": "48dd132efe9bfeeb2e8b314e61e898a9e267ea7e07fee5c2dfaa46e9f64094e5",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A030",
+      "kind": "result",
+      "path": "evidence/foundation/independent/console/reproduction-comparison.txt",
+      "sha256": "971286d858ce154bf21525a01ef2fcb2777618371f0d61db39afa8b3f29b695c",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A031",
+      "kind": "result",
+      "path": "evidence/foundation/independent/console/snapshot-manifest.txt",
+      "sha256": "69bed2e1ecc337634532e3d3a8b62021db7576ae4621790247f09ec6adad3b57",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A032",
+      "kind": "result",
+      "path": "evidence/foundation/independent/console/supplemental.txt",
+      "sha256": "50debe1f085343aae24190a17cc63e5e156841f52f788f1c45deebd92df27040",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A033",
+      "kind": "result",
+      "path": "evidence/foundation/independent/console/tsc.txt",
+      "sha256": "199b2089699d894f3a75dab0093fa08e4dc351b12baf2796cdcca3ff5cc5e12b",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A034",
+      "kind": "result",
+      "path": "evidence/foundation/independent/corpus-validation.json",
+      "sha256": "a91fa942d7f00e0419e6d0b0ce75fd87e9f120bed56d1c9d49434596e2fad2e1",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A035",
+      "kind": "log",
+      "path": "evidence/foundation/independent/evidence/baseline/records.jsonl",
+      "sha256": "b05d83051ba0f92713c87ced4742d1a902297b998d6f221250bef0f80890dd8c",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A036",
+      "kind": "result",
+      "path": "evidence/foundation/independent/evidence/browser-engine/summary.json",
+      "sha256": "b987e7c907c030f3af038504d2f40cffc26ed87e170bf34b69225269498ef591",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A037",
+      "kind": "result",
+      "path": "evidence/foundation/independent/evidence/corpus/search-and-paths.json",
+      "sha256": "8eeebc21190634802c42542791e8041f95f52eac03714c47836a4ed0b58893ea",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A038",
+      "kind": "result",
+      "path": "evidence/foundation/independent/evidence/reuse/adapter-tests.json",
+      "sha256": "c3bdb3a8100a4d5c386e72f6d3f64ab6ef9fd21c3eecc6dab28896a7ab84ae7f",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A039",
+      "kind": "result",
+      "path": "evidence/foundation/independent/evidence/reuse/normalization-witness.json",
+      "sha256": "3cfe7372830a8dbe766499181b8982c21aeae6bd61d941c79f2c9c32aa9144c9",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A040",
+      "kind": "log",
+      "path": "evidence/foundation/independent/evidence/supplemental/records.jsonl",
+      "sha256": "744bbd5c4c2fef96e3dc1d6f556c335d8b478f4a0506f090c0f11fe478a64b1e",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A041",
+      "kind": "result",
+      "path": "evidence/foundation/independent/evidence/supplemental/summary.json",
+      "sha256": "4397d10f7e2d2bac0038b03b2e8a948b0573a75c07a82fb075c6b8d371fbb8a2",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A042",
+      "kind": "result",
+      "path": "evidence/foundation/independent/exploration-provenance-check.json",
+      "sha256": "63ac6618d99276c156b626faedfdc0a303c789fb704abff49698d4c2f2de6c8a",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A043",
+      "kind": "result",
+      "path": "evidence/foundation/independent/final-audit.json",
+      "sha256": "4efc6fcc0b27ddc38de22a0a6321b5447ecbb519e7ae1f3fa94335b6e6a3d9c4",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A044",
+      "kind": "result",
+      "path": "evidence/foundation/independent/fixtures/frozen.json",
+      "sha256": "7f4f4afb18a052a98296af368fe841cec24949cc358414069f1d576cf75d8600",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A045",
+      "kind": "result",
+      "path": "evidence/foundation/independent/fixtures/supplemental-six.json",
+      "sha256": "ae8c126101f7714793c79abb462901841c612c367975b5d0c96ceece30b3e8aa",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A046",
+      "kind": "result",
+      "path": "evidence/foundation/independent/formal-live-audit.json",
+      "sha256": "9806c94740d8509d144210476b512e4b95d3491ab50b38023c31f7566b587d46",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A047",
+      "kind": "result",
+      "path": "evidence/foundation/independent/formal-live-audit.mjs",
+      "sha256": "42ccf5407909e33d18000df1c57388b82526ed55d4579530b87a63dfcf82251d",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A048",
+      "kind": "result",
+      "path": "evidence/foundation/independent/formal-live-headers.txt",
+      "sha256": "6f49494ffe5c54c5d4017dba1d9c26545774bb0c656f9b4f117bbea0832a178d",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A049",
+      "kind": "result",
+      "path": "evidence/foundation/independent/formal-live-response.json",
+      "sha256": "26822a00e22d7feb74577f41b84dc2c8f9f176dc3b6e9c0038be34a8826a163d",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A050",
+      "kind": "report",
+      "path": "evidence/foundation/independent/foundation-audit.md",
+      "sha256": "5e5d5822c011c8515beab0800dfca088b7e96b248fcfb506c8c9072a7ef04588",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A051",
+      "kind": "result",
+      "path": "evidence/foundation/independent/reproduction-comparison.json",
+      "sha256": "d120062b2620f9b17eedc0deec01fce6d954b19d297b213ccab31183278c0634",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A052",
+      "kind": "result",
+      "path": "evidence/foundation/independent/snapshot-manifest.json",
+      "sha256": "77799bb24d875ca8a7a8d941f4510a1d1d331bf72818dd9fe95e8db586a39ff7",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A053",
+      "kind": "result",
+      "path": "evidence/foundation/independent/source-matrix.json",
+      "sha256": "4472b65a8a0569087a7a6d27b639ea56addc4e05bded68a9b66e57edb4b152e8",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A054",
+      "kind": "report",
+      "path": "evidence/foundation/independent/source-matrix.md",
+      "sha256": "5168a29db1c50e88df1400fe73ee441376813fe738d330b226e61f678fcf4e00",
+      "producer": "sol_atlas_audit"
+    },
+    {
+      "id": "A055",
+      "kind": "result",
+      "path": "evidence/reuse/adapter-tests.json",
+      "sha256": "c3bdb3a8100a4d5c386e72f6d3f64ab6ef9fd21c3eecc6dab28896a7ab84ae7f",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A056",
+      "kind": "report",
+      "path": "evidence/reuse/independent/theoremsearch-assumption-audit.md",
+      "sha256": "a1039387f0a863c0e3fc8804261e532774ceeecd96d2a36632a8e7d9acc86784",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A057",
+      "kind": "result",
+      "path": "evidence/reuse/independent/theoremsearch-k2-witness.json",
+      "sha256": "20719fdff5bed9064cf305964e28543d7e98eb92e8877d230dddd9252835aec9",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A058",
+      "kind": "result",
+      "path": "evidence/reuse/independent/theoremsearch-response.headers.txt",
+      "sha256": "fafbf309bb6c04a9f800ba33ad9e72c9d731554e99507b795739856a44dabd2b",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A059",
+      "kind": "source",
+      "path": "evidence/reuse/independent/theoremsearch-response.json",
+      "sha256": "f4a22b723d697c7f620e304ca5cead8af300dc893f56ef486c916896517541fe",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A060",
+      "kind": "result",
+      "path": "evidence/reuse/normalization-witness.json",
+      "sha256": "3cfe7372830a8dbe766499181b8982c21aeae6bd61d941c79f2c9c32aa9144c9",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A061",
+      "kind": "log",
+      "path": "evidence/supplemental/records.jsonl",
+      "sha256": "744bbd5c4c2fef96e3dc1d6f556c335d8b478f4a0506f090c0f11fe478a64b1e",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A062",
+      "kind": "result",
+      "path": "evidence/supplemental/summary.json",
+      "sha256": "4397d10f7e2d2bac0038b03b2e8a948b0573a75c07a82fb075c6b8d371fbb8a2",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A063",
+      "kind": "result",
+      "path": "evidence/symmetry/independent/audited-project-files.json",
+      "sha256": "2629436a60fda2b586fa2d7c2c1f2b30d7402d3e81926a348dd60103769c3bc4",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A064",
+      "kind": "result",
+      "path": "evidence/symmetry/independent/boundary6_preintegration_audit.json",
+      "sha256": "6f8b79c864860dd8c472c2389edade4cf159e9542f455972220f980ec8db51d5",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A065",
+      "kind": "code",
+      "path": "evidence/symmetry/independent/boundary6_preintegration_audit.py",
+      "sha256": "9f3740b1d55c6932b0ceacb2755816c7b023440c1ce725df31c1bf7952b146b1",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A066",
+      "kind": "report",
+      "path": "evidence/symmetry/independent/final-audit-report.md",
+      "sha256": "e8a3c30ccd44166f83ea722abc37fbb9dcb9cbd7f69ae5a2e15bcbba09806aae",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A067",
+      "kind": "result",
+      "path": "evidence/symmetry/independent/final-audit-validation-attempt-01.command.json",
+      "sha256": "271770bb312cc424bd29964b0174e4ab931a0a01ae238cc956eadd6313adc9e7",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A068",
+      "kind": "log",
+      "path": "evidence/symmetry/independent/final-audit-validation-attempt-01.console.log",
+      "sha256": "ab078428011efbdceaffce33044b24cc55453e68d7b1bd48e1a50a0ec1a7512c",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A069",
+      "kind": "result",
+      "path": "evidence/symmetry/independent/final-audit-validation.json",
+      "sha256": "14067fda3e01823183b51fad3b66e619ab9b6f61494e3e97b59a65744bafd4bf",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A070",
+      "kind": "result",
+      "path": "evidence/symmetry/independent/final-audit.json",
+      "sha256": "d4d8f26d6fc99543aad1db44afe20de6dc718a53e27a5752f6433c455f0d3e06",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A071",
+      "kind": "report",
+      "path": "evidence/symmetry/independent/preintegration-proof-audit.md",
+      "sha256": "b9246921be8098613b38d3a48bec691851541c1bca03c7a2b0444068d060ad52",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A072",
+      "kind": "result",
+      "path": "evidence/symmetry/independent/preintegration_audit.json",
+      "sha256": "fcb5d8d749c80a8dab49e6c2fe002d66de2975664b963cb446f4094ec059e7b9",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A073",
+      "kind": "code",
+      "path": "evidence/symmetry/independent/preintegration_audit.py",
+      "sha256": "b1d527851677db38d544a7d8cbf2315d7b576f642accffb05950f8d2dd9c07a5",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A074",
+      "kind": "result",
+      "path": "evidence/symmetry/independent/primary-source-verification.json",
+      "sha256": "e46890659686ef4939fe1cae47735f4b6da32b46c19ca71de79e05c9e1e98b6f",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A075",
+      "kind": "source",
+      "path": "evidence/symmetry/independent/prior-art-audit.md",
+      "sha256": "0bdc70cff509aeeaff3b6a466acb8858640291eeeb147747244aa167c2f3e5ba",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A076",
+      "kind": "report",
+      "path": "evidence/symmetry/independent/theoremsearch-assumption-audit.md",
+      "sha256": "a1039387f0a863c0e3fc8804261e532774ceeecd96d2a36632a8e7d9acc86784",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A077",
+      "kind": "result",
+      "path": "evidence/symmetry/independent/theoremsearch-k2-witness.json",
+      "sha256": "20719fdff5bed9064cf305964e28543d7e98eb92e8877d230dddd9252835aec9",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A078",
+      "kind": "result",
+      "path": "evidence/symmetry/independent/theoremsearch-response.headers.txt",
+      "sha256": "fafbf309bb6c04a9f800ba33ad9e72c9d731554e99507b795739856a44dabd2b",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A079",
+      "kind": "source",
+      "path": "evidence/symmetry/independent/theoremsearch-response.json",
+      "sha256": "f4a22b723d697c7f620e304ca5cead8af300dc893f56ef486c916896517541fe",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A080",
+      "kind": "code",
+      "path": "evidence/symmetry/independent/validate_final_audit.py",
+      "sha256": "32b993712e94531ec9c97140cf32cd3ca99f16a0060b52032d67b513e7d33c83",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A081",
+      "kind": "log",
+      "path": "evidence/symmetry/independent/verifier-benchmark-attempt-01/rounds.jsonl",
+      "sha256": "0296d45b79a2d0431eeb43d5bcffe67589332c92d42f51a99059a0ecb2ae7097",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A082",
+      "kind": "result",
+      "path": "evidence/symmetry/independent/verifier-benchmark-attempt-01/summary.json",
+      "sha256": "2cf963bd320b401853d5ab290ac07e93a8c004fae2a81cba73747dcc2e6a81a7",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A083",
+      "kind": "log",
+      "path": "evidence/symmetry/independent/verifier-benchmark-attempt-01/workload.jsonl",
+      "sha256": "635ab58aa463b8df19478de72e171777ee52609af93226d02fca614d5f305b73",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A084",
+      "kind": "result",
+      "path": "evidence/symmetry/independent/verifier-benchmark-attempt-01.command.json",
+      "sha256": "c376efea8054403025ca2f47bba45fe57a38c7b6d02934084c97f081429d454c",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A085",
+      "kind": "log",
+      "path": "evidence/symmetry/independent/verifier-benchmark-attempt-01.console.log",
+      "sha256": "a17dcb7135f705b2bbd89148899b2ad825f9fca5134ffc4c652d9c7b98d8a4d1",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A086",
+      "kind": "result",
+      "path": "evidence/symmetry/independent/verifier-correctness/behavior-cases.json",
+      "sha256": "96914b8aa7e8e19154d69202eb685c3b191b0180638c5b3e82966a6b1611df25",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A087",
+      "kind": "result",
+      "path": "evidence/symmetry/independent/verifier-correctness/fixture-records.json",
+      "sha256": "8221303e615ad788862006eeac5747f4b4ce47a9630085771505238292476311",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A088",
+      "kind": "log",
+      "path": "evidence/symmetry/independent/verifier-correctness/ordered-pair-records.jsonl",
+      "sha256": "cfc22da43ddef4fcd3ee421236ec5c6b60bfe0d3164be4c4f9e6d99c1f3977b8",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A089",
+      "kind": "result",
+      "path": "evidence/symmetry/independent/verifier-correctness-attempt-02/behavior-cases.json",
+      "sha256": "96914b8aa7e8e19154d69202eb685c3b191b0180638c5b3e82966a6b1611df25",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A090",
+      "kind": "result",
+      "path": "evidence/symmetry/independent/verifier-correctness-attempt-02/fixture-records.json",
+      "sha256": "8221303e615ad788862006eeac5747f4b4ce47a9630085771505238292476311",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A091",
+      "kind": "log",
+      "path": "evidence/symmetry/independent/verifier-correctness-attempt-02/ordered-pair-records.jsonl",
+      "sha256": "cfc22da43ddef4fcd3ee421236ec5c6b60bfe0d3164be4c4f9e6d99c1f3977b8",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A092",
+      "kind": "result",
+      "path": "evidence/symmetry/independent/verifier-correctness-attempt-02/summary.json",
+      "sha256": "0e50d8606bba032fed703686a4e57738633950a8102bfdf490d5c503871cea95",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A093",
+      "kind": "result",
+      "path": "evidence/symmetry/independent/verifier-correctness-attempt-02.command.json",
+      "sha256": "783cf2a92403d32ae4246191f2b8be3e1c522884e9bffaabbdb338ed8d3b9994",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A094",
+      "kind": "log",
+      "path": "evidence/symmetry/independent/verifier-correctness-attempt-02.console.log",
+      "sha256": "0e50d8606bba032fed703686a4e57738633950a8102bfdf490d5c503871cea95",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A095",
+      "kind": "result",
+      "path": "evidence/symmetry/independent/verifier-correctness.command.json",
+      "sha256": "56f7d68452be16a00860d07890ead3eb5afac46000d82dda304251e47e42fa8c",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A096",
+      "kind": "log",
+      "path": "evidence/symmetry/independent/verifier-correctness.console.log",
+      "sha256": "d32c5e95c4585a1bd2f2ee9d87dd94055efe5466ab1ab666f821409c74f54504",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A097",
+      "kind": "result",
+      "path": "evidence/symmetry/independent/verifier-pytest-attempt-02.command.json",
+      "sha256": "c294a147f77715aadf1216e409d38c42cb25a49926aae469b4cfca34cc13effd",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A098",
+      "kind": "log",
+      "path": "evidence/symmetry/independent/verifier-pytest-attempt-02.console.log",
+      "sha256": "eee57cde47099b85021a47ed3a391a0fbf023b526dbf9756226223397eacdb89",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A099",
+      "kind": "result",
+      "path": "evidence/symmetry/independent/verifier-pytest-attempt-03.command.json",
+      "sha256": "e3d284a56cfa446fb8dcb4ba56fd1bf68a9ae7a826bfa4ad69b96097bebb8d44",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A100",
+      "kind": "log",
+      "path": "evidence/symmetry/independent/verifier-pytest-attempt-03.console.log",
+      "sha256": "6bf98a11a774b3565ce974b46f5d9d6afeb9f7b1e2c59dc9c03db1090de04797",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A101",
+      "kind": "result",
+      "path": "evidence/symmetry/independent/verifier-raw-artifact-audit-attempt-01.command.json",
+      "sha256": "22e07a716b60124fd7165ca490eabe1bcc16f4e8b35cb28e509416fb984c8ae8",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A102",
+      "kind": "log",
+      "path": "evidence/symmetry/independent/verifier-raw-artifact-audit-attempt-01.console.log",
+      "sha256": "46064a9ea630fa1f14329b7535cc56c08c4d31e900aadcecad9e812a3d56bafa",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A103",
+      "kind": "result",
+      "path": "evidence/symmetry/independent/verifier-raw-artifact-audit-attempt-02.command.json",
+      "sha256": "aa093d0ff6cbb85980d93858045c6f55e911b9b4888bed276343302c3d38edda",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A104",
+      "kind": "log",
+      "path": "evidence/symmetry/independent/verifier-raw-artifact-audit-attempt-02.console.log",
+      "sha256": "d67485dc74b6bbf5f1ad6cc9e82417fa1aff3ce1055dda25a0e7e20e47df484a",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A105",
+      "kind": "result",
+      "path": "evidence/symmetry/independent/verifier-raw-artifact-audit-attempt-03.command.json",
+      "sha256": "d9486bacac6ec80f8c40b7c3c851315e3e98f49b3796d845b7499abdef00415c",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A106",
+      "kind": "log",
+      "path": "evidence/symmetry/independent/verifier-raw-artifact-audit-attempt-03.console.log",
+      "sha256": "f9fc901d209ee5125523e40e3b64cf6e88549bcb7da22c6d5687ee63b45f2940",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A107",
+      "kind": "result",
+      "path": "evidence/symmetry/independent/verifier-raw-artifact-audit.json",
+      "sha256": "ffa229f80dfceb34102f3ec0184dd75dff1b8742d430e310c8ccbd89e05c0a67",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A108",
+      "kind": "log",
+      "path": "evidence/symmetry/independent/verifier-wrapper-attempt-01.console.log",
+      "sha256": "4202cec2c5267e8727981d11a02eb245b1ee02587fb03d62d108eadb284b0d8d",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A109",
+      "kind": "code",
+      "path": "evidence/symmetry/independent/verifier_run.py",
+      "sha256": "8091f9a1989bd5107887e8ccff0d4f867633d4104f510fd9dd118adf925b23bc",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A110",
+      "kind": "code",
+      "path": "evidence/symmetry/independent/verify_final_raw_artifacts.py",
+      "sha256": "35a6a03fb47aaa04078e39e827a13778b88f5c8e172b4e7d26885d2aae08f050",
+      "producer": "sol_symmetry_audit"
+    },
+    {
+      "id": "A111",
+      "kind": "log",
+      "path": "evidence/symmetry/worker/logs/benchmark-attempt-01/rounds.jsonl",
+      "sha256": "51ca61d8b8f138a2f8bb887cf9dfe616bf83394c6e12b701690a9c6163a32483",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A112",
+      "kind": "result",
+      "path": "evidence/symmetry/worker/logs/benchmark-attempt-01/summary.json",
+      "sha256": "606ff93532dd4c366bd11282b9e1340a8c531a92f3d8e9be4862bb2266982c2e",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A113",
+      "kind": "log",
+      "path": "evidence/symmetry/worker/logs/benchmark-attempt-01/workload.jsonl",
+      "sha256": "635ab58aa463b8df19478de72e171777ee52609af93226d02fca614d5f305b73",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A114",
+      "kind": "result",
+      "path": "evidence/symmetry/worker/logs/benchmark-attempt-01.command.json",
+      "sha256": "f11ab56d5fd6c26c6d76800e0a00a84b4baf9a0aa27d05c6bf943978f7549394",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A115",
+      "kind": "log",
+      "path": "evidence/symmetry/worker/logs/benchmark-attempt-01.console.log",
+      "sha256": "4d862ae8b76c35929b7462fda41f00132e8f263bbfdab38483de973293b89654",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A116",
+      "kind": "result",
+      "path": "evidence/symmetry/worker/logs/correctness-attempt-01/behavior-cases.json",
+      "sha256": "96914b8aa7e8e19154d69202eb685c3b191b0180638c5b3e82966a6b1611df25",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A117",
+      "kind": "result",
+      "path": "evidence/symmetry/worker/logs/correctness-attempt-01/fixture-records.json",
+      "sha256": "8221303e615ad788862006eeac5747f4b4ce47a9630085771505238292476311",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A118",
+      "kind": "log",
+      "path": "evidence/symmetry/worker/logs/correctness-attempt-01/ordered-pair-records.jsonl",
+      "sha256": "cfc22da43ddef4fcd3ee421236ec5c6b60bfe0d3164be4c4f9e6d99c1f3977b8",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A119",
+      "kind": "result",
+      "path": "evidence/symmetry/worker/logs/correctness-attempt-01/summary.json",
+      "sha256": "538bc82c9def45bdf560b75332e37d6e786d88f5d9536ce1afa234495145b20b",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A120",
+      "kind": "result",
+      "path": "evidence/symmetry/worker/logs/correctness-attempt-01.command.json",
+      "sha256": "56285c78ea092f802b5b394976955769b708783055b581535927db82c21d2fe9",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A121",
+      "kind": "log",
+      "path": "evidence/symmetry/worker/logs/correctness-attempt-01.console.log",
+      "sha256": "0656ecc39b3c241615eab160773284ee8b1424c31c0cde6e6b156c5fddabb48c",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A122",
+      "kind": "report",
+      "path": "evidence/symmetry/worker/logs/experiment-log.md",
+      "sha256": "5c6c14aea865fa26b2777d272dfaed900999d09fc9f49cafcf10f7def98b18c7",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A123",
+      "kind": "result",
+      "path": "evidence/symmetry/worker/logs/final-manifest.json",
+      "sha256": "4fdc3b52fb8820603902c8eb433763ce23e06e3f72771b51351ce151e1d7435d",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A124",
+      "kind": "result",
+      "path": "evidence/symmetry/worker/logs/manifest-attempt-01.command.json",
+      "sha256": "ee7d1083c6cd17f216a4122536ec51f90b93c1c50055d2d0e4214e87e8f28c54",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A125",
+      "kind": "log",
+      "path": "evidence/symmetry/worker/logs/manifest-attempt-01.console.log",
+      "sha256": "ae8154f12525a52d033c356fc212f86cc973d1f371cbac7269b564dcecf21b91",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A126",
+      "kind": "result",
+      "path": "evidence/symmetry/worker/logs/manifest-attempt-02.command.json",
+      "sha256": "048b100344991b4e95a38d6a5dd7dc4fe4fdc1856c94dc39f2530fd0f07e6032",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A127",
+      "kind": "log",
+      "path": "evidence/symmetry/worker/logs/manifest-attempt-02.console.log",
+      "sha256": "e92d1328f98c24f0833848f26a1fc339e52f097d77eb3d5532e9e7b574d37966",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A128",
+      "kind": "result",
+      "path": "evidence/symmetry/worker/logs/pytest-attempt-01.command.json",
+      "sha256": "b9955dcc37f19ecf4ebc77b783b72d1bb791e4935c90e04ab6a94658567e6dc1",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A129",
+      "kind": "log",
+      "path": "evidence/symmetry/worker/logs/pytest-attempt-01.console.log",
+      "sha256": "9c590b81d690e8e3ea42efeab0d02da9c401759b5d623d475ede89aac36b7a5b",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A130",
+      "kind": "result",
+      "path": "evidence/symmetry/worker/logs/pytest-attempt-02.command.json",
+      "sha256": "238a4cdeab1e670543af1e9fa66b4b7f1c0a84adea9e64f9fb422a32e899d010",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A131",
+      "kind": "log",
+      "path": "evidence/symmetry/worker/logs/pytest-attempt-02.console.log",
+      "sha256": "7184285c58551b47435c6adab1caa4454f7aed07d1b0dacb89079116563a6c2b",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A132",
+      "kind": "result",
+      "path": "evidence/symmetry/worker/logs/pytest-attempt-03.command.json",
+      "sha256": "3fd2e0de48c40e805ad38aed3f0b5ed1e7794c494b062dd470c06b2bdf4a937a",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A133",
+      "kind": "log",
+      "path": "evidence/symmetry/worker/logs/pytest-attempt-03.console.log",
+      "sha256": "e446402efd4c72752c386a592567318e24a79e2b507a5d4f0c53d26f31845dac",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A134",
+      "kind": "result",
+      "path": "evidence/symmetry/worker/logs/uv-sync-attempt-01.command.json",
+      "sha256": "5016a1c91fe3bda077e322d53205aff84abc720b201f2613c88e86c390aac14e",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A135",
+      "kind": "log",
+      "path": "evidence/symmetry/worker/logs/uv-sync-attempt-01.console.log",
+      "sha256": "12866f9f5386eeb83f9af84ccb2b3148671431a79b4542bb774f84c87d743775",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A136",
+      "kind": "code",
+      "path": "evidence/symmetry/worker/supporting-scripts/build_final_manifest.py",
+      "sha256": "ffd7e4e46aad19a89217753cf72a3cef41f543ea94593f985235ba638aafd509",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A137",
+      "kind": "result",
+      "path": "evidence/webmcp/contracts.json",
+      "sha256": "f3f2d8251f6ffd836ed61507387b184d091c181b69a1c50fbd06de8280f6c78c",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A138",
+      "kind": "result",
+      "path": "evidence/webmcp/reuse-delta.json",
+      "sha256": "87fb8b0847ae3bbf9e5fc55a0568cd484808707c9eb2a171077154c33ddaec65",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A139",
+      "kind": "log",
+      "path": "logs/canonical/records.jsonl",
+      "sha256": "b05d83051ba0f92713c87ced4742d1a902297b998d6f221250bef0f80890dd8c",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A140",
+      "kind": "result",
+      "path": "logs/canonical/summary.json",
+      "sha256": "2a76c8d91764b07983b8012baa5fe338241f2d0ac28691af9fb2783623015c0c",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A141",
+      "kind": "result",
+      "path": "logs/corpus-final-01.command.json",
+      "sha256": "d2a06f286dc53b2d415e42827b24a8f2b7fa8fc86ab9cc6e9cb726395959cf1f",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A142",
+      "kind": "log",
+      "path": "logs/corpus-final-01.console.log",
+      "sha256": "f9e6f87c9dc983e6b7646517b8c1af6e9d493fd43c04d1135688dc0ed33e5515",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A143",
+      "kind": "report",
+      "path": "logs/experiment-log.md",
+      "sha256": "8f0bd3af9faaf2d053114cfc199a599ec160e1df47d5adab72d15e90b5897c5e",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A144",
+      "kind": "log",
+      "path": "logs/integration-pytest-01.console.log",
+      "sha256": "2d2f932ce79a0d8de85dc39d0ae41948ced6f308ac498ffc1a47f467c60e4de4",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A145",
+      "kind": "result",
+      "path": "logs/integration-pytest-02.command.json",
+      "sha256": "d503b73339d679e0b1f096c2350eee5a441c57ca514ae81d330982ba3a0edd20",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A146",
+      "kind": "log",
+      "path": "logs/integration-pytest-02.console.log",
+      "sha256": "bdd5e339e9af686f56c1df5e1c5180d314aba909e01600283c13145a7efbc565",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A147",
+      "kind": "result",
+      "path": "logs/integration-pytest-03.command.json",
+      "sha256": "f2fef20aefee503f6844bad41a306c488128357445899064ee0a9c8b96328ec5",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A148",
+      "kind": "log",
+      "path": "logs/integration-pytest-03.console.log",
+      "sha256": "a5ff2935a2b132d05a2bc09c3af16be4e7f4fe55bc8375d7d0b57cb21ffc0d87",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A149",
+      "kind": "result",
+      "path": "logs/integration-pytest-04.command.json",
+      "sha256": "45763cfe966eef0dd35f4944dbe444b15f495b0a8837856375aaf5dd1eafbe9c",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A150",
+      "kind": "log",
+      "path": "logs/integration-pytest-04.console.log",
+      "sha256": "c3dcda19f71ee8170e5bbc323eb05fa13b4ea251350bc3ff4399e8c23f7de418",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A151",
+      "kind": "result",
+      "path": "logs/integration-wrapper-failure.json",
+      "sha256": "3a9b29a447543becc77e2fc401241c4a75ae4e7d393f93a4ea42df403445a905",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A152",
+      "kind": "result",
+      "path": "logs/site-build-final-02.command.json",
+      "sha256": "ddd04e88b1e631d92d98e69f51ce371f5d7d9cef310f1217856a978dfafb0334",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A153",
+      "kind": "log",
+      "path": "logs/site-build-final-02.console.log",
+      "sha256": "d7cbd94f1b300d1b163a54d28511944c5610b5b8410ae02c2f72a551371cc069",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A154",
+      "kind": "result",
+      "path": "logs/site-build-wrapper-failure.json",
+      "sha256": "2bcf375dc6052c7ab390440fd70d9e513d0b91502042a0271813574be2e79406",
+      "producer": "worker or root; exact producer and command retained in artifact"
+    },
+    {
+      "id": "A155",
+      "kind": "code",
+      "path": "src/atlas_engine/__init__.py",
+      "sha256": "95ea5094f22267b7252b462944b1802afd0783fda755c83fefb3e072a72204bd",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A156",
+      "kind": "code",
+      "path": "src/atlas_engine/__main__.py",
+      "sha256": "6ce6108bbb3b1bd2605664b04ad9ce3f2aa5762ea8603c59dfcef8f232afba4b",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A157",
+      "kind": "code",
+      "path": "src/atlas_engine/analysis.py",
+      "sha256": "5583b849fd430d075acb527d02ab91a588bc268235b5bf74af62a83bc13be32e",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A158",
+      "kind": "code",
+      "path": "src/atlas_engine/evaluator.py",
+      "sha256": "4503598debfe2cd7ef40bbf79ae9c5f6fbf3b1e0b2889d7e236be88b981f6c15",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A159",
+      "kind": "code",
+      "path": "src/atlas_engine/linear.py",
+      "sha256": "2b8a6c5a707536394f97f914290976e9d9afb83345aa3e5e64c3234089d15236",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A160",
+      "kind": "code",
+      "path": "src/atlas_engine/markov.py",
+      "sha256": "05502e10b4d73b020e8d89e906462601b428d1b5d107ea7f187c871b875194aa",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A161",
+      "kind": "code",
+      "path": "src/atlas_engine/resistance.py",
+      "sha256": "7eac894cadc2b6e7b49c5502562169fb0234f9c59cbff9192ade6393d048b69d",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A162",
+      "kind": "code",
+      "path": "src/atlas_engine/symmetry.py",
+      "sha256": "5d4c502a7d3b8116664aef00c3ff6627672d90221d6b4e08e0f031f1a468333e",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A163",
+      "kind": "code",
+      "path": "src/atlas_engine/trees.py",
+      "sha256": "fd36f614a7db95765426c2d39166dd3790d043887d5cf4ccfa57dfc0adeea01d",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A164",
+      "kind": "code",
+      "path": "src/atlas_engine/validation.py",
+      "sha256": "1542daeb241bbca99d7cbe858d1c19c5facab694ab0a93339daed9e67b368490",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A165",
+      "kind": "code",
+      "path": "lib/atlas.ts",
+      "sha256": "5d5e666c98eb2a1392a109fc1678b52bed736beb87975173ae81155e95c32812",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A166",
+      "kind": "code",
+      "path": "lib/exact-graph.ts",
+      "sha256": "2c19dedac5fb5d67c26e1922a8e4beaf6aa29414eede0f1b3101dad859ff2f14",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A167",
+      "kind": "code",
+      "path": "lib/formal-search.ts",
+      "sha256": "cf906475e5e16182ed51f2133afafb72a7667b97980e4001b2120b9538a8e8f4",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A168",
+      "kind": "code",
+      "path": "lib/use-atlas-tools.ts",
+      "sha256": "8501f02cb7ea01af64769d44d4a6eac0e00c7aa05979ef6fb87b1c89b453711c",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A169",
+      "kind": "code",
+      "path": "lib/utils.ts",
+      "sha256": "9304a861c8673bee09e0f12de31773abbde503b02e59dfd74763ddec2e37cf05",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A170",
+      "kind": "code",
+      "path": "app/api/atlas/route.ts",
+      "sha256": "a287d62290ccc2d31a8d6247ea5fa7bc33a57b4c83fafd4930c2ca0dc6929fc1",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A171",
+      "kind": "code",
+      "path": "app/api/formal-search/route.ts",
+      "sha256": "93603ca2521933c650239ad119040b038334522e08ebeee8f72d0ee7fa747c56",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A172",
+      "kind": "code",
+      "path": "app/globals.css",
+      "sha256": "48fb96fdb64f9e70570eca376ad4e3af6558501b8a4f2eaab79cab09e835984e",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A173",
+      "kind": "code",
+      "path": "app/layout.tsx",
+      "sha256": "d376c89e65971c6c2162f4410f91da057441d44dc841e9a0169319bd954a52f2",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A174",
+      "kind": "code",
+      "path": "app/page.tsx",
+      "sha256": "b10a46c833ebe2c5bfba03752c977495b9ff4e4540c93657bd358befd9a2da26",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A175",
+      "kind": "test",
+      "path": "tests/test_cli_evaluator.py",
+      "sha256": "963fc0154afa451bfa990bb286a682187392631cbb0f19c305933cc55e51385a",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A176",
+      "kind": "test",
+      "path": "tests/test_corpus_validation.py",
+      "sha256": "0eeb708d58ce6ff4516c9aafa84b183ae16bb8fcbe1dee715f5c03a1d0565313",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A177",
+      "kind": "test",
+      "path": "tests/test_engine.py",
+      "sha256": "091cfafd2f757ae43144ef2ec25847f567696d9f848ea97f53162df1521d5560",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A178",
+      "kind": "test",
+      "path": "tests/test_symmetry.py",
+      "sha256": "f63405a6e57fc3ba6854df66f8e5ee80386191585ecddb8e27d123b81539746d",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A179",
+      "kind": "code",
+      "path": "scripts/build_evidence_bundle.py",
+      "sha256": "6037b911f56f6d8dde3af782198e7eb8f3c233e1057e16ea12bf6c86e3aa00f4",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A180",
+      "kind": "code",
+      "path": "scripts/check-atlas.ts",
+      "sha256": "5c05eff13df45ab06f9226935b91c9b70ca48013d75e4519a73ddbca7f5613bb",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A181",
+      "kind": "code",
+      "path": "scripts/check-browser-engine.ts",
+      "sha256": "56a87dc59e39c466959f5497d938731d2563d627a5843156c2327006b7d6620a",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A182",
+      "kind": "code",
+      "path": "scripts/check-formal-search.ts",
+      "sha256": "6a4603584285e932d232820c4952e4b29984bd9bece08ea225407d3ce027159f",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A183",
+      "kind": "code",
+      "path": "scripts/check_normalization_case.py",
+      "sha256": "32805a34f9c44d7df473d9fc99ae8a57b38382b59e9f3dafb2cfefd5cc58a3ed",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A184",
+      "kind": "code",
+      "path": "scripts/check_supplemental.py",
+      "sha256": "35d614416825427d6265d174d45bc0089415fa1c6a67eddca890e6d1bf148963",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A185",
+      "kind": "code",
+      "path": "scripts/fetch_audit_sources.py",
+      "sha256": "c28832204a61ad083a16114cd1669cde98ba0770dfac49fd29b7f70140ecabdd",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A186",
+      "kind": "code",
+      "path": "scripts/fetch_sources.py",
+      "sha256": "8202c4af958f35a4be8c37f32bfab52511a02af9dda7303f2b3b545a6e3e9447",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A187",
+      "kind": "code",
+      "path": "scripts/run-canonical.ps1",
+      "sha256": "ee1725425048116abc2f26643953896615559b25f41f62517ddc14e0ed9e97fc",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A188",
+      "kind": "code",
+      "path": "scripts/run_logged.ps1",
+      "sha256": "43bc3beb007b393514244197aa7b94a774f1a5b82307d2c13b55bea71e5d5cd2",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A189",
+      "kind": "code",
+      "path": "scripts/run_symmetry_benchmark.py",
+      "sha256": "7526526fb31a41d222d53627a56a1fd97ffafd1935b38746754d511d1fb2380c",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A190",
+      "kind": "code",
+      "path": "scripts/run_symmetry_correctness.py",
+      "sha256": "8fd0b380957f58ab8d193015612d7248a6f63d1d71f2530124a9e6eb4355a2e9",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A191",
+      "kind": "code",
+      "path": "scripts/validate_atlas.py",
+      "sha256": "ab9813ad602dedf34c12220331ab515f8887362ca5c076e4fda24a1d069a72e9",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A192",
+      "kind": "code",
+      "path": "components/atlas-lab.tsx",
+      "sha256": "05614ae7427085191cf6cc59672d81779f667f21bd05ac2293219ef57b5aa602",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A193",
+      "kind": "code",
+      "path": "components/atlas-map.tsx",
+      "sha256": "9913b1f3496210bf878b0da92275ea8011da3d52d20d379cdfe45d1ce146bd26",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A194",
+      "kind": "code",
+      "path": "components/formal-search.tsx",
+      "sha256": "dfae779ea4147bdb816a3690e405a9624e94195cfbd93f9b26444783a1c79e69",
+      "producer": "root integration and assigned implementation workers"
+    },
+    {
+      "id": "A195",
+      "kind": "source",
+      "path": "data/atlas.json",
+      "sha256": "401e00c67d1b54d5986e750dc9ef9fe5dec76b269d2219267b385d6f0054f2d9",
+      "producer": "root"
+    },
+    {
+      "id": "A196",
+      "kind": "spec",
+      "path": "fixtures/frozen.json",
+      "sha256": "7f4f4afb18a052a98296af368fe841cec24949cc358414069f1d576cf75d8600",
+      "producer": "root"
+    },
+    {
+      "id": "A197",
+      "kind": "spec",
+      "path": "fixtures/supplemental-six.json",
+      "sha256": "ae8c126101f7714793c79abb462901841c612c367975b5d0c96ceece30b3e8aa",
+      "producer": "root"
+    },
+    {
+      "id": "A198",
+      "kind": "report",
+      "path": "pyproject.toml",
+      "sha256": "1a05443565003d9449eab572332f73d97f8e8ad7e0e1abac4f7ac22b7f875379",
+      "producer": "root"
+    },
+    {
+      "id": "A199",
+      "kind": "report",
+      "path": "uv.lock",
+      "sha256": "af702441deef709f31364324f3add35c05a14572e8c39e85daa3f447c35d3275",
+      "producer": "root"
+    },
+    {
+      "id": "A200",
+      "kind": "report",
+      "path": "README.md",
+      "sha256": "3fa9c64d740153cef329b2de9be0d7bee72818c18531fb207fb68948b4c0b29c",
+      "producer": "root"
+    },
+    {
+      "id": "A201",
+      "kind": "report",
+      "path": "README-engine.md",
+      "sha256": "af2d2c9c8e9a14d68bf5d90942b9b58717b4c5cb300d3318eae84211951e2d78",
+      "producer": "root"
+    },
+    {
+      "id": "A202",
+      "kind": "report",
+      "path": "README-symmetry.md",
+      "sha256": "7039928c2407200f8fcb0e3784a68ae2e36e9b98331d09f15f1dc57cff048131",
+      "producer": "root"
+    },
+    {
+      "id": "A203",
+      "kind": "report",
+      "path": "docs/decision.md",
+      "sha256": "c718cb6e44b398934c9ca87942814c04a450c81281a0f3d4bff2475334902b2b",
+      "producer": "root"
+    },
+    {
+      "id": "A204",
+      "kind": "report",
+      "path": "docs/reuse-decision.md",
+      "sha256": "a3bb5ac3cfa23c11d511b3cb81b7163222b2c70aeec6f440cca8579c9d506187",
+      "producer": "root"
+    },
+    {
+      "id": "A205",
+      "kind": "report",
+      "path": "docs/normalization-case.md",
+      "sha256": "aa427bd5b8b90263381d79528208c74ac4e1ad21caa16e0273509b4be03c8e1c",
+      "producer": "root"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C001",
+      "type": "numerical",
+      "statement": "The curated region has 31 nodes, 40 directed relations and 7 sources; these are corpus counts, not coverage of mathematics.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A009",
+          "locator": "json:/counts/nodes",
+          "expected": 31
+        },
+        {
+          "artifact_id": "A009",
+          "locator": "json:/counts/edges",
+          "expected": 40
+        },
+        {
+          "artifact_id": "A009",
+          "locator": "json:/counts/sources",
+          "expected": 7
+        }
+      ]
+    },
+    {
+      "id": "C002",
+      "type": "numerical",
+      "statement": "The baseline checks 772 records with zero failures: one selected edge on each of 771 connected labelled graphs on 2–5 vertices plus one named six-vertex cycle.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A006",
+          "locator": "json:/record_count",
+          "expected": 772
+        },
+        {
+          "artifact_id": "A006",
+          "locator": "json:/failure_count",
+          "expected": 0
+        },
+        {
+          "artifact_id": "A006",
+          "locator": "json:/exhaustive_graph_count",
+          "expected": 771
+        },
+        {
+          "artifact_id": "A006",
+          "locator": "json:/named_6_vertex_fixture_count",
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "id": "C003",
+      "type": "numerical",
+      "statement": "The browser engine agrees on all public outputs for 772 baseline records and 3 separately identified supplemental records.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A007",
+          "locator": "json:/passed",
+          "expected": true
+        },
+        {
+          "artifact_id": "A007",
+          "locator": "json:/record_count",
+          "expected": 772
+        },
+        {
+          "artifact_id": "A007",
+          "locator": "json:/supplemental_record_count",
+          "expected": 3
+        }
+      ]
+    },
+    {
+      "id": "C004",
+      "type": "numerical",
+      "statement": "Eight curated lexical retrieval sanity cases and 961 ordered navigation pairs passed; this is not a semantic-recall or novelty benchmark.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A008",
+          "locator": "json:/passed",
+          "expected": true
+        },
+        {
+          "artifact_id": "A008",
+          "locator": "json:/retrieval_sanity_cases",
+          "expected": 8
+        },
+        {
+          "artifact_id": "A008",
+          "locator": "json:/navigation_pairs",
+          "expected": 961
+        }
+      ]
+    },
+    {
+      "id": "C005",
+      "type": "numerical",
+      "statement": "Independent symmetry reproduction compared 15,192 full result dictionaries with zero failures in the frozen finite domain.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A092",
+          "locator": "json:/ordered_pair_record_count",
+          "expected": 15192
+        },
+        {
+          "artifact_id": "A092",
+          "locator": "json:/failure_count",
+          "expected": 0
+        }
+      ]
+    },
+    {
+      "id": "C006",
+      "type": "numerical",
+      "statement": "The independent 21-round frozen-workload benchmark recorded median direct time 0.2803868 s and symmetry time 0.1129344 s. These are machine- and workload-specific measurements.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A082",
+          "locator": "json:/direct_median_seconds",
+          "expected": 0.2803868
+        },
+        {
+          "artifact_id": "A082",
+          "locator": "json:/symmetry_median_seconds",
+          "expected": 0.1129344
+        },
+        {
+          "artifact_id": "A082",
+          "locator": "json:/equal_round_count",
+          "expected": 21
+        },
+        {
+          "artifact_id": "A082",
+          "locator": "json:/paired_round_count",
+          "expected": 21
+        },
+        {
+          "artifact_id": "A082",
+          "locator": "json:/passed",
+          "expected": true
+        }
+      ]
+    },
+    {
+      "id": "C007",
+      "type": "numerical",
+      "statement": "The annotated normalized-probability reading predicts commute 1 for K2, while exact computation and the original unnormalized-measure formula give 2.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A060",
+          "locator": "json:/candidate_prediction",
+          "expected": "1"
+        },
+        {
+          "artifact_id": "A060",
+          "locator": "json:/actual_commute",
+          "expected": "2"
+        },
+        {
+          "artifact_id": "A060",
+          "locator": "json:/original_formula_prediction",
+          "expected": "2"
+        }
+      ]
+    },
+    {
+      "id": "C008",
+      "type": "methodological",
+      "statement": "Electrical and Markov quantities use separately constructed exact systems sharing a generic rational solver; tree enumeration uses subset connectivity. Cross-language agreement alone is not an independent proof.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A157",
+          "locator": "contains:def analyze_graph"
+        },
+        {
+          "artifact_id": "A163",
+          "locator": "contains:combinations"
+        }
+      ]
+    },
+    {
+      "id": "C009",
+      "type": "citation",
+      "statement": "Canonical-form-indexed graph evaluation reuse has direct prior art; this optimization is not claimed as a globally new algorithm.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A075",
+          "locator": "contains:10.1162/evco.2007.15.2.199"
+        }
+      ]
+    },
+    {
+      "id": "C010",
+      "type": "conclusion",
+      "statement": "This region supplies tested finite computations and one independently checked summary normalization mismatch. It does not establish a new mathematical theorem, a general automatic assumption detector, or complete mathematical coverage.",
+      "status": "supported",
+      "supports": [
+        {
+          "claim_id": "C001"
+        },
+        {
+          "claim_id": "C002"
+        },
+        {
+          "claim_id": "C005"
+        },
+        {
+          "claim_id": "C007"
+        },
+        {
+          "claim_id": "C009"
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "reproduction",
+      "status": "pass",
+      "auditor": "sol_atlas_audit; sol_symmetry_audit (separate scoped independent attestations)",
+      "evidence": [
+        "A043",
+        "A070",
+        "A050",
+        "A023",
+        "A017",
+        "A018",
+        "A051",
+        "A029",
+        "A032",
+        "A061",
+        "A062",
+        "A019",
+        "A007",
+        "A099",
+        "A100",
+        "A091",
+        "A092",
+        "A083",
+        "A081",
+        "A082",
+        "A107"
+      ],
+      "note": "Fresh exact evaluator produced 772 records with zero failures and byte-identical baseline SHA-256 b05d83051ba0f92713c87ced4742d1a902297b998d6f221250bef0f80890dd8c; 75 Python tests passed; 3 supplemental six-vertex cases and all-field Node agreement passed. A later symmetry-test-only path portability edit did not change the audited foundation or conclusions. | Corrected promoted checkout: 75 pytest tests passed; 15,192/15,192 exact dictionaries and 21/21 paired benchmark rounds passed. Independent raw parser reconstructed all inputs, canonical classes, exact equation/oracle outputs, hashes, and aggregates with zero mismatch."
+    },
+    {
+      "id": "specification_compliance",
+      "status": "pass",
+      "auditor": "sol_atlas_audit; sol_symmetry_audit (separate scoped independent attestations)",
+      "evidence": [
+        "A043",
+        "A070",
+        "A050",
+        "A042",
+        "A025",
+        "A034",
+        "A022",
+        "A008",
+        "A020",
+        "A052",
+        "A003",
+        "A071",
+        "A072",
+        "A064",
+        "A090",
+        "A089",
+        "A063"
+      ],
+      "note": "The bounded foundation satisfies the task data/workflow/evaluation semantics. Three distinct coe_explorer outputs were verified verbatim against source rollout lines and precede implementation; encrypted spawn-message bodies leave only textual prompt identity uncheckable. Evidence-bundle assembly and Git commit/push are root-owned post-audit finalization. | Canonical class, full API transport, validation-before-lookup, LRU state, mutation isolation, exceptions, nonedges, tied automorphisms, exact diagnostics, and documentation satisfy the frozen contract."
+    },
+    {
+      "id": "source_verification",
+      "status": "pass",
+      "auditor": "sol_atlas_audit; sol_symmetry_audit (separate scoped independent attestations)",
+      "evidence": [
+        "A043",
+        "A070",
+        "A050",
+        "A054",
+        "A053",
+        "A028",
+        "A060",
+        "A046",
+        "A049",
+        "A048",
+        "A075",
+        "A074"
+      ],
+      "note": "All 31 node claims and 40 material edges were conservatively reviewed against seven authoritative sources with precise locators; reuse and normalization-case claims were checked against official or original sources. Grady and Klein used primary author/journal web passages because local TLS retrieval failed. No novelty, completeness, empirical-efficacy, or formal-proof overclaim remains. | Primary sources support the mathematical ingredients and provide direct prior art for canonical-graph-indexed evaluation reuse. Only a project-specific optimization claim passes; global novelty and real-world impact claims do not."
+    },
+    {
+      "id": "implementation_alignment",
+      "status": "pass",
+      "auditor": "sol_atlas_audit; sol_symmetry_audit (separate scoped independent attestations)",
+      "evidence": [
+        "A043",
+        "A070",
+        "A050",
+        "A052",
+        "A033",
+        "A027",
+        "A022",
+        "A034",
+        "A020",
+        "A008",
+        "A021",
+        "A055",
+        "A026",
+        "A046",
+        "A019",
+        "A007",
+        "A162",
+        "A155",
+        "A178",
+        "A190",
+        "A189",
+        "A202",
+        "A063",
+        "A107",
+        "A066"
+      ],
+      "note": "Code follows the frozen domain and separation requirements; corpus/search/path/validator and formal-adapter boundaries passed. TypeScript and lint passed. This verifier did not perform browser UI/DOM/visual QA or certify WebMCP runtime behavior. | Final promoted code, export, tests, runners, proof report, README, and runtime records were compared after the last path-only fix. Engine SHA-256 5d4c502a...333e is unchanged and matches both final runner summaries."
+    }
+  ],
+  "limitations": [
+    "Finite curated region, not all mathematics; no claim of globally novel mathematics or algorithms.",
+    "No current corpus entry has been checked in a pinned Lean environment.",
+    "The external-summary semantic annotation is manual; its exact separating witness is automated. No error-prevalence estimate or evaluated automatic semantic parser.",
+    "Search sanity cases are curated rediscovery checks, not held-out semantic or novelty evaluation.",
+    "Original branch response events, roles and timing are retained and independently checked; encrypted original prompt bodies prevent checking textual prompt identity.",
+    "Wall-clock benchmark benefit applies to the frozen repeated finite workload; cold or larger graphs can be slower.",
+    "Focused WebMCP checks do not establish broad visual, responsive or accessibility QA."
+  ]
+}

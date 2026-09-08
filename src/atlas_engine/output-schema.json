@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/mathematics-atlas/graph-analysis-v1.schema.json",
+  "title": "Laplacian bridge atlas analysis output v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "n", "edges", "source", "target", "laplacian", "potentials",
+    "resistance", "hit_forward", "hit_backward", "commute",
+    "spanning_tree_count", "tree_edge_count", "edge_probability", "checks"
+  ],
+  "properties": {
+    "n": {"type": "integer", "minimum": 2, "maximum": 6},
+    "edges": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "prefixItems": [{"type": "integer"}, {"type": "integer"}],
+        "minItems": 2,
+        "maxItems": 2
+      }
+    },
+    "source": {"type": "integer"},
+    "target": {"type": "integer"},
+    "laplacian": {
+      "type": "array",
+      "items": {"type": "array", "items": {"type": "integer"}}
+    },
+    "potentials": {"type": "array", "items": {"$ref": "#/$defs/rational"}},
+    "resistance": {"$ref": "#/$defs/rational"},
+    "hit_forward": {"$ref": "#/$defs/rational"},
+    "hit_backward": {"$ref": "#/$defs/rational"},
+    "commute": {"$ref": "#/$defs/rational"},
+    "spanning_tree_count": {"type": "integer", "minimum": 1},
+    "tree_edge_count": {"type": ["integer", "null"], "minimum": 0},
+    "edge_probability": {
+      "oneOf": [{"$ref": "#/$defs/rational"}, {"type": "null"}]
+    },
+    "checks": {
+      "type": "object",
+      "minProperties": 3,
+      "additionalProperties": {"const": true}
+    }
+  },
+  "$defs": {
+    "rational": {
+      "type": "string",
+      "pattern": "^-?(0|[1-9][0-9]*)(/[1-9][0-9]*)?$"
+    }
+  }
+}
+

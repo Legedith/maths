@@ -1,0 +1,214 @@
+{
+  "passed": true,
+  "corpus_counts": {
+    "nodes": 31,
+    "edges": 40,
+    "sources": 7
+  },
+  "atlas_sources": [
+    {
+      "id": "spielman-laplacian",
+      "title": "The Laplacian",
+      "type": "first-party lecture note",
+      "url": "https://cs.yale.edu/homes/spielman/561/lect02-15.pdf",
+      "reviewed_locators": "§2.2, equations (2.1)–(2.3)",
+      "node_claims": 5,
+      "edge_claims": 5,
+      "edge_ids": [
+        "r1",
+        "r2",
+        "r9",
+        "r10",
+        "r11"
+      ],
+      "status": "pass",
+      "note": "Local retained text/PDF checked; retrieval SHA-256 matched log."
+    },
+    {
+      "id": "spielman-resistance",
+      "title": "Effective Resistance",
+      "type": "first-party lecture note",
+      "url": "https://cs.yale.edu/homes/spielman/561/lect13-18.pdf",
+      "reviewed_locators": "§13.1 pp.1–2; §13.2 pp.2–3; §13.3; §§13.4–13.5; §13.6 Lemma 13.6.1",
+      "node_claims": 10,
+      "edge_claims": 14,
+      "edge_ids": [
+        "r3",
+        "r4",
+        "r12",
+        "r13",
+        "r14",
+        "r15",
+        "r16",
+        "r17",
+        "r18",
+        "r30",
+        "r31",
+        "r32",
+        "r33",
+        "r34"
+      ],
+      "status": "pass",
+      "note": "Local retained text/PDF checked; retrieval SHA-256 matched log."
+    },
+    {
+      "id": "spielman-trees",
+      "title": "More Effective Resistance",
+      "type": "first-party lecture note",
+      "url": "https://www.cs.yale.edu/homes/spielman/561/lect14-18.pdf",
+      "reviewed_locators": "§14.2; §14.5 Theorem 14.5.1; §14.6 Theorem 14.6.1",
+      "node_claims": 6,
+      "edge_claims": 6,
+      "edge_ids": [
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r28",
+        "r29"
+      ],
+      "status": "pass",
+      "note": "Local retained text/PDF checked; retrieval SHA-256 matched log."
+    },
+    {
+      "id": "chandra-commute",
+      "title": "Electrical resistance captures commute and cover times",
+      "type": "research paper",
+      "url": "https://homes.cs.washington.edu/~ruzzo/papers/resist.pdf",
+      "reviewed_locators": "§1; §2 Theorem 2.1, PDF p.6",
+      "node_claims": 4,
+      "edge_claims": 4,
+      "edge_ids": [
+        "r19",
+        "r20",
+        "r21",
+        "r22"
+      ],
+      "status": "pass",
+      "note": "Local retained text/PDF checked; retrieval SHA-256 matched log."
+    },
+    {
+      "id": "spielman-sparsification",
+      "title": "Graph Sparsification by Effective Resistances",
+      "type": "research paper",
+      "url": "https://arxiv.org/abs/0803.0929",
+      "reviewed_locators": "§1.1 Sparsify(G,q), equation (1), Theorem 1",
+      "node_claims": 3,
+      "edge_claims": 4,
+      "edge_ids": [
+        "r35",
+        "r36",
+        "r37",
+        "r38"
+      ],
+      "status": "pass",
+      "note": "Local retained text/PDF checked; retrieval SHA-256 matched log."
+    },
+    {
+      "id": "grady-segmentation",
+      "title": "Random Walks for Image Segmentation",
+      "type": "research paper",
+      "url": "https://leogrady.net/wp-content/uploads/2017/01/grady2006random.pdf",
+      "reviewed_locators": "Abstract; §§II–III",
+      "node_claims": 3,
+      "edge_claims": 5,
+      "edge_ids": [
+        "r23",
+        "r24",
+        "r25",
+        "r26",
+        "r27"
+      ],
+      "status": "pass",
+      "note": "Primary web passages used after local TLS failure."
+    },
+    {
+      "id": "klein-sum-rules",
+      "title": "Resistance-Distance Sum Rules",
+      "type": "research paper",
+      "url": "https://hrcak.srce.hr/127542",
+      "reviewed_locators": "Abstract; Introduction, journal p.633",
+      "node_claims": 2,
+      "edge_claims": 2,
+      "edge_ids": [
+        "r39",
+        "r40"
+      ],
+      "status": "pass",
+      "note": "Primary web passages used after local TLS failure."
+    }
+  ],
+  "external_reuse_sources": [
+    {
+      "id": "loogle",
+      "urls": [
+        "https://github.com/nomeata/loogle/blob/master/README.md",
+        "https://github.com/nomeata/loogle/blob/master/blurb.html",
+        "https://github.com/nomeata/loogle/blob/master/LICENSE"
+      ],
+      "supports": [
+        "JSON endpoint",
+        "quoted name-substring search",
+        "unstable format warning",
+        "Apache-2.0 code"
+      ],
+      "status": "pass"
+    },
+    {
+      "id": "theoremgraph",
+      "urls": [
+        "https://www.theoremsearch.com/theorem-graph",
+        "https://www.theoremsearch.com/docs",
+        "https://huggingface.co/datasets/uw-math-ai/math-graph"
+      ],
+      "supports": [
+        "statement retrieval",
+        "dependency navigation",
+        "formal/informal graph",
+        "dataset-card license and per-record license caveat"
+      ],
+      "status": "pass"
+    },
+    {
+      "id": "zbmath-open-kg",
+      "urls": [
+        "https://arxiv.org/abs/2609.00969",
+        "https://github.com/zbMATHOpen/zbmath-open-kg"
+      ],
+      "supports": [
+        "bibliographic and semantic metadata",
+        "scholarly relationships",
+        "RDF access",
+        "CC-BY-SA-4.0 terms"
+      ],
+      "status": "pass"
+    },
+    {
+      "id": "mathgloss",
+      "urls": [
+        "https://arxiv.org/abs/2311.12649",
+        "https://github.com/MathGloss/MathGloss"
+      ],
+      "supports": [
+        "linked undergraduate concepts",
+        "learning-resource alignment"
+      ],
+      "status": "pass"
+    },
+    {
+      "id": "normalization-original-paper",
+      "urls": [
+        "https://arxiv.org/html/1807.07167v1"
+      ],
+      "supports": [
+        "§2.2 unnormalized reversible measure",
+        "Proposition 2.4 commute identity"
+      ],
+      "status": "pass"
+    }
+  ],
+  "limitations": [
+    "Grady and Klein local TLS retrieval failed; primary author/journal web passages were used.",
+    "Source verification establishes entailment of current bounded claims, not completeness or novelty."
+  ]
+}

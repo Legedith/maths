@@ -42,3 +42,9 @@ __pycache__/
 .pytest_cache/
 *.pyc
 /.codex/evidence/active.json
+
+*.tsbuildinfo
+
+# Retain complete third-party papers locally; publish source metadata and audit notes.
+/evidence/symmetry/independent/primary-sources/
+/evidence/foundation/independent/pytest-temp/

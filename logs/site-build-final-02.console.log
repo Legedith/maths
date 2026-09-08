@@ -1,0 +1,58 @@
+﻿npm.cmd : npm warn Unknown user config "msvs_version". This will stop working in the next major version of npm. See 
+`npm help npmrc` for supported config options.
+At D:\CodexWorkspaces\mathematics-atlas\project\scripts\run_logged.ps1:22 char:11
++ $output = & $Command[0] $Command[1..($Command.Count - 1)] 2>&1 | Out- ...
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (npm warn Unknow...config options.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+> sites-project@0.1.0 build
+> vinext build
+
+
+  vinext build  (Vite 8.0.13)
+
+[1/5] analyze client references...
+[2K
+transforming...✓ 231 modules transformed.
+rendering chunks...
+✓ built in 996ms
+[2/5] analyze server references...
+[2K
+transforming...✓ 282 modules transformed.
+rendering chunks...
+✓ built in 480ms
+[3/5] build rsc environment...
+[2K
+transforming...✓ 228 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 861ms
+[4/5] build client environment...
+[2K
+transforming...✓ 2047 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 2.34s
+[5/5] build ssr environment...
+[2K
+transforming...✓ 285 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 700ms
+[0m
+  Route (app)
+  ┌ ? /                 
+  ├ λ /api/atlas        
+  └ λ /api/formal-search
+
+  λ API  ? Unknown
+
+  ? Some routes could not be classified. vinext currently uses static analysis
+    and cannot detect dynamic API usage (headers(), cookies(), etc.) at build time.
+    Automatic classification will be improved in a future release.
+
+  Build complete. Run `vinext start` to start the production server.
+
+

@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-08",
+  "url": "http://localhost:3000/",
+  "producer": "root, observed Codex browser WebMCP calls",
+  "registered_tools": 5,
+  "passed": true,
+  "scope": "Targeted agent-tool and visible-state validation; no broad visual QA. Original four-tool checks are retained separately at contracts.json and precede the search extension.",
+  "source_sha256": {
+    "lib/use-atlas-tools.ts": "8501f02cb7ea01af64769d44d4a6eac0e00c7aa05979ef6fb87b1c89b453711c",
+    "lib/formal-search.ts": "cf906475e5e16182ed51f2133afafb72a7667b97980e4001b2120b9538a8e8f4",
+    "app/api/formal-search/route.ts": "93603ca2521933c650239ad119040b038334522e08ebeee8f72d0ee7fa747c56",
+    "lib/atlas.ts": "5d5e666c98eb2a1392a109fc1678b52bed736beb87975173ae81155e95c32812"
+  },
+  "records": [
+    {
+      "tool": "search_formal_library",
+      "input": {
+        "query": "lapMatrix"
+      },
+      "provider": "Loogle",
+      "count": 23,
+      "first_hit": "SimpleGraph.lapMatrix",
+      "visible_query": "lapMatrix",
+      "visible_heading": "23 declarations found for ?lapMatrix?",
+      "passed": true
+    },
+    {
+      "tool": "search_formal_library",
+      "input": {
+        "query": "   "
+      },
+      "rejected": true,
+      "error": "Enter a declaration name or fragment, up to 120 characters.",
+      "visible_results_unchanged": true,
+      "passed": true
+    },
+    {
+      "tool": "search_concepts",
+      "input": {
+        "query": "effective-resistance"
+      },
+      "result_ids": [
+        "effective-resistance",
+        "commute-resistance",
+        "resistance-distance",
+        "edge-probability",
+        "leverage-score"
+      ],
+      "passed": true
+    }
+  ],
+  "post_format_curated_recheck": "Repeated search_concepts effective-resistance using refreshed WebMCP registration; same ordered five results."
+}

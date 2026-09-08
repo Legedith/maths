@@ -1,0 +1,10 @@
+The wrapped pytest subprocess completed, but the verifier wrapper failed before
+persisting its subprocess output because pathlib.Path.write_text() in the host
+Python did not accept the attempted newline keyword.
+
+Traceback (most recent call last):
+  File "D:\CodexWorkspaces\mathematics-atlas\symmetry-audit-work\verifier_run.py", line 70, in <module>
+    raise SystemExit(main())
+  File "D:\CodexWorkspaces\mathematics-atlas\symmetry-audit-work\verifier_run.py", line 47, in main
+    log_path.write_text(completed.stdout, encoding="utf-8", newline="\n")
+TypeError: write_text() got an unexpected keyword argument 'newline'

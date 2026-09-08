@@ -1,0 +1,18 @@
+{
+  "name": "pytest-attempt-02",
+  "command_argv": [
+    "uv",
+    "run",
+    "python",
+    "-m",
+    "pytest",
+    "-p",
+    "no:cacheprovider"
+  ],
+  "command_display": "uv run python -m pytest -p no:cacheprovider",
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\symmetry-work",
+  "runtime_seconds": null,
+  "exit_code": 1,
+  "failure_stage": "PowerShell parameter binding rejected -p before the logging script body ran; the shell call returned in 2.8 seconds.",
+  "console_log": "logs/pytest-attempt-02.console.log"
+}

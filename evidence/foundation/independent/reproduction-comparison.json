@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "fresh_records_path": "D:\\CodexWorkspaces\\mathematics-atlas\\atlas-audit-work\\final-20260908\\canonical\\records.jsonl",
+  "baseline_records_path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\baseline\\records.jsonl",
+  "record_count": 772,
+  "records_byte_equal": true,
+  "records_sha256": "b05d83051ba0f92713c87ced4742d1a902297b998d6f221250bef0f80890dd8c",
+  "baseline_records_sha256": "b05d83051ba0f92713c87ced4742d1a902297b998d6f221250bef0f80890dd8c",
+  "summary_equal_except_records_path": true,
+  "fresh_summary_sha256": "9c2dfbdec9f34ff8c5119ebe6e3952fd375f242da98cacf6070daea1d8b8a307",
+  "baseline_summary_sha256": "6aa33a313df56798330b57f73633c3a6cbdba846adbf1bf718b15ef32130507f",
+  "all_named_checks_true": true,
+  "ids_unique": true,
+  "counts_by_n": {
+    "2": 1,
+    "3": 4,
+    "4": 38,
+    "5": 728
+  },
+  "exhaustive_graph_count": 771,
+  "named_6_vertex_fixture_count": 1,
+  "valid_fixture_count": 7,
+  "invalid_fixture_count": 10,
+  "sampled": false,
+  "python": "3.13.7 (main, Sep 18 2025, 19:43:45) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0"
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "diagnostics": {
+      "capacity": 4,
+      "core_calls": 1,
+      "evictions": 0,
+      "hits": 1,
+      "misses": 1,
+      "size": 1
+    },
+    "id": "returned-nested-mutation",
+    "passed": true
+  },
+  {
+    "diagnostics": {
+      "capacity": 256,
+      "core_calls": 1,
+      "evictions": 0,
+      "hits": 1,
+      "misses": 1,
+      "size": 1
+    },
+    "id": "edge-endpoint-and-input-order",
+    "passed": true
+  },
+  {
+    "diagnostics": {
+      "capacity": 2,
+      "core_calls": 4,
+      "evictions": 2,
+      "hits": 1,
+      "misses": 4,
+      "size": 2
+    },
+    "expected_diagnostics": {
+      "capacity": 2,
+      "core_calls": 4,
+      "evictions": 2,
+      "hits": 1,
+      "misses": 4,
+      "size": 2
+    },
+    "id": "bounded-lru-eviction",
+    "passed": true
+  },
+  {
+    "diagnostics": {
+      "capacity": 2,
+      "core_calls": 0,
+      "evictions": 0,
+      "hits": 0,
+      "misses": 0,
+      "size": 0
+    },
+    "expected_diagnostics": {
+      "capacity": 2,
+      "core_calls": 0,
+      "evictions": 0,
+      "hits": 0,
+      "misses": 0,
+      "size": 0
+    },
+    "id": "clear-resets-cache-and-diagnostics",
+    "passed": true
+  },
+  {
+    "id": "interleaved-instance-isolation",
+    "left_diagnostics": {
+      "capacity": 256,
+      "core_calls": 1,
+      "evictions": 0,
+      "hits": 1,
+      "misses": 1,
+      "size": 1
+    },
+    "passed": true,
+    "right_diagnostics": {
+      "capacity": 256,
+      "core_calls": 1,
+      "evictions": 0,
+      "hits": 0,
+      "misses": 1,
+      "size": 1
+    }
+  },
+  {
+    "candidate_count": 4,
+    "id": "automorphism-tie",
+    "passed": true,
+    "tie_count": 4
+  },
+  {
+    "diagnostics_after": {
+      "capacity": 256,
+      "core_calls": 1,
+      "evictions": 0,
+      "hits": 0,
+      "misses": 1,
+      "size": 1
+    },
+    "diagnostics_before": {
+      "capacity": 256,
+      "core_calls": 1,
+      "evictions": 0,
+      "hits": 0,
+      "misses": 1,
+      "size": 1
+    },
+    "id": "invalid-after-warm-key",
+    "messages_equal": 10,
+    "passed": true,
+    "rejected": 10
+  }
+]

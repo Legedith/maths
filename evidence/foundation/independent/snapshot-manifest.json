@@ -1,0 +1,280 @@
+{
+  "snapshot_scope": "Core foundation and live formal-search adapter; symmetry/discovery extension excluded except tests may load it.",
+  "project": "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+  "git_head": "324a4f33c7015a32c4838176968325bc81d0d1f0",
+  "git_branch": "codex/atlas-foundation",
+  "git_status_porcelain": [
+    " M .gitignore",
+    " M .oxlintrc.json",
+    " M app/globals.css",
+    " M app/layout.tsx",
+    " M app/page.tsx",
+    " M data/atlas.json",
+    " M docs/decision.md",
+    " M lib/atlas.ts",
+    " M scripts/fetch_sources.py",
+    " M tsconfig.json",
+    "?? .codex/",
+    "?? .gitattributes",
+    "?? .github/",
+    "?? CONTRIBUTING.md",
+    "?? README-engine.md",
+    "?? README-symmetry.md",
+    "?? README.md",
+    "?? app/api/",
+    "?? components/atlas-lab.tsx",
+    "?? components/atlas-map.tsx",
+    "?? components/formal-search.tsx",
+    "?? docs/coverage.md",
+    "?? docs/data-model.md",
+    "?? docs/discovery-contract.md",
+    "?? docs/normalization-case.md",
+    "?? docs/reuse-decision.md",
+    "?? docs/symmetry-contract.md",
+    "?? evidence/",
+    "?? fixtures/supplemental-six.json",
+    "?? lib/exact-graph.ts",
+    "?? lib/formal-search.ts",
+    "?? lib/use-atlas-tools.ts",
+    "?? logs/",
+    "?? pyproject.toml",
+    "?? scripts/build_evidence_bundle.py",
+    "?? scripts/check-atlas.ts",
+    "?? scripts/check-browser-engine.ts",
+    "?? scripts/check-formal-search.ts",
+    "?? scripts/check_normalization_case.py",
+    "?? scripts/check_supplemental.py",
+    "?? scripts/run-canonical.ps1",
+    "?? scripts/run_logged.ps1",
+    "?? scripts/run_symmetry_benchmark.py",
+    "?? scripts/run_symmetry_correctness.py",
+    "?? scripts/validate_atlas.py",
+    "?? src/",
+    "?? tests/",
+    "?? uv.lock"
+  ],
+  "python": "3.13.7 (main, Sep 18 2025, 19:43:45) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "node": "v24.12.0",
+  "uv": "uv 0.8.19 (fc7c2f8b5 2025-09-19)",
+  "commands": {
+    "pytest": "uv run --frozen pytest -p no:cacheprovider --basetemp D:\\CodexWorkspaces\\mathematics-atlas\\atlas-audit-work\\final-20260908\\pytest-temp",
+    "evaluator": "uv run --frozen python -m atlas_engine evaluate --output-dir D:\\CodexWorkspaces\\mathematics-atlas\\atlas-audit-work\\final-20260908\\canonical",
+    "corpus_validation": "uv run --frozen python scripts/validate_atlas.py data/atlas.json --output D:\\CodexWorkspaces\\mathematics-atlas\\atlas-audit-work\\final-20260908\\corpus-validation.json",
+    "supplemental": "uv --project D:\\CodexWorkspaces\\mathematics-atlas\\project run --frozen python D:\\CodexWorkspaces\\mathematics-atlas\\project\\scripts\\check_supplemental.py (cwd D:\\CodexWorkspaces\\mathematics-atlas\\atlas-audit-work\\final-20260908)",
+    "normalization_case": "uv --project D:\\CodexWorkspaces\\mathematics-atlas\\project run --frozen python D:\\CodexWorkspaces\\mathematics-atlas\\project\\scripts\\check_normalization_case.py (cwd D:\\CodexWorkspaces\\mathematics-atlas\\atlas-audit-work\\final-20260908)",
+    "browser_engine": "node D:\\CodexWorkspaces\\mathematics-atlas\\project\\scripts\\check-browser-engine.ts (cwd D:\\CodexWorkspaces\\mathematics-atlas\\atlas-audit-work\\final-20260908)",
+    "atlas_search_paths": "node D:\\CodexWorkspaces\\mathematics-atlas\\project\\scripts\\check-atlas.ts (cwd D:\\CodexWorkspaces\\mathematics-atlas\\atlas-audit-work\\final-20260908)",
+    "formal_adapter_boundary": "node D:\\CodexWorkspaces\\mathematics-atlas\\project\\scripts\\check-formal-search.ts (cwd D:\\CodexWorkspaces\\mathematics-atlas\\atlas-audit-work\\final-20260908)",
+    "formal_adapter_live": "node D:\\CodexWorkspaces\\mathematics-atlas\\atlas-audit-work\\final-20260908\\formal-live-audit.mjs",
+    "typescript": "npx tsc --noEmit",
+    "lint": "npm run lint"
+  },
+  "files": [
+    {
+      "path": "docs/task-spec.md",
+      "bytes": 3281,
+      "sha256": "2417ac0ee8963499e5c29e698aa42748180ef49adab407c23ebd311e9595d6ce"
+    },
+    {
+      "path": "docs/engine-contract.md",
+      "bytes": 3281,
+      "sha256": "66ff2c63060159040b4fd1dc3c62e6bf2d5ccf40600eb0d6bd483b594582124a"
+    },
+    {
+      "path": "docs/data-model.md",
+      "bytes": 2509,
+      "sha256": "e730cd05b5db3e90cdc03df343e34c33f2ad2156c57702a34da8809bfd23d9de"
+    },
+    {
+      "path": "docs/decision.md",
+      "bytes": 3412,
+      "sha256": "c718cb6e44b398934c9ca87942814c04a450c81281a0f3d4bff2475334902b2b"
+    },
+    {
+      "path": "docs/reuse-decision.md",
+      "bytes": 3531,
+      "sha256": "a3bb5ac3cfa23c11d511b3cb81b7163222b2c70aeec6f440cca8579c9d506187"
+    },
+    {
+      "path": "docs/normalization-case.md",
+      "bytes": 2053,
+      "sha256": "aa427bd5b8b90263381d79528208c74ac4e1ad21caa16e0273509b4be03c8e1c"
+    },
+    {
+      "path": "data/atlas.json",
+      "bytes": 60125,
+      "sha256": "401e00c67d1b54d5986e750dc9ef9fe5dec76b269d2219267b385d6f0054f2d9"
+    },
+    {
+      "path": "app/page.tsx",
+      "bytes": 17631,
+      "sha256": "b10a46c833ebe2c5bfba03752c977495b9ff4e4540c93657bd358befd9a2da26"
+    },
+    {
+      "path": "app/api/atlas/route.ts",
+      "bytes": 159,
+      "sha256": "a287d62290ccc2d31a8d6247ea5fa7bc33a57b4c83fafd4930c2ca0dc6929fc1"
+    },
+    {
+      "path": "app/api/formal-search/route.ts",
+      "bytes": 2047,
+      "sha256": "93603ca2521933c650239ad119040b038334522e08ebeee8f72d0ee7fa747c56"
+    },
+    {
+      "path": "components/atlas-lab.tsx",
+      "bytes": 12543,
+      "sha256": "05614ae7427085191cf6cc59672d81779f667f21bd05ac2293219ef57b5aa602"
+    },
+    {
+      "path": "components/atlas-map.tsx",
+      "bytes": 10433,
+      "sha256": "9913b1f3496210bf878b0da92275ea8011da3d52d20d379cdfe45d1ce146bd26"
+    },
+    {
+      "path": "components/formal-search.tsx",
+      "bytes": 6138,
+      "sha256": "dfae779ea4147bdb816a3690e405a9624e94195cfbd93f9b26444783a1c79e69"
+    },
+    {
+      "path": "lib/atlas.ts",
+      "bytes": 3413,
+      "sha256": "5d5e666c98eb2a1392a109fc1678b52bed736beb87975173ae81155e95c32812"
+    },
+    {
+      "path": "lib/exact-graph.ts",
+      "bytes": 6846,
+      "sha256": "2c19dedac5fb5d67c26e1922a8e4beaf6aa29414eede0f1b3101dad859ff2f14"
+    },
+    {
+      "path": "lib/formal-search.ts",
+      "bytes": 2241,
+      "sha256": "cf906475e5e16182ed51f2133afafb72a7667b97980e4001b2120b9538a8e8f4"
+    },
+    {
+      "path": "lib/use-atlas-tools.ts",
+      "bytes": 7616,
+      "sha256": "8501f02cb7ea01af64769d44d4a6eac0e00c7aa05979ef6fb87b1c89b453711c"
+    },
+    {
+      "path": "fixtures/frozen.json",
+      "bytes": 5773,
+      "sha256": "7f4f4afb18a052a98296af368fe841cec24949cc358414069f1d576cf75d8600"
+    },
+    {
+      "path": "fixtures/supplemental-six.json",
+      "bytes": 913,
+      "sha256": "ae8c126101f7714793c79abb462901841c612c367975b5d0c96ceece30b3e8aa"
+    },
+    {
+      "path": "scripts/validate_atlas.py",
+      "bytes": 8284,
+      "sha256": "ab9813ad602dedf34c12220331ab515f8887362ca5c076e4fda24a1d069a72e9"
+    },
+    {
+      "path": "scripts/check-atlas.ts",
+      "bytes": 2175,
+      "sha256": "5c05eff13df45ab06f9226935b91c9b70ca48013d75e4519a73ddbca7f5613bb"
+    },
+    {
+      "path": "scripts/check-browser-engine.ts",
+      "bytes": 1883,
+      "sha256": "56a87dc59e39c466959f5497d938731d2563d627a5843156c2327006b7d6620a"
+    },
+    {
+      "path": "scripts/check-formal-search.ts",
+      "bytes": 1705,
+      "sha256": "6a4603584285e932d232820c4952e4b29984bd9bece08ea225407d3ce027159f"
+    },
+    {
+      "path": "scripts/check_supplemental.py",
+      "bytes": 949,
+      "sha256": "35d614416825427d6265d174d45bc0089415fa1c6a67eddca890e6d1bf148963"
+    },
+    {
+      "path": "scripts/check_normalization_case.py",
+      "bytes": 1736,
+      "sha256": "32805a34f9c44d7df473d9fc99ae8a57b38382b59e9f3dafb2cfefd5cc58a3ed"
+    },
+    {
+      "path": "src/atlas_engine/__init__.py",
+      "bytes": 265,
+      "sha256": "95ea5094f22267b7252b462944b1802afd0783fda755c83fefb3e072a72204bd"
+    },
+    {
+      "path": "src/atlas_engine/__main__.py",
+      "bytes": 1375,
+      "sha256": "6ce6108bbb3b1bd2605664b04ad9ce3f2aa5762ea8603c59dfcef8f232afba4b"
+    },
+    {
+      "path": "src/atlas_engine/analysis.py",
+      "bytes": 2228,
+      "sha256": "5583b849fd430d075acb527d02ab91a588bc268235b5bf74af62a83bc13be32e"
+    },
+    {
+      "path": "src/atlas_engine/evaluator.py",
+      "bytes": 6224,
+      "sha256": "4503598debfe2cd7ef40bbf79ae9c5f6fbf3b1e0b2889d7e236be88b981f6c15"
+    },
+    {
+      "path": "src/atlas_engine/linear.py",
+      "bytes": 1418,
+      "sha256": "2b8a6c5a707536394f97f914290976e9d9afb83345aa3e5e64c3234089d15236"
+    },
+    {
+      "path": "src/atlas_engine/markov.py",
+      "bytes": 1246,
+      "sha256": "05502e10b4d73b020e8d89e906462601b428d1b5d107ea7f187c871b875194aa"
+    },
+    {
+      "path": "src/atlas_engine/resistance.py",
+      "bytes": 1221,
+      "sha256": "7eac894cadc2b6e7b49c5502562169fb0234f9c59cbff9192ade6393d048b69d"
+    },
+    {
+      "path": "src/atlas_engine/trees.py",
+      "bytes": 1140,
+      "sha256": "fd36f614a7db95765426c2d39166dd3790d043887d5cf4ccfa57dfc0adeea01d"
+    },
+    {
+      "path": "src/atlas_engine/validation.py",
+      "bytes": 3265,
+      "sha256": "1542daeb241bbca99d7cbe858d1c19c5facab694ab0a93339daed9e67b368490"
+    },
+    {
+      "path": "tests/test_cli_evaluator.py",
+      "bytes": 1042,
+      "sha256": "963fc0154afa451bfa990bb286a682187392631cbb0f19c305933cc55e51385a"
+    },
+    {
+      "path": "tests/test_corpus_validation.py",
+      "bytes": 2164,
+      "sha256": "0eeb708d58ce6ff4516c9aafa84b183ae16bb8fcbe1dee715f5c03a1d0565313"
+    },
+    {
+      "path": "tests/test_engine.py",
+      "bytes": 2733,
+      "sha256": "091cfafd2f757ae43144ef2ec25847f567696d9f848ea97f53162df1521d5560"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 419,
+      "sha256": "1a05443565003d9449eab572332f73d97f8e8ad7e0e1abac4f7ac22b7f875379"
+    },
+    {
+      "path": "uv.lock",
+      "bytes": 4652,
+      "sha256": "af702441deef709f31364324f3add35c05a14572e8c39e85daa3f447c35d3275"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1458,
+      "sha256": "4995cbbd54b3038468bb9393a0413ffcd6927ce1a040c53e23544c7ec71f68dd"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 348884,
+      "sha256": "59f2697b0a268b4b20033bab4a8ba156ec21d7bd709350482264061509ec56f7"
+    }
+  ]
+}

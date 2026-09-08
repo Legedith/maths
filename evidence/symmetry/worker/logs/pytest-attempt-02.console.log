@@ -1,0 +1,5 @@
+run_logged.ps1:
+Line |
+   7 |  … ged.ps1' -Name 'pytest-attempt-02' uv run python -m pytest -p no:cach …
+     |                                                               ~~
+     | Parameter cannot be processed because the parameter name 'p' is ambiguous. Possible matches include: -ProgressAction -PipelineVariable.

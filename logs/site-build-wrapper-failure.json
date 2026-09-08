@@ -1,0 +1,11 @@
+{
+  "attempt": "site-build-final-01",
+  "command_argv": [
+    "npm.cmd",
+    "run",
+    "build"
+  ],
+  "exit_code": 1,
+  "error": "Windows PowerShell ErrorActionPreference Stop treated native stderr npm configuration warning as a terminating NativeCommandError in the logging wrapper.",
+  "resolution": "Wrapper now captures native stderr and uses the process exit code. site-build-final-02 completed all five build stages with exit code 0; complete raw output and metadata are retained."
+}

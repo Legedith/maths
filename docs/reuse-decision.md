@@ -1,0 +1,18 @@
+# Reuse existing maps; check the mathematical transfer
+
+Decision updated after the user's reuse/impact question on 2026-09-08. The initial reading covered MaRDI, importGraph, Lean Blueprint, MMT and LeanExplore. That was a focused literature brief, not an installation or comparative evaluation. It did not justify rebuilding a broad mathematics index. The current atlas is a finite explanation and verification layer, and further expansion should reuse existing infrastructure.
+
+| Existing project | What we can reuse | Current action and boundary |
+|---|---|---|
+| [Loogle](https://github.com/nomeata/loogle) | Documented JSON search over Lean/Mathlib declarations; Apache-2.0 code | Implemented a thin live API adapter and visible search UI. No fork or duplicated theorem index. Results remain external, with returned formal statement types and documentation links. |
+| [TheoremGraph / TheoremSearch](https://www.theoremsearch.com/theorem-graph) | Statement retrieval and dependency navigation through its [API](https://www.theoremsearch.com/docs); [dataset](https://huggingface.co/datasets/uw-math-ai/math-graph) labelled CC-BY-4.0 | A live retrieval trial found relevant results and a generated-summary normalization mismatch. Retain extraction types and inspect source definitions; an inferred or judged match is not a proved equivalence. |
+| [zbMATH Open KG](https://arxiv.org/abs/2609.00969) | Research metadata, classifications, software links and scholarly relationships | Candidate bibliographic backbone. The resource is described as CC-BY-SA-4.0; preserve attribution and applicable reuse terms. No full import has been performed. |
+| [MathGloss](https://arxiv.org/abs/2311.12649) | Linked undergraduate concepts and learning resources | Candidate beginner vocabulary and identity mapping. Its resource-specific reuse conditions still need checking before copying data. |
+
+The live Loogle trial `"lapMatrix"` returned the existing `SimpleGraph.lapMatrix` declaration and related results. Its response format is documented as unstable, so the adapter validates shape, bounds response size and presents failure explicitly. It uses name-substring search, not semantic problem understanding. The live index is not a pinned local Lean verification run.
+
+The priority is now a useful gap: **does a retrieved connection retain the assumptions, definitions and conventions needed to apply it?** The normalization case in `evidence/reuse/` gives one concrete failure, not an estimate of prevalence. The existing graph lab can supply exact counterexamples. Human annotation currently identifies the candidate formula; automatic natural-language interpretation has not been implemented or evaluated.
+
+The terminal-symmetry cache remains a useful internal optimization with an independently audited correctness argument and a bounded benchmark, once those gates pass. Direct prior art already covers canonical-graph caching. It must not be presented as an original graph-theory breakthrough or as evidence that the larger discovery objective is complete.
+
+Before broadening further, build a small independently labelled set of real retrieved statements with normalization, direction, finiteness and sign conventions; separate development cases from untouched evaluation cases. Compare against unassisted source retrieval and report both helpful flags and false alarms. A useful result would show that the added checking prevents a real incorrect transfer or saves measured researcher work. That benefit has not yet been measured.

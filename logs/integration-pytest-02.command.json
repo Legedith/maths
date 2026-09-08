@@ -1,0 +1,16 @@
+﻿{
+    "name":  "integration-pytest-02",
+    "command_argv":  [
+                         "uv",
+                         "run",
+                         "--frozen",
+                         "pytest"
+                     ],
+    "command_display":  "uv run --frozen pytest",
+    "working_directory":  "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "started_at":  "2026-09-08T06:41:21.3296039+05:30",
+    "ended_at":  "2026-09-08T06:41:23.3298078+05:30",
+    "runtime_seconds":  1.9973493,
+    "exit_code":  0,
+    "console_log":  "logs/integration-pytest-02.console.log"
+}

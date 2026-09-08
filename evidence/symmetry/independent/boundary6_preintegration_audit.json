@@ -1,0 +1,76 @@
+{
+  "canonical_class_count_across_families": 20,
+  "endpoint_swapping_tie_count": 100,
+  "families": {
+    "complete_k6": {
+      "canonical_class_count": 1,
+      "edge_class_count": 1,
+      "endpoint_swapping_tie_count": 30,
+      "matrix_tree_count": 1296,
+      "nonedge_class_count": 0,
+      "ordered_edge_pair_count": 30,
+      "ordered_nonedge_pair_count": 0,
+      "ordered_pair_count": 30
+    },
+    "cycle_c6": {
+      "canonical_class_count": 3,
+      "edge_class_count": 1,
+      "endpoint_swapping_tie_count": 30,
+      "matrix_tree_count": 6,
+      "nonedge_class_count": 2,
+      "ordered_edge_pair_count": 12,
+      "ordered_nonedge_pair_count": 18,
+      "ordered_pair_count": 30
+    },
+    "path_p6": {
+      "canonical_class_count": 9,
+      "edge_class_count": 3,
+      "endpoint_swapping_tie_count": 6,
+      "matrix_tree_count": 1,
+      "nonedge_class_count": 6,
+      "ordered_edge_pair_count": 10,
+      "ordered_nonedge_pair_count": 20,
+      "ordered_pair_count": 30
+    },
+    "star_k1_5": {
+      "canonical_class_count": 2,
+      "edge_class_count": 1,
+      "endpoint_swapping_tie_count": 20,
+      "matrix_tree_count": 1,
+      "nonedge_class_count": 1,
+      "ordered_edge_pair_count": 10,
+      "ordered_nonedge_pair_count": 20,
+      "ordered_pair_count": 30
+    },
+    "two_triangles_bridge": {
+      "canonical_class_count": 5,
+      "edge_class_count": 3,
+      "endpoint_swapping_tie_count": 14,
+      "matrix_tree_count": 9,
+      "nonedge_class_count": 2,
+      "ordered_edge_pair_count": 14,
+      "ordered_nonedge_pair_count": 16,
+      "ordered_pair_count": 30
+    }
+  },
+  "family_count": 5,
+  "minimizer_count_histogram": {
+    "1": 24,
+    "12": 20,
+    "2": 54,
+    "24": 10,
+    "4": 10,
+    "48": 30,
+    "8": 2
+  },
+  "mismatch_count": 0,
+  "mismatches": [],
+  "ordered_edge_pair_count": 76,
+  "ordered_nonedge_pair_count": 74,
+  "ordered_pair_count": 150,
+  "sha256": {
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\src\\atlas_engine\\analysis.py": "5583b849fd430d075acb527d02ab91a588bc268235b5bf74af62a83bc13be32e",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\symmetry-audit-work\\boundary6_preintegration_audit.py": "9f3740b1d55c6932b0ceacb2755816c7b023440c1ce725df31c1bf7952b146b1"
+  },
+  "status": "pass"
+}

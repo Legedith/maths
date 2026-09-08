@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "endpoint": "https://loogle.lean-lang.org/json?q=%22lapMatrix%22",
+  "http_status": 200,
+  "response_bytes": 8981,
+  "response_sha256": "26822a00e22d7feb74577f41b84dc2c8f9f176dc3b6e9c0038be34a8826a163d",
+  "upstream_count": 23,
+  "retained_hits": 23,
+  "required_hit": "SimpleGraph.lapMatrix",
+  "required_hit_module": "Mathlib.Combinatorics.SimpleGraph.LapMatrix",
+  "documentation_url": "https://leanprover-community.github.io/mathlib4_docs/Mathlib/Combinatorics/SimpleGraph/LapMatrix.html#SimpleGraph.lapMatrix",
+  "documentation_status": 200,
+  "scope": "Direct live API and adapter normalization; no browser UI or WebMCP runtime claim."
+}

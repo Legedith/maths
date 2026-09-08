@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "D:\CodexWorkspaces\mathematics-atlas\project\scripts\run_symmetry_correctness.py", line 624, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "D:\CodexWorkspaces\mathematics-atlas\project\scripts\run_symmetry_correctness.py", line 613, in main
+    "source_sha256": _source_hashes(fixtures_path),
+                     ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\CodexWorkspaces\mathematics-atlas\project\scripts\run_symmetry_correctness.py", line 62, in _source_hashes
+    return {_relative(path): _file_hash(path) for path in paths}
+                             ~~~~~~~~~~^^^^^^
+  File "D:\CodexWorkspaces\mathematics-atlas\project\scripts\run_symmetry_correctness.py", line 42, in _file_hash
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+                          ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Legedith\AppData\Roaming\uv\python\cpython-3.13.7-windows-x86_64-none\Lib\pathlib\_abc.py", line 625, in read_bytes
+    with self.open(mode='rb') as f:
+         ~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\Legedith\AppData\Roaming\uv\python\cpython-3.13.7-windows-x86_64-none\Lib\pathlib\_local.py", line 537, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\CodexWorkspaces\\mathematics-atlas\\project\\task-spec.md'

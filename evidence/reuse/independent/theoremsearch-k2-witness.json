@@ -1,0 +1,25 @@
+{
+  "graph": {
+    "vertices": [0, 1],
+    "unit_conductance_edges": [[0, 1]]
+  },
+  "random_walk": {
+    "hit_0_to_1": 1,
+    "hit_1_to_0": 1,
+    "commute": 2
+  },
+  "effective_resistance": 1,
+  "paper_reversible_measure": {
+    "pi_0": 1,
+    "pi_1": 1,
+    "sum_pi": 2,
+    "rhs_resistance_times_sum_pi": 2
+  },
+  "normalized_stationary_distribution": {
+    "probability_0": "1/2",
+    "probability_1": "1/2",
+    "sum_probabilities": 1,
+    "rhs_resistance_times_sum_probabilities": 1
+  },
+  "conclusion": "The precise proposition is correct. The generated slogan is false under the standard normalized meaning of stationary probabilities."
+}

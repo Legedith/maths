@@ -1,0 +1,8 @@
+{
+  "attempt": "integration-pytest-01",
+  "command": "scripts/run_logged.ps1 -Name integration-pytest-01 -Command uv,run,--frozen,pytest",
+  "result": "Python tests finished: 71 passed in 1.55s. PowerShell wrapper then failed before command metadata write because System.IO.Path.GetRelativePath is unavailable in Windows PowerShell.",
+  "exit_code": 1,
+  "raw_stdout": "logs/integration-pytest-01.console.log",
+  "resolution": "Wrapper now computes its known logs-relative filename directly; integration-pytest-02 passed and retained metadata."
+}

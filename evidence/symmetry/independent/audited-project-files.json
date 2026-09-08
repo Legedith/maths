@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "auditor": "/root/sol_symmetry_audit",
+  "reviewed_after_final_test_path_fix": true,
+  "files": {
+    "README-symmetry.md": "7039928c2407200f8fcb0e3784a68ae2e36e9b98331d09f15f1dc57cff048131",
+    "docs/symmetry-contract.md": "2446b9f007bbebaa942baf680b4750907027551d7fbfa916b20339563c6c3b0e",
+    "fixtures/frozen.json": "7f4f4afb18a052a98296af368fe841cec24949cc358414069f1d576cf75d8600",
+    "scripts/run_symmetry_benchmark.py": "7526526fb31a41d222d53627a56a1fd97ffafd1935b38746754d511d1fb2380c",
+    "scripts/run_symmetry_correctness.py": "8fd0b380957f58ab8d193015612d7248a6f63d1d71f2530124a9e6eb4355a2e9",
+    "src/atlas_engine/__init__.py": "95ea5094f22267b7252b462944b1802afd0783fda755c83fefb3e072a72204bd",
+    "src/atlas_engine/analysis.py": "5583b849fd430d075acb527d02ab91a588bc268235b5bf74af62a83bc13be32e",
+    "src/atlas_engine/linear.py": "2b8a6c5a707536394f97f914290976e9d9afb83345aa3e5e64c3234089d15236",
+    "src/atlas_engine/markov.py": "05502e10b4d73b020e8d89e906462601b428d1b5d107ea7f187c871b875194aa",
+    "src/atlas_engine/resistance.py": "7eac894cadc2b6e7b49c5502562169fb0234f9c59cbff9192ade6393d048b69d",
+    "src/atlas_engine/symmetry.py": "5d4c502a7d3b8116664aef00c3ff6627672d90221d6b4e08e0f031f1a468333e",
+    "src/atlas_engine/trees.py": "fd36f614a7db95765426c2d39166dd3790d043887d5cf4ccfa57dfc0adeea01d",
+    "src/atlas_engine/validation.py": "1542daeb241bbca99d7cbe858d1c19c5facab694ab0a93339daed9e67b368490",
+    "tests/test_symmetry.py": "f63405a6e57fc3ba6854df66f8e5ee80386191585ecddb8e27d123b81539746d"
+  }
+}

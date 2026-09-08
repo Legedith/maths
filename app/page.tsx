@@ -1,23 +1,485 @@
 'use client';
-import { useState } from 'react';
-import { ArrowUpRight, BookOpen, Check, GitBranch, Search } from 'lucide-react';
+import { useCallback, useMemo, useRef, useState } from 'react';
+import { flushSync } from 'react-dom';
+import Link from 'next/link';
+import {
+  ArrowUpRight,
+  BookOpen,
+  GitBranch,
+  Search,
+  Map,
+  FlaskConical,
+  HandHelping,
+  ArrowRight,
+  Download,
+} from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
-import { atlas, nodeById, sourceById, searchNodes } from '@/lib/atlas';
-const colors: Record<string, string> = { foundations: '#72b7ff', physics: '#ffb573', probability: '#bd9bff', algorithms: '#5bdbc4', applications: '#f09abf' };
+import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
+import {
+  NativeSelect,
+  NativeSelectOption,
+} from '@/components/ui/native-select';
+import { AtlasMap, colors } from '@/components/atlas-map';
+import { AtlasLab, presets } from '@/components/atlas-lab';
+import { FormalSearch } from '@/components/formal-search';
+import {
+  validateFormalQuery,
+  type FormalSearchResult,
+} from '@/lib/formal-search';
+import { atlas, domains, nodeById, sourceById, searchNodes } from '@/lib/atlas';
+import {
+  analyzeGraph,
+  type GraphInput,
+  type GraphResult,
+} from '@/lib/exact-graph';
+import { useAtlasTools } from '@/lib/use-atlas-tools';
 export default function Home() {
-  const [query, setQuery] = useState('');
-  const [selected, setSelected] = useState('laplacian');
-  const node = nodeById[selected];
-  const results = searchNodes(query);
-  const connections = atlas.edges.filter(e => e.from === selected || e.to === selected);
-  const nearby = new Set([selected, ...connections.flatMap(e => [e.from, e.to])]);
-  return <main className="atlas-shell">
-    <header className="atlas-header"><a className="brand" href="/"><span className="brand-mark"><GitBranch size={21}/></span><span>Mathematics<span className="brand-light"> Atlas</span></span></a><span className="scope-label">LAPLACIANS & NETWORKS</span><a className="repo-link" href="https://github.com/Legedith/maths" target="_blank" rel="noreferrer">Contribute <ArrowUpRight size={15}/></a></header>
-    <div className="workspace">
-      <aside className="catalogue"><div className="catalogue-heading"><h1>Explore connections</h1><p>Start with an idea. See where it leads.</p></div><div className="search-box"><Search size={18}/><Input aria-label="Search mathematical concepts" placeholder="Search a concept or problem…" value={query} onChange={e => setQuery(e.target.value)}/></div><div className="list-heading"><span>IN THIS REGION</span><span>{results.length} concepts</span></div><div className="concept-list">{results.map(({node:n}) => <button key={n.id} className={`concept-row ${n.id===selected?'active':''}`} onClick={() => setSelected(n.id)}><span className="domain-dot" style={{background:colors[n.cluster]}}/><span><strong>{n.label}</strong><small>{n.domains.join(' · ')}</small></span><span className="row-arrow">↗</span></button>)}{!results.length&&<p className="no-results">No match in this region. A search miss does not mean the idea is unknown.</p>}</div><div className="coverage-note"><BookOpen size={18}/><div><strong>A growing map</strong><p>This first region covers Laplacians and networks. Other areas are still to be mapped.</p></div></div></aside>
-      <section className="map-panel" aria-label="Interactive concept map"><div className="map-topline"><span><span className="live-dot"/> {atlas.nodes.length} concepts · {atlas.edges.length} connections</span><span>Choose a node to follow its connections</span></div><svg className="knowledge-graph" viewBox="0 0 940 660" role="img" aria-label="Connections between the graph Laplacian, electrical networks and spanning trees"><defs><pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#27364a"/></pattern></defs><rect width="940" height="660" fill="url(#dots)"/>{atlas.edges.map(e => {const a=nodeById[e.from],b=nodeById[e.to],active=e.from===selected||e.to===selected;return <line key={e.id} x1={a.x} y1={a.y} x2={b.x} y2={b.y} stroke={active?'#779abd':'#304359'} strokeWidth={active?2:1} strokeDasharray={e.status==='proposed'?'5 5':undefined}/>;})}{atlas.nodes.map(n => <g key={n.id} className="map-node" role="button" tabIndex={0} aria-label={`Explore ${n.label}`} aria-pressed={selected===n.id} onClick={() => setSelected(n.id)} onKeyDown={e => {if(e.key==='Enter'||e.key===' '){e.preventDefault();setSelected(n.id);}}} opacity={nearby.has(n.id)?1:.5}><circle cx={n.x} cy={n.y} r={selected===n.id?32:22} fill={selected===n.id?colors[n.cluster]:'#111f32'} stroke={colors[n.cluster]} strokeWidth={selected===n.id?3:2}/><circle cx={n.x} cy={n.y} r="5" fill={selected===n.id?'#102039':colors[n.cluster]}/><text x={n.x} y={n.y+47} textAnchor="middle" fill="#ebf1fa" fontSize="16" fontWeight={selected===n.id?650:450}>{n.label}</text></g>)}</svg><div className="map-legend">{Object.entries(colors).slice(0,4).map(([name,color])=><span key={name}><i style={{background:color}}/>{name}</span>)}</div><div className="map-caption">Every line has a meaning. Inspect it in the connection panel.</div></section>
-      <aside className="detail-panel" aria-live="polite"><div className="detail-top"><span className="eyebrow">{node.domains.join(' / ')}</span><span className="sourced"><Check size={13}/> Sourced</span></div><h2>{node.label}</h2><p className="node-summary">{node.summary}</p>{node.formula&&<div className="formula">{node.formula}</div>}<p className="explanation">{node.explanation}</p><h3>Connections to follow <span>{connections.length}</span></h3>{connections.map(e=>{const other=nodeById[e.from===selected?e.to:e.from];return <div key={e.id} className="connection"><Button variant="link" className="connection-title" onClick={()=>setSelected(other.id)}>{other.label}<ArrowUpRight size={15}/></Button><span className="relation-type">{e.type.replaceAll('_',' ')}</span><p>{e.statement}</p><details><summary>Assumptions & source</summary><ul>{e.assumptions.map(a=><li key={a}>{a}</li>)}</ul>{e.evidence.map((v,i)=><a key={i} href={sourceById[v.source].url} target="_blank" rel="noreferrer">{sourceById[v.source].author} · {v.locator} ↗</a>)}</details></div>;})}<h3>Read the source</h3>{node.evidence.map((v,i)=><a className="source-link" key={i} href={sourceById[v.source].url} target="_blank" rel="noreferrer"><BookOpen size={17}/><span>{sourceById[v.source].title}<small>{sourceById[v.source].author} · {v.locator}</small></span><ArrowUpRight size={15}/></a>)}</aside>
-    </div>
-  </main>;
+  const [formalQuery, setFormalQuery] = useState('lapMatrix');
+  const [formalResult, setFormalResult] = useState<FormalSearchResult | null>(
+    null,
+  );
+  const [formalLoading, setFormalLoading] = useState(false);
+  const [formalError, setFormalError] = useState('');
+  const formalGeneration = useRef(0);
+  const [query, setQuery] = useState(''),
+    [domain, setDomain] = useState('All');
+  const [selected, setSelected] = useState('laplacian'),
+    [tab, setTab] = useState('map');
+  const [pathFrom, setPathFrom] = useState('electrical-flow'),
+    [destination, setDestination] = useState('spectral-sparsifier');
+  const [journeyId, setJourneyId] = useState(atlas.journeys[0].id),
+    [step, setStep] = useState(0);
+  const [input, setInput] = useState<GraphInput>(presets[0].input),
+    [result, setResult] = useState<GraphResult | null>(() =>
+      analyzeGraph(presets[0].input),
+    ),
+    [error, setError] = useState('');
+  const select = useCallback((id: string) => {
+    setSelected(id);
+    setTab('map');
+  }, []);
+  const changeInput = useCallback((value: GraphInput) => {
+    setInput(value);
+    setResult(null);
+    setError('');
+  }, []);
+  const runFormalSearch = useCallback(
+    async (rawQuery: string): Promise<FormalSearchResult> => {
+      const q = validateFormalQuery(rawQuery);
+      const generation = ++formalGeneration.current;
+      flushSync(() => {
+        setTab('search');
+        setFormalQuery(q);
+        setFormalLoading(true);
+        setFormalError('');
+        setFormalResult(null);
+      });
+      try {
+        const response = await fetch(
+          `/api/formal-search?q=${encodeURIComponent(q)}`,
+          { signal: AbortSignal.timeout(15000) },
+        );
+        const value: unknown = await response.json();
+        if (!response.ok)
+          throw new Error(
+            value &&
+              typeof value === 'object' &&
+              'error' in value &&
+              typeof value.error === 'string'
+              ? value.error
+              : 'External search failed.',
+          );
+        if (generation !== formalGeneration.current)
+          throw new Error('This search was superseded by a newer query.');
+        const result = value as FormalSearchResult;
+        flushSync(() => {
+          setFormalResult(result);
+          setFormalLoading(false);
+        });
+        return result;
+      } catch (error) {
+        if (generation === formalGeneration.current)
+          flushSync(() => {
+            setFormalError(
+              error instanceof Error
+                ? error.message
+                : 'External search failed.',
+            );
+            setFormalLoading(false);
+          });
+        throw error;
+      }
+    },
+    [],
+  );
+  const actions = useMemo(
+    () => ({
+      search: (q: string, d: string) => {
+        setQuery(q);
+        setDomain(d);
+        setTab('map');
+      },
+      show: select,
+      formalSearch: runFormalSearch,
+      path: (from: string, to: string) => {
+        setPathFrom(from);
+        setDestination(to);
+        select(from);
+      },
+      run: (value: GraphInput, computed: GraphResult) => {
+        setInput(value);
+        setResult(computed);
+        setError('');
+        setTab('lab');
+      },
+    }),
+    [select, runFormalSearch],
+  );
+  useAtlasTools(actions);
+  const results = searchNodes(query, domain),
+    journey = atlas.journeys.find((j) => j.id === journeyId)!;
+  const lesson = journey.steps[step],
+    concept = nodeById[lesson.node];
+  return (
+    <main className="atlas-shell">
+      <a className="skip-link" href="#workspace-content">
+        Skip to workspace
+      </a>
+      <header className="atlas-header">
+        <Link className="brand" href="/">
+          <span className="brand-mark">
+            <GitBranch size={21} />
+          </span>
+          <span>
+            Mathematics<span className="brand-light"> Atlas</span>
+          </span>
+        </Link>
+        <span className="scope-label">LAPLACIANS & NETWORKS</span>
+        <a
+          className="repo-link"
+          href="https://github.com/Legedith/maths"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Open repository <ArrowUpRight size={15} />
+        </a>
+      </header>
+      <div className="workspace">
+        <aside className="catalogue">
+          <div className="catalogue-heading">
+            <h1>Explore connections</h1>
+            <p>Start with an idea. See where it leads.</p>
+          </div>
+          <div className="search-box">
+            <Search size={18} />
+            <Input
+              aria-label="Search mathematical concepts"
+              placeholder="Try resistance or random walk"
+              maxLength={500}
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+            />
+          </div>
+          <label className="domain-filter">
+            Field
+            <NativeSelect
+              value={domain}
+              onChange={(e) => setDomain(e.target.value)}
+            >
+              <NativeSelectOption value="All">
+                All fields in this region
+              </NativeSelectOption>
+              {domains.map((d) => (
+                <NativeSelectOption value={d} key={d}>
+                  {d}
+                </NativeSelectOption>
+              ))}
+            </NativeSelect>
+          </label>
+          <div className="list-heading">
+            <span>IN THIS REGION</span>
+            <span aria-live="polite">{results.length} concepts</span>
+          </div>
+          <div className="concept-list">
+            {results.map(({ node: n }) => (
+              <button
+                key={n.id}
+                className={`concept-row ${n.id === selected && tab === 'map' ? 'active' : ''}`}
+                aria-pressed={n.id === selected && tab === 'map'}
+                onClick={() => select(n.id)}
+              >
+                <span
+                  className="domain-dot"
+                  style={{ background: colors[n.cluster] }}
+                />
+                <span>
+                  <strong>{n.label}</strong>
+                  <small>{n.domains.join(' · ')}</small>
+                </span>
+                <span className="row-arrow">↗</span>
+              </button>
+            ))}
+            {!results.length && (
+              <div className="no-results">
+                <p>
+                  No match in this region. A search miss does not mean the idea
+                  is unknown.
+                </p>
+                <Button
+                  variant="link"
+                  onClick={() => {
+                    setQuery('');
+                    setDomain('All');
+                  }}
+                >
+                  Clear search and filter
+                </Button>
+              </div>
+            )}
+          </div>
+          <div className="coverage-note">
+            <BookOpen size={18} />
+            <div>
+              <strong>A growing map</strong>
+              <p>
+                {atlas.nodes.length} concepts, {atlas.edges.length} connections,{' '}
+                {atlas.sources.length} sources. This first region covers
+                networks; most mathematics is still to be mapped.
+              </p>
+              <a href="/api/atlas" target="_blank" rel="noreferrer">
+                Get the open dataset <Download size={12} />
+              </a>
+            </div>
+          </div>
+        </aside>
+        <Tabs
+          id="workspace-content"
+          className="workspace-tabs"
+          value={tab}
+          onValueChange={(value) => setTab(String(value))}
+        >
+          <div className="workspace-nav">
+            <TabsList variant="line" aria-label="Atlas workspace">
+              <TabsTrigger value="map">
+                <Map /> Map
+              </TabsTrigger>
+              <TabsTrigger value="learn">
+                <BookOpen /> Learn
+              </TabsTrigger>
+              <TabsTrigger value="search">
+                <Search /> Search libraries
+              </TabsTrigger>
+              <TabsTrigger value="lab">
+                <FlaskConical /> Experiment
+              </TabsTrigger>
+              <TabsTrigger value="contribute">
+                <HandHelping /> Contribute
+              </TabsTrigger>
+            </TabsList>
+            <span>First region · source backed</span>
+          </div>
+          <TabsContent value="map">
+            <AtlasMap
+              selected={selected}
+              select={select}
+              destination={destination}
+              setDestination={setDestination}
+              pathFrom={pathFrom}
+              setPathFrom={setPathFrom}
+            />
+          </TabsContent>
+          <TabsContent value="search">
+            <FormalSearch
+              query={formalQuery}
+              setQuery={setFormalQuery}
+              result={formalResult}
+              loading={formalLoading}
+              error={formalError}
+              search={runFormalSearch}
+            />
+          </TabsContent>
+          <TabsContent value="learn">
+            <section className="content-page">
+              <div className="page-heading">
+                <span className="eyebrow">GUIDED CONNECTIONS</span>
+                <h1>A way into the mathematics.</h1>
+                <p>
+                  Follow a short sequence of ideas. Each stop explains a
+                  concept, shows its assumptions, and points you to the source.
+                </p>
+              </div>
+              <div className="journey-choices">
+                {atlas.journeys.map((j) => (
+                  <button
+                    key={j.id}
+                    aria-pressed={journeyId === j.id}
+                    className={journeyId === j.id ? 'chosen' : ''}
+                    onClick={() => {
+                      setJourneyId(j.id);
+                      setStep(0);
+                    }}
+                  >
+                    <span>{j.steps.length} STOPS</span>
+                    <strong>{j.title}</strong>
+                    <p>{j.description}</p>
+                    <ArrowRight size={18} />
+                  </button>
+                ))}
+              </div>
+              <div className="lesson-layout">
+                <ol className="lesson-steps">
+                  {journey.steps.map((s, i) => (
+                    <li key={s.node}>
+                      <button
+                        aria-current={step === i ? 'step' : undefined}
+                        onClick={() => setStep(i)}
+                      >
+                        <span>{i + 1}</span>
+                        {nodeById[s.node].label}
+                      </button>
+                    </li>
+                  ))}
+                </ol>
+                <article className="lesson-card">
+                  <span className="eyebrow">
+                    STOP {step + 1} OF {journey.steps.length}
+                  </span>
+                  <h2>{concept.label}</h2>
+                  <p className="lesson-prompt">{lesson.prompt}</p>
+                  <p>{concept.explanation}</p>
+                  {concept.formula && (
+                    <div className="formula">{concept.formula}</div>
+                  )}
+                  <details>
+                    <summary>Assumptions at this stop</summary>
+                    <ul>
+                      {concept.assumptions.map((a) => (
+                        <li key={a}>{a}</li>
+                      ))}
+                    </ul>
+                  </details>
+                  {concept.evidence.map((v, i) => (
+                    <a
+                      className="lesson-source"
+                      href={sourceById[v.source].url}
+                      target="_blank"
+                      rel="noreferrer"
+                      key={i}
+                    >
+                      {sourceById[v.source].title} · {v.locator} ↗
+                    </a>
+                  ))}
+                  <div className="lesson-actions">
+                    <Button
+                      variant="outline"
+                      onClick={() => select(concept.id)}
+                    >
+                      Explore on the map
+                    </Button>
+                    {step < journey.steps.length - 1 ? (
+                      <Button onClick={() => setStep(step + 1)}>
+                        Next connection <ArrowRight size={15} />
+                      </Button>
+                    ) : (
+                      <Button onClick={() => setTab('lab')}>
+                        Try an experiment <FlaskConical size={15} />
+                      </Button>
+                    )}
+                  </div>
+                </article>
+              </div>
+            </section>
+          </TabsContent>
+          <TabsContent value="lab">
+            <AtlasLab
+              input={input}
+              change={changeInput}
+              result={result}
+              error={error}
+              select={select}
+              run={() => {
+                try {
+                  setResult(analyzeGraph(input));
+                  setError('');
+                } catch (e) {
+                  setResult(null);
+                  setError(
+                    e instanceof Error ? e.message : 'Computation failed.',
+                  );
+                }
+              }}
+            />
+          </TabsContent>
+          <TabsContent value="contribute">
+            <section className="content-page">
+              <div className="page-heading">
+                <span className="eyebrow">WHERE YOU CAN ADD VALUE</span>
+                <h1>Help connect the next idea.</h1>
+                <p>
+                  Build an example, examine an assumption, or connect a new
+                  field. These are concrete project tasks; a gap in our map is
+                  not an unsolved problem in mathematics.
+                </p>
+              </div>
+              <div className="contribution-policy">
+                <BookOpen size={22} />
+                <div>
+                  <h2>Every connection needs a reason.</h2>
+                  <p>
+                    Include a precise statement, its assumptions, and a source
+                    or proof. Mark analogies as analogies. Candidate discoveries
+                    stay provisional until their proof and prior art have been
+                    reviewed independently.
+                  </p>
+                </div>
+              </div>
+              <div className="opportunities">
+                {atlas.opportunities.map((o) => (
+                  <article key={o.id} className="opportunity">
+                    <div className="opportunity-meta">
+                      <span>{o.kind.replaceAll('-', ' ')}</span>
+                      <span>{o.difficulty}</span>
+                    </div>
+                    <h2>{o.title}</h2>
+                    <p>{o.description}</p>
+                    <h3>What a useful contribution includes</h3>
+                    <ul>
+                      {o.acceptance.map((a) => (
+                        <li key={a}>{a}</li>
+                      ))}
+                    </ul>
+                    <div className="topic-chips">
+                      {o.nodes.map((id) => (
+                        <Button
+                          key={id}
+                          variant="outline"
+                          size="sm"
+                          onClick={() => select(id)}
+                        >
+                          {nodeById[id].label}
+                        </Button>
+                      ))}
+                    </div>
+                    <a
+                      className="task-link"
+                      href={`https://github.com/Legedith/maths/issues/new?title=${encodeURIComponent(o.title)}&body=${encodeURIComponent(`Contribution task: ${o.id}\n\nProposed statement or change:\n\nAssumptions:\n\nSources and precise locators:\n\nProof or reproducible verification:\n\nWhat I checked for prior art:\n\nAcceptance criteria:\n${o.acceptance.map((a) => `- [ ] ${a}`).join('\n')}`)}`}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Draft a contribution on GitHub <ArrowUpRight size={15} />
+                    </a>
+                  </article>
+                ))}
+              </div>
+              <p className="fine-print">
+                GitHub opens a draft for you to review and submit. No
+                contribution is published automatically.
+              </p>
+            </section>
+          </TabsContent>
+        </Tabs>
+      </div>
+    </main>
+  );
 }

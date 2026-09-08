@@ -1,0 +1,15 @@
+﻿{
+    "name":  "site-build-final-02",
+    "command_argv":  [
+                         "npm.cmd",
+                         "run",
+                         "build"
+                     ],
+    "command_display":  "npm.cmd run build",
+    "working_directory":  "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "started_at":  "2026-09-08T06:44:11.7979836+05:30",
+    "ended_at":  "2026-09-08T06:44:20.1441216+05:30",
+    "runtime_seconds":  8.3424839,
+    "exit_code":  0,
+    "console_log":  "logs/site-build-final-02.console.log"
+}

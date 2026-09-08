@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "retrieval_sanity_cases": 8,
+  "navigation_pairs": 961,
+  "method": "Lexical substring scoring: IDs/title/aliases 4, other indexed text 1 per term; AND matching. Breadth-first undirected navigation.",
+  "limitations": [
+    "Curated cases demonstrate indexed rediscovery, not semantic recall or novelty detection.",
+    "A traversal path is not a logical composition of its mathematical relations."
+  ]
+}
+EXIT_CODE=0

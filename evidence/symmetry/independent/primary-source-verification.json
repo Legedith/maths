@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "auditor": "/root/sol_symmetry_audit",
+  "retrieved_date": "2026-09-08",
+  "scope": "Prior art for canonical isomorphism caching and the mathematical transport ingredients; no exhaustive novelty search.",
+  "sources": [
+    {
+      "id": "S001",
+      "title": "Reducing the Number of Fitness Evaluations in Graph Genetic Programming Using a Canonical Graph Indexed Database",
+      "authors": "Jens Niehaus, Christian Igel, Wolfgang Banzhaf",
+      "publication": "Evolutionary Computation 15(2), 2007, DOI 10.1162/evco.2007.15.2.199",
+      "url": "https://www.cs.mun.ca/~banzhaf/papers/ecj2007.pdf",
+      "pdf_path": "primary-sources/niehaus-igel-banzhaf-2007.pdf",
+      "pdf_sha256": "6b5572e8c854b60879b2b411b8b1c3b4f9f534f7683908adb2b7fb38eb712178",
+      "extracted_text_path": "primary-sources/niehaus-igel-banzhaf-2007.txt",
+      "extracted_text_sha256": "7059a24235594102cd39b8719ecdf837055f4ef2ae015dd06e62af6dd6f049ba",
+      "passage_lines": ["661-675", "844-870", "922-934"],
+      "verified_claim": "The paper explicitly maps colored isomorphic graphs to a canonical representative and stores or looks up canonically labeled graphs so an isomorphic prior evaluation can be reused.",
+      "implication": "Direct prior art rules out presenting canonical-form-indexed graph evaluation reuse as a globally new algorithmic idea."
+    },
+    {
+      "id": "S002",
+      "title": "From Invariants to Canonization in Parallel",
+      "authors": "Johannes Koebler, Oleg Verbitsky",
+      "publication": "arXiv:cs/0608074",
+      "url": "https://arxiv.org/pdf/cs/0608074",
+      "pdf_path": "primary-sources/koebler-verbitsky.pdf",
+      "pdf_sha256": "b86e5dfaefbe2d0b393d142feb12e51d8d4cd7f84e0d040c9a5d8684b763d317",
+      "extracted_text_path": "primary-sources/koebler-verbitsky.txt",
+      "extracted_text_sha256": "c807e2c343d6b87650dcb9b1dbbad68cc54af56c2ceab859349231f97488d13d",
+      "passage_lines": ["137-150"],
+      "verified_claim": "The paper defines canonical labeling as a complete graph invariant and explicitly extends the notions to colored graphs.",
+      "implication": "Representing the distinguished unordered terminal pair as a color class is an application of established colored-graph canonization."
+    },
+    {
+      "id": "S003",
+      "title": "The Electrical Resistance of a Graph Captures Its Commute and Cover Times",
+      "authors": "Ashok K. Chandra, Prabhakar Raghavan, Walter L. Ruzzo, Roman Smolensky, Prasoon Tiwari",
+      "publication": "Computational Complexity 6, 1996",
+      "url": "https://homes.cs.washington.edu/~ruzzo/papers/resist.pdf",
+      "pdf_path": "primary-sources/chandra-et-al-1996.pdf",
+      "pdf_sha256": "76f593c14de03faf9f2ebc0b9b4014e5b8e352d2df1eaf0e3ed464b6a3e961fc",
+      "extracted_text_path": "primary-sources/chandra-et-al-1996.txt",
+      "extracted_text_sha256": "c21ffe3d21db59fe89b034519fafbcf0e51453ffcb3f458ab5df1feb0f72e250",
+      "passage_lines": ["7-28", "142-178"],
+      "verified_claim": "The paper distinguishes a walk from s to t and back and identifies its expected commute time with 2m times effective resistance.",
+      "implication": "The commute identity is established prior art; the two one-way hitting quantities remain direction-sensitive."
+    },
+    {
+      "id": "S004",
+      "title": "Local Characteristics, Entropy and Limit Theorems for Spanning Trees and Domino Tilings via Transfer-Impedances",
+      "authors": "Robert Burton, Robin Pemantle",
+      "publication": "Annals of Probability 21, 1993; arXiv:math/0404048",
+      "url": "https://arxiv.org/pdf/math/0404048",
+      "pdf_path": "primary-sources/burton-pemantle.pdf",
+      "pdf_sha256": "5ac77ebeb5a5e81b043c13563717fdf6a203dfbb18a9ee9cd30bbded7bba39a0",
+      "extracted_text_path": "primary-sources/burton-pemantle.txt",
+      "extracted_text_sha256": "ce98bda6dea464d0f6cdc48c62c351f227e2a6ba6dc70420790461e75370dbcc",
+      "passage_lines": ["77-94"],
+      "verified_claim": "Theorem 1.1 gives uniform-spanning-tree edge-set inclusion probabilities as determinants of a transfer-impedance matrix.",
+      "implication": "Uniform spanning-tree edge marginals and their electrical formulation are established ingredients."
+    },
+    {
+      "id": "S005",
+      "title": "Equivariance with Learned Canonicalization Functions",
+      "authors": "Sekou-Oumar Kaba et al.",
+      "publication": "ICML, PMLR 202, 2023",
+      "url": "https://proceedings.mlr.press/v202/kaba23a/kaba23a.pdf",
+      "pdf_path": "primary-sources/kaba-et-al-2023.pdf",
+      "pdf_sha256": "6b6eb07db7488faade198e19bc368e3b0158645c77c02172237edf1580688301",
+      "extracted_text_path": "primary-sources/kaba-et-al-2023.txt",
+      "extracted_text_sha256": "6094b521b46352f546e40f992edfdae5f3cc0475a0d013b1d432061a0cbd2fc5",
+      "passage_lines": ["1-24", "301-346"],
+      "verified_claim": "The paper treats canonicalization followed by a prediction function as a general route to equivariance and discusses minima unique only up to the input stabilizer.",
+      "implication": "It is broad conceptual prior art for canonicalize-compute-transport and tied poses, while its learned ML setting is not direct prior art for this exact graph API."
+    },
+    {
+      "id": "S006",
+      "title": "Practical Graph Isomorphism",
+      "authors": "Brendan D. McKay",
+      "publication": "Congressus Numerantium 30, 1981",
+      "url": "https://users.cecs.anu.edu.au/~bdm/papers/pgi.pdf",
+      "pdf_path": "primary-sources/mckay-1981-pgi.pdf",
+      "pdf_sha256": "9d7e7d0cb60e19fa29fecebf1c9cd2e62506acc3db7cf78dd7d9e93eb43608a0",
+      "verified_claim": "The retained author-hosted scan is the foundational canonical-labeling reference cited by the direct prior-art paper.",
+      "implication": "The project's exhaustive least-mask construction is a small-domain canonical labeling implementation, not a new canonization principle."
+    }
+  ],
+  "conclusion": {
+    "status": "pass",
+    "supported_wording": "A newly implemented project-specific optimization of the Mathematics Atlas exact-analysis batch workload, assembled from established components.",
+    "unsupported_wording": [
+      "A globally novel graph algorithm",
+      "A new graph theorem",
+      "Demonstrated scientific or real-world impact",
+      "An unrestricted-domain performance result"
+    ],
+    "search_limitation": "The exact result-dictionary combination was not located, but absence from this bounded source check is not evidence of novelty."
+  }
+}

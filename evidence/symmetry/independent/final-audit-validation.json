@@ -1,0 +1,11 @@
+{
+  "audited_project_file_count": 14,
+  "candidate_sha256": "5d4c502a7d3b8116664aef00c3ff6627672d90221d6b4e08e0f031f1a468333e",
+  "check_count": 4,
+  "evidence_reference_count": 32,
+  "final_audit_sha256": "d4d8f26d6fc99543aad1db44afe20de6dc718a53e27a5752f6433c455f0d3e06",
+  "final_report_sha256": "e8a3c30ccd44166f83ea722abc37fbb9dcb9cbd7f69ae5a2e15bcbba09806aae",
+  "primary_source_count": 6,
+  "status": "pass",
+  "unique_evidence_reference_count": 30
+}

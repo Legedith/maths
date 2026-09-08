@@ -1,0 +1,25 @@
+# Selected optimization: exact reuse under terminal symmetry
+
+Frozen before implementation, 2026-09-08. This extends `discovery-contract.md` and preserves the version-1 `engine-contract.md`. Selection: independent branch C proposed an unoriented two-terminal isomorphism cache; branches A and B independently proposed batching two Markov systems. The cache has the larger exploratory end-to-end benefit. Exploratory measurements are not canonical results and must not be promoted as such.
+
+## Proposed contribution and scope
+
+Implement an opt-in batch analyzer that validates every input, canonicalizes the graph with an unordered distinguished terminal pair, computes the unchanged exact core once per canonical class, and transports every public output back to the caller's labels and orientation. The project's original direct analyzer remains available as the reference and isolated-query path. This is a project-specific optimization assembled from established symmetry, canonical-labeling and electrical-network facts. Do not claim a new graph theorem, new graph counts, a globally unprecedented algorithm, or efficient general graph-isomorphism solving.
+
+Inputs remain connected simple undirected unweighted graphs with 2..6 vertices and distinct terminals, including pairs that are not edges. Canonicalize over exactly the two endpoint orders and all permutations of the remaining vertices. Encode all possible undirected edges in a fixed deterministic order, and key by vertex count and the least edge bit mask. Store a canonical exact result for source 0, target 1. For a caller whose source maps to 0, permute potentials directly. For a caller whose source maps to 1, return R minus the permuted potentials and exchange forward/backward hitting times. Permute both indices of the Laplacian. Resistance, commute, tree counts, selected-edge counts and applicability are invariant. Return normalized caller edges, source and target. Explain why tied canonical labelings yield the same caller output.
+
+Expose `SymmetryBatchAnalyzer.analyze(payload)`, with explicit instance-local bounded cache, `clear()`, hit/miss/core-call diagnostics, and a defensible eviction policy. Do not share mutable cached result objects with callers. Reject invalid inputs before lookup; do not cache exceptions. Only unchanged `analyze_graph` may compute a cache miss. Keep all of its independent cross-checks. Document cold-cache overhead and factorial canonicalization; do not recommend this for large graphs.
+
+## Canonical correctness and proof contract
+
+Compare every public result field exactly against the unchanged analyzer. Reproduce all seven valid and ten invalid frozen fixtures. Enumerate every labelled connected simple graph n=2..5 and every ordered distinct terminal pair, not merely existing edges. Retain one JSONL record per instance with identifiers, input, canonical key/orientation, and equality outcome. Confirm the actual graph, pair, nonedge, reversal and class counts instead of trusting exploratory totals.
+
+Additional fixed six-vertex families: path P6, cycle C6, star K1,5, complete K6, and two triangles joined by one bridge. Check all 30 ordered terminal pairs in each. Exercise eviction, clearing, interleaved caches, mutated returned nested objects, reversed input edges and input ordering, automorphism ties, and invalid inputs after warming a valid key.
+
+Write an algebraic/combinatorial correctness argument valid for the complete admitted domain. It must justify canonical class equivalence, Laplacian permutation, gauge and sign change of potentials, hitting-time swap, spanning-tree bijections, nonedge nullability, and check preservation. Finite agreement supports the implementation; it is not the entire general proof.
+
+## Frozen performance workload
+
+Use every labelled connected simple graph n=2..5, selecting its lexicographically first edge exactly as the baseline evaluator does: 771 inputs if enumeration matches its contract. Compare the unchanged direct analyzer against a fresh symmetry analyzer for each batch. Both return all public outputs and run all existing cross-checks. Include validation, canonicalization, cache construction and output transport in the timed optimized path. Generate inputs outside timing for both paths. Do not prewarm the measured cache or exclude misses. Warm the Python/code paths once with separate discarded batches, then run 21 paired rounds, alternating which method goes first. Verify result dictionaries outside the timers for each pair. Report all raw times, medians, actual core-call/cache counts, Python/runtime/platform, command, source hashes, and caveats about machine-dependent wall time. Report finite workload benefit only. No benchmark-specific special cases or fixture-key table.
+
+Raw artifacts and implementation must be audited by a Sol Max agent who did not author or implement this proposal. Root owns integration, files in the Site checkout, and the evidence ledger; a worker may implement in a separate D-drive staging directory with uv. No worker may certify the final result.

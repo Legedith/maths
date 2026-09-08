@@ -1,0 +1,106 @@
+{
+  "asymmetric_directional_hitting_time_example": {
+    "hit_backward": "1",
+    "hit_forward": "3",
+    "input": {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "n": 3,
+      "source": 0,
+      "target": 1
+    }
+  },
+  "canonical_key_multiplicity": {
+    "maximum": 240,
+    "minimum": 2,
+    "sum": 15042
+  },
+  "endpoint_swapping_tie_instance_count": 3142,
+  "exact_transport_mismatches": [],
+  "frozen_771_benchmark_canonical_class_count": 69,
+  "graph_count_total": 771,
+  "graph_counts": {
+    "2": 1,
+    "3": 4,
+    "4": 38,
+    "5": 728
+  },
+  "minimizer_count_histogram": {
+    "1": 8412,
+    "12": 80,
+    "2": 5702,
+    "4": 768,
+    "6": 80
+  },
+  "nonedge_applicability_mismatch_count": 0,
+  "nonedge_applicability_mismatches": [],
+  "ordered_existing_pair_count_total": 8588,
+  "ordered_existing_pair_counts": {
+    "2": 2,
+    "3": 18,
+    "4": 288,
+    "5": 8280
+  },
+  "ordered_nonedge_pair_count_total": 6454,
+  "ordered_nonedge_pair_counts": {
+    "3": 6,
+    "4": 168,
+    "5": 6280
+  },
+  "ordered_pair_count_total": 15042,
+  "ordered_pair_counts": {
+    "2": 2,
+    "3": 24,
+    "4": 456,
+    "5": 14560
+  },
+  "sha256": {
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\docs\\discovery-contract.md": "36e41a88083f144c5b5f8b3efed3c906c0c0cf00f33ce1d10e9f4c8f2abaa9cf",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\docs\\symmetry-contract.md": "2446b9f007bbebaa942baf680b4750907027551d7fbfa916b20339563c6c3b0e",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\src\\atlas_engine\\analysis.py": "5583b849fd430d075acb527d02ab91a588bc268235b5bf74af62a83bc13be32e",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\src\\atlas_engine\\markov.py": "05502e10b4d73b020e8d89e906462601b428d1b5d107ea7f187c871b875194aa",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\src\\atlas_engine\\resistance.py": "7eac894cadc2b6e7b49c5502562169fb0234f9c59cbff9192ade6393d048b69d",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\src\\atlas_engine\\trees.py": "fd36f614a7db95765426c2d39166dd3790d043887d5cf4ccfa57dfc0adeea01d",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\symmetry-audit-work\\preintegration_audit.py": "b1d527851677db38d544a7d8cbf2315d7b576f642accffb05950f8d2dd9c07a5"
+  },
+  "status": "pass",
+  "tie_transport_mismatches": [],
+  "tree_oracle_mismatch_count": 0,
+  "tree_oracle_mismatches": [],
+  "unordered_terminal_canonical_class_count": 118,
+  "unordered_terminal_edge_class_count": 69,
+  "unordered_terminal_nonedge_class_count": 49,
+  "voltage_reversal_counterexample": {
+    "canonical_potential": [
+      "1",
+      "0"
+    ],
+    "correct_R_minus_p_under_identity_map": [
+      "0",
+      "1"
+    ],
+    "incorrect_negation_under_identity_map": [
+      "-1",
+      "0"
+    ],
+    "input": {
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "n": 2,
+      "source": 1,
+      "target": 0
+    }
+  }
+}

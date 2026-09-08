@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "audit_id": "atlas-foundation-independent-final-20260908",
+  "auditor": "/root/sol_atlas_audit",
+  "scope": "Mathematics Atlas foundation and live Loogle adapter in the final pre-commit core snapshot; symmetry/discovery optimization excluded.",
+  "checks": [
+    {
+      "id": "reproduction",
+      "status": "pass",
+      "auditor": "/root/sol_atlas_audit",
+      "note": "Fresh exact evaluator produced 772 records with zero failures and byte-identical baseline SHA-256 b05d83051ba0f92713c87ced4742d1a902297b998d6f221250bef0f80890dd8c; 75 Python tests passed; 3 supplemental six-vertex cases and all-field Node agreement passed. A later symmetry-test-only path portability edit did not change the audited foundation or conclusions.",
+      "supporting_paths": [
+        "foundation-audit.md",
+        "console/evaluator.txt",
+        "canonical/records.jsonl",
+        "canonical/summary.json",
+        "reproduction-comparison.json",
+        "console/pytest.txt",
+        "console/supplemental.txt",
+        "evidence/supplemental/records.jsonl",
+        "evidence/supplemental/summary.json",
+        "console/browser-engine.txt",
+        "evidence/browser-engine/summary.json"
+      ]
+    },
+    {
+      "id": "specification_compliance",
+      "status": "pass",
+      "auditor": "/root/sol_atlas_audit",
+      "note": "The bounded foundation satisfies the task data/workflow/evaluation semantics. Three distinct coe_explorer outputs were verified verbatim against source rollout lines and precede implementation; encrypted spawn-message bodies leave only textual prompt identity uncheckable. Evidence-bundle assembly and Git commit/push are root-owned post-audit finalization.",
+      "supporting_paths": [
+        "foundation-audit.md",
+        "exploration-provenance-check.json",
+        "console/exploration-provenance.txt",
+        "corpus-validation.json",
+        "console/corpus-validation.txt",
+        "evidence/corpus/search-and-paths.json",
+        "console/check-atlas.txt",
+        "snapshot-manifest.json"
+      ]
+    },
+    {
+      "id": "source_verification",
+      "status": "pass",
+      "auditor": "/root/sol_atlas_audit",
+      "note": "All 31 node claims and 40 material edges were conservatively reviewed against seven authoritative sources with precise locators; reuse and normalization-case claims were checked against official or original sources. Grady and Klein used primary author/journal web passages because local TLS retrieval failed. No novelty, completeness, empirical-efficacy, or formal-proof overclaim remains.",
+      "supporting_paths": [
+        "foundation-audit.md",
+        "source-matrix.md",
+        "source-matrix.json",
+        "console/normalization-case.txt",
+        "evidence/reuse/normalization-witness.json",
+        "formal-live-audit.json",
+        "formal-live-response.json",
+        "formal-live-headers.txt"
+      ]
+    },
+    {
+      "id": "implementation_alignment",
+      "status": "pass",
+      "auditor": "/root/sol_atlas_audit",
+      "note": "Code follows the frozen domain and separation requirements; corpus/search/path/validator and formal-adapter boundaries passed. TypeScript and lint passed. This verifier did not perform browser UI/DOM/visual QA or certify WebMCP runtime behavior.",
+      "supporting_paths": [
+        "foundation-audit.md",
+        "snapshot-manifest.json",
+        "console/tsc.txt",
+        "console/lint.txt",
+        "console/corpus-validation.txt",
+        "corpus-validation.json",
+        "console/check-atlas.txt",
+        "evidence/corpus/search-and-paths.json",
+        "console/check-formal-search.txt",
+        "evidence/reuse/adapter-tests.json",
+        "console/formal-live.txt",
+        "formal-live-audit.json",
+        "console/browser-engine.txt",
+        "evidence/browser-engine/summary.json"
+      ]
+    }
+  ],
+  "all_checks_pass": true,
+  "limitations": [
+    "Original coe_explorer spawn-message bodies are encrypted, so textual prompt identity cannot be checked.",
+    "No browser screenshot, DOM, visual/responsive, deployment, or WebMCP runtime certification was performed by this verifier.",
+    "Loogle live JSON is unstable and the index is not a pinned Lean proof environment.",
+    "The audited snapshot was pre-commit; root must assemble and verify the evidence bundle, then commit and push without changing audited core files.",
+    "The foundation does not complete the enduring map or verified-discovery goal; the symmetry/discovery extension has a separate audit."
+  ],
+  "preassembly_gate": {
+    "status": "fail",
+    "reason": "Expected before root imports this audit: bundle had zero claims and all four checks pending.",
+    "supporting_path": "console/evidence-gate-preassembly.txt"
+  },
+  "snapshot_manifest": "snapshot-manifest.json",
+  "report": "foundation-audit.md",
+  "source_matrix": "source-matrix.json"
+}

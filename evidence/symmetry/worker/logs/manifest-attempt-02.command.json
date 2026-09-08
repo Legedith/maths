@@ -1,0 +1,16 @@
+{
+  "name": "manifest-attempt-02",
+  "command_argv": [
+    "uv",
+    "run",
+    "python",
+    "scripts/build_final_manifest.py"
+  ],
+  "command_display": "uv run python scripts/build_final_manifest.py",
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\symmetry-work",
+  "started_at": "2026-09-08T06:28:44.7234970+05:30",
+  "ended_at": "2026-09-08T06:28:45.0719270+05:30",
+  "runtime_seconds": 0.3462901,
+  "exit_code": 0,
+  "console_log": "logs/manifest-attempt-02.console.log"
+}

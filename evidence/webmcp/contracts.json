@@ -1,0 +1,200 @@
+{
+  "date": "2026-09-08",
+  "url": "http://localhost:3000/",
+  "context": "Codex in-app browser, supported WebMCP capability",
+  "producer": "root, observed runtime tool calls",
+  "passed": true,
+  "registered_tools": 4,
+  "valid_calls": 4,
+  "intentional_failures": 4,
+  "annotations": {
+    "readOnlyHint": false,
+    "untrustedContentHint": false
+  },
+  "records": [
+    {
+      "tool": "search_concepts",
+      "input": {
+        "query": "random walk",
+        "domain": "Probability"
+      },
+      "result": {
+        "results": [
+          {
+            "id": "random-walk",
+            "label": "Random walk on a graph",
+            "score": 8
+          },
+          {
+            "id": "commute-resistance",
+            "label": "Commute–resistance identity",
+            "score": 8
+          },
+          {
+            "id": "edge-probability",
+            "label": "Edge inclusion probability",
+            "score": 1
+          }
+        ],
+        "scope": "Laplacians, electrical networks, and their connections"
+      },
+      "visible_check": {
+        "query": "random walk"
+      }
+    },
+    {
+      "tool": "show_concept",
+      "input": {
+        "id": "effective-resistance"
+      },
+      "result": {
+        "id": "effective-resistance",
+        "label": "Effective resistance",
+        "status": "sourced"
+      },
+      "visible_check": {
+        "conceptVisible": true
+      }
+    },
+    {
+      "tool": "find_connection",
+      "input": {
+        "from": "random-walk",
+        "to": "image-segmentation"
+      },
+      "result": {
+        "edge_ids": [
+          "r23",
+          "r26"
+        ],
+        "from": "random-walk",
+        "kind": "navigation_only",
+        "to": "image-segmentation"
+      },
+      "visible_check": {
+        "select_values": [
+          "random-walk",
+          "image-segmentation"
+        ]
+      }
+    },
+    {
+      "tool": "run_graph_experiment",
+      "input": {
+        "n": 3,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "source": 0,
+        "target": 2
+      },
+      "result": {
+        "checks": {
+          "commute_equals_2m_resistance": true,
+          "laplacian_row_sums_zero": true,
+          "spanning_tree_count_positive": true
+        },
+        "commute": "8",
+        "edge_probability": null,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "hit_backward": "4",
+        "hit_forward": "4",
+        "laplacian": [
+          [
+            1,
+            -1,
+            0
+          ],
+          [
+            -1,
+            2,
+            -1
+          ],
+          [
+            0,
+            -1,
+            1
+          ]
+        ],
+        "n": 3,
+        "potentials": [
+          "2",
+          "1",
+          "0"
+        ],
+        "resistance": "2",
+        "source": 0,
+        "spanning_tree_count": 1,
+        "target": 2,
+        "tree_edge_count": null
+      },
+      "visible_check": {
+        "results": "Effective resistance\n2\nVoltage drop per unit current\nExpected commute\n8\n4 steps out + 4 back\nSpanning trees\n1\nCounted by exhaustive subsets",
+        "terminals": [
+          "3",
+          "0",
+          "2"
+        ]
+      }
+    },
+    {
+      "tool": "search_concepts",
+      "input": {
+        "query": "walk",
+        "domain": "Economics"
+      },
+      "error": "Provide a query up to 500 characters and a supported domain."
+    },
+    {
+      "tool": "show_concept",
+      "input": {
+        "id": "__proto__"
+      },
+      "error": "Unknown concept ID."
+    },
+    {
+      "tool": "find_connection",
+      "input": {
+        "from": "laplacian",
+        "to": "missing"
+      },
+      "error": "Unknown concept ID."
+    },
+    {
+      "tool": "run_graph_experiment",
+      "input": {
+        "n": 3,
+        "edges": [
+          [
+            0,
+            1
+          ]
+        ],
+        "source": 0,
+        "target": 1
+      },
+      "error": "The graph must be connected. Add edges joining the separate components."
+    }
+  ],
+  "post_failure_check": "The displayed exact result metrics remained unchanged after all four invalid calls.",
+  "limitations": [
+    "This is a focused WebMCP contract check with targeted state read-back, not broader browser visual, accessibility or responsive QA.",
+    "find_connection result records edge IDs; full edge objects were returned and are in data/atlas.json."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "artifact_count": 1,
+  "bundle": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.codex\\evidence\\runs\\atlas-foundation\\bundle.json",
+  "claim_count": 0,
+  "claim_provenance_rate": 1.0,
+  "errors": [
+    "bundle.claims must contain at least one promoted claim",
+    "checks[0].status blocks promotion: 'pending'",
+    "checks[1].status blocks promotion: 'pending'",
+    "checks[2].status blocks promotion: 'pending'",
+    "checks[3].status blocks promotion: 'pending'"
+  ],
+  "status": "FAIL",
+  "workspace": "D:\\CodexWorkspaces\\mathematics-atlas\\project"
+}
+EXIT_CODE=1

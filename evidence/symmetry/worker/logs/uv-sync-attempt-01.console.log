@@ -1,0 +1,15 @@
+Using CPython 3.13.7
+Creating virtual environment at: .venv
+Resolved 7 packages in 4ms
+   Building atlas-engine @ file:///D:/CodexWorkspaces/mathematics-atlas/symmetry-work
+      Built atlas-engine @ file:///D:/CodexWorkspaces/mathematics-atlas/symmetry-work
+Prepared 1 package in 1.77s
+Installed 7 packages in 67ms
+ + atlas-engine==0.1.0 (from file:///D:/CodexWorkspaces/mathematics-atlas/symmetry-work)
+ + colorama==0.4.6
+ + iniconfig==2.3.0
+ + packaging==26.3
+ + pluggy==1.6.0
+ + pygments==2.21.0
+ + pytest==9.1.1
+

@@ -1,0 +1,22 @@
+{
+  "counts_by_n": {
+    "2": 1,
+    "3": 4,
+    "4": 38,
+    "5": 728
+  },
+  "edges_analyzed_per_graph": 1,
+  "exact_comparisons": true,
+  "exhaustive_graph_count": 771,
+  "failure_count": 0,
+  "failures": [],
+  "invalid_fixture_count": 10,
+  "named_6_vertex_fixture_count": 1,
+  "passed": true,
+  "record_count": 772,
+  "records_path": "D:\\CodexWorkspaces\\mathematics-atlas\\engine-work\\logs\\canonical\\records.jsonl",
+  "sampled": false,
+  "schema_version": "1.0",
+  "selection_policy": "lexicographically first existing edge per exhaustive graph",
+  "valid_fixture_count": 7
+}

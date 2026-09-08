@@ -1,0 +1,20 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "python",
+    "verify_final_raw_artifacts.py",
+    "--output",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\symmetry-audit-work\\verifier-raw-artifact-audit.json"
+  ],
+  "console_log": "D:\\CodexWorkspaces\\mathematics-atlas\\symmetry-audit-work\\verifier-raw-artifact-audit-attempt-03.console.log",
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\symmetry-audit-work",
+  "ended_at": "2026-09-08T01:30:28.782917+00:00",
+  "environment_overrides": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "UV_CACHE_DIR": "D:/CodexWorkspaces/mathematics-atlas/uv-cache"
+  },
+  "exit_code": 0,
+  "runtime_seconds": 8.196599799994146,
+  "started_at": "2026-09-08T01:30:20.586309+00:00"
+}

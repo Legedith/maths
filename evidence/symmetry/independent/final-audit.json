@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "scope": "Frozen opt-in unordered-terminal symmetry reuse for the exact graph-analysis API",
+  "auditor": "/root/sol_symmetry_audit (independent verifier; no candidate authorship)",
+  "candidate_sha256": "5d4c502a7d3b8116664aef00c3ff6627672d90221d6b4e08e0f031f1a468333e",
+  "report": "evidence/symmetry/independent/final-audit-report.md",
+  "checks": [
+    {
+      "id": "reproduction",
+      "status": "pass",
+      "auditor": "/root/sol_symmetry_audit",
+      "evidence": [
+        "evidence/symmetry/independent/verifier-pytest-attempt-03.command.json",
+        "evidence/symmetry/independent/verifier-pytest-attempt-03.console.log",
+        "evidence/symmetry/independent/verifier-correctness-attempt-02/ordered-pair-records.jsonl",
+        "evidence/symmetry/independent/verifier-correctness-attempt-02/summary.json",
+        "evidence/symmetry/independent/verifier-benchmark-attempt-01/workload.jsonl",
+        "evidence/symmetry/independent/verifier-benchmark-attempt-01/rounds.jsonl",
+        "evidence/symmetry/independent/verifier-benchmark-attempt-01/summary.json",
+        "evidence/symmetry/independent/verifier-raw-artifact-audit.json"
+      ],
+      "note": "Corrected promoted checkout: 75 pytest tests passed; 15,192/15,192 exact dictionaries and 21/21 paired benchmark rounds passed. Independent raw parser reconstructed all inputs, canonical classes, exact equation/oracle outputs, hashes, and aggregates with zero mismatch."
+    },
+    {
+      "id": "specification_compliance",
+      "status": "pass",
+      "auditor": "/root/sol_symmetry_audit",
+      "evidence": [
+        "docs/symmetry-contract.md",
+        "evidence/symmetry/independent/preintegration-proof-audit.md",
+        "evidence/symmetry/independent/preintegration_audit.json",
+        "evidence/symmetry/independent/boundary6_preintegration_audit.json",
+        "evidence/symmetry/independent/verifier-correctness-attempt-02/fixture-records.json",
+        "evidence/symmetry/independent/verifier-correctness-attempt-02/behavior-cases.json",
+        "evidence/symmetry/independent/audited-project-files.json"
+      ],
+      "note": "Canonical class, full API transport, validation-before-lookup, LRU state, mutation isolation, exceptions, nonedges, tied automorphisms, exact diagnostics, and documentation satisfy the frozen contract."
+    },
+    {
+      "id": "source_verification",
+      "status": "pass",
+      "auditor": "/root/sol_symmetry_audit",
+      "evidence": [
+        "evidence/symmetry/independent/prior-art-audit.md",
+        "evidence/symmetry/independent/primary-source-verification.json",
+        "evidence/symmetry/independent/primary-sources/niehaus-igel-banzhaf-2007.pdf",
+        "evidence/symmetry/independent/primary-sources/koebler-verbitsky.pdf",
+        "evidence/symmetry/independent/primary-sources/chandra-et-al-1996.pdf",
+        "evidence/symmetry/independent/primary-sources/burton-pemantle.pdf",
+        "evidence/symmetry/independent/primary-sources/kaba-et-al-2023.pdf",
+        "evidence/symmetry/independent/primary-sources/mckay-1981-pgi.pdf"
+      ],
+      "note": "Primary sources support the mathematical ingredients and provide direct prior art for canonical-graph-indexed evaluation reuse. Only a project-specific optimization claim passes; global novelty and real-world impact claims do not."
+    },
+    {
+      "id": "implementation_alignment",
+      "status": "pass",
+      "auditor": "/root/sol_symmetry_audit",
+      "evidence": [
+        "src/atlas_engine/symmetry.py",
+        "src/atlas_engine/__init__.py",
+        "tests/test_symmetry.py",
+        "scripts/run_symmetry_correctness.py",
+        "scripts/run_symmetry_benchmark.py",
+        "README-symmetry.md",
+        "evidence/symmetry/independent/audited-project-files.json",
+        "evidence/symmetry/independent/verifier-raw-artifact-audit.json",
+        "evidence/symmetry/independent/final-audit-report.md"
+      ],
+      "note": "Final promoted code, export, tests, runners, proof report, README, and runtime records were compared after the last path-only fix. Engine SHA-256 5d4c502a...333e is unchanged and matches both final runner summaries."
+    }
+  ],
+  "limitations": [
+    "Exhaustive enumeration covers every labelled connected simple graph through n=5; n=6 testing covers five named families.",
+    "The admitted-domain conclusion comes from the algebraic and combinatorial proof, not finite-test extrapolation.",
+    "Benchmark measurements apply only to the frozen 771-input repeated workload and recorded Windows 10 / CPython 3.13.7 environment.",
+    "No thread-safety or multi-process cache claim is certified.",
+    "Prior-art checking is targeted and blocks global novelty; it is not an exhaustive patent or global literature search.",
+    "No new theorem, globally novel algorithm, scientific discovery, adoption, or real-world impact is claimed."
+  ]
+}

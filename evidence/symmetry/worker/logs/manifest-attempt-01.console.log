@@ -1,0 +1,163 @@
+{
+  "artifact_sha256": {
+    "README-symmetry.md": "694a64eb9c06e0eb7a1cf577ece76937a2a6e3993f30eb852ccb5b68edfc8ea4",
+    "logs/benchmark-attempt-01.command.json": "f11ab56d5fd6c26c6d76800e0a00a84b4baf9a0aa27d05c6bf943978f7549394",
+    "logs/benchmark-attempt-01.console.log": "4d862ae8b76c35929b7462fda41f00132e8f263bbfdab38483de973293b89654",
+    "logs/benchmark-attempt-01/rounds.jsonl": "51ca61d8b8f138a2f8bb887cf9dfe616bf83394c6e12b701690a9c6163a32483",
+    "logs/benchmark-attempt-01/summary.json": "606ff93532dd4c366bd11282b9e1340a8c531a92f3d8e9be4862bb2266982c2e",
+    "logs/benchmark-attempt-01/workload.jsonl": "635ab58aa463b8df19478de72e171777ee52609af93226d02fca614d5f305b73",
+    "logs/correctness-attempt-01.command.json": "56285c78ea092f802b5b394976955769b708783055b581535927db82c21d2fe9",
+    "logs/correctness-attempt-01.console.log": "0656ecc39b3c241615eab160773284ee8b1424c31c0cde6e6b156c5fddabb48c",
+    "logs/correctness-attempt-01/behavior-cases.json": "96914b8aa7e8e19154d69202eb685c3b191b0180638c5b3e82966a6b1611df25",
+    "logs/correctness-attempt-01/fixture-records.json": "8221303e615ad788862006eeac5747f4b4ce47a9630085771505238292476311",
+    "logs/correctness-attempt-01/ordered-pair-records.jsonl": "cfc22da43ddef4fcd3ee421236ec5c6b60bfe0d3164be4c4f9e6d99c1f3977b8",
+    "logs/correctness-attempt-01/summary.json": "538bc82c9def45bdf560b75332e37d6e786d88f5d9536ce1afa234495145b20b",
+    "logs/experiment-log.md": "72e72a01a46df4070b3f3dce2a5c1a2600f11efaf06cf24a54eacf1363e56147",
+    "logs/pytest-attempt-01.command.json": "b9955dcc37f19ecf4ebc77b783b72d1bb791e4935c90e04ab6a94658567e6dc1",
+    "logs/pytest-attempt-01.console.log": "9c590b81d690e8e3ea42efeab0d02da9c401759b5d623d475ede89aac36b7a5b",
+    "logs/pytest-attempt-02.command.json": "238a4cdeab1e670543af1e9fa66b4b7f1c0a84adea9e64f9fb422a32e899d010",
+    "logs/pytest-attempt-02.console.log": "7184285c58551b47435c6adab1caa4454f7aed07d1b0dacb89079116563a6c2b",
+    "logs/pytest-attempt-03.command.json": "3fd2e0de48c40e805ad38aed3f0b5ed1e7794c494b062dd470c06b2bdf4a937a",
+    "logs/pytest-attempt-03.console.log": "e446402efd4c72752c386a592567318e24a79e2b507a5d4f0c53d26f31845dac",
+    "logs/uv-sync-attempt-01.command.json": "5016a1c91fe3bda077e322d53205aff84abc720b201f2613c88e86c390aac14e",
+    "logs/uv-sync-attempt-01.console.log": "12866f9f5386eeb83f9af84ccb2b3148671431a79b4542bb774f84c87d743775",
+    "pyproject.toml": "1a05443565003d9449eab572332f73d97f8e8ad7e0e1abac4f7ac22b7f875379",
+    "scripts/build_final_manifest.py": "d40951a90e8480d2775e5ebeca8b7e2e578318039bc676634fcead831d8a11f7",
+    "scripts/run_logged.ps1": "cfe2f00b0a20d0e0c58b3606af57379cffbd84f747e13210b46ee311aa7bbbd1",
+    "scripts/run_symmetry_benchmark.py": "519c701763a50b08c7cab76821f382c0494f9a0bed7a3b3ff9de34794c843ede",
+    "scripts/run_symmetry_correctness.py": "957b9aacb6e3589e7617fb95846b3625a087d2180e69a8d987f1bffe2cf7f0aa",
+    "src/atlas_engine/__init__.py": "95ea5094f22267b7252b462944b1802afd0783fda755c83fefb3e072a72204bd",
+    "src/atlas_engine/__main__.py": "6ce6108bbb3b1bd2605664b04ad9ce3f2aa5762ea8603c59dfcef8f232afba4b",
+    "src/atlas_engine/analysis.py": "5583b849fd430d075acb527d02ab91a588bc268235b5bf74af62a83bc13be32e",
+    "src/atlas_engine/evaluator.py": "4503598debfe2cd7ef40bbf79ae9c5f6fbf3b1e0b2889d7e236be88b981f6c15",
+    "src/atlas_engine/linear.py": "2b8a6c5a707536394f97f914290976e9d9afb83345aa3e5e64c3234089d15236",
+    "src/atlas_engine/markov.py": "05502e10b4d73b020e8d89e906462601b428d1b5d107ea7f187c871b875194aa",
+    "src/atlas_engine/output-schema.json": "535a7a58104c345a8b0b46d151d0e41f69be8e49329d114ae188dd9f8422ca0a",
+    "src/atlas_engine/resistance.py": "7eac894cadc2b6e7b49c5502562169fb0234f9c59cbff9192ade6393d048b69d",
+    "src/atlas_engine/schema.json": "f22a03e7740d15d3ab3755188ab931ea547cfd7192fcef69e587523c51f81e79",
+    "src/atlas_engine/symmetry.py": "5d4c502a7d3b8116664aef00c3ff6627672d90221d6b4e08e0f031f1a468333e",
+    "src/atlas_engine/trees.py": "fd36f614a7db95765426c2d39166dd3790d043887d5cf4ccfa57dfc0adeea01d",
+    "src/atlas_engine/validation.py": "1542daeb241bbca99d7cbe858d1c19c5facab694ab0a93339daed9e67b368490",
+    "task-spec.md": "2446b9f007bbebaa942baf680b4750907027551d7fbfa916b20339563c6c3b0e",
+    "tests/test_symmetry.py": "69c4b8f7a8adfe517394dd4eb9eb9ad6c3306c1bc50183899dcfe898b0adc0a3",
+    "uv.lock": "af702441deef709f31364324f3add35c05a14572e8c39e85daa3f447c35d3275"
+  },
+  "baseline_comparisons": [
+    {
+      "only_expected_export_change": false,
+      "path": "src/atlas_engine/__init__.py",
+      "project_sha256": "f3278ac0e7f7c5a34da346dc7f80eca4e4a78e50d0ed0114e3ed87fa4bbbb969",
+      "staged_sha256": "95ea5094f22267b7252b462944b1802afd0783fda755c83fefb3e072a72204bd",
+      "status": "allowed-export-change"
+    },
+    {
+      "byte_identical": true,
+      "path": "src/atlas_engine/__main__.py",
+      "project_sha256": "6ce6108bbb3b1bd2605664b04ad9ce3f2aa5762ea8603c59dfcef8f232afba4b",
+      "staged_sha256": "6ce6108bbb3b1bd2605664b04ad9ce3f2aa5762ea8603c59dfcef8f232afba4b",
+      "status": "byte-identical"
+    },
+    {
+      "byte_identical": true,
+      "path": "src/atlas_engine/analysis.py",
+      "project_sha256": "5583b849fd430d075acb527d02ab91a588bc268235b5bf74af62a83bc13be32e",
+      "staged_sha256": "5583b849fd430d075acb527d02ab91a588bc268235b5bf74af62a83bc13be32e",
+      "status": "byte-identical"
+    },
+    {
+      "byte_identical": true,
+      "path": "src/atlas_engine/evaluator.py",
+      "project_sha256": "4503598debfe2cd7ef40bbf79ae9c5f6fbf3b1e0b2889d7e236be88b981f6c15",
+      "staged_sha256": "4503598debfe2cd7ef40bbf79ae9c5f6fbf3b1e0b2889d7e236be88b981f6c15",
+      "status": "byte-identical"
+    },
+    {
+      "byte_identical": true,
+      "path": "src/atlas_engine/linear.py",
+      "project_sha256": "2b8a6c5a707536394f97f914290976e9d9afb83345aa3e5e64c3234089d15236",
+      "staged_sha256": "2b8a6c5a707536394f97f914290976e9d9afb83345aa3e5e64c3234089d15236",
+      "status": "byte-identical"
+    },
+    {
+      "byte_identical": true,
+      "path": "src/atlas_engine/markov.py",
+      "project_sha256": "05502e10b4d73b020e8d89e906462601b428d1b5d107ea7f187c871b875194aa",
+      "staged_sha256": "05502e10b4d73b020e8d89e906462601b428d1b5d107ea7f187c871b875194aa",
+      "status": "byte-identical"
+    },
+    {
+      "byte_identical": true,
+      "path": "src/atlas_engine/output-schema.json",
+      "project_sha256": "535a7a58104c345a8b0b46d151d0e41f69be8e49329d114ae188dd9f8422ca0a",
+      "staged_sha256": "535a7a58104c345a8b0b46d151d0e41f69be8e49329d114ae188dd9f8422ca0a",
+      "status": "byte-identical"
+    },
+    {
+      "byte_identical": true,
+      "path": "src/atlas_engine/resistance.py",
+      "project_sha256": "7eac894cadc2b6e7b49c5502562169fb0234f9c59cbff9192ade6393d048b69d",
+      "staged_sha256": "7eac894cadc2b6e7b49c5502562169fb0234f9c59cbff9192ade6393d048b69d",
+      "status": "byte-identical"
+    },
+    {
+      "byte_identical": true,
+      "path": "src/atlas_engine/schema.json",
+      "project_sha256": "f22a03e7740d15d3ab3755188ab931ea547cfd7192fcef69e587523c51f81e79",
+      "staged_sha256": "f22a03e7740d15d3ab3755188ab931ea547cfd7192fcef69e587523c51f81e79",
+      "status": "byte-identical"
+    },
+    {
+      "byte_identical": true,
+      "path": "src/atlas_engine/trees.py",
+      "project_sha256": "fd36f614a7db95765426c2d39166dd3790d043887d5cf4ccfa57dfc0adeea01d",
+      "staged_sha256": "fd36f614a7db95765426c2d39166dd3790d043887d5cf4ccfa57dfc0adeea01d",
+      "status": "byte-identical"
+    },
+    {
+      "byte_identical": true,
+      "path": "src/atlas_engine/validation.py",
+      "project_sha256": "1542daeb241bbca99d7cbe858d1c19c5facab694ab0a93339daed9e67b368490",
+      "staged_sha256": "1542daeb241bbca99d7cbe858d1c19c5facab694ab0a93339daed9e67b368490",
+      "status": "byte-identical"
+    },
+    {
+      "byte_identical": true,
+      "path": "pyproject.toml",
+      "project_sha256": "1a05443565003d9449eab572332f73d97f8e8ad7e0e1abac4f7ac22b7f875379",
+      "staged_sha256": "1a05443565003d9449eab572332f73d97f8e8ad7e0e1abac4f7ac22b7f875379",
+      "status": "byte-identical"
+    },
+    {
+      "byte_identical": true,
+      "path": "uv.lock",
+      "project_sha256": "af702441deef709f31364324f3add35c05a14572e8c39e85daa3f447c35d3275",
+      "staged_sha256": "af702441deef709f31364324f3add35c05a14572e8c39e85daa3f447c35d3275",
+      "status": "byte-identical"
+    }
+  ],
+  "baseline_requirement_satisfied": false,
+  "command": "uv run python scripts/build_final_manifest.py",
+  "created_at": "2026-09-08T00:57:21.364950+00:00",
+  "exclusions": [
+    ".venv runtime files",
+    "generated __pycache__ and .pyc files",
+    "this self-referential final-manifest.json"
+  ],
+  "platform": "Windows-10-10.0.19045-SP0",
+  "purpose": "deterministic worker handoff; independent semantic audit remains required",
+  "python": "3.13.7 (main, Sep 18 2025, 19:43:45) [MSC v.1944 64 bit (AMD64)]",
+  "schema_version": "1.0",
+  "structural_checks": {
+    "benchmark_equal_round_count": 21,
+    "benchmark_round_count": 21,
+    "benchmark_rounds_jsonl_line_count": 21,
+    "benchmark_summary_passed": true,
+    "benchmark_workload_count": 771,
+    "benchmark_workload_jsonl_line_count": 771,
+    "correctness_jsonl_line_count": 15192,
+    "correctness_ordered_pair_count": 15192,
+    "correctness_summary_passed": true
+  },
+  "structural_checks_passed": true
+}
+

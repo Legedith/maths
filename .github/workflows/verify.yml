@@ -1,0 +1,30 @@
+name: Verify atlas
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  foundation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: astral-sh/setup-uv@d0d8abe699bfb85fec6de9f7adb5ae17292296ff # v6
+        with:
+          version: '0.8.19'
+          python-version: '3.13'
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: uv run --frozen pytest
+      - run: uv run --frozen python -m atlas_engine evaluate --output-dir evidence/baseline
+      - run: uv run --frozen python scripts/validate_atlas.py
+      - run: uv run --frozen python scripts/check_supplemental.py
+      - run: uv run --frozen python scripts/check_normalization_case.py
+      - run: uv run --frozen python scripts/run_symmetry_correctness.py --output-dir evidence/symmetry/ci
+      - run: node scripts/check-browser-engine.ts
+      - run: node scripts/check-atlas.ts
+      - run: node scripts/check-formal-search.ts
+      - run: npx tsc --noEmit
+      - run: npm run lint
+      - run: npm run build

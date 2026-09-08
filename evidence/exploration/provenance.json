@@ -1,0 +1,56 @@
+[
+  {
+    "path": "evidence/exploration/explore_duality.json",
+    "source_rollout": "rollout-2026-09-08T04-51-57-01a07e2d-ab8c-7972-9fc2-30736bfca71b.jsonl",
+    "source_line": 463,
+    "source_line_sha256": "6456658c3b5c8107b44c7bd787c330402833493aeea9d5dce749462711285083",
+    "timestamp": "2026-09-07T23:45:54.036Z",
+    "author": "/root/explore_duality",
+    "extraction": "Complete original plaintext final response event; no reconstruction."
+  },
+  {
+    "path": "evidence/exploration/explore_laplacian.json",
+    "source_rollout": "rollout-2026-09-08T04-51-57-01a07e2d-ab8c-7972-9fc2-30736bfca71b.jsonl",
+    "source_line": 470,
+    "source_line_sha256": "4183addea9638bd99388e0a2409c1fadcd5cc641bf20ca0bc5411eff91b388f1",
+    "timestamp": "2026-09-07T23:46:28.385Z",
+    "author": "/root/explore_laplacian",
+    "extraction": "Complete original plaintext final response event; no reconstruction."
+  },
+  {
+    "path": "evidence/exploration/explore_energy.json",
+    "source_rollout": "rollout-2026-09-08T04-51-57-01a07e2d-ab8c-7972-9fc2-30736bfca71b.jsonl",
+    "source_line": 472,
+    "source_line_sha256": "dbe0c3b93ea1919eac93d93bed63c6e936a3510e744c6238aeb4cae3dfd17331",
+    "timestamp": "2026-09-07T23:46:28.398Z",
+    "author": "/root/explore_energy",
+    "extraction": "Complete original plaintext final response event; no reconstruction."
+  },
+  {
+    "path": "evidence/exploration/sol_discovery_b.json",
+    "source_rollout": "rollout-2026-09-08T04-51-57-01a07e2d-ab8c-7972-9fc2-30736bfca71b.jsonl",
+    "source_line": 957,
+    "source_line_sha256": "2008b44e8826574d3fb54e1a00ded6c1e0b1c70652cab2904762b30423abba35",
+    "timestamp": "2026-09-08T00:29:23.853Z",
+    "author": "/root/sol_discovery_b",
+    "extraction": "Complete original plaintext final response event; no reconstruction."
+  },
+  {
+    "path": "evidence/exploration/sol_discovery_a.json",
+    "source_rollout": "rollout-2026-09-08T04-51-57-01a07e2d-ab8c-7972-9fc2-30736bfca71b.jsonl",
+    "source_line": 978,
+    "source_line_sha256": "6841093c437fa4c04835ec6ffc0981371dea12b4306adbb3455aa439f491b863",
+    "timestamp": "2026-09-08T00:30:06.991Z",
+    "author": "/root/sol_discovery_a",
+    "extraction": "Complete original plaintext final response event; no reconstruction."
+  },
+  {
+    "path": "evidence/exploration/sol_discovery_c.json",
+    "source_rollout": "rollout-2026-09-08T04-51-57-01a07e2d-ab8c-7972-9fc2-30736bfca71b.jsonl",
+    "source_line": 1053,
+    "source_line_sha256": "6996b5b028dfe2ba4b69b41e229fbbb6e418d8f4c79200f4de94af2dd1e66e29",
+    "timestamp": "2026-09-08T00:34:35.976Z",
+    "author": "/root/sol_discovery_c",
+    "extraction": "Complete original plaintext final response event; no reconstruction."
+  }
+]

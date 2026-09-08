@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "record_count": 772,
+  "supplemental_record_count": 3,
+  "valid_fixtures": 7,
+  "invalid_fixtures": 10,
+  "fields_compared": "all public outputs",
+  "arithmetic": "BigInt reduced fractions; no floating-point mathematical results",
+  "runtime": "v24.12.0",
+  "limitations": [
+    "JavaScript cannot distinguish an integral JSON number spelled 1.0 from 1. Python rejects native float objects.",
+    "Port uses the same mathematical decomposition; cross-language agreement alone is not an independent proof."
+  ]
+}

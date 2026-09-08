@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "D:\CodexWorkspaces\mathematics-atlas\symmetry-audit-work\verify_final_raw_artifacts.py", line 623, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "D:\CodexWorkspaces\mathematics-atlas\symmetry-audit-work\verify_final_raw_artifacts.py", line 601, in main
+    "correctness": verify_correctness(args.correctness),
+                   ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\CodexWorkspaces\mathematics-atlas\symmetry-audit-work\verify_final_raw_artifacts.py", line 384, in verify_correctness
+    assert record["kind"] == "invalid" and record["passed"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

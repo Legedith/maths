@@ -14,7 +14,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: 'Mathematics Atlas — Explore connections',
-  description: 'Explore source-backed connections between mathematics, computer science, and other fields. Learn the assumptions and test reusable ideas.',
+  description:
+    'Explore source-backed connections between mathematics, computer science, and other fields. Learn the assumptions and test reusable ideas.',
 };
 
 export default function RootLayout({

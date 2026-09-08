@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": [
+    "query boundary",
+    "empty results",
+    "upstream schema",
+    "fixed documentation URL host",
+    "path traversal rejection",
+    "substring query quoting"
+  ],
+  "scope": "Adapter boundary tests. Live service and browser state are separate checks."
+}

@@ -1,0 +1,86 @@
+{
+  "passed": true,
+  "explorer_outputs": [
+    {
+      "path": "evidence/exploration/explore_duality.json",
+      "source_line": 463,
+      "author": "/root/explore_duality",
+      "timestamp": "2026-09-07T23:45:54.036Z",
+      "deep_equal_to_source_event": true,
+      "line_sha256_including_lf": "6456658c3b5c8107b44c7bd787c330402833493aeea9d5dce749462711285083",
+      "declared_line_sha256": "6456658c3b5c8107b44c7bd787c330402833493aeea9d5dce749462711285083",
+      "criteria_present": {
+        "cross_domain": true,
+        "source_quality": true,
+        "tractable_validation": true,
+        "beginner_usefulness": true
+      }
+    },
+    {
+      "path": "evidence/exploration/explore_laplacian.json",
+      "source_line": 470,
+      "author": "/root/explore_laplacian",
+      "timestamp": "2026-09-07T23:46:28.385Z",
+      "deep_equal_to_source_event": true,
+      "line_sha256_including_lf": "4183addea9638bd99388e0a2409c1fadcd5cc641bf20ca0bc5411eff91b388f1",
+      "declared_line_sha256": "4183addea9638bd99388e0a2409c1fadcd5cc641bf20ca0bc5411eff91b388f1",
+      "criteria_present": {
+        "cross_domain": true,
+        "source_quality": true,
+        "tractable_validation": true,
+        "beginner_usefulness": true
+      }
+    },
+    {
+      "path": "evidence/exploration/explore_energy.json",
+      "source_line": 472,
+      "author": "/root/explore_energy",
+      "timestamp": "2026-09-07T23:46:28.398Z",
+      "deep_equal_to_source_event": true,
+      "line_sha256_including_lf": "dbe0c3b93ea1919eac93d93bed63c6e936a3510e744c6238aeb4cae3dfd17331",
+      "declared_line_sha256": "dbe0c3b93ea1919eac93d93bed63c6e936a3510e744c6238aeb4cae3dfd17331",
+      "criteria_present": {
+        "cross_domain": true,
+        "source_quality": true,
+        "tractable_validation": true,
+        "beginner_usefulness": true
+      }
+    }
+  ],
+  "spawn_events": [
+    {
+      "source_line": 404,
+      "timestamp": "2026-09-07T23:43:38.814Z",
+      "function": "spawn_agent",
+      "task_name": "explore_energy",
+      "agent_type": "coe_explorer",
+      "message_field_encrypted": true
+    },
+    {
+      "source_line": 410,
+      "timestamp": "2026-09-07T23:43:48.328Z",
+      "function": "spawn_agent",
+      "task_name": "explore_laplacian",
+      "agent_type": "coe_explorer",
+      "message_field_encrypted": true
+    },
+    {
+      "source_line": 416,
+      "timestamp": "2026-09-07T23:43:57.259Z",
+      "function": "spawn_agent",
+      "task_name": "explore_duality",
+      "agent_type": "coe_explorer",
+      "message_field_encrypted": true
+    },
+    {
+      "source_line": 619,
+      "timestamp": "2026-09-07T23:58:28.584Z",
+      "function": "spawn_agent",
+      "task_name": "engine_worker",
+      "agent_type": "coe_worker",
+      "message_field_encrypted": true
+    }
+  ],
+  "ordering": "All three explorer final events (lines 463, 470, 472) precede engine_worker spawn line 619.",
+  "limitation": "Original spawn message bodies are encrypted, so prompt textual identity cannot be independently checked; task identities, coe_explorer roles, timestamps, complete final outputs, and comparison criteria are verifiable."
+}

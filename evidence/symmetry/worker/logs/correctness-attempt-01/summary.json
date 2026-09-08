@@ -1,0 +1,133 @@
+{
+  "argv": [
+    "scripts/run_symmetry_correctness.py",
+    "--output-dir",
+    "logs/correctness-attempt-01"
+  ],
+  "behavior_case_count": 7,
+  "behavior_case_pass_count": 7,
+  "behavior_cases_path": "logs/correctness-attempt-01/behavior-cases.json",
+  "cache_diagnostics": {
+    "capacity": 20000,
+    "core_calls": 138,
+    "evictions": 0,
+    "hits": 15054,
+    "misses": 138,
+    "size": 138
+  },
+  "canonical_edge_order": "lexicographic combinations(range(n), 2), low bit first",
+  "canonical_relabellings_per_input": "2*(n-2)!",
+  "command": "uv run python scripts/run_symmetry_correctness.py --output-dir logs/correctness-attempt-XX",
+  "exact_dictionary_comparison": true,
+  "exhaustive": {
+    "canonical_class_count": 118,
+    "canonical_classes_by_n": {
+      "2": 1,
+      "3": 3,
+      "4": 16,
+      "5": 98
+    },
+    "existing_terminal_pair_count": 8588,
+    "existing_terminal_pairs_by_n": {
+      "2": 2,
+      "3": 18,
+      "4": 288,
+      "5": 8280
+    },
+    "graph_count": 771,
+    "graphs_by_n": {
+      "2": 1,
+      "3": 4,
+      "4": 38,
+      "5": 728
+    },
+    "nonedge_terminal_pair_count": 6454,
+    "nonedge_terminal_pairs_by_n": {
+      "2": 0,
+      "3": 6,
+      "4": 168,
+      "5": 6280
+    },
+    "ordered_terminal_pair_count": 15042,
+    "ordered_terminal_pairs_by_n": {
+      "2": 2,
+      "3": 24,
+      "4": 456,
+      "5": 14560
+    },
+    "terminal_reversal_pair_count": 7521,
+    "terminal_reversal_pairs_by_n": {
+      "2": 1,
+      "3": 12,
+      "4": 228,
+      "5": 7280
+    }
+  },
+  "failure_count": 0,
+  "failures": [],
+  "fixture_records_path": "logs/correctness-attempt-01/fixture-records.json",
+  "frozen_fixtures": {
+    "invalid_count": 10,
+    "invalid_failure_count": 0,
+    "valid_count": 7,
+    "valid_failure_count": 0
+  },
+  "implementation": "CPython",
+  "named_6_vertex_families": {
+    "canonical_class_count_across_families": 20,
+    "canonical_classes_by_family": {
+      "complete-k6": 1,
+      "cycle-c6": 3,
+      "path-p6": 9,
+      "star-k1-5": 2,
+      "two-triangles-one-bridge": 5
+    },
+    "family_count": 5,
+    "nonedge_terminal_pair_count": 74,
+    "nonedge_terminal_pairs_by_family": {
+      "complete-k6": 0,
+      "cycle-c6": 18,
+      "path-p6": 20,
+      "star-k1-5": 20,
+      "two-triangles-one-bridge": 16
+    },
+    "ordered_terminal_pair_count": 150,
+    "ordered_terminal_pairs_by_family": {
+      "complete-k6": 30,
+      "cycle-c6": 30,
+      "path-p6": 30,
+      "star-k1-5": 30,
+      "two-triangles-one-bridge": 30
+    },
+    "terminal_reversal_pair_count": 75,
+    "terminal_reversal_pairs_by_family": {
+      "complete-k6": 15,
+      "cycle-c6": 15,
+      "path-p6": 15,
+      "star-k1-5": 15,
+      "two-triangles-one-bridge": 15
+    }
+  },
+  "ordered_pair_record_count": 15192,
+  "passed": true,
+  "platform": "Windows-10-10.0.19045-SP0",
+  "python": "3.13.7 (main, Sep 18 2025, 19:43:45) [MSC v.1944 64 bit (AMD64)]",
+  "records_path": "logs/correctness-attempt-01/ordered-pair-records.jsonl",
+  "runtime_seconds": 13.059059899998829,
+  "sampled": false,
+  "schema_version": "1.0",
+  "source_sha256": {
+    "../project/fixtures/frozen.json": "7f4f4afb18a052a98296af368fe841cec24949cc358414069f1d576cf75d8600",
+    "scripts/run_symmetry_correctness.py": "957b9aacb6e3589e7617fb95846b3625a087d2180e69a8d987f1bffe2cf7f0aa",
+    "src/atlas_engine/analysis.py": "5583b849fd430d075acb527d02ab91a588bc268235b5bf74af62a83bc13be32e",
+    "src/atlas_engine/linear.py": "2b8a6c5a707536394f97f914290976e9d9afb83345aa3e5e64c3234089d15236",
+    "src/atlas_engine/markov.py": "05502e10b4d73b020e8d89e906462601b428d1b5d107ea7f187c871b875194aa",
+    "src/atlas_engine/resistance.py": "7eac894cadc2b6e7b49c5502562169fb0234f9c59cbff9192ade6393d048b69d",
+    "src/atlas_engine/symmetry.py": "5d4c502a7d3b8116664aef00c3ff6627672d90221d6b4e08e0f031f1a468333e",
+    "src/atlas_engine/trees.py": "fd36f614a7db95765426c2d39166dd3790d043887d5cf4ccfa57dfc0adeea01d",
+    "src/atlas_engine/validation.py": "1542daeb241bbca99d7cbe858d1c19c5facab694ab0a93339daed9e67b368490",
+    "task-spec.md": "2446b9f007bbebaa942baf680b4750907027551d7fbfa916b20339563c6c3b0e"
+  },
+  "started_at_unix_seconds": 1788828359.7441785,
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\symmetry-work"
+}

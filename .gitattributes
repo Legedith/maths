@@ -1,0 +1,2 @@
+# Keep source and evidence byte hashes stable across Windows and Linux checkouts.
+* -text
