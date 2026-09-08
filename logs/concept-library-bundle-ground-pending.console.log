@@ -1,0 +1,15 @@
+﻿{
+  "artifact_count": 152,
+  "bundle": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.codex\\evidence\\runs\\concept-library-v1\\bundle.json",
+  "claim_count": 6,
+  "claim_provenance_rate": 1.0,
+  "errors": [
+    "checks[0].status blocks promotion: 'pending'",
+    "checks[1].status blocks promotion: 'pending'",
+    "checks[2].status blocks promotion: 'pending'",
+    "checks[3].status blocks promotion: 'pending'"
+  ],
+  "status": "FAIL",
+  "workspace": "D:\\CodexWorkspaces\\mathematics-atlas\\project"
+}
+

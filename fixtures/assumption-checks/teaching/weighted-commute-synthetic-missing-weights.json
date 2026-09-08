@@ -1,0 +1,65 @@
+{
+  "id": "weighted-commute-synthetic-missing-weights",
+  "graph": {
+    "n": 3,
+    "edges": [
+      {
+        "u": 0,
+        "v": 1,
+        "conductance": 2
+      },
+      {
+        "u": 1,
+        "v": 2,
+        "conductance": 1
+      }
+    ]
+  },
+  "source": 0,
+  "target": 2,
+  "provenance": {
+    "kind": "synthetic",
+    "source_url": "https://pages.uoregon.edu/dlevin/MARKOV/mcmt2e.pdf",
+    "source_locator": "Deliberate alteration of the second edition's Proposition 10.7 (book pp. 131-132): replace graph volume by twice the unweighted edge count. This is not a claim made by the source.",
+    "annotation_id": "weighted-commute-synthetic-missing-weights-root-annotation",
+    "annotator": "root-teaching-example-author",
+    "interpretation": "explicit"
+  },
+  "assumptions": [
+    {
+      "id": "connected-network",
+      "expression": {
+        "kind": "quantity",
+        "name": "connected"
+      }
+    }
+  ],
+  "claim": {
+    "kind": "binary",
+    "op": "eq",
+    "left": {
+      "kind": "quantity",
+      "name": "commute"
+    },
+    "right": {
+      "kind": "binary",
+      "op": "mul",
+      "left": {
+        "kind": "binary",
+        "op": "mul",
+        "left": {
+          "kind": "rational",
+          "value": 2
+        },
+        "right": {
+          "kind": "quantity",
+          "name": "edge_count"
+        }
+      },
+      "right": {
+        "kind": "quantity",
+        "name": "resistance"
+      }
+    }
+  }
+}

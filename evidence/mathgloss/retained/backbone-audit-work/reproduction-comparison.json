@@ -1,0 +1,39 @@
+{
+  "files": [
+    {
+      "author_vs_reproduction_01_identical": true,
+      "author_vs_reproduction_02_identical": true,
+      "bytes": 1066,
+      "name": "MATHGLOSS-LICENSE",
+      "reproduction_01_vs_02_identical": true,
+      "sha256": "5dc6b930900926814fc7bb9ff45dfcceae3aa33780eb010c83e6df58493594e7"
+    },
+    {
+      "author_vs_reproduction_01_identical": true,
+      "author_vs_reproduction_02_identical": true,
+      "bytes": 5134168,
+      "name": "candidate-index.json",
+      "reproduction_01_vs_02_identical": true,
+      "sha256": "282ed1fd858595b782c856fbd2c96964a0b6ff3850fedf21105ca9bbb7edb4da"
+    },
+    {
+      "author_vs_reproduction_01_identical": true,
+      "author_vs_reproduction_02_identical": true,
+      "bytes": 6504559,
+      "name": "import-ledger.jsonl",
+      "reproduction_01_vs_02_identical": true,
+      "sha256": "14d8e9cc972a83ac4267d4b168d9510f74c65abbae509e7149012ba653c4ad61"
+    },
+    {
+      "author_vs_reproduction_01_identical": true,
+      "author_vs_reproduction_02_identical": true,
+      "bytes": 1439,
+      "name": "summary.json",
+      "reproduction_01_vs_02_identical": true,
+      "sha256": "0102f6fca4237d80d3e4e167c476f118d5cfaff41b5b325882bc784eecfa6e58"
+    }
+  ],
+  "frozen_core_sha256": "f8ed60a8062569c3632e4ed23b8df9fa8523932793271f8ee410666b9f65b0d3",
+  "schema_version": "mathgloss-independent-reproduction-comparison-v1",
+  "status": "pass"
+}

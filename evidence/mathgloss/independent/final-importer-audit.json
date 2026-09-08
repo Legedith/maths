@@ -1,0 +1,234 @@
+{
+  "artifacts": [
+    {
+      "bytes": 3811,
+      "kind": "spec",
+      "note": "Frozen pre-implementation contract.",
+      "path": "backbone-import-work/docs/import-contract.md",
+      "sha256": "a35f8e974012768b43afbd719c228aebecd3bc86c680d4f342f22071ea76c4cb"
+    },
+    {
+      "bytes": 2649,
+      "kind": "manifest",
+      "note": "Author-frozen implementation hashes.",
+      "path": "backbone-import-work/outputs/frozen/implementation-manifest.json",
+      "sha256": "f5c3d409ced4f5cc75481b0adb7aa1e6168fd4f94dfe42a5a86f731a3700cb08"
+    },
+    {
+      "bytes": 3894,
+      "kind": "manifest",
+      "note": "Author-frozen output hashes and counts.",
+      "path": "backbone-import-work/outputs/frozen/output-manifest.json",
+      "sha256": "f798afaa7cb489ac815cff46721ed98b2db330411368b24082e1fe2ff9c52e5b"
+    },
+    {
+      "bytes": 829,
+      "kind": "manifest",
+      "note": "Pinned source, license and contract hashes.",
+      "path": "backbone-import-work/outputs/frozen/source-manifest.json",
+      "sha256": "f0416b25f6719de7f7cc6de0e2597a91c3d2c4cb1ddccc17c563f47e37ec4be5"
+    },
+    {
+      "bytes": 18350,
+      "kind": "code",
+      "note": "Frozen importer core reviewed independently.",
+      "path": "backbone-import-work/implementation/src/mathgloss_import/core.py",
+      "sha256": "f8ed60a8062569c3632e4ed23b8df9fa8523932793271f8ee410666b9f65b0d3"
+    },
+    {
+      "bytes": 16187,
+      "kind": "test",
+      "note": "Frozen author boundary tests reviewed and rerun from a copy.",
+      "path": "backbone-import-work/tests/test_importer.py",
+      "sha256": "a90202561392379c78cf0a220e119287f5320833c2f81c89d0c76d16470c02b2"
+    },
+    {
+      "bytes": 23562,
+      "kind": "source",
+      "note": "Independent primary-source and licensing-scope review.",
+      "path": "backbone-audit-work/source-audit.json",
+      "sha256": "2dfad0b8bae70f33ff1cddc560d6c6409c3bc2271e56f9debc606465479b85e9"
+    },
+    {
+      "bytes": 3656655,
+      "kind": "oracle",
+      "note": "Independent pre-freeze full-source accounting oracle.",
+      "path": "backbone-audit-work/import-source-oracle.json",
+      "sha256": "270f13890c3b168dbf3f8dfa62ce46a471244f27c1c2fb8ded057867c0cd5018"
+    },
+    {
+      "bytes": 2302,
+      "kind": "test-fixture",
+      "note": "Pre-freeze independent edge-case fixture manifest.",
+      "path": "backbone-audit-work/independent-cases/manifest.json",
+      "sha256": "3060fd473060b7ac30f5872ce635af0c91aad61ce3de90952944c8c374c39064"
+    },
+    {
+      "bytes": 12597,
+      "kind": "evaluator",
+      "note": "39-check exact full-output verification report.",
+      "path": "backbone-audit-work/frozen-output-verification.json",
+      "sha256": "503c0fd7c8ad41b2bf002c871f04d905ca7a46adef136e7710d8548a6f38931c"
+    },
+    {
+      "bytes": 2380,
+      "kind": "test-log",
+      "note": "Independent synthetic boundary result.",
+      "path": "backbone-audit-work/independent-case-results.json",
+      "sha256": "0eca54cf1478d4a14341bf09febf67e30fd7c38f540c8ea756968a5d74b7da24"
+    },
+    {
+      "bytes": 1414,
+      "kind": "reproduction",
+      "note": "Two clean reproductions compared byte for byte.",
+      "path": "backbone-audit-work/reproduction-comparison.json",
+      "sha256": "5360c3ee45b24d1a6106f5dea3e472c73a0e8b7328b57675efc3025a2b80591f"
+    },
+    {
+      "bytes": 9225,
+      "kind": "test-log",
+      "note": "Canonical copied implementation: 24 tests passed.",
+      "path": "backbone-audit-work/canonical-logs/02-unittest.json",
+      "sha256": "31961758a012b18c6cf987c9712cb91e3a22624510c47f730c1a6c7392eac0b2"
+    },
+    {
+      "bytes": 1753,
+      "kind": "evaluator-log",
+      "note": "Raw command record for exact verifier pass.",
+      "path": "backbone-audit-work/canonical-logs/04-frozen-output-verification-pass.json",
+      "sha256": "21c5b3d48f0237fcab957f9fa6463b10211d9aff7d7b0ecdf567c258fcba8ed8"
+    },
+    {
+      "bytes": 2035,
+      "kind": "test-log",
+      "note": "Raw command record for independent pre-freeze cases.",
+      "path": "backbone-audit-work/canonical-logs/05-independent-cases.json",
+      "sha256": "be9682f540d0ca74968871a0cf9d80e3d3d65aaca19aa8e914747511fb93d636"
+    },
+    {
+      "bytes": 2091,
+      "kind": "reproduction-log",
+      "note": "First clean full-source reproduction command.",
+      "path": "backbone-audit-work/canonical-logs/06-full-reproduction-01.json",
+      "sha256": "7bc20dcb39d9e473603167e03bb099dfd8fb153a1e51e26d607c45c0f1d67b4b"
+    },
+    {
+      "bytes": 2091,
+      "kind": "reproduction-log",
+      "note": "Second clean full-source reproduction command.",
+      "path": "backbone-audit-work/canonical-logs/07-full-reproduction-02.json",
+      "sha256": "e781fa8c4fa96e037b4d5ce0b0bc870577a96de805d08e3b6a70b7250d28bd81"
+    },
+    {
+      "bytes": 1657,
+      "kind": "evaluator-log",
+      "note": "Raw command record for byte comparison.",
+      "path": "backbone-audit-work/canonical-logs/08-reproduction-compare.json",
+      "sha256": "d4997166e0ed117dff7ffd4fedee5d04dba1b152b73bbf98ce5f0ba7e7add889"
+    },
+    {
+      "bytes": 1192,
+      "kind": "failure-log",
+      "note": "Retained initial missing-lock failure.",
+      "path": "backbone-import-work/outputs/logs/01-uv-sync-attempt01.txt",
+      "sha256": "a73ba3716544792448b58af90297626dc2ca1fcb425ab08638500a34c9b90c62"
+    },
+    {
+      "bytes": 959,
+      "kind": "failure-log",
+      "note": "Retained scope-check false-positive failure.",
+      "path": "backbone-import-work/outputs/logs/15-scope-check.json",
+      "sha256": "9b1f52d004fb966361b992e49fc4ed44665b33f09ed0abda7758a75c0343e85b"
+    },
+    {
+      "bytes": 2473,
+      "kind": "failure-log",
+      "note": "Retained stale independent-audit-hash failure.",
+      "path": "backbone-import-work/outputs/logs/18-freeze-manifests.json",
+      "sha256": "81495f6e1a566253f4af08d59329fd689d61439464eb1be6bedaefe9f4bcc234"
+    }
+  ],
+  "auditor": {
+    "identity": "/root/sol_symmetry_audit",
+    "independent_from_implementation_author": true,
+    "role": "independent Sol Max verifier"
+  },
+  "checks": [
+    {
+      "evidence_paths": [
+        "backbone-audit-work/canonical-logs/02-unittest.json",
+        "backbone-audit-work/canonical-logs/06-full-reproduction-01.json",
+        "backbone-audit-work/canonical-logs/07-full-reproduction-02.json",
+        "backbone-audit-work/reproduction-comparison.json"
+      ],
+      "id": "reproduction",
+      "notes": "An exact copied frozen implementation passed 24/24 tests. Two clean full-source runs in the independent staging area reproduced all four author-frozen bundle files byte for byte; the two independent runs were also mutually identical.",
+      "status": "pass"
+    },
+    {
+      "evidence_paths": [
+        "backbone-import-work/docs/import-contract.md",
+        "backbone-audit-work/frozen-output-verification.json",
+        "backbone-audit-work/independent-cases/manifest.json",
+        "backbone-audit-work/independent-case-results.json"
+      ],
+      "id": "specification_compliance",
+      "notes": "The frozen outputs implement the contract's exact header/hash/UTF-8 gates, preserve source order, record-level provenance and all link-pair dispositions, retain repeated records, mark mappings unreviewed, copy no definitions or relation files, and retain bounded license attribution. Independent pre-freeze cases passed multiline physical locators, duplicates, blank/invalid rows, incomplete/unsafe links, bad header/width/UTF-8 and wrong-hash boundaries.",
+      "status": "pass"
+    },
+    {
+      "evidence_paths": [
+        "backbone-audit-work/source-audit.json",
+        "backbone-audit-work/import-source-oracle.json",
+        "backbone-audit-work/frozen-output-verification.json"
+      ],
+      "id": "source_verification",
+      "notes": "The pinned CSV and repository LICENSE match their frozen hashes. Independent direct parsing found 4,814 accepted source records and 33,698 interpreted link slots: 7,217 retained and 26,481 absent, with no rejected links or duplicate QIDs. Every output record and link was compared to that source. The corrected Q1028209 label contains U+2013 and no replacement character. The MIT-form notice is treated only as the pinned repository declaration and does not establish rights in outbound content.",
+      "status": "pass"
+    },
+    {
+      "evidence_paths": [
+        "backbone-import-work/outputs/frozen/implementation-manifest.json",
+        "backbone-import-work/implementation/src/mathgloss_import/core.py",
+        "backbone-audit-work/frozen-output-verification.json",
+        "backbone-import-work/outputs/logs/01-uv-sync-attempt01.txt",
+        "backbone-import-work/outputs/logs/15-scope-check.json",
+        "backbone-import-work/outputs/logs/18-freeze-manifests.json"
+      ],
+      "id": "implementation_alignment",
+      "notes": "All 13 frozen implementation/test files and all frozen source/output records matched their manifests. Independent reconstruction matched 4,814 ledger records, 4,814 candidate records and 33,698 link slots exactly. The runtime uses only the standard library and does not fetch outbound URLs. Retained chronological logs include the initial missing-lock failure and two later corrected checker/freeze failures.",
+      "status": "pass"
+    }
+  ],
+  "frozen_target": {
+    "contract_sha256": "a35f8e974012768b43afbd719c228aebecd3bc86c680d4f342f22071ea76c4cb",
+    "core_sha256": "f8ed60a8062569c3632e4ed23b8df9fa8523932793271f8ee410666b9f65b0d3",
+    "implementation_manifest_sha256": "f5c3d409ced4f5cc75481b0adb7aa1e6168fd4f94dfe42a5a86f731a3700cb08",
+    "output_manifest_sha256": "f798afaa7cb489ac815cff46721ed98b2db330411368b24082e1fe2ff9c52e5b",
+    "source_manifest_sha256": "f0416b25f6719de7f7cc6de0e2597a91c3d2c4cb1ddccc17c563f47e37ec4be5",
+    "source_sha256": "933a72820fe7ede53a803b750a480def205677e5722ae5f9589b0d1d9bf832b2"
+  },
+  "limitations": [
+    "This gate certifies only the pinned MathGloss metadata/link import and its deterministic representation. It does not certify concept identity, equivalence, linked-page content, URL availability, mathematical truth, beginner suitability, whole-map quality, impact, novelty, or rights in linked prose.",
+    "The actual pinned CSV contains no quoted multiline data records and no duplicate QIDs. Those branches passed independent synthetic cases created before the implementation freeze; they are not full-source observations.",
+    "The frozen run_pinned_import CLI hardcodes absolute D:/ staging source and license paths. It is reproducible on this audit host, and import_csv_bytes accepts caller-supplied bytes, but repository integration needs a narrow explicit-input adapter or equivalent caller to avoid a staging-path dependency.",
+    "Syntactic HTTP(S) acceptance does not fetch or validate any destination and does not make a safety, identity, availability, rights, or semantic claim about it."
+  ],
+  "overall_status": "pass_scoped",
+  "schema_version": "chain-of-evidence-independent-verification-v1",
+  "subject": "Frozen MathGloss metadata/link importer",
+  "verified_counts": {
+    "absent_link_pairs": 26481,
+    "accepted_rows": 4814,
+    "author_tests_passed": 24,
+    "candidate_records": 4814,
+    "duplicate_qid_groups": 0,
+    "independent_exact_checks_passed": 39,
+    "interpreted_link_pair_slots": 33698,
+    "ledger_records": 4814,
+    "rejected_link_pairs": 0,
+    "rejected_rows": 0,
+    "retained_link_pairs": 7217,
+    "source_records": 4814
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "adjudication_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\retrieval-review-adjudication.json",
+  "adjudication_sha256": "1b64837ccce001b3bbe5996b594a8d820bcbcab0a87e1831f8e6fb2441311fb9",
+  "additive_corrections_path": "retrieval-review-adjudication-corrections.json",
+  "additive_corrections_sha256": "030cf2360f0bcf8448fa809dc5141da716ba89262ad7140bf7fa1c283224cd3d",
+  "annotator": "/root/sol_atlas_audit",
+  "authored_at": "2026-09-08T03:12:40.381556Z",
+  "syntax_mappable_theorem_count": 8,
+  "evaluable_theorem_count": 6,
+  "syntax_mappable_but_abstaining_theorem_count": 2,
+  "fully_ineligible_theorem_count": 16,
+  "fixture_count": 9,
+  "policy": "Each fixture maps only quantities expressible without changing the identified mathematical meaning. Explicit restored assumptions are recorded. Outputs are instance checks, not theorem proofs, and never revise source-only labels.",
+  "preflight_refinement": "Before the final frozen run, two expected machine verdicts were corrected from counterexample to abstain: the interface deliberately leaves both spectrum-product quantities undefined on disconnected graphs. The external separating witnesses and source-only refuted labels remain unchanged.",
+  "records": [
+    {
+      "case_id": "R2-T23150070-disconnected-nonzero-product",
+      "expected_verdict": "abstain",
+      "fixture_path": "retrieval-round2/fixtures/R2-T23150070-disconnected-nonzero-product.json",
+      "fixture_sha256": "91debe5a89680449cf3544bce1fce96b9307c043bfba55a4329f53020090218b",
+      "mapping": "Literal generated-slogan claim: weighted tree mass equals the product of all nonzero combinatorial-Laplacian eigenvalues divided by n, without a connectedness assumption. On the separating disconnected instance, the structured checker must abstain because its spectrum-product quantity is intentionally connected-only; it cannot reproduce the external mathematical counterexample.",
+      "query_id": "Q01",
+      "source_only_label": "refuted",
+      "theorem_id": 23150070
+    },
+    {
+      "case_id": "R2-T19685900-connected-normalized-tree-formula",
+      "expected_verdict": "no_counterexample_in_instance",
+      "fixture_path": "retrieval-round2/fixtures/R2-T19685900-connected-normalized-tree-formula.json",
+      "fixture_sha256": "5322965f4770a0c51cb3dc2f5dbf3fc7dd3013ce4ba2df36552fb09101d0dd3d",
+      "mapping": "Source-restored connected/no-isolate instance of volume*tree_mass = product(degrees)*rw_nonzero_spectrum_product. Similarity makes the random-walk and symmetric normalized spectra equal. This added assumption is why the machine result cannot revise the source-only label.",
+      "query_id": "Q02",
+      "source_only_label": "insufficient",
+      "theorem_id": 19685900
+    },
+    {
+      "case_id": "R2-T18276974-disconnected-normalized-nonzero-product",
+      "expected_verdict": "abstain",
+      "fixture_path": "retrieval-round2/fixtures/R2-T18276974-disconnected-normalized-nonzero-product.json",
+      "fixture_sha256": "e83d42e63cef2b310a8ff5846f2c81326e5a5e4759e1ed3881b30b377c7fabae",
+      "mapping": "Literal generated-slogan all-nonzero normalized-spectrum formula without its connectedness condition. On the separating disconnected instance, the structured checker must abstain because its random-walk spectrum-product quantity is intentionally connected-only; it cannot reproduce the external mathematical counterexample.",
+      "query_id": "Q02",
+      "source_only_label": "refuted",
+      "theorem_id": 18276974
+    },
+    {
+      "case_id": "R2-T18134454-weighted-edge-inclusion",
+      "expected_verdict": "no_counterexample_in_instance",
+      "fixture_path": "retrieval-round2/fixtures/R2-T18134454-weighted-edge-inclusion.json",
+      "fixture_sha256": "717188402916b607f1babe80e7cb7967c7bfc79d06578b35e932080c49354aba",
+      "mapping": "Weighted UST inclusion probability equals terminal-edge conductance times effective resistance; conductance is read as minus the off-diagonal Laplacian entry.",
+      "query_id": "Q03",
+      "source_only_label": "supported",
+      "theorem_id": 18134454
+    },
+    {
+      "case_id": "R2-T24585048-unit-edge-inclusion",
+      "expected_verdict": "no_counterexample_in_instance",
+      "fixture_path": "retrieval-round2/fixtures/R2-T24585048-unit-edge-inclusion.json",
+      "fixture_sha256": "a36cde2abac16842aa95f665052fb1324f800727b0cdd89bcc4d35e05af8a7d5",
+      "mapping": "Unit-conductance existing-edge specialization: UST inclusion probability equals effective resistance.",
+      "query_id": "Q04",
+      "source_only_label": "supported",
+      "theorem_id": 24585048
+    },
+    {
+      "case_id": "R2-T22467127-cycle-edge-inclusion",
+      "expected_verdict": "no_counterexample_in_instance",
+      "fixture_path": "retrieval-round2/fixtures/R2-T22467127-cycle-edge-inclusion.json",
+      "fixture_sha256": "5fb55daa7f15e1ef27c9dbd39f6793aabb159c1c9f0aa1a3ec1876681880e278",
+      "mapping": "Unit-conductance cycle edge: UST inclusion probability equals combinatorial effective resistance.",
+      "query_id": "Q04",
+      "source_only_label": "supported",
+      "theorem_id": 22467127
+    },
+    {
+      "case_id": "R2-T26329144-connected-weighted-commute",
+      "expected_verdict": "no_counterexample_in_instance",
+      "fixture_path": "retrieval-round2/fixtures/R2-T26329144-connected-weighted-commute.json",
+      "fixture_sha256": "317c526c18ba20a0d84394f9a1f741c5ce09949583b6304719ab2d5ca27e669f",
+      "mapping": "Source-restored connected-network instance of commute = graph volume * effective resistance. The generated slogan's missing cross-component convention remains unresolved by this successful instance.",
+      "query_id": "Q05",
+      "source_only_label": "insufficient",
+      "theorem_id": 26329144
+    },
+    {
+      "case_id": "R2-T17464638-even-cycle-period",
+      "expected_verdict": "no_counterexample_in_instance",
+      "fixture_path": "retrieval-round2/fixtures/R2-T17464638-even-cycle-period.json",
+      "fixture_sha256": "62a877400eee2d711c0b186b78763456494d6695fa51b744419d4b4a52b8dab0",
+      "mapping": "Even-cycle instance of the period-two atom.",
+      "query_id": "Q08",
+      "source_only_label": "supported",
+      "theorem_id": 17464638
+    },
+    {
+      "case_id": "R2-T17464638-odd-cycle-period",
+      "expected_verdict": "no_counterexample_in_instance",
+      "fixture_path": "retrieval-round2/fixtures/R2-T17464638-odd-cycle-period.json",
+      "fixture_sha256": "1397c05efa08010be3ee688b0888a36da77814bed7d31e739520dd852c2b9530",
+      "mapping": "Odd-cycle instance of the aperiodic atom (period one).",
+      "query_id": "Q08",
+      "source_only_label": "supported",
+      "theorem_id": 17464638
+    }
+  ],
+  "round": "round_two_structured_instance_annotations",
+  "schema_version": "1.0",
+  "study_id": "assumption-preservation-retrieval-v1"
+}

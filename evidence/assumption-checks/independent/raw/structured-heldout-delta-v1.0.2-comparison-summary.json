@@ -1,0 +1,37 @@
+{
+  "auditor": "/root/sol_atlas_audit",
+  "case_count": 80,
+  "compared_at": "2026-09-08T03:39:59.771948Z",
+  "failure_count": 0,
+  "first_run_jsonl_sha256": "c2e4f4fe94e08318324ea779a152f4252ccc07c82c7bf82d44c2021fd98ebb78",
+  "mismatch_case_ids": [],
+  "observed_verdict_histogram": {
+    "abstain": 8,
+    "counterexample": 11,
+    "invalid_input": 14,
+    "no_counterexample_in_instance": 44,
+    "not_applicable": 3
+  },
+  "partition_counts": {
+    "definedness_provenance_precedence": {
+      "failed": 0,
+      "passed": 12,
+      "total": 12
+    },
+    "malformed_type_resource": {
+      "failed": 0,
+      "passed": 14,
+      "total": 14
+    },
+    "well_formed_mathematical": {
+      "failed": 0,
+      "passed": 54,
+      "total": 54
+    }
+  },
+  "pass_count": 80,
+  "schema_version": "1.0",
+  "sealed_detail_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\SEALED\\structured-heldout-delta-v1.0.2-comparison.json",
+  "sealed_detail_sha256": "638a93e25b07acb9760953cea76a6f53ed9311460af6b5b1b6bed0971ee2a3f5",
+  "suite_plaintext_sha256": "ddf50219b87547a9cae547d936a7afba76380f11c4cda7c5fbb473635a01d9ee"
+}

@@ -1,0 +1,56 @@
+{
+  "checked_at_utc": "2026-09-08T02:53:12.3547427Z",
+  "freeze_path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\research-search\\delta-freeze.json",
+  "freeze_sha256": "5d126f983985fc5d45415c2868738ac6c7116e4c3c36ac2fbec76134ccc0972c",
+  "all_match": true,
+  "files": [
+    {
+      "path": "lib/research-search.ts",
+      "expected_sha256": "e2e81580a729dbdbe074faf05249d6708afbf66b69a3f66d20d007224e2b2aa6",
+      "actual_sha256": "e2e81580a729dbdbe074faf05249d6708afbf66b69a3f66d20d007224e2b2aa6",
+      "matches": true
+    },
+    {
+      "path": "app/api/research-search/route.ts",
+      "expected_sha256": "cd93abe5269aece8b98a57de687e431231008925571dffe467b24c1c0f3cc909",
+      "actual_sha256": "cd93abe5269aece8b98a57de687e431231008925571dffe467b24c1c0f3cc909",
+      "matches": true
+    },
+    {
+      "path": "components/research-search.tsx",
+      "expected_sha256": "4aa8239c60237a813b2c5b61cf44c2ac48c590cad97d3eae488447be179b0986",
+      "actual_sha256": "4aa8239c60237a813b2c5b61cf44c2ac48c590cad97d3eae488447be179b0986",
+      "matches": true
+    },
+    {
+      "path": "app/page.tsx",
+      "expected_sha256": "7ebe5ffa908023c5224ab2e3e789bef7f7b72c37cbfe396a9ae531ac6f9b8b53",
+      "actual_sha256": "7ebe5ffa908023c5224ab2e3e789bef7f7b72c37cbfe396a9ae531ac6f9b8b53",
+      "matches": true
+    },
+    {
+      "path": "lib/use-atlas-tools.ts",
+      "expected_sha256": "04cc7a2700f225cab9d1884931f4e416433951bb20d60248bb5af06400873dca",
+      "actual_sha256": "04cc7a2700f225cab9d1884931f4e416433951bb20d60248bb5af06400873dca",
+      "matches": true
+    },
+    {
+      "path": "scripts/check-research-search.ts",
+      "expected_sha256": "6883fad401a2321b8fda5aa6481321a1c92fc801fa1484984df6bbbfdb10a382",
+      "actual_sha256": "6883fad401a2321b8fda5aa6481321a1c92fc801fa1484984df6bbbfdb10a382",
+      "matches": true
+    },
+    {
+      "path": "docs/research-search.md",
+      "expected_sha256": "f59b2222b9ddf5204491d87ea9230aaac7db173f2e05eb61a9c52202b731b34c",
+      "actual_sha256": "f59b2222b9ddf5204491d87ea9230aaac7db173f2e05eb61a9c52202b731b34c",
+      "matches": true
+    },
+    {
+      "path": "evidence/research-search/provider-source-notes.json",
+      "expected_sha256": "350432130489bfc714e9882cb466ba4b67438922d0d8ab0a2a5d29390bf8de7a",
+      "actual_sha256": "350432130489bfc714e9882cb466ba4b67438922d0d8ab0a2a5d29390bf8de7a",
+      "matches": true
+    }
+  ]
+}

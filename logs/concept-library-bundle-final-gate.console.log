@@ -1,0 +1,10 @@
+﻿{
+  "artifact_count": 153,
+  "bundle": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.codex\\evidence\\runs\\concept-library-v1\\bundle.json",
+  "claim_count": 6,
+  "claim_provenance_rate": 1.0,
+  "errors": [],
+  "status": "PASS",
+  "workspace": "D:\\CodexWorkspaces\\mathematics-atlas\\project"
+}
+

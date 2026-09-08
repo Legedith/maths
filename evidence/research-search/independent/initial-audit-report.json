@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "audit_phase": "initial_pre_fix",
+  "reviewer": "/root/sol_symmetry_audit",
+  "reviewed_at_utc": "2026-09-08T02:41:20.4828189Z",
+  "subject": {
+    "repository": "D:/CodexWorkspaces/mathematics-atlas/project",
+    "git_commit": "97b5aaf",
+    "scope": "TheoremSearch adapter, API route, UI, page action wiring, WebMCP action, focused test, documentation and retained research-search evidence only",
+    "file_hashes": "reviewed-file-hashes.tsv"
+  },
+  "overall_status": "changes_required",
+  "findings": [
+    {
+      "id": "RS-UI-001",
+      "priority": "P2",
+      "title": "Saved packets omit retrieval rank and documented ranking signals",
+      "locations": [
+        "lib/research-search.ts:57",
+        "lib/research-search.ts:75",
+        "lib/research-search.ts:108",
+        "components/research-search.tsx:111",
+        "scripts/check-research-search.ts:40"
+      ],
+      "evidence": [
+        "packet-provenance-report.json",
+        "packet-provenance-console.log",
+        "official-source-notes.json"
+      ],
+      "observation": "The adapter preserves theorem/slogan IDs, extracted body, generated slogan, source metadata, query and retrieval time. It discards result position plus the provider's documented similarity and score fields. The UI knows the list index, but researchPacket receives only the normalized hit. The existing packet test compares the packet with that already normalized hit, so it cannot detect upstream-field loss.",
+      "impact": "A standalone saved packet cannot reconstruct where the hit appeared or retain the provider's contemporaneous ranking signals. That weakens later retrieval audit and comparison even though the UI's narrower claim about IDs and supplied text is true.",
+      "recommended_change": "Carry a one-based rank and finite score/similarity values into normalized hits and packets; retain the exact endpoint, method and request parameters in packet provenance; test from a raw provider-shaped response."
+    },
+    {
+      "id": "RS-UI-002",
+      "priority": "P2",
+      "title": "User queries and returned text are authorized for shared caching without a complete retention disclosure",
+      "locations": [
+        "app/api/research-search/route.ts:53",
+        "components/research-search.tsx:78"
+      ],
+      "evidence": [
+        "route-boundary-report.json",
+        "official-source-notes.json"
+      ],
+      "observation": "Successful query responses set Cache-Control to public,max-age=300. The UI says the query is sent to TheoremSearch, while the provider's current privacy policy states that it logs query text and filters.",
+      "impact": "The response header permits storage by shared intermediaries, and users are not told that the external provider retains query text. Mathematical queries can contain unpublished work or other sensitive text.",
+      "recommended_change": "Use a private no-store response policy and link or concisely disclose the provider's query-logging policy next to the submission control."
+    },
+    {
+      "id": "RS-UI-003",
+      "priority": "P3",
+      "title": "Unexpected parser and transport messages are returned verbatim",
+      "locations": [
+        "app/api/research-search/route.ts:56"
+      ],
+      "evidence": [
+        "route-boundary-report.json"
+      ],
+      "observation": "The catch branch returns error.message for every non-timeout Error. The actual-route harness observed a JSON parser diagnostic and an injected transport diagnostic in the HTTP body.",
+      "impact": "Clients receive low-level, variable implementation details rather than a stable bounded API message.",
+      "recommended_change": "Return fixed actionable messages for known size, timeout, upstream-status and representation failures, and map all other exceptions to a bounded generic 502 message."
+    }
+  ],
+  "verified_behavior": [
+    "Query validation rejects missing, whitespace-only and over-500-character inputs before provider fetch.",
+    "The route contacts only the fixed HTTPS provider endpoint with POST and n_results=8.",
+    "Manual redirects, non-OK upstream responses and missing bodies become 502 responses.",
+    "The 512000-byte response is accepted and 512001 bytes is rejected.",
+    "Timeout handling returns a specific bounded message.",
+    "Generated slogans and extracted bodies remain distinct through normalization, route JSON, UI labels and packet fields.",
+    "Unsafe URL schemes and credential-bearing URLs are suppressed; provider text is rendered through React text nodes.",
+    "The UI states that retrievals are unreviewed, definitions may be elsewhere, and a search miss does not establish novelty.",
+    "WebMCP declares returned content untrusted and uses the same bounded query validator and UI action."
+  ],
+  "checks": [
+    {
+      "id": "reproduction",
+      "status": "pass",
+      "evidence": [
+        "adapter-rerun/console.log",
+        "adapter-rerun/evidence/research-search/adapter-tests.json",
+        "route-boundary-report.json"
+      ],
+      "note": "Focused project adapter checks reran independently, and the actual route module passed mocked HTTP, timeout and byte-boundary cases."
+    },
+    {
+      "id": "source_verification",
+      "status": "pass",
+      "evidence": [
+        "official-source-notes.json",
+        "official-sources/fetch-manifest.json"
+      ],
+      "note": "The fixed request agrees with official provider documentation; response rank signals and query logging were checked against current first-party pages."
+    },
+    {
+      "id": "specification_compliance",
+      "status": "changes_required",
+      "evidence": [
+        "packet-provenance-report.json",
+        "route-boundary-report.json"
+      ],
+      "note": "Summary/body and unreviewed-scope requirements pass, but exact retrieval provenance and privacy/error boundaries need the listed corrections."
+    },
+    {
+      "id": "implementation_alignment",
+      "status": "changes_required",
+      "evidence": [
+        "reviewed-file-hashes.tsv",
+        "packet-provenance-report.json",
+        "route-boundary-report.json"
+      ],
+      "note": "Code matches most documented behavior, but source-packet tests overstate provenance coverage and public caching is not aligned with the sensitive free-text input surface."
+    }
+  ],
+  "limitations": [
+    "No broad browser or visual QA was performed, by assignment.",
+    "Provider calls were mocked in the route harness; retained live WebMCP observations were inspected rather than repeated.",
+    "This audit makes no claim about search quality, mathematical correctness, applicability, prevalence, impact or novelty.",
+    "Files outside the listed research-search delta were not reviewed."
+  ]
+}

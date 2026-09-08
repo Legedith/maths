@@ -1,0 +1,35 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--locked",
+    "python",
+    "-m",
+    "compileall",
+    "-q",
+    "src",
+    "scripts",
+    "..\\tests"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\backbone-import-work\\implementation",
+  "duration_seconds": 0.13840709999203682,
+  "ended_at_utc": "2026-09-08T03:23:13.828526+00:00",
+  "exit_code": 0,
+  "schema_version": "command-evidence-v1",
+  "started_at_utc": "2026-09-08T03:23:13.690110+00:00",
+  "stderr": {
+    "base64": "",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "utf8_text": "",
+    "valid_utf8": true
+  },
+  "stdout": {
+    "base64": "",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "utf8_text": "",
+    "valid_utf8": true
+  },
+  "windows_command_line": "uv run --locked python -m compileall -q src scripts ..\\tests"
+}

@@ -1,0 +1,33 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--locked",
+    "--no-sync",
+    "python",
+    "-m",
+    "mathgloss_import",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\backbone-audit-work\\reproduction-run-01"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\backbone-audit-work\\canonical-copy\\implementation",
+  "duration_seconds": 0.6633500999887474,
+  "ended_at_utc": "2026-09-08T03:45:58.158750+00:00",
+  "exit_code": 0,
+  "schema_version": "command-evidence-v1",
+  "started_at_utc": "2026-09-08T03:45:57.495389+00:00",
+  "stderr": {
+    "base64": "d2FybmluZzogYFZJUlRVQUxfRU5WPUQ6XENvZGV4V29ya3NwYWNlc1xtYXRoZW1hdGljcy1hdGxhc1x1di1jYWNoZVxidWlsZHMtdjBcLnRtcExzT2ZvTWAgZG9lcyBub3QgbWF0Y2ggdGhlIHByb2plY3QgZW52aXJvbm1lbnQgcGF0aCBgLnZlbnZgIGFuZCB3aWxsIGJlIGlnbm9yZWQ7IHVzZSBgLS1hY3RpdmVgIHRvIHRhcmdldCB0aGUgYWN0aXZlIGVudmlyb25tZW50IGluc3RlYWQK",
+    "bytes": 219,
+    "sha256": "3fd60a9e0bace699a623078bcc17c2f5d30f390738fac06458863487a54edc77",
+    "utf8_text": "warning: `VIRTUAL_ENV=D:\\CodexWorkspaces\\mathematics-atlas\\uv-cache\\builds-v0\\.tmpLsOfoM` does not match the project environment path `.venv` and will be ignored; use `--active` to target the active environment instead\n",
+    "valid_utf8": true
+  },
+  "stdout": {
+    "base64": "eyJmaWxlcyI6IFsiTUFUSEdMT1NTLUxJQ0VOU0UiLCAiY2FuZGlkYXRlLWluZGV4Lmpzb24iLCAiaW1wb3J0LWxlZGdlci5qc29ubCIsICJzdW1tYXJ5Lmpzb24iXSwgIm91dHB1dF9kaXIiOiAiRDpcXENvZGV4V29ya3NwYWNlc1xcbWF0aGVtYXRpY3MtYXRsYXNcXGJhY2tib25lLWF1ZGl0LXdvcmtcXHJlcHJvZHVjdGlvbi1ydW4tMDEiLCAic3RhdHVzIjogIm9rIn0NCg==",
+    "bytes": 211,
+    "sha256": "7da97cee2da1b6129c7d9dd77c99b5b5c3d65422d00fb03982eca5589cee5ad0",
+    "utf8_text": "{\"files\": [\"MATHGLOSS-LICENSE\", \"candidate-index.json\", \"import-ledger.jsonl\", \"summary.json\"], \"output_dir\": \"D:\\\\CodexWorkspaces\\\\mathematics-atlas\\\\backbone-audit-work\\\\reproduction-run-01\", \"status\": \"ok\"}\r\n",
+    "valid_utf8": true
+  },
+  "windows_command_line": "uv run --locked --no-sync python -m mathgloss_import D:\\CodexWorkspaces\\mathematics-atlas\\backbone-audit-work\\reproduction-run-01"
+}

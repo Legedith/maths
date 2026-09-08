@@ -1,0 +1,420 @@
+{
+  "integrated_at": "2026-09-08T03:54:15.331464+00:00",
+  "basis": "Independent scoped importer PASS; integration and library behavior remain separately reviewed.",
+  "records": [
+    {
+      "source": "backbone-import-work/docs/import-contract.md",
+      "destination": "evidence/mathgloss/retained/backbone-import-work/docs/import-contract.md",
+      "sha256": "a35f8e974012768b43afbd719c228aebecd3bc86c680d4f342f22071ea76c4cb",
+      "bytes": 3811
+    },
+    {
+      "source": "backbone-import-work/outputs/frozen/implementation-manifest.json",
+      "destination": "evidence/mathgloss/retained/backbone-import-work/outputs/frozen/implementation-manifest.json",
+      "sha256": "f5c3d409ced4f5cc75481b0adb7aa1e6168fd4f94dfe42a5a86f731a3700cb08",
+      "bytes": 2649
+    },
+    {
+      "source": "backbone-import-work/outputs/frozen/output-manifest.json",
+      "destination": "evidence/mathgloss/retained/backbone-import-work/outputs/frozen/output-manifest.json",
+      "sha256": "f798afaa7cb489ac815cff46721ed98b2db330411368b24082e1fe2ff9c52e5b",
+      "bytes": 3894
+    },
+    {
+      "source": "backbone-import-work/outputs/frozen/source-manifest.json",
+      "destination": "evidence/mathgloss/retained/backbone-import-work/outputs/frozen/source-manifest.json",
+      "sha256": "f0416b25f6719de7f7cc6de0e2597a91c3d2c4cb1ddccc17c563f47e37ec4be5",
+      "bytes": 829
+    },
+    {
+      "source": "backbone-import-work/implementation/src/mathgloss_import/core.py",
+      "destination": "evidence/mathgloss/retained/backbone-import-work/implementation/src/mathgloss_import/core.py",
+      "sha256": "f8ed60a8062569c3632e4ed23b8df9fa8523932793271f8ee410666b9f65b0d3",
+      "bytes": 18350
+    },
+    {
+      "source": "backbone-import-work/tests/test_importer.py",
+      "destination": "evidence/mathgloss/retained/backbone-import-work/tests/test_importer.py",
+      "sha256": "a90202561392379c78cf0a220e119287f5320833c2f81c89d0c76d16470c02b2",
+      "bytes": 16187
+    },
+    {
+      "source": "backbone-audit-work/source-audit.json",
+      "destination": "evidence/mathgloss/retained/backbone-audit-work/source-audit.json",
+      "sha256": "2dfad0b8bae70f33ff1cddc560d6c6409c3bc2271e56f9debc606465479b85e9",
+      "bytes": 23562
+    },
+    {
+      "source": "backbone-audit-work/import-source-oracle.json",
+      "destination": "evidence/mathgloss/retained/backbone-audit-work/import-source-oracle.json",
+      "sha256": "270f13890c3b168dbf3f8dfa62ce46a471244f27c1c2fb8ded057867c0cd5018",
+      "bytes": 3656655
+    },
+    {
+      "source": "backbone-audit-work/independent-cases/manifest.json",
+      "destination": "evidence/mathgloss/retained/backbone-audit-work/independent-cases/manifest.json",
+      "sha256": "3060fd473060b7ac30f5872ce635af0c91aad61ce3de90952944c8c374c39064",
+      "bytes": 2302
+    },
+    {
+      "source": "backbone-audit-work/frozen-output-verification.json",
+      "destination": "evidence/mathgloss/retained/backbone-audit-work/frozen-output-verification.json",
+      "sha256": "503c0fd7c8ad41b2bf002c871f04d905ca7a46adef136e7710d8548a6f38931c",
+      "bytes": 12597
+    },
+    {
+      "source": "backbone-audit-work/independent-case-results.json",
+      "destination": "evidence/mathgloss/retained/backbone-audit-work/independent-case-results.json",
+      "sha256": "0eca54cf1478d4a14341bf09febf67e30fd7c38f540c8ea756968a5d74b7da24",
+      "bytes": 2380
+    },
+    {
+      "source": "backbone-audit-work/reproduction-comparison.json",
+      "destination": "evidence/mathgloss/retained/backbone-audit-work/reproduction-comparison.json",
+      "sha256": "5360c3ee45b24d1a6106f5dea3e472c73a0e8b7328b57675efc3025a2b80591f",
+      "bytes": 1414
+    },
+    {
+      "source": "backbone-audit-work/canonical-logs/02-unittest.json",
+      "destination": "evidence/mathgloss/retained/backbone-audit-work/canonical-logs/02-unittest.json",
+      "sha256": "31961758a012b18c6cf987c9712cb91e3a22624510c47f730c1a6c7392eac0b2",
+      "bytes": 9225
+    },
+    {
+      "source": "backbone-audit-work/canonical-logs/04-frozen-output-verification-pass.json",
+      "destination": "evidence/mathgloss/retained/backbone-audit-work/canonical-logs/04-frozen-output-verification-pass.json",
+      "sha256": "21c5b3d48f0237fcab957f9fa6463b10211d9aff7d7b0ecdf567c258fcba8ed8",
+      "bytes": 1753
+    },
+    {
+      "source": "backbone-audit-work/canonical-logs/05-independent-cases.json",
+      "destination": "evidence/mathgloss/retained/backbone-audit-work/canonical-logs/05-independent-cases.json",
+      "sha256": "be9682f540d0ca74968871a0cf9d80e3d3d65aaca19aa8e914747511fb93d636",
+      "bytes": 2035
+    },
+    {
+      "source": "backbone-audit-work/canonical-logs/06-full-reproduction-01.json",
+      "destination": "evidence/mathgloss/retained/backbone-audit-work/canonical-logs/06-full-reproduction-01.json",
+      "sha256": "7bc20dcb39d9e473603167e03bb099dfd8fb153a1e51e26d607c45c0f1d67b4b",
+      "bytes": 2091
+    },
+    {
+      "source": "backbone-audit-work/canonical-logs/07-full-reproduction-02.json",
+      "destination": "evidence/mathgloss/retained/backbone-audit-work/canonical-logs/07-full-reproduction-02.json",
+      "sha256": "e781fa8c4fa96e037b4d5ce0b0bc870577a96de805d08e3b6a70b7250d28bd81",
+      "bytes": 2091
+    },
+    {
+      "source": "backbone-audit-work/canonical-logs/08-reproduction-compare.json",
+      "destination": "evidence/mathgloss/retained/backbone-audit-work/canonical-logs/08-reproduction-compare.json",
+      "sha256": "d4997166e0ed117dff7ffd4fedee5d04dba1b152b73bbf98ce5f0ba7e7add889",
+      "bytes": 1657
+    },
+    {
+      "source": "backbone-import-work/outputs/logs/01-uv-sync-attempt01.txt",
+      "destination": "evidence/mathgloss/retained/backbone-import-work/outputs/logs/01-uv-sync-attempt01.txt",
+      "sha256": "a73ba3716544792448b58af90297626dc2ca1fcb425ab08638500a34c9b90c62",
+      "bytes": 1192
+    },
+    {
+      "source": "backbone-import-work/outputs/logs/15-scope-check.json",
+      "destination": "evidence/mathgloss/retained/backbone-import-work/outputs/logs/15-scope-check.json",
+      "sha256": "9b1f52d004fb966361b992e49fc4ed44665b33f09ed0abda7758a75c0343e85b",
+      "bytes": 959
+    },
+    {
+      "source": "backbone-import-work/outputs/logs/18-freeze-manifests.json",
+      "destination": "evidence/mathgloss/retained/backbone-import-work/outputs/logs/18-freeze-manifests.json",
+      "sha256": "81495f6e1a566253f4af08d59329fd689d61439464eb1be6bedaefe9f4bcc234",
+      "bytes": 2473
+    },
+    {
+      "source": "backbone-audit-work/final-importer-audit.json",
+      "destination": "evidence/mathgloss/independent/final-importer-audit.json",
+      "sha256": "260a9424c45d5c2725d2bae7630c6bef9f8ac8b0de0f39224814d179559b3b46",
+      "bytes": 11480
+    },
+    {
+      "source": "backbone-import-work/outputs/logs/01-uv-sync-attempt01.txt",
+      "destination": "evidence/mathgloss/worker/logs/01-uv-sync-attempt01.txt",
+      "sha256": "a73ba3716544792448b58af90297626dc2ca1fcb425ab08638500a34c9b90c62",
+      "bytes": 1192
+    },
+    {
+      "source": "backbone-import-work/outputs/logs/02-uv-lock-and-sync.txt",
+      "destination": "evidence/mathgloss/worker/logs/02-uv-lock-and-sync.txt",
+      "sha256": "408bf5021f063a0877d806f68d2c50ba7181c55d5e6b6c7cd1c18b6460870a4e",
+      "bytes": 2541
+    },
+    {
+      "source": "backbone-import-work/outputs/logs/03-unittest-attempt01.txt",
+      "destination": "evidence/mathgloss/worker/logs/03-unittest-attempt01.txt",
+      "sha256": "89c6927ab72dac648904f63d0fce3304d160841bda60fb17220929a417fc1aaa",
+      "bytes": 6957
+    },
+    {
+      "source": "backbone-import-work/outputs/logs/04-full-run-01.txt",
+      "destination": "evidence/mathgloss/worker/logs/04-full-run-01.txt",
+      "sha256": "2e0da9605998b1df5930e2635c1cfd6cf5ef562d1947aef3678d386ed6a069cf",
+      "bytes": 580
+    },
+    {
+      "source": "backbone-import-work/outputs/logs/05-full-run-02.txt",
+      "destination": "evidence/mathgloss/worker/logs/05-full-run-02.txt",
+      "sha256": "e132f6c44bbf5adbe6f9eeddddfaa26d62252771618bb440fa0a5277df09a4ca",
+      "bytes": 580
+    },
+    {
+      "source": "backbone-import-work/outputs/logs/06-full-run-byte-compare.txt",
+      "destination": "evidence/mathgloss/worker/logs/06-full-run-byte-compare.txt",
+      "sha256": "5a5df8fde9df71d8ab85183d90914234e3984c94dbf139acd4b75694b0a3032e",
+      "bytes": 933
+    },
+    {
+      "source": "backbone-import-work/outputs/logs/07-unittest-attempt02.txt",
+      "destination": "evidence/mathgloss/worker/logs/07-unittest-attempt02.txt",
+      "sha256": "91be81f821e46ed16a30bf93314550e366e9500d72045f06428e05d50c40c832",
+      "bytes": 7033
+    },
+    {
+      "source": "backbone-import-work/outputs/logs/08-uv-sync-final.json",
+      "destination": "evidence/mathgloss/worker/logs/08-uv-sync-final.json",
+      "sha256": "c238aa971ae87f3d78affcda68c583ad525277f911172b324072fa7b4a0ad0e8",
+      "bytes": 894
+    },
+    {
+      "source": "backbone-import-work/outputs/logs/09-unittest-final-01.json",
+      "destination": "evidence/mathgloss/worker/logs/09-unittest-final-01.json",
+      "sha256": "5fecd55f4a2f176ca5ae0ce30eedd81893ba64cdf184ee8d630b3466950bb911",
+      "bytes": 8667
+    },
+    {
+      "source": "backbone-import-work/outputs/logs/10-compileall-final.json",
+      "destination": "evidence/mathgloss/worker/logs/10-compileall-final.json",
+      "sha256": "293a75a5c665f3cc85ca2c37f0c43f91c7314efd307c86e01353556ba08ae300",
+      "bytes": 903
+    },
+    {
+      "source": "backbone-import-work/outputs/logs/11-full-run-final-01.json",
+      "destination": "evidence/mathgloss/worker/logs/11-full-run-final-01.json",
+      "sha256": "ebcf2442e744242caa1c44bd45da75c95ff73ad1403f8a26540d15bac254360e",
+      "bytes": 1308
+    },
+    {
+      "source": "backbone-import-work/outputs/logs/12-full-run-final-02.json",
+      "destination": "evidence/mathgloss/worker/logs/12-full-run-final-02.json",
+      "sha256": "fea6537664c5354b4867f83544dba115a01bc48ab8643c60d77a9d6c0c5cb2fa",
+      "bytes": 1308
+    },
+    {
+      "source": "backbone-import-work/outputs/logs/13-corrected-subset.json",
+      "destination": "evidence/mathgloss/worker/logs/13-corrected-subset.json",
+      "sha256": "7b1ea04b6f5330f8eefc3ee47482b3b1388b6b9ad78d93a182830345d4c4694e",
+      "bytes": 1102
+    },
+    {
+      "source": "backbone-import-work/outputs/logs/14-unittest-final-02.json",
+      "destination": "evidence/mathgloss/worker/logs/14-unittest-final-02.json",
+      "sha256": "edd0aafaa3792fa1a81ecfb0a7baf17ccc1038643e289e9bdd79477a4b127a0c",
+      "bytes": 8665
+    },
+    {
+      "source": "backbone-import-work/outputs/logs/15-scope-check.json",
+      "destination": "evidence/mathgloss/worker/logs/15-scope-check.json",
+      "sha256": "9b1f52d004fb966361b992e49fc4ed44665b33f09ed0abda7758a75c0343e85b",
+      "bytes": 959
+    },
+    {
+      "source": "backbone-import-work/outputs/logs/16-scope-check-pass.json",
+      "destination": "evidence/mathgloss/worker/logs/16-scope-check-pass.json",
+      "sha256": "3177b06d1e7eba984052de7ba020fc0896a7cf10819ac845a8093d2ed9b35ff0",
+      "bytes": 1616
+    },
+    {
+      "source": "backbone-import-work/outputs/logs/17-compileall-final-02.json",
+      "destination": "evidence/mathgloss/worker/logs/17-compileall-final-02.json",
+      "sha256": "db81691146662cead937102bbace4be780bb160864235fee64cb6c9ed5d19756",
+      "bytes": 901
+    },
+    {
+      "source": "backbone-import-work/outputs/logs/18-freeze-manifests.json",
+      "destination": "evidence/mathgloss/worker/logs/18-freeze-manifests.json",
+      "sha256": "81495f6e1a566253f4af08d59329fd689d61439464eb1be6bedaefe9f4bcc234",
+      "bytes": 2473
+    },
+    {
+      "source": "backbone-import-work/outputs/logs/19-freeze-manifests-pass.json",
+      "destination": "evidence/mathgloss/worker/logs/19-freeze-manifests-pass.json",
+      "sha256": "d7e698cf08b986de45f281191818ae8acec76db688c4a21df036bd3fc1da6d8a",
+      "bytes": 1051
+    },
+    {
+      "source": "backbone-import-work/outputs/logs/20-frozen-hash-recheck.json",
+      "destination": "evidence/mathgloss/worker/logs/20-frozen-hash-recheck.json",
+      "sha256": "88c7f8614b0fa40f5012ee260c94324d2052119e9aa52e9b5f94ad8437a5b773",
+      "bytes": 3475
+    },
+    {
+      "source": "backbone-audit-work/canonical-logs/01-uv-sync.json",
+      "destination": "evidence/mathgloss/independent/canonical-logs/01-uv-sync.json",
+      "sha256": "ccc99d5f5020ccf6d13bdc042a031960603267943e168a2ca25f61d00d7299c2",
+      "bytes": 2586
+    },
+    {
+      "source": "backbone-audit-work/canonical-logs/02-unittest.json",
+      "destination": "evidence/mathgloss/independent/canonical-logs/02-unittest.json",
+      "sha256": "31961758a012b18c6cf987c9712cb91e3a22624510c47f730c1a6c7392eac0b2",
+      "bytes": 9225
+    },
+    {
+      "source": "backbone-audit-work/canonical-logs/03-frozen-output-verification.json",
+      "destination": "evidence/mathgloss/independent/canonical-logs/03-frozen-output-verification.json",
+      "sha256": "fcc428e5bfe2bb647b8e133ce5b267e99033533c53fcb0c4c15f4b467eebf13e",
+      "bytes": 2175
+    },
+    {
+      "source": "backbone-audit-work/canonical-logs/04-frozen-output-verification-pass.json",
+      "destination": "evidence/mathgloss/independent/canonical-logs/04-frozen-output-verification-pass.json",
+      "sha256": "21c5b3d48f0237fcab957f9fa6463b10211d9aff7d7b0ecdf567c258fcba8ed8",
+      "bytes": 1753
+    },
+    {
+      "source": "backbone-audit-work/canonical-logs/05-independent-cases.json",
+      "destination": "evidence/mathgloss/independent/canonical-logs/05-independent-cases.json",
+      "sha256": "be9682f540d0ca74968871a0cf9d80e3d3d65aaca19aa8e914747511fb93d636",
+      "bytes": 2035
+    },
+    {
+      "source": "backbone-audit-work/canonical-logs/06-full-reproduction-01.json",
+      "destination": "evidence/mathgloss/independent/canonical-logs/06-full-reproduction-01.json",
+      "sha256": "7bc20dcb39d9e473603167e03bb099dfd8fb153a1e51e26d607c45c0f1d67b4b",
+      "bytes": 2091
+    },
+    {
+      "source": "backbone-audit-work/canonical-logs/07-full-reproduction-02.json",
+      "destination": "evidence/mathgloss/independent/canonical-logs/07-full-reproduction-02.json",
+      "sha256": "e781fa8c4fa96e037b4d5ce0b0bc870577a96de805d08e3b6a70b7250d28bd81",
+      "bytes": 2091
+    },
+    {
+      "source": "backbone-audit-work/canonical-logs/08-reproduction-compare.json",
+      "destination": "evidence/mathgloss/independent/canonical-logs/08-reproduction-compare.json",
+      "sha256": "d4997166e0ed117dff7ffd4fedee5d04dba1b152b73bbf98ce5f0ba7e7add889",
+      "bytes": 1657
+    },
+    {
+      "source": "backbone-audit-work/canonical-logs/09-write-final-audit.json",
+      "destination": "evidence/mathgloss/independent/canonical-logs/09-write-final-audit.json",
+      "sha256": "69f8b57c29fdae3cef2fa4bcbd7c1f908cb09bda56658bdfb97c708af503e8c5",
+      "bytes": 1669
+    },
+    {
+      "source": "backbone-audit-work/independent-cases/bad-header-extra.csv",
+      "destination": "evidence/mathgloss/independent/cases/bad-header-extra.csv",
+      "sha256": "965c1ea5cc4fc4af15453c8edb073bb7ef2720698b6cc5186fd0c0fcee672c30",
+      "bytes": 237
+    },
+    {
+      "source": "backbone-audit-work/independent-cases/bad-header-missing.csv",
+      "destination": "evidence/mathgloss/independent/cases/bad-header-missing.csv",
+      "sha256": "4e7f9affed2f4b33083b65fe36188bc18aa14787d20b34322327661e0673bfcc",
+      "bytes": 203
+    },
+    {
+      "source": "backbone-audit-work/independent-cases/bad-utf8.csv",
+      "destination": "evidence/mathgloss/independent/cases/bad-utf8.csv",
+      "sha256": "6d162e67c06775325b7ca6606381553accb084c54882d73c0dc6487ffa20aded",
+      "bytes": 212
+    },
+    {
+      "source": "backbone-audit-work/independent-cases/bad-width-extra.csv",
+      "destination": "evidence/mathgloss/independent/cases/bad-width-extra.csv",
+      "sha256": "45af7a7314b3dbdadc11728c936cfd834507efa8f1ce9e412e558e3b715e4758",
+      "bytes": 226
+    },
+    {
+      "source": "backbone-audit-work/independent-cases/bad-width-missing.csv",
+      "destination": "evidence/mathgloss/independent/cases/bad-width-missing.csv",
+      "sha256": "71fa3b142f2787e76df92826db054f5f7ffe6a723c975d90c8eb7d997f4fcdd4",
+      "bytes": 219
+    },
+    {
+      "source": "backbone-audit-work/independent-cases/edge-cases.csv",
+      "destination": "evidence/mathgloss/independent/cases/edge-cases.csv",
+      "sha256": "e90b6343b4fa8f0251d5b6c97dd10d7e78d1ab1a4ec0c1f86c492cf6c6fab815",
+      "bytes": 805
+    },
+    {
+      "source": "backbone-audit-work/independent-cases/manifest.json",
+      "destination": "evidence/mathgloss/independent/cases/manifest.json",
+      "sha256": "3060fd473060b7ac30f5872ce635af0c91aad61ce3de90952944c8c374c39064",
+      "bytes": 2302
+    },
+    {
+      "source": "backbone-import-work/implementation/src/mathgloss_import/__init__.py",
+      "destination": "src/mathgloss_import/__init__.py",
+      "sha256": "415f22d1a69a143feb5cbbf80a2981d001459039c132944706ea0718853aeeef",
+      "bytes": 806
+    },
+    {
+      "source": "backbone-import-work/implementation/src/mathgloss_import/core.py",
+      "destination": "src/mathgloss_import/core.py",
+      "sha256": "f8ed60a8062569c3632e4ed23b8df9fa8523932793271f8ee410666b9f65b0d3",
+      "bytes": 18350
+    },
+    {
+      "source": "backbone-import-work/outputs/full-run-final-01/candidate-index.json",
+      "destination": "data/mathgloss/candidate-index.json",
+      "sha256": "282ed1fd858595b782c856fbd2c96964a0b6ff3850fedf21105ca9bbb7edb4da",
+      "bytes": 5134168
+    },
+    {
+      "source": "backbone-import-work/outputs/full-run-final-01/summary.json",
+      "destination": "data/mathgloss/summary.json",
+      "sha256": "0102f6fca4237d80d3e4e167c476f118d5cfaff41b5b325882bc784eecfa6e58",
+      "bytes": 1439
+    },
+    {
+      "source": "backbone-import-work/outputs/full-run-final-01/MATHGLOSS-LICENSE",
+      "destination": "data/mathgloss/MATHGLOSS-LICENSE",
+      "sha256": "5dc6b930900926814fc7bb9ff45dfcceae3aa33780eb010c83e6df58493594e7",
+      "bytes": 1066
+    },
+    {
+      "source": "backbone-import-work/outputs/full-run-final-01/import-ledger.jsonl",
+      "destination": "evidence/mathgloss/import-ledger.jsonl",
+      "sha256": "14d8e9cc972a83ac4267d4b168d9510f74c65abbae509e7149012ba653c4ad61",
+      "bytes": 6504559
+    },
+    {
+      "source": "backbone-reuse-work/raw/mathgloss/data/database.csv",
+      "destination": "data/mathgloss/source/database.csv",
+      "sha256": "933a72820fe7ede53a803b750a480def205677e5722ae5f9589b0d1d9bf832b2",
+      "bytes": 674640
+    },
+    {
+      "source": "backbone-import-work/outputs/corrected-ten-record-subset.json",
+      "destination": "evidence/mathgloss/worker/corrected-ten-record-subset.json",
+      "sha256": "9381c9b79b91d3578a3434368a20c34cc5b99ae2c9cea2989ef502a8d0416ad5",
+      "bytes": 14375
+    },
+    {
+      "source": "backbone-import-work/outputs/corrected-ten-record-codepoint-fidelity.json",
+      "destination": "evidence/mathgloss/worker/corrected-ten-record-codepoint-fidelity.json",
+      "sha256": "8d4bde7e880a33eef0f8875f98269145c5317f38bbf313d305d499803b612389",
+      "bytes": 149734
+    },
+    {
+      "source": "backbone-reuse-work/records/sample-metadata-records.json",
+      "destination": "evidence/mathgloss/reuse-history/sample-metadata-records.json",
+      "sha256": "e86f123b0e754ea1ee52af917899dc46c4db6747662be1f92dbaa94f140afb4e",
+      "bytes": 21988
+    },
+    {
+      "source": "backbone-reuse-work/RECOMMENDATION.md",
+      "destination": "evidence/mathgloss/reuse-history/RECOMMENDATION.md",
+      "sha256": "9763c75c93f3ca7ed1b87d2be563e6f0b7bc129331aed12a57abbeed85f125aa",
+      "bytes": 12597
+    }
+  ]
+}

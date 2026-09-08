@@ -1,0 +1,112 @@
+(node:14296) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("file%3A///D%3A/CodexWorkspaces/mathematics-atlas/retrieval-study-work/ui-audit/alias-loader.mjs", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+{
+  "passed": true,
+  "subject": {
+    "route": {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/project/app/api/research-search/route.ts",
+      "sha256": "cd93abe5269aece8b98a57de687e431231008925571dffe467b24c1c0f3cc909"
+    },
+    "adapter": {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/project/lib/research-search.ts",
+      "sha256": "e2e81580a729dbdbe074faf05249d6708afbf66b69a3f66d20d007224e2b2aa6"
+    }
+  },
+  "runtime": "v24.12.0",
+  "checks": [
+    {
+      "name": "query-missing",
+      "status": 400,
+      "noStore": true,
+      "passed": true
+    },
+    {
+      "name": "query-whitespace",
+      "status": 400,
+      "noStore": true,
+      "passed": true
+    },
+    {
+      "name": "query-over-500",
+      "status": 400,
+      "noStore": true,
+      "passed": true
+    },
+    {
+      "name": "valid-request-field-and-ranking-preservation",
+      "status": 200,
+      "noStore": true,
+      "normalizedFields": [
+        "generatedSummary",
+        "name",
+        "paper",
+        "rank",
+        "score",
+        "similarity",
+        "sloganId",
+        "sourceUrl",
+        "statement",
+        "theoremId",
+        "theoremType"
+      ],
+      "passed": true
+    },
+    {
+      "name": "upstream-503",
+      "status": 502,
+      "noStore": true,
+      "passed": true
+    },
+    {
+      "name": "upstream-redirect",
+      "status": 502,
+      "noStore": true,
+      "passed": true
+    },
+    {
+      "name": "missing-body",
+      "status": 502,
+      "noStore": true,
+      "passed": true
+    },
+    {
+      "name": "invalid-json-controlled-error",
+      "status": 502,
+      "noStore": true,
+      "passed": true
+    },
+    {
+      "name": "malformed-provider-shape",
+      "status": 502,
+      "noStore": true,
+      "passed": true
+    },
+    {
+      "name": "body-exactly-512000-bytes",
+      "status": 200,
+      "noStore": true,
+      "passed": true
+    },
+    {
+      "name": "body-512001-bytes",
+      "status": 502,
+      "noStore": true,
+      "passed": true
+    },
+    {
+      "name": "timeout",
+      "status": 502,
+      "noStore": true,
+      "passed": true
+    },
+    {
+      "name": "unexpected-network-error-is-controlled",
+      "status": 502,
+      "noStore": true,
+      "returnedError": "The research service response could not be read. Try again later.",
+      "passed": true
+    }
+  ],
+  "scope": "Actual frozen delta route module with mocked upstream transport; verifies no-store, controlled errors, HTTP, byte, timeout, exact request, ranking fields and summary/body separation without contacting the provider."
+}

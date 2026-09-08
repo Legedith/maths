@@ -1,0 +1,9 @@
+Portable public structured-transfer evaluation
+started_at=2026-09-08T04:08:33.171699Z
+completed_at=2026-09-08T04:08:33.218218Z
+algorithm_version=atlas-checks/1.0.2
+verified_frozen_files=19
+cases=80
+implementation_exception_count=0
+run_jsonl_sha256=c2e4f4fe94e08318324ea779a152f4252ccc07c82c7bf82d44c2021fd98ebb78
+comparison_status=run retained; invoking comparator next

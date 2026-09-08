@@ -1,0 +1,39 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--isolated",
+    "--no-project",
+    "--python",
+    "3.13",
+    "python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work\\portable-copy\\scripts\\import_mathgloss.py",
+    "--source-csv",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work\\portable-copy\\data\\database.csv",
+    "--source-license",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work\\portable-copy\\data\\MATHGLOSS-LICENSE",
+    "--output-dir",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work\\portable-reproduction"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work",
+  "duration_seconds": 0.8475355000118725,
+  "ended_at_utc": "2026-09-08T04:12:39.852079+00:00",
+  "exit_code": 0,
+  "schema_version": "command-evidence-v1",
+  "started_at_utc": "2026-09-08T04:12:39.004534+00:00",
+  "stderr": {
+    "base64": "V0FSTiBgLS1uby1wcm9qZWN0YCB3YXMgcHJvdmlkZWQsIGJ1dCBubyBwcm9qZWN0IHdhcyBmb3VuZAo=",
+    "bytes": 59,
+    "sha256": "dd7241fb9634d51d4b90a8782d9a26dd3fe2ada28ad873374b2d9b28b76827ef",
+    "utf8_text": "WARN `--no-project` was provided, but no project was found\n",
+    "valid_utf8": true
+  },
+  "stdout": {
+    "base64": "ew0KICAiZmlsZXMiOiB7DQogICAgIk1BVEhHTE9TUy1MSUNFTlNFIjogIjVkYzZiOTMwOTAwOTI2ODE0ZmM3YmI5ZmY0NWRmY2NlYWUzYWEzMzc4MGViMDEwYzgzZTZkZjU4NDkzNTk0ZTciLA0KICAgICJjYW5kaWRhdGUtaW5kZXguanNvbiI6ICIyODJlZDFmZDg1ODU5NWI3ODJjODU2ZmJkMmM5Njk2NGEwYjZmZjM4NTBmZWRmMjExMDVjYTliYmI3ZWRiNGRhIiwNCiAgICAiaW1wb3J0LWxlZGdlci5qc29ubCI6ICIxNGQ4ZTljYzk3MmE4M2FjNDI2N2Q0YjE2OGQ5NTEwZjc0YzY1YWJiYWU1MDllNzE0OTAxMmJhNjUzYzRhZDYxIiwNCiAgICAic3VtbWFyeS5qc29uIjogIjAxMDJmNmZjYTQyMzdkODBkM2U0ZTE2N2M0NzZmMTE4ZDVjZmFmZjQxYjViMzI1ODgyYmM3ODRlZWNmYTZlNTgiDQogIH0sDQogICJzdW1tYXJ5Ijogew0KICAgICJzY2hlbWFfdmVyc2lvbiI6ICJtYXRoZ2xvc3MtbWV0YWRhdGEtc2VlZC12MSIsDQogICAgImNhdGFsb2dfc3RhdHVzIjogInVucmV2aWV3ZWRfZXh0ZXJuYWxfbGlua19jYXRhbG9ndWUiLA0KICAgICJzb3VyY2UiOiB7DQogICAgICAicHJvamVjdCI6ICJNYXRoR2xvc3MiLA0KICAgICAgInJlcG9zaXRvcnkiOiAiaHR0cHM6Ly9naXRodWIuY29tL01hdGhHbG9zcy9NYXRoR2xvc3MiLA0KICAgICAgImNvbW1pdCI6ICJiOGY2NTk2MDU0ODZmODBmMjgxNjUxNWY1MjVhZjJjMzk1YzcxMWZhIiwNCiAgICAgICJjc3ZfcGF0aCI6ICJkYXRhL2RhdGFiYXNlLmNzdiIsDQogICAgICAic2hhMjU2IjogIjkzM2E3MjgyMGZlN2VkZTUzYTgwM2I3NTBhNDgwZGVmMjA1Njc3ZTU3MjJhZTVmOTU4OWIwZDFkOWJmODMyYjIiLA0KICAgICAgImJ5dGVzIjogNjc0NjQwLA0KICAgICAgImhlYWRlciI6IFsNCiAgICAgICAgIldpa2lkYXRhIElEIiwNCiAgICAgICAgIldpa2lkYXRhIExhYmVsIiwNCiAgICAgICAgIkJDVCBOYW1lIiwNCiAgICAgICAgIkJDVCBMaW5rIiwNCiAgICAgICAgIkNoaWNhZ28gTmFtZSIsDQogICAgICAgICJDaGljYWdvIExpbmsiLA0KICAgICAgICAiQ2xvd2RlciBOYW1lIiwNCiAgICAgICAgIkNsb3dkZXIgTGluayIsDQogICAgICAgICJDb250ZXh0IE5hbWUiLA0KICAgICAgICAiQ29udGV4dCBMaW5rIiwNCiAgICAgICAgIk1hdGhsaWIgTmFtZSIsDQogICAgICAgICJNYXRobGliIExpbmsiLA0KICAgICAgICAibkxhYiBOYW1lIiwNCiAgICAgICAgIm5MYWIgTGluayIsDQogICAgICAgICJQbGFuZXRNYXRoIE5hbWUiLA0KICAgICAgICAiUGxhbmV0TWF0aCBMaW5rIg0KICAgICAgXQ0KICAgIH0sDQogICAgImNvdW50cyI6IHsNCiAgICAgICJkYXRhX3JlY29yZHNfdG90YWwiOiA0ODE0LA0KICAgICAgImxlZGdlcl9yZWNvcmRzIjogNDgxNCwNCiAgICAgICJhY2NlcHRlZF9yb3dzIjogNDgxNCwNCiAgICAgICJyZWplY3RlZF9yb3dzIjogMCwNCiAgICAgICJjYW5kaWRhdGVfcmVjb3JkcyI6IDQ4MTQsDQogICAgICAicmVjb3JkX3dpZHRoX21pc21hdGNoX3Jvd3MiOiAwLA0KICAgICAgImludGVycHJldGVkX2xpbmtfcGFpcl9zbG90cyI6IDMzNjk4LA0KICAgICAgImFic2VudF9saW5rX3BhaXJzIjogMjY0ODEsDQogICAgICAibm9uZW1wdHlfbGlua19wYWlycyI6IDcyMTcsDQogICAgICAicmV0YWluZWRfbGlua19wYWlycyI6IDcyMTcsDQogICAgICAicmVqZWN0ZWRfbGlua19wYWlycyI6IDAsDQogICAgICAiaW5jb21wbGV0ZV9saW5rX3BhaXJzIjogMCwNCiAgICAgICJ1bnNhZmVfb3JfaW52YWxpZF91cmxfcGFpcnMiOiAwLA0KICAgICAgImR1cGxpY2F0ZV9xaWRfZ3JvdXBzIjogMCwNCiAgICAgICJyb3dzX2luX2R1cGxpY2F0ZV9xaWRfZ3JvdXBzIjogMA0KICAgIH0sDQogICAgImFjY291bnRpbmciOiB7DQogICAgICAicm93c19jb21wbGV0ZSI6IHRydWUsDQogICAgICAiaW50ZXJwcmV0ZWRfbGlua3NfY29tcGxldGUiOiB0cnVlLA0KICAgICAgIm5vbmVtcHR5X2xpbmtzX2NvbXBsZXRlIjogdHJ1ZQ0KICAgIH0sDQogICAgImR1cGxpY2F0ZV9xaWRzIjogW10NCiAgfQ0KfQ0K",
+    "bytes": 2010,
+    "sha256": "a1f117d9b29c92c8ee1c1230b8d568cdc1fbe2eeff5d3a68754fd81c334f77e3",
+    "utf8_text": "{\r\n  \"files\": {\r\n    \"MATHGLOSS-LICENSE\": \"5dc6b930900926814fc7bb9ff45dfcceae3aa33780eb010c83e6df58493594e7\",\r\n    \"candidate-index.json\": \"282ed1fd858595b782c856fbd2c96964a0b6ff3850fedf21105ca9bbb7edb4da\",\r\n    \"import-ledger.jsonl\": \"14d8e9cc972a83ac4267d4b168d9510f74c65abbae509e7149012ba653c4ad61\",\r\n    \"summary.json\": \"0102f6fca4237d80d3e4e167c476f118d5cfaff41b5b325882bc784eecfa6e58\"\r\n  },\r\n  \"summary\": {\r\n    \"schema_version\": \"mathgloss-metadata-seed-v1\",\r\n    \"catalog_status\": \"unreviewed_external_link_catalogue\",\r\n    \"source\": {\r\n      \"project\": \"MathGloss\",\r\n      \"repository\": \"https://github.com/MathGloss/MathGloss\",\r\n      \"commit\": \"b8f659605486f80f2816515f525af2c395c711fa\",\r\n      \"csv_path\": \"data/database.csv\",\r\n      \"sha256\": \"933a72820fe7ede53a803b750a480def205677e5722ae5f9589b0d1d9bf832b2\",\r\n      \"bytes\": 674640,\r\n      \"header\": [\r\n        \"Wikidata ID\",\r\n        \"Wikidata Label\",\r\n        \"BCT Name\",\r\n        \"BCT Link\",\r\n        \"Chicago Name\",\r\n        \"Chicago Link\",\r\n        \"Clowder Name\",\r\n        \"Clowder Link\",\r\n        \"Context Name\",\r\n        \"Context Link\",\r\n        \"Mathlib Name\",\r\n        \"Mathlib Link\",\r\n        \"nLab Name\",\r\n        \"nLab Link\",\r\n        \"PlanetMath Name\",\r\n        \"PlanetMath Link\"\r\n      ]\r\n    },\r\n    \"counts\": {\r\n      \"data_records_total\": 4814,\r\n      \"ledger_records\": 4814,\r\n      \"accepted_rows\": 4814,\r\n      \"rejected_rows\": 0,\r\n      \"candidate_records\": 4814,\r\n      \"record_width_mismatch_rows\": 0,\r\n      \"interpreted_link_pair_slots\": 33698,\r\n      \"absent_link_pairs\": 26481,\r\n      \"nonempty_link_pairs\": 7217,\r\n      \"retained_link_pairs\": 7217,\r\n      \"rejected_link_pairs\": 0,\r\n      \"incomplete_link_pairs\": 0,\r\n      \"unsafe_or_invalid_url_pairs\": 0,\r\n      \"duplicate_qid_groups\": 0,\r\n      \"rows_in_duplicate_qid_groups\": 0\r\n    },\r\n    \"accounting\": {\r\n      \"rows_complete\": true,\r\n      \"interpreted_links_complete\": true,\r\n      \"nonempty_links_complete\": true\r\n    },\r\n    \"duplicate_qids\": []\r\n  }\r\n}\r\n",
+    "valid_utf8": true
+  },
+  "windows_command_line": "uv run --isolated --no-project --python 3.13 python D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work\\portable-copy\\scripts\\import_mathgloss.py --source-csv D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work\\portable-copy\\data\\database.csv --source-license D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work\\portable-copy\\data\\MATHGLOSS-LICENSE --output-dir D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work\\portable-reproduction"
+}

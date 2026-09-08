@@ -1,0 +1,10 @@
+{
+  "schema_version": "raw-command-log-v1",
+  "command": "uv run --no-project --python 3.12 python write_publication_manifest.py",
+  "cwd": "D:/CodexWorkspaces/mathematics-atlas/library-audit-work",
+  "recorded_utc": "2026-09-08T04:33:05.3969976Z",
+  "wall_time_seconds": 0.2083601,
+  "exit_code": 0,
+  "stdout": "{\"final_report_sha256\": \"42b0aac78525ac8863d2292834fdcf360293c58b10a8e25f0b2a11b649cb3bfb\", \"frozen_files_verified\": 24, \"publication_files\": 31, \"publication_manifest_sha256\": \"fb70b404f43d71e83c564d003005e7438cc40fbb572a392b912267947cb33b93\", \"status\": \"pass\"}\n",
+  "stderr": "WARN `--no-project` was provided, but no project was found\n"
+}

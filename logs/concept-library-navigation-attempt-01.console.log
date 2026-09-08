@@ -1,0 +1,19 @@
+﻿{
+  "status": "pass",
+  "catalog_records": 4814,
+  "retained_links": 7217,
+  "full_pagination_records": 4814,
+  "pages": 241,
+  "resources": [
+    "BCT",
+    "Chicago",
+    "Clowder",
+    "Context",
+    "Mathlib",
+    "PlanetMath",
+    "nLab"
+  ],
+  "source_hash_verified": true,
+  "scope": "Integration and lexical navigation checks; no semantic identity or mathematical novelty claim."
+}
+

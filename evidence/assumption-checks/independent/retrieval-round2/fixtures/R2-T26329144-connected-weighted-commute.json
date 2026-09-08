@@ -1,0 +1,57 @@
+{
+  "assumptions": [
+    {
+      "expression": {
+        "kind": "quantity",
+        "name": "connected"
+      },
+      "id": "connected-network"
+    }
+  ],
+  "claim": {
+    "kind": "binary",
+    "left": {
+      "kind": "quantity",
+      "name": "commute"
+    },
+    "op": "eq",
+    "right": {
+      "kind": "binary",
+      "left": {
+        "kind": "quantity",
+        "name": "total_conductance"
+      },
+      "op": "mul",
+      "right": {
+        "kind": "quantity",
+        "name": "resistance"
+      }
+    }
+  },
+  "graph": {
+    "edges": [
+      {
+        "conductance": 2,
+        "u": 0,
+        "v": 1
+      },
+      {
+        "conductance": 1,
+        "u": 1,
+        "v": 2
+      }
+    ],
+    "n": 3
+  },
+  "id": "R2-T26329144-connected-weighted-commute",
+  "provenance": {
+    "annotation_id": "retrieval-round2-26329144",
+    "annotator": "/root/sol_atlas_audit",
+    "interpretation": "explicit",
+    "kind": "source_annotation",
+    "source_locator": "Source-mapped instance check. PDF p. 3, Assumptions 2.1; PDF p. 17, Lemma 5.1.",
+    "source_url": "https://arxiv.org/pdf/2101.07103v2"
+  },
+  "source": 0,
+  "target": 2
+}

@@ -7,11 +7,27 @@ from fractions import Fraction
 from typing import Any
 
 
+def _integer_text(value: int) -> str:
+    """Format exact output without Python's limit on long decimal conversions."""
+    base = 10 ** 9
+    if -base < value < base:
+        return str(value)
+    sign = "-" if value < 0 else ""
+    remaining = abs(value)
+    chunks: list[int] = []
+    while remaining:
+        remaining, remainder = divmod(remaining, base)
+        chunks.append(remainder)
+    # Each remainder is less than base: only at most nine-digit values use
+    # Python's decimal formatter. Zero padding restores their place values.
+    return sign + str(chunks[-1]) + "".join(f"{chunk:09d}" for chunk in reversed(chunks[:-1]))
+
+
 def rational_text(value: Fraction) -> str:
     """Return a canonical exact JSON representation."""
     if value.denominator == 1:
-        return str(value.numerator)
-    return f"{value.numerator}/{value.denominator}"
+        return _integer_text(value.numerator)
+    return _integer_text(value.numerator) + "/" + _integer_text(value.denominator)
 
 
 @dataclass(frozen=True, slots=True)

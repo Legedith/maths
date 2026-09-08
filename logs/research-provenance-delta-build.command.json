@@ -1,0 +1,15 @@
+﻿{
+    "name":  "research-provenance-delta-build",
+    "command_argv":  [
+                         "npm.cmd",
+                         "run",
+                         "build"
+                     ],
+    "command_display":  "npm.cmd run build",
+    "working_directory":  "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "started_at":  "2026-09-08T08:19:07.8963958+05:30",
+    "ended_at":  "2026-09-08T08:19:16.0275911+05:30",
+    "runtime_seconds":  8.1286346,
+    "exit_code":  0,
+    "console_log":  "logs/research-provenance-delta-build.console.log"
+}

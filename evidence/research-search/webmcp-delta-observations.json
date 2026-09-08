@@ -1,0 +1,19 @@
+{
+  "environment": "local development site http://localhost:3000/",
+  "method": "Focused WebMCP invocation and visible-state readback after the source-packet delta.",
+  "tool": "search_research_statements",
+  "query": "compact Hausdorff continuous bijection",
+  "retrieved_at": "2026-09-08T02:47:46.379Z",
+  "returned_count": 8,
+  "request": {
+    "method": "POST",
+    "endpoint": "https://api.theoremsearch.com/search",
+    "parameters": {"query": "compact Hausdorff continuous bijection", "n_results": 8}
+  },
+  "first_result": {"theorem_id": 25852161, "rank": 1, "similarity": 0.8372291922569512, "score": 0.8372291922569512},
+  "visible_query": "compact Hausdorff continuous bijection",
+  "visible_heading": "8 research results\n\nThese results have not been added to the reviewed map.",
+  "visible_rank_label": "EXTERNAL RESEARCH RESULT · 1",
+  "visible_privacy_link": "https://www.theoremsearch.com/privacy",
+  "scope": "Integration observation only. Result order differs from the earlier retained live query; no accuracy or novelty conclusion is drawn."
+}

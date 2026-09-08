@@ -18,5 +18,11 @@
     "locator": "How It Works and Informal Dependency Extractors",
     "note": "Informal dependency recovery includes heuristic and notation-based parsing. Formal graph relationships have separate semantic types. Generated or judged similarity does not itself prove mathematical equivalence."
   },
-  "implementation_scope": "Reuse POST /search and preserve extracted versus generated content; no claim to have replicated or independently validated the provider's corpus or accuracy estimates."
+  "privacy_source": {
+    "url": "https://www.theoremsearch.com/privacy",
+    "retrieved_date": "2026-09-08",
+    "locator": "What we collect, first paragraph; policy updated April 2026",
+    "note": "The provider states that it logs query text and selected filters. The local search UI discloses query logging and links this policy."
+  },
+  "implementation_scope": "Reuse POST /search and preserve extracted versus generated content, rank, supplied finite ranking values and request parameters; no claim to have replicated or independently validated the provider's corpus or accuracy estimates."
 }

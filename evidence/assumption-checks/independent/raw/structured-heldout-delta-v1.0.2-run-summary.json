@@ -1,0 +1,26 @@
+{
+  "auditor": "/root/sol_atlas_audit",
+  "case_count": 80,
+  "completed_at": "2026-09-08T03:39:48.269744Z",
+  "first_run_jsonl": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\structured-heldout-delta-v1.0.2-run.jsonl",
+  "first_run_jsonl_sha256": "c2e4f4fe94e08318324ea779a152f4252ccc07c82c7bf82d44c2021fd98ebb78",
+  "freeze_id": "atlas-checks-1.0.2-root-exact-output-delta",
+  "freeze_manifest_sha256": "50fd6ed3f43f8bdd30e325b249e605cd2bbde33db2336cf0142eba9a1ec5505d",
+  "gold_comparison_status": "not_performed_in_invocation; first outputs retained before comparison",
+  "implementation_exception_count": 0,
+  "implementation_modified": false,
+  "observed_verdict_histogram": {
+    "abstain": 8,
+    "counterexample": 11,
+    "invalid_input": 14,
+    "no_counterexample_in_instance": 44,
+    "not_applicable": 3
+  },
+  "run_kind": "independent_post_patch_delta_run",
+  "schema_version": "1.0",
+  "started_at": "2026-09-08T03:39:48.189118Z",
+  "suite_ciphertext_sha256": "3c96287617319c73631c4586296f541204f7d16ed35088e6888ba4595cbc57c4",
+  "suite_id": "structured-transfer-heldout-v1",
+  "suite_plaintext_sha256": "ddf50219b87547a9cae547d936a7afba76380f11c4cda7c5fbb473635a01d9ee",
+  "verified_frozen_file_count": 19
+}

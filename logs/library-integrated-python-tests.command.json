@@ -1,0 +1,16 @@
+﻿{
+    "name":  "library-integrated-python-tests",
+    "command_argv":  [
+                         "uv",
+                         "run",
+                         "--frozen",
+                         "pytest"
+                     ],
+    "command_display":  "uv run --frozen pytest",
+    "working_directory":  "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "started_at":  "2026-09-08T09:38:32.9350698+05:30",
+    "ended_at":  "2026-09-08T09:38:36.0246572+05:30",
+    "runtime_seconds":  3.0864449,
+    "exit_code":  0,
+    "console_log":  "logs/library-integrated-python-tests.console.log"
+}

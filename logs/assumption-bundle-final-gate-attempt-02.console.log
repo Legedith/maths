@@ -1,0 +1,10 @@
+﻿{
+  "artifact_count": 190,
+  "bundle": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.codex\\evidence\\runs\\assumption-checks-v1\\bundle.json",
+  "claim_count": 8,
+  "claim_provenance_rate": 1.0,
+  "errors": [],
+  "status": "PASS",
+  "workspace": "D:\\CodexWorkspaces\\mathematics-atlas\\project"
+}
+

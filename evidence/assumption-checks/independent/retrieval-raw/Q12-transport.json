@@ -1,0 +1,72 @@
+{
+  "attempt": 1,
+  "elapsed_seconds": 2.5038592999917455,
+  "ended_at_utc": "2026-09-08T01:54:35.667635+00:00",
+  "http_reason": "OK",
+  "http_status": 200,
+  "method": "POST",
+  "occurrences": [
+    {
+      "paper_id": "2109.01324v2",
+      "paper_link": "http://arxiv.org/abs/2109.01324v2",
+      "paper_title": "Forest formulas of discrete Green's functions",
+      "query_id": "Q12",
+      "rank": 1,
+      "slogan_id": 8733566,
+      "theorem_id": 23832572,
+      "theorem_name": "Corollary 4.7"
+    },
+    {
+      "paper_id": "1904.07766v1",
+      "paper_link": "http://arxiv.org/abs/1904.07766v1",
+      "paper_title": "Spanning trees in complete bipartite graphs and resistance distance in nearly complete bipartite graphs",
+      "query_id": "Q12",
+      "rank": 2,
+      "slogan_id": 5199628,
+      "theorem_id": 20258646,
+      "theorem_name": "Theorem 2.4 (\\cite{SR})"
+    }
+  ],
+  "parse_error": null,
+  "query_id": "Q12",
+  "request_byte_count": 105,
+  "request_headers": {
+    "Accept": "application/json",
+    "Content-Length": "105",
+    "Content-Type": "application/json",
+    "User-Agent": "MathematicsAtlas-retrieval-study-v1/1.0"
+  },
+  "request_path": "Q12-request.json",
+  "request_sha256": "3cab78eb0bff673da7fa49a2171a37eb12f8893d2d8f636d3ac1b28df466821e",
+  "response_bound_bytes": 5000000,
+  "response_byte_count_retained": 2360,
+  "response_exceeded_bound": false,
+  "response_headers": [
+    [
+      "content-length",
+      "2360"
+    ],
+    [
+      "content-type",
+      "application/json"
+    ],
+    [
+      "date",
+      "Tue, 08 Sep 2026 01:54:33 GMT"
+    ],
+    [
+      "server",
+      "envoy"
+    ],
+    [
+      "x-envoy-upstream-service-time",
+      "1512"
+    ]
+  ],
+  "response_path": "Q12-response.bin",
+  "response_sha256": "c06ecfe65682e6fdcea7049ed2dac00b99d604f0982782bac7faa6e7cd335100",
+  "returned_result_count": 2,
+  "started_at_utc": "2026-09-08T01:54:33.163775+00:00",
+  "transport_error": null,
+  "url": "https://api.theoremsearch.com/search"
+}

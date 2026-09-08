@@ -1,0 +1,19 @@
+Independent structured-transfer held-out evaluation: FIRST RUN
+started_at=2026-09-08T02:32:12.948710Z
+auditor=/root/sol_atlas_audit
+freeze_manifest_sha256=3f81fa516b2e9240abdc9141874b2108bc6b02af84de2f62b593a211ce58c8c5
+freeze_id=assumption-checker-v1-implementation-2026-09-08T07-51-39+05-30
+verified_frozen_files=24
+ciphertext_sha256=3c96287617319c73631c4586296f541204f7d16ed35088e6888ba4595cbc57c4
+plaintext_sha256=ddf50219b87547a9cae547d936a7afba76380f11c4cda7c5fbb473635a01d9ee
+seed_commitment_mode=literal_slash_zero
+algorithm_version=atlas-checks/1.0.0
+python=3.13.7
+cases=80
+completed_at=2026-09-08T02:32:13.025736Z
+implementation_exception_count=0
+observed_verdict_histogram={"abstain": 8, "counterexample": 11, "invalid_input": 14, "no_counterexample_in_instance": 44, "not_applicable": 3}
+first_run_jsonl_sha256=f4010a17efb0b20d9d2593719e4eaa620000876fcada8172ea0a6f5009b49e5f
+gold_comparison_status=not_performed_in_invocation
+implementation_modified=false
+exit_code=0

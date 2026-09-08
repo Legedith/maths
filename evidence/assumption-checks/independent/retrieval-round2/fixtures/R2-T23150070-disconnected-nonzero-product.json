@@ -1,0 +1,49 @@
+{
+  "assumptions": [],
+  "claim": {
+    "kind": "binary",
+    "left": {
+      "kind": "quantity",
+      "name": "tree_mass"
+    },
+    "op": "eq",
+    "right": {
+      "kind": "binary",
+      "left": {
+        "kind": "quantity",
+        "name": "nonzero_spectrum_product"
+      },
+      "op": "div",
+      "right": {
+        "kind": "quantity",
+        "name": "n"
+      }
+    }
+  },
+  "graph": {
+    "edges": [
+      {
+        "conductance": 1,
+        "u": 0,
+        "v": 1
+      },
+      {
+        "conductance": 1,
+        "u": 2,
+        "v": 3
+      }
+    ],
+    "n": 4
+  },
+  "id": "R2-T23150070-disconnected-nonzero-product",
+  "provenance": {
+    "annotation_id": "retrieval-round2-23150070",
+    "annotator": "/root/sol_atlas_audit",
+    "interpretation": "explicit",
+    "kind": "synthetic",
+    "source_locator": "Separating instance for a generated slogan; the source does not assert the altered statement. PDF p. 2, Theorem 1.2; disconnected two-edge witness.",
+    "source_url": "https://arxiv.org/pdf/0802.2576v2"
+  },
+  "source": 0,
+  "target": 1
+}

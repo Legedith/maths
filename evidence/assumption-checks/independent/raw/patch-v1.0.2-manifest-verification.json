@@ -1,0 +1,148 @@
+{
+  "actual_manifest_sha256": "50fd6ed3f43f8bdd30e325b249e605cd2bbde33db2336cf0142eba9a1ec5505d",
+  "algorithm_version": "atlas-checks/1.0.2",
+  "all_files_match": true,
+  "auditor": "/root/sol_atlas_audit",
+  "expected_manifest_sha256": "50fd6ed3f43f8bdd30e325b249e605cd2bbde33db2336cf0142eba9a1ec5505d",
+  "file_count": 19,
+  "files": [
+    {
+      "actual_sha256": "c2a7512c2ecfca5bbe67ca895fc756a6826b2a846699946c2d591deb38085e92",
+      "bytes": 164,
+      "expected_sha256": "c2a7512c2ecfca5bbe67ca895fc756a6826b2a846699946c2d591deb38085e92",
+      "matches": true,
+      "path": "src/atlas_checks/__init__.py"
+    },
+    {
+      "actual_sha256": "777e9fbe3bf8d49e2b1d9d19bae06e15acaf96436bbcc14e6bfaae807d7803e4",
+      "bytes": 1572,
+      "expected_sha256": "777e9fbe3bf8d49e2b1d9d19bae06e15acaf96436bbcc14e6bfaae807d7803e4",
+      "matches": true,
+      "path": "src/atlas_checks/__main__.py"
+    },
+    {
+      "actual_sha256": "204465f6c895b30dc3f0bd6032a043c2d3b43b427b8f169667c965f6888af407",
+      "bytes": 7508,
+      "expected_sha256": "204465f6c895b30dc3f0bd6032a043c2d3b43b427b8f169667c965f6888af407",
+      "matches": true,
+      "path": "src/atlas_checks/api.py"
+    },
+    {
+      "actual_sha256": "be40427533fb3957d329ad8e1180974bc90314b7777e6480762ae5650ee15bb2",
+      "bytes": 2462,
+      "expected_sha256": "be40427533fb3957d329ad8e1180974bc90314b7777e6480762ae5650ee15bb2",
+      "matches": true,
+      "path": "src/atlas_checks/electrical.py"
+    },
+    {
+      "actual_sha256": "ebf7b2434dd4df26eb1dc16518fb1fb88b72b6729752b7fde65d16ba6fc10134",
+      "bytes": 7828,
+      "expected_sha256": "ebf7b2434dd4df26eb1dc16518fb1fb88b72b6729752b7fde65d16ba6fc10134",
+      "matches": true,
+      "path": "src/atlas_checks/expressions.py"
+    },
+    {
+      "actual_sha256": "460b3d7b43055f388e249673811b13f6f90612ba76c0a0b1c56e411287692367",
+      "bytes": 2198,
+      "expected_sha256": "460b3d7b43055f388e249673811b13f6f90612ba76c0a0b1c56e411287692367",
+      "matches": true,
+      "path": "src/atlas_checks/graph_math.py"
+    },
+    {
+      "actual_sha256": "467d80a5f007740e63edc559e8ecfe70c27fb1618e092a82068723d50c274132",
+      "bytes": 3941,
+      "expected_sha256": "467d80a5f007740e63edc559e8ecfe70c27fb1618e092a82068723d50c274132",
+      "matches": true,
+      "path": "src/atlas_checks/linear.py"
+    },
+    {
+      "actual_sha256": "6fe40dedd88cf032c77484cbc1722a49388f72036d59b920586bbbf1e5e2e219",
+      "bytes": 3182,
+      "expected_sha256": "6fe40dedd88cf032c77484cbc1722a49388f72036d59b920586bbbf1e5e2e219",
+      "matches": true,
+      "path": "src/atlas_checks/markov.py"
+    },
+    {
+      "actual_sha256": "2237d532a25ef945efd54581893e1f1287c6837898f0f39686460cfb9a71f10c",
+      "bytes": 2914,
+      "expected_sha256": "2237d532a25ef945efd54581893e1f1287c6837898f0f39686460cfb9a71f10c",
+      "matches": true,
+      "path": "src/atlas_checks/model.py"
+    },
+    {
+      "actual_sha256": "a1e9f85c214e96b36b9058bab12dccd6065e926c23ef3b12bb0ad908c33161bb",
+      "bytes": 3535,
+      "expected_sha256": "a1e9f85c214e96b36b9058bab12dccd6065e926c23ef3b12bb0ad908c33161bb",
+      "matches": true,
+      "path": "src/atlas_checks/period.py"
+    },
+    {
+      "actual_sha256": "a6380c7ab8b43e492a037bfff90bcacf988fa1250a67cf7a841021ac8f71dc3c",
+      "bytes": 18889,
+      "expected_sha256": "a6380c7ab8b43e492a037bfff90bcacf988fa1250a67cf7a841021ac8f71dc3c",
+      "matches": true,
+      "path": "src/atlas_checks/quantities.py"
+    },
+    {
+      "actual_sha256": "6e2447dfc6207acee3c40e942ea08fcec08a6f031dbbfeaf7b57b49ab92abd3e",
+      "bytes": 1492,
+      "expected_sha256": "6e2447dfc6207acee3c40e942ea08fcec08a6f031dbbfeaf7b57b49ab92abd3e",
+      "matches": true,
+      "path": "src/atlas_checks/trees.py"
+    },
+    {
+      "actual_sha256": "d87db416097bccde095841b7df30fb71fa8c9de93b4059ad7f600053e9d1e304",
+      "bytes": 11432,
+      "expected_sha256": "d87db416097bccde095841b7df30fb71fa8c9de93b4059ad7f600053e9d1e304",
+      "matches": true,
+      "path": "src/atlas_checks/validation.py"
+    },
+    {
+      "actual_sha256": "01326d451569901e8e6d2fb5e3137724b4feb92840967d6b3ab85e17344d8614",
+      "bytes": 1724,
+      "expected_sha256": "01326d451569901e8e6d2fb5e3137724b4feb92840967d6b3ab85e17344d8614",
+      "matches": true,
+      "path": "src/atlas_checks/values.py"
+    },
+    {
+      "actual_sha256": "fe44b463a9063688e3121ed517a7d6327a489bc0a8467e7f5506197ca57a3f13",
+      "bytes": 3377,
+      "expected_sha256": "fe44b463a9063688e3121ed517a7d6327a489bc0a8467e7f5506197ca57a3f13",
+      "matches": true,
+      "path": "tests/assumption_checks/test_representation_delta.py"
+    },
+    {
+      "actual_sha256": "423908d7f3cf2574df29fd442f177807182ef469c6331d29b9e4d8c17e47af0a",
+      "bytes": 11093,
+      "expected_sha256": "423908d7f3cf2574df29fd442f177807182ef469c6331d29b9e4d8c17e47af0a",
+      "matches": true,
+      "path": "README-checks.md"
+    },
+    {
+      "actual_sha256": "c6a51140b2e4eb4ca30d67e7d5286c0465f573307c729864e46799980c8114e2",
+      "bytes": 4464,
+      "expected_sha256": "c6a51140b2e4eb4ca30d67e7d5286c0465f573307c729864e46799980c8114e2",
+      "matches": true,
+      "path": "scripts/generate_assumption_examples.py"
+    },
+    {
+      "actual_sha256": "986ede2dad9c0999cec39d0743af747df07402a2f2ce3e5bc9d21e59663b6cf6",
+      "bytes": 2240,
+      "expected_sha256": "986ede2dad9c0999cec39d0743af747df07402a2f2ce3e5bc9d21e59663b6cf6",
+      "matches": true,
+      "path": "tests/assumption_checks/test_exact_serialization_delta.py"
+    },
+    {
+      "actual_sha256": "6c39d2c0f95d9cebcb91347943bd5f2b976089f2b50a011f62cf97fbd2c5c6ae",
+      "bytes": 1900,
+      "expected_sha256": "6c39d2c0f95d9cebcb91347943bd5f2b976089f2b50a011f62cf97fbd2c5c6ae",
+      "matches": true,
+      "path": "evidence/assumption-checks/worker/supporting-scripts/check_large_exact_output_attempt02.py"
+    }
+  ],
+  "freeze_id": "atlas-checks-1.0.2-root-exact-output-delta",
+  "manifest_matches": true,
+  "manifest_path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\assumption-checks\\worker\\root-patch-freeze-v1.0.2.json",
+  "schema_version": "1.0",
+  "verified_at": "2026-09-08T03:35:00.902513Z"
+}

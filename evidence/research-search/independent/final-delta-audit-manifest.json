@@ -1,0 +1,62 @@
+{
+  "created_at_utc": "2026-09-08T02:55:13.1757668Z",
+  "delta_freeze_sha256": "5d126f983985fc5d45415c2868738ac6c7116e4c3c36ac2fbec76134ccc0972c",
+  "overall_status": "pass",
+  "artifacts": [
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\ui-audit\\final-delta-audit.json",
+      "bytes": 6252,
+      "sha256": "210f482c89ee6f84bd811a069e146cfece992cde22e8b5c501b2646692f5dfb0"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\ui-audit\\final-delta-audit.md",
+      "bytes": 1475,
+      "sha256": "20e5811c245df3e450f405ff8a02f99c084bf39aacfd574ac26ee9e84af6bd31"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\ui-audit\\delta-freeze-verification.json",
+      "bytes": 2470,
+      "sha256": "0497e03f497887cb2c0d9c32747a3721fec275cfc6903f7e175e213108f3c7be"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\ui-audit\\route-boundary-delta-report.json",
+      "bytes": 2570,
+      "sha256": "13d11e67f4472a880cc3fd5ac5b6122a462e3cbba038cbca69dd87494380ea70"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\ui-audit\\route-boundary-delta-console.log",
+      "bytes": 3112,
+      "sha256": "527994410c653c6303c960e0e8a0b6c23c6bab063b20ebb5abb6c9bbe1ae4f55"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\ui-audit\\packet-provenance-delta-report.json",
+      "bytes": 1172,
+      "sha256": "014862193f9781f5b6ebc3d48ae18d588a9b87fd804aa6bbb469fab445238c94"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\ui-audit\\packet-provenance-delta-console.log",
+      "bytes": 1210,
+      "sha256": "3391b189cd6c9356f1614cc7e0fe602248aa072d5ec6d573ada30237618adf50"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\ui-audit\\delta-rerun\\adapter\\evidence\\research-search\\adapter-tests.json",
+      "bytes": 483,
+      "sha256": "706b3dd79cdf12c9e75badbce322b44c3bc36d7a1ca2ee79fc75a6a783a6fddc"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\ui-audit\\delta-rerun\\adapter\\console.log",
+      "bytes": 499,
+      "sha256": "36afad70e358928062c2c765a5dd0850c5b444c07a5fd11983f140b76597de4f"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\ui-audit\\initial-audit-report.json",
+      "bytes": 6740,
+      "sha256": "d16280f26a67b680d74ff13a03ee783ed279cac2e2c405bb1dad65588c76475a"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\ui-audit\\official-source-notes.json",
+      "bytes": 1805,
+      "sha256": "7c27a8e96dd173e0f158e63a1b51cad13efb92a575a0c2eff614e4d693aa1e01"
+    }
+  ]
+}

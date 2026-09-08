@@ -1,0 +1,72 @@
+{
+  "files": [
+    {
+      "bytes": 3652,
+      "path": "backbone-import-work/implementation/README.md",
+      "sha256": "f18ed9189d5185dd2b031afbe5bdd50628dab1cd34b9afc5593ad1e1bdf8e149"
+    },
+    {
+      "bytes": 341,
+      "path": "backbone-import-work/implementation/pyproject.toml",
+      "sha256": "11473e987aa5828c951eda34863550daa242f55ef4b95fe7fb8baa4f9796e958"
+    },
+    {
+      "bytes": 3232,
+      "path": "backbone-import-work/implementation/scripts/check_scope.py",
+      "sha256": "b190d7cb06084c5c99a59c5899f6a214b759f96b0e9e9cac7f7cbe3d0752b291"
+    },
+    {
+      "bytes": 21911,
+      "path": "backbone-import-work/implementation/scripts/freeze_manifests.py",
+      "sha256": "c1cfa7d115de900d17fde1eb8277fd6a1d0f0a10bf9038b1513cd984786bbfaf"
+    },
+    {
+      "bytes": 2782,
+      "path": "backbone-import-work/implementation/scripts/run_logged.py",
+      "sha256": "ca189fac717ba62f29a45f725d5f0a5a5e54f78af40daa49225a971925d663ad"
+    },
+    {
+      "bytes": 9180,
+      "path": "backbone-import-work/implementation/scripts/write_corrected_subset.py",
+      "sha256": "ed4b3d2f211c0340964f3226b1c81523c5d3008b2c3a573191f94d75aac13a23"
+    },
+    {
+      "bytes": 806,
+      "path": "backbone-import-work/implementation/src/mathgloss_import/__init__.py",
+      "sha256": "415f22d1a69a143feb5cbbf80a2981d001459039c132944706ea0718853aeeef"
+    },
+    {
+      "bytes": 49,
+      "path": "backbone-import-work/implementation/src/mathgloss_import/__main__.py",
+      "sha256": "76fa916e93e0ae1a6c1bb51dcc0bcf289c014e9f760a47165f8a84401ccf41d7"
+    },
+    {
+      "bytes": 1250,
+      "path": "backbone-import-work/implementation/src/mathgloss_import/cli.py",
+      "sha256": "5584eb68189f473e475c4654408de95f30acbc663fbaa9def3fc2fbc5e8e30c8"
+    },
+    {
+      "bytes": 18350,
+      "path": "backbone-import-work/implementation/src/mathgloss_import/core.py",
+      "sha256": "f8ed60a8062569c3632e4ed23b8df9fa8523932793271f8ee410666b9f65b0d3"
+    },
+    {
+      "bytes": 146,
+      "path": "backbone-import-work/implementation/uv.lock",
+      "sha256": "f375302eac817cd18ef8a66bafefc6de12daf025db4832a4d8fb8d1c82e8e4fa"
+    },
+    {
+      "bytes": 1,
+      "path": "backbone-import-work/tests/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "bytes": 16187,
+      "path": "backbone-import-work/tests/test_importer.py",
+      "sha256": "a90202561392379c78cf0a220e119287f5320833c2f81c89d0c76d16470c02b2"
+    }
+  ],
+  "runtime_dependencies": [],
+  "schema_version": "mathgloss-implementation-freeze-v1",
+  "status": "author_frozen_pending_independent_verification"
+}

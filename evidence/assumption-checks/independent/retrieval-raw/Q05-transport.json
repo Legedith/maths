@@ -1,0 +1,76 @@
+{
+  "attempt": 1,
+  "elapsed_seconds": 3.681304199999431,
+  "ended_at_utc": "2026-09-08T01:53:56.582248+00:00",
+  "http_reason": "OK",
+  "http_status": 200,
+  "method": "POST",
+  "occurrences": [
+    {
+      "paper_id": "2101.07103v2",
+      "paper_link": "http://arxiv.org/abs/2101.07103v2",
+      "paper_title": "Hubs-biased resistance distances on graphs and networks",
+      "query_id": "Q05",
+      "rank": 1,
+      "slogan_id": 11068808,
+      "theorem_id": 26329144,
+      "theorem_name": "Lemma"
+    },
+    {
+      "paper_id": "2104.06052v3",
+      "paper_link": "http://arxiv.org/abs/2104.06052v3",
+      "paper_title": "Measured expanders",
+      "query_id": "Q05",
+      "rank": 2,
+      "slogan_id": 8641940,
+      "theorem_id": 23740032,
+      "theorem_name": "Lemma 3.16 ({\\cite[Lemma 5.2]{measured_I}})"
+    }
+  ],
+  "parse_error": null,
+  "query_id": "Q05",
+  "request_byte_count": 91,
+  "request_headers": {
+    "Accept": "application/json",
+    "Content-Length": "91",
+    "Content-Type": "application/json",
+    "User-Agent": "MathematicsAtlas-retrieval-study-v1/1.0"
+  },
+  "request_path": "Q05-request.json",
+  "request_sha256": "f30e2cf54bec1b72864f6bc67b32bcb844b9cf53f10882ddd39ec3b87fed896d",
+  "response_bound_bytes": 5000000,
+  "response_byte_count_retained": 2922,
+  "response_exceeded_bound": false,
+  "response_headers": [
+    [
+      "content-length",
+      "2922"
+    ],
+    [
+      "content-type",
+      "application/json"
+    ],
+    [
+      "date",
+      "Tue, 08 Sep 2026 01:53:53 GMT"
+    ],
+    [
+      "server",
+      "envoy"
+    ],
+    [
+      "x-envoy-upstream-service-time",
+      "2647"
+    ],
+    [
+      "connection",
+      "close"
+    ]
+  ],
+  "response_path": "Q05-response.bin",
+  "response_sha256": "92f6022cc05b8acf7e0418706071ea04e96ed603a6eeedbfe81938277ca68bb3",
+  "returned_result_count": 2,
+  "started_at_utc": "2026-09-08T01:53:52.900948+00:00",
+  "transport_error": null,
+  "url": "https://api.theoremsearch.com/search"
+}

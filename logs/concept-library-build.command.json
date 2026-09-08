@@ -1,0 +1,15 @@
+﻿{
+    "name":  "concept-library-build",
+    "command_argv":  [
+                         "npm.cmd",
+                         "run",
+                         "build"
+                     ],
+    "command_display":  "npm.cmd run build",
+    "working_directory":  "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "started_at":  "2026-09-08T09:26:19.3121075+05:30",
+    "ended_at":  "2026-09-08T09:26:28.1708302+05:30",
+    "runtime_seconds":  8.8561978,
+    "exit_code":  0,
+    "console_log":  "logs/concept-library-build.console.log"
+}

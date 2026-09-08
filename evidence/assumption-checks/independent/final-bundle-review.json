@@ -1,0 +1,93 @@
+{
+  "all_eight_claims_approved": true,
+  "all_four_checks_pass": true,
+  "artifact_count": 188,
+  "artifact_hashes_pass": true,
+  "auditor": "/root/sol_atlas_audit",
+  "bundle_input_bytes": 64225,
+  "bundle_input_path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.codex\\evidence\\runs\\assumption-checks-v1\\bundle.json",
+  "bundle_input_sha256": "f873d1988620a32b237e18a906d178174d5a3acc0d96a3b102ee3436604e31b8",
+  "checks": [
+    {
+      "auditor": "/root/sol_atlas_audit",
+      "id": "reproduction",
+      "note": "The integrated portable run is 80/80 with zero failures and has the same c2e4f4fe... output JSONL hash as the independent final run. The 8,400-digit API/CLI delta also remains supported by its Decimal oracle.",
+      "status": "PASS"
+    },
+    {
+      "auditor": "/root/sol_atlas_audit",
+      "id": "specification_compliance",
+      "note": "The claim wordings preserve the structured-input boundary, finite-evaluation scope, abstention behavior, supplemental-defect separation, and absence of natural-language or universal-proof claims.",
+      "status": "PASS"
+    },
+    {
+      "auditor": "/root/sol_atlas_audit",
+      "id": "source_verification",
+      "note": "All citation and retrieval wording aligns with the copied source matrix, immutable reviews, adjudication, and additive corrections. The model version remains withdrawn, theorem 18276974 resolves to 2302.07170v2 PDF p.3 Theorem 4, and all counts remain explicitly descriptive.",
+      "status": "PASS"
+    },
+    {
+      "auditor": "/root/sol_atlas_audit",
+      "id": "implementation_alignment",
+      "note": "All 188 bundle artifacts and all 19 frozen 1.0.2 files hash-match; every direct claim locator resolves; the integrated project test log reports 155 passed. No claim reaches into the separately pending concept-library bundle.",
+      "status": "PASS"
+    }
+  ],
+  "claim_count": 8,
+  "claim_locators_pass": true,
+  "claim_reviews": [
+    {
+      "claim_id": "C001",
+      "note": "The API, contract, and independent limitation state the structured-input and supplied-provenance boundary directly.",
+      "status": "APPROVED"
+    },
+    {
+      "claim_id": "C002",
+      "note": "The source matrix preserves the row-walk formula, the similarity rather than equality with the symmetric normalized object, and the stationarity/convergence distinction with exact locators and limitations.",
+      "status": "APPROVED"
+    },
+    {
+      "claim_id": "C003",
+      "note": "The integrated public comparison is 80/80 with zero failures and the output JSONL hash equals the independent final run. The sentence retains the necessary finite-diagnostic qualifier.",
+      "status": "APPROVED"
+    },
+    {
+      "claim_id": "C004",
+      "note": "Historical failures and evaluator mistakes are separately retained. The successful independent probe matches an 8,400-digit Decimal oracle through API and CLI, with the Python interpreter-wide digit limit unchanged at 4,300.",
+      "status": "APPROVED"
+    },
+    {
+      "claim_id": "C005",
+      "note": "The two immutable review files and adjudication account for all 24 rows, 21 agreements, and the 12/9/3 descriptive counts. Generic 'AI reviews' does not assert the withdrawn runtime model version.",
+      "status": "APPROVED"
+    },
+    {
+      "claim_id": "C006",
+      "note": "All 24 retrieval rows are accounted for as 6 evaluable, 2 syntax-mappable but abstaining, and 16 excluded theorem IDs; the 9 fixtures return 7 no-counterexample verdicts and 2 abstentions, hence zero machine counterexamples/source-refutation detections.",
+      "status": "APPROVED"
+    },
+    {
+      "claim_id": "C007",
+      "nonblocking_editorial_wording": "Three root-authored teaching records were independently checked for their retained version 1.0.1 numerical and assumption behavior; they are neither held-out evaluation cases nor retrieval-derived annotations.",
+      "note": "The retained evidence explicitly identifies three root-authored teaching fixtures, independently verifies their 1.0.1 numerical and assumption behavior, and excludes them from held-out and retrieved-source evaluation. 'Separately authored' is supportable as separation from the independent evaluator, although 'three root-authored teaching records' would be clearer in future prose.",
+      "status": "APPROVED"
+    },
+    {
+      "claim_id": "C008",
+      "note": "This is a conservative conclusion from the structured scope, finite evaluation, purposive source study, zero incremental detection, and explicit broader-map limitation. The tool-comparison clause is a recommendation, not an empirical performance claim.",
+      "status": "APPROVED"
+    }
+  ],
+  "limitations": [
+    "This review approves the eight claim wordings for the exact input bundle hash only.",
+    "The 80-case result remains finite and nonexhaustive; the 24-result source review remains purposive and descriptive.",
+    "No natural-language accuracy, prevalence, timing, researcher benefit, novelty, browser behavior, or broader-map completion is certified.",
+    "The actual runtime model identity of the historical reviewers was not independently verified and is not used by any approved claim.",
+    "The separate concept-library work is outside this bundle review."
+  ],
+  "raw_review_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\integrated-bundle-hash-locator-review.json",
+  "raw_review_sha256": "cfe03f92ce61abd6f98f73d22d4bb11185f9500b51c73fcb506333460b2df851",
+  "review_id": "assumption-checks-v1-integrated-final-claim-review",
+  "role": "independent read-only claim and evidence alignment verifier",
+  "schema_version": "1.0"
+}

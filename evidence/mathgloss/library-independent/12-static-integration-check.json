@@ -1,0 +1,33 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--isolated",
+    "--no-project",
+    "--python",
+    "3.13",
+    "python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work\\check_library_static.py"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work",
+  "duration_seconds": 0.44104790000710636,
+  "ended_at_utc": "2026-09-08T04:18:16.611094+00:00",
+  "exit_code": 1,
+  "schema_version": "command-evidence-v1",
+  "started_at_utc": "2026-09-08T04:18:16.170037+00:00",
+  "stderr": {
+    "base64": "V0FSTiBgLS1uby1wcm9qZWN0YCB3YXMgcHJvdmlkZWQsIGJ1dCBubyBwcm9qZWN0IHdhcyBmb3VuZApUcmFjZWJhY2sgKG1vc3QgcmVjZW50IGNhbGwgbGFzdCk6DQogIEZpbGUgIkQ6XENvZGV4V29ya3NwYWNlc1xtYXRoZW1hdGljcy1hdGxhc1xsaWJyYXJ5LWF1ZGl0LXdvcmtcY2hlY2tfbGlicmFyeV9zdGF0aWMucHkiLCBsaW5lIDEzNSwgaW4gPG1vZHVsZT4NCiAgICBhc3NlcnQgcGhyYXNlIGluIGRvY3MsIHBocmFzZQ0KICAgICAgICAgICBeXl5eXl5eXl5eXl5eXg0KQXNzZXJ0aW9uRXJyb3I6IFBhZ2VzIGNvbnRhaW4gYXQgbW9zdCAyMCByZWNvcmRzDQo=",
+    "bytes": 320,
+    "sha256": "54750bdbfe51e1d778aa4c6b3689da34ed9ce43197f136c4758c7c3ea3f56ad5",
+    "utf8_text": "WARN `--no-project` was provided, but no project was found\nTraceback (most recent call last):\r\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work\\check_library_static.py\", line 135, in <module>\r\n    assert phrase in docs, phrase\r\n           ^^^^^^^^^^^^^^\r\nAssertionError: Pages contain at most 20 records\r\n",
+    "valid_utf8": true
+  },
+  "stdout": {
+    "base64": "",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "utf8_text": "",
+    "valid_utf8": true
+  },
+  "windows_command_line": "uv run --isolated --no-project --python 3.13 python D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work\\check_library_static.py"
+}

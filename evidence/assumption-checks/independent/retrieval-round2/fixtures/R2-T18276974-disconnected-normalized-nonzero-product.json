@@ -1,0 +1,66 @@
+{
+  "assumptions": [],
+  "claim": {
+    "kind": "binary",
+    "left": {
+      "kind": "binary",
+      "left": {
+        "kind": "quantity",
+        "name": "total_conductance"
+      },
+      "op": "mul",
+      "right": {
+        "kind": "quantity",
+        "name": "tree_mass"
+      }
+    },
+    "op": "eq",
+    "right": {
+      "kind": "binary",
+      "left": {
+        "arg": {
+          "kind": "quantity",
+          "name": "degrees"
+        },
+        "kind": "unary",
+        "op": "product"
+      },
+      "op": "mul",
+      "right": {
+        "kind": "quantity",
+        "name": "rw_nonzero_spectrum_product"
+      }
+    }
+  },
+  "graph": {
+    "edges": [
+      {
+        "conductance": 1,
+        "u": 0,
+        "v": 1
+      },
+      {
+        "conductance": 1,
+        "u": 2,
+        "v": 3
+      },
+      {
+        "conductance": 1,
+        "u": 3,
+        "v": 4
+      }
+    ],
+    "n": 5
+  },
+  "id": "R2-T18276974-disconnected-normalized-nonzero-product",
+  "provenance": {
+    "annotation_id": "retrieval-round2-18276974",
+    "annotator": "/root/sol_atlas_audit",
+    "interpretation": "explicit",
+    "kind": "synthetic",
+    "source_locator": "Separating instance for a generated slogan; the source does not assert the altered statement. PDF p. 3, Theorem 4; disconnected two-component witness. The retrieval metadata called this Theorem 5, but the exact source labels the extracted statement Theorem 4.",
+    "source_url": "https://arxiv.org/pdf/2302.07170v2"
+  },
+  "source": 0,
+  "target": 1
+}

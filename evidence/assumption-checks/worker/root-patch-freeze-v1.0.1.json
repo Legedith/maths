@@ -1,0 +1,34 @@
+{
+    "freeze_id":  "atlas-checks-1.0.1-root-delta",
+    "frozen_at":  "2026-09-08T02:43:56.7575813Z",
+    "previous_commit":  "97b5aaf",
+    "previous_manifest_sha256":  "3f81fa516b2e9240abdc9141874b2108bc6b02af84de2f62b593a211ce58c8c5",
+    "algorithm_version":  "atlas-checks/1.0.1",
+    "status":  "frozen_pending_independent_delta_review",
+    "changes":  [
+                    "CLI decoder error handling",
+                    "integer bounds before str conversion",
+                    "12-digit AST rational cap",
+                    "surrogate-safe normalized-input hash",
+                    "explicit patch identity"
+                ],
+    "file_sha256":  {
+                        "src/atlas_checks/__init__.py":  "c2a7512c2ecfca5bbe67ca895fc756a6826b2a846699946c2d591deb38085e92",
+                        "src/atlas_checks/__main__.py":  "777e9fbe3bf8d49e2b1d9d19bae06e15acaf96436bbcc14e6bfaae807d7803e4",
+                        "src/atlas_checks/api.py":  "28bd18951a0c048a2700aa5b87aac723bc1ff23efccd94ce9b61294a5401ad94",
+                        "src/atlas_checks/electrical.py":  "be40427533fb3957d329ad8e1180974bc90314b7777e6480762ae5650ee15bb2",
+                        "src/atlas_checks/expressions.py":  "ebf7b2434dd4df26eb1dc16518fb1fb88b72b6729752b7fde65d16ba6fc10134",
+                        "src/atlas_checks/graph_math.py":  "460b3d7b43055f388e249673811b13f6f90612ba76c0a0b1c56e411287692367",
+                        "src/atlas_checks/linear.py":  "467d80a5f007740e63edc559e8ecfe70c27fb1618e092a82068723d50c274132",
+                        "src/atlas_checks/markov.py":  "6fe40dedd88cf032c77484cbc1722a49388f72036d59b920586bbbf1e5e2e219",
+                        "src/atlas_checks/model.py":  "c43232afb9993af8aed20f5ab51ab3d80b74997615b3613c766e3a07975a12da",
+                        "src/atlas_checks/period.py":  "a1e9f85c214e96b36b9058bab12dccd6065e926c23ef3b12bb0ad908c33161bb",
+                        "src/atlas_checks/quantities.py":  "a6380c7ab8b43e492a037bfff90bcacf988fa1250a67cf7a841021ac8f71dc3c",
+                        "src/atlas_checks/trees.py":  "6e2447dfc6207acee3c40e942ea08fcec08a6f031dbbfeaf7b57b49ab92abd3e",
+                        "src/atlas_checks/validation.py":  "d87db416097bccde095841b7df30fb71fa8c9de93b4059ad7f600053e9d1e304",
+                        "src/atlas_checks/values.py":  "01326d451569901e8e6d2fb5e3137724b4feb92840967d6b3ab85e17344d8614",
+                        "tests/assumption_checks/test_representation_delta.py":  "fe44b463a9063688e3121ed517a7d6327a489bc0a8467e7f5506197ca57a3f13",
+                        "README-checks.md":  "9ba178e67e450f215e7ee2dc6df7176ac5388f955da473f5f91e87b8bfd7a8b6",
+                        "scripts/generate_assumption_examples.py":  "c6a51140b2e4eb4ca30d67e7d5286c0465f573307c729864e46799980c8114e2"
+                    }
+}

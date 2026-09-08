@@ -1,0 +1,24 @@
+{
+  "sources": [
+    {
+      "url": "https://www.theoremsearch.com/docs",
+      "retrieved_at_utc": "2026-09-08T02:39:09.7454087Z",
+      "http_status": 200,
+      "body_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\ui-audit\\official-sources\\theoremsearch-api-docs.html",
+      "body_sha256": "e6f25e1549585a4987892f488ea4e05bd3bd54dee3a4c5f3d0df3b6238f29634",
+      "body_bytes": 105540,
+      "headers_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\ui-audit\\official-sources\\theoremsearch-api-docs.headers.txt",
+      "headers_sha256": "0a831031ce8170b6224f6e032b871c8bd0df395a465d5eebe79616a768765362"
+    },
+    {
+      "url": "https://www.theoremsearch.com/privacy",
+      "retrieved_at_utc": "2026-09-08T02:39:10.4502565Z",
+      "http_status": 200,
+      "body_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\ui-audit\\official-sources\\theoremsearch-privacy.html",
+      "body_sha256": "cd87b12398c6ef1c7a3545253845ecc20ddf3832f10b9ce0ac39041be2916379",
+      "body_bytes": 22431,
+      "headers_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\ui-audit\\official-sources\\theoremsearch-privacy.headers.txt",
+      "headers_sha256": "e52c6f6b5d5245e3e2c1d4950f94e6fc0d34499ad1f0362d84acbe8b9b322108"
+    }
+  ]
+}

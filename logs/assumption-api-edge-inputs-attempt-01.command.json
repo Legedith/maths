@@ -1,0 +1,17 @@
+﻿{
+    "name":  "assumption-api-edge-inputs-attempt-01",
+    "command_argv":  [
+                         "uv",
+                         "run",
+                         "--frozen",
+                         "python",
+                         "..\\integration-work\\check_api_edge_inputs.py"
+                     ],
+    "command_display":  "uv run --frozen python ..\\integration-work\\check_api_edge_inputs.py",
+    "working_directory":  "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "started_at":  "2026-09-08T08:07:59.3545786+05:30",
+    "ended_at":  "2026-09-08T08:07:59.5304641+05:30",
+    "runtime_seconds":  0.1731897,
+    "exit_code":  0,
+    "console_log":  "logs/assumption-api-edge-inputs-attempt-01.console.log"
+}

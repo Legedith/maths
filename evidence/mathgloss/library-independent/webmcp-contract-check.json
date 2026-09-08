@@ -1,0 +1,59 @@
+{
+  "schema_version": "concept-library-independent-webmcp-contract-check-v1",
+  "status": "pass",
+  "freeze_sha256": "68bd8c6f8ff2dfaa1c1b26b1d4c030025ae1a6d84004767c8b537939f09ef316",
+  "hook_sha256": "8e598702783395e347a51d2d3b9dcc091667f36b0b9a3df389713f3da40bcca2",
+  "component_sha256": "383331fc06f1f3a2dec376fd2325154cd0700da2dc5a1c3346d31554f86473ba",
+  "root_observation_sha256": "beb6db553da7d76693c3d706cf156dfeb886c260f7a0825bd90678875da158f6",
+  "tool": {
+    "name": "search_learning_resources",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "resource": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80,
+          "description": "All or a source name returned in resources."
+        },
+        "page": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 1000000
+        }
+      },
+      "required": [
+        "query"
+      ],
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "untrustedContentHint": true
+    },
+    "valid_action_calls": 1,
+    "invalid_inputs_blocked_before_action": 4
+  },
+  "shared_state_static_alignment": {
+    "ordinary_form_calls_runSearch": true,
+    "webmcp_registers_same_runSearch": true,
+    "runSearch_updates_visible_query_resource_result": true,
+    "ordinary_submit_resets_page_one": true,
+    "example_search_resets_resource_and_page": true
+  },
+  "observation_source_check": {
+    "observer": "root implementation integrator; independently checked here against the frozen source and code contract",
+    "unicode_qid_record_exact": true,
+    "invalid_input_state_unchanged": true,
+    "mathlib_page_two_counts_and_visible_state_aligned": true
+  },
+  "annotation_note": "readOnlyHint false is consistent with the intentional visible client-state update. The API itself remains GET-only and no persistent or external data mutation was found. untrustedContentHint true is appropriate for imported labels and links.",
+  "limits": [
+    "The browser observations were produced by the root integrator, not this reviewer; this check independently verifies their artifact hash, source values and alignment with the frozen code path.",
+    "This checks tool and visible-state semantics, not broad browser layout or destination content."
+  ]
+}

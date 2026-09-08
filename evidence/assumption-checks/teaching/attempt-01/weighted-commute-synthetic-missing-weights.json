@@ -1,0 +1,274 @@
+{
+  "algorithm_version": "atlas-checks/1.0.0",
+  "id": "weighted-commute-synthetic-missing-weights",
+  "verdict": "counterexample",
+  "normalized_input": {
+    "id": "weighted-commute-synthetic-missing-weights",
+    "graph": {
+      "n": 3,
+      "edges": [
+        {
+          "u": 0,
+          "v": 1,
+          "conductance": "2"
+        },
+        {
+          "u": 1,
+          "v": 2,
+          "conductance": "1"
+        }
+      ]
+    },
+    "source": 0,
+    "target": 2,
+    "provenance": {
+      "kind": "synthetic",
+      "source_url": "https://pages.uoregon.edu/dlevin/MARKOV/markovmixing.pdf",
+      "source_locator": "Deliberate alteration of the conductance-volume identity on PDF pp. 147-148: replace graph volume by twice the unweighted edge count. This is not a claim made by the source.",
+      "annotation_id": "weighted-commute-synthetic-missing-weights-root-annotation",
+      "annotator": "root-teaching-example-author",
+      "interpretation": "explicit"
+    },
+    "assumptions": [
+      {
+        "id": "connected-network",
+        "expression": {
+          "kind": "quantity",
+          "name": "connected"
+        }
+      }
+    ],
+    "claim": {
+      "kind": "binary",
+      "op": "eq",
+      "left": {
+        "kind": "quantity",
+        "name": "commute"
+      },
+      "right": {
+        "kind": "binary",
+        "op": "mul",
+        "left": {
+          "kind": "binary",
+          "op": "mul",
+          "left": {
+            "kind": "rational",
+            "value": "2"
+          },
+          "right": {
+            "kind": "quantity",
+            "name": "edge_count"
+          }
+        },
+        "right": {
+          "kind": "quantity",
+          "name": "resistance"
+        }
+      }
+    }
+  },
+  "normalized_input_sha256": "527b41c663e70c213583a539ca001db207f701890a5b1c03ae65b56312ca0045",
+  "provenance": {
+    "kind": "synthetic",
+    "source_url": "https://pages.uoregon.edu/dlevin/MARKOV/markovmixing.pdf",
+    "source_locator": "Deliberate alteration of the conductance-volume identity on PDF pp. 147-148: replace graph volume by twice the unweighted edge count. This is not a claim made by the source.",
+    "annotation_id": "weighted-commute-synthetic-missing-weights-root-annotation",
+    "annotator": "root-teaching-example-author",
+    "interpretation": "explicit"
+  },
+  "evaluated_assumptions": [
+    {
+      "id": "connected-network",
+      "expression": {
+        "kind": "quantity",
+        "name": "connected"
+      },
+      "status": "true",
+      "trace": {
+        "path": "$.assumptions[0].expression",
+        "kind": "quantity",
+        "name": "connected",
+        "quantity": {
+          "status": "defined",
+          "method": "graph_search",
+          "definition": "all vertices form one component",
+          "type": "boolean",
+          "shape": [],
+          "value": true
+        },
+        "status": "defined",
+        "type": "boolean",
+        "shape": [],
+        "value": true
+      },
+      "type": "boolean",
+      "shape": [],
+      "value": true
+    }
+  ],
+  "claim_evaluation": {
+    "expression": {
+      "kind": "binary",
+      "op": "eq",
+      "left": {
+        "kind": "quantity",
+        "name": "commute"
+      },
+      "right": {
+        "kind": "binary",
+        "op": "mul",
+        "left": {
+          "kind": "binary",
+          "op": "mul",
+          "left": {
+            "kind": "rational",
+            "value": "2"
+          },
+          "right": {
+            "kind": "quantity",
+            "name": "edge_count"
+          }
+        },
+        "right": {
+          "kind": "quantity",
+          "name": "resistance"
+        }
+      }
+    },
+    "status": "false",
+    "trace": {
+      "path": "$.claim",
+      "kind": "binary",
+      "op": "eq",
+      "left": {
+        "path": "$.claim.left",
+        "kind": "quantity",
+        "name": "commute",
+        "quantity": {
+          "status": "defined",
+          "method": "sum_of_independent_hitting_solves",
+          "definition": "E_source[tau_target]+E_target[tau_source]",
+          "type": "rational",
+          "shape": [],
+          "value": "9"
+        },
+        "status": "defined",
+        "type": "rational",
+        "shape": [],
+        "value": "9"
+      },
+      "right": {
+        "path": "$.claim.right",
+        "kind": "binary",
+        "op": "mul",
+        "left": {
+          "path": "$.claim.right.left",
+          "kind": "binary",
+          "op": "mul",
+          "left": {
+            "path": "$.claim.right.left.left",
+            "kind": "rational",
+            "status": "defined",
+            "type": "rational",
+            "shape": [],
+            "value": "2"
+          },
+          "right": {
+            "path": "$.claim.right.left.right",
+            "kind": "quantity",
+            "name": "edge_count",
+            "quantity": {
+              "status": "defined",
+              "method": "input",
+              "definition": "number of undirected edges",
+              "type": "rational",
+              "shape": [],
+              "value": "2"
+            },
+            "status": "defined",
+            "type": "rational",
+            "shape": [],
+            "value": "2"
+          },
+          "status": "defined",
+          "type": "rational",
+          "shape": [],
+          "value": "4"
+        },
+        "right": {
+          "path": "$.claim.right.right",
+          "kind": "quantity",
+          "name": "resistance",
+          "quantity": {
+            "status": "defined",
+            "method": "independent_electrical_solve",
+            "definition": "unit-current voltage difference with target grounded",
+            "type": "rational",
+            "shape": [],
+            "value": "3/2"
+          },
+          "status": "defined",
+          "type": "rational",
+          "shape": [],
+          "value": "3/2"
+        },
+        "status": "defined",
+        "type": "rational",
+        "shape": [],
+        "value": "6"
+      },
+      "status": "defined",
+      "type": "boolean",
+      "shape": [],
+      "value": false
+    },
+    "type": "boolean",
+    "shape": [],
+    "value": false
+  },
+  "quantities": {
+    "commute": {
+      "status": "defined",
+      "method": "sum_of_independent_hitting_solves",
+      "definition": "E_source[tau_target]+E_target[tau_source]",
+      "type": "rational",
+      "shape": [],
+      "value": "9"
+    },
+    "connected": {
+      "status": "defined",
+      "method": "graph_search",
+      "definition": "all vertices form one component",
+      "type": "boolean",
+      "shape": [],
+      "value": true
+    },
+    "edge_count": {
+      "status": "defined",
+      "method": "input",
+      "definition": "number of undirected edges",
+      "type": "rational",
+      "shape": [],
+      "value": "2"
+    },
+    "resistance": {
+      "status": "defined",
+      "method": "independent_electrical_solve",
+      "definition": "unit-current voltage difference with target grounded",
+      "type": "rational",
+      "shape": [],
+      "value": "3/2"
+    }
+  },
+  "certificates": {
+    "gauge": {
+      "status": "not_evaluated",
+      "reason": "no gauge-related quantity was referenced"
+    },
+    "period": {
+      "status": "not_evaluated",
+      "reason": "period was not referenced"
+    }
+  },
+  "errors": []
+}

@@ -1,0 +1,14 @@
+{
+  "aes_aad_ascii": "structured-transfer-heldout-v1",
+  "aes_key_scheme": "sha256(ASCII('assumption-eval-aes-key-v1') || NUL || seed_bytes)",
+  "aes_nonce_scheme": "first 12 bytes of sha256(ASCII('assumption-eval-aes-nonce-v1') || NUL || seed_bytes)",
+  "ciphertext_sha256": "3c96287617319c73631c4586296f541204f7d16ed35088e6888ba4595cbc57c4",
+  "plaintext_sha256": "ddf50219b87547a9cae547d936a7afba76380f11c4cda7c5fbb473635a01d9ee",
+  "released_after_code_freeze": true,
+  "schema_version": "1.0",
+  "seed_base64": "L37DxirUKg7w6Eiu6edpF/JklDfPSog+q/VIJeCGRsA=",
+  "seed_commitment_scheme": "sha256(ASCII('assumption-eval-seed-v1\\0') || seed_bytes), where \\0 denotes the two ASCII characters backslash and zero",
+  "seed_commitment_sha256": "70bf5e5b10c54cf0505229e3e9721d6c2c65bb150c841215da7e15acbe82ccd6",
+  "seed_encoding": "base64",
+  "suite_id": "structured-transfer-heldout-v1"
+}

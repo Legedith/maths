@@ -1,0 +1,14 @@
+﻿{
+    "name":  "research-provenance-delta-typecheck",
+    "command_argv":  [
+                         ".\\node_modules\\.bin\\tsc.cmd",
+                         "--noEmit"
+                     ],
+    "command_display":  ".\\node_modules\\.bin\\tsc.cmd --noEmit",
+    "working_directory":  "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "started_at":  "2026-09-08T08:16:20.3495894+05:30",
+    "ended_at":  "2026-09-08T08:16:24.2174998+05:30",
+    "runtime_seconds":  3.8639921,
+    "exit_code":  0,
+    "console_log":  "logs/research-provenance-delta-typecheck.console.log"
+}

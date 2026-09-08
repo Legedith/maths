@@ -1,0 +1,1117 @@
+{
+  "adjudicated_at": "2026-09-08T03:09:01.051019Z",
+  "adjudicated_label_counts_descriptive_only": {
+    "insufficient": 3,
+    "refuted": 9,
+    "supported": 12
+  },
+  "adjudicator": {
+    "identity": "/root/sol_atlas_audit",
+    "model": "gpt-6",
+    "role": "source-resolving adjudicator after both blinded reviews froze"
+  },
+  "agreement_count": 21,
+  "disagreement_count": 3,
+  "inputs": {
+    "reviewer_a": {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\SEALED-reviewer-A-round1.json",
+      "preserved": true,
+      "sha256": "39123f5a9d8197de23be95969e8d8dca432fbb3390fab63640487dc268b50307"
+    },
+    "reviewer_b": {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\SEALED\\reviewer-b.json",
+      "preserved": true,
+      "sha256": "cc99747b80e03dfc24a5518bd53eb67e98f5b164c761c1a33dba03be33d6d2f7"
+    }
+  },
+  "limits": [
+    "The 24 fixed purposive results are not a random sample; label counts are descriptive only and support no prevalence estimate.",
+    "Adjudication does not certify natural-language accuracy, automated translation, service quality, novelty, or researcher-time benefit.",
+    "A successful structured instance check is not a theorem proof and cannot repair an inaccurate or underspecified generated slogan."
+  ],
+  "record_count": 24,
+  "records": [
+    {
+      "adjudicated_label": "refuted",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "adjudication_source_locator": "PDF p. 2, Theorem 1.2(1)-(2).",
+      "generated_slogan": "The weighted Laplacian matrix of a graph has eigenvalues including zero. The product of the nonzero eigenvalues divided by the number of vertices equals the sum over all spanning trees of the product of their edge weights. This sum also equals the determinant of any reduced weighted Laplacian matrix. The reduced matrix is formed by deleting one row and column from the original Laplacian.",
+      "paper_id": "0802.2576v2",
+      "query_id": "Q01",
+      "rank": 1,
+      "reviewer_a": {
+        "interpretation": "The slogan changes this to the product of all nonzero eigenvalues and omits connectedness. For two disjoint unit edges, the slogan's spectral expression is 1 while the weighted spanning-tree sum and every reduced determinant are 0.",
+        "label": "refuted",
+        "locators": [
+          {
+            "extracted_text_line_end": 48,
+            "extracted_text_line_start": 18,
+            "pdf_page": 1,
+            "purpose": "components, eigenvalue multiplicity, and connected classical theorem"
+          },
+          {
+            "extracted_text_line_end": 107,
+            "extracted_text_line_start": 74,
+            "pdf_page": 2,
+            "purpose": "weighted Laplacian and Theorem 1.2"
+          }
+        ],
+        "source_pdf_sha256": "3450dbb90c168258764777f114a48b6840f61710ccddad91dd46b5aeefdf6646",
+        "source_url": "https://arxiv.org/pdf/0802.2576v2"
+      },
+      "reviewer_b": {
+        "interpretation": "The source indexes one zero eigenvalue and then multiplies all remaining indexed eigenvalues; it does not identify those remaining factors as the nonzero spectrum. On a disconnected graph, the slogan's replacement by all nonzero eigenvalues changes the formula.",
+        "label": "refuted",
+        "locator": "PDF p. 2, Theorem 1.2(1)-(2).",
+        "source_pdf_sha256": "3450dbb90c168258764777f114a48b6840f61710ccddad91dd46b5aeefdf6646",
+        "source_url": "https://arxiv.org/pdf/0802.2576v2"
+      },
+      "reviewers_agreed": true,
+      "slogan_id": 8059737,
+      "structured_checker": {
+        "eligible": true,
+        "reason": "The unqualified nonzero-spectrum formula is directly expressible and admits a disconnected exact witness.",
+        "status": "planned_separate_round_two"
+      },
+      "theorem_id": 23150070
+    },
+    {
+      "adjudicated_label": "refuted",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "adjudication_source_locator": "PDF pp. 6-7, definitions immediately before Theorem 2.1 and Theorem 2.1.",
+      "generated_slogan": "For a finite graph G with n vertices, let the eigenvalues of its Laplacian be ordered from zero to the largest. The number of spanning trees of G equals the product of all nonzero eigenvalues divided by the total vertex weight, multiplied by the ratio of the product of edge weights to the product of vertex weights. This result holds for weighted graphs where weights are assigned to edges and vertices. The formula generalizes Kirchhoff's matrix-tree theorem to the weighted case.",
+      "paper_id": "1612.07898v1",
+      "query_id": "Q01",
+      "rank": 2,
+      "reviewer_a": {
+        "interpretation": "The slogan replaces the cycle-pairing discriminant D(G) with the number of spanning trees. For a 3-cycle with edge weights (2,1,1) and unit vertex weights, the source definition gives D(G)=4 while the ordinary spanning-tree count is 3.",
+        "label": "refuted",
+        "locators": [
+          {
+            "extracted_text_line_end": 305,
+            "extracted_text_line_start": 285,
+            "pdf_page": 5,
+            "purpose": "specialized positive-integer edge and vertex weights"
+          },
+          {
+            "extracted_text_line_end": 376,
+            "extracted_text_line_start": 334,
+            "pdf_page": 6,
+            "purpose": "weighted Laplacian, cycle pairing, D(G), and mass definitions"
+          },
+          {
+            "extracted_text_line_end": 392,
+            "extracted_text_line_start": 381,
+            "pdf_page": 7,
+            "purpose": "Theorem 2.1 formula for D(G)"
+          }
+        ],
+        "source_pdf_sha256": "ea0d85fadf9757ccc5e0a876ca4592495ee321f0b7db548576998e5d825728d8",
+        "source_url": "https://arxiv.org/pdf/1612.07898v1"
+      },
+      "reviewer_b": {
+        "interpretation": "The slogan changes both named quantities in the theorem. D(G) is the order of a discriminant/component group, not a spanning-tree count, and m(G) is a sum of reciprocal vertex weights, not total vertex weight.",
+        "label": "refuted",
+        "locator": "PDF pp. 6-7, definitions immediately before Theorem 2.1 and Theorem 2.1.",
+        "source_pdf_sha256": "ea0d85fadf9757ccc5e0a876ca4592495ee321f0b7db548576998e5d825728d8",
+        "source_url": "https://arxiv.org/pdf/1612.07898v1"
+      },
+      "reviewers_agreed": true,
+      "slogan_id": 6023811,
+      "structured_checker": {
+        "eligible": false,
+        "reason": "D(G), vertex weights, reciprocal vertex-weight mass m(G), and component-group semantics are absent.",
+        "status": "ineligible_accounted"
+      },
+      "theorem_id": 21091970
+    },
+    {
+      "adjudicated_label": "insufficient",
+      "adjudication": "The original theorem is recorded in a normalized-Laplacian context that uses positive degrees and a single distinguished zero eigenvalue. The slogan quantifies over a generic graph without retaining the connected/no-isolate convention. The identity may extend under a chosen normalized-Laplacian convention, so the omission is narrower-source ambiguity rather than a decisive counterexample.",
+      "adjudication_source_locator": "2009.04139v1, PDF pp. 1-3: normalized-Laplacian definition and spectrum convention; Theorem 2.5.",
+      "generated_slogan": "A graph with n vertices and m edges has a spanning tree count given by a formula. This formula equals the product of all vertex degrees multiplied by the product of all normalized Laplacian eigenvalues except the smallest. The result is also equal to twice the number of edges times the number of spanning trees. The eigenvalues are those of the normalized Laplacian matrix of the graph.",
+      "paper_id": "2009.04139v1",
+      "query_id": "Q02",
+      "rank": 1,
+      "reviewer_a": {
+        "interpretation": "The slogan quantifies over a generic graph and does not preserve the connected/no-isolate scope needed by the recorded context. The algebraic identity may extend under additional normalized-Laplacian conventions, so the source is narrower rather than decisively contradictory.",
+        "label": "insufficient",
+        "locators": [
+          {
+            "extracted_text_line_end": 39,
+            "extracted_text_line_start": 29,
+            "pdf_page": 1,
+            "purpose": "normalized-Laplacian definition"
+          },
+          {
+            "extracted_text_line_end": 79,
+            "extracted_text_line_start": 60,
+            "pdf_page": 2,
+            "purpose": "unique-zero spectrum context"
+          },
+          {
+            "extracted_text_line_end": 185,
+            "extracted_text_line_start": 153,
+            "pdf_page": 3,
+            "purpose": "connected neighboring results and Theorem 2.5 formula"
+          }
+        ],
+        "source_pdf_sha256": "8cd24fdc344f2550a418c933800d3e97ba358fd7aa1f516aafccceaaede2f566",
+        "source_url": "https://arxiv.org/pdf/2009.04139v1"
+      },
+      "reviewer_b": {
+        "interpretation": "The source gives exactly 2m times the spanning-tree count as the product of all degrees and normalized-Laplacian eigenvalues indexed from 2 through n. The slogan preserves the excluded smallest eigenvalue convention.",
+        "label": "supported",
+        "locator": "PDF p. 3, Theorem 2.5.",
+        "source_pdf_sha256": "8cd24fdc344f2550a418c933800d3e97ba358fd7aa1f516aafccceaaede2f566",
+        "source_url": "https://arxiv.org/pdf/2009.04139v1"
+      },
+      "reviewers_agreed": false,
+      "slogan_id": 4371172,
+      "structured_checker": {
+        "eligible": true,
+        "reason": "A connected instance of the degree/normalized-spectrum/tree formula is expressible using rw_nonzero_spectrum_product, degrees, graph volume, and tree_mass; the connected convention must be recorded explicitly.",
+        "status": "planned_separate_round_two"
+      },
+      "theorem_id": 19685900
+    },
+    {
+      "adjudicated_label": "refuted",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "adjudication_source_locator": "PDF p. 4, Theorem 5, together with the connected-graph setup in Section 2.",
+      "generated_slogan": "The total number of spanning trees in a graph G is given by a formula involving the degrees of its vertices and the eigenvalues of its normalized Laplacian matrix. The product of all vertex degrees is multiplied by the product of all nonzero eigenvalues. This result is then divided by twice the number of edges in the graph. The eigenvalues are ordered, with the smallest being zero and excluded from the product.",
+      "paper_id": "2302.07170v2",
+      "query_id": "Q02",
+      "rank": 2,
+      "reviewer_a": {
+        "interpretation": "The slogan drops connectedness and replaces the indexed product after the unique zero with a product of all nonzero eigenvalues. For two disjoint unit edges, that reading yields 1 while the spanning-tree count is 0.",
+        "label": "refuted",
+        "locators": [
+          {
+            "extracted_text_line_end": 122,
+            "extracted_text_line_start": 118,
+            "pdf_page": 2,
+            "purpose": "connectedness and unique-zero spectral context"
+          },
+          {
+            "extracted_text_line_end": 178,
+            "extracted_text_line_start": 160,
+            "pdf_page": 3,
+            "purpose": "source formula, labeled Theorem 4 in the PDF"
+          }
+        ],
+        "source_pdf_sha256": "0a8b0cd222346e255bfe572b23b84a6351896223af4de86745e72cf6bd28bbe4",
+        "source_url": "https://arxiv.org/pdf/2302.07170v2"
+      },
+      "reviewer_b": {
+        "interpretation": "The source's normalized-Laplacian formula is stated in a connected-graph setting and indexes lambda_2 through lambda_|V|. The slogan omits connectedness and rewrites the factors as all nonzero eigenvalues, which yields a false extension to disconnected graphs.",
+        "label": "refuted",
+        "locator": "PDF p. 4, Theorem 5, together with the connected-graph setup in Section 2.",
+        "source_pdf_sha256": "0a8b0cd222346e255bfe572b23b84a6351896223af4de86745e72cf6bd28bbe4",
+        "source_url": "https://arxiv.org/pdf/2302.07170v2"
+      },
+      "reviewers_agreed": true,
+      "slogan_id": 2245310,
+      "structured_checker": {
+        "eligible": true,
+        "reason": "The unqualified all-nonzero normalized-spectrum formula is expressible and admits a disconnected exact witness.",
+        "status": "planned_separate_round_two"
+      },
+      "theorem_id": 18276974
+    },
+    {
+      "adjudicated_label": "supported",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "adjudication_source_locator": "PDF p. 4, Theorem 2.2 (Kirchhoff's formula).",
+      "generated_slogan": "The probability an edge is in the weighted uniform spanning tree equals the product of its weight and the effective resistance between its endpoints.",
+      "paper_id": "2410.16836v3",
+      "query_id": "Q03",
+      "rank": 1,
+      "reviewer_a": {
+        "interpretation": "The slogan preserves the weighted-tree law, edge weight, and effective resistance.",
+        "label": "supported",
+        "locators": [
+          {
+            "extracted_text_line_end": 179,
+            "extracted_text_line_start": 169,
+            "pdf_page": 3,
+            "purpose": "finite positive-weight undirected-network setup"
+          },
+          {
+            "extracted_text_line_end": 230,
+            "extracted_text_line_start": 199,
+            "pdf_page": 4,
+            "purpose": "effective-resistance definition and Kirchhoff formula"
+          }
+        ],
+        "source_pdf_sha256": "3ce5a9b56a22d884138bd1335d4216061733680743ceab16b70963bba9f61d9c",
+        "source_url": "https://arxiv.org/pdf/2410.16836v3"
+      },
+      "reviewer_b": {
+        "interpretation": "The theorem states that weighted-UST edge inclusion probability is the edge weight times effective resistance between its endpoints.",
+        "label": "supported",
+        "locator": "PDF p. 4, Theorem 2.2 (Kirchhoff's formula).",
+        "source_pdf_sha256": "3ce5a9b56a22d884138bd1335d4216061733680743ceab16b70963bba9f61d9c",
+        "source_url": "https://arxiv.org/pdf/2410.16836v3"
+      },
+      "reviewers_agreed": true,
+      "slogan_id": 2104428,
+      "structured_checker": {
+        "eligible": true,
+        "reason": "Weighted tree edge probability, terminal-edge conductance, and effective resistance are exposed exactly.",
+        "status": "planned_separate_round_two"
+      },
+      "theorem_id": 18134454
+    },
+    {
+      "adjudicated_label": "refuted",
+      "adjudication": "The paper explicitly reserves UST for the unweighted law and 'weighted UST' for the product-of-weights law. The slogan says uniformly random spanning tree while retaining nonunit edge weights. On a triangle with conductances (2,1,1), the weight-2 edge has weighted inclusion probability 4/5 but ordinary uniform inclusion probability 2/3.",
+      "adjudication_source_locator": "2410.16830v3, PDF p. 2, distinction between UST and weighted UST; PDF p. 8, Theorem 2.1.",
+      "generated_slogan": "The probability that an edge is in a uniformly random spanning tree equals the product of its weight and the effective resistance between its endpoints. This holds for any finite electrical network with given edge weights. The result connects graph theory and electrical network concepts. It is known as Kirchhoff's effective resistance formula.",
+      "paper_id": "2410.16830v3",
+      "query_id": "Q03",
+      "rank": 2,
+      "reviewer_a": {
+        "interpretation": "The slogan says the tree is uniformly random without retaining the weighted-law qualification. In a triangle with conductances (2,1,1), the weighted inclusion probability for the weight-2 edge is 4/5, while ordinary uniform sampling gives 2/3.",
+        "label": "refuted",
+        "locators": [
+          {
+            "extracted_text_line_end": 145,
+            "extracted_text_line_start": 136,
+            "pdf_page": 2,
+            "purpose": "explicit weighted-versus-unweighted UST terminology"
+          },
+          {
+            "extracted_text_line_end": 522,
+            "extracted_text_line_start": 508,
+            "pdf_page": 8,
+            "purpose": "weighted UST probability law"
+          },
+          {
+            "extracted_text_line_end": 594,
+            "extracted_text_line_start": 581,
+            "pdf_page": 8,
+            "purpose": "Theorem 2.1 under the weighted UST law"
+          }
+        ],
+        "source_pdf_sha256": "bbf97d79b262142afc8139cab27435613fce9b37e2e8cc763d4edf57ec72577a",
+        "source_url": "https://arxiv.org/pdf/2410.16830v3"
+      },
+      "reviewer_b": {
+        "interpretation": "The original theorem states the same identity for a finite electrical network with its weighted UST measure.",
+        "label": "supported",
+        "locator": "PDF p. 8, Theorem 2.1 (Kirchhoff's Formula).",
+        "source_pdf_sha256": "bbf97d79b262142afc8139cab27435613fce9b37e2e8cc763d4edf57ec72577a",
+        "source_url": "https://arxiv.org/pdf/2410.16830v3"
+      },
+      "reviewers_agreed": false,
+      "slogan_id": 2134827,
+      "structured_checker": {
+        "eligible": false,
+        "reason": "The checker exposes weighted tree sampling only; it cannot simultaneously represent ordinary-uniform tree probability on a nonunit weighted graph, the distinction that refutes the slogan.",
+        "status": "ineligible_accounted"
+      },
+      "theorem_id": 18165234
+    },
+    {
+      "adjudicated_label": "supported",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "adjudication_source_locator": "PDF p. 7, Lemma 2.1, with the unit-resistance convention in Section 2.",
+      "generated_slogan": "The effective resistance between two vertices connected by an edge equals the probability that the edge is included in a uniformly random spanning tree.",
+      "paper_id": "2109.13394v2",
+      "query_id": "Q04",
+      "rank": 1,
+      "reviewer_a": {
+        "interpretation": "The slogan retains adjacency, the unweighted uniform-tree convention, and the equality.",
+        "label": "supported",
+        "locators": [
+          {
+            "extracted_text_line_end": 267,
+            "extracted_text_line_start": 250,
+            "pdf_page": 6,
+            "purpose": "unit-resistor effective-resistance setup"
+          },
+          {
+            "extracted_text_line_end": 283,
+            "extracted_text_line_start": 278,
+            "pdf_page": 7,
+            "purpose": "Lemma 2.1 and enumerative example"
+          }
+        ],
+        "source_pdf_sha256": "f0ad74ca6e4f7ad0359762adfb9806adccf50889499680fdf11e33ba1c41432c",
+        "source_url": "https://arxiv.org/pdf/2109.13394v2"
+      },
+      "reviewer_b": {
+        "interpretation": "For an existing edge in the paper's unweighted graph setting, the lemma equates its uniform-spanning-tree inclusion probability with endpoint effective resistance.",
+        "label": "supported",
+        "locator": "PDF p. 7, Lemma 2.1, with the unit-resistance convention in Section 2.",
+        "source_pdf_sha256": "f0ad74ca6e4f7ad0359762adfb9806adccf50889499680fdf11e33ba1c41432c",
+        "source_url": "https://arxiv.org/pdf/2109.13394v2"
+      },
+      "reviewers_agreed": true,
+      "slogan_id": 9527643,
+      "structured_checker": {
+        "eligible": true,
+        "reason": "The unweighted existing-edge identity is expressible on an explicit unit-conductance instance.",
+        "status": "planned_separate_round_two"
+      },
+      "theorem_id": 24585048
+    },
+    {
+      "adjudicated_label": "supported",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "adjudication_source_locator": "PDF p. 5, Section 4.1 and Lemma 6.",
+      "generated_slogan": "The probability that a given edge is in a uniformly random spanning tree of a graph equals the effective resistance of that edge.",
+      "paper_id": "1206.0937v3",
+      "query_id": "Q04",
+      "rank": 2,
+      "reviewer_a": {
+        "interpretation": "The slogan correctly expands r_e using the source's effective-resistance definition.",
+        "label": "supported",
+        "locators": [
+          {
+            "extracted_text_line_end": 320,
+            "extracted_text_line_start": 286,
+            "pdf_page": 5,
+            "purpose": "effective resistance, UST definition, and Lemma 6"
+          }
+        ],
+        "source_pdf_sha256": "aec5df2ed10e69cc885fea382997b082791cef2578636cc02e00972029024f40",
+        "source_url": "https://arxiv.org/pdf/1206.0937v3"
+      },
+      "reviewer_b": {
+        "interpretation": "The source states exactly that the probability an edge belongs to a UST draw equals that edge's effective resistance under the paper's unweighted combinatorial-Laplacian convention.",
+        "label": "supported",
+        "locator": "PDF p. 5, Section 4.1 and Lemma 6.",
+        "source_pdf_sha256": "aec5df2ed10e69cc885fea382997b082791cef2578636cc02e00972029024f40",
+        "source_url": "https://arxiv.org/pdf/1206.0937v3"
+      },
+      "reviewers_agreed": true,
+      "slogan_id": 7383631,
+      "structured_checker": {
+        "eligible": true,
+        "reason": "The unweighted existing-edge identity is expressible on an explicit unit-conductance instance.",
+        "status": "planned_separate_round_two"
+      },
+      "theorem_id": 22467127
+    },
+    {
+      "adjudicated_label": "insufficient",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "adjudication_source_locator": "PDF p. 3, Assumptions 2.1; PDF p. 17, Lemma 5.1.",
+      "generated_slogan": "The commute time between any two vertices in a graph equals the volume of the graph multiplied by the effective resistance between those vertices.",
+      "paper_id": "2101.07103v2",
+      "query_id": "Q05",
+      "rank": 1,
+      "reviewer_a": {
+        "interpretation": "The familiar commute-time identity is supported for connected graphs or vertices in one component, but the slogan's unqualified 'any two vertices in a graph' is not resolved by the recorded source context for vertices in distinct components.",
+        "label": "insufficient",
+        "locators": [
+          {
+            "extracted_text_line_end": 74,
+            "extracted_text_line_start": 65,
+            "pdf_page": 2,
+            "purpose": "resistance distance identified with effective resistance"
+          },
+          {
+            "extracted_text_line_end": 108,
+            "extracted_text_line_start": 101,
+            "pdf_page": 3,
+            "purpose": "global finite-graph assumptions permit multiple components"
+          },
+          {
+            "extracted_text_line_end": 1181,
+            "extracted_text_line_start": 1161,
+            "pdf_page": 17,
+            "purpose": "hitting time, commute time, Lemma 5.1, and volume"
+          }
+        ],
+        "source_pdf_sha256": "c8e15f31bcb6eb1a3dcfd121a0e23f7cb0b059d310e107b046a8f5f4debfe1b0",
+        "source_url": "https://arxiv.org/pdf/2101.07103v2"
+      },
+      "reviewer_b": {
+        "interpretation": "The displayed equality is present, but the slogan suppresses conventions needed to interpret commute time, graph volume, and resistance, including the paper's weighted random walk, positive-weight/no-isolate assumptions, and component restrictions. The abbreviated statement is only partially supported without those conventions.",
+        "label": "insufficient",
+        "locator": "PDF p. 3, Assumptions 2.1; PDF p. 17, Lemma 5.1.",
+        "source_pdf_sha256": "c8e15f31bcb6eb1a3dcfd121a0e23f7cb0b059d310e107b046a8f5f4debfe1b0",
+        "source_url": "https://arxiv.org/pdf/2101.07103v2"
+      },
+      "reviewers_agreed": true,
+      "slogan_id": 11068808,
+      "structured_checker": {
+        "eligible": true,
+        "reason": "Commute, graph volume, and effective resistance are exposed; source-faithful checking requires an explicit connected-network assumption.",
+        "status": "planned_separate_round_two"
+      },
+      "theorem_id": 26329144
+    },
+    {
+      "adjudicated_label": "supported",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "adjudication_source_locator": "PDF p. 13, Lemma 3.16.",
+      "generated_slogan": "A finite measured graph with full support admits a unique reversible random walk with a unique stationary measure and conductance function. The conductance equals the sum of measures for adjacent vertices, and the random walk transitions only between neighbors. Under additional boundedness and Cheeger constant assumptions, the stationary measure and original measure are comparable up to constants. The Cheeger constant for the random walk is bounded below by a positive value depending on the graph's parameters.",
+      "paper_id": "2104.06052v3",
+      "query_id": "Q05",
+      "rank": 2,
+      "reviewer_a": {
+        "interpretation": "The slogan preserves the source-defined measured-graph term and the extra hypotheses attached only to the bounds.",
+        "label": "supported",
+        "locators": [
+          {
+            "extracted_text_line_end": 123,
+            "extracted_text_line_start": 115,
+            "pdf_page": 3,
+            "purpose": "finite measured graph definition"
+          },
+          {
+            "extracted_text_line_end": 223,
+            "extracted_text_line_start": 209,
+            "pdf_page": 4,
+            "purpose": "stationary measure, conductance, and reversible-walk construction"
+          },
+          {
+            "extracted_text_line_end": 1008,
+            "extracted_text_line_start": 994,
+            "pdf_page": 13,
+            "purpose": "Lemma 3.16 including conditional bounds"
+          }
+        ],
+        "source_pdf_sha256": "980cf6cd4ad243e1324c2b40b4cb7841457f10c39b05f85fd6155fa144b2bf4a",
+        "source_url": "https://arxiv.org/pdf/2104.06052v3"
+      },
+      "reviewer_b": {
+        "interpretation": "The source supports the existence and uniqueness statements, the neighbor-support and conductance definitions, and the quantitative comparison and Cheeger bounds under the extra hypotheses named by the slogan.",
+        "label": "supported",
+        "locator": "PDF p. 13, Lemma 3.16.",
+        "source_pdf_sha256": "980cf6cd4ad243e1324c2b40b4cb7841457f10c39b05f85fd6155fa144b2bf4a",
+        "source_url": "https://arxiv.org/pdf/2104.06052v3"
+      },
+      "reviewers_agreed": true,
+      "slogan_id": 8641940,
+      "structured_checker": {
+        "eligible": false,
+        "reason": "Arbitrary vertex measures, measured-graph uniqueness, measure-ratio bounds, and Cheeger constants are absent.",
+        "status": "ineligible_accounted"
+      },
+      "theorem_id": 23740032
+    },
+    {
+      "adjudicated_label": "refuted",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "adjudication_source_locator": "PDF pp. 37-38, multipede construction preceding Lemma 7.2 and Lemma 7.2.",
+      "generated_slogan": "An odd and ordered bipartite graph has an asymmetric matching polytope. The polytope's asymmetry holds under these specific conditions. This result applies to graphs with the given bipartite and ordering properties.",
+      "paper_id": "2210.07869v7",
+      "query_id": "Q06",
+      "rank": 1,
+      "reviewer_a": {
+        "interpretation": "The slogan expands MP(G) as a matching polytope, which the source does not define or discuss here.",
+        "label": "refuted",
+        "locators": [
+          {
+            "extracted_text_line_end": 2177,
+            "extracted_text_line_start": 2141,
+            "pdf_page": 37,
+            "purpose": "multipede terminology and construction"
+          },
+          {
+            "extracted_text_line_end": 2196,
+            "extracted_text_line_start": 2188,
+            "pdf_page": 38,
+            "purpose": "multipede figure explanation and Lemma 7.2"
+          }
+        ],
+        "source_pdf_sha256": "925f89e7d7ed15197c9eef711881247b975040bf8313862a1e614fcae2a2436c",
+        "source_url": "https://arxiv.org/pdf/2210.07869v7"
+      },
+      "reviewer_b": {
+        "interpretation": "The source defines MP(G) as a multipede relational structure. The slogan expands MP as a matching polytope, changing the mathematical object and making the summary false.",
+        "label": "refuted",
+        "locator": "PDF pp. 37-38, multipede construction preceding Lemma 7.2 and Lemma 7.2.",
+        "source_pdf_sha256": "925f89e7d7ed15197c9eef711881247b975040bf8313862a1e614fcae2a2436c",
+        "source_url": "https://arxiv.org/pdf/2210.07869v7"
+      },
+      "reviewers_agreed": true,
+      "slogan_id": 10676257,
+      "structured_checker": {
+        "eligible": false,
+        "reason": "Multipede structures, matching polytopes, and asymmetry are outside the graph-invariant grammar.",
+        "status": "ineligible_accounted"
+      },
+      "theorem_id": 25939467
+    },
+    {
+      "adjudicated_label": "supported",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "adjudication_source_locator": "PDF p. 6, Lemma 2.3.",
+      "generated_slogan": "For a non-homogeneous graph with n vertices, there is a non-uniform consistent random ordering that is uniform on any subset of n minus one vertices. This ordering is achieved by assigning dependent uniform random variables in the interval from zero to one to each vertex. Any set of n minus one such variables are independent.",
+      "paper_id": "1506.03343v1",
+      "query_id": "Q06",
+      "rank": 2,
+      "reviewer_a": {
+        "interpretation": "The slogan preserves each clause of Lemma 2.3.",
+        "label": "supported",
+        "locators": [
+          {
+            "extracted_text_line_end": 245,
+            "extracted_text_line_start": 229,
+            "pdf_page": 6,
+            "purpose": "Lemma 2.3 and start of construction"
+          }
+        ],
+        "source_pdf_sha256": "2998f2474b37b0c78655f0abc0295f7c7958233f5ed9acdd430c616d359a9329",
+        "source_url": "https://arxiv.org/pdf/1506.03343v1"
+      },
+      "reviewer_b": {
+        "interpretation": "The slogan faithfully preserves the non-homogeneous n-vertex hypothesis, non-uniform but consistent ordering, uniformity on every n-1 subset, and the dependent-uniform-variable construction with every n-1 variables independent.",
+        "label": "supported",
+        "locator": "PDF p. 6, Lemma 2.3.",
+        "source_pdf_sha256": "2998f2474b37b0c78655f0abc0295f7c7958233f5ed9acdd430c616d359a9329",
+        "source_url": "https://arxiv.org/pdf/1506.03343v1"
+      },
+      "reviewers_agreed": true,
+      "slogan_id": 6521213,
+      "structured_checker": {
+        "eligible": false,
+        "reason": "Random vertex orderings and dependent random variables are outside the grammar.",
+        "status": "ineligible_accounted"
+      },
+      "theorem_id": 21595533
+    },
+    {
+      "adjudicated_label": "supported",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "adjudication_source_locator": "PDF pp. 31-32, Theorem 7, Lemma 8, and Corollary 9.",
+      "generated_slogan": "A random walk on a finite, connected, and non-bipartite undirected graph is ergodic. This means the walk converges to a unique stationary distribution regardless of the starting point. The process is both irreducible and aperiodic. It ensures that all states are positive recurrent.",
+      "paper_id": "1202.5569v1",
+      "query_id": "Q07",
+      "rank": 1,
+      "reviewer_a": {
+        "interpretation": "Every explanatory clause in the slogan is supported by the nearby definitions and theorems.",
+        "label": "supported",
+        "locators": [
+          {
+            "extracted_text_line_end": 1067,
+            "extracted_text_line_start": 1057,
+            "pdf_page": 30,
+            "purpose": "ergodicity and positive recurrence"
+          },
+          {
+            "extracted_text_line_end": 1102,
+            "extracted_text_line_start": 1080,
+            "pdf_page": 31,
+            "purpose": "unique stationary distribution and convergence"
+          },
+          {
+            "extracted_text_line_end": 1132,
+            "extracted_text_line_start": 1109,
+            "pdf_page": 32,
+            "purpose": "graph hypotheses, Corollary 9, and convergence theorem"
+          }
+        ],
+        "source_pdf_sha256": "bf1894a9500e62e74e39e8d3c4621b6630fcd97ab1b7081cc0b985cbbb524e1a",
+        "source_url": "https://arxiv.org/pdf/1202.5569v1"
+      },
+      "reviewer_b": {
+        "interpretation": "The corollary states ergodicity for finite, connected, non-bipartite undirected random walks; nearby results in the same source unpack ergodicity into irreducibility, aperiodicity, positive recurrence, unique stationarity, and convergence.",
+        "label": "supported",
+        "locator": "PDF pp. 31-32, Theorem 7, Lemma 8, and Corollary 9.",
+        "source_pdf_sha256": "bf1894a9500e62e74e39e8d3c4621b6630fcd97ab1b7081cc0b985cbbb524e1a",
+        "source_url": "https://arxiv.org/pdf/1202.5569v1"
+      },
+      "reviewers_agreed": true,
+      "slogan_id": 10129013,
+      "structured_checker": {
+        "eligible": false,
+        "reason": "The whole slogan includes convergence, uniqueness, irreducibility, and positive recurrence, which are not exposed quantities.",
+        "status": "ineligible_accounted"
+      },
+      "theorem_id": 25306126
+    },
+    {
+      "adjudicated_label": "supported",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "adjudication_source_locator": "PDF p. 25, Theorem A.2.",
+      "generated_slogan": "An irreducible aperiodic Markov chain with a finite state space has a unique stationary distribution. The distribution of the chain converges to this stationary distribution over time. The convergence occurs in total variation. This holds regardless of the initial distribution.",
+      "paper_id": "1206.4162v1",
+      "query_id": "Q07",
+      "rank": 2,
+      "reviewer_a": {
+        "interpretation": "The slogan keeps all hypotheses, uniqueness, universality over initial distributions, and total-variation convergence.",
+        "label": "supported",
+        "locators": [
+          {
+            "extracted_text_line_end": 2222,
+            "extracted_text_line_start": 2205,
+            "pdf_page": 25,
+            "purpose": "total variation definition and Theorem A.2"
+          }
+        ],
+        "source_pdf_sha256": "f130565bf2d17495773c0bc99534d1a8686d3bea950a12171cbe6b4d5fa17616",
+        "source_url": "https://arxiv.org/pdf/1206.4162v1"
+      },
+      "reviewer_b": {
+        "interpretation": "The source theorem exactly gives a unique stationary distribution and total-variation convergence from any initial distribution for a finite irreducible aperiodic Markov chain.",
+        "label": "supported",
+        "locator": "PDF p. 25, Theorem A.2.",
+        "source_pdf_sha256": "f130565bf2d17495773c0bc99534d1a8686d3bea950a12171cbe6b4d5fa17616",
+        "source_url": "https://arxiv.org/pdf/1206.4162v1"
+      },
+      "reviewers_agreed": true,
+      "slogan_id": 7398006,
+      "structured_checker": {
+        "eligible": false,
+        "reason": "The input is an arbitrary finite Markov chain and the claim includes total-variation convergence, neither representable by the graph-instance grammar.",
+        "status": "ineligible_accounted"
+      },
+      "theorem_id": 22481653
+    },
+    {
+      "adjudicated_label": "supported",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "adjudication_source_locator": "PDF p. 5, Proposition 2.2.",
+      "generated_slogan": "An irreducible and reversible Markov chain with period two has a unique stationary distribution for even times. The chain converges to this stationary distribution in the limit over even time steps. This convergence occurs from any initial even-time distribution.",
+      "paper_id": "2405.09102v1",
+      "query_id": "Q08",
+      "rank": 1,
+      "reviewer_a": {
+        "interpretation": "The slogan keeps the period-2, reversibility, uniqueness, and even-time domain restrictions.",
+        "label": "supported",
+        "locators": [
+          {
+            "extracted_text_line_end": 241,
+            "extracted_text_line_start": 228,
+            "pdf_page": 5,
+            "purpose": "definitions and Proposition 2.2"
+          }
+        ],
+        "source_pdf_sha256": "bca672594f609631c45a449859f63f8c23b7922648d6be383976f4bac792c79e",
+        "source_url": "https://arxiv.org/pdf/2405.09102v1"
+      },
+      "reviewer_b": {
+        "interpretation": "The proposition states uniqueness of the even-time stationary distribution and convergence of every even-time distribution under the irreducible, reversible, period-two hypotheses.",
+        "label": "supported",
+        "locator": "PDF p. 5, Proposition 2.2.",
+        "source_pdf_sha256": "bca672594f609631c45a449859f63f8c23b7922648d6be383976f4bac792c79e",
+        "source_url": "https://arxiv.org/pdf/2405.09102v1"
+      },
+      "reviewers_agreed": true,
+      "slogan_id": 2424674,
+      "structured_checker": {
+        "eligible": false,
+        "reason": "Even-time distributions, their stationarity, and convergence are not exposed.",
+        "status": "ineligible_accounted"
+      },
+      "theorem_id": 18458194
+    },
+    {
+      "adjudicated_label": "supported",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "adjudication_source_locator": "PDF p. 31, Theorem 1.3.",
+      "generated_slogan": "A random walk on an n-cycle has period 2 when n is even. When n is odd, the random walk is aperiodic.",
+      "paper_id": "2510.14165v1",
+      "query_id": "Q08",
+      "rank": 2,
+      "reviewer_a": {
+        "interpretation": "The slogan is a direct, convention-preserving paraphrase of the theorem.",
+        "label": "supported",
+        "locators": [
+          {
+            "extracted_text_line_end": 1385,
+            "extracted_text_line_start": 1368,
+            "pdf_page": 31,
+            "purpose": "examples and theorem statement"
+          }
+        ],
+        "source_pdf_sha256": "d1dd58d663cd6cb8dff0eaa535ff8aba9cafb684a7876f21e024c92dcf4c6dc9",
+        "source_url": "https://arxiv.org/pdf/2510.14165v1"
+      },
+      "reviewer_b": {
+        "interpretation": "The source theorem states exactly that simple random walk on an n-cycle has period two for even n and is aperiodic for odd n.",
+        "label": "supported",
+        "locator": "PDF p. 31, Theorem 1.3.",
+        "source_pdf_sha256": "d1dd58d663cd6cb8dff0eaa535ff8aba9cafb684a7876f21e024c92dcf4c6dc9",
+        "source_url": "https://arxiv.org/pdf/2510.14165v1"
+      },
+      "reviewers_agreed": true,
+      "slogan_id": 1443278,
+      "structured_checker": {
+        "eligible": true,
+        "reason": "Period is exposed with a structural certificate; even- and odd-cycle instances can be checked separately.",
+        "status": "planned_separate_round_two"
+      },
+      "theorem_id": 17464638
+    },
+    {
+      "adjudicated_label": "supported",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "adjudication_source_locator": "PDF p. 7, Theorem 3.3.",
+      "generated_slogan": "A real-valued function f on the boundary of a graph Gamma, summing to zero on each connected component, ensures the existence of a voltage function and a compatible current function with f as the boundary current. Any two such voltage solutions differ by a constant on each connected component of the graph.",
+      "paper_id": "1203.4045v1",
+      "query_id": "Q09",
+      "rank": 1,
+      "reviewer_a": {
+        "interpretation": "The slogan retains the per-component compatibility and per-component nonuniqueness.",
+        "label": "supported",
+        "locators": [
+          {
+            "extracted_text_line_end": 290,
+            "extracted_text_line_start": 282,
+            "pdf_page": 6,
+            "purpose": "componentwise compatibility and additive constants"
+          },
+          {
+            "extracted_text_line_end": 314,
+            "extracted_text_line_start": 299,
+            "pdf_page": 7,
+            "purpose": "network definition and Theorem 3.3"
+          }
+        ],
+        "source_pdf_sha256": "f8c170a689aac41bbe9e1f3c11116b12f5f85b54a95527f03dc6cb35d1ab0e61",
+        "source_url": "https://arxiv.org/pdf/1203.4045v1"
+      },
+      "reviewer_b": {
+        "interpretation": "The source provides existence of compatible voltage and current functions for balanced boundary current and uniqueness of voltage modulo a component-wise constant, exactly as summarized.",
+        "label": "supported",
+        "locator": "PDF p. 7, Theorem 3.3.",
+        "source_pdf_sha256": "f8c170a689aac41bbe9e1f3c11116b12f5f85b54a95527f03dc6cb35d1ab0e61",
+        "source_url": "https://arxiv.org/pdf/1203.4045v1"
+      },
+      "reviewers_agreed": true,
+      "slogan_id": 7452320,
+      "structured_checker": {
+        "eligible": false,
+        "reason": "Nonlinear or signed conductors, boundary-current functions, and arbitrary componentwise gauges are outside the positive-rational graph grammar.",
+        "status": "ineligible_accounted"
+      },
+      "theorem_id": 22536602
+    },
+    {
+      "adjudicated_label": "refuted",
+      "adjudication": "The source globally defines a resistor network as connected and its conductance matrix as irreducible. The slogan drops this material hypothesis while claiming uniqueness modulo one global constant for any balanced current. A disconnected network has one gauge constant per component, and a globally balanced current can still be unbalanced on individual components and unsolvable.",
+      "adjudication_source_locator": "2502.19720v2, PDF p. 5, connected-network/irreducible-conductance setup and Lemma 2.1.",
+      "generated_slogan": "If the sum of the current vector components is zero, then Kirchhoff's current law equation has a unique solution for the voltage vector, except for an additive constant vector. This constant vector corresponds to a uniform potential shift across all nodes. As a result, the potential difference between any two specific nodes is uniquely determined.",
+      "paper_id": "2502.19720v2",
+      "query_id": "Q09",
+      "rank": 2,
+      "reviewer_a": {
+        "interpretation": "The slogan drops connectedness. On two disconnected unit edges, L v=0 has two independent component constants, so it is not unique modulo one global constant and cross-component potential differences are not unique. A balanced current transferred between components may have no solution at all.",
+        "label": "refuted",
+        "locators": [
+          {
+            "extracted_text_line_end": 308,
+            "extracted_text_line_start": 283,
+            "pdf_page": 5,
+            "purpose": "connected-network context, Kirchhoff equation, and Lemma 2.1"
+          }
+        ],
+        "source_pdf_sha256": "a3bb32c87471a175945983b3b00c4b46837a39c26d9b0167d5455f44cdd7cfb6",
+        "source_url": "https://arxiv.org/pdf/2502.19720v2"
+      },
+      "reviewer_b": {
+        "interpretation": "For the paper's connected conductance-matrix setting, the lemma states that a balanced current vector yields voltage solutions unique up to the all-ones term, so every pairwise voltage difference is unique.",
+        "label": "supported",
+        "locator": "PDF p. 5, Kirchhoff equation (6) and Lemma 2.1.",
+        "source_pdf_sha256": "a3bb32c87471a175945983b3b00c4b46837a39c26d9b0167d5455f44cdd7cfb6",
+        "source_url": "https://arxiv.org/pdf/2502.19720v2"
+      },
+      "reviewers_agreed": false,
+      "slogan_id": 10817861,
+      "structured_checker": {
+        "eligible": false,
+        "reason": "Arbitrary current vectors and uniqueness modulo gauge are not claim-level quantities; the available gauge certificate is only partial.",
+        "status": "ineligible_accounted"
+      },
+      "theorem_id": 26077729
+    },
+    {
+      "adjudicated_label": "supported",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "adjudication_source_locator": "PDF p. 12, Theorem 3.2.",
+      "generated_slogan": "A connected graph with matrix weights has a Laplacian matrix L. The pseudoinverse of L satisfies an identity involving the identity matrix and a block matrix of all ones. This identity holds when each weight is a positive definite matrix of fixed order.",
+      "paper_id": "1803.09144v1",
+      "query_id": "Q10",
+      "rank": 1,
+      "reviewer_a": {
+        "interpretation": "The slogan preserves connectedness, matrix weights, positive definiteness, block order, and the pseudoinverse identity.",
+        "label": "supported",
+        "locators": [
+          {
+            "extracted_text_line_end": 783,
+            "extracted_text_line_start": 752,
+            "pdf_page": 11,
+            "purpose": "matrix-weighted graph and block Laplacian definitions"
+          },
+          {
+            "extracted_text_line_end": 888,
+            "extracted_text_line_start": 820,
+            "pdf_page": 12,
+            "purpose": "pseudoinverse construction and Theorem 3.2"
+          }
+        ],
+        "source_pdf_sha256": "ec2c2dc0b593b04bef50686b2bbc2afa135dceff24de20a1e95576ac0e82cf02",
+        "source_url": "https://arxiv.org/pdf/1803.09144v1"
+      },
+      "reviewer_b": {
+        "interpretation": "The theorem supports the connected matrix-weighted graph hypothesis, positive-definite k-by-k weights, and the stated projection identity for the Laplacian pseudoinverse.",
+        "label": "supported",
+        "locator": "PDF p. 12, Theorem 3.2.",
+        "source_pdf_sha256": "ec2c2dc0b593b04bef50686b2bbc2afa135dceff24de20a1e95576ac0e82cf02",
+        "source_url": "https://arxiv.org/pdf/1803.09144v1"
+      },
+      "reviewers_agreed": true,
+      "slogan_id": 5592308,
+      "structured_checker": {
+        "eligible": false,
+        "reason": "Matrix-valued edge weights, block Laplacians, Kronecker products, and matrix-weight pseudoinverses are absent.",
+        "status": "ineligible_accounted"
+      },
+      "theorem_id": 20655858
+    },
+    {
+      "adjudicated_label": "refuted",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "adjudication_source_locator": "PDF p. 9, definitions preceding Theorem 3 and Theorem 3.",
+      "generated_slogan": "If a graph is connected and an edge is a cut-edge with nonzero weight, then the effective resistance between its endpoints equals twice a specific expression involving the weight vector and the graph's Laplacian pseudoinverse. This expression is a ratio where the numerator contains the product of the weight vector with three instances of the pseudoinverse and a degree matrix. The denominator is the weight of the edge. The formula provides a closed-form for the resistance in terms of the graph's structure.",
+      "paper_id": "2508.21506v1",
+      "query_id": "Q10",
+      "rank": 2,
+      "reviewer_a": {
+        "interpretation": "The slogan changes the quantity into effective resistance, changes the denominator from the Kemeny derivative mu(p,q) to the edge weight, and calls S^{-1} a Laplacian pseudoinverse. These are unambiguous identification errors.",
+        "label": "refuted",
+        "locators": [
+          {
+            "extracted_text_line_end": 136,
+            "extracted_text_line_start": 131,
+            "pdf_page": 3,
+            "purpose": "connected weighted-graph setup"
+          },
+          {
+            "extracted_text_line_end": 156,
+            "extracted_text_line_start": 139,
+            "pdf_page": 4,
+            "purpose": "Laplacian and random-walk context"
+          },
+          {
+            "extracted_text_line_end": 280,
+            "extracted_text_line_start": 242,
+            "pdf_page": 5,
+            "purpose": "definitions of c, c_r, and filtered centrality c^F"
+          },
+          {
+            "extracted_text_line_end": 351,
+            "extracted_text_line_start": 327,
+            "pdf_page": 6,
+            "purpose": "definition of mu as Kemeny directional derivative"
+          },
+          {
+            "extracted_text_line_end": 619,
+            "extracted_text_line_start": 613,
+            "pdf_page": 9,
+            "purpose": "Theorem 3 formula"
+          }
+        ],
+        "source_pdf_sha256": "74984073bbff52a630d780e337605e3f60d3f6471453d15fac3eca0a45e415a9",
+        "source_url": "https://arxiv.org/pdf/2508.21506v1"
+      },
+      "reviewer_b": {
+        "interpretation": "The theorem computes filtered edge centrality c^F(p,q), not effective resistance. The denominator is the paper's mu(p,q), and the displayed matrices concern Kemeny's-constant sensitivity. The slogan changes the target quantity and interprets the denominator as edge weight.",
+        "label": "refuted",
+        "locator": "PDF p. 9, definitions preceding Theorem 3 and Theorem 3.",
+        "source_pdf_sha256": "74984073bbff52a630d780e337605e3f60d3f6471453d15fac3eca0a45e415a9",
+        "source_url": "https://arxiv.org/pdf/2508.21506v1"
+      },
+      "reviewers_agreed": true,
+      "slogan_id": 1560116,
+      "structured_checker": {
+        "eligible": false,
+        "reason": "Filtered Kemeny centrality and its derivative matrices are absent.",
+        "status": "ineligible_accounted"
+      },
+      "theorem_id": 17584187
+    },
+    {
+      "adjudicated_label": "supported",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "adjudication_source_locator": "PDF p. 7, Lemma 3.2.",
+      "generated_slogan": "The effective resistance between two distinct vertices is at least the sum of the reciprocals of the total conductances of pairwise disjoint cutsets separating them. In an infinite network, the effective resistance from a vertex to infinity is at least the infinite sum of the reciprocals of the total conductances of pairwise disjoint finite cutsets separating that vertex from infinity. If this infinite sum diverges, the network is recurrent. This holds for locally finite networks.",
+      "paper_id": "2010.01530v1",
+      "query_id": "Q11",
+      "rank": 1,
+      "reviewer_a": {
+        "interpretation": "The slogan preserves the separate finite and infinite settings, conductance sums, disjointness, and recurrence condition.",
+        "label": "supported",
+        "locators": [
+          {
+            "extracted_text_line_end": 506,
+            "extracted_text_line_start": 460,
+            "pdf_page": 7,
+            "purpose": "resistance-to-infinity convention and Lemma 3.2"
+          }
+        ],
+        "source_pdf_sha256": "2ae2f84ef4dce02100f59af5db9768c36d9eee850f814f181bb49a9924c61ca8",
+        "source_url": "https://arxiv.org/pdf/2010.01530v1"
+      },
+      "reviewer_b": {
+        "interpretation": "The source states both Nash-Williams lower bounds using pairwise disjoint cutsets and the recurrence consequence when the infinite reciprocal-conductance sum diverges.",
+        "label": "supported",
+        "locator": "PDF p. 7, Lemma 3.2.",
+        "source_pdf_sha256": "2ae2f84ef4dce02100f59af5db9768c36d9eee850f814f181bb49a9924c61ca8",
+        "source_url": "https://arxiv.org/pdf/2010.01530v1"
+      },
+      "reviewers_agreed": true,
+      "slogan_id": 9584048,
+      "structured_checker": {
+        "eligible": false,
+        "reason": "Infinite networks, cutset sequences, resistance to infinity, and recurrence are outside the finite grammar.",
+        "status": "ineligible_accounted"
+      },
+      "theorem_id": 24648249
+    },
+    {
+      "adjudicated_label": "insufficient",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "adjudication_source_locator": "PDF p. 10, Corollary 6.3, with the free-resistance notation defined earlier in the paper.",
+      "generated_slogan": "For a transient connected graph, the formula for the effective resistance between two nodes holds for all pairs if and only if the graph is a subgraph of an infinite line. The formula involves the reciprocal of the product of the conductance at the starting node and the probability of hitting the target before returning to the start. This equivalence characterizes graphs that are essentially one-dimensional.",
+      "paper_id": "1902.01110v2",
+      "query_id": "Q11",
+      "rank": 2,
+      "reviewer_a": {
+        "interpretation": "The slogan drops the free-boundary qualifier. On infinite networks, free and wired effective resistance are distinct conventions, so generic 'effective resistance' is ambiguous.",
+        "label": "insufficient",
+        "locators": [
+          {
+            "extracted_text_line_end": 112,
+            "extracted_text_line_start": 90,
+            "pdf_page": 2,
+            "purpose": "free effective-resistance convention"
+          },
+          {
+            "extracted_text_line_end": 746,
+            "extracted_text_line_start": 741,
+            "pdf_page": 10,
+            "purpose": "Corollary 6.3"
+          }
+        ],
+        "source_pdf_sha256": "55a88d447551c3263f20de8fcb4872efd20ef85e265e6f2444bddbf9f7110159",
+        "source_url": "https://arxiv.org/pdf/1902.01110v2"
+      },
+      "reviewer_b": {
+        "interpretation": "The corollary is specifically about free effective resistance R^F on an infinite graph. The slogan drops the free boundary convention and says only effective resistance, which is materially ambiguous because free and wired effective resistance can differ on infinite networks.",
+        "label": "insufficient",
+        "locator": "PDF p. 10, Corollary 6.3, with the free-resistance notation defined earlier in the paper.",
+        "source_pdf_sha256": "55a88d447551c3263f20de8fcb4872efd20ef85e265e6f2444bddbf9f7110159",
+        "source_url": "https://arxiv.org/pdf/1902.01110v2"
+      },
+      "reviewers_agreed": true,
+      "slogan_id": 5255460,
+      "structured_checker": {
+        "eligible": false,
+        "reason": "Infinite-network free resistance, return/hitting probabilities, and infinite-line subgraph characterization are absent.",
+        "status": "ineligible_accounted"
+      },
+      "theorem_id": 20314933
+    },
+    {
+      "adjudicated_label": "refuted",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "adjudication_source_locator": "PDF p. 4, weighted forest/tree definitions; PDF p. 15, Corollary 4.7.",
+      "generated_slogan": "The effective resistance between two connected nodes in a weighted graph equals the ratio of the number of spanning trees containing the edge to the product of the total number of spanning trees and the edge weight.",
+      "paper_id": "2109.01324v2",
+      "query_id": "Q12",
+      "rank": 1,
+      "reviewer_a": {
+        "interpretation": "The slogan calls tau and tau_e numbers of trees. On the triangle with conductances (2,1,1), the weighted formula gives 2/5 while substituting ordinary counts gives 1/3.",
+        "label": "refuted",
+        "locators": [
+          {
+            "extracted_text_line_end": 282,
+            "extracted_text_line_start": 258,
+            "pdf_page": 5,
+            "purpose": "forest weights and weighted tau definition"
+          },
+          {
+            "extracted_text_line_end": 911,
+            "extracted_text_line_start": 900,
+            "pdf_page": 12,
+            "purpose": "tau_e defined as total weight"
+          },
+          {
+            "extracted_text_line_end": 1154,
+            "extracted_text_line_start": 1148,
+            "pdf_page": 15,
+            "purpose": "Corollary 4.7"
+          }
+        ],
+        "source_pdf_sha256": "4558460b8c32d06ab4dd542d015d4527f3ab943dae0533d568eacc9d5fa25c7c",
+        "source_url": "https://arxiv.org/pdf/2109.01324v2"
+      },
+      "reviewer_b": {
+        "interpretation": "The source defines tau and tau_e as weighted sums over spanning trees. The slogan calls them numbers of spanning trees while retaining a general weighted graph, which changes the formula unless all tree weights coincide appropriately.",
+        "label": "refuted",
+        "locator": "PDF p. 4, weighted forest/tree definitions; PDF p. 15, Corollary 4.7.",
+        "source_pdf_sha256": "4558460b8c32d06ab4dd542d015d4527f3ab943dae0533d568eacc9d5fa25c7c",
+        "source_url": "https://arxiv.org/pdf/2109.01324v2"
+      },
+      "reviewers_agreed": true,
+      "slogan_id": 8733566,
+      "structured_checker": {
+        "eligible": false,
+        "reason": "The checker exposes weighted tree masses but not ordinary tree counts alongside the same nonunit weights, which is the slogan's disputed substitution.",
+        "status": "ineligible_accounted"
+      },
+      "theorem_id": 23832572
+    },
+    {
+      "adjudicated_label": "refuted",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "adjudication_source_locator": "PDF p. 1, definition of weighted spanning-tree enumerator; PDF p. 5, Theorem 2.4.",
+      "generated_slogan": "The effective resistance between two vertices in a weighted graph equals the ratio of the number of spanning trees in the graph with those vertices identified to the number of spanning trees in the original graph. The graph's edge weights are defined as the reciprocal of the resistances. This result connects graph theory with electrical network concepts. It provides a combinatorial formula for computing effective resistance.",
+      "paper_id": "1904.07766v1",
+      "query_id": "Q12",
+      "rank": 2,
+      "reviewer_a": {
+        "interpretation": "The slogan calls the numerator and denominator numbers of spanning trees in a weighted graph. With conductances (2,1,1) on a triangle, weighted tau gives the correct ratio 2/5, whereas plain counts give 2/3.",
+        "label": "refuted",
+        "locators": [
+          {
+            "extracted_text_line_end": 40,
+            "extracted_text_line_start": 19,
+            "pdf_page": 1,
+            "purpose": "weighted spanning-tree enumerator tau definition"
+          },
+          {
+            "extracted_text_line_end": 213,
+            "extracted_text_line_start": 205,
+            "pdf_page": 5,
+            "purpose": "Theorem 2.4 ratio"
+          }
+        ],
+        "source_pdf_sha256": "9dac8057d51e7c361fe08877a79bff45a97e19818d32289c83245bbb49a1aa0d",
+        "source_url": "https://arxiv.org/pdf/1904.07766v1"
+      },
+      "reviewer_b": {
+        "interpretation": "The theorem's tau denotes the total weight of spanning trees in a weighted graph, but the slogan repeatedly calls it the number of spanning trees. That substitution is false outside the unweighted specialization.",
+        "label": "refuted",
+        "locator": "PDF p. 1, definition of weighted spanning-tree enumerator; PDF p. 5, Theorem 2.4.",
+        "source_pdf_sha256": "9dac8057d51e7c361fe08877a79bff45a97e19818d32289c83245bbb49a1aa0d",
+        "source_url": "https://arxiv.org/pdf/1904.07766v1"
+      },
+      "reviewers_agreed": true,
+      "slogan_id": 5199628,
+      "structured_checker": {
+        "eligible": false,
+        "reason": "Graph contraction and its tree enumerator are absent, as is the weighted-mass versus ordinary-count comparison needed for the disputed slogan.",
+        "status": "ineligible_accounted"
+      },
+      "theorem_id": 20258646
+    }
+  ],
+  "round": "round_one_comparison_and_source_adjudication",
+  "schema_version": "1.0",
+  "structured_checker_eligibility": {
+    "eligible_count": 8,
+    "ineligible_count": 16,
+    "policy": "Eligibility means that every material mathematical quantity in a chosen instance-level annotation can be represented without changing the disputed meaning. Machine outputs remain separate and cannot revise round-one source labels."
+  },
+  "study_id": "assumption-preservation-retrieval-v1"
+}

@@ -1,0 +1,24 @@
+﻿{
+    "name":  "assumption-bundle-final-gate",
+    "command_argv":  [
+                         "uv",
+                         "run",
+                         "--frozen",
+                         "python",
+                         "C:/Users/Legedith/.codex/skills/chain-of-evidence/scripts/evidence_gate.py",
+                         "verify",
+                         "--workspace",
+                         ".",
+                         "--bundle",
+                         ".codex/evidence/runs/assumption-checks-v1/bundle.json",
+                         "--report",
+                         ".codex/evidence/runs/assumption-checks-v1/gate-report.json"
+                     ],
+    "command_display":  "uv run --frozen python C:/Users/Legedith/.codex/skills/chain-of-evidence/scripts/evidence_gate.py verify --workspace . --bundle .codex/evidence/runs/assumption-checks-v1/bundle.json --report .codex/evidence/runs/assumption-checks-v1/gate-report.json",
+    "working_directory":  "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "started_at":  "2026-09-08T09:55:50.6419033+05:30",
+    "ended_at":  "2026-09-08T09:55:51.0229587+05:30",
+    "runtime_seconds":  0.3780964,
+    "exit_code":  1,
+    "console_log":  "logs/assumption-bundle-final-gate.console.log"
+}

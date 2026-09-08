@@ -1,0 +1,30 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--locked",
+    "python",
+    "scripts\\check_scope.py"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\backbone-import-work\\implementation",
+  "duration_seconds": 0.4338450999930501,
+  "ended_at_utc": "2026-09-08T03:26:34.647368+00:00",
+  "exit_code": 0,
+  "schema_version": "command-evidence-v1",
+  "started_at_utc": "2026-09-08T03:26:34.213514+00:00",
+  "stderr": {
+    "base64": "",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "utf8_text": "",
+    "valid_utf8": true
+  },
+  "stdout": {
+    "base64": "eyJidW5kbGVfcmVjb3Jkc19zY2FubmVkIjogNDgxNCwgImxlZGdlcl9yZWNvcmRzX3NjYW5uZWQiOiA0ODE0LCAibmV0d29ya19jbGllbnRfaW1wb3J0cyI6IFtdLCAib3V0X29mX3Njb3BlX291dHB1dF9rZXlzIjogW10sICJydW50aW1lX2RlcGVuZGVuY2llcyI6IFtdLCAicnVudGltZV9pbXBvcnRfcm9vdHMiOiBbIl9fZnV0dXJlX18iLCAiYXJncGFyc2UiLCAiY3N2IiwgImRhdGFjbGFzc2VzIiwgImhhc2hsaWIiLCAiaW8iLCAianNvbiIsICJwYXRobGliIiwgInJlIiwgInN5cyIsICJ0eXBpbmciLCAidXJsbGliIl0sICJzdGF0dXMiOiAib2sifQ0K",
+    "bytes": 315,
+    "sha256": "a94ed544798776b368c8508aadbff6346ae8823e9053b317f6099afcf9ce465d",
+    "utf8_text": "{\"bundle_records_scanned\": 4814, \"ledger_records_scanned\": 4814, \"network_client_imports\": [], \"out_of_scope_output_keys\": [], \"runtime_dependencies\": [], \"runtime_import_roots\": [\"__future__\", \"argparse\", \"csv\", \"dataclasses\", \"hashlib\", \"io\", \"json\", \"pathlib\", \"re\", \"sys\", \"typing\", \"urllib\"], \"status\": \"ok\"}\r\n",
+    "valid_utf8": true
+  },
+  "windows_command_line": "uv run --locked python scripts\\check_scope.py"
+}

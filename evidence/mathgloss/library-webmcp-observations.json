@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "scope": "Focused WebMCP contract checks on the local completed library; no broad browser or visual QA.",
+  "implementation_freeze_sha256": "68bd8c6f8ff2dfaa1c1b26b1d4c030025ae1a6d84004767c8b537939f09ef316",
+  "page": "http://localhost:3000/library",
+  "tool": "search_learning_resources",
+  "registration": {
+    "present": true,
+    "required": ["query"],
+    "additionalProperties": false,
+    "annotations": {"readOnlyHint": false, "untrustedContentHint": true}
+  },
+  "observations": [
+    {
+      "input": {"query": "deutsch jozsa", "resource": "All", "page": 1},
+      "returned": {"total": 1, "qid": "Q1028209", "label": "Deutsch–Jozsa algorithm", "physical_lines": {"start": 31, "end": 31}},
+      "visible_query": "deutsch jozsa",
+      "visible_heading": "1 matching records for “deutsch jozsa”",
+      "source_link": "https://github.com/MathGloss/MathGloss/blob/b8f659605486f80f2816515f525af2c395c711fa/data/database.csv#L31-L31"
+    },
+    {
+      "input": {"query": true},
+      "expected_failure": "Use a search query of at most 500 characters.",
+      "visible_query_after_failure": "deutsch jozsa",
+      "visible_heading_after_failure": "1 matching records for “deutsch jozsa”"
+    },
+    {
+      "input": {"query": "", "resource": "Mathlib", "page": 2},
+      "returned": {"total": 308, "page": 2, "pages": 16, "record_count": 20, "first_qid": "Q110832802", "every_record_has_mathlib": true},
+      "visible_query": "",
+      "visible_heading": "308 matching records in Mathlib",
+      "visible_pagination": "Previous\nPage 2 of 16\nNext\nFirst page"
+    }
+  ],
+  "setup_history": "The earlier hidden development tab was no longer present. A stale tab selection failed before app interaction; inventory showed only the published Site. A new hidden local tab was then opened successfully. This was a setup miss, not an application test result.",
+  "limits": ["These checks establish scoped tool/state behavior, not semantic identity, resource quality or mathematical discovery.", "Independent integration review is separate from these root-observed browser results."]
+}

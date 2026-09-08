@@ -1,0 +1,229 @@
+{
+  "schema_version": "concept-library-independent-navigation-check-v1",
+  "status": "pass",
+  "frozen_case_sha256": "108c67ef95d33892a805be1a6a55a9349988b372a2c783a3703f7548548f3ea5",
+  "implementation_sha256": "065191c9a5ce80ddb02dd64214856fd334183d2bcc228bfa5918e6a954e63db1",
+  "integrated_candidate_index_sha256": "282ed1fd858595b782c856fbd2c96964a0b6ff3850fedf21105ca9bbb7edb4da",
+  "catalog_records": 4814,
+  "catalog_links": 7217,
+  "public_page_size": 20,
+  "resources": [
+    "BCT",
+    "Chicago",
+    "Clowder",
+    "Context",
+    "Mathlib",
+    "PlanetMath",
+    "nLab"
+  ],
+  "resource_totals": {
+    "BCT": 197,
+    "Chicago": 395,
+    "Clowder": 74,
+    "Context": 262,
+    "Mathlib": 308,
+    "PlanetMath": 1476,
+    "nLab": 4505
+  },
+  "source_record_urls_checked": 4814,
+  "search_filter_cases": [
+    {
+      "id": "all-records",
+      "count": 4814,
+      "pages": 241,
+      "set_sha256": "41eb75047b46b39976a2f3829a9b30d2093cda8f9ed345a367261f0bc179469c",
+      "precommitted_policy_aligned": true
+    },
+    {
+      "id": "qid-exact",
+      "count": 1,
+      "pages": 1,
+      "set_sha256": "e83357466665019eb6fe14133694a84ddbd984c709484268dbadef207b009bc8",
+      "precommitted_policy_aligned": true
+    },
+    {
+      "id": "unicode-en-dash-label",
+      "count": 1,
+      "pages": 1,
+      "set_sha256": "e83357466665019eb6fe14133694a84ddbd984c709484268dbadef207b009bc8",
+      "precommitted_policy_aligned": true
+    },
+    {
+      "id": "case-insensitive-label",
+      "count": 1,
+      "pages": 1,
+      "set_sha256": "5bc0b52995238dcf060436b42bc5267fcc30397825d42c0e12db51f5ad66a39e",
+      "precommitted_policy_aligned": true
+    },
+    {
+      "id": "resource-name-not-label",
+      "count": 1,
+      "pages": 1,
+      "set_sha256": "e4c286c33131b085732211b43b607394b1ac72c8a4f9dd0861db5e2fa141e7df",
+      "precommitted_policy_aligned": true
+    },
+    {
+      "id": "multi-hit-label-fragment",
+      "count": 13,
+      "pages": 1,
+      "set_sha256": "f89bb98d11f8fd2536353a714affcc4dac58afcc32df672677e50e56bc7ac079",
+      "precommitted_policy_aligned": false
+    },
+    {
+      "id": "filtered-chicago",
+      "count": 2,
+      "pages": 1,
+      "set_sha256": "5ec98ffb0dbd8eebce3d609a9a1b1053afd0b0c0a9ea3c49978f8aa9f5713a4c",
+      "precommitted_policy_aligned": true
+    },
+    {
+      "id": "filtered-bct",
+      "count": 3,
+      "pages": 1,
+      "set_sha256": "c0f18e134aa546c8cfc727fb05c479b52d1157e3933946d3bd31fad6c0e3cab3",
+      "precommitted_policy_aligned": false
+    },
+    {
+      "id": "filtered-planetmath",
+      "count": 2,
+      "pages": 1,
+      "set_sha256": "489bdbb9fbe6421990cc21e2a0092d90bd0e3786e6b40f6f26599a9939534b16",
+      "precommitted_policy_aligned": true
+    },
+    {
+      "id": "filtered-mathlib-miss",
+      "count": 0,
+      "pages": 0,
+      "set_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "precommitted_policy_aligned": true
+    },
+    {
+      "id": "search-miss",
+      "count": 0,
+      "pages": 0,
+      "set_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "precommitted_policy_aligned": true
+    },
+    {
+      "id": "unicode-broad",
+      "count": 13,
+      "pages": 1,
+      "set_sha256": "3d9d9e51259c5db7971ca5b2038a028b9458c5ec404bd90048ff65f44c14ac3c",
+      "precommitted_policy_aligned": true
+    }
+  ],
+  "pagination_sweeps": [
+    {
+      "id": "all-catalog-pages",
+      "fixed_public_page_size": 20,
+      "pages": 241,
+      "total": 4814,
+      "unique": 4814,
+      "set_sha256": "41eb75047b46b39976a2f3829a9b30d2093cda8f9ed345a367261f0bc179469c",
+      "precommitted_abstract_page_size": 37,
+      "precommitted_policy_aligned": true,
+      "note": "The contract permits a documented fixed bound; the implementation documents and returns 20."
+    },
+    {
+      "id": "all-nlab-pages",
+      "fixed_public_page_size": 20,
+      "pages": 226,
+      "total": 4505,
+      "unique": 4505,
+      "set_sha256": "56232322f72ec18621f99fd78a03c627758d7faf6f5606ce000ab5e32b087031",
+      "precommitted_abstract_page_size": 37,
+      "precommitted_policy_aligned": true,
+      "note": "The contract permits a documented fixed bound; the implementation documents and returns 20."
+    },
+    {
+      "id": "abelian-group-small-pages",
+      "fixed_public_page_size": 20,
+      "pages": 1,
+      "total": 13,
+      "unique": 13,
+      "set_sha256": "f89bb98d11f8fd2536353a714affcc4dac58afcc32df672677e50e56bc7ac079",
+      "precommitted_abstract_page_size": 5,
+      "precommitted_policy_aligned": false,
+      "note": "The contract permits a documented fixed bound; the implementation documents and returns 20."
+    }
+  ],
+  "precommitted_policy_differences": [
+    {
+      "id": "multi-hit-label-fragment",
+      "precommitted_policy": {
+        "comparison": "counts and sets are normative; frozen source order is retained for diagnosing the implementation's separately documented deterministic order",
+        "lexical_match": "substring of recorded Wikidata QID, recorded label, or recorded resource name",
+        "query_normalization": "strip then Unicode casefold",
+        "result_identity": "record_key",
+        "source_filter": "record has at least one retained link whose source exactly equals the selected source",
+        "url_fields_are_not_searchable": true
+      },
+      "precommitted_count": 12,
+      "documented_policy_count": 13,
+      "precommitted_set_sha256": "f38aa534b509d280acf4711d425cdd75ffffd7fab731e3d6b296c215fb1665c8",
+      "documented_set_sha256": "f89bb98d11f8fd2536353a714affcc4dac58afcc32df672677e50e56bc7ac079",
+      "adjudication": "The prospective contract required documented lexical matching but did not freeze a normalization/matching algorithm. The pre-review inputs remain applicable; this provisional casefolded contiguous-substring expected set is diagnostic where it differs from the independently implemented documented NFKC all-fragments policy."
+    },
+    {
+      "id": "filtered-bct",
+      "precommitted_policy": {
+        "comparison": "counts and sets are normative; frozen source order is retained for diagnosing the implementation's separately documented deterministic order",
+        "lexical_match": "substring of recorded Wikidata QID, recorded label, or recorded resource name",
+        "query_normalization": "strip then Unicode casefold",
+        "result_identity": "record_key",
+        "source_filter": "record has at least one retained link whose source exactly equals the selected source",
+        "url_fields_are_not_searchable": true
+      },
+      "precommitted_count": 4,
+      "documented_policy_count": 3,
+      "precommitted_set_sha256": "60c170eed18a297c95fd9fa1dc23c758a540c7415cc0e6e3b93c27e5d0c9ddaf",
+      "documented_set_sha256": "c0f18e134aa546c8cfc727fb05c479b52d1157e3933946d3bd31fad6c0e3cab3",
+      "adjudication": "The prospective contract required documented lexical matching but did not freeze a normalization/matching algorithm. The pre-review inputs remain applicable; this provisional casefolded contiguous-substring expected set is diagnostic where it differs from the independently implemented documented NFKC all-fragments policy."
+    },
+    {
+      "id": "abelian-group-small-pages",
+      "precommitted_count": 12,
+      "documented_policy_count": 13,
+      "precommitted_set_sha256": "f38aa534b509d280acf4711d425cdd75ffffd7fab731e3d6b296c215fb1665c8",
+      "documented_set_sha256": "f89bb98d11f8fd2536353a714affcc4dac58afcc32df672677e50e56bc7ac079",
+      "adjudication": "The sweep input is retained, but its provisional contiguous-substring result set is not the contract standard where the documented all-fragments policy differs."
+    }
+  ],
+  "invalid_values_rejected": 16,
+  "unicode": {
+    "qid": "Q1028209",
+    "label": "Deutsch–Jozsa algorithm",
+    "label_codepoints": [
+      "U+0044",
+      "U+0065",
+      "U+0075",
+      "U+0074",
+      "U+0073",
+      "U+0063",
+      "U+0068",
+      "U+2013",
+      "U+004A",
+      "U+006F",
+      "U+007A",
+      "U+0073",
+      "U+0061",
+      "U+0020",
+      "U+0061",
+      "U+006C",
+      "U+0067",
+      "U+006F",
+      "U+0072",
+      "U+0069",
+      "U+0074",
+      "U+0068",
+      "U+006D"
+    ],
+    "replacement_character_present": false,
+    "source_url": "https://github.com/MathGloss/MathGloss/blob/b8f659605486f80f2816515f525af2c395c711fa/data/database.csv#L31-L31"
+  },
+  "limits": [
+    "These are lexical and exact-data checks against one pinned snapshot, not semantic identity or equivalence checks.",
+    "A search miss is not evidence of novelty.",
+    "No URL destination was fetched by this harness."
+  ]
+}

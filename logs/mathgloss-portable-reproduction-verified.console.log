@@ -1,0 +1,62 @@
+﻿{
+  "files": {
+    "MATHGLOSS-LICENSE": "5dc6b930900926814fc7bb9ff45dfcceae3aa33780eb010c83e6df58493594e7",
+    "candidate-index.json": "282ed1fd858595b782c856fbd2c96964a0b6ff3850fedf21105ca9bbb7edb4da",
+    "import-ledger.jsonl": "14d8e9cc972a83ac4267d4b168d9510f74c65abbae509e7149012ba653c4ad61",
+    "summary.json": "0102f6fca4237d80d3e4e167c476f118d5cfaff41b5b325882bc784eecfa6e58"
+  },
+  "summary": {
+    "schema_version": "mathgloss-metadata-seed-v1",
+    "catalog_status": "unreviewed_external_link_catalogue",
+    "source": {
+      "project": "MathGloss",
+      "repository": "https://github.com/MathGloss/MathGloss",
+      "commit": "b8f659605486f80f2816515f525af2c395c711fa",
+      "csv_path": "data/database.csv",
+      "sha256": "933a72820fe7ede53a803b750a480def205677e5722ae5f9589b0d1d9bf832b2",
+      "bytes": 674640,
+      "header": [
+        "Wikidata ID",
+        "Wikidata Label",
+        "BCT Name",
+        "BCT Link",
+        "Chicago Name",
+        "Chicago Link",
+        "Clowder Name",
+        "Clowder Link",
+        "Context Name",
+        "Context Link",
+        "Mathlib Name",
+        "Mathlib Link",
+        "nLab Name",
+        "nLab Link",
+        "PlanetMath Name",
+        "PlanetMath Link"
+      ]
+    },
+    "counts": {
+      "data_records_total": 4814,
+      "ledger_records": 4814,
+      "accepted_rows": 4814,
+      "rejected_rows": 0,
+      "candidate_records": 4814,
+      "record_width_mismatch_rows": 0,
+      "interpreted_link_pair_slots": 33698,
+      "absent_link_pairs": 26481,
+      "nonempty_link_pairs": 7217,
+      "retained_link_pairs": 7217,
+      "rejected_link_pairs": 0,
+      "incomplete_link_pairs": 0,
+      "unsafe_or_invalid_url_pairs": 0,
+      "duplicate_qid_groups": 0,
+      "rows_in_duplicate_qid_groups": 0
+    },
+    "accounting": {
+      "rows_complete": true,
+      "interpreted_links_complete": true,
+      "nonempty_links_complete": true
+    },
+    "duplicate_qids": []
+  }
+}
+

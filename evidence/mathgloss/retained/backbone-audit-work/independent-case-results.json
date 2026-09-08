@@ -1,0 +1,74 @@
+{
+  "duplicate_qids": [
+    {
+      "occurrences": [
+        {
+          "logical_data_record": 11,
+          "physical_lines": {
+            "end": 13,
+            "start": 13
+          },
+          "record_key": "mathgloss:b8f659605486f80f2816515f525af2c395c711fa:data/database.csv:record:00000011",
+          "row_disposition": "accepted"
+        },
+        {
+          "logical_data_record": 12,
+          "physical_lines": {
+            "end": 14,
+            "start": 14
+          },
+          "record_key": "mathgloss:b8f659605486f80f2816515f525af2c395c711fa:data/database.csv:record:00000012",
+          "row_disposition": "accepted"
+        }
+      ],
+      "qid": "Q9"
+    }
+  ],
+  "edge_counts": {
+    "absent_link_pairs": 67,
+    "accepted_rows": 9,
+    "candidate_records": 9,
+    "data_records_total": 12,
+    "duplicate_qid_groups": 1,
+    "incomplete_link_pairs": 2,
+    "interpreted_link_pair_slots": 77,
+    "ledger_records": 12,
+    "nonempty_link_pairs": 10,
+    "record_width_mismatch_rows": 1,
+    "rejected_link_pairs": 6,
+    "rejected_rows": 3,
+    "retained_link_pairs": 4,
+    "rows_in_duplicate_qid_groups": 2,
+    "unsafe_or_invalid_url_pairs": 4
+  },
+  "failure_results": {
+    "bad-header-extra.csv": "HeaderMismatchError",
+    "bad-header-missing.csv": "HeaderMismatchError",
+    "bad-utf8.csv": "MalformedUTF8Error",
+    "bad-width-extra.csv": "retained_record_width_rejection",
+    "bad-width-missing.csv": "retained_record_width_rejection",
+    "wrong-source-hash": "SourceHashMismatchError"
+  },
+  "fixture_manifest_sha256": "3060fd473060b7ac30f5872ce635af0c91aad61ce3de90952944c8c374c39064",
+  "implementation_core_sha256": "f8ed60a8062569c3632e4ed23b8df9fa8523932793271f8ee410666b9f65b0d3",
+  "link_reason_counts": {
+    "missing_link_name": 1,
+    "missing_link_url": 1,
+    "missing_url_hostname": 3,
+    "unsafe_url_scheme": 2,
+    "url_credentials": 1
+  },
+  "notes": [
+    "Fixtures were created and hashed before the importer freeze.",
+    "No network access is used by these cases.",
+    "Bad-width rows are retained as explicit ledger rejections, as required by the contract; they do not abort the whole import."
+  ],
+  "row_reason_counts": {
+    "blank_record": 1,
+    "invalid_qid": 1,
+    "missing_label": 1,
+    "record_width_mismatch": 1
+  },
+  "schema_version": "mathgloss-independent-pre-freeze-cases-v1",
+  "status": "pass"
+}

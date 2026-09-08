@@ -27,7 +27,7 @@ The CLI writes one JSON object. It exits 0 after processing any parsed JSON payl
 
 Top-level, graph, edge, provenance, assumption, and AST records accept exactly the fields in the frozen interface. The check ID, annotation ID, assumption IDs, and other provenance strings must be nonempty strings; values are not coerced. `source` and `target` are distinct non-boolean integer vertex IDs.
 
-Graphs have 2–6 vertices. Edges are simple, undirected, and unique after endpoint canonicalization. Conductances are strictly positive rationals supplied as JSON integers or strings. Whitespace around rational strings is trimmed, optional numerator signs are accepted, denominators must be positive, and signs, greatest common divisors, and leading zeros normalize to canonical `p/q` output. The written numerator and denominator of a conductance may each contain at most 12 digits, excluding a sign. Booleans and floating-point values are never treated as integers.
+Graphs have 2–6 vertices. Edges are simple, undirected, and unique after endpoint canonicalization. Conductances are strictly positive rationals supplied as JSON integers or strings. Whitespace around rational strings is trimmed, optional numerator signs are accepted, denominators must be positive, and signs, greatest common divisors, and leading zeros normalize to canonical `p/q` output. The written numerator and denominator of a conductance or AST rational literal may each contain at most 12 digits, excluding a sign. Booleans and floating-point values are never treated as integers.
 
 Structural validation covers the complete payload before interpreting provenance. Unknown AST kinds or operators, missing or extra fields, wrong structural types, invalid indices, more than 300 AST nodes across all assumptions and the claim, or depth greater than 20 with the root at depth 1 produce `invalid_input`.
 
@@ -48,11 +48,11 @@ Human semantic support labels are outside this API and must remain separate from
 
 The checker supports rational and Boolean literals, named quantities, exact scalar `add`, `sub`, `mul`, `div`, `lt`, and `le`, strict Boolean `and` and `or`, same-type/same-shape `eq` and `ne`, scalar `neg`, Boolean `not`, rational-vector `sum` and `product`, and vector or matrix `entry`. It never evaluates input as Python or any other executable language.
 
-Each evaluation trace contains its normalized AST path, child operands, exact value, type, shape, status, and any runtime error. The output also contains the normalized input and its SHA-256 hash, supplied provenance, all assumption records, the claim record, lazily accessed quantity records, certificates, errors, and `atlas-checks/1.0.0` as the algorithm version.
+Each evaluation trace contains its normalized AST path, child operands, exact value, type, shape, status, and any runtime error. The output also contains the normalized input and its SHA-256 hash, supplied provenance, all assumption records, the claim record, lazily accessed quantity records, certificates, errors, and `atlas-checks/1.0.2` as the algorithm version. Hash input is JSON with sorted keys, compact separators and ASCII escapes, encoded as ASCII/UTF-8. Escaped unpaired surrogates are retained as supplied strings without crashing the hash operation.
 
 ## Exact quantities
 
-All numeric output is a canonical rational string.
+All numeric output is a canonical rational string. Computed results may exceed the 12-digit input limit. Output integers are formatted in base-one-billion chunks, so each individual decimal conversion uses at most nine digits and Python's process-wide integer conversion limit remains unchanged. Repeated division gives the exact base expansion; printing the leading chunk followed by nine-digit zero-padded remaining chunks restores the original integer. Fraction normalization supplies a positive denominator and removes common factors before formatting.
 
 | Name | Definition and domain |
 |---|---|
@@ -92,6 +92,12 @@ When a period quantity is referenced, the result includes every bipartition edge
 The authored development tests exercise every quantity name, every verdict, exact matrices and rational normalization, same- and different-component terminals, isolated vertices, nonedges, period and gauge certificates, malformed inputs, runtime abstentions, precedence, AST limits, and the module CLI. A separate development script checks every labeled unweighted simple graph through five vertices by comparing independently computed invariants.
 
 These tests are implementation evidence only. They do not use or replace the independently frozen evaluation set, do not measure natural-language accuracy or real-retrieval performance, and do not certify the final evidence gate.
+
+## Post-freeze repair
+
+The original version 1.0.0 is retained at commit `97b5aaf` with its worker freeze manifest and first independent evaluation. All 80 precommitted structured cases matched their semantic gold records, but later public probes found five representation defects outside that suite. Version 1.0.1 adds CLI decoder-error handling, rejects oversized integers before decimal conversion, enforces the frozen AST literal digit cap, and makes normalized-input hashing safe for JSON-escaped strings. Its exact frozen files are retained under `evidence/assumption-checks/worker/version-1.0.1-source/`; the retention manifest describes when and how that archive was reconstructed against the earlier hashes.
+
+A subsequent valid 281-node expression produced an 8,400-digit exact integer and exposed a separate decimal-output failure. Version 1.0.2 changes only output integer formatting and the version marker relative to 1.0.1 runtime code. The regression uses a six-vertex weighted star, whose one spanning tree has weight `999999999999^5`, and multiplies that quantity 140 times. An independent Decimal calculation checks the resulting `999999999999^700` string. The integrated development/regression suite passes 155 tests; independent review of this final formatter delta is pending. Historical failure logs and earlier freezes remain intact. These counts are separate evaluations and do not establish universal correctness.
 
 ## Mathematical locators
 

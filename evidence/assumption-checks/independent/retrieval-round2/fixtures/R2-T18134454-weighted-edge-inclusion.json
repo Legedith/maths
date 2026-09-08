@@ -1,0 +1,80 @@
+{
+  "assumptions": [
+    {
+      "expression": {
+        "kind": "quantity",
+        "name": "connected"
+      },
+      "id": "connected-network"
+    },
+    {
+      "expression": {
+        "kind": "quantity",
+        "name": "terminal_is_edge"
+      },
+      "id": "selected-terminals-form-an-edge"
+    }
+  ],
+  "claim": {
+    "kind": "binary",
+    "left": {
+      "kind": "quantity",
+      "name": "edge_probability"
+    },
+    "op": "eq",
+    "right": {
+      "kind": "binary",
+      "left": {
+        "arg": {
+          "arg": {
+            "kind": "quantity",
+            "name": "laplacian"
+          },
+          "indices": [
+            0,
+            1
+          ],
+          "kind": "entry"
+        },
+        "kind": "unary",
+        "op": "neg"
+      },
+      "op": "mul",
+      "right": {
+        "kind": "quantity",
+        "name": "resistance"
+      }
+    }
+  },
+  "graph": {
+    "edges": [
+      {
+        "conductance": 2,
+        "u": 0,
+        "v": 1
+      },
+      {
+        "conductance": 1,
+        "u": 1,
+        "v": 2
+      },
+      {
+        "conductance": 1,
+        "u": 0,
+        "v": 2
+      }
+    ],
+    "n": 3
+  },
+  "id": "R2-T18134454-weighted-edge-inclusion",
+  "provenance": {
+    "annotation_id": "retrieval-round2-18134454",
+    "annotator": "/root/sol_atlas_audit",
+    "interpretation": "explicit",
+    "kind": "source_annotation",
+    "source_locator": "Source-mapped instance check. PDF p. 4, Theorem 2.2.",
+    "source_url": "https://arxiv.org/pdf/2410.16836v3"
+  },
+  "source": 0,
+  "target": 1
+}

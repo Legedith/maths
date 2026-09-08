@@ -1,0 +1,109 @@
+{
+  "accounting": {
+    "evaluable_theorem_ids": 6,
+    "fixed_retrieval_rows": 24,
+    "fully_ineligible_theorem_ids": 16,
+    "structured_fixture_count": 9,
+    "syntax_mappable_but_abstaining_theorem_ids": 2,
+    "syntax_mappable_theorem_ids": 8
+  },
+  "algorithm_version": "atlas-checks/1.0.2",
+  "all_checks_pass": true,
+  "annotations_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\retrieval-round2\\annotations.json",
+  "annotations_sha256": "143abc46303d78b0bf68a39c23bb381ac3fd4fd100b69d406ccf0368e7af6f54",
+  "auditor": "/root/sol_atlas_audit",
+  "checks": {
+    "all_19_frozen_files_match": true,
+    "all_24_retrieval_rows_accounted_for": true,
+    "all_9_fixture_hashes_match": true,
+    "eight_unique_syntax_mappable_theorem_ids": true,
+    "nine_fixture_verdicts_match": true,
+    "seven_successes_and_two_abstentions": true,
+    "six_evaluable_plus_two_abstaining_theorem_ids": true,
+    "zero_escaped_exceptions": true,
+    "zero_machine_counterexamples": true
+  },
+  "completed_at": "2026-09-08T03:52:07.354095Z",
+  "escaped_exception_count": 0,
+  "fixture_checks": [
+    {
+      "actual": "91debe5a89680449cf3544bce1fce96b9307c043bfba55a4329f53020090218b",
+      "case_id": "R2-T23150070-disconnected-nonzero-product",
+      "expected": "91debe5a89680449cf3544bce1fce96b9307c043bfba55a4329f53020090218b",
+      "matches": true,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\retrieval-round2\\fixtures\\R2-T23150070-disconnected-nonzero-product.json"
+    },
+    {
+      "actual": "5322965f4770a0c51cb3dc2f5dbf3fc7dd3013ce4ba2df36552fb09101d0dd3d",
+      "case_id": "R2-T19685900-connected-normalized-tree-formula",
+      "expected": "5322965f4770a0c51cb3dc2f5dbf3fc7dd3013ce4ba2df36552fb09101d0dd3d",
+      "matches": true,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\retrieval-round2\\fixtures\\R2-T19685900-connected-normalized-tree-formula.json"
+    },
+    {
+      "actual": "e83d42e63cef2b310a8ff5846f2c81326e5a5e4759e1ed3881b30b377c7fabae",
+      "case_id": "R2-T18276974-disconnected-normalized-nonzero-product",
+      "expected": "e83d42e63cef2b310a8ff5846f2c81326e5a5e4759e1ed3881b30b377c7fabae",
+      "matches": true,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\retrieval-round2\\fixtures\\R2-T18276974-disconnected-normalized-nonzero-product.json"
+    },
+    {
+      "actual": "717188402916b607f1babe80e7cb7967c7bfc79d06578b35e932080c49354aba",
+      "case_id": "R2-T18134454-weighted-edge-inclusion",
+      "expected": "717188402916b607f1babe80e7cb7967c7bfc79d06578b35e932080c49354aba",
+      "matches": true,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\retrieval-round2\\fixtures\\R2-T18134454-weighted-edge-inclusion.json"
+    },
+    {
+      "actual": "a36cde2abac16842aa95f665052fb1324f800727b0cdd89bcc4d35e05af8a7d5",
+      "case_id": "R2-T24585048-unit-edge-inclusion",
+      "expected": "a36cde2abac16842aa95f665052fb1324f800727b0cdd89bcc4d35e05af8a7d5",
+      "matches": true,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\retrieval-round2\\fixtures\\R2-T24585048-unit-edge-inclusion.json"
+    },
+    {
+      "actual": "5fb55daa7f15e1ef27c9dbd39f6793aabb159c1c9f0aa1a3ec1876681880e278",
+      "case_id": "R2-T22467127-cycle-edge-inclusion",
+      "expected": "5fb55daa7f15e1ef27c9dbd39f6793aabb159c1c9f0aa1a3ec1876681880e278",
+      "matches": true,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\retrieval-round2\\fixtures\\R2-T22467127-cycle-edge-inclusion.json"
+    },
+    {
+      "actual": "317c526c18ba20a0d84394f9a1f741c5ce09949583b6304719ab2d5ca27e669f",
+      "case_id": "R2-T26329144-connected-weighted-commute",
+      "expected": "317c526c18ba20a0d84394f9a1f741c5ce09949583b6304719ab2d5ca27e669f",
+      "matches": true,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\retrieval-round2\\fixtures\\R2-T26329144-connected-weighted-commute.json"
+    },
+    {
+      "actual": "62a877400eee2d711c0b186b78763456494d6695fa51b744419d4b4a52b8dab0",
+      "case_id": "R2-T17464638-even-cycle-period",
+      "expected": "62a877400eee2d711c0b186b78763456494d6695fa51b744419d4b4a52b8dab0",
+      "matches": true,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\retrieval-round2\\fixtures\\R2-T17464638-even-cycle-period.json"
+    },
+    {
+      "actual": "1397c05efa08010be3ee688b0888a36da77814bed7d31e739520dd852c2b9530",
+      "case_id": "R2-T17464638-odd-cycle-period",
+      "expected": "1397c05efa08010be3ee688b0888a36da77814bed7d31e739520dd852c2b9530",
+      "matches": true,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\retrieval-round2\\fixtures\\R2-T17464638-odd-cycle-period.json"
+    }
+  ],
+  "fixture_count": 9,
+  "freeze_manifest_sha256": "50fd6ed3f43f8bdd30e325b249e605cd2bbde33db2336cf0142eba9a1ec5505d",
+  "incremental_source_refutation_detections": 0,
+  "match_count": 9,
+  "mismatch_count": 0,
+  "observed_verdict_histogram": {
+    "abstain": 2,
+    "no_counterexample_in_instance": 7
+  },
+  "run_jsonl": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\retrieval-round2-v1.0.2\\retrieval-round2-run.jsonl",
+  "run_jsonl_sha256": "987d24ff84ad24676df1c152101faa3b6c47d3c75b8ea247a7ebc82158df3351",
+  "run_kind": "retrieval_round_two_structured_instance_checks",
+  "schema_version": "1.0",
+  "scope_limit": "These are exact structured instance checks. They do not revise source-only labels and do not measure natural-language accuracy, prevalence, retrieval timing, novelty, or practical impact. A no-counterexample result is not a theorem proof; an abstention is not a source judgment.",
+  "started_at": "2026-09-08T03:52:07.348179Z",
+  "unique_theorem_id_count": 8
+}

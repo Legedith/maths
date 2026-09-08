@@ -1,0 +1,2740 @@
+{
+  "auditor": "/root/sol_atlas_audit",
+  "case_count": 80,
+  "compared_at": "2026-09-08T03:39:59.771948Z",
+  "expected_verdict_histogram": {
+    "abstain": 8,
+    "counterexample": 11,
+    "invalid_input": 14,
+    "no_counterexample_in_instance": 44,
+    "not_applicable": 3
+  },
+  "failure_count": 0,
+  "first_run_jsonl_sha256": "c2e4f4fe94e08318324ea779a152f4252ccc07c82c7bf82d44c2021fd98ebb78",
+  "observed_verdict_histogram": {
+    "abstain": 8,
+    "counterexample": 11,
+    "invalid_input": 14,
+    "no_counterexample_in_instance": 44,
+    "not_applicable": 3
+  },
+  "partition_counts": {
+    "definedness_provenance_precedence": {
+      "failed": 0,
+      "passed": 12,
+      "total": 12
+    },
+    "malformed_type_resource": {
+      "failed": 0,
+      "passed": 14,
+      "total": 14
+    },
+    "well_formed_mathematical": {
+      "failed": 0,
+      "passed": 54,
+      "total": 54
+    }
+  },
+  "pass_count": 80,
+  "records": [
+    {
+      "case_id": "H001",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "degrees": {
+            "type": "vector",
+            "value": [
+              "163/30",
+              "187/70",
+              "929/315",
+              "95/24",
+              "1081/360"
+            ]
+          },
+          "laplacian": {
+            "type": "matrix",
+            "value": [
+              [
+                "163/30",
+                "-3/2",
+                "-8/5",
+                "-7/3",
+                "0/1"
+              ],
+              [
+                "-3/2",
+                "187/70",
+                "-4/7",
+                "0/1",
+                "-3/5"
+              ],
+              [
+                "-8/5",
+                "-4/7",
+                "929/315",
+                "0/1",
+                "-7/9"
+              ],
+              [
+                "-7/3",
+                "0/1",
+                "0/1",
+                "95/24",
+                "-13/8"
+              ],
+              [
+                "0/1",
+                "-3/5",
+                "-7/9",
+                "-13/8",
+                "1081/360"
+              ]
+            ]
+          },
+          "laplacian_rw": {
+            "type": "matrix",
+            "value": [
+              [
+                "1/1",
+                "-45/163",
+                "-48/163",
+                "-70/163",
+                "0/1"
+              ],
+              [
+                "-105/187",
+                "1/1",
+                "-40/187",
+                "0/1",
+                "-42/187"
+              ],
+              [
+                "-504/929",
+                "-180/929",
+                "1/1",
+                "0/1",
+                "-245/929"
+              ],
+              [
+                "-56/95",
+                "0/1",
+                "0/1",
+                "1/1",
+                "-39/95"
+              ],
+              [
+                "0/1",
+                "-216/1081",
+                "-280/1081",
+                "-585/1081",
+                "1/1"
+              ]
+            ]
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "norm-row",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "normalization"
+    },
+    {
+      "case_id": "H002",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": false
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "laplacian_rw": {
+            "type": "matrix",
+            "value": [
+              [
+                "1/1",
+                "-45/163",
+                "-48/163",
+                "-70/163",
+                "0/1"
+              ],
+              [
+                "-105/187",
+                "1/1",
+                "-40/187",
+                "0/1",
+                "-42/187"
+              ],
+              [
+                "-504/929",
+                "-180/929",
+                "1/1",
+                "0/1",
+                "-245/929"
+              ],
+              [
+                "-56/95",
+                "0/1",
+                "0/1",
+                "1/1",
+                "-39/95"
+              ],
+              [
+                "0/1",
+                "-216/1081",
+                "-280/1081",
+                "-585/1081",
+                "1/1"
+              ]
+            ]
+          }
+        },
+        "expected_verdict": "counterexample"
+      },
+      "observed_verdict": "counterexample",
+      "pair": "norm-symmetry-mutation",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "normalization"
+    },
+    {
+      "case_id": "H003",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "laplacian_rw": {
+            "type": "matrix",
+            "value": [
+              [
+                "1/1",
+                "-45/163",
+                "-48/163",
+                "-70/163",
+                "0/1"
+              ],
+              [
+                "-105/187",
+                "1/1",
+                "-40/187",
+                "0/1",
+                "-42/187"
+              ],
+              [
+                "-504/929",
+                "-180/929",
+                "1/1",
+                "0/1",
+                "-245/929"
+              ],
+              [
+                "-56/95",
+                "0/1",
+                "0/1",
+                "1/1",
+                "-39/95"
+              ],
+              [
+                "0/1",
+                "-216/1081",
+                "-280/1081",
+                "-585/1081",
+                "1/1"
+              ]
+            ]
+          },
+          "transition_matrix": {
+            "type": "matrix",
+            "value": [
+              [
+                "0/1",
+                "45/163",
+                "48/163",
+                "70/163",
+                "0/1"
+              ],
+              [
+                "105/187",
+                "0/1",
+                "40/187",
+                "0/1",
+                "42/187"
+              ],
+              [
+                "504/929",
+                "180/929",
+                "0/1",
+                "0/1",
+                "245/929"
+              ],
+              [
+                "56/95",
+                "0/1",
+                "0/1",
+                "0/1",
+                "39/95"
+              ],
+              [
+                "0/1",
+                "216/1081",
+                "280/1081",
+                "585/1081",
+                "0/1"
+              ]
+            ]
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "norm-i-minus-p",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "normalization"
+    },
+    {
+      "case_id": "H004",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "transition_matrix": {
+            "type": "matrix",
+            "value": [
+              [
+                "0/1",
+                "45/163",
+                "48/163",
+                "70/163",
+                "0/1"
+              ],
+              [
+                "105/187",
+                "0/1",
+                "40/187",
+                "0/1",
+                "42/187"
+              ],
+              [
+                "504/929",
+                "180/929",
+                "0/1",
+                "0/1",
+                "245/929"
+              ],
+              [
+                "56/95",
+                "0/1",
+                "0/1",
+                "0/1",
+                "39/95"
+              ],
+              [
+                "0/1",
+                "216/1081",
+                "280/1081",
+                "585/1081",
+                "0/1"
+              ]
+            ]
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "row-stochastic",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "normalization"
+    },
+    {
+      "case_id": "H005",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": false
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "transition_matrix": {
+            "type": "matrix",
+            "value": [
+              [
+                "0/1",
+                "45/163",
+                "48/163",
+                "70/163",
+                "0/1"
+              ],
+              [
+                "105/187",
+                "0/1",
+                "40/187",
+                "0/1",
+                "42/187"
+              ],
+              [
+                "504/929",
+                "180/929",
+                "0/1",
+                "0/1",
+                "245/929"
+              ],
+              [
+                "56/95",
+                "0/1",
+                "0/1",
+                "0/1",
+                "39/95"
+              ],
+              [
+                "0/1",
+                "216/1081",
+                "280/1081",
+                "585/1081",
+                "0/1"
+              ]
+            ]
+          }
+        },
+        "expected_verdict": "counterexample"
+      },
+      "observed_verdict": "counterexample",
+      "pair": "column-stochastic-mutation",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "normalization"
+    },
+    {
+      "case_id": "H006",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "laplacian_rw": {
+            "type": "matrix",
+            "value": [
+              [
+                "1/1",
+                "-45/163",
+                "-48/163",
+                "-70/163",
+                "0/1"
+              ],
+              [
+                "-105/187",
+                "1/1",
+                "-40/187",
+                "0/1",
+                "-42/187"
+              ],
+              [
+                "-504/929",
+                "-180/929",
+                "1/1",
+                "0/1",
+                "-245/929"
+              ],
+              [
+                "-56/95",
+                "0/1",
+                "0/1",
+                "1/1",
+                "-39/95"
+              ],
+              [
+                "0/1",
+                "-216/1081",
+                "-280/1081",
+                "-585/1081",
+                "1/1"
+              ]
+            ]
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "rw-diagonal",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "normalization"
+    },
+    {
+      "case_id": "H007",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": false
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "laplacian": {
+            "type": "matrix",
+            "value": [
+              [
+                "163/30",
+                "-3/2",
+                "-8/5",
+                "-7/3",
+                "0/1"
+              ],
+              [
+                "-3/2",
+                "187/70",
+                "-4/7",
+                "0/1",
+                "-3/5"
+              ],
+              [
+                "-8/5",
+                "-4/7",
+                "929/315",
+                "0/1",
+                "-7/9"
+              ],
+              [
+                "-7/3",
+                "0/1",
+                "0/1",
+                "95/24",
+                "-13/8"
+              ],
+              [
+                "0/1",
+                "-3/5",
+                "-7/9",
+                "-13/8",
+                "1081/360"
+              ]
+            ]
+          },
+          "laplacian_rw": {
+            "type": "matrix",
+            "value": [
+              [
+                "1/1",
+                "-45/163",
+                "-48/163",
+                "-70/163",
+                "0/1"
+              ],
+              [
+                "-105/187",
+                "1/1",
+                "-40/187",
+                "0/1",
+                "-42/187"
+              ],
+              [
+                "-504/929",
+                "-180/929",
+                "1/1",
+                "0/1",
+                "-245/929"
+              ],
+              [
+                "-56/95",
+                "0/1",
+                "0/1",
+                "1/1",
+                "-39/95"
+              ],
+              [
+                "0/1",
+                "-216/1081",
+                "-280/1081",
+                "-585/1081",
+                "1/1"
+              ]
+            ]
+          }
+        },
+        "expected_verdict": "counterexample"
+      },
+      "observed_verdict": "counterexample",
+      "pair": "missing-row-degree-mutation",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "normalization"
+    },
+    {
+      "case_id": "H008",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "degrees": {
+            "type": "vector",
+            "value": [
+              "163/30",
+              "187/70",
+              "929/315",
+              "95/24",
+              "1081/360"
+            ]
+          },
+          "rw_nonzero_spectrum_product": {
+            "type": "rational",
+            "value": "1176060794472/581599761611"
+          },
+          "total_conductance": {
+            "type": "rational",
+            "value": "22699/1260"
+          },
+          "tree_mass": {
+            "type": "rational",
+            "value": "719599/12600"
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "rw-spectrum-scale",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "normalization"
+    },
+    {
+      "case_id": "H009",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "target_cofactor": {
+            "type": "rational",
+            "value": "3073/288"
+          },
+          "tree_mass": {
+            "type": "rational",
+            "value": "3073/288"
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "cofactor-tree",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "tree"
+    },
+    {
+      "case_id": "H010",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "n": {
+            "type": "rational",
+            "value": "5/1"
+          },
+          "nonzero_spectrum_product": {
+            "type": "rational",
+            "value": "15365/288"
+          },
+          "tree_mass": {
+            "type": "rational",
+            "value": "3073/288"
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "matrix-tree-scale",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "tree"
+    },
+    {
+      "case_id": "H011",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": false
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "nonzero_spectrum_product": {
+            "type": "rational",
+            "value": "15365/288"
+          },
+          "tree_mass": {
+            "type": "rational",
+            "value": "3073/288"
+          }
+        },
+        "expected_verdict": "counterexample"
+      },
+      "observed_verdict": "counterexample",
+      "pair": "matrix-tree-missing-n",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "tree"
+    },
+    {
+      "case_id": "H012",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "degrees": {
+            "type": "vector",
+            "value": [
+              "26/21",
+              "67/56",
+              "227/120",
+              "167/45",
+              "134/45",
+              "68/15"
+            ]
+          },
+          "rw_nonzero_spectrum_product": {
+            "type": "rational",
+            "value": "46046385/69292204"
+          },
+          "total_conductance": {
+            "type": "rational",
+            "value": "19591/1260"
+          },
+          "tree_mass": {
+            "type": "rational",
+            "value": "16199/2700"
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "rw-tree-degree-scale",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "tree"
+    },
+    {
+      "case_id": "H013",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": false
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "n": {
+            "type": "rational",
+            "value": "6/1"
+          },
+          "rw_nonzero_spectrum_product": {
+            "type": "rational",
+            "value": "46046385/69292204"
+          },
+          "tree_mass": {
+            "type": "rational",
+            "value": "16199/2700"
+          }
+        },
+        "expected_verdict": "counterexample"
+      },
+      "observed_verdict": "counterexample",
+      "pair": "rw-combinatorial-mutation",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "tree"
+    },
+    {
+      "case_id": "H014",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "tree_mass": {
+            "type": "rational",
+            "value": "33/32"
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "tree-mass-exact",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "tree"
+    },
+    {
+      "case_id": "H015",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "edge_probability": {
+            "type": "rational",
+            "value": "369/439"
+          },
+          "laplacian": {
+            "type": "matrix",
+            "value": [
+              [
+                "76/21",
+                "-9/7",
+                "0/1",
+                "0/1",
+                "-7/3"
+              ],
+              [
+                "-9/7",
+                "107/56",
+                "-5/8",
+                "0/1",
+                "0/1"
+              ],
+              [
+                "0/1",
+                "-5/8",
+                "19/8",
+                "-7/4",
+                "0/1"
+              ],
+              [
+                "0/1",
+                "0/1",
+                "-7/4",
+                "29/12",
+                "-2/3"
+              ],
+              [
+                "-7/3",
+                "0/1",
+                "0/1",
+                "-2/3",
+                "3/1"
+              ]
+            ]
+          },
+          "resistance": {
+            "type": "rational",
+            "value": "287/439"
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "edge-leverage",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "tree"
+    },
+    {
+      "case_id": "H016",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": false
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "edge_probability": {
+            "type": "rational",
+            "value": "369/439"
+          },
+          "resistance": {
+            "type": "rational",
+            "value": "287/439"
+          }
+        },
+        "expected_verdict": "counterexample"
+      },
+      "observed_verdict": "counterexample",
+      "pair": "edge-missing-conductance",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "tree"
+    },
+    {
+      "case_id": "H017",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "edge_probability": {
+            "type": "rational",
+            "value": "369/439"
+          },
+          "tree_edge_mass": {
+            "type": "rational",
+            "value": "287/32"
+          },
+          "tree_mass": {
+            "type": "rational",
+            "value": "3073/288"
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "edge-mass-ratio",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "tree"
+    },
+    {
+      "case_id": "H018",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "edge_probability": {
+            "type": "rational",
+            "value": "1/1"
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "bridge-probability",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "tree"
+    },
+    {
+      "case_id": "H019",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "tree_mass": {
+            "type": "rational",
+            "value": "0/1"
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "disconnected-tree-zero",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "tree"
+    },
+    {
+      "case_id": "H020",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "target_cofactor": {
+            "type": "rational",
+            "value": "0/1"
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "disconnected-cofactor-zero",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "tree"
+    },
+    {
+      "case_id": "H021",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "laplacian_determinant": {
+            "type": "rational",
+            "value": "0/1"
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "lap-det-connected",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "rank"
+    },
+    {
+      "case_id": "H022",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "laplacian_determinant": {
+            "type": "rational",
+            "value": "0/1"
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "lap-det-disconnected",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "rank"
+    },
+    {
+      "case_id": "H023",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "laplacian_rank": {
+            "type": "rational",
+            "value": "5/1"
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "rank-connected",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "rank"
+    },
+    {
+      "case_id": "H024",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "laplacian_rank": {
+            "type": "rational",
+            "value": "4/1"
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "rank-components",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "rank"
+    },
+    {
+      "case_id": "H025",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "commute": {
+            "type": "rational",
+            "value": "15928/1615"
+          },
+          "hit_backward": {
+            "type": "rational",
+            "value": "3778/1615"
+          },
+          "hit_forward": {
+            "type": "rational",
+            "value": "2430/323"
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "commute-direction-sum",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "commute"
+    },
+    {
+      "case_id": "H026",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "hit_backward": {
+            "type": "rational",
+            "value": "3778/1615"
+          },
+          "hit_forward": {
+            "type": "rational",
+            "value": "2430/323"
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "hitting-asymmetry",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "commute"
+    },
+    {
+      "case_id": "H027",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": false
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "hit_backward": {
+            "type": "rational",
+            "value": "3778/1615"
+          },
+          "hit_forward": {
+            "type": "rational",
+            "value": "2430/323"
+          }
+        },
+        "expected_verdict": "counterexample"
+      },
+      "observed_verdict": "counterexample",
+      "pair": "hitting-symmetry-mutation",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "commute"
+    },
+    {
+      "case_id": "H028",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "commute": {
+            "type": "rational",
+            "value": "40608244391/857251080"
+          },
+          "resistance": {
+            "type": "rational",
+            "value": "2072801/680358"
+          },
+          "total_conductance": {
+            "type": "rational",
+            "value": "19591/1260"
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "commute-volume",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "commute"
+    },
+    {
+      "case_id": "H029",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": false
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "commute": {
+            "type": "rational",
+            "value": "40608244391/857251080"
+          },
+          "resistance": {
+            "type": "rational",
+            "value": "2072801/680358"
+          },
+          "total_conductance": {
+            "type": "rational",
+            "value": "19591/1260"
+          }
+        },
+        "expected_verdict": "counterexample"
+      },
+      "observed_verdict": "counterexample",
+      "pair": "commute-edge-sum-mutation",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "commute"
+    },
+    {
+      "case_id": "H030",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "resistance": {
+            "type": "rational",
+            "value": "2259955/4317594"
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "resistance-exact",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "electrical"
+    },
+    {
+      "case_id": "H031",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "potentials": {
+            "type": "vector",
+            "value": [
+              "2259955/4317594",
+              "532475/1439198",
+              "255930/719599",
+              "666092/2158797",
+              "0/1"
+            ]
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "ground-target",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "electrical"
+    },
+    {
+      "case_id": "H032",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "potentials": {
+            "type": "vector",
+            "value": [
+              "2259955/4317594",
+              "532475/1439198",
+              "255930/719599",
+              "666092/2158797",
+              "0/1"
+            ]
+          },
+          "resistance": {
+            "type": "rational",
+            "value": "2259955/4317594"
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "unit-current-voltage",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "electrical"
+    },
+    {
+      "case_id": "H033",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": false
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "potentials": {
+            "type": "vector",
+            "value": [
+              "2259955/4317594",
+              "532475/1439198",
+              "255930/719599",
+              "666092/2158797",
+              "0/1"
+            ]
+          }
+        },
+        "expected_verdict": "counterexample"
+      },
+      "observed_verdict": "counterexample",
+      "pair": "gauge-mutation",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "electrical"
+    },
+    {
+      "case_id": "H034",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "resistance": {
+            "type": "rational",
+            "value": "31/24"
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "component-resistance",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "electrical"
+    },
+    {
+      "case_id": "H035",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "commute": {
+            "type": "rational",
+            "value": "961/120"
+          },
+          "hit_backward": {
+            "type": "rational",
+            "value": "31/8"
+          },
+          "hit_forward": {
+            "type": "rational",
+            "value": "62/15"
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "component-hitting",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "commute"
+    },
+    {
+      "case_id": "H036",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "stationary_distribution": {
+            "type": "vector",
+            "value": [
+              "7775/38494",
+              "5736/19247",
+              "2380/19247",
+              "4815/38494",
+              "2820/19247",
+              "2016/19247"
+            ]
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "stationary-normalization",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "stationarity"
+    },
+    {
+      "case_id": "H037",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "degrees": {
+            "type": "vector",
+            "value": [
+              "163/30",
+              "187/70",
+              "929/315",
+              "95/24",
+              "1081/360"
+            ]
+          },
+          "stationary_distribution": {
+            "type": "vector",
+            "value": [
+              "6846/22699",
+              "3366/22699",
+              "3716/22699",
+              "9975/45398",
+              "7567/45398"
+            ]
+          },
+          "total_conductance": {
+            "type": "rational",
+            "value": "22699/1260"
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "stationary-degree",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "stationarity"
+    },
+    {
+      "case_id": "H038",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "degrees": {
+            "type": "vector",
+            "value": [
+              "163/30",
+              "187/70",
+              "929/315",
+              "95/24",
+              "1081/360"
+            ]
+          },
+          "stationary_measure": {
+            "type": "vector",
+            "value": [
+              "163/30",
+              "187/70",
+              "929/315",
+              "95/24",
+              "1081/360"
+            ]
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "stationary-measure",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "stationarity"
+    },
+    {
+      "case_id": "H039",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": {
+          "kind": "bipartition",
+          "sides": [
+            [
+              0,
+              2,
+              4
+            ],
+            [
+              1,
+              3,
+              5
+            ]
+          ]
+        },
+        "expected_referenced_values": {
+          "period": {
+            "type": "rational",
+            "value": "2/1"
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "bipartite-period",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "period"
+    },
+    {
+      "case_id": "H040",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": false
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": {
+          "kind": "bipartition",
+          "sides": [
+            [
+              0,
+              2,
+              4
+            ],
+            [
+              1,
+              3,
+              5
+            ]
+          ]
+        },
+        "expected_referenced_values": {
+          "period": {
+            "type": "rational",
+            "value": "2/1"
+          }
+        },
+        "expected_verdict": "counterexample"
+      },
+      "observed_verdict": "counterexample",
+      "pair": "periodic-convergence-mutation",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "period"
+    },
+    {
+      "case_id": "H041",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": {
+          "kind": "odd_cycle",
+          "vertices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            0
+          ]
+        },
+        "expected_referenced_values": {
+          "period": {
+            "type": "rational",
+            "value": "1/1"
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "odd-cycle-period",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "period"
+    },
+    {
+      "case_id": "H042",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": false
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": {
+          "kind": "odd_cycle",
+          "vertices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            0
+          ]
+        },
+        "expected_referenced_values": {
+          "period": {
+            "type": "rational",
+            "value": "1/1"
+          }
+        },
+        "expected_verdict": "counterexample"
+      },
+      "observed_verdict": "counterexample",
+      "pair": "odd-cycle-period-mutation",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "period"
+    },
+    {
+      "case_id": "H043",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [
+          {
+            "id": "connected",
+            "value": {
+              "type": "boolean",
+              "value": true
+            }
+          },
+          {
+            "id": "aperiodic",
+            "value": {
+              "type": "boolean",
+              "value": true
+            }
+          }
+        ],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": {
+          "kind": "odd_cycle",
+          "vertices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            0
+          ]
+        },
+        "expected_referenced_values": {
+          "connected": {
+            "type": "boolean",
+            "value": true
+          },
+          "period": {
+            "type": "rational",
+            "value": "1/1"
+          },
+          "stationary_distribution": {
+            "type": "vector",
+            "value": [
+              "304/1119",
+              "107/746",
+              "133/746",
+              "203/1119",
+              "84/373"
+            ]
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "stationarity-with-convergence-hypotheses",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "stationarity"
+    },
+    {
+      "case_id": "H044",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "stationary_distribution": {
+            "type": "vector",
+            "value": [
+              "21/172",
+              "651/2752",
+              "315/2752",
+              "135/1376",
+              "725/2752",
+              "455/2752"
+            ]
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "disconnected-stationary-nonunique",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "stationarity"
+    },
+    {
+      "case_id": "H045",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "terminal_is_edge": {
+            "type": "boolean",
+            "value": true
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "terminal-edge",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "tree"
+    },
+    {
+      "case_id": "H046",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "terminal_is_edge": {
+            "type": "boolean",
+            "value": false
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "terminal-nonedge",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "tree"
+    },
+    {
+      "case_id": "H047",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "terminals_connected": {
+            "type": "boolean",
+            "value": false
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "terminal-components",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "rank"
+    },
+    {
+      "case_id": "H048",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "terminals_connected": {
+            "type": "boolean",
+            "value": true
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "terminal-same-component",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "rank"
+    },
+    {
+      "case_id": "H049",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "edge_count": {
+            "type": "rational",
+            "value": "7/1"
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "edge-count",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "rank"
+    },
+    {
+      "case_id": "H050",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "n": {
+            "type": "rational",
+            "value": "6/1"
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "vertex-count",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "rank"
+    },
+    {
+      "case_id": "H051",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "total_conductance": {
+            "type": "rational",
+            "value": "22699/1260"
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "graph-volume-exact",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "commute"
+    },
+    {
+      "case_id": "H052",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "degrees": {
+            "type": "vector",
+            "value": [
+              "163/30",
+              "187/70",
+              "929/315",
+              "95/24",
+              "1081/360"
+            ]
+          },
+          "total_conductance": {
+            "type": "rational",
+            "value": "22699/1260"
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "graph-volume-degree-sum",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "commute"
+    },
+    {
+      "case_id": "H053",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "laplacian": {
+            "type": "matrix",
+            "value": [
+              [
+                "1555/504",
+                "0/1",
+                "-17/9",
+                "-5/8",
+                "-4/7",
+                "0/1"
+              ],
+              [
+                "0/1",
+                "478/105",
+                "0/1",
+                "-9/7",
+                "-5/3",
+                "-8/5"
+              ],
+              [
+                "-17/9",
+                "0/1",
+                "17/9",
+                "0/1",
+                "0/1",
+                "0/1"
+              ],
+              [
+                "-5/8",
+                "-9/7",
+                "0/1",
+                "107/56",
+                "0/1",
+                "0/1"
+              ],
+              [
+                "-4/7",
+                "-5/3",
+                "0/1",
+                "0/1",
+                "47/21",
+                "0/1"
+              ],
+              [
+                "0/1",
+                "-8/5",
+                "0/1",
+                "0/1",
+                "0/1",
+                "8/5"
+              ]
+            ]
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "laplacian-row-sum",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "rank"
+    },
+    {
+      "case_id": "H054",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "ones": {
+            "type": "vector",
+            "value": [
+              "1/1",
+              "1/1",
+              "1/1",
+              "1/1",
+              "1/1",
+              "1/1"
+            ]
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "ones-witness",
+      "partition": "well_formed_mathematical",
+      "passed": true,
+      "theme": "rank"
+    },
+    {
+      "case_id": "H055",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "reason": "interpretation_not_explicit",
+          "type": "undefined"
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {},
+        "expected_verdict": "abstain"
+      },
+      "observed_verdict": "abstain",
+      "pair": "ambiguous-first",
+      "partition": "definedness_provenance_precedence",
+      "passed": true,
+      "theme": "schema"
+    },
+    {
+      "case_id": "H056",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "reason": "interpretation_not_explicit",
+          "type": "undefined"
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {},
+        "expected_verdict": "abstain"
+      },
+      "observed_verdict": "abstain",
+      "pair": "unsupported-first",
+      "partition": "definedness_provenance_precedence",
+      "passed": true,
+      "theme": "schema"
+    },
+    {
+      "case_id": "H057",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [
+          {
+            "id": "connected",
+            "value": {
+              "type": "boolean",
+              "value": false
+            }
+          },
+          {
+            "id": "edge-defined",
+            "value": {
+              "reason": "existing_edge_and_connected_required",
+              "type": "undefined"
+            }
+          }
+        ],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "connected": {
+            "type": "boolean",
+            "value": false
+          },
+          "edge_probability": {
+            "reason": "existing_edge_and_connected_required",
+            "type": "undefined"
+          }
+        },
+        "expected_verdict": "not_applicable"
+      },
+      "observed_verdict": "not_applicable",
+      "pair": "false-over-undefined",
+      "partition": "definedness_provenance_precedence",
+      "passed": true,
+      "theme": "schema"
+    },
+    {
+      "case_id": "H058",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [
+          {
+            "id": "represented",
+            "value": {
+              "type": "boolean",
+              "value": true
+            }
+          }
+        ],
+        "expected_claim_value": {
+          "reason": "terminals_disconnected",
+          "type": "undefined"
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "connected": {
+            "type": "boolean",
+            "value": false
+          },
+          "resistance": {
+            "reason": "terminals_disconnected",
+            "type": "undefined"
+          }
+        },
+        "expected_verdict": "abstain"
+      },
+      "observed_verdict": "abstain",
+      "pair": "undefined-claim",
+      "partition": "definedness_provenance_precedence",
+      "passed": true,
+      "theme": "electrical"
+    },
+    {
+      "case_id": "H059",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "reason": "existing_edge_and_connected_required",
+          "type": "undefined"
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "edge_probability": {
+            "reason": "existing_edge_and_connected_required",
+            "type": "undefined"
+          }
+        },
+        "expected_verdict": "abstain"
+      },
+      "observed_verdict": "abstain",
+      "pair": "nonedge-no-assumption",
+      "partition": "definedness_provenance_precedence",
+      "passed": true,
+      "theme": "tree"
+    },
+    {
+      "case_id": "H060",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [
+          {
+            "id": "is-edge",
+            "value": {
+              "type": "boolean",
+              "value": false
+            }
+          }
+        ],
+        "expected_claim_value": {
+          "reason": "existing_edge_and_connected_required",
+          "type": "undefined"
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "edge_probability": {
+            "reason": "existing_edge_and_connected_required",
+            "type": "undefined"
+          },
+          "terminal_is_edge": {
+            "type": "boolean",
+            "value": false
+          }
+        },
+        "expected_verdict": "not_applicable"
+      },
+      "observed_verdict": "not_applicable",
+      "pair": "nonedge-failed-hypothesis",
+      "partition": "definedness_provenance_precedence",
+      "passed": true,
+      "theme": "tree"
+    },
+    {
+      "case_id": "H061",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "reason": "terminals_disconnected",
+          "type": "undefined"
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "resistance": {
+            "reason": "terminals_disconnected",
+            "type": "undefined"
+          }
+        },
+        "expected_verdict": "abstain"
+      },
+      "observed_verdict": "abstain",
+      "pair": "cross-component-undefined",
+      "partition": "definedness_provenance_precedence",
+      "passed": true,
+      "theme": "electrical"
+    },
+    {
+      "case_id": "H062",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "reason": "zero_degree_vertex",
+          "type": "undefined"
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "laplacian_rw": {
+            "reason": "zero_degree_vertex",
+            "type": "undefined"
+          }
+        },
+        "expected_verdict": "abstain"
+      },
+      "observed_verdict": "abstain",
+      "pair": "isolate-rw-undefined",
+      "partition": "definedness_provenance_precedence",
+      "passed": true,
+      "theme": "normalization"
+    },
+    {
+      "case_id": "H063",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "laplacian_determinant": {
+            "type": "rational",
+            "value": "0/1"
+          }
+        },
+        "expected_verdict": "no_counterexample_in_instance"
+      },
+      "observed_verdict": "no_counterexample_in_instance",
+      "pair": "lazy-unused-undefined",
+      "partition": "definedness_provenance_precedence",
+      "passed": true,
+      "theme": "rank"
+    },
+    {
+      "case_id": "H064",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "reason": "period_requires_connected",
+          "type": "undefined"
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "period": {
+            "reason": "period_requires_connected",
+            "type": "undefined"
+          }
+        },
+        "expected_verdict": "abstain"
+      },
+      "observed_verdict": "abstain",
+      "pair": "disconnected-period",
+      "partition": "definedness_provenance_precedence",
+      "passed": true,
+      "theme": "period"
+    },
+    {
+      "case_id": "H065",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": {
+          "reason": "unknown_quantity",
+          "type": "undefined"
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "future_unknown_quantity": {
+            "reason": "unknown_quantity",
+            "type": "undefined"
+          }
+        },
+        "expected_verdict": "abstain"
+      },
+      "observed_verdict": "abstain",
+      "pair": "unknown-quantity",
+      "partition": "definedness_provenance_precedence",
+      "passed": true,
+      "theme": "schema"
+    },
+    {
+      "case_id": "H066",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [
+          {
+            "id": "connected",
+            "value": {
+              "type": "boolean",
+              "value": false
+            }
+          }
+        ],
+        "expected_claim_value": {
+          "type": "boolean",
+          "value": true
+        },
+        "expected_error_class": null,
+        "expected_period_certificate": null,
+        "expected_referenced_values": {
+          "connected": {
+            "type": "boolean",
+            "value": false
+          },
+          "tree_mass": {
+            "type": "rational",
+            "value": "0/1"
+          }
+        },
+        "expected_verdict": "not_applicable"
+      },
+      "observed_verdict": "not_applicable",
+      "pair": "false-hypothesis-true-conclusion",
+      "partition": "definedness_provenance_precedence",
+      "passed": true,
+      "theme": "tree"
+    },
+    {
+      "case_id": "H067",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": null,
+        "expected_error_class": "boolean_integer",
+        "expected_period_certificate": null,
+        "expected_referenced_values": {},
+        "expected_verdict": "invalid_input"
+      },
+      "observed_verdict": "invalid_input",
+      "pair": "boolean_integer",
+      "partition": "malformed_type_resource",
+      "passed": true,
+      "theme": "schema"
+    },
+    {
+      "case_id": "H068",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": null,
+        "expected_error_class": "floating_conductance",
+        "expected_period_certificate": null,
+        "expected_referenced_values": {},
+        "expected_verdict": "invalid_input"
+      },
+      "observed_verdict": "invalid_input",
+      "pair": "floating_conductance",
+      "partition": "malformed_type_resource",
+      "passed": true,
+      "theme": "schema"
+    },
+    {
+      "case_id": "H069",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": null,
+        "expected_error_class": "nonpositive_conductance",
+        "expected_period_certificate": null,
+        "expected_referenced_values": {},
+        "expected_verdict": "invalid_input"
+      },
+      "observed_verdict": "invalid_input",
+      "pair": "nonpositive_conductance",
+      "partition": "malformed_type_resource",
+      "passed": true,
+      "theme": "schema"
+    },
+    {
+      "case_id": "H070",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": null,
+        "expected_error_class": "loop_edge",
+        "expected_period_certificate": null,
+        "expected_referenced_values": {},
+        "expected_verdict": "invalid_input"
+      },
+      "observed_verdict": "invalid_input",
+      "pair": "loop_edge",
+      "partition": "malformed_type_resource",
+      "passed": true,
+      "theme": "schema"
+    },
+    {
+      "case_id": "H071",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": null,
+        "expected_error_class": "duplicate_undirected_edge",
+        "expected_period_certificate": null,
+        "expected_referenced_values": {},
+        "expected_verdict": "invalid_input"
+      },
+      "observed_verdict": "invalid_input",
+      "pair": "duplicate_undirected_edge",
+      "partition": "malformed_type_resource",
+      "passed": true,
+      "theme": "schema"
+    },
+    {
+      "case_id": "H072",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": null,
+        "expected_error_class": "edge_endpoint_out_of_range",
+        "expected_period_certificate": null,
+        "expected_referenced_values": {},
+        "expected_verdict": "invalid_input"
+      },
+      "observed_verdict": "invalid_input",
+      "pair": "edge_endpoint_out_of_range",
+      "partition": "malformed_type_resource",
+      "passed": true,
+      "theme": "schema"
+    },
+    {
+      "case_id": "H073",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": null,
+        "expected_error_class": "terminal_out_of_range",
+        "expected_period_certificate": null,
+        "expected_referenced_values": {},
+        "expected_verdict": "invalid_input"
+      },
+      "observed_verdict": "invalid_input",
+      "pair": "terminal_out_of_range",
+      "partition": "malformed_type_resource",
+      "passed": true,
+      "theme": "schema"
+    },
+    {
+      "case_id": "H074",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": null,
+        "expected_error_class": "terminals_not_distinct",
+        "expected_period_certificate": null,
+        "expected_referenced_values": {},
+        "expected_verdict": "invalid_input"
+      },
+      "observed_verdict": "invalid_input",
+      "pair": "terminals_not_distinct",
+      "partition": "malformed_type_resource",
+      "passed": true,
+      "theme": "schema"
+    },
+    {
+      "case_id": "H075",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": null,
+        "expected_error_class": "unsupported_graph_property",
+        "expected_period_certificate": null,
+        "expected_referenced_values": {},
+        "expected_verdict": "invalid_input"
+      },
+      "observed_verdict": "invalid_input",
+      "pair": "unsupported_graph_property",
+      "partition": "malformed_type_resource",
+      "passed": true,
+      "theme": "schema"
+    },
+    {
+      "case_id": "H076",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": null,
+        "expected_error_class": "missing_required_field",
+        "expected_period_certificate": null,
+        "expected_referenced_values": {},
+        "expected_verdict": "invalid_input"
+      },
+      "observed_verdict": "invalid_input",
+      "pair": "missing_required_field",
+      "partition": "malformed_type_resource",
+      "passed": true,
+      "theme": "schema"
+    },
+    {
+      "case_id": "H077",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": null,
+        "expected_error_class": "malformed_rational",
+        "expected_period_certificate": null,
+        "expected_referenced_values": {},
+        "expected_verdict": "invalid_input"
+      },
+      "observed_verdict": "invalid_input",
+      "pair": "malformed_rational",
+      "partition": "malformed_type_resource",
+      "passed": true,
+      "theme": "schema"
+    },
+    {
+      "case_id": "H078",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": null,
+        "expected_error_class": "unknown_operator",
+        "expected_period_certificate": null,
+        "expected_referenced_values": {},
+        "expected_verdict": "invalid_input"
+      },
+      "observed_verdict": "invalid_input",
+      "pair": "unknown_operator",
+      "partition": "malformed_type_resource",
+      "passed": true,
+      "theme": "schema"
+    },
+    {
+      "case_id": "H079",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": null,
+        "expected_error_class": "ast_depth_limit",
+        "expected_period_certificate": null,
+        "expected_referenced_values": {},
+        "expected_verdict": "invalid_input"
+      },
+      "observed_verdict": "invalid_input",
+      "pair": "ast_depth_limit",
+      "partition": "malformed_type_resource",
+      "passed": true,
+      "theme": "schema"
+    },
+    {
+      "case_id": "H080",
+      "failures": [],
+      "gold": {
+        "expected_assumptions": [],
+        "expected_claim_value": null,
+        "expected_error_class": "ast_total_node_limit",
+        "expected_period_certificate": null,
+        "expected_referenced_values": {},
+        "expected_verdict": "invalid_input"
+      },
+      "observed_verdict": "invalid_input",
+      "pair": "ast_total_node_limit",
+      "partition": "malformed_type_resource",
+      "passed": true,
+      "theme": "schema"
+    }
+  ],
+  "schema_version": "1.0",
+  "suite_plaintext_sha256": "ddf50219b87547a9cae547d936a7afba76380f11c4cda7c5fbb473635a01d9ee"
+}

@@ -1,0 +1,33 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--isolated",
+    "--no-project",
+    "--python",
+    "3.13",
+    "python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\backbone-audit-work\\verify_frozen_importer.py"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\backbone-audit-work",
+  "duration_seconds": 1.115960700000869,
+  "ended_at_utc": "2026-09-08T03:42:09.435211+00:00",
+  "exit_code": 1,
+  "schema_version": "command-evidence-v1",
+  "started_at_utc": "2026-09-08T03:42:08.319241+00:00",
+  "stderr": {
+    "base64": "V0FSTiBgLS1uby1wcm9qZWN0YCB3YXMgcHJvdmlkZWQsIGJ1dCBubyBwcm9qZWN0IHdhcyBmb3VuZAo=",
+    "bytes": 59,
+    "sha256": "dd7241fb9634d51d4b90a8782d9a26dd3fe2ada28ad873374b2d9b28b76827ef",
+    "utf8_text": "WARN `--no-project` was provided, but no project was found\n",
+    "valid_utf8": true
+  },
+  "stdout": {
+    "base64": "eyJjaGVja3MiOiAzOSwgImVycm9ycyI6IFsic2NoZW1hLWJvdW5kYXJ5Om5vLWRlZmluaXRpb246IGNhbmRpZGF0ZSBpbmRleCBoYXMgbm8gJ2RlZmluaXRpb24nIGZpZWxkIiwgInJldGFpbmVkLWluaXRpYWwtZmFpbHVyZTogaW5pdGlhbCBtaXNzaW5nLWxvY2sgdXYgc3luYyBmYWlsdXJlIGlzIHJldGFpbmVkIHdpdGggY29tbWFuZCBhbmQgZXhpdCBjb2RlIl0sICJyZXBvcnQiOiAiRDpcXENvZGV4V29ya3NwYWNlc1xcbWF0aGVtYXRpY3MtYXRsYXNcXGJhY2tib25lLWF1ZGl0LXdvcmtcXGZyb3plbi1vdXRwdXQtdmVyaWZpY2F0aW9uLmpzb24iLCAicmVwb3J0X3NoYTI1NiI6ICJhMWM2YTI3MDk0MDg2YTkwNDVmMGUwNzdlZDBmODRiMDM2ZjFiNGE4ZGM5MzAyMTYzOGZiMzkxNzhlOTk4NjEwIiwgInN0YXR1cyI6ICJmYWlsIn0NCg==",
+    "bytes": 418,
+    "sha256": "030f58f2048724a884d63f55036be086169faa09cfe6ead90d28d9d3280bd6c7",
+    "utf8_text": "{\"checks\": 39, \"errors\": [\"schema-boundary:no-definition: candidate index has no 'definition' field\", \"retained-initial-failure: initial missing-lock uv sync failure is retained with command and exit code\"], \"report\": \"D:\\\\CodexWorkspaces\\\\mathematics-atlas\\\\backbone-audit-work\\\\frozen-output-verification.json\", \"report_sha256\": \"a1c6a27094086a9045f0e077ed0f84b036f1b4a8dc93021638fb39178e998610\", \"status\": \"fail\"}\r\n",
+    "valid_utf8": true
+  },
+  "windows_command_line": "uv run --isolated --no-project --python 3.13 python D:\\CodexWorkspaces\\mathematics-atlas\\backbone-audit-work\\verify_frozen_importer.py"
+}

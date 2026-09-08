@@ -1,0 +1,31 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--locked",
+    "python",
+    "scripts\\write_corrected_subset.py",
+    "..\\outputs"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\backbone-import-work\\implementation",
+  "duration_seconds": 0.4200552999973297,
+  "ended_at_utc": "2026-09-08T03:23:43.108625+00:00",
+  "exit_code": 0,
+  "schema_version": "command-evidence-v1",
+  "started_at_utc": "2026-09-08T03:23:42.688561+00:00",
+  "stderr": {
+    "base64": "",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "utf8_text": "",
+    "valid_utf8": true
+  },
+  "stdout": {
+    "base64": "d3JvdGUgY29ycmVjdGVkLXRlbi1yZWNvcmQtc3Vic2V0Lmpzb24gYW5kIGNvcnJlY3RlZC10ZW4tcmVjb3JkLWNvZGVwb2ludC1maWRlbGl0eS5qc29uDQo=",
+    "bytes": 89,
+    "sha256": "06f37d5ca48cac9c348aa994e1164ea88eec4a8192acfc69cf9bc1499e00a7cb",
+    "utf8_text": "wrote corrected-ten-record-subset.json and corrected-ten-record-codepoint-fidelity.json\r\n",
+    "valid_utf8": true
+  },
+  "windows_command_line": "uv run --locked python scripts\\write_corrected_subset.py ..\\outputs"
+}

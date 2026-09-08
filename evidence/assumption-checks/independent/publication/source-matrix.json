@@ -1,0 +1,955 @@
+{
+  "foundation_source_count": 10,
+  "foundation_sources": [
+    {
+      "citation": "Naoki Masuda, Mason A. Porter, and Renaud Lambiotte, Random walks and diffusion on networks, Physics Reports 716-717 (2017)",
+      "entails": "With row probability evolution, T=D^-1 A and the random-walk normalized Laplacian is D^-1 L=I-T, where L=D-A.",
+      "id": "rw-laplacian-name-and-formula",
+      "limitation": "The displayed section is a continuous-time formulation; the matrix identity and row convention are the relevant claims.",
+      "local_pdf": "sources/masuda-random-walk-review.pdf",
+      "local_pdf_sha256": "6635b682b1de38a894cd7f72e65bf5125532b407bc02ae2907b53d876a46dcc9",
+      "locator": "printed/PDF p.17, equations (75)-(77)",
+      "source_type": "peer_reviewed_review_author_copy",
+      "url": "https://www.math.ucla.edu/~mason/papers/rw-review-final3.pdf"
+    },
+    {
+      "citation": "Daniel A. Spielman, Graphs and Networks, Lecture 4: Random Walks on Graphs (2006)",
+      "entails": "D^(1/2) M D^(-1/2)=D^(-1/2) A D^(-1/2), a symmetric matrix. Subtracting from I gives the corresponding similarity between L_rw and L_sym.",
+      "id": "row-walk-and-similarity",
+      "limitation": "The notes use unweighted degrees in this lecture; the same algebra holds for symmetric positive conductance matrices.",
+      "local_pdf": "sources/spielman-random-walks.pdf",
+      "local_pdf_sha256": "76a27b59a9493fff85dd3684b0859d0b654d416e2bc28762a1fe0e8c40f945e9",
+      "locator": "PDF p.1, definition M=D^-1 A and p_t=p_(t-1)M; PDF p.2, similarity derivation",
+      "source_type": "author_lecture_notes",
+      "url": "https://www.cs.yale.edu/homes/spielman/462/2006/lect4.pdf"
+    },
+    {
+      "citation": "Fan R. K. Chung, Lectures on Spectral Graph Theory",
+      "entails": "The symmetric normalized Laplacian and the random-walk transition representation are related by similarity, not equality on irregular graphs.",
+      "id": "symmetric-normalized-distinction",
+      "limitation": "Chung adopts a zero convention for inverse degree at isolates for the symmetric normalized object; version 1 deliberately leaves P and L_rw undefined if any isolate is present.",
+      "local_pdf": "sources/chung-cbms.pdf",
+      "local_pdf_sha256": "673d2b4ef67fb3e50537b94d682523e0e0afabd5b5eab6a53cca55b5a8567f5b",
+      "locator": "PDF p.5 / book p.2 for L_sym=T^(-1/2) L T^(-1/2); PDF p.18 / book p.15 for P=T^-1 A=T^(-1/2)(I-L_sym)T^(1/2)",
+      "source_type": "author_monograph",
+      "url": "https://fanchung.ucsd.edu/cbms.pdf"
+    },
+    {
+      "citation": "David A. Levin and Yuval Peres, with Elizabeth L. Wilmer, Markov Chains and Mixing Times, 2nd ed.",
+      "entails": "pi=pi P defines stationarity. Irreducibility and aperiodicity are the hypotheses for convergence from every state in the finite setting; a period-two chain alternates support and need not converge.",
+      "id": "stationary-is-not-convergence",
+      "limitation": "The degree example is stated for unweighted simple walk; the weighted version follows from detailed balance and is stated in the same book's network chapter.",
+      "local_pdf": "sources/levin-peres-wilmer-mcmt2e.pdf",
+      "local_pdf_sha256": "9ef39f9467d9647ff3f5e8747b9ce24b7a90d13be2f8156fbd827b95b661a772",
+      "locator": "book p.9, equation (1.14), stationary definition; book p.10, equation (1.16), degree-proportional example; book pp.7-8, period and even-cycle oscillation; book p.52, Theorem 4.9",
+      "source_type": "author_textbook_copy",
+      "url": "https://pages.uoregon.edu/dlevin/MARKOV/mcmt2e.pdf"
+    },
+    {
+      "citation": "Levin and Peres with Wilmer, Markov Chains and Mixing Times, 2nd ed.",
+      "entails": "For a connected weighted network, P(x,y)=c(x,y)/c(x), pi(x)=c(x)/c_G, and c_G=sum_x c(x)=2 sum_e c(e) when there are no loops.",
+      "id": "weighted-walk-volume-and-stationarity",
+      "limitation": "The chapter defines a network to be connected; disconnected componentwise use needs separate scoping.",
+      "local_pdf": "sources/levin-peres-wilmer-mcmt2e.pdf",
+      "local_pdf_sha256": "9ef39f9467d9647ff3f5e8747b9ce24b7a90d13be2f8156fbd827b95b661a772",
+      "locator": "book p.116, section 9.1, equation (9.1)",
+      "source_type": "author_textbook_copy",
+      "url": "https://pages.uoregon.edu/dlevin/MARKOV/mcmt2e.pdf"
+    },
+    {
+      "citation": "Levin and Peres with Wilmer, Markov Chains and Mixing Times, 2nd ed.",
+      "entails": "Currents depend on voltage differences; adding a constant changes no current. Grounding the sink at zero fixes the gauge, and unit source-to-sink flow makes the source-sink voltage difference the effective resistance.",
+      "id": "voltage-gauge-and-resistance",
+      "limitation": "The sourced network is connected. Version 1's same-component extension is a conservative scoped computation.",
+      "local_pdf": "sources/levin-peres-wilmer-mcmt2e.pdf",
+      "local_pdf_sha256": "9ef39f9467d9647ff3f5e8747b9ce24b7a90d13be2f8156fbd827b95b661a772",
+      "locator": "book pp.118-119, equations (9.7)-(9.11)",
+      "source_type": "author_textbook_copy",
+      "url": "https://pages.uoregon.edu/dlevin/MARKOV/mcmt2e.pdf"
+    },
+    {
+      "citation": "Levin and Peres with Wilmer, Markov Chains and Mixing Times, 2nd ed.",
+      "entails": "Commute is E_a tau_b + E_b tau_a and equals c_G R(a<->b), with c_G=sum_x c(x)=2 sum_e c(e).",
+      "id": "weighted-commute-time",
+      "limitation": "Connected-network theorem; hitting times can be asymmetric.",
+      "local_pdf": "sources/levin-peres-wilmer-mcmt2e.pdf",
+      "local_pdf_sha256": "9ef39f9467d9647ff3f5e8747b9ce24b7a90d13be2f8156fbd827b95b661a772",
+      "locator": "book pp.131-132, equations (10.9)-(10.14), Proposition 10.7",
+      "source_type": "author_textbook_copy",
+      "url": "https://pages.uoregon.edu/dlevin/MARKOV/mcmt2e.pdf"
+    },
+    {
+      "citation": "Chandra, Raghavan, Ruzzo, Smolensky, and Tiwari, The electrical resistance of a graph captures its commute and cover times",
+      "entails": "For transitions proportional to conductance, the generalized commute cost is F times effective resistance; unit directed-step costs make F the sum of weighted degrees.",
+      "id": "weighted-commute-generalization",
+      "limitation": "The section assumes a connected undirected graph.",
+      "local_pdf": "sources/chandra-commute.pdf",
+      "local_pdf_sha256": "76f593c14de03faf9f2ebc0b9b4014e5b8e352d2df1eaf0e3ed464b6a3e961fc",
+      "locator": "PDF pp.7-8, Theorem 2.2",
+      "source_type": "peer_reviewed_paper",
+      "url": "https://homes.cs.washington.edu/~ruzzo/papers/resist.pdf"
+    },
+    {
+      "citation": "Daniel A. Spielman, More Effective Resistance (2018)",
+      "entails": "For a connected weighted graph, the product of nonzero combinatorial-Laplacian eigenvalues is n times the sum over spanning trees of the products of their edge weights.",
+      "id": "weighted-tree-mass",
+      "limitation": "Disconnected handling is obtained directly from the absence of spanning trees and Laplacian nullity, not from the connected theorem statement.",
+      "local_pdf": "sources/spielman-trees.pdf",
+      "local_pdf_sha256": "625b09e0a14e03b435f2e028e4da9943bd3febf9adbf16c79fa53e4947da9cc5",
+      "locator": "PDF p.3, Theorem 14.5.1",
+      "source_type": "author_lecture_notes",
+      "url": "https://www.cs.yale.edu/homes/spielman/561/lect14-18.pdf"
+    },
+    {
+      "citation": "Daniel A. Spielman, More Effective Resistance (2018)",
+      "entails": "Under spanning-tree sampling proportional to the product of edge weights, an existing edge e appears with probability w_e R_eff(e).",
+      "id": "weighted-tree-edge-probability",
+      "limitation": "The theorem quantifies edges of a connected graph; it does not license a nonedge probability by inventing a weight.",
+      "local_pdf": "sources/spielman-trees.pdf",
+      "local_pdf_sha256": "625b09e0a14e03b435f2e028e4da9943bd3febf9adbf16c79fa53e4947da9cc5",
+      "locator": "PDF pp.5-6, section 14.6 and Theorem 14.6.1",
+      "source_type": "author_lecture_notes",
+      "url": "https://www.cs.yale.edu/homes/spielman/561/lect14-18.pdf"
+    }
+  ],
+  "retrieval_label_counts_descriptive_only": {
+    "insufficient": 3,
+    "refuted": 9,
+    "supported": 12
+  },
+  "retrieval_source_record_count": 24,
+  "retrieval_sources": [
+    {
+      "adjudicated_label": "refuted",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "historical_adjudication_locator": "PDF p. 2, Theorem 1.2(1)-(2).",
+      "locator_note": null,
+      "paper_id": "0802.2576v2",
+      "query_id": "Q01",
+      "rank": 1,
+      "resolved_locator": "PDF p. 2, Theorem 1.2(1)-(2).",
+      "reviewer_a_label": "refuted",
+      "reviewer_a_locators": [
+        {
+          "extracted_text_line_end": 48,
+          "extracted_text_line_start": 18,
+          "pdf_page": 1,
+          "purpose": "components, eigenvalue multiplicity, and connected classical theorem"
+        },
+        {
+          "extracted_text_line_end": 107,
+          "extracted_text_line_start": 74,
+          "pdf_page": 2,
+          "purpose": "weighted Laplacian and Theorem 1.2"
+        }
+      ],
+      "reviewer_b_label": "refuted",
+      "reviewer_b_locator": "PDF p. 2, Theorem 1.2(1)-(2).",
+      "reviewers_agreed": true,
+      "source_pdf_sha256": "3450dbb90c168258764777f114a48b6840f61710ccddad91dd46b5aeefdf6646",
+      "source_url": "https://arxiv.org/pdf/0802.2576v2",
+      "structured_syntax_mapping_reason": "The unqualified nonzero-spectrum formula is directly expressible and admits a disconnected exact witness.",
+      "structured_syntax_mapping_status": "planned_separate_round_two",
+      "theorem_id": 23150070
+    },
+    {
+      "adjudicated_label": "refuted",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "historical_adjudication_locator": "PDF pp. 6-7, definitions immediately before Theorem 2.1 and Theorem 2.1.",
+      "locator_note": null,
+      "paper_id": "1612.07898v1",
+      "query_id": "Q01",
+      "rank": 2,
+      "resolved_locator": "PDF pp. 6-7, definitions immediately before Theorem 2.1 and Theorem 2.1.",
+      "reviewer_a_label": "refuted",
+      "reviewer_a_locators": [
+        {
+          "extracted_text_line_end": 305,
+          "extracted_text_line_start": 285,
+          "pdf_page": 5,
+          "purpose": "specialized positive-integer edge and vertex weights"
+        },
+        {
+          "extracted_text_line_end": 376,
+          "extracted_text_line_start": 334,
+          "pdf_page": 6,
+          "purpose": "weighted Laplacian, cycle pairing, D(G), and mass definitions"
+        },
+        {
+          "extracted_text_line_end": 392,
+          "extracted_text_line_start": 381,
+          "pdf_page": 7,
+          "purpose": "Theorem 2.1 formula for D(G)"
+        }
+      ],
+      "reviewer_b_label": "refuted",
+      "reviewer_b_locator": "PDF pp. 6-7, definitions immediately before Theorem 2.1 and Theorem 2.1.",
+      "reviewers_agreed": true,
+      "source_pdf_sha256": "ea0d85fadf9757ccc5e0a876ca4592495ee321f0b7db548576998e5d825728d8",
+      "source_url": "https://arxiv.org/pdf/1612.07898v1",
+      "structured_syntax_mapping_reason": "D(G), vertex weights, reciprocal vertex-weight mass m(G), and component-group semantics are absent.",
+      "structured_syntax_mapping_status": "ineligible_accounted",
+      "theorem_id": 21091970
+    },
+    {
+      "adjudicated_label": "insufficient",
+      "adjudication": "The original theorem is recorded in a normalized-Laplacian context that uses positive degrees and a single distinguished zero eigenvalue. The slogan quantifies over a generic graph without retaining the connected/no-isolate convention. The identity may extend under a chosen normalized-Laplacian convention, so the omission is narrower-source ambiguity rather than a decisive counterexample.",
+      "historical_adjudication_locator": "2009.04139v1, PDF pp. 1-3: normalized-Laplacian definition and spectrum convention; Theorem 2.5.",
+      "locator_note": null,
+      "paper_id": "2009.04139v1",
+      "query_id": "Q02",
+      "rank": 1,
+      "resolved_locator": "2009.04139v1, PDF pp. 1-3: normalized-Laplacian definition and spectrum convention; Theorem 2.5.",
+      "reviewer_a_label": "insufficient",
+      "reviewer_a_locators": [
+        {
+          "extracted_text_line_end": 39,
+          "extracted_text_line_start": 29,
+          "pdf_page": 1,
+          "purpose": "normalized-Laplacian definition"
+        },
+        {
+          "extracted_text_line_end": 79,
+          "extracted_text_line_start": 60,
+          "pdf_page": 2,
+          "purpose": "unique-zero spectrum context"
+        },
+        {
+          "extracted_text_line_end": 185,
+          "extracted_text_line_start": 153,
+          "pdf_page": 3,
+          "purpose": "connected neighboring results and Theorem 2.5 formula"
+        }
+      ],
+      "reviewer_b_label": "supported",
+      "reviewer_b_locator": "PDF p. 3, Theorem 2.5.",
+      "reviewers_agreed": false,
+      "source_pdf_sha256": "8cd24fdc344f2550a418c933800d3e97ba358fd7aa1f516aafccceaaede2f566",
+      "source_url": "https://arxiv.org/pdf/2009.04139v1",
+      "structured_syntax_mapping_reason": "A connected instance of the degree/normalized-spectrum/tree formula is expressible using rw_nonzero_spectrum_product, degrees, graph volume, and tree_mass; the connected convention must be recorded explicitly.",
+      "structured_syntax_mapping_status": "planned_separate_round_two",
+      "theorem_id": 19685900
+    },
+    {
+      "adjudicated_label": "refuted",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "historical_adjudication_locator": "PDF p. 4, Theorem 5, together with the connected-graph setup in Section 2.",
+      "locator_note": "Additive correction supersedes the historical adjudication locator; labels are unchanged.",
+      "paper_id": "2302.07170v2",
+      "query_id": "Q02",
+      "rank": 2,
+      "resolved_locator": "PDF p. 3, Theorem 4, with the connected-graph setup on PDF pp. 1-3.",
+      "reviewer_a_label": "refuted",
+      "reviewer_a_locators": [
+        {
+          "extracted_text_line_end": 122,
+          "extracted_text_line_start": 118,
+          "pdf_page": 2,
+          "purpose": "connectedness and unique-zero spectral context"
+        },
+        {
+          "extracted_text_line_end": 178,
+          "extracted_text_line_start": 160,
+          "pdf_page": 3,
+          "purpose": "source formula, labeled Theorem 4 in the PDF"
+        }
+      ],
+      "reviewer_b_label": "refuted",
+      "reviewer_b_locator": "PDF p. 4, Theorem 5, together with the connected-graph setup in Section 2.",
+      "reviewers_agreed": true,
+      "source_pdf_sha256": "0a8b0cd222346e255bfe572b23b84a6351896223af4de86745e72cf6bd28bbe4",
+      "source_url": "https://arxiv.org/pdf/2302.07170v2",
+      "structured_syntax_mapping_reason": "The unqualified all-nonzero normalized-spectrum formula is expressible and admits a disconnected exact witness.",
+      "structured_syntax_mapping_status": "planned_separate_round_two",
+      "theorem_id": 18276974
+    },
+    {
+      "adjudicated_label": "supported",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "historical_adjudication_locator": "PDF p. 4, Theorem 2.2 (Kirchhoff's formula).",
+      "locator_note": null,
+      "paper_id": "2410.16836v3",
+      "query_id": "Q03",
+      "rank": 1,
+      "resolved_locator": "PDF p. 4, Theorem 2.2 (Kirchhoff's formula).",
+      "reviewer_a_label": "supported",
+      "reviewer_a_locators": [
+        {
+          "extracted_text_line_end": 179,
+          "extracted_text_line_start": 169,
+          "pdf_page": 3,
+          "purpose": "finite positive-weight undirected-network setup"
+        },
+        {
+          "extracted_text_line_end": 230,
+          "extracted_text_line_start": 199,
+          "pdf_page": 4,
+          "purpose": "effective-resistance definition and Kirchhoff formula"
+        }
+      ],
+      "reviewer_b_label": "supported",
+      "reviewer_b_locator": "PDF p. 4, Theorem 2.2 (Kirchhoff's formula).",
+      "reviewers_agreed": true,
+      "source_pdf_sha256": "3ce5a9b56a22d884138bd1335d4216061733680743ceab16b70963bba9f61d9c",
+      "source_url": "https://arxiv.org/pdf/2410.16836v3",
+      "structured_syntax_mapping_reason": "Weighted tree edge probability, terminal-edge conductance, and effective resistance are exposed exactly.",
+      "structured_syntax_mapping_status": "planned_separate_round_two",
+      "theorem_id": 18134454
+    },
+    {
+      "adjudicated_label": "refuted",
+      "adjudication": "The paper explicitly reserves UST for the unweighted law and 'weighted UST' for the product-of-weights law. The slogan says uniformly random spanning tree while retaining nonunit edge weights. On a triangle with conductances (2,1,1), the weight-2 edge has weighted inclusion probability 4/5 but ordinary uniform inclusion probability 2/3.",
+      "historical_adjudication_locator": "2410.16830v3, PDF p. 2, distinction between UST and weighted UST; PDF p. 8, Theorem 2.1.",
+      "locator_note": null,
+      "paper_id": "2410.16830v3",
+      "query_id": "Q03",
+      "rank": 2,
+      "resolved_locator": "2410.16830v3, PDF p. 2, distinction between UST and weighted UST; PDF p. 8, Theorem 2.1.",
+      "reviewer_a_label": "refuted",
+      "reviewer_a_locators": [
+        {
+          "extracted_text_line_end": 145,
+          "extracted_text_line_start": 136,
+          "pdf_page": 2,
+          "purpose": "explicit weighted-versus-unweighted UST terminology"
+        },
+        {
+          "extracted_text_line_end": 522,
+          "extracted_text_line_start": 508,
+          "pdf_page": 8,
+          "purpose": "weighted UST probability law"
+        },
+        {
+          "extracted_text_line_end": 594,
+          "extracted_text_line_start": 581,
+          "pdf_page": 8,
+          "purpose": "Theorem 2.1 under the weighted UST law"
+        }
+      ],
+      "reviewer_b_label": "supported",
+      "reviewer_b_locator": "PDF p. 8, Theorem 2.1 (Kirchhoff's Formula).",
+      "reviewers_agreed": false,
+      "source_pdf_sha256": "bbf97d79b262142afc8139cab27435613fce9b37e2e8cc763d4edf57ec72577a",
+      "source_url": "https://arxiv.org/pdf/2410.16830v3",
+      "structured_syntax_mapping_reason": "The checker exposes weighted tree sampling only; it cannot simultaneously represent ordinary-uniform tree probability on a nonunit weighted graph, the distinction that refutes the slogan.",
+      "structured_syntax_mapping_status": "ineligible_accounted",
+      "theorem_id": 18165234
+    },
+    {
+      "adjudicated_label": "supported",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "historical_adjudication_locator": "PDF p. 7, Lemma 2.1, with the unit-resistance convention in Section 2.",
+      "locator_note": null,
+      "paper_id": "2109.13394v2",
+      "query_id": "Q04",
+      "rank": 1,
+      "resolved_locator": "PDF p. 7, Lemma 2.1, with the unit-resistance convention in Section 2.",
+      "reviewer_a_label": "supported",
+      "reviewer_a_locators": [
+        {
+          "extracted_text_line_end": 267,
+          "extracted_text_line_start": 250,
+          "pdf_page": 6,
+          "purpose": "unit-resistor effective-resistance setup"
+        },
+        {
+          "extracted_text_line_end": 283,
+          "extracted_text_line_start": 278,
+          "pdf_page": 7,
+          "purpose": "Lemma 2.1 and enumerative example"
+        }
+      ],
+      "reviewer_b_label": "supported",
+      "reviewer_b_locator": "PDF p. 7, Lemma 2.1, with the unit-resistance convention in Section 2.",
+      "reviewers_agreed": true,
+      "source_pdf_sha256": "f0ad74ca6e4f7ad0359762adfb9806adccf50889499680fdf11e33ba1c41432c",
+      "source_url": "https://arxiv.org/pdf/2109.13394v2",
+      "structured_syntax_mapping_reason": "The unweighted existing-edge identity is expressible on an explicit unit-conductance instance.",
+      "structured_syntax_mapping_status": "planned_separate_round_two",
+      "theorem_id": 24585048
+    },
+    {
+      "adjudicated_label": "supported",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "historical_adjudication_locator": "PDF p. 5, Section 4.1 and Lemma 6.",
+      "locator_note": null,
+      "paper_id": "1206.0937v3",
+      "query_id": "Q04",
+      "rank": 2,
+      "resolved_locator": "PDF p. 5, Section 4.1 and Lemma 6.",
+      "reviewer_a_label": "supported",
+      "reviewer_a_locators": [
+        {
+          "extracted_text_line_end": 320,
+          "extracted_text_line_start": 286,
+          "pdf_page": 5,
+          "purpose": "effective resistance, UST definition, and Lemma 6"
+        }
+      ],
+      "reviewer_b_label": "supported",
+      "reviewer_b_locator": "PDF p. 5, Section 4.1 and Lemma 6.",
+      "reviewers_agreed": true,
+      "source_pdf_sha256": "aec5df2ed10e69cc885fea382997b082791cef2578636cc02e00972029024f40",
+      "source_url": "https://arxiv.org/pdf/1206.0937v3",
+      "structured_syntax_mapping_reason": "The unweighted existing-edge identity is expressible on an explicit unit-conductance instance.",
+      "structured_syntax_mapping_status": "planned_separate_round_two",
+      "theorem_id": 22467127
+    },
+    {
+      "adjudicated_label": "insufficient",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "historical_adjudication_locator": "PDF p. 3, Assumptions 2.1; PDF p. 17, Lemma 5.1.",
+      "locator_note": null,
+      "paper_id": "2101.07103v2",
+      "query_id": "Q05",
+      "rank": 1,
+      "resolved_locator": "PDF p. 3, Assumptions 2.1; PDF p. 17, Lemma 5.1.",
+      "reviewer_a_label": "insufficient",
+      "reviewer_a_locators": [
+        {
+          "extracted_text_line_end": 74,
+          "extracted_text_line_start": 65,
+          "pdf_page": 2,
+          "purpose": "resistance distance identified with effective resistance"
+        },
+        {
+          "extracted_text_line_end": 108,
+          "extracted_text_line_start": 101,
+          "pdf_page": 3,
+          "purpose": "global finite-graph assumptions permit multiple components"
+        },
+        {
+          "extracted_text_line_end": 1181,
+          "extracted_text_line_start": 1161,
+          "pdf_page": 17,
+          "purpose": "hitting time, commute time, Lemma 5.1, and volume"
+        }
+      ],
+      "reviewer_b_label": "insufficient",
+      "reviewer_b_locator": "PDF p. 3, Assumptions 2.1; PDF p. 17, Lemma 5.1.",
+      "reviewers_agreed": true,
+      "source_pdf_sha256": "c8e15f31bcb6eb1a3dcfd121a0e23f7cb0b059d310e107b046a8f5f4debfe1b0",
+      "source_url": "https://arxiv.org/pdf/2101.07103v2",
+      "structured_syntax_mapping_reason": "Commute, graph volume, and effective resistance are exposed; source-faithful checking requires an explicit connected-network assumption.",
+      "structured_syntax_mapping_status": "planned_separate_round_two",
+      "theorem_id": 26329144
+    },
+    {
+      "adjudicated_label": "supported",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "historical_adjudication_locator": "PDF p. 13, Lemma 3.16.",
+      "locator_note": null,
+      "paper_id": "2104.06052v3",
+      "query_id": "Q05",
+      "rank": 2,
+      "resolved_locator": "PDF p. 13, Lemma 3.16.",
+      "reviewer_a_label": "supported",
+      "reviewer_a_locators": [
+        {
+          "extracted_text_line_end": 123,
+          "extracted_text_line_start": 115,
+          "pdf_page": 3,
+          "purpose": "finite measured graph definition"
+        },
+        {
+          "extracted_text_line_end": 223,
+          "extracted_text_line_start": 209,
+          "pdf_page": 4,
+          "purpose": "stationary measure, conductance, and reversible-walk construction"
+        },
+        {
+          "extracted_text_line_end": 1008,
+          "extracted_text_line_start": 994,
+          "pdf_page": 13,
+          "purpose": "Lemma 3.16 including conditional bounds"
+        }
+      ],
+      "reviewer_b_label": "supported",
+      "reviewer_b_locator": "PDF p. 13, Lemma 3.16.",
+      "reviewers_agreed": true,
+      "source_pdf_sha256": "980cf6cd4ad243e1324c2b40b4cb7841457f10c39b05f85fd6155fa144b2bf4a",
+      "source_url": "https://arxiv.org/pdf/2104.06052v3",
+      "structured_syntax_mapping_reason": "Arbitrary vertex measures, measured-graph uniqueness, measure-ratio bounds, and Cheeger constants are absent.",
+      "structured_syntax_mapping_status": "ineligible_accounted",
+      "theorem_id": 23740032
+    },
+    {
+      "adjudicated_label": "refuted",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "historical_adjudication_locator": "PDF pp. 37-38, multipede construction preceding Lemma 7.2 and Lemma 7.2.",
+      "locator_note": null,
+      "paper_id": "2210.07869v7",
+      "query_id": "Q06",
+      "rank": 1,
+      "resolved_locator": "PDF pp. 37-38, multipede construction preceding Lemma 7.2 and Lemma 7.2.",
+      "reviewer_a_label": "refuted",
+      "reviewer_a_locators": [
+        {
+          "extracted_text_line_end": 2177,
+          "extracted_text_line_start": 2141,
+          "pdf_page": 37,
+          "purpose": "multipede terminology and construction"
+        },
+        {
+          "extracted_text_line_end": 2196,
+          "extracted_text_line_start": 2188,
+          "pdf_page": 38,
+          "purpose": "multipede figure explanation and Lemma 7.2"
+        }
+      ],
+      "reviewer_b_label": "refuted",
+      "reviewer_b_locator": "PDF pp. 37-38, multipede construction preceding Lemma 7.2 and Lemma 7.2.",
+      "reviewers_agreed": true,
+      "source_pdf_sha256": "925f89e7d7ed15197c9eef711881247b975040bf8313862a1e614fcae2a2436c",
+      "source_url": "https://arxiv.org/pdf/2210.07869v7",
+      "structured_syntax_mapping_reason": "Multipede structures, matching polytopes, and asymmetry are outside the graph-invariant grammar.",
+      "structured_syntax_mapping_status": "ineligible_accounted",
+      "theorem_id": 25939467
+    },
+    {
+      "adjudicated_label": "supported",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "historical_adjudication_locator": "PDF p. 6, Lemma 2.3.",
+      "locator_note": null,
+      "paper_id": "1506.03343v1",
+      "query_id": "Q06",
+      "rank": 2,
+      "resolved_locator": "PDF p. 6, Lemma 2.3.",
+      "reviewer_a_label": "supported",
+      "reviewer_a_locators": [
+        {
+          "extracted_text_line_end": 245,
+          "extracted_text_line_start": 229,
+          "pdf_page": 6,
+          "purpose": "Lemma 2.3 and start of construction"
+        }
+      ],
+      "reviewer_b_label": "supported",
+      "reviewer_b_locator": "PDF p. 6, Lemma 2.3.",
+      "reviewers_agreed": true,
+      "source_pdf_sha256": "2998f2474b37b0c78655f0abc0295f7c7958233f5ed9acdd430c616d359a9329",
+      "source_url": "https://arxiv.org/pdf/1506.03343v1",
+      "structured_syntax_mapping_reason": "Random vertex orderings and dependent random variables are outside the grammar.",
+      "structured_syntax_mapping_status": "ineligible_accounted",
+      "theorem_id": 21595533
+    },
+    {
+      "adjudicated_label": "supported",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "historical_adjudication_locator": "PDF pp. 31-32, Theorem 7, Lemma 8, and Corollary 9.",
+      "locator_note": null,
+      "paper_id": "1202.5569v1",
+      "query_id": "Q07",
+      "rank": 1,
+      "resolved_locator": "PDF pp. 31-32, Theorem 7, Lemma 8, and Corollary 9.",
+      "reviewer_a_label": "supported",
+      "reviewer_a_locators": [
+        {
+          "extracted_text_line_end": 1067,
+          "extracted_text_line_start": 1057,
+          "pdf_page": 30,
+          "purpose": "ergodicity and positive recurrence"
+        },
+        {
+          "extracted_text_line_end": 1102,
+          "extracted_text_line_start": 1080,
+          "pdf_page": 31,
+          "purpose": "unique stationary distribution and convergence"
+        },
+        {
+          "extracted_text_line_end": 1132,
+          "extracted_text_line_start": 1109,
+          "pdf_page": 32,
+          "purpose": "graph hypotheses, Corollary 9, and convergence theorem"
+        }
+      ],
+      "reviewer_b_label": "supported",
+      "reviewer_b_locator": "PDF pp. 31-32, Theorem 7, Lemma 8, and Corollary 9.",
+      "reviewers_agreed": true,
+      "source_pdf_sha256": "bf1894a9500e62e74e39e8d3c4621b6630fcd97ab1b7081cc0b985cbbb524e1a",
+      "source_url": "https://arxiv.org/pdf/1202.5569v1",
+      "structured_syntax_mapping_reason": "The whole slogan includes convergence, uniqueness, irreducibility, and positive recurrence, which are not exposed quantities.",
+      "structured_syntax_mapping_status": "ineligible_accounted",
+      "theorem_id": 25306126
+    },
+    {
+      "adjudicated_label": "supported",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "historical_adjudication_locator": "PDF p. 25, Theorem A.2.",
+      "locator_note": null,
+      "paper_id": "1206.4162v1",
+      "query_id": "Q07",
+      "rank": 2,
+      "resolved_locator": "PDF p. 25, Theorem A.2.",
+      "reviewer_a_label": "supported",
+      "reviewer_a_locators": [
+        {
+          "extracted_text_line_end": 2222,
+          "extracted_text_line_start": 2205,
+          "pdf_page": 25,
+          "purpose": "total variation definition and Theorem A.2"
+        }
+      ],
+      "reviewer_b_label": "supported",
+      "reviewer_b_locator": "PDF p. 25, Theorem A.2.",
+      "reviewers_agreed": true,
+      "source_pdf_sha256": "f130565bf2d17495773c0bc99534d1a8686d3bea950a12171cbe6b4d5fa17616",
+      "source_url": "https://arxiv.org/pdf/1206.4162v1",
+      "structured_syntax_mapping_reason": "The input is an arbitrary finite Markov chain and the claim includes total-variation convergence, neither representable by the graph-instance grammar.",
+      "structured_syntax_mapping_status": "ineligible_accounted",
+      "theorem_id": 22481653
+    },
+    {
+      "adjudicated_label": "supported",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "historical_adjudication_locator": "PDF p. 5, Proposition 2.2.",
+      "locator_note": null,
+      "paper_id": "2405.09102v1",
+      "query_id": "Q08",
+      "rank": 1,
+      "resolved_locator": "PDF p. 5, Proposition 2.2.",
+      "reviewer_a_label": "supported",
+      "reviewer_a_locators": [
+        {
+          "extracted_text_line_end": 241,
+          "extracted_text_line_start": 228,
+          "pdf_page": 5,
+          "purpose": "definitions and Proposition 2.2"
+        }
+      ],
+      "reviewer_b_label": "supported",
+      "reviewer_b_locator": "PDF p. 5, Proposition 2.2.",
+      "reviewers_agreed": true,
+      "source_pdf_sha256": "bca672594f609631c45a449859f63f8c23b7922648d6be383976f4bac792c79e",
+      "source_url": "https://arxiv.org/pdf/2405.09102v1",
+      "structured_syntax_mapping_reason": "Even-time distributions, their stationarity, and convergence are not exposed.",
+      "structured_syntax_mapping_status": "ineligible_accounted",
+      "theorem_id": 18458194
+    },
+    {
+      "adjudicated_label": "supported",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "historical_adjudication_locator": "PDF p. 31, Theorem 1.3.",
+      "locator_note": null,
+      "paper_id": "2510.14165v1",
+      "query_id": "Q08",
+      "rank": 2,
+      "resolved_locator": "PDF p. 31, Theorem 1.3.",
+      "reviewer_a_label": "supported",
+      "reviewer_a_locators": [
+        {
+          "extracted_text_line_end": 1385,
+          "extracted_text_line_start": 1368,
+          "pdf_page": 31,
+          "purpose": "examples and theorem statement"
+        }
+      ],
+      "reviewer_b_label": "supported",
+      "reviewer_b_locator": "PDF p. 31, Theorem 1.3.",
+      "reviewers_agreed": true,
+      "source_pdf_sha256": "d1dd58d663cd6cb8dff0eaa535ff8aba9cafb684a7876f21e024c92dcf4c6dc9",
+      "source_url": "https://arxiv.org/pdf/2510.14165v1",
+      "structured_syntax_mapping_reason": "Period is exposed with a structural certificate; even- and odd-cycle instances can be checked separately.",
+      "structured_syntax_mapping_status": "planned_separate_round_two",
+      "theorem_id": 17464638
+    },
+    {
+      "adjudicated_label": "supported",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "historical_adjudication_locator": "PDF p. 7, Theorem 3.3.",
+      "locator_note": null,
+      "paper_id": "1203.4045v1",
+      "query_id": "Q09",
+      "rank": 1,
+      "resolved_locator": "PDF p. 7, Theorem 3.3.",
+      "reviewer_a_label": "supported",
+      "reviewer_a_locators": [
+        {
+          "extracted_text_line_end": 290,
+          "extracted_text_line_start": 282,
+          "pdf_page": 6,
+          "purpose": "componentwise compatibility and additive constants"
+        },
+        {
+          "extracted_text_line_end": 314,
+          "extracted_text_line_start": 299,
+          "pdf_page": 7,
+          "purpose": "network definition and Theorem 3.3"
+        }
+      ],
+      "reviewer_b_label": "supported",
+      "reviewer_b_locator": "PDF p. 7, Theorem 3.3.",
+      "reviewers_agreed": true,
+      "source_pdf_sha256": "f8c170a689aac41bbe9e1f3c11116b12f5f85b54a95527f03dc6cb35d1ab0e61",
+      "source_url": "https://arxiv.org/pdf/1203.4045v1",
+      "structured_syntax_mapping_reason": "Nonlinear or signed conductors, boundary-current functions, and arbitrary componentwise gauges are outside the positive-rational graph grammar.",
+      "structured_syntax_mapping_status": "ineligible_accounted",
+      "theorem_id": 22536602
+    },
+    {
+      "adjudicated_label": "refuted",
+      "adjudication": "The source globally defines a resistor network as connected and its conductance matrix as irreducible. The slogan drops this material hypothesis while claiming uniqueness modulo one global constant for any balanced current. A disconnected network has one gauge constant per component, and a globally balanced current can still be unbalanced on individual components and unsolvable.",
+      "historical_adjudication_locator": "2502.19720v2, PDF p. 5, connected-network/irreducible-conductance setup and Lemma 2.1.",
+      "locator_note": null,
+      "paper_id": "2502.19720v2",
+      "query_id": "Q09",
+      "rank": 2,
+      "resolved_locator": "2502.19720v2, PDF p. 5, connected-network/irreducible-conductance setup and Lemma 2.1.",
+      "reviewer_a_label": "refuted",
+      "reviewer_a_locators": [
+        {
+          "extracted_text_line_end": 308,
+          "extracted_text_line_start": 283,
+          "pdf_page": 5,
+          "purpose": "connected-network context, Kirchhoff equation, and Lemma 2.1"
+        }
+      ],
+      "reviewer_b_label": "supported",
+      "reviewer_b_locator": "PDF p. 5, Kirchhoff equation (6) and Lemma 2.1.",
+      "reviewers_agreed": false,
+      "source_pdf_sha256": "a3bb32c87471a175945983b3b00c4b46837a39c26d9b0167d5455f44cdd7cfb6",
+      "source_url": "https://arxiv.org/pdf/2502.19720v2",
+      "structured_syntax_mapping_reason": "Arbitrary current vectors and uniqueness modulo gauge are not claim-level quantities; the available gauge certificate is only partial.",
+      "structured_syntax_mapping_status": "ineligible_accounted",
+      "theorem_id": 26077729
+    },
+    {
+      "adjudicated_label": "supported",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "historical_adjudication_locator": "PDF p. 12, Theorem 3.2.",
+      "locator_note": null,
+      "paper_id": "1803.09144v1",
+      "query_id": "Q10",
+      "rank": 1,
+      "resolved_locator": "PDF p. 12, Theorem 3.2.",
+      "reviewer_a_label": "supported",
+      "reviewer_a_locators": [
+        {
+          "extracted_text_line_end": 783,
+          "extracted_text_line_start": 752,
+          "pdf_page": 11,
+          "purpose": "matrix-weighted graph and block Laplacian definitions"
+        },
+        {
+          "extracted_text_line_end": 888,
+          "extracted_text_line_start": 820,
+          "pdf_page": 12,
+          "purpose": "pseudoinverse construction and Theorem 3.2"
+        }
+      ],
+      "reviewer_b_label": "supported",
+      "reviewer_b_locator": "PDF p. 12, Theorem 3.2.",
+      "reviewers_agreed": true,
+      "source_pdf_sha256": "ec2c2dc0b593b04bef50686b2bbc2afa135dceff24de20a1e95576ac0e82cf02",
+      "source_url": "https://arxiv.org/pdf/1803.09144v1",
+      "structured_syntax_mapping_reason": "Matrix-valued edge weights, block Laplacians, Kronecker products, and matrix-weight pseudoinverses are absent.",
+      "structured_syntax_mapping_status": "ineligible_accounted",
+      "theorem_id": 20655858
+    },
+    {
+      "adjudicated_label": "refuted",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "historical_adjudication_locator": "PDF p. 9, definitions preceding Theorem 3 and Theorem 3.",
+      "locator_note": null,
+      "paper_id": "2508.21506v1",
+      "query_id": "Q10",
+      "rank": 2,
+      "resolved_locator": "PDF p. 9, definitions preceding Theorem 3 and Theorem 3.",
+      "reviewer_a_label": "refuted",
+      "reviewer_a_locators": [
+        {
+          "extracted_text_line_end": 136,
+          "extracted_text_line_start": 131,
+          "pdf_page": 3,
+          "purpose": "connected weighted-graph setup"
+        },
+        {
+          "extracted_text_line_end": 156,
+          "extracted_text_line_start": 139,
+          "pdf_page": 4,
+          "purpose": "Laplacian and random-walk context"
+        },
+        {
+          "extracted_text_line_end": 280,
+          "extracted_text_line_start": 242,
+          "pdf_page": 5,
+          "purpose": "definitions of c, c_r, and filtered centrality c^F"
+        },
+        {
+          "extracted_text_line_end": 351,
+          "extracted_text_line_start": 327,
+          "pdf_page": 6,
+          "purpose": "definition of mu as Kemeny directional derivative"
+        },
+        {
+          "extracted_text_line_end": 619,
+          "extracted_text_line_start": 613,
+          "pdf_page": 9,
+          "purpose": "Theorem 3 formula"
+        }
+      ],
+      "reviewer_b_label": "refuted",
+      "reviewer_b_locator": "PDF p. 9, definitions preceding Theorem 3 and Theorem 3.",
+      "reviewers_agreed": true,
+      "source_pdf_sha256": "74984073bbff52a630d780e337605e3f60d3f6471453d15fac3eca0a45e415a9",
+      "source_url": "https://arxiv.org/pdf/2508.21506v1",
+      "structured_syntax_mapping_reason": "Filtered Kemeny centrality and its derivative matrices are absent.",
+      "structured_syntax_mapping_status": "ineligible_accounted",
+      "theorem_id": 17584187
+    },
+    {
+      "adjudicated_label": "supported",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "historical_adjudication_locator": "PDF p. 7, Lemma 3.2.",
+      "locator_note": null,
+      "paper_id": "2010.01530v1",
+      "query_id": "Q11",
+      "rank": 1,
+      "resolved_locator": "PDF p. 7, Lemma 3.2.",
+      "reviewer_a_label": "supported",
+      "reviewer_a_locators": [
+        {
+          "extracted_text_line_end": 506,
+          "extracted_text_line_start": 460,
+          "pdf_page": 7,
+          "purpose": "resistance-to-infinity convention and Lemma 3.2"
+        }
+      ],
+      "reviewer_b_label": "supported",
+      "reviewer_b_locator": "PDF p. 7, Lemma 3.2.",
+      "reviewers_agreed": true,
+      "source_pdf_sha256": "2ae2f84ef4dce02100f59af5db9768c36d9eee850f814f181bb49a9924c61ca8",
+      "source_url": "https://arxiv.org/pdf/2010.01530v1",
+      "structured_syntax_mapping_reason": "Infinite networks, cutset sequences, resistance to infinity, and recurrence are outside the finite grammar.",
+      "structured_syntax_mapping_status": "ineligible_accounted",
+      "theorem_id": 24648249
+    },
+    {
+      "adjudicated_label": "insufficient",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "historical_adjudication_locator": "PDF p. 10, Corollary 6.3, with the free-resistance notation defined earlier in the paper.",
+      "locator_note": null,
+      "paper_id": "1902.01110v2",
+      "query_id": "Q11",
+      "rank": 2,
+      "resolved_locator": "PDF p. 10, Corollary 6.3, with the free-resistance notation defined earlier in the paper.",
+      "reviewer_a_label": "insufficient",
+      "reviewer_a_locators": [
+        {
+          "extracted_text_line_end": 112,
+          "extracted_text_line_start": 90,
+          "pdf_page": 2,
+          "purpose": "free effective-resistance convention"
+        },
+        {
+          "extracted_text_line_end": 746,
+          "extracted_text_line_start": 741,
+          "pdf_page": 10,
+          "purpose": "Corollary 6.3"
+        }
+      ],
+      "reviewer_b_label": "insufficient",
+      "reviewer_b_locator": "PDF p. 10, Corollary 6.3, with the free-resistance notation defined earlier in the paper.",
+      "reviewers_agreed": true,
+      "source_pdf_sha256": "55a88d447551c3263f20de8fcb4872efd20ef85e265e6f2444bddbf9f7110159",
+      "source_url": "https://arxiv.org/pdf/1902.01110v2",
+      "structured_syntax_mapping_reason": "Infinite-network free resistance, return/hitting probabilities, and infinite-line subgraph characterization are absent.",
+      "structured_syntax_mapping_status": "ineligible_accounted",
+      "theorem_id": 20314933
+    },
+    {
+      "adjudicated_label": "refuted",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "historical_adjudication_locator": "PDF p. 4, weighted forest/tree definitions; PDF p. 15, Corollary 4.7.",
+      "locator_note": null,
+      "paper_id": "2109.01324v2",
+      "query_id": "Q12",
+      "rank": 1,
+      "resolved_locator": "PDF p. 4, weighted forest/tree definitions; PDF p. 15, Corollary 4.7.",
+      "reviewer_a_label": "refuted",
+      "reviewer_a_locators": [
+        {
+          "extracted_text_line_end": 282,
+          "extracted_text_line_start": 258,
+          "pdf_page": 5,
+          "purpose": "forest weights and weighted tau definition"
+        },
+        {
+          "extracted_text_line_end": 911,
+          "extracted_text_line_start": 900,
+          "pdf_page": 12,
+          "purpose": "tau_e defined as total weight"
+        },
+        {
+          "extracted_text_line_end": 1154,
+          "extracted_text_line_start": 1148,
+          "pdf_page": 15,
+          "purpose": "Corollary 4.7"
+        }
+      ],
+      "reviewer_b_label": "refuted",
+      "reviewer_b_locator": "PDF p. 4, weighted forest/tree definitions; PDF p. 15, Corollary 4.7.",
+      "reviewers_agreed": true,
+      "source_pdf_sha256": "4558460b8c32d06ab4dd542d015d4527f3ab943dae0533d568eacc9d5fa25c7c",
+      "source_url": "https://arxiv.org/pdf/2109.01324v2",
+      "structured_syntax_mapping_reason": "The checker exposes weighted tree masses but not ordinary tree counts alongside the same nonunit weights, which is the slogan's disputed substitution.",
+      "structured_syntax_mapping_status": "ineligible_accounted",
+      "theorem_id": 23832572
+    },
+    {
+      "adjudicated_label": "refuted",
+      "adjudication": "Independent reviewers agreed. Their exact-version source locators and interpretations are materially consistent; adjudication preserves the shared label.",
+      "historical_adjudication_locator": "PDF p. 1, definition of weighted spanning-tree enumerator; PDF p. 5, Theorem 2.4.",
+      "locator_note": null,
+      "paper_id": "1904.07766v1",
+      "query_id": "Q12",
+      "rank": 2,
+      "resolved_locator": "PDF p. 1, definition of weighted spanning-tree enumerator; PDF p. 5, Theorem 2.4.",
+      "reviewer_a_label": "refuted",
+      "reviewer_a_locators": [
+        {
+          "extracted_text_line_end": 40,
+          "extracted_text_line_start": 19,
+          "pdf_page": 1,
+          "purpose": "weighted spanning-tree enumerator tau definition"
+        },
+        {
+          "extracted_text_line_end": 213,
+          "extracted_text_line_start": 205,
+          "pdf_page": 5,
+          "purpose": "Theorem 2.4 ratio"
+        }
+      ],
+      "reviewer_b_label": "refuted",
+      "reviewer_b_locator": "PDF p. 1, definition of weighted spanning-tree enumerator; PDF p. 5, Theorem 2.4.",
+      "reviewers_agreed": true,
+      "source_pdf_sha256": "9dac8057d51e7c361fe08877a79bff45a97e19818d32289c83245bbb49a1aa0d",
+      "source_url": "https://arxiv.org/pdf/1904.07766v1",
+      "structured_syntax_mapping_reason": "Graph contraction and its tree enumerator are absent, as is the weighted-mass versus ordinary-count comparison needed for the disputed slogan.",
+      "structured_syntax_mapping_status": "ineligible_accounted",
+      "theorem_id": 20258646
+    }
+  ],
+  "schema_version": "1.0",
+  "scope": "Authoritative source URLs, exact locators, snapshot hashes, and stated limitations for the structured checker conventions and the fixed 24-result retrieval review.",
+  "scope_limits": [
+    "The 24 retrieval results are purposively fixed and do not estimate a service population rate.",
+    "Source-only labels assess supplied generated slogans against exact-version sources; they do not certify a general natural-language system.",
+    "Structured instance outputs cannot revise source-only labels and do not prove theorems.",
+    "The historical reviewer/adjudicator model string is withdrawn as unverified runtime metadata by the additive correction."
+  ],
+  "source_artifacts": {
+    "additive_corrections": {
+      "path": "retrieval-review-adjudication-corrections.json",
+      "sha256": "030cf2360f0bcf8448fa809dc5141da716ba89262ad7140bf7fa1c283224cd3d"
+    },
+    "adjudication": {
+      "path": "retrieval-review-adjudication.json",
+      "sha256": "1b64837ccce001b3bbe5996b594a8d820bcbcab0a87e1831f8e6fb2441311fb9"
+    },
+    "foundation_locators": {
+      "path": "source-locators.json",
+      "sha256": "87733a023fa8c3393fe54b5bba7748abbf94c85d23afd31144e67b194fba6361"
+    }
+  }
+}

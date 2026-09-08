@@ -1,0 +1,58 @@
+{
+  "schema_version": "chain-of-evidence-final-bundle-review-v1",
+  "subject": "MathGloss concept-library final claim and evidence alignment",
+  "auditor": {
+    "identity": "/root/sol_symmetry_audit",
+    "role": "independent Sol Max verifier"
+  },
+  "input": {
+    "path": "project/.codex/evidence/runs/concept-library-v1/bundle.json",
+    "sha256": "57f0c69fc59e1cf1f295cb5c38921cea35af8cfed4eb3f7cb78b732774f7ae45",
+    "bytes": 49333,
+    "artifact_count": 152,
+    "claim_count": 6
+  },
+  "additive_verification_note": {
+    "path": "project/docs/concept-library-verification.md",
+    "sha256": "5eaad1157f82200094b6691acb61011a394a1ed060b7610c0642ecca863b4803",
+    "status": "aligned"
+  },
+  "approved_claim_ids": [
+    "C001",
+    "C002",
+    "C003",
+    "C004",
+    "C005",
+    "C006"
+  ],
+  "decisions": [
+    {
+      "id": "reproduction",
+      "status": "pass",
+      "note": "C001 and C003 use the sealed importer and consumer reproduction results within their pinned-snapshot scope; the final wording does not turn reproduction into an identity, quality, impact, novelty, or completeness claim."
+    },
+    {
+      "id": "specification_compliance",
+      "status": "pass",
+      "note": "C003 through C005 accurately state the documented lexical/filter/page behavior, the five-valid/fifteen-invalid no-store route boundary, and the focused shared state observation. The provisional-oracle differences and lack of a second visual-browser review remain explicit."
+    },
+    {
+      "id": "source_verification",
+      "status": "pass",
+      "note": "C001 and C002 preserve the exact 4,814-record/7,217-link counts, pinned MathGloss revision and repository license notice while explicitly limiting the import to metadata and links and withholding any rights claim for outbound prose."
+    },
+    {
+      "id": "implementation_alignment",
+      "status": "pass",
+      "note": "C004 and C005 remain aligned with the frozen route and shared runSearch implementation. The same-origin GET access-log caveat is retained. C006 describes product catalog coverage and explicitly disclaims concept equivalence, theorem truth, learner suitability, practical impact, novelty, and map completeness."
+    }
+  ],
+  "frozen_target": {
+    "manifest_path": "project/evidence/mathgloss/library-integration-freeze.json",
+    "manifest_sha256": "68bd8c6f8ff2dfaa1c1b26b1d4c030025ae1a6d84004767c8b537939f09ef316",
+    "files": 24,
+    "all_hashes_match": true
+  },
+  "overall_status": "pass_scoped",
+  "review_note": "All six claim statements are supported by the cited sealed evidence and retain the completed audit's boundaries. The additive verification note accurately records the independent result without altering the 24 frozen implementation files."
+}

@@ -1,0 +1,57 @@
+{
+  "id": "weighted-commute-source-formula",
+  "graph": {
+    "n": 3,
+    "edges": [
+      {
+        "u": 0,
+        "v": 1,
+        "conductance": 2
+      },
+      {
+        "u": 1,
+        "v": 2,
+        "conductance": 1
+      }
+    ]
+  },
+  "source": 0,
+  "target": 2,
+  "provenance": {
+    "kind": "source_annotation",
+    "source_url": "https://pages.uoregon.edu/dlevin/MARKOV/mcmt2e.pdf",
+    "source_locator": "Second edition, book pp. 131-132, Proposition 10.7 and equations (10.9)-(10.14); graph volume is defined on book p. 116, equation (9.1).",
+    "annotation_id": "weighted-commute-source-formula-root-annotation",
+    "annotator": "root-teaching-example-author",
+    "interpretation": "explicit"
+  },
+  "assumptions": [
+    {
+      "id": "connected-network",
+      "expression": {
+        "kind": "quantity",
+        "name": "connected"
+      }
+    }
+  ],
+  "claim": {
+    "kind": "binary",
+    "op": "eq",
+    "left": {
+      "kind": "quantity",
+      "name": "commute"
+    },
+    "right": {
+      "kind": "binary",
+      "op": "mul",
+      "left": {
+        "kind": "quantity",
+        "name": "total_conductance"
+      },
+      "right": {
+        "kind": "quantity",
+        "name": "resistance"
+      }
+    }
+  }
+}

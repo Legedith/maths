@@ -1,0 +1,78 @@
+{
+  "files": [
+    {
+      "path": "lib/research-search.ts",
+      "sha256": "09007c456bde23593458d356d6058ef9b688305091b731e27655188a3fac65fb",
+      "utf8_decode": "pass",
+      "suspicious_mojibake_tokens": [],
+      "non_ascii_lines": [
+        {
+          "line": 26,
+          "repr": "\"    throw new Error('Describe a mathematical idea in 1\u2013500 characters.');\"",
+          "codepoints": [
+            "U+2013"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "components/research-search.tsx",
+      "sha256": "f37bcc498e6e8f2797eb486fc3a7d29bd35427bfc37c1b4dd240310068f6ab8d",
+      "utf8_decode": "pass",
+      "suspicious_mojibake_tokens": [],
+      "non_ascii_lines": [
+        {
+          "line": 97,
+          "repr": "'          <p>Searching existing mathematical research\u2026</p>'",
+          "codepoints": [
+            "U+2026"
+          ]
+        },
+        {
+          "line": 123,
+          "repr": "\"                        .join(' \u00b7 ')}\"",
+          "codepoints": [
+            "U+00B7"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "lib/use-atlas-tools.ts",
+      "sha256": "04cc7a2700f225cab9d1884931f4e416433951bb20d60248bb5af06400873dca",
+      "utf8_decode": "pass",
+      "suspicious_mojibake_tokens": [],
+      "non_ascii_lines": []
+    },
+    {
+      "path": "docs/research-search.md",
+      "sha256": "971ca45f05c25c666feb384bd4664e9334daf7ef8460fb41c751c21912dccb20",
+      "utf8_decode": "pass",
+      "suspicious_mojibake_tokens": [],
+      "non_ascii_lines": []
+    },
+    {
+      "path": "evidence/research-search/webmcp-observations.json",
+      "sha256": "38368b9e61aa614bba9654caed2071b71090a49927b1153809c5b848a9159c13",
+      "utf8_decode": "pass",
+      "suspicious_mojibake_tokens": [],
+      "non_ascii_lines": [
+        {
+          "line": 22,
+          "repr": "'    \"error\": \"Describe a mathematical idea in 1\u2013500 characters.\",'",
+          "codepoints": [
+            "U+2013"
+          ]
+        },
+        {
+          "line": 33,
+          "repr": "'    \"visible_heading\": \"23 declarations found for \u201clapMatrix\u201d\\\\n\\\\nShowing 23. Results come from the live Loogle index; they have not been added to the curated map.\"'",
+          "codepoints": [
+            "U+201C",
+            "U+201D"
+          ]
+        }
+      ]
+    }
+  ]
+}

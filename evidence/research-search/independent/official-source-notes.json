@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "reviewer": "/root/sol_symmetry_audit",
+  "accessed_at_utc": "2026-09-08T02:39:10Z",
+  "sources": [
+    {
+      "source_type": "primary_provider_documentation",
+      "title": "TheoremSearch API Docs",
+      "url": "https://www.theoremsearch.com/docs",
+      "local_body": "official-sources/theoremsearch-api-docs.html",
+      "local_body_sha256": "e6f25e1549585a4987892f488ea4e05bd3bd54dee3a4c5f3d0df3b6238f29634",
+      "locators": [
+        "API Docs lines 6-34: fixed base URL and POST /search request fields",
+        "API Docs lines 45-69: response example includes body, slogan, similarity, score and paper metadata"
+      ],
+      "supports": [
+        "The fixed endpoint and {query,n_results} request match the official API.",
+        "The documented response supplies ranking fields similarity and score in addition to result order."
+      ]
+    },
+    {
+      "source_type": "primary_provider_policy",
+      "title": "TheoremSearch Privacy Policy",
+      "url": "https://www.theoremsearch.com/privacy",
+      "local_body": "official-sources/theoremsearch-privacy.html",
+      "local_body_sha256": "cd87b12398c6ef1c7a3545253845ecc20ddf3832f10b9ce0ac39041be2916379",
+      "locators": [
+        "Privacy Policy lines 5-12: provider logs search query text and filters",
+        "Privacy Policy lines 13-15: stated use of query logs"
+      ],
+      "supports": [
+        "A user-facing disclosure can accurately say that TheoremSearch logs the submitted query text under its current policy."
+      ]
+    }
+  ],
+  "limitations": [
+    "The provider pages are mutable web sources; local response bytes and hashes pin what was read.",
+    "This source check does not validate provider implementation, corpus quality, ranking quality or mathematical correctness."
+  ]
+}

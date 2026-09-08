@@ -1,0 +1,19 @@
+﻿{
+    "name":  "research-provenance-delta-lint",
+    "command_argv":  [
+                         ".\\node_modules\\.bin\\oxlint.cmd",
+                         "app/page.tsx",
+                         "app/api/research-search/route.ts",
+                         "components/research-search.tsx",
+                         "lib/research-search.ts",
+                         "lib/use-atlas-tools.ts",
+                         "scripts/check-research-search.ts"
+                     ],
+    "command_display":  ".\\node_modules\\.bin\\oxlint.cmd app/page.tsx app/api/research-search/route.ts components/research-search.tsx lib/research-search.ts lib/use-atlas-tools.ts scripts/check-research-search.ts",
+    "working_directory":  "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "started_at":  "2026-09-08T08:16:20.3567362+05:30",
+    "ended_at":  "2026-09-08T08:16:21.5034003+05:30",
+    "runtime_seconds":  1.1427798,
+    "exit_code":  0,
+    "console_log":  "logs/research-provenance-delta-lint.console.log"
+}

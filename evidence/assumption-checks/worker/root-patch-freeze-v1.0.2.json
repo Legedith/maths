@@ -1,0 +1,55 @@
+{
+  "freeze_id": "atlas-checks-1.0.2-root-exact-output-delta",
+  "frozen_at": "2026-09-08T03:29:15.117349+00:00",
+  "previous_manifest": "evidence/assumption-checks/worker/root-patch-freeze-v1.0.1.json",
+  "previous_manifest_sha256": "57cd9e5bff85197d52e189d16f0c042e4c07d36bafcc528ffa627f9ca7361e79",
+  "algorithm_version": "atlas-checks/1.0.2",
+  "status": "frozen_pending_independent_delta_review",
+  "changes": [
+    "base-one-billion exact output formatter",
+    "explicit patch identity",
+    "formatter regression and documentation"
+  ],
+  "unchanged_runtime_files": [
+    "src/atlas_checks/__init__.py",
+    "src/atlas_checks/__main__.py",
+    "src/atlas_checks/electrical.py",
+    "src/atlas_checks/expressions.py",
+    "src/atlas_checks/graph_math.py",
+    "src/atlas_checks/linear.py",
+    "src/atlas_checks/markov.py",
+    "src/atlas_checks/period.py",
+    "src/atlas_checks/quantities.py",
+    "src/atlas_checks/trees.py",
+    "src/atlas_checks/validation.py",
+    "src/atlas_checks/values.py"
+  ],
+  "file_sha256": {
+    "src/atlas_checks/__init__.py": "c2a7512c2ecfca5bbe67ca895fc756a6826b2a846699946c2d591deb38085e92",
+    "src/atlas_checks/__main__.py": "777e9fbe3bf8d49e2b1d9d19bae06e15acaf96436bbcc14e6bfaae807d7803e4",
+    "src/atlas_checks/api.py": "204465f6c895b30dc3f0bd6032a043c2d3b43b427b8f169667c965f6888af407",
+    "src/atlas_checks/electrical.py": "be40427533fb3957d329ad8e1180974bc90314b7777e6480762ae5650ee15bb2",
+    "src/atlas_checks/expressions.py": "ebf7b2434dd4df26eb1dc16518fb1fb88b72b6729752b7fde65d16ba6fc10134",
+    "src/atlas_checks/graph_math.py": "460b3d7b43055f388e249673811b13f6f90612ba76c0a0b1c56e411287692367",
+    "src/atlas_checks/linear.py": "467d80a5f007740e63edc559e8ecfe70c27fb1618e092a82068723d50c274132",
+    "src/atlas_checks/markov.py": "6fe40dedd88cf032c77484cbc1722a49388f72036d59b920586bbbf1e5e2e219",
+    "src/atlas_checks/model.py": "2237d532a25ef945efd54581893e1f1287c6837898f0f39686460cfb9a71f10c",
+    "src/atlas_checks/period.py": "a1e9f85c214e96b36b9058bab12dccd6065e926c23ef3b12bb0ad908c33161bb",
+    "src/atlas_checks/quantities.py": "a6380c7ab8b43e492a037bfff90bcacf988fa1250a67cf7a841021ac8f71dc3c",
+    "src/atlas_checks/trees.py": "6e2447dfc6207acee3c40e942ea08fcec08a6f031dbbfeaf7b57b49ab92abd3e",
+    "src/atlas_checks/validation.py": "d87db416097bccde095841b7df30fb71fa8c9de93b4059ad7f600053e9d1e304",
+    "src/atlas_checks/values.py": "01326d451569901e8e6d2fb5e3137724b4feb92840967d6b3ab85e17344d8614",
+    "tests/assumption_checks/test_representation_delta.py": "fe44b463a9063688e3121ed517a7d6327a489bc0a8467e7f5506197ca57a3f13",
+    "README-checks.md": "423908d7f3cf2574df29fd442f177807182ef469c6331d29b9e4d8c17e47af0a",
+    "scripts/generate_assumption_examples.py": "c6a51140b2e4eb4ca30d67e7d5286c0465f573307c729864e46799980c8114e2",
+    "tests/assumption_checks/test_exact_serialization_delta.py": "986ede2dad9c0999cec39d0743af747df07402a2f2ce3e5bc9d21e59663b6cf6",
+    "evidence/assumption-checks/worker/supporting-scripts/check_large_exact_output_attempt02.py": "6c39d2c0f95d9cebcb91347943bd5f2b976089f2b50a011f62cf97fbd2c5c6ae"
+  },
+  "development_evidence": {
+    "test_command_record": "logs/assumption-exact-output-delta-pytest.command.json",
+    "test_console": "logs/assumption-exact-output-delta-pytest.console.log",
+    "first_failure": "evidence/assumption-checks/worker/root-large-output-attempt-01.json",
+    "repaired_output": "evidence/assumption-checks/worker/root-large-output-attempt-02.json"
+  },
+  "scope": "The 80-case suite remains the original prospective evaluation. Public post-freeze regressions are supplemental and do not retroactively enlarge it. The supporting probe script is preserved historically with its original staging-relative path; the pytest regression is project-portable."
+}

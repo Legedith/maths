@@ -1,0 +1,620 @@
+{
+  "schema_version": "1.0",
+  "auditor": "/root/sol_symmetry_audit",
+  "scope": "Independent source and locator audit of the MathGloss/MaRDI reuse recommendation; no importer code reviewed in this phase.",
+  "mathgloss_snapshot": {
+    "head": "b8f659605486f80f2816515f525af2c395c711fa",
+    "expected_head": "b8f659605486f80f2816515f525af2c395c711fa",
+    "tree": "8095d87e49a050b7e034cf8771266fea6c488142",
+    "expected_tree": "8095d87e49a050b7e034cf8771266fea6c488142",
+    "worktree_porcelain": "",
+    "csv_sha256": "933a72820fe7ede53a803b750a480def205677e5722ae5f9589b0d1d9bf832b2",
+    "expected_csv_sha256": "933a72820fe7ede53a803b750a480def205677e5722ae5f9589b0d1d9bf832b2",
+    "csv_bytes": 674640,
+    "strict_utf8": true,
+    "replacement_character_count_in_source": 0
+  },
+  "canonical_csv": {
+    "header": [
+      "Wikidata ID",
+      "Wikidata Label",
+      "BCT Name",
+      "BCT Link",
+      "Chicago Name",
+      "Chicago Link",
+      "Clowder Name",
+      "Clowder Link",
+      "Context Name",
+      "Context Link",
+      "Mathlib Name",
+      "Mathlib Link",
+      "nLab Name",
+      "nLab Link",
+      "PlanetMath Name",
+      "PlanetMath Link"
+    ],
+    "expected_header": [
+      "Wikidata ID",
+      "Wikidata Label",
+      "BCT Name",
+      "BCT Link",
+      "Chicago Name",
+      "Chicago Link",
+      "Clowder Name",
+      "Clowder Link",
+      "Context Name",
+      "Context Link",
+      "Mathlib Name",
+      "Mathlib Link",
+      "nLab Name",
+      "nLab Link",
+      "PlanetMath Name",
+      "PlanetMath Link"
+    ],
+    "header_matches": true,
+    "data_record_count_nonblank_well_formed": 4814,
+    "physical_line_count": 4815,
+    "multiline_record_count": 0,
+    "blank_records": [],
+    "width_errors": [],
+    "duplicate_qids": {},
+    "fields_absent": [
+      "Layer",
+      "Score",
+      "Reason",
+      "Alternates",
+      "Provenance",
+      "confidence",
+      "manual-review status",
+      "license"
+    ],
+    "compiled_directory_headers": {
+      "bct_layer_compiled.csv": [
+        "Wikidata ID",
+        "Title",
+        "Link",
+        "Label",
+        "Layer",
+        "Score",
+        "Reason",
+        "Alternates",
+        "Provenance"
+      ],
+      "chicago_layer_compiled.csv": [
+        "Wikidata ID",
+        "Title",
+        "Link",
+        "Label",
+        "Layer",
+        "Score",
+        "Reason",
+        "Alternates",
+        "Provenance"
+      ],
+      "clowder_layer_compiled.csv": [
+        "Wikidata ID",
+        "Title",
+        "Link",
+        "Label",
+        "Layer",
+        "Score",
+        "Reason",
+        "Alternates",
+        "Provenance"
+      ],
+      "clowder_mappings.csv": [
+        "Wikidata ID",
+        "Clowder",
+        "Clowder link"
+      ],
+      "context_layer_compiled.csv": [
+        "Wikidata ID",
+        "Title",
+        "Link",
+        "Label",
+        "Layer",
+        "Score",
+        "Reason",
+        "Alternates",
+        "Provenance"
+      ],
+      "mathlib_layer_compiled.csv": [
+        "Wikidata ID",
+        "Title",
+        "Link",
+        "Label",
+        "Layer",
+        "Score",
+        "Reason",
+        "Alternates",
+        "Provenance"
+      ],
+      "nlab_layer_compiled.csv": [
+        "Wikidata ID",
+        "Title",
+        "Link",
+        "Label",
+        "Layer",
+        "Score",
+        "Reason",
+        "Alternates",
+        "Provenance"
+      ],
+      "planetmath_layer_compiled.csv": [
+        "Wikidata ID",
+        "Title",
+        "Link",
+        "Label",
+        "Layer",
+        "Score",
+        "Reason",
+        "Alternates",
+        "Provenance"
+      ]
+    },
+    "layer_compiled_headers_match": true,
+    "recommendation_wildcard_precision_note": "The seven *_layer_compiled.csv files have the documented alignment header. The same directory also contains clowder_mappings.csv with a different three-column header, so the table label data/alignments/compiled/* should be narrowed."
+  },
+  "sample": {
+    "record_count": 10,
+    "stored_encoding": "utf-16",
+    "stored_encoding_note": "The retained sample is UTF-16 with BOM rather than the UTF-8 interchange encoding used by the source and independent rerun.",
+    "checks": [
+      {
+        "qid": "Q181296",
+        "source_label_repr": "'abelian group'",
+        "stored_label_repr": "'abelian group'",
+        "label_codepoints_over_ascii": [],
+        "data_record_number": 1444,
+        "physical_start_line": 1445,
+        "physical_end_line": 1445,
+        "physical_bytes_sha256": "0e86c21b724de872582e65d824b5c16b93c6983f3b831d6b5ec95547aa3dd336",
+        "link_count": 3,
+        "comparisons": {
+          "record_key": true,
+          "wikidata_uri": true,
+          "label_as_recorded": true,
+          "links_as_recorded": true,
+          "physical_start_line": true,
+          "single_physical_line": true,
+          "pinned_url": true,
+          "commit": true,
+          "mapping_assertion": true,
+          "no_incomplete_source_pair": true
+        },
+        "sample_fields_match_source": true,
+        "physical_locator_matches": true,
+        "incomplete_link_pairs": []
+      },
+      {
+        "qid": "Q178546",
+        "source_label_repr": "'determinant'",
+        "stored_label_repr": "'determinant'",
+        "label_codepoints_over_ascii": [],
+        "data_record_number": 1417,
+        "physical_start_line": 1418,
+        "physical_end_line": 1418,
+        "physical_bytes_sha256": "8a8e6ca56362250becc5846cf5fb8925b4e1198821f70ebdf39b6a4f4a18e5af",
+        "link_count": 5,
+        "comparisons": {
+          "record_key": true,
+          "wikidata_uri": true,
+          "label_as_recorded": true,
+          "links_as_recorded": true,
+          "physical_start_line": true,
+          "single_physical_line": true,
+          "pinned_url": true,
+          "commit": true,
+          "mapping_assertion": true,
+          "no_incomplete_source_pair": true
+        },
+        "sample_fields_match_source": true,
+        "physical_locator_matches": true,
+        "incomplete_link_pairs": []
+      },
+      {
+        "qid": "Q230655",
+        "source_label_repr": "'connected graph'",
+        "stored_label_repr": "'connected graph'",
+        "label_codepoints_over_ascii": [],
+        "data_record_number": 1916,
+        "physical_start_line": 1917,
+        "physical_end_line": 1917,
+        "physical_bytes_sha256": "05a94b841e92b4a6289250a17db13083aaa55187f85675a909dee5e98e9bb0d8",
+        "link_count": 3,
+        "comparisons": {
+          "record_key": true,
+          "wikidata_uri": true,
+          "label_as_recorded": true,
+          "links_as_recorded": true,
+          "physical_start_line": true,
+          "single_physical_line": true,
+          "pinned_url": true,
+          "commit": true,
+          "mapping_assertion": true,
+          "no_incomplete_source_pair": true
+        },
+        "sample_fields_match_source": true,
+        "physical_locator_matches": true,
+        "incomplete_link_pairs": []
+      },
+      {
+        "qid": "Q1006032",
+        "source_label_repr": "'discrete Fourier transform'",
+        "stored_label_repr": "'discrete Fourier transform'",
+        "label_codepoints_over_ascii": [],
+        "data_record_number": 7,
+        "physical_start_line": 8,
+        "physical_end_line": 8,
+        "physical_bytes_sha256": "f2ba5645f75bbcc0e84447bdc35ce7bb4b4f9b8966282fcc607f5768019d954a",
+        "link_count": 2,
+        "comparisons": {
+          "record_key": true,
+          "wikidata_uri": true,
+          "label_as_recorded": true,
+          "links_as_recorded": true,
+          "physical_start_line": true,
+          "single_physical_line": true,
+          "pinned_url": true,
+          "commit": true,
+          "mapping_assertion": true,
+          "no_incomplete_source_pair": true
+        },
+        "sample_fields_match_source": true,
+        "physical_locator_matches": true,
+        "incomplete_link_pairs": []
+      },
+      {
+        "qid": "Q1028292",
+        "source_label_repr": "\"Grover's algorithm\"",
+        "stored_label_repr": "\"Grover's algorithm\"",
+        "label_codepoints_over_ascii": [],
+        "data_record_number": 31,
+        "physical_start_line": 32,
+        "physical_end_line": 32,
+        "physical_bytes_sha256": "dd72a79c5d7c9774b87087e7054b329f266e067b65845b57a7a4c8eb13ba10ee",
+        "link_count": 1,
+        "comparisons": {
+          "record_key": true,
+          "wikidata_uri": true,
+          "label_as_recorded": true,
+          "links_as_recorded": true,
+          "physical_start_line": true,
+          "single_physical_line": true,
+          "pinned_url": true,
+          "commit": true,
+          "mapping_assertion": true,
+          "no_incomplete_source_pair": true
+        },
+        "sample_fields_match_source": true,
+        "physical_locator_matches": true,
+        "incomplete_link_pairs": []
+      },
+      {
+        "qid": "Q1028209",
+        "source_label_repr": "'Deutsch\\u2013Jozsa algorithm'",
+        "stored_label_repr": "'Deutsch\\ufffdJozsa algorithm'",
+        "label_codepoints_over_ascii": [
+          "U+2013"
+        ],
+        "data_record_number": 30,
+        "physical_start_line": 31,
+        "physical_end_line": 31,
+        "physical_bytes_sha256": "eb909888bc92d8fc45ce2b57de12774c3e1027c5a9c89f614359850c8974a993",
+        "link_count": 1,
+        "comparisons": {
+          "record_key": true,
+          "wikidata_uri": true,
+          "label_as_recorded": false,
+          "links_as_recorded": true,
+          "physical_start_line": true,
+          "single_physical_line": true,
+          "pinned_url": true,
+          "commit": true,
+          "mapping_assertion": true,
+          "no_incomplete_source_pair": true
+        },
+        "sample_fields_match_source": false,
+        "physical_locator_matches": true,
+        "incomplete_link_pairs": []
+      },
+      {
+        "qid": "Q163310",
+        "source_label_repr": "'Turing machine'",
+        "stored_label_repr": "'Turing machine'",
+        "label_codepoints_over_ascii": [],
+        "data_record_number": 1110,
+        "physical_start_line": 1111,
+        "physical_end_line": 1111,
+        "physical_bytes_sha256": "b73ebd20057ae122f4bb991fce2e1e55c1eedba8ba0f045edd435185bca8b004",
+        "link_count": 3,
+        "comparisons": {
+          "record_key": true,
+          "wikidata_uri": true,
+          "label_as_recorded": true,
+          "links_as_recorded": true,
+          "physical_start_line": true,
+          "single_physical_line": true,
+          "pinned_url": true,
+          "commit": true,
+          "mapping_assertion": true,
+          "no_incomplete_source_pair": true
+        },
+        "sample_fields_match_source": true,
+        "physical_locator_matches": true,
+        "incomplete_link_pairs": []
+      },
+      {
+        "qid": "Q341835",
+        "source_label_repr": "'Ackermann function'",
+        "stored_label_repr": "'Ackermann function'",
+        "label_codepoints_over_ascii": [],
+        "data_record_number": 2526,
+        "physical_start_line": 2527,
+        "physical_end_line": 2527,
+        "physical_bytes_sha256": "43f168a4a6e393c31e92488d44133fdb20c8659d0e4511ab4052df5e7170c114",
+        "link_count": 2,
+        "comparisons": {
+          "record_key": true,
+          "wikidata_uri": true,
+          "label_as_recorded": true,
+          "links_as_recorded": true,
+          "physical_start_line": true,
+          "single_physical_line": true,
+          "pinned_url": true,
+          "commit": true,
+          "mapping_assertion": true,
+          "no_incomplete_source_pair": true
+        },
+        "sample_fields_match_source": true,
+        "physical_locator_matches": true,
+        "incomplete_link_pairs": []
+      },
+      {
+        "qid": "Q176623",
+        "source_label_repr": "'random variable'",
+        "stored_label_repr": "'random variable'",
+        "label_codepoints_over_ascii": [],
+        "data_record_number": 1379,
+        "physical_start_line": 1380,
+        "physical_end_line": 1380,
+        "physical_bytes_sha256": "d5fe183411711a06569ae49efc37752a11a3481ece5e875eb8d54042088d0afd",
+        "link_count": 2,
+        "comparisons": {
+          "record_key": true,
+          "wikidata_uri": true,
+          "label_as_recorded": true,
+          "links_as_recorded": true,
+          "physical_start_line": true,
+          "single_physical_line": true,
+          "pinned_url": true,
+          "commit": true,
+          "mapping_assertion": true,
+          "no_incomplete_source_pair": true
+        },
+        "sample_fields_match_source": true,
+        "physical_locator_matches": true,
+        "incomplete_link_pairs": []
+      },
+      {
+        "qid": "Q327069",
+        "source_label_repr": "'conditional probability'",
+        "stored_label_repr": "'conditional probability'",
+        "label_codepoints_over_ascii": [],
+        "data_record_number": 2463,
+        "physical_start_line": 2464,
+        "physical_end_line": 2464,
+        "physical_bytes_sha256": "65a839df5f2b76ec55a88e6a499c3d6813df39d3f4218e78997203ddc510160d",
+        "link_count": 2,
+        "comparisons": {
+          "record_key": true,
+          "wikidata_uri": true,
+          "label_as_recorded": true,
+          "links_as_recorded": true,
+          "physical_start_line": true,
+          "single_physical_line": true,
+          "pinned_url": true,
+          "commit": true,
+          "mapping_assertion": true,
+          "no_incomplete_source_pair": true
+        },
+        "sample_fields_match_source": true,
+        "physical_locator_matches": true,
+        "incomplete_link_pairs": []
+      }
+    ],
+    "all_fields_match_source": false,
+    "all_physical_locators_match": true,
+    "independent_worker_script_rerun_semantically_identical": false,
+    "rerun_stdout_encoding": "cp1252",
+    "rerun_stdout_sha256": "1f9e06127b4b4aa094cf8c78fa25b7d4f6fcb782ec26d37564f236fceae1ff1c",
+    "stored_sample_sha256": "e86f123b0e754ea1ee52af917899dc46c4db6747662be1f92dbaa94f140afb4e"
+  },
+  "license_declaration": {
+    "pinned_license_git_blob": "6c5bc3d554fac26e6d3e2d46b74e6954c46f8c0e",
+    "api_reported_blob": "6c5bc3d554fac26e6d3e2d46b74e6954c46f8c0e",
+    "api_spdx_id": "MIT",
+    "api_blob_bytes_equal_pinned_git_blob": true,
+    "working_tree_bytes_equal_pinned_git_blob": false,
+    "license_named_tracked_files": [
+      ".venv/lib/python3.12/site-packages/annotated_types-0.7.0.dist-info/licenses/LICENSE",
+      ".venv/lib/python3.12/site-packages/anyio-4.11.0.dist-info/licenses/LICENSE",
+      ".venv/lib/python3.12/site-packages/certifi-2025.8.3.dist-info/licenses/LICENSE",
+      ".venv/lib/python3.12/site-packages/charset_normalizer-3.4.3.dist-info/licenses/LICENSE",
+      ".venv/lib/python3.12/site-packages/h11-0.16.0.dist-info/licenses/LICENSE.txt",
+      ".venv/lib/python3.12/site-packages/httpcore-1.0.9.dist-info/licenses/LICENSE.md",
+      ".venv/lib/python3.12/site-packages/httpx-0.28.1.dist-info/licenses/LICENSE.md",
+      ".venv/lib/python3.12/site-packages/idna-3.10.dist-info/LICENSE.md",
+      ".venv/lib/python3.12/site-packages/neo4j-6.0.1.dist-info/licenses/LICENSE.txt",
+      ".venv/lib/python3.12/site-packages/ollama-0.6.0.dist-info/licenses/LICENSE",
+      ".venv/lib/python3.12/site-packages/pip-24.3.1.dist-info/LICENSE.txt",
+      ".venv/lib/python3.12/site-packages/pydantic-2.11.9.dist-info/licenses/LICENSE",
+      ".venv/lib/python3.12/site-packages/pydantic_core-2.33.2.dist-info/licenses/LICENSE",
+      ".venv/lib/python3.12/site-packages/pytz-2025.2.dist-info/LICENSE.txt",
+      ".venv/lib/python3.12/site-packages/requests-2.32.5.dist-info/licenses/LICENSE",
+      ".venv/lib/python3.12/site-packages/sniffio-1.3.1.dist-info/LICENSE",
+      ".venv/lib/python3.12/site-packages/typing_extensions-4.15.0.dist-info/licenses/LICENSE",
+      ".venv/lib/python3.12/site-packages/typing_inspection-0.4.2.dist-info/licenses/LICENSE",
+      ".venv/lib/python3.12/site-packages/urllib3-2.5.0.dist-info/licenses/LICENSE.txt",
+      "LICENSE"
+    ],
+    "license_subject_term": "Software",
+    "license_notice_first_line": "Copyright (c) GitHub, Inc.",
+    "readme_declaration_lines_145_151": [
+      "## License and Citation",
+      "",
+      "MathGloss is released under the repository's LICENSE. If you draw on MathGloss",
+      "in a publication, please cite:",
+      "",
+      "- MathGloss: Building mathematical glossaries from text (Nov 2023).",
+      "  https://arxiv.org/abs/2311.12649"
+    ],
+    "scope_assessment": "The pinned root file is MIT-form text and README states MathGloss is released under it. The file speaks of Software and names GitHub, Inc.; it does not establish rights in every third-party linked work. The recommendation preserves this caveat and limits reuse to metadata and outbound links.",
+    "api_reproducibility_caveat": "The retained GitHub license API URL followed the mutable default branch, but its returned blob SHA and decoded bytes exactly equal the pinned snapshot LICENSE; the pinned file is the controlling evidence here."
+  },
+  "mardi_namespace": {
+    "concept_base_uri": "https://portal.mardi4nfdi.de/entity/",
+    "p12_search_record": {
+      "id": "P12",
+      "title": "Property:P12",
+      "pageid": 53,
+      "concepturi": "https://portal.mardi4nfdi.de/entity/P12",
+      "datatype": "external-id",
+      "repository": "mardi_source",
+      "url": "https://portal.mardi4nfdi.de/wiki/Property:P12",
+      "display": {
+        "label": {
+          "value": "Wikidata QID",
+          "language": "en"
+        },
+        "description": {
+          "value": "Corresponding QID in Wikidata",
+          "language": "en"
+        }
+      },
+      "label": "Wikidata QID",
+      "description": "Corresponding QID in Wikidata",
+      "match": {
+        "type": "label",
+        "language": "en",
+        "text": "Wikidata QID"
+      }
+    },
+    "p12_entity_id": "P12",
+    "p12_datatype": "external-id",
+    "p12_label": "Wikidata QID",
+    "p12_description": "Corresponding QID in Wikidata",
+    "example_mardi_id": "Q100002",
+    "example_mardi_uri": "https://portal.mardi4nfdi.de/entity/Q100002",
+    "example_wikidata_qid": "Q27860816",
+    "example_statement_id": "Q100002$ACD5AB1E-E780-4B43-924F-E192FE431478",
+    "example_statement_rank": "normal",
+    "example_has_references": false,
+    "example_has_qualifiers": false,
+    "sparql_pairs": [
+      {
+        "mardi_uri": "https://portal.mardi4nfdi.de/entity/Q100002",
+        "wikidata_qid": "Q27860816"
+      },
+      {
+        "mardi_uri": "https://portal.mardi4nfdi.de/entity/Q1000026",
+        "wikidata_qid": "Q115343338"
+      },
+      {
+        "mardi_uri": "https://portal.mardi4nfdi.de/entity/Q100004",
+        "wikidata_qid": "Q27888705"
+      }
+    ],
+    "namespace_distinction_supported": true
+  },
+  "claim_evidence_integrity": {
+    "source_record_count": 10,
+    "claim_count": 13,
+    "unique_source_ids": true,
+    "unique_claim_ids": true,
+    "ledger_hash_checks": [
+      {
+        "source_id": "mathgloss-paper-v1",
+        "path": "raw/mathgloss-arxiv.html",
+        "expected_sha256": "579493ad6454f7ae53abb0baf126aa960b860b9fa984613dda85b2a45164153a",
+        "actual_sha256": "579493ad6454f7ae53abb0baf126aa960b860b9fa984613dda85b2a45164153a",
+        "matches": true
+      },
+      {
+        "source_id": "mathgloss-github-license-api",
+        "path": "raw/github-mathgloss-license.json",
+        "expected_sha256": "55bc4f2da0be8aac2868ec01446ba465cde60136fbdd5921c2f09a866dfc789c",
+        "actual_sha256": "55bc4f2da0be8aac2868ec01446ba465cde60136fbdd5921c2f09a866dfc789c",
+        "matches": true
+      },
+      {
+        "source_id": "mardi-siteinfo",
+        "path": "raw/mardi-siteinfo.json",
+        "expected_sha256": "edb44752347d281d154de4078af6ef563a2d97649048a5e54eaa34fec0915b2e",
+        "actual_sha256": "edb44752347d281d154de4078af6ef563a2d97649048a5e54eaa34fec0915b2e",
+        "matches": true
+      },
+      {
+        "source_id": "mardi-q1",
+        "path": "raw/mardi-q1.json",
+        "expected_sha256": "1680b5dfd35f0cba4736df2168562a11caa45c75f6e46078200b7f18dfd8066b",
+        "actual_sha256": "1680b5dfd35f0cba4736df2168562a11caa45c75f6e46078200b7f18dfd8066b",
+        "matches": true
+      },
+      {
+        "source_id": "mardi-p12",
+        "path": "raw/mardi-property-search-wikidata-qid.json",
+        "expected_sha256": "5d184b2dffed43933c9bcc7591c64bb92b8d067ff004db5ac074f1ea05fd56a4",
+        "actual_sha256": "5d184b2dffed43933c9bcc7591c64bb92b8d067ff004db5ac074f1ea05fd56a4",
+        "matches": true
+      },
+      {
+        "source_id": "mardi-p12-api-example",
+        "path": "raw/mardi-p12-q100002.json",
+        "expected_sha256": "28a35ad00b103d9322643fe203f551d4f36b43f9430a6aec7b51b90dcee65214",
+        "actual_sha256": "28a35ad00b103d9322643fe203f551d4f36b43f9430a6aec7b51b90dcee65214",
+        "matches": true
+      },
+      {
+        "source_id": "mardi-sparql-p12-sample",
+        "path": "raw/mardi-sparql-p12-sample-attempt02.json",
+        "expected_sha256": "d8fb0deeffc1a40d49334f5efd24ecd4c546041c3c3fc9d3bf2b86851bfab015",
+        "actual_sha256": "d8fb0deeffc1a40d49334f5efd24ecd4c546041c3c3fc9d3bf2b86851bfab015",
+        "matches": true
+      },
+      {
+        "source_id": "mardi-disclaimer",
+        "path": "raw/mardi-disclaimer.html",
+        "expected_sha256": "b90568c3039a4c2d394eecaa9dc8c73f5162da163b594554377234fd954126b3",
+        "actual_sha256": "b90568c3039a4c2d394eecaa9dc8c73f5162da163b594554377234fd954126b3",
+        "matches": true
+      },
+      {
+        "source_id": "mardiclient-pinned",
+        "path": "raw/mardiclient-pyproject.toml",
+        "expected_sha256": "5307bf0cca5805ca507d30886d5dc331247c6f995925459c529bba1541cdbd4d",
+        "actual_sha256": "5307bf0cca5805ca507d30886d5dc331247c6f995925459c529bba1541cdbd4d",
+        "matches": true
+      },
+      {
+        "source_id": "mardiclient-pinned",
+        "path": "raw/mardiclient-readme.md",
+        "expected_sha256": "64d92cb887c6e4efa9dedb6c045f4c090c213546b871624bee3c25149992a3cb",
+        "actual_sha256": "64d92cb887c6e4efa9dedb6c045f4c090c213546b871624bee3c25149992a3cb",
+        "matches": true
+      }
+    ],
+    "all_ledger_file_hashes_match": true,
+    "unresolved_references": []
+  },
+  "overall": {
+    "status": "changes_required_for_sample_artifact",
+    "notes": [
+      "All 10 physical locators match the pinned source; the stored sample has one source-fidelity mismatch recorded in the per-sample comparisons.",
+      "The canonical CSV schema and absence of confidence/provenance/license fields are supported.",
+      "The MIT evidence supports only the located project declaration; it does not prove a rights chain for linked prose.",
+      "MaRDI and Wikidata Q identifiers are lexically similar but demonstrably belong to separate namespaces; P12 is the explicit crosswalk.",
+      "No source URL, shared QID or matching label was treated as proof of identity, equivalence, beginner suitability or permission to copy prose."
+    ]
+  }
+}

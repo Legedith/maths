@@ -236,6 +236,12 @@ export default function Home() {
           <div className="catalogue-heading">
             <h1>Explore connections</h1>
             <p>Start with an idea. See where it leads.</p>
+            <Link
+              href="/library"
+              className="mt-3 inline-flex items-center gap-1 text-sm text-blue-700 underline underline-offset-4"
+            >
+              Browse concept resources <ArrowRight size={14} />
+            </Link>
           </div>
           <div className="search-box">
             <Search size={18} />

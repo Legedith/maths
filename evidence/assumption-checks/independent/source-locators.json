@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "auditor": "/root/sol_atlas_audit",
+  "claims": [
+    {
+      "id": "rw-laplacian-name-and-formula",
+      "source_type": "peer_reviewed_review_author_copy",
+      "citation": "Naoki Masuda, Mason A. Porter, and Renaud Lambiotte, Random walks and diffusion on networks, Physics Reports 716-717 (2017)",
+      "url": "https://www.math.ucla.edu/~mason/papers/rw-review-final3.pdf",
+      "locator": "printed/PDF p.17, equations (75)-(77)",
+      "local_pdf": "sources/masuda-random-walk-review.pdf",
+      "local_pdf_sha256": "6635b682b1de38a894cd7f72e65bf5125532b407bc02ae2907b53d876a46dcc9",
+      "entails": "With row probability evolution, T=D^-1 A and the random-walk normalized Laplacian is D^-1 L=I-T, where L=D-A.",
+      "limitation": "The displayed section is a continuous-time formulation; the matrix identity and row convention are the relevant claims."
+    },
+    {
+      "id": "row-walk-and-similarity",
+      "source_type": "author_lecture_notes",
+      "citation": "Daniel A. Spielman, Graphs and Networks, Lecture 4: Random Walks on Graphs (2006)",
+      "url": "https://www.cs.yale.edu/homes/spielman/462/2006/lect4.pdf",
+      "locator": "PDF p.1, definition M=D^-1 A and p_t=p_(t-1)M; PDF p.2, similarity derivation",
+      "local_pdf": "sources/spielman-random-walks.pdf",
+      "local_pdf_sha256": "76a27b59a9493fff85dd3684b0859d0b654d416e2bc28762a1fe0e8c40f945e9",
+      "entails": "D^(1/2) M D^(-1/2)=D^(-1/2) A D^(-1/2), a symmetric matrix. Subtracting from I gives the corresponding similarity between L_rw and L_sym.",
+      "limitation": "The notes use unweighted degrees in this lecture; the same algebra holds for symmetric positive conductance matrices."
+    },
+    {
+      "id": "symmetric-normalized-distinction",
+      "source_type": "author_monograph",
+      "citation": "Fan R. K. Chung, Lectures on Spectral Graph Theory",
+      "url": "https://fanchung.ucsd.edu/cbms.pdf",
+      "locator": "PDF p.5 / book p.2 for L_sym=T^(-1/2) L T^(-1/2); PDF p.18 / book p.15 for P=T^-1 A=T^(-1/2)(I-L_sym)T^(1/2)",
+      "local_pdf": "sources/chung-cbms.pdf",
+      "local_pdf_sha256": "673d2b4ef67fb3e50537b94d682523e0e0afabd5b5eab6a53cca55b5a8567f5b",
+      "entails": "The symmetric normalized Laplacian and the random-walk transition representation are related by similarity, not equality on irregular graphs.",
+      "limitation": "Chung adopts a zero convention for inverse degree at isolates for the symmetric normalized object; version 1 deliberately leaves P and L_rw undefined if any isolate is present."
+    },
+    {
+      "id": "stationary-is-not-convergence",
+      "source_type": "author_textbook_copy",
+      "citation": "David A. Levin and Yuval Peres, with Elizabeth L. Wilmer, Markov Chains and Mixing Times, 2nd ed.",
+      "url": "https://pages.uoregon.edu/dlevin/MARKOV/mcmt2e.pdf",
+      "locator": "book p.9, equation (1.14), stationary definition; book p.10, equation (1.16), degree-proportional example; book pp.7-8, period and even-cycle oscillation; book p.52, Theorem 4.9",
+      "local_pdf": "sources/levin-peres-wilmer-mcmt2e.pdf",
+      "local_pdf_sha256": "9ef39f9467d9647ff3f5e8747b9ce24b7a90d13be2f8156fbd827b95b661a772",
+      "entails": "pi=pi P defines stationarity. Irreducibility and aperiodicity are the hypotheses for convergence from every state in the finite setting; a period-two chain alternates support and need not converge.",
+      "limitation": "The degree example is stated for unweighted simple walk; the weighted version follows from detailed balance and is stated in the same book's network chapter."
+    },
+    {
+      "id": "weighted-walk-volume-and-stationarity",
+      "source_type": "author_textbook_copy",
+      "citation": "Levin and Peres with Wilmer, Markov Chains and Mixing Times, 2nd ed.",
+      "url": "https://pages.uoregon.edu/dlevin/MARKOV/mcmt2e.pdf",
+      "locator": "book p.116, section 9.1, equation (9.1)",
+      "local_pdf": "sources/levin-peres-wilmer-mcmt2e.pdf",
+      "local_pdf_sha256": "9ef39f9467d9647ff3f5e8747b9ce24b7a90d13be2f8156fbd827b95b661a772",
+      "entails": "For a connected weighted network, P(x,y)=c(x,y)/c(x), pi(x)=c(x)/c_G, and c_G=sum_x c(x)=2 sum_e c(e) when there are no loops.",
+      "limitation": "The chapter defines a network to be connected; disconnected componentwise use needs separate scoping."
+    },
+    {
+      "id": "voltage-gauge-and-resistance",
+      "source_type": "author_textbook_copy",
+      "citation": "Levin and Peres with Wilmer, Markov Chains and Mixing Times, 2nd ed.",
+      "url": "https://pages.uoregon.edu/dlevin/MARKOV/mcmt2e.pdf",
+      "locator": "book pp.118-119, equations (9.7)-(9.11)",
+      "local_pdf": "sources/levin-peres-wilmer-mcmt2e.pdf",
+      "local_pdf_sha256": "9ef39f9467d9647ff3f5e8747b9ce24b7a90d13be2f8156fbd827b95b661a772",
+      "entails": "Currents depend on voltage differences; adding a constant changes no current. Grounding the sink at zero fixes the gauge, and unit source-to-sink flow makes the source-sink voltage difference the effective resistance.",
+      "limitation": "The sourced network is connected. Version 1's same-component extension is a conservative scoped computation."
+    },
+    {
+      "id": "weighted-commute-time",
+      "source_type": "author_textbook_copy",
+      "citation": "Levin and Peres with Wilmer, Markov Chains and Mixing Times, 2nd ed.",
+      "url": "https://pages.uoregon.edu/dlevin/MARKOV/mcmt2e.pdf",
+      "locator": "book pp.131-132, equations (10.9)-(10.14), Proposition 10.7",
+      "local_pdf": "sources/levin-peres-wilmer-mcmt2e.pdf",
+      "local_pdf_sha256": "9ef39f9467d9647ff3f5e8747b9ce24b7a90d13be2f8156fbd827b95b661a772",
+      "entails": "Commute is E_a tau_b + E_b tau_a and equals c_G R(a<->b), with c_G=sum_x c(x)=2 sum_e c(e).",
+      "limitation": "Connected-network theorem; hitting times can be asymmetric."
+    },
+    {
+      "id": "weighted-commute-generalization",
+      "source_type": "peer_reviewed_paper",
+      "citation": "Chandra, Raghavan, Ruzzo, Smolensky, and Tiwari, The electrical resistance of a graph captures its commute and cover times",
+      "url": "https://homes.cs.washington.edu/~ruzzo/papers/resist.pdf",
+      "locator": "PDF pp.7-8, Theorem 2.2",
+      "local_pdf": "sources/chandra-commute.pdf",
+      "local_pdf_sha256": "76f593c14de03faf9f2ebc0b9b4014e5b8e352d2df1eaf0e3ed464b6a3e961fc",
+      "entails": "For transitions proportional to conductance, the generalized commute cost is F times effective resistance; unit directed-step costs make F the sum of weighted degrees.",
+      "limitation": "The section assumes a connected undirected graph."
+    },
+    {
+      "id": "weighted-tree-mass",
+      "source_type": "author_lecture_notes",
+      "citation": "Daniel A. Spielman, More Effective Resistance (2018)",
+      "url": "https://www.cs.yale.edu/homes/spielman/561/lect14-18.pdf",
+      "locator": "PDF p.3, Theorem 14.5.1",
+      "local_pdf": "sources/spielman-trees.pdf",
+      "local_pdf_sha256": "625b09e0a14e03b435f2e028e4da9943bd3febf9adbf16c79fa53e4947da9cc5",
+      "entails": "For a connected weighted graph, the product of nonzero combinatorial-Laplacian eigenvalues is n times the sum over spanning trees of the products of their edge weights.",
+      "limitation": "Disconnected handling is obtained directly from the absence of spanning trees and Laplacian nullity, not from the connected theorem statement."
+    },
+    {
+      "id": "weighted-tree-edge-probability",
+      "source_type": "author_lecture_notes",
+      "citation": "Daniel A. Spielman, More Effective Resistance (2018)",
+      "url": "https://www.cs.yale.edu/homes/spielman/561/lect14-18.pdf",
+      "locator": "PDF pp.5-6, section 14.6 and Theorem 14.6.1",
+      "local_pdf": "sources/spielman-trees.pdf",
+      "local_pdf_sha256": "625b09e0a14e03b435f2e028e4da9943bd3febf9adbf16c79fa53e4947da9cc5",
+      "entails": "Under spanning-tree sampling proportional to the product of edge weights, an existing edge e appears with probability w_e R_eff(e).",
+      "limitation": "The theorem quantifies edges of a connected graph; it does not license a nonedge probability by inventing a weight."
+    }
+  ]
+}

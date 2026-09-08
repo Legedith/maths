@@ -1,0 +1,24 @@
+﻿{
+    "name":  "concept-library-bundle-ground-pending",
+    "command_argv":  [
+                         "uv",
+                         "run",
+                         "--frozen",
+                         "python",
+                         "C:/Users/Legedith/.codex/skills/chain-of-evidence/scripts/evidence_gate.py",
+                         "verify",
+                         "--workspace",
+                         ".",
+                         "--bundle",
+                         ".codex/evidence/runs/concept-library-v1/bundle.json",
+                         "--report",
+                         ".codex/evidence/runs/concept-library-v1/gate-report-pending.json"
+                     ],
+    "command_display":  "uv run --frozen python C:/Users/Legedith/.codex/skills/chain-of-evidence/scripts/evidence_gate.py verify --workspace . --bundle .codex/evidence/runs/concept-library-v1/bundle.json --report .codex/evidence/runs/concept-library-v1/gate-report-pending.json",
+    "working_directory":  "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "started_at":  "2026-09-08T10:05:14.9362063+05:30",
+    "ended_at":  "2026-09-08T10:05:15.3370054+05:30",
+    "runtime_seconds":  0.3978541,
+    "exit_code":  1,
+    "console_log":  "logs/concept-library-bundle-ground-pending.console.log"
+}

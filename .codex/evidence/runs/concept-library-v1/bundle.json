@@ -1,0 +1,1308 @@
+{
+  "schema_version": "1.0",
+  "run_id": "concept-library-v1",
+  "objective": "Reuse a pinned MathGloss metadata catalog in a searchable resource library, preserving complete provenance and unreviewed mapping status; independently verify import fidelity and navigation without claiming complete mathematical coverage or novelty.",
+  "created_at": "2026-09-08T04:05:09.146771Z",
+  "task_spec_artifact_id": "A001",
+  "evaluator_command": "uv run --frozen python scripts/import_mathgloss.py --source-csv data/mathgloss/source/database.csv --source-license data/mathgloss/MATHGLOSS-LICENSE --output-dir work/mathgloss-reproduction; node scripts/check-concept-library.ts",
+  "artifacts": [
+    {
+      "id": "A001",
+      "kind": "spec",
+      "path": "docs/concept-library-contract.md",
+      "sha256": "a55985517bafb4909af576d2245d7898c98f101482e36d66b1841b8168879f3d",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A002",
+      "kind": "report",
+      "path": "docs/concept-library.md",
+      "sha256": "9be0ad2d201a5db8dd4aaeb940b734d8ec3724d178f75f5c0e6e9ecfd3a9540d",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A003",
+      "kind": "code",
+      "path": "lib/concept-library.ts",
+      "sha256": "065191c9a5ce80ddb02dd64214856fd334183d2bcc228bfa5918e6a954e63db1",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A004",
+      "kind": "code",
+      "path": "lib/use-concept-library-tools.ts",
+      "sha256": "8e598702783395e347a51d2d3b9dcc091667f36b0b9a3df389713f3da40bcca2",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A005",
+      "kind": "code",
+      "path": "components/concept-library.tsx",
+      "sha256": "383331fc06f1f3a2dec376fd2325154cd0700da2dc5a1c3346d31554f86473ba",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A006",
+      "kind": "code",
+      "path": "components/concept-library.module.css",
+      "sha256": "197d74503f8fc2741006243418a24bcbf3cf6577a850a0980630a6ede382d6aa",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A007",
+      "kind": "code",
+      "path": "app/library/page.tsx",
+      "sha256": "c5a49c2aacee6de103277eeec8ec425b1def003c0bb4fed14d75d9791f76dcdf",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A008",
+      "kind": "code",
+      "path": "app/api/concept-library/route.ts",
+      "sha256": "07267a6a061ce776a66db568f7986558537551372fddaa87cab8a976e5fbdb9b",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A009",
+      "kind": "code",
+      "path": "app/page.tsx",
+      "sha256": "f2353e35324a75b589acec59050f4cb9568a0677b6bcdffaf00fe20271f8ba8e",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A010",
+      "kind": "report",
+      "path": "data/mathgloss/candidate-index.json",
+      "sha256": "282ed1fd858595b782c856fbd2c96964a0b6ff3850fedf21105ca9bbb7edb4da",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A011",
+      "kind": "report",
+      "path": "data/mathgloss/summary.json",
+      "sha256": "0102f6fca4237d80d3e4e167c476f118d5cfaff41b5b325882bc784eecfa6e58",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A012",
+      "kind": "source",
+      "path": "data/mathgloss/MATHGLOSS-LICENSE",
+      "sha256": "5dc6b930900926814fc7bb9ff45dfcceae3aa33780eb010c83e6df58493594e7",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A013",
+      "kind": "source",
+      "path": "data/mathgloss/source/database.csv",
+      "sha256": "933a72820fe7ede53a803b750a480def205677e5722ae5f9589b0d1d9bf832b2",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A014",
+      "kind": "code",
+      "path": "src/mathgloss_import/__init__.py",
+      "sha256": "415f22d1a69a143feb5cbbf80a2981d001459039c132944706ea0718853aeeef",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A015",
+      "kind": "code",
+      "path": "src/mathgloss_import/core.py",
+      "sha256": "f8ed60a8062569c3632e4ed23b8df9fa8523932793271f8ee410666b9f65b0d3",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A016",
+      "kind": "code",
+      "path": "scripts/import_mathgloss.py",
+      "sha256": "2fa7d2195c8439a97891a4d97a60f9dd96cc77db6a0ee805a09b5b06d0926041",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A017",
+      "kind": "code",
+      "path": "scripts/check-concept-library.ts",
+      "sha256": "e6b12e528d346abd5b4a9866e7ac6a35e21f59ef70a26b9c8cb9317c76634f12",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A018",
+      "kind": "report",
+      "path": "pyproject.toml",
+      "sha256": "546f4ce267864644b6abe78daeae2ea255bc80dafe087e9952b51cd26eb8c81c",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A019",
+      "kind": "report",
+      "path": "uv.lock",
+      "sha256": "af702441deef709f31364324f3add35c05a14572e8c39e85daa3f447c35d3275",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A020",
+      "kind": "report",
+      "path": "tsconfig.json",
+      "sha256": "2db1393d6e039ca5e6f4015b7462f14ff77bd4135829d0d4a092d14c1eaaaf10",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A021",
+      "kind": "report",
+      "path": ".oxlintrc.json",
+      "sha256": "21c320b0a75a2b77316c63c1f0fcbb1361ce4e426219ebfd7b40d805a0a49e08",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A022",
+      "kind": "report",
+      "path": ".github/workflows/verify.yml",
+      "sha256": "a721186ce93fe0520039979b3067f0d115a920c44dd9013d716c4281a7eedf2b",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A023",
+      "kind": "report",
+      "path": "evidence/README.md",
+      "sha256": "72df1e74434bbe1ea075c66870f4dfd7989ac38e274adf0a3c77327b825afeab",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A024",
+      "kind": "report",
+      "path": "evidence/research-search/audited-page-before-library.tsx.snapshot",
+      "sha256": "7ebe5ffa908023c5224ab2e3e789bef7f7b72c37cbfe396a9ae531ac6f9b8b53",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A025",
+      "kind": "log",
+      "path": "evidence/mathgloss/import-ledger.jsonl",
+      "sha256": "14d8e9cc972a83ac4267d4b168d9510f74c65abbae509e7149012ba653c4ad61",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A026",
+      "kind": "log",
+      "path": "evidence/mathgloss/independent/canonical-logs/01-uv-sync.json",
+      "sha256": "ccc99d5f5020ccf6d13bdc042a031960603267943e168a2ca25f61d00d7299c2",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A027",
+      "kind": "log",
+      "path": "evidence/mathgloss/independent/canonical-logs/02-unittest.json",
+      "sha256": "31961758a012b18c6cf987c9712cb91e3a22624510c47f730c1a6c7392eac0b2",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A028",
+      "kind": "log",
+      "path": "evidence/mathgloss/independent/canonical-logs/03-frozen-output-verification.json",
+      "sha256": "fcc428e5bfe2bb647b8e133ce5b267e99033533c53fcb0c4c15f4b467eebf13e",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A029",
+      "kind": "log",
+      "path": "evidence/mathgloss/independent/canonical-logs/04-frozen-output-verification-pass.json",
+      "sha256": "21c5b3d48f0237fcab957f9fa6463b10211d9aff7d7b0ecdf567c258fcba8ed8",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A030",
+      "kind": "log",
+      "path": "evidence/mathgloss/independent/canonical-logs/05-independent-cases.json",
+      "sha256": "be9682f540d0ca74968871a0cf9d80e3d3d65aaca19aa8e914747511fb93d636",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A031",
+      "kind": "log",
+      "path": "evidence/mathgloss/independent/canonical-logs/06-full-reproduction-01.json",
+      "sha256": "7bc20dcb39d9e473603167e03bb099dfd8fb153a1e51e26d607c45c0f1d67b4b",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A032",
+      "kind": "log",
+      "path": "evidence/mathgloss/independent/canonical-logs/07-full-reproduction-02.json",
+      "sha256": "e781fa8c4fa96e037b4d5ce0b0bc870577a96de805d08e3b6a70b7250d28bd81",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A033",
+      "kind": "log",
+      "path": "evidence/mathgloss/independent/canonical-logs/08-reproduction-compare.json",
+      "sha256": "d4997166e0ed117dff7ffd4fedee5d04dba1b152b73bbf98ce5f0ba7e7add889",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A034",
+      "kind": "log",
+      "path": "evidence/mathgloss/independent/canonical-logs/09-write-final-audit.json",
+      "sha256": "69f8b57c29fdae3cef2fa4bcbd7c1f908cb09bda56658bdfb97c708af503e8c5",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A035",
+      "kind": "report",
+      "path": "evidence/mathgloss/independent/cases/bad-header-extra.csv",
+      "sha256": "965c1ea5cc4fc4af15453c8edb073bb7ef2720698b6cc5186fd0c0fcee672c30",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A036",
+      "kind": "report",
+      "path": "evidence/mathgloss/independent/cases/bad-header-missing.csv",
+      "sha256": "4e7f9affed2f4b33083b65fe36188bc18aa14787d20b34322327661e0673bfcc",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A037",
+      "kind": "report",
+      "path": "evidence/mathgloss/independent/cases/bad-utf8.csv",
+      "sha256": "6d162e67c06775325b7ca6606381553accb084c54882d73c0dc6487ffa20aded",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A038",
+      "kind": "report",
+      "path": "evidence/mathgloss/independent/cases/bad-width-extra.csv",
+      "sha256": "45af7a7314b3dbdadc11728c936cfd834507efa8f1ce9e412e558e3b715e4758",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A039",
+      "kind": "report",
+      "path": "evidence/mathgloss/independent/cases/bad-width-missing.csv",
+      "sha256": "71fa3b142f2787e76df92826db054f5f7ffe6a723c975d90c8eb7d997f4fcdd4",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A040",
+      "kind": "report",
+      "path": "evidence/mathgloss/independent/cases/edge-cases.csv",
+      "sha256": "e90b6343b4fa8f0251d5b6c97dd10d7e78d1ab1a4ec0c1f86c492cf6c6fab815",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A041",
+      "kind": "report",
+      "path": "evidence/mathgloss/independent/cases/manifest.json",
+      "sha256": "3060fd473060b7ac30f5872ce635af0c91aad61ce3de90952944c8c374c39064",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A042",
+      "kind": "report",
+      "path": "evidence/mathgloss/independent/final-importer-audit.json",
+      "sha256": "260a9424c45d5c2725d2bae7630c6bef9f8ac8b0de0f39224814d179559b3b46",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A043",
+      "kind": "report",
+      "path": "evidence/mathgloss/integration-transfer.json",
+      "sha256": "bf0efb7bfb38e1b1dd514aafb3863233aaa6d02abd9cc3ac160718f1d1cac1fa",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A044",
+      "kind": "report",
+      "path": "evidence/mathgloss/library-audit-transfer.json",
+      "sha256": "eb3978b020a1dc5c3f743a0d4aafad856821f1e582564c84f463b1d48c144d48",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A045",
+      "kind": "report",
+      "path": "evidence/mathgloss/library-independent/01-freeze-independent-cases.json",
+      "sha256": "56fa6f04cc607a896449921f0a5fcd50cbe321b5040cbe9c2ffa67119b238aec",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A046",
+      "kind": "report",
+      "path": "evidence/mathgloss/library-independent/02-navigation-check.json",
+      "sha256": "5601f870ce9dc089a50d18a651336a268dd9f786a74dcd3942d52a9fb9d7883e",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A047",
+      "kind": "report",
+      "path": "evidence/mathgloss/library-independent/04-route-check.json",
+      "sha256": "275efbfb2ccfcdef35128b608b9e1b0fab18f7c41ddb2e8cc271b59232a194df",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A048",
+      "kind": "report",
+      "path": "evidence/mathgloss/library-independent/05-route-check-attempt02.json",
+      "sha256": "50e4919441e25a72703a8d117644ed470d34e83c844236bb549569a08773c5e9",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A049",
+      "kind": "report",
+      "path": "evidence/mathgloss/library-independent/06-route-check-attempt03.json",
+      "sha256": "47f35dee0ca3e9e1037f724b53f20cd83117606d5570a9f30ad20e3d7b80a9dd",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A050",
+      "kind": "report",
+      "path": "evidence/mathgloss/library-independent/07-route-check-attempt04.json",
+      "sha256": "326353c26902669f60f09f82884f7fc7fd8ad20f10c1a07831146cec4106fd10",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A051",
+      "kind": "report",
+      "path": "evidence/mathgloss/library-independent/08-route-check-attempt05.json",
+      "sha256": "df814f2e195d007287ded2f7a45e4d198454c2b7dc55b731cc08e4a3a01f4399",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A052",
+      "kind": "report",
+      "path": "evidence/mathgloss/library-independent/09-portable-reproduction.json",
+      "sha256": "c3d88dce618be6df6b6c130e2620efcc7342b915d67927be32823ccb99b9613d",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A053",
+      "kind": "report",
+      "path": "evidence/mathgloss/library-independent/10-webmcp-contract-check.json",
+      "sha256": "a8c07558945a88fad49bc18b1ba81c92027da5cd7794f9e13433ded6a6cbbb87",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A054",
+      "kind": "report",
+      "path": "evidence/mathgloss/library-independent/11-author-node-check-rerun.json",
+      "sha256": "80e8c07bec1f6f24ea20ac9ab2ef8630b3f7fb256d40f069987a8d0336fb7d0c",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A055",
+      "kind": "report",
+      "path": "evidence/mathgloss/library-independent/12-static-integration-check.json",
+      "sha256": "69034766e0ffccfaa35dc937086dfd3bf711aa7d4de3f096b06cc4f1bf965276",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A056",
+      "kind": "report",
+      "path": "evidence/mathgloss/library-independent/13-static-integration-check-attempt02.json",
+      "sha256": "5e658534891e7ec299a3fbceea8ac3195adea83548700f58a66bf0a6acb752e5",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A057",
+      "kind": "report",
+      "path": "evidence/mathgloss/library-independent/14-static-integration-check-attempt03.json",
+      "sha256": "25a5495c45269b9cbb15db7043ae67c53ea7291d4974c33167a3d2415a699ec6",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A058",
+      "kind": "report",
+      "path": "evidence/mathgloss/library-independent/15-static-integration-check-attempt04.json",
+      "sha256": "4c1515929609d4d84f9b7244903fc002173dfef02f905dcb3812a10767b24f50",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A059",
+      "kind": "report",
+      "path": "evidence/mathgloss/library-independent/16-static-integration-check-pass.json",
+      "sha256": "db35289454208e550fd1d64c2c74f45743f0dfeb342ae7087901a30aa79cd551",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A060",
+      "kind": "report",
+      "path": "evidence/mathgloss/library-independent/17-navigation-check-final.json",
+      "sha256": "2f70e395984cc6709a5304385a81c905ec4d8c51e06b5bfd8b9bda665fff6159",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A061",
+      "kind": "report",
+      "path": "evidence/mathgloss/library-independent/18-write-final-library-audit.json",
+      "sha256": "95077fcdb1adff3f0a4a9d8d64bff400eb32d99d84e56ed95f8266e76f0b9ed0",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A062",
+      "kind": "report",
+      "path": "evidence/mathgloss/library-independent/19-write-publication-manifest.json",
+      "sha256": "4aa9404bfd7ba9ccfa7635f01b2c73042b2ab4cdfe1a3d35ed4cd5a9d56acfb0",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A063",
+      "kind": "code",
+      "path": "evidence/mathgloss/library-independent/check_library_integration.mjs",
+      "sha256": "ce7a7d0d2bfa839903c6ff2e115f60b4e5f49abedf01e5f355dc5540da136283",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A064",
+      "kind": "code",
+      "path": "evidence/mathgloss/library-independent/check_library_route.mjs",
+      "sha256": "8a4b729170cd3f742469edc45293d37e318596445d5b644898f1447a643bb6e2",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A065",
+      "kind": "code",
+      "path": "evidence/mathgloss/library-independent/check_library_static.py",
+      "sha256": "448bd9495f9f376740d3880a371acf16befae1f4bdf05de69e449af968928762",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A066",
+      "kind": "code",
+      "path": "evidence/mathgloss/library-independent/check_library_webmcp.mjs",
+      "sha256": "b7754599dd57c013c3564823bfa9625b713894d985e03a9398820078249a9493",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A067",
+      "kind": "report",
+      "path": "evidence/mathgloss/library-independent/final-library-audit.json",
+      "sha256": "42b0aac78525ac8863d2292834fdcf360293c58b10a8e25f0b2a11b649cb3bfb",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A068",
+      "kind": "code",
+      "path": "evidence/mathgloss/library-independent/freeze_library_cases.py",
+      "sha256": "d2bc741094417eafb1df5f748b50db105e823b79ad0a3d496c568d7e80375ba3",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A069",
+      "kind": "report",
+      "path": "evidence/mathgloss/library-independent/independent-cases.json",
+      "sha256": "108c67ef95d33892a805be1a6a55a9349988b372a2c783a3703f7548548f3ea5",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A070",
+      "kind": "code",
+      "path": "evidence/mathgloss/library-independent/library-alias-loader.mjs",
+      "sha256": "1e9ab1d45549968f9264deec4a832e305c6fd6d264e7d1b0bcd9a50a245a8046",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A071",
+      "kind": "report",
+      "path": "evidence/mathgloss/library-independent/navigation-check.json",
+      "sha256": "3107b711d09cdb107b109aaec720798b527bea066c9e7d3cefb7f3e7a62ed749",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A072",
+      "kind": "report",
+      "path": "evidence/mathgloss/library-independent/publication-manifest.json",
+      "sha256": "fb70b404f43d71e83c564d003005e7438cc40fbb572a392b912267947cb33b93",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A073",
+      "kind": "report",
+      "path": "evidence/mathgloss/library-independent/route-check.json",
+      "sha256": "6bf5f38a3863ee6b519dad0da4eae8cc17953a0cdd4d17dc2e6f4ff04a13f495",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A074",
+      "kind": "report",
+      "path": "evidence/mathgloss/library-independent/static-integration-check.json",
+      "sha256": "cf2d746883fe04b37926445c80eeea7f9430ac7595129f5168f85cbece46b9f8",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A075",
+      "kind": "report",
+      "path": "evidence/mathgloss/library-independent/webmcp-contract-check.json",
+      "sha256": "7d33971b66f77bf2cbe228788294b5eb9c335458720549c260a89ed098a89aaa",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A076",
+      "kind": "code",
+      "path": "evidence/mathgloss/library-independent/write_final_library_audit.py",
+      "sha256": "56344bf45bb6192cb0fe86e80cdb89af76cde32caf8513a93f3a7ae9fcf45805",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A077",
+      "kind": "code",
+      "path": "evidence/mathgloss/library-independent/write_publication_manifest.py",
+      "sha256": "ee8fe1b7ce29a25fa58998def41b7583ea0a79f4a6f6c5861ee0bc4ca13ea8a6",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A078",
+      "kind": "report",
+      "path": "evidence/mathgloss/library-integration-freeze.json",
+      "sha256": "68bd8c6f8ff2dfaa1c1b26b1d4c030025ae1a6d84004767c8b537939f09ef316",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A079",
+      "kind": "report",
+      "path": "evidence/mathgloss/library-webmcp-observations.json",
+      "sha256": "beb6db553da7d76693c3d706cf156dfeb886c260f7a0825bd90678875da158f6",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A080",
+      "kind": "log",
+      "path": "evidence/mathgloss/retained/backbone-audit-work/canonical-logs/02-unittest.json",
+      "sha256": "31961758a012b18c6cf987c9712cb91e3a22624510c47f730c1a6c7392eac0b2",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A081",
+      "kind": "log",
+      "path": "evidence/mathgloss/retained/backbone-audit-work/canonical-logs/04-frozen-output-verification-pass.json",
+      "sha256": "21c5b3d48f0237fcab957f9fa6463b10211d9aff7d7b0ecdf567c258fcba8ed8",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A082",
+      "kind": "log",
+      "path": "evidence/mathgloss/retained/backbone-audit-work/canonical-logs/05-independent-cases.json",
+      "sha256": "be9682f540d0ca74968871a0cf9d80e3d3d65aaca19aa8e914747511fb93d636",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A083",
+      "kind": "log",
+      "path": "evidence/mathgloss/retained/backbone-audit-work/canonical-logs/06-full-reproduction-01.json",
+      "sha256": "7bc20dcb39d9e473603167e03bb099dfd8fb153a1e51e26d607c45c0f1d67b4b",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A084",
+      "kind": "log",
+      "path": "evidence/mathgloss/retained/backbone-audit-work/canonical-logs/07-full-reproduction-02.json",
+      "sha256": "e781fa8c4fa96e037b4d5ce0b0bc870577a96de805d08e3b6a70b7250d28bd81",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A085",
+      "kind": "log",
+      "path": "evidence/mathgloss/retained/backbone-audit-work/canonical-logs/08-reproduction-compare.json",
+      "sha256": "d4997166e0ed117dff7ffd4fedee5d04dba1b152b73bbf98ce5f0ba7e7add889",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A086",
+      "kind": "report",
+      "path": "evidence/mathgloss/retained/backbone-audit-work/frozen-output-verification.json",
+      "sha256": "503c0fd7c8ad41b2bf002c871f04d905ca7a46adef136e7710d8548a6f38931c",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A087",
+      "kind": "report",
+      "path": "evidence/mathgloss/retained/backbone-audit-work/import-source-oracle.json",
+      "sha256": "270f13890c3b168dbf3f8dfa62ce46a471244f27c1c2fb8ded057867c0cd5018",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A088",
+      "kind": "report",
+      "path": "evidence/mathgloss/retained/backbone-audit-work/independent-case-results.json",
+      "sha256": "0eca54cf1478d4a14341bf09febf67e30fd7c38f540c8ea756968a5d74b7da24",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A089",
+      "kind": "report",
+      "path": "evidence/mathgloss/retained/backbone-audit-work/independent-cases/manifest.json",
+      "sha256": "3060fd473060b7ac30f5872ce635af0c91aad61ce3de90952944c8c374c39064",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A090",
+      "kind": "report",
+      "path": "evidence/mathgloss/retained/backbone-audit-work/reproduction-comparison.json",
+      "sha256": "5360c3ee45b24d1a6106f5dea3e472c73a0e8b7328b57675efc3025a2b80591f",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A091",
+      "kind": "source",
+      "path": "evidence/mathgloss/retained/backbone-audit-work/source-audit.json",
+      "sha256": "2dfad0b8bae70f33ff1cddc560d6c6409c3bc2271e56f9debc606465479b85e9",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A092",
+      "kind": "spec",
+      "path": "evidence/mathgloss/retained/backbone-import-work/docs/import-contract.md",
+      "sha256": "a35f8e974012768b43afbd719c228aebecd3bc86c680d4f342f22071ea76c4cb",
+      "producer": "retained-import-worker"
+    },
+    {
+      "id": "A093",
+      "kind": "code",
+      "path": "evidence/mathgloss/retained/backbone-import-work/implementation/src/mathgloss_import/core.py",
+      "sha256": "f8ed60a8062569c3632e4ed23b8df9fa8523932793271f8ee410666b9f65b0d3",
+      "producer": "retained-import-worker"
+    },
+    {
+      "id": "A094",
+      "kind": "report",
+      "path": "evidence/mathgloss/retained/backbone-import-work/outputs/frozen/implementation-manifest.json",
+      "sha256": "f5c3d409ced4f5cc75481b0adb7aa1e6168fd4f94dfe42a5a86f731a3700cb08",
+      "producer": "retained-import-worker"
+    },
+    {
+      "id": "A095",
+      "kind": "report",
+      "path": "evidence/mathgloss/retained/backbone-import-work/outputs/frozen/output-manifest.json",
+      "sha256": "f798afaa7cb489ac815cff46721ed98b2db330411368b24082e1fe2ff9c52e5b",
+      "producer": "retained-import-worker"
+    },
+    {
+      "id": "A096",
+      "kind": "report",
+      "path": "evidence/mathgloss/retained/backbone-import-work/outputs/frozen/source-manifest.json",
+      "sha256": "f0416b25f6719de7f7cc6de0e2597a91c3d2c4cb1ddccc17c563f47e37ec4be5",
+      "producer": "retained-import-worker"
+    },
+    {
+      "id": "A097",
+      "kind": "log",
+      "path": "evidence/mathgloss/retained/backbone-import-work/outputs/logs/01-uv-sync-attempt01.txt",
+      "sha256": "a73ba3716544792448b58af90297626dc2ca1fcb425ab08638500a34c9b90c62",
+      "producer": "retained-import-worker"
+    },
+    {
+      "id": "A098",
+      "kind": "log",
+      "path": "evidence/mathgloss/retained/backbone-import-work/outputs/logs/15-scope-check.json",
+      "sha256": "9b1f52d004fb966361b992e49fc4ed44665b33f09ed0abda7758a75c0343e85b",
+      "producer": "retained-import-worker"
+    },
+    {
+      "id": "A099",
+      "kind": "log",
+      "path": "evidence/mathgloss/retained/backbone-import-work/outputs/logs/18-freeze-manifests.json",
+      "sha256": "81495f6e1a566253f4af08d59329fd689d61439464eb1be6bedaefe9f4bcc234",
+      "producer": "retained-import-worker"
+    },
+    {
+      "id": "A100",
+      "kind": "code",
+      "path": "evidence/mathgloss/retained/backbone-import-work/tests/test_importer.py",
+      "sha256": "a90202561392379c78cf0a220e119287f5320833c2f81c89d0c76d16470c02b2",
+      "producer": "retained-import-worker"
+    },
+    {
+      "id": "A101",
+      "kind": "report",
+      "path": "evidence/mathgloss/reuse-history/RECOMMENDATION.md",
+      "sha256": "9763c75c93f3ca7ed1b87d2be563e6f0b7bc129331aed12a57abbeed85f125aa",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A102",
+      "kind": "report",
+      "path": "evidence/mathgloss/reuse-history/sample-metadata-records.json",
+      "sha256": "e86f123b0e754ea1ee52af917899dc46c4db6747662be1f92dbaa94f140afb4e",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A103",
+      "kind": "report",
+      "path": "evidence/mathgloss/worker/corrected-ten-record-codepoint-fidelity.json",
+      "sha256": "8d4bde7e880a33eef0f8875f98269145c5317f38bbf313d305d499803b612389",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A104",
+      "kind": "report",
+      "path": "evidence/mathgloss/worker/corrected-ten-record-subset.json",
+      "sha256": "9381c9b79b91d3578a3434368a20c34cc5b99ae2c9cea2989ef502a8d0416ad5",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A105",
+      "kind": "log",
+      "path": "evidence/mathgloss/worker/logs/01-uv-sync-attempt01.txt",
+      "sha256": "a73ba3716544792448b58af90297626dc2ca1fcb425ab08638500a34c9b90c62",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A106",
+      "kind": "log",
+      "path": "evidence/mathgloss/worker/logs/02-uv-lock-and-sync.txt",
+      "sha256": "408bf5021f063a0877d806f68d2c50ba7181c55d5e6b6c7cd1c18b6460870a4e",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A107",
+      "kind": "log",
+      "path": "evidence/mathgloss/worker/logs/03-unittest-attempt01.txt",
+      "sha256": "89c6927ab72dac648904f63d0fce3304d160841bda60fb17220929a417fc1aaa",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A108",
+      "kind": "log",
+      "path": "evidence/mathgloss/worker/logs/04-full-run-01.txt",
+      "sha256": "2e0da9605998b1df5930e2635c1cfd6cf5ef562d1947aef3678d386ed6a069cf",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A109",
+      "kind": "log",
+      "path": "evidence/mathgloss/worker/logs/05-full-run-02.txt",
+      "sha256": "e132f6c44bbf5adbe6f9eeddddfaa26d62252771618bb440fa0a5277df09a4ca",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A110",
+      "kind": "log",
+      "path": "evidence/mathgloss/worker/logs/06-full-run-byte-compare.txt",
+      "sha256": "5a5df8fde9df71d8ab85183d90914234e3984c94dbf139acd4b75694b0a3032e",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A111",
+      "kind": "log",
+      "path": "evidence/mathgloss/worker/logs/07-unittest-attempt02.txt",
+      "sha256": "91be81f821e46ed16a30bf93314550e366e9500d72045f06428e05d50c40c832",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A112",
+      "kind": "log",
+      "path": "evidence/mathgloss/worker/logs/08-uv-sync-final.json",
+      "sha256": "c238aa971ae87f3d78affcda68c583ad525277f911172b324072fa7b4a0ad0e8",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A113",
+      "kind": "log",
+      "path": "evidence/mathgloss/worker/logs/09-unittest-final-01.json",
+      "sha256": "5fecd55f4a2f176ca5ae0ce30eedd81893ba64cdf184ee8d630b3466950bb911",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A114",
+      "kind": "log",
+      "path": "evidence/mathgloss/worker/logs/10-compileall-final.json",
+      "sha256": "293a75a5c665f3cc85ca2c37f0c43f91c7314efd307c86e01353556ba08ae300",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A115",
+      "kind": "log",
+      "path": "evidence/mathgloss/worker/logs/11-full-run-final-01.json",
+      "sha256": "ebcf2442e744242caa1c44bd45da75c95ff73ad1403f8a26540d15bac254360e",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A116",
+      "kind": "log",
+      "path": "evidence/mathgloss/worker/logs/12-full-run-final-02.json",
+      "sha256": "fea6537664c5354b4867f83544dba115a01bc48ab8643c60d77a9d6c0c5cb2fa",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A117",
+      "kind": "log",
+      "path": "evidence/mathgloss/worker/logs/13-corrected-subset.json",
+      "sha256": "7b1ea04b6f5330f8eefc3ee47482b3b1388b6b9ad78d93a182830345d4c4694e",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A118",
+      "kind": "log",
+      "path": "evidence/mathgloss/worker/logs/14-unittest-final-02.json",
+      "sha256": "edd0aafaa3792fa1a81ecfb0a7baf17ccc1038643e289e9bdd79477a4b127a0c",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A119",
+      "kind": "log",
+      "path": "evidence/mathgloss/worker/logs/15-scope-check.json",
+      "sha256": "9b1f52d004fb966361b992e49fc4ed44665b33f09ed0abda7758a75c0343e85b",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A120",
+      "kind": "log",
+      "path": "evidence/mathgloss/worker/logs/16-scope-check-pass.json",
+      "sha256": "3177b06d1e7eba984052de7ba020fc0896a7cf10819ac845a8093d2ed9b35ff0",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A121",
+      "kind": "log",
+      "path": "evidence/mathgloss/worker/logs/17-compileall-final-02.json",
+      "sha256": "db81691146662cead937102bbace4be780bb160864235fee64cb6c9ed5d19756",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A122",
+      "kind": "log",
+      "path": "evidence/mathgloss/worker/logs/18-freeze-manifests.json",
+      "sha256": "81495f6e1a566253f4af08d59329fd689d61439464eb1be6bedaefe9f4bcc234",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A123",
+      "kind": "log",
+      "path": "evidence/mathgloss/worker/logs/19-freeze-manifests-pass.json",
+      "sha256": "d7e698cf08b986de45f281191818ae8acec76db688c4a21df036bd3fc1da6d8a",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A124",
+      "kind": "log",
+      "path": "evidence/mathgloss/worker/logs/20-frozen-hash-recheck.json",
+      "sha256": "88c7f8614b0fa40f5012ee260c94324d2052119e9aa52e9b5f94ad8437a5b773",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A125",
+      "kind": "report",
+      "path": "docs/concept-library-verification.md",
+      "sha256": "5eaad1157f82200094b6691acb61011a394a1ed060b7610c0642ecca863b4803",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A126",
+      "kind": "code",
+      "path": "scripts/build_library_evidence.py",
+      "sha256": "6d00138530f8f95217b03e44512bf3cc344d730c586c5b6e89f84e8131f7105d",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A127",
+      "kind": "log",
+      "path": "logs/concept-library-audit-transfer.command.json",
+      "sha256": "e1015686bf4c15c1d0cffbb27d13ee34878eff25e50a2818b231fc5c69a46058",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A128",
+      "kind": "log",
+      "path": "logs/concept-library-audit-transfer.console.log",
+      "sha256": "bada3d7c20d7f7f53126ce0fceb8f510369d40f4131beb19d2ea7ebf37d37d20",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A129",
+      "kind": "log",
+      "path": "logs/concept-library-build.command.json",
+      "sha256": "a4e525886b002f4bdc353fc733a40ad251dfb0fb39b5efa6f0a19e32298d9873",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A130",
+      "kind": "log",
+      "path": "logs/concept-library-build.console.log",
+      "sha256": "35357bd27a7f8d6bd3edd0c9efb987cc08d25403455c686cc2d4e79662cad824",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A131",
+      "kind": "log",
+      "path": "logs/concept-library-format.command.json",
+      "sha256": "775609f358b82699bc1aaf80d480aa6f2688c3cf4584accc10ca8063d762710f",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A132",
+      "kind": "log",
+      "path": "logs/concept-library-format.console.log",
+      "sha256": "77e652b4d36e6a11300e51b861402688458319b0f2723a99cff0a218577cbed7",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A133",
+      "kind": "log",
+      "path": "logs/concept-library-lint-attempt-01.command.json",
+      "sha256": "9c90dc2c146b1d785483b7ae015a9e2ac92e9106476e4517e0fa61e6065e30c2",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A134",
+      "kind": "log",
+      "path": "logs/concept-library-lint-attempt-01.console.log",
+      "sha256": "7165e15ca4f6e7abb36a2bf16baa6bc232fd46a099e5fd9f28465af05ebe6e11",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A135",
+      "kind": "log",
+      "path": "logs/concept-library-lint-attempt-02.command.json",
+      "sha256": "55899df68f7104266ab1c80fe1e43a30337d6cc0981c89565d9c276613931471",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A136",
+      "kind": "log",
+      "path": "logs/concept-library-lint-attempt-02.console.log",
+      "sha256": "c8091a7492dd0225688a19afab7e98b4ffa0dfcd6b332bbdfefc3bcdd73f3409",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A137",
+      "kind": "log",
+      "path": "logs/concept-library-navigation-attempt-01.command.json",
+      "sha256": "16c356bde7c902f779b5bac4bf0cc783fc08a88e9d7dfa37a27fa5ffd269280c",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A138",
+      "kind": "log",
+      "path": "logs/concept-library-navigation-attempt-01.console.log",
+      "sha256": "25fb5233543034fe0defb51febbfaa4815d19e281ca49e45003047fd9543f8f2",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A139",
+      "kind": "log",
+      "path": "logs/concept-library-navigation-format.command.json",
+      "sha256": "50e603a400f28f97d87a2b3f7af2fbc3cf8850c9a35bffda8599aaba3be7e5a4",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A140",
+      "kind": "log",
+      "path": "logs/concept-library-navigation-format.console.log",
+      "sha256": "b9eba3fefdce8c904789b857e2b07e1fd92b984a4d7206b110ee4297535b9b6d",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A141",
+      "kind": "log",
+      "path": "logs/concept-library-typecheck.command.json",
+      "sha256": "05055b2fe3fbb68f5b6e0e01be305b210914eff75d83f50492580c24320d1b24",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A142",
+      "kind": "log",
+      "path": "logs/concept-library-typecheck.console.log",
+      "sha256": "f01a374e9c81e3db89b3a42940c4d6a5447684986a1296e42bf13f196eed6295",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A143",
+      "kind": "log",
+      "path": "logs/mathgloss-integration-transfer-attempt-02.command.json",
+      "sha256": "bc954dde4400308573b0a874821b4154f2990c57e95e999ff585700f02db6873",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A144",
+      "kind": "log",
+      "path": "logs/mathgloss-integration-transfer-attempt-02.console.log",
+      "sha256": "50f3b647665acf400d9420057f98fcceab3026c3ff7911a9e469c974b2877c8e",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A145",
+      "kind": "log",
+      "path": "logs/mathgloss-integration-transfer.command.json",
+      "sha256": "427617550c4bba376ff23ade2240fde1da9d69b395ad560919f7809902e1724e",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A146",
+      "kind": "log",
+      "path": "logs/mathgloss-integration-transfer.console.log",
+      "sha256": "d020b6042c8457b52127b90885111eff7a70577120e78547c6bdf44aee56712d",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A147",
+      "kind": "log",
+      "path": "logs/mathgloss-portable-reproduction-verified.command.json",
+      "sha256": "73ed686f8016c7389473556bfe90cca2c7d3e8f7bf87bcf64d7546e07f228ea6",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A148",
+      "kind": "log",
+      "path": "logs/mathgloss-portable-reproduction-verified.console.log",
+      "sha256": "48d53cea56a2ea0646532ca7dd19183165fb82de3f2f3449815fb66428396e71",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A149",
+      "kind": "log",
+      "path": "logs/mathgloss-portable-reproduction.command.json",
+      "sha256": "f9fc1c8328f38276b974b9abd0c22c577ce31bf3f51a3e01dcd5a667dbc92520",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A150",
+      "kind": "log",
+      "path": "logs/mathgloss-portable-reproduction.console.log",
+      "sha256": "48d53cea56a2ea0646532ca7dd19183165fb82de3f2f3449815fb66428396e71",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A151",
+      "kind": "log",
+      "path": "logs/library-integrated-python-tests.command.json",
+      "sha256": "fef1e3826703895daf12940e289897e8c70ae48663aac1122aaea96679512854",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A152",
+      "kind": "log",
+      "path": "logs/library-integrated-python-tests.console.log",
+      "sha256": "b6d2286a819f682a3d677a17e25607780402ae950819221ad7876314f8f749a5",
+      "producer": "root-integration"
+    },
+    {
+      "id": "A153",
+      "kind": "report",
+      "path": "evidence/mathgloss/library-independent/final-bundle-review.json",
+      "sha256": "61f92a556d4e832dc527e4f906ad9cfbfb286dc400c826b4572228b4755b819c",
+      "producer": "/root/sol_symmetry_audit"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C001",
+      "type": "numerical",
+      "statement": "The pinned metadata import contains 4,814 concept records and 7,217 retained resource links. Independent import and integration reviews verify source fidelity; the proposed identities and mappings remain unreviewed.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A011",
+          "locator": "json:/counts/candidate_records",
+          "expected": 4814
+        },
+        {
+          "artifact_id": "A011",
+          "locator": "json:/counts/retained_link_pairs",
+          "expected": 7217
+        },
+        {
+          "artifact_id": "A011",
+          "locator": "json:/catalog_status",
+          "expected": "unreviewed_external_link_catalogue"
+        },
+        {
+          "artifact_id": "A042",
+          "locator": "json:/overall_status",
+          "expected": "pass_scoped"
+        },
+        {
+          "artifact_id": "A067",
+          "locator": "json:/overall_status",
+          "expected": "pass_scoped"
+        }
+      ]
+    },
+    {
+      "id": "C002",
+      "type": "citation",
+      "statement": "The imported source is MathGloss data/database.csv at revision b8f659605486f80f2816515f525af2c395c711fa. Its exact repository license notice is retained; the import copies metadata and links, and does not establish rights in outbound content.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A091",
+          "locator": "json:/mathgloss_snapshot/head",
+          "expected": "b8f659605486f80f2816515f525af2c395c711fa"
+        },
+        {
+          "artifact_id": "A012",
+          "locator": "contains:Permission is hereby granted"
+        },
+        {
+          "artifact_id": "A011",
+          "locator": "json:/source/csv_path",
+          "expected": "data/database.csv"
+        },
+        {
+          "artifact_id": "A042",
+          "locator": "json:/checks/2/notes"
+        }
+      ]
+    },
+    {
+      "id": "C003",
+      "type": "methodological",
+      "statement": "The library uses documented NFKC all-fragment lexical matching, resource filtering and bounded deterministic pagination. Independent navigation covers all 241 catalog pages without record loss. Three differences from the auditor's provisional matching expectations are retained and adjudicated against the frozen documented policy.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A003",
+          "locator": "contains:normalize"
+        },
+        {
+          "artifact_id": "A002",
+          "locator": "contains:then requires every query fragment to occur"
+        },
+        {
+          "artifact_id": "A067",
+          "locator": "json:/verified_counts/all_catalog_pages",
+          "expected": 241
+        },
+        {
+          "artifact_id": "A067",
+          "locator": "json:/verified_counts/all_catalog_unique_records",
+          "expected": 4814
+        },
+        {
+          "artifact_id": "A067",
+          "locator": "json:/prospective_case_adjudication/status",
+          "expected": "transparent_policy_variance_no_contract_failure"
+        }
+      ]
+    },
+    {
+      "id": "C004",
+      "type": "numerical",
+      "statement": "The independent route audit covers five valid and fifteen invalid requests with bounded no-store responses. Library search makes no external search request; query text remains in the same-origin GET URL and may appear in access logs.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A067",
+          "locator": "json:/verified_counts/valid_route_cases",
+          "expected": 5
+        },
+        {
+          "artifact_id": "A067",
+          "locator": "json:/verified_counts/invalid_route_cases",
+          "expected": 15
+        },
+        {
+          "artifact_id": "A067",
+          "locator": "json:/privacy_and_state/cache_control",
+          "expected": "no-store on success and error"
+        },
+        {
+          "artifact_id": "A067",
+          "locator": "json:/privacy_and_state/external_search_or_resource_fetch",
+          "expected": false
+        },
+        {
+          "artifact_id": "A067",
+          "locator": "json:/privacy_and_state/same_origin_get_limit"
+        }
+      ]
+    },
+    {
+      "id": "C005",
+      "type": "methodological",
+      "statement": "The library form and WebMCP action share the same search state transition. Focused root-observed browser results were independently checked against frozen code; this does not represent a second visual-browser run or broad visual QA.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A005",
+          "locator": "contains:runSearch"
+        },
+        {
+          "artifact_id": "A079",
+          "locator": "json:/tool",
+          "expected": "search_learning_resources"
+        },
+        {
+          "artifact_id": "A067",
+          "locator": "json:/limitations/1"
+        }
+      ]
+    },
+    {
+      "id": "C006",
+      "type": "conclusion",
+      "statement": "This reuse expands searchable resource coverage with source provenance. The finite fidelity and navigation checks do not establish concept equivalence, theorem truth, learner suitability, practical impact, novelty or completion of the mathematics map.",
+      "status": "supported",
+      "supports": [
+        {
+          "claim_id": "C001"
+        },
+        {
+          "claim_id": "C002"
+        },
+        {
+          "claim_id": "C003"
+        },
+        {
+          "claim_id": "C004"
+        },
+        {
+          "claim_id": "C005"
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "reproduction",
+      "status": "pass",
+      "auditor": "/root/sol_symmetry_audit",
+      "evidence": [
+        "A067",
+        "A042",
+        "A148",
+        "A153"
+      ],
+      "note": "C001 and C003 use the sealed importer and consumer reproduction results within their pinned-snapshot scope; the final wording does not turn reproduction into an identity, quality, impact, novelty, or completeness claim."
+    },
+    {
+      "id": "specification_compliance",
+      "status": "pass",
+      "auditor": "/root/sol_symmetry_audit",
+      "evidence": [
+        "A067",
+        "A042",
+        "A001",
+        "A153"
+      ],
+      "note": "C003 through C005 accurately state the documented lexical/filter/page behavior, the five-valid/fifteen-invalid no-store route boundary, and the focused shared state observation. The provisional-oracle differences and lack of a second visual-browser review remain explicit."
+    },
+    {
+      "id": "source_verification",
+      "status": "pass",
+      "auditor": "/root/sol_symmetry_audit",
+      "evidence": [
+        "A067",
+        "A042",
+        "A091",
+        "A153"
+      ],
+      "note": "C001 and C002 preserve the exact 4,814-record/7,217-link counts, pinned MathGloss revision and repository license notice while explicitly limiting the import to metadata and links and withholding any rights claim for outbound prose."
+    },
+    {
+      "id": "implementation_alignment",
+      "status": "pass",
+      "auditor": "/root/sol_symmetry_audit",
+      "evidence": [
+        "A067",
+        "A042",
+        "A003",
+        "A153"
+      ],
+      "note": "C004 and C005 remain aligned with the frozen route and shared runSearch implementation. The same-origin GET access-log caveat is retained. C006 describes product catalog coverage and explicitly disclaims concept equivalence, theorem truth, learner suitability, practical impact, novelty, and map completeness."
+    }
+  ],
+  "limitations": [
+    "This certifies exact integration, deterministic lexical navigation, bounded API behavior and scoped tool/state alignment for one pinned MathGloss snapshot. It does not certify concept identity, equivalence, resource quality, availability, learner level, theorem support, linked content, rights in linked prose, impact, novelty or completeness as a map of mathematics.",
+    "The focused browser/WebMCP observations were produced by the root integrator. This reviewer independently verified their hash, source values and frozen-code alignment, but did not perform a second visual browser run or broad visual QA.",
+    "The retained build/typecheck/lint command records are root-produced. This reviewer independently ran the exact frozen navigation script plus stronger pure search, route, portable-import and WebMCP contract harnesses.",
+    "The evidence/** typecheck/lint exclusion is an archive boundary. It does not certify historical harnesses under current project lint rules; their own retained execution records support claims that cite them.",
+    "GET no-store prevents response caching but does not remove query text from the same-origin request URL or possible access logs.",
+    "Frozen implementation documentation retains its historical pending-review wording; docs/concept-library-verification.md records the additive review result.",
+    "The independently reviewed checker and historical foundation have separate bundles; this bundle does not recertify them."
+  ]
+}

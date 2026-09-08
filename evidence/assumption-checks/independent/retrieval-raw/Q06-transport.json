@@ -1,0 +1,72 @@
+{
+  "attempt": 1,
+  "elapsed_seconds": 3.702650799998082,
+  "ended_at_utc": "2026-09-08T01:54:00.290110+00:00",
+  "http_reason": "OK",
+  "http_status": 200,
+  "method": "POST",
+  "occurrences": [
+    {
+      "paper_id": "2210.07869v7",
+      "paper_link": "http://arxiv.org/abs/2210.07869v7",
+      "paper_title": "Witnessed Symmetric Choice and Interpretations in Fixed-Point Logic with Counting",
+      "query_id": "Q06",
+      "rank": 1,
+      "slogan_id": 10676257,
+      "theorem_id": 25939467,
+      "theorem_name": "Lemma 7.2 (\\cite {GurevichShelah96})"
+    },
+    {
+      "paper_id": "1506.03343v1",
+      "paper_link": "http://arxiv.org/abs/1506.03343v1",
+      "paper_title": "Consistent random vertex-orderings of graphs",
+      "query_id": "Q06",
+      "rank": 2,
+      "slogan_id": 6521213,
+      "theorem_id": 21595533,
+      "theorem_name": "Lemma 2.3"
+    }
+  ],
+  "parse_error": null,
+  "query_id": "Q06",
+  "request_byte_count": 96,
+  "request_headers": {
+    "Accept": "application/json",
+    "Content-Length": "96",
+    "Content-Type": "application/json",
+    "User-Agent": "MathematicsAtlas-retrieval-study-v1/1.0"
+  },
+  "request_path": "Q06-request.json",
+  "request_sha256": "3b18d37be85298e72034d41c0219de8c1b55e29ec7d3b8b63b6bd2d6792099d4",
+  "response_bound_bytes": 5000000,
+  "response_byte_count_retained": 2203,
+  "response_exceeded_bound": false,
+  "response_headers": [
+    [
+      "content-length",
+      "2203"
+    ],
+    [
+      "content-type",
+      "application/json"
+    ],
+    [
+      "date",
+      "Tue, 08 Sep 2026 01:53:56 GMT"
+    ],
+    [
+      "server",
+      "envoy"
+    ],
+    [
+      "x-envoy-upstream-service-time",
+      "2684"
+    ]
+  ],
+  "response_path": "Q06-response.bin",
+  "response_sha256": "a9d234c94de50bec49a87470300c0a68b58cf01480cbec28d3b7b7c09ef3309d",
+  "returned_result_count": 2,
+  "started_at_utc": "2026-09-08T01:53:56.587460+00:00",
+  "transport_error": null,
+  "url": "https://api.theoremsearch.com/search"
+}

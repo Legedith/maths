@@ -1,0 +1,72 @@
+{
+  "attempt": 1,
+  "elapsed_seconds": 2.9544133999734186,
+  "ended_at_utc": "2026-09-08T01:53:50.338910+00:00",
+  "http_reason": "OK",
+  "http_status": 200,
+  "method": "POST",
+  "occurrences": [
+    {
+      "paper_id": "2410.16836v3",
+      "paper_link": "http://arxiv.org/abs/2410.16836v3",
+      "paper_title": "Local limits of random spanning trees in random environment",
+      "query_id": "Q03",
+      "rank": 1,
+      "slogan_id": 2104428,
+      "theorem_id": 18134454,
+      "theorem_name": "Theorem 2.2 (Kirchhoff’s formula {\\cite[Section 4.2]{LP16}})"
+    },
+    {
+      "paper_id": "2410.16830v3",
+      "paper_link": "http://arxiv.org/abs/2410.16830v3",
+      "paper_title": "Random spanning trees in random environment",
+      "query_id": "Q03",
+      "rank": 2,
+      "slogan_id": 2134827,
+      "theorem_id": 18165234,
+      "theorem_name": "Theorem 2.1 (Kirchhoff’s Formula)"
+    }
+  ],
+  "parse_error": null,
+  "query_id": "Q03",
+  "request_byte_count": 115,
+  "request_headers": {
+    "Accept": "application/json",
+    "Content-Length": "115",
+    "Content-Type": "application/json",
+    "User-Agent": "MathematicsAtlas-retrieval-study-v1/1.0"
+  },
+  "request_path": "Q03-request.json",
+  "request_sha256": "91501d6c1914c065445cfe8f3fc9aca974ea30d44a671b3fd2b7fcb84f365574",
+  "response_bound_bytes": 5000000,
+  "response_byte_count_retained": 2418,
+  "response_exceeded_bound": false,
+  "response_headers": [
+    [
+      "content-length",
+      "2418"
+    ],
+    [
+      "content-type",
+      "application/json"
+    ],
+    [
+      "date",
+      "Tue, 08 Sep 2026 01:53:47 GMT"
+    ],
+    [
+      "server",
+      "envoy"
+    ],
+    [
+      "x-envoy-upstream-service-time",
+      "1982"
+    ]
+  ],
+  "response_path": "Q03-response.bin",
+  "response_sha256": "acf510c3a511b4aeb0002fc7291bcbce9883176bd1d59486f1d2276dfb01ff0d",
+  "returned_result_count": 2,
+  "started_at_utc": "2026-09-08T01:53:47.384525+00:00",
+  "transport_error": null,
+  "url": "https://api.theoremsearch.com/search"
+}

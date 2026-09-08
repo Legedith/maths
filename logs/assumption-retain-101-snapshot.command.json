@@ -1,0 +1,17 @@
+﻿{
+    "name":  "assumption-retain-101-snapshot",
+    "command_argv":  [
+                         "uv",
+                         "run",
+                         "--frozen",
+                         "python",
+                         "..\\integration-work\\retain_patch_101.py"
+                     ],
+    "command_display":  "uv run --frozen python ..\\integration-work\\retain_patch_101.py",
+    "working_directory":  "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "started_at":  "2026-09-08T08:36:59.2913560+05:30",
+    "ended_at":  "2026-09-08T08:36:59.4424449+05:30",
+    "runtime_seconds":  0.1481438,
+    "exit_code":  0,
+    "console_log":  "logs/assumption-retain-101-snapshot.console.log"
+}

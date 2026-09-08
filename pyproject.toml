@@ -18,7 +18,7 @@ dev = [
 ]
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/atlas_engine", "src/atlas_checks"]
+packages = ["src/atlas_engine", "src/atlas_checks", "src/mathgloss_import"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

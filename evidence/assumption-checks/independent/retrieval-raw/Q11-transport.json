@@ -1,0 +1,76 @@
+{
+  "attempt": 1,
+  "elapsed_seconds": 2.843924300017534,
+  "ended_at_utc": "2026-09-08T01:54:33.158431+00:00",
+  "http_reason": "OK",
+  "http_status": 200,
+  "method": "POST",
+  "occurrences": [
+    {
+      "paper_id": "2010.01530v1",
+      "paper_link": "http://arxiv.org/abs/2010.01530v1",
+      "paper_title": "Phase transition of disordered random networks on quasi-transitive graphs",
+      "query_id": "Q11",
+      "rank": 1,
+      "slogan_id": 9584048,
+      "theorem_id": 24648249,
+      "theorem_name": "Lemma 3.2 (The Nash-Williams inequality and recurrence criterion)"
+    },
+    {
+      "paper_id": "1902.01110v2",
+      "paper_link": "http://arxiv.org/abs/1902.01110v2",
+      "paper_title": "On the Probabilistic Representation of the Free Effective Resistance of Infinite Graphs",
+      "query_id": "Q11",
+      "rank": 2,
+      "slogan_id": 5255460,
+      "theorem_id": 20314933,
+      "theorem_name": "Corollary 6.3"
+    }
+  ],
+  "parse_error": null,
+  "query_id": "Q11",
+  "request_byte_count": 100,
+  "request_headers": {
+    "Accept": "application/json",
+    "Content-Length": "100",
+    "Content-Type": "application/json",
+    "User-Agent": "MathematicsAtlas-retrieval-study-v1/1.0"
+  },
+  "request_path": "Q11-request.json",
+  "request_sha256": "7e4a8ca60f0127d30af46d96ffc989afc256062a4b9b1c3afd5c5565c04814af",
+  "response_bound_bytes": 5000000,
+  "response_byte_count_retained": 3067,
+  "response_exceeded_bound": false,
+  "response_headers": [
+    [
+      "content-length",
+      "3067"
+    ],
+    [
+      "content-type",
+      "application/json"
+    ],
+    [
+      "date",
+      "Tue, 08 Sep 2026 01:54:30 GMT"
+    ],
+    [
+      "server",
+      "envoy"
+    ],
+    [
+      "x-envoy-upstream-service-time",
+      "1757"
+    ],
+    [
+      "connection",
+      "close"
+    ]
+  ],
+  "response_path": "Q11-response.bin",
+  "response_sha256": "4370b898cadbb405fb7de30696f3525c230678e9b15e18fcb6e96bbb88678973",
+  "returned_result_count": 2,
+  "started_at_utc": "2026-09-08T01:54:30.314488+00:00",
+  "transport_error": null,
+  "url": "https://api.theoremsearch.com/search"
+}

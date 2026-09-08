@@ -1,0 +1,2267 @@
+{
+  "all_checks_pass": true,
+  "artifact_checks": [
+    {
+      "actual_sha256": "6eaf5f003b0cf6f34b7b416edc229072079244ff0008cf53a208abc8b40a8e20",
+      "artifact_id": "A001",
+      "exists": true,
+      "expected_sha256": "6eaf5f003b0cf6f34b7b416edc229072079244ff0008cf53a208abc8b40a8e20",
+      "inside_project": true,
+      "matches": true,
+      "path": "docs/assumption-check-contract.md"
+    },
+    {
+      "actual_sha256": "63bea7e1be12ef64e172508d235d1f1ff5cbca137d461c51d849c1ef160a26bf",
+      "artifact_id": "A002",
+      "exists": true,
+      "expected_sha256": "63bea7e1be12ef64e172508d235d1f1ff5cbca137d461c51d849c1ef160a26bf",
+      "inside_project": true,
+      "matches": true,
+      "path": "docs/assumption-check-interface.md"
+    },
+    {
+      "actual_sha256": "3c4569b9e8f534253b45a629afb8b43d82c3f3b384fd15a4c1a4d7930c642bb2",
+      "artifact_id": "A003",
+      "exists": true,
+      "expected_sha256": "3c4569b9e8f534253b45a629afb8b43d82c3f3b384fd15a4c1a4d7930c642bb2",
+      "inside_project": true,
+      "matches": true,
+      "path": "docs/assumption-check-clarifications.md"
+    },
+    {
+      "actual_sha256": "f4d886d29c6f61951c26eb4b9b3209a562a2be6f65fc55abe9d56cc68e576edd",
+      "artifact_id": "A004",
+      "exists": true,
+      "expected_sha256": "f4d886d29c6f61951c26eb4b9b3209a562a2be6f65fc55abe9d56cc68e576edd",
+      "inside_project": true,
+      "matches": true,
+      "path": "docs/assumption-check-clarification-2.md"
+    },
+    {
+      "actual_sha256": "848ac3e25222af20cf86429b9648d9c282275a437f69401f51f300e9279ff224",
+      "artifact_id": "A005",
+      "exists": true,
+      "expected_sha256": "848ac3e25222af20cf86429b9648d9c282275a437f69401f51f300e9279ff224",
+      "inside_project": true,
+      "matches": true,
+      "path": "fixtures/retrieval-study-v1.json"
+    },
+    {
+      "actual_sha256": "a9c11582956efe38b56eb656e04cd27f7a0e9bfec7530a5e7eb2b6195a5d161e",
+      "artifact_id": "A006",
+      "exists": true,
+      "expected_sha256": "a9c11582956efe38b56eb656e04cd27f7a0e9bfec7530a5e7eb2b6195a5d161e",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/contract-audit.md"
+    },
+    {
+      "actual_sha256": "f990ff143b329cfd671fe16e8501cb8422ff2fbaf81b29627fe8e17373069f20",
+      "artifact_id": "A007",
+      "exists": true,
+      "expected_sha256": "f990ff143b329cfd671fe16e8501cb8422ff2fbaf81b29627fe8e17373069f20",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/evaluation-plan.md"
+    },
+    {
+      "actual_sha256": "b02f344e984d9a450a1fa1e248b5dfe97c3379e5f317b2e4b4b4280385c61dc2",
+      "artifact_id": "A008",
+      "exists": true,
+      "expected_sha256": "b02f344e984d9a450a1fa1e248b5dfe97c3379e5f317b2e4b4b4280385c61dc2",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/evaluator-schema-public.json"
+    },
+    {
+      "actual_sha256": "5337ac326843f18b5aa0f5bee76069f4d212a54310b6131810dee0566539b060",
+      "artifact_id": "A009",
+      "exists": true,
+      "expected_sha256": "5337ac326843f18b5aa0f5bee76069f4d212a54310b6131810dee0566539b060",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/final-audit.json"
+    },
+    {
+      "actual_sha256": "3a9a6e835cee4af0307bee1dd093fefe1b1df8c83a54f24a793a91e84ffd0ae9",
+      "artifact_id": "A010",
+      "exists": true,
+      "expected_sha256": "3a9a6e835cee4af0307bee1dd093fefe1b1df8c83a54f24a793a91e84ffd0ae9",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/final-audit.md"
+    },
+    {
+      "actual_sha256": "b2c03a4fc3d5750dc95f6ac7b1d08b5ccd0abf4dbc435e7a965b29a6e98f015c",
+      "artifact_id": "A011",
+      "exists": true,
+      "expected_sha256": "b2c03a4fc3d5750dc95f6ac7b1d08b5ccd0abf4dbc435e7a965b29a6e98f015c",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/publication/heldout-v1/cases.json"
+    },
+    {
+      "actual_sha256": "e0b047792f211ed3b1b1c511255b75716d0483ae76fd4a2f065b6fb1f22bc3f7",
+      "artifact_id": "A012",
+      "exists": true,
+      "expected_sha256": "e0b047792f211ed3b1b1c511255b75716d0483ae76fd4a2f065b6fb1f22bc3f7",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/publication/heldout-v1/compare_public_suite.py"
+    },
+    {
+      "actual_sha256": "936548009cf20d6a91c6e3aa1123c43e3fe559a417b9596153b3679767896870",
+      "artifact_id": "A013",
+      "exists": true,
+      "expected_sha256": "936548009cf20d6a91c6e3aa1123c43e3fe559a417b9596153b3679767896870",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/publication/heldout-v1/oracle.json"
+    },
+    {
+      "actual_sha256": "bc1ca5bf913d4e12980b00a00784e6504dd03d1211b8dd8189fd60038ecccf89",
+      "artifact_id": "A014",
+      "exists": true,
+      "expected_sha256": "bc1ca5bf913d4e12980b00a00784e6504dd03d1211b8dd8189fd60038ecccf89",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/publication/heldout-v1/README.md"
+    },
+    {
+      "actual_sha256": "980fc7c118f497f4106a7246eaff04517107becb33db9d1e2fc2421129ddba1c",
+      "artifact_id": "A015",
+      "exists": true,
+      "expected_sha256": "980fc7c118f497f4106a7246eaff04517107becb33db9d1e2fc2421129ddba1c",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/publication/heldout-v1/release-manifest.json"
+    },
+    {
+      "actual_sha256": "8245d65f1a57111508327f2428d4039c173fc2678f8047b80d18421a04ac9069",
+      "artifact_id": "A016",
+      "exists": true,
+      "expected_sha256": "8245d65f1a57111508327f2428d4039c173fc2678f8047b80d18421a04ac9069",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/publication/heldout-v1/run_public_suite.py"
+    },
+    {
+      "actual_sha256": "8222ce34c5b354bac47d4cf5f3765231c09028bcc76d2b8bb8308b5f3f7fcc4c",
+      "artifact_id": "A017",
+      "exists": true,
+      "expected_sha256": "8222ce34c5b354bac47d4cf5f3765231c09028bcc76d2b8bb8308b5f3f7fcc4c",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/publication/heldout-v1/seed.json"
+    },
+    {
+      "actual_sha256": "ddf50219b87547a9cae547d936a7afba76380f11c4cda7c5fbb473635a01d9ee",
+      "artifact_id": "A018",
+      "exists": true,
+      "expected_sha256": "ddf50219b87547a9cae547d936a7afba76380f11c4cda7c5fbb473635a01d9ee",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/publication/heldout-v1/suite.json"
+    },
+    {
+      "actual_sha256": "654f941c1dd476b9695b8739132c0cfb3d9e403c2f27b49e1086c241817046d9",
+      "artifact_id": "A019",
+      "exists": true,
+      "expected_sha256": "654f941c1dd476b9695b8739132c0cfb3d9e403c2f27b49e1086c241817046d9",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/publication/publication-manifest-verification.json"
+    },
+    {
+      "actual_sha256": "7813363c6b66cd4e0232fc7122cd9e84de7f2e3f1ccfe83e6136df81b6da9d53",
+      "artifact_id": "A020",
+      "exists": true,
+      "expected_sha256": "7813363c6b66cd4e0232fc7122cd9e84de7f2e3f1ccfe83e6136df81b6da9d53",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/publication/publication-manifest.json"
+    },
+    {
+      "actual_sha256": "f5aeefce86951ca5e00db2087fae6c4f9cc0eb9b107ee1a2a48d1683026a84a7",
+      "artifact_id": "A021",
+      "exists": true,
+      "expected_sha256": "f5aeefce86951ca5e00db2087fae6c4f9cc0eb9b107ee1a2a48d1683026a84a7",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/publication/source-matrix.json"
+    },
+    {
+      "actual_sha256": "ad980df719ea1cce87d7cf76c792a68bf82009cf2570c33e93b0615d705b768a",
+      "artifact_id": "A022",
+      "exists": true,
+      "expected_sha256": "ad980df719ea1cce87d7cf76c792a68bf82009cf2570c33e93b0615d705b768a",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/large-output-preliminary-invalid-code-race.json"
+    },
+    {
+      "actual_sha256": "a377368d579e0f51a9675c493971099b7964992fb4f80ebc20d866f9f2362815",
+      "artifact_id": "A023",
+      "exists": true,
+      "expected_sha256": "a377368d579e0f51a9675c493971099b7964992fb4f80ebc20d866f9f2362815",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/large-output-v1.0.1-retained-source-independent-reproduction.json"
+    },
+    {
+      "actual_sha256": "68eda31bf61b320e3a841cc01528692fa3bed80217e96c5d5b658e8b91c57b80",
+      "artifact_id": "A024",
+      "exists": true,
+      "expected_sha256": "68eda31bf61b320e3a841cc01528692fa3bed80217e96c5d5b658e8b91c57b80",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/patch-v1.0.1-manifest-verification.json"
+    },
+    {
+      "actual_sha256": "b80292ff61cf7c19998e36d3682b3e6795545c2d5ca99522c74fbaa4c2178112",
+      "artifact_id": "A025",
+      "exists": true,
+      "expected_sha256": "b80292ff61cf7c19998e36d3682b3e6795545c2d5ca99522c74fbaa4c2178112",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/patch-v1.0.2-manifest-verification.json"
+    },
+    {
+      "actual_sha256": "23ece10bc5a2ca4fb4ab97887be03fb1efc68d565d7a8f45a5ebc0587d4afb5e",
+      "artifact_id": "A026",
+      "exists": true,
+      "expected_sha256": "23ece10bc5a2ca4fb4ab97887be03fb1efc68d565d7a8f45a5ebc0587d4afb5e",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/public-boundary-defects-attempt01.json"
+    },
+    {
+      "actual_sha256": "53381c468a93beaaa27578b5a9cdd7b00221f3bd2553d8dd7b52f1aa5aaa4464",
+      "artifact_id": "A027",
+      "exists": true,
+      "expected_sha256": "53381c468a93beaaa27578b5a9cdd7b00221f3bd2553d8dd7b52f1aa5aaa4464",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/public-boundary-v1.0.1-attempt01.json"
+    },
+    {
+      "actual_sha256": "f4a62aed8317201dcfa21e61ac52122eb5782bd28dac2e97751687351f0cb694",
+      "artifact_id": "A028",
+      "exists": true,
+      "expected_sha256": "f4a62aed8317201dcfa21e61ac52122eb5782bd28dac2e97751687351f0cb694",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/public-boundary-v1.0.2-attempt01.json"
+    },
+    {
+      "actual_sha256": "1f7e0847c66f78f578c9e120621c99591bf6cf0e8c3bbf0047eb136465134313",
+      "artifact_id": "A029",
+      "exists": true,
+      "expected_sha256": "1f7e0847c66f78f578c9e120621c99591bf6cf0e8c3bbf0047eb136465134313",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/public-portable-reproduction-v1.0.2-attempt02/comparison-console.txt"
+    },
+    {
+      "actual_sha256": "d8feabe6059f707fb52540ec61db73658c462c77e329c2e4c334d71a9e4afb5e",
+      "artifact_id": "A030",
+      "exists": true,
+      "expected_sha256": "d8feabe6059f707fb52540ec61db73658c462c77e329c2e4c334d71a9e4afb5e",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/public-portable-reproduction-v1.0.2-attempt02/comparison-detail.json"
+    },
+    {
+      "actual_sha256": "d926e01d53eb5018ea7098a0dc085e33fa48081ac952267f861a7ab11a06d012",
+      "artifact_id": "A031",
+      "exists": true,
+      "expected_sha256": "d926e01d53eb5018ea7098a0dc085e33fa48081ac952267f861a7ab11a06d012",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/public-portable-reproduction-v1.0.2-attempt02/comparison-summary.json"
+    },
+    {
+      "actual_sha256": "523c51d362c539721b027fed2adf5947d4068f93da9695d0a2e531c1829d9c9e",
+      "artifact_id": "A032",
+      "exists": true,
+      "expected_sha256": "523c51d362c539721b027fed2adf5947d4068f93da9695d0a2e531c1829d9c9e",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/public-portable-reproduction-v1.0.2-attempt02/run-console.txt"
+    },
+    {
+      "actual_sha256": "d6ce9e18684ffda05a950a05c0c32a2b41025f871cfa01e5bcc57288ae25aec9",
+      "artifact_id": "A033",
+      "exists": true,
+      "expected_sha256": "d6ce9e18684ffda05a950a05c0c32a2b41025f871cfa01e5bcc57288ae25aec9",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/public-portable-reproduction-v1.0.2-attempt02/run-summary.json"
+    },
+    {
+      "actual_sha256": "c2e4f4fe94e08318324ea779a152f4252ccc07c82c7bf82d44c2021fd98ebb78",
+      "artifact_id": "A034",
+      "exists": true,
+      "expected_sha256": "c2e4f4fe94e08318324ea779a152f4252ccc07c82c7bf82d44c2021fd98ebb78",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/public-portable-reproduction-v1.0.2-attempt02/run.jsonl"
+    },
+    {
+      "actual_sha256": "61e9d5451b3d9290a8c72c636a0d2950d6e8b59bbc480e6dc07bbbcdef610065",
+      "artifact_id": "A035",
+      "exists": true,
+      "expected_sha256": "61e9d5451b3d9290a8c72c636a0d2950d6e8b59bbc480e6dc07bbbcdef610065",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/retrieval-evidence-structure-validation-attempt02.json"
+    },
+    {
+      "actual_sha256": "5af4289c84ba10065e7050816378e3dedfce1f3080bcc63e828fbdb484e94c88",
+      "artifact_id": "A036",
+      "exists": true,
+      "expected_sha256": "5af4289c84ba10065e7050816378e3dedfce1f3080bcc63e828fbdb484e94c88",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/retrieval-round2-v1.0.2/retrieval-round2-console.txt"
+    },
+    {
+      "actual_sha256": "987d24ff84ad24676df1c152101faa3b6c47d3c75b8ea247a7ebc82158df3351",
+      "artifact_id": "A037",
+      "exists": true,
+      "expected_sha256": "987d24ff84ad24676df1c152101faa3b6c47d3c75b8ea247a7ebc82158df3351",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/retrieval-round2-v1.0.2/retrieval-round2-run.jsonl"
+    },
+    {
+      "actual_sha256": "b008359604c70d3b02002df95f3828365d7b4972bb5db959b0ada4e000a68dab",
+      "artifact_id": "A038",
+      "exists": true,
+      "expected_sha256": "b008359604c70d3b02002df95f3828365d7b4972bb5db959b0ada4e000a68dab",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/retrieval-round2-v1.0.2/retrieval-round2-summary.json"
+    },
+    {
+      "actual_sha256": "a2ea9befb479c0416583653616de99fabcb6262eccf6dadb37d8982f9162fcae",
+      "artifact_id": "A039",
+      "exists": true,
+      "expected_sha256": "a2ea9befb479c0416583653616de99fabcb6262eccf6dadb37d8982f9162fcae",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/structured-heldout-delta-v1.0.1-comparison-summary.json"
+    },
+    {
+      "actual_sha256": "2bdac0617c1192327e516cfad1bce410dcb24302fc3c20920ba6ffd2e49da25d",
+      "artifact_id": "A040",
+      "exists": true,
+      "expected_sha256": "2bdac0617c1192327e516cfad1bce410dcb24302fc3c20920ba6ffd2e49da25d",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/structured-heldout-delta-v1.0.1-run-console.txt"
+    },
+    {
+      "actual_sha256": "70ff0c16e9fd887cf92f8943a72f86f452fd1845d669670a17b64a670d79d0db",
+      "artifact_id": "A041",
+      "exists": true,
+      "expected_sha256": "70ff0c16e9fd887cf92f8943a72f86f452fd1845d669670a17b64a670d79d0db",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/structured-heldout-delta-v1.0.1-run-summary.json"
+    },
+    {
+      "actual_sha256": "a63d75f8d8928170b5941f0e260f7e0176108e206bd3600d551b6a7bb1c64f7a",
+      "artifact_id": "A042",
+      "exists": true,
+      "expected_sha256": "a63d75f8d8928170b5941f0e260f7e0176108e206bd3600d551b6a7bb1c64f7a",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/structured-heldout-delta-v1.0.1-run.jsonl"
+    },
+    {
+      "actual_sha256": "da0478d1cb1fb9c1d25f5d8594f89963a0947ea510ab82488f71cf6619a8eb62",
+      "artifact_id": "A043",
+      "exists": true,
+      "expected_sha256": "da0478d1cb1fb9c1d25f5d8594f89963a0947ea510ab82488f71cf6619a8eb62",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/structured-heldout-delta-v1.0.2-comparison-summary.json"
+    },
+    {
+      "actual_sha256": "5f27847664fedde8704f1e32b2a4ca56a181cd9df50d68be554d37c2ffc7371a",
+      "artifact_id": "A044",
+      "exists": true,
+      "expected_sha256": "5f27847664fedde8704f1e32b2a4ca56a181cd9df50d68be554d37c2ffc7371a",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/structured-heldout-delta-v1.0.2-run-console.txt"
+    },
+    {
+      "actual_sha256": "93bf13eb6b9ee5e1912319dbb8d376861a51ffe645c9af15212648ab682a83d0",
+      "artifact_id": "A045",
+      "exists": true,
+      "expected_sha256": "93bf13eb6b9ee5e1912319dbb8d376861a51ffe645c9af15212648ab682a83d0",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/structured-heldout-delta-v1.0.2-run-summary.json"
+    },
+    {
+      "actual_sha256": "c2e4f4fe94e08318324ea779a152f4252ccc07c82c7bf82d44c2021fd98ebb78",
+      "artifact_id": "A046",
+      "exists": true,
+      "expected_sha256": "c2e4f4fe94e08318324ea779a152f4252ccc07c82c7bf82d44c2021fd98ebb78",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/structured-heldout-delta-v1.0.2-run.jsonl"
+    },
+    {
+      "actual_sha256": "9d78e3b24dde2b6a55f0156e20afc9bdd33d621e43ef866938660cf849ecb2db",
+      "artifact_id": "A047",
+      "exists": true,
+      "expected_sha256": "9d78e3b24dde2b6a55f0156e20afc9bdd33d621e43ef866938660cf849ecb2db",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/structured-heldout-first-run-comparison-summary-attempt02.json"
+    },
+    {
+      "actual_sha256": "19c025ba02ddb92700a1fca8f4470c22ea8c9b14e10fa71a1681ca8aad70e6e4",
+      "artifact_id": "A048",
+      "exists": true,
+      "expected_sha256": "19c025ba02ddb92700a1fca8f4470c22ea8c9b14e10fa71a1681ca8aad70e6e4",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/structured-heldout-first-run-comparison-summary.json"
+    },
+    {
+      "actual_sha256": "a28edfb5272cac87b561699eeb9e49dd77ba79e2f5e0832d283139242498f74e",
+      "artifact_id": "A049",
+      "exists": true,
+      "expected_sha256": "a28edfb5272cac87b561699eeb9e49dd77ba79e2f5e0832d283139242498f74e",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/structured-heldout-first-run-console.txt"
+    },
+    {
+      "actual_sha256": "42047852709d64350123c76a82ea4a5b5a4e22e4c953ec835ad514fb73f51520",
+      "artifact_id": "A050",
+      "exists": true,
+      "expected_sha256": "42047852709d64350123c76a82ea4a5b5a4e22e4c953ec835ad514fb73f51520",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/structured-heldout-first-run-summary.json"
+    },
+    {
+      "actual_sha256": "f4010a17efb0b20d9d2593719e4eaa620000876fcada8172ea0a6f5009b49e5f",
+      "artifact_id": "A051",
+      "exists": true,
+      "expected_sha256": "f4010a17efb0b20d9d2593719e4eaa620000876fcada8172ea0a6f5009b49e5f",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/structured-heldout-first-run.jsonl"
+    },
+    {
+      "actual_sha256": "94d5a880418b2f809b6898abaa214cb98101384a7bec67aff0b7e5add3774678",
+      "artifact_id": "A052",
+      "exists": true,
+      "expected_sha256": "94d5a880418b2f809b6898abaa214cb98101384a7bec67aff0b7e5add3774678",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/teaching-examples-v1.0.1-verification.json"
+    },
+    {
+      "actual_sha256": "e9cd62aba8a0dbdbaa1892b6e80a7342895a77a4bfef1477548aafab341cf9fe",
+      "artifact_id": "A053",
+      "exists": true,
+      "expected_sha256": "e9cd62aba8a0dbdbaa1892b6e80a7342895a77a4bfef1477548aafab341cf9fe",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/v1.0.2-exact-output-attempt01/large-output-v1.0.2-api-result.json"
+    },
+    {
+      "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "artifact_id": "A054",
+      "exists": true,
+      "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/v1.0.2-exact-output-attempt01/large-output-v1.0.2-cli.stderr.txt"
+    },
+    {
+      "actual_sha256": "063129150137335689d11aa705b5db04c9e195c0055753b2a65075bc73ab8571",
+      "artifact_id": "A055",
+      "exists": true,
+      "expected_sha256": "063129150137335689d11aa705b5db04c9e195c0055753b2a65075bc73ab8571",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/v1.0.2-exact-output-attempt01/large-output-v1.0.2-cli.stdout.json"
+    },
+    {
+      "actual_sha256": "3289974a0f2956b18b59f2261a25dad824b8bb54f6a11620d062659f6bacb0ae",
+      "artifact_id": "A056",
+      "exists": true,
+      "expected_sha256": "3289974a0f2956b18b59f2261a25dad824b8bb54f6a11620d062659f6bacb0ae",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/v1.0.2-exact-output-attempt01/large-output-v1.0.2-independent-verification.json"
+    },
+    {
+      "actual_sha256": "dc207d14e0de0146d1d3aef2b38ac50f21584f5041e324afdbd8aedb9eda5536",
+      "artifact_id": "A057",
+      "exists": true,
+      "expected_sha256": "dc207d14e0de0146d1d3aef2b38ac50f21584f5041e324afdbd8aedb9eda5536",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/v1.0.2-exact-output-attempt01/large-output-v1.0.2-input.json"
+    },
+    {
+      "actual_sha256": "e9cd62aba8a0dbdbaa1892b6e80a7342895a77a4bfef1477548aafab341cf9fe",
+      "artifact_id": "A058",
+      "exists": true,
+      "expected_sha256": "e9cd62aba8a0dbdbaa1892b6e80a7342895a77a4bfef1477548aafab341cf9fe",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/v1.0.2-exact-output-attempt02/large-output-v1.0.2-api-result.json"
+    },
+    {
+      "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "artifact_id": "A059",
+      "exists": true,
+      "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/v1.0.2-exact-output-attempt02/large-output-v1.0.2-cli.stderr.txt"
+    },
+    {
+      "actual_sha256": "063129150137335689d11aa705b5db04c9e195c0055753b2a65075bc73ab8571",
+      "artifact_id": "A060",
+      "exists": true,
+      "expected_sha256": "063129150137335689d11aa705b5db04c9e195c0055753b2a65075bc73ab8571",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/v1.0.2-exact-output-attempt02/large-output-v1.0.2-cli.stdout.json"
+    },
+    {
+      "actual_sha256": "ece785b2033f84de823ec20230130870fc9e542115dccad3cbbaaa2e5463732a",
+      "artifact_id": "A061",
+      "exists": true,
+      "expected_sha256": "ece785b2033f84de823ec20230130870fc9e542115dccad3cbbaaa2e5463732a",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/v1.0.2-exact-output-attempt02/large-output-v1.0.2-independent-verification.json"
+    },
+    {
+      "actual_sha256": "dc207d14e0de0146d1d3aef2b38ac50f21584f5041e324afdbd8aedb9eda5536",
+      "artifact_id": "A062",
+      "exists": true,
+      "expected_sha256": "dc207d14e0de0146d1d3aef2b38ac50f21584f5041e324afdbd8aedb9eda5536",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/raw/v1.0.2-exact-output-attempt02/large-output-v1.0.2-input.json"
+    },
+    {
+      "actual_sha256": "cb6dbc5379662f31eb1b61705feffd72d6fc2d22657c4c62f10a34d6f40b7ba3",
+      "artifact_id": "A063",
+      "exists": true,
+      "expected_sha256": "cb6dbc5379662f31eb1b61705feffd72d6fc2d22657c4c62f10a34d6f40b7ba3",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/COMPLETED"
+    },
+    {
+      "actual_sha256": "35866b4bc5793502a60ff905f546643f3a5abe4a273bd73d63f73dacb6f821e4",
+      "artifact_id": "A064",
+      "exists": true,
+      "expected_sha256": "35866b4bc5793502a60ff905f546643f3a5abe4a273bd73d63f73dacb6f821e4",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q01-request.json"
+    },
+    {
+      "actual_sha256": "f185f5a469108d8497333aff95d8f315bb97fabeff0c0cf0e0fbb6204b15620a",
+      "artifact_id": "A065",
+      "exists": true,
+      "expected_sha256": "f185f5a469108d8497333aff95d8f315bb97fabeff0c0cf0e0fbb6204b15620a",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q01-response.bin"
+    },
+    {
+      "actual_sha256": "faf0878262b2065e5a638eedaf3b41c9026d8f50e1711c0bdca3b74a488d02b9",
+      "artifact_id": "A066",
+      "exists": true,
+      "expected_sha256": "faf0878262b2065e5a638eedaf3b41c9026d8f50e1711c0bdca3b74a488d02b9",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q01-transport.json"
+    },
+    {
+      "actual_sha256": "b58c3ba02b872281558d0b228743aabdd459d0a1a2d58d948f5e9f410bd0e2eb",
+      "artifact_id": "A067",
+      "exists": true,
+      "expected_sha256": "b58c3ba02b872281558d0b228743aabdd459d0a1a2d58d948f5e9f410bd0e2eb",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q02-request.json"
+    },
+    {
+      "actual_sha256": "7f5352cebfb2c8141c0c9563413d7e1cc52c509fb9ec1bbbb6314d1bee02b823",
+      "artifact_id": "A068",
+      "exists": true,
+      "expected_sha256": "7f5352cebfb2c8141c0c9563413d7e1cc52c509fb9ec1bbbb6314d1bee02b823",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q02-response.bin"
+    },
+    {
+      "actual_sha256": "1b3012c9931d0f57ce3fdaf259709ad145f6a499f9ded354966281d80ec73161",
+      "artifact_id": "A069",
+      "exists": true,
+      "expected_sha256": "1b3012c9931d0f57ce3fdaf259709ad145f6a499f9ded354966281d80ec73161",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q02-transport.json"
+    },
+    {
+      "actual_sha256": "91501d6c1914c065445cfe8f3fc9aca974ea30d44a671b3fd2b7fcb84f365574",
+      "artifact_id": "A070",
+      "exists": true,
+      "expected_sha256": "91501d6c1914c065445cfe8f3fc9aca974ea30d44a671b3fd2b7fcb84f365574",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q03-request.json"
+    },
+    {
+      "actual_sha256": "acf510c3a511b4aeb0002fc7291bcbce9883176bd1d59486f1d2276dfb01ff0d",
+      "artifact_id": "A071",
+      "exists": true,
+      "expected_sha256": "acf510c3a511b4aeb0002fc7291bcbce9883176bd1d59486f1d2276dfb01ff0d",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q03-response.bin"
+    },
+    {
+      "actual_sha256": "0654e59df71298689a5e966bb75bbc10d7fb77ed829eeec125c8e8c1dcd6a680",
+      "artifact_id": "A072",
+      "exists": true,
+      "expected_sha256": "0654e59df71298689a5e966bb75bbc10d7fb77ed829eeec125c8e8c1dcd6a680",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q03-transport.json"
+    },
+    {
+      "actual_sha256": "6c0fafc03eec35a0b098cbe3b83dc76f9e0ae53c77febf657f3416f27a10d618",
+      "artifact_id": "A073",
+      "exists": true,
+      "expected_sha256": "6c0fafc03eec35a0b098cbe3b83dc76f9e0ae53c77febf657f3416f27a10d618",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q04-request.json"
+    },
+    {
+      "actual_sha256": "95db9e00bdf61142859a96eb19f24356de14e6a1623ed4856ec137c0e2562dfa",
+      "artifact_id": "A074",
+      "exists": true,
+      "expected_sha256": "95db9e00bdf61142859a96eb19f24356de14e6a1623ed4856ec137c0e2562dfa",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q04-response.bin"
+    },
+    {
+      "actual_sha256": "78141e7b6963302787862cea43b8d2804e25d1fadefbde4608d603b55fd686f4",
+      "artifact_id": "A075",
+      "exists": true,
+      "expected_sha256": "78141e7b6963302787862cea43b8d2804e25d1fadefbde4608d603b55fd686f4",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q04-transport.json"
+    },
+    {
+      "actual_sha256": "f30e2cf54bec1b72864f6bc67b32bcb844b9cf53f10882ddd39ec3b87fed896d",
+      "artifact_id": "A076",
+      "exists": true,
+      "expected_sha256": "f30e2cf54bec1b72864f6bc67b32bcb844b9cf53f10882ddd39ec3b87fed896d",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q05-request.json"
+    },
+    {
+      "actual_sha256": "92f6022cc05b8acf7e0418706071ea04e96ed603a6eeedbfe81938277ca68bb3",
+      "artifact_id": "A077",
+      "exists": true,
+      "expected_sha256": "92f6022cc05b8acf7e0418706071ea04e96ed603a6eeedbfe81938277ca68bb3",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q05-response.bin"
+    },
+    {
+      "actual_sha256": "a97ff09b30244f10a04a4f9ed538daee6f3a7e105360b2c6703f7fe34c2dd2b0",
+      "artifact_id": "A078",
+      "exists": true,
+      "expected_sha256": "a97ff09b30244f10a04a4f9ed538daee6f3a7e105360b2c6703f7fe34c2dd2b0",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q05-transport.json"
+    },
+    {
+      "actual_sha256": "3b18d37be85298e72034d41c0219de8c1b55e29ec7d3b8b63b6bd2d6792099d4",
+      "artifact_id": "A079",
+      "exists": true,
+      "expected_sha256": "3b18d37be85298e72034d41c0219de8c1b55e29ec7d3b8b63b6bd2d6792099d4",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q06-request.json"
+    },
+    {
+      "actual_sha256": "a9d234c94de50bec49a87470300c0a68b58cf01480cbec28d3b7b7c09ef3309d",
+      "artifact_id": "A080",
+      "exists": true,
+      "expected_sha256": "a9d234c94de50bec49a87470300c0a68b58cf01480cbec28d3b7b7c09ef3309d",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q06-response.bin"
+    },
+    {
+      "actual_sha256": "a97aa8a74824ed320c36cdd1ce91fcbcbe16c93d1ea3fea77d46413ea438158a",
+      "artifact_id": "A081",
+      "exists": true,
+      "expected_sha256": "a97aa8a74824ed320c36cdd1ce91fcbcbe16c93d1ea3fea77d46413ea438158a",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q06-transport.json"
+    },
+    {
+      "actual_sha256": "abb285ba61a4195a8a457e9a0fa0086096776fa50bb94d10cfab2800664bfbf9",
+      "artifact_id": "A082",
+      "exists": true,
+      "expected_sha256": "abb285ba61a4195a8a457e9a0fa0086096776fa50bb94d10cfab2800664bfbf9",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q07-request.json"
+    },
+    {
+      "actual_sha256": "6f20fe7d1e865efa514fe46da47916bb50d3f2571f11c67b25cbe6c176ae6b09",
+      "artifact_id": "A083",
+      "exists": true,
+      "expected_sha256": "6f20fe7d1e865efa514fe46da47916bb50d3f2571f11c67b25cbe6c176ae6b09",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q07-response.bin"
+    },
+    {
+      "actual_sha256": "6f606bc53043c7eaa1a03ade556d141b81cff29caf96b1053ea1d10506b96c03",
+      "artifact_id": "A084",
+      "exists": true,
+      "expected_sha256": "6f606bc53043c7eaa1a03ade556d141b81cff29caf96b1053ea1d10506b96c03",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q07-transport.json"
+    },
+    {
+      "actual_sha256": "209fdb94ac2b8a370a952c2b192dca0bf422651735a627f46100747c6482df0d",
+      "artifact_id": "A085",
+      "exists": true,
+      "expected_sha256": "209fdb94ac2b8a370a952c2b192dca0bf422651735a627f46100747c6482df0d",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q08-request.json"
+    },
+    {
+      "actual_sha256": "ca16d10cbaa96ea4f9858e2fe9dd3ecdccd7264dc68dc71a98157bcec288d860",
+      "artifact_id": "A086",
+      "exists": true,
+      "expected_sha256": "ca16d10cbaa96ea4f9858e2fe9dd3ecdccd7264dc68dc71a98157bcec288d860",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q08-response.bin"
+    },
+    {
+      "actual_sha256": "e84948fbb9b502e7d37aa9f77f23928534c8f4512927ce8ee585dfeedbd97d94",
+      "artifact_id": "A087",
+      "exists": true,
+      "expected_sha256": "e84948fbb9b502e7d37aa9f77f23928534c8f4512927ce8ee585dfeedbd97d94",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q08-transport.json"
+    },
+    {
+      "actual_sha256": "136f1befc4b96dbead31d6d8564c16fa97579018f0b51f2809dc88e2b1a964f8",
+      "artifact_id": "A088",
+      "exists": true,
+      "expected_sha256": "136f1befc4b96dbead31d6d8564c16fa97579018f0b51f2809dc88e2b1a964f8",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q09-request.json"
+    },
+    {
+      "actual_sha256": "b8324a72b884fc406ba2329883a3472b11bedad9475bc5f944f8bf50c92be31e",
+      "artifact_id": "A089",
+      "exists": true,
+      "expected_sha256": "b8324a72b884fc406ba2329883a3472b11bedad9475bc5f944f8bf50c92be31e",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q09-response.bin"
+    },
+    {
+      "actual_sha256": "e272d66770e5251f1472f4682fbab8a0289db03987c7e5b345a352d5a1c447f9",
+      "artifact_id": "A090",
+      "exists": true,
+      "expected_sha256": "e272d66770e5251f1472f4682fbab8a0289db03987c7e5b345a352d5a1c447f9",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q09-transport.json"
+    },
+    {
+      "actual_sha256": "f062b69226d8bd920817d62e23ec04ca2fff5cf85219bfc85cf01b9be75bd3c7",
+      "artifact_id": "A091",
+      "exists": true,
+      "expected_sha256": "f062b69226d8bd920817d62e23ec04ca2fff5cf85219bfc85cf01b9be75bd3c7",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q10-request.json"
+    },
+    {
+      "actual_sha256": "8fc0c50c3a88f499fb9516467a0f794410e37480c2313fd9c2a312b8caf302a4",
+      "artifact_id": "A092",
+      "exists": true,
+      "expected_sha256": "8fc0c50c3a88f499fb9516467a0f794410e37480c2313fd9c2a312b8caf302a4",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q10-response.bin"
+    },
+    {
+      "actual_sha256": "70f1c895ffb1ba0cabd755a385ff1e4bf558d7ddb35470b1d7d58400d3cc1373",
+      "artifact_id": "A093",
+      "exists": true,
+      "expected_sha256": "70f1c895ffb1ba0cabd755a385ff1e4bf558d7ddb35470b1d7d58400d3cc1373",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q10-transport.json"
+    },
+    {
+      "actual_sha256": "7e4a8ca60f0127d30af46d96ffc989afc256062a4b9b1c3afd5c5565c04814af",
+      "artifact_id": "A094",
+      "exists": true,
+      "expected_sha256": "7e4a8ca60f0127d30af46d96ffc989afc256062a4b9b1c3afd5c5565c04814af",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q11-request.json"
+    },
+    {
+      "actual_sha256": "4370b898cadbb405fb7de30696f3525c230678e9b15e18fcb6e96bbb88678973",
+      "artifact_id": "A095",
+      "exists": true,
+      "expected_sha256": "4370b898cadbb405fb7de30696f3525c230678e9b15e18fcb6e96bbb88678973",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q11-response.bin"
+    },
+    {
+      "actual_sha256": "8b8b024a87e4552e0731917dd2bac595a8d2831f8b52721626e1fc5c3994915f",
+      "artifact_id": "A096",
+      "exists": true,
+      "expected_sha256": "8b8b024a87e4552e0731917dd2bac595a8d2831f8b52721626e1fc5c3994915f",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q11-transport.json"
+    },
+    {
+      "actual_sha256": "3cab78eb0bff673da7fa49a2171a37eb12f8893d2d8f636d3ac1b28df466821e",
+      "artifact_id": "A097",
+      "exists": true,
+      "expected_sha256": "3cab78eb0bff673da7fa49a2171a37eb12f8893d2d8f636d3ac1b28df466821e",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q12-request.json"
+    },
+    {
+      "actual_sha256": "c06ecfe65682e6fdcea7049ed2dac00b99d604f0982782bac7faa6e7cd335100",
+      "artifact_id": "A098",
+      "exists": true,
+      "expected_sha256": "c06ecfe65682e6fdcea7049ed2dac00b99d604f0982782bac7faa6e7cd335100",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q12-response.bin"
+    },
+    {
+      "actual_sha256": "05f2954db51a104867760a464fbbc8341ea4e78a4f25eb9dbc7b8634c30b084d",
+      "artifact_id": "A099",
+      "exists": true,
+      "expected_sha256": "05f2954db51a104867760a464fbbc8341ea4e78a4f25eb9dbc7b8634c30b084d",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/Q12-transport.json"
+    },
+    {
+      "actual_sha256": "3e7109f201ebd996b6574afa7b496032a63474c0fa97f93a3b842943991f2d0f",
+      "artifact_id": "A100",
+      "exists": true,
+      "expected_sha256": "3e7109f201ebd996b6574afa7b496032a63474c0fa97f93a3b842943991f2d0f",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/retrieval-manifest.json"
+    },
+    {
+      "actual_sha256": "848ac3e25222af20cf86429b9648d9c282275a437f69401f51f300e9279ff224",
+      "artifact_id": "A101",
+      "exists": true,
+      "expected_sha256": "848ac3e25222af20cf86429b9648d9c282275a437f69401f51f300e9279ff224",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/retrieval-study-v1.json"
+    },
+    {
+      "actual_sha256": "d3371d9e82b59b385e77c506785994bfbccb828d0fba4a094ab0df98fd542779",
+      "artifact_id": "A102",
+      "exists": true,
+      "expected_sha256": "d3371d9e82b59b385e77c506785994bfbccb828d0fba4a094ab0df98fd542779",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-raw/STARTED"
+    },
+    {
+      "actual_sha256": "39123f5a9d8197de23be95969e8d8dca432fbb3390fab63640487dc268b50307",
+      "artifact_id": "A103",
+      "exists": true,
+      "expected_sha256": "39123f5a9d8197de23be95969e8d8dca432fbb3390fab63640487dc268b50307",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-review/SEALED-reviewer-A-round1.json"
+    },
+    {
+      "actual_sha256": "030cf2360f0bcf8448fa809dc5141da716ba89262ad7140bf7fa1c283224cd3d",
+      "artifact_id": "A104",
+      "exists": true,
+      "expected_sha256": "030cf2360f0bcf8448fa809dc5141da716ba89262ad7140bf7fa1c283224cd3d",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-review-adjudication-corrections.json"
+    },
+    {
+      "actual_sha256": "1b64837ccce001b3bbe5996b594a8d820bcbcab0a87e1831f8e6fb2441311fb9",
+      "artifact_id": "A105",
+      "exists": true,
+      "expected_sha256": "1b64837ccce001b3bbe5996b594a8d820bcbcab0a87e1831f8e6fb2441311fb9",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-review-adjudication.json"
+    },
+    {
+      "actual_sha256": "0a30dd604877266a33524ef6260d6f5ca6f3b445b172ed8b4da78fca0554eb98",
+      "artifact_id": "A106",
+      "exists": true,
+      "expected_sha256": "0a30dd604877266a33524ef6260d6f5ca6f3b445b172ed8b4da78fca0554eb98",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-review-adjudication.md"
+    },
+    {
+      "actual_sha256": "143abc46303d78b0bf68a39c23bb381ac3fd4fd100b69d406ccf0368e7af6f54",
+      "artifact_id": "A107",
+      "exists": true,
+      "expected_sha256": "143abc46303d78b0bf68a39c23bb381ac3fd4fd100b69d406ccf0368e7af6f54",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-round2/annotations.json"
+    },
+    {
+      "actual_sha256": "62a877400eee2d711c0b186b78763456494d6695fa51b744419d4b4a52b8dab0",
+      "artifact_id": "A108",
+      "exists": true,
+      "expected_sha256": "62a877400eee2d711c0b186b78763456494d6695fa51b744419d4b4a52b8dab0",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-round2/fixtures/R2-T17464638-even-cycle-period.json"
+    },
+    {
+      "actual_sha256": "1397c05efa08010be3ee688b0888a36da77814bed7d31e739520dd852c2b9530",
+      "artifact_id": "A109",
+      "exists": true,
+      "expected_sha256": "1397c05efa08010be3ee688b0888a36da77814bed7d31e739520dd852c2b9530",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-round2/fixtures/R2-T17464638-odd-cycle-period.json"
+    },
+    {
+      "actual_sha256": "717188402916b607f1babe80e7cb7967c7bfc79d06578b35e932080c49354aba",
+      "artifact_id": "A110",
+      "exists": true,
+      "expected_sha256": "717188402916b607f1babe80e7cb7967c7bfc79d06578b35e932080c49354aba",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-round2/fixtures/R2-T18134454-weighted-edge-inclusion.json"
+    },
+    {
+      "actual_sha256": "e83d42e63cef2b310a8ff5846f2c81326e5a5e4759e1ed3881b30b377c7fabae",
+      "artifact_id": "A111",
+      "exists": true,
+      "expected_sha256": "e83d42e63cef2b310a8ff5846f2c81326e5a5e4759e1ed3881b30b377c7fabae",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-round2/fixtures/R2-T18276974-disconnected-normalized-nonzero-product.json"
+    },
+    {
+      "actual_sha256": "5322965f4770a0c51cb3dc2f5dbf3fc7dd3013ce4ba2df36552fb09101d0dd3d",
+      "artifact_id": "A112",
+      "exists": true,
+      "expected_sha256": "5322965f4770a0c51cb3dc2f5dbf3fc7dd3013ce4ba2df36552fb09101d0dd3d",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-round2/fixtures/R2-T19685900-connected-normalized-tree-formula.json"
+    },
+    {
+      "actual_sha256": "5fb55daa7f15e1ef27c9dbd39f6793aabb159c1c9f0aa1a3ec1876681880e278",
+      "artifact_id": "A113",
+      "exists": true,
+      "expected_sha256": "5fb55daa7f15e1ef27c9dbd39f6793aabb159c1c9f0aa1a3ec1876681880e278",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-round2/fixtures/R2-T22467127-cycle-edge-inclusion.json"
+    },
+    {
+      "actual_sha256": "91debe5a89680449cf3544bce1fce96b9307c043bfba55a4329f53020090218b",
+      "artifact_id": "A114",
+      "exists": true,
+      "expected_sha256": "91debe5a89680449cf3544bce1fce96b9307c043bfba55a4329f53020090218b",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-round2/fixtures/R2-T23150070-disconnected-nonzero-product.json"
+    },
+    {
+      "actual_sha256": "a36cde2abac16842aa95f665052fb1324f800727b0cdd89bcc4d35e05af8a7d5",
+      "artifact_id": "A115",
+      "exists": true,
+      "expected_sha256": "a36cde2abac16842aa95f665052fb1324f800727b0cdd89bcc4d35e05af8a7d5",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-round2/fixtures/R2-T24585048-unit-edge-inclusion.json"
+    },
+    {
+      "actual_sha256": "317c526c18ba20a0d84394f9a1f741c5ce09949583b6304719ab2d5ca27e669f",
+      "artifact_id": "A116",
+      "exists": true,
+      "expected_sha256": "317c526c18ba20a0d84394f9a1f741c5ce09949583b6304719ab2d5ca27e669f",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-round2/fixtures/R2-T26329144-connected-weighted-commute.json"
+    },
+    {
+      "actual_sha256": "64c10f8db56dcc8d9c61ac5d9de18dac283717a30258fb4c0d196065fc033c61",
+      "artifact_id": "A117",
+      "exists": true,
+      "expected_sha256": "64c10f8db56dcc8d9c61ac5d9de18dac283717a30258fb4c0d196065fc033c61",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/retrieval-round2/run_retrieval_round2.py"
+    },
+    {
+      "actual_sha256": "cc99747b80e03dfc24a5518bd53eb67e98f5b164c761c1a33dba03be33d6d2f7",
+      "artifact_id": "A118",
+      "exists": true,
+      "expected_sha256": "cc99747b80e03dfc24a5518bd53eb67e98f5b164c761c1a33dba03be33d6d2f7",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/SEALED/reviewer-b.json"
+    },
+    {
+      "actual_sha256": "fe5124acca0270f7810071d39e28153c160a7381c9e637f8e650983eaf98dd16",
+      "artifact_id": "A119",
+      "exists": true,
+      "expected_sha256": "fe5124acca0270f7810071d39e28153c160a7381c9e637f8e650983eaf98dd16",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/SEALED/structured-heldout-delta-v1.0.1-comparison.json"
+    },
+    {
+      "actual_sha256": "638a93e25b07acb9760953cea76a6f53ed9311460af6b5b1b6bed0971ee2a3f5",
+      "artifact_id": "A120",
+      "exists": true,
+      "expected_sha256": "638a93e25b07acb9760953cea76a6f53ed9311460af6b5b1b6bed0971ee2a3f5",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/SEALED/structured-heldout-delta-v1.0.2-comparison.json"
+    },
+    {
+      "actual_sha256": "e0910576e8d1691ea286b8e2949314e6adb1858ab77334318d7b8593f6bee311",
+      "artifact_id": "A121",
+      "exists": true,
+      "expected_sha256": "e0910576e8d1691ea286b8e2949314e6adb1858ab77334318d7b8593f6bee311",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/SEALED/structured-heldout-first-run-comparison-attempt02.json"
+    },
+    {
+      "actual_sha256": "3209c963070b5957cde66128895e53b87f4de06a7a66bf3cf7bde5bdad65f0b7",
+      "artifact_id": "A122",
+      "exists": true,
+      "expected_sha256": "3209c963070b5957cde66128895e53b87f4de06a7a66bf3cf7bde5bdad65f0b7",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/SEALED/structured-heldout-first-run-comparison.json"
+    },
+    {
+      "actual_sha256": "3c96287617319c73631c4586296f541204f7d16ed35088e6888ba4595cbc57c4",
+      "artifact_id": "A123",
+      "exists": true,
+      "expected_sha256": "3c96287617319c73631c4586296f541204f7d16ed35088e6888ba4595cbc57c4",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/SEALED/structured-transfer-heldout-v1.aes256gcm"
+    },
+    {
+      "actual_sha256": "b2c36372e5207f521c804ab9cf0a1b0eb09ebef1cab1eeac10b9ed19712231a1",
+      "artifact_id": "A124",
+      "exists": true,
+      "expected_sha256": "b2c36372e5207f521c804ab9cf0a1b0eb09ebef1cab1eeac10b9ed19712231a1",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/sealed-suite-manifest.json"
+    },
+    {
+      "actual_sha256": "87733a023fa8c3393fe54b5bba7748abbf94c85d23afd31144e67b194fba6361",
+      "artifact_id": "A125",
+      "exists": true,
+      "expected_sha256": "87733a023fa8c3393fe54b5bba7748abbf94c85d23afd31144e67b194fba6361",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent/source-locators.json"
+    },
+    {
+      "actual_sha256": "c2a7512c2ecfca5bbe67ca895fc756a6826b2a846699946c2d591deb38085e92",
+      "artifact_id": "A126",
+      "exists": true,
+      "expected_sha256": "c2a7512c2ecfca5bbe67ca895fc756a6826b2a846699946c2d591deb38085e92",
+      "inside_project": true,
+      "matches": true,
+      "path": "src/atlas_checks/__init__.py"
+    },
+    {
+      "actual_sha256": "777e9fbe3bf8d49e2b1d9d19bae06e15acaf96436bbcc14e6bfaae807d7803e4",
+      "artifact_id": "A127",
+      "exists": true,
+      "expected_sha256": "777e9fbe3bf8d49e2b1d9d19bae06e15acaf96436bbcc14e6bfaae807d7803e4",
+      "inside_project": true,
+      "matches": true,
+      "path": "src/atlas_checks/__main__.py"
+    },
+    {
+      "actual_sha256": "204465f6c895b30dc3f0bd6032a043c2d3b43b427b8f169667c965f6888af407",
+      "artifact_id": "A128",
+      "exists": true,
+      "expected_sha256": "204465f6c895b30dc3f0bd6032a043c2d3b43b427b8f169667c965f6888af407",
+      "inside_project": true,
+      "matches": true,
+      "path": "src/atlas_checks/api.py"
+    },
+    {
+      "actual_sha256": "be40427533fb3957d329ad8e1180974bc90314b7777e6480762ae5650ee15bb2",
+      "artifact_id": "A129",
+      "exists": true,
+      "expected_sha256": "be40427533fb3957d329ad8e1180974bc90314b7777e6480762ae5650ee15bb2",
+      "inside_project": true,
+      "matches": true,
+      "path": "src/atlas_checks/electrical.py"
+    },
+    {
+      "actual_sha256": "ebf7b2434dd4df26eb1dc16518fb1fb88b72b6729752b7fde65d16ba6fc10134",
+      "artifact_id": "A130",
+      "exists": true,
+      "expected_sha256": "ebf7b2434dd4df26eb1dc16518fb1fb88b72b6729752b7fde65d16ba6fc10134",
+      "inside_project": true,
+      "matches": true,
+      "path": "src/atlas_checks/expressions.py"
+    },
+    {
+      "actual_sha256": "460b3d7b43055f388e249673811b13f6f90612ba76c0a0b1c56e411287692367",
+      "artifact_id": "A131",
+      "exists": true,
+      "expected_sha256": "460b3d7b43055f388e249673811b13f6f90612ba76c0a0b1c56e411287692367",
+      "inside_project": true,
+      "matches": true,
+      "path": "src/atlas_checks/graph_math.py"
+    },
+    {
+      "actual_sha256": "467d80a5f007740e63edc559e8ecfe70c27fb1618e092a82068723d50c274132",
+      "artifact_id": "A132",
+      "exists": true,
+      "expected_sha256": "467d80a5f007740e63edc559e8ecfe70c27fb1618e092a82068723d50c274132",
+      "inside_project": true,
+      "matches": true,
+      "path": "src/atlas_checks/linear.py"
+    },
+    {
+      "actual_sha256": "6fe40dedd88cf032c77484cbc1722a49388f72036d59b920586bbbf1e5e2e219",
+      "artifact_id": "A133",
+      "exists": true,
+      "expected_sha256": "6fe40dedd88cf032c77484cbc1722a49388f72036d59b920586bbbf1e5e2e219",
+      "inside_project": true,
+      "matches": true,
+      "path": "src/atlas_checks/markov.py"
+    },
+    {
+      "actual_sha256": "2237d532a25ef945efd54581893e1f1287c6837898f0f39686460cfb9a71f10c",
+      "artifact_id": "A134",
+      "exists": true,
+      "expected_sha256": "2237d532a25ef945efd54581893e1f1287c6837898f0f39686460cfb9a71f10c",
+      "inside_project": true,
+      "matches": true,
+      "path": "src/atlas_checks/model.py"
+    },
+    {
+      "actual_sha256": "a1e9f85c214e96b36b9058bab12dccd6065e926c23ef3b12bb0ad908c33161bb",
+      "artifact_id": "A135",
+      "exists": true,
+      "expected_sha256": "a1e9f85c214e96b36b9058bab12dccd6065e926c23ef3b12bb0ad908c33161bb",
+      "inside_project": true,
+      "matches": true,
+      "path": "src/atlas_checks/period.py"
+    },
+    {
+      "actual_sha256": "a6380c7ab8b43e492a037bfff90bcacf988fa1250a67cf7a841021ac8f71dc3c",
+      "artifact_id": "A136",
+      "exists": true,
+      "expected_sha256": "a6380c7ab8b43e492a037bfff90bcacf988fa1250a67cf7a841021ac8f71dc3c",
+      "inside_project": true,
+      "matches": true,
+      "path": "src/atlas_checks/quantities.py"
+    },
+    {
+      "actual_sha256": "6e2447dfc6207acee3c40e942ea08fcec08a6f031dbbfeaf7b57b49ab92abd3e",
+      "artifact_id": "A137",
+      "exists": true,
+      "expected_sha256": "6e2447dfc6207acee3c40e942ea08fcec08a6f031dbbfeaf7b57b49ab92abd3e",
+      "inside_project": true,
+      "matches": true,
+      "path": "src/atlas_checks/trees.py"
+    },
+    {
+      "actual_sha256": "d87db416097bccde095841b7df30fb71fa8c9de93b4059ad7f600053e9d1e304",
+      "artifact_id": "A138",
+      "exists": true,
+      "expected_sha256": "d87db416097bccde095841b7df30fb71fa8c9de93b4059ad7f600053e9d1e304",
+      "inside_project": true,
+      "matches": true,
+      "path": "src/atlas_checks/validation.py"
+    },
+    {
+      "actual_sha256": "01326d451569901e8e6d2fb5e3137724b4feb92840967d6b3ab85e17344d8614",
+      "artifact_id": "A139",
+      "exists": true,
+      "expected_sha256": "01326d451569901e8e6d2fb5e3137724b4feb92840967d6b3ab85e17344d8614",
+      "inside_project": true,
+      "matches": true,
+      "path": "src/atlas_checks/values.py"
+    },
+    {
+      "actual_sha256": "fe44b463a9063688e3121ed517a7d6327a489bc0a8467e7f5506197ca57a3f13",
+      "artifact_id": "A140",
+      "exists": true,
+      "expected_sha256": "fe44b463a9063688e3121ed517a7d6327a489bc0a8467e7f5506197ca57a3f13",
+      "inside_project": true,
+      "matches": true,
+      "path": "tests/assumption_checks/test_representation_delta.py"
+    },
+    {
+      "actual_sha256": "423908d7f3cf2574df29fd442f177807182ef469c6331d29b9e4d8c17e47af0a",
+      "artifact_id": "A141",
+      "exists": true,
+      "expected_sha256": "423908d7f3cf2574df29fd442f177807182ef469c6331d29b9e4d8c17e47af0a",
+      "inside_project": true,
+      "matches": true,
+      "path": "README-checks.md"
+    },
+    {
+      "actual_sha256": "c6a51140b2e4eb4ca30d67e7d5286c0465f573307c729864e46799980c8114e2",
+      "artifact_id": "A142",
+      "exists": true,
+      "expected_sha256": "c6a51140b2e4eb4ca30d67e7d5286c0465f573307c729864e46799980c8114e2",
+      "inside_project": true,
+      "matches": true,
+      "path": "scripts/generate_assumption_examples.py"
+    },
+    {
+      "actual_sha256": "986ede2dad9c0999cec39d0743af747df07402a2f2ce3e5bc9d21e59663b6cf6",
+      "artifact_id": "A143",
+      "exists": true,
+      "expected_sha256": "986ede2dad9c0999cec39d0743af747df07402a2f2ce3e5bc9d21e59663b6cf6",
+      "inside_project": true,
+      "matches": true,
+      "path": "tests/assumption_checks/test_exact_serialization_delta.py"
+    },
+    {
+      "actual_sha256": "6c39d2c0f95d9cebcb91347943bd5f2b976089f2b50a011f62cf97fbd2c5c6ae",
+      "artifact_id": "A144",
+      "exists": true,
+      "expected_sha256": "6c39d2c0f95d9cebcb91347943bd5f2b976089f2b50a011f62cf97fbd2c5c6ae",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/worker/supporting-scripts/check_large_exact_output_attempt02.py"
+    },
+    {
+      "actual_sha256": "3f81fa516b2e9240abdc9141874b2108bc6b02af84de2f62b593a211ce58c8c5",
+      "artifact_id": "A145",
+      "exists": true,
+      "expected_sha256": "3f81fa516b2e9240abdc9141874b2108bc6b02af84de2f62b593a211ce58c8c5",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/worker/code-freeze-manifest.json"
+    },
+    {
+      "actual_sha256": "9e0c00f3ed280000b575562522cbc893ca746e08f3d1e33d86ecddaaf1fc624c",
+      "artifact_id": "A146",
+      "exists": true,
+      "expected_sha256": "9e0c00f3ed280000b575562522cbc893ca746e08f3d1e33d86ecddaaf1fc624c",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/worker/freeze-hash-check.json"
+    },
+    {
+      "actual_sha256": "6c52374e6460644b841d9c0d131c801d7e0eb8c4b698ecd3c2085a47c702008d",
+      "artifact_id": "A147",
+      "exists": true,
+      "expected_sha256": "6c52374e6460644b841d9c0d131c801d7e0eb8c4b698ecd3c2085a47c702008d",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/worker/root-api-edge-inputs-attempt-01.json"
+    },
+    {
+      "actual_sha256": "75b39a01f6b2a471042d0b0049d4d8eed11d224203c4803672ffeabeed951dd0",
+      "artifact_id": "A148",
+      "exists": true,
+      "expected_sha256": "75b39a01f6b2a471042d0b0049d4d8eed11d224203c4803672ffeabeed951dd0",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/worker/root-api-edge-inputs-attempt-02.json"
+    },
+    {
+      "actual_sha256": "7b7f8456a635fe74b9849c9d816f5af611046715a74843937aab77fa7b55ae3b",
+      "artifact_id": "A149",
+      "exists": true,
+      "expected_sha256": "7b7f8456a635fe74b9849c9d816f5af611046715a74843937aab77fa7b55ae3b",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/worker/root-cli-decoding-attempt-01.json"
+    },
+    {
+      "actual_sha256": "a2c99fd6944bd05fb697cfea3780ddc90df464a60914584b0966b32693521953",
+      "artifact_id": "A150",
+      "exists": true,
+      "expected_sha256": "a2c99fd6944bd05fb697cfea3780ddc90df464a60914584b0966b32693521953",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/worker/root-large-output-attempt-01.json"
+    },
+    {
+      "actual_sha256": "d014006acdbeb4493eb8c92f4e27a81d245a04d3622d44685d20ac2da84b3e93",
+      "artifact_id": "A151",
+      "exists": true,
+      "expected_sha256": "d014006acdbeb4493eb8c92f4e27a81d245a04d3622d44685d20ac2da84b3e93",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/worker/root-large-output-attempt-02.json"
+    },
+    {
+      "actual_sha256": "57cd9e5bff85197d52e189d16f0c042e4c07d36bafcc528ffa627f9ca7361e79",
+      "artifact_id": "A152",
+      "exists": true,
+      "expected_sha256": "57cd9e5bff85197d52e189d16f0c042e4c07d36bafcc528ffa627f9ca7361e79",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/worker/root-patch-freeze-v1.0.1.json"
+    },
+    {
+      "actual_sha256": "50fd6ed3f43f8bdd30e325b249e605cd2bbde33db2336cf0142eba9a1ec5505d",
+      "artifact_id": "A153",
+      "exists": true,
+      "expected_sha256": "50fd6ed3f43f8bdd30e325b249e605cd2bbde33db2336cf0142eba9a1ec5505d",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/worker/root-patch-freeze-v1.0.2.json"
+    },
+    {
+      "actual_sha256": "72775789cce8fe176135802e798ab882165218a5141e1e94129798eabc4b1847",
+      "artifact_id": "A154",
+      "exists": true,
+      "expected_sha256": "72775789cce8fe176135802e798ab882165218a5141e1e94129798eabc4b1847",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/worker/version-1.0.1-source/retention-manifest.json"
+    },
+    {
+      "actual_sha256": "c8dfcb7b35d3773edacf70d2052814427fe3599e84b257ea4362b384d77bb498",
+      "artifact_id": "A155",
+      "exists": true,
+      "expected_sha256": "c8dfcb7b35d3773edacf70d2052814427fe3599e84b257ea4362b384d77bb498",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/root-reproduction/comparison-console.txt"
+    },
+    {
+      "actual_sha256": "7fd0e3640c1311639f906b1aae7a7d5b2cb097f3a738a6c5c5735bae248f5dbf",
+      "artifact_id": "A156",
+      "exists": true,
+      "expected_sha256": "7fd0e3640c1311639f906b1aae7a7d5b2cb097f3a738a6c5c5735bae248f5dbf",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/root-reproduction/comparison-detail.json"
+    },
+    {
+      "actual_sha256": "1c73d2e6ca8444d8e6d01bd27c972a383df46311ccb0b2115f662bf5a46e6532",
+      "artifact_id": "A157",
+      "exists": true,
+      "expected_sha256": "1c73d2e6ca8444d8e6d01bd27c972a383df46311ccb0b2115f662bf5a46e6532",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/root-reproduction/comparison-summary.json"
+    },
+    {
+      "actual_sha256": "ecac46f62636ef76b0f3ef6186725c1b113ecad5e3aeeffd571525165265f4b7",
+      "artifact_id": "A158",
+      "exists": true,
+      "expected_sha256": "ecac46f62636ef76b0f3ef6186725c1b113ecad5e3aeeffd571525165265f4b7",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/root-reproduction/run-console.txt"
+    },
+    {
+      "actual_sha256": "373c7e6d6bfdeace1fc7ba3eb301e8c0d7957ef82aee173d7630cf686080051f",
+      "artifact_id": "A159",
+      "exists": true,
+      "expected_sha256": "373c7e6d6bfdeace1fc7ba3eb301e8c0d7957ef82aee173d7630cf686080051f",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/root-reproduction/run-summary.json"
+    },
+    {
+      "actual_sha256": "c2e4f4fe94e08318324ea779a152f4252ccc07c82c7bf82d44c2021fd98ebb78",
+      "artifact_id": "A160",
+      "exists": true,
+      "expected_sha256": "c2e4f4fe94e08318324ea779a152f4252ccc07c82c7bf82d44c2021fd98ebb78",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/root-reproduction/run.jsonl"
+    },
+    {
+      "actual_sha256": "6a4b83996153e6dffab8d0f896e9aa3706d9a74d03436eb43db12bda16f39d7a",
+      "artifact_id": "A161",
+      "exists": true,
+      "expected_sha256": "6a4b83996153e6dffab8d0f896e9aa3706d9a74d03436eb43db12bda16f39d7a",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/teaching/attempt-01/manifest.json"
+    },
+    {
+      "actual_sha256": "1c0739406574cab9314d374061606e4e9aae1303ea496f7688279416f9988137",
+      "artifact_id": "A162",
+      "exists": true,
+      "expected_sha256": "1c0739406574cab9314d374061606e4e9aae1303ea496f7688279416f9988137",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/teaching/attempt-01/weighted-commute-failed-unit-weight-assumption.json"
+    },
+    {
+      "actual_sha256": "c7f54dc20982aa69033153326177527e9fccf39370c67ada2e7b32a1a5d68d77",
+      "artifact_id": "A163",
+      "exists": true,
+      "expected_sha256": "c7f54dc20982aa69033153326177527e9fccf39370c67ada2e7b32a1a5d68d77",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/teaching/attempt-01/weighted-commute-source-formula.json"
+    },
+    {
+      "actual_sha256": "6e107e7dbc5dcb426f5cf38789bd2e7905705c722b9aba2cd40b2719d1402163",
+      "artifact_id": "A164",
+      "exists": true,
+      "expected_sha256": "6e107e7dbc5dcb426f5cf38789bd2e7905705c722b9aba2cd40b2719d1402163",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/teaching/attempt-01/weighted-commute-synthetic-missing-weights.json"
+    },
+    {
+      "actual_sha256": "6a4b83996153e6dffab8d0f896e9aa3706d9a74d03436eb43db12bda16f39d7a",
+      "artifact_id": "A165",
+      "exists": true,
+      "expected_sha256": "6a4b83996153e6dffab8d0f896e9aa3706d9a74d03436eb43db12bda16f39d7a",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/teaching/attempt-02/manifest.json"
+    },
+    {
+      "actual_sha256": "ff03525e4420710fdc5984216f5b279874b8767f4c26757a433c4d704dff589d",
+      "artifact_id": "A166",
+      "exists": true,
+      "expected_sha256": "ff03525e4420710fdc5984216f5b279874b8767f4c26757a433c4d704dff589d",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/teaching/attempt-02/weighted-commute-failed-unit-weight-assumption.json"
+    },
+    {
+      "actual_sha256": "c7f54dc20982aa69033153326177527e9fccf39370c67ada2e7b32a1a5d68d77",
+      "artifact_id": "A167",
+      "exists": true,
+      "expected_sha256": "c7f54dc20982aa69033153326177527e9fccf39370c67ada2e7b32a1a5d68d77",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/teaching/attempt-02/weighted-commute-source-formula.json"
+    },
+    {
+      "actual_sha256": "6e107e7dbc5dcb426f5cf38789bd2e7905705c722b9aba2cd40b2719d1402163",
+      "artifact_id": "A168",
+      "exists": true,
+      "expected_sha256": "6e107e7dbc5dcb426f5cf38789bd2e7905705c722b9aba2cd40b2719d1402163",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/teaching/attempt-02/weighted-commute-synthetic-missing-weights.json"
+    },
+    {
+      "actual_sha256": "6a4b83996153e6dffab8d0f896e9aa3706d9a74d03436eb43db12bda16f39d7a",
+      "artifact_id": "A169",
+      "exists": true,
+      "expected_sha256": "6a4b83996153e6dffab8d0f896e9aa3706d9a74d03436eb43db12bda16f39d7a",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/teaching/attempt-03/manifest.json"
+    },
+    {
+      "actual_sha256": "757d93636eb7e4f142cae71c032ba4b3e708a60afe4302ff2e2701419cee9518",
+      "artifact_id": "A170",
+      "exists": true,
+      "expected_sha256": "757d93636eb7e4f142cae71c032ba4b3e708a60afe4302ff2e2701419cee9518",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/teaching/attempt-03/weighted-commute-failed-unit-weight-assumption.json"
+    },
+    {
+      "actual_sha256": "4b4300a53534b20d2bea682fa0392241bf85a04128c1760df9618b84b191f75b",
+      "artifact_id": "A171",
+      "exists": true,
+      "expected_sha256": "4b4300a53534b20d2bea682fa0392241bf85a04128c1760df9618b84b191f75b",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/teaching/attempt-03/weighted-commute-source-formula.json"
+    },
+    {
+      "actual_sha256": "351014858955cf6b2d75cba6dcbb10c620b6c4757640756f874ccafe09558b15",
+      "artifact_id": "A172",
+      "exists": true,
+      "expected_sha256": "351014858955cf6b2d75cba6dcbb10c620b6c4757640756f874ccafe09558b15",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/teaching/attempt-03/weighted-commute-synthetic-missing-weights.json"
+    },
+    {
+      "actual_sha256": "965261abc6b81e31bd41b0a63ed05a5d34d0324317bebab2e099e9e6d3fcc873",
+      "artifact_id": "A173",
+      "exists": true,
+      "expected_sha256": "965261abc6b81e31bd41b0a63ed05a5d34d0324317bebab2e099e9e6d3fcc873",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/teaching/generation-history.md"
+    },
+    {
+      "actual_sha256": "6a4b83996153e6dffab8d0f896e9aa3706d9a74d03436eb43db12bda16f39d7a",
+      "artifact_id": "A174",
+      "exists": true,
+      "expected_sha256": "6a4b83996153e6dffab8d0f896e9aa3706d9a74d03436eb43db12bda16f39d7a",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/teaching/manifest.json"
+    },
+    {
+      "actual_sha256": "85df6cb999a018ca802910761a86be05ee646727251590bc1a00b12b1b1ce341",
+      "artifact_id": "A175",
+      "exists": true,
+      "expected_sha256": "85df6cb999a018ca802910761a86be05ee646727251590bc1a00b12b1b1ce341",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/teaching/weighted-commute-failed-unit-weight-assumption.json"
+    },
+    {
+      "actual_sha256": "000a39ba100dd32f61d569fc96ced7725adb871b85620a781ddca6514aae8416",
+      "artifact_id": "A176",
+      "exists": true,
+      "expected_sha256": "000a39ba100dd32f61d569fc96ced7725adb871b85620a781ddca6514aae8416",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/teaching/weighted-commute-source-formula.json"
+    },
+    {
+      "actual_sha256": "d112443fa39b3ed547492bc6099a837ae1d56bcdb84eac3a9b84ec6712778685",
+      "artifact_id": "A177",
+      "exists": true,
+      "expected_sha256": "d112443fa39b3ed547492bc6099a837ae1d56bcdb84eac3a9b84ec6712778685",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/teaching/weighted-commute-synthetic-missing-weights.json"
+    },
+    {
+      "actual_sha256": "9cbeed24638bfd8a4ec2805f3e88a63a418a33d6e2d2124ec3033c14457d51de",
+      "artifact_id": "A178",
+      "exists": true,
+      "expected_sha256": "9cbeed24638bfd8a4ec2805f3e88a63a418a33d6e2d2124ec3033c14457d51de",
+      "inside_project": true,
+      "matches": true,
+      "path": "fixtures/assumption-checks/teaching/weighted-commute-failed-unit-weight-assumption.json"
+    },
+    {
+      "actual_sha256": "8921779953216d7ed8b473b875dcb0eb675c5b97c32311aa83e2101fa2d73844",
+      "artifact_id": "A179",
+      "exists": true,
+      "expected_sha256": "8921779953216d7ed8b473b875dcb0eb675c5b97c32311aa83e2101fa2d73844",
+      "inside_project": true,
+      "matches": true,
+      "path": "fixtures/assumption-checks/teaching/weighted-commute-source-formula.json"
+    },
+    {
+      "actual_sha256": "3162b45ee28d0621e5fae43d82cbf095027d48666e3623e1fbae0591aae1654f",
+      "artifact_id": "A180",
+      "exists": true,
+      "expected_sha256": "3162b45ee28d0621e5fae43d82cbf095027d48666e3623e1fbae0591aae1654f",
+      "inside_project": true,
+      "matches": true,
+      "path": "fixtures/assumption-checks/teaching/weighted-commute-synthetic-missing-weights.json"
+    },
+    {
+      "actual_sha256": "3736ec493b56063cc59721586fc64cca1dad479cbd8dcdc9150a9797ce9101ef",
+      "artifact_id": "A181",
+      "exists": true,
+      "expected_sha256": "3736ec493b56063cc59721586fc64cca1dad479cbd8dcdc9150a9797ce9101ef",
+      "inside_project": true,
+      "matches": true,
+      "path": "docs/assumption-check-progress.md"
+    },
+    {
+      "actual_sha256": "584afb4e829ab357c3bb5ae9119bbf4276a389d43652c2742baea1c98fc20579",
+      "artifact_id": "A182",
+      "exists": true,
+      "expected_sha256": "584afb4e829ab357c3bb5ae9119bbf4276a389d43652c2742baea1c98fc20579",
+      "inside_project": true,
+      "matches": true,
+      "path": "docs/assumption-teaching-examples.md"
+    },
+    {
+      "actual_sha256": "d82c17cbc30bdee0d4df928e94726e7f07427b0e707167e57cd18f0fb35c3f0f",
+      "artifact_id": "A183",
+      "exists": true,
+      "expected_sha256": "d82c17cbc30bdee0d4df928e94726e7f07427b0e707167e57cd18f0fb35c3f0f",
+      "inside_project": true,
+      "matches": true,
+      "path": "evidence/assumption-checks/independent-transfer.json"
+    },
+    {
+      "actual_sha256": "1dacd907224b0988af18b2bb9aa563504b9db0b75f21455072ad6a5478ae27dd",
+      "artifact_id": "A184",
+      "exists": true,
+      "expected_sha256": "1dacd907224b0988af18b2bb9aa563504b9db0b75f21455072ad6a5478ae27dd",
+      "inside_project": true,
+      "matches": true,
+      "path": "logs/assumption-public-reproduction.command.json"
+    },
+    {
+      "actual_sha256": "b3ad4ff27f7b483c4d3a74d1b86f16350b8aad84ac5e0fb744379b54ef7168f6",
+      "artifact_id": "A185",
+      "exists": true,
+      "expected_sha256": "b3ad4ff27f7b483c4d3a74d1b86f16350b8aad84ac5e0fb744379b54ef7168f6",
+      "inside_project": true,
+      "matches": true,
+      "path": "logs/assumption-public-reproduction.console.log"
+    },
+    {
+      "actual_sha256": "fef1e3826703895daf12940e289897e8c70ae48663aac1122aaea96679512854",
+      "artifact_id": "A186",
+      "exists": true,
+      "expected_sha256": "fef1e3826703895daf12940e289897e8c70ae48663aac1122aaea96679512854",
+      "inside_project": true,
+      "matches": true,
+      "path": "logs/library-integrated-python-tests.command.json"
+    },
+    {
+      "actual_sha256": "b6d2286a819f682a3d677a17e25607780402ae950819221ad7876314f8f749a5",
+      "artifact_id": "A187",
+      "exists": true,
+      "expected_sha256": "b6d2286a819f682a3d677a17e25607780402ae950819221ad7876314f8f749a5",
+      "inside_project": true,
+      "matches": true,
+      "path": "logs/library-integrated-python-tests.console.log"
+    },
+    {
+      "actual_sha256": "644667cf94835bb8d2304703f353a02a5bd9019ec831e9ac615308d924132d54",
+      "artifact_id": "A188",
+      "exists": true,
+      "expected_sha256": "644667cf94835bb8d2304703f353a02a5bd9019ec831e9ac615308d924132d54",
+      "inside_project": true,
+      "matches": true,
+      "path": "scripts/build_assumption_evidence.py"
+    }
+  ],
+  "auditor": "/root/sol_atlas_audit",
+  "bundle_bytes": 64225,
+  "bundle_path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.codex\\evidence\\runs\\assumption-checks-v1\\bundle.json",
+  "bundle_sha256": "f873d1988620a32b237e18a906d178174d5a3acc0d96a3b102ee3436604e31b8",
+  "freeze_file_checks": [
+    {
+      "actual": "c2a7512c2ecfca5bbe67ca895fc756a6826b2a846699946c2d591deb38085e92",
+      "expected": "c2a7512c2ecfca5bbe67ca895fc756a6826b2a846699946c2d591deb38085e92",
+      "matches": true,
+      "path": "src/atlas_checks/__init__.py"
+    },
+    {
+      "actual": "777e9fbe3bf8d49e2b1d9d19bae06e15acaf96436bbcc14e6bfaae807d7803e4",
+      "expected": "777e9fbe3bf8d49e2b1d9d19bae06e15acaf96436bbcc14e6bfaae807d7803e4",
+      "matches": true,
+      "path": "src/atlas_checks/__main__.py"
+    },
+    {
+      "actual": "204465f6c895b30dc3f0bd6032a043c2d3b43b427b8f169667c965f6888af407",
+      "expected": "204465f6c895b30dc3f0bd6032a043c2d3b43b427b8f169667c965f6888af407",
+      "matches": true,
+      "path": "src/atlas_checks/api.py"
+    },
+    {
+      "actual": "be40427533fb3957d329ad8e1180974bc90314b7777e6480762ae5650ee15bb2",
+      "expected": "be40427533fb3957d329ad8e1180974bc90314b7777e6480762ae5650ee15bb2",
+      "matches": true,
+      "path": "src/atlas_checks/electrical.py"
+    },
+    {
+      "actual": "ebf7b2434dd4df26eb1dc16518fb1fb88b72b6729752b7fde65d16ba6fc10134",
+      "expected": "ebf7b2434dd4df26eb1dc16518fb1fb88b72b6729752b7fde65d16ba6fc10134",
+      "matches": true,
+      "path": "src/atlas_checks/expressions.py"
+    },
+    {
+      "actual": "460b3d7b43055f388e249673811b13f6f90612ba76c0a0b1c56e411287692367",
+      "expected": "460b3d7b43055f388e249673811b13f6f90612ba76c0a0b1c56e411287692367",
+      "matches": true,
+      "path": "src/atlas_checks/graph_math.py"
+    },
+    {
+      "actual": "467d80a5f007740e63edc559e8ecfe70c27fb1618e092a82068723d50c274132",
+      "expected": "467d80a5f007740e63edc559e8ecfe70c27fb1618e092a82068723d50c274132",
+      "matches": true,
+      "path": "src/atlas_checks/linear.py"
+    },
+    {
+      "actual": "6fe40dedd88cf032c77484cbc1722a49388f72036d59b920586bbbf1e5e2e219",
+      "expected": "6fe40dedd88cf032c77484cbc1722a49388f72036d59b920586bbbf1e5e2e219",
+      "matches": true,
+      "path": "src/atlas_checks/markov.py"
+    },
+    {
+      "actual": "2237d532a25ef945efd54581893e1f1287c6837898f0f39686460cfb9a71f10c",
+      "expected": "2237d532a25ef945efd54581893e1f1287c6837898f0f39686460cfb9a71f10c",
+      "matches": true,
+      "path": "src/atlas_checks/model.py"
+    },
+    {
+      "actual": "a1e9f85c214e96b36b9058bab12dccd6065e926c23ef3b12bb0ad908c33161bb",
+      "expected": "a1e9f85c214e96b36b9058bab12dccd6065e926c23ef3b12bb0ad908c33161bb",
+      "matches": true,
+      "path": "src/atlas_checks/period.py"
+    },
+    {
+      "actual": "a6380c7ab8b43e492a037bfff90bcacf988fa1250a67cf7a841021ac8f71dc3c",
+      "expected": "a6380c7ab8b43e492a037bfff90bcacf988fa1250a67cf7a841021ac8f71dc3c",
+      "matches": true,
+      "path": "src/atlas_checks/quantities.py"
+    },
+    {
+      "actual": "6e2447dfc6207acee3c40e942ea08fcec08a6f031dbbfeaf7b57b49ab92abd3e",
+      "expected": "6e2447dfc6207acee3c40e942ea08fcec08a6f031dbbfeaf7b57b49ab92abd3e",
+      "matches": true,
+      "path": "src/atlas_checks/trees.py"
+    },
+    {
+      "actual": "d87db416097bccde095841b7df30fb71fa8c9de93b4059ad7f600053e9d1e304",
+      "expected": "d87db416097bccde095841b7df30fb71fa8c9de93b4059ad7f600053e9d1e304",
+      "matches": true,
+      "path": "src/atlas_checks/validation.py"
+    },
+    {
+      "actual": "01326d451569901e8e6d2fb5e3137724b4feb92840967d6b3ab85e17344d8614",
+      "expected": "01326d451569901e8e6d2fb5e3137724b4feb92840967d6b3ab85e17344d8614",
+      "matches": true,
+      "path": "src/atlas_checks/values.py"
+    },
+    {
+      "actual": "fe44b463a9063688e3121ed517a7d6327a489bc0a8467e7f5506197ca57a3f13",
+      "expected": "fe44b463a9063688e3121ed517a7d6327a489bc0a8467e7f5506197ca57a3f13",
+      "matches": true,
+      "path": "tests/assumption_checks/test_representation_delta.py"
+    },
+    {
+      "actual": "423908d7f3cf2574df29fd442f177807182ef469c6331d29b9e4d8c17e47af0a",
+      "expected": "423908d7f3cf2574df29fd442f177807182ef469c6331d29b9e4d8c17e47af0a",
+      "matches": true,
+      "path": "README-checks.md"
+    },
+    {
+      "actual": "c6a51140b2e4eb4ca30d67e7d5286c0465f573307c729864e46799980c8114e2",
+      "expected": "c6a51140b2e4eb4ca30d67e7d5286c0465f573307c729864e46799980c8114e2",
+      "matches": true,
+      "path": "scripts/generate_assumption_examples.py"
+    },
+    {
+      "actual": "986ede2dad9c0999cec39d0743af747df07402a2f2ce3e5bc9d21e59663b6cf6",
+      "expected": "986ede2dad9c0999cec39d0743af747df07402a2f2ce3e5bc9d21e59663b6cf6",
+      "matches": true,
+      "path": "tests/assumption_checks/test_exact_serialization_delta.py"
+    },
+    {
+      "actual": "6c39d2c0f95d9cebcb91347943bd5f2b976089f2b50a011f62cf97fbd2c5c6ae",
+      "expected": "6c39d2c0f95d9cebcb91347943bd5f2b976089f2b50a011f62cf97fbd2c5c6ae",
+      "matches": true,
+      "path": "evidence/assumption-checks/worker/supporting-scripts/check_large_exact_output_attempt02.py"
+    }
+  ],
+  "locator_checks": [
+    {
+      "artifact_exists": true,
+      "claim_id": "C001",
+      "kind": "artifact",
+      "locator_kind": "contains",
+      "observed": true,
+      "resolved": true,
+      "support": {
+        "artifact_id": "A128",
+        "locator": "contains:def check_transfer"
+      },
+      "support_index": 0
+    },
+    {
+      "artifact_exists": true,
+      "claim_id": "C001",
+      "kind": "artifact",
+      "locator_kind": "contains",
+      "observed": true,
+      "resolved": true,
+      "support": {
+        "artifact_id": "A001",
+        "locator": "contains:Natural-language interpretation is outside this implementation"
+      },
+      "support_index": 1
+    },
+    {
+      "artifact_exists": true,
+      "claim_id": "C001",
+      "kind": "artifact",
+      "locator_kind": "json_pointer",
+      "matches_expected": true,
+      "observed": "The checker consumes structured ASTs and supplied provenance. It does not verify URLs or infer whether a natural-language slogan was translated correctly.",
+      "resolved": true,
+      "support": {
+        "artifact_id": "A009",
+        "locator": "json:/limitations/1"
+      },
+      "support_index": 2
+    },
+    {
+      "artifact_exists": true,
+      "claim_id": "C002",
+      "kind": "artifact",
+      "locator_kind": "json_pointer",
+      "matches_expected": true,
+      "observed": "rw-laplacian-name-and-formula",
+      "resolved": true,
+      "support": {
+        "artifact_id": "A021",
+        "expected": "rw-laplacian-name-and-formula",
+        "locator": "json:/foundation_sources/0/id"
+      },
+      "support_index": 0
+    },
+    {
+      "artifact_exists": true,
+      "claim_id": "C002",
+      "kind": "artifact",
+      "locator_kind": "json_pointer",
+      "matches_expected": true,
+      "observed": "symmetric-normalized-distinction",
+      "resolved": true,
+      "support": {
+        "artifact_id": "A021",
+        "expected": "symmetric-normalized-distinction",
+        "locator": "json:/foundation_sources/2/id"
+      },
+      "support_index": 1
+    },
+    {
+      "artifact_exists": true,
+      "claim_id": "C002",
+      "kind": "artifact",
+      "locator_kind": "json_pointer",
+      "matches_expected": true,
+      "observed": "stationary-is-not-convergence",
+      "resolved": true,
+      "support": {
+        "artifact_id": "A021",
+        "expected": "stationary-is-not-convergence",
+        "locator": "json:/foundation_sources/3/id"
+      },
+      "support_index": 2
+    },
+    {
+      "artifact_exists": true,
+      "claim_id": "C003",
+      "kind": "artifact",
+      "locator_kind": "json_pointer",
+      "matches_expected": true,
+      "observed": 80,
+      "resolved": true,
+      "support": {
+        "artifact_id": "A157",
+        "expected": 80,
+        "locator": "json:/case_count"
+      },
+      "support_index": 0
+    },
+    {
+      "artifact_exists": true,
+      "claim_id": "C003",
+      "kind": "artifact",
+      "locator_kind": "json_pointer",
+      "matches_expected": true,
+      "observed": 80,
+      "resolved": true,
+      "support": {
+        "artifact_id": "A157",
+        "expected": 80,
+        "locator": "json:/pass_count"
+      },
+      "support_index": 1
+    },
+    {
+      "artifact_exists": true,
+      "claim_id": "C003",
+      "kind": "artifact",
+      "locator_kind": "json_pointer",
+      "matches_expected": true,
+      "observed": 0,
+      "resolved": true,
+      "support": {
+        "artifact_id": "A157",
+        "expected": 0,
+        "locator": "json:/failure_count"
+      },
+      "support_index": 2
+    },
+    {
+      "artifact_exists": true,
+      "claim_id": "C003",
+      "kind": "artifact",
+      "locator_kind": "json_pointer",
+      "matches_expected": true,
+      "observed": true,
+      "resolved": true,
+      "support": {
+        "artifact_id": "A009",
+        "expected": true,
+        "locator": "json:/assertions/portable_run_is_same_output_bytes"
+      },
+      "support_index": 3
+    },
+    {
+      "artifact_exists": true,
+      "claim_id": "C004",
+      "kind": "artifact",
+      "locator_kind": "contains",
+      "observed": true,
+      "resolved": true,
+      "support": {
+        "artifact_id": "A134",
+        "locator": "contains:def _integer_text"
+      },
+      "support_index": 0
+    },
+    {
+      "artifact_exists": true,
+      "claim_id": "C004",
+      "kind": "artifact",
+      "locator_kind": "json_pointer",
+      "matches_expected": true,
+      "observed": true,
+      "resolved": true,
+      "support": {
+        "artifact_id": "A061",
+        "expected": true,
+        "locator": "json:/all_checks_pass"
+      },
+      "support_index": 1
+    },
+    {
+      "artifact_exists": true,
+      "claim_id": "C004",
+      "kind": "artifact",
+      "locator_kind": "json_pointer",
+      "matches_expected": true,
+      "observed": [
+        {
+          "artifact": "raw/structured-heldout-first-run-comparison-summary.json",
+          "classification": "evaluator_calibration_failure",
+          "note": "The first comparator reported 20/80 because it compared unlike value representations. Attempt 02 compared the same immutable output JSONL and obtained 80/80; both are retained."
+        },
+        {
+          "artifact": "raw/public-boundary-defects-attempt01.json",
+          "classification": "implementation_defects_outside_prospective_suite",
+          "note": "The original 1.0.0 implementation escaped on huge integers, invalid UTF-8, and an unpaired surrogate, and admitted a 13-digit AST constant. The repairs are supplemental and do not change the historical 80/80 score."
+        },
+        {
+          "artifact": "raw/large-output-v1.0.1-retained-source-independent-reproduction.json",
+          "classification": "implementation_defect_outside_prospective_suite",
+          "note": "Hash-matched retained 1.0.1 source independently reproduces a ValueError while serializing a valid 8,400-digit exact result."
+        },
+        {
+          "artifact": "raw/large-output-preliminary-invalid-code-race.json",
+          "classification": "invalid_code_race_excluded",
+          "note": "This preliminary attempt intended to reproduce 1.0.1 but imported already-edited 1.0.2 bytes; it self-identifies 1.0.2 and is excluded from all conclusions."
+        },
+        {
+          "artifact": "raw/v1.0.2-exact-output-attempt01/large-output-v1.0.2-independent-verification.json",
+          "classification": "evaluator_expectation_error",
+          "note": "The large-output implementation and Decimal checks passed, but an auxiliary negative-fraction check forgot Fraction gcd reduction. Attempt 02 fixes only that evaluator expectation and passes all 16 checks; both are retained."
+        }
+      ],
+      "resolved": true,
+      "support": {
+        "artifact_id": "A009",
+        "locator": "json:/historical_failures_and_invalid_attempts"
+      },
+      "support_index": 2
+    },
+    {
+      "artifact_exists": true,
+      "claim_id": "C005",
+      "kind": "artifact",
+      "locator_kind": "json_pointer",
+      "matches_expected": true,
+      "observed": 24,
+      "resolved": true,
+      "support": {
+        "artifact_id": "A009",
+        "expected": 24,
+        "locator": "json:/retrieval_study/fixed_results"
+      },
+      "support_index": 0
+    },
+    {
+      "artifact_exists": true,
+      "claim_id": "C005",
+      "kind": "artifact",
+      "locator_kind": "json_pointer",
+      "matches_expected": true,
+      "observed": 21,
+      "resolved": true,
+      "support": {
+        "artifact_id": "A009",
+        "expected": 21,
+        "locator": "json:/retrieval_study/reviewer_agreement"
+      },
+      "support_index": 1
+    },
+    {
+      "artifact_exists": true,
+      "claim_id": "C005",
+      "kind": "artifact",
+      "locator_kind": "json_pointer",
+      "matches_expected": true,
+      "observed": {
+        "insufficient": 3,
+        "refuted": 9,
+        "supported": 12
+      },
+      "resolved": true,
+      "support": {
+        "artifact_id": "A009",
+        "expected": {
+          "insufficient": 3,
+          "refuted": 9,
+          "supported": 12
+        },
+        "locator": "json:/retrieval_study/adjudicated_labels_descriptive_only"
+      },
+      "support_index": 2
+    },
+    {
+      "artifact_exists": true,
+      "claim_id": "C005",
+      "kind": "artifact",
+      "locator_kind": "json_pointer",
+      "matches_expected": true,
+      "observed": "These corrections do not change either reviewer's original labels, the 21/24 agreement count, any adjudicated label, or any source-only descriptive count.",
+      "resolved": true,
+      "support": {
+        "artifact_id": "A104",
+        "locator": "json:/scope_limit"
+      },
+      "support_index": 3
+    },
+    {
+      "artifact_exists": true,
+      "claim_id": "C006",
+      "kind": "artifact",
+      "locator_kind": "json_pointer",
+      "matches_expected": true,
+      "observed": {
+        "evaluable_theorem_ids": 6,
+        "fixed_retrieval_rows": 24,
+        "fully_ineligible_theorem_ids": 16,
+        "structured_fixture_count": 9,
+        "syntax_mappable_but_abstaining_theorem_ids": 2,
+        "syntax_mappable_theorem_ids": 8
+      },
+      "resolved": true,
+      "support": {
+        "artifact_id": "A009",
+        "expected": {
+          "evaluable_theorem_ids": 6,
+          "fixed_retrieval_rows": 24,
+          "fully_ineligible_theorem_ids": 16,
+          "structured_fixture_count": 9,
+          "syntax_mappable_but_abstaining_theorem_ids": 2,
+          "syntax_mappable_theorem_ids": 8
+        },
+        "locator": "json:/retrieval_study/structured_accounting"
+      },
+      "support_index": 0
+    },
+    {
+      "artifact_exists": true,
+      "claim_id": "C006",
+      "kind": "artifact",
+      "locator_kind": "json_pointer",
+      "matches_expected": true,
+      "observed": {
+        "abstain": 2,
+        "no_counterexample_in_instance": 7
+      },
+      "resolved": true,
+      "support": {
+        "artifact_id": "A009",
+        "expected": {
+          "abstain": 2,
+          "no_counterexample_in_instance": 7
+        },
+        "locator": "json:/retrieval_study/structured_fixture_verdicts"
+      },
+      "support_index": 1
+    },
+    {
+      "artifact_exists": true,
+      "claim_id": "C006",
+      "kind": "artifact",
+      "locator_kind": "json_pointer",
+      "matches_expected": true,
+      "observed": 0,
+      "resolved": true,
+      "support": {
+        "artifact_id": "A009",
+        "expected": 0,
+        "locator": "json:/retrieval_study/incremental_source_refutation_detections"
+      },
+      "support_index": 2
+    },
+    {
+      "artifact_exists": true,
+      "claim_id": "C007",
+      "kind": "artifact",
+      "locator_kind": "json_pointer",
+      "matches_expected": true,
+      "observed": 3,
+      "resolved": true,
+      "support": {
+        "artifact_id": "A052",
+        "expected": 3,
+        "locator": "json:/record_count"
+      },
+      "support_index": 0
+    },
+    {
+      "artifact_exists": true,
+      "claim_id": "C007",
+      "kind": "artifact",
+      "locator_kind": "json_pointer",
+      "matches_expected": true,
+      "observed": true,
+      "resolved": true,
+      "support": {
+        "artifact_id": "A052",
+        "expected": true,
+        "locator": "json:/all_expected_checks_pass"
+      },
+      "support_index": 1
+    },
+    {
+      "artifact_exists": true,
+      "claim_id": "C007",
+      "kind": "artifact",
+      "locator_kind": "contains",
+      "observed": true,
+      "resolved": true,
+      "support": {
+        "artifact_id": "A182",
+        "locator": "contains:retained 1.0.1 runs"
+      },
+      "support_index": 2
+    },
+    {
+      "claim_id": "C008",
+      "kind": "prior_claim",
+      "resolved": true,
+      "support": {
+        "claim_id": "C001"
+      },
+      "support_index": 0
+    },
+    {
+      "claim_id": "C008",
+      "kind": "prior_claim",
+      "resolved": true,
+      "support": {
+        "claim_id": "C003"
+      },
+      "support_index": 1
+    },
+    {
+      "claim_id": "C008",
+      "kind": "prior_claim",
+      "resolved": true,
+      "support": {
+        "claim_id": "C005"
+      },
+      "support_index": 2
+    },
+    {
+      "claim_id": "C008",
+      "kind": "prior_claim",
+      "resolved": true,
+      "support": {
+        "claim_id": "C006"
+      },
+      "support_index": 3
+    }
+  ],
+  "reviewed_at": "2026-09-08T04:19:50.206159Z",
+  "schema_version": "1.0",
+  "semantic_assertions": {
+    "all_188_artifact_hashes_match": true,
+    "all_19_frozen_files_match": true,
+    "all_artifacts_are_inside_project": true,
+    "all_claim_support_locators_resolve": true,
+    "artifact_count_is_188_and_ids_unique": true,
+    "bundle_hash_matches_input_commitment": true,
+    "claim_count_is_8_and_ids_unique": true,
+    "combined_project_test_log_reports_155_passed": true,
+    "exact_output_decimal_check_passes": true,
+    "freeze_manifest_hash_matches": true,
+    "independent_final_audit_has_four_passes": true,
+    "input_checks_are_exactly_four_pending_placeholders": true,
+    "integrated_output_hash_matches_independent_final": true,
+    "integrated_public_rerun_is_80_of_80": true,
+    "retrieval_counts_are_scoped": true,
+    "retrieval_round_two_counts_match": true,
+    "source_matrix_has_10_foundation_and_24_retrieval_records": true,
+    "teaching_claim_is_scoped_to_three_root_authored_v101_records": true,
+    "theorem_182_locator_is_corrected": true,
+    "unverified_model_identity_is_withdrawn": true
+  }
+}

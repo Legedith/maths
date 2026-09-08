@@ -1,0 +1,10 @@
+Retrieval round-two structured instance checks
+started_at=2026-09-08T03:52:07.348179Z
+completed_at=2026-09-08T03:52:07.354095Z
+algorithm_version=atlas-checks/1.0.2
+fixtures=9
+matches=9
+escaped_exceptions=0
+observed_verdict_histogram={"abstain": 2, "no_counterexample_in_instance": 7}
+run_jsonl_sha256=987d24ff84ad24676df1c152101faa3b6c47d3c75b8ea247a7ebc82158df3351
+all_checks_pass=true

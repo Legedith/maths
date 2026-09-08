@@ -1,0 +1,26 @@
+{
+  "auditor": "/root/sol_atlas_audit",
+  "case_count": 80,
+  "completed_at": "2026-09-08T02:32:13.025736Z",
+  "first_run_jsonl": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\structured-heldout-first-run.jsonl",
+  "first_run_jsonl_sha256": "f4010a17efb0b20d9d2593719e4eaa620000876fcada8172ea0a6f5009b49e5f",
+  "freeze_id": "assumption-checker-v1-implementation-2026-09-08T07-51-39+05-30",
+  "freeze_manifest_sha256": "3f81fa516b2e9240abdc9141874b2108bc6b02af84de2f62b593a211ce58c8c5",
+  "gold_comparison_status": "not_performed_in_invocation; first outputs retained before comparison",
+  "implementation_exception_count": 0,
+  "implementation_modified": false,
+  "observed_verdict_histogram": {
+    "abstain": 8,
+    "counterexample": 11,
+    "invalid_input": 14,
+    "no_counterexample_in_instance": 44,
+    "not_applicable": 3
+  },
+  "run_kind": "independent_blinded_first_run",
+  "schema_version": "1.0",
+  "started_at": "2026-09-08T02:32:12.948710Z",
+  "suite_ciphertext_sha256": "3c96287617319c73631c4586296f541204f7d16ed35088e6888ba4595cbc57c4",
+  "suite_id": "structured-transfer-heldout-v1",
+  "suite_plaintext_sha256": "ddf50219b87547a9cae547d936a7afba76380f11c4cda7c5fbb473635a01d9ee",
+  "verified_frozen_file_count": 24
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "authored_teaching_examples",
+  "independent_review": "pending",
+  "records": [
+    {
+      "id": "weighted-commute-source-formula",
+      "input": "fixtures/assumption-checks/teaching/weighted-commute-source-formula.json",
+      "output": "evidence/assumption-checks/teaching/weighted-commute-source-formula.json",
+      "verdict": "no_counterexample_in_instance"
+    },
+    {
+      "id": "weighted-commute-synthetic-missing-weights",
+      "input": "fixtures/assumption-checks/teaching/weighted-commute-synthetic-missing-weights.json",
+      "output": "evidence/assumption-checks/teaching/weighted-commute-synthetic-missing-weights.json",
+      "verdict": "counterexample"
+    },
+    {
+      "id": "weighted-commute-failed-unit-weight-assumption",
+      "input": "fixtures/assumption-checks/teaching/weighted-commute-failed-unit-weight-assumption.json",
+      "output": "evidence/assumption-checks/teaching/weighted-commute-failed-unit-weight-assumption.json",
+      "verdict": "not_applicable"
+    }
+  ],
+  "scope": "Explicit root-authored annotations; separate from the sealed 80-case suite and 24-result prospective retrieval study. The deliberately altered formula is synthetic, not an error attributed to its source."
+}

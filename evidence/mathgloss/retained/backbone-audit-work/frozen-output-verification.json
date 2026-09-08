@@ -1,0 +1,312 @@
+{
+  "artifacts": {
+    "candidate_index": {
+      "bytes": 5134168,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\backbone-import-work\\outputs\\full-run-final-01\\candidate-index.json",
+      "sha256": "282ed1fd858595b782c856fbd2c96964a0b6ff3850fedf21105ca9bbb7edb4da"
+    },
+    "codepoint_fidelity": {
+      "bytes": 149734,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\backbone-import-work\\outputs\\corrected-ten-record-codepoint-fidelity.json",
+      "sha256": "8d4bde7e880a33eef0f8875f98269145c5317f38bbf313d305d499803b612389"
+    },
+    "corrected_subset": {
+      "bytes": 14375,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\backbone-import-work\\outputs\\corrected-ten-record-subset.json",
+      "sha256": "9381c9b79b91d3578a3434368a20c34cc5b99ae2c9cea2989ef502a8d0416ad5"
+    },
+    "ledger": {
+      "bytes": 6504559,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\backbone-import-work\\outputs\\full-run-final-01\\import-ledger.jsonl",
+      "sha256": "14d8e9cc972a83ac4267d4b168d9510f74c65abbae509e7149012ba653c4ad61"
+    },
+    "license": {
+      "bytes": 1066,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\backbone-reuse-work\\raw\\mathgloss\\LICENSE",
+      "sha256": "5dc6b930900926814fc7bb9ff45dfcceae3aa33780eb010c83e6df58493594e7"
+    },
+    "source": {
+      "bytes": 674640,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\backbone-reuse-work\\raw\\mathgloss\\data\\database.csv",
+      "sha256": "933a72820fe7ede53a803b750a480def205677e5722ae5f9589b0d1d9bf832b2"
+    },
+    "summary": {
+      "bytes": 1439,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\backbone-import-work\\outputs\\full-run-final-01\\summary.json",
+      "sha256": "0102f6fca4237d80d3e4e167c476f118d5cfaff41b5b325882bc784eecfa6e58"
+    }
+  },
+  "auditor": "/root/sol_symmetry_audit (independent Sol Max verifier)",
+  "checks": [
+    {
+      "id": "manifest-hash:implementation-manifest.json",
+      "note": "expected f5c3d409ced4f5cc75481b0adb7aa1e6168fd4f94dfe42a5a86f731a3700cb08; got f5c3d409ced4f5cc75481b0adb7aa1e6168fd4f94dfe42a5a86f731a3700cb08",
+      "status": "pass"
+    },
+    {
+      "id": "manifest-hash:output-manifest.json",
+      "note": "expected f798afaa7cb489ac815cff46721ed98b2db330411368b24082e1fe2ff9c52e5b; got f798afaa7cb489ac815cff46721ed98b2db330411368b24082e1fe2ff9c52e5b",
+      "status": "pass"
+    },
+    {
+      "id": "manifest-hash:source-manifest.json",
+      "note": "expected f0416b25f6719de7f7cc6de0e2597a91c3d2c4cb1ddccc17c563f47e37ec4be5; got f0416b25f6719de7f7cc6de0e2597a91c3d2c4cb1ddccc17c563f47e37ec4be5",
+      "status": "pass"
+    },
+    {
+      "id": "all-manifest-records",
+      "note": "checked 26 records; mismatches=[]",
+      "status": "pass"
+    },
+    {
+      "id": "source-hash-size",
+      "note": "source bytes=674640 sha256=933a72820fe7ede53a803b750a480def205677e5722ae5f9589b0d1d9bf832b2",
+      "status": "pass"
+    },
+    {
+      "id": "license-hash",
+      "note": "license bytes=1066 sha256=5dc6b930900926814fc7bb9ff45dfcceae3aa33780eb010c83e6df58493594e7",
+      "status": "pass"
+    },
+    {
+      "id": "source-strict-utf8-no-replacement",
+      "note": "pinned CSV decodes strictly and contains neither NUL nor U+FFFD",
+      "status": "pass"
+    },
+    {
+      "id": "exact-header",
+      "note": "header=['Wikidata ID', 'Wikidata Label', 'BCT Name', 'BCT Link', 'Chicago Name', 'Chicago Link', 'Clowder Name', 'Clowder Link', 'Context Name', 'Context Link', 'Mathlib Name', 'Mathlib Link', 'nLab Name', 'nLab Link', 'PlanetMath Name', 'PlanetMath Link']",
+      "status": "pass"
+    },
+    {
+      "id": "frozen-two-run-byte-identity",
+      "note": "byte differences=[]",
+      "status": "pass"
+    },
+    {
+      "id": "bundled-license-verbatim",
+      "note": "bundle notice is byte-identical to the pinned repository LICENSE",
+      "status": "pass"
+    },
+    {
+      "id": "strict-utf8:candidate-index.json",
+      "note": "candidate-index.json is strict UTF-8 without BOM or U+FFFD",
+      "status": "pass"
+    },
+    {
+      "id": "strict-utf8:import-ledger.jsonl",
+      "note": "import-ledger.jsonl is strict UTF-8 without BOM or U+FFFD",
+      "status": "pass"
+    },
+    {
+      "id": "strict-utf8:summary.json",
+      "note": "summary.json is strict UTF-8 without BOM or U+FFFD",
+      "status": "pass"
+    },
+    {
+      "id": "full-ledger-record-exactness",
+      "note": "compared 4814 source-derived ledger records exactly",
+      "status": "pass"
+    },
+    {
+      "id": "full-candidate-record-exactness",
+      "note": "compared 4814 source-derived candidate records exactly",
+      "status": "pass"
+    },
+    {
+      "id": "candidate-top-level-schema",
+      "note": "keys=['attribution', 'audit_counts', 'catalog_status', 'records', 'schema_version', 'source']",
+      "status": "pass"
+    },
+    {
+      "id": "candidate-source-provenance",
+      "note": "candidate index repeats exact source hash, size, commit, path and header",
+      "status": "pass"
+    },
+    {
+      "id": "candidate-attribution",
+      "note": "candidate index retains pinned attribution and limited license scope note",
+      "status": "pass"
+    },
+    {
+      "id": "candidate-unreviewed-status",
+      "note": "catalogue and every mapping/identity candidate are marked unreviewed",
+      "status": "pass"
+    },
+    {
+      "id": "candidate-audit-counts",
+      "note": "independent counts={'data_records_total': 4814, 'ledger_records': 4814, 'accepted_rows': 4814, 'rejected_rows': 0, 'candidate_records': 4814, 'record_width_mismatch_rows': 0, 'interpreted_link_pair_slots': 33698, 'absent_link_pairs': 26481, 'nonempty_link_pairs': 7217, 'retained_link_pairs': 7217, 'rejected_link_pairs': 0, 'incomplete_link_pairs': 0, 'unsafe_or_invalid_url_pairs': 0, 'duplicate_qid_groups': 0, 'rows_in_duplicate_qid_groups': 0}",
+      "status": "pass"
+    },
+    {
+      "id": "summary-exactness",
+      "note": "summary equals independently derived source counts, identities and duplicate report",
+      "status": "pass"
+    },
+    {
+      "id": "independent-oracle-hash",
+      "note": "oracle sha256=270f13890c3b168dbf3f8dfa62ce46a471244f27c1c2fb8ded057867c0cd5018",
+      "status": "pass"
+    },
+    {
+      "id": "prior-independent-oracle-alignment",
+      "note": "4814 records compared to oracle; discrepancies=[]",
+      "status": "pass"
+    },
+    {
+      "id": "schema-boundary:no-definition",
+      "note": "candidate index has no 'definition' key",
+      "status": "pass"
+    },
+    {
+      "id": "schema-boundary:no-definitions",
+      "note": "candidate index has no 'definitions' key",
+      "status": "pass"
+    },
+    {
+      "id": "schema-boundary:no-prerequisite",
+      "note": "candidate index has no 'prerequisite' key",
+      "status": "pass"
+    },
+    {
+      "id": "schema-boundary:no-prerequisites",
+      "note": "candidate index has no 'prerequisites' key",
+      "status": "pass"
+    },
+    {
+      "id": "schema-boundary:no-confidence",
+      "note": "candidate index has no 'confidence' key",
+      "status": "pass"
+    },
+    {
+      "id": "schema-boundary:no-mapping-method",
+      "note": "mapping records contain no reconstructed method or confidence",
+      "status": "pass"
+    },
+    {
+      "id": "corrected-subset-record-exactness",
+      "note": "all 10 selected records equal records independently reconstructed from pinned CSV",
+      "status": "pass"
+    },
+    {
+      "id": "corrected-subset-provenance",
+      "note": "corrected subset retains pinned source and limited attribution",
+      "status": "pass"
+    },
+    {
+      "id": "corrected-subset-strict-unicode",
+      "note": "subset and fidelity report are strict UTF-8 and contain no U+FFFD",
+      "status": "pass"
+    },
+    {
+      "id": "unicode-correction-q1028209",
+      "note": "codepoints=['U+0044', 'U+0065', 'U+0075', 'U+0074', 'U+0073', 'U+0063', 'U+0068', 'U+2013', 'U+004A', 'U+006F', 'U+007A', 'U+0073', 'U+0061', 'U+0020', 'U+0061', 'U+006C', 'U+0067', 'U+006F', 'U+0072', 'U+0069', 'U+0074', 'U+0068', 'U+006D']",
+      "status": "pass"
+    },
+    {
+      "id": "codepoint-fidelity-self-consistency",
+      "note": "validated every reported text/codepoint/UTF-8 comparison; discrepancies=[]",
+      "status": "pass"
+    },
+    {
+      "id": "chronological-log-set",
+      "note": "retained logs=['01-uv-sync-attempt01.txt', '02-uv-lock-and-sync.txt', '03-unittest-attempt01.txt', '04-full-run-01.txt', '05-full-run-02.txt', '06-full-run-byte-compare.txt', '07-unittest-attempt02.txt', '08-uv-sync-final.json', '09-unittest-final-01.json', '10-compileall-final.json', '11-full-run-final-01.json', '12-full-run-final-02.json', '13-corrected-subset.json', '14-unittest-final-02.json', '15-scope-check.json', '16-scope-check-pass.json', '17-compileall-final-02.json', '18-freeze-manifests.json', '19-freeze-manifests-pass.json', '20-frozen-hash-recheck.json']",
+      "status": "pass"
+    },
+    {
+      "id": "retained-initial-failure",
+      "note": "initial missing-lock uv sync failure is retained with command and exit code",
+      "status": "pass"
+    },
+    {
+      "id": "retained-later-failures",
+      "note": "scope-check false positive and stale-audit-hash freeze failure are retained before corrected passes",
+      "status": "pass"
+    },
+    {
+      "id": "worker-final-test-log",
+      "note": "worker final structured log records 24 passing tests",
+      "status": "pass"
+    },
+    {
+      "id": "worker-frozen-recheck-log",
+      "note": "worker final structured log records 26 frozen records and no mismatches",
+      "status": "pass"
+    }
+  ],
+  "derived_counts": {
+    "absent_link_pairs": 26481,
+    "accepted_rows": 4814,
+    "candidate_records": 4814,
+    "data_records_total": 4814,
+    "duplicate_qid_groups": 0,
+    "incomplete_link_pairs": 0,
+    "interpreted_link_pair_slots": 33698,
+    "ledger_records": 4814,
+    "nonempty_link_pairs": 7217,
+    "record_width_mismatch_rows": 0,
+    "rejected_link_pairs": 0,
+    "rejected_rows": 0,
+    "retained_link_pairs": 7217,
+    "rows_in_duplicate_qid_groups": 0,
+    "unsafe_or_invalid_url_pairs": 0
+  },
+  "errors": [],
+  "exact_comparisons": {
+    "candidate_records": 4814,
+    "corrected_subset_records": 10,
+    "ledger_records": 4814,
+    "link_pair_slots": 33698,
+    "manifest_records": 26,
+    "prior_oracle_records": 4814
+  },
+  "frozen_inputs": {
+    "contract_sha256": "a35f8e974012768b43afbd719c228aebecd3bc86c680d4f342f22071ea76c4cb",
+    "license_sha256": "5dc6b930900926814fc7bb9ff45dfcceae3aa33780eb010c83e6df58493594e7",
+    "manifest_sha256": {
+      "implementation-manifest.json": "f5c3d409ced4f5cc75481b0adb7aa1e6168fd4f94dfe42a5a86f731a3700cb08",
+      "output-manifest.json": "f798afaa7cb489ac815cff46721ed98b2db330411368b24082e1fe2ff9c52e5b",
+      "source-manifest.json": "f0416b25f6719de7f7cc6de0e2597a91c3d2c4cb1ddccc17c563f47e37ec4be5"
+    },
+    "prior_independent_oracle_sha256": "270f13890c3b168dbf3f8dfa62ce46a471244f27c1c2fb8ded057867c0cd5018",
+    "source_sha256": "933a72820fe7ede53a803b750a480def205677e5722ae5f9589b0d1d9bf832b2"
+  },
+  "limitations": [
+    "This verifies a pinned MathGloss metadata/link import. It does not verify concept identity, equivalence, linked-page content, URL availability, mathematical truth, learner suitability, or rights in outbound content.",
+    "The retained MIT-form repository notice is evidence about the pinned repository declaration only; it does not establish a complete rights chain for canonical data or content at outbound links.",
+    "The actual pinned CSV has no quoted multiline data records and no duplicate QIDs; those contract branches require synthetic boundary cases rather than full-source observations.",
+    "The frozen runtime hardcodes absolute D:/ staging source and license paths, so this exact CLI is not portable outside the audit host. The pure import_csv_bytes API can accept supplied bytes, but the CLI needs a narrow explicit-input adapter for repository reproducibility."
+  ],
+  "pair_counts_by_source": {
+    "BCT": {
+      "absent": 4617,
+      "retained": 197
+    },
+    "Chicago": {
+      "absent": 4419,
+      "retained": 395
+    },
+    "Clowder": {
+      "absent": 4740,
+      "retained": 74
+    },
+    "Context": {
+      "absent": 4552,
+      "retained": 262
+    },
+    "Mathlib": {
+      "absent": 4506,
+      "retained": 308
+    },
+    "PlanetMath": {
+      "absent": 3338,
+      "retained": 1476
+    },
+    "nLab": {
+      "absent": 309,
+      "retained": 4505
+    }
+  },
+  "schema_version": "mathgloss-independent-frozen-output-verification-v1",
+  "status": "pass"
+}

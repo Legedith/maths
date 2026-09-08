@@ -1,27 +1,35 @@
 import {
   normalizeResearchSearch,
+  researchRequest,
+  ResearchSearchError,
   validateResearchQuery,
 } from '@/lib/research-search';
 export async function GET(request: Request) {
   let query: string;
   try {
     query = validateResearchQuery(new URL(request.url).searchParams.get('q'));
-  } catch (error) {
-    return Response.json({ error: (error as Error).message }, { status: 400 });
+  } catch {
+    return Response.json(
+      { error: 'Describe a mathematical idea in 1–500 characters.' },
+      { status: 400, headers: { 'Cache-Control': 'no-store' } },
+    );
   }
   try {
-    const response = await fetch('https://api.theoremsearch.com/search', {
-      method: 'POST',
+    const specification = researchRequest(query);
+    const response = await fetch(specification.endpoint, {
+      method: specification.method,
       headers: {
         'Content-Type': 'application/json',
         Accept: 'application/json',
       },
-      body: JSON.stringify({ query, n_results: 8 }),
+      body: JSON.stringify(specification.parameters),
       signal: AbortSignal.timeout(15000),
       redirect: 'manual',
     });
     if (!response.ok || !response.body)
-      throw new Error('The research service is unavailable. Try again later.');
+      throw new ResearchSearchError(
+        'The research service is unavailable. Try again later.',
+      );
     const reader = response.body.getReader();
     const parts: Uint8Array[] = [];
     let bytes = 0;
@@ -31,7 +39,7 @@ export async function GET(request: Request) {
         if (chunk.done) break;
         bytes += chunk.value.byteLength;
         if (bytes > 512000)
-          throw new Error(
+          throw new ResearchSearchError(
             'This query returned too much data. Try a more specific description.',
           );
         parts.push(chunk.value);
@@ -51,15 +59,18 @@ export async function GET(request: Request) {
       new Date().toISOString(),
     );
     return Response.json(result, {
-      headers: { 'Cache-Control': 'public, max-age=300' },
+      headers: { 'Cache-Control': 'no-store' },
     });
   } catch (error) {
     const message =
       error instanceof Error && error.name === 'TimeoutError'
         ? 'TheoremSearch did not respond in time. Try again later.'
-        : error instanceof Error
+        : error instanceof ResearchSearchError
           ? error.message
-          : 'Research search failed.';
-    return Response.json({ error: message }, { status: 502 });
+          : 'The research service response could not be read. Try again later.';
+    return Response.json(
+      { error: message },
+      { status: 502, headers: { 'Cache-Control': 'no-store' } },
+    );
   }
 }

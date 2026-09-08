@@ -1,0 +1,17 @@
+﻿{
+    "name":  "concept-library-bundle-promotion",
+    "command_argv":  [
+                         "uv",
+                         "run",
+                         "--frozen",
+                         "python",
+                         "D:/CodexWorkspaces/mathematics-atlas/integration-work/promote_library_bundle.py"
+                     ],
+    "command_display":  "uv run --frozen python D:/CodexWorkspaces/mathematics-atlas/integration-work/promote_library_bundle.py",
+    "working_directory":  "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "started_at":  "2026-09-08T10:08:46.3648587+05:30",
+    "ended_at":  "2026-09-08T10:08:46.5224592+05:30",
+    "runtime_seconds":  0.15455539999999998,
+    "exit_code":  0,
+    "console_log":  "logs/concept-library-bundle-promotion.console.log"
+}

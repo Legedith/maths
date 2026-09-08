@@ -1,0 +1,17 @@
+﻿{
+    "name":  "assumption-bundle-check-references",
+    "command_argv":  [
+                         "uv",
+                         "run",
+                         "--frozen",
+                         "python",
+                         "D:/CodexWorkspaces/mathematics-atlas/integration-work/link_assumption_check_evidence.py"
+                     ],
+    "command_display":  "uv run --frozen python D:/CodexWorkspaces/mathematics-atlas/integration-work/link_assumption_check_evidence.py",
+    "working_directory":  "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "started_at":  "2026-09-08T09:56:26.6658397+05:30",
+    "ended_at":  "2026-09-08T09:56:26.8110253+05:30",
+    "runtime_seconds":  0.14191589999999998,
+    "exit_code":  0,
+    "console_log":  "logs/assumption-bundle-check-references.console.log"
+}

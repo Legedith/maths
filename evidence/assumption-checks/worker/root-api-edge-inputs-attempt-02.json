@@ -1,0 +1,29 @@
+{
+  "scope": "Additional public representation probes after frozen first-run retention; these are not the blinded evaluation cases.",
+  "records": [
+    {
+      "case": "huge-programmatic-integer",
+      "escaped_exception": true,
+      "exception_type": "ValueError",
+      "message": "Exceeds the limit (4300 digits) for integer string conversion; use sys.set_int_max_str_digits() to increase the limit",
+      "traceback": "Traceback (most recent call last):\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\integration-work\\check_api_edge_inputs.py\", line 21, in <module>\n    result = check_transfer(payload)\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\project\\src\\atlas_checks\\api.py\", line 111, in check_transfer\n    checked = validate_payload(payload)\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\project\\src\\atlas_checks\\validation.py\", line 209, in validate_payload\n    conductance = _parse_rational(\n        edge_obj[\"conductance\"],\n    ...<2 lines>...\n        digit_limit=12,\n    )\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\project\\src\\atlas_checks\\validation.py\", line 82, in _parse_rational\n    numerator_text = str(value)\nValueError: Exceeds the limit (4300 digits) for integer string conversion; use sys.set_int_max_str_digits() to increase the limit\n"
+    },
+    {
+      "case": "escaped-unpaired-surrogate",
+      "escaped_exception": true,
+      "exception_type": "UnicodeEncodeError",
+      "message": "'utf-8' codec can't encode character '\\ud800' in position 580: surrogates not allowed",
+      "traceback": "Traceback (most recent call last):\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\integration-work\\check_api_edge_inputs.py\", line 21, in <module>\n    result = check_transfer(payload)\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\project\\src\\atlas_checks\\api.py\", line 119, in check_transfer\n    output[\"normalized_input_sha256\"] = hashlib.sha256(normalized_json.encode(\"utf-8\")).hexdigest()\n                                                       ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^\nUnicodeEncodeError: 'utf-8' codec can't encode character '\\ud800' in position 580: surrogates not allowed\n"
+    },
+    {
+      "case": "thirteen-digit-integer-literal",
+      "escaped_exception": false,
+      "verdict": "no_counterexample_in_instance"
+    },
+    {
+      "case": "thirteen-digit-string-literal",
+      "escaped_exception": false,
+      "verdict": "no_counterexample_in_instance"
+    }
+  ]
+}

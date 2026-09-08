@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "audit_phase": "post_fix_delta",
+  "auditor_identity": "/root/sol_symmetry_audit",
+  "reviewed_at_utc": "2026-09-08T02:53:39.7278969Z",
+  "subject": {
+    "repository": "D:/CodexWorkspaces/mathematics-atlas/project",
+    "base_commit": "97b5aaf",
+    "delta_freeze": "evidence/research-search/delta-freeze.json",
+    "delta_freeze_sha256": "5d126f983985fc5d45415c2868738ac6c7116e4c3c36ac2fbec76134ccc0972c",
+    "scope": "Frozen eight-file corrective research-search UI/API delta only"
+  },
+  "overall_status": "pass",
+  "remaining_findings": [],
+  "resolved_findings": [
+    {
+      "id": "RS-UI-001",
+      "initial_priority": "P2",
+      "status": "resolved",
+      "resolution": "Each normalized result now retains one-based response rank and finite similarity/score values. Schema 1.1 packets retain those fields, result count, and the same endpoint, method and parameters used by the route. The project check and independent packet harness both start with a raw second-ranked provider-shaped result.",
+      "evidence": [
+        "packet-provenance-delta-report.json",
+        "delta-rerun/adapter/evidence/research-search/adapter-tests.json",
+        "delta-freeze-verification.json"
+      ]
+    },
+    {
+      "id": "RS-UI-002",
+      "initial_priority": "P2",
+      "status": "resolved",
+      "resolution": "Every tested API response path now sends Cache-Control:no-store. The form states that TheoremSearch logs query text and links directly to the provider privacy policy.",
+      "evidence": [
+        "route-boundary-delta-report.json",
+        "official-source-notes.json",
+        "delta-freeze-verification.json"
+      ]
+    },
+    {
+      "id": "RS-UI-003",
+      "initial_priority": "P3",
+      "status": "resolved",
+      "resolution": "Expected representation, upstream, size and timeout failures use controlled messages; unexpected parser and transport exceptions map to a fixed generic message. The independent route harness injected an arbitrary transport detail and verified that it was absent from the response.",
+      "evidence": [
+        "route-boundary-delta-report.json",
+        "delta-freeze-verification.json"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "reproduction",
+      "status": "pass",
+      "notes": "The project adapter check reran independently from the audit directory. The actual frozen route module also passed query, fixed-request, ranking-field, HTTP, timeout, controlled-error, no-store and exact 512000/512001-byte cases.",
+      "evidence": [
+        "delta-rerun/adapter/console.log",
+        "delta-rerun/adapter/evidence/research-search/adapter-tests.json",
+        "route-boundary-delta-console.log",
+        "route-boundary-delta-report.json",
+        "packet-provenance-delta-console.log",
+        "packet-provenance-delta-report.json"
+      ]
+    },
+    {
+      "id": "specification_compliance",
+      "status": "pass",
+      "notes": "The delta satisfies the requested separation of generated summary and extracted body, preserves the defined retrieval provenance, keeps results explicitly unreviewed, bounds query/response/time behavior, suppresses unsafe links, uses no-store and gives the provider logging disclosure.",
+      "evidence": [
+        "packet-provenance-delta-report.json",
+        "route-boundary-delta-report.json",
+        "delta-freeze-verification.json"
+      ]
+    },
+    {
+      "id": "source_verification",
+      "status": "pass",
+      "notes": "The endpoint, request fields, response body/slogan/ranking fields and query-logging disclosure agree with the official TheoremSearch API documentation and privacy policy read and locally hashed on 2026-09-08.",
+      "evidence": [
+        "official-source-notes.json",
+        "official-sources/fetch-manifest.json",
+        "delta-freeze-verification.json"
+      ]
+    },
+    {
+      "id": "implementation_alignment",
+      "status": "pass",
+      "notes": "The single researchRequest factory drives both the actual provider POST and retained request metadata; route and adapter hashes in independent tests match the frozen delta. UI wording and documentation match the implemented provenance, no-store and error behavior.",
+      "evidence": [
+        "delta-freeze-verification.json",
+        "route-boundary-delta-report.json",
+        "packet-provenance-delta-report.json"
+      ]
+    }
+  ],
+  "verified_behavior": [
+    "The endpoint is fixed to https://api.theoremsearch.com/search and the route sends POST parameters {query,n_results:8} from the same object retained with the result.",
+    "Rank reflects provider response order after the documented first-eight retention cap; finite similarity and score values survive normalization and packet creation, while non-finite/non-number values become null.",
+    "Provider, query, retrieval timestamp, retained result count, theorem/slogan IDs, paper metadata, source URL, extracted body and generated summary survive packet creation.",
+    "Generated summary and extracted body remain separate in the normalized JSON, packet and UI labels.",
+    "Invalid queries are rejected before fetch; redirects, upstream non-OK statuses and missing response bodies return a controlled 502.",
+    "A 512000-byte JSON response is accepted and a 512001-byte response is rejected.",
+    "Successful, validation-error and provider-error responses use Cache-Control:no-store.",
+    "Unexpected JSON parser and network messages are not reflected to the caller.",
+    "The UI directly links the provider privacy policy and says that the provider logs query text.",
+    "The UI and WebMCP scope continue to distinguish unreviewed retrieval from proof, applicability or novelty."
+  ],
+  "limitations": [
+    "No broad browser or visual QA was performed, as requested.",
+    "The delta route harness used a mocked upstream transport and did not repeat the retained live-provider observation.",
+    "A source packet is a normalized review handoff, not a byte-for-byte transport archive; it does not retain raw response bytes or headers.",
+    "This audit does not evaluate search relevance, corpus coverage, mathematical truth, applicability, prevalence, impact or novelty.",
+    "Files outside the eight-file delta freeze were not reviewed."
+  ]
+}

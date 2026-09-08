@@ -1,0 +1,15 @@
+﻿{
+  "artifact_count": 190,
+  "bundle": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.codex\\evidence\\runs\\assumption-checks-v1\\bundle.json",
+  "claim_count": 8,
+  "claim_provenance_rate": 1.0,
+  "errors": [
+    "check reproduction needs evidence kind in ['log', 'result', 'test']",
+    "check specification_compliance needs evidence kind in ['spec']",
+    "check source_verification needs evidence kind in ['source']",
+    "check implementation_alignment needs evidence kind in ['code', 'log']"
+  ],
+  "status": "FAIL",
+  "workspace": "D:\\CodexWorkspaces\\mathematics-atlas\\project"
+}
+

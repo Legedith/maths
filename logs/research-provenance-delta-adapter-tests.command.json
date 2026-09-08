@@ -1,0 +1,14 @@
+﻿{
+    "name":  "research-provenance-delta-adapter-tests",
+    "command_argv":  [
+                         "node",
+                         "scripts/check-research-search.ts"
+                     ],
+    "command_display":  "node scripts/check-research-search.ts",
+    "working_directory":  "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "started_at":  "2026-09-08T08:16:20.3140141+05:30",
+    "ended_at":  "2026-09-08T08:16:20.4658454+05:30",
+    "runtime_seconds":  0.1472435,
+    "exit_code":  0,
+    "console_log":  "logs/research-provenance-delta-adapter-tests.console.log"
+}

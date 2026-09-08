@@ -1,0 +1,17 @@
+﻿{
+    "name":  "assumption-large-output-attempt-01",
+    "command_argv":  [
+                         "uv",
+                         "run",
+                         "--frozen",
+                         "python",
+                         "..\\integration-work\\check_large_exact_output.py"
+                     ],
+    "command_display":  "uv run --frozen python ..\\integration-work\\check_large_exact_output.py",
+    "working_directory":  "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "started_at":  "2026-09-08T08:32:27.0102800+05:30",
+    "ended_at":  "2026-09-08T08:32:27.2021182+05:30",
+    "runtime_seconds":  0.1888686,
+    "exit_code":  0,
+    "console_log":  "logs/assumption-large-output-attempt-01.console.log"
+}

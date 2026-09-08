@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "correction_id": "retrieval-round1-additive-corrections-01",
+  "policy": "The frozen reviewer and adjudication artifacts remain byte-for-byte unchanged. This record supersedes only the identified metadata fields and preliminary eligibility wording in downstream reporting.",
+  "affected_artifacts": [
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/assumption-audit-work/SEALED/reviewer-b.json",
+      "sha256": "cc99747b80e03dfc24a5518bd53eb67e98f5b164c761c1a33dba03be33d6d2f7"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/assumption-audit-work/retrieval-review-adjudication.json",
+      "sha256": "1b64837ccce001b3bbe5996b594a8d820bcbcab0a87e1831f8e6fb2441311fb9"
+    }
+  ],
+  "corrections": [
+    {
+      "kind": "model_attribution",
+      "affected_json_pointers": [
+        "/reviewer/model",
+        "/adjudicator/model"
+      ],
+      "recorded_value": "gpt-6",
+      "corrected_value": null,
+      "instruction": "Do not cite the recorded value as runtime model identity. It was self-inferred rather than obtained from authoritative runtime metadata. The orchestrator later reported a requested configuration of gpt-5.6-sol with max reasoning, but actual runtime identity was not independently verified by this auditor. Auditor identity and role remain valid."
+    },
+    {
+      "kind": "source_locator",
+      "theorem_id": 18276974,
+      "recorded_reviewer_b_locator": "PDF p. 4, Theorem 5, together with the connected-graph setup in Section 2.",
+      "corrected_locator": "PDF p. 3, Theorem 4, with the connected-graph setup on PDF pp. 1-3.",
+      "evidence": "Exact-version 2302.07170v2 text places the spanning-tree formula at PDF page 3, lines headed Theorem 4. The raw retrieval result's name field says Theorem 5 even though its extracted body is the source's Theorem 4.",
+      "label_effect": "none; the adjudicated refuted label and connectedness/nonzero-spectrum rationale remain unchanged"
+    },
+    {
+      "kind": "structured_eligibility_precision",
+      "theorem_ids": [23150070, 18276974],
+      "recorded_summary": "eligible/directly expressible with a disconnected exact witness",
+      "corrected_summary": "AST syntax is mappable, but the separating disconnected instances are not evaluable because nonzero_spectrum_product and rw_nonzero_spectrum_product are intentionally connected-only quantities. The round-two machine verdict is therefore expected to be abstain, not counterexample.",
+      "accounting": {
+        "syntax_mappable_but_abstaining": 2,
+        "evaluable_instance_annotations": 6,
+        "fully_ineligible": 16,
+        "total_theorem_ids": 24,
+        "round_two_fixture_count": 9
+      },
+      "label_effect": "none; external exact witnesses continue to support the two source-only refuted labels"
+    }
+  ],
+  "scope_limit": "These corrections do not change either reviewer's original labels, the 21/24 agreement count, any adjudicated label, or any source-only descriptive count."
+}

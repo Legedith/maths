@@ -1,0 +1,46 @@
+{
+  "created_at_utc": "2026-09-08T02:43:42.6885217Z",
+  "subject_commit": "97b5aaf",
+  "artifacts": [
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\ui-audit\\initial-audit-report.json",
+      "bytes": 6740,
+      "sha256": "d16280f26a67b680d74ff13a03ee783ed279cac2e2c405bb1dad65588c76475a"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\ui-audit\\initial-audit-report.md",
+      "bytes": 2269,
+      "sha256": "46ffc27c05fc0150616a46e9cb9617d012601808cf5115501f2cc85ddc252761"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\ui-audit\\official-source-notes.json",
+      "bytes": 1805,
+      "sha256": "7c27a8e96dd173e0f158e63a1b51cad13efb92a575a0c2eff614e4d693aa1e01"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\ui-audit\\reviewed-file-hashes.tsv",
+      "bytes": 642,
+      "sha256": "82b6300f1127da9c629fef7b043d9721893e4c14445933dddf4c7af458e47286"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\ui-audit\\route-boundary-report.json",
+      "bytes": 2250,
+      "sha256": "b7fd374e24a0128b80bf3b6d2ec2987bee39e04752759516eaf18d1111795a7a"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\ui-audit\\packet-provenance-report.json",
+      "bytes": 965,
+      "sha256": "4009900d2d8b767889783508e09f1def0f3d1dab501edddd6b2464b4992f1c48"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\ui-audit\\encoding-check.json",
+      "bytes": 2419,
+      "sha256": "055181100bbf3e258847879823b4d8fa849292fdb24ea2e384c1c0740ec4d6c1"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\ui-audit\\adapter-rerun\\evidence\\research-search\\adapter-tests.json",
+      "bytes": 410,
+      "sha256": "e152b1396d15dc2516ccf7b7c875a04186c4fb5324570b7ba4709bcafde4f321"
+    }
+  ]
+}

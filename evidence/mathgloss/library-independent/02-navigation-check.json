@@ -1,0 +1,28 @@
+{
+  "argv": [
+    "node",
+    "--experimental-strip-types",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work\\check_library_integration.mjs"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work",
+  "duration_seconds": 3.49998280001455,
+  "ended_at_utc": "2026-09-08T04:04:59.844165+00:00",
+  "exit_code": 1,
+  "schema_version": "command-evidence-v1",
+  "started_at_utc": "2026-09-08T04:04:56.344171+00:00",
+  "stderr": {
+    "base64": "bm9kZTppbnRlcm5hbC9tb2R1bGVzL3J1bl9tYWluOjEwNw0KICAgIHRyaWdnZXJVbmNhdWdodEV4Y2VwdGlvbigNCiAgICBeDQoNCkFzc2VydGlvbkVycm9yIFtFUlJfQVNTRVJUSU9OXTogbXVsdGktaGl0LWxhYmVsLWZyYWdtZW50DQorIGFjdHVhbCAtIGV4cGVjdGVkDQoNCisgJ2Y4OWJiOThkMTFmOGZkMjUzNjM1M2E3MTRhZmZjYzRkYWM1OGFmY2MzMmRmNjcyNjc3ZTUwZTU2YmM3YWMwNzknDQotICdmMzhhYTUzNGI1MDlkMjgwYWNmNDcxMWQ0MjVjZGQ3NWZmZmZkN2ZhYjczMWUzZDZiMjk2YzIxNWZiMTY2NWM4Jw0KDQogICAgYXQgZmlsZTovLy9EOi9Db2RleFdvcmtzcGFjZXMvbWF0aGVtYXRpY3MtYXRsYXMvbGlicmFyeS1hdWRpdC13b3JrL2NoZWNrX2xpYnJhcnlfaW50ZWdyYXRpb24ubWpzOjk1OjEwIHsNCiAgZ2VuZXJhdGVkTWVzc2FnZTogZmFsc2UsDQogIGNvZGU6ICdFUlJfQVNTRVJUSU9OJywNCiAgYWN0dWFsOiAnZjg5YmI5OGQxMWY4ZmQyNTM2MzUzYTcxNGFmZmNjNGRhYzU4YWZjYzMyZGY2NzI2NzdlNTBlNTZiYzdhYzA3OScsDQogIGV4cGVjdGVkOiAnZjM4YWE1MzRiNTA5ZDI4MGFjZjQ3MTFkNDI1Y2RkNzVmZmZmZDdmYWI3MzFlM2Q2YjI5NmMyMTVmYjE2NjVjOCcsDQogIG9wZXJhdG9yOiAnc3RyaWN0RXF1YWwnLA0KICBkaWZmOiAnc2ltcGxlJw0KfQ0KDQpOb2RlLmpzIHYyNC4xMi4wDQo=",
+    "bytes": 692,
+    "sha256": "100b365db438d9871d0d1382bf5759a626a602dc80a211eb5bb5f950269a9915",
+    "utf8_text": "node:internal/modules/run_main:107\r\n    triggerUncaughtException(\r\n    ^\r\n\r\nAssertionError [ERR_ASSERTION]: multi-hit-label-fragment\r\n+ actual - expected\r\n\r\n+ 'f89bb98d11f8fd2536353a714affcc4dac58afcc32df672677e50e56bc7ac079'\r\n- 'f38aa534b509d280acf4711d425cdd75ffffd7fab731e3d6b296c215fb1665c8'\r\n\r\n    at file:///D:/CodexWorkspaces/mathematics-atlas/library-audit-work/check_library_integration.mjs:95:10 {\r\n  generatedMessage: false,\r\n  code: 'ERR_ASSERTION',\r\n  actual: 'f89bb98d11f8fd2536353a714affcc4dac58afcc32df672677e50e56bc7ac079',\r\n  expected: 'f38aa534b509d280acf4711d425cdd75ffffd7fab731e3d6b296c215fb1665c8',\r\n  operator: 'strictEqual',\r\n  diff: 'simple'\r\n}\r\n\r\nNode.js v24.12.0\r\n",
+    "valid_utf8": true
+  },
+  "stdout": {
+    "base64": "",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "utf8_text": "",
+    "valid_utf8": true
+  },
+  "windows_command_line": "node --experimental-strip-types D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work\\check_library_integration.mjs"
+}

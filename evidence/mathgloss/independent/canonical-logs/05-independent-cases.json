@@ -1,0 +1,31 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--locked",
+    "--no-sync",
+    "python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\backbone-audit-work\\run_independent_import_cases.py"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\backbone-audit-work\\canonical-copy\\implementation",
+  "duration_seconds": 0.14968139998381957,
+  "ended_at_utc": "2026-09-08T03:45:42.138943+00:00",
+  "exit_code": 0,
+  "schema_version": "command-evidence-v1",
+  "started_at_utc": "2026-09-08T03:45:41.989252+00:00",
+  "stderr": {
+    "base64": "d2FybmluZzogYFZJUlRVQUxfRU5WPUQ6XENvZGV4V29ya3NwYWNlc1xtYXRoZW1hdGljcy1hdGxhc1x1di1jYWNoZVxidWlsZHMtdjBcLnRtcDJGczg0eWAgZG9lcyBub3QgbWF0Y2ggdGhlIHByb2plY3QgZW52aXJvbm1lbnQgcGF0aCBgLnZlbnZgIGFuZCB3aWxsIGJlIGlnbm9yZWQ7IHVzZSBgLS1hY3RpdmVgIHRvIHRhcmdldCB0aGUgYWN0aXZlIGVudmlyb25tZW50IGluc3RlYWQK",
+    "bytes": 219,
+    "sha256": "b0df146b9759380fbf5520d0dde8373dec388fbc9d171b73eadf5b3405ddc02a",
+    "utf8_text": "warning: `VIRTUAL_ENV=D:\\CodexWorkspaces\\mathematics-atlas\\uv-cache\\builds-v0\\.tmp2Fs84y` does not match the project environment path `.venv` and will be ignored; use `--active` to target the active environment instead\n",
+    "valid_utf8": true
+  },
+  "stdout": {
+    "base64": "eyJyZXBvcnQiOiAiRDpcXENvZGV4V29ya3NwYWNlc1xcbWF0aGVtYXRpY3MtYXRsYXNcXGJhY2tib25lLWF1ZGl0LXdvcmtcXGluZGVwZW5kZW50LWNhc2UtcmVzdWx0cy5qc29uIiwgInNoYTI1NiI6ICIwZWNhNTRjZjE0NzhkNGExNDM0MWJmMDlmZWJmNjdlMzBmZDdjMzhmNTQwYzhlYTc1Njk2OGE1ZDc0YjdkYTI0IiwgInN0YXR1cyI6ICJwYXNzIn0NCg==",
+    "bytes": 202,
+    "sha256": "0b846a3219cd09684623da7954689ee449aeb694cf43c14cfb6b547eea0f30a3",
+    "utf8_text": "{\"report\": \"D:\\\\CodexWorkspaces\\\\mathematics-atlas\\\\backbone-audit-work\\\\independent-case-results.json\", \"sha256\": \"0eca54cf1478d4a14341bf09febf67e30fd7c38f540c8ea756968a5d74b7da24\", \"status\": \"pass\"}\r\n",
+    "valid_utf8": true
+  },
+  "windows_command_line": "uv run --locked --no-sync python D:\\CodexWorkspaces\\mathematics-atlas\\backbone-audit-work\\run_independent_import_cases.py"
+}

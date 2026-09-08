@@ -1,0 +1,305 @@
+{
+  "archive_exclusion_assessment": "The retained first lint failure mixed historical evidence harnesses with product code and occurred before the data files were present. The frozen config excludes evidence/** only; app/components/lib/scripts remain included. This is a scoped archive boundary, not evidence that those historical harnesses pass current type-aware lint.",
+  "data": {
+    "catalog_status": "unreviewed_external_link_catalogue",
+    "links": 7217,
+    "records": 4814,
+    "replacement_character_present": false,
+    "unicode_codepoints": [
+      "U+0044",
+      "U+0065",
+      "U+0075",
+      "U+0074",
+      "U+0073",
+      "U+0063",
+      "U+0068",
+      "U+2013",
+      "U+004A",
+      "U+006F",
+      "U+007A",
+      "U+0073",
+      "U+0061",
+      "U+0020",
+      "U+0061",
+      "U+006C",
+      "U+0067",
+      "U+006F",
+      "U+0072",
+      "U+0069",
+      "U+0074",
+      "U+0068",
+      "U+006D"
+    ],
+    "unicode_q1028209": "Deutsch\u2013Jozsa algorithm"
+  },
+  "exact_audited_copy_results": [
+    {
+      "audited_basis": "backbone-import-work/outputs/full-run-final-01/candidate-index.json",
+      "bytes": 5134168,
+      "integrated": "project/data/mathgloss/candidate-index.json",
+      "sha256": "282ed1fd858595b782c856fbd2c96964a0b6ff3850fedf21105ca9bbb7edb4da"
+    },
+    {
+      "audited_basis": "backbone-import-work/outputs/full-run-final-01/summary.json",
+      "bytes": 1439,
+      "integrated": "project/data/mathgloss/summary.json",
+      "sha256": "0102f6fca4237d80d3e4e167c476f118d5cfaff41b5b325882bc784eecfa6e58"
+    },
+    {
+      "audited_basis": "backbone-import-work/outputs/full-run-final-01/MATHGLOSS-LICENSE",
+      "bytes": 1066,
+      "integrated": "project/data/mathgloss/MATHGLOSS-LICENSE",
+      "sha256": "5dc6b930900926814fc7bb9ff45dfcceae3aa33780eb010c83e6df58493594e7"
+    },
+    {
+      "audited_basis": "backbone-reuse-work/raw/mathgloss/data/database.csv",
+      "bytes": 674640,
+      "integrated": "project/data/mathgloss/source/database.csv",
+      "sha256": "933a72820fe7ede53a803b750a480def205677e5722ae5f9589b0d1d9bf832b2"
+    },
+    {
+      "audited_basis": "backbone-import-work/outputs/full-run-final-01/import-ledger.jsonl",
+      "bytes": 6504559,
+      "integrated": "project/evidence/mathgloss/import-ledger.jsonl",
+      "sha256": "14d8e9cc972a83ac4267d4b168d9510f74c65abbae509e7149012ba653c4ad61"
+    },
+    {
+      "audited_basis": "backbone-import-work/implementation/src/mathgloss_import/core.py",
+      "bytes": 18350,
+      "integrated": "project/src/mathgloss_import/core.py",
+      "sha256": "f8ed60a8062569c3632e4ed23b8df9fa8523932793271f8ee410666b9f65b0d3"
+    },
+    {
+      "audited_basis": "backbone-import-work/implementation/src/mathgloss_import/__init__.py",
+      "bytes": 806,
+      "integrated": "project/src/mathgloss_import/__init__.py",
+      "sha256": "415f22d1a69a143feb5cbbf80a2981d001459039c132944706ea0718853aeeef"
+    }
+  ],
+  "freeze_sha256": "68bd8c6f8ff2dfaa1c1b26b1d4c030025ae1a6d84004767c8b537939f09ef316",
+  "limitations": [
+    "This checks exact integration, presentation boundaries and retained build logs; it does not inspect outbound page content or rights.",
+    "No semantic identity, equivalence, resource quality, learner level, theorem support, impact, novelty or whole-map claim is certified."
+  ],
+  "manifest_files_verified": 24,
+  "manifest_results": [
+    {
+      "path": "docs/concept-library-contract.md",
+      "sha256": "a55985517bafb4909af576d2245d7898c98f101482e36d66b1841b8168879f3d"
+    },
+    {
+      "path": "docs/concept-library.md",
+      "sha256": "9be0ad2d201a5db8dd4aaeb940b734d8ec3724d178f75f5c0e6e9ecfd3a9540d"
+    },
+    {
+      "path": "lib/concept-library.ts",
+      "sha256": "065191c9a5ce80ddb02dd64214856fd334183d2bcc228bfa5918e6a954e63db1"
+    },
+    {
+      "path": "lib/use-concept-library-tools.ts",
+      "sha256": "8e598702783395e347a51d2d3b9dcc091667f36b0b9a3df389713f3da40bcca2"
+    },
+    {
+      "path": "components/concept-library.tsx",
+      "sha256": "383331fc06f1f3a2dec376fd2325154cd0700da2dc5a1c3346d31554f86473ba"
+    },
+    {
+      "path": "components/concept-library.module.css",
+      "sha256": "197d74503f8fc2741006243418a24bcbf3cf6577a850a0980630a6ede382d6aa"
+    },
+    {
+      "path": "app/library/page.tsx",
+      "sha256": "c5a49c2aacee6de103277eeec8ec425b1def003c0bb4fed14d75d9791f76dcdf"
+    },
+    {
+      "path": "app/api/concept-library/route.ts",
+      "sha256": "07267a6a061ce776a66db568f7986558537551372fddaa87cab8a976e5fbdb9b"
+    },
+    {
+      "path": "app/page.tsx",
+      "sha256": "f2353e35324a75b589acec59050f4cb9568a0677b6bcdffaf00fe20271f8ba8e"
+    },
+    {
+      "path": "data/mathgloss/candidate-index.json",
+      "sha256": "282ed1fd858595b782c856fbd2c96964a0b6ff3850fedf21105ca9bbb7edb4da"
+    },
+    {
+      "path": "data/mathgloss/summary.json",
+      "sha256": "0102f6fca4237d80d3e4e167c476f118d5cfaff41b5b325882bc784eecfa6e58"
+    },
+    {
+      "path": "data/mathgloss/MATHGLOSS-LICENSE",
+      "sha256": "5dc6b930900926814fc7bb9ff45dfcceae3aa33780eb010c83e6df58493594e7"
+    },
+    {
+      "path": "data/mathgloss/source/database.csv",
+      "sha256": "933a72820fe7ede53a803b750a480def205677e5722ae5f9589b0d1d9bf832b2"
+    },
+    {
+      "path": "src/mathgloss_import/__init__.py",
+      "sha256": "415f22d1a69a143feb5cbbf80a2981d001459039c132944706ea0718853aeeef"
+    },
+    {
+      "path": "src/mathgloss_import/core.py",
+      "sha256": "f8ed60a8062569c3632e4ed23b8df9fa8523932793271f8ee410666b9f65b0d3"
+    },
+    {
+      "path": "scripts/import_mathgloss.py",
+      "sha256": "2fa7d2195c8439a97891a4d97a60f9dd96cc77db6a0ee805a09b5b06d0926041"
+    },
+    {
+      "path": "scripts/check-concept-library.ts",
+      "sha256": "e6b12e528d346abd5b4a9866e7ac6a35e21f59ef70a26b9c8cb9317c76634f12"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "546f4ce267864644b6abe78daeae2ea255bc80dafe087e9952b51cd26eb8c81c"
+    },
+    {
+      "path": "uv.lock",
+      "sha256": "af702441deef709f31364324f3add35c05a14572e8c39e85daa3f447c35d3275"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "2db1393d6e039ca5e6f4015b7462f14ff77bd4135829d0d4a092d14c1eaaaf10"
+    },
+    {
+      "path": ".oxlintrc.json",
+      "sha256": "21c320b0a75a2b77316c63c1f0fcbb1361ce4e426219ebfd7b40d805a0a49e08"
+    },
+    {
+      "path": ".github/workflows/verify.yml",
+      "sha256": "a721186ce93fe0520039979b3067f0d115a920c44dd9013d716c4281a7eedf2b"
+    },
+    {
+      "path": "evidence/README.md",
+      "sha256": "72df1e74434bbe1ea075c66870f4dfd7989ac38e274adf0a3c77327b825afeab"
+    },
+    {
+      "path": "evidence/research-search/audited-page-before-library.tsx.snapshot",
+      "sha256": "7ebe5ffa908023c5224ab2e3e789bef7f7b72c37cbfe396a9ae531ac6f9b8b53"
+    }
+  ],
+  "portable_reproduction": [
+    {
+      "bytes": 1066,
+      "name": "MATHGLOSS-LICENSE",
+      "sha256": "5dc6b930900926814fc7bb9ff45dfcceae3aa33780eb010c83e6df58493594e7"
+    },
+    {
+      "bytes": 5134168,
+      "name": "candidate-index.json",
+      "sha256": "282ed1fd858595b782c856fbd2c96964a0b6ff3850fedf21105ca9bbb7edb4da"
+    },
+    {
+      "bytes": 6504559,
+      "name": "import-ledger.jsonl",
+      "sha256": "14d8e9cc972a83ac4267d4b168d9510f74c65abbae509e7149012ba653c4ad61"
+    },
+    {
+      "bytes": 1439,
+      "name": "summary.json",
+      "sha256": "0102f6fca4237d80d3e4e167c476f118d5cfaff41b5b325882bc784eecfa6e58"
+    }
+  ],
+  "prior_page_delta": {
+    "current_page_sha256": "f2353e35324a75b589acec59050f4cb9568a0677b6bcdffaf00fe20271f8ba8e",
+    "only_change": "one /library Browse concept resources Link block",
+    "reverse_delta_matches_snapshot_text_exactly": true,
+    "snapshot_sha256": "7ebe5ffa908023c5224ab2e3e789bef7f7b72c37cbfe396a9ae531ac6f9b8b53"
+  },
+  "privacy_limit": "The search stays inside the same-origin static catalog and the API is no-store. Because it is a GET API, query text remains in the same-origin request URL and may be present in ordinary server access logs.",
+  "root_command_history": [
+    {
+      "command": [
+        "node",
+        "scripts/check-concept-library.ts"
+      ],
+      "command_sha256": "16c356bde7c902f779b5bac4bf0cc783fc08a88e9d7dfa37a27fa5ffd269280c",
+      "console_sha256": "25fb5233543034fe0defb51febbfaa4815d19e281ca49e45003047fd9543f8f2",
+      "exit_code": 0,
+      "name": "concept-library-navigation-attempt-01.command.json"
+    },
+    {
+      "command": [
+        "./node_modules/.bin/tsc.cmd",
+        "--noEmit"
+      ],
+      "command_sha256": "05055b2fe3fbb68f5b6e0e01be305b210914eff75d83f50492580c24320d1b24",
+      "console_sha256": "f01a374e9c81e3db89b3a42940c4d6a5447684986a1296e42bf13f196eed6295",
+      "exit_code": 0,
+      "name": "concept-library-typecheck.command.json"
+    },
+    {
+      "command": [
+        "npm.cmd",
+        "run",
+        "lint"
+      ],
+      "command_sha256": "9c90dc2c146b1d785483b7ae015a9e2ac92e9106476e4517e0fa61e6065e30c2",
+      "console_sha256": "7165e15ca4f6e7abb36a2bf16baa6bc232fd46a099e5fd9f28465af05ebe6e11",
+      "exit_code": 1,
+      "name": "concept-library-lint-attempt-01.command.json"
+    },
+    {
+      "command": [
+        "npm.cmd",
+        "run",
+        "lint"
+      ],
+      "command_sha256": "55899df68f7104266ab1c80fe1e43a30337d6cc0981c89565d9c276613931471",
+      "console_sha256": "c8091a7492dd0225688a19afab7e98b4ffa0dfcd6b332bbdfefc3bcdd73f3409",
+      "exit_code": 0,
+      "name": "concept-library-lint-attempt-02.command.json"
+    },
+    {
+      "command": [
+        "npm.cmd",
+        "run",
+        "build"
+      ],
+      "command_sha256": "a4e525886b002f4bdc353fc733a40ad251dfb0fb39b5efa6f0a19e32298d9873",
+      "console_sha256": "35357bd27a7f8d6bd3edd0c9efb987cc08d25403455c686cc2d4e79662cad824",
+      "exit_code": 0,
+      "name": "concept-library-build.command.json"
+    },
+    {
+      "command": [
+        "./node_modules/.bin/oxfmt.cmd",
+        "--write",
+        "lib/concept-library.ts",
+        "lib/use-concept-library-tools.ts",
+        "app/api/concept-library/route.ts",
+        "app/library/page.tsx",
+        "components/concept-library.tsx",
+        "components/concept-library.module.css",
+        "scripts/check-concept-library.ts"
+      ],
+      "command_sha256": "775609f358b82699bc1aaf80d480aa6f2688c3cf4584accc10ca8063d762710f",
+      "console_sha256": "77e652b4d36e6a11300e51b861402688458319b0f2723a99cff0a218577cbed7",
+      "exit_code": 0,
+      "name": "concept-library-format.command.json"
+    },
+    {
+      "command": [
+        "./node_modules/.bin/oxfmt.cmd",
+        "--write",
+        "app/page.tsx"
+      ],
+      "command_sha256": "50e603a400f28f97d87a2b3f7af2fbc3cf8850c9a35bffda8599aaba3be7e5a4",
+      "console_sha256": "b9eba3fefdce8c904789b857e2b07e1fd92b984a4d7206b110ee4297535b9b6d",
+      "exit_code": 0,
+      "name": "concept-library-navigation-format.command.json"
+    }
+  ],
+  "schema_version": "concept-library-independent-static-integration-check-v1",
+  "status": "pass",
+  "ui_disclosure_and_links": {
+    "mathgloss_source_visible": true,
+    "outbound_rel_noopener_noreferrer": true,
+    "pinned_revision_visible": true,
+    "qid_resource_and_source_record_links_rendered": true,
+    "search_miss_caveat_visible": true,
+    "unreviewed_visible_per_card": true
+  }
+}

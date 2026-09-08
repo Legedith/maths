@@ -84,7 +84,15 @@ export function ResearchSearch({
           >
             TheoremSearch
           </a>
-          . Results come from its existing index.
+          , which logs query text. Read its{' '}
+          <a
+            href="https://www.theoremsearch.com/privacy"
+            target="_blank"
+            rel="noreferrer"
+          >
+            privacy policy
+          </a>
+          .
         </p>
       </form>
       {error && (
@@ -110,7 +118,9 @@ export function ResearchSearch({
               <div className="research-results">
                 {result.hits.map((hit, index) => (
                   <article key={`${hit.theoremId}:${hit.sloganId}:${index}`}>
-                    <span className="eyebrow">EXTERNAL RESEARCH RESULT</span>
+                    <span className="eyebrow">
+                      EXTERNAL RESEARCH RESULT · {hit.rank}
+                    </span>
                     <h3>{hit.name}</h3>
                     <p className="research-paper-title">{hit.paper.title}</p>
                     <p className="fine-print">

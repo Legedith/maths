@@ -1,0 +1,71 @@
+{
+  "assumptions": [
+    {
+      "expression": {
+        "kind": "quantity",
+        "name": "connected"
+      },
+      "id": "connected-network"
+    },
+    {
+      "expression": {
+        "kind": "quantity",
+        "name": "terminal_is_edge"
+      },
+      "id": "selected-terminals-form-an-edge"
+    }
+  ],
+  "claim": {
+    "kind": "binary",
+    "left": {
+      "kind": "quantity",
+      "name": "edge_probability"
+    },
+    "op": "eq",
+    "right": {
+      "kind": "quantity",
+      "name": "resistance"
+    }
+  },
+  "graph": {
+    "edges": [
+      {
+        "conductance": 1,
+        "u": 0,
+        "v": 1
+      },
+      {
+        "conductance": 1,
+        "u": 1,
+        "v": 2
+      },
+      {
+        "conductance": 1,
+        "u": 2,
+        "v": 3
+      },
+      {
+        "conductance": 1,
+        "u": 3,
+        "v": 0
+      },
+      {
+        "conductance": 1,
+        "u": 0,
+        "v": 2
+      }
+    ],
+    "n": 4
+  },
+  "id": "R2-T24585048-unit-edge-inclusion",
+  "provenance": {
+    "annotation_id": "retrieval-round2-24585048",
+    "annotator": "/root/sol_atlas_audit",
+    "interpretation": "explicit",
+    "kind": "source_annotation",
+    "source_locator": "Source-mapped instance check. PDF p. 7, Lemma 2.1, under the paper's unit-resistance convention.",
+    "source_url": "https://arxiv.org/pdf/2109.13394v2"
+  },
+  "source": 0,
+  "target": 2
+}

@@ -1,0 +1,19 @@
+
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+TypeError [ERR_INVALID_MODULE_SPECIFIER]: Invalid module ".\alias-loader.mjs" is not a valid package name imported from D:\CodexWorkspaces\mathematics-atlas\retrieval-study-work\ui-audit\
+    at parsePackageName (node:internal/modules/package_json_reader:272:11)
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:283:53)
+    at packageResolve (node:internal/modules/esm/resolve:768:81)
+    at moduleResolve (node:internal/modules/esm/resolve:858:18)
+    at defaultResolve (node:internal/modules/esm/resolve:990:11)
+    at nextResolve (node:internal/modules/esm/hooks:785:28)
+    at AsyncLoaderHooksOnLoaderHookWorker.resolve (node:internal/modules/esm/hooks:269:30)
+    at #resolve (node:internal/modules/esm/loader:697:37)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:35)
+    at onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:649:32) {
+  code: 'ERR_INVALID_MODULE_SPECIFIER'
+}
+
+Node.js v24.12.0

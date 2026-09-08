@@ -1,0 +1,98 @@
+{
+  "adjudication_sha256": "1b64837ccce001b3bbe5996b594a8d820bcbcab0a87e1831f8e6fb2441311fb9",
+  "all_checks_pass": true,
+  "annotations_sha256": "143abc46303d78b0bf68a39c23bb381ac3fd4fd100b69d406ccf0368e7af6f54",
+  "auditor": "/root/sol_atlas_audit",
+  "checks": {
+    "additive_corrections_hash_matches": true,
+    "adjudication_eligibility_accounts_for_24": true,
+    "adjudication_has_24_unique_ids": true,
+    "adjudication_hash_preserved": true,
+    "agreement_plus_disagreement_is_24": true,
+    "all_fixture_hashes_match": true,
+    "all_source_only_labels_preserved_in_annotations": true,
+    "annotation_fixture_count_is_9": true,
+    "annotation_ids_equal_preliminary_eligible_ids": true,
+    "annotations_reference_additive_corrections": true,
+    "corrected_accounting_is_6_plus_2_plus_16": true,
+    "model_attribution_is_explicitly_withdrawn": true,
+    "populations_equal": true,
+    "reviewer_a_has_24_unique_ids": true,
+    "reviewer_a_hash_preserved": true,
+    "reviewer_b_has_24_unique_ids": true,
+    "reviewer_b_hash_preserved": true,
+    "theorem_182_correction_is_pdf_page_3_theorem_4": true,
+    "two_spectral_cases_are_marked_syntax_only_abstentions": true
+  },
+  "corrections_sha256": "030cf2360f0bcf8448fa809dc5141da716ba89262ad7140bf7fa1c283224cd3d",
+  "fixture_checks": [
+    {
+      "actual_sha256": "91debe5a89680449cf3544bce1fce96b9307c043bfba55a4329f53020090218b",
+      "case_id": "R2-T23150070-disconnected-nonzero-product",
+      "expected_sha256": "91debe5a89680449cf3544bce1fce96b9307c043bfba55a4329f53020090218b",
+      "matches": true,
+      "path": "retrieval-round2/fixtures/R2-T23150070-disconnected-nonzero-product.json"
+    },
+    {
+      "actual_sha256": "5322965f4770a0c51cb3dc2f5dbf3fc7dd3013ce4ba2df36552fb09101d0dd3d",
+      "case_id": "R2-T19685900-connected-normalized-tree-formula",
+      "expected_sha256": "5322965f4770a0c51cb3dc2f5dbf3fc7dd3013ce4ba2df36552fb09101d0dd3d",
+      "matches": true,
+      "path": "retrieval-round2/fixtures/R2-T19685900-connected-normalized-tree-formula.json"
+    },
+    {
+      "actual_sha256": "e83d42e63cef2b310a8ff5846f2c81326e5a5e4759e1ed3881b30b377c7fabae",
+      "case_id": "R2-T18276974-disconnected-normalized-nonzero-product",
+      "expected_sha256": "e83d42e63cef2b310a8ff5846f2c81326e5a5e4759e1ed3881b30b377c7fabae",
+      "matches": true,
+      "path": "retrieval-round2/fixtures/R2-T18276974-disconnected-normalized-nonzero-product.json"
+    },
+    {
+      "actual_sha256": "717188402916b607f1babe80e7cb7967c7bfc79d06578b35e932080c49354aba",
+      "case_id": "R2-T18134454-weighted-edge-inclusion",
+      "expected_sha256": "717188402916b607f1babe80e7cb7967c7bfc79d06578b35e932080c49354aba",
+      "matches": true,
+      "path": "retrieval-round2/fixtures/R2-T18134454-weighted-edge-inclusion.json"
+    },
+    {
+      "actual_sha256": "a36cde2abac16842aa95f665052fb1324f800727b0cdd89bcc4d35e05af8a7d5",
+      "case_id": "R2-T24585048-unit-edge-inclusion",
+      "expected_sha256": "a36cde2abac16842aa95f665052fb1324f800727b0cdd89bcc4d35e05af8a7d5",
+      "matches": true,
+      "path": "retrieval-round2/fixtures/R2-T24585048-unit-edge-inclusion.json"
+    },
+    {
+      "actual_sha256": "5fb55daa7f15e1ef27c9dbd39f6793aabb159c1c9f0aa1a3ec1876681880e278",
+      "case_id": "R2-T22467127-cycle-edge-inclusion",
+      "expected_sha256": "5fb55daa7f15e1ef27c9dbd39f6793aabb159c1c9f0aa1a3ec1876681880e278",
+      "matches": true,
+      "path": "retrieval-round2/fixtures/R2-T22467127-cycle-edge-inclusion.json"
+    },
+    {
+      "actual_sha256": "317c526c18ba20a0d84394f9a1f741c5ce09949583b6304719ab2d5ca27e669f",
+      "case_id": "R2-T26329144-connected-weighted-commute",
+      "expected_sha256": "317c526c18ba20a0d84394f9a1f741c5ce09949583b6304719ab2d5ca27e669f",
+      "matches": true,
+      "path": "retrieval-round2/fixtures/R2-T26329144-connected-weighted-commute.json"
+    },
+    {
+      "actual_sha256": "62a877400eee2d711c0b186b78763456494d6695fa51b744419d4b4a52b8dab0",
+      "case_id": "R2-T17464638-even-cycle-period",
+      "expected_sha256": "62a877400eee2d711c0b186b78763456494d6695fa51b744419d4b4a52b8dab0",
+      "matches": true,
+      "path": "retrieval-round2/fixtures/R2-T17464638-even-cycle-period.json"
+    },
+    {
+      "actual_sha256": "1397c05efa08010be3ee688b0888a36da77814bed7d31e739520dd852c2b9530",
+      "case_id": "R2-T17464638-odd-cycle-period",
+      "expected_sha256": "1397c05efa08010be3ee688b0888a36da77814bed7d31e739520dd852c2b9530",
+      "matches": true,
+      "path": "retrieval-round2/fixtures/R2-T17464638-odd-cycle-period.json"
+    }
+  ],
+  "reviewer_a_sha256": "39123f5a9d8197de23be95969e8d8dca432fbb3390fab63640487dc268b50307",
+  "reviewer_b_sha256": "cc99747b80e03dfc24a5518bd53eb67e98f5b164c761c1a33dba03be33d6d2f7",
+  "schema_version": "1.0",
+  "scope_note": "Frozen historical reviewer/adjudicator model strings are not authoritative runtime metadata. The additive correction withdraws that attribution without altering any labels. Theorem 18276974 resolves to exact-version 2302.07170v2 PDF p. 3, Theorem 4.",
+  "validated_at": "2026-09-08T03:53:37.842935Z"
+}

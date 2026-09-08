@@ -1,0 +1,14 @@
+﻿{
+    "name":  "concept-library-typecheck",
+    "command_argv":  [
+                         "./node_modules/.bin/tsc.cmd",
+                         "--noEmit"
+                     ],
+    "command_display":  "./node_modules/.bin/tsc.cmd --noEmit",
+    "working_directory":  "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "started_at":  "2026-09-08T09:25:52.2312912+05:30",
+    "ended_at":  "2026-09-08T09:25:59.3657597+05:30",
+    "runtime_seconds":  7.1312025,
+    "exit_code":  0,
+    "console_log":  "logs/concept-library-typecheck.console.log"
+}

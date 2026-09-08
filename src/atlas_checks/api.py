@@ -11,7 +11,7 @@ from .quantities import QuantityStore
 from .validation import InputValidationError, validate_payload
 
 
-ALGORITHM_VERSION = "atlas-checks/1.0.0"
+ALGORITHM_VERSION = "atlas-checks/1.0.2"
 
 
 def _available_provenance(payload: object) -> dict[str, Any] | None:
@@ -113,7 +113,9 @@ def check_transfer(payload: object) -> dict[str, Any]:
         return invalid_input_result(payload, exc.record())
 
     normalized = checked.normalized()
-    normalized_json = json.dumps(normalized, sort_keys=True, separators=(",", ":"), ensure_ascii=False)
+    # ASCII escaping also gives JSON-escaped unpaired surrogates a deterministic
+    # representation, without changing the supplied strings or mathematical input.
+    normalized_json = json.dumps(normalized, sort_keys=True, separators=(",", ":"), ensure_ascii=True)
     output = _base_output(checked.id, checked.provenance.normalized())
     output["normalized_input"] = normalized
     output["normalized_input_sha256"] = hashlib.sha256(normalized_json.encode("utf-8")).hexdigest()

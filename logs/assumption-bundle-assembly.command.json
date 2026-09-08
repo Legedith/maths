@@ -1,0 +1,17 @@
+﻿{
+    "name":  "assumption-bundle-assembly",
+    "command_argv":  [
+                         "uv",
+                         "run",
+                         "--frozen",
+                         "python",
+                         "scripts/build_assumption_evidence.py"
+                     ],
+    "command_display":  "uv run --frozen python scripts/build_assumption_evidence.py",
+    "working_directory":  "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "started_at":  "2026-09-08T09:43:21.8186078+05:30",
+    "ended_at":  "2026-09-08T09:43:22.6859272+05:30",
+    "runtime_seconds":  0.86445189999999994,
+    "exit_code":  0,
+    "console_log":  "logs/assumption-bundle-assembly.console.log"
+}

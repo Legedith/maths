@@ -1,0 +1,51 @@
+﻿npm.cmd : npm warn Unknown user config "msvs_version". This will stop working in the next major version of npm. See 
+`npm help npmrc` for supported config options.
+At D:\CodexWorkspaces\mathematics-atlas\project\scripts\run_logged.ps1:22 char:11
++ $output = & $Command[0] $Command[1..($Command.Count - 1)] 2>&1 | Out- ...
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (npm warn Unknow...config options.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+> sites-project@0.1.0 lint
+> oxlint
+
+evidence/research-search/independent/route-boundary-test-delta.ts:39:5: error react-hooks(rules-of-hooks): React Hook "useFetch" cannot be called at the top level. React Hooks must be called in a React function component or a custom React Hook function.
+evidence/research-search/independent/route-boundary-test-delta.ts:54:3: error react-hooks(rules-of-hooks): React Hook "useFetch" cannot be called at the top level. React Hooks must be called in a React function component or a custom React Hook function.
+evidence/research-search/independent/route-boundary-test-delta.ts:118:5: error react-hooks(rules-of-hooks): React Hook "useFetch" cannot be called at the top level. React Hooks must be called in a React function component or a custom React Hook function.
+evidence/research-search/independent/route-boundary-test-delta.ts:130:3: error react-hooks(rules-of-hooks): React Hook "useFetch" cannot be called at the top level. React Hooks must be called in a React function component or a custom React Hook function.
+evidence/research-search/independent/route-boundary-test-delta.ts:141:3: error react-hooks(rules-of-hooks): React Hook "useFetch" cannot be called at the top level. React Hooks must be called in a React function component or a custom React Hook function.
+evidence/research-search/independent/route-boundary-test-delta.ts:155:3: error react-hooks(rules-of-hooks): React Hook "useFetch" cannot be called at the top level. React Hooks must be called in a React function component or a custom React Hook function.
+evidence/research-search/independent/route-boundary-test-delta.ts:166:3: error react-hooks(rules-of-hooks): React Hook "useFetch" cannot be called at the top level. React Hooks must be called in a React function component or a custom React Hook function.
+evidence/research-search/independent/route-boundary-test-delta.ts:177:3: error react-hooks(rules-of-hooks): React Hook "useFetch" cannot be called at the top level. React Hooks must be called in a React function component or a custom React Hook function.
+evidence/research-search/independent/route-boundary-test-delta.ts:191:3: error react-hooks(rules-of-hooks): React Hook "useFetch" cannot be called at the top level. React Hooks must be called in a React function component or a custom React Hook function.
+evidence/research-search/independent/route-boundary-test.ts:35:5: error react-hooks(rules-of-hooks): React Hook "useFetch" cannot be called at the top level. React Hooks must be called in a React function component or a custom React Hook function.
+evidence/research-search/independent/route-boundary-test.ts:48:3: error react-hooks(rules-of-hooks): React Hook "useFetch" cannot be called at the top level. React Hooks must be called in a React function component or a custom React Hook function.
+evidence/research-search/independent/route-boundary-test.ts:106:5: error react-hooks(rules-of-hooks): React Hook "useFetch" cannot be called at the top level. React Hooks must be called in a React function component or a custom React Hook function.
+evidence/research-search/independent/route-boundary-test.ts:117:3: error react-hooks(rules-of-hooks): React Hook "useFetch" cannot be called at the top level. React Hooks must be called in a React function component or a custom React Hook function.
+evidence/research-search/independent/route-boundary-test.ts:131:3: error react-hooks(rules-of-hooks): React Hook "useFetch" cannot be called at the top level. React Hooks must be called in a React function component or a custom React Hook function.
+evidence/research-search/independent/route-boundary-test.ts:145:3: error react-hooks(rules-of-hooks): React Hook "useFetch" cannot be called at the top level. React Hooks must be called in a React function component or a custom React Hook function.
+evidence/research-search/independent/route-boundary-test.ts:155:3: error react-hooks(rules-of-hooks): React Hook "useFetch" cannot be called at the top level. React Hooks must be called in a React function component or a custom React Hook function.
+evidence/research-search/independent/route-boundary-test.ts:165:3: error react-hooks(rules-of-hooks): React Hook "useFetch" cannot be called at the top level. React Hooks must be called in a React function component or a custom React Hook function.
+evidence/research-search/independent/route-boundary-test.ts:177:3: error react-hooks(rules-of-hooks): React Hook "useFetch" cannot be called at the top level. React Hooks must be called in a React function component or a custom React Hook function.
+app/api/concept-library/route.ts:1:17: error typescript(TS2307): Cannot find module '@/data/mathgloss/candidate-index.json' or its corresponding type declarations.
+evidence/research-search/independent/packet-provenance-test-delta.ts:7:8: error typescript(TS2307): Cannot find module 'file:///D:/CodexWorkspaces/mathematics-atlas/project/lib/research-search.ts' or its corresponding type declarations.
+evidence/research-search/independent/packet-provenance-test.ts:7:8: error typescript(TS2307): Cannot find module 'file:///D:/CodexWorkspaces/mathematics-atlas/project/lib/research-search.ts' or its corresponding type declarations.
+evidence/research-search/independent/route-boundary-test-delta.ts:97:26: error typescript(TS2339): Property 'input' does not exist on type 'never'.
+evidence/research-search/independent/route-boundary-test-delta.ts:98:26: error typescript(TS2339): Property 'init' does not exist on type 'never'.
+evidence/research-search/independent/route-boundary-test-delta.ts:99:26: error typescript(TS2339): Property 'init' does not exist on type 'never'.
+evidence/research-search/independent/route-boundary-test-delta.ts:100:48: error typescript(TS2339): Property 'init' does not exist on type 'never'.
+evidence/research-search/independent/route-boundary-test-delta.ts:104:23: error typescript(TS2339): Property 'init' does not exist on type 'never'.
+evidence/research-search/independent/route-boundary-test-delta.ts:155:37: error typescript(TS2345): Argument of type 'Uint8Array<ArrayBufferLike>' is not assignable to parameter of type 'BodyInit | null | undefined'.
+evidence/research-search/independent/route-boundary-test-delta.ts:166:37: error typescript(TS2345): Argument of type 'Uint8Array<ArrayBufferLike>' is not assignable to parameter of type 'BodyInit | null | undefined'.
+evidence/research-search/independent/route-boundary-test.ts:85:26: error typescript(TS2339): Property 'input' does not exist on type 'never'.
+evidence/research-search/independent/route-boundary-test.ts:86:26: error typescript(TS2339): Property 'init' does not exist on type 'never'.
+evidence/research-search/independent/route-boundary-test.ts:87:26: error typescript(TS2339): Property 'init' does not exist on type 'never'.
+evidence/research-search/independent/route-boundary-test.ts:88:48: error typescript(TS2339): Property 'init' does not exist on type 'never'.
+evidence/research-search/independent/route-boundary-test.ts:92:23: error typescript(TS2339): Property 'init' does not exist on type 'never'.
+evidence/research-search/independent/route-boundary-test.ts:145:37: error typescript(TS2345): Argument of type 'Uint8Array<ArrayBufferLike>' is not assignable to parameter of type 'BodyInit | null | undefined'.
+evidence/research-search/independent/route-boundary-test.ts:155:37: error typescript(TS2345): Argument of type 'Uint8Array<ArrayBufferLike>' is not assignable to parameter of type 'BodyInit | null | undefined'.
+app/library/page.tsx:2:17: error typescript(TS2307): Cannot find module '@/data/mathgloss/candidate-index.json' or its corresponding type declarations.
+evidence/research-search/independent/route-boundary-test-delta.ts:55:32: error typescript(no-base-to-string): 'input' may use Object's default stringification format ('[object Object]') when stringified. help: Consider picking a property (e.g. `user.name`), using a formatter (or `JSON.stringify`), or implementing a custom `toString()`/`toLocaleString()` on the type.
+evidence/research-search/independent/route-boundary-test.ts:49:32: error typescript(no-base-to-string): 'input' may use Object's default stringification format ('[object Object]') when stringified. help: Consider picking a property (e.g. `user.name`), using a formatter (or `JSON.stringify`), or implementing a custom `toString()`/`toLocaleString()` on the type.
+

@@ -1,0 +1,72 @@
+{
+  "attempt": 1,
+  "elapsed_seconds": 4.419565699994564,
+  "ended_at_utc": "2026-09-08T01:54:04.711130+00:00",
+  "http_reason": "OK",
+  "http_status": 200,
+  "method": "POST",
+  "occurrences": [
+    {
+      "paper_id": "1202.5569v1",
+      "paper_link": "http://arxiv.org/abs/1202.5569v1",
+      "paper_title": "The Cover Time of Random Walks on Graphs",
+      "query_id": "Q07",
+      "rank": 1,
+      "slogan_id": 10129013,
+      "theorem_id": 25306126,
+      "theorem_name": "Corollary 9"
+    },
+    {
+      "paper_id": "1206.4162v1",
+      "paper_link": "http://arxiv.org/abs/1206.4162v1",
+      "paper_title": "Mixing times for the Swapping Algorithm on the Blume-Emery-Griffiths Model",
+      "query_id": "Q07",
+      "rank": 2,
+      "slogan_id": 7398006,
+      "theorem_id": 22481653,
+      "theorem_name": "Theorem A.2 (Ergodic Theorem for Markov chains)"
+    }
+  ],
+  "parse_error": null,
+  "query_id": "Q07",
+  "request_byte_count": 100,
+  "request_headers": {
+    "Accept": "application/json",
+    "Content-Length": "100",
+    "Content-Type": "application/json",
+    "User-Agent": "MathematicsAtlas-retrieval-study-v1/1.0"
+  },
+  "request_path": "Q07-request.json",
+  "request_sha256": "abb285ba61a4195a8a457e9a0fa0086096776fa50bb94d10cfab2800664bfbf9",
+  "response_bound_bytes": 5000000,
+  "response_byte_count_retained": 2263,
+  "response_exceeded_bound": false,
+  "response_headers": [
+    [
+      "content-length",
+      "2263"
+    ],
+    [
+      "content-type",
+      "application/json"
+    ],
+    [
+      "date",
+      "Tue, 08 Sep 2026 01:54:00 GMT"
+    ],
+    [
+      "server",
+      "envoy"
+    ],
+    [
+      "x-envoy-upstream-service-time",
+      "3422"
+    ]
+  ],
+  "response_path": "Q07-response.bin",
+  "response_sha256": "6f20fe7d1e865efa514fe46da47916bb50d3f2571f11c67b25cbe6c176ae6b09",
+  "returned_result_count": 2,
+  "started_at_utc": "2026-09-08T01:54:00.291567+00:00",
+  "transport_error": null,
+  "url": "https://api.theoremsearch.com/search"
+}

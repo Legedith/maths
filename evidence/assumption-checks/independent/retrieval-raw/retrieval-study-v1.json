@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "study_id": "assumption-preservation-retrieval-v1",
+  "status": "prospective; evaluation retrieval has not run",
+  "provider": "TheoremSearch",
+  "endpoint": "https://api.theoremsearch.com/search",
+  "method": "POST",
+  "request_defaults": {"n_results": 2},
+  "sampling": {
+    "order": "lexicographic query ID",
+    "attempts_per_query": 1,
+    "retain": "Every response, returned rank, duplicate, refusal, timeout, malformed response and empty result. Do not replace exclusions or failures with extra queries.",
+    "annotation_unit": "Every unique returned theorem_id and its entire generated slogan, preserving all query/rank occurrences. Atomize only when needed without dropping inconvenient clauses.",
+    "deduplication_key": "theorem_id",
+    "development_theorem_ids": [20543909],
+    "development_policy": "Retain occurrences in the retrieval record but exclude this previously inspected normalization example from the prospective evaluation denominator.",
+    "population_limit": "Fixed purposive probe, not a random sample of the service or mathematics. No population error-rate inference."
+  },
+  "annotation": {
+    "reviewers": "Two independent agent source reviewers, with identity and model recorded; correlated model errors remain possible. No human-study claim.",
+    "round_one": "Judge source support without the new automated checker. Preserve each reviewer's original labels and source locators before adjudication.",
+    "round_two": "Apply machine checking only after a reviewer explicitly maps the claim to supported typed quantities and assumptions. Retain the annotation and report changes separately.",
+    "labels": {
+      "supported": "The statement and material conventions are supported by the original source in their recorded context.",
+      "refuted": "The original source or an exact separating witness contradicts an unambiguous reading.",
+      "insufficient": "Missing or ambiguous convention, partial support, or narrower evidence without a decisive contradiction.",
+      "abstain": "Source inaccessible or claim cannot be interpreted without inventing an assumption or changing its meaning."
+    },
+    "separate_fields": ["generated slogan", "extracted theorem body", "original paper definitions and context", "reviewer interpretation", "structured claim", "machine verdict"],
+    "limits": "No automatic natural-language accuracy, researcher-time benefit, or global novelty claim. A finite successful example does not prove a theorem."
+  },
+  "queries": [
+    {"id": "Q01", "query": "weighted graph spectral matrix tree theorem product nonzero Laplacian eigenvalues"},
+    {"id": "Q02", "query": "normalized Laplacian spanning tree formula vertex degree factors"},
+    {"id": "Q03", "query": "weighted random spanning tree edge inclusion probability conductance effective resistance"},
+    {"id": "Q04", "query": "effective resistance nonadjacent vertices spanning tree edge probability"},
+    {"id": "Q05", "query": "weighted commute time conductance reversible measure graph volume"},
+    {"id": "Q06", "query": "random walk hitting times asymmetric ordered vertices undirected graph"},
+    {"id": "Q07", "query": "stationary distribution convergence aperiodic finite connected random walk"},
+    {"id": "Q08", "query": "simple random walk even cycle periodic stationary distribution"},
+    {"id": "Q09", "query": "graph Laplacian voltage solution additive constant grounding unique"},
+    {"id": "Q10", "query": "effective resistance Laplacian pseudoinverse connected positive weights"},
+    {"id": "Q11", "query": "disconnected network infinite hitting time effective resistance components"},
+    {"id": "Q12", "query": "weighted spanning tree Kirchhoff effective resistance theorem graph assumptions"}
+  ]
+}

@@ -1,0 +1,1392 @@
+{
+  "annotations": [
+    {
+      "extracted_theorem_body": "Let $X$ be a random walk on an $n$-cycle. If $n$ is even, the period of $X$ is 2. If $n$ is odd, $X$ is aperiodic.",
+      "generated_slogan": "A random walk on an n-cycle has period 2 when n is even. When n is odd, the random walk is aperiodic.",
+      "machine_verdict": {
+        "reason": "Frozen policy requires reviewer round one before any automated checker.",
+        "status": "not_run"
+      },
+      "occurrences": [
+        {
+          "query_id": "Q08",
+          "rank": 2
+        }
+      ],
+      "original_paper": {
+        "authors": [
+          "Soumik Pal",
+          "Tim Mesikepp"
+        ],
+        "definitions_and_context": "The source defines period and aperiodicity for an irreducible Markov chain, works through 4- and 5-cycle examples, and states that simple random walk on an even n-cycle has period 2 while on an odd n-cycle it is aperiodic.",
+        "exact_source_url": "https://arxiv.org/pdf/2510.14165v1",
+        "extracted_text_path_local_only": "primary-source-text/2510.14165v1.txt",
+        "extracted_text_sha256": "015258586ec066de29e1bf8258edd5ff90a774d290c051c817c8db63d0625b97",
+        "locators": [
+          {
+            "extracted_text_line_end": 1385,
+            "extracted_text_line_start": 1368,
+            "pdf_page": 31,
+            "purpose": "examples and theorem statement"
+          }
+        ],
+        "paper_id": "2510.14165v1",
+        "pdf_path_local_only": "primary-sources/2510.14165v1.pdf",
+        "pdf_sha256": "d1dd58d663cd6cb8dff0eaa535ff8aba9cafb684a7876f21e024c92dcf4c6dc9",
+        "title": "Finite Markov chains and Monte-Carlo Methods: An Undergraduate Introduction"
+      },
+      "retrieved_theorem_name": "Theorem 1.3",
+      "reviewer_interpretation": "The slogan is a direct, convention-preserving paraphrase of the theorem.",
+      "round_one_label": "supported",
+      "structured_claim": {
+        "atoms": [
+          "The random walk on an even n-cycle has period 2.",
+          "The random walk on an odd n-cycle is aperiodic."
+        ],
+        "unit": "entire generated slogan"
+      },
+      "theorem_id": 17464638
+    },
+    {
+      "extracted_theorem_body": "If $G$ is connected, $a_{pq}\\ne 0$, and $\\{ p,q\\} $ is a cut-edge, then\\[  c^F(p,q)=2\\frac{\\bm {w}_{pq}^\\top S^{-1}DS^{-1}DS^{-1}\\bm {w}_{pq}}{\\mu (p,q)}.  \\]",
+      "generated_slogan": "If a graph is connected and an edge is a cut-edge with nonzero weight, then the effective resistance between its endpoints equals twice a specific expression involving the weight vector and the graph's Laplacian pseudoinverse. This expression is a ratio where the numerator contains the product of the weight vector with three instances of the pseudoinverse and a degree matrix. The denominator is the weight of the edge. The formula provides a closed-form for the resistance in terms of the graph's structure.",
+      "machine_verdict": {
+        "reason": "Frozen policy requires reviewer round one before any automated checker.",
+        "status": "not_run"
+      },
+      "occurrences": [
+        {
+          "query_id": "Q10",
+          "rank": 2
+        }
+      ],
+      "original_paper": {
+        "authors": [
+          "Dario A. Bini",
+          "Beatrice Meini",
+          "Federico Poloni"
+        ],
+        "definitions_and_context": "The paper defines c^F(p,q) as a filtered Kemeny-centrality measure and mu(p,q) as a directional derivative of Kemeny's constant. The theorem's display divides by mu(p,q). S is a modified graph-Laplacian matrix whose ordinary inverse is used in the displayed formula.",
+        "exact_source_url": "https://arxiv.org/pdf/2508.21506v1",
+        "extracted_text_path_local_only": "primary-source-text/2508.21506v1.txt",
+        "extracted_text_sha256": "15b0c2d4b02eb4566bdc5587d57516d9ca7167897a7770a99f4fd83ddb80ce61",
+        "locators": [
+          {
+            "extracted_text_line_end": 136,
+            "extracted_text_line_start": 131,
+            "pdf_page": 3,
+            "purpose": "connected weighted-graph setup"
+          },
+          {
+            "extracted_text_line_end": 156,
+            "extracted_text_line_start": 139,
+            "pdf_page": 4,
+            "purpose": "Laplacian and random-walk context"
+          },
+          {
+            "extracted_text_line_end": 280,
+            "extracted_text_line_start": 242,
+            "pdf_page": 5,
+            "purpose": "definitions of c, c_r, and filtered centrality c^F"
+          },
+          {
+            "extracted_text_line_end": 351,
+            "extracted_text_line_start": 327,
+            "pdf_page": 6,
+            "purpose": "definition of mu as Kemeny directional derivative"
+          },
+          {
+            "extracted_text_line_end": 619,
+            "extracted_text_line_start": 613,
+            "pdf_page": 9,
+            "purpose": "Theorem 3 formula"
+          }
+        ],
+        "paper_id": "2508.21506v1",
+        "pdf_path_local_only": "primary-sources/2508.21506v1.pdf",
+        "pdf_sha256": "74984073bbff52a630d780e337605e3f60d3f6471453d15fac3eca0a45e415a9",
+        "title": "The Derivative of Kemeny's Constant as a Centrality Measure in Undirected Graphs"
+      },
+      "retrieved_theorem_name": "Theorem 3",
+      "reviewer_interpretation": "The slogan changes the quantity into effective resistance, changes the denominator from the Kemeny derivative mu(p,q) to the edge weight, and calls S^{-1} a Laplacian pseudoinverse. These are unambiguous identification errors.",
+      "round_one_label": "refuted",
+      "structured_claim": {
+        "atoms": [
+          "The graph is connected and {p,q} is a nonzero-weight cut-edge.",
+          "c^F(p,q) is the effective resistance between p and q.",
+          "The numerator uses three instances of a graph-Laplacian pseudoinverse and D.",
+          "The denominator is the edge weight.",
+          "The formula is a resistance closed form."
+        ],
+        "unit": "entire generated slogan"
+      },
+      "theorem_id": 17584187
+    },
+    {
+      "extracted_theorem_body": "Given a weighted graph $(G, \\textup{\\textrm{w}})$, the probability that an edge $(u,v)$ is in the (weighted) uniform spanning tree is\\begin{equation}   \\boldsymbol {\\mathrm{P}}\\big( (u,v) \\in \\mathcal{T} \\big) = \\textup{\\textrm{w}}(u,v) {\\rm R}_{\\rm eff}^{}(u \\leftrightarrow v). \\end{equation}",
+      "generated_slogan": "The probability an edge is in the weighted uniform spanning tree equals the product of its weight and the effective resistance between its endpoints.",
+      "machine_verdict": {
+        "reason": "Frozen policy requires reviewer round one before any automated checker.",
+        "status": "not_run"
+      },
+      "occurrences": [
+        {
+          "query_id": "Q03",
+          "rank": 1
+        }
+      ],
+      "original_paper": {
+        "authors": [
+          "Luca Makowiec"
+        ],
+        "definitions_and_context": "For a finite undirected graph with positive edge weights, the paper defines effective resistance by minimum unit-flow energy and states Kirchhoff's formula for the weighted uniform spanning-tree law.",
+        "exact_source_url": "https://arxiv.org/pdf/2410.16836v3",
+        "extracted_text_path_local_only": "primary-source-text/2410.16836v3.txt",
+        "extracted_text_sha256": "d6484fd3dee474e707f577d9aef55703855e7e4ae1f86ba6b8ce6db74d8f828f",
+        "locators": [
+          {
+            "extracted_text_line_end": 179,
+            "extracted_text_line_start": 169,
+            "pdf_page": 3,
+            "purpose": "finite positive-weight undirected-network setup"
+          },
+          {
+            "extracted_text_line_end": 230,
+            "extracted_text_line_start": 199,
+            "pdf_page": 4,
+            "purpose": "effective-resistance definition and Kirchhoff formula"
+          }
+        ],
+        "paper_id": "2410.16836v3",
+        "pdf_path_local_only": "primary-sources/2410.16836v3.pdf",
+        "pdf_sha256": "3ce5a9b56a22d884138bd1335d4216061733680743ceab16b70963bba9f61d9c",
+        "title": "Local limits of random spanning trees in random environment"
+      },
+      "retrieved_theorem_name": "Theorem 2.2 (Kirchhoff’s formula {\\cite[Section 4.2]{LP16}})",
+      "reviewer_interpretation": "The slogan preserves the weighted-tree law, edge weight, and effective resistance.",
+      "round_one_label": "supported",
+      "structured_claim": {
+        "atoms": [
+          "The tree is sampled from the weighted uniform spanning-tree law.",
+          "An edge's inclusion probability equals its weight times endpoint effective resistance."
+        ],
+        "unit": "entire generated slogan"
+      },
+      "theorem_id": 18134454
+    },
+    {
+      "exact_witness": {
+        "key": "weighted_triangle",
+        "path": "exact-witnesses-attempt-01.console.log"
+      },
+      "extracted_theorem_body": "Given any finite electrical network $(G, \\textup{\\textrm{w}})$ and corresponding weighted UST measure $\\boldsymbol {\\mathrm{P}}^\\textup{\\textrm{w}}_G$, we have\\begin{equation}   \\boldsymbol {\\mathrm{P}}^\\textup{\\textrm{w}}_G \\big( (u,v) \\in {\\mathcal T} \\big) = \\textup{\\textrm{w}}(u,v) {\\rm R}_{\\rm eff}^{\\textup{\\textrm{w}}}(u \\leftrightarrow v)\\, . \\end{equation}",
+      "generated_slogan": "The probability that an edge is in a uniformly random spanning tree equals the product of its weight and the effective resistance between its endpoints. This holds for any finite electrical network with given edge weights. The result connects graph theory and electrical network concepts. It is known as Kirchhoff's effective resistance formula.",
+      "machine_verdict": {
+        "reason": "Frozen policy requires reviewer round one before any automated checker.",
+        "status": "not_run"
+      },
+      "occurrences": [
+        {
+          "query_id": "Q03",
+          "rank": 2
+        }
+      ],
+      "original_paper": {
+        "authors": [
+          "Luca Makowiec",
+          "Michele Salvi",
+          "Rongfeng Sun"
+        ],
+        "definitions_and_context": "The source explicitly distinguishes the unweighted UST from the weighted UST. It assigns a tree probability proportional to the product of its edge weights, and Theorem 2.1 uses that weighted law.",
+        "exact_source_url": "https://arxiv.org/pdf/2410.16830v3",
+        "extracted_text_path_local_only": "primary-source-text/2410.16830v3.txt",
+        "extracted_text_sha256": "8a28673bbe9ddf83ce6c318f2242d3e3c60f05f07c06b7e4c32986a771f61e77",
+        "locators": [
+          {
+            "extracted_text_line_end": 145,
+            "extracted_text_line_start": 136,
+            "pdf_page": 2,
+            "purpose": "explicit weighted-versus-unweighted UST terminology"
+          },
+          {
+            "extracted_text_line_end": 522,
+            "extracted_text_line_start": 508,
+            "pdf_page": 8,
+            "purpose": "weighted UST probability law"
+          },
+          {
+            "extracted_text_line_end": 594,
+            "extracted_text_line_start": 581,
+            "pdf_page": 8,
+            "purpose": "Theorem 2.1 under the weighted UST law"
+          }
+        ],
+        "paper_id": "2410.16830v3",
+        "pdf_path_local_only": "primary-sources/2410.16830v3.pdf",
+        "pdf_sha256": "bbf97d79b262142afc8139cab27435613fce9b37e2e8cc763d4edf57ec72577a",
+        "title": "Random spanning trees in random environment"
+      },
+      "retrieved_theorem_name": "Theorem 2.1 (Kirchhoff’s Formula)",
+      "reviewer_interpretation": "The slogan says the tree is uniformly random without retaining the weighted-law qualification. In a triangle with conductances (2,1,1), the weighted inclusion probability for the weight-2 edge is 4/5, while ordinary uniform sampling gives 2/3.",
+      "round_one_label": "refuted",
+      "structured_claim": {
+        "atoms": [
+          "For any finite electrical network, the relevant tree is uniformly random over spanning trees.",
+          "Its edge-inclusion probability equals edge weight times effective resistance.",
+          "This is Kirchhoff's effective-resistance formula."
+        ],
+        "unit": "entire generated slogan"
+      },
+      "theorem_id": 18165234
+    },
+    {
+      "exact_witness": {
+        "key": "two_disjoint_unit_edges",
+        "path": "exact-witnesses-attempt-01.console.log"
+      },
+      "extracted_theorem_body": "{\\cite{Chu97}} The total count of spanning trees of the graph $G$ is,\\begin{eqnarray*}  \\tau (G)=\\frac{1}{2|E|}\\prod \\limits _{i=1}^{|V|} d_i \\prod \\limits _{i=2}^{|V|} \\lambdabar _i, \\end{eqnarray*}where $\\{ 0=\\lambdabar _1< \\lambdabar _2\\leq \\cdots \\leq \\lambdabar _{|V|}\\} $ is the spectrum of the normalized Laplacian matrix of the graph $G$.",
+      "generated_slogan": "The total number of spanning trees in a graph G is given by a formula involving the degrees of its vertices and the eigenvalues of its normalized Laplacian matrix. The product of all vertex degrees is multiplied by the product of all nonzero eigenvalues. This result is then divided by twice the number of edges in the graph. The eigenvalues are ordered, with the smallest being zero and excluded from the product.",
+      "machine_verdict": {
+        "reason": "Frozen policy requires reviewer round one before any automated checker.",
+        "status": "not_run"
+      },
+      "metadata_observation": "Retrieved theorem name is Theorem 5; exact PDF labels the formula Theorem 4.",
+      "occurrences": [
+        {
+          "query_id": "Q02",
+          "rank": 2
+        }
+      ],
+      "original_paper": {
+        "authors": [
+          "Md. Abdus Sahir",
+          "Sk. Md. Abu Nayeem"
+        ],
+        "definitions_and_context": "The source states the normalized-Laplacian spanning-tree formula for a connected graph, so zero is the unique zero eigenvalue. The PDF labels this formula Theorem 4, although the retrieval metadata calls it Theorem 5.",
+        "exact_source_url": "https://arxiv.org/pdf/2302.07170v2",
+        "extracted_text_path_local_only": "primary-source-text/2302.07170v2.txt",
+        "extracted_text_sha256": "6ffe1cab0e426e652e778725b9adc498280d7f9de59578dd7a3f5e6423b43de9",
+        "locators": [
+          {
+            "extracted_text_line_end": 122,
+            "extracted_text_line_start": 118,
+            "pdf_page": 2,
+            "purpose": "connectedness and unique-zero spectral context"
+          },
+          {
+            "extracted_text_line_end": 178,
+            "extracted_text_line_start": 160,
+            "pdf_page": 3,
+            "purpose": "source formula, labeled Theorem 4 in the PDF"
+          }
+        ],
+        "paper_id": "2302.07170v2",
+        "pdf_path_local_only": "primary-sources/2302.07170v2.pdf",
+        "pdf_sha256": "0a8b0cd222346e255bfe572b23b84a6351896223af4de86745e72cf6bd28bbe4",
+        "title": "Characterizing the Degree-Kirchhoff, Gutman, and Schultz Indices in Pentagonal Cylinders and Möbius Chains"
+      },
+      "retrieved_theorem_name": "Theorem 5",
+      "reviewer_interpretation": "The slogan drops connectedness and replaces the indexed product after the unique zero with a product of all nonzero eigenvalues. For two disjoint unit edges, that reading yields 1 while the spanning-tree count is 0.",
+      "round_one_label": "refuted",
+      "structured_claim": {
+        "atoms": [
+          "For an unrestricted graph G, tau(G) equals the degree product times all nonzero normalized-Laplacian eigenvalues divided by 2|E|.",
+          "The smallest eigenvalue is zero and is excluded from that product."
+        ],
+        "unit": "entire generated slogan"
+      },
+      "theorem_id": 18276974
+    },
+    {
+      "extracted_theorem_body": "Suppose $P$ is irreducible and reversible, and it has period 2. Then, $P$ has a unique even-time stationary distribution $\\mathring {\\pi }$, and $\\lim _{t \\to \\infty } \\mathring {x} P^{2t} = \\mathring {\\pi }$ for any even-time distribution $\\mathring {x}$.",
+      "generated_slogan": "An irreducible and reversible Markov chain with period two has a unique stationary distribution for even times. The chain converges to this stationary distribution in the limit over even time steps. This convergence occurs from any initial even-time distribution.",
+      "machine_verdict": {
+        "reason": "Frozen policy requires reviewer round one before any automated checker.",
+        "status": "not_run"
+      },
+      "occurrences": [
+        {
+          "query_id": "Q08",
+          "rank": 1
+        }
+      ],
+      "original_paper": {
+        "authors": [
+          "Shuma Kumamoto",
+          "Shuji Kijima",
+          "Tomoyuki Shirai"
+        ],
+        "definitions_and_context": "For an irreducible reversible period-2 chain, the source defines an even-time distribution on one bipartition class and an even-time stationary distribution fixed by P^2, then states uniqueness and convergence along even times.",
+        "exact_source_url": "https://arxiv.org/pdf/2405.09102v1",
+        "extracted_text_path_local_only": "primary-source-text/2405.09102v1.txt",
+        "extracted_text_sha256": "e35b14588cc47071306bbc312230775c2527c33ca775febd0e621db7a49ec378",
+        "locators": [
+          {
+            "extracted_text_line_end": 241,
+            "extracted_text_line_start": 228,
+            "pdf_page": 5,
+            "purpose": "definitions and Proposition 2.2"
+          }
+        ],
+        "paper_id": "2405.09102v1",
+        "pdf_path_local_only": "primary-sources/2405.09102v1.pdf",
+        "pdf_sha256": "bca672594f609631c45a449859f63f8c23b7922648d6be383976f4bac792c79e",
+        "title": "An Analysis of the Recurrence/Transience of Random Walks on Growing Trees and Hypercubes"
+      },
+      "retrieved_theorem_name": "Proposition 2.2 (limit distribution)",
+      "reviewer_interpretation": "The slogan keeps the period-2, reversibility, uniqueness, and even-time domain restrictions.",
+      "round_one_label": "supported",
+      "structured_claim": {
+        "atoms": [
+          "An irreducible reversible period-2 chain has a unique even-time stationary distribution.",
+          "Every initial even-time distribution converges to it along P^{2t}."
+        ],
+        "unit": "entire generated slogan"
+      },
+      "theorem_id": 18458194
+    },
+    {
+      "extracted_theorem_body": "\\textup{\\cite{M}} If graph $G$ with $|V_G|=n$ and $|E_G|=m$. The number of spanning trees of $G$ is\\begin{eqnarray*}  2m\\tau (G)=\\prod _{i=1}^{n}d_i\\cdot \\prod _{i=2}^{n}\\lambda _i, \\end{eqnarray*}where $\\lambda _{i}$ is the normalized Laplacian eigenvalue of $G$.",
+      "generated_slogan": "A graph with n vertices and m edges has a spanning tree count given by a formula. This formula equals the product of all vertex degrees multiplied by the product of all normalized Laplacian eigenvalues except the smallest. The result is also equal to twice the number of edges times the number of spanning trees. The eigenvalues are those of the normalized Laplacian matrix of the graph.",
+      "machine_verdict": {
+        "reason": "Frozen policy requires reviewer round one before any automated checker.",
+        "status": "not_run"
+      },
+      "occurrences": [
+        {
+          "query_id": "Q02",
+          "rank": 1
+        }
+      ],
+      "original_paper": {
+        "authors": [
+          "Zhi-Yu Shi",
+          "Jia-Bao Liu",
+          "Sakander Hayat"
+        ],
+        "definitions_and_context": "The paper uses a normalized-Laplacian spectrum with a unique zero and gives the formula in a section whose adjacent spectral theorems explicitly assume a connected graph. Its definition D^{-1/2} L D^{-1/2} does not record an isolated-vertex convention.",
+        "exact_source_url": "https://arxiv.org/pdf/2009.04139v1",
+        "extracted_text_path_local_only": "primary-source-text/2009.04139v1.txt",
+        "extracted_text_sha256": "412c4b4e0435ee46b048b34f419ab20e6dd57a0673645815e2828124a3a7bb16",
+        "locators": [
+          {
+            "extracted_text_line_end": 39,
+            "extracted_text_line_start": 29,
+            "pdf_page": 1,
+            "purpose": "normalized-Laplacian definition"
+          },
+          {
+            "extracted_text_line_end": 79,
+            "extracted_text_line_start": 60,
+            "pdf_page": 2,
+            "purpose": "unique-zero spectrum context"
+          },
+          {
+            "extracted_text_line_end": 185,
+            "extracted_text_line_start": 153,
+            "pdf_page": 3,
+            "purpose": "connected neighboring results and Theorem 2.5 formula"
+          }
+        ],
+        "paper_id": "2009.04139v1",
+        "pdf_path_local_only": "primary-sources/2009.04139v1.pdf",
+        "pdf_sha256": "8cd24fdc344f2550a418c933800d3e97ba358fd7aa1f516aafccceaaede2f566",
+        "title": "The Laplacian and normalized Laplacian spectra of Mobius polyomino networks and their applications"
+      },
+      "retrieved_theorem_name": "Theorem \\normalsize 2.5",
+      "reviewer_interpretation": "The slogan quantifies over a generic graph and does not preserve the connected/no-isolate scope needed by the recorded context. The algebraic identity may extend under additional normalized-Laplacian conventions, so the source is narrower rather than decisively contradictory.",
+      "round_one_label": "insufficient",
+      "structured_claim": {
+        "atoms": [
+          "Any graph with n vertices and m edges satisfies the normalized-Laplacian spanning-tree formula.",
+          "The product includes every normalized-Laplacian eigenvalue except one smallest eigenvalue."
+        ],
+        "unit": "entire generated slogan"
+      },
+      "theorem_id": 19685900
+    },
+    {
+      "exact_witness": {
+        "key": "weighted_triangle",
+        "path": "exact-witnesses-attempt-01.console.log"
+      },
+      "extracted_theorem_body": "Let $G=(V, E, \\{ w_e\\} )$ be a simple weighted graph with weight $w_{ij}=\\frac{1}{r_{ij}}$ if $ij\\in E$, and $w_{ij}=0$ if $ij\\notin E$, where $r_{ij}$ is the resistance of edge $ij\\in E$. For any two vertices $u, v\\in V$, the effective resistance between $u$ and $v$ is\\[ R_{uv}=\\frac{\\tau (G/\\{ u,v\\} )}{\\tau (G)}. \\]",
+      "generated_slogan": "The effective resistance between two vertices in a weighted graph equals the ratio of the number of spanning trees in the graph with those vertices identified to the number of spanning trees in the original graph. The graph's edge weights are defined as the reciprocal of the resistances. This result connects graph theory with electrical network concepts. It provides a combinatorial formula for computing effective resistance.",
+      "machine_verdict": {
+        "reason": "Frozen policy requires reviewer round one before any automated checker.",
+        "status": "not_run"
+      },
+      "occurrences": [
+        {
+          "query_id": "Q12",
+          "rank": 2
+        }
+      ],
+      "original_paper": {
+        "authors": [
+          "Jun Ge",
+          "Fengming Dong"
+        ],
+        "definitions_and_context": "The source defines tau(G) for a weighted graph as the sum of products of edge weights over spanning trees, and says it becomes the number of spanning trees only in the unweighted unit-weight case. Theorem 2.4 uses this weighted tau.",
+        "exact_source_url": "https://arxiv.org/pdf/1904.07766v1",
+        "extracted_text_path_local_only": "primary-source-text/1904.07766v1.txt",
+        "extracted_text_sha256": "fce25ac289c937733a0ed519cd2e50cf556feaa99534638a437ee380f85323d4",
+        "locators": [
+          {
+            "extracted_text_line_end": 40,
+            "extracted_text_line_start": 19,
+            "pdf_page": 1,
+            "purpose": "weighted spanning-tree enumerator tau definition"
+          },
+          {
+            "extracted_text_line_end": 213,
+            "extracted_text_line_start": 205,
+            "pdf_page": 5,
+            "purpose": "Theorem 2.4 ratio"
+          }
+        ],
+        "paper_id": "1904.07766v1",
+        "pdf_path_local_only": "primary-sources/1904.07766v1.pdf",
+        "pdf_sha256": "9dac8057d51e7c361fe08877a79bff45a97e19818d32289c83245bbb49a1aa0d",
+        "title": "Spanning trees in complete bipartite graphs and resistance distance in nearly complete bipartite graphs"
+      },
+      "retrieved_theorem_name": "Theorem 2.4 (\\cite{SR})",
+      "reviewer_interpretation": "The slogan calls the numerator and denominator numbers of spanning trees in a weighted graph. With conductances (2,1,1) on a triangle, weighted tau gives the correct ratio 2/5, whereas plain counts give 2/3.",
+      "round_one_label": "refuted",
+      "structured_claim": {
+        "atoms": [
+          "In a weighted graph, effective resistance equals a ratio of ordinary spanning-tree counts after and before identifying the vertices.",
+          "Edge weights are reciprocal resistances.",
+          "The ratio is a combinatorial computation of effective resistance."
+        ],
+        "unit": "entire generated slogan"
+      },
+      "theorem_id": 20258646
+    },
+    {
+      "extracted_theorem_body": "Let $G$ be a transient, connected graph. Then,\\begin{equation*}  R^F(x,y) = \\frac{1}{c_x \\cdot \\mathbb {P}_x[\\tau _y < \\tau _x^+]} \\end{equation*}holds for all $x,y \\in V$ if and only if $G$ is a subgraph of an infinite line.",
+      "generated_slogan": "For a transient connected graph, the formula for the effective resistance between two nodes holds for all pairs if and only if the graph is a subgraph of an infinite line. The formula involves the reciprocal of the product of the conductance at the starting node and the probability of hitting the target before returning to the start. This equivalence characterizes graphs that are essentially one-dimensional.",
+      "machine_verdict": {
+        "reason": "Frozen policy requires reviewer round one before any automated checker.",
+        "status": "not_run"
+      },
+      "occurrences": [
+        {
+          "query_id": "Q11",
+          "rank": 2
+        }
+      ],
+      "original_paper": {
+        "authors": [
+          "Tobias Weihrauch",
+          "Stefan Bachmann"
+        ],
+        "definitions_and_context": "The source distinguishes free effective resistance R^F on an infinite connected graph and states the all-pairs characterization specifically for R^F.",
+        "exact_source_url": "https://arxiv.org/pdf/1902.01110v2",
+        "extracted_text_path_local_only": "primary-source-text/1902.01110v2.txt",
+        "extracted_text_sha256": "f118e74694e9af079b1335444b91c274bbd692c99a7449a7cb14a36621c78051",
+        "locators": [
+          {
+            "extracted_text_line_end": 112,
+            "extracted_text_line_start": 90,
+            "pdf_page": 2,
+            "purpose": "free effective-resistance convention"
+          },
+          {
+            "extracted_text_line_end": 746,
+            "extracted_text_line_start": 741,
+            "pdf_page": 10,
+            "purpose": "Corollary 6.3"
+          }
+        ],
+        "paper_id": "1902.01110v2",
+        "pdf_path_local_only": "primary-sources/1902.01110v2.pdf",
+        "pdf_sha256": "55a88d447551c3263f20de8fcb4872efd20ef85e265e6f2444bddbf9f7110159",
+        "title": "On the Probabilistic Representation of the Free Effective Resistance of Infinite Graphs"
+      },
+      "retrieved_theorem_name": "Corollary 6.3",
+      "reviewer_interpretation": "The slogan drops the free-boundary qualifier. On infinite networks, free and wired effective resistance are distinct conventions, so generic 'effective resistance' is ambiguous.",
+      "round_one_label": "insufficient",
+      "structured_claim": {
+        "atoms": [
+          "For a transient connected graph, an unqualified effective resistance has the hitting-probability representation for all pairs exactly for subgraphs of an infinite line.",
+          "The formula uses c_x and the probability of hitting y before returning to x."
+        ],
+        "unit": "entire generated slogan"
+      },
+      "theorem_id": 20314933
+    },
+    {
+      "extracted_theorem_body": "For any connected matrix weighted graph $G$ with $L=L(G)$\\[ \\begin{aligned} L\\,  L^+=I_{nk}-\\frac{1}{n}\\mathbb {J}_n\\otimes I_k= L^+\\,  L=L\\,  X \\end{aligned} \\]where each weight is a positive definite matrix of order k.",
+      "generated_slogan": "A connected graph with matrix weights has a Laplacian matrix L. The pseudoinverse of L satisfies an identity involving the identity matrix and a block matrix of all ones. This identity holds when each weight is a positive definite matrix of fixed order.",
+      "machine_verdict": {
+        "reason": "Frozen policy requires reviewer round one before any automated checker.",
+        "status": "not_run"
+      },
+      "occurrences": [
+        {
+          "query_id": "Q10",
+          "rank": 1
+        }
+      ],
+      "original_paper": {
+        "authors": [
+          "Deepak Sarma"
+        ],
+        "definitions_and_context": "The source defines a connected matrix-weighted graph with fixed-order positive-definite edge matrices and states the displayed Moore-Penrose identities for its block Laplacian.",
+        "exact_source_url": "https://arxiv.org/pdf/1803.09144v1",
+        "extracted_text_path_local_only": "primary-source-text/1803.09144v1.txt",
+        "extracted_text_sha256": "e96b2b916f131d30f1dac62b769dd9d58433239062c514ebbf946b0eb96c70c0",
+        "locators": [
+          {
+            "extracted_text_line_end": 783,
+            "extracted_text_line_start": 752,
+            "pdf_page": 11,
+            "purpose": "matrix-weighted graph and block Laplacian definitions"
+          },
+          {
+            "extracted_text_line_end": 888,
+            "extracted_text_line_start": 820,
+            "pdf_page": 12,
+            "purpose": "pseudoinverse construction and Theorem 3.2"
+          }
+        ],
+        "paper_id": "1803.09144v1",
+        "pdf_path_local_only": "primary-sources/1803.09144v1.pdf",
+        "pdf_sha256": "ec2c2dc0b593b04bef50686b2bbc2afa135dceff24de20a1e95576ac0e82cf02",
+        "title": "A study on resistance matrix of graphs"
+      },
+      "retrieved_theorem_name": "Theorem 3.2",
+      "reviewer_interpretation": "The slogan preserves connectedness, matrix weights, positive definiteness, block order, and the pseudoinverse identity.",
+      "round_one_label": "supported",
+      "structured_claim": {
+        "atoms": [
+          "The graph is connected and each edge weight is a positive-definite matrix of fixed order k.",
+          "Its block Laplacian pseudoinverse satisfies LL^+=L^+L=I-(1/n)J tensor I_k and the stated L X relation."
+        ],
+        "unit": "entire generated slogan"
+      },
+      "theorem_id": 20655858
+    },
+    {
+      "exact_witness": {
+        "key": "weighted_triangle_cycle_pairing",
+        "path": "exact-witnesses-attempt-01.console.log"
+      },
+      "extracted_theorem_body": "Assume $G$ is finite with $n$ vertices. Let\\[  0=\\lambda _1<\\lambda _2\\leq \\cdots \\leq \\lambda _n  \\]be the eigenvalues of $\\Delta $. Then\\[  D(G) = m(G)^{-1} \\frac{\\prod _{e\\in E(G)^\\ast } w(e)}{\\prod _{v\\in V(G)} w(v)} \\prod _{i=2}^n \\lambda _i.  \\]",
+      "generated_slogan": "For a finite graph G with n vertices, let the eigenvalues of its Laplacian be ordered from zero to the largest. The number of spanning trees of G equals the product of all nonzero eigenvalues divided by the total vertex weight, multiplied by the ratio of the product of edge weights to the product of vertex weights. This result holds for weighted graphs where weights are assigned to edges and vertices. The formula generalizes Kirchhoff's matrix-tree theorem to the weighted case.",
+      "machine_verdict": {
+        "reason": "Frozen policy requires reviewer round one before any automated checker.",
+        "status": "not_run"
+      },
+      "occurrences": [
+        {
+          "query_id": "Q01",
+          "rank": 2
+        }
+      ],
+      "original_paper": {
+        "authors": [
+          "Mihran Papikian"
+        ],
+        "definitions_and_context": "The paper defines D(G) as the order of the cokernel of the weighted cycle-pairing map, not as the number of spanning trees. Its edge and vertex weights are positive integers used in a specialized weighted Laplacian.",
+        "exact_source_url": "https://arxiv.org/pdf/1612.07898v1",
+        "extracted_text_path_local_only": "primary-source-text/1612.07898v1.txt",
+        "extracted_text_sha256": "b8e769f8130b577ab4f5f06c0dced4ff85683366d6ffd7791b297ef4d09b7cc4",
+        "locators": [
+          {
+            "extracted_text_line_end": 305,
+            "extracted_text_line_start": 285,
+            "pdf_page": 5,
+            "purpose": "specialized positive-integer edge and vertex weights"
+          },
+          {
+            "extracted_text_line_end": 376,
+            "extracted_text_line_start": 334,
+            "pdf_page": 6,
+            "purpose": "weighted Laplacian, cycle pairing, D(G), and mass definitions"
+          },
+          {
+            "extracted_text_line_end": 392,
+            "extracted_text_line_start": 381,
+            "pdf_page": 7,
+            "purpose": "Theorem 2.1 formula for D(G)"
+          }
+        ],
+        "paper_id": "1612.07898v1",
+        "pdf_path_local_only": "primary-sources/1612.07898v1.pdf",
+        "pdf_sha256": "ea0d85fadf9757ccc5e0a876ca4592495ee321f0b7db548576998e5d825728d8",
+        "title": "On component groups of Jacobians of quaternionic modular curves"
+      },
+      "retrieved_theorem_name": "Theorem 2.1",
+      "reviewer_interpretation": "The slogan replaces the cycle-pairing discriminant D(G) with the number of spanning trees. For a 3-cycle with edge weights (2,1,1) and unit vertex weights, the source definition gives D(G)=4 while the ordinary spanning-tree count is 3.",
+      "round_one_label": "refuted",
+      "structured_claim": {
+        "atoms": [
+          "D(G) in the displayed formula is the number of spanning trees.",
+          "The edge/vertex-weight and Laplacian-eigenvalue expression is a weighted matrix-tree theorem for that count."
+        ],
+        "unit": "entire generated slogan"
+      },
+      "theorem_id": 21091970
+    },
+    {
+      "extracted_theorem_body": "Let\\/  $G$ be a non-homogeneous graph with\\/  $n$ vertices. Then there exists a non-uniform consistent random ordering that is uniform on any subset of\\/  $n-1$ vertices. Moreover it can be realised by assigning uniform\\/  $($dependent$)$ random variables\\/  $X_v\\in [0,1]$ to vertices\\/  $v\\in V(G)$ in such a way that any set of\\/  $n-1$ variables\\/  $X_v$ are independent.",
+      "generated_slogan": "For a non-homogeneous graph with n vertices, there is a non-uniform consistent random ordering that is uniform on any subset of n minus one vertices. This ordering is achieved by assigning dependent uniform random variables in the interval from zero to one to each vertex. Any set of n minus one such variables are independent.",
+      "machine_verdict": {
+        "reason": "Frozen policy requires reviewer round one before any automated checker.",
+        "status": "not_run"
+      },
+      "occurrences": [
+        {
+          "query_id": "Q06",
+          "rank": 2
+        }
+      ],
+      "original_paper": {
+        "authors": [
+          "Paul Balister",
+          "Béla Bollobás",
+          "Svante Janson"
+        ],
+        "definitions_and_context": "The source states existence of a non-uniform consistent random ordering on a finite non-homogeneous n-vertex graph, uniform on each (n-1)-vertex subset, and realizes it with dependent uniforms whose every (n-1)-subfamily is independent.",
+        "exact_source_url": "https://arxiv.org/pdf/1506.03343v1",
+        "extracted_text_path_local_only": "primary-source-text/1506.03343v1.txt",
+        "extracted_text_sha256": "b06dc298e24ec505800be790ef48c823c83530bdca1a664de6ed21e73b09aff7",
+        "locators": [
+          {
+            "extracted_text_line_end": 245,
+            "extracted_text_line_start": 229,
+            "pdf_page": 6,
+            "purpose": "Lemma 2.3 and start of construction"
+          }
+        ],
+        "paper_id": "1506.03343v1",
+        "pdf_path_local_only": "primary-sources/1506.03343v1.pdf",
+        "pdf_sha256": "2998f2474b37b0c78655f0abc0295f7c7958233f5ed9acdd430c616d359a9329",
+        "title": "Consistent random vertex-orderings of graphs"
+      },
+      "retrieved_theorem_name": "Lemma 2.3",
+      "reviewer_interpretation": "The slogan preserves each clause of Lemma 2.3.",
+      "round_one_label": "supported",
+      "structured_claim": {
+        "atoms": [
+          "A non-homogeneous n-vertex graph has a non-uniform consistent random ordering.",
+          "The restriction to every n-1 vertex subset is uniform.",
+          "Dependent U[0,1] vertex variables realize it, with every n-1 variables independent."
+        ],
+        "unit": "entire generated slogan"
+      },
+      "theorem_id": 21595533
+    },
+    {
+      "extracted_theorem_body": "Let $G$ be a graph and ${\\mathcal{T}}$ a draw from $UST(G)$.\\[  \\mathbb {P}\\{  e \\in {\\mathcal{T}}\\}  = r_e  \\]",
+      "generated_slogan": "The probability that a given edge is in a uniformly random spanning tree of a graph equals the effective resistance of that edge.",
+      "machine_verdict": {
+        "reason": "Frozen policy requires reviewer round one before any automated checker.",
+        "status": "not_run"
+      },
+      "occurrences": [
+        {
+          "query_id": "Q04",
+          "rank": 2
+        }
+      ],
+      "original_paper": {
+        "authors": [
+          "James Sharpnack",
+          "Akshay Krishnamurthy",
+          "Aarti Singh"
+        ],
+        "definitions_and_context": "The paper works with an undirected unweighted graph, defines r_e as edge effective resistance, defines UST as uniform over distinct spanning trees, and states P(e in T)=r_e.",
+        "exact_source_url": "https://arxiv.org/pdf/1206.0937v3",
+        "extracted_text_path_local_only": "primary-source-text/1206.0937v3.txt",
+        "extracted_text_sha256": "cdc18450c9c52c2092fa433ee713fb985086b6f3c97778cb0339617884c5429c",
+        "locators": [
+          {
+            "extracted_text_line_end": 320,
+            "extracted_text_line_start": 286,
+            "pdf_page": 5,
+            "purpose": "effective resistance, UST definition, and Lemma 6"
+          }
+        ],
+        "paper_id": "1206.0937v3",
+        "pdf_path_local_only": "primary-sources/1206.0937v3.pdf",
+        "pdf_sha256": "aec5df2ed10e69cc885fea382997b082791cef2578636cc02e00972029024f40",
+        "title": "Detecting Activations over Graphs using Spanning Tree Wavelet Bases"
+      },
+      "retrieved_theorem_name": "Lemma 6",
+      "reviewer_interpretation": "The slogan correctly expands r_e using the source's effective-resistance definition.",
+      "round_one_label": "supported",
+      "structured_claim": {
+        "atoms": [
+          "For an edge in an unweighted graph, its UST inclusion probability equals its effective resistance.",
+          "The spanning tree is chosen uniformly among distinct spanning trees."
+        ],
+        "unit": "entire generated slogan"
+      },
+      "theorem_id": 22467127
+    },
+    {
+      "extracted_theorem_body": "Let $(X_0,X_1,$ $X_2,...)$ be an irreducible aperiodic Markov chain with state space $\\mathcal{S}=\\{ s_1,...,s_k\\} $, transition matrix $P$ and arbitrary initial distribution $\\mu ^{(0)}$. Then there exists a unique distribution $\\pi $ which is stationary for the transition matrix $P$. If $\\mu ^{(n)}$ denotes the distribution of $X_n$ then\\begin{equation*}  \\mu ^{(n)} \\xrightarrow {TV} \\pi . \\end{equation*}",
+      "generated_slogan": "An irreducible aperiodic Markov chain with a finite state space has a unique stationary distribution. The distribution of the chain converges to this stationary distribution over time. The convergence occurs in total variation. This holds regardless of the initial distribution.",
+      "machine_verdict": {
+        "reason": "Frozen policy requires reviewer round one before any automated checker.",
+        "status": "not_run"
+      },
+      "occurrences": [
+        {
+          "query_id": "Q07",
+          "rank": 2
+        }
+      ],
+      "original_paper": {
+        "authors": [
+          "M. Ebbers",
+          "H. Knöpfel",
+          "M. Löwe",
+          "F. Vermet"
+        ],
+        "definitions_and_context": "The source's finite-state ergodic theorem states that an irreducible aperiodic chain has a unique stationary distribution and that every initial distribution converges to it in total variation.",
+        "exact_source_url": "https://arxiv.org/pdf/1206.4162v1",
+        "extracted_text_path_local_only": "primary-source-text/1206.4162v1.txt",
+        "extracted_text_sha256": "27c6999c7a48622f90d30853ce3f15d5555a32c0df4cb124b9160b2ce7a1d32e",
+        "locators": [
+          {
+            "extracted_text_line_end": 2222,
+            "extracted_text_line_start": 2205,
+            "pdf_page": 25,
+            "purpose": "total variation definition and Theorem A.2"
+          }
+        ],
+        "paper_id": "1206.4162v1",
+        "pdf_path_local_only": "primary-sources/1206.4162v1.pdf",
+        "pdf_sha256": "f130565bf2d17495773c0bc99534d1a8686d3bea950a12171cbe6b4d5fa17616",
+        "title": "Mixing times for the Swapping Algorithm on the Blume-Emery-Griffiths Model"
+      },
+      "retrieved_theorem_name": "Theorem A.2 (Ergodic Theorem for Markov chains)",
+      "reviewer_interpretation": "The slogan keeps all hypotheses, uniqueness, universality over initial distributions, and total-variation convergence.",
+      "round_one_label": "supported",
+      "structured_claim": {
+        "atoms": [
+          "The state space is finite.",
+          "The chain is irreducible and aperiodic.",
+          "There is a unique stationary distribution.",
+          "Every initial distribution converges to it in total variation."
+        ],
+        "unit": "entire generated slogan"
+      },
+      "theorem_id": 22481653
+    },
+    {
+      "extracted_theorem_body": "Let $f$ be a real-valued function on $\\partial \\Gamma $, summing to zero on each connected component of $\\Gamma $. Then there is a voltage function $\\phi $ and a compatible current function $\\iota $ with $f$ as the boundary current function. Moreover, given two such solutions $\\phi _1$ and $\\phi _2$, $\\phi _1 - \\phi _2$ is constant on each connected component of $\\Gamma $.",
+      "generated_slogan": "A real-valued function f on the boundary of a graph Gamma, summing to zero on each connected component, ensures the existence of a voltage function and a compatible current function with f as the boundary current. Any two such voltage solutions differ by a constant on each connected component of the graph.",
+      "machine_verdict": {
+        "reason": "Frozen policy requires reviewer round one before any automated checker.",
+        "status": "not_run"
+      },
+      "occurrences": [
+        {
+          "query_id": "Q09",
+          "rank": 1
+        }
+      ],
+      "original_paper": {
+        "authors": [
+          "Will Johnson"
+        ],
+        "definitions_and_context": "For the source's resistance network on a graph with boundary, the componentwise zero-sum boundary-current condition gives existence, and voltage solutions differ by one additive constant on each connected component.",
+        "exact_source_url": "https://arxiv.org/pdf/1203.4045v1",
+        "extracted_text_path_local_only": "primary-source-text/1203.4045v1.txt",
+        "extracted_text_sha256": "1a245e9a38ab2b8c24beec956410cfc6a4f04c4d928325df25ed2cbe693e4c6d",
+        "locators": [
+          {
+            "extracted_text_line_end": 290,
+            "extracted_text_line_start": 282,
+            "pdf_page": 6,
+            "purpose": "componentwise compatibility and additive constants"
+          },
+          {
+            "extracted_text_line_end": 314,
+            "extracted_text_line_start": 299,
+            "pdf_page": 7,
+            "purpose": "network definition and Theorem 3.3"
+          }
+        ],
+        "paper_id": "1203.4045v1",
+        "pdf_path_local_only": "primary-sources/1203.4045v1.pdf",
+        "pdf_sha256": "f8c170a689aac41bbe9e1f3c11116b12f5f85b54a95527f03dc6cb35d1ab0e61",
+        "title": "Circular Planar Resistor Networks with Nonlinear and Signed Conductors"
+      },
+      "retrieved_theorem_name": "Theorem 3.3",
+      "reviewer_interpretation": "The slogan retains the per-component compatibility and per-component nonuniqueness.",
+      "round_one_label": "supported",
+      "structured_claim": {
+        "atoms": [
+          "Boundary current f sums to zero on every connected component.",
+          "A compatible voltage/current pair exists.",
+          "Any two voltage solutions differ by a constant on each connected component."
+        ],
+        "unit": "entire generated slogan"
+      },
+      "theorem_id": 22536602
+    },
+    {
+      "exact_witness": {
+        "key": "two_disjoint_unit_edges",
+        "path": "exact-witnesses-attempt-01.console.log"
+      },
+      "extracted_theorem_body": "Let $G$ be a graph with $n$ vertices, and let $\\hat L$ be its weighted Laplacian matrix.\\begin{enumerate} \\item If the eigenvalues of $\\hat L$ are $\\hat\\lambda _0=0,\\hat\\lambda _1,\\dots ,\\hat\\lambda _{n-1}$, then \n\n\\[ \\sum _{T\\in {\\mathcal T}(G)} \\prod _{ij\\in T} e_{ij} = \\frac{\\hat\\lambda _1\\cdots \\hat\\lambda _{n-1}}{n} \\]\n\n where ${\\mathcal T}(G)$ is the set of all spanning trees of $G$. \n\n\\item For $1\\leq i\\leq n$, let $\\hat L_i$ be the \\emph{reduced weighted Laplacian} obtained from $\\hat L$ by deleting the $i^{th}$ row and $i^{th}$ column. Then \n\n\\[ \\sum _{T\\in {\\mathcal T}(G)} \\prod _{ij\\in T} e_{ij} = \\det \\hat L_i. \\]\n\n\\end{enumerate}",
+      "generated_slogan": "The weighted Laplacian matrix of a graph has eigenvalues including zero. The product of the nonzero eigenvalues divided by the number of vertices equals the sum over all spanning trees of the product of their edge weights. This sum also equals the determinant of any reduced weighted Laplacian matrix. The reduced matrix is formed by deleting one row and column from the original Laplacian.",
+      "machine_verdict": {
+        "reason": "Frozen policy requires reviewer round one before any automated checker.",
+        "status": "not_run"
+      },
+      "occurrences": [
+        {
+          "query_id": "Q01",
+          "rank": 1
+        }
+      ],
+      "original_paper": {
+        "authors": [
+          "Art M. Duval",
+          "Caroline J. Klivans",
+          "Jeremy L. Martin"
+        ],
+        "definitions_and_context": "The source notes that a graph with c components has n-c nonzero Laplacian eigenvalues. Its matrix-tree formula multiplies every indexed eigenvalue after one designated zero; on a disconnected graph that product still contains the remaining zero eigenvalues.",
+        "exact_source_url": "https://arxiv.org/pdf/0802.2576v2",
+        "extracted_text_path_local_only": "primary-source-text/0802.2576v2.txt",
+        "extracted_text_sha256": "f05cc84137169982c802c27201c4c44c571d2a4dcce3dd1a1a00c166ad7d38a5",
+        "locators": [
+          {
+            "extracted_text_line_end": 48,
+            "extracted_text_line_start": 18,
+            "pdf_page": 1,
+            "purpose": "components, eigenvalue multiplicity, and connected classical theorem"
+          },
+          {
+            "extracted_text_line_end": 107,
+            "extracted_text_line_start": 74,
+            "pdf_page": 2,
+            "purpose": "weighted Laplacian and Theorem 1.2"
+          }
+        ],
+        "paper_id": "0802.2576v2",
+        "pdf_path_local_only": "primary-sources/0802.2576v2.pdf",
+        "pdf_sha256": "3450dbb90c168258764777f114a48b6840f61710ccddad91dd46b5aeefdf6646",
+        "title": "Simplicial matrix-tree theorems"
+      },
+      "retrieved_theorem_name": "Theorem 1.2 ({\\bf Weighted Matrix-Tree Theorem})",
+      "reviewer_interpretation": "The slogan changes this to the product of all nonzero eigenvalues and omits connectedness. For two disjoint unit edges, the slogan's spectral expression is 1 while the weighted spanning-tree sum and every reduced determinant are 0.",
+      "round_one_label": "refuted",
+      "structured_claim": {
+        "atoms": [
+          "For an unrestricted weighted graph, the weighted spanning-tree sum equals the product of all nonzero weighted-Laplacian eigenvalues divided by n.",
+          "The same sum equals every reduced weighted-Laplacian determinant."
+        ],
+        "unit": "entire generated slogan"
+      },
+      "theorem_id": 23150070
+    },
+    {
+      "extracted_theorem_body": "Let $(V,E,m)$ be a finite measured graph such that $m$ has full support. Then there exists a (unique) reversible random walk $r: V \\times V \\to [0,\\infty )$ with a (unique) stationary measure $\\mu : V \\to (0,\\infty )$ and the associated conductance function $a:V \\times V \\to [0,\\infty )$ satisfying the following:\\begin{enumerate} \\item $a(u,v)=m(u)+m(v)$ whenever $u,v\\in V$ such that $u \\thicksim _{E} v$; \n\n\\item For $u,v\\in V$, we have $r(u,v)>0$ if and only if $u\\thicksim _{E} v$. \n\n\\end{enumerate}If we additionally suppose that $(V,E,m)$ has valency bounded by $K\\geq 1$, measure ratio bounded by $s\\in (0,1)$ and Cheeger constant $c>0$, then\\begin{enumerate} \\item[(3)]For $u\\in V$, we have $\\frac{s}{K(1+s)}\\mu (u)\\leq m(u) \\leq \\frac{1}{1+s}\\mu (u)$; \n\n\\item[(4)]The $(\\mu ,a,m)$-Cheeger constant in \\eqref{cheeger random} is bounded below by $\\frac{cs}{K}$. \n\n\\end{enumerate}",
+      "generated_slogan": "A finite measured graph with full support admits a unique reversible random walk with a unique stationary measure and conductance function. The conductance equals the sum of measures for adjacent vertices, and the random walk transitions only between neighbors. Under additional boundedness and Cheeger constant assumptions, the stationary measure and original measure are comparable up to constants. The Cheeger constant for the random walk is bounded below by a positive value depending on the graph's parameters.",
+      "machine_verdict": {
+        "reason": "Frozen policy requires reviewer round one before any automated checker.",
+        "status": "not_run"
+      },
+      "occurrences": [
+        {
+          "query_id": "Q05",
+          "rank": 2
+        }
+      ],
+      "original_paper": {
+        "authors": [
+          "Kang Li",
+          "Ján Špakula",
+          "Jiawen Zhang"
+        ],
+        "definitions_and_context": "The source defines a finite measured graph to be connected and undirected. With full support it fixes conductances a(u,v)=m(u)+m(v), which in turn uniquely fixes the stationary measure and reversible walk, and it records the stated comparison and Cheeger bounds.",
+        "exact_source_url": "https://arxiv.org/pdf/2104.06052v3",
+        "extracted_text_path_local_only": "primary-source-text/2104.06052v3.txt",
+        "extracted_text_sha256": "56409c2ebf8a1859582caba3f59fd97a7084e7783a7d5923e190aea9683c38f0",
+        "locators": [
+          {
+            "extracted_text_line_end": 123,
+            "extracted_text_line_start": 115,
+            "pdf_page": 3,
+            "purpose": "finite measured graph definition"
+          },
+          {
+            "extracted_text_line_end": 223,
+            "extracted_text_line_start": 209,
+            "pdf_page": 4,
+            "purpose": "stationary measure, conductance, and reversible-walk construction"
+          },
+          {
+            "extracted_text_line_end": 1008,
+            "extracted_text_line_start": 994,
+            "pdf_page": 13,
+            "purpose": "Lemma 3.16 including conditional bounds"
+          }
+        ],
+        "paper_id": "2104.06052v3",
+        "pdf_path_local_only": "primary-sources/2104.06052v3.pdf",
+        "pdf_sha256": "980cf6cd4ad243e1324c2b40b4cb7841457f10c39b05f85fd6155fa144b2bf4a",
+        "title": "Measured expanders"
+      },
+      "retrieved_theorem_name": "Lemma 3.16 ({\\cite[Lemma 5.2]{measured_I}})",
+      "reviewer_interpretation": "The slogan preserves the source-defined measured-graph term and the extra hypotheses attached only to the bounds.",
+      "round_one_label": "supported",
+      "structured_claim": {
+        "atoms": [
+          "A finite measured graph with full support has the stated unique reversible walk, stationary measure, and conductance function.",
+          "Adjacent conductance equals m(u)+m(v), and positive transitions are exactly graph edges.",
+          "Bounded valency, bounded measure ratio, and positive Cheeger constant yield measure comparison and a positive Cheeger lower bound."
+        ],
+        "unit": "entire generated slogan"
+      },
+      "theorem_id": 23740032
+    },
+    {
+      "exact_witness": {
+        "key": "weighted_triangle",
+        "path": "exact-witnesses-attempt-01.console.log"
+      },
+      "extracted_theorem_body": "In a connected weighted undirected graph $\\Gamma $ with an edge $e=\\{ u,v\\} $, we have\\begin{equation*}  R_{e \\hspace{-.02in}f\\hspace{-.02in}f}(u,v)=\\frac{\\tau _{e}}{\\tau \\omega (e)}. \\end{equation*}",
+      "generated_slogan": "The effective resistance between two connected nodes in a weighted graph equals the ratio of the number of spanning trees containing the edge to the product of the total number of spanning trees and the edge weight.",
+      "machine_verdict": {
+        "reason": "Frozen policy requires reviewer round one before any automated checker.",
+        "status": "not_run"
+      },
+      "occurrences": [
+        {
+          "query_id": "Q12",
+          "rank": 1
+        }
+      ],
+      "original_paper": {
+        "authors": [
+          "Fan Chung",
+          "Ji Zeng"
+        ],
+        "definitions_and_context": "The source defines tau as the total weight of spanning trees and tau_e as the total weight of spanning trees containing e. Corollary 4.7 uses those weighted enumerators.",
+        "exact_source_url": "https://arxiv.org/pdf/2109.01324v2",
+        "extracted_text_path_local_only": "primary-source-text/2109.01324v2.txt",
+        "extracted_text_sha256": "828bdc92002eacd4fa79b21f72e0f508475f137a80adef38a65d2b4e27a48a2d",
+        "locators": [
+          {
+            "extracted_text_line_end": 282,
+            "extracted_text_line_start": 258,
+            "pdf_page": 5,
+            "purpose": "forest weights and weighted tau definition"
+          },
+          {
+            "extracted_text_line_end": 911,
+            "extracted_text_line_start": 900,
+            "pdf_page": 12,
+            "purpose": "tau_e defined as total weight"
+          },
+          {
+            "extracted_text_line_end": 1154,
+            "extracted_text_line_start": 1148,
+            "pdf_page": 15,
+            "purpose": "Corollary 4.7"
+          }
+        ],
+        "paper_id": "2109.01324v2",
+        "pdf_path_local_only": "primary-sources/2109.01324v2.pdf",
+        "pdf_sha256": "4558460b8c32d06ab4dd542d015d4527f3ab943dae0533d568eacc9d5fa25c7c",
+        "title": "Forest formulas of discrete Green's functions"
+      },
+      "retrieved_theorem_name": "Corollary 4.7",
+      "reviewer_interpretation": "The slogan calls tau and tau_e numbers of trees. On the triangle with conductances (2,1,1), the weighted formula gives 2/5 while substituting ordinary counts gives 1/3.",
+      "round_one_label": "refuted",
+      "structured_claim": {
+        "atoms": [
+          "In a connected weighted graph, tau is the ordinary number of spanning trees.",
+          "tau_e is the ordinary number of spanning trees containing e.",
+          "Effective resistance equals tau_e divided by tau times the edge weight."
+        ],
+        "unit": "entire generated slogan"
+      },
+      "theorem_id": 23832572
+    },
+    {
+      "extracted_theorem_body": " For any edge $e^* \\in E(G)$ between two vertices $a, b \\in V(G)$, the effective resistance $R_{ab}$ is equal to the probability that $e^*$ is in a uniformly chosen spanning tree of $G$.",
+      "generated_slogan": "The effective resistance between two vertices connected by an edge equals the probability that the edge is included in a uniformly random spanning tree.",
+      "machine_verdict": {
+        "reason": "Frozen policy requires reviewer round one before any automated checker.",
+        "status": "not_run"
+      },
+      "occurrences": [
+        {
+          "query_id": "Q04",
+          "rank": 1
+        }
+      ],
+      "original_paper": {
+        "authors": [
+          "Ariel D. Procaccia",
+          "Jamie Tucker-Foltz"
+        ],
+        "definitions_and_context": "The source puts unit resistance on every edge of an unweighted graph and states that the endpoint effective resistance of e equals the probability that e belongs to a uniformly chosen spanning tree.",
+        "exact_source_url": "https://arxiv.org/pdf/2109.13394v2",
+        "extracted_text_path_local_only": "primary-source-text/2109.13394v2.txt",
+        "extracted_text_sha256": "9e706ea46fd2f19d8e4bbd8bceb54947cca1dcfccac86aaf75e835ca6ee2218e",
+        "locators": [
+          {
+            "extracted_text_line_end": 267,
+            "extracted_text_line_start": 250,
+            "pdf_page": 6,
+            "purpose": "unit-resistor effective-resistance setup"
+          },
+          {
+            "extracted_text_line_end": 283,
+            "extracted_text_line_start": 278,
+            "pdf_page": 7,
+            "purpose": "Lemma 2.1 and enumerative example"
+          }
+        ],
+        "paper_id": "2109.13394v2",
+        "pdf_path_local_only": "primary-sources/2109.13394v2.pdf",
+        "pdf_sha256": "f0ad74ca6e4f7ad0359762adfb9806adccf50889499680fdf11e33ba1c41432c",
+        "title": "Compact Redistricting Plans Have Many Spanning Trees"
+      },
+      "retrieved_theorem_name": "Lemma 2.1",
+      "reviewer_interpretation": "The slogan retains adjacency, the unweighted uniform-tree convention, and the equality.",
+      "round_one_label": "supported",
+      "structured_claim": {
+        "atoms": [
+          "The vertices are endpoints of an edge in an unweighted graph.",
+          "Their effective resistance equals that edge's inclusion probability under the uniform spanning-tree law."
+        ],
+        "unit": "entire generated slogan"
+      },
+      "theorem_id": 24585048
+    },
+    {
+      "extracted_theorem_body": " For any distinct vertices $a$ and $z$ separated by pairwise disjoint cutsets $\\Pi _1,\\, \\cdots ,\\, \\Pi _{n}$ in a finite network, \\[ \\mathscr {R}(a\\leftrightarrow z)\\geq \\sum \\limits _{k=1}^{n} \\left (\\sum \\limits _{e\\in \\Pi _k}\\mathbf {c}(e)\\right )^{-1}. \\] For any sequence $\\left \\{\\Pi _n\\right \\}_n$ of pairwise disjoint finite cutsets in an infinite locally finite network $G$ such that each $\\Pi _n$ separates $a$ from $\\infty ,$ \\[ \\mathscr {R}(a\\leftrightarrow \\infty )\\geq \\sum \\limits _{n}^{\\infty } \\left (\\sum \\limits _{e\\in \\Pi _n}\\mathbf {c}(e)\\right )^{-1}; \\] and particularly $G$ is recurrent when the right-hand side is $\\infty .$",
+      "generated_slogan": "The effective resistance between two distinct vertices is at least the sum of the reciprocals of the total conductances of pairwise disjoint cutsets separating them. In an infinite network, the effective resistance from a vertex to infinity is at least the infinite sum of the reciprocals of the total conductances of pairwise disjoint finite cutsets separating that vertex from infinity. If this infinite sum diverges, the network is recurrent. This holds for locally finite networks.",
+      "machine_verdict": {
+        "reason": "Frozen policy requires reviewer round one before any automated checker.",
+        "status": "not_run"
+      },
+      "occurrences": [
+        {
+          "query_id": "Q11",
+          "rank": 1
+        }
+      ],
+      "original_paper": {
+        "authors": [
+          "Yuelin Liu",
+          "Kainan Xiang"
+        ],
+        "definitions_and_context": "The source states the finite-network Nash-Williams lower bound for pairwise disjoint cutsets and the infinite locally finite version for cutsets separating a from infinity, with divergence implying recurrence.",
+        "exact_source_url": "https://arxiv.org/pdf/2010.01530v1",
+        "extracted_text_path_local_only": "primary-source-text/2010.01530v1.txt",
+        "extracted_text_sha256": "ae5afcecf98897c24f5620f090454e6182a3cd0337aca9f96208c77e16d7c715",
+        "locators": [
+          {
+            "extracted_text_line_end": 506,
+            "extracted_text_line_start": 460,
+            "pdf_page": 7,
+            "purpose": "resistance-to-infinity convention and Lemma 3.2"
+          }
+        ],
+        "paper_id": "2010.01530v1",
+        "pdf_path_local_only": "primary-sources/2010.01530v1.pdf",
+        "pdf_sha256": "2ae2f84ef4dce02100f59af5db9768c36d9eee850f814f181bb49a9924c61ca8",
+        "title": "Phase transition of disordered random networks on quasi-transitive graphs"
+      },
+      "retrieved_theorem_name": "Lemma 3.2 (The Nash-Williams inequality and recurrence criterion)",
+      "reviewer_interpretation": "The slogan preserves the separate finite and infinite settings, conductance sums, disjointness, and recurrence condition.",
+      "round_one_label": "supported",
+      "structured_claim": {
+        "atoms": [
+          "In a finite network, pairwise disjoint separating cutsets give the reciprocal-conductance-sum lower bound.",
+          "In an infinite locally finite network, finite cutsets separating a from infinity give the analogous infinite lower bound.",
+          "Divergence of the latter sum implies recurrence."
+        ],
+        "unit": "entire generated slogan"
+      },
+      "theorem_id": 24648249
+    },
+    {
+      "extracted_theorem_body": "A random walk on an undirected graph that is finite, connected and non-bipartite is ergodic.",
+      "generated_slogan": "A random walk on a finite, connected, and non-bipartite undirected graph is ergodic. This means the walk converges to a unique stationary distribution regardless of the starting point. The process is both irreducible and aperiodic. It ensures that all states are positive recurrent.",
+      "machine_verdict": {
+        "reason": "Frozen policy requires reviewer round one before any automated checker.",
+        "status": "not_run"
+      },
+      "occurrences": [
+        {
+          "query_id": "Q07",
+          "rank": 1
+        }
+      ],
+      "original_paper": {
+        "authors": [
+          "Mohammed Abdullah"
+        ],
+        "definitions_and_context": "The source defines ergodic states as aperiodic and positive recurrent, proves finite irreducible aperiodic chains are ergodic, links connectedness and non-bipartiteness to irreducibility and aperiodicity for undirected random walks, and records unique-stationary convergence.",
+        "exact_source_url": "https://arxiv.org/pdf/1202.5569v1",
+        "extracted_text_path_local_only": "primary-source-text/1202.5569v1.txt",
+        "extracted_text_sha256": "66c13e62eebbb5a1cc8118660ee53845ff16fac28b7403bfafc25c5ff35214be",
+        "locators": [
+          {
+            "extracted_text_line_end": 1067,
+            "extracted_text_line_start": 1057,
+            "pdf_page": 30,
+            "purpose": "ergodicity and positive recurrence"
+          },
+          {
+            "extracted_text_line_end": 1102,
+            "extracted_text_line_start": 1080,
+            "pdf_page": 31,
+            "purpose": "unique stationary distribution and convergence"
+          },
+          {
+            "extracted_text_line_end": 1132,
+            "extracted_text_line_start": 1109,
+            "pdf_page": 32,
+            "purpose": "graph hypotheses, Corollary 9, and convergence theorem"
+          }
+        ],
+        "paper_id": "1202.5569v1",
+        "pdf_path_local_only": "primary-sources/1202.5569v1.pdf",
+        "pdf_sha256": "bf1894a9500e62e74e39e8d3c4621b6630fcd97ab1b7081cc0b985cbbb524e1a",
+        "title": "The Cover Time of Random Walks on Graphs"
+      },
+      "retrieved_theorem_name": "Corollary 9",
+      "reviewer_interpretation": "Every explanatory clause in the slogan is supported by the nearby definitions and theorems.",
+      "round_one_label": "supported",
+      "structured_claim": {
+        "atoms": [
+          "A random walk on a finite connected non-bipartite undirected graph is ergodic.",
+          "It is irreducible, aperiodic, and all states are positive recurrent.",
+          "It has a unique stationary distribution and converges to it independently of the start."
+        ],
+        "unit": "entire generated slogan"
+      },
+      "theorem_id": 25306126
+    },
+    {
+      "extracted_theorem_body": "If $G$ is an odd and ordered bipartite graph, then $\\mathsf{MP}(G)$ is asymmetric.",
+      "generated_slogan": "An odd and ordered bipartite graph has an asymmetric matching polytope. The polytope's asymmetry holds under these specific conditions. This result applies to graphs with the given bipartite and ordering properties.",
+      "machine_verdict": {
+        "reason": "Frozen policy requires reviewer round one before any automated checker.",
+        "status": "not_run"
+      },
+      "occurrences": [
+        {
+          "query_id": "Q06",
+          "rank": 1
+        }
+      ],
+      "original_paper": {
+        "authors": [
+          "Moritz Lichter"
+        ],
+        "definitions_and_context": "Section 7.1 explicitly defines MP(G) as the multipede structure constructed from a bipartite base graph and CFI gadgets. Lemma 7.2 says this multipede is asymmetric.",
+        "exact_source_url": "https://arxiv.org/pdf/2210.07869v7",
+        "extracted_text_path_local_only": "primary-source-text/2210.07869v7.txt",
+        "extracted_text_sha256": "d9cc3206fb2843ea1b1a20bb82ed5a5a687aa3f506d359912728482d409e64b1",
+        "locators": [
+          {
+            "extracted_text_line_end": 2177,
+            "extracted_text_line_start": 2141,
+            "pdf_page": 37,
+            "purpose": "multipede terminology and construction"
+          },
+          {
+            "extracted_text_line_end": 2196,
+            "extracted_text_line_start": 2188,
+            "pdf_page": 38,
+            "purpose": "multipede figure explanation and Lemma 7.2"
+          }
+        ],
+        "paper_id": "2210.07869v7",
+        "pdf_path_local_only": "primary-sources/2210.07869v7.pdf",
+        "pdf_sha256": "925f89e7d7ed15197c9eef711881247b975040bf8313862a1e614fcae2a2436c",
+        "title": "Witnessed Symmetric Choice and Interpretations in Fixed-Point Logic with Counting"
+      },
+      "retrieved_theorem_name": "Lemma 7.2 (\\cite {GurevichShelah96})",
+      "reviewer_interpretation": "The slogan expands MP(G) as a matching polytope, which the source does not define or discuss here.",
+      "round_one_label": "refuted",
+      "structured_claim": {
+        "atoms": [
+          "MP(G) denotes the matching polytope of G.",
+          "For odd ordered bipartite G, that matching polytope is asymmetric."
+        ],
+        "unit": "entire generated slogan"
+      },
+      "theorem_id": 25939467
+    },
+    {
+      "exact_witness": {
+        "key": "two_disjoint_unit_edges",
+        "path": "exact-witnesses-attempt-01.console.log"
+      },
+      "extracted_theorem_body": "If $\\bm {i}^{\\mathsf{T} }\\bm {1}=0$, then (\\ref {kirch1}) has a unique solution for $\\bm {v}$ up to the fundamental solution term $\\bm {1}$. That is, for each current vector $\\bm {i}$, the potential difference between nodes $a$ and $b$ is unique.",
+      "generated_slogan": "If the sum of the current vector components is zero, then Kirchhoff's current law equation has a unique solution for the voltage vector, except for an additive constant vector. This constant vector corresponds to a uniform potential shift across all nodes. As a result, the potential difference between any two specific nodes is uniquely determined.",
+      "machine_verdict": {
+        "reason": "Frozen policy requires reviewer round one before any automated checker.",
+        "status": "not_run"
+      },
+      "occurrences": [
+        {
+          "query_id": "Q09",
+          "rank": 2
+        }
+      ],
+      "original_paper": {
+        "authors": [
+          "Takumi Yonaiyama",
+          "Kazuhiro Sato"
+        ],
+        "definitions_and_context": "The source first restricts to a connected resistor network by requiring an irreducible conductance matrix. Under that context, a globally balanced current has a voltage solution unique modulo the all-ones vector.",
+        "exact_source_url": "https://arxiv.org/pdf/2502.19720v2",
+        "extracted_text_path_local_only": "primary-source-text/2502.19720v2.txt",
+        "extracted_text_sha256": "2c937cde90a39f1fe4e9fc84caf9765f88c2c9df64b368f8baff59612dec6430",
+        "locators": [
+          {
+            "extracted_text_line_end": 308,
+            "extracted_text_line_start": 283,
+            "pdf_page": 5,
+            "purpose": "connected-network context, Kirchhoff equation, and Lemma 2.1"
+          }
+        ],
+        "paper_id": "2502.19720v2",
+        "pdf_path_local_only": "primary-sources/2502.19720v2.pdf",
+        "pdf_sha256": "a3bb32c87471a175945983b3b00c4b46837a39c26d9b0167d5455f44cdd7cfb6",
+        "title": "Performance bound analysis of linear consensus algorithm on strongly connected graphs using effective resistance and reversiblization"
+      },
+      "retrieved_theorem_name": "Lemma 2.1",
+      "reviewer_interpretation": "The slogan drops connectedness. On two disconnected unit edges, L v=0 has two independent component constants, so it is not unique modulo one global constant and cross-component potential differences are not unique. A balanced current transferred between components may have no solution at all.",
+      "round_one_label": "refuted",
+      "structured_claim": {
+        "atoms": [
+          "For any graph, the global condition i^T 1=0 is sufficient for solvability.",
+          "The voltage is unique modulo one global additive constant.",
+          "The potential difference between any two nodes is unique."
+        ],
+        "unit": "entire generated slogan"
+      },
+      "theorem_id": 26077729
+    },
+    {
+      "extracted_theorem_body": "For any two vertices $v$ and $w$ in $G$, the commute\ntime is\n\\begin{equation}\n\\mathcal{C}\\left(v,w\\right)=\\textnormal{vol}(G)\\Omega\\left(v,w\\right).\n\\end{equation}",
+      "generated_slogan": "The commute time between any two vertices in a graph equals the volume of the graph multiplied by the effective resistance between those vertices.",
+      "machine_verdict": {
+        "reason": "Frozen policy requires reviewer round one before any automated checker.",
+        "status": "not_run"
+      },
+      "occurrences": [
+        {
+          "query_id": "Q05",
+          "rank": 1
+        }
+      ],
+      "original_paper": {
+        "authors": [
+          "Ernesto Estrada",
+          "Delio Mugnolo"
+        ],
+        "definitions_and_context": "The source identifies standard resistance distance with effective resistance and states C(v,w)=vol(G) Omega(v,w) for the standard random walk. Its global assumptions allow finite simple graphs with multiple components, while the lemma does not record a same-component or connectedness condition.",
+        "exact_source_url": "https://arxiv.org/pdf/2101.07103v2",
+        "extracted_text_path_local_only": "primary-source-text/2101.07103v2.txt",
+        "extracted_text_sha256": "67d1422b2a7696c1f50586896fa9ba4f9f56b9162822fec87c2d5cb6ef9249c4",
+        "locators": [
+          {
+            "extracted_text_line_end": 74,
+            "extracted_text_line_start": 65,
+            "pdf_page": 2,
+            "purpose": "resistance distance identified with effective resistance"
+          },
+          {
+            "extracted_text_line_end": 108,
+            "extracted_text_line_start": 101,
+            "pdf_page": 3,
+            "purpose": "global finite-graph assumptions permit multiple components"
+          },
+          {
+            "extracted_text_line_end": 1181,
+            "extracted_text_line_start": 1161,
+            "pdf_page": 17,
+            "purpose": "hitting time, commute time, Lemma 5.1, and volume"
+          }
+        ],
+        "paper_id": "2101.07103v2",
+        "pdf_path_local_only": "primary-sources/2101.07103v2.pdf",
+        "pdf_sha256": "c8e15f31bcb6eb1a3dcfd121a0e23f7cb0b059d310e107b046a8f5f4debfe1b0",
+        "title": "Hubs-biased resistance distances on graphs and networks"
+      },
+      "retrieved_theorem_name": "Lemma",
+      "reviewer_interpretation": "The familiar commute-time identity is supported for connected graphs or vertices in one component, but the slogan's unqualified 'any two vertices in a graph' is not resolved by the recorded source context for vertices in distinct components.",
+      "round_one_label": "insufficient",
+      "structured_claim": {
+        "atoms": [
+          "For any graph and any two of its vertices, commute time equals graph volume times effective resistance.",
+          "Omega denotes standard effective resistance in this formula."
+        ],
+        "unit": "entire generated slogan"
+      },
+      "theorem_id": 26329144
+    }
+  ],
+  "frozen_at_utc": "2026-09-08T02:27:18.682981+00:00",
+  "label_counts_sealed": {
+    "insufficient": 3,
+    "refuted": 9,
+    "supported": 12
+  },
+  "labels_frozen": true,
+  "limitations": [
+    "This is a fixed purposive 12-query, top-2 retrieval probe, not a random sample of the service or mathematics.",
+    "No prevalence, impact, researcher-time benefit, or global novelty inference is licensed.",
+    "Two model reviewers can share correlated errors; later adjudication must preserve both original sealed files.",
+    "A round-one label concerns the whole generated slogan under the frozen policy and is distinct from query relevance or paper quality."
+  ],
+  "method": {
+    "automated_natural_language_classification": false,
+    "development_theorem_20543909_occurrences": 0,
+    "full_primary_pdfs_local_only": true,
+    "manual_source_review": true,
+    "prospective_denominator": 24,
+    "source_version": "exact arXiv version recorded by each prospective result"
+  },
+  "provenance": {
+    "exact_witness_console_path": "exact-witnesses-attempt-01.console.log",
+    "exact_witness_console_sha256": "ba16c130170f290c51527af7afd7d7b5aae84999d383456f18d3aaa94ec20aab",
+    "exact_witness_script_path": "exact_separating_witnesses.py",
+    "exact_witness_script_sha256": "d91bd5d654424e9ff1e109405bfaccbbaa1962fd799814699532224b9340c8f6",
+    "frozen_policy_path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\fixtures\\retrieval-study-v1.json",
+    "frozen_policy_sha256": "848ac3e25222af20cf86429b9648d9c282275a437f69401f51f300e9279ff224",
+    "retained_prevalidation_attempt": {
+      "path": "SEALED-reviewer-A-round1-attempt-01.json",
+      "reason_superseded": "One source locator crossed a PDF page boundary; semantic labels were unchanged.",
+      "sha256": "4f20f4f254c55628d7e21d70ed898eb11d2f7e390574bf564750ee4cc86a2969"
+    },
+    "source_manifest_path": "primary-sources/source-manifest.json",
+    "source_manifest_sha256": "26caa7ec2db24b9a4afee23ab67f5469531429eaca208778544a570d1bfe929b",
+    "source_text_manifest_path": "primary-source-text/source-text-manifest.json",
+    "source_text_manifest_sha256": "12bebed147fe5a226fd5860cb93eba487266cb8ca47b7eecfd5595d8c7259d51",
+    "unlabelled_input_path": "review-input-unlabelled.json",
+    "unlabelled_input_sha256": "ecd00f9f7a2487860d2d83c7503a6fc38bb6cff5d60647ac45e01c1dc32600f5"
+  },
+  "record_count": 24,
+  "reviewer": {
+    "agent_profile": "Sol Max verifier",
+    "identity": "/root/sol_symmetry_audit",
+    "model_family": "GPT-6",
+    "role": "independent source reviewer A"
+  },
+  "round": 1,
+  "schema_version": "1.0",
+  "sealing_notice": "Reviewer-A labels: do not disclose or inspect outside reviewer A until reviewer B has frozen an independent review.",
+  "study_id": "assumption-preservation-retrieval-v1"
+}

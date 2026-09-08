@@ -1,0 +1,32 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--locked",
+    "python",
+    "-m",
+    "mathgloss_import",
+    "..\\outputs\\full-run-final-02"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\backbone-import-work\\implementation",
+  "duration_seconds": 0.6318936000170652,
+  "ended_at_utc": "2026-09-08T03:23:32.410960+00:00",
+  "exit_code": 0,
+  "schema_version": "command-evidence-v1",
+  "started_at_utc": "2026-09-08T03:23:31.779057+00:00",
+  "stderr": {
+    "base64": "",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "utf8_text": "",
+    "valid_utf8": true
+  },
+  "stdout": {
+    "base64": "eyJmaWxlcyI6IFsiTUFUSEdMT1NTLUxJQ0VOU0UiLCAiY2FuZGlkYXRlLWluZGV4Lmpzb24iLCAiaW1wb3J0LWxlZGdlci5qc29ubCIsICJzdW1tYXJ5Lmpzb24iXSwgIm91dHB1dF9kaXIiOiAiLi5cXG91dHB1dHNcXGZ1bGwtcnVuLWZpbmFsLTAyIiwgInN0YXR1cyI6ICJvayJ9DQo=",
+    "bytes": 161,
+    "sha256": "807ee044e258b632f2d5ca417fc462597cce9a79fa7aba0235f8bfed7a84559d",
+    "utf8_text": "{\"files\": [\"MATHGLOSS-LICENSE\", \"candidate-index.json\", \"import-ledger.jsonl\", \"summary.json\"], \"output_dir\": \"..\\\\outputs\\\\full-run-final-02\", \"status\": \"ok\"}\r\n",
+    "valid_utf8": true
+  },
+  "windows_command_line": "uv run --locked python -m mathgloss_import ..\\outputs\\full-run-final-02"
+}

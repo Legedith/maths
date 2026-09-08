@@ -1,0 +1,194 @@
+{
+  "algorithm_version": "atlas-checks/1.0.2",
+  "all_checks_pass": true,
+  "api_exact_value_sha256": "3297d742456991a0e4d0964bc05ad156b0f0ce2258416a5549fa0dcd32c29be1",
+  "api_exception": null,
+  "artifacts": {
+    "api_result": {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\v1.0.2-exact-output-attempt02\\large-output-v1.0.2-api-result.json",
+      "sha256": "e9cd62aba8a0dbdbaa1892b6e80a7342895a77a4bfef1477548aafab341cf9fe"
+    },
+    "cli_stderr": {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\v1.0.2-exact-output-attempt02\\large-output-v1.0.2-cli.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cli_stdout": {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\v1.0.2-exact-output-attempt02\\large-output-v1.0.2-cli.stdout.json",
+      "sha256": "063129150137335689d11aa705b5db04c9e195c0055753b2a65075bc73ab8571"
+    },
+    "input": {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\v1.0.2-exact-output-attempt02\\large-output-v1.0.2-input.json",
+      "sha256": "dc207d14e0de0146d1d3aef2b38ac50f21584f5041e324afdbd8aedb9eda5536"
+    }
+  },
+  "auditor": "/root/sol_atlas_audit",
+  "checks": {
+    "algorithm_version_is_1_0_2": true,
+    "all_19_manifest_files_match": true,
+    "api_did_not_escape": true,
+    "api_exact_value_matches_independent_decimal_oracle": true,
+    "api_verdict_matches": true,
+    "cli_exact_value_matches_independent_decimal_oracle": true,
+    "cli_exit_zero": true,
+    "cli_output_is_json": true,
+    "cli_verdict_matches": true,
+    "decimal_oracle_has_8400_digits": true,
+    "input_is_281_nodes_depth_10_with_140_tree_mass_refs": true,
+    "manifest_hash_matches": true,
+    "negative_huge_integer_formats_with_exact_sign": true,
+    "no_global_digit_limit_setter_in_runtime": true,
+    "nonunit_denominator_and_negative_sign_are_canonical": true,
+    "python_digit_limit_unchanged": true
+  },
+  "claim_ast": {
+    "max_depth": 10,
+    "node_count": 281,
+    "tree_mass_reference_count": 140
+  },
+  "cli": {
+    "command": [
+      "uv",
+      "run",
+      "--project",
+      "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+      "python",
+      "-m",
+      "atlas_checks",
+      "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\v1.0.2-exact-output-attempt02\\large-output-v1.0.2-input.json"
+    ],
+    "exit_code": 0,
+    "parse_error": null
+  },
+  "cli_exact_value_sha256": "3297d742456991a0e4d0964bc05ad156b0f0ce2258416a5549fa0dcd32c29be1",
+  "expected_decimal_digits": 8400,
+  "expected_decimal_sha256": "3297d742456991a0e4d0964bc05ad156b0f0ce2258416a5549fa0dcd32c29be1",
+  "file_checks": [
+    {
+      "actual": "c2a7512c2ecfca5bbe67ca895fc756a6826b2a846699946c2d591deb38085e92",
+      "expected": "c2a7512c2ecfca5bbe67ca895fc756a6826b2a846699946c2d591deb38085e92",
+      "matches": true,
+      "path": "src/atlas_checks/__init__.py"
+    },
+    {
+      "actual": "777e9fbe3bf8d49e2b1d9d19bae06e15acaf96436bbcc14e6bfaae807d7803e4",
+      "expected": "777e9fbe3bf8d49e2b1d9d19bae06e15acaf96436bbcc14e6bfaae807d7803e4",
+      "matches": true,
+      "path": "src/atlas_checks/__main__.py"
+    },
+    {
+      "actual": "204465f6c895b30dc3f0bd6032a043c2d3b43b427b8f169667c965f6888af407",
+      "expected": "204465f6c895b30dc3f0bd6032a043c2d3b43b427b8f169667c965f6888af407",
+      "matches": true,
+      "path": "src/atlas_checks/api.py"
+    },
+    {
+      "actual": "be40427533fb3957d329ad8e1180974bc90314b7777e6480762ae5650ee15bb2",
+      "expected": "be40427533fb3957d329ad8e1180974bc90314b7777e6480762ae5650ee15bb2",
+      "matches": true,
+      "path": "src/atlas_checks/electrical.py"
+    },
+    {
+      "actual": "ebf7b2434dd4df26eb1dc16518fb1fb88b72b6729752b7fde65d16ba6fc10134",
+      "expected": "ebf7b2434dd4df26eb1dc16518fb1fb88b72b6729752b7fde65d16ba6fc10134",
+      "matches": true,
+      "path": "src/atlas_checks/expressions.py"
+    },
+    {
+      "actual": "460b3d7b43055f388e249673811b13f6f90612ba76c0a0b1c56e411287692367",
+      "expected": "460b3d7b43055f388e249673811b13f6f90612ba76c0a0b1c56e411287692367",
+      "matches": true,
+      "path": "src/atlas_checks/graph_math.py"
+    },
+    {
+      "actual": "467d80a5f007740e63edc559e8ecfe70c27fb1618e092a82068723d50c274132",
+      "expected": "467d80a5f007740e63edc559e8ecfe70c27fb1618e092a82068723d50c274132",
+      "matches": true,
+      "path": "src/atlas_checks/linear.py"
+    },
+    {
+      "actual": "6fe40dedd88cf032c77484cbc1722a49388f72036d59b920586bbbf1e5e2e219",
+      "expected": "6fe40dedd88cf032c77484cbc1722a49388f72036d59b920586bbbf1e5e2e219",
+      "matches": true,
+      "path": "src/atlas_checks/markov.py"
+    },
+    {
+      "actual": "2237d532a25ef945efd54581893e1f1287c6837898f0f39686460cfb9a71f10c",
+      "expected": "2237d532a25ef945efd54581893e1f1287c6837898f0f39686460cfb9a71f10c",
+      "matches": true,
+      "path": "src/atlas_checks/model.py"
+    },
+    {
+      "actual": "a1e9f85c214e96b36b9058bab12dccd6065e926c23ef3b12bb0ad908c33161bb",
+      "expected": "a1e9f85c214e96b36b9058bab12dccd6065e926c23ef3b12bb0ad908c33161bb",
+      "matches": true,
+      "path": "src/atlas_checks/period.py"
+    },
+    {
+      "actual": "a6380c7ab8b43e492a037bfff90bcacf988fa1250a67cf7a841021ac8f71dc3c",
+      "expected": "a6380c7ab8b43e492a037bfff90bcacf988fa1250a67cf7a841021ac8f71dc3c",
+      "matches": true,
+      "path": "src/atlas_checks/quantities.py"
+    },
+    {
+      "actual": "6e2447dfc6207acee3c40e942ea08fcec08a6f031dbbfeaf7b57b49ab92abd3e",
+      "expected": "6e2447dfc6207acee3c40e942ea08fcec08a6f031dbbfeaf7b57b49ab92abd3e",
+      "matches": true,
+      "path": "src/atlas_checks/trees.py"
+    },
+    {
+      "actual": "d87db416097bccde095841b7df30fb71fa8c9de93b4059ad7f600053e9d1e304",
+      "expected": "d87db416097bccde095841b7df30fb71fa8c9de93b4059ad7f600053e9d1e304",
+      "matches": true,
+      "path": "src/atlas_checks/validation.py"
+    },
+    {
+      "actual": "01326d451569901e8e6d2fb5e3137724b4feb92840967d6b3ab85e17344d8614",
+      "expected": "01326d451569901e8e6d2fb5e3137724b4feb92840967d6b3ab85e17344d8614",
+      "matches": true,
+      "path": "src/atlas_checks/values.py"
+    },
+    {
+      "actual": "fe44b463a9063688e3121ed517a7d6327a489bc0a8467e7f5506197ca57a3f13",
+      "expected": "fe44b463a9063688e3121ed517a7d6327a489bc0a8467e7f5506197ca57a3f13",
+      "matches": true,
+      "path": "tests/assumption_checks/test_representation_delta.py"
+    },
+    {
+      "actual": "423908d7f3cf2574df29fd442f177807182ef469c6331d29b9e4d8c17e47af0a",
+      "expected": "423908d7f3cf2574df29fd442f177807182ef469c6331d29b9e4d8c17e47af0a",
+      "matches": true,
+      "path": "README-checks.md"
+    },
+    {
+      "actual": "c6a51140b2e4eb4ca30d67e7d5286c0465f573307c729864e46799980c8114e2",
+      "expected": "c6a51140b2e4eb4ca30d67e7d5286c0465f573307c729864e46799980c8114e2",
+      "matches": true,
+      "path": "scripts/generate_assumption_examples.py"
+    },
+    {
+      "actual": "986ede2dad9c0999cec39d0743af747df07402a2f2ce3e5bc9d21e59663b6cf6",
+      "expected": "986ede2dad9c0999cec39d0743af747df07402a2f2ce3e5bc9d21e59663b6cf6",
+      "matches": true,
+      "path": "tests/assumption_checks/test_exact_serialization_delta.py"
+    },
+    {
+      "actual": "6c39d2c0f95d9cebcb91347943bd5f2b976089f2b50a011f62cf97fbd2c5c6ae",
+      "expected": "6c39d2c0f95d9cebcb91347943bd5f2b976089f2b50a011f62cf97fbd2c5c6ae",
+      "matches": true,
+      "path": "evidence/assumption-checks/worker/supporting-scripts/check_large_exact_output_attempt02.py"
+    }
+  ],
+  "formatter_argument": "The implementation repeatedly divides the magnitude by 10^9. Every emitted remainder is in [0,10^9), so each nonleading chunk is safely printable in exactly nine digits; concatenating the leading chunk and zero-padded remainders is the unique base-10 representation. A separate sign prefix and numerator/denominator formatting preserve canonical Fraction output.",
+  "manifest_path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\assumption-checks\\worker\\root-patch-freeze-v1.0.2.json",
+  "manifest_sha256": "50fd6ed3f43f8bdd30e325b249e605cd2bbde33db2336cf0142eba9a1ec5505d",
+  "oracle_method": "Decimal(999999999999) ** 700 under a 9000-digit decimal context; formatted with fixed-point notation.",
+  "project_root": "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+  "python_int_max_str_digits_after": 4300,
+  "python_int_max_str_digits_before": 4300,
+  "root_probe_path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\assumption-checks\\worker\\root-large-output-attempt-01.json",
+  "root_probe_sha256": "a2c99fd6944bd05fb697cfea3780ddc90df464a60914584b0966b32693521953",
+  "runtime_files_containing_set_int_max_str_digits": [],
+  "schema_version": "1.0",
+  "scope": "Independent 1.0.2 delta verification of exact rational output serialization. This supplemental probe is separate from the prospective 80-case suite.",
+  "verified_at": "2026-09-08T03:38:50.726561Z"
+}

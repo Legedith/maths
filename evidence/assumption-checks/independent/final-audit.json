@@ -1,0 +1,150 @@
+{
+  "all_checks_pass": true,
+  "assertions": {
+    "attempt01_evaluator_check_failure_retained": true,
+    "exact_output_16_checks_pass": true,
+    "exact_output_is_8400_digits": true,
+    "final_80_no_exceptions": true,
+    "final_80_pass": true,
+    "five_public_boundary_repairs_pass": true,
+    "historical_bad_comparator_is_retained_and_corrected": true,
+    "manifest_19_files_match": true,
+    "portable_reproduction_80_pass": true,
+    "portable_run_is_same_output_bytes": true,
+    "public_release_is_80_cases": true,
+    "retrieval_review_accounts_for_24": true,
+    "retrieval_structure_19_checks_pass": true,
+    "round2_has_7_success_2_abstain": true,
+    "round2_nine_match": true,
+    "round2_zero_incremental_refutations": true,
+    "v101_80_suite_passed": true,
+    "v101_serializer_failure_reproduced": true
+  },
+  "audit_id": "atlas-assumption-checker-v1.0.2-independent-final",
+  "auditor": "/root/sol_atlas_audit",
+  "checks": [
+    {
+      "auditor": "/root/sol_atlas_audit",
+      "id": "reproduction",
+      "note": "The exact frozen 1.0.2 bytes matched the prospective oracle on all 80 cases (54 mathematical, 12 definedness/provenance/precedence, 14 malformed/type/resource), with zero escaped exceptions. The public path-free runner reproduced the identical output JSONL hash. A separate 8,400-digit result matched an independent Decimal oracle through both API and CLI.",
+      "status": "PASS",
+      "supporting_paths": [
+        "raw/structured-heldout-delta-v1.0.2-run.jsonl",
+        "raw/structured-heldout-delta-v1.0.2-run-summary.json",
+        "raw/structured-heldout-delta-v1.0.2-comparison-summary.json",
+        "SEALED/structured-heldout-delta-v1.0.2-comparison.json",
+        "raw/public-portable-reproduction-v1.0.2-attempt02/comparison-summary.json",
+        "raw/v1.0.2-exact-output-attempt02/large-output-v1.0.2-independent-verification.json"
+      ]
+    },
+    {
+      "auditor": "/root/sol_atlas_audit",
+      "id": "specification_compliance",
+      "note": "The final checker implements the frozen interface plus both preimplementation clarifications on the tested domain. Five public representation-boundary defects found after the first 80-case run are structured at 1.0.2, and the later valid-large-output serializer defect is repaired without changing Python's global integer digit limit. This is finite evidence, not exhaustive verification of all valid ASTs.",
+      "status": "PASS",
+      "supporting_paths": [
+        "contract-audit.md",
+        "raw/structured-heldout-delta-v1.0.2-comparison-summary.json",
+        "raw/public-boundary-defects-attempt01.json",
+        "raw/public-boundary-v1.0.2-attempt01.json",
+        "raw/large-output-v1.0.1-retained-source-independent-reproduction.json",
+        "raw/v1.0.2-exact-output-attempt02/large-output-v1.0.2-independent-verification.json"
+      ]
+    },
+    {
+      "auditor": "/root/sol_atlas_audit",
+      "id": "source_verification",
+      "note": "Ten authoritative source anchors support the exposed graph, random-walk, electrical, and tree conventions with exact locators and limitations. For the fixed 24-result source-only retrieval review, two frozen reviewers agreed on 21 and three disagreements were source-resolved; descriptive final counts are 12 supported, 9 refuted, and 3 insufficient. An additive correction withdraws an unverified model string and fixes theorem 18276974 to 2302.07170v2 PDF p.3, Theorem 4 without changing labels.",
+      "status": "PASS",
+      "supporting_paths": [
+        "source-locators.json",
+        "publication/source-matrix.json",
+        "SEALED/reviewer-b.json",
+        "retrieval-review-adjudication.json",
+        "retrieval-review-adjudication.md",
+        "retrieval-review-adjudication-corrections.json",
+        "raw/retrieval-evidence-structure-validation-attempt02.json"
+      ]
+    },
+    {
+      "auditor": "/root/sol_atlas_audit",
+      "id": "implementation_alignment",
+      "note": "The 1.0.2 freeze manifest SHA-256 and every one of its 19 declared files match. Only model.py and api.py differ among runtime files from 1.0.1, consistent with the exact-output formatter and version delta. The nine retrieval-derived structured fixtures match their declared hashes and expected instance verdicts: seven no-counterexample results and two connected-only spectrum abstentions.",
+      "status": "PASS",
+      "supporting_paths": [
+        "raw/patch-v1.0.2-manifest-verification.json",
+        "retrieval-round2/annotations.json",
+        "raw/retrieval-round2-v1.0.2/retrieval-round2-run.jsonl",
+        "raw/retrieval-round2-v1.0.2/retrieval-round2-summary.json",
+        "raw/retrieval-evidence-structure-validation-attempt02.json"
+      ]
+    }
+  ],
+  "historical_failures_and_invalid_attempts": [
+    {
+      "artifact": "raw/structured-heldout-first-run-comparison-summary.json",
+      "classification": "evaluator_calibration_failure",
+      "note": "The first comparator reported 20/80 because it compared unlike value representations. Attempt 02 compared the same immutable output JSONL and obtained 80/80; both are retained."
+    },
+    {
+      "artifact": "raw/public-boundary-defects-attempt01.json",
+      "classification": "implementation_defects_outside_prospective_suite",
+      "note": "The original 1.0.0 implementation escaped on huge integers, invalid UTF-8, and an unpaired surrogate, and admitted a 13-digit AST constant. The repairs are supplemental and do not change the historical 80/80 score."
+    },
+    {
+      "artifact": "raw/large-output-v1.0.1-retained-source-independent-reproduction.json",
+      "classification": "implementation_defect_outside_prospective_suite",
+      "note": "Hash-matched retained 1.0.1 source independently reproduces a ValueError while serializing a valid 8,400-digit exact result."
+    },
+    {
+      "artifact": "raw/large-output-preliminary-invalid-code-race.json",
+      "classification": "invalid_code_race_excluded",
+      "note": "This preliminary attempt intended to reproduce 1.0.1 but imported already-edited 1.0.2 bytes; it self-identifies 1.0.2 and is excluded from all conclusions."
+    },
+    {
+      "artifact": "raw/v1.0.2-exact-output-attempt01/large-output-v1.0.2-independent-verification.json",
+      "classification": "evaluator_expectation_error",
+      "note": "The large-output implementation and Decimal checks passed, but an auxiliary negative-fraction check forgot Fraction gcd reduction. Attempt 02 fixes only that evaluator expectation and passes all 16 checks; both are retained."
+    }
+  ],
+  "implementation": {
+    "algorithm_version": "atlas-checks/1.0.2",
+    "declared_file_count": 19,
+    "freeze_manifest_path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\assumption-checks\\worker\\root-patch-freeze-v1.0.2.json",
+    "freeze_manifest_sha256": "50fd6ed3f43f8bdd30e325b249e605cd2bbde33db2336cf0142eba9a1ec5505d"
+  },
+  "limitations": [
+    "The 80-case suite is prospective and independently generated but finite; 80/80 is not a proof over the full input space.",
+    "The checker consumes structured ASTs and supplied provenance. It does not verify URLs or infer whether a natural-language slogan was translated correctly.",
+    "The 24 retrieval results are a fixed purposive corpus. Their label counts are not prevalence, service accuracy, timing, productivity, novelty, or practical-impact estimates.",
+    "Sixteen retrieval rows are outside the grammar. Of eight syntax-mappable theorem IDs, six have evaluable instances and two produce designed abstentions on disconnected spectrum quantities.",
+    "The round-two outputs add zero source-refutation detections: seven instances found no counterexample and two abstained. This does not revise any source-only judgment.",
+    "The historical reviewer/adjudicator model string is self-inferred and withdrawn; actual runtime model identity was not independently verified.",
+    "No browser, DOM, WebMCP, or natural-language runtime validation is claimed here."
+  ],
+  "retrieval_study": {
+    "adjudicated_labels_descriptive_only": {
+      "insufficient": 3,
+      "refuted": 9,
+      "supported": 12
+    },
+    "fixed_results": 24,
+    "incremental_source_refutation_detections": 0,
+    "reviewer_agreement": 21,
+    "reviewer_disagreements_adjudicated": 3,
+    "structured_accounting": {
+      "evaluable_theorem_ids": 6,
+      "fixed_retrieval_rows": 24,
+      "fully_ineligible_theorem_ids": 16,
+      "structured_fixture_count": 9,
+      "syntax_mappable_but_abstaining_theorem_ids": 2,
+      "syntax_mappable_theorem_ids": 8
+    },
+    "structured_fixture_verdicts": {
+      "abstain": 2,
+      "no_counterexample_in_instance": 7
+    }
+  },
+  "role": "independent read-only chain-of-evidence verifier",
+  "schema_version": "1.0"
+}

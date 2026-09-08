@@ -1,0 +1,17 @@
+﻿{
+    "name":  "mathgloss-integration-transfer",
+    "command_argv":  [
+                         "uv",
+                         "run",
+                         "--frozen",
+                         "python",
+                         "D:/CodexWorkspaces/mathematics-atlas/integration-work/integrate_mathgloss.py"
+                     ],
+    "command_display":  "uv run --frozen python D:/CodexWorkspaces/mathematics-atlas/integration-work/integrate_mathgloss.py",
+    "working_directory":  "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "started_at":  "2026-09-08T09:23:41.7086922+05:30",
+    "ended_at":  "2026-09-08T09:23:42.7796228+05:30",
+    "runtime_seconds":  1.0681867999999999,
+    "exit_code":  1,
+    "console_log":  "logs/mathgloss-integration-transfer.console.log"
+}

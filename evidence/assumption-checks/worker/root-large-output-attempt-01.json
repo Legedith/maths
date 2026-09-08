@@ -1,0 +1,1175 @@
+{
+  "scope": "Public post-freeze output-size probe; 281 AST nodes, depth below 20, admitted 12-digit weights. The exact positive product is (999999999999)^700.",
+  "input": {
+    "id": "public-large-exact-result",
+    "graph": {
+      "n": 6,
+      "edges": [
+        {
+          "u": 0,
+          "v": 1,
+          "conductance": 999999999999
+        },
+        {
+          "u": 0,
+          "v": 2,
+          "conductance": 999999999999
+        },
+        {
+          "u": 0,
+          "v": 3,
+          "conductance": 999999999999
+        },
+        {
+          "u": 0,
+          "v": 4,
+          "conductance": 999999999999
+        },
+        {
+          "u": 0,
+          "v": 5,
+          "conductance": 999999999999
+        }
+      ]
+    },
+    "source": 0,
+    "target": 1,
+    "provenance": {
+      "kind": "synthetic",
+      "source_url": "https://pages.uoregon.edu/dlevin/MARKOV/markovmixing.pdf",
+      "source_locator": "Public arithmetic representation probe, not a source-derived theorem.",
+      "annotation_id": "development-annotation-weighted-commute",
+      "annotator": "implementation-development-worker",
+      "interpretation": "explicit"
+    },
+    "assumptions": [],
+    "claim": {
+      "kind": "binary",
+      "op": "lt",
+      "left": {
+        "kind": "rational",
+        "value": 0
+      },
+      "right": {
+        "kind": "binary",
+        "op": "mul",
+        "left": {
+          "kind": "binary",
+          "op": "mul",
+          "left": {
+            "kind": "binary",
+            "op": "mul",
+            "left": {
+              "kind": "binary",
+              "op": "mul",
+              "left": {
+                "kind": "binary",
+                "op": "mul",
+                "left": {
+                  "kind": "binary",
+                  "op": "mul",
+                  "left": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  }
+                },
+                "right": {
+                  "kind": "binary",
+                  "op": "mul",
+                  "left": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  }
+                }
+              },
+              "right": {
+                "kind": "binary",
+                "op": "mul",
+                "left": {
+                  "kind": "binary",
+                  "op": "mul",
+                  "left": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  }
+                },
+                "right": {
+                  "kind": "binary",
+                  "op": "mul",
+                  "left": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "binary",
+                      "op": "mul",
+                      "left": {
+                        "kind": "quantity",
+                        "name": "tree_mass"
+                      },
+                      "right": {
+                        "kind": "quantity",
+                        "name": "tree_mass"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "right": {
+              "kind": "binary",
+              "op": "mul",
+              "left": {
+                "kind": "binary",
+                "op": "mul",
+                "left": {
+                  "kind": "binary",
+                  "op": "mul",
+                  "left": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  }
+                },
+                "right": {
+                  "kind": "binary",
+                  "op": "mul",
+                  "left": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "binary",
+                      "op": "mul",
+                      "left": {
+                        "kind": "quantity",
+                        "name": "tree_mass"
+                      },
+                      "right": {
+                        "kind": "quantity",
+                        "name": "tree_mass"
+                      }
+                    }
+                  }
+                }
+              },
+              "right": {
+                "kind": "binary",
+                "op": "mul",
+                "left": {
+                  "kind": "binary",
+                  "op": "mul",
+                  "left": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  }
+                },
+                "right": {
+                  "kind": "binary",
+                  "op": "mul",
+                  "left": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "binary",
+                      "op": "mul",
+                      "left": {
+                        "kind": "quantity",
+                        "name": "tree_mass"
+                      },
+                      "right": {
+                        "kind": "quantity",
+                        "name": "tree_mass"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "right": {
+            "kind": "binary",
+            "op": "mul",
+            "left": {
+              "kind": "binary",
+              "op": "mul",
+              "left": {
+                "kind": "binary",
+                "op": "mul",
+                "left": {
+                  "kind": "binary",
+                  "op": "mul",
+                  "left": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  }
+                },
+                "right": {
+                  "kind": "binary",
+                  "op": "mul",
+                  "left": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  }
+                }
+              },
+              "right": {
+                "kind": "binary",
+                "op": "mul",
+                "left": {
+                  "kind": "binary",
+                  "op": "mul",
+                  "left": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  }
+                },
+                "right": {
+                  "kind": "binary",
+                  "op": "mul",
+                  "left": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "binary",
+                      "op": "mul",
+                      "left": {
+                        "kind": "quantity",
+                        "name": "tree_mass"
+                      },
+                      "right": {
+                        "kind": "quantity",
+                        "name": "tree_mass"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "right": {
+              "kind": "binary",
+              "op": "mul",
+              "left": {
+                "kind": "binary",
+                "op": "mul",
+                "left": {
+                  "kind": "binary",
+                  "op": "mul",
+                  "left": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  }
+                },
+                "right": {
+                  "kind": "binary",
+                  "op": "mul",
+                  "left": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "binary",
+                      "op": "mul",
+                      "left": {
+                        "kind": "quantity",
+                        "name": "tree_mass"
+                      },
+                      "right": {
+                        "kind": "quantity",
+                        "name": "tree_mass"
+                      }
+                    }
+                  }
+                }
+              },
+              "right": {
+                "kind": "binary",
+                "op": "mul",
+                "left": {
+                  "kind": "binary",
+                  "op": "mul",
+                  "left": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  }
+                },
+                "right": {
+                  "kind": "binary",
+                  "op": "mul",
+                  "left": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "binary",
+                      "op": "mul",
+                      "left": {
+                        "kind": "quantity",
+                        "name": "tree_mass"
+                      },
+                      "right": {
+                        "kind": "quantity",
+                        "name": "tree_mass"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "right": {
+          "kind": "binary",
+          "op": "mul",
+          "left": {
+            "kind": "binary",
+            "op": "mul",
+            "left": {
+              "kind": "binary",
+              "op": "mul",
+              "left": {
+                "kind": "binary",
+                "op": "mul",
+                "left": {
+                  "kind": "binary",
+                  "op": "mul",
+                  "left": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  }
+                },
+                "right": {
+                  "kind": "binary",
+                  "op": "mul",
+                  "left": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  }
+                }
+              },
+              "right": {
+                "kind": "binary",
+                "op": "mul",
+                "left": {
+                  "kind": "binary",
+                  "op": "mul",
+                  "left": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  }
+                },
+                "right": {
+                  "kind": "binary",
+                  "op": "mul",
+                  "left": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "binary",
+                      "op": "mul",
+                      "left": {
+                        "kind": "quantity",
+                        "name": "tree_mass"
+                      },
+                      "right": {
+                        "kind": "quantity",
+                        "name": "tree_mass"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "right": {
+              "kind": "binary",
+              "op": "mul",
+              "left": {
+                "kind": "binary",
+                "op": "mul",
+                "left": {
+                  "kind": "binary",
+                  "op": "mul",
+                  "left": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  }
+                },
+                "right": {
+                  "kind": "binary",
+                  "op": "mul",
+                  "left": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "binary",
+                      "op": "mul",
+                      "left": {
+                        "kind": "quantity",
+                        "name": "tree_mass"
+                      },
+                      "right": {
+                        "kind": "quantity",
+                        "name": "tree_mass"
+                      }
+                    }
+                  }
+                }
+              },
+              "right": {
+                "kind": "binary",
+                "op": "mul",
+                "left": {
+                  "kind": "binary",
+                  "op": "mul",
+                  "left": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  }
+                },
+                "right": {
+                  "kind": "binary",
+                  "op": "mul",
+                  "left": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "binary",
+                      "op": "mul",
+                      "left": {
+                        "kind": "quantity",
+                        "name": "tree_mass"
+                      },
+                      "right": {
+                        "kind": "quantity",
+                        "name": "tree_mass"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "right": {
+            "kind": "binary",
+            "op": "mul",
+            "left": {
+              "kind": "binary",
+              "op": "mul",
+              "left": {
+                "kind": "binary",
+                "op": "mul",
+                "left": {
+                  "kind": "binary",
+                  "op": "mul",
+                  "left": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  }
+                },
+                "right": {
+                  "kind": "binary",
+                  "op": "mul",
+                  "left": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  }
+                }
+              },
+              "right": {
+                "kind": "binary",
+                "op": "mul",
+                "left": {
+                  "kind": "binary",
+                  "op": "mul",
+                  "left": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  }
+                },
+                "right": {
+                  "kind": "binary",
+                  "op": "mul",
+                  "left": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "binary",
+                      "op": "mul",
+                      "left": {
+                        "kind": "quantity",
+                        "name": "tree_mass"
+                      },
+                      "right": {
+                        "kind": "quantity",
+                        "name": "tree_mass"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "right": {
+              "kind": "binary",
+              "op": "mul",
+              "left": {
+                "kind": "binary",
+                "op": "mul",
+                "left": {
+                  "kind": "binary",
+                  "op": "mul",
+                  "left": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  }
+                },
+                "right": {
+                  "kind": "binary",
+                  "op": "mul",
+                  "left": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "binary",
+                      "op": "mul",
+                      "left": {
+                        "kind": "quantity",
+                        "name": "tree_mass"
+                      },
+                      "right": {
+                        "kind": "quantity",
+                        "name": "tree_mass"
+                      }
+                    }
+                  }
+                }
+              },
+              "right": {
+                "kind": "binary",
+                "op": "mul",
+                "left": {
+                  "kind": "binary",
+                  "op": "mul",
+                  "left": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  }
+                },
+                "right": {
+                  "kind": "binary",
+                  "op": "mul",
+                  "left": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    }
+                  },
+                  "right": {
+                    "kind": "binary",
+                    "op": "mul",
+                    "left": {
+                      "kind": "quantity",
+                      "name": "tree_mass"
+                    },
+                    "right": {
+                      "kind": "binary",
+                      "op": "mul",
+                      "left": {
+                        "kind": "quantity",
+                        "name": "tree_mass"
+                      },
+                      "right": {
+                        "kind": "quantity",
+                        "name": "tree_mass"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "escaped_exception": true,
+  "exception_type": "ValueError",
+  "message": "Exceeds the limit (4300 digits) for integer string conversion; use sys.set_int_max_str_digits() to increase the limit",
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\integration-work\\check_large_exact_output.py\", line 25, in <module>\n    result = check_transfer(payload)\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\project\\src\\atlas_checks\\api.py\", line 182, in check_transfer\n    claim_evaluation = evaluator.evaluate(checked.claim, \"$.claim\")\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\project\\src\\atlas_checks\\expressions.py\", line 64, in evaluate\n    return self._binary(expression, path)\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\project\\src\\atlas_checks\\expressions.py\", line 74, in _binary\n    right = self.evaluate(expression[\"right\"], f\"{path}.right\")\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\project\\src\\atlas_checks\\expressions.py\", line 64, in evaluate\n    return self._binary(expression, path)\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\project\\src\\atlas_checks\\expressions.py\", line 100, in _binary\n    return _success(rational(a * b), trace)\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\project\\src\\atlas_checks\\expressions.py\", line 37, in _success\n    trace.update(status=\"defined\", **value.record())\n                                     ~~~~~~~~~~~~^^\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\project\\src\\atlas_checks\\values.py\", line 39, in record\n    return {\"type\": self.type, \"shape\": self.shape, \"value\": self.json_value()}\n                                                             ~~~~~~~~~~~~~~~^^\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\project\\src\\atlas_checks\\values.py\", line 29, in json_value\n    return rational_text(self.data)\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\project\\src\\atlas_checks\\model.py\", line 13, in rational_text\n    return str(value.numerator)\nValueError: Exceeds the limit (4300 digits) for integer string conversion; use sys.set_int_max_str_digits() to increase the limit\n"
+}

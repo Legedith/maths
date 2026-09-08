@@ -1,0 +1,33 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--isolated",
+    "--no-project",
+    "--python",
+    "3.13",
+    "python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\backbone-audit-work\\compare_reproductions.py"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\backbone-audit-work",
+  "duration_seconds": 0.3865042999968864,
+  "ended_at_utc": "2026-09-08T03:47:24.274376+00:00",
+  "exit_code": 0,
+  "schema_version": "command-evidence-v1",
+  "started_at_utc": "2026-09-08T03:47:23.887863+00:00",
+  "stderr": {
+    "base64": "V0FSTiBgLS1uby1wcm9qZWN0YCB3YXMgcHJvdmlkZWQsIGJ1dCBubyBwcm9qZWN0IHdhcyBmb3VuZAo=",
+    "bytes": 59,
+    "sha256": "dd7241fb9634d51d4b90a8782d9a26dd3fe2ada28ad873374b2d9b28b76827ef",
+    "utf8_text": "WARN `--no-project` was provided, but no project was found\n",
+    "valid_utf8": true
+  },
+  "stdout": {
+    "base64": "eyJyZXBvcnQiOiAiRDpcXENvZGV4V29ya3NwYWNlc1xcbWF0aGVtYXRpY3MtYXRsYXNcXGJhY2tib25lLWF1ZGl0LXdvcmtcXHJlcHJvZHVjdGlvbi1jb21wYXJpc29uLmpzb24iLCAic2hhMjU2IjogIjUzNjBjM2VlNDViMjRkMWE2MTA2ZjVkZWEzZTQ3MmM3M2EwZThiNzMyOGI1NzY3NWVmYzMwMjVhMmI4MDU5MWYiLCAic3RhdHVzIjogInBhc3MifQ0K",
+    "bytes": 201,
+    "sha256": "aa93a25c1fdfb1bc2738456dc410f3211972b48a495d37cc087870ab858c0aa6",
+    "utf8_text": "{\"report\": \"D:\\\\CodexWorkspaces\\\\mathematics-atlas\\\\backbone-audit-work\\\\reproduction-comparison.json\", \"sha256\": \"5360c3ee45b24d1a6106f5dea3e472c73a0e8b7328b57675efc3025a2b80591f\", \"status\": \"pass\"}\r\n",
+    "valid_utf8": true
+  },
+  "windows_command_line": "uv run --isolated --no-project --python 3.13 python D:\\CodexWorkspaces\\mathematics-atlas\\backbone-audit-work\\compare_reproductions.py"
+}

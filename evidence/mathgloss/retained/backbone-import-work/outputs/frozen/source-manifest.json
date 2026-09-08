@@ -1,0 +1,22 @@
+{
+  "contract": {
+    "bytes": 3811,
+    "path": "backbone-import-work/docs/import-contract.md",
+    "sha256": "a35f8e974012768b43afbd719c228aebecd3bc86c680d4f342f22071ea76c4cb"
+  },
+  "pinned_csv": {
+    "bytes": 674640,
+    "commit": "b8f659605486f80f2816515f525af2c395c711fa",
+    "path": "backbone-reuse-work/raw/mathgloss/data/database.csv",
+    "project": "MathGloss",
+    "repository": "https://github.com/MathGloss/MathGloss",
+    "sha256": "933a72820fe7ede53a803b750a480def205677e5722ae5f9589b0d1d9bf832b2"
+  },
+  "pinned_repository_license": {
+    "bytes": 1066,
+    "path": "backbone-reuse-work/raw/mathgloss/LICENSE",
+    "sha256": "5dc6b930900926814fc7bb9ff45dfcceae3aa33780eb010c83e6df58493594e7"
+  },
+  "schema_version": "mathgloss-source-freeze-v1",
+  "status": "author_frozen_pending_independent_verification"
+}

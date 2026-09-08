@@ -1,0 +1,52 @@
+{
+  "case_count": 80,
+  "files": {
+    "README.md": {
+      "bytes": 1964,
+      "sha256": "bc1ca5bf913d4e12980b00a00784e6504dd03d1211b8dd8189fd60038ecccf89"
+    },
+    "cases.json": {
+      "bytes": 235479,
+      "sha256": "b2c03a4fc3d5750dc95f6ac7b1d08b5ccd0abf4dbc435e7a965b29a6e98f015c"
+    },
+    "compare_public_suite.py": {
+      "bytes": 15738,
+      "sha256": "e0b047792f211ed3b1b1c511255b75716d0483ae76fd4a2f065b6fb1f22bc3f7"
+    },
+    "oracle.json": {
+      "bytes": 55515,
+      "sha256": "936548009cf20d6a91c6e3aa1123c43e3fe559a417b9596153b3679767896870"
+    },
+    "run_public_suite.py": {
+      "bytes": 8151,
+      "sha256": "8245d65f1a57111508327f2428d4039c173fc2678f8047b80d18421a04ac9069"
+    },
+    "seed.json": {
+      "bytes": 890,
+      "sha256": "8222ce34c5b354bac47d4cf5f3765231c09028bcc76d2b8bb8308b5f3f7fcc4c"
+    },
+    "suite.json": {
+      "bytes": 156851,
+      "sha256": "ddf50219b87547a9cae547d936a7afba76380f11c4cda7c5fbb473635a01d9ee"
+    }
+  },
+  "historical_ciphertext_sha256": "3c96287617319c73631c4586296f541204f7d16ed35088e6888ba4595cbc57c4",
+  "historical_plaintext_sha256": "ddf50219b87547a9cae547d936a7afba76380f11c4cda7c5fbb473635a01d9ee",
+  "partition_counts": {
+    "definedness_provenance_precedence": 12,
+    "malformed_type_resource": 14,
+    "well_formed_mathematical": 54
+  },
+  "release_id": "structured-transfer-heldout-v1-public-after-freeze",
+  "runner": {
+    "arguments": [
+      "--project-root",
+      "--output-dir"
+    ],
+    "entrypoint": "run_public_suite.py",
+    "private_absolute_paths_required": false,
+    "unreleased_secret_required": false
+  },
+  "schema_version": "1.0",
+  "scope": "Exact public release of the prospective 80-case evaluation suite after implementation freeze and retention of the first-run outputs. It is finite and nonexhaustive."
+}

@@ -1,0 +1,1065 @@
+{
+  "algorithm_version": "atlas-checks/1.0.0",
+  "id": "weighted-commute-failed-unit-weight-assumption",
+  "verdict": "not_applicable",
+  "normalized_input": {
+    "id": "weighted-commute-failed-unit-weight-assumption",
+    "graph": {
+      "n": 3,
+      "edges": [
+        {
+          "u": 0,
+          "v": 1,
+          "conductance": "2"
+        },
+        {
+          "u": 1,
+          "v": 2,
+          "conductance": "1"
+        }
+      ]
+    },
+    "source": 0,
+    "target": 2,
+    "provenance": {
+      "kind": "synthetic",
+      "source_url": "https://pages.uoregon.edu/dlevin/MARKOV/markovmixing.pdf",
+      "source_locator": "Teaching example: the unweighted specialization is explicitly guarded by unit edge weights. The chosen weighted graph violates that guard.",
+      "annotation_id": "weighted-commute-failed-unit-weight-assumption-root-annotation",
+      "annotator": "root-teaching-example-author",
+      "interpretation": "explicit"
+    },
+    "assumptions": [
+      {
+        "id": "connected-network",
+        "expression": {
+          "kind": "quantity",
+          "name": "connected"
+        }
+      },
+      {
+        "id": "all-edges-unit-conductance",
+        "expression": {
+          "kind": "binary",
+          "op": "and",
+          "left": {
+            "kind": "binary",
+            "op": "and",
+            "left": {
+              "kind": "binary",
+              "op": "and",
+              "left": {
+                "kind": "boolean",
+                "value": true
+              },
+              "right": {
+                "kind": "binary",
+                "op": "or",
+                "left": {
+                  "kind": "binary",
+                  "op": "eq",
+                  "left": {
+                    "kind": "entry",
+                    "arg": {
+                      "kind": "quantity",
+                      "name": "laplacian"
+                    },
+                    "indices": [
+                      0,
+                      1
+                    ]
+                  },
+                  "right": {
+                    "kind": "rational",
+                    "value": "0"
+                  }
+                },
+                "right": {
+                  "kind": "binary",
+                  "op": "eq",
+                  "left": {
+                    "kind": "entry",
+                    "arg": {
+                      "kind": "quantity",
+                      "name": "laplacian"
+                    },
+                    "indices": [
+                      0,
+                      1
+                    ]
+                  },
+                  "right": {
+                    "kind": "rational",
+                    "value": "-1"
+                  }
+                }
+              }
+            },
+            "right": {
+              "kind": "binary",
+              "op": "or",
+              "left": {
+                "kind": "binary",
+                "op": "eq",
+                "left": {
+                  "kind": "entry",
+                  "arg": {
+                    "kind": "quantity",
+                    "name": "laplacian"
+                  },
+                  "indices": [
+                    0,
+                    2
+                  ]
+                },
+                "right": {
+                  "kind": "rational",
+                  "value": "0"
+                }
+              },
+              "right": {
+                "kind": "binary",
+                "op": "eq",
+                "left": {
+                  "kind": "entry",
+                  "arg": {
+                    "kind": "quantity",
+                    "name": "laplacian"
+                  },
+                  "indices": [
+                    0,
+                    2
+                  ]
+                },
+                "right": {
+                  "kind": "rational",
+                  "value": "-1"
+                }
+              }
+            }
+          },
+          "right": {
+            "kind": "binary",
+            "op": "or",
+            "left": {
+              "kind": "binary",
+              "op": "eq",
+              "left": {
+                "kind": "entry",
+                "arg": {
+                  "kind": "quantity",
+                  "name": "laplacian"
+                },
+                "indices": [
+                  1,
+                  2
+                ]
+              },
+              "right": {
+                "kind": "rational",
+                "value": "0"
+              }
+            },
+            "right": {
+              "kind": "binary",
+              "op": "eq",
+              "left": {
+                "kind": "entry",
+                "arg": {
+                  "kind": "quantity",
+                  "name": "laplacian"
+                },
+                "indices": [
+                  1,
+                  2
+                ]
+              },
+              "right": {
+                "kind": "rational",
+                "value": "-1"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "claim": {
+      "kind": "binary",
+      "op": "eq",
+      "left": {
+        "kind": "quantity",
+        "name": "commute"
+      },
+      "right": {
+        "kind": "binary",
+        "op": "mul",
+        "left": {
+          "kind": "binary",
+          "op": "mul",
+          "left": {
+            "kind": "rational",
+            "value": "2"
+          },
+          "right": {
+            "kind": "quantity",
+            "name": "edge_count"
+          }
+        },
+        "right": {
+          "kind": "quantity",
+          "name": "resistance"
+        }
+      }
+    }
+  },
+  "normalized_input_sha256": "4ad2c25a6265b6f44871891d19deeb2528deb66712facc2fd0f7fff8d4a629b2",
+  "provenance": {
+    "kind": "synthetic",
+    "source_url": "https://pages.uoregon.edu/dlevin/MARKOV/markovmixing.pdf",
+    "source_locator": "Teaching example: the unweighted specialization is explicitly guarded by unit edge weights. The chosen weighted graph violates that guard.",
+    "annotation_id": "weighted-commute-failed-unit-weight-assumption-root-annotation",
+    "annotator": "root-teaching-example-author",
+    "interpretation": "explicit"
+  },
+  "evaluated_assumptions": [
+    {
+      "id": "connected-network",
+      "expression": {
+        "kind": "quantity",
+        "name": "connected"
+      },
+      "status": "true",
+      "trace": {
+        "path": "$.assumptions[0].expression",
+        "kind": "quantity",
+        "name": "connected",
+        "quantity": {
+          "status": "defined",
+          "method": "graph_search",
+          "definition": "all vertices form one component",
+          "type": "boolean",
+          "shape": [],
+          "value": true
+        },
+        "status": "defined",
+        "type": "boolean",
+        "shape": [],
+        "value": true
+      },
+      "type": "boolean",
+      "shape": [],
+      "value": true
+    },
+    {
+      "id": "all-edges-unit-conductance",
+      "expression": {
+        "kind": "binary",
+        "op": "and",
+        "left": {
+          "kind": "binary",
+          "op": "and",
+          "left": {
+            "kind": "binary",
+            "op": "and",
+            "left": {
+              "kind": "boolean",
+              "value": true
+            },
+            "right": {
+              "kind": "binary",
+              "op": "or",
+              "left": {
+                "kind": "binary",
+                "op": "eq",
+                "left": {
+                  "kind": "entry",
+                  "arg": {
+                    "kind": "quantity",
+                    "name": "laplacian"
+                  },
+                  "indices": [
+                    0,
+                    1
+                  ]
+                },
+                "right": {
+                  "kind": "rational",
+                  "value": "0"
+                }
+              },
+              "right": {
+                "kind": "binary",
+                "op": "eq",
+                "left": {
+                  "kind": "entry",
+                  "arg": {
+                    "kind": "quantity",
+                    "name": "laplacian"
+                  },
+                  "indices": [
+                    0,
+                    1
+                  ]
+                },
+                "right": {
+                  "kind": "rational",
+                  "value": "-1"
+                }
+              }
+            }
+          },
+          "right": {
+            "kind": "binary",
+            "op": "or",
+            "left": {
+              "kind": "binary",
+              "op": "eq",
+              "left": {
+                "kind": "entry",
+                "arg": {
+                  "kind": "quantity",
+                  "name": "laplacian"
+                },
+                "indices": [
+                  0,
+                  2
+                ]
+              },
+              "right": {
+                "kind": "rational",
+                "value": "0"
+              }
+            },
+            "right": {
+              "kind": "binary",
+              "op": "eq",
+              "left": {
+                "kind": "entry",
+                "arg": {
+                  "kind": "quantity",
+                  "name": "laplacian"
+                },
+                "indices": [
+                  0,
+                  2
+                ]
+              },
+              "right": {
+                "kind": "rational",
+                "value": "-1"
+              }
+            }
+          }
+        },
+        "right": {
+          "kind": "binary",
+          "op": "or",
+          "left": {
+            "kind": "binary",
+            "op": "eq",
+            "left": {
+              "kind": "entry",
+              "arg": {
+                "kind": "quantity",
+                "name": "laplacian"
+              },
+              "indices": [
+                1,
+                2
+              ]
+            },
+            "right": {
+              "kind": "rational",
+              "value": "0"
+            }
+          },
+          "right": {
+            "kind": "binary",
+            "op": "eq",
+            "left": {
+              "kind": "entry",
+              "arg": {
+                "kind": "quantity",
+                "name": "laplacian"
+              },
+              "indices": [
+                1,
+                2
+              ]
+            },
+            "right": {
+              "kind": "rational",
+              "value": "-1"
+            }
+          }
+        }
+      },
+      "status": "false",
+      "trace": {
+        "path": "$.assumptions[1].expression",
+        "kind": "binary",
+        "op": "and",
+        "left": {
+          "path": "$.assumptions[1].expression.left",
+          "kind": "binary",
+          "op": "and",
+          "left": {
+            "path": "$.assumptions[1].expression.left.left",
+            "kind": "binary",
+            "op": "and",
+            "left": {
+              "path": "$.assumptions[1].expression.left.left.left",
+              "kind": "boolean",
+              "status": "defined",
+              "type": "boolean",
+              "shape": [],
+              "value": true
+            },
+            "right": {
+              "path": "$.assumptions[1].expression.left.left.right",
+              "kind": "binary",
+              "op": "or",
+              "left": {
+                "path": "$.assumptions[1].expression.left.left.right.left",
+                "kind": "binary",
+                "op": "eq",
+                "left": {
+                  "path": "$.assumptions[1].expression.left.left.right.left.left",
+                  "kind": "entry",
+                  "indices": [
+                    0,
+                    1
+                  ],
+                  "arg": {
+                    "path": "$.assumptions[1].expression.left.left.right.left.left.arg",
+                    "kind": "quantity",
+                    "name": "laplacian",
+                    "quantity": {
+                      "status": "defined",
+                      "method": "exact_combinatorial_construction",
+                      "definition": "L=D-A with conductances in A",
+                      "type": "rational_matrix",
+                      "shape": [
+                        3,
+                        3
+                      ],
+                      "value": [
+                        [
+                          "2",
+                          "-2",
+                          "0"
+                        ],
+                        [
+                          "-2",
+                          "3",
+                          "-1"
+                        ],
+                        [
+                          "0",
+                          "-1",
+                          "1"
+                        ]
+                      ]
+                    },
+                    "status": "defined",
+                    "type": "rational_matrix",
+                    "shape": [
+                      3,
+                      3
+                    ],
+                    "value": [
+                      [
+                        "2",
+                        "-2",
+                        "0"
+                      ],
+                      [
+                        "-2",
+                        "3",
+                        "-1"
+                      ],
+                      [
+                        "0",
+                        "-1",
+                        "1"
+                      ]
+                    ]
+                  },
+                  "status": "defined",
+                  "type": "rational",
+                  "shape": [],
+                  "value": "-2"
+                },
+                "right": {
+                  "path": "$.assumptions[1].expression.left.left.right.left.right",
+                  "kind": "rational",
+                  "status": "defined",
+                  "type": "rational",
+                  "shape": [],
+                  "value": "0"
+                },
+                "status": "defined",
+                "type": "boolean",
+                "shape": [],
+                "value": false
+              },
+              "right": {
+                "path": "$.assumptions[1].expression.left.left.right.right",
+                "kind": "binary",
+                "op": "eq",
+                "left": {
+                  "path": "$.assumptions[1].expression.left.left.right.right.left",
+                  "kind": "entry",
+                  "indices": [
+                    0,
+                    1
+                  ],
+                  "arg": {
+                    "path": "$.assumptions[1].expression.left.left.right.right.left.arg",
+                    "kind": "quantity",
+                    "name": "laplacian",
+                    "quantity": {
+                      "status": "defined",
+                      "method": "exact_combinatorial_construction",
+                      "definition": "L=D-A with conductances in A",
+                      "type": "rational_matrix",
+                      "shape": [
+                        3,
+                        3
+                      ],
+                      "value": [
+                        [
+                          "2",
+                          "-2",
+                          "0"
+                        ],
+                        [
+                          "-2",
+                          "3",
+                          "-1"
+                        ],
+                        [
+                          "0",
+                          "-1",
+                          "1"
+                        ]
+                      ]
+                    },
+                    "status": "defined",
+                    "type": "rational_matrix",
+                    "shape": [
+                      3,
+                      3
+                    ],
+                    "value": [
+                      [
+                        "2",
+                        "-2",
+                        "0"
+                      ],
+                      [
+                        "-2",
+                        "3",
+                        "-1"
+                      ],
+                      [
+                        "0",
+                        "-1",
+                        "1"
+                      ]
+                    ]
+                  },
+                  "status": "defined",
+                  "type": "rational",
+                  "shape": [],
+                  "value": "-2"
+                },
+                "right": {
+                  "path": "$.assumptions[1].expression.left.left.right.right.right",
+                  "kind": "rational",
+                  "status": "defined",
+                  "type": "rational",
+                  "shape": [],
+                  "value": "-1"
+                },
+                "status": "defined",
+                "type": "boolean",
+                "shape": [],
+                "value": false
+              },
+              "status": "defined",
+              "type": "boolean",
+              "shape": [],
+              "value": false
+            },
+            "status": "defined",
+            "type": "boolean",
+            "shape": [],
+            "value": false
+          },
+          "right": {
+            "path": "$.assumptions[1].expression.left.right",
+            "kind": "binary",
+            "op": "or",
+            "left": {
+              "path": "$.assumptions[1].expression.left.right.left",
+              "kind": "binary",
+              "op": "eq",
+              "left": {
+                "path": "$.assumptions[1].expression.left.right.left.left",
+                "kind": "entry",
+                "indices": [
+                  0,
+                  2
+                ],
+                "arg": {
+                  "path": "$.assumptions[1].expression.left.right.left.left.arg",
+                  "kind": "quantity",
+                  "name": "laplacian",
+                  "quantity": {
+                    "status": "defined",
+                    "method": "exact_combinatorial_construction",
+                    "definition": "L=D-A with conductances in A",
+                    "type": "rational_matrix",
+                    "shape": [
+                      3,
+                      3
+                    ],
+                    "value": [
+                      [
+                        "2",
+                        "-2",
+                        "0"
+                      ],
+                      [
+                        "-2",
+                        "3",
+                        "-1"
+                      ],
+                      [
+                        "0",
+                        "-1",
+                        "1"
+                      ]
+                    ]
+                  },
+                  "status": "defined",
+                  "type": "rational_matrix",
+                  "shape": [
+                    3,
+                    3
+                  ],
+                  "value": [
+                    [
+                      "2",
+                      "-2",
+                      "0"
+                    ],
+                    [
+                      "-2",
+                      "3",
+                      "-1"
+                    ],
+                    [
+                      "0",
+                      "-1",
+                      "1"
+                    ]
+                  ]
+                },
+                "status": "defined",
+                "type": "rational",
+                "shape": [],
+                "value": "0"
+              },
+              "right": {
+                "path": "$.assumptions[1].expression.left.right.left.right",
+                "kind": "rational",
+                "status": "defined",
+                "type": "rational",
+                "shape": [],
+                "value": "0"
+              },
+              "status": "defined",
+              "type": "boolean",
+              "shape": [],
+              "value": true
+            },
+            "right": {
+              "path": "$.assumptions[1].expression.left.right.right",
+              "kind": "binary",
+              "op": "eq",
+              "left": {
+                "path": "$.assumptions[1].expression.left.right.right.left",
+                "kind": "entry",
+                "indices": [
+                  0,
+                  2
+                ],
+                "arg": {
+                  "path": "$.assumptions[1].expression.left.right.right.left.arg",
+                  "kind": "quantity",
+                  "name": "laplacian",
+                  "quantity": {
+                    "status": "defined",
+                    "method": "exact_combinatorial_construction",
+                    "definition": "L=D-A with conductances in A",
+                    "type": "rational_matrix",
+                    "shape": [
+                      3,
+                      3
+                    ],
+                    "value": [
+                      [
+                        "2",
+                        "-2",
+                        "0"
+                      ],
+                      [
+                        "-2",
+                        "3",
+                        "-1"
+                      ],
+                      [
+                        "0",
+                        "-1",
+                        "1"
+                      ]
+                    ]
+                  },
+                  "status": "defined",
+                  "type": "rational_matrix",
+                  "shape": [
+                    3,
+                    3
+                  ],
+                  "value": [
+                    [
+                      "2",
+                      "-2",
+                      "0"
+                    ],
+                    [
+                      "-2",
+                      "3",
+                      "-1"
+                    ],
+                    [
+                      "0",
+                      "-1",
+                      "1"
+                    ]
+                  ]
+                },
+                "status": "defined",
+                "type": "rational",
+                "shape": [],
+                "value": "0"
+              },
+              "right": {
+                "path": "$.assumptions[1].expression.left.right.right.right",
+                "kind": "rational",
+                "status": "defined",
+                "type": "rational",
+                "shape": [],
+                "value": "-1"
+              },
+              "status": "defined",
+              "type": "boolean",
+              "shape": [],
+              "value": false
+            },
+            "status": "defined",
+            "type": "boolean",
+            "shape": [],
+            "value": true
+          },
+          "status": "defined",
+          "type": "boolean",
+          "shape": [],
+          "value": false
+        },
+        "right": {
+          "path": "$.assumptions[1].expression.right",
+          "kind": "binary",
+          "op": "or",
+          "left": {
+            "path": "$.assumptions[1].expression.right.left",
+            "kind": "binary",
+            "op": "eq",
+            "left": {
+              "path": "$.assumptions[1].expression.right.left.left",
+              "kind": "entry",
+              "indices": [
+                1,
+                2
+              ],
+              "arg": {
+                "path": "$.assumptions[1].expression.right.left.left.arg",
+                "kind": "quantity",
+                "name": "laplacian",
+                "quantity": {
+                  "status": "defined",
+                  "method": "exact_combinatorial_construction",
+                  "definition": "L=D-A with conductances in A",
+                  "type": "rational_matrix",
+                  "shape": [
+                    3,
+                    3
+                  ],
+                  "value": [
+                    [
+                      "2",
+                      "-2",
+                      "0"
+                    ],
+                    [
+                      "-2",
+                      "3",
+                      "-1"
+                    ],
+                    [
+                      "0",
+                      "-1",
+                      "1"
+                    ]
+                  ]
+                },
+                "status": "defined",
+                "type": "rational_matrix",
+                "shape": [
+                  3,
+                  3
+                ],
+                "value": [
+                  [
+                    "2",
+                    "-2",
+                    "0"
+                  ],
+                  [
+                    "-2",
+                    "3",
+                    "-1"
+                  ],
+                  [
+                    "0",
+                    "-1",
+                    "1"
+                  ]
+                ]
+              },
+              "status": "defined",
+              "type": "rational",
+              "shape": [],
+              "value": "-1"
+            },
+            "right": {
+              "path": "$.assumptions[1].expression.right.left.right",
+              "kind": "rational",
+              "status": "defined",
+              "type": "rational",
+              "shape": [],
+              "value": "0"
+            },
+            "status": "defined",
+            "type": "boolean",
+            "shape": [],
+            "value": false
+          },
+          "right": {
+            "path": "$.assumptions[1].expression.right.right",
+            "kind": "binary",
+            "op": "eq",
+            "left": {
+              "path": "$.assumptions[1].expression.right.right.left",
+              "kind": "entry",
+              "indices": [
+                1,
+                2
+              ],
+              "arg": {
+                "path": "$.assumptions[1].expression.right.right.left.arg",
+                "kind": "quantity",
+                "name": "laplacian",
+                "quantity": {
+                  "status": "defined",
+                  "method": "exact_combinatorial_construction",
+                  "definition": "L=D-A with conductances in A",
+                  "type": "rational_matrix",
+                  "shape": [
+                    3,
+                    3
+                  ],
+                  "value": [
+                    [
+                      "2",
+                      "-2",
+                      "0"
+                    ],
+                    [
+                      "-2",
+                      "3",
+                      "-1"
+                    ],
+                    [
+                      "0",
+                      "-1",
+                      "1"
+                    ]
+                  ]
+                },
+                "status": "defined",
+                "type": "rational_matrix",
+                "shape": [
+                  3,
+                  3
+                ],
+                "value": [
+                  [
+                    "2",
+                    "-2",
+                    "0"
+                  ],
+                  [
+                    "-2",
+                    "3",
+                    "-1"
+                  ],
+                  [
+                    "0",
+                    "-1",
+                    "1"
+                  ]
+                ]
+              },
+              "status": "defined",
+              "type": "rational",
+              "shape": [],
+              "value": "-1"
+            },
+            "right": {
+              "path": "$.assumptions[1].expression.right.right.right",
+              "kind": "rational",
+              "status": "defined",
+              "type": "rational",
+              "shape": [],
+              "value": "-1"
+            },
+            "status": "defined",
+            "type": "boolean",
+            "shape": [],
+            "value": true
+          },
+          "status": "defined",
+          "type": "boolean",
+          "shape": [],
+          "value": true
+        },
+        "status": "defined",
+        "type": "boolean",
+        "shape": [],
+        "value": false
+      },
+      "type": "boolean",
+      "shape": [],
+      "value": false
+    }
+  ],
+  "claim_evaluation": {
+    "expression": {
+      "kind": "binary",
+      "op": "eq",
+      "left": {
+        "kind": "quantity",
+        "name": "commute"
+      },
+      "right": {
+        "kind": "binary",
+        "op": "mul",
+        "left": {
+          "kind": "binary",
+          "op": "mul",
+          "left": {
+            "kind": "rational",
+            "value": "2"
+          },
+          "right": {
+            "kind": "quantity",
+            "name": "edge_count"
+          }
+        },
+        "right": {
+          "kind": "quantity",
+          "name": "resistance"
+        }
+      }
+    },
+    "status": "not_evaluated",
+    "trace": {
+      "path": "$.claim",
+      "status": "not_evaluated",
+      "reason": "at least one recorded theorem assumption is false"
+    }
+  },
+  "quantities": {
+    "connected": {
+      "status": "defined",
+      "method": "graph_search",
+      "definition": "all vertices form one component",
+      "type": "boolean",
+      "shape": [],
+      "value": true
+    },
+    "laplacian": {
+      "status": "defined",
+      "method": "exact_combinatorial_construction",
+      "definition": "L=D-A with conductances in A",
+      "type": "rational_matrix",
+      "shape": [
+        3,
+        3
+      ],
+      "value": [
+        [
+          "2",
+          "-2",
+          "0"
+        ],
+        [
+          "-2",
+          "3",
+          "-1"
+        ],
+        [
+          "0",
+          "-1",
+          "1"
+        ]
+      ]
+    }
+  },
+  "certificates": {
+    "gauge": {
+      "status": "defined",
+      "kind": "laplacian_nullspace",
+      "ones": [
+        "1",
+        "1",
+        "1"
+      ],
+      "laplacian_times_ones": [
+        "0",
+        "0",
+        "0"
+      ],
+      "rank": 2,
+      "nullity": 1
+    },
+    "period": {
+      "status": "not_evaluated",
+      "reason": "period was not referenced"
+    }
+  },
+  "errors": []
+}

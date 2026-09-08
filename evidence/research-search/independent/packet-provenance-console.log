@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "subject": {
+    "path": "D:/CodexWorkspaces/mathematics-atlas/project/lib/research-search.ts",
+    "sha256": "09007c456bde23593458d356d6058ef9b688305091b731e27655188a3fac65fb"
+  },
+  "preserved": {
+    "provider": "TheoremSearch",
+    "query": "audit query",
+    "retrievedAt": "2026-09-08T00:00:00.000Z",
+    "theoremId": 102,
+    "sloganId": 202,
+    "extractedBody": "SECOND EXTRACTED BODY",
+    "generatedSummary": "SECOND GENERATED SUMMARY",
+    "paper": {
+      "id": "2222.2222v2",
+      "title": "Second paper",
+      "authors": [],
+      "source": null,
+      "year": null
+    },
+    "sourceUrl": null
+  },
+  "observedOmissionsFromDocumentedProviderResponse": {
+    "resultRank": true,
+    "similarity": true,
+    "score": true,
+    "requestResultLimit": true,
+    "providerEndpoint": true
+  },
+  "note": "This is an observation about retrieval provenance. It does not judge mathematical truth, search relevance, or the provider."
+}

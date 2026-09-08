@@ -1,0 +1,76 @@
+{
+  "attempt": 1,
+  "elapsed_seconds": 4.152854800020577,
+  "ended_at_utc": "2026-09-08T01:54:19.134597+00:00",
+  "http_reason": "OK",
+  "http_status": 200,
+  "method": "POST",
+  "occurrences": [
+    {
+      "paper_id": "1203.4045v1",
+      "paper_link": "http://arxiv.org/abs/1203.4045v1",
+      "paper_title": "Circular Planar Resistor Networks with Nonlinear and Signed Conductors",
+      "query_id": "Q09",
+      "rank": 1,
+      "slogan_id": 7452320,
+      "theorem_id": 22536602,
+      "theorem_name": "Theorem 3.3"
+    },
+    {
+      "paper_id": "2502.19720v2",
+      "paper_link": "http://arxiv.org/abs/2502.19720v2",
+      "paper_title": "Performance bound analysis of linear consensus algorithm on strongly connected graphs using effective resistance and reversiblization",
+      "query_id": "Q09",
+      "rank": 2,
+      "slogan_id": 10817861,
+      "theorem_id": 26077729,
+      "theorem_name": "Lemma 2.1"
+    }
+  ],
+  "parse_error": null,
+  "query_id": "Q09",
+  "request_byte_count": 93,
+  "request_headers": {
+    "Accept": "application/json",
+    "Content-Length": "93",
+    "Content-Type": "application/json",
+    "User-Agent": "MathematicsAtlas-retrieval-study-v1/1.0"
+  },
+  "request_path": "Q09-request.json",
+  "request_sha256": "136f1befc4b96dbead31d6d8564c16fa97579018f0b51f2809dc88e2b1a964f8",
+  "response_bound_bytes": 5000000,
+  "response_byte_count_retained": 2514,
+  "response_exceeded_bound": false,
+  "response_headers": [
+    [
+      "content-length",
+      "2514"
+    ],
+    [
+      "content-type",
+      "application/json"
+    ],
+    [
+      "date",
+      "Tue, 08 Sep 2026 01:54:15 GMT"
+    ],
+    [
+      "server",
+      "envoy"
+    ],
+    [
+      "x-envoy-upstream-service-time",
+      "3182"
+    ],
+    [
+      "connection",
+      "close"
+    ]
+  ],
+  "response_path": "Q09-response.bin",
+  "response_sha256": "b8324a72b884fc406ba2329883a3472b11bedad9475bc5f944f8bf50c92be31e",
+  "returned_result_count": 2,
+  "started_at_utc": "2026-09-08T01:54:14.981750+00:00",
+  "transport_error": null,
+  "url": "https://api.theoremsearch.com/search"
+}

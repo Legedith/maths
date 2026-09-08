@@ -1,0 +1,7 @@
+﻿{
+  "scope": "Public post-freeze output-size probe; 281 AST nodes, depth below 20, admitted 12-digit weights. The exact positive product is (999999999999)^700.",
+  "escaped_exception": false,
+  "verdict": "no_counterexample_in_instance",
+  "exact_value_digits": 8400
+}
+

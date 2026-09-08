@@ -1,0 +1,28 @@
+{
+  "argv": [
+    "uv",
+    "sync",
+    "--locked"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\backbone-audit-work\\canonical-copy\\implementation",
+  "duration_seconds": 1.5436776999849826,
+  "ended_at_utc": "2026-09-08T03:35:01.161188+00:00",
+  "exit_code": 0,
+  "schema_version": "command-evidence-v1",
+  "started_at_utc": "2026-09-08T03:34:59.617501+00:00",
+  "stderr": {
+    "base64": "d2FybmluZzogYFZJUlRVQUxfRU5WPUQ6XENvZGV4V29ya3NwYWNlc1xtYXRoZW1hdGljcy1hdGxhc1x1di1jYWNoZVxidWlsZHMtdjBcLnRtcGMzUVZ1RmAgZG9lcyBub3QgbWF0Y2ggdGhlIHByb2plY3QgZW52aXJvbm1lbnQgcGF0aCBgLnZlbnZgIGFuZCB3aWxsIGJlIGlnbm9yZWQ7IHVzZSBgLS1hY3RpdmVgIHRvIHRhcmdldCB0aGUgYWN0aXZlIGVudmlyb25tZW50IGluc3RlYWQKVXNpbmcgQ1B5dGhvbiAzLjEzLjcKQ3JlYXRpbmcgdmlydHVhbCBlbnZpcm9ubWVudCBhdDogLnZlbnYKUmVzb2x2ZWQgMSBwYWNrYWdlIGluIDJtcwogICBCdWlsZGluZyBtYXRoZ2xvc3MtbWV0YWRhdGEtaW1wb3J0IEAgZmlsZTovLy9EOi9Db2RleFdvcmtzcGFjZXMvbWF0aGVtYXRpY3MtYXRsYXMvYmFja2JvbmUtYXVkaXQtd29yay9jYW5vbmljYWwtY29weS9pbXBsZW1lbnRhdGlvbgogICAgICBCdWlsdCBtYXRoZ2xvc3MtbWV0YWRhdGEtaW1wb3J0IEAgZmlsZTovLy9EOi9Db2RleFdvcmtzcGFjZXMvbWF0aGVtYXRpY3MtYXRsYXMvYmFja2JvbmUtYXVkaXQtd29yay9jYW5vbmljYWwtY29weS9pbXBsZW1lbnRhdGlvbgpQcmVwYXJlZCAxIHBhY2thZ2UgaW4gMS40NnMKSW5zdGFsbGVkIDEgcGFja2FnZSBpbiA4bXMKICsgbWF0aGdsb3NzLW1ldGFkYXRhLWltcG9ydD09MS4wLjAgKGZyb20gZmlsZTovLy9EOi9Db2RleFdvcmtzcGFjZXMvbWF0aGVtYXRpY3MtYXRsYXMvYmFja2JvbmUtYXVkaXQtd29yay9jYW5vbmljYWwtY29weS9pbXBsZW1lbnRhdGlvbikK",
+    "bytes": 768,
+    "sha256": "aff39fcf44dc640fbeaced1944b86d784700ee16b469444ccad982f0cc6849fb",
+    "utf8_text": "warning: `VIRTUAL_ENV=D:\\CodexWorkspaces\\mathematics-atlas\\uv-cache\\builds-v0\\.tmpc3QVuF` does not match the project environment path `.venv` and will be ignored; use `--active` to target the active environment instead\nUsing CPython 3.13.7\nCreating virtual environment at: .venv\nResolved 1 package in 2ms\n   Building mathgloss-metadata-import @ file:///D:/CodexWorkspaces/mathematics-atlas/backbone-audit-work/canonical-copy/implementation\n      Built mathgloss-metadata-import @ file:///D:/CodexWorkspaces/mathematics-atlas/backbone-audit-work/canonical-copy/implementation\nPrepared 1 package in 1.46s\nInstalled 1 package in 8ms\n + mathgloss-metadata-import==1.0.0 (from file:///D:/CodexWorkspaces/mathematics-atlas/backbone-audit-work/canonical-copy/implementation)\n",
+    "valid_utf8": true
+  },
+  "stdout": {
+    "base64": "",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "utf8_text": "",
+    "valid_utf8": true
+  },
+  "windows_command_line": "uv sync --locked"
+}

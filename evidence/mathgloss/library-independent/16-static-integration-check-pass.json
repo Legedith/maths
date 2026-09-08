@@ -1,0 +1,33 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--isolated",
+    "--no-project",
+    "--python",
+    "3.13",
+    "python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work\\check_library_static.py"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work",
+  "duration_seconds": 0.44620850001228973,
+  "ended_at_utc": "2026-09-08T04:20:30.137726+00:00",
+  "exit_code": 0,
+  "schema_version": "command-evidence-v1",
+  "started_at_utc": "2026-09-08T04:20:29.691509+00:00",
+  "stderr": {
+    "base64": "V0FSTiBgLS1uby1wcm9qZWN0YCB3YXMgcHJvdmlkZWQsIGJ1dCBubyBwcm9qZWN0IHdhcyBmb3VuZAo=",
+    "bytes": 59,
+    "sha256": "dd7241fb9634d51d4b90a8782d9a26dd3fe2ada28ad873374b2d9b28b76827ef",
+    "utf8_text": "WARN `--no-project` was provided, but no project was found\n",
+    "valid_utf8": true
+  },
+  "stdout": {
+    "base64": "eyJvdXRwdXQiOiAiRDpcXENvZGV4V29ya3NwYWNlc1xcbWF0aGVtYXRpY3MtYXRsYXNcXGxpYnJhcnktYXVkaXQtd29ya1xcc3RhdGljLWludGVncmF0aW9uLWNoZWNrLmpzb24iLCAic2hhMjU2IjogImNmMmQ3NDY4ODNmZTA0YjM3OTI2NDQ1YzgwZWVlYTdmOTQzMGFjNzU5NTEyOWY1MTY4Zjg1Y2JlY2U0NmI5ZjgiLCAic3RhdHVzIjogInBhc3MifQ0K",
+    "bytes": 201,
+    "sha256": "d9f74ff7f836cabeb49dca2c297091908f344567fef30ca181f2520efeaa0b3c",
+    "utf8_text": "{\"output\": \"D:\\\\CodexWorkspaces\\\\mathematics-atlas\\\\library-audit-work\\\\static-integration-check.json\", \"sha256\": \"cf2d746883fe04b37926445c80eeea7f9430ac7595129f5168f85cbece46b9f8\", \"status\": \"pass\"}\r\n",
+    "valid_utf8": true
+  },
+  "windows_command_line": "uv run --isolated --no-project --python 3.13 python D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work\\check_library_static.py"
+}

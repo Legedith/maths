@@ -1,0 +1,438 @@
+{
+  "attribution": {
+    "commit": "b8f659605486f80f2816515f525af2c395c711fa",
+    "paper": {
+      "authors": [
+        "Lucy Horowitz",
+        "Valeria de Paiva"
+      ],
+      "title": "MathGloss: Building mathematical glossaries from text",
+      "url": "https://arxiv.org/abs/2311.12649"
+    },
+    "project": "MathGloss",
+    "repository": "https://github.com/MathGloss/MathGloss",
+    "repository_license_notice": {
+      "bundle_file": "MATHGLOSS-LICENSE",
+      "scope_note": "Notice retained verbatim; this importer makes no claim that it licenses content at outbound links.",
+      "sha256": "5dc6b930900926814fc7bb9ff45dfcceae3aa33780eb010c83e6df58493594e7",
+      "source_path": "LICENSE",
+      "source_url": "https://github.com/MathGloss/MathGloss/blob/b8f659605486f80f2816515f525af2c395c711fa/LICENSE"
+    }
+  },
+  "catalog_status": "unreviewed_external_link_catalogue",
+  "records": [
+    {
+      "asserted_by": "MathGloss",
+      "identity_candidate": {
+        "id": "wikidata:Q181296",
+        "qid": "Q181296",
+        "status": "unreviewed",
+        "uri": "https://www.wikidata.org/entity/Q181296"
+      },
+      "label_as_recorded": "abelian group",
+      "links": [
+        {
+          "name_as_recorded": "abelian group",
+          "source": "Chicago",
+          "url": "https://mathgloss.github.io/MathGloss/chicago/abelian_group"
+        },
+        {
+          "name_as_recorded": "abelian group",
+          "source": "nLab",
+          "url": "https://ncatlab.org/nlab/show/abelian+group"
+        },
+        {
+          "name_as_recorded": "abelian group",
+          "source": "PlanetMath",
+          "url": "http://planetmath.org/abeliangroup"
+        }
+      ],
+      "mapping_status": "unreviewed",
+      "record_key": "mathgloss:b8f659605486f80f2816515f525af2c395c711fa:data/database.csv:record:00001444",
+      "source_locator": {
+        "commit": "b8f659605486f80f2816515f525af2c395c711fa",
+        "csv_path": "data/database.csv",
+        "logical_data_record": 1444,
+        "physical_lines": {
+          "end": 1445,
+          "start": 1445
+        },
+        "project": "MathGloss",
+        "repository": "https://github.com/MathGloss/MathGloss"
+      }
+    },
+    {
+      "asserted_by": "MathGloss",
+      "identity_candidate": {
+        "id": "wikidata:Q178546",
+        "qid": "Q178546",
+        "status": "unreviewed",
+        "uri": "https://www.wikidata.org/entity/Q178546"
+      },
+      "label_as_recorded": "determinant",
+      "links": [
+        {
+          "name_as_recorded": "determinant",
+          "source": "BCT",
+          "url": "https://arxiv.org/pdf/1612.09375#page=37"
+        },
+        {
+          "name_as_recorded": "determinant",
+          "source": "Chicago",
+          "url": "https://mathgloss.github.io/MathGloss/chicago/determinant"
+        },
+        {
+          "name_as_recorded": "determinant",
+          "source": "Mathlib",
+          "url": "https://leanprover-community.github.io/mathlib4_docs/Mathlib/LinearAlgebra/Matrix/Determinant/Basic.html#Matrix.det"
+        },
+        {
+          "name_as_recorded": "determinant",
+          "source": "nLab",
+          "url": "https://ncatlab.org/nlab/show/determinant"
+        },
+        {
+          "name_as_recorded": "determinant",
+          "source": "PlanetMath",
+          "url": "http://planetmath.org/determinant"
+        }
+      ],
+      "mapping_status": "unreviewed",
+      "record_key": "mathgloss:b8f659605486f80f2816515f525af2c395c711fa:data/database.csv:record:00001417",
+      "source_locator": {
+        "commit": "b8f659605486f80f2816515f525af2c395c711fa",
+        "csv_path": "data/database.csv",
+        "logical_data_record": 1417,
+        "physical_lines": {
+          "end": 1418,
+          "start": 1418
+        },
+        "project": "MathGloss",
+        "repository": "https://github.com/MathGloss/MathGloss"
+      }
+    },
+    {
+      "asserted_by": "MathGloss",
+      "identity_candidate": {
+        "id": "wikidata:Q230655",
+        "qid": "Q230655",
+        "status": "unreviewed",
+        "uri": "https://www.wikidata.org/entity/Q230655"
+      },
+      "label_as_recorded": "connected graph",
+      "links": [
+        {
+          "name_as_recorded": "connected graph",
+          "source": "Chicago",
+          "url": "https://mathgloss.github.io/MathGloss/chicago/connected_graph"
+        },
+        {
+          "name_as_recorded": "connected graph",
+          "source": "nLab",
+          "url": "https://ncatlab.org/nlab/show/connected+graph"
+        },
+        {
+          "name_as_recorded": "connected graph",
+          "source": "PlanetMath",
+          "url": "http://planetmath.org/connectedgraph"
+        }
+      ],
+      "mapping_status": "unreviewed",
+      "record_key": "mathgloss:b8f659605486f80f2816515f525af2c395c711fa:data/database.csv:record:00001916",
+      "source_locator": {
+        "commit": "b8f659605486f80f2816515f525af2c395c711fa",
+        "csv_path": "data/database.csv",
+        "logical_data_record": 1916,
+        "physical_lines": {
+          "end": 1917,
+          "start": 1917
+        },
+        "project": "MathGloss",
+        "repository": "https://github.com/MathGloss/MathGloss"
+      }
+    },
+    {
+      "asserted_by": "MathGloss",
+      "identity_candidate": {
+        "id": "wikidata:Q1006032",
+        "qid": "Q1006032",
+        "status": "unreviewed",
+        "uri": "https://www.wikidata.org/entity/Q1006032"
+      },
+      "label_as_recorded": "discrete Fourier transform",
+      "links": [
+        {
+          "name_as_recorded": "discrete Fourier transform",
+          "source": "nLab",
+          "url": "https://ncatlab.org/nlab/show/discrete+Fourier+transform"
+        },
+        {
+          "name_as_recorded": "discrete Fourier transform",
+          "source": "PlanetMath",
+          "url": "http://planetmath.org/discretefouriertransform"
+        }
+      ],
+      "mapping_status": "unreviewed",
+      "record_key": "mathgloss:b8f659605486f80f2816515f525af2c395c711fa:data/database.csv:record:00000007",
+      "source_locator": {
+        "commit": "b8f659605486f80f2816515f525af2c395c711fa",
+        "csv_path": "data/database.csv",
+        "logical_data_record": 7,
+        "physical_lines": {
+          "end": 8,
+          "start": 8
+        },
+        "project": "MathGloss",
+        "repository": "https://github.com/MathGloss/MathGloss"
+      }
+    },
+    {
+      "asserted_by": "MathGloss",
+      "identity_candidate": {
+        "id": "wikidata:Q1028292",
+        "qid": "Q1028292",
+        "status": "unreviewed",
+        "uri": "https://www.wikidata.org/entity/Q1028292"
+      },
+      "label_as_recorded": "Grover's algorithm",
+      "links": [
+        {
+          "name_as_recorded": "Grover's algorithm",
+          "source": "nLab",
+          "url": "https://ncatlab.org/nlab/show/Grover%27s+algorithm"
+        }
+      ],
+      "mapping_status": "unreviewed",
+      "record_key": "mathgloss:b8f659605486f80f2816515f525af2c395c711fa:data/database.csv:record:00000031",
+      "source_locator": {
+        "commit": "b8f659605486f80f2816515f525af2c395c711fa",
+        "csv_path": "data/database.csv",
+        "logical_data_record": 31,
+        "physical_lines": {
+          "end": 32,
+          "start": 32
+        },
+        "project": "MathGloss",
+        "repository": "https://github.com/MathGloss/MathGloss"
+      }
+    },
+    {
+      "asserted_by": "MathGloss",
+      "identity_candidate": {
+        "id": "wikidata:Q1028209",
+        "qid": "Q1028209",
+        "status": "unreviewed",
+        "uri": "https://www.wikidata.org/entity/Q1028209"
+      },
+      "label_as_recorded": "Deutsch–Jozsa algorithm",
+      "links": [
+        {
+          "name_as_recorded": "Deutsch-Jozsa algorithm",
+          "source": "nLab",
+          "url": "https://ncatlab.org/nlab/show/Deutsch-Jozsa+algorithm"
+        }
+      ],
+      "mapping_status": "unreviewed",
+      "record_key": "mathgloss:b8f659605486f80f2816515f525af2c395c711fa:data/database.csv:record:00000030",
+      "source_locator": {
+        "commit": "b8f659605486f80f2816515f525af2c395c711fa",
+        "csv_path": "data/database.csv",
+        "logical_data_record": 30,
+        "physical_lines": {
+          "end": 31,
+          "start": 31
+        },
+        "project": "MathGloss",
+        "repository": "https://github.com/MathGloss/MathGloss"
+      }
+    },
+    {
+      "asserted_by": "MathGloss",
+      "identity_candidate": {
+        "id": "wikidata:Q163310",
+        "qid": "Q163310",
+        "status": "unreviewed",
+        "uri": "https://www.wikidata.org/entity/Q163310"
+      },
+      "label_as_recorded": "Turing machine",
+      "links": [
+        {
+          "name_as_recorded": "Turing machine",
+          "source": "Mathlib",
+          "url": "https://leanprover-community.github.io/mathlib4_docs/Mathlib/Computability/PostTuringMachine.html#Turing.TM0.Machine"
+        },
+        {
+          "name_as_recorded": "Turing machine",
+          "source": "nLab",
+          "url": "https://ncatlab.org/nlab/show/Turing+machine"
+        },
+        {
+          "name_as_recorded": "deterministic Turing machine",
+          "source": "PlanetMath",
+          "url": "http://planetmath.org/deterministicturingmachine"
+        }
+      ],
+      "mapping_status": "unreviewed",
+      "record_key": "mathgloss:b8f659605486f80f2816515f525af2c395c711fa:data/database.csv:record:00001110",
+      "source_locator": {
+        "commit": "b8f659605486f80f2816515f525af2c395c711fa",
+        "csv_path": "data/database.csv",
+        "logical_data_record": 1110,
+        "physical_lines": {
+          "end": 1111,
+          "start": 1111
+        },
+        "project": "MathGloss",
+        "repository": "https://github.com/MathGloss/MathGloss"
+      }
+    },
+    {
+      "asserted_by": "MathGloss",
+      "identity_candidate": {
+        "id": "wikidata:Q341835",
+        "qid": "Q341835",
+        "status": "unreviewed",
+        "uri": "https://www.wikidata.org/entity/Q341835"
+      },
+      "label_as_recorded": "Ackermann function",
+      "links": [
+        {
+          "name_as_recorded": "Ackermann function",
+          "source": "Mathlib",
+          "url": "https://leanprover-community.github.io/mathlib4_docs/Mathlib/Computability/Ackermann.html#ack"
+        },
+        {
+          "name_as_recorded": "Ackermann function",
+          "source": "PlanetMath",
+          "url": "http://planetmath.org/ackermannfunction"
+        }
+      ],
+      "mapping_status": "unreviewed",
+      "record_key": "mathgloss:b8f659605486f80f2816515f525af2c395c711fa:data/database.csv:record:00002526",
+      "source_locator": {
+        "commit": "b8f659605486f80f2816515f525af2c395c711fa",
+        "csv_path": "data/database.csv",
+        "logical_data_record": 2526,
+        "physical_lines": {
+          "end": 2527,
+          "start": 2527
+        },
+        "project": "MathGloss",
+        "repository": "https://github.com/MathGloss/MathGloss"
+      }
+    },
+    {
+      "asserted_by": "MathGloss",
+      "identity_candidate": {
+        "id": "wikidata:Q176623",
+        "qid": "Q176623",
+        "status": "unreviewed",
+        "uri": "https://www.wikidata.org/entity/Q176623"
+      },
+      "label_as_recorded": "random variable",
+      "links": [
+        {
+          "name_as_recorded": "random variable",
+          "source": "nLab",
+          "url": "https://ncatlab.org/nlab/show/random+variable"
+        },
+        {
+          "name_as_recorded": "Weibull random variable",
+          "source": "PlanetMath",
+          "url": "http://planetmath.org/weibullrandomvariable"
+        }
+      ],
+      "mapping_status": "unreviewed",
+      "record_key": "mathgloss:b8f659605486f80f2816515f525af2c395c711fa:data/database.csv:record:00001379",
+      "source_locator": {
+        "commit": "b8f659605486f80f2816515f525af2c395c711fa",
+        "csv_path": "data/database.csv",
+        "logical_data_record": 1379,
+        "physical_lines": {
+          "end": 1380,
+          "start": 1380
+        },
+        "project": "MathGloss",
+        "repository": "https://github.com/MathGloss/MathGloss"
+      }
+    },
+    {
+      "asserted_by": "MathGloss",
+      "identity_candidate": {
+        "id": "wikidata:Q327069",
+        "qid": "Q327069",
+        "status": "unreviewed",
+        "uri": "https://www.wikidata.org/entity/Q327069"
+      },
+      "label_as_recorded": "conditional probability",
+      "links": [
+        {
+          "name_as_recorded": "conditional probability",
+          "source": "Mathlib",
+          "url": "https://leanprover-community.github.io/mathlib4_docs/Mathlib/Probability/ConditionalProbability.html#ProbabilityTheory.cond"
+        },
+        {
+          "name_as_recorded": "regular conditional probability",
+          "source": "PlanetMath",
+          "url": "http://planetmath.org/regularconditionalprobability"
+        }
+      ],
+      "mapping_status": "unreviewed",
+      "record_key": "mathgloss:b8f659605486f80f2816515f525af2c395c711fa:data/database.csv:record:00002463",
+      "source_locator": {
+        "commit": "b8f659605486f80f2816515f525af2c395c711fa",
+        "csv_path": "data/database.csv",
+        "logical_data_record": 2463,
+        "physical_lines": {
+          "end": 2464,
+          "start": 2464
+        },
+        "project": "MathGloss",
+        "repository": "https://github.com/MathGloss/MathGloss"
+      }
+    }
+  ],
+  "schema_version": "mathgloss-corrected-ten-record-subset-v1",
+  "selection": {
+    "method": "fixed_qid_list_from_prior_representative_sample",
+    "qids_in_output_order": [
+      "Q181296",
+      "Q178546",
+      "Q230655",
+      "Q1006032",
+      "Q1028292",
+      "Q1028209",
+      "Q163310",
+      "Q341835",
+      "Q176623",
+      "Q327069"
+    ],
+    "record_count": 10
+  },
+  "source": {
+    "bytes": 674640,
+    "commit": "b8f659605486f80f2816515f525af2c395c711fa",
+    "csv_path": "data/database.csv",
+    "header": [
+      "Wikidata ID",
+      "Wikidata Label",
+      "BCT Name",
+      "BCT Link",
+      "Chicago Name",
+      "Chicago Link",
+      "Clowder Name",
+      "Clowder Link",
+      "Context Name",
+      "Context Link",
+      "Mathlib Name",
+      "Mathlib Link",
+      "nLab Name",
+      "nLab Link",
+      "PlanetMath Name",
+      "PlanetMath Link"
+    ],
+    "project": "MathGloss",
+    "repository": "https://github.com/MathGloss/MathGloss",
+    "sha256": "933a72820fe7ede53a803b750a480def205677e5722ae5f9589b0d1d9bf832b2"
+  }
+}

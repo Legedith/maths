@@ -1,0 +1,16 @@
+﻿{
+    "name":  "assumption-exact-output-delta-pytest",
+    "command_argv":  [
+                         "uv",
+                         "run",
+                         "--frozen",
+                         "pytest"
+                     ],
+    "command_display":  "uv run --frozen pytest",
+    "working_directory":  "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "started_at":  "2026-09-08T08:35:13.8907859+05:30",
+    "ended_at":  "2026-09-08T08:35:16.9173465+05:30",
+    "runtime_seconds":  3.0239146,
+    "exit_code":  0,
+    "console_log":  "logs/assumption-exact-output-delta-pytest.console.log"
+}

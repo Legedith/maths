@@ -1,0 +1,1192 @@
+{
+  "all_checks_pass": true,
+  "auditor": "/root/sol_atlas_audit",
+  "checks": {
+    "all_listed_hashes_match": true,
+    "all_listed_sizes_match": true,
+    "all_listed_sources_exist": true,
+    "copy_count_matches": true,
+    "copy_destinations_are_unique": true,
+    "copy_total_bytes_matches": true,
+    "source_url_locator_count_matches": true
+  },
+  "copy_record_count": 118,
+  "file_checks": [
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\patch-v1.0.2-manifest-verification.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\structured-heldout-delta-v1.0.2-run.jsonl"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\structured-heldout-delta-v1.0.2-run-summary.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\structured-heldout-delta-v1.0.2-run-console.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\structured-heldout-delta-v1.0.2-comparison-summary.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\SEALED\\structured-heldout-delta-v1.0.2-comparison.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\public-boundary-v1.0.2-attempt01.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\v1.0.2-exact-output-attempt02\\large-output-v1.0.2-api-result.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\v1.0.2-exact-output-attempt02\\large-output-v1.0.2-cli.stderr.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\v1.0.2-exact-output-attempt02\\large-output-v1.0.2-cli.stdout.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\v1.0.2-exact-output-attempt02\\large-output-v1.0.2-independent-verification.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\v1.0.2-exact-output-attempt02\\large-output-v1.0.2-input.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\public-portable-reproduction-v1.0.2-attempt02\\comparison-console.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\public-portable-reproduction-v1.0.2-attempt02\\comparison-detail.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\public-portable-reproduction-v1.0.2-attempt02\\comparison-summary.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\public-portable-reproduction-v1.0.2-attempt02\\run-console.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\public-portable-reproduction-v1.0.2-attempt02\\run-summary.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\public-portable-reproduction-v1.0.2-attempt02\\run.jsonl"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\SEALED\\structured-transfer-heldout-v1.aes256gcm"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\structured-heldout-first-run.jsonl"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\structured-heldout-first-run-summary.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\structured-heldout-first-run-console.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\structured-heldout-first-run-comparison-summary.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\SEALED\\structured-heldout-first-run-comparison.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\structured-heldout-first-run-comparison-summary-attempt02.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\SEALED\\structured-heldout-first-run-comparison-attempt02.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\structured-heldout-delta-v1.0.1-run.jsonl"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\structured-heldout-delta-v1.0.1-run-summary.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\structured-heldout-delta-v1.0.1-run-console.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\structured-heldout-delta-v1.0.1-comparison-summary.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\SEALED\\structured-heldout-delta-v1.0.1-comparison.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\patch-v1.0.1-manifest-verification.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\public-boundary-defects-attempt01.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\public-boundary-v1.0.1-attempt01.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\large-output-v1.0.1-retained-source-independent-reproduction.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\large-output-preliminary-invalid-code-race.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\teaching-examples-v1.0.1-verification.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\v1.0.2-exact-output-attempt01\\large-output-v1.0.2-api-result.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\v1.0.2-exact-output-attempt01\\large-output-v1.0.2-cli.stderr.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\v1.0.2-exact-output-attempt01\\large-output-v1.0.2-cli.stdout.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\v1.0.2-exact-output-attempt01\\large-output-v1.0.2-independent-verification.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\v1.0.2-exact-output-attempt01\\large-output-v1.0.2-input.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\chandra-commute.pdf"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\chandra-commute.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\chung-cbms.pdf"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\chung-cbms.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\levin-peres-wilmer-mcmt2e.pdf"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\levin-peres-wilmer-mcmt2e.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\masuda-random-walk-review.pdf"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\masuda-random-walk-review.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\0802.2576v2.pdf"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\0802.2576v2.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\1202.5569v1.pdf"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\1202.5569v1.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\1203.4045v1.pdf"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\1203.4045v1.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\1206.0937v3.pdf"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\1206.0937v3.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\1206.4162v1.pdf"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\1206.4162v1.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\1506.03343v1.pdf"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\1506.03343v1.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\1612.07898v1.pdf"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\1612.07898v1.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\1803.09144v1.pdf"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\1803.09144v1.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\1902.01110v2.pdf"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\1902.01110v2.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\1904.07766v1.pdf"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\1904.07766v1.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\2009.04139v1.pdf"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\2009.04139v1.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\2010.01530v1.pdf"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\2010.01530v1.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\2101.07103v2.pdf"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\2101.07103v2.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\2104.06052v3.pdf"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\2104.06052v3.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\2109.01324v2.pdf"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\2109.01324v2.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\2109.13394v2.pdf"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\2109.13394v2.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\2210.07869v7.pdf"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\2210.07869v7.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\2302.07170v2.pdf"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\2302.07170v2.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\2405.09102v1.pdf"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\2405.09102v1.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\2410.16830v3.pdf"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\2410.16830v3.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\2410.16836v3.pdf"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\2410.16836v3.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\2502.19720v2.pdf"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\2502.19720v2.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\2508.21506v1.pdf"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\2508.21506v1.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\2510.14165v1.pdf"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\reviewer-b\\2510.14165v1.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\spielman-random-walks.pdf"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\spielman-random-walks.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\spielman-resistance.pdf"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\spielman-resistance.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\spielman-trees.pdf"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sources\\spielman-trees.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\docs\\assumption-check-contract.md"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\docs\\assumption-check-interface.md"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\docs\\assumption-check-clarifications.md"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\docs\\assumption-check-clarification-2.md"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\fixtures\\retrieval-study-v1.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\assumption-checks\\worker\\code-freeze-manifest.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\assumption-checks\\worker\\freeze-hash-check.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\assumption-checks\\worker\\root-api-edge-inputs-attempt-01.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\assumption-checks\\worker\\root-api-edge-inputs-attempt-02.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\assumption-checks\\worker\\root-cli-decoding-attempt-01.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\assumption-checks\\worker\\root-large-output-attempt-01.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\assumption-checks\\worker\\root-large-output-attempt-02.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\assumption-checks\\worker\\root-patch-freeze-v1.0.1.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\assumption-checks\\worker\\root-patch-freeze-v1.0.2.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\assumption-checks\\worker\\version-1.0.1-source\\retention-manifest.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\publication\\heldout-v1\\cases.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\publication\\heldout-v1\\compare_public_suite.py"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\publication\\heldout-v1\\oracle.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\publication\\heldout-v1\\README.md"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\publication\\heldout-v1\\release-manifest.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\publication\\heldout-v1\\run_public_suite.py"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\publication\\heldout-v1\\seed.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\publication\\heldout-v1\\suite.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\final-audit.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\final-audit.md"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\contract-audit.md"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\evaluation-plan.md"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\evaluator-schema-public.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\sealed-suite-manifest.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\source-locators.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\publication\\source-matrix.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\COMPLETED"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q01-request.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q01-response.bin"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q01-transport.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q02-request.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q02-response.bin"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q02-transport.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q03-request.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q03-response.bin"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q03-transport.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q04-request.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q04-response.bin"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q04-transport.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q05-request.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q05-response.bin"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q05-transport.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q06-request.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q06-response.bin"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q06-transport.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q07-request.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q07-response.bin"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q07-transport.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q08-request.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q08-response.bin"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q08-transport.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q09-request.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q09-response.bin"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q09-transport.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q10-request.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q10-response.bin"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q10-transport.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q11-request.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q11-response.bin"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q11-transport.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q12-request.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q12-response.bin"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\Q12-transport.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\retrieval-manifest.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\retrieval-study-v1.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\raw-retrieval-attempt-01\\STARTED"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\retrieval-round2\\annotations.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\retrieval-round2\\fixtures\\R2-T17464638-even-cycle-period.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\retrieval-round2\\fixtures\\R2-T17464638-odd-cycle-period.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\retrieval-round2\\fixtures\\R2-T18134454-weighted-edge-inclusion.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\retrieval-round2\\fixtures\\R2-T18276974-disconnected-normalized-nonzero-product.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\retrieval-round2\\fixtures\\R2-T19685900-connected-normalized-tree-formula.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\retrieval-round2\\fixtures\\R2-T22467127-cycle-edge-inclusion.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\retrieval-round2\\fixtures\\R2-T23150070-disconnected-nonzero-product.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\retrieval-round2\\fixtures\\R2-T24585048-unit-edge-inclusion.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\retrieval-round2\\fixtures\\R2-T26329144-connected-weighted-commute.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\retrieval-round2\\run_retrieval_round2.py"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\retrieval-round2-v1.0.2\\retrieval-round2-console.txt"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\retrieval-round2-v1.0.2\\retrieval-round2-run.jsonl"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\retrieval-round2-v1.0.2\\retrieval-round2-summary.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\SEALED-reviewer-A-round1.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\SEALED\\reviewer-b.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\retrieval-review-adjudication.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\retrieval-review-adjudication.md"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\retrieval-review-adjudication-corrections.json"
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "sha256_match": true,
+      "source_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\raw\\retrieval-evidence-structure-validation-attempt02.json"
+    }
+  ],
+  "listed_record_count": 195,
+  "manifest_bytes": 100398,
+  "manifest_path": "D:\\CodexWorkspaces\\mathematics-atlas\\assumption-audit-work\\publication\\publication-manifest.json",
+  "manifest_sha256": "7813363c6b66cd4e0232fc7122cd9e84de7f2e3f1ccfe83e6136df81b6da9d53",
+  "schema_version": "1.0",
+  "verified_at": "2026-09-08T04:06:22.083721Z"
+}

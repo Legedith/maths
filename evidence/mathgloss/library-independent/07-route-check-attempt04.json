@@ -1,0 +1,30 @@
+{
+  "argv": [
+    "node",
+    "--experimental-strip-types",
+    "--experimental-loader",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work\\library-alias-loader.mjs",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work\\check_library_route.mjs"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work",
+  "duration_seconds": 0.08764909999445081,
+  "ended_at_utc": "2026-09-08T04:11:08.823826+00:00",
+  "exit_code": 1,
+  "schema_version": "command-evidence-v1",
+  "started_at_utc": "2026-09-08T04:11:08.736167+00:00",
+  "stderr": {
+    "base64": "DQpub2RlOmludGVybmFsL21vZHVsZXMvcnVuX21haW46MTA3DQogICAgdHJpZ2dlclVuY2F1Z2h0RXhjZXB0aW9uKA0KICAgIF4NCkVycm9yIFtFUlJfVU5TVVBQT1JURURfRVNNX1VSTF9TQ0hFTUVdOiBPbmx5IFVSTHMgd2l0aCBhIHNjaGVtZSBpbjogZmlsZSwgZGF0YSwgYW5kIG5vZGUgYXJlIHN1cHBvcnRlZCBieSB0aGUgZGVmYXVsdCBFU00gbG9hZGVyLiBPbiBXaW5kb3dzLCBhYnNvbHV0ZSBwYXRocyBtdXN0IGJlIHZhbGlkIGZpbGU6Ly8gVVJMcy4gUmVjZWl2ZWQgcHJvdG9jb2wgJ2Q6Jw0KICAgIGF0IHRocm93SWZVbnN1cHBvcnRlZFVSTFNjaGVtZSAobm9kZTppbnRlcm5hbC9tb2R1bGVzL2VzbS9sb2FkOjE5NToxMSkNCiAgICBhdCBkZWZhdWx0TG9hZCAobm9kZTppbnRlcm5hbC9tb2R1bGVzL2VzbS9sb2FkOjc4OjMpDQogICAgYXQgbmV4dExvYWQgKG5vZGU6aW50ZXJuYWwvbW9kdWxlcy9lc20vaG9va3M6Nzg1OjI4KQ0KICAgIGF0IEFzeW5jTG9hZGVySG9va3NPbkxvYWRlckhvb2tXb3JrZXIubG9hZCAobm9kZTppbnRlcm5hbC9tb2R1bGVzL2VzbS9ob29rczo0MTA6MjYpDQogICAgYXQgTW9kdWxlTG9hZGVyLmxvYWQgKG5vZGU6aW50ZXJuYWwvbW9kdWxlcy9lc20vbG9hZGVyOjc3ODozNykNCiAgICBhdCBNb2R1bGVMb2FkZXIubG9hZEFuZFRyYW5zbGF0ZSAobm9kZTppbnRlcm5hbC9tb2R1bGVzL2VzbS9sb2FkZXI6NTI2OjMxKQ0KICAgIGF0ICNnZXRPckNyZWF0ZU1vZHVsZUpvYkFmdGVyUmVzb2x2ZSAobm9kZTppbnRlcm5hbC9tb2R1bGVzL2VzbS9sb2FkZXI6NTcxOjM2KQ0KICAgIGF0IGFmdGVyUmVzb2x2ZSAobm9kZTppbnRlcm5hbC9tb2R1bGVzL2VzbS9sb2FkZXI6NjI0OjUyKQ0KICAgIGF0IHByb2Nlc3MucHJvY2Vzc1RpY2tzQW5kUmVqZWN0aW9ucyAobm9kZTppbnRlcm5hbC9wcm9jZXNzL3Rhc2tfcXVldWVzOjEwMzo1KQ0KICAgIGF0IGFzeW5jIG9uSW1wb3J0LnRyYWNlUHJvbWlzZS5fX3Byb3RvX18gKG5vZGU6aW50ZXJuYWwvbW9kdWxlcy9lc20vbG9hZGVyOjY0OToyMSkgew0KICBjb2RlOiAnRVJSX1VOU1VQUE9SVEVEX0VTTV9VUkxfU0NIRU1FJw0KfQ0KDQpOb2RlLmpzIHYyNC4xMi4wDQo=",
+    "bytes": 1100,
+    "sha256": "85a97d2a45726a10228c02db7614715c3cc6ed2e85ca536860a546e19af0ed18",
+    "utf8_text": "\r\nnode:internal/modules/run_main:107\r\n    triggerUncaughtException(\r\n    ^\r\nError [ERR_UNSUPPORTED_ESM_URL_SCHEME]: Only URLs with a scheme in: file, data, and node are supported by the default ESM loader. On Windows, absolute paths must be valid file:// URLs. Received protocol 'd:'\r\n    at throwIfUnsupportedURLScheme (node:internal/modules/esm/load:195:11)\r\n    at defaultLoad (node:internal/modules/esm/load:78:3)\r\n    at nextLoad (node:internal/modules/esm/hooks:785:28)\r\n    at AsyncLoaderHooksOnLoaderHookWorker.load (node:internal/modules/esm/hooks:410:26)\r\n    at ModuleLoader.load (node:internal/modules/esm/loader:778:37)\r\n    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:526:31)\r\n    at #getOrCreateModuleJobAfterResolve (node:internal/modules/esm/loader:571:36)\r\n    at afterResolve (node:internal/modules/esm/loader:624:52)\r\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\r\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:649:21) {\r\n  code: 'ERR_UNSUPPORTED_ESM_URL_SCHEME'\r\n}\r\n\r\nNode.js v24.12.0\r\n",
+    "valid_utf8": true
+  },
+  "stdout": {
+    "base64": "",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "utf8_text": "",
+    "valid_utf8": true
+  },
+  "windows_command_line": "node --experimental-strip-types --experimental-loader D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work\\library-alias-loader.mjs D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work\\check_library_route.mjs"
+}

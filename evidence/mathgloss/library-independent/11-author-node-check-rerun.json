@@ -1,0 +1,28 @@
+{
+  "argv": [
+    "node",
+    "--experimental-strip-types",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\scripts\\check-concept-library.ts"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+  "duration_seconds": 2.914646699995501,
+  "ended_at_utc": "2026-09-08T04:15:09.764029+00:00",
+  "exit_code": 0,
+  "schema_version": "command-evidence-v1",
+  "started_at_utc": "2026-09-08T04:15:06.849373+00:00",
+  "stderr": {
+    "base64": "",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "utf8_text": "",
+    "valid_utf8": true
+  },
+  "stdout": {
+    "base64": "ewogICJzdGF0dXMiOiAicGFzcyIsCiAgImNhdGFsb2dfcmVjb3JkcyI6IDQ4MTQsCiAgInJldGFpbmVkX2xpbmtzIjogNzIxNywKICAiZnVsbF9wYWdpbmF0aW9uX3JlY29yZHMiOiA0ODE0LAogICJwYWdlcyI6IDI0MSwKICAicmVzb3VyY2VzIjogWwogICAgIkJDVCIsCiAgICAiQ2hpY2FnbyIsCiAgICAiQ2xvd2RlciIsCiAgICAiQ29udGV4dCIsCiAgICAiTWF0aGxpYiIsCiAgICAiUGxhbmV0TWF0aCIsCiAgICAibkxhYiIKICBdLAogICJzb3VyY2VfaGFzaF92ZXJpZmllZCI6IHRydWUsCiAgInNjb3BlIjogIkludGVncmF0aW9uIGFuZCBsZXhpY2FsIG5hdmlnYXRpb24gY2hlY2tzOyBubyBzZW1hbnRpYyBpZGVudGl0eSBvciBtYXRoZW1hdGljYWwgbm92ZWx0eSBjbGFpbS4iCn0K",
+    "bytes": 390,
+    "sha256": "564dd965d4e9387b9c09513d2ba146c1bdbd5ae02d4a114d004b3e7fb2d3c5c2",
+    "utf8_text": "{\n  \"status\": \"pass\",\n  \"catalog_records\": 4814,\n  \"retained_links\": 7217,\n  \"full_pagination_records\": 4814,\n  \"pages\": 241,\n  \"resources\": [\n    \"BCT\",\n    \"Chicago\",\n    \"Clowder\",\n    \"Context\",\n    \"Mathlib\",\n    \"PlanetMath\",\n    \"nLab\"\n  ],\n  \"source_hash_verified\": true,\n  \"scope\": \"Integration and lexical navigation checks; no semantic identity or mathematical novelty claim.\"\n}\n",
+    "valid_utf8": true
+  },
+  "windows_command_line": "node --experimental-strip-types D:\\CodexWorkspaces\\mathematics-atlas\\project\\scripts\\check-concept-library.ts"
+}

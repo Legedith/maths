@@ -1,0 +1,157 @@
+{
+  "schema_version": "concept-library-independent-route-check-v1",
+  "status": "pass",
+  "freeze_sha256": "68bd8c6f8ff2dfaa1c1b26b1d4c030025ae1a6d84004767c8b537939f09ef316",
+  "route_sha256": "07267a6a061ce776a66db568f7986558537551372fddaa87cab8a976e5fbdb9b",
+  "frozen_files_checked_before_and_after": 24,
+  "state_mutation_detected": false,
+  "exported_handlers": [
+    "GET"
+  ],
+  "valid_cases": [
+    {
+      "id": "default",
+      "status": 200,
+      "bytes": 15744,
+      "total": 4814,
+      "count": 20
+    },
+    {
+      "id": "unicode-qid",
+      "status": 200,
+      "bytes": 949,
+      "total": 1,
+      "count": 1
+    },
+    {
+      "id": "mathlib-page-2",
+      "status": 200,
+      "bytes": 20516,
+      "total": 308,
+      "count": 20
+    },
+    {
+      "id": "miss",
+      "status": 200,
+      "bytes": 224,
+      "total": 0,
+      "count": 0
+    },
+    {
+      "id": "beyond-last",
+      "status": 200,
+      "bytes": 215,
+      "total": 1,
+      "count": 0
+    }
+  ],
+  "invalid_cases": [
+    {
+      "id": "unsupported-field",
+      "status": 400,
+      "bytes": 51,
+      "error": "Use one query, resource and page value."
+    },
+    {
+      "id": "duplicate-q",
+      "status": 400,
+      "bytes": 51,
+      "error": "Use one query, resource and page value."
+    },
+    {
+      "id": "duplicate-resource",
+      "status": 400,
+      "bytes": 51,
+      "error": "Use one query, resource and page value."
+    },
+    {
+      "id": "duplicate-page",
+      "status": 400,
+      "bytes": 51,
+      "error": "Use one query, resource and page value."
+    },
+    {
+      "id": "page-zero",
+      "status": 400,
+      "bytes": 44,
+      "error": "Page must be a positive integer."
+    },
+    {
+      "id": "page-negative",
+      "status": 400,
+      "bytes": 44,
+      "error": "Page must be a positive integer."
+    },
+    {
+      "id": "page-fraction",
+      "status": 400,
+      "bytes": 44,
+      "error": "Page must be a positive integer."
+    },
+    {
+      "id": "page-nonnumeric",
+      "status": 400,
+      "bytes": 44,
+      "error": "Page must be a positive integer."
+    },
+    {
+      "id": "page-leading-zero",
+      "status": 400,
+      "bytes": 44,
+      "error": "Page must be a positive integer."
+    },
+    {
+      "id": "page-eight-digits",
+      "status": 400,
+      "bytes": 44,
+      "error": "Page must be a positive integer."
+    },
+    {
+      "id": "page-over-validator-max",
+      "status": 400,
+      "bytes": 85,
+      "error": "Use a query of at most 500 characters and an available resource and page."
+    },
+    {
+      "id": "unknown-resource",
+      "status": 400,
+      "bytes": 85,
+      "error": "Use a query of at most 500 characters and an available resource and page."
+    },
+    {
+      "id": "empty-resource",
+      "status": 400,
+      "bytes": 85,
+      "error": "Use a query of at most 500 characters and an available resource and page."
+    },
+    {
+      "id": "oversized-resource",
+      "status": 400,
+      "bytes": 85,
+      "error": "Use a query of at most 500 characters and an available resource and page."
+    },
+    {
+      "id": "oversized-query",
+      "status": 400,
+      "bytes": 85,
+      "error": "Use a query of at most 500 characters and an available resource and page."
+    }
+  ],
+  "deterministic_repeat": {
+    "query": "abelian group",
+    "resource": "Chicago",
+    "total": 2,
+    "byte_identical": true
+  },
+  "cache_control": "no-store",
+  "response_boundary": {
+    "maximum_observed_error_bytes": 85,
+    "arbitrary_input_echoed": false,
+    "filesystem_or_stack_disclosed": false
+  },
+  "privacy_and_read_only_notes": [
+    "The route exports only GET, performs no fetch or filesystem mutation, and all 24 frozen files stayed byte-identical.",
+    "No-store prevents response caching, and the static route code sends no query to MathGloss or another provider.",
+    "Because the API uses GET, user query text is present in the same-origin request URL and may be observable to ordinary same-origin access logging; no stronger secrecy claim is made."
+  ]
+}

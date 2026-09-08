@@ -1,0 +1,98 @@
+(node:13664) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("file%3A///D%3A/CodexWorkspaces/mathematics-atlas/retrieval-study-work/ui-audit/alias-loader.mjs", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+{
+  "passed": true,
+  "subject": {
+    "route": {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/project/app/api/research-search/route.ts",
+      "sha256": "ef5a48c2ad9f0ac3a4339c049fc0a6bd80b0882f0885bdf71354dd5e17f85e60"
+    },
+    "adapter": {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/project/lib/research-search.ts",
+      "sha256": "09007c456bde23593458d356d6058ef9b688305091b731e27655188a3fac65fb"
+    }
+  },
+  "runtime": "v24.12.0",
+  "checks": [
+    {
+      "name": "query-missing",
+      "status": 400,
+      "passed": true
+    },
+    {
+      "name": "query-whitespace",
+      "status": 400,
+      "passed": true
+    },
+    {
+      "name": "query-over-500",
+      "status": 400,
+      "passed": true
+    },
+    {
+      "name": "valid-request-and-field-separation",
+      "status": 200,
+      "cacheControl": "public, max-age=300",
+      "normalizedFields": [
+        "generatedSummary",
+        "name",
+        "paper",
+        "sloganId",
+        "sourceUrl",
+        "statement",
+        "theoremId",
+        "theoremType"
+      ],
+      "passed": true
+    },
+    {
+      "name": "upstream-503",
+      "status": 502,
+      "passed": true
+    },
+    {
+      "name": "upstream-redirect",
+      "status": 502,
+      "passed": true
+    },
+    {
+      "name": "missing-body",
+      "status": 502,
+      "passed": true
+    },
+    {
+      "name": "invalid-json",
+      "status": 502,
+      "returnedError": "Expected property name or '}' in JSON at position 1 (line 1 column 2)",
+      "passed": true
+    },
+    {
+      "name": "malformed-provider-shape",
+      "status": 502,
+      "passed": true
+    },
+    {
+      "name": "body-exactly-512000-bytes",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "name": "body-512001-bytes",
+      "status": 502,
+      "passed": true
+    },
+    {
+      "name": "timeout",
+      "status": 502,
+      "passed": true
+    },
+    {
+      "name": "network-error-message-forwarding",
+      "status": 502,
+      "returnedError": "fetch failed: audit-internal-detail",
+      "passed": true
+    }
+  ],
+  "scope": "Actual route module with mocked upstream transport; verifies HTTP, byte, timeout, request, field-separation, and error-message boundaries without contacting the provider."
+}

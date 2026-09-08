@@ -1,0 +1,7 @@
+﻿{
+  "scope": "Public post-freeze output-size probe; 281 AST nodes, depth below 20, admitted 12-digit weights. The exact positive product is (999999999999)^700.",
+  "escaped_exception": true,
+  "exception_type": "ValueError",
+  "message": "Exceeds the limit (4300 digits) for integer string conversion; use sys.set_int_max_str_digits() to increase the limit"
+}
+

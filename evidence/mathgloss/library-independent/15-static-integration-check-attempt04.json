@@ -1,0 +1,33 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--isolated",
+    "--no-project",
+    "--python",
+    "3.13",
+    "python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work\\check_library_static.py"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work",
+  "duration_seconds": 0.3975739000015892,
+  "ended_at_utc": "2026-09-08T04:19:58.789110+00:00",
+  "exit_code": 1,
+  "schema_version": "command-evidence-v1",
+  "started_at_utc": "2026-09-08T04:19:58.391528+00:00",
+  "stderr": {
+    "base64": "V0FSTiBgLS1uby1wcm9qZWN0YCB3YXMgcHJvdmlkZWQsIGJ1dCBubyBwcm9qZWN0IHdhcyBmb3VuZApUcmFjZWJhY2sgKG1vc3QgcmVjZW50IGNhbGwgbGFzdCk6DQogIEZpbGUgIkQ6XENvZGV4V29ya3NwYWNlc1xtYXRoZW1hdGljcy1hdGxhc1xsaWJyYXJ5LWF1ZGl0LXdvcmtcY2hlY2tfbGlicmFyeV9zdGF0aWMucHkiLCBsaW5lIDEzNiwgaW4gPG1vZHVsZT4NCiAgICBhc3NlcnQgcGhyYXNlIGluIGRvY3NfZmxhdCwgcGhyYXNlDQogICAgICAgICAgIF5eXl5eXl5eXl5eXl5eXl5eXl4NCkFzc2VydGlvbkVycm9yOiBkb2VzIG5vdCBwcm92ZSBpZGVudGl0eQ0K",
+    "bytes": 321,
+    "sha256": "f90366eab6ca9243b2760b8e0ae264e8160d85240888ce788eeb96f6dc487f3c",
+    "utf8_text": "WARN `--no-project` was provided, but no project was found\nTraceback (most recent call last):\r\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work\\check_library_static.py\", line 136, in <module>\r\n    assert phrase in docs_flat, phrase\r\n           ^^^^^^^^^^^^^^^^^^^\r\nAssertionError: does not prove identity\r\n",
+    "valid_utf8": true
+  },
+  "stdout": {
+    "base64": "",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "utf8_text": "",
+    "valid_utf8": true
+  },
+  "windows_command_line": "uv run --isolated --no-project --python 3.13 python D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work\\check_library_static.py"
+}

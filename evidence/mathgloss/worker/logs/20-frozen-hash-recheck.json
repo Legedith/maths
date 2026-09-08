@@ -1,0 +1,31 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--locked",
+    "python",
+    "-c",
+    "import hashlib,json,pathlib; w=pathlib.Path('../..').resolve(); f=pathlib.Path('../outputs/frozen'); mi=json.loads((f/'implementation-manifest.json').read_text(encoding='utf-8')); ms=json.loads((f/'source-manifest.json').read_text(encoding='utf-8')); mo=json.loads((f/'output-manifest.json').read_text(encoding='utf-8')); recs=mi['files']+[ms['contract'],ms['pinned_csv'],ms['pinned_repository_license']]+[x for run in mo['runs'].values() for x in run.values()]+[mo['corrected_subset']['artifact'],mo['corrected_subset']['codepoint_fidelity']]; bad=[x['path'] for x in recs if len((w/x['path']).read_bytes())!=x['bytes'] or hashlib.sha256((w/x['path']).read_bytes()).hexdigest()!=x['sha256']]; own={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(f.glob('*.json'))}; print(json.dumps({'records_checked':len(recs),'mismatches':bad,'manifest_sha256':own},sort_keys=True)); raise SystemExit(bool(bad))"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\backbone-import-work\\implementation",
+  "duration_seconds": 0.18429450000985526,
+  "ended_at_utc": "2026-09-08T03:29:37.965637+00:00",
+  "exit_code": 0,
+  "schema_version": "command-evidence-v1",
+  "started_at_utc": "2026-09-08T03:29:37.781334+00:00",
+  "stderr": {
+    "base64": "",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "utf8_text": "",
+    "valid_utf8": true
+  },
+  "stdout": {
+    "base64": "eyJtYW5pZmVzdF9zaGEyNTYiOiB7ImltcGxlbWVudGF0aW9uLW1hbmlmZXN0Lmpzb24iOiAiZjVjM2Q0MDljZWQ0ZjVjYzc1NDgxYjBhZGI3YWExZTYxNjhmZDRmOTRkZmU0MmE1YTg2ZjczMWEzNzAwY2IwOCIsICJvdXRwdXQtbWFuaWZlc3QuanNvbiI6ICJmNzk4YWZhYTdjYjQ4OWFjODE1Y2ZmNDY3MjFlZDk4YjJkYjMzMDQxMTM2OGIyNDA4MmUxZmUyZmY5YzUyZTViIiwgInNvdXJjZS1tYW5pZmVzdC5qc29uIjogImYwNDE2YjI1ZjY3MTlkZTdmN2NjNmRlMGUyNTk3YTkxYzNkMmM0Y2IxZGRjY2MxN2M1NjNmNDdlMzdlYzRiZTUifSwgIm1pc21hdGNoZXMiOiBbXSwgInJlY29yZHNfY2hlY2tlZCI6IDI2fQ0K",
+    "bytes": 348,
+    "sha256": "c45abffb99597561f2fb9499a8788e1e323f87eb041b1bdfde96527992277edb",
+    "utf8_text": "{\"manifest_sha256\": {\"implementation-manifest.json\": \"f5c3d409ced4f5cc75481b0adb7aa1e6168fd4f94dfe42a5a86f731a3700cb08\", \"output-manifest.json\": \"f798afaa7cb489ac815cff46721ed98b2db330411368b24082e1fe2ff9c52e5b\", \"source-manifest.json\": \"f0416b25f6719de7f7cc6de0e2597a91c3d2c4cb1ddccc17c563f47e37ec4be5\"}, \"mismatches\": [], \"records_checked\": 26}\r\n",
+    "valid_utf8": true
+  },
+  "windows_command_line": "uv run --locked python -c \"import hashlib,json,pathlib; w=pathlib.Path('../..').resolve(); f=pathlib.Path('../outputs/frozen'); mi=json.loads((f/'implementation-manifest.json').read_text(encoding='utf-8')); ms=json.loads((f/'source-manifest.json').read_text(encoding='utf-8')); mo=json.loads((f/'output-manifest.json').read_text(encoding='utf-8')); recs=mi['files']+[ms['contract'],ms['pinned_csv'],ms['pinned_repository_license']]+[x for run in mo['runs'].values() for x in run.values()]+[mo['corrected_subset']['artifact'],mo['corrected_subset']['codepoint_fidelity']]; bad=[x['path'] for x in recs if len((w/x['path']).read_bytes())!=x['bytes'] or hashlib.sha256((w/x['path']).read_bytes()).hexdigest()!=x['sha256']]; own={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(f.glob('*.json'))}; print(json.dumps({'records_checked':len(recs),'mismatches':bad,'manifest_sha256':own},sort_keys=True)); raise SystemExit(bool(bad))\""
+}

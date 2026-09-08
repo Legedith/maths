@@ -1,0 +1,15 @@
+﻿{
+    "name":  "concept-library-navigation-format",
+    "command_argv":  [
+                         "./node_modules/.bin/oxfmt.cmd",
+                         "--write",
+                         "app/page.tsx"
+                     ],
+    "command_display":  "./node_modules/.bin/oxfmt.cmd --write app/page.tsx",
+    "working_directory":  "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "started_at":  "2026-09-08T09:18:38.0814799+05:30",
+    "ended_at":  "2026-09-08T09:18:38.3716221+05:30",
+    "runtime_seconds":  0.2874076,
+    "exit_code":  0,
+    "console_log":  "logs/concept-library-navigation-format.console.log"
+}

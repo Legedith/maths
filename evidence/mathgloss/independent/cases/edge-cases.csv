@@ -1,0 +1,14 @@
+Wikidata ID,Wikidata Label,BCT Name,BCT Link,Chicago Name,Chicago Link,Clowder Name,Clowder Link,Context Name,Context Link,Mathlib Name,Mathlib Link,nLab Name,nLab Link,PlanetMath Name,PlanetMath Link
+Q1,"alpha, beta","source,
+name",https://example.org/a,,,,,,,,,,,,
+
+Q0,invalid zero QID,,,,,,,,,,,,,,
+Q2,,,,,,,,,,,,,,,
+Q3,name only,orphan name,,,,,,,,,,,,,
+Q4,URL only,,https://example.org/orphan,,,,,,,,,,,,
+Q5,credentials,credential link,https://u:p@example.org/x,,,,,,,,,,,,
+Q6,unsafe scheme,script link,javascript:alert(1),,,,,,,,,,,,
+Q7,relative link,relative,/relative,,,,,,,,,,,,
+Q8,missing host,missing host,https:///path,,,,,,,,,,,,
+Q9,duplicate first,first,http://example.org/one,,,,,,,,,second link,https://example.net/two,,
+Q9,duplicate second,different,https://example.org/three,,,,,,,,,,,,

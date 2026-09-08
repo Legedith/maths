@@ -48,3 +48,5 @@ __pycache__/
 # Retain complete third-party papers locally; publish source metadata and audit notes.
 /evidence/symmetry/independent/primary-sources/
 /evidence/foundation/independent/pytest-temp/
+/evidence/research-search/independent/official-sources/*
+!/evidence/research-search/independent/official-sources/fetch-manifest.json

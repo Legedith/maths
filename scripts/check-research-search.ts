@@ -3,6 +3,7 @@ import { mkdirSync, writeFileSync } from 'node:fs';
 import {
   normalizeResearchSearch,
   researchPacket,
+  researchRequest,
   validateResearchQuery,
 } from '../lib/research-search.ts';
 assert.equal(
@@ -19,6 +20,8 @@ const raw = {
       name: 'A statement',
       body: 'exact extracted body',
       slogan: 'generated summary',
+      similarity: 0.8,
+      score: 0.7,
       paper: {
         paper_id: '1234.56789v1',
         title: 'Paper',
@@ -38,6 +41,43 @@ assert.equal(
   'unreviewed_retrieval_packet',
 );
 assert.deepEqual(researchPacket(result, result.hits[0]).result, result.hits[0]);
+const rankedRaw = {
+  theorems: [
+    raw.theorems[0],
+    { ...raw.theorems[0], theorem_id: 789, similarity: 0.4, score: -0.2 },
+  ],
+};
+const rankedResult = normalizeResearchSearch(rankedRaw, 'ranked query', 'now');
+const secondPacket = researchPacket(rankedResult, rankedResult.hits[1]);
+assert.equal(secondPacket.result.rank, 2);
+assert.equal(secondPacket.result.similarity, rankedRaw.theorems[1].similarity);
+assert.equal(secondPacket.result.score, rankedRaw.theorems[1].score);
+assert.deepEqual(secondPacket.request, {
+  method: 'POST',
+  endpoint: 'https://api.theoremsearch.com/search',
+  parameters: { query: 'ranked query', n_results: 8 },
+});
+assert.deepEqual(secondPacket.request, researchRequest('ranked query'));
+assert.equal(secondPacket.retained_result_count, 2);
+assert.equal(secondPacket.schema_version, '1.1');
+for (const invalidScore of [
+  null,
+  '0.9',
+  Number.NaN,
+  Number.POSITIVE_INFINITY,
+]) {
+  const hit = normalizeResearchSearch(
+    {
+      theorems: [
+        { ...raw.theorems[0], similarity: invalidScore, score: invalidScore },
+      ],
+    },
+    'q',
+    'now',
+  ).hits[0];
+  assert.equal(hit.similarity, null);
+  assert.equal(hit.score, null);
+}
 assert.equal(
   normalizeResearchSearch({ theorems: [] }, 'q', 'now').hits.length,
   0,
@@ -88,6 +128,7 @@ const report = {
     'query bounds',
     'summary/body separation',
     'source packet provenance',
+    'raw provider rank/score/similarity and exact request preservation',
     'unsafe-link rejection',
     'nullable metadata',
     'malformed response rejection',

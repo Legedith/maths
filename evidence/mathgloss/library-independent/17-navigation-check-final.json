@@ -1,0 +1,28 @@
+{
+  "argv": [
+    "node",
+    "--experimental-strip-types",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work\\check_library_integration.mjs"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work",
+  "duration_seconds": 15.784890399983851,
+  "ended_at_utc": "2026-09-08T04:21:32.621105+00:00",
+  "exit_code": 0,
+  "schema_version": "command-evidence-v1",
+  "started_at_utc": "2026-09-08T04:21:16.836205+00:00",
+  "stderr": {
+    "base64": "",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "utf8_text": "",
+    "valid_utf8": true
+  },
+  "stdout": {
+    "base64": "eyJzdGF0dXMiOiJwYXNzIiwib3V0cHV0IjoiRDovQ29kZXhXb3Jrc3BhY2VzL21hdGhlbWF0aWNzLWF0bGFzL2xpYnJhcnktYXVkaXQtd29yay9uYXZpZ2F0aW9uLWNoZWNrLmpzb24ifQo=",
+    "bytes": 107,
+    "sha256": "4c379ae652fb7cd35ac6cb6d7468593a4b6009c02a07d4f699fb4845fd68562a",
+    "utf8_text": "{\"status\":\"pass\",\"output\":\"D:/CodexWorkspaces/mathematics-atlas/library-audit-work/navigation-check.json\"}\n",
+    "valid_utf8": true
+  },
+  "windows_command_line": "node --experimental-strip-types D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work\\check_library_integration.mjs"
+}

@@ -4,6 +4,8 @@ An expanding, source-backed map of mathematics and its connections to other fiel
 
 The first region connects **graph Laplacians, electrical networks, random walks, spanning trees, spectral algorithms, image segmentation and chemical graph descriptors**. It contains 31 concepts, 40 directed relations, seven authoritative sources (four research papers and three first-party lecture notes), three learning journeys and five concrete contribution tasks. These are corpus counts, not measures of all mathematics. Economics, biology and most mathematical areas remain outside this first region.
 
+The broader **concept and resource library** reuses a pinned MathGloss export with 4,814 concept records and 7,217 resource links. Its source fidelity and navigation have [passed independent verification](docs/concept-library-verification.md); its proposed identities and resource mappings remain unreviewed. These records expand searchable vocabulary without being promoted to proved relationships in the curated map.
+
 ## What works
 
 - Search concepts and aliases; filter by field.
@@ -13,7 +15,9 @@ The first region connects **graph Laplacians, electrical networks, random walks,
 - Edit a graph with 2–6 vertices and compute exact resistance, directed hitting times, commute time and enumerated spanning-tree counts in your browser. Export the actual result.
 - Search the live Loogle Mathlib index by declaration-name substring, with returned formal statement types and documentation links. External results remain separate from reviewed Atlas entries.
 - Describe a mathematical problem and search the existing TheoremSearch index. Inspect generated summaries separately from extracted statements and save a source packet for review.
+- Browse `/library` by concept name or Wikidata QID, filter by resource, and follow each mapping to its original source record. See the [library's matching rules, import and limits](docs/concept-library.md).
 - Retrieve the corpus as JSON at `/api/atlas`. Six WebMCP tools expose the same curated search, navigation, path, experiment and external-library workflows to supporting agents.
+- Use `search_learning_resources` on the library page to operate the same visible resource search and pagination through WebMCP.
 
 ## Run locally
 
@@ -43,6 +47,7 @@ node scripts/check-browser-engine.ts
 node scripts/check-atlas.ts
 node scripts/check-formal-search.ts
 node scripts/check-research-search.ts
+node scripts/check-concept-library.ts
 npx tsc --noEmit
 npm run lint
 ```
@@ -57,8 +62,8 @@ Known identities are useful rediscoveries, not new mathematics. A missing search
 
 The broader objective remains active: progressively map more mathematics and use its connections to support verified discoveries. This finite region does not fulfill that full coverage objective. Proof status, source support, finite computation and novelty are separate questions. No current entry claims Lean 4 verification.
 
-See [contribution guidance](CONTRIBUTING.md), [data semantics](docs/data-model.md), and [coverage and next regions](docs/coverage.md). The foundation evidence bundle certifies the published snapshot at commit `9e0adc5d7f7fb994d6e302086da47a13ac2a8561`; reproduce that historical gate from that revision. The current assumption-check milestone has a separate prospective contract and pending evidence bundle in `.codex/evidence/runs/assumption-checks-v1/`. An earlier certificate does not certify later edits.
+See [contribution guidance](CONTRIBUTING.md), [data semantics](docs/data-model.md), and [coverage and next regions](docs/coverage.md). The foundation evidence bundle certifies the published snapshot at commit `9e0adc5d7f7fb994d6e302086da47a13ac2a8561`; reproduce that historical gate from that revision. The structured-checker milestone has its own independently approved [evidence bundle](.codex/evidence/runs/assumption-checks-v1/bundle.json) and [passing gate](.codex/evidence/runs/assumption-checks-v1/gate-report-attempt-02.json). It passes 80 finite oracle cases, but the separate 24-result retrieval study added zero source-refutation detections. An earlier certificate does not certify later edits.
 
 ## Verification limits
 
-Curated search uses explicit lexical substring scoring, with eight retrieval sanity cases. External searches reuse Loogle and TheoremSearch; none is an evaluated novelty detector. See the [reuse decision](docs/reuse-decision.md), [research-search boundary](docs/research-search.md) and [independently checked normalization case](docs/normalization-case.md). The exact browser lab is restricted to connected simple undirected unweighted graphs, even where a source entry discusses a weighted theorem. Source PDFs stay local under ignored `work/sources/`; only paraphrases, bibliographic metadata and limited evidence extracts belong in the repository. Untouched generated UI components are excluded from lint because the scaffold itself has existing lint violations; the full TypeScript project is checked. Browser checks cover focused WebMCP contracts, not general visual or responsive QA.
+Curated search uses explicit lexical substring scoring, with eight retrieval sanity cases. External searches reuse Loogle and TheoremSearch; none is an evaluated novelty detector. See the [reuse decision](docs/reuse-decision.md), [research-search boundary](docs/research-search.md) and [independently checked normalization case](docs/normalization-case.md). The exact browser lab is restricted to connected simple undirected unweighted graphs, even where a source entry discusses a weighted theorem. Source PDFs stay local under ignored `work/sources/`; only paraphrases, bibliographic metadata and limited evidence extracts belong in the repository. Untouched generated UI components are excluded from lint because the scaffold itself has existing lint violations. Historical evaluator source snapshots under `evidence/` are excluded from application lint and type checking; product source and the current portable checks remain checked. Browser checks cover focused WebMCP contracts, not general visual or responsive QA.

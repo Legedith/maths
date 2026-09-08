@@ -1,0 +1,72 @@
+{
+  "attempt": 1,
+  "elapsed_seconds": 10.264490400004433,
+  "ended_at_utc": "2026-09-08T01:54:14.976739+00:00",
+  "http_reason": "OK",
+  "http_status": 200,
+  "method": "POST",
+  "occurrences": [
+    {
+      "paper_id": "2405.09102v1",
+      "paper_link": "http://arxiv.org/abs/2405.09102v1",
+      "paper_title": "An Analysis of the Recurrence/Transience of Random Walks on Growing Trees and Hypercubes",
+      "query_id": "Q08",
+      "rank": 1,
+      "slogan_id": 2424674,
+      "theorem_id": 18458194,
+      "theorem_name": "Proposition 2.2 (limit distribution)"
+    },
+    {
+      "paper_id": "2510.14165v1",
+      "paper_link": "http://arxiv.org/abs/2510.14165v1",
+      "paper_title": "Finite Markov chains and Monte-Carlo Methods: An Undergraduate Introduction",
+      "query_id": "Q08",
+      "rank": 2,
+      "slogan_id": 1443278,
+      "theorem_id": 17464638,
+      "theorem_name": "Theorem 1.3"
+    }
+  ],
+  "parse_error": null,
+  "query_id": "Q08",
+  "request_byte_count": 88,
+  "request_headers": {
+    "Accept": "application/json",
+    "Content-Length": "88",
+    "Content-Type": "application/json",
+    "User-Agent": "MathematicsAtlas-retrieval-study-v1/1.0"
+  },
+  "request_path": "Q08-request.json",
+  "request_sha256": "209fdb94ac2b8a370a952c2b192dca0bf422651735a627f46100747c6482df0d",
+  "response_bound_bytes": 5000000,
+  "response_byte_count_retained": 1977,
+  "response_exceeded_bound": false,
+  "response_headers": [
+    [
+      "content-length",
+      "1977"
+    ],
+    [
+      "content-type",
+      "application/json"
+    ],
+    [
+      "date",
+      "Tue, 08 Sep 2026 01:54:05 GMT"
+    ],
+    [
+      "server",
+      "envoy"
+    ],
+    [
+      "x-envoy-upstream-service-time",
+      "9222"
+    ]
+  ],
+  "response_path": "Q08-response.bin",
+  "response_sha256": "ca16d10cbaa96ea4f9858e2fe9dd3ecdccd7264dc68dc71a98157bcec288d860",
+  "returned_result_count": 2,
+  "started_at_utc": "2026-09-08T01:54:04.712252+00:00",
+  "transport_error": null,
+  "url": "https://api.theoremsearch.com/search"
+}

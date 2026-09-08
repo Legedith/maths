@@ -1,0 +1,21 @@
+﻿{
+    "name":  "assumption-public-reproduction",
+    "command_argv":  [
+                         "uv",
+                         "run",
+                         "--frozen",
+                         "python",
+                         "evidence/assumption-checks/independent/publication/heldout-v1/run_public_suite.py",
+                         "--project-root",
+                         ".",
+                         "--output-dir",
+                         "evidence/assumption-checks/root-reproduction"
+                     ],
+    "command_display":  "uv run --frozen python evidence/assumption-checks/independent/publication/heldout-v1/run_public_suite.py --project-root . --output-dir evidence/assumption-checks/root-reproduction",
+    "working_directory":  "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "started_at":  "2026-09-08T09:38:32.9219067+05:30",
+    "ended_at":  "2026-09-08T09:38:33.3971706+05:30",
+    "runtime_seconds":  0.47142459999999997,
+    "exit_code":  0,
+    "console_log":  "logs/assumption-public-reproduction.console.log"
+}

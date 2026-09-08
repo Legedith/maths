@@ -1,0 +1,72 @@
+{
+  "attempt": 1,
+  "elapsed_seconds": 11.177248699998017,
+  "ended_at_utc": "2026-09-08T01:54:30.313464+00:00",
+  "http_reason": "OK",
+  "http_status": 200,
+  "method": "POST",
+  "occurrences": [
+    {
+      "paper_id": "1803.09144v1",
+      "paper_link": "http://arxiv.org/abs/1803.09144v1",
+      "paper_title": "A study on resistance matrix of graphs",
+      "query_id": "Q10",
+      "rank": 1,
+      "slogan_id": 5592308,
+      "theorem_id": 20655858,
+      "theorem_name": "Theorem 3.2"
+    },
+    {
+      "paper_id": "2508.21506v1",
+      "paper_link": "http://arxiv.org/abs/2508.21506v1",
+      "paper_title": "The Derivative of Kemeny's Constant as a Centrality Measure in Undirected Graphs",
+      "query_id": "Q10",
+      "rank": 2,
+      "slogan_id": 1560116,
+      "theorem_id": 17584187,
+      "theorem_name": "Theorem 3"
+    }
+  ],
+  "parse_error": null,
+  "query_id": "Q10",
+  "request_byte_count": 97,
+  "request_headers": {
+    "Accept": "application/json",
+    "Content-Length": "97",
+    "Content-Type": "application/json",
+    "User-Agent": "MathematicsAtlas-retrieval-study-v1/1.0"
+  },
+  "request_path": "Q10-request.json",
+  "request_sha256": "f062b69226d8bd920817d62e23ec04ca2fff5cf85219bfc85cf01b9be75bd3c7",
+  "response_bound_bytes": 5000000,
+  "response_byte_count_retained": 2307,
+  "response_exceeded_bound": false,
+  "response_headers": [
+    [
+      "content-length",
+      "2307"
+    ],
+    [
+      "content-type",
+      "application/json"
+    ],
+    [
+      "date",
+      "Tue, 08 Sep 2026 01:54:19 GMT"
+    ],
+    [
+      "server",
+      "envoy"
+    ],
+    [
+      "x-envoy-upstream-service-time",
+      "10168"
+    ]
+  ],
+  "response_path": "Q10-response.bin",
+  "response_sha256": "8fc0c50c3a88f499fb9516467a0f794410e37480c2313fd9c2a312b8caf302a4",
+  "returned_result_count": 2,
+  "started_at_utc": "2026-09-08T01:54:19.136220+00:00",
+  "transport_error": null,
+  "url": "https://api.theoremsearch.com/search"
+}

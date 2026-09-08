@@ -1,0 +1,116 @@
+{
+  "corrected_subset": {
+    "artifact": {
+      "bytes": 14375,
+      "path": "backbone-import-work/outputs/corrected-ten-record-subset.json",
+      "sha256": "9381c9b79b91d3578a3434368a20c34cc5b99ae2c9cea2989ef502a8d0416ad5"
+    },
+    "codepoint_fidelity": {
+      "bytes": 149734,
+      "path": "backbone-import-work/outputs/corrected-ten-record-codepoint-fidelity.json",
+      "sha256": "8d4bde7e880a33eef0f8875f98269145c5317f38bbf313d305d499803b612389"
+    },
+    "validation": {
+      "all_compared_strings_exact": true,
+      "q1028209_label": "Deutsch–Jozsa algorithm",
+      "q1028209_label_codepoints": [
+        "U+0044",
+        "U+0065",
+        "U+0075",
+        "U+0074",
+        "U+0073",
+        "U+0063",
+        "U+0068",
+        "U+2013",
+        "U+004A",
+        "U+006F",
+        "U+007A",
+        "U+0073",
+        "U+0061",
+        "U+0020",
+        "U+0061",
+        "U+006C",
+        "U+0067",
+        "U+006F",
+        "U+0072",
+        "U+0069",
+        "U+0074",
+        "U+0068",
+        "U+006D"
+      ],
+      "records": 10,
+      "replacement_character_present": false
+    }
+  },
+  "full_source_validation": {
+    "candidate_rows_compared_exactly": 4814,
+    "derived_counts": {
+      "absent_link_pairs": 26481,
+      "accepted_rows": 4814,
+      "candidate_records": 4814,
+      "data_records_total": 4814,
+      "duplicate_qid_groups": 0,
+      "incomplete_link_pairs": 0,
+      "interpreted_link_pair_slots": 33698,
+      "ledger_records": 4814,
+      "nonempty_link_pairs": 7217,
+      "record_width_mismatch_rows": 0,
+      "rejected_link_pairs": 0,
+      "rejected_rows": 0,
+      "retained_link_pairs": 7217,
+      "rows_in_duplicate_qid_groups": 0,
+      "unsafe_or_invalid_url_pairs": 0
+    },
+    "duplicate_qids": [],
+    "source_rows_compared_exactly": 4814
+  },
+  "runs": {
+    "full-run-final-01": {
+      "MATHGLOSS-LICENSE": {
+        "bytes": 1066,
+        "path": "backbone-import-work/outputs/full-run-final-01/MATHGLOSS-LICENSE",
+        "sha256": "5dc6b930900926814fc7bb9ff45dfcceae3aa33780eb010c83e6df58493594e7"
+      },
+      "candidate-index.json": {
+        "bytes": 5134168,
+        "path": "backbone-import-work/outputs/full-run-final-01/candidate-index.json",
+        "sha256": "282ed1fd858595b782c856fbd2c96964a0b6ff3850fedf21105ca9bbb7edb4da"
+      },
+      "import-ledger.jsonl": {
+        "bytes": 6504559,
+        "path": "backbone-import-work/outputs/full-run-final-01/import-ledger.jsonl",
+        "sha256": "14d8e9cc972a83ac4267d4b168d9510f74c65abbae509e7149012ba653c4ad61"
+      },
+      "summary.json": {
+        "bytes": 1439,
+        "path": "backbone-import-work/outputs/full-run-final-01/summary.json",
+        "sha256": "0102f6fca4237d80d3e4e167c476f118d5cfaff41b5b325882bc784eecfa6e58"
+      }
+    },
+    "full-run-final-02": {
+      "MATHGLOSS-LICENSE": {
+        "bytes": 1066,
+        "path": "backbone-import-work/outputs/full-run-final-02/MATHGLOSS-LICENSE",
+        "sha256": "5dc6b930900926814fc7bb9ff45dfcceae3aa33780eb010c83e6df58493594e7"
+      },
+      "candidate-index.json": {
+        "bytes": 5134168,
+        "path": "backbone-import-work/outputs/full-run-final-02/candidate-index.json",
+        "sha256": "282ed1fd858595b782c856fbd2c96964a0b6ff3850fedf21105ca9bbb7edb4da"
+      },
+      "import-ledger.jsonl": {
+        "bytes": 6504559,
+        "path": "backbone-import-work/outputs/full-run-final-02/import-ledger.jsonl",
+        "sha256": "14d8e9cc972a83ac4267d4b168d9510f74c65abbae509e7149012ba653c4ad61"
+      },
+      "summary.json": {
+        "bytes": 1439,
+        "path": "backbone-import-work/outputs/full-run-final-02/summary.json",
+        "sha256": "0102f6fca4237d80d3e4e167c476f118d5cfaff41b5b325882bc784eecfa6e58"
+      }
+    }
+  },
+  "schema_version": "mathgloss-output-freeze-v1",
+  "status": "author_frozen_pending_independent_verification",
+  "two_run_byte_identity": true
+}

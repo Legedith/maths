@@ -1,0 +1,20 @@
+{
+    "status":  "frozen_pending_independent_delta_review",
+    "base_commit":  "97b5aaf",
+    "recorded_at":  "2026-09-08T02:47:02.7014411Z",
+    "resolved_findings":  [
+                              "RS-UI-001",
+                              "RS-UI-002",
+                              "RS-UI-003"
+                          ],
+    "file_sha256":  {
+                        "lib/research-search.ts":  "e2e81580a729dbdbe074faf05249d6708afbf66b69a3f66d20d007224e2b2aa6",
+                        "app/api/research-search/route.ts":  "cd93abe5269aece8b98a57de687e431231008925571dffe467b24c1c0f3cc909",
+                        "components/research-search.tsx":  "4aa8239c60237a813b2c5b61cf44c2ac48c590cad97d3eae488447be179b0986",
+                        "app/page.tsx":  "7ebe5ffa908023c5224ab2e3e789bef7f7b72c37cbfe396a9ae531ac6f9b8b53",
+                        "lib/use-atlas-tools.ts":  "04cc7a2700f225cab9d1884931f4e416433951bb20d60248bb5af06400873dca",
+                        "scripts/check-research-search.ts":  "6883fad401a2321b8fda5aa6481321a1c92fc801fa1484984df6bbbfdb10a382",
+                        "docs/research-search.md":  "f59b2222b9ddf5204491d87ea9230aaac7db173f2e05eb61a9c52202b731b34c",
+                        "evidence/research-search/provider-source-notes.json":  "350432130489bfc714e9882cb466ba4b67438922d0d8ab0a2a5d29390bf8de7a"
+                    }
+}

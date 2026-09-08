@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "role": "Independent contract-edge fixtures created before importer freeze.",
+  "files": [
+    {
+      "path": "bad-header-extra.csv",
+      "bytes": 237,
+      "sha256": "965c1ea5cc4fc4af15453c8edb073bb7ef2720698b6cc5186fd0c0fcee672c30"
+    },
+    {
+      "path": "bad-header-missing.csv",
+      "bytes": 203,
+      "sha256": "4e7f9affed2f4b33083b65fe36188bc18aa14787d20b34322327661e0673bfcc"
+    },
+    {
+      "path": "bad-utf8.csv",
+      "bytes": 212,
+      "sha256": "6d162e67c06775325b7ca6606381553accb084c54882d73c0dc6487ffa20aded"
+    },
+    {
+      "path": "bad-width-extra.csv",
+      "bytes": 226,
+      "sha256": "45af7a7314b3dbdadc11728c936cfd834507efa8f1ce9e412e558e3b715e4758"
+    },
+    {
+      "path": "bad-width-missing.csv",
+      "bytes": 219,
+      "sha256": "71fa3b142f2787e76df92826db054f5f7ffe6a723c975d90c8eb7d997f4fcdd4"
+    },
+    {
+      "path": "edge-cases.csv",
+      "bytes": 805,
+      "sha256": "e90b6343b4fa8f0251d5b6c97dd10d7e78d1ab1a4ec0c1f86c492cf6c6fab815"
+    }
+  ],
+  "edge_case_expectations": {
+    "logical_records_including_blank": 12,
+    "first_record_physical_start_line": 2,
+    "first_record_physical_end_line": 3,
+    "blank_record_physical_line": 4,
+    "accepted_nonblank_rows": 9,
+    "rejected_rows": 3,
+    "rejected_row_reasons": {
+      "blank_record": 1,
+      "invalid_qid": 1,
+      "missing_label": 1
+    },
+    "retained_links": 4,
+    "rejected_or_incomplete_links": 6,
+    "duplicate_qids": {
+      "Q9": [
+        11,
+        12
+      ]
+    },
+    "notes": [
+      "Row acceptance and link acceptance are separate: Q3-Q8 remain valid rows but have rejected/incomplete BCT pairs.",
+      "The duplicate records must remain separate and preserve different labels/links.",
+      "No URL destination should be fetched during import."
+    ]
+  },
+  "separate_failure_expectations": {
+    "bad-header-extra.csv": "header schema mismatch",
+    "bad-header-missing.csv": "header schema mismatch",
+    "bad-width-extra.csv": "inconsistent record width",
+    "bad-width-missing.csv": "inconsistent record width",
+    "bad-utf8.csv": "strict UTF-8 failure",
+    "edge-cases.csv with a deliberately wrong expected SHA": "source hash mismatch"
+  }
+}

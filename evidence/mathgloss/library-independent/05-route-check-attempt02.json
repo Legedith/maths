@@ -1,0 +1,30 @@
+{
+  "argv": [
+    "node",
+    "--experimental-strip-types",
+    "--experimental-loader",
+    "file:///D:/CodexWorkspaces/mathematics-atlas/library-audit-work/library-alias-loader.mjs",
+    "file:///D:/CodexWorkspaces/mathematics-atlas/library-audit-work/check_library_route.mjs"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work",
+  "duration_seconds": 0.09314559999620542,
+  "ended_at_utc": "2026-09-08T04:09:56.800791+00:00",
+  "exit_code": 1,
+  "schema_version": "command-evidence-v1",
+  "started_at_utc": "2026-09-08T04:09:56.707636+00:00",
+  "stderr": {
+    "base64": "KG5vZGU6MTkzNDgpIEV4cGVyaW1lbnRhbFdhcm5pbmc6IGAtLWV4cGVyaW1lbnRhbC1sb2FkZXJgIG1heSBiZSByZW1vdmVkIGluIHRoZSBmdXR1cmU7IGluc3RlYWQgdXNlIGByZWdpc3RlcigpYDoKLS1pbXBvcnQgJ2RhdGE6dGV4dC9qYXZhc2NyaXB0LGltcG9ydCB7IHJlZ2lzdGVyIH0gZnJvbSAibm9kZTptb2R1bGUiOyBpbXBvcnQgeyBwYXRoVG9GaWxlVVJMIH0gZnJvbSAibm9kZTp1cmwiOyByZWdpc3RlcigiZmlsZSUzQS8vL0QlM0EvQ29kZXhXb3Jrc3BhY2VzL21hdGhlbWF0aWNzLWF0bGFzL2xpYnJhcnktYXVkaXQtd29yay9saWJyYXJ5LWFsaWFzLWxvYWRlci5tanMiLCBwYXRoVG9GaWxlVVJMKCIuLyIpKTsnCihVc2UgYG5vZGUgLS10cmFjZS13YXJuaW5ncyAuLi5gIHRvIHNob3cgd2hlcmUgdGhlIHdhcm5pbmcgd2FzIGNyZWF0ZWQpCg0Kbm9kZTppbnRlcm5hbC9tb2R1bGVzL3J1bl9tYWluOjEwNw0KICAgIHRyaWdnZXJVbmNhdWdodEV4Y2VwdGlvbigNCiAgICBeDQpFcnJvciBbRVJSX01PRFVMRV9OT1RfRk9VTkRdOiBDYW5ub3QgZmluZCBtb2R1bGUgJ0Q6XENvZGV4V29ya3NwYWNlc1xtYXRoZW1hdGljcy1hdGxhc1xsaWJyYXJ5LWF1ZGl0LXdvcmtcZmlsZTpcRDpcQ29kZXhXb3Jrc3BhY2VzXG1hdGhlbWF0aWNzLWF0bGFzXGxpYnJhcnktYXVkaXQtd29ya1xjaGVja19saWJyYXJ5X3JvdXRlLm1qcycgaW1wb3J0ZWQgZnJvbSBEOlxDb2RleFdvcmtzcGFjZXNcbWF0aGVtYXRpY3MtYXRsYXNcbGlicmFyeS1hdWRpdC13b3JrXA0KICAgIGF0IGZpbmFsaXplUmVzb2x1dGlvbiAobm9kZTppbnRlcm5hbC9tb2R1bGVzL2VzbS9yZXNvbHZlOjI3NDoxMSkNCiAgICBhdCBtb2R1bGVSZXNvbHZlIChub2RlOmludGVybmFsL21vZHVsZXMvZXNtL3Jlc29sdmU6ODY0OjEwKQ0KICAgIGF0IGRlZmF1bHRSZXNvbHZlIChub2RlOmludGVybmFsL21vZHVsZXMvZXNtL3Jlc29sdmU6OTkwOjExKQ0KICAgIGF0IG5leHRSZXNvbHZlIChub2RlOmludGVybmFsL21vZHVsZXMvZXNtL2hvb2tzOjc4NToyOCkNCiAgICBhdCByZXNvbHZlIChmaWxlOi8vL0Q6L0NvZGV4V29ya3NwYWNlcy9tYXRoZW1hdGljcy1hdGxhcy9saWJyYXJ5LWF1ZGl0LXdvcmsvbGlicmFyeS1hbGlhcy1sb2FkZXIubWpzOjE1OjEwKQ0KICAgIGF0IG5leHRSZXNvbHZlIChub2RlOmludGVybmFsL21vZHVsZXMvZXNtL2hvb2tzOjc4NToyOCkNCiAgICBhdCBBc3luY0xvYWRlckhvb2tzT25Mb2FkZXJIb29rV29ya2VyLnJlc29sdmUgKG5vZGU6aW50ZXJuYWwvbW9kdWxlcy9lc20vaG9va3M6MjY5OjMwKQ0KICAgIGF0IE1lc3NhZ2VQb3J0LmhhbmRsZU1lc3NhZ2UgKG5vZGU6aW50ZXJuYWwvbW9kdWxlcy9lc20vd29ya2VyOjI1MToyNCkNCiAgICBhdCBbbm9kZWpzLmludGVybmFsLmtIeWJyaWREaXNwYXRjaF0gKG5vZGU6aW50ZXJuYWwvZXZlbnRfdGFyZ2V0Ojg0NToyMCkNCiAgICBhdCBNZXNzYWdlUG9ydC48YW5vbnltb3VzPiAobm9kZTppbnRlcm5hbC9wZXJfY29udGV4dC9tZXNzYWdlcG9ydDoyMzoyOCkgew0KICBjb2RlOiAnRVJSX01PRFVMRV9OT1RfRk9VTkQnLA0KICB1cmw6ICdmaWxlOi8vL0Q6L0NvZGV4V29ya3NwYWNlcy9tYXRoZW1hdGljcy1hdGxhcy9saWJyYXJ5LWF1ZGl0LXdvcmsvZmlsZTovRDovQ29kZXhXb3Jrc3BhY2VzL21hdGhlbWF0aWNzLWF0bGFzL2xpYnJhcnktYXVkaXQtd29yay9jaGVja19saWJyYXJ5X3JvdXRlLm1qcycNCn0NCg0KTm9kZS5qcyB2MjQuMTIuMA0K",
+    "bytes": 1746,
+    "sha256": "88710b7fb8ec02cbe44a66fbaa8c9bfec26bffaca50e5d3f85ee88193d0c9775",
+    "utf8_text": "(node:19348) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:\n--import 'data:text/javascript,import { register } from \"node:module\"; import { pathToFileURL } from \"node:url\"; register(\"file%3A///D%3A/CodexWorkspaces/mathematics-atlas/library-audit-work/library-alias-loader.mjs\", pathToFileURL(\"./\"));'\n(Use `node --trace-warnings ...` to show where the warning was created)\n\r\nnode:internal/modules/run_main:107\r\n    triggerUncaughtException(\r\n    ^\r\nError [ERR_MODULE_NOT_FOUND]: Cannot find module 'D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work\\file:\\D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work\\check_library_route.mjs' imported from D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work\\\r\n    at finalizeResolution (node:internal/modules/esm/resolve:274:11)\r\n    at moduleResolve (node:internal/modules/esm/resolve:864:10)\r\n    at defaultResolve (node:internal/modules/esm/resolve:990:11)\r\n    at nextResolve (node:internal/modules/esm/hooks:785:28)\r\n    at resolve (file:///D:/CodexWorkspaces/mathematics-atlas/library-audit-work/library-alias-loader.mjs:15:10)\r\n    at nextResolve (node:internal/modules/esm/hooks:785:28)\r\n    at AsyncLoaderHooksOnLoaderHookWorker.resolve (node:internal/modules/esm/hooks:269:30)\r\n    at MessagePort.handleMessage (node:internal/modules/esm/worker:251:24)\r\n    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:845:20)\r\n    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28) {\r\n  code: 'ERR_MODULE_NOT_FOUND',\r\n  url: 'file:///D:/CodexWorkspaces/mathematics-atlas/library-audit-work/file:/D:/CodexWorkspaces/mathematics-atlas/library-audit-work/check_library_route.mjs'\r\n}\r\n\r\nNode.js v24.12.0\r\n",
+    "valid_utf8": true
+  },
+  "stdout": {
+    "base64": "",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "utf8_text": "",
+    "valid_utf8": true
+  },
+  "windows_command_line": "node --experimental-strip-types --experimental-loader file:///D:/CodexWorkspaces/mathematics-atlas/library-audit-work/library-alias-loader.mjs file:///D:/CodexWorkspaces/mathematics-atlas/library-audit-work/check_library_route.mjs"
+}

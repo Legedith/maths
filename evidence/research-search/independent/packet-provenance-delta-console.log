@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "subject": {
+    "path": "D:/CodexWorkspaces/mathematics-atlas/project/lib/research-search.ts",
+    "sha256": "e2e81580a729dbdbe074faf05249d6708afbf66b69a3f66d20d007224e2b2aa6"
+  },
+  "preserved": {
+    "provider": "TheoremSearch",
+    "query": "audit query",
+    "retrievedAt": "2026-09-08T00:00:00.000Z",
+    "exactRequest": {
+      "method": "POST",
+      "endpoint": "https://api.theoremsearch.com/search",
+      "parameters": {
+        "query": "audit query",
+        "n_results": 8
+      }
+    },
+    "retainedResultCount": 2,
+    "rank": 2,
+    "similarity": 0.7,
+    "score": -0.6,
+    "theoremId": 102,
+    "sloganId": 202,
+    "extractedBody": "SECOND EXTRACTED BODY",
+    "generatedSummary": "SECOND GENERATED SUMMARY",
+    "paper": {
+      "id": "2222.2222v2",
+      "title": "Second paper",
+      "authors": [],
+      "source": null,
+      "year": null
+    },
+    "sourceUrl": "https://arxiv.org/abs/2222.2222v2"
+  },
+  "invalidRankingValuesMapToNull": true,
+  "note": "This verifies retrieval provenance fields from a raw second-ranked provider-shaped result. It does not judge mathematical truth, search relevance, or the provider."
+}

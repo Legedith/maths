@@ -1,0 +1,242 @@
+{
+  "algorithm_version": "atlas-checks/1.0.0",
+  "id": "weighted-commute-source-formula",
+  "verdict": "no_counterexample_in_instance",
+  "normalized_input": {
+    "id": "weighted-commute-source-formula",
+    "graph": {
+      "n": 3,
+      "edges": [
+        {
+          "u": 0,
+          "v": 1,
+          "conductance": "2"
+        },
+        {
+          "u": 1,
+          "v": 2,
+          "conductance": "1"
+        }
+      ]
+    },
+    "source": 0,
+    "target": 2,
+    "provenance": {
+      "kind": "source_annotation",
+      "source_url": "https://pages.uoregon.edu/dlevin/MARKOV/markovmixing.pdf",
+      "source_locator": "PDF pp. 147-148, commute time identity; conductance-volume convention",
+      "annotation_id": "weighted-commute-source-formula-root-annotation",
+      "annotator": "root-teaching-example-author",
+      "interpretation": "explicit"
+    },
+    "assumptions": [
+      {
+        "id": "connected-network",
+        "expression": {
+          "kind": "quantity",
+          "name": "connected"
+        }
+      }
+    ],
+    "claim": {
+      "kind": "binary",
+      "op": "eq",
+      "left": {
+        "kind": "quantity",
+        "name": "commute"
+      },
+      "right": {
+        "kind": "binary",
+        "op": "mul",
+        "left": {
+          "kind": "quantity",
+          "name": "total_conductance"
+        },
+        "right": {
+          "kind": "quantity",
+          "name": "resistance"
+        }
+      }
+    }
+  },
+  "normalized_input_sha256": "50034b2877a0db5a427a2bf5a0baa087e39842eba9b92c9ce8f4f56254ef59cd",
+  "provenance": {
+    "kind": "source_annotation",
+    "source_url": "https://pages.uoregon.edu/dlevin/MARKOV/markovmixing.pdf",
+    "source_locator": "PDF pp. 147-148, commute time identity; conductance-volume convention",
+    "annotation_id": "weighted-commute-source-formula-root-annotation",
+    "annotator": "root-teaching-example-author",
+    "interpretation": "explicit"
+  },
+  "evaluated_assumptions": [
+    {
+      "id": "connected-network",
+      "expression": {
+        "kind": "quantity",
+        "name": "connected"
+      },
+      "status": "true",
+      "trace": {
+        "path": "$.assumptions[0].expression",
+        "kind": "quantity",
+        "name": "connected",
+        "quantity": {
+          "status": "defined",
+          "method": "graph_search",
+          "definition": "all vertices form one component",
+          "type": "boolean",
+          "shape": [],
+          "value": true
+        },
+        "status": "defined",
+        "type": "boolean",
+        "shape": [],
+        "value": true
+      },
+      "type": "boolean",
+      "shape": [],
+      "value": true
+    }
+  ],
+  "claim_evaluation": {
+    "expression": {
+      "kind": "binary",
+      "op": "eq",
+      "left": {
+        "kind": "quantity",
+        "name": "commute"
+      },
+      "right": {
+        "kind": "binary",
+        "op": "mul",
+        "left": {
+          "kind": "quantity",
+          "name": "total_conductance"
+        },
+        "right": {
+          "kind": "quantity",
+          "name": "resistance"
+        }
+      }
+    },
+    "status": "true",
+    "trace": {
+      "path": "$.claim",
+      "kind": "binary",
+      "op": "eq",
+      "left": {
+        "path": "$.claim.left",
+        "kind": "quantity",
+        "name": "commute",
+        "quantity": {
+          "status": "defined",
+          "method": "sum_of_independent_hitting_solves",
+          "definition": "E_source[tau_target]+E_target[tau_source]",
+          "type": "rational",
+          "shape": [],
+          "value": "9"
+        },
+        "status": "defined",
+        "type": "rational",
+        "shape": [],
+        "value": "9"
+      },
+      "right": {
+        "path": "$.claim.right",
+        "kind": "binary",
+        "op": "mul",
+        "left": {
+          "path": "$.claim.right.left",
+          "kind": "quantity",
+          "name": "total_conductance",
+          "quantity": {
+            "status": "defined",
+            "method": "exact_degree_sum",
+            "definition": "sum_degrees=2*sum_edge_conductances (graph volume)",
+            "type": "rational",
+            "shape": [],
+            "value": "6"
+          },
+          "status": "defined",
+          "type": "rational",
+          "shape": [],
+          "value": "6"
+        },
+        "right": {
+          "path": "$.claim.right.right",
+          "kind": "quantity",
+          "name": "resistance",
+          "quantity": {
+            "status": "defined",
+            "method": "independent_electrical_solve",
+            "definition": "unit-current voltage difference with target grounded",
+            "type": "rational",
+            "shape": [],
+            "value": "3/2"
+          },
+          "status": "defined",
+          "type": "rational",
+          "shape": [],
+          "value": "3/2"
+        },
+        "status": "defined",
+        "type": "rational",
+        "shape": [],
+        "value": "9"
+      },
+      "status": "defined",
+      "type": "boolean",
+      "shape": [],
+      "value": true
+    },
+    "type": "boolean",
+    "shape": [],
+    "value": true
+  },
+  "quantities": {
+    "commute": {
+      "status": "defined",
+      "method": "sum_of_independent_hitting_solves",
+      "definition": "E_source[tau_target]+E_target[tau_source]",
+      "type": "rational",
+      "shape": [],
+      "value": "9"
+    },
+    "connected": {
+      "status": "defined",
+      "method": "graph_search",
+      "definition": "all vertices form one component",
+      "type": "boolean",
+      "shape": [],
+      "value": true
+    },
+    "resistance": {
+      "status": "defined",
+      "method": "independent_electrical_solve",
+      "definition": "unit-current voltage difference with target grounded",
+      "type": "rational",
+      "shape": [],
+      "value": "3/2"
+    },
+    "total_conductance": {
+      "status": "defined",
+      "method": "exact_degree_sum",
+      "definition": "sum_degrees=2*sum_edge_conductances (graph volume)",
+      "type": "rational",
+      "shape": [],
+      "value": "6"
+    }
+  },
+  "certificates": {
+    "gauge": {
+      "status": "not_evaluated",
+      "reason": "no gauge-related quantity was referenced"
+    },
+    "period": {
+      "status": "not_evaluated",
+      "reason": "period was not referenced"
+    }
+  },
+  "errors": [],
+  "instance_scope_warning": "The claim holds on this instance only; this is not a universal proof or novelty decision."
+}

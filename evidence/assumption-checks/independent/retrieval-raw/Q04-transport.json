@@ -1,0 +1,72 @@
+{
+  "attempt": 1,
+  "elapsed_seconds": 2.5598019000026397,
+  "ended_at_utc": "2026-09-08T01:53:52.899770+00:00",
+  "http_reason": "OK",
+  "http_status": 200,
+  "method": "POST",
+  "occurrences": [
+    {
+      "paper_id": "2109.13394v2",
+      "paper_link": "http://arxiv.org/abs/2109.13394v2",
+      "paper_title": "Compact Redistricting Plans Have Many Spanning Trees",
+      "query_id": "Q04",
+      "rank": 1,
+      "slogan_id": 9527643,
+      "theorem_id": 24585048,
+      "theorem_name": "Lemma 2.1"
+    },
+    {
+      "paper_id": "1206.0937v3",
+      "paper_link": "http://arxiv.org/abs/1206.0937v3",
+      "paper_title": "Detecting Activations over Graphs using Spanning Tree Wavelet Bases",
+      "query_id": "Q04",
+      "rank": 2,
+      "slogan_id": 7383631,
+      "theorem_id": 22467127,
+      "theorem_name": "Lemma 6"
+    }
+  ],
+  "parse_error": null,
+  "query_id": "Q04",
+  "request_byte_count": 98,
+  "request_headers": {
+    "Accept": "application/json",
+    "Content-Length": "98",
+    "Content-Type": "application/json",
+    "User-Agent": "MathematicsAtlas-retrieval-study-v1/1.0"
+  },
+  "request_path": "Q04-request.json",
+  "request_sha256": "6c0fafc03eec35a0b098cbe3b83dc76f9e0ae53c77febf657f3416f27a10d618",
+  "response_bound_bytes": 5000000,
+  "response_byte_count_retained": 1788,
+  "response_exceeded_bound": false,
+  "response_headers": [
+    [
+      "content-length",
+      "1788"
+    ],
+    [
+      "content-type",
+      "application/json"
+    ],
+    [
+      "date",
+      "Tue, 08 Sep 2026 01:53:50 GMT"
+    ],
+    [
+      "server",
+      "envoy"
+    ],
+    [
+      "x-envoy-upstream-service-time",
+      "1528"
+    ]
+  ],
+  "response_path": "Q04-response.bin",
+  "response_sha256": "95db9e00bdf61142859a96eb19f24356de14e6a1623ed4856ec137c0e2562dfa",
+  "returned_result_count": 2,
+  "started_at_utc": "2026-09-08T01:53:50.339989+00:00",
+  "transport_error": null,
+  "url": "https://api.theoremsearch.com/search"
+}

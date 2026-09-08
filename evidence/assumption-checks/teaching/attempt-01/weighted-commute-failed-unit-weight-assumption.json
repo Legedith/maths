@@ -1,0 +1,291 @@
+{
+  "algorithm_version": "atlas-checks/1.0.0",
+  "id": "weighted-commute-failed-unit-weight-assumption",
+  "verdict": "not_applicable",
+  "normalized_input": {
+    "id": "weighted-commute-failed-unit-weight-assumption",
+    "graph": {
+      "n": 3,
+      "edges": [
+        {
+          "u": 0,
+          "v": 1,
+          "conductance": "2"
+        },
+        {
+          "u": 1,
+          "v": 2,
+          "conductance": "1"
+        }
+      ]
+    },
+    "source": 0,
+    "target": 2,
+    "provenance": {
+      "kind": "synthetic",
+      "source_url": "https://pages.uoregon.edu/dlevin/MARKOV/markovmixing.pdf",
+      "source_locator": "Teaching example: the unweighted specialization is explicitly guarded by unit edge weights. The chosen weighted graph violates that guard.",
+      "annotation_id": "weighted-commute-failed-unit-weight-assumption-root-annotation",
+      "annotator": "root-teaching-example-author",
+      "interpretation": "explicit"
+    },
+    "assumptions": [
+      {
+        "id": "connected-network",
+        "expression": {
+          "kind": "quantity",
+          "name": "connected"
+        }
+      },
+      {
+        "id": "all-edges-unit-conductance",
+        "expression": {
+          "kind": "binary",
+          "op": "and",
+          "left": {
+            "kind": "binary",
+            "op": "eq",
+            "left": {
+              "kind": "rational",
+              "value": "2"
+            },
+            "right": {
+              "kind": "rational",
+              "value": "1"
+            }
+          },
+          "right": {
+            "kind": "binary",
+            "op": "eq",
+            "left": {
+              "kind": "rational",
+              "value": "1"
+            },
+            "right": {
+              "kind": "rational",
+              "value": "1"
+            }
+          }
+        }
+      }
+    ],
+    "claim": {
+      "kind": "binary",
+      "op": "eq",
+      "left": {
+        "kind": "quantity",
+        "name": "commute"
+      },
+      "right": {
+        "kind": "binary",
+        "op": "mul",
+        "left": {
+          "kind": "binary",
+          "op": "mul",
+          "left": {
+            "kind": "rational",
+            "value": "2"
+          },
+          "right": {
+            "kind": "quantity",
+            "name": "edge_count"
+          }
+        },
+        "right": {
+          "kind": "quantity",
+          "name": "resistance"
+        }
+      }
+    }
+  },
+  "normalized_input_sha256": "f5dc14fd72dd5134029362ba230ab22f1508199198f02e7e17bed72ab9d7ffa1",
+  "provenance": {
+    "kind": "synthetic",
+    "source_url": "https://pages.uoregon.edu/dlevin/MARKOV/markovmixing.pdf",
+    "source_locator": "Teaching example: the unweighted specialization is explicitly guarded by unit edge weights. The chosen weighted graph violates that guard.",
+    "annotation_id": "weighted-commute-failed-unit-weight-assumption-root-annotation",
+    "annotator": "root-teaching-example-author",
+    "interpretation": "explicit"
+  },
+  "evaluated_assumptions": [
+    {
+      "id": "connected-network",
+      "expression": {
+        "kind": "quantity",
+        "name": "connected"
+      },
+      "status": "true",
+      "trace": {
+        "path": "$.assumptions[0].expression",
+        "kind": "quantity",
+        "name": "connected",
+        "quantity": {
+          "status": "defined",
+          "method": "graph_search",
+          "definition": "all vertices form one component",
+          "type": "boolean",
+          "shape": [],
+          "value": true
+        },
+        "status": "defined",
+        "type": "boolean",
+        "shape": [],
+        "value": true
+      },
+      "type": "boolean",
+      "shape": [],
+      "value": true
+    },
+    {
+      "id": "all-edges-unit-conductance",
+      "expression": {
+        "kind": "binary",
+        "op": "and",
+        "left": {
+          "kind": "binary",
+          "op": "eq",
+          "left": {
+            "kind": "rational",
+            "value": "2"
+          },
+          "right": {
+            "kind": "rational",
+            "value": "1"
+          }
+        },
+        "right": {
+          "kind": "binary",
+          "op": "eq",
+          "left": {
+            "kind": "rational",
+            "value": "1"
+          },
+          "right": {
+            "kind": "rational",
+            "value": "1"
+          }
+        }
+      },
+      "status": "false",
+      "trace": {
+        "path": "$.assumptions[1].expression",
+        "kind": "binary",
+        "op": "and",
+        "left": {
+          "path": "$.assumptions[1].expression.left",
+          "kind": "binary",
+          "op": "eq",
+          "left": {
+            "path": "$.assumptions[1].expression.left.left",
+            "kind": "rational",
+            "status": "defined",
+            "type": "rational",
+            "shape": [],
+            "value": "2"
+          },
+          "right": {
+            "path": "$.assumptions[1].expression.left.right",
+            "kind": "rational",
+            "status": "defined",
+            "type": "rational",
+            "shape": [],
+            "value": "1"
+          },
+          "status": "defined",
+          "type": "boolean",
+          "shape": [],
+          "value": false
+        },
+        "right": {
+          "path": "$.assumptions[1].expression.right",
+          "kind": "binary",
+          "op": "eq",
+          "left": {
+            "path": "$.assumptions[1].expression.right.left",
+            "kind": "rational",
+            "status": "defined",
+            "type": "rational",
+            "shape": [],
+            "value": "1"
+          },
+          "right": {
+            "path": "$.assumptions[1].expression.right.right",
+            "kind": "rational",
+            "status": "defined",
+            "type": "rational",
+            "shape": [],
+            "value": "1"
+          },
+          "status": "defined",
+          "type": "boolean",
+          "shape": [],
+          "value": true
+        },
+        "status": "defined",
+        "type": "boolean",
+        "shape": [],
+        "value": false
+      },
+      "type": "boolean",
+      "shape": [],
+      "value": false
+    }
+  ],
+  "claim_evaluation": {
+    "expression": {
+      "kind": "binary",
+      "op": "eq",
+      "left": {
+        "kind": "quantity",
+        "name": "commute"
+      },
+      "right": {
+        "kind": "binary",
+        "op": "mul",
+        "left": {
+          "kind": "binary",
+          "op": "mul",
+          "left": {
+            "kind": "rational",
+            "value": "2"
+          },
+          "right": {
+            "kind": "quantity",
+            "name": "edge_count"
+          }
+        },
+        "right": {
+          "kind": "quantity",
+          "name": "resistance"
+        }
+      }
+    },
+    "status": "not_evaluated",
+    "trace": {
+      "path": "$.claim",
+      "status": "not_evaluated",
+      "reason": "at least one recorded theorem assumption is false"
+    }
+  },
+  "quantities": {
+    "connected": {
+      "status": "defined",
+      "method": "graph_search",
+      "definition": "all vertices form one component",
+      "type": "boolean",
+      "shape": [],
+      "value": true
+    }
+  },
+  "certificates": {
+    "gauge": {
+      "status": "not_evaluated",
+      "reason": "no gauge-related quantity was referenced"
+    },
+    "period": {
+      "status": "not_evaluated",
+      "reason": "period was not referenced"
+    }
+  },
+  "errors": []
+}

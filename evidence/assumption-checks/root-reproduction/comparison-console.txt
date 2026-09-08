@@ -1,0 +1,19 @@
+{
+  "command": [
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.venv\\Scripts\\python.exe",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\assumption-checks\\independent\\publication\\heldout-v1\\compare_public_suite.py",
+    "--cases",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\assumption-checks\\independent\\publication\\heldout-v1\\cases.json",
+    "--oracle",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\assumption-checks\\independent\\publication\\heldout-v1\\oracle.json",
+    "--run-jsonl",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\assumption-checks\\root-reproduction\\run.jsonl",
+    "--detail-output",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\assumption-checks\\root-reproduction\\comparison-detail.json",
+    "--summary-output",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\assumption-checks\\root-reproduction\\comparison-summary.json"
+  ],
+  "exit_code": 0,
+  "stderr": "",
+  "stdout": "{\"auditor\": \"/root/sol_atlas_audit\", \"case_count\": 80, \"cases_sha256\": \"b2c03a4fc3d5750dc95f6ac7b1d08b5ccd0abf4dbc435e7a965b29a6e98f015c\", \"compared_at\": \"2026-09-08T04:08:33.347110Z\", \"detail_path\": \"D:\\\\CodexWorkspaces\\\\mathematics-atlas\\\\project\\\\evidence\\\\assumption-checks\\\\root-reproduction\\\\comparison-detail.json\", \"detail_sha256\": \"7fd0e3640c1311639f906b1aae7a7d5b2cb097f3a738a6c5c5735bae248f5dbf\", \"failure_count\": 0, \"first_run_jsonl_sha256\": \"c2e4f4fe94e08318324ea779a152f4252ccc07c82c7bf82d44c2021fd98ebb78\", \"mismatch_case_ids\": [], \"observed_verdict_histogram\": {\"abstain\": 8, \"counterexample\": 11, \"invalid_input\": 14, \"no_counterexample_in_instance\": 44, \"not_applicable\": 3}, \"oracle_sha256\": \"936548009cf20d6a91c6e3aa1123c43e3fe559a417b9596153b3679767896870\", \"partition_counts\": {\"definedness_provenance_precedence\": {\"failed\": 0, \"passed\": 12, \"total\": 12}, \"malformed_type_resource\": {\"failed\": 0, \"passed\": 14, \"total\": 14}, \"well_formed_mathematical\": {\"failed\": 0, \"passed\": 54, \"total\": 54}}, \"pass_count\": 80, \"schema_version\": \"1.0\", \"suite_plaintext_sha256\": \"ddf50219b87547a9cae547d936a7afba76380f11c4cda7c5fbb473635a01d9ee\"}\n"
+}

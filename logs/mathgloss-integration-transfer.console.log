@@ -1,0 +1,27 @@
+﻿uv.exe :    Building atlas-engine @ file:///D:/CodexWorkspaces/mathematics-atlas/project
+At D:\CodexWorkspaces\mathematics-atlas\project\scripts\run_logged.ps1:22 char:11
++ $output = & $Command[0] $Command[1..($Command.Count - 1)] 2>&1 | Out- ...
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (   Building atl...s-atlas/project:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+      Built atlas-engine @ file:///D:/CodexWorkspaces/mathematics-atlas/project
+Uninstalled 1 package in 2ms
+Installed 1 package in 8ms
+Traceback (most recent call last):
+  File "D:\CodexWorkspaces\mathematics-atlas\integration-work\integrate_mathgloss.py", line 50, in <module>
+    copy(base / "backbone-reuse-work" / name, root / "evidence/mathgloss/reuse-history" / name)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\CodexWorkspaces\mathematics-atlas\integration-work\integrate_mathgloss.py", line 17, in copy
+    value = source.read_bytes()
+  File "C:\Users\Legedith\AppData\Roaming\uv\python\cpython-3.13.7-windows-x86_64-none\Lib\pathlib\_abc.py", line 625, 
+in read_bytes
+    with self.open(mode='rb') as f:
+         ~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\Legedith\AppData\Roaming\uv\python\cpython-3.13.7-windows-x86_64-none\Lib\pathlib\_local.py", line 
+537, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 
+'D:\\CodexWorkspaces\\mathematics-atlas\\backbone-reuse-work\\sample-metadata-records.json'
+

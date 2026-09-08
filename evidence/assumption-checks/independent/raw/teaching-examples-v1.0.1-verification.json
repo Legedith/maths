@@ -1,0 +1,1646 @@
+{
+  "all_expected_checks_pass": true,
+  "all_reruns_match_retained_semantically": true,
+  "auditor": "/root/sol_atlas_audit",
+  "record_count": 3,
+  "records": [
+    {
+      "algorithm_version": "atlas-checks/1.0.1",
+      "all_expected_checks_pass": true,
+      "errors": [],
+      "expected_checks": {
+        "claim_is_true": true,
+        "commute_is_9": true,
+        "resistance_is_3_over_2": true,
+        "verdict_no_counterexample": true,
+        "volume_is_6": true
+      },
+      "fixture_path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\fixtures\\assumption-checks\\teaching\\weighted-commute-source-formula.json",
+      "fixture_sha256": "8921779953216d7ed8b473b875dcb0eb675c5b97c32311aa83e2101fa2d73844",
+      "id": "weighted-commute-source-formula",
+      "observed_output": {
+        "algorithm_version": "atlas-checks/1.0.1",
+        "certificates": {
+          "gauge": {
+            "reason": "no gauge-related quantity was referenced",
+            "status": "not_evaluated"
+          },
+          "period": {
+            "reason": "period was not referenced",
+            "status": "not_evaluated"
+          }
+        },
+        "claim_evaluation": {
+          "expression": {
+            "kind": "binary",
+            "left": {
+              "kind": "quantity",
+              "name": "commute"
+            },
+            "op": "eq",
+            "right": {
+              "kind": "binary",
+              "left": {
+                "kind": "quantity",
+                "name": "total_conductance"
+              },
+              "op": "mul",
+              "right": {
+                "kind": "quantity",
+                "name": "resistance"
+              }
+            }
+          },
+          "shape": [],
+          "status": "true",
+          "trace": {
+            "kind": "binary",
+            "left": {
+              "kind": "quantity",
+              "name": "commute",
+              "path": "$.claim.left",
+              "quantity": {
+                "definition": "E_source[tau_target]+E_target[tau_source]",
+                "method": "sum_of_independent_hitting_solves",
+                "shape": [],
+                "status": "defined",
+                "type": "rational",
+                "value": "9"
+              },
+              "shape": [],
+              "status": "defined",
+              "type": "rational",
+              "value": "9"
+            },
+            "op": "eq",
+            "path": "$.claim",
+            "right": {
+              "kind": "binary",
+              "left": {
+                "kind": "quantity",
+                "name": "total_conductance",
+                "path": "$.claim.right.left",
+                "quantity": {
+                  "definition": "sum_degrees=2*sum_edge_conductances (graph volume)",
+                  "method": "exact_degree_sum",
+                  "shape": [],
+                  "status": "defined",
+                  "type": "rational",
+                  "value": "6"
+                },
+                "shape": [],
+                "status": "defined",
+                "type": "rational",
+                "value": "6"
+              },
+              "op": "mul",
+              "path": "$.claim.right",
+              "right": {
+                "kind": "quantity",
+                "name": "resistance",
+                "path": "$.claim.right.right",
+                "quantity": {
+                  "definition": "unit-current voltage difference with target grounded",
+                  "method": "independent_electrical_solve",
+                  "shape": [],
+                  "status": "defined",
+                  "type": "rational",
+                  "value": "3/2"
+                },
+                "shape": [],
+                "status": "defined",
+                "type": "rational",
+                "value": "3/2"
+              },
+              "shape": [],
+              "status": "defined",
+              "type": "rational",
+              "value": "9"
+            },
+            "shape": [],
+            "status": "defined",
+            "type": "boolean",
+            "value": true
+          },
+          "type": "boolean",
+          "value": true
+        },
+        "errors": [],
+        "evaluated_assumptions": [
+          {
+            "expression": {
+              "kind": "quantity",
+              "name": "connected"
+            },
+            "id": "connected-network",
+            "shape": [],
+            "status": "true",
+            "trace": {
+              "kind": "quantity",
+              "name": "connected",
+              "path": "$.assumptions[0].expression",
+              "quantity": {
+                "definition": "all vertices form one component",
+                "method": "graph_search",
+                "shape": [],
+                "status": "defined",
+                "type": "boolean",
+                "value": true
+              },
+              "shape": [],
+              "status": "defined",
+              "type": "boolean",
+              "value": true
+            },
+            "type": "boolean",
+            "value": true
+          }
+        ],
+        "id": "weighted-commute-source-formula",
+        "instance_scope_warning": "The claim holds on this instance only; this is not a universal proof or novelty decision.",
+        "normalized_input": {
+          "assumptions": [
+            {
+              "expression": {
+                "kind": "quantity",
+                "name": "connected"
+              },
+              "id": "connected-network"
+            }
+          ],
+          "claim": {
+            "kind": "binary",
+            "left": {
+              "kind": "quantity",
+              "name": "commute"
+            },
+            "op": "eq",
+            "right": {
+              "kind": "binary",
+              "left": {
+                "kind": "quantity",
+                "name": "total_conductance"
+              },
+              "op": "mul",
+              "right": {
+                "kind": "quantity",
+                "name": "resistance"
+              }
+            }
+          },
+          "graph": {
+            "edges": [
+              {
+                "conductance": "2",
+                "u": 0,
+                "v": 1
+              },
+              {
+                "conductance": "1",
+                "u": 1,
+                "v": 2
+              }
+            ],
+            "n": 3
+          },
+          "id": "weighted-commute-source-formula",
+          "provenance": {
+            "annotation_id": "weighted-commute-source-formula-root-annotation",
+            "annotator": "root-teaching-example-author",
+            "interpretation": "explicit",
+            "kind": "source_annotation",
+            "source_locator": "Second edition, book pp. 131-132, Proposition 10.7 and equations (10.9)-(10.14); graph volume is defined on book p. 116, equation (9.1).",
+            "source_url": "https://pages.uoregon.edu/dlevin/MARKOV/mcmt2e.pdf"
+          },
+          "source": 0,
+          "target": 2
+        },
+        "normalized_input_sha256": "fddfd8d5e534229a4f5e1c995bae75af102d4bf0d0e7248ce59c04b013bef85d",
+        "provenance": {
+          "annotation_id": "weighted-commute-source-formula-root-annotation",
+          "annotator": "root-teaching-example-author",
+          "interpretation": "explicit",
+          "kind": "source_annotation",
+          "source_locator": "Second edition, book pp. 131-132, Proposition 10.7 and equations (10.9)-(10.14); graph volume is defined on book p. 116, equation (9.1).",
+          "source_url": "https://pages.uoregon.edu/dlevin/MARKOV/mcmt2e.pdf"
+        },
+        "quantities": {
+          "commute": {
+            "definition": "E_source[tau_target]+E_target[tau_source]",
+            "method": "sum_of_independent_hitting_solves",
+            "shape": [],
+            "status": "defined",
+            "type": "rational",
+            "value": "9"
+          },
+          "connected": {
+            "definition": "all vertices form one component",
+            "method": "graph_search",
+            "shape": [],
+            "status": "defined",
+            "type": "boolean",
+            "value": true
+          },
+          "resistance": {
+            "definition": "unit-current voltage difference with target grounded",
+            "method": "independent_electrical_solve",
+            "shape": [],
+            "status": "defined",
+            "type": "rational",
+            "value": "3/2"
+          },
+          "total_conductance": {
+            "definition": "sum_degrees=2*sum_edge_conductances (graph volume)",
+            "method": "exact_degree_sum",
+            "shape": [],
+            "status": "defined",
+            "type": "rational",
+            "value": "6"
+          }
+        },
+        "verdict": "no_counterexample_in_instance"
+      },
+      "rerun_matches_retained_semantically": true,
+      "retained_output_path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\assumption-checks\\teaching\\weighted-commute-source-formula.json",
+      "retained_output_sha256": "000a39ba100dd32f61d569fc96ced7725adb871b85620a781ddca6514aae8416",
+      "verdict": "no_counterexample_in_instance"
+    },
+    {
+      "algorithm_version": "atlas-checks/1.0.1",
+      "all_expected_checks_pass": true,
+      "errors": [],
+      "expected_checks": {
+        "claim_is_false": true,
+        "commute_is_9": true,
+        "synthetic_rhs_is_6": true,
+        "verdict_counterexample": true
+      },
+      "fixture_path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\fixtures\\assumption-checks\\teaching\\weighted-commute-synthetic-missing-weights.json",
+      "fixture_sha256": "3162b45ee28d0621e5fae43d82cbf095027d48666e3623e1fbae0591aae1654f",
+      "id": "weighted-commute-synthetic-missing-weights",
+      "observed_output": {
+        "algorithm_version": "atlas-checks/1.0.1",
+        "certificates": {
+          "gauge": {
+            "reason": "no gauge-related quantity was referenced",
+            "status": "not_evaluated"
+          },
+          "period": {
+            "reason": "period was not referenced",
+            "status": "not_evaluated"
+          }
+        },
+        "claim_evaluation": {
+          "expression": {
+            "kind": "binary",
+            "left": {
+              "kind": "quantity",
+              "name": "commute"
+            },
+            "op": "eq",
+            "right": {
+              "kind": "binary",
+              "left": {
+                "kind": "binary",
+                "left": {
+                  "kind": "rational",
+                  "value": "2"
+                },
+                "op": "mul",
+                "right": {
+                  "kind": "quantity",
+                  "name": "edge_count"
+                }
+              },
+              "op": "mul",
+              "right": {
+                "kind": "quantity",
+                "name": "resistance"
+              }
+            }
+          },
+          "shape": [],
+          "status": "false",
+          "trace": {
+            "kind": "binary",
+            "left": {
+              "kind": "quantity",
+              "name": "commute",
+              "path": "$.claim.left",
+              "quantity": {
+                "definition": "E_source[tau_target]+E_target[tau_source]",
+                "method": "sum_of_independent_hitting_solves",
+                "shape": [],
+                "status": "defined",
+                "type": "rational",
+                "value": "9"
+              },
+              "shape": [],
+              "status": "defined",
+              "type": "rational",
+              "value": "9"
+            },
+            "op": "eq",
+            "path": "$.claim",
+            "right": {
+              "kind": "binary",
+              "left": {
+                "kind": "binary",
+                "left": {
+                  "kind": "rational",
+                  "path": "$.claim.right.left.left",
+                  "shape": [],
+                  "status": "defined",
+                  "type": "rational",
+                  "value": "2"
+                },
+                "op": "mul",
+                "path": "$.claim.right.left",
+                "right": {
+                  "kind": "quantity",
+                  "name": "edge_count",
+                  "path": "$.claim.right.left.right",
+                  "quantity": {
+                    "definition": "number of undirected edges",
+                    "method": "input",
+                    "shape": [],
+                    "status": "defined",
+                    "type": "rational",
+                    "value": "2"
+                  },
+                  "shape": [],
+                  "status": "defined",
+                  "type": "rational",
+                  "value": "2"
+                },
+                "shape": [],
+                "status": "defined",
+                "type": "rational",
+                "value": "4"
+              },
+              "op": "mul",
+              "path": "$.claim.right",
+              "right": {
+                "kind": "quantity",
+                "name": "resistance",
+                "path": "$.claim.right.right",
+                "quantity": {
+                  "definition": "unit-current voltage difference with target grounded",
+                  "method": "independent_electrical_solve",
+                  "shape": [],
+                  "status": "defined",
+                  "type": "rational",
+                  "value": "3/2"
+                },
+                "shape": [],
+                "status": "defined",
+                "type": "rational",
+                "value": "3/2"
+              },
+              "shape": [],
+              "status": "defined",
+              "type": "rational",
+              "value": "6"
+            },
+            "shape": [],
+            "status": "defined",
+            "type": "boolean",
+            "value": false
+          },
+          "type": "boolean",
+          "value": false
+        },
+        "errors": [],
+        "evaluated_assumptions": [
+          {
+            "expression": {
+              "kind": "quantity",
+              "name": "connected"
+            },
+            "id": "connected-network",
+            "shape": [],
+            "status": "true",
+            "trace": {
+              "kind": "quantity",
+              "name": "connected",
+              "path": "$.assumptions[0].expression",
+              "quantity": {
+                "definition": "all vertices form one component",
+                "method": "graph_search",
+                "shape": [],
+                "status": "defined",
+                "type": "boolean",
+                "value": true
+              },
+              "shape": [],
+              "status": "defined",
+              "type": "boolean",
+              "value": true
+            },
+            "type": "boolean",
+            "value": true
+          }
+        ],
+        "id": "weighted-commute-synthetic-missing-weights",
+        "normalized_input": {
+          "assumptions": [
+            {
+              "expression": {
+                "kind": "quantity",
+                "name": "connected"
+              },
+              "id": "connected-network"
+            }
+          ],
+          "claim": {
+            "kind": "binary",
+            "left": {
+              "kind": "quantity",
+              "name": "commute"
+            },
+            "op": "eq",
+            "right": {
+              "kind": "binary",
+              "left": {
+                "kind": "binary",
+                "left": {
+                  "kind": "rational",
+                  "value": "2"
+                },
+                "op": "mul",
+                "right": {
+                  "kind": "quantity",
+                  "name": "edge_count"
+                }
+              },
+              "op": "mul",
+              "right": {
+                "kind": "quantity",
+                "name": "resistance"
+              }
+            }
+          },
+          "graph": {
+            "edges": [
+              {
+                "conductance": "2",
+                "u": 0,
+                "v": 1
+              },
+              {
+                "conductance": "1",
+                "u": 1,
+                "v": 2
+              }
+            ],
+            "n": 3
+          },
+          "id": "weighted-commute-synthetic-missing-weights",
+          "provenance": {
+            "annotation_id": "weighted-commute-synthetic-missing-weights-root-annotation",
+            "annotator": "root-teaching-example-author",
+            "interpretation": "explicit",
+            "kind": "synthetic",
+            "source_locator": "Deliberate alteration of the second edition's Proposition 10.7 (book pp. 131-132): replace graph volume by twice the unweighted edge count. This is not a claim made by the source.",
+            "source_url": "https://pages.uoregon.edu/dlevin/MARKOV/mcmt2e.pdf"
+          },
+          "source": 0,
+          "target": 2
+        },
+        "normalized_input_sha256": "c48d945748839e44a4e203cd1228e4922efa0dfbe091f0157babfed505b30f78",
+        "provenance": {
+          "annotation_id": "weighted-commute-synthetic-missing-weights-root-annotation",
+          "annotator": "root-teaching-example-author",
+          "interpretation": "explicit",
+          "kind": "synthetic",
+          "source_locator": "Deliberate alteration of the second edition's Proposition 10.7 (book pp. 131-132): replace graph volume by twice the unweighted edge count. This is not a claim made by the source.",
+          "source_url": "https://pages.uoregon.edu/dlevin/MARKOV/mcmt2e.pdf"
+        },
+        "quantities": {
+          "commute": {
+            "definition": "E_source[tau_target]+E_target[tau_source]",
+            "method": "sum_of_independent_hitting_solves",
+            "shape": [],
+            "status": "defined",
+            "type": "rational",
+            "value": "9"
+          },
+          "connected": {
+            "definition": "all vertices form one component",
+            "method": "graph_search",
+            "shape": [],
+            "status": "defined",
+            "type": "boolean",
+            "value": true
+          },
+          "edge_count": {
+            "definition": "number of undirected edges",
+            "method": "input",
+            "shape": [],
+            "status": "defined",
+            "type": "rational",
+            "value": "2"
+          },
+          "resistance": {
+            "definition": "unit-current voltage difference with target grounded",
+            "method": "independent_electrical_solve",
+            "shape": [],
+            "status": "defined",
+            "type": "rational",
+            "value": "3/2"
+          }
+        },
+        "verdict": "counterexample"
+      },
+      "rerun_matches_retained_semantically": true,
+      "retained_output_path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\assumption-checks\\teaching\\weighted-commute-synthetic-missing-weights.json",
+      "retained_output_sha256": "d112443fa39b3ed547492bc6099a837ae1d56bcdb84eac3a9b84ec6712778685",
+      "verdict": "counterexample"
+    },
+    {
+      "algorithm_version": "atlas-checks/1.0.1",
+      "all_expected_checks_pass": true,
+      "errors": [],
+      "expected_checks": {
+        "claim_not_evaluated": true,
+        "unit_weight_guard_false": true,
+        "verdict_not_applicable": true
+      },
+      "fixture_path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\fixtures\\assumption-checks\\teaching\\weighted-commute-failed-unit-weight-assumption.json",
+      "fixture_sha256": "9cbeed24638bfd8a4ec2805f3e88a63a418a33d6e2d2124ec3033c14457d51de",
+      "id": "weighted-commute-failed-unit-weight-assumption",
+      "observed_output": {
+        "algorithm_version": "atlas-checks/1.0.1",
+        "certificates": {
+          "gauge": {
+            "kind": "laplacian_nullspace",
+            "laplacian_times_ones": [
+              "0",
+              "0",
+              "0"
+            ],
+            "nullity": 1,
+            "ones": [
+              "1",
+              "1",
+              "1"
+            ],
+            "rank": 2,
+            "status": "defined"
+          },
+          "period": {
+            "reason": "period was not referenced",
+            "status": "not_evaluated"
+          }
+        },
+        "claim_evaluation": {
+          "expression": {
+            "kind": "binary",
+            "left": {
+              "kind": "quantity",
+              "name": "commute"
+            },
+            "op": "eq",
+            "right": {
+              "kind": "binary",
+              "left": {
+                "kind": "binary",
+                "left": {
+                  "kind": "rational",
+                  "value": "2"
+                },
+                "op": "mul",
+                "right": {
+                  "kind": "quantity",
+                  "name": "edge_count"
+                }
+              },
+              "op": "mul",
+              "right": {
+                "kind": "quantity",
+                "name": "resistance"
+              }
+            }
+          },
+          "status": "not_evaluated",
+          "trace": {
+            "path": "$.claim",
+            "reason": "at least one recorded theorem assumption is false",
+            "status": "not_evaluated"
+          }
+        },
+        "errors": [],
+        "evaluated_assumptions": [
+          {
+            "expression": {
+              "kind": "quantity",
+              "name": "connected"
+            },
+            "id": "connected-network",
+            "shape": [],
+            "status": "true",
+            "trace": {
+              "kind": "quantity",
+              "name": "connected",
+              "path": "$.assumptions[0].expression",
+              "quantity": {
+                "definition": "all vertices form one component",
+                "method": "graph_search",
+                "shape": [],
+                "status": "defined",
+                "type": "boolean",
+                "value": true
+              },
+              "shape": [],
+              "status": "defined",
+              "type": "boolean",
+              "value": true
+            },
+            "type": "boolean",
+            "value": true
+          },
+          {
+            "expression": {
+              "kind": "binary",
+              "left": {
+                "kind": "binary",
+                "left": {
+                  "kind": "binary",
+                  "left": {
+                    "kind": "boolean",
+                    "value": true
+                  },
+                  "op": "and",
+                  "right": {
+                    "kind": "binary",
+                    "left": {
+                      "kind": "binary",
+                      "left": {
+                        "arg": {
+                          "kind": "quantity",
+                          "name": "laplacian"
+                        },
+                        "indices": [
+                          0,
+                          1
+                        ],
+                        "kind": "entry"
+                      },
+                      "op": "eq",
+                      "right": {
+                        "kind": "rational",
+                        "value": "0"
+                      }
+                    },
+                    "op": "or",
+                    "right": {
+                      "kind": "binary",
+                      "left": {
+                        "arg": {
+                          "kind": "quantity",
+                          "name": "laplacian"
+                        },
+                        "indices": [
+                          0,
+                          1
+                        ],
+                        "kind": "entry"
+                      },
+                      "op": "eq",
+                      "right": {
+                        "kind": "rational",
+                        "value": "-1"
+                      }
+                    }
+                  }
+                },
+                "op": "and",
+                "right": {
+                  "kind": "binary",
+                  "left": {
+                    "kind": "binary",
+                    "left": {
+                      "arg": {
+                        "kind": "quantity",
+                        "name": "laplacian"
+                      },
+                      "indices": [
+                        0,
+                        2
+                      ],
+                      "kind": "entry"
+                    },
+                    "op": "eq",
+                    "right": {
+                      "kind": "rational",
+                      "value": "0"
+                    }
+                  },
+                  "op": "or",
+                  "right": {
+                    "kind": "binary",
+                    "left": {
+                      "arg": {
+                        "kind": "quantity",
+                        "name": "laplacian"
+                      },
+                      "indices": [
+                        0,
+                        2
+                      ],
+                      "kind": "entry"
+                    },
+                    "op": "eq",
+                    "right": {
+                      "kind": "rational",
+                      "value": "-1"
+                    }
+                  }
+                }
+              },
+              "op": "and",
+              "right": {
+                "kind": "binary",
+                "left": {
+                  "kind": "binary",
+                  "left": {
+                    "arg": {
+                      "kind": "quantity",
+                      "name": "laplacian"
+                    },
+                    "indices": [
+                      1,
+                      2
+                    ],
+                    "kind": "entry"
+                  },
+                  "op": "eq",
+                  "right": {
+                    "kind": "rational",
+                    "value": "0"
+                  }
+                },
+                "op": "or",
+                "right": {
+                  "kind": "binary",
+                  "left": {
+                    "arg": {
+                      "kind": "quantity",
+                      "name": "laplacian"
+                    },
+                    "indices": [
+                      1,
+                      2
+                    ],
+                    "kind": "entry"
+                  },
+                  "op": "eq",
+                  "right": {
+                    "kind": "rational",
+                    "value": "-1"
+                  }
+                }
+              }
+            },
+            "id": "all-edges-unit-conductance",
+            "shape": [],
+            "status": "false",
+            "trace": {
+              "kind": "binary",
+              "left": {
+                "kind": "binary",
+                "left": {
+                  "kind": "binary",
+                  "left": {
+                    "kind": "boolean",
+                    "path": "$.assumptions[1].expression.left.left.left",
+                    "shape": [],
+                    "status": "defined",
+                    "type": "boolean",
+                    "value": true
+                  },
+                  "op": "and",
+                  "path": "$.assumptions[1].expression.left.left",
+                  "right": {
+                    "kind": "binary",
+                    "left": {
+                      "kind": "binary",
+                      "left": {
+                        "arg": {
+                          "kind": "quantity",
+                          "name": "laplacian",
+                          "path": "$.assumptions[1].expression.left.left.right.left.left.arg",
+                          "quantity": {
+                            "definition": "L=D-A with conductances in A",
+                            "method": "exact_combinatorial_construction",
+                            "shape": [
+                              3,
+                              3
+                            ],
+                            "status": "defined",
+                            "type": "rational_matrix",
+                            "value": [
+                              [
+                                "2",
+                                "-2",
+                                "0"
+                              ],
+                              [
+                                "-2",
+                                "3",
+                                "-1"
+                              ],
+                              [
+                                "0",
+                                "-1",
+                                "1"
+                              ]
+                            ]
+                          },
+                          "shape": [
+                            3,
+                            3
+                          ],
+                          "status": "defined",
+                          "type": "rational_matrix",
+                          "value": [
+                            [
+                              "2",
+                              "-2",
+                              "0"
+                            ],
+                            [
+                              "-2",
+                              "3",
+                              "-1"
+                            ],
+                            [
+                              "0",
+                              "-1",
+                              "1"
+                            ]
+                          ]
+                        },
+                        "indices": [
+                          0,
+                          1
+                        ],
+                        "kind": "entry",
+                        "path": "$.assumptions[1].expression.left.left.right.left.left",
+                        "shape": [],
+                        "status": "defined",
+                        "type": "rational",
+                        "value": "-2"
+                      },
+                      "op": "eq",
+                      "path": "$.assumptions[1].expression.left.left.right.left",
+                      "right": {
+                        "kind": "rational",
+                        "path": "$.assumptions[1].expression.left.left.right.left.right",
+                        "shape": [],
+                        "status": "defined",
+                        "type": "rational",
+                        "value": "0"
+                      },
+                      "shape": [],
+                      "status": "defined",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    "op": "or",
+                    "path": "$.assumptions[1].expression.left.left.right",
+                    "right": {
+                      "kind": "binary",
+                      "left": {
+                        "arg": {
+                          "kind": "quantity",
+                          "name": "laplacian",
+                          "path": "$.assumptions[1].expression.left.left.right.right.left.arg",
+                          "quantity": {
+                            "definition": "L=D-A with conductances in A",
+                            "method": "exact_combinatorial_construction",
+                            "shape": [
+                              3,
+                              3
+                            ],
+                            "status": "defined",
+                            "type": "rational_matrix",
+                            "value": [
+                              [
+                                "2",
+                                "-2",
+                                "0"
+                              ],
+                              [
+                                "-2",
+                                "3",
+                                "-1"
+                              ],
+                              [
+                                "0",
+                                "-1",
+                                "1"
+                              ]
+                            ]
+                          },
+                          "shape": [
+                            3,
+                            3
+                          ],
+                          "status": "defined",
+                          "type": "rational_matrix",
+                          "value": [
+                            [
+                              "2",
+                              "-2",
+                              "0"
+                            ],
+                            [
+                              "-2",
+                              "3",
+                              "-1"
+                            ],
+                            [
+                              "0",
+                              "-1",
+                              "1"
+                            ]
+                          ]
+                        },
+                        "indices": [
+                          0,
+                          1
+                        ],
+                        "kind": "entry",
+                        "path": "$.assumptions[1].expression.left.left.right.right.left",
+                        "shape": [],
+                        "status": "defined",
+                        "type": "rational",
+                        "value": "-2"
+                      },
+                      "op": "eq",
+                      "path": "$.assumptions[1].expression.left.left.right.right",
+                      "right": {
+                        "kind": "rational",
+                        "path": "$.assumptions[1].expression.left.left.right.right.right",
+                        "shape": [],
+                        "status": "defined",
+                        "type": "rational",
+                        "value": "-1"
+                      },
+                      "shape": [],
+                      "status": "defined",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    "shape": [],
+                    "status": "defined",
+                    "type": "boolean",
+                    "value": false
+                  },
+                  "shape": [],
+                  "status": "defined",
+                  "type": "boolean",
+                  "value": false
+                },
+                "op": "and",
+                "path": "$.assumptions[1].expression.left",
+                "right": {
+                  "kind": "binary",
+                  "left": {
+                    "kind": "binary",
+                    "left": {
+                      "arg": {
+                        "kind": "quantity",
+                        "name": "laplacian",
+                        "path": "$.assumptions[1].expression.left.right.left.left.arg",
+                        "quantity": {
+                          "definition": "L=D-A with conductances in A",
+                          "method": "exact_combinatorial_construction",
+                          "shape": [
+                            3,
+                            3
+                          ],
+                          "status": "defined",
+                          "type": "rational_matrix",
+                          "value": [
+                            [
+                              "2",
+                              "-2",
+                              "0"
+                            ],
+                            [
+                              "-2",
+                              "3",
+                              "-1"
+                            ],
+                            [
+                              "0",
+                              "-1",
+                              "1"
+                            ]
+                          ]
+                        },
+                        "shape": [
+                          3,
+                          3
+                        ],
+                        "status": "defined",
+                        "type": "rational_matrix",
+                        "value": [
+                          [
+                            "2",
+                            "-2",
+                            "0"
+                          ],
+                          [
+                            "-2",
+                            "3",
+                            "-1"
+                          ],
+                          [
+                            "0",
+                            "-1",
+                            "1"
+                          ]
+                        ]
+                      },
+                      "indices": [
+                        0,
+                        2
+                      ],
+                      "kind": "entry",
+                      "path": "$.assumptions[1].expression.left.right.left.left",
+                      "shape": [],
+                      "status": "defined",
+                      "type": "rational",
+                      "value": "0"
+                    },
+                    "op": "eq",
+                    "path": "$.assumptions[1].expression.left.right.left",
+                    "right": {
+                      "kind": "rational",
+                      "path": "$.assumptions[1].expression.left.right.left.right",
+                      "shape": [],
+                      "status": "defined",
+                      "type": "rational",
+                      "value": "0"
+                    },
+                    "shape": [],
+                    "status": "defined",
+                    "type": "boolean",
+                    "value": true
+                  },
+                  "op": "or",
+                  "path": "$.assumptions[1].expression.left.right",
+                  "right": {
+                    "kind": "binary",
+                    "left": {
+                      "arg": {
+                        "kind": "quantity",
+                        "name": "laplacian",
+                        "path": "$.assumptions[1].expression.left.right.right.left.arg",
+                        "quantity": {
+                          "definition": "L=D-A with conductances in A",
+                          "method": "exact_combinatorial_construction",
+                          "shape": [
+                            3,
+                            3
+                          ],
+                          "status": "defined",
+                          "type": "rational_matrix",
+                          "value": [
+                            [
+                              "2",
+                              "-2",
+                              "0"
+                            ],
+                            [
+                              "-2",
+                              "3",
+                              "-1"
+                            ],
+                            [
+                              "0",
+                              "-1",
+                              "1"
+                            ]
+                          ]
+                        },
+                        "shape": [
+                          3,
+                          3
+                        ],
+                        "status": "defined",
+                        "type": "rational_matrix",
+                        "value": [
+                          [
+                            "2",
+                            "-2",
+                            "0"
+                          ],
+                          [
+                            "-2",
+                            "3",
+                            "-1"
+                          ],
+                          [
+                            "0",
+                            "-1",
+                            "1"
+                          ]
+                        ]
+                      },
+                      "indices": [
+                        0,
+                        2
+                      ],
+                      "kind": "entry",
+                      "path": "$.assumptions[1].expression.left.right.right.left",
+                      "shape": [],
+                      "status": "defined",
+                      "type": "rational",
+                      "value": "0"
+                    },
+                    "op": "eq",
+                    "path": "$.assumptions[1].expression.left.right.right",
+                    "right": {
+                      "kind": "rational",
+                      "path": "$.assumptions[1].expression.left.right.right.right",
+                      "shape": [],
+                      "status": "defined",
+                      "type": "rational",
+                      "value": "-1"
+                    },
+                    "shape": [],
+                    "status": "defined",
+                    "type": "boolean",
+                    "value": false
+                  },
+                  "shape": [],
+                  "status": "defined",
+                  "type": "boolean",
+                  "value": true
+                },
+                "shape": [],
+                "status": "defined",
+                "type": "boolean",
+                "value": false
+              },
+              "op": "and",
+              "path": "$.assumptions[1].expression",
+              "right": {
+                "kind": "binary",
+                "left": {
+                  "kind": "binary",
+                  "left": {
+                    "arg": {
+                      "kind": "quantity",
+                      "name": "laplacian",
+                      "path": "$.assumptions[1].expression.right.left.left.arg",
+                      "quantity": {
+                        "definition": "L=D-A with conductances in A",
+                        "method": "exact_combinatorial_construction",
+                        "shape": [
+                          3,
+                          3
+                        ],
+                        "status": "defined",
+                        "type": "rational_matrix",
+                        "value": [
+                          [
+                            "2",
+                            "-2",
+                            "0"
+                          ],
+                          [
+                            "-2",
+                            "3",
+                            "-1"
+                          ],
+                          [
+                            "0",
+                            "-1",
+                            "1"
+                          ]
+                        ]
+                      },
+                      "shape": [
+                        3,
+                        3
+                      ],
+                      "status": "defined",
+                      "type": "rational_matrix",
+                      "value": [
+                        [
+                          "2",
+                          "-2",
+                          "0"
+                        ],
+                        [
+                          "-2",
+                          "3",
+                          "-1"
+                        ],
+                        [
+                          "0",
+                          "-1",
+                          "1"
+                        ]
+                      ]
+                    },
+                    "indices": [
+                      1,
+                      2
+                    ],
+                    "kind": "entry",
+                    "path": "$.assumptions[1].expression.right.left.left",
+                    "shape": [],
+                    "status": "defined",
+                    "type": "rational",
+                    "value": "-1"
+                  },
+                  "op": "eq",
+                  "path": "$.assumptions[1].expression.right.left",
+                  "right": {
+                    "kind": "rational",
+                    "path": "$.assumptions[1].expression.right.left.right",
+                    "shape": [],
+                    "status": "defined",
+                    "type": "rational",
+                    "value": "0"
+                  },
+                  "shape": [],
+                  "status": "defined",
+                  "type": "boolean",
+                  "value": false
+                },
+                "op": "or",
+                "path": "$.assumptions[1].expression.right",
+                "right": {
+                  "kind": "binary",
+                  "left": {
+                    "arg": {
+                      "kind": "quantity",
+                      "name": "laplacian",
+                      "path": "$.assumptions[1].expression.right.right.left.arg",
+                      "quantity": {
+                        "definition": "L=D-A with conductances in A",
+                        "method": "exact_combinatorial_construction",
+                        "shape": [
+                          3,
+                          3
+                        ],
+                        "status": "defined",
+                        "type": "rational_matrix",
+                        "value": [
+                          [
+                            "2",
+                            "-2",
+                            "0"
+                          ],
+                          [
+                            "-2",
+                            "3",
+                            "-1"
+                          ],
+                          [
+                            "0",
+                            "-1",
+                            "1"
+                          ]
+                        ]
+                      },
+                      "shape": [
+                        3,
+                        3
+                      ],
+                      "status": "defined",
+                      "type": "rational_matrix",
+                      "value": [
+                        [
+                          "2",
+                          "-2",
+                          "0"
+                        ],
+                        [
+                          "-2",
+                          "3",
+                          "-1"
+                        ],
+                        [
+                          "0",
+                          "-1",
+                          "1"
+                        ]
+                      ]
+                    },
+                    "indices": [
+                      1,
+                      2
+                    ],
+                    "kind": "entry",
+                    "path": "$.assumptions[1].expression.right.right.left",
+                    "shape": [],
+                    "status": "defined",
+                    "type": "rational",
+                    "value": "-1"
+                  },
+                  "op": "eq",
+                  "path": "$.assumptions[1].expression.right.right",
+                  "right": {
+                    "kind": "rational",
+                    "path": "$.assumptions[1].expression.right.right.right",
+                    "shape": [],
+                    "status": "defined",
+                    "type": "rational",
+                    "value": "-1"
+                  },
+                  "shape": [],
+                  "status": "defined",
+                  "type": "boolean",
+                  "value": true
+                },
+                "shape": [],
+                "status": "defined",
+                "type": "boolean",
+                "value": true
+              },
+              "shape": [],
+              "status": "defined",
+              "type": "boolean",
+              "value": false
+            },
+            "type": "boolean",
+            "value": false
+          }
+        ],
+        "id": "weighted-commute-failed-unit-weight-assumption",
+        "normalized_input": {
+          "assumptions": [
+            {
+              "expression": {
+                "kind": "quantity",
+                "name": "connected"
+              },
+              "id": "connected-network"
+            },
+            {
+              "expression": {
+                "kind": "binary",
+                "left": {
+                  "kind": "binary",
+                  "left": {
+                    "kind": "binary",
+                    "left": {
+                      "kind": "boolean",
+                      "value": true
+                    },
+                    "op": "and",
+                    "right": {
+                      "kind": "binary",
+                      "left": {
+                        "kind": "binary",
+                        "left": {
+                          "arg": {
+                            "kind": "quantity",
+                            "name": "laplacian"
+                          },
+                          "indices": [
+                            0,
+                            1
+                          ],
+                          "kind": "entry"
+                        },
+                        "op": "eq",
+                        "right": {
+                          "kind": "rational",
+                          "value": "0"
+                        }
+                      },
+                      "op": "or",
+                      "right": {
+                        "kind": "binary",
+                        "left": {
+                          "arg": {
+                            "kind": "quantity",
+                            "name": "laplacian"
+                          },
+                          "indices": [
+                            0,
+                            1
+                          ],
+                          "kind": "entry"
+                        },
+                        "op": "eq",
+                        "right": {
+                          "kind": "rational",
+                          "value": "-1"
+                        }
+                      }
+                    }
+                  },
+                  "op": "and",
+                  "right": {
+                    "kind": "binary",
+                    "left": {
+                      "kind": "binary",
+                      "left": {
+                        "arg": {
+                          "kind": "quantity",
+                          "name": "laplacian"
+                        },
+                        "indices": [
+                          0,
+                          2
+                        ],
+                        "kind": "entry"
+                      },
+                      "op": "eq",
+                      "right": {
+                        "kind": "rational",
+                        "value": "0"
+                      }
+                    },
+                    "op": "or",
+                    "right": {
+                      "kind": "binary",
+                      "left": {
+                        "arg": {
+                          "kind": "quantity",
+                          "name": "laplacian"
+                        },
+                        "indices": [
+                          0,
+                          2
+                        ],
+                        "kind": "entry"
+                      },
+                      "op": "eq",
+                      "right": {
+                        "kind": "rational",
+                        "value": "-1"
+                      }
+                    }
+                  }
+                },
+                "op": "and",
+                "right": {
+                  "kind": "binary",
+                  "left": {
+                    "kind": "binary",
+                    "left": {
+                      "arg": {
+                        "kind": "quantity",
+                        "name": "laplacian"
+                      },
+                      "indices": [
+                        1,
+                        2
+                      ],
+                      "kind": "entry"
+                    },
+                    "op": "eq",
+                    "right": {
+                      "kind": "rational",
+                      "value": "0"
+                    }
+                  },
+                  "op": "or",
+                  "right": {
+                    "kind": "binary",
+                    "left": {
+                      "arg": {
+                        "kind": "quantity",
+                        "name": "laplacian"
+                      },
+                      "indices": [
+                        1,
+                        2
+                      ],
+                      "kind": "entry"
+                    },
+                    "op": "eq",
+                    "right": {
+                      "kind": "rational",
+                      "value": "-1"
+                    }
+                  }
+                }
+              },
+              "id": "all-edges-unit-conductance"
+            }
+          ],
+          "claim": {
+            "kind": "binary",
+            "left": {
+              "kind": "quantity",
+              "name": "commute"
+            },
+            "op": "eq",
+            "right": {
+              "kind": "binary",
+              "left": {
+                "kind": "binary",
+                "left": {
+                  "kind": "rational",
+                  "value": "2"
+                },
+                "op": "mul",
+                "right": {
+                  "kind": "quantity",
+                  "name": "edge_count"
+                }
+              },
+              "op": "mul",
+              "right": {
+                "kind": "quantity",
+                "name": "resistance"
+              }
+            }
+          },
+          "graph": {
+            "edges": [
+              {
+                "conductance": "2",
+                "u": 0,
+                "v": 1
+              },
+              {
+                "conductance": "1",
+                "u": 1,
+                "v": 2
+              }
+            ],
+            "n": 3
+          },
+          "id": "weighted-commute-failed-unit-weight-assumption",
+          "provenance": {
+            "annotation_id": "weighted-commute-failed-unit-weight-assumption-root-annotation",
+            "annotator": "root-teaching-example-author",
+            "interpretation": "explicit",
+            "kind": "synthetic",
+            "source_locator": "Teaching example: the unweighted specialization is explicitly guarded by unit edge weights. The chosen weighted graph violates that guard.",
+            "source_url": "https://pages.uoregon.edu/dlevin/MARKOV/mcmt2e.pdf"
+          },
+          "source": 0,
+          "target": 2
+        },
+        "normalized_input_sha256": "7deaffe6f4fd929477f63ef26a48c15a752aa6a208e9f31b6decd8703190ad75",
+        "provenance": {
+          "annotation_id": "weighted-commute-failed-unit-weight-assumption-root-annotation",
+          "annotator": "root-teaching-example-author",
+          "interpretation": "explicit",
+          "kind": "synthetic",
+          "source_locator": "Teaching example: the unweighted specialization is explicitly guarded by unit edge weights. The chosen weighted graph violates that guard.",
+          "source_url": "https://pages.uoregon.edu/dlevin/MARKOV/mcmt2e.pdf"
+        },
+        "quantities": {
+          "connected": {
+            "definition": "all vertices form one component",
+            "method": "graph_search",
+            "shape": [],
+            "status": "defined",
+            "type": "boolean",
+            "value": true
+          },
+          "laplacian": {
+            "definition": "L=D-A with conductances in A",
+            "method": "exact_combinatorial_construction",
+            "shape": [
+              3,
+              3
+            ],
+            "status": "defined",
+            "type": "rational_matrix",
+            "value": [
+              [
+                "2",
+                "-2",
+                "0"
+              ],
+              [
+                "-2",
+                "3",
+                "-1"
+              ],
+              [
+                "0",
+                "-1",
+                "1"
+              ]
+            ]
+          }
+        },
+        "verdict": "not_applicable"
+      },
+      "rerun_matches_retained_semantically": true,
+      "retained_output_path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\assumption-checks\\teaching\\weighted-commute-failed-unit-weight-assumption.json",
+      "retained_output_sha256": "85df6cb999a018ca802910761a86be05ee646727251590bc1a00b12b1b1ce341",
+      "verdict": "not_applicable"
+    }
+  ],
+  "run_at": "2026-09-08T02:52:20.997816Z",
+  "schema_version": "1.0",
+  "scope": "Independent semantic rerun of three root-authored teaching fixtures; these are not held-out evaluation cases or retrieved-source annotations."
+}

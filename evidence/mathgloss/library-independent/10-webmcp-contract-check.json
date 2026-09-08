@@ -1,0 +1,30 @@
+{
+  "argv": [
+    "node",
+    "--experimental-strip-types",
+    "--experimental-loader",
+    "file:///D:/CodexWorkspaces/mathematics-atlas/library-audit-work/library-alias-loader.mjs",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work\\check_library_webmcp.mjs"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work",
+  "duration_seconds": 0.19820010001421906,
+  "ended_at_utc": "2026-09-08T04:14:31.551506+00:00",
+  "exit_code": 0,
+  "schema_version": "command-evidence-v1",
+  "started_at_utc": "2026-09-08T04:14:31.353297+00:00",
+  "stderr": {
+    "base64": "KG5vZGU6MTgwMzYpIEV4cGVyaW1lbnRhbFdhcm5pbmc6IGAtLWV4cGVyaW1lbnRhbC1sb2FkZXJgIG1heSBiZSByZW1vdmVkIGluIHRoZSBmdXR1cmU7IGluc3RlYWQgdXNlIGByZWdpc3RlcigpYDoKLS1pbXBvcnQgJ2RhdGE6dGV4dC9qYXZhc2NyaXB0LGltcG9ydCB7IHJlZ2lzdGVyIH0gZnJvbSAibm9kZTptb2R1bGUiOyBpbXBvcnQgeyBwYXRoVG9GaWxlVVJMIH0gZnJvbSAibm9kZTp1cmwiOyByZWdpc3RlcigiZmlsZSUzQS8vL0QlM0EvQ29kZXhXb3Jrc3BhY2VzL21hdGhlbWF0aWNzLWF0bGFzL2xpYnJhcnktYXVkaXQtd29yay9saWJyYXJ5LWFsaWFzLWxvYWRlci5tanMiLCBwYXRoVG9GaWxlVVJMKCIuLyIpKTsnCihVc2UgYG5vZGUgLS10cmFjZS13YXJuaW5ncyAuLi5gIHRvIHNob3cgd2hlcmUgdGhlIHdhcm5pbmcgd2FzIGNyZWF0ZWQpCg==",
+    "bytes": 427,
+    "sha256": "b866a23dbc873ef97100867a688fd492fe4c1c93c57a16b2ebcb053cf2d036dd",
+    "utf8_text": "(node:18036) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:\n--import 'data:text/javascript,import { register } from \"node:module\"; import { pathToFileURL } from \"node:url\"; register(\"file%3A///D%3A/CodexWorkspaces/mathematics-atlas/library-audit-work/library-alias-loader.mjs\", pathToFileURL(\"./\"));'\n(Use `node --trace-warnings ...` to show where the warning was created)\n",
+    "valid_utf8": true
+  },
+  "stdout": {
+    "base64": "eyJzdGF0dXMiOiJwYXNzIiwib3V0cHV0IjoiRDovQ29kZXhXb3Jrc3BhY2VzL21hdGhlbWF0aWNzLWF0bGFzL2xpYnJhcnktYXVkaXQtd29yay93ZWJtY3AtY29udHJhY3QtY2hlY2suanNvbiJ9Cg==",
+    "bytes": 112,
+    "sha256": "1c6b5f810ba77550eda9e830557d533a1bfab4bf610558461d5116458db26dd7",
+    "utf8_text": "{\"status\":\"pass\",\"output\":\"D:/CodexWorkspaces/mathematics-atlas/library-audit-work/webmcp-contract-check.json\"}\n",
+    "valid_utf8": true
+  },
+  "windows_command_line": "node --experimental-strip-types --experimental-loader file:///D:/CodexWorkspaces/mathematics-atlas/library-audit-work/library-alias-loader.mjs D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work\\check_library_webmcp.mjs"
+}

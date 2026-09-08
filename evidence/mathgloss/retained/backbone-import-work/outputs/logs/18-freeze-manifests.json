@@ -1,0 +1,31 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--locked",
+    "python",
+    "scripts\\freeze_manifests.py",
+    ".."
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\backbone-import-work\\implementation",
+  "duration_seconds": 0.1708980999828782,
+  "ended_at_utc": "2026-09-08T03:26:54.844262+00:00",
+  "exit_code": 1,
+  "schema_version": "command-evidence-v1",
+  "started_at_utc": "2026-09-08T03:26:54.673355+00:00",
+  "stderr": {
+    "base64": "VHJhY2ViYWNrIChtb3N0IHJlY2VudCBjYWxsIGxhc3QpOg0KICBGaWxlICJEOlxDb2RleFdvcmtzcGFjZXNcbWF0aGVtYXRpY3MtYXRsYXNcYmFja2JvbmUtaW1wb3J0LXdvcmtcaW1wbGVtZW50YXRpb25cc2NyaXB0c1xmcmVlemVfbWFuaWZlc3RzLnB5IiwgbGluZSA1MTYsIGluIDxtb2R1bGU+DQogICAgcmFpc2UgU3lzdGVtRXhpdChtYWluKCkpDQogICAgICAgICAgICAgICAgICAgICB+fn5+Xl4NCiAgRmlsZSAiRDpcQ29kZXhXb3Jrc3BhY2VzXG1hdGhlbWF0aWNzLWF0bGFzXGJhY2tib25lLWltcG9ydC13b3JrXGltcGxlbWVudGF0aW9uXHNjcmlwdHNcZnJlZXplX21hbmlmZXN0cy5weSIsIGxpbmUgNTEwLCBpbiBtYWluDQogICAgcGF0aHMgPSBmcmVlemUoX3BhcnNlcigpLnBhcnNlX2FyZ3MoKS53b3JrX3Jvb3QpDQogIEZpbGUgIkQ6XENvZGV4V29ya3NwYWNlc1xtYXRoZW1hdGljcy1hdGxhc1xiYWNrYm9uZS1pbXBvcnQtd29ya1xpbXBsZW1lbnRhdGlvblxzY3JpcHRzXGZyZWV6ZV9tYW5pZmVzdHMucHkiLCBsaW5lIDQyNiwgaW4gZnJlZXplDQogICAgcmFpc2UgVmFsdWVFcnJvcigicHJpb3IgaW5kZXBlbmRlbnQgc291cmNlLWF1ZGl0IGhhc2ggZGlmZmVycyIpDQpWYWx1ZUVycm9yOiBwcmlvciBpbmRlcGVuZGVudCBzb3VyY2UtYXVkaXQgaGFzaCBkaWZmZXJzDQo=",
+    "bytes": 671,
+    "sha256": "d47f2e0df3a451b332bb9c29debf0ef8640ccde1ce83017867eb08bc3cc11a76",
+    "utf8_text": "Traceback (most recent call last):\r\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\backbone-import-work\\implementation\\scripts\\freeze_manifests.py\", line 516, in <module>\r\n    raise SystemExit(main())\r\n                     ~~~~^^\r\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\backbone-import-work\\implementation\\scripts\\freeze_manifests.py\", line 510, in main\r\n    paths = freeze(_parser().parse_args().work_root)\r\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\backbone-import-work\\implementation\\scripts\\freeze_manifests.py\", line 426, in freeze\r\n    raise ValueError(\"prior independent source-audit hash differs\")\r\nValueError: prior independent source-audit hash differs\r\n",
+    "valid_utf8": true
+  },
+  "stdout": {
+    "base64": "",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "utf8_text": "",
+    "valid_utf8": true
+  },
+  "windows_command_line": "uv run --locked python scripts\\freeze_manifests.py .."
+}

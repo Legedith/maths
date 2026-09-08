@@ -1,0 +1,76 @@
+{
+  "attempt": 1,
+  "elapsed_seconds": 16.357108500000322,
+  "ended_at_utc": "2026-09-08T01:53:43.947357+00:00",
+  "http_reason": "OK",
+  "http_status": 200,
+  "method": "POST",
+  "occurrences": [
+    {
+      "paper_id": "0802.2576v2",
+      "paper_link": "http://arxiv.org/abs/0802.2576v2",
+      "paper_title": "Simplicial matrix-tree theorems",
+      "query_id": "Q01",
+      "rank": 1,
+      "slogan_id": 8059737,
+      "theorem_id": 23150070,
+      "theorem_name": "Theorem 1.2 ({\\bf Weighted Matrix-Tree Theorem})"
+    },
+    {
+      "paper_id": "1612.07898v1",
+      "paper_link": "http://arxiv.org/abs/1612.07898v1",
+      "paper_title": "On component groups of Jacobians of quaternionic modular curves",
+      "query_id": "Q01",
+      "rank": 2,
+      "slogan_id": 6023811,
+      "theorem_id": 21091970,
+      "theorem_name": "Theorem 2.1"
+    }
+  ],
+  "parse_error": null,
+  "query_id": "Q01",
+  "request_byte_count": 107,
+  "request_headers": {
+    "Accept": "application/json",
+    "Content-Length": "107",
+    "Content-Type": "application/json",
+    "User-Agent": "MathematicsAtlas-retrieval-study-v1/1.0"
+  },
+  "request_path": "Q01-request.json",
+  "request_sha256": "35866b4bc5793502a60ff905f546643f3a5abe4a273bd73d63f73dacb6f821e4",
+  "response_bound_bytes": 5000000,
+  "response_byte_count_retained": 3009,
+  "response_exceeded_bound": false,
+  "response_headers": [
+    [
+      "content-length",
+      "3009"
+    ],
+    [
+      "content-type",
+      "application/json"
+    ],
+    [
+      "date",
+      "Tue, 08 Sep 2026 01:53:28 GMT"
+    ],
+    [
+      "server",
+      "envoy"
+    ],
+    [
+      "x-envoy-upstream-service-time",
+      "15193"
+    ],
+    [
+      "connection",
+      "close"
+    ]
+  ],
+  "response_path": "Q01-response.bin",
+  "response_sha256": "f185f5a469108d8497333aff95d8f315bb97fabeff0c0cf0e0fbb6204b15620a",
+  "returned_result_count": 2,
+  "started_at_utc": "2026-09-08T01:53:27.590249+00:00",
+  "transport_error": null,
+  "url": "https://api.theoremsearch.com/search"
+}

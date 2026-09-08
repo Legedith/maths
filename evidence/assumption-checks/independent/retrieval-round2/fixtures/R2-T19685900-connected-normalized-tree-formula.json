@@ -1,0 +1,74 @@
+{
+  "assumptions": [
+    {
+      "expression": {
+        "kind": "quantity",
+        "name": "connected"
+      },
+      "id": "connected-network"
+    }
+  ],
+  "claim": {
+    "kind": "binary",
+    "left": {
+      "kind": "binary",
+      "left": {
+        "kind": "quantity",
+        "name": "total_conductance"
+      },
+      "op": "mul",
+      "right": {
+        "kind": "quantity",
+        "name": "tree_mass"
+      }
+    },
+    "op": "eq",
+    "right": {
+      "kind": "binary",
+      "left": {
+        "arg": {
+          "kind": "quantity",
+          "name": "degrees"
+        },
+        "kind": "unary",
+        "op": "product"
+      },
+      "op": "mul",
+      "right": {
+        "kind": "quantity",
+        "name": "rw_nonzero_spectrum_product"
+      }
+    }
+  },
+  "graph": {
+    "edges": [
+      {
+        "conductance": 1,
+        "u": 0,
+        "v": 1
+      },
+      {
+        "conductance": 1,
+        "u": 1,
+        "v": 2
+      },
+      {
+        "conductance": 1,
+        "u": 2,
+        "v": 3
+      }
+    ],
+    "n": 4
+  },
+  "id": "R2-T19685900-connected-normalized-tree-formula",
+  "provenance": {
+    "annotation_id": "retrieval-round2-19685900",
+    "annotator": "/root/sol_atlas_audit",
+    "interpretation": "explicit",
+    "kind": "source_annotation",
+    "source_locator": "Source-mapped instance check. PDF pp. 1-3, normalized-Laplacian convention and Theorem 2.5.",
+    "source_url": "https://arxiv.org/pdf/2009.04139v1"
+  },
+  "source": 0,
+  "target": 3
+}

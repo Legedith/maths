@@ -1,0 +1,268 @@
+{
+  "auditor": "/root/sol_symmetry_audit",
+  "checks": {
+    "implementation_alignment": "pass",
+    "reproduction": "pass",
+    "source_verification": "pass",
+    "specification_compliance": "pass"
+  },
+  "excluded": [
+    {
+      "path": "portable-copy/",
+      "reason": "Temporary exact copies of project/importer code and pinned input used for isolated execution; hashes and the evaluating scripts/logs are retained."
+    },
+    {
+      "path": "portable-reproduction/",
+      "reason": "Generated full candidate index and ledger copies are large duplicates; exact output hashes are retained in 09-portable-reproduction.json."
+    },
+    {
+      "path": "19-write-publication-manifest.json",
+      "reason": "The command log is created after this manifest and cannot be self-listed without circularity."
+    }
+  ],
+  "files": [
+    {
+      "bytes": 16038,
+      "kind": "independent-verification",
+      "note": "Final scoped verdict with four explicit gate statuses and limitations.",
+      "path": "final-library-audit.json",
+      "sha256": "42b0aac78525ac8863d2292834fdcf360293c58b10a8e25f0b2a11b649cb3bfb"
+    },
+    {
+      "bytes": 1662,
+      "kind": "command-log",
+      "note": "Raw successful command record that constructed the final audit report.",
+      "path": "18-write-final-library-audit.json",
+      "sha256": "95077fcdb1adff3f0a4a9d8d64bff400eb32d99d84e56ed95f8266e76f0b9ed0"
+    },
+    {
+      "bytes": 581109,
+      "kind": "evaluator-contract",
+      "note": "Prospective cases frozen before implementation inspection; includes provisional oracle outputs.",
+      "path": "independent-cases.json",
+      "sha256": "108c67ef95d33892a805be1a6a55a9349988b372a2c783a3703f7548548f3ea5"
+    },
+    {
+      "bytes": 1736,
+      "kind": "command-log",
+      "note": "Raw successful command record for freezing the independent cases.",
+      "path": "01-freeze-independent-cases.json",
+      "sha256": "56fa6f04cc607a896449921f0a5fcd50cbe321b5040cbe9c2ffa67119b238aec"
+    },
+    {
+      "bytes": 8650,
+      "kind": "test",
+      "note": "Final independent documented-policy fidelity, search, filter, ordering and pagination result.",
+      "path": "navigation-check.json",
+      "sha256": "3107b711d09cdb107b109aaec720798b527bea066c9e7d3cefb7f3e7a62ed749"
+    },
+    {
+      "bytes": 1217,
+      "kind": "test-log",
+      "note": "Raw successful final navigation command record.",
+      "path": "17-navigation-check-final.json",
+      "sha256": "2f70e395984cc6709a5304385a81c905ec4d8c51e06b5bfd8b9bda665fff6159"
+    },
+    {
+      "bytes": 4047,
+      "kind": "test",
+      "note": "Final independent route boundary and no-store result.",
+      "path": "route-check.json",
+      "sha256": "6bf5f38a3863ee6b519dad0da4eae8cc17953a0cdd4d17dc2e6f4ff04a13f495"
+    },
+    {
+      "bytes": 2439,
+      "kind": "test-log",
+      "note": "Raw successful route command after retained harness-loader setup failures.",
+      "path": "08-route-check-attempt05.json",
+      "sha256": "df814f2e195d007287ded2f7a45e4d198454c2b7dc55b731cc08e4a3a01f4399"
+    },
+    {
+      "bytes": 6820,
+      "kind": "reproduction-log",
+      "note": "Raw exact explicit-input importer reproduction with output hashes; copied outputs are intentionally omitted.",
+      "path": "09-portable-reproduction.json",
+      "sha256": "c3d88dce618be6df6b6c130e2620efcc7342b915d67927be32823ccb99b9613d"
+    },
+    {
+      "bytes": 2403,
+      "kind": "test",
+      "note": "Independent tool schema, validation, action wiring and root-observation alignment result.",
+      "path": "webmcp-contract-check.json",
+      "sha256": "7d33971b66f77bf2cbe228788294b5eb9c335458720549c260a89ed098a89aaa"
+    },
+    {
+      "bytes": 2469,
+      "kind": "test-log",
+      "note": "Raw successful WebMCP contract command record.",
+      "path": "10-webmcp-contract-check.json",
+      "sha256": "a8c07558945a88fad49bc18b1ba81c92027da5cd7794f9e13433ded6a6cbbb87"
+    },
+    {
+      "bytes": 1893,
+      "kind": "reproduction-log",
+      "note": "Independent rerun record for the frozen project navigation checker.",
+      "path": "11-author-node-check-rerun.json",
+      "sha256": "80e8c07bec1f6f24ea20ac9ab2ef8630b3f7fb256d40f069987a8d0336fb7d0c"
+    },
+    {
+      "bytes": 11248,
+      "kind": "test",
+      "note": "Final independent frozen-hash, byte-fidelity, page-delta and disclosure alignment result.",
+      "path": "static-integration-check.json",
+      "sha256": "cf2d746883fe04b37926445c80eeea7f9430ac7595129f5168f85cbece46b9f8"
+    },
+    {
+      "bytes": 1653,
+      "kind": "test-log",
+      "note": "Raw successful static integration command record.",
+      "path": "16-static-integration-check-pass.json",
+      "sha256": "db35289454208e550fd1d64c2c74f45743f0dfeb342ae7087901a30aa79cd551"
+    },
+    {
+      "bytes": 2611,
+      "kind": "retained-failure-log",
+      "note": "Initial navigation failure that exposed the provisional-oracle versus documented-policy variance; retained without rewriting history.",
+      "path": "02-navigation-check.json",
+      "sha256": "5601f870ce9dc089a50d18a651336a268dd9f786a74dcd3942d52a9fb9d7883e"
+    },
+    {
+      "bytes": 3781,
+      "kind": "retained-failure-log",
+      "note": "First route harness loader/setup failure; target code was not implicated.",
+      "path": "04-route-check.json",
+      "sha256": "275efbfb2ccfcdef35128b608b9e1b0fab18f7c41ddb2e8cc271b59232a194df"
+    },
+    {
+      "bytes": 5329,
+      "kind": "retained-failure-log",
+      "note": "Second route harness loader/setup failure; target code was not implicated.",
+      "path": "05-route-check-attempt02.json",
+      "sha256": "50e4919441e25a72703a8d117644ed470d34e83c844236bb549569a08773c5e9"
+    },
+    {
+      "bytes": 3781,
+      "kind": "retained-failure-log",
+      "note": "Third route harness loader/setup failure; target code was not implicated.",
+      "path": "06-route-check-attempt03.json",
+      "sha256": "47f35dee0ca3e9e1037f724b53f20cd83117606d5570a9f30ad20e3d7b80a9dd"
+    },
+    {
+      "bytes": 3781,
+      "kind": "retained-failure-log",
+      "note": "Fourth route harness loader/setup failure; target code was not implicated.",
+      "path": "07-route-check-attempt04.json",
+      "sha256": "326353c26902669f60f09f82884f7fc7fd8ad20f10c1a07831146cec4106fd10"
+    },
+    {
+      "bytes": 1786,
+      "kind": "retained-failure-log",
+      "note": "First static-checker false start caused by an evaluator phrase assertion.",
+      "path": "12-static-integration-check.json",
+      "sha256": "69034766e0ffccfaa35dc937086dfd3bf711aa7d4de3f096b06cc4f1bf965276"
+    },
+    {
+      "bytes": 1820,
+      "kind": "retained-failure-log",
+      "note": "Second static-checker false start caused by an evaluator phrase assertion.",
+      "path": "13-static-integration-check-attempt02.json",
+      "sha256": "5e658534891e7ec299a3fbceea8ac3195adea83548700f58a66bf0a6acb752e5"
+    },
+    {
+      "bytes": 1807,
+      "kind": "retained-failure-log",
+      "note": "Third static-checker false start caused by an evaluator phrase assertion.",
+      "path": "14-static-integration-check-attempt03.json",
+      "sha256": "25a5495c45269b9cbb15db7043ae67c53ea7291d4974c33167a3d2415a699ec6"
+    },
+    {
+      "bytes": 1786,
+      "kind": "retained-failure-log",
+      "note": "Fourth static-checker false start caused by an evaluator phrase assertion.",
+      "path": "15-static-integration-check-attempt04.json",
+      "sha256": "4c1515929609d4d84f9b7244903fc002173dfef02f905dcb3812a10767b24f50"
+    },
+    {
+      "bytes": 8928,
+      "kind": "evaluator-code",
+      "note": "Prospective-case generator.",
+      "path": "freeze_library_cases.py",
+      "sha256": "d2bc741094417eafb1df5f748b50db105e823b79ad0a3d496c568d7e80375ba3"
+    },
+    {
+      "bytes": 11840,
+      "kind": "evaluator-code",
+      "note": "Independent navigation and exact data-fidelity checker.",
+      "path": "check_library_integration.mjs",
+      "sha256": "ce7a7d0d2bfa839903c6ff2e115f60b4e5f49abedf01e5f355dc5540da136283"
+    },
+    {
+      "bytes": 1402,
+      "kind": "evaluator-support-code",
+      "note": "Read-only Node loader used to execute frozen TypeScript modules in isolation.",
+      "path": "library-alias-loader.mjs",
+      "sha256": "1e9ab1d45549968f9264deec4a832e305c6fd6d264e7d1b0bcd9a50a245a8046"
+    },
+    {
+      "bytes": 7065,
+      "kind": "evaluator-code",
+      "note": "Independent exact route boundary checker.",
+      "path": "check_library_route.mjs",
+      "sha256": "8a4b729170cd3f742469edc45293d37e318596445d5b644898f1447a643bb6e2"
+    },
+    {
+      "bytes": 7263,
+      "kind": "evaluator-code",
+      "note": "Independent WebMCP schema/action/state contract checker.",
+      "path": "check_library_webmcp.mjs",
+      "sha256": "b7754599dd57c013c3564823bfa9625b713894d985e03a9398820078249a9493"
+    },
+    {
+      "bytes": 10276,
+      "kind": "evaluator-code",
+      "note": "Independent frozen-file, integration and disclosure checker.",
+      "path": "check_library_static.py",
+      "sha256": "448bd9495f9f376740d3880a371acf16befae1f4bdf05de69e449af968928762"
+    },
+    {
+      "bytes": 13071,
+      "kind": "report-code",
+      "note": "Deterministic final-audit report constructor.",
+      "path": "write_final_library_audit.py",
+      "sha256": "56344bf45bb6192cb0fe86e80cdb89af76cde32caf8513a93f3a7ae9fcf45805"
+    },
+    {
+      "bytes": 9539,
+      "kind": "manifest-code",
+      "note": "Deterministic publication-manifest constructor.",
+      "path": "write_publication_manifest.py",
+      "sha256": "ee8fe1b7ce29a25fa58998def41b7583ea0a79f4a6f6c5861ee0bc4ca13ea8a6"
+    }
+  ],
+  "final_report": {
+    "bytes": 16038,
+    "path": "final-library-audit.json",
+    "sha256": "42b0aac78525ac8863d2292834fdcf360293c58b10a8e25f0b2a11b649cb3bfb"
+  },
+  "frozen_target": {
+    "all_file_hashes_match": true,
+    "files_verified": 24,
+    "path": "project/evidence/mathgloss/library-integration-freeze.json",
+    "sha256": "68bd8c6f8ff2dfaa1c1b26b1d4c030025ae1a6d84004767c8b537939f09ef316"
+  },
+  "overall_status": "pass_scoped",
+  "provisional_oracle_adjudication": "final-library-audit.json#/prospective_case_adjudication",
+  "retained_failures": [
+    "02-navigation-check.json",
+    "04-route-check.json",
+    "05-route-check-attempt02.json",
+    "06-route-check-attempt03.json",
+    "07-route-check-attempt04.json",
+    "12-static-integration-check.json",
+    "13-static-integration-check-attempt02.json",
+    "14-static-integration-check-attempt03.json",
+    "15-static-integration-check-attempt04.json"
+  ],
+  "schema_version": "audit-publication-manifest-v1",
+  "subject": "MathGloss concept and resource library independent audit"
+}

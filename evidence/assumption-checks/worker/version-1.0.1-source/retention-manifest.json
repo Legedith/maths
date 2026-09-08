@@ -1,0 +1,92 @@
+{
+  "retained_at": "2026-09-08T03:06:59.427814+00:00",
+  "status": "all_17_files_match_original_1.0.1_freeze",
+  "scope": "This snapshot was retained after the 1.0.2 edit. Exact 1.0.1 bytes are established by the earlier freeze hashes; no claim that this directory existed before that edit.",
+  "files": [
+    {
+      "path": "src/atlas_checks/__init__.py",
+      "sha256": "c2a7512c2ecfca5bbe67ca895fc756a6826b2a846699946c2d591deb38085e92",
+      "retention_method": "unchanged current file bytes"
+    },
+    {
+      "path": "src/atlas_checks/__main__.py",
+      "sha256": "777e9fbe3bf8d49e2b1d9d19bae06e15acaf96436bbcc14e6bfaae807d7803e4",
+      "retention_method": "unchanged current file bytes"
+    },
+    {
+      "path": "src/atlas_checks/api.py",
+      "sha256": "28bd18951a0c048a2700aa5b87aac723bc1ff23efccd94ce9b61294a5401ad94",
+      "retention_method": "restore only version token; verify exact earlier frozen hash"
+    },
+    {
+      "path": "src/atlas_checks/electrical.py",
+      "sha256": "be40427533fb3957d329ad8e1180974bc90314b7777e6480762ae5650ee15bb2",
+      "retention_method": "unchanged current file bytes"
+    },
+    {
+      "path": "src/atlas_checks/expressions.py",
+      "sha256": "ebf7b2434dd4df26eb1dc16518fb1fb88b72b6729752b7fde65d16ba6fc10134",
+      "retention_method": "unchanged current file bytes"
+    },
+    {
+      "path": "src/atlas_checks/graph_math.py",
+      "sha256": "460b3d7b43055f388e249673811b13f6f90612ba76c0a0b1c56e411287692367",
+      "retention_method": "unchanged current file bytes"
+    },
+    {
+      "path": "src/atlas_checks/linear.py",
+      "sha256": "467d80a5f007740e63edc559e8ecfe70c27fb1618e092a82068723d50c274132",
+      "retention_method": "unchanged current file bytes"
+    },
+    {
+      "path": "src/atlas_checks/markov.py",
+      "sha256": "6fe40dedd88cf032c77484cbc1722a49388f72036d59b920586bbbf1e5e2e219",
+      "retention_method": "unchanged current file bytes"
+    },
+    {
+      "path": "src/atlas_checks/model.py",
+      "sha256": "c43232afb9993af8aed20f5ab51ab3d80b74997615b3613c766e3a07975a12da",
+      "retention_method": "unchanged original worker model; verify exact 1.0.1 frozen hash"
+    },
+    {
+      "path": "src/atlas_checks/period.py",
+      "sha256": "a1e9f85c214e96b36b9058bab12dccd6065e926c23ef3b12bb0ad908c33161bb",
+      "retention_method": "unchanged current file bytes"
+    },
+    {
+      "path": "src/atlas_checks/quantities.py",
+      "sha256": "a6380c7ab8b43e492a037bfff90bcacf988fa1250a67cf7a841021ac8f71dc3c",
+      "retention_method": "unchanged current file bytes"
+    },
+    {
+      "path": "src/atlas_checks/trees.py",
+      "sha256": "6e2447dfc6207acee3c40e942ea08fcec08a6f031dbbfeaf7b57b49ab92abd3e",
+      "retention_method": "unchanged current file bytes"
+    },
+    {
+      "path": "src/atlas_checks/validation.py",
+      "sha256": "d87db416097bccde095841b7df30fb71fa8c9de93b4059ad7f600053e9d1e304",
+      "retention_method": "unchanged current file bytes"
+    },
+    {
+      "path": "src/atlas_checks/values.py",
+      "sha256": "01326d451569901e8e6d2fb5e3137724b4feb92840967d6b3ab85e17344d8614",
+      "retention_method": "unchanged current file bytes"
+    },
+    {
+      "path": "tests/assumption_checks/test_representation_delta.py",
+      "sha256": "fe44b463a9063688e3121ed517a7d6327a489bc0a8467e7f5506197ca57a3f13",
+      "retention_method": "unchanged current file bytes"
+    },
+    {
+      "path": "README-checks.md",
+      "sha256": "9ba178e67e450f215e7ee2dc6df7176ac5388f955da473f5f91e87b8bfd7a8b6",
+      "retention_method": "unchanged current file bytes"
+    },
+    {
+      "path": "scripts/generate_assumption_examples.py",
+      "sha256": "c6a51140b2e4eb4ca30d67e7d5286c0465f573307c729864e46799980c8114e2",
+      "retention_method": "unchanged current file bytes"
+    }
+  ]
+}

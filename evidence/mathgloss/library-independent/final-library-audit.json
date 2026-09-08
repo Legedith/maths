@@ -1,0 +1,292 @@
+{
+  "artifacts": [
+    {
+      "bytes": 2018,
+      "kind": "spec",
+      "note": "Prospective integration contract.",
+      "path": "project/docs/concept-library-contract.md",
+      "sha256": "a55985517bafb4909af576d2245d7898c98f101482e36d66b1841b8168879f3d"
+    },
+    {
+      "bytes": 3401,
+      "kind": "manifest",
+      "note": "Root-frozen 24-file integration target.",
+      "path": "project/evidence/mathgloss/library-integration-freeze.json",
+      "sha256": "68bd8c6f8ff2dfaa1c1b26b1d4c030025ae1a6d84004767c8b537939f09ef316"
+    },
+    {
+      "bytes": 581109,
+      "kind": "evaluator-contract",
+      "note": "Cases selected before implementation inspection.",
+      "path": "library-audit-work/independent-cases.json",
+      "sha256": "108c67ef95d33892a805be1a6a55a9349988b372a2c783a3703f7548548f3ea5"
+    },
+    {
+      "bytes": 1736,
+      "kind": "evaluator-log",
+      "note": "Raw case-freeze command record.",
+      "path": "library-audit-work/01-freeze-independent-cases.json",
+      "sha256": "56fa6f04cc607a896449921f0a5fcd50cbe321b5040cbe9c2ffa67119b238aec"
+    },
+    {
+      "bytes": 8650,
+      "kind": "test",
+      "note": "Independent documented-policy search/filter/pagination check.",
+      "path": "library-audit-work/navigation-check.json",
+      "sha256": "3107b711d09cdb107b109aaec720798b527bea066c9e7d3cefb7f3e7a62ed749"
+    },
+    {
+      "bytes": 1217,
+      "kind": "test-log",
+      "note": "Raw final navigation command record.",
+      "path": "library-audit-work/17-navigation-check-final.json",
+      "sha256": "2f70e395984cc6709a5304385a81c905ec4d8c51e06b5bfd8b9bda665fff6159"
+    },
+    {
+      "bytes": 4047,
+      "kind": "test",
+      "note": "Independent exact route boundary check.",
+      "path": "library-audit-work/route-check.json",
+      "sha256": "6bf5f38a3863ee6b519dad0da4eae8cc17953a0cdd4d17dc2e6f4ff04a13f495"
+    },
+    {
+      "bytes": 2439,
+      "kind": "test-log",
+      "note": "Raw passing route command after retained loader setup failures.",
+      "path": "library-audit-work/08-route-check-attempt05.json",
+      "sha256": "df814f2e195d007287ded2f7a45e4d198454c2b7dc55b731cc08e4a3a01f4399"
+    },
+    {
+      "bytes": 11248,
+      "kind": "evaluator",
+      "note": "Exact integration, page delta and retained-log check.",
+      "path": "library-audit-work/static-integration-check.json",
+      "sha256": "cf2d746883fe04b37926445c80eeea7f9430ac7595129f5168f85cbece46b9f8"
+    },
+    {
+      "bytes": 1653,
+      "kind": "evaluator-log",
+      "note": "Raw passing static evaluator command.",
+      "path": "library-audit-work/16-static-integration-check-pass.json",
+      "sha256": "db35289454208e550fd1d64c2c74f45743f0dfeb342ae7087901a30aa79cd551"
+    },
+    {
+      "bytes": 2403,
+      "kind": "test",
+      "note": "Independent tool schema/action/code and observation alignment check.",
+      "path": "library-audit-work/webmcp-contract-check.json",
+      "sha256": "7d33971b66f77bf2cbe228788294b5eb9c335458720549c260a89ed098a89aaa"
+    },
+    {
+      "bytes": 2469,
+      "kind": "test-log",
+      "note": "Raw WebMCP contract test command.",
+      "path": "library-audit-work/10-webmcp-contract-check.json",
+      "sha256": "a8c07558945a88fad49bc18b1ba81c92027da5cd7794f9e13433ded6a6cbbb87"
+    },
+    {
+      "bytes": 6820,
+      "kind": "reproduction-log",
+      "note": "Exact copied explicit-input adapter reproduction.",
+      "path": "library-audit-work/09-portable-reproduction.json",
+      "sha256": "c3d88dce618be6df6b6c130e2620efcc7342b915d67927be32823ccb99b9613d"
+    },
+    {
+      "bytes": 1893,
+      "kind": "test-log",
+      "note": "Independent rerun of frozen project navigation script.",
+      "path": "library-audit-work/11-author-node-check-rerun.json",
+      "sha256": "80e8c07bec1f6f24ea20ac9ab2ef8630b3f7fb256d40f069987a8d0336fb7d0c"
+    },
+    {
+      "bytes": 2129,
+      "kind": "observation",
+      "note": "Root-observed focused browser/tool state; values independently source-checked.",
+      "path": "project/evidence/mathgloss/library-webmcp-observations.json",
+      "sha256": "beb6db553da7d76693c3d706cf156dfeb886c260f7a0825bd90678875da158f6"
+    },
+    {
+      "bytes": 5134168,
+      "kind": "data",
+      "note": "Integrated byte-exact independently audited candidate index.",
+      "path": "project/data/mathgloss/candidate-index.json",
+      "sha256": "282ed1fd858595b782c856fbd2c96964a0b6ff3850fedf21105ca9bbb7edb4da"
+    },
+    {
+      "bytes": 674640,
+      "kind": "source",
+      "note": "Pinned source CSV retained for portable reproduction.",
+      "path": "project/data/mathgloss/source/database.csv",
+      "sha256": "933a72820fe7ede53a803b750a480def205677e5722ae5f9589b0d1d9bf832b2"
+    },
+    {
+      "bytes": 8639,
+      "kind": "code",
+      "note": "Visible library state, disclosure and source/resource links.",
+      "path": "project/components/concept-library.tsx",
+      "sha256": "383331fc06f1f3a2dec376fd2325154cd0700da2dc5a1c3346d31554f86473ba"
+    },
+    {
+      "bytes": 4253,
+      "kind": "code",
+      "note": "Validated lexical search and pagination core.",
+      "path": "project/lib/concept-library.ts",
+      "sha256": "065191c9a5ce80ddb02dd64214856fd334183d2bcc228bfa5918e6a954e63db1"
+    },
+    {
+      "bytes": 1235,
+      "kind": "code",
+      "note": "GET-only, no-store bounded API route.",
+      "path": "project/app/api/concept-library/route.ts",
+      "sha256": "07267a6a061ce776a66db568f7986558537551372fddaa87cab8a976e5fbdb9b"
+    }
+  ],
+  "auditor": {
+    "identity": "/root/sol_symmetry_audit",
+    "independent_from_integration_author": true,
+    "role": "independent Sol Max verifier"
+  },
+  "checks": [
+    {
+      "evidence_paths": [
+        "library-audit-work/09-portable-reproduction.json",
+        "library-audit-work/11-author-node-check-rerun.json",
+        "library-audit-work/17-navigation-check-final.json",
+        "library-audit-work/08-route-check-attempt05.json",
+        "library-audit-work/10-webmcp-contract-check.json"
+      ],
+      "id": "reproduction",
+      "notes": "An exact copied portable adapter and the unchanged audited importer reproduced the license, candidate index, complete ledger and summary at all four audited hashes. The frozen Node navigation check reran successfully, and independent route/navigation/WebMCP harnesses exited successfully.",
+      "status": "pass"
+    },
+    {
+      "evidence_paths": [
+        "project/docs/concept-library-contract.md",
+        "project/docs/concept-library.md",
+        "library-audit-work/navigation-check.json",
+        "library-audit-work/route-check.json",
+        "library-audit-work/webmcp-contract-check.json",
+        "library-audit-work/static-integration-check.json"
+      ],
+      "id": "specification_compliance",
+      "notes": "The public library documents and implements NFKC/lowercase/punctuation-separated all-fragment matching, exact-label/prefix ranking with source-order ties, source filtering, a fixed 20-record page bound, totals and no-drop navigation. UI cards show exact recorded names/links, MathGloss attribution, unreviewed status and pinned record links; the search-miss caveat is visible. Invalid route/tool inputs are bounded. Form and WebMCP use the same runSearch state transition.",
+      "status": "pass"
+    },
+    {
+      "evidence_paths": [
+        "library-audit-work/static-integration-check.json",
+        "library-audit-work/navigation-check.json",
+        "project/evidence/mathgloss/independent/final-importer-audit.json",
+        "project/data/mathgloss/candidate-index.json"
+      ],
+      "id": "source_verification",
+      "notes": "Integrated CSV, candidate index, summary, ledger, license and importer modules are byte-identical to the independently audited artifacts. Counts are 4,814 records and 7,217 retained links. Every integrated record traversed pagination without loss, all seven source totals matched the oracle, all 4,814 generated source-record URLs matched physical locators, and Q1028209 retains U+2013 with no U+FFFD.",
+      "status": "pass"
+    },
+    {
+      "evidence_paths": [
+        "project/evidence/mathgloss/library-integration-freeze.json",
+        "library-audit-work/route-check.json",
+        "library-audit-work/static-integration-check.json",
+        "project/evidence/research-search/audited-page-before-library.tsx.snapshot"
+      ],
+      "id": "implementation_alignment",
+      "notes": "All 24 frozen files match the integration manifest. Exact route execution covered valid, Unicode, filtered, miss and beyond-last pages plus 15 malformed/ambiguous/oversized requests; responses were bounded and no-store, and frozen files stayed unchanged. The original page is text-exact after removing the single new /library link block. Retained typecheck/lint/build logs pass after the documented evidence-archive exclusion; product app/components/lib/scripts remain checked.",
+      "status": "pass"
+    }
+  ],
+  "frozen_target": {
+    "candidate_index_sha256": "282ed1fd858595b782c856fbd2c96964a0b6ff3850fedf21105ca9bbb7edb4da",
+    "contract_sha256": "a55985517bafb4909af576d2245d7898c98f101482e36d66b1841b8168879f3d",
+    "files": 24,
+    "importer_audit_sha256": "260a9424c45d5c2725d2bae7630c6bef9f8ac8b0de0f39224814d179559b3b46",
+    "integration_freeze_sha256": "68bd8c6f8ff2dfaa1c1b26b1d4c030025ae1a6d84004767c8b537939f09ef316"
+  },
+  "limitations": [
+    "This certifies exact integration, deterministic lexical navigation, bounded API behavior and scoped tool/state alignment for one pinned MathGloss snapshot. It does not certify concept identity, equivalence, resource quality, availability, learner level, theorem support, linked content, rights in linked prose, impact, novelty or completeness as a map of mathematics.",
+    "The focused browser/WebMCP observations were produced by the root integrator. This reviewer independently verified their hash, source values and frozen-code alignment, but did not perform a second visual browser run or broad visual QA.",
+    "The retained build/typecheck/lint command records are root-produced. This reviewer independently ran the exact frozen navigation script plus stronger pure search, route, portable-import and WebMCP contract harnesses.",
+    "The evidence/** typecheck/lint exclusion is an archive boundary. It does not certify historical harnesses under current project lint rules; their own retained execution records support claims that cite them.",
+    "GET no-store prevents response caching but does not remove query text from the same-origin request URL or possible access logs."
+  ],
+  "overall_status": "pass_scoped",
+  "privacy_and_state": {
+    "api_export": "GET only",
+    "cache_control": "no-store on success and error",
+    "external_search_or_resource_fetch": false,
+    "persistent_browser_or_server_state_found": false,
+    "same_origin_get_limit": "Query text is carried in the same-origin request URL and may be present in ordinary same-origin access logs. No stronger secrecy claim is certified.",
+    "webmcp_annotation": "readOnlyHint false is consistent with the intentional visible client-state update; untrustedContentHint true is appropriate for imported labels and links. The API/data remain read-only."
+  },
+  "prospective_case_adjudication": {
+    "case_manifest_sha256": "108c67ef95d33892a805be1a6a55a9349988b372a2c783a3703f7548548f3ea5",
+    "differences": [
+      {
+        "adjudication": "The prospective contract required documented lexical matching but did not freeze a normalization/matching algorithm. The pre-review inputs remain applicable; this provisional casefolded contiguous-substring expected set is diagnostic where it differs from the independently implemented documented NFKC all-fragments policy.",
+        "documented_policy_count": 13,
+        "documented_set_sha256": "f89bb98d11f8fd2536353a714affcc4dac58afcc32df672677e50e56bc7ac079",
+        "id": "multi-hit-label-fragment",
+        "precommitted_count": 12,
+        "precommitted_policy": {
+          "comparison": "counts and sets are normative; frozen source order is retained for diagnosing the implementation's separately documented deterministic order",
+          "lexical_match": "substring of recorded Wikidata QID, recorded label, or recorded resource name",
+          "query_normalization": "strip then Unicode casefold",
+          "result_identity": "record_key",
+          "source_filter": "record has at least one retained link whose source exactly equals the selected source",
+          "url_fields_are_not_searchable": true
+        },
+        "precommitted_set_sha256": "f38aa534b509d280acf4711d425cdd75ffffd7fab731e3d6b296c215fb1665c8"
+      },
+      {
+        "adjudication": "The prospective contract required documented lexical matching but did not freeze a normalization/matching algorithm. The pre-review inputs remain applicable; this provisional casefolded contiguous-substring expected set is diagnostic where it differs from the independently implemented documented NFKC all-fragments policy.",
+        "documented_policy_count": 3,
+        "documented_set_sha256": "c0f18e134aa546c8cfc727fb05c479b52d1157e3933946d3bd31fad6c0e3cab3",
+        "id": "filtered-bct",
+        "precommitted_count": 4,
+        "precommitted_policy": {
+          "comparison": "counts and sets are normative; frozen source order is retained for diagnosing the implementation's separately documented deterministic order",
+          "lexical_match": "substring of recorded Wikidata QID, recorded label, or recorded resource name",
+          "query_normalization": "strip then Unicode casefold",
+          "result_identity": "record_key",
+          "source_filter": "record has at least one retained link whose source exactly equals the selected source",
+          "url_fields_are_not_searchable": true
+        },
+        "precommitted_set_sha256": "60c170eed18a297c95fd9fa1dc23c758a540c7415cc0e6e3b93c27e5d0c9ddaf"
+      },
+      {
+        "adjudication": "The sweep input is retained, but its provisional contiguous-substring result set is not the contract standard where the documented all-fragments policy differs.",
+        "documented_policy_count": 13,
+        "documented_set_sha256": "f89bb98d11f8fd2536353a714affcc4dac58afcc32df672677e50e56bc7ac079",
+        "id": "abelian-group-small-pages",
+        "precommitted_count": 12,
+        "precommitted_set_sha256": "f38aa534b509d280acf4711d425cdd75ffffd7fab731e3d6b296c215fb1665c8"
+      }
+    ],
+    "explanation": "The query/filter inputs were frozen before implementation inspection. Their provisional oracle used contiguous Unicode-casefolded substring matching across all resource aliases, while the prospective product contract only required a documented lexical policy. The already-frozen product docs use NFKC lowercase all-fragment matching and restrict alias matching to the selected source. Three stored expectations therefore differ: abelian group returns 13 rather than 12 because 'Abelian 2-group' satisfies both fragments; BCT category theory returns 3 rather than 4 because an alias from another resource is excluded; the abelian pagination case repeats the first difference. These variances are retained rather than erased. Independent reimplementation of the frozen documented policy matched every target result and order.",
+    "status": "transparent_policy_variance_no_contract_failure"
+  },
+  "schema_version": "chain-of-evidence-independent-verification-v1",
+  "subject": "MathGloss concept and resource library integration",
+  "verified_counts": {
+    "all_catalog_pages": 241,
+    "all_catalog_unique_records": 4814,
+    "catalog_links": 7217,
+    "catalog_records": 4814,
+    "frozen_files": 24,
+    "invalid_route_cases": 15,
+    "maximum_observed_error_bytes": 85,
+    "nlab_pages": 226,
+    "nlab_records": 4505,
+    "resource_totals": {
+      "BCT": 197,
+      "Chicago": 395,
+      "Clowder": 74,
+      "Context": 262,
+      "Mathlib": 308,
+      "PlanetMath": 1476,
+      "nLab": 4505
+    },
+    "source_record_urls_checked": 4814,
+    "valid_route_cases": 5
+  }
+}

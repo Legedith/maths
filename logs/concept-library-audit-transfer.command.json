@@ -1,0 +1,17 @@
+﻿{
+    "name":  "concept-library-audit-transfer",
+    "command_argv":  [
+                         "uv",
+                         "run",
+                         "--frozen",
+                         "python",
+                         "D:/CodexWorkspaces/mathematics-atlas/integration-work/integrate_library_audit.py"
+                     ],
+    "command_display":  "uv run --frozen python D:/CodexWorkspaces/mathematics-atlas/integration-work/integrate_library_audit.py",
+    "working_directory":  "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "started_at":  "2026-09-08T10:05:13.3093883+05:30",
+    "ended_at":  "2026-09-08T10:05:13.5340728+05:30",
+    "runtime_seconds":  0.219829,
+    "exit_code":  0,
+    "console_log":  "logs/concept-library-audit-transfer.console.log"
+}

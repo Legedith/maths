@@ -1,0 +1,21 @@
+﻿{
+    "name":  "concept-library-format",
+    "command_argv":  [
+                         "./node_modules/.bin/oxfmt.cmd",
+                         "--write",
+                         "lib/concept-library.ts",
+                         "lib/use-concept-library-tools.ts",
+                         "app/api/concept-library/route.ts",
+                         "app/library/page.tsx",
+                         "components/concept-library.tsx",
+                         "components/concept-library.module.css",
+                         "scripts/check-concept-library.ts"
+                     ],
+    "command_display":  "./node_modules/.bin/oxfmt.cmd --write lib/concept-library.ts lib/use-concept-library-tools.ts app/api/concept-library/route.ts app/library/page.tsx components/concept-library.tsx components/concept-library.module.css scripts/check-concept-library.ts",
+    "working_directory":  "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "started_at":  "2026-09-08T09:17:58.7382136+05:30",
+    "ended_at":  "2026-09-08T09:17:59.0539833+05:30",
+    "runtime_seconds":  0.31249109999999997,
+    "exit_code":  0,
+    "console_log":  "logs/concept-library-format.console.log"
+}

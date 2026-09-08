@@ -1,0 +1,33 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--isolated",
+    "--no-project",
+    "--python",
+    "3.13",
+    "python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\backbone-audit-work\\write_final_import_audit.py"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\backbone-audit-work",
+  "duration_seconds": 0.3607135000056587,
+  "ended_at_utc": "2026-09-08T03:50:35.935796+00:00",
+  "exit_code": 0,
+  "schema_version": "command-evidence-v1",
+  "started_at_utc": "2026-09-08T03:50:35.575072+00:00",
+  "stderr": {
+    "base64": "V0FSTiBgLS1uby1wcm9qZWN0YCB3YXMgcHJvdmlkZWQsIGJ1dCBubyBwcm9qZWN0IHdhcyBmb3VuZAo=",
+    "bytes": 59,
+    "sha256": "dd7241fb9634d51d4b90a8782d9a26dd3fe2ada28ad873374b2d9b28b76827ef",
+    "utf8_text": "WARN `--no-project` was provided, but no project was found\n",
+    "valid_utf8": true
+  },
+  "stdout": {
+    "base64": "eyJwYXRoIjogIkQ6XFxDb2RleFdvcmtzcGFjZXNcXG1hdGhlbWF0aWNzLWF0bGFzXFxiYWNrYm9uZS1hdWRpdC13b3JrXFxmaW5hbC1pbXBvcnRlci1hdWRpdC5qc29uIiwgInNoYTI1NiI6ICIyNjBhOTQyNGM0NWQ1YzI3MjVkMmJhZTc2MzBjNmJlZjlmOGFjOGIwZGUwZjM5MjI0ODE0ZDE3OTU1OWIzYjQ2IiwgInN0YXR1cyI6ICJwYXNzX3Njb3BlZCJ9DQo=",
+    "bytes": 203,
+    "sha256": "679e4c14644f693bb5df257f85af2e781f608cf907ba69e271f89b83ebfe79e5",
+    "utf8_text": "{\"path\": \"D:\\\\CodexWorkspaces\\\\mathematics-atlas\\\\backbone-audit-work\\\\final-importer-audit.json\", \"sha256\": \"260a9424c45d5c2725d2bae7630c6bef9f8ac8b0de0f39224814d179559b3b46\", \"status\": \"pass_scoped\"}\r\n",
+    "valid_utf8": true
+  },
+  "windows_command_line": "uv run --isolated --no-project --python 3.13 python D:\\CodexWorkspaces\\mathematics-atlas\\backbone-audit-work\\write_final_import_audit.py"
+}

@@ -1,0 +1,30 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--locked",
+    "python",
+    "scripts\\check_scope.py"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\backbone-import-work\\implementation",
+  "duration_seconds": 0.12524739999207668,
+  "ended_at_utc": "2026-09-08T03:26:01.974244+00:00",
+  "exit_code": 1,
+  "schema_version": "command-evidence-v1",
+  "started_at_utc": "2026-09-08T03:26:01.848988+00:00",
+  "stderr": {
+    "base64": "ZGlzYWxsb3dlZCBydW50aW1lIGltcG9ydCByb290czogWydjbGknLCAnY29yZSddDQo=",
+    "bytes": 50,
+    "sha256": "6938a47437136793a2858a53d2ea1c87b668e6bfa924b2d0f2924816010979bf",
+    "utf8_text": "disallowed runtime import roots: ['cli', 'core']\r\n",
+    "valid_utf8": true
+  },
+  "stdout": {
+    "base64": "",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "utf8_text": "",
+    "valid_utf8": true
+  },
+  "windows_command_line": "uv run --locked python scripts\\check_scope.py"
+}

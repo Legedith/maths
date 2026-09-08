@@ -1,0 +1,72 @@
+{
+  "attempt": 1,
+  "elapsed_seconds": 3.4349376000172924,
+  "ended_at_utc": "2026-09-08T01:53:47.383447+00:00",
+  "http_reason": "OK",
+  "http_status": 200,
+  "method": "POST",
+  "occurrences": [
+    {
+      "paper_id": "2009.04139v1",
+      "paper_link": "http://arxiv.org/abs/2009.04139v1",
+      "paper_title": "The Laplacian and normalized Laplacian spectra of Mobius polyomino networks and their applications",
+      "query_id": "Q02",
+      "rank": 1,
+      "slogan_id": 4371172,
+      "theorem_id": 19685900,
+      "theorem_name": "Theorem \\normalsize 2.5"
+    },
+    {
+      "paper_id": "2302.07170v2",
+      "paper_link": "http://arxiv.org/abs/2302.07170v2",
+      "paper_title": "Characterizing the Degree-Kirchhoff, Gutman, and Schultz Indices in Pentagonal Cylinders and Möbius Chains",
+      "query_id": "Q02",
+      "rank": 2,
+      "slogan_id": 2245310,
+      "theorem_id": 18276974,
+      "theorem_name": "Theorem 5"
+    }
+  ],
+  "parse_error": null,
+  "query_id": "Q02",
+  "request_byte_count": 90,
+  "request_headers": {
+    "Accept": "application/json",
+    "Content-Length": "90",
+    "Content-Type": "application/json",
+    "User-Agent": "MathematicsAtlas-retrieval-study-v1/1.0"
+  },
+  "request_path": "Q02-request.json",
+  "request_sha256": "b58c3ba02b872281558d0b228743aabdd459d0a1a2d58d948f5e9f410bd0e2eb",
+  "response_bound_bytes": 5000000,
+  "response_byte_count_retained": 2708,
+  "response_exceeded_bound": false,
+  "response_headers": [
+    [
+      "content-length",
+      "2708"
+    ],
+    [
+      "content-type",
+      "application/json"
+    ],
+    [
+      "date",
+      "Tue, 08 Sep 2026 01:53:44 GMT"
+    ],
+    [
+      "server",
+      "envoy"
+    ],
+    [
+      "x-envoy-upstream-service-time",
+      "2416"
+    ]
+  ],
+  "response_path": "Q02-response.bin",
+  "response_sha256": "7f5352cebfb2c8141c0c9563413d7e1cc52c509fb9ec1bbbb6314d1bee02b823",
+  "returned_result_count": 2,
+  "started_at_utc": "2026-09-08T01:53:43.948514+00:00",
+  "transport_error": null,
+  "url": "https://api.theoremsearch.com/search"
+}

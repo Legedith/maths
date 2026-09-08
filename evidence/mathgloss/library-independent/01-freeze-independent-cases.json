@@ -1,0 +1,33 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--isolated",
+    "--no-project",
+    "--python",
+    "3.13",
+    "python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work\\freeze_library_cases.py"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work",
+  "duration_seconds": 0.5141806000028737,
+  "ended_at_utc": "2026-09-08T03:57:01.264338+00:00",
+  "exit_code": 0,
+  "schema_version": "command-evidence-v1",
+  "started_at_utc": "2026-09-08T03:57:00.750148+00:00",
+  "stderr": {
+    "base64": "V0FSTiBgLS1uby1wcm9qZWN0YCB3YXMgcHJvdmlkZWQsIGJ1dCBubyBwcm9qZWN0IHdhcyBmb3VuZAo=",
+    "bytes": 59,
+    "sha256": "dd7241fb9634d51d4b90a8782d9a26dd3fe2ada28ad873374b2d9b28b76827ef",
+    "utf8_text": "WARN `--no-project` was provided, but no project was found\n",
+    "valid_utf8": true
+  },
+  "stdout": {
+    "base64": "eyJieXRlcyI6IDU4MTEwOSwgInBhZ2luYXRpb25fc3dlZXBzIjogMywgInBhdGgiOiAiRDpcXENvZGV4V29ya3NwYWNlc1xcbWF0aGVtYXRpY3MtYXRsYXNcXGxpYnJhcnktYXVkaXQtd29ya1xcaW5kZXBlbmRlbnQtY2FzZXMuanNvbiIsICJzZWFyY2hfY2FzZXMiOiAxMiwgInNoYTI1NiI6ICIxMDhjNjdlZjk1ZDMzODkyYTgwNWJlMWE2YTU1YTkzNDk5ODhiMzcyYTJjNzgzYTM3MDNmNzU0ODU0OGYzZWE1In0NCg==",
+    "bytes": 235,
+    "sha256": "69bba1595a629bf7888e683e70b5a7ec42a86552ca7e62004ad41a228573aefb",
+    "utf8_text": "{\"bytes\": 581109, \"pagination_sweeps\": 3, \"path\": \"D:\\\\CodexWorkspaces\\\\mathematics-atlas\\\\library-audit-work\\\\independent-cases.json\", \"search_cases\": 12, \"sha256\": \"108c67ef95d33892a805be1a6a55a9349988b372a2c783a3703f7548548f3ea5\"}\r\n",
+    "valid_utf8": true
+  },
+  "windows_command_line": "uv run --isolated --no-project --python 3.13 python D:\\CodexWorkspaces\\mathematics-atlas\\library-audit-work\\freeze_library_cases.py"
+}

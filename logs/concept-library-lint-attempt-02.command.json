@@ -1,0 +1,15 @@
+﻿{
+    "name":  "concept-library-lint-attempt-02",
+    "command_argv":  [
+                         "npm.cmd",
+                         "run",
+                         "lint"
+                     ],
+    "command_display":  "npm.cmd run lint",
+    "working_directory":  "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "started_at":  "2026-09-08T09:26:17.0699280+05:30",
+    "ended_at":  "2026-09-08T09:26:18.8966904+05:30",
+    "runtime_seconds":  1.8243456999999998,
+    "exit_code":  0,
+    "console_log":  "logs/concept-library-lint-attempt-02.console.log"
+}
