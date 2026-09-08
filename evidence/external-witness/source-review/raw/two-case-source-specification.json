@@ -1,0 +1,64 @@
+{
+  "schema_version": "two-known-case-source-specification-review-v1",
+  "created_at_utc": "2026-09-08T04:50:22.782429+00:00",
+  "cases": [
+    {
+      "theorem_id": 23150070,
+      "paper": "Duval, Klivans, and Martin, Simplicial Matrix-Tree Theorems",
+      "source_url": "https://arxiv.org/pdf/0802.2576v2",
+      "source_pdf": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\primary-sources\\0802.2576v2.pdf",
+      "source_pdf_sha256": "3450dbb90c168258764777f114a48b6840f61710ccddad91dd46b5aeefdf6646",
+      "source_text": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\primary-source-text\\0802.2576v2.txt",
+      "source_text_sha256": "f05cc84137169982c802c27201c4c44c571d2a4dcce3dd1a1a00c166ad7d38a5",
+      "locators": [
+        "PDF p. 1 / extracted lines 18-47: graph domain, n-c nonzero eigenvalues, connected classical theorem",
+        "PDF p. 2 / extracted lines 74-107: weighted Laplacian and Theorem 1.2"
+      ],
+      "error_class": "indexed-spectrum expression changed into product over nonzero eigenvalues",
+      "material_precision": "Theorem 1.2 is stated without a connectedness assumption. It omits one designated zero and multiplies the remaining n-1 indexed eigenvalues; extra zeros remain when disconnected. The slogan's product over only nonzero eigenvalues is different.",
+      "freeze_before_encoding": [
+        "finite simple undirected graph",
+        "positive rational conductances for executable specialization",
+        "weighted combinatorial Laplacian",
+        "eigenvalues counted with algebraic multiplicity",
+        "disconnected graphs permitted",
+        "source product omits one designated zero but not every zero",
+        "weighted spanning-tree mass and every one-row/one-column cofactor"
+      ],
+      "known_example_status": "already_disclosed_replay",
+      "known_example": "Two disjoint unit edges have spectrum 0,0,2,2; product of nonzero eigenvalues divided by n is 1, while tree mass and any reduced determinant are 0."
+    },
+    {
+      "theorem_id": 23832572,
+      "paper": "Chung and Zeng, Forest formulas of discrete Green's functions",
+      "source_url": "https://arxiv.org/pdf/2109.01324v2",
+      "source_pdf": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\primary-sources\\2109.01324v2.pdf",
+      "source_pdf_sha256": "4558460b8c32d06ab4dd542d015d4527f3ab943dae0533d568eacc9d5fa25c7c",
+      "source_text": "D:\\CodexWorkspaces\\mathematics-atlas\\retrieval-study-work\\primary-source-text\\2109.01324v2.txt",
+      "source_text_sha256": "828bdc92002eacd4fa79b21f72e0f508475f137a80adef38a65d2b4e27a48a2d",
+      "locators": [
+        "PDF p. 5 / extracted lines 258-282: forest weight and tau",
+        "PDF p. 12 / extracted lines 900-911: tau_e",
+        "PDF p. 15 / extracted lines 1141-1154: conductance and Corollary 4.7"
+      ],
+      "error_class": "weighted tree masses changed into ordinary tree counts",
+      "material_precision": "The source uses tau and tau_e as sums of products of weights. The slogan retains a weighted graph but calls them numbers of trees, changing the formula for nonunit conductances.",
+      "freeze_before_encoding": [
+        "finite connected loop-free weighted undirected graph",
+        "positive rational edge conductances",
+        "edge e has distinct endpoints and positive conductance",
+        "tau is the sum over trees of products of conductances",
+        "tau_e is the weighted sum restricted to trees containing e",
+        "effective resistance uses reciprocal edge resistance and exact rational arithmetic",
+        "claim distinguishes weighted masses from ordinary cardinalities"
+      ],
+      "known_example_status": "already_disclosed_replay",
+      "known_example": "Triangle conductances (2,1,1), weight-2 edge: tau=5, tau_e=4, R_eff=2/5, while ordinary counts give 2/(3*2)=1/3."
+    }
+  ],
+  "comparison": {
+    "meaningfully_different": true,
+    "reason": "The first probes multiplicity/index semantics and disconnected exact linear algebra. The second probes weighted measure versus ordinary count on a connected positive-conductance graph.",
+    "shared_limit": "Both labels and examples were disclosed. Passing demonstrates executable reuse and review discipline, not discovery."
+  }
+}

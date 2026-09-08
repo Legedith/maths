@@ -1,0 +1,44 @@
+{
+    "schema_version":  "independent-tool-setup-v1",
+    "started_at_utc":  "2026-09-08T04:50:49.5213928Z",
+    "ended_at_utc":  "2026-09-08T04:50:52.3438083Z",
+    "audit_root":  "D:\\CodexWorkspaces\\mathematics-atlas\\tool-readiness-audit-work",
+    "uv_executable":  "C:\\Users\\Legedith\\.local\\bin\\uv.exe",
+    "uv_cache_dir":  "D:\\CodexWorkspaces\\mathematics-atlas\\uv-cache",
+    "isolated_venv":  ".venv",
+    "records":  [
+                    {
+                        "id":  "uv_version",
+                        "command":  "uv --version",
+                        "started_at_utc":  "2026-09-08T04:50:49.5296252Z",
+                        "duration_seconds":  0.020757,
+                        "exit_code":  0,
+                        "output":  "uv 0.8.19 (fc7c2f8b5 2025-09-19)"
+                    },
+                    {
+                        "id":  "create_venv",
+                        "command":  "UV_CACHE_DIR=D:/CodexWorkspaces/mathematics-atlas/uv-cache uv venv --python 3.12 .venv",
+                        "started_at_utc":  "2026-09-08T04:50:49.5615035Z",
+                        "duration_seconds":  0.083136,
+                        "exit_code":  0,
+                        "output":  "uv.exe : Using CPython 3.12.11\r\nAt D:\\CodexWorkspaces\\mathematics-atlas\\tool-readiness-audit-work\\setup_independent_env.ps1:18 char:15\r\n+     $output = \u0026 $Executable @Arguments 2\u003e\u00261 | Out-String\r\n+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : NotSpecified: (Using CPython 3.12.11:String) [], RemoteException\r\n    + FullyQualifiedErrorId : NativeCommandError\r\n \r\nCreating virtual environment at: .venv\r\nActivate with: .venv\\Scripts\\activate"
+                    },
+                    {
+                        "id":  "install_pins",
+                        "command":  "UV_CACHE_DIR=D:/CodexWorkspaces/mathematics-atlas/uv-cache uv pip install --python .venv/Scripts/python.exe z3-solver==5.1.0.0 sympy==1.14.0",
+                        "started_at_utc":  "2026-09-08T04:50:49.6450489Z",
+                        "duration_seconds":  2.674876,
+                        "exit_code":  0,
+                        "output":  "uv.exe : WARN Skipping file for sympy: sympy-0.7.0.win32.exe\r\nAt D:\\CodexWorkspaces\\mathematics-atlas\\tool-readiness-audit-work\\setup_independent_env.ps1:18 char:15\r\n+     $output = \u0026 $Executable @Arguments 2\u003e\u00261 | Out-String\r\n+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : NotSpecified: (WARN Skipping f...0.7.0.win32.exe:String) [], RemoteException\r\n    + FullyQualifiedErrorId : NativeCommandError\r\n \r\nWARN Skipping file for sympy: sympy-0.7.1.win32.exe\r\nWARN Skipping file for sympy: sympy-0.7.2-py3.2.tar.gz\r\nWARN Skipping file for sympy: sympy-0.7.2-py3.3.tar.gz\r\nWARN Skipping file for sympy: sympy-0.7.2.win32.exe\r\nWARN Skipping file for sympy: sympy-0.7.3-py2.5.tar.gz\r\nWARN Skipping file for sympy: sympy-0.7.3-py2.6.tar.gz\r\nWARN Skipping file for sympy: sympy-0.7.3-py2.7.tar.gz\r\nWARN Skipping file for sympy: sympy-0.7.3-py3.2.tar.gz\r\nWARN Skipping file for sympy: sympy-0.7.3-py3.3.tar.gz\r\nWARN Skipping file for sympy: sympy-0.7.3.win32.exe\r\nWARN Skipping file for sympy: sympy-1.0.win32.exe\r\nWARN Skipping file for mpmath: mpmath-0.10.win32.exe\r\nWARN Skipping file for mpmath: mpmath-0.11.win32.exe\r\nWARN Skipping file for mpmath: mpmath-0.12.win32.exe\r\nWARN Skipping file for mpmath: mpmath-0.13.win32.exe\r\nWARN Skipping file for mpmath: mpmath-0.14.win32.exe\r\nWARN Skipping file for mpmath: mpmath-0.15.win32.exe\r\nWARN Skipping file for mpmath: mpmath-0.16.win32-py2.6.msi\r\nWARN Skipping file for mpmath: mpmath-0.17.win32.exe\r\nWARN Skipping file for mpmath: mpmath-0.2.win32.exe\r\nWARN Skipping file for mpmath: mpmath-0.3.win32.exe\r\nWARN Skipping file for mpmath: mpmath-0.4.src.zip\r\nWARN Skipping file for mpmath: mpmath-0.4.win32.exe\r\nWARN Skipping file for mpmath: mpmath-0.5.win32.exe\r\nWARN Skipping file for mpmath: mpmath-0.6.win32.exe\r\nWARN Skipping file for mpmath: mpmath-0.7.win32.exe\r\nWARN Skipping file for mpmath: mpmath-0.8.win32.exe\r\nWARN Skipping file for mpmath: mpmath-0.9.win32.exe\r\nWARN Skipping file for mpmath: mpmath-all-0.17.tar.gz\r\nWARN Skipping file for mpmath: mpmath-all-0.18.tar.gz\r\nWARN Skipping file for mpmath: mpmath-all-0.19.tar.gz\r\nWARN Skipping file for mpmath: mpmath-docsrc-0.16.tar.gz\r\nResolved 3 packages in 357ms\r\nDownloading sympy (6.0MiB)\r\nDownloading z3-solver (16.3MiB)\r\n Downloading z3-solver\r\n Downloading sympy\r\nPrepared 3 packages in 1.80s\r\nInstalled 3 packages in 222ms\r\n + mpmath==1.3.0\r\n + sympy==1.14.0\r\n + z3-solver==5.1.0.0"
+                    },
+                    {
+                        "id":  "freeze",
+                        "command":  "UV_CACHE_DIR=D:/CodexWorkspaces/mathematics-atlas/uv-cache uv pip freeze --python .venv/Scripts/python.exe",
+                        "started_at_utc":  "2026-09-08T04:50:52.3204630Z",
+                        "duration_seconds":  0.022791,
+                        "exit_code":  0,
+                        "output":  "mpmath==1.3.0\r\nsympy==1.14.0\r\nz3-solver==5.1.0.0"
+                    }
+                ],
+    "all_pass":  true
+}

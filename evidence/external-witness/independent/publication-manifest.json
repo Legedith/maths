@@ -1,0 +1,74 @@
+{
+  "schema_version": "external-witness-independent-publication-manifest-v1",
+  "created_at_utc": "2026-09-08T05:28:47.3212403Z",
+  "auditor": "/root/sol_symmetry_audit",
+  "status": "sealed",
+  "file_count": 9,
+  "total_bytes": 50863.0,
+  "files": [
+    {
+      "path": "external-witness-audit-work/compare_reproduction.py",
+      "bytes": 7560,
+      "sha256": "ceb6bf689931e7c244adabafa0057c61cad22a6e0e60cde04f8dfd00cc94dc8c"
+    },
+    {
+      "path": "external-witness-audit-work/copied-reproduction-command.json",
+      "bytes": 2995,
+      "sha256": "b4788eb2f04ccd26f194576ffbf0f507070d0a74f86adbfed576641b093f4a73"
+    },
+    {
+      "path": "external-witness-audit-work/direct-certificate-reproduction.json",
+      "bytes": 4778,
+      "sha256": "5f22a2a12b1582415ddff3337836b195c9118292e98c13afd78eb114b7a3c0fa"
+    },
+    {
+      "path": "external-witness-audit-work/direct-certificate.json",
+      "bytes": 4728,
+      "sha256": "3f2d89c72fc9a80620be8abe0d7a90e443b681555a16698e5837465705d7f046"
+    },
+    {
+      "path": "external-witness-audit-work/direct_certificate_check.py",
+      "bytes": 12735,
+      "sha256": "7c236eeb6de9326cfdb820aa6bffafe358be1aed24ec5ad3df234d5da6a4626b"
+    },
+    {
+      "path": "external-witness-audit-work/final-external-witness-audit.json",
+      "bytes": 9373,
+      "sha256": "663727179b05461bbd50f9b5db45a11b8d593f710a4a853ac06bc2ad4ac51507"
+    },
+    {
+      "path": "external-witness-audit-work/precheck-freeze.json",
+      "bytes": 923,
+      "sha256": "2c95c056be49b05c636bc92a37bc19bda319806f217de9ac6409891cea08fe3d"
+    },
+    {
+      "path": "external-witness-audit-work/reproduction-compare.json",
+      "bytes": 4992,
+      "sha256": "491229024b4fe421ff48b9935e47df8206c39475bdc4ba31646e8d655d6a2e74"
+    },
+    {
+      "path": "external-witness-audit-work/run_copied_reproduction.ps1",
+      "bytes": 2779,
+      "sha256": "eb06e4ec3793f2b7725da25316e40e90fd88a7da2cf7f1efacad591007e4af45"
+    }
+  ],
+  "exclusions": [
+    {
+      "path": "external-witness-audit-work/reproduction/.venv/**",
+      "reason": "isolated generated environment; recreated from exact frozen uv.lock"
+    },
+    {
+      "path": "external-witness-audit-work/reproduction/**",
+      "reason": "copied frozen inputs and reproduction outputs are byte duplicates or path/time variants already covered by copied-reproduction-command.json and reproduction-compare.json"
+    },
+    {
+      "path": "external-witness-work/**",
+      "reason": "author-owned frozen inputs and results are referenced by exact hashes and remain in their own result freeze"
+    },
+    {
+      "path": "next-value-audit-work/**",
+      "reason": "Reviewer B source and semantic evidence remains separately owned and is referenced by path and hash in the final audit"
+    }
+  ],
+  "verification": "Every listed file was hashed from external-witness-audit-work after final report validation. The manifest intentionally does not self-list."
+}

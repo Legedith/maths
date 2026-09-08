@@ -1,0 +1,93 @@
+{
+  "schema_version": "external-witness-independent-publication-manifest-v1",
+  "created_at_utc": "2026-09-08T05:16:16.956739+00:00",
+  "status": "frozen",
+  "scope": "Independent source and preexecution gates for the two disclosed known-case replay. Post-run mathematical certification is separately owned.",
+  "root": "D:\\CodexWorkspaces\\mathematics-atlas\\next-value-audit-work",
+  "copy_file_count": 7,
+  "copy_total_bytes": 27800,
+  "files": [
+    {
+      "path": "selected-contract-source-review.json",
+      "bytes": 4762,
+      "sha256": "7f43a0a5ee01ff2158cd0b07a3256b87f6883384938be3253c065122d658b2f1",
+      "copy": true
+    },
+    {
+      "path": "selected-contract-source-review-correction.json",
+      "bytes": 1660,
+      "sha256": "bc26f6103a50b220267f6dbf8ddb3cb13247a0cc364da6a50a559b8fc3d73312",
+      "copy": true
+    },
+    {
+      "path": "preexecution-semantic-review-attempt-01.json",
+      "bytes": 3556,
+      "sha256": "2b50bd25ce80a9b72143d380f379882cd8d767611717e6b5497ff75070b58690",
+      "copy": true
+    },
+    {
+      "path": "preexecution-semantic-review-attempt-02.json",
+      "bytes": 3106,
+      "sha256": "92b17d5911c885861576e77260ff8171861fc21f5908d270ef59a8f09de4eb9c",
+      "copy": true
+    },
+    {
+      "path": "raw/two-case-source-specification.json",
+      "bytes": 4345,
+      "sha256": "aee66fe5e9f270c673317a6c5030b500e7afa414b702a35e973b5f5b3269a282",
+      "copy": true
+    },
+    {
+      "path": "raw/preexecution-freeze-verification-attempt-01.json",
+      "bytes": 5184,
+      "sha256": "c9fcef36d5164a452fc2595fe4b8828324657180c91c7150249f1ac0d2344c90",
+      "copy": true
+    },
+    {
+      "path": "raw/preexecution-freeze-verification-attempt-02.json",
+      "bytes": 5187,
+      "sha256": "138cd1175a3661d647a35d363a4dd9527b5119c423d4ee0f1edb756e0935682e",
+      "copy": true
+    }
+  ],
+  "external_dependencies": [
+    {
+      "path": "project/docs/external-witness-replay-contract.md",
+      "expected_sha256": "a3649b051ec9350c17a2bbb81aead5692b023fef51a047592fcf13ffc1f6aa39",
+      "actual_sha256": "a3649b051ec9350c17a2bbb81aead5692b023fef51a047592fcf13ffc1f6aa39",
+      "hash_match": true,
+      "copy": false
+    },
+    {
+      "path": "external-witness-work/preexecution-freeze.json",
+      "expected_sha256": "eb09547d3891e9ad2b783114aa120c9b73e190a2153eaca37ab84b103624774a",
+      "actual_sha256": "eb09547d3891e9ad2b783114aa120c9b73e190a2153eaca37ab84b103624774a",
+      "hash_match": true,
+      "copy": false
+    },
+    {
+      "path": "external-witness-work/preexecution-freeze-attempt02.json",
+      "expected_sha256": "11359bdd37807ae1cf5b42697007503d56ae54d77a6452c4fa2ff83f9f5a6cfc",
+      "actual_sha256": "11359bdd37807ae1cf5b42697007503d56ae54d77a6452c4fa2ff83f9f5a6cfc",
+      "hash_match": true,
+      "copy": false
+    },
+    {
+      "path": "external-witness-work/result-freeze.json",
+      "expected_sha256": "51ce2155fc96b993a141a5d2b40a632f46fee39bd9cc8406362285acf3168215",
+      "actual_sha256": "51ce2155fc96b993a141a5d2b40a632f46fee39bd9cc8406362285acf3168215",
+      "hash_match": true,
+      "copy": false
+    }
+  ],
+  "ordered_interpretation": [
+    "selected-contract-source-review.json establishes the source/scope gate.",
+    "selected-contract-source-review-correction.json limits the stale readiness wording to the old report bytes.",
+    "preexecution-semantic-review-attempt-01.json retains the rejected first code freeze.",
+    "preexecution-semantic-review-attempt-02.json approves one run of the corrected exact-check freeze."
+  ],
+  "limitations": [
+    "The selected cases and witnesses were disclosed; these records support known-case replay only.",
+    "This manifest does not certify the post-run solver or certificate results."
+  ]
+}

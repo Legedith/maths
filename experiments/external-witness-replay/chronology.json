@@ -1,0 +1,12 @@
+{
+  "scope": "Known-case replay author chronology; no human-effort or timing-compliance claim",
+  "prior_author_attempt": {
+    "author": "/root/sol_symmetry_worker",
+    "outcome": "interrupted before implementation staging existed",
+    "study_execution": false,
+    "note": "The prior author spent time repairing a separate readiness report. Root took over implementation; this is retained, not counted as a successful first author attempt."
+  },
+  "root_author_started_at": "2026-09-08T05:01:26Z",
+  "source_contract_review": "next-value-audit-work/selected-contract-source-review.json with additive correction",
+  "study_execution": "not_started_pending_independent_encoding_review"
+}

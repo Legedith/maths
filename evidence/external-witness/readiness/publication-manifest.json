@@ -1,0 +1,77 @@
+{
+  "schema_version": "audit-publication-manifest-v1",
+  "subject": "positive exact-tool readiness independent audit",
+  "auditor": "/root/sol_symmetry_audit",
+  "files": [
+    {
+      "path": "final-tool-readiness-audit.json",
+      "bytes": 6085,
+      "sha256": "4b85625620fa201c0826bbde2fca3bfa5bc3884bae6c21a00f95467c2c4386b9",
+      "role": "final scoped audit"
+    },
+    {
+      "path": "positive-readiness-check.json",
+      "bytes": 3406,
+      "sha256": "d1562c46885cdf9b165252c761bed36aedb4f90f9addadd8e733c8b34a046ffa",
+      "role": "raw positive evaluator output"
+    },
+    {
+      "path": "independent-env-setup.json",
+      "bytes": 5352,
+      "sha256": "afd4c830552213b710eabaec83b28b34b0603eef2a8d33fee24a939bf9a64f55",
+      "role": "raw isolated uv setup and version log"
+    },
+    {
+      "path": "independent-smoke.json",
+      "bytes": 1595,
+      "sha256": "9b141d298caea1506868cc851316efc1ced78df5ae9471dd1f65d55a070ea819",
+      "role": "raw independent generic fixture output"
+    },
+    {
+      "path": "smoke-contract.json",
+      "bytes": 2065,
+      "sha256": "e521415fd5edac2a155b5a091c7a6e0343bab3990becc5bde77099aa25e93162",
+      "role": "byte-exact copied worker contract"
+    },
+    {
+      "path": "setup_independent_env.ps1",
+      "bytes": 2783,
+      "sha256": "52a0bc2855eb9087102b832acf84ffb7a443a83a7ddcd00a8b4bd56912727d3a",
+      "role": "isolated environment setup code"
+    },
+    {
+      "path": "independent_smoke.py",
+      "bytes": 3930,
+      "sha256": "a50e93537c20b615fbbe569319c3a1bdd57315d1ff950e2b20d79548cd77fd5b",
+      "role": "independent generic fixture code"
+    },
+    {
+      "path": "verify_positive_readiness.py",
+      "bytes": 6939,
+      "sha256": "37a105fdec2e6827ac6631f3db7a4bf83e2c01dce1c230076f067f6a281814f8",
+      "role": "positive-evidence alignment code"
+    },
+    {
+      "path": "worker-freeze-check.json",
+      "bytes": 18565,
+      "sha256": "c2ab19f15571a17f4d7298154e17df06e67aa80dc629c0bbecd1b6c61f96a66c",
+      "role": "retained superseded evaluator output"
+    },
+    {
+      "path": "verify_worker_freeze.py",
+      "bytes": 13895,
+      "sha256": "fae863dfcbf962a9d4bff29eb87656146ce46d717d6ddeb9b5e31174b09a542e",
+      "role": "retained superseded evaluator code"
+    }
+  ],
+  "excluded": [
+    {
+      "path": ".venv/",
+      "reason": "Ephemeral audit environment; exact commands, pins, versions, and outputs are retained."
+    },
+    {
+      "path": "all broader author-report conclusions",
+      "reason": "The final audit approves only the four positive Z3/SymPy API statements and explicitly records the failed time cap and unresolved absence wording."
+    }
+  ]
+}

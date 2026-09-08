@@ -1,0 +1,153 @@
+{
+  "all_pass": true,
+  "auditor": "/root/sol_symmetry_audit",
+  "author_result_freeze_checks": [
+    {
+      "bytes": 540,
+      "pass": true,
+      "path": "run-01/command.json",
+      "sha256": "45842876c38a59777cb728933d842501bfad0e281af2286a9b13ef7d0b946f75"
+    },
+    {
+      "bytes": 1376,
+      "pass": true,
+      "path": "run-01/results/case-23150070.json",
+      "sha256": "c0092d2f93386a7ed4d2d0f3d19a5821c87a6309fd8a7935678064a5e030ad52"
+    },
+    {
+      "bytes": 1638,
+      "pass": true,
+      "path": "run-01/results/case-23832572.json",
+      "sha256": "522e16a66fc4c375ca4d2f2b38a0fe02017f5e73d3c2c6bc10e50f183332facd"
+    },
+    {
+      "bytes": 1927,
+      "pass": true,
+      "path": "run-01/results/result-summary.json",
+      "sha256": "fe644e3362c94079008c8f479651a154a9cbe5f7b7f528870f72ab52dc042367"
+    },
+    {
+      "bytes": 46,
+      "pass": true,
+      "path": "run-01/results/triangle-source-negation.json",
+      "sha256": "f6f166253d56d776285c3afa738b230a961b898e641af667f8083506f9ab3128"
+    },
+    {
+      "bytes": 647,
+      "pass": true,
+      "path": "run-01/results/triangle-source-negation.smt2",
+      "sha256": "777c3bd6ceb9dfad33c47af3655dc3b3a1b2c90cdaf3f3beffbc92b0b88b9d4a"
+    },
+    {
+      "bytes": 226,
+      "pass": true,
+      "path": "run-01/results/triangle-summary-negation.json",
+      "sha256": "98619ab831745d03f74b3eb8591d4ea6a3ee76394b1199de87baa0ad3728de5d"
+    },
+    {
+      "bytes": 647,
+      "pass": true,
+      "path": "run-01/results/triangle-summary-negation.smt2",
+      "sha256": "3458aaadbdf3f95d01a6c56573f5c99a1b0c6e32d06af7643be43cec2646854f"
+    },
+    {
+      "bytes": 0,
+      "pass": true,
+      "path": "run-01/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 62,
+      "pass": true,
+      "path": "run-01/stdout.log",
+      "sha256": "6c53563e14f98466341e3c93d7fb314ec797fc8787afdd5686ebc8b2cad4dce9"
+    }
+  ],
+  "byte_comparison": {
+    "command.json": false,
+    "results/case-23150070.json": true,
+    "results/case-23832572.json": true,
+    "results/result-summary.json": true,
+    "results/triangle-source-negation.json": true,
+    "results/triangle-source-negation.smt2": true,
+    "results/triangle-summary-negation.json": true,
+    "results/triangle-summary-negation.smt2": true,
+    "stderr.log": true,
+    "stdout.log": true
+  },
+  "checks": {
+    "all_noncommand_files_byte_equal": true,
+    "author_result_freeze": true,
+    "copied_inputs": true,
+    "direct_certificates": true,
+    "preexecution_freeze_sha256": true,
+    "result_freeze_sha256": true,
+    "stable_records": true
+  },
+  "comparison_policy": "Compare mathematical values, statuses, exact-check maps, package versions, SMT assertions, and process outcomes; do not compare timestamps, elapsed durations, absolute paths, or output-directory names.",
+  "copied_input_checks": [
+    {
+      "bytes": 8,
+      "pass": true,
+      "path": ".python-version",
+      "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d"
+    },
+    {
+      "bytes": 196,
+      "pass": true,
+      "path": "pyproject.toml",
+      "sha256": "f12809ebec0a0612615ce447bd00e6184cceb2d3120f188feaf953a0f2382999"
+    },
+    {
+      "bytes": 5087,
+      "pass": true,
+      "path": "uv.lock",
+      "sha256": "69f953c105e9ea8d67010888c5ea05da1fb67119682da008bf991df05a7551c3"
+    },
+    {
+      "bytes": 3632,
+      "pass": true,
+      "path": "encoding.json",
+      "sha256": "96346c871b570aff57557ef201e7335bea4fb1ac55fe0e5a54ed6a149afa13d5"
+    },
+    {
+      "bytes": 9865,
+      "pass": true,
+      "path": "replay.py",
+      "sha256": "fba8091e04aa5bd9c2f4dc923d2b41cf90bd900a21da43c153a5a06c697f4658"
+    },
+    {
+      "bytes": 690,
+      "pass": true,
+      "path": "chronology.json",
+      "sha256": "01accc06b7a516a52586fb32eacb9504df3e4bca3c192bb3d03e23f816102309"
+    }
+  ],
+  "direct_checks": {
+    "author_result_certificate": true,
+    "case_23150070_direct_values": true,
+    "case_23832572_direct_values": true,
+    "reproduction_result_certificate": true
+  },
+  "inputs": {
+    "author_run": "D:\\CodexWorkspaces\\mathematics-atlas\\external-witness-work\\run-01",
+    "preexecution_freeze_sha256": "11359bdd37807ae1cf5b42697007503d56ae54d77a6452c4fa2ff83f9f5a6cfc",
+    "reproduction_run": "D:\\CodexWorkspaces\\mathematics-atlas\\external-witness-audit-work\\reproduction\\run-reproduction",
+    "result_freeze_sha256": "51ce2155fc96b993a141a5d2b40a632f46fee39bd9cc8406362285acf3168215"
+  },
+  "schema_version": "external-witness-copied-reproduction-comparison-v1",
+  "stable_checks": {
+    "child_argv_shape": true,
+    "command_outcome": true,
+    "first_numeric_record": true,
+    "result_summary": true,
+    "second_numeric_record": true,
+    "smt2_source_negation": true,
+    "smt2_summary_negation": true,
+    "source_query": true,
+    "stderr_empty": true,
+    "stdout": true,
+    "summary_query": true,
+    "sympy_replay": true
+  }
+}

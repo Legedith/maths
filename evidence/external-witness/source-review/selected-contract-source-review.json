@@ -1,0 +1,82 @@
+{
+  "schema_version": "selected-external-witness-contract-source-review-v1",
+  "created_at_utc": "2026-09-08T04:53:07.890012+00:00",
+  "auditor_task": "/root/sol_atlas_audit",
+  "input": {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\docs\\external-witness-replay-contract.md",
+    "sha256": "a3649b051ec9350c17a2bbb81aead5692b023fef51a047592fcf13ffc1f6aa39",
+    "expected_sha256": "a3649b051ec9350c17a2bbb81aead5692b023fef51a047592fcf13ffc1f6aa39",
+    "hash_match": true
+  },
+  "checks": [
+    {
+      "id": "case_23150070_source_premises",
+      "status": "pass",
+      "note": "Lines 26-40 correctly distinguish the source's any-graph indexed product from the generated summary's product over nonzero eigenvalues. The expected values 0, 1 and 0 are exact for two disjoint unit edges.",
+      "support": [
+        "raw/two-case-source-specification.json case 23150070",
+        "https://arxiv.org/pdf/0802.2576v2 PDF pp. 1-2, Theorem 1.2"
+      ]
+    },
+    {
+      "id": "case_23832572_source_premises",
+      "status": "pass",
+      "note": "Lines 42-57 preserve connectedness, conductances, weighted tau and tau_e, and the exact source identity. The triangle totals 5 and 4, resistance 2/5, and ordinary-count substitution 1/3 are exact.",
+      "support": [
+        "raw/two-case-source-specification.json case 23832572",
+        "https://arxiv.org/pdf/2109.01324v2 PDF pp. 5, 12 and 15, Corollary 4.7"
+      ]
+    },
+    {
+      "id": "attribution_and_scope",
+      "status": "pass",
+      "note": "Lines 3-14 and 85-92 explicitly limit the run to known-case executable replay and rule out held-out detection, superiority, novelty, accuracy and practical-impact claims.",
+      "support": [
+        "D:\\CodexWorkspaces\\mathematics-atlas\\project\\docs\\external-witness-replay-contract.md lines 3-14 and 85-92"
+      ]
+    },
+    {
+      "id": "independent_review_boundary",
+      "status": "pass",
+      "note": "Lines 18-24, 59-62 and 79-83 require source-faithful semantic review before execution, preserve failures, and separate shared package checks from direct certificate checks.",
+      "support": [
+        "D:\\CodexWorkspaces\\mathematics-atlas\\project\\docs\\external-witness-replay-contract.md lines 18-24, 59-62 and 79-83"
+      ]
+    },
+    {
+      "id": "execution_readiness",
+      "status": "pending_encoding_freeze_review",
+      "note": "This review authorizes preparation and freezing of code and encodings without solver calls. Scored execution remains pending inspection of the frozen encodings and commands.",
+      "support": []
+    }
+  ],
+  "nonblocking_precision_requests_for_encoding_artifact": [
+    "For 23150070, state vertex order and define the characteristic polynomial convention explicitly.",
+    "For 23150070, retain all four eigenvalue multiplicities and every principal cofactor, not only the headline values.",
+    "For 23832572, copy the resolved source locators into the encoding record: PDF p. 5 weighted tau, p. 12 tau_e and p. 15 Corollary 4.7.",
+    "For 23832572, define the grounded node equations, current sign convention, voltage-difference convention and denominator guards in the frozen record.",
+    "Keep within-instance unsat controls scoped to these fixed graphs; they are not theorem proofs."
+  ],
+  "runtime_evidence_observed_not_certified_here": {
+    "feasibility_report": {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\tool-feasibility-work\\notes\\feasibility-report.md",
+      "sha256": "2e904356cd2fc9b34ceb09096cd60c9513800d030c332fbe73ce6ae040d9c2f6"
+    },
+    "artifact_manifest": {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\tool-feasibility-work\\logs\\artifact-manifest.json",
+      "sha256": "291d3c3da574b03827d42380816f21a66a866a78571caade5c295bcda1e2b0be"
+    },
+    "z3_smoke": {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\tool-feasibility-work\\raw\\z3-smoke.json",
+      "sha256": "4892822ae5594531987d66951a71aff3b4685eeb55fe54cfc11e86b1051e2a67"
+    },
+    "sympy_smoke": {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\tool-feasibility-work\\raw\\sympy-smoke.json",
+      "sha256": "2d8f89fe4fcb4155bfbaa12127a2e15f9aec47f4af17ad7ac2e56c57e93f6462"
+    },
+    "scope": "A separate auditor owns runtime readiness. This source review does not certify it.",
+    "wording_issue": "The feasibility report lines 9-15 contains human setup estimates, which must not support final accounting or claims."
+  },
+  "decision": "pass_for_encoding_preparation_only",
+  "next_gate": "After the author freezes code, encodings, exact commands and no-run evidence, independently inspect semantic alignment before permitting solver execution."
+}

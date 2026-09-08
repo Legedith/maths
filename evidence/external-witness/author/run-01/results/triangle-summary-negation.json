@@ -1,0 +1,10 @@
+{
+  "status": "sat",
+  "timeout_ms": 5000,
+  "model_sexpr": "(define-fun v0 () Real\n  (/ 2.0 5.0))\n(define-fun v2 () Real\n  (/ 1.0 5.0))\n(define-fun v1 () Real\n  0.0)",
+  "voltages": [
+    "2/5",
+    "0",
+    "1/5"
+  ]
+}

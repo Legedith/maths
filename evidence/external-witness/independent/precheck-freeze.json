@@ -1,0 +1,17 @@
+{
+  "schema_version": "independent-direct-certificate-precheck-v1",
+  "auditor": "/root/sol_symmetry_audit",
+  "status": "frozen_before_study_execution",
+  "worker_preexecution_freeze": {
+    "path": "external-witness-work/preexecution-freeze-attempt02.json",
+    "sha256": "11359bdd37807ae1cf5b42697007503d56ae54d77a6452c4fa2ff83f9f5a6cfc"
+  },
+  "encoding_sha256": "96346c871b570aff57557ef201e7335bea4fb1ac55fe0e5a54ed6a149afa13d5",
+  "checker": {
+    "path": "external-witness-audit-work/direct_certificate_check.py",
+    "sha256": "7c236eeb6de9326cfdb820aa6bffafe358be1aed24ec5ad3df234d5da6a4626b",
+    "method": "stdlib Fraction arithmetic, direct determinant/solve/matrix operations, and exhaustive edge-subset enumeration"
+  },
+  "execution_status": "not_run_pending_reviewer_b_semantic_approval",
+  "scope": "Direct certificate checking only; no study execution and no source-semantic approval by this artifact."
+}

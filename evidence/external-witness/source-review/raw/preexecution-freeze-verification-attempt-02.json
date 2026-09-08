@@ -1,0 +1,132 @@
+{
+  "schema_version": "external-witness-preexecution-independent-hash-check-v1",
+  "attempt": 2,
+  "created_at_utc": "2026-09-08T05:12:32.431754+00:00",
+  "manifest": {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\external-witness-work\\preexecution-freeze-attempt02.json",
+    "sha256": "11359bdd37807ae1cf5b42697007503d56ae54d77a6452c4fa2ff83f9f5a6cfc",
+    "expected_sha256": "11359bdd37807ae1cf5b42697007503d56ae54d77a6452c4fa2ff83f9f5a6cfc",
+    "hash_match": true
+  },
+  "frozen_file_checks": [
+    {
+      "path": ".python-version",
+      "exists": true,
+      "expected_sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d",
+      "actual_sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d",
+      "expected_bytes": 8,
+      "actual_bytes": 8,
+      "pass": true
+    },
+    {
+      "path": "pyproject.toml",
+      "exists": true,
+      "expected_sha256": "f12809ebec0a0612615ce447bd00e6184cceb2d3120f188feaf953a0f2382999",
+      "actual_sha256": "f12809ebec0a0612615ce447bd00e6184cceb2d3120f188feaf953a0f2382999",
+      "expected_bytes": 196,
+      "actual_bytes": 196,
+      "pass": true
+    },
+    {
+      "path": "uv.lock",
+      "exists": true,
+      "expected_sha256": "69f953c105e9ea8d67010888c5ea05da1fb67119682da008bf991df05a7551c3",
+      "actual_sha256": "69f953c105e9ea8d67010888c5ea05da1fb67119682da008bf991df05a7551c3",
+      "expected_bytes": 5087,
+      "actual_bytes": 5087,
+      "pass": true
+    },
+    {
+      "path": "encoding.json",
+      "exists": true,
+      "expected_sha256": "96346c871b570aff57557ef201e7335bea4fb1ac55fe0e5a54ed6a149afa13d5",
+      "actual_sha256": "96346c871b570aff57557ef201e7335bea4fb1ac55fe0e5a54ed6a149afa13d5",
+      "expected_bytes": 3632,
+      "actual_bytes": 3632,
+      "pass": true
+    },
+    {
+      "path": "replay.py",
+      "exists": true,
+      "expected_sha256": "fba8091e04aa5bd9c2f4dc923d2b41cf90bd900a21da43c153a5a06c697f4658",
+      "actual_sha256": "fba8091e04aa5bd9c2f4dc923d2b41cf90bd900a21da43c153a5a06c697f4658",
+      "expected_bytes": 9865,
+      "actual_bytes": 9865,
+      "pass": true
+    },
+    {
+      "path": "chronology.json",
+      "exists": true,
+      "expected_sha256": "01accc06b7a516a52586fb32eacb9504df3e4bca3c192bb3d03e23f816102309",
+      "actual_sha256": "01accc06b7a516a52586fb32eacb9504df3e4bca3c192bb3d03e23f816102309",
+      "expected_bytes": 690,
+      "actual_bytes": 690,
+      "pass": true
+    }
+  ],
+  "source_input_checks": [
+    {
+      "path": "project/docs/external-witness-replay-contract.md",
+      "exists": true,
+      "expected_sha256": "a3649b051ec9350c17a2bbb81aead5692b023fef51a047592fcf13ffc1f6aa39",
+      "actual_sha256": "a3649b051ec9350c17a2bbb81aead5692b023fef51a047592fcf13ffc1f6aa39",
+      "expected_bytes": 5942,
+      "actual_bytes": 5942,
+      "pass": true
+    },
+    {
+      "path": "project/evidence/assumption-checks/independent/retrieval-review-adjudication.json",
+      "exists": true,
+      "expected_sha256": "1b64837ccce001b3bbe5996b594a8d820bcbcab0a87e1831f8e6fb2441311fb9",
+      "actual_sha256": "1b64837ccce001b3bbe5996b594a8d820bcbcab0a87e1831f8e6fb2441311fb9",
+      "expected_bytes": 62017,
+      "actual_bytes": 62017,
+      "pass": true
+    },
+    {
+      "path": "project/evidence/assumption-checks/independent/retrieval-review-adjudication-corrections.json",
+      "exists": true,
+      "expected_sha256": "030cf2360f0bcf8448fa809dc5141da716ba89262ad7140bf7fa1c283224cd3d",
+      "actual_sha256": "030cf2360f0bcf8448fa809dc5141da716ba89262ad7140bf7fa1c283224cd3d",
+      "expected_bytes": 3006,
+      "actual_bytes": 3006,
+      "pass": true
+    },
+    {
+      "path": "next-value-audit-work/selected-contract-source-review.json",
+      "exists": true,
+      "expected_sha256": "7f43a0a5ee01ff2158cd0b07a3256b87f6883384938be3253c065122d658b2f1",
+      "actual_sha256": "7f43a0a5ee01ff2158cd0b07a3256b87f6883384938be3253c065122d658b2f1",
+      "expected_bytes": 4762,
+      "actual_bytes": 4762,
+      "pass": true
+    },
+    {
+      "path": "next-value-audit-work/selected-contract-source-review-correction.json",
+      "exists": true,
+      "expected_sha256": "bc26f6103a50b220267f6dbf8ddb3cb13247a0cc364da6a50a559b8fc3d73312",
+      "actual_sha256": "bc26f6103a50b220267f6dbf8ddb3cb13247a0cc364da6a50a559b8fc3d73312",
+      "expected_bytes": 1660,
+      "actual_bytes": 1660,
+      "pass": true
+    },
+    {
+      "path": "next-value-audit-work/raw/two-case-source-specification.json",
+      "exists": true,
+      "expected_sha256": "aee66fe5e9f270c673317a6c5030b500e7afa414b702a35e973b5f5b3269a282",
+      "actual_sha256": "aee66fe5e9f270c673317a6c5030b500e7afa414b702a35e973b5f5b3269a282",
+      "expected_bytes": 4345,
+      "actual_bytes": 4345,
+      "pass": true
+    }
+  ],
+  "frozen_file_failure_count": 0,
+  "source_input_failure_count": 0,
+  "run_01_present": false,
+  "python_ast_parse": {
+    "pass": true,
+    "error": null,
+    "execution": false
+  },
+  "scope": "Read-only hash, size and syntax check; no import or study execution."
+}

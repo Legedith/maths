@@ -1,0 +1,14 @@
+name: Reproduce exact source-summary examples
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: astral-sh/setup-uv@d0d8abe699bfb85fec6de9f7adb5ae17292296ff # v6
+        with:
+          version: '0.8.19'
+          python-version: '3.12.11'
+      - run: uv run --project experiments/external-witness-replay --frozen python scripts/reproduce_external_witness.py --output-dir work/external-witness-ci

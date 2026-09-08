@@ -1,0 +1,88 @@
+{
+  "known_case_count": 2,
+  "author_expected_checks_pass": true,
+  "exact_checks": {
+    "case-23150070/source_expression": {
+      "expected": "0",
+      "actual": "0",
+      "pass": true
+    },
+    "case-23150070/summary_expression": {
+      "expected": "1",
+      "actual": "1",
+      "pass": true
+    },
+    "case-23150070/tree_total": {
+      "expected": "0",
+      "actual": "0",
+      "pass": true
+    },
+    "case-23150070/cofactors": {
+      "expected": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "actual": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "pass": true
+    },
+    "case-23832572/summary_query": {
+      "expected": "sat",
+      "actual": "sat",
+      "pass": true
+    },
+    "case-23832572/source_control_query": {
+      "expected": "unsat",
+      "actual": "unsat",
+      "pass": true
+    },
+    "case-23832572/voltages": {
+      "expected": [
+        "2/5",
+        "0",
+        "1/5"
+      ],
+      "actual": [
+        "2/5",
+        "0",
+        "1/5"
+      ],
+      "pass": true
+    },
+    "case-23832572/tau": {
+      "expected": "5",
+      "actual": "5",
+      "pass": true
+    },
+    "case-23832572/tau_e": {
+      "expected": "4",
+      "actual": "4",
+      "pass": true
+    },
+    "case-23832572/resistance": {
+      "expected": "2/5",
+      "actual": "2/5",
+      "pass": true
+    },
+    "case-23832572/summary_expression": {
+      "expected": "1/3",
+      "actual": "1/3",
+      "pass": true
+    }
+  },
+  "independent_gate": "pending",
+  "scope": "Known-case replay only. The labels, graphs and expected values were disclosed before encoding. No held-out detection, novelty, general accuracy or implementation superiority is claimed.",
+  "encoding_sha256": "96346c871b570aff57557ef201e7335bea4fb1ac55fe0e5a54ed6a149afa13d5",
+  "versions": {
+    "python": "3.12.11",
+    "z3-solver": "5.1.0.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  }
+}

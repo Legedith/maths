@@ -1,0 +1,295 @@
+{
+  "schema_version": "external-witness-final-bundle-independent-review-v1",
+  "created_at_utc": "2026-09-08T05:48:04.285288+00:00",
+  "auditor": {
+    "identity": "/root/sol_atlas_audit",
+    "role": "independent final claim, source, specification, and implementation-alignment reviewer; not implementation author"
+  },
+  "review_input": {
+    "path": "project/.codex/evidence/runs/external-witness-v1/bundle.json",
+    "sha256": "f36ab183543d3dc6da3fc1b4ca23943169811de5bf8bbf59f664254bc4eacbe2",
+    "bytes": 27881,
+    "artifact_count": 75,
+    "claim_count": 6
+  },
+  "overall_status": "pass_scoped",
+  "decision": "Approve claims C001-C006 and recommend pass for all four required checks after this independent review is added to the successor bundle. Approval is limited to two pre-disclosed finite known-case replays and the exact reviewed bundle input hash.",
+  "artifact_hash_review": {
+    "status": "pass",
+    "reviewed": 75,
+    "present": 75,
+    "sha256_matches": 75,
+    "mismatches": [],
+    "reviewed_ids": [
+      "A001",
+      "A002",
+      "A003",
+      "A004",
+      "A005",
+      "A006",
+      "A007",
+      "A008",
+      "A009",
+      "A010",
+      "A011",
+      "A012",
+      "A013",
+      "A014",
+      "A015",
+      "A016",
+      "A017",
+      "A018",
+      "A019",
+      "A020",
+      "A021",
+      "A022",
+      "A023",
+      "A024",
+      "A025",
+      "A026",
+      "A027",
+      "A028",
+      "A029",
+      "A030",
+      "A031",
+      "A032",
+      "A033",
+      "A034",
+      "A035",
+      "A036",
+      "A037",
+      "A038",
+      "A039",
+      "A040",
+      "A041",
+      "A042",
+      "A043",
+      "A044",
+      "A045",
+      "A046",
+      "A047",
+      "A048",
+      "A049",
+      "A050",
+      "A051",
+      "A052",
+      "A053",
+      "A054",
+      "A055",
+      "A056",
+      "A057",
+      "A058",
+      "A059",
+      "A060",
+      "A061",
+      "A062",
+      "A063",
+      "A064",
+      "A065",
+      "A066",
+      "A067",
+      "A068",
+      "A069",
+      "A070",
+      "A071",
+      "A072",
+      "A073",
+      "A074",
+      "A075"
+    ]
+  },
+  "locator_review": {
+    "status": "pass",
+    "claim_support_items_reviewed": 32,
+    "unresolved": 0,
+    "note": "Every artifact/claim reference resolves. All JSON expected values equal the retained values and every contains locator is present."
+  },
+  "transfer_and_freeze_review": {
+    "status": "pass",
+    "integration_transfer_records": 50,
+    "staging_source_hash_matches": 50,
+    "integrated_target_hash_matches": 50,
+    "attempt02_frozen_runtime_files_matching": 6,
+    "attempt02_frozen_runtime_file_count": 6,
+    "author_result_freeze_files_matching": 10,
+    "author_result_freeze_file_count": 10,
+    "integrated_noncommand_outputs_observed": 9,
+    "integrated_noncommand_outputs_matching_author_bytes": 9
+  },
+  "source_snapshot_review": {
+    "status": "pass",
+    "snapshots": [
+      {
+        "theorem_id": 23150070,
+        "url": "https://arxiv.org/pdf/0802.2576v2",
+        "locators": [
+          "PDF p. 1 / extracted lines 18-47: graph domain, n-c nonzero eigenvalues, connected classical theorem",
+          "PDF p. 2 / extracted lines 74-107: weighted Laplacian and Theorem 1.2"
+        ],
+        "pdf_sha256": "3450dbb90c168258764777f114a48b6840f61710ccddad91dd46b5aeefdf6646",
+        "pdf_present_and_hash_matches": true,
+        "text_sha256": "f05cc84137169982c802c27201c4c44c571d2a4dcce3dd1a1a00c166ad7d38a5",
+        "text_present_and_hash_matches": true
+      },
+      {
+        "theorem_id": 23832572,
+        "url": "https://arxiv.org/pdf/2109.01324v2",
+        "locators": [
+          "PDF p. 5 / extracted lines 258-282: forest weight and tau",
+          "PDF p. 12 / extracted lines 900-911: tau_e",
+          "PDF p. 15 / extracted lines 1141-1154: conductance and Corollary 4.7"
+        ],
+        "pdf_sha256": "4558460b8c32d06ab4dd542d015d4527f3ab943dae0533d568eacc9d5fa25c7c",
+        "pdf_present_and_hash_matches": true,
+        "text_sha256": "828bdc92002eacd4fa79b21f72e0f508475f137a80adef38a65d2b4e27a48a2d",
+        "text_present_and_hash_matches": true
+      }
+    ],
+    "note": "The retained local PDFs and extracted texts still match Reviewer B source-specification hashes. The cited passages support the indexed-spectrum versus nonzero-spectrum distinction and weighted-mass versus ordinary-count distinction. The discrepancies are in generated summaries; neither paper is alleged wrong."
+  },
+  "claim_reviews": [
+    {
+      "id": "C001",
+      "status": "pass",
+      "note": "The exact author record and independent standard-library certificate support spectrum 0,0,2,2, source/tree value 0, and generated-summary value 1 on the disclosed disconnected graph."
+    },
+    {
+      "id": "C002",
+      "status": "pass",
+      "note": "The exact author record and independent certificate support tau=5, tau_e=4, resistance/source value 2/5, generated-summary value 1/3, and the two instance-specific Z3 statuses."
+    },
+    {
+      "id": "C003",
+      "status": "pass",
+      "note": "The independent primary-source review and source specification support both error classes and correctly attribute them to generated summaries rather than the papers."
+    },
+    {
+      "id": "C004",
+      "status": "pass",
+      "note": "Pinned project metadata, frozen replay code, independent Fraction checker, checkout-relative wrapper, retained integration logs, and passing integration result support the method description."
+    },
+    {
+      "id": "C005",
+      "status": "pass",
+      "note": "The retained map contains 11 passing expected checks; independent copied reproduction records nine byte-identical non-command outputs; integrated reproduction records nine matching non-command outputs and a passing direct certificate."
+    },
+    {
+      "id": "C006",
+      "status": "pass",
+      "note": "The conclusion is calibrated to reusable reviewed examples and explicitly excludes detection, novelty, general accuracy, superiority, practical impact, and theorem-level proof."
+    }
+  ],
+  "approved_claim_ids": [
+    "C001",
+    "C002",
+    "C003",
+    "C004",
+    "C005",
+    "C006"
+  ],
+  "four_checks": [
+    {
+      "id": "reproduction",
+      "status": "pass",
+      "recommended_existing_evidence": [
+        "A009",
+        "A021",
+        "A022",
+        "A025",
+        "A028",
+        "A034",
+        "A035",
+        "A036",
+        "A037",
+        "A038",
+        "A039",
+        "A040",
+        "A041",
+        "A042",
+        "A043",
+        "A044",
+        "A045",
+        "A046"
+      ],
+      "note": "Independent copied replay and direct certificates pass; the integrated wrapper run also passes and all nine non-command outputs match author bytes."
+    },
+    {
+      "id": "specification_compliance",
+      "status": "pass",
+      "recommended_existing_evidence": [
+        "A002",
+        "A005",
+        "A007",
+        "A009",
+        "A025",
+        "A059",
+        "A060",
+        "A069",
+        "A070",
+        "A074"
+      ],
+      "note": "The failed preexecution attempt is retained, attempt 02 was approved before execution and enforces all 11 expected fields, exact artifacts are preserved, and the report discloses the known-case and timing boundaries."
+    },
+    {
+      "id": "source_verification",
+      "status": "pass",
+      "recommended_existing_evidence": [
+        "A003",
+        "A004",
+        "A025",
+        "A064",
+        "A065",
+        "A066",
+        "A074"
+      ],
+      "note": "Primary-source locators and hash-matching local snapshots support both narrowly stated generated-summary discrepancies and the no-paper-error qualification."
+    },
+    {
+      "id": "implementation_alignment",
+      "status": "pass",
+      "recommended_existing_evidence": [
+        "A001",
+        "A007",
+        "A009",
+        "A020",
+        "A022",
+        "A023",
+        "A024",
+        "A025",
+        "A028",
+        "A034",
+        "A035",
+        "A036",
+        "A047",
+        "A070",
+        "A071",
+        "A072",
+        "A073",
+        "A075"
+      ],
+      "note": "All promoted frozen runtime/result bytes align with their manifests and transfer record; wrapper behavior and raw integrated outputs align with the described two-stage exact replay."
+    }
+  ],
+  "documentation_and_wrapper_review": {
+    "status": "pass",
+    "readme": "README-witness.md accurately states the two values, source locators, reproduction command, independent checks, failed attempt, and scope exclusions.",
+    "wrapper": "scripts/reproduce_external_witness.py resolves paths from the checkout, rejects changed frozen inputs, refuses an existing output directory, retains stdout/stderr/argv/exit/timestamps, invokes the frozen uv replay and independent certificate, and reports byte comparisons separately from certificate success.",
+    "workflow": ".github/workflows/external-witness.yml pins action revisions, uv 0.8.19 and Python 3.12.11, then invokes the documented frozen command.",
+    "precision_note": "Portable is approved as checkout-relative and platform-neutral by code inspection plus a successful integrated Windows run. No completed Ubuntu CI run is included, so cross-platform execution is not separately certified."
+  },
+  "material_defects": [],
+  "limitations": [
+    "Both source labels, witnesses, graphs, and expected values were disclosed before encoding. This is known-case replay, not held-out discovery or a fresh error detector.",
+    "Certificates establish the two frozen finite instances only; they do not prove either paper theorem in unrestricted generality.",
+    "No general accuracy, corpus prevalence, map completeness, solver superiority, performance, productivity, practical-impact, researcher-time, or novelty conclusion follows.",
+    "The separate readiness task exceeded its 15-minute cap and its author report remains unapproved as a whole. Combined workflow timing compliance is not certified.",
+    "The Ubuntu workflow is structurally reviewed but has no retained completed CI run in this bundle.",
+    "Complete third-party papers remain local; the bundle publishes source URLs, exact locators, hashes, and bounded independent notes."
+  ],
+  "review_actions": {
+    "mathematics_rerun_performed": false,
+    "reason": "The assigned final gate explicitly relied on the already independent copied reproduction and certificate audit; this review inspected their raw records plus the integrated run.",
+    "project_mutated": false,
+    "next_step": "Root may add this review as an immutable report artifact, replace the four pending check records with the exact scoped pass decisions above, and rerun the deterministic evidence gate."
+  }
+}

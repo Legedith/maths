@@ -1,0 +1,27 @@
+﻿{
+    "name":  "external-witness-bundle-init",
+    "command_argv":  [
+                         "uv",
+                         "run",
+                         "--frozen",
+                         "python",
+                         "C:/Users/Legedith/.codex/skills/chain-of-evidence/scripts/evidence_gate.py",
+                         "init",
+                         "--workspace",
+                         ".",
+                         "--run-id",
+                         "external-witness-v1",
+                         "--objective",
+                         "Replay two disclosed source-summary transfer errors using established exact mathematics tools, preserving source premises and within-instance controls under independent semantic and certificate review; claim neither new discovery nor comparative accuracy.",
+                         "--spec",
+                         "docs/external-witness-replay-contract.md",
+                         "--activate"
+                     ],
+    "command_display":  "uv run --frozen python C:/Users/Legedith/.codex/skills/chain-of-evidence/scripts/evidence_gate.py init --workspace . --run-id external-witness-v1 --objective Replay two disclosed source-summary transfer errors using established exact mathematics tools, preserving source premises and within-instance controls under independent semantic and certificate review; claim neither new discovery nor comparative accuracy. --spec docs/external-witness-replay-contract.md --activate",
+    "working_directory":  "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "started_at":  "2026-09-08T10:20:09.3380415+05:30",
+    "ended_at":  "2026-09-08T10:20:09.5133191+05:30",
+    "runtime_seconds":  0.1723988,
+    "exit_code":  0,
+    "console_log":  "logs/external-witness-bundle-init.console.log"
+}

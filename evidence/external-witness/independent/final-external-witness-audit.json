@@ -1,0 +1,148 @@
+{
+  "schema_version": "external-witness-independent-final-audit-v1",
+  "created_at_utc": "2026-09-08T05:25:53.3475013Z",
+  "auditor": "/root/sol_symmetry_audit",
+  "auditor_role": "independent post-run exact-certificate and reproduction verifier",
+  "overall_status": "pass_scoped",
+  "decision": "Approve the two frozen known-case replay records and their exact source controls. This decision does not approve any general accuracy, discovery, solver-performance, timing-efficiency, practical-impact, novelty, or theorem claim.",
+  "frozen_inputs": {
+    "contract": {
+      "path": "project/docs/external-witness-replay-contract.md",
+      "sha256": "a3649b051ec9350c17a2bbb81aead5692b023fef51a047592fcf13ffc1f6aa39"
+    },
+    "preexecution_freeze": {
+      "path": "external-witness-work/preexecution-freeze-attempt02.json",
+      "sha256": "11359bdd37807ae1cf5b42697007503d56ae54d77a6452c4fa2ff83f9f5a6cfc"
+    },
+    "result_freeze": {
+      "path": "external-witness-work/result-freeze.json",
+      "sha256": "51ce2155fc96b993a141a5d2b40a632f46fee39bd9cc8406362285acf3168215"
+    },
+    "encoding": {
+      "path": "external-witness-work/encoding.json",
+      "sha256": "96346c871b570aff57557ef201e7335bea4fb1ac55fe0e5a54ed6a149afa13d5"
+    },
+    "replay": {
+      "path": "external-witness-work/replay.py",
+      "sha256": "fba8091e04aa5bd9c2f4dc923d2b41cf90bd900a21da43c153a5a06c697f4658"
+    }
+  },
+  "four_checks": [
+    {
+      "id": "reproduction",
+      "status": "pass",
+      "scope": "Exact copied replay of the six attempt-02 frozen files in a new isolated uv environment.",
+      "notes": [
+        "All six copied input hashes match the preexecution freeze.",
+        "The frozen command exited 0 under CPython 3.12.11 with SymPy 1.14.0, z3-solver 5.1.0.0, and mpmath 1.3.0.",
+        "All nine non-command outputs are byte-identical to run-01. command.json differs only in excluded paths, timestamps, and durations; its stable argv shape, exit, stdout, stderr, and versions match.",
+        "Both the author run and copied reproduction pass the same pre-frozen direct certificate checker."
+      ],
+      "evidence": [
+        "external-witness-audit-work/copied-reproduction-command.json",
+        "external-witness-audit-work/reproduction-compare.json",
+        "external-witness-audit-work/direct-certificate-reproduction.json"
+      ]
+    },
+    {
+      "id": "specification_compliance",
+      "status": "pass",
+      "scope": "The mathematical, execution, failure-retention, and disclosure requirements for the two known-case replay records; no workflow-cap compliance claim is included.",
+      "notes": [
+        "Reviewer B approved attempt 02 before the one canonical author run. The preceding attempt-01 freeze remains retained as a failed preexecution attempt because it did not enforce every frozen expected value.",
+        "Attempt 02 changed only replay.py and maps all 11 expected fields to actual values, records expected/actual/pass, and requires all checks for success. All 11 passed in run-01 and the reproduction.",
+        "The run retained exact argv, stdout, stderr, exit code, package versions, SMT-LIB, solver results, rational and matrix records, and timestamps. Calculations contain exact integers or rationals; no floating-point claim is used.",
+        "The result scope names disclosed known examples and excludes held-out detection, solver superiority, theorem proof, general accuracy, novelty, and practical impact."
+      ],
+      "evidence": [
+        "next-value-audit-work/preexecution-semantic-review-attempt-01.json",
+        "next-value-audit-work/preexecution-semantic-review-attempt-02.json",
+        "external-witness-work/run-01/results/result-summary.json",
+        "external-witness-audit-work/reproduction-compare.json"
+      ]
+    },
+    {
+      "id": "source_verification",
+      "status": "pass",
+      "scope": "Alignment of the two frozen encodings with Reviewer B's independent primary-source review and exact source specification.",
+      "notes": [
+        "For theorem row 23150070, the source any-graph identity omits one designated zero while retaining any additional zero eigenvalues; the generated summary instead multiplies only nonzero eigenvalues. The disconnected two-edge witness therefore gives source expression 0 and generated-summary expression 1.",
+        "For theorem row 23832572, the source uses weighted spanning-tree masses tau and tau_e; the generated summary substitutes ordinary counts. The weighted triangle witness gives tau=5, tau_e=4, and source value 2/5, while ordinary counts give 1/3.",
+        "The primary papers are not alleged to be wrong. The verified discrepancies belong to the retained generated summaries.",
+        "This final auditor checked encoding/result alignment to Reviewer B's source review; Reviewer B performed the primary-source semantic reading."
+      ],
+      "evidence": [
+        "next-value-audit-work/raw/two-case-source-specification.json",
+        "next-value-audit-work/selected-contract-source-review.json",
+        "next-value-audit-work/selected-contract-source-review-correction.json",
+        "next-value-audit-work/preexecution-semantic-review-attempt-02.json",
+        "external-witness-audit-work/direct-certificate.json"
+      ]
+    },
+    {
+      "id": "implementation_alignment",
+      "status": "pass",
+      "scope": "Hash alignment of the exact frozen implementation/results plus independent standard-library arithmetic certificates for both witnesses.",
+      "notes": [
+        "All six preexecution files and all ten result-freeze files rehash exactly.",
+        "Case 23150070: the direct basis determinant is -4, LB=BD exactly, the spectrum is 0,0,2,2, every principal cofactor is 0, and exhaustive spanning-tree enumeration is empty. These facts yield source expression 0 and generated-summary expression 1.",
+        "Case 23832572: exhaustive tree weights are 2,2,1, so tau=5 and tau_e=4; ordinary counts are 3 and 2. The grounded determinant is 5, voltages are [2/5,0,1/5], current is [1,-1,0], and resistance is 2/5. The source negation is unsat and the generated-summary negation is sat at the exact witness.",
+        "The direct checker uses Python standard-library Fraction arithmetic, Gaussian elimination, determinants, matrix multiplication, and exhaustive edge-subset enumeration, without importing SymPy or Z3."
+      ],
+      "evidence": [
+        "external-witness-audit-work/precheck-freeze.json",
+        "external-witness-audit-work/direct_certificate_check.py",
+        "external-witness-audit-work/direct-certificate.json",
+        "external-witness-audit-work/direct-certificate-reproduction.json",
+        "external-witness-audit-work/reproduction-compare.json"
+      ]
+    }
+  ],
+  "approved_exact_records": {
+    "theoremsearch_row_23150070": {
+      "graph": "two disjoint unit edges on four vertices",
+      "basis_determinant": "-4",
+      "spectrum": ["0", "0", "2", "2"],
+      "cofactors": ["0", "0", "0", "0"],
+      "spanning_tree_total": 0,
+      "source_expression": "0",
+      "generated_summary_expression": "1"
+    },
+    "theoremsearch_row_23832572": {
+      "graph": "triangle with conductances w01=2,w02=1,w12=1; queried edge {0,1}",
+      "tree_weights": ["2", "2", "1"],
+      "tau": "5",
+      "tau_e": "4",
+      "ordinary_count": 3,
+      "ordinary_count_e": 2,
+      "voltages": ["2/5", "0", "1/5"],
+      "current": ["1", "-1", "0"],
+      "resistance": "2/5",
+      "source_expression": "2/5",
+      "generated_summary_expression": "1/3",
+      "source_negation": "unsat",
+      "generated_summary_negation": "sat"
+    }
+  },
+  "timing": {
+    "author_root_window": {
+      "started_at_utc": "2026-09-08T05:01:26Z",
+      "first_execution_ended_at_utc": "2026-09-08T05:14:12.459621Z",
+      "approximately_seconds": 766.46,
+      "status": "within_20_minutes_for_root_authored_window_only"
+    },
+    "canonical_author_run_seconds": 3.0292511000006925,
+    "independent_copied_replay_seconds": 3.491992,
+    "combined_workflow_cap_status": "not_certified",
+    "combined_workflow_note": "An earlier author assignment ended without implementation files after work on a separate readiness report. Clocks are not reset or combined to claim overall 20-minute compliance.",
+    "separate_readiness_15_minute_cap": "failed_historical_context",
+    "claim_limit": "These timestamps are machine/agent workflow observations, not a performance benchmark, person-hours, researcher time saved, or a human-effort estimate."
+  },
+  "limitations": [
+    "Both labels, examples, graphs, and expected values were disclosed before encoding; these are two known-case replays, not held-out detections.",
+    "The exact checks prove only facts about the two frozen finite instances and do not prove either source theorem in unrestricted generality.",
+    "The replay uses shared SymPy and Z3 packages. The pre-frozen standard-library checker supplies independent arithmetic certificates for the selected instances, not complete implementation independence.",
+    "No general TheoremSearch error rate, corpus prevalence, map completeness, solver superiority, empirical performance, practical impact, or global novelty follows from this result.",
+    "The historical readiness report is not approved as a whole; absence claims and human setup estimates are excluded from this gate."
+  ]
+}

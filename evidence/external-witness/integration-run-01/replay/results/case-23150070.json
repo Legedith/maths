@@ -1,0 +1,112 @@
+{
+  "theorem_id": 23150070,
+  "laplacian": [
+    [
+      "1",
+      "-1",
+      "0",
+      "0"
+    ],
+    [
+      "-1",
+      "1",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "1",
+      "-1"
+    ],
+    [
+      "0",
+      "0",
+      "-1",
+      "1"
+    ]
+  ],
+  "charpoly_det_tI_minus_L": "t**4 - 4*t**3 + 4*t**2",
+  "eigenvalue_multiplicities": {
+    "2": 2,
+    "0": 2
+  },
+  "eigenvalues_with_multiplicity": [
+    "0",
+    "0",
+    "2",
+    "2"
+  ],
+  "source_expression": "0",
+  "summary_expression": "1",
+  "principal_cofactors": [
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "tree_total": "0",
+  "tree_total_reason": "Two disjoint edges have no connected spanning subgraph on four vertices.",
+  "basis_columns": [
+    [
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      -1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      -1
+    ]
+  ],
+  "basis_determinant": "-4",
+  "basis_eigenvalues": [
+    "0",
+    "0",
+    "2",
+    "2"
+  ],
+  "basis_residual": [
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "source_control_matches": true,
+  "summary_disagrees": true,
+  "basis_certificate_holds": true
+}

@@ -1,0 +1,59 @@
+{
+  "all_pass": true,
+  "auditor": "/root/sol_symmetry_audit",
+  "checks": {
+    "contract_sha256": true,
+    "sympy_determinant": true,
+    "sympy_distribution_version": true,
+    "sympy_eigenvalues": true,
+    "sympy_inverse": true,
+    "z3_distribution_version": true,
+    "z3_library_version": true,
+    "z3_sat_model": true,
+    "z3_sat_result": true,
+    "z3_unsat_result": true
+  },
+  "command": ".venv/Scripts/python.exe independent_smoke.py",
+  "contract": {
+    "path": "smoke-contract.json",
+    "sha256": "e521415fd5edac2a155b5a091c7a6e0343bab3990becc5bde77099aa25e93162"
+  },
+  "environment": {
+    "mpmath_distribution_version": "1.3.0",
+    "python_executable": "D:\\CodexWorkspaces\\mathematics-atlas\\tool-readiness-audit-work\\.venv\\Scripts\\python.exe",
+    "python_version": "3.12.11",
+    "sympy_distribution_version": "1.14.0",
+    "z3_library_version": "5.1.0",
+    "z3_solver_distribution_version": "5.1.0.0"
+  },
+  "observed": {
+    "sympy": {
+      "determinant": "5/36",
+      "eigenvalue_multiplicities": {
+        "1/6": 1,
+        "5/6": 1
+      },
+      "inverse": [
+        [
+          "18/5",
+          "-12/5"
+        ],
+        [
+          "-12/5",
+          "18/5"
+        ]
+      ]
+    },
+    "z3": {
+      "sat": "sat",
+      "sat_model_values": {
+        "x": "1/3",
+        "y": "1/2"
+      },
+      "unsat": "unsat"
+    }
+  },
+  "recorded_at_utc": "2026-09-08T04:51:05.781429+00:00",
+  "schema_version": "independent-tool-smoke-v1",
+  "scope": "Independent replay of the sealed generic exact-rational fixtures only; no study claim or study encoding."
+}

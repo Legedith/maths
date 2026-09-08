@@ -1,0 +1,469 @@
+{
+  "all_non_cap_checks_pass": true,
+  "auditor": "/root/sol_symmetry_audit",
+  "checks": {
+    "contract_chronology": true,
+    "contract_sha256": true,
+    "corrected_report": true,
+    "failed_seals_preserved": true,
+    "manifest_artifacts": true,
+    "manifest_complete_within_exclusions": true,
+    "manifest_file_count": true,
+    "manifest_sha256": true,
+    "scoped_runtime_absence": true,
+    "source_locators": true,
+    "source_retrieval_hashes": true,
+    "worker_install_records": true,
+    "worker_smoke_records": true,
+    "z3_package_executable": true,
+    "z3_pypi_metadata": true
+  },
+  "contract_chronology": {
+    "sympy_case_frozen_at_utc": "2026-09-08T04:34:20.6435579Z",
+    "sympy_install_authorized_at_utc": "2026-09-08T04:36:01.2229783Z",
+    "sympy_install_started_at_utc": "2026-09-08T04:39:30.4619230Z",
+    "sympy_smoke_started_at_utc": "2026-09-08T04:40:05.425846+00:00",
+    "z3_contract_frozen_at_utc": "2026-09-08T04:26:00.7613607Z"
+  },
+  "failed_seal_checks": {
+    "correction_record": true,
+    "intermediate_manifest": true,
+    "prior_manifest": true,
+    "prior_report": true
+  },
+  "inputs": {
+    "contract": {
+      "path": "tool-feasibility-work/docs/smoke-contract.json",
+      "sha256": "e521415fd5edac2a155b5a091c7a6e0343bab3990becc5bde77099aa25e93162"
+    },
+    "manifest": {
+      "path": "tool-feasibility-work/logs/artifact-manifest.json",
+      "sha256": "7b1f6c24c93e3a6d5995435d2a1a8f2c9453191e4651a2d27febacff009341b8"
+    },
+    "report": {
+      "path": "tool-feasibility-work/notes/feasibility-report.md",
+      "sha256": "2e904356cd2fc9b34ceb09096cd60c9513800d030c332fbe73ce6ae040d9c2f6"
+    }
+  },
+  "install_checks": {
+    "sympy_freeze_exact": true,
+    "sympy_install_pass": true,
+    "sympy_isolated_paths": true,
+    "z3_freeze_exact": true,
+    "z3_install_pass": true,
+    "z3_isolated_paths": true
+  },
+  "manifest_details": {
+    "actual_nonexcluded_files": 33,
+    "file_results": [
+      {
+        "actual_bytes": 2065,
+        "actual_sha256": "e521415fd5edac2a155b5a091c7a6e0343bab3990becc5bde77099aa25e93162",
+        "expected_bytes": 2065,
+        "expected_sha256": "e521415fd5edac2a155b5a091c7a6e0343bab3990becc5bde77099aa25e93162",
+        "pass": true,
+        "path": "docs/smoke-contract.json"
+      },
+      {
+        "actual_bytes": 2204,
+        "actual_sha256": "ee1e22f3f57f6b622f5ea6ad49825b0555335b8820f1e8e42b0f70e1d3e47b06",
+        "expected_bytes": 2204,
+        "expected_sha256": "ee1e22f3f57f6b622f5ea6ad49825b0555335b8820f1e8e42b0f70e1d3e47b06",
+        "pass": true,
+        "path": "scripts/setup_z3.ps1"
+      },
+      {
+        "actual_bytes": 1402,
+        "actual_sha256": "4a4c43c748458e464193c2468e7ab50dc16678a1e0860f5e358c79ec8180330d",
+        "expected_bytes": 1402,
+        "expected_sha256": "4a4c43c748458e464193c2468e7ab50dc16678a1e0860f5e358c79ec8180330d",
+        "pass": true,
+        "path": "scripts/setup_sympy.ps1"
+      },
+      {
+        "actual_bytes": 3128,
+        "actual_sha256": "12d7433b911457538e270e6adac928f03957ca0ccf822eeeb1ce7929e92807b1",
+        "expected_bytes": 3128,
+        "expected_sha256": "12d7433b911457538e270e6adac928f03957ca0ccf822eeeb1ce7929e92807b1",
+        "pass": true,
+        "path": "scripts/retrieve_primary_docs.ps1"
+      },
+      {
+        "actual_bytes": 1425,
+        "actual_sha256": "143fc4fce9c49b638602abff987b4ac2840bbc30a6ee55aae1b7cb2ebb437424",
+        "expected_bytes": 1425,
+        "expected_sha256": "143fc4fce9c49b638602abff987b4ac2840bbc30a6ee55aae1b7cb2ebb437424",
+        "pass": true,
+        "path": "scripts/freeze_manifest.ps1"
+      },
+      {
+        "actual_bytes": 2256,
+        "actual_sha256": "03c9d9b41199258b19114f7772485cbf217fea9993f46171c6b36504bf8b05f8",
+        "expected_bytes": 2256,
+        "expected_sha256": "03c9d9b41199258b19114f7772485cbf217fea9993f46171c6b36504bf8b05f8",
+        "pass": true,
+        "path": "scripts/discover_sympy.ps1"
+      },
+      {
+        "actual_bytes": 4841,
+        "actual_sha256": "ab26050059fd9965b44f82616e856baebd93b9d3e175867cbf4017389881d1b4",
+        "expected_bytes": 4841,
+        "expected_sha256": "ab26050059fd9965b44f82616e856baebd93b9d3e175867cbf4017389881d1b4",
+        "pass": true,
+        "path": "scripts/discover_runtimes.ps1"
+      },
+      {
+        "actual_bytes": 16422,
+        "actual_sha256": "9b04cdfb4bab862270fd36f0b3d116395b7dd5527cd5d04e6f499e9b7c4095ea",
+        "expected_bytes": 16422,
+        "expected_sha256": "9b04cdfb4bab862270fd36f0b3d116395b7dd5527cd5d04e6f499e9b7c4095ea",
+        "pass": true,
+        "path": "raw/sources/z3-README.md"
+      },
+      {
+        "actual_bytes": 9922,
+        "actual_sha256": "96f4b77e37744ff11680fa3548d254d3998d06b9a4ad3b70a2d734a179f6bde7",
+        "expected_bytes": 9922,
+        "expected_sha256": "96f4b77e37744ff11680fa3548d254d3998d06b9a4ad3b70a2d734a179f6bde7",
+        "pass": true,
+        "path": "raw/sources/z3-pypi-5.1.0.0.json"
+      },
+      {
+        "actual_bytes": 1005022,
+        "actual_sha256": "f6d43477f8d0686ab1a41831ba71daede10442e0e5f5700c886c41610ebc0fff",
+        "expected_bytes": 1005022,
+        "expected_sha256": "f6d43477f8d0686ab1a41831ba71daede10442e0e5f5700c886c41610ebc0fff",
+        "pass": true,
+        "path": "raw/sources/sympy-matrices.html"
+      },
+      {
+        "actual_bytes": 180266,
+        "actual_sha256": "311e0281abb5bd2bc377fe4a71ee46869dc3ffd5fd7e112db25f149eb40e7666",
+        "expected_bytes": 180266,
+        "expected_sha256": "311e0281abb5bd2bc377fe4a71ee46869dc3ffd5fd7e112db25f149eb40e7666",
+        "pass": true,
+        "path": "raw/sources/sympy-gotchas.html"
+      },
+      {
+        "actual_bytes": 30812,
+        "actual_sha256": "975ba8c3d13ca422853d65aff0086c40eaa92628f2f468cc595f266ab688994e",
+        "expected_bytes": 30812,
+        "expected_sha256": "975ba8c3d13ca422853d65aff0086c40eaa92628f2f468cc595f266ab688994e",
+        "pass": true,
+        "path": "raw/sources/sage-install.html"
+      },
+      {
+        "actual_bytes": 4783,
+        "actual_sha256": "9be196e76e1280d2c6fb129d8f346e06e3e7aca24137d534b49467ea89deebf2",
+        "expected_bytes": 4783,
+        "expected_sha256": "9be196e76e1280d2c6fb129d8f346e06e3e7aca24137d534b49467ea89deebf2",
+        "pass": true,
+        "path": "raw/sources/loogle-README.md"
+      },
+      {
+        "actual_bytes": 142196,
+        "actual_sha256": "ffde80ceef5c7d19ed2db5f7e18dd0294557b0424802bf49a5814633efa95411",
+        "expected_bytes": 142196,
+        "expected_sha256": "ffde80ceef5c7d19ed2db5f7e18dd0294557b0424802bf49a5814633efa95411",
+        "pass": true,
+        "path": "raw/sources/lean-install.html"
+      },
+      {
+        "actual_bytes": 8803,
+        "actual_sha256": "d9f4b524283f78f6d95e9bf3f53a38f5f490a5ccc412b2d59290c1ba885b2fdb",
+        "expected_bytes": 8803,
+        "expected_sha256": "d9f4b524283f78f6d95e9bf3f53a38f5f490a5ccc412b2d59290c1ba885b2fdb",
+        "pass": true,
+        "path": "raw/sources/isabelle-install.html"
+      },
+      {
+        "actual_bytes": 2149,
+        "actual_sha256": "7a491b905dee2c5b77ac607871e5cedde12c3df886413fdac3e72026e8f23a40",
+        "expected_bytes": 2149,
+        "expected_sha256": "7a491b905dee2c5b77ac607871e5cedde12c3df886413fdac3e72026e8f23a40",
+        "pass": true,
+        "path": "scripts/sympy_smoke.py"
+      },
+      {
+        "actual_bytes": 11862,
+        "actual_sha256": "c79382aab84a99bf7015a8f66e69939beb2b73581056630ad952b18f28998748",
+        "expected_bytes": 11862,
+        "expected_sha256": "c79382aab84a99bf7015a8f66e69939beb2b73581056630ad952b18f28998748",
+        "pass": true,
+        "path": "raw/sources/isabelle-dist-index.html"
+      },
+      {
+        "actual_bytes": 2612,
+        "actual_sha256": "c2a7bbab9343b8824eac0a1804f66d3c30cb8bea925cde912cee209d40c42dc7",
+        "expected_bytes": 2612,
+        "expected_sha256": "c2a7bbab9343b8824eac0a1804f66d3c30cb8bea925cde912cee209d40c42dc7",
+        "pass": true,
+        "path": "raw/z3-install.json"
+      },
+      {
+        "actual_bytes": 889,
+        "actual_sha256": "ecd24a51c5431a6dd2d07d8211635cdb2e911bf193aa54caeb14effde4325170",
+        "expected_bytes": 889,
+        "expected_sha256": "ecd24a51c5431a6dd2d07d8211635cdb2e911bf193aa54caeb14effde4325170",
+        "pass": true,
+        "path": "raw/sympy-source-retrieval.json"
+      },
+      {
+        "actual_bytes": 1031,
+        "actual_sha256": "2d8f89fe4fcb4155bfbaa12127a2e15f9aec47f4af17ad7ac2e56c57e93f6462",
+        "expected_bytes": 1031,
+        "expected_sha256": "2d8f89fe4fcb4155bfbaa12127a2e15f9aec47f4af17ad7ac2e56c57e93f6462",
+        "pass": true,
+        "path": "raw/sympy-smoke.json"
+      },
+      {
+        "actual_bytes": 3228,
+        "actual_sha256": "ed5717ba0bbe8355a11cc9e8d11da2a4b0e5d2a4bf5e951fe05b8d87d80f32ef",
+        "expected_bytes": 3228,
+        "expected_sha256": "ed5717ba0bbe8355a11cc9e8d11da2a4b0e5d2a4bf5e951fe05b8d87d80f32ef",
+        "pass": true,
+        "path": "raw/sympy-install.json"
+      },
+      {
+        "actual_bytes": 6964,
+        "actual_sha256": "acc00a10bb08ae845668bf1d3227bbb83392f3208d094a0039c56c0c9551cda8",
+        "expected_bytes": 6964,
+        "expected_sha256": "acc00a10bb08ae845668bf1d3227bbb83392f3208d094a0039c56c0c9551cda8",
+        "pass": true,
+        "path": "raw/sympy-discovery.json"
+      },
+      {
+        "actual_bytes": 6013,
+        "actual_sha256": "c630ff7fdca12f5e6261c034b0b3aad1b11d106f7281669cb1b77b858f32f359",
+        "expected_bytes": 6013,
+        "expected_sha256": "c630ff7fdca12f5e6261c034b0b3aad1b11d106f7281669cb1b77b858f32f359",
+        "pass": true,
+        "path": "raw/source-retrieval-manifest.json"
+      },
+      {
+        "actual_bytes": 11456,
+        "actual_sha256": "7cb663891c7a87da41d79e035244c84eb7f0d00f5acf70aaf39411f1516d8a60",
+        "expected_bytes": 11456,
+        "expected_sha256": "7cb663891c7a87da41d79e035244c84eb7f0d00f5acf70aaf39411f1516d8a60",
+        "pass": true,
+        "path": "raw/runtime-discovery.json"
+      },
+      {
+        "actual_bytes": 10018,
+        "actual_sha256": "c1127f8721dd611e872a15acadc99129bf13fa12c5915978be3a0534bde3deee",
+        "expected_bytes": 10018,
+        "expected_sha256": "c1127f8721dd611e872a15acadc99129bf13fa12c5915978be3a0534bde3deee",
+        "pass": true,
+        "path": "raw/runtime-discovery-attempt-01.json"
+      },
+      {
+        "actual_bytes": 6865,
+        "actual_sha256": "2e904356cd2fc9b34ceb09096cd60c9513800d030c332fbe73ce6ae040d9c2f6",
+        "expected_bytes": 6865,
+        "expected_sha256": "2e904356cd2fc9b34ceb09096cd60c9513800d030c332fbe73ce6ae040d9c2f6",
+        "pass": true,
+        "path": "notes/feasibility-report.md"
+      },
+      {
+        "actual_bytes": 7343,
+        "actual_sha256": "eaaad427babd5746e31bd48d9d2ce39a0484d0b973fbb92bc062b14601e023e8",
+        "expected_bytes": 7343,
+        "expected_sha256": "eaaad427babd5746e31bd48d9d2ce39a0484d0b973fbb92bc062b14601e023e8",
+        "pass": true,
+        "path": "logs/failed-seals/feasibility-report-failed-seal-eaaad427.md"
+      },
+      {
+        "actual_bytes": 5134,
+        "actual_sha256": "95a193e1054597db091423f4d255bcd0e5cb8b50cc20b0757ef9a773665c58a6",
+        "expected_bytes": 5134,
+        "expected_sha256": "95a193e1054597db091423f4d255bcd0e5cb8b50cc20b0757ef9a773665c58a6",
+        "pass": true,
+        "path": "logs/failed-seals/artifact-manifest-failed-seal-95a193e1.json"
+      },
+      {
+        "actual_bytes": 5714,
+        "actual_sha256": "291d3c3da574b03827d42380816f21a66a866a78571caade5c295bcda1e2b0be",
+        "expected_bytes": 5714,
+        "expected_sha256": "291d3c3da574b03827d42380816f21a66a866a78571caade5c295bcda1e2b0be",
+        "pass": true,
+        "path": "logs/failed-seals/artifact-manifest-correction-attempt-01-291d3c3d.json"
+      },
+      {
+        "actual_bytes": 756,
+        "actual_sha256": "9fd353e4b713c7041d75c200497604bec17fbd78acfd9d8d6e91f0024a481c2e",
+        "expected_bytes": 756,
+        "expected_sha256": "9fd353e4b713c7041d75c200497604bec17fbd78acfd9d8d6e91f0024a481c2e",
+        "pass": true,
+        "path": "logs/manifest-attempt-01-failure.json"
+      },
+      {
+        "actual_bytes": 2692,
+        "actual_sha256": "d583cf1fb7b8f77777f753839092bef6ed68cf240552b30323c46b6a3fd07736",
+        "expected_bytes": 2692,
+        "expected_sha256": "d583cf1fb7b8f77777f753839092bef6ed68cf240552b30323c46b6a3fd07736",
+        "pass": true,
+        "path": "logs/feasibility-report-correction.json"
+      },
+      {
+        "actual_bytes": 1242,
+        "actual_sha256": "4892822ae5594531987d66951a71aff3b4685eeb55fe54cfc11e86b1051e2a67",
+        "expected_bytes": 1242,
+        "expected_sha256": "4892822ae5594531987d66951a71aff3b4685eeb55fe54cfc11e86b1051e2a67",
+        "pass": true,
+        "path": "raw/z3-smoke.json"
+      },
+      {
+        "actual_bytes": 2210,
+        "actual_sha256": "9eac65b3898a44ac32bfbfba166c3ad236cc0756a558d296336e2a7d9ccdc457",
+        "expected_bytes": 2210,
+        "expected_sha256": "9eac65b3898a44ac32bfbfba166c3ad236cc0756a558d296336e2a7d9ccdc457",
+        "pass": true,
+        "path": "scripts/z3_smoke.py"
+      }
+    ],
+    "listed_files": 33,
+    "missing_from_disk": [],
+    "unlisted_nonexcluded": []
+  },
+  "report_checks": {
+    "absence_scoped": true,
+    "ascii_only": true,
+    "cap_failure_disclosed": true,
+    "corrected_report_hash": true,
+    "scope_limit_disclosed": true,
+    "unsupported_setup_estimates_removed": true,
+    "z3_executable_disclosed": true
+  },
+  "runtime_absence_scope": {
+    "elan_root_exists": false,
+    "native_path_absence": true,
+    "native_path_names_checked": [
+      "z3",
+      "sage",
+      "lean",
+      "lake",
+      "elan",
+      "loogle",
+      "isabelle"
+    ],
+    "program_files_matches": [],
+    "scope_limit": "Read-only installed-tool discovery. No installer, package download, study query, or study-case encoding was invoked.",
+    "wsl_command_output": "z3=sage=lean=lake=loogle=isabelle=",
+    "wsl_distribution_named": "Ubuntu-20.04",
+    "wsl_path_absence": true
+  },
+  "schema_version": "independent-tool-freeze-check-v1",
+  "source_hash_checks": [
+    {
+      "expected_sha256": "975ba8c3d13ca422853d65aff0086c40eaa92628f2f468cc595f266ab688994e",
+      "id": "sage-install",
+      "pass": true,
+      "sha256": "975ba8c3d13ca422853d65aff0086c40eaa92628f2f468cc595f266ab688994e",
+      "status": 0,
+      "url": "https://doc.sagemath.org/html/en/installation/index.html"
+    },
+    {
+      "expected_sha256": "ffde80ceef5c7d19ed2db5f7e18dd0294557b0424802bf49a5814633efa95411",
+      "id": "lean-install",
+      "pass": true,
+      "sha256": "ffde80ceef5c7d19ed2db5f7e18dd0294557b0424802bf49a5814633efa95411",
+      "status": 0,
+      "url": "https://lean-lang.org/install/manual/"
+    },
+    {
+      "expected_sha256": "d9f4b524283f78f6d95e9bf3f53a38f5f490a5ccc412b2d59290c1ba885b2fdb",
+      "id": "isabelle-install",
+      "pass": true,
+      "sha256": "d9f4b524283f78f6d95e9bf3f53a38f5f490a5ccc412b2d59290c1ba885b2fdb",
+      "status": 0,
+      "url": "https://isabelle.in.tum.de/website-Isabelle2025-1/installation.html"
+    },
+    {
+      "expected_sha256": "c79382aab84a99bf7015a8f66e69939beb2b73581056630ad952b18f28998748",
+      "id": "isabelle-dist-index",
+      "pass": true,
+      "sha256": "c79382aab84a99bf7015a8f66e69939beb2b73581056630ad952b18f28998748",
+      "status": 0,
+      "url": "https://isabelle.in.tum.de/website-Isabelle2025-1/dist/index.html"
+    },
+    {
+      "expected_sha256": "9be196e76e1280d2c6fb129d8f346e06e3e7aca24137d534b49467ea89deebf2",
+      "id": "loogle-readme",
+      "pass": true,
+      "sha256": "9be196e76e1280d2c6fb129d8f346e06e3e7aca24137d534b49467ea89deebf2",
+      "status": 0,
+      "url": "https://raw.githubusercontent.com/nomeata/loogle/9f11169aaebf1ed1e7dcc4077f2aafe0fcf66fd0/README.md"
+    },
+    {
+      "expected_sha256": "9b04cdfb4bab862270fd36f0b3d116395b7dd5527cd5d04e6f499e9b7c4095ea",
+      "id": "z3-readme",
+      "pass": true,
+      "sha256": "9b04cdfb4bab862270fd36f0b3d116395b7dd5527cd5d04e6f499e9b7c4095ea",
+      "status": 0,
+      "url": "https://raw.githubusercontent.com/Z3Prover/z3/226d6cc25292c6c0262d63185d9d7c528c45ec18/README.md"
+    },
+    {
+      "expected_sha256": "96f4b77e37744ff11680fa3548d254d3998d06b9a4ad3b70a2d734a179f6bde7",
+      "id": "z3-pypi-5.1.0.0",
+      "pass": true,
+      "sha256": "96f4b77e37744ff11680fa3548d254d3998d06b9a4ad3b70a2d734a179f6bde7",
+      "status": 0,
+      "url": "https://pypi.org/pypi/z3-solver/5.1.0.0/json"
+    },
+    {
+      "expected_sha256": "f6d43477f8d0686ab1a41831ba71daede10442e0e5f5700c886c41610ebc0fff",
+      "id": "sympy-matrices-api",
+      "pass": true,
+      "sha256": "f6d43477f8d0686ab1a41831ba71daede10442e0e5f5700c886c41610ebc0fff",
+      "status": "success",
+      "url": "https://docs.sympy.org/latest/modules/matrices/matrices.html"
+    },
+    {
+      "expected_sha256": "311e0281abb5bd2bc377fe4a71ee46869dc3ffd5fd7e112db25f149eb40e7666",
+      "id": "sympy-gotchas",
+      "pass": true,
+      "sha256": "311e0281abb5bd2bc377fe4a71ee46869dc3ffd5fd7e112db25f149eb40e7666",
+      "status": "success",
+      "url": "https://docs.sympy.org/latest/explanation/gotchas.html"
+    }
+  ],
+  "source_locator_checks": {
+    "isabelle_bundle_line_128": true,
+    "isabelle_executable_line_121": true,
+    "isabelle_size_line_9": true,
+    "lean_elan_line_3419": true,
+    "lean_mathlib_download_line_3488": true,
+    "loogle_build_line_34": true,
+    "loogle_index_line_40": true,
+    "sage_conda_line_290": true,
+    "sage_windows_wsl_line_351": true,
+    "sympy_eigenvals_index_line_9065": true,
+    "sympy_rational_line_1104": true,
+    "z3_pip_install_line_228": true,
+    "z3_venv_binary_line_257": true,
+    "z3_venv_line_244": true
+  },
+  "subject": "corrected bounded tool-feasibility worker freeze",
+  "time_cap": {
+    "author_reported_execution_and_discovery_seconds": 1031.075,
+    "author_reported_overrun_seconds": 131.075,
+    "note": "The exact span is author-reported; the corrected final seal is later packaging. No cap-compliance claim is certified.",
+    "requested_seconds": 900,
+    "status": "fail"
+  },
+  "worker_smoke_checks": {
+    "sympy_all_pass": true,
+    "sympy_contract_hash": true,
+    "sympy_values": true,
+    "z3_all_pass": true,
+    "z3_sat": true,
+    "z3_unsat": true,
+    "z3_versions": true
+  },
+  "z3_package_executable": {
+    "bytes": 18842624,
+    "pass": true,
+    "path": ".venv/bin/z3.exe",
+    "sha256": "c638e6b8d066a5ad6ea2712dcd5e2eff5c57eba501b98e7fa8487f7daf0e863d"
+  }
+}

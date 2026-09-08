@@ -1,0 +1,46 @@
+{
+  "schema_version": "tool-feasibility-smoke-v1",
+  "frozen_at_utc": "2026-09-08T04:26:00.7613607Z",
+  "scope": "Tiny environment smoke tests only. These are not study queries, study cases, benchmarks, theorem checks, or evidence of natural-language interpretation.",
+  "z3": {
+    "number_sort": "Real",
+    "cases": [
+      {
+        "id": "rational_sat",
+        "declarations": ["x: Real", "y: Real"],
+        "assertions": ["x = 1/3", "y = 1/2", "x + y = 5/6"],
+        "expected": "sat",
+        "required_model_values": {"x": "1/3", "y": "1/2"}
+      },
+      {
+        "id": "rational_unsat",
+        "declarations": ["x: Real", "y: Real"],
+        "assertions": ["x = 1/3", "y = 1/2", "x + y = 1"],
+        "expected": "unsat"
+      }
+    ]
+  },
+  "sympy_addendum_frozen_at_utc": "2026-09-08T04:34:20.6435579Z",
+  "sympy_installation_clarification": {
+    "recorded_at_utc": "2026-09-08T04:36:01.2229783Z",
+    "reason": "After discovery found SymPy absent from the staging venv, the parent explicitly authorized an isolated staging-only install. The predeclared matrix case and expected values are unchanged.",
+    "allowed": true,
+    "pin": "sympy==1.14.0"
+  },
+  "sympy": {
+    "original_policy": "Run only from an already importable SymPy installation; do not install SymPy for this pass.",
+    "effective_policy": "The later recorded clarification permits sympy==1.14.0 to be installed only in this staging venv; no system or platform changes.",
+    "case": {
+      "id": "exact_rational_matrix",
+      "matrix": [["1/2", "1/3"], ["1/3", "1/2"]],
+      "expected_determinant": "5/36",
+      "expected_eigenvalue_multiplicities": {"1/6": 1, "5/6": 1},
+      "expected_inverse": [["18/5", "-12/5"], ["-12/5", "18/5"]]
+    }
+  },
+  "other_runtimes": {
+    "policy": "Version or help smoke only if already installed and invocation cannot trigger a toolchain download. Do not install SageMath, Lean, Loogle, Mathlib, Isabelle, Nitpick, WSL distributions, or system Z3.",
+    "study_queries_allowed": false,
+    "study_case_encoding_allowed": false
+  }
+}

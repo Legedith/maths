@@ -1,0 +1,50 @@
+{
+  "schema_version": "disclosed-two-case-replay-v1",
+  "author": "/root",
+  "contract_sha256": "a3649b051ec9350c17a2bbb81aead5692b023fef51a047592fcf13ffc1f6aa39",
+  "scope": "Known-case replay only. The labels, graphs and expected values were disclosed before encoding. No held-out detection, novelty, general accuracy or implementation superiority is claimed.",
+  "cases": [
+    {
+      "theorem_id": 23150070,
+      "source": "https://arxiv.org/pdf/0802.2576v2",
+      "locator": "PDF pages 1-2; Theorem 1.2(1)-(2) on page 2",
+      "vertices": [0, 1, 2, 3],
+      "conductance_edges": [[0, 1, "1"], [2, 3, "1"]],
+      "domain": "Finite simple undirected graph; all present conductances are positive rational numbers. Disconnected graphs are permitted by the original indexed identity.",
+      "laplacian": "L_ii=sum_j w_ij; L_ij=-w_ij for i!=j, with zero for absent edges",
+      "characteristic_polynomial": "det(t I - L)",
+      "source_expression": "Product of all eigenvalues with multiplicity after deleting exactly one designated zero, divided by n",
+      "summary_expression": "Product of only the nonzero eigenvalues with multiplicity, divided by n",
+      "tree_total": "Zero: there are two connected components and only two edges for four vertices. No spanning tree exists.",
+      "certificate_columns": [[1, 1, 0, 0], [0, 0, 1, 1], [1, -1, 0, 0], [0, 0, 1, -1]],
+      "certificate_eigenvalues": ["0", "0", "2", "2"],
+      "expected": {"source_expression": "0", "summary_expression": "1", "tree_total": "0", "cofactors": ["0", "0", "0", "0"]},
+      "within_instance_source_control": "Source expression equals the zero spanning-tree total and each of the four principal cofactors"
+    },
+    {
+      "theorem_id": 23832572,
+      "source": "https://arxiv.org/pdf/2109.01324v2",
+      "locator": "PDF page 5: weighted tau; page 12: tau_e; page 15: Corollary 4.7",
+      "vertices": [0, 1, 2],
+      "conductance_edges": [[0, 1, "2"], [0, 2, "1"], [1, 2, "1"]],
+      "queried_edge": [0, 1],
+      "domain": "Connected loop-free undirected triangle with positive rational conductances; distinct in-range terminals 0 and 1",
+      "tree_edge_indices": [[0, 1], [0, 2], [1, 2]],
+      "tau": "Sum of the three products of conductances over spanning trees",
+      "tau_e": "Same weighted sum restricted to trees containing edge index 0",
+      "ordinary_counts": "Three spanning trees; two contain edge index 0",
+      "ground": "v1=0",
+      "current": "Inject +1 at vertex0; extract -1 at vertex1; zero at vertex2",
+      "node_equations": ["3*v0 - 2*v1 - v2 = 1", "-2*v0 + 3*v1 - v2 = -1", "-v0 - v1 + 2*v2 = 0", "v1 = 0"],
+      "resistance": "v0-v1 under this unit current",
+      "source_identity": "R_eff = tau_e/(tau*w01)",
+      "summary_identity": "R_eff = ordinary_count_containing_e/(ordinary_tree_count*w01)",
+      "guards": ["Each present conductance > 0", "tau > 0", "ordinary_tree_count > 0", "tau*w01 != 0", "ordinary_tree_count*w01 != 0"],
+      "negations": {"summary_query": "node equations and guards and R_eff != 2/(3*2)", "source_control_query": "same node equations and guards and R_eff != 4/(5*2)"},
+      "expected": {"summary_query": "sat", "source_control_query": "unsat", "voltages": ["2/5", "0", "1/5"], "tau": "5", "tau_e": "4", "resistance": "2/5", "summary_expression": "1/3"}
+    }
+  ],
+  "solver_timeout_ms": 5000,
+  "script_timeout_seconds": 60,
+  "independence": "Z3 solves the triangle constraints; SymPy replays exact matrices and model values. Independent semantic review and direct certificate checking remain required; shared packages are not independent implementations."
+}

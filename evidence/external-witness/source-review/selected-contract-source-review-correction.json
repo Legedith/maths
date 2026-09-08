@@ -1,0 +1,30 @@
+{
+  "schema_version": "selected-contract-source-review-additive-correction-v1",
+  "created_at_utc": "2026-09-08T04:55:24.883360+00:00",
+  "corrects": {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\next-value-audit-work\\selected-contract-source-review.json",
+    "sha256": "7f43a0a5ee01ff2158cd0b07a3256b87f6883384938be3253c065122d658b2f1",
+    "field": "/runtime_evidence_observed_not_certified_here/wording_issue"
+  },
+  "original_observation_scope": {
+    "feasibility_report_sha256": "eaaad427babd5746e31bd48d9d2ce39a0484d0b973fbb92bc062b14601e023e8",
+    "note": "The wording issue was true for the earlier report bytes inspected by this auditor. It is retained as historical input and does not describe the corrected report."
+  },
+  "current_observation": {
+    "feasibility_report": {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\tool-feasibility-work\\notes\\feasibility-report.md",
+      "sha256": "2e904356cd2fc9b34ceb09096cd60c9513800d030c332fbe73ce6ae040d9c2f6"
+    },
+    "artifact_manifest": {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\tool-feasibility-work\\logs\\artifact-manifest.json",
+      "sha256": "7b1f6c24c93e3a6d5995435d2a1a8f2c9453191e4651a2d27febacff009341b8"
+    },
+    "human_setup_estimates_present": false,
+    "note": "The corrected report removes human setup estimates and uses observed machine/agent evidence. Runtime readiness remains owned by its separate auditor."
+  },
+  "effect_on_selected_contract_review": {
+    "source_premise_checks_unchanged": true,
+    "scope_checks_unchanged": true,
+    "decision_unchanged": "pass_for_encoding_preparation_only"
+  }
+}

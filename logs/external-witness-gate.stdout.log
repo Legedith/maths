@@ -1,0 +1,9 @@
+{
+  "artifact_count": 76,
+  "bundle": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.codex\\evidence\\runs\\external-witness-v1\\bundle.json",
+  "claim_count": 6,
+  "claim_provenance_rate": 1.0,
+  "errors": [],
+  "status": "PASS",
+  "workspace": "D:\\CodexWorkspaces\\mathematics-atlas\\project"
+}

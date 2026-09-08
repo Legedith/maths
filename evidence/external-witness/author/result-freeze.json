@@ -1,0 +1,64 @@
+{
+  "sealed_at": "2026-09-08T05:14:56.512412+00:00",
+  "preexecution_freeze_sha256": "11359bdd37807ae1cf5b42697007503d56ae54d77a6452c4fa2ff83f9f5a6cfc",
+  "status": "first_run_author_checks_pass_pending_independent_verification",
+  "files": [
+    {
+      "path": "run-01/command.json",
+      "bytes": 540,
+      "sha256": "45842876c38a59777cb728933d842501bfad0e281af2286a9b13ef7d0b946f75"
+    },
+    {
+      "path": "run-01/results/case-23150070.json",
+      "bytes": 1376,
+      "sha256": "c0092d2f93386a7ed4d2d0f3d19a5821c87a6309fd8a7935678064a5e030ad52"
+    },
+    {
+      "path": "run-01/results/case-23832572.json",
+      "bytes": 1638,
+      "sha256": "522e16a66fc4c375ca4d2f2b38a0fe02017f5e73d3c2c6bc10e50f183332facd"
+    },
+    {
+      "path": "run-01/results/result-summary.json",
+      "bytes": 1927,
+      "sha256": "fe644e3362c94079008c8f479651a154a9cbe5f7b7f528870f72ab52dc042367"
+    },
+    {
+      "path": "run-01/results/triangle-source-negation.json",
+      "bytes": 46,
+      "sha256": "f6f166253d56d776285c3afa738b230a961b898e641af667f8083506f9ab3128"
+    },
+    {
+      "path": "run-01/results/triangle-source-negation.smt2",
+      "bytes": 647,
+      "sha256": "777c3bd6ceb9dfad33c47af3655dc3b3a1b2c90cdaf3f3beffbc92b0b88b9d4a"
+    },
+    {
+      "path": "run-01/results/triangle-summary-negation.json",
+      "bytes": 226,
+      "sha256": "98619ab831745d03f74b3eb8591d4ea6a3ee76394b1199de87baa0ad3728de5d"
+    },
+    {
+      "path": "run-01/results/triangle-summary-negation.smt2",
+      "bytes": 647,
+      "sha256": "3458aaadbdf3f95d01a6c56573f5c99a1b0c6e32d06af7643be43cec2646854f"
+    },
+    {
+      "path": "run-01/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "run-01/stdout.log",
+      "bytes": 62,
+      "sha256": "6c53563e14f98466341e3c93d7fb314ec797fc8787afdd5686ebc8b2cad4dce9"
+    }
+  ],
+  "launcher_observation": {
+    "preflight_script": "integration-work/execute_approved_replay.py",
+    "outer_exit_code": 0,
+    "uv_notice": "The parent project VIRTUAL_ENV did not match the staging environment and uv ignored it. Retained child argv and versions confirm the staging CPython3.12.11 environment was used.",
+    "scope": "Root observation of the outer launcher; exact calculation stdout/stderr and argv are retained in run-01."
+  },
+  "timing_scope": "Root implementation began05:01:26UTC; first calculation ended05:14:12UTC. The earlier interrupted author attempt and separate readiness report overrun remain disclosed; no overall workflow-cap compliance or human-effort claim."
+}

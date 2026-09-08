@@ -1,0 +1,16 @@
+{
+  "argv": [
+    "D:\\CodexWorkspaces\\mathematics-atlas\\external-witness-work\\.venv\\Scripts\\python.exe",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\external-witness-work\\replay.py",
+    "--calculate",
+    "--output-dir",
+    "run-01\\results"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\external-witness-work",
+  "started_at": "2026-09-08T05:14:09.430497+00:00",
+  "ended_at": "2026-09-08T05:14:12.459621+00:00",
+  "elapsed_seconds": 3.0292511000006925,
+  "timeout_seconds": 60,
+  "timed_out": false,
+  "exit_code": 0
+}

@@ -1,0 +1,116 @@
+{
+  "schema_version": "chain-of-evidence-independent-verification-v1",
+  "subject": "positive exact Z3 and SymPy Python API readiness",
+  "auditor": {
+    "identity": "/root/sol_symmetry_audit",
+    "role": "independent Sol Max verifier",
+    "independent_from_worker": true
+  },
+  "overall_status": "positive_api_readiness_pass_author_report_unapproved_time_cap_fail",
+  "approved_claims": [
+    "In a fresh audit-owned uv environment using the shared D cache, CPython 3.12.11 imported z3-solver 5.1.0.0 with Z3 library 5.1.0 and SymPy 1.14.0 with mpmath 1.3.0.",
+    "The sealed generic Z3 rational fixtures independently returned sat with x=1/3 and y=1/2, then unsat for the conflicting sum.",
+    "The sealed generic SymPy rational matrix fixture independently returned determinant 5/36, eigenvalues 1/6 and 5/6 with multiplicity one, and inverse [[18/5,-12/5],[-12/5,18/5]].",
+    "All ten independent contract, version, result, model, and exact-value checks passed."
+  ],
+  "decisions": [
+    {
+      "id": "positive_reproduction",
+      "status": "pass",
+      "evidence": [
+        "tool-readiness-audit-work/independent-env-setup.json",
+        "tool-readiness-audit-work/independent-smoke.json",
+        "tool-readiness-audit-work/positive-readiness-check.json"
+      ],
+      "note": "The audit used its own isolated environment and an independent fixture implementation."
+    },
+    {
+      "id": "predeclared_fixture_alignment",
+      "status": "pass",
+      "evidence": [
+        "tool-readiness-audit-work/smoke-contract.json",
+        "tool-readiness-audit-work/independent-smoke.json"
+      ],
+      "note": "The copied contract SHA-256 is e521415fd5edac2a155b5a091c7a6e0343bab3990becc5bde77099aa25e93162. The SymPy case and install clarification precede its install and execution; no study case was encoded."
+    },
+    {
+      "id": "positive_source_and_version_alignment",
+      "status": "pass",
+      "evidence": [
+        "tool-readiness-audit-work/positive-readiness-check.json",
+        "tool-feasibility-work/raw/sources/z3-README.md",
+        "tool-feasibility-work/raw/sources/z3-pypi-5.1.0.0.json",
+        "tool-feasibility-work/raw/sources/sympy-matrices.html",
+        "tool-feasibility-work/raw/sources/sympy-gotchas.html"
+      ],
+      "note": "Retained official sources support the Python/venv installation path and exact SymPy APIs; installed versions and outputs are independently observed."
+    },
+    {
+      "id": "original_task_time_cap",
+      "status": "fail",
+      "evidence": [
+        "tool-feasibility-work/notes/feasibility-report.md",
+        "tool-feasibility-work/logs/manifest-attempt-01-failure.json"
+      ],
+      "note": "The worker reports 17 minutes 11.075 seconds through its first corrected manifest, exceeding the requested 15-minute cap by 2 minutes 11.075 seconds. Later seal/correction work is separate. No cap-compliance claim is approved."
+    }
+  ],
+  "author_report_review": {
+    "status": "unapproved_in_full",
+    "first_seal": {
+      "report_sha256": "eaaad427babd5746e31bd48d9d2ce39a0484d0b973fbb92bc062b14601e023e8",
+      "manifest_sha256": "95a193e1054597db091423f4d255bcd0e5cb8b50cc20b0757ef9a773665c58a6",
+      "finding": "The report incorrectly claimed that no staging-package Z3 executable existed; .venv/bin/z3.exe was present."
+    },
+    "second_seal": {
+      "report_sha256": "2e904356cd2fc9b34ceb09096cd60c9513800d030c332fbe73ce6ae040d9c2f6",
+      "manifest_sha256": "7b1f6c24c93e3a6d5995435d2a1a8f2c9453191e4651a2d27febacff009341b8",
+      "finding": "The report attributed Ubuntu-20.04 WSL PATH absence to elan, but the recorded WSL lookup did not include elan."
+    },
+    "unicode_adjudication": "The preserved first-report bytes contain six U+2013 characters and zero U+FFFD characters. An earlier display concern was a console-rendering issue, so no byte-level replacement-character defect is claimed.",
+    "positive_worker_records_reused": [
+      {
+        "path": "tool-feasibility-work/raw/z3-install.json",
+        "sha256": "c2a7bbab9343b8824eac0a1804f66d3c30cb8bea925cde912cee209d40c42dc7"
+      },
+      {
+        "path": "tool-feasibility-work/raw/z3-smoke.json",
+        "sha256": "4892822ae5594531987d66951a71aff3b4685eeb55fe54cfc11e86b1051e2a67"
+      },
+      {
+        "path": "tool-feasibility-work/raw/sympy-install.json",
+        "sha256": "ed5717ba0bbe8355a11cc9e8d11da2a4b0e5d2a4bf5e951fe05b8d87d80f32ef"
+      },
+      {
+        "path": "tool-feasibility-work/raw/sympy-smoke.json",
+        "sha256": "2d8f89fe4fcb4155bfbaa12127a2e15f9aec47f4af17ad7ac2e56c57e93f6462"
+      }
+    ]
+  },
+  "excluded_claims": [
+    "All native, WSL, Program Files, user-toolchain, container, and machine-wide absence conclusions.",
+    "All human setup-time estimates.",
+    "Readiness or behavior of the bundled z3 command-line executable; only the Python API was executed independently.",
+    "Any conclusion about SageMath, Lean, Mathlib, Loogle, Isabelle, or Nitpick readiness beyond the raw observations.",
+    "Any study encoding, source interpretation, theorem, natural-language interpretation, solver performance, productivity, impact, novelty, or completeness claim."
+  ],
+  "independent_artifacts": [
+    {
+      "path": "tool-readiness-audit-work/independent-env-setup.json",
+      "sha256": "afd4c830552213b710eabaec83b28b34b0603eef2a8d33fee24a939bf9a64f55"
+    },
+    {
+      "path": "tool-readiness-audit-work/independent-smoke.json",
+      "sha256": "9b141d298caea1506868cc851316efc1ced78df5ae9471dd1f65d55a070ea819"
+    },
+    {
+      "path": "tool-readiness-audit-work/positive-readiness-check.json",
+      "sha256": "d1562c46885cdf9b165252c761bed36aedb4f90f9addadd8e733c8b34a046ffa"
+    }
+  ],
+  "superseded_audit_attempt": {
+    "path": "tool-readiness-audit-work/worker-freeze-check.json",
+    "sha256": "c2ab19f15571a17f4d7298154e17df06e67aa80dc629c0bbecd1b6c61f96a66c",
+    "reason": "This preliminary checker passed before the auditor noticed that the report's WSL elan wording exceeded the recorded lookup. It is retained but is not a final attestation."
+  }
+}

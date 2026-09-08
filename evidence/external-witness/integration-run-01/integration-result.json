@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "known_case_count": 2,
+  "direct_certificate_pass": true,
+  "output_byte_observations": [
+    {
+      "path": "results/case-23150070.json",
+      "sha256": "c0092d2f93386a7ed4d2d0f3d19a5821c87a6309fd8a7935678064a5e030ad52",
+      "matches_author_bytes": true
+    },
+    {
+      "path": "results/case-23832572.json",
+      "sha256": "522e16a66fc4c375ca4d2f2b38a0fe02017f5e73d3c2c6bc10e50f183332facd",
+      "matches_author_bytes": true
+    },
+    {
+      "path": "results/result-summary.json",
+      "sha256": "fe644e3362c94079008c8f479651a154a9cbe5f7b7f528870f72ab52dc042367",
+      "matches_author_bytes": true
+    },
+    {
+      "path": "results/triangle-source-negation.json",
+      "sha256": "f6f166253d56d776285c3afa738b230a961b898e641af667f8083506f9ab3128",
+      "matches_author_bytes": true
+    },
+    {
+      "path": "results/triangle-source-negation.smt2",
+      "sha256": "777c3bd6ceb9dfad33c47af3655dc3b3a1b2c90cdaf3f3beffbc92b0b88b9d4a",
+      "matches_author_bytes": true
+    },
+    {
+      "path": "results/triangle-summary-negation.json",
+      "sha256": "98619ab831745d03f74b3eb8591d4ea6a3ee76394b1199de87baa0ad3728de5d",
+      "matches_author_bytes": true
+    },
+    {
+      "path": "results/triangle-summary-negation.smt2",
+      "sha256": "3458aaadbdf3f95d01a6c56573f5c99a1b0c6e32d06af7643be43cec2646854f",
+      "matches_author_bytes": true
+    },
+    {
+      "path": "stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_author_bytes": true
+    },
+    {
+      "path": "stdout.log",
+      "sha256": "6c53563e14f98466341e3c93d7fb314ec797fc8787afdd5686ebc8b2cad4dce9",
+      "matches_author_bytes": true
+    }
+  ],
+  "scope": "Two disclosed finite cases only. Byte equality is reported separately; exact certificate checks decide success."
+}

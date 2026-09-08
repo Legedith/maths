@@ -1,0 +1,90 @@
+{
+  "status": "frozen_before_study_execution",
+  "author": "/root",
+  "frozen_at": "2026-09-08T05:11:11.350147+00:00",
+  "setup_observation": "uv sync created an isolated CPython3.12.11 venv with z3-solver5.1.0.0, sympy1.14.0 and mpmath1.3.0; uv run --frozen python -m py_compile replay.py completed with exit0. No study calculation was invoked.",
+  "files": [
+    {
+      "path": ".python-version",
+      "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d",
+      "bytes": 8
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "f12809ebec0a0612615ce447bd00e6184cceb2d3120f188feaf953a0f2382999",
+      "bytes": 196
+    },
+    {
+      "path": "uv.lock",
+      "sha256": "69f953c105e9ea8d67010888c5ea05da1fb67119682da008bf991df05a7551c3",
+      "bytes": 5087
+    },
+    {
+      "path": "encoding.json",
+      "sha256": "96346c871b570aff57557ef201e7335bea4fb1ac55fe0e5a54ed6a149afa13d5",
+      "bytes": 3632
+    },
+    {
+      "path": "replay.py",
+      "sha256": "fba8091e04aa5bd9c2f4dc923d2b41cf90bd900a21da43c153a5a06c697f4658",
+      "bytes": 9865
+    },
+    {
+      "path": "chronology.json",
+      "sha256": "01accc06b7a516a52586fb32eacb9504df3e4bca3c192bb3d03e23f816102309",
+      "bytes": 690
+    }
+  ],
+  "source_inputs": [
+    {
+      "path": "project/docs/external-witness-replay-contract.md",
+      "sha256": "a3649b051ec9350c17a2bbb81aead5692b023fef51a047592fcf13ffc1f6aa39",
+      "bytes": 5942
+    },
+    {
+      "path": "project/evidence/assumption-checks/independent/retrieval-review-adjudication.json",
+      "sha256": "1b64837ccce001b3bbe5996b594a8d820bcbcab0a87e1831f8e6fb2441311fb9",
+      "bytes": 62017
+    },
+    {
+      "path": "project/evidence/assumption-checks/independent/retrieval-review-adjudication-corrections.json",
+      "sha256": "030cf2360f0bcf8448fa809dc5141da716ba89262ad7140bf7fa1c283224cd3d",
+      "bytes": 3006
+    },
+    {
+      "path": "next-value-audit-work/selected-contract-source-review.json",
+      "sha256": "7f43a0a5ee01ff2158cd0b07a3256b87f6883384938be3253c065122d658b2f1",
+      "bytes": 4762
+    },
+    {
+      "path": "next-value-audit-work/selected-contract-source-review-correction.json",
+      "sha256": "bc26f6103a50b220267f6dbf8ddb3cb13247a0cc364da6a50a559b8fc3d73312",
+      "bytes": 1660
+    },
+    {
+      "path": "next-value-audit-work/raw/two-case-source-specification.json",
+      "sha256": "aee66fe5e9f270c673317a6c5030b500e7afa414b702a35e973b5f5b3269a282",
+      "bytes": 4345
+    }
+  ],
+  "canonical_command": [
+    "uv",
+    "run",
+    "--frozen",
+    "python",
+    "replay.py",
+    "--output-dir",
+    "run-01"
+  ],
+  "working_directory": "external-witness-work",
+  "no_run_observation": {
+    "run_01_directory_present": false
+  },
+  "next_gate": "Independent source and encoding review before execution",
+  "prior_attempt": {
+    "freeze": "preexecution-freeze.json",
+    "code_snapshot": "history/preexecution-attempt01/replay.py",
+    "outcome": "execution_withheld: source semantics passed but expected-field equality checks were incomplete",
+    "study_execution": false
+  }
+}
