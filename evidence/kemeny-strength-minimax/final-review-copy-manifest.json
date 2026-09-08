@@ -1,0 +1,93 @@
+[
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-release-review-work\\finalreview.md",
+    "destination": "evidence/kemeny-strength-minimax/final-review/finalreview.md",
+    "bytes": 3101,
+    "sha256": "ae3aae2b9a51c73def9b30621f2e7289a2cc5a6800bc5d8bf56070707016482c",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-release-review-work\\hashes-round1.json",
+    "destination": "evidence/kemeny-strength-minimax/final-review/hashes-round1.json",
+    "bytes": 418,
+    "sha256": "f8f3ae7ca14ce75585bacb3088cd0564c437bf16e48c3341e6f84d35fcc76a98",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-release-review-work\\hashes.json",
+    "destination": "evidence/kemeny-strength-minimax/final-review/hashes.json",
+    "bytes": 1280,
+    "sha256": "83385c389001167ff8ed3041ff3f96d5490592e0aa7d82025c6bc144a65442f0",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-release-review-work\\review-round1.md",
+    "destination": "evidence/kemeny-strength-minimax/final-review/review-round1.md",
+    "bytes": 6143,
+    "sha256": "e878c2e7ffba6440df21cafa1c09a78df700d766a4909569ad8b1273656a999b",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-release-review-work\\review.md",
+    "destination": "evidence/kemeny-strength-minimax/final-review/review.md",
+    "bytes": 6143,
+    "sha256": "e878c2e7ffba6440df21cafa1c09a78df700d766a4909569ad8b1273656a999b",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-release-review-work\\runtime-evidence-review.md",
+    "destination": "evidence/kemeny-strength-minimax/final-review/runtime-evidence-review.md",
+    "bytes": 2735,
+    "sha256": "2a17ac54cbd0117b63a74c418e56709877a599a6993d5e3b5cd87eb1a464d922",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-release-review-work\\runtime-input-checks.json",
+    "destination": "evidence/kemeny-strength-minimax/final-review/runtime-input-checks.json",
+    "bytes": 2519,
+    "sha256": "b5862356ea8e7c27e14b7a95cc810eab57a336e620494c352a5e0477d32cdc28",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-release-review-work\\static-check.json",
+    "destination": "evidence/kemeny-strength-minimax/final-review/static-check.json",
+    "bytes": 38615,
+    "sha256": "b4f51aa9b99b9fdce3cbc10b3dd0af7a83e706dc4fc56ff91d15571661a28979",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-release-review-work\\verdict-round1.json",
+    "destination": "evidence/kemeny-strength-minimax/final-review/verdict-round1.json",
+    "bytes": 1955,
+    "sha256": "fe0cb1c5388c9d7839f2b7021c0978163504b4fd967f6e59449bbded41b6b55b",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-release-review-work\\verdict.json",
+    "destination": "evidence/kemeny-strength-minimax/final-review/verdict.json",
+    "bytes": 5490,
+    "sha256": "e03100ae55fa81e301567cdcc484664a55ed469cc9ae85c924d4bbadf2d56ae2",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-strength-minimax-work\\review-input.json",
+    "destination": "evidence/kemeny-strength-minimax/resolve/review-input.json",
+    "bytes": 161,
+    "sha256": "6cfa2ee8d6742b6d66ad3823e81392b4c82a5947441e30d444a553f455c10cce",
+    "producer": "/root"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-strength-minimax-work\\review-input-round2.json",
+    "destination": "evidence/kemeny-strength-minimax/resolve/review-input-round2.json",
+    "bytes": 1026,
+    "sha256": "8b59a90ca00a08cde52426401bda8750e2bdd2c64d40ca155aa46361266776ac",
+    "producer": "/root"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-strength-minimax-work\\bundle-review-round1.json",
+    "destination": "evidence/kemeny-strength-minimax/resolve/bundle-review-round1.json",
+    "bytes": 55797,
+    "sha256": "3b63ad91f944a858350bb9ac3c6a47c255cac8bec254f104a8cf81c4b61fe031",
+    "producer": "/root"
+  }
+]

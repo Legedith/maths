@@ -1,0 +1,38 @@
+﻿[
+    {
+        "sha256":  "ae3aae2b9a51c73def9b30621f2e7289a2cc5a6800bc5d8bf56070707016482c",
+        "path":  "finalreview.md"
+    },
+    {
+        "sha256":  "f8f3ae7ca14ce75585bacb3088cd0564c437bf16e48c3341e6f84d35fcc76a98",
+        "path":  "hashes-round1.json"
+    },
+    {
+        "sha256":  "e878c2e7ffba6440df21cafa1c09a78df700d766a4909569ad8b1273656a999b",
+        "path":  "review-round1.md"
+    },
+    {
+        "sha256":  "e878c2e7ffba6440df21cafa1c09a78df700d766a4909569ad8b1273656a999b",
+        "path":  "review.md"
+    },
+    {
+        "sha256":  "2a17ac54cbd0117b63a74c418e56709877a599a6993d5e3b5cd87eb1a464d922",
+        "path":  "runtime-evidence-review.md"
+    },
+    {
+        "sha256":  "b5862356ea8e7c27e14b7a95cc810eab57a336e620494c352a5e0477d32cdc28",
+        "path":  "runtime-input-checks.json"
+    },
+    {
+        "sha256":  "b4f51aa9b99b9fdce3cbc10b3dd0af7a83e706dc4fc56ff91d15571661a28979",
+        "path":  "static-check.json"
+    },
+    {
+        "sha256":  "fe0cb1c5388c9d7839f2b7021c0978163504b4fd967f6e59449bbded41b6b55b",
+        "path":  "verdict-round1.json"
+    },
+    {
+        "sha256":  "e03100ae55fa81e301567cdcc484664a55ed469cc9ae85c924d4bbadf2d56ae2",
+        "path":  "verdict.json"
+    }
+]

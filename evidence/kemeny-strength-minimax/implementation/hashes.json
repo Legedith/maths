@@ -1,0 +1,62 @@
+﻿[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "3DC1935803D0A0B0CB86E5BCFE6C5502F88A086E5A6A620136F3AF4D831CEB7B",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-portable-work\\input-hashes.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "54151E5AC3DE0F6CD2DD12A8A26E2EB90994988747A9EDA9259F5C8C052DEB54",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-portable-work\\plan.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "043135469F15A65EC3BB4106A3D6798BCCCDD0F762288DB41FD740164762445F",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-portable-work\\pyproject.toml"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "DD291B279C82651426AD0E574E61F88867478B248D0F3B53F324BBF0B3EF0B72",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-portable-work\\README.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "734C9F73753F2AB07232AB8DBF2A1583B42565E88623F9B50D7779ABA904665B",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-portable-work\\result.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "08016A23674A49525E82D79989B6DCBC722F98BC512E771C1B7253C782AECBD0",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-portable-work\\run.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "75C9C7AFA38C6B44129464B8E01C3CAC1EC83A03DF77967565C46435E2F42403",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-portable-work\\run.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "758BCF463ED7CE8515E5DAF4FA5BCB2867A540D97DD48B80B1D2596EEFCF0FFA",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-portable-work\\stderr.bin"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "B82D5BB475ADA094E0DD5C20B134D07327EBB4D70524051ADC788F2BE9A9BE4D",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-portable-work\\stdout.bin"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "11152F62717A691450361C4227A70EB7674E65B1C3BB3D5889464956898AD1A9",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-portable-work\\strength_minimax.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "378269213EB25AE37448F6993AC983809D7BAB05D3A47434C5BABD06DC0B874D",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-portable-work\\uv.lock"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "4B648D90676F564B2AE12AA39B0EE1BE7144F547E39BDA3671B3F1813D22AE01",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-portable-work\\verify_strength_minimax.py"
+    }
+]

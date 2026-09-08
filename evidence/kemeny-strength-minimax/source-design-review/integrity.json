@@ -1,0 +1,37 @@
+﻿{
+    "queries":  4,
+    "finds":  4,
+    "source_hashes":  [
+                          {
+                              "match":  true,
+                              "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-priority-work\\claims.json",
+                              "sha256":  "35cb184bf11e7ce2bdc36bdda74a557237fb2874207ebb4528574da08471e1fb"
+                          },
+                          {
+                              "match":  true,
+                              "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-priority-work\\raw-finds.json",
+                              "sha256":  "5aa83ce8c45a69fdf664a1f970f621537c05525436d2036684e4d5c9142ff772"
+                          },
+                          {
+                              "match":  true,
+                              "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-priority-work\\raw-opens.json",
+                              "sha256":  "feb13654374228aae3d43e51d662e93bcd24b5a848701481215293b3c04fbfb7"
+                          },
+                          {
+                              "match":  true,
+                              "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-priority-work\\raw-search.json",
+                              "sha256":  "72f5d8a616d17549fb57363bb15d782155c1518c1b808bbd8b69e00dd920583b"
+                          },
+                          {
+                              "match":  true,
+                              "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-priority-work\\report.md",
+                              "sha256":  "58ef6cbbe5a497f3350b5156270673727ba71477e32ecd077c04024c77b62933"
+                          },
+                          {
+                              "match":  true,
+                              "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-priority-work\\requests.json",
+                              "sha256":  "38c468294f16976ae0f8acd60a494b19dd7b2931afb34fe16fca68daa20ec755"
+                          }
+                      ],
+    "opens":  3
+}

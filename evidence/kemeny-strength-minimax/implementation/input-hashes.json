@@ -1,0 +1,27 @@
+﻿[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "9F748CBF4CB593B6128CD86F240350A8FA52396B066E0EF9FCC55239DA25DB10",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\project\\docs\\kemeny-strength-minimax-contract.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "69C937BC3765819EE8BD2CDE5227588F5FDE166DA81B1E94DAB4568A7527B006",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-general-strength-convexity-review-work\\review.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "8479861A835B0686F02733B678F54070E69BBC50F47095F0D456C153DC8409E0",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-review-work\\review.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "043135469F15A65EC3BB4106A3D6798BCCCDD0F762288DB41FD740164762445F",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-workload-proof\\pyproject.toml"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "378269213EB25AE37448F6993AC983809D7BAB05D3A47434C5BABD06DC0B874D",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-workload-proof\\uv.lock"
+    }
+]

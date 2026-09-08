@@ -1,0 +1,54 @@
+{
+  "search": {
+    "search_query": [
+      {
+        "q": "\"effective resistance\" \"minimax regret\""
+      },
+      {
+        "q": "\"network design\" \"relative regret\" randomized"
+      },
+      {
+        "q": "\"mean first passage\" \"uncertain\" optimization conductance"
+      },
+      {
+        "q": "\"robust\" \"edge weight\" \"demand\" \"effective resistance\" optimization"
+      }
+    ],
+    "response_length": "long"
+  },
+  "opens": {
+    "open": [
+      {
+        "ref_id": "https://optimization-online.org/wp-content/uploads/2004/08/921.pdf"
+      },
+      {
+        "ref_id": "https://arxiv.org/html/1803.05640"
+      },
+      {
+        "ref_id": "https://link.springer.com/article/10.1007/s00186-020-00712-y"
+      }
+    ],
+    "response_length": "long"
+  },
+  "finds": {
+    "find": [
+      {
+        "ref_id": "turn473view1",
+        "pattern": "Abstract"
+      },
+      {
+        "ref_id": "turn473view1",
+        "pattern": "Problem"
+      },
+      {
+        "ref_id": "turn473view2",
+        "pattern": "Abstract"
+      },
+      {
+        "ref_id": "turn473view2",
+        "pattern": "solutions"
+      }
+    ],
+    "response_length": "long"
+  }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-priority-work\\raw-finds.json",
+    "sha256": "5aa83ce8c45a69fdf664a1f970f621537c05525436d2036684e4d5c9142ff772",
+    "bytes": 29809
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-priority-work\\raw-opens.json",
+    "sha256": "feb13654374228aae3d43e51d662e93bcd24b5a848701481215293b3c04fbfb7",
+    "bytes": 25752
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-priority-work\\raw-search.json",
+    "sha256": "72f5d8a616d17549fb57363bb15d782155c1518c1b808bbd8b69e00dd920583b",
+    "bytes": 34903
+  }
+]

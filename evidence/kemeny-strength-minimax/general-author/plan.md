@@ -1,0 +1,3 @@
+# Frozen analytic exploration
+
+H1 any absent edge in a fixed connected positive weighted undirected graph satisfies mr>=4, with a sharp equality classification. Approach: Dirichlet trial potential1,0,1/2; alternative Thomson endpoint energy bound. H2 differentiate the known strength objective and use H1 to prove strict convexity, then uniqueness of each edge's two-endpoint minimax strength. H3 extend accepted continuum endpoint/finite candidate reduction to arbitrary connected graphs n>=3, explicitly proving positivity and coercivity. Prefer zero evaluators; at most one60second exact diagnostic only if necessary and separately predeclared. No grid/source query/shared edits. Candidate proof requires distinct audit and primary attribution before promotion.

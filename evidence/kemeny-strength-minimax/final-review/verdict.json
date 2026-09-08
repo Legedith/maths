@@ -1,0 +1,98 @@
+﻿{
+    "status":  "pass",
+    "auditor":  "/root/astra_damage_symbolic",
+    "round":  2,
+    "bundle_sha256":  "0ae029b9d6c30491e596181e6fa5542b7baac998380b1c6da848852343ac5f48",
+    "required_corrections":  [
+
+                             ],
+    "checks":  [
+                   {
+                       "id":  "reproduction",
+                       "status":  "pass",
+                       "auditor":  "/root/astra_damage_symbolic",
+                       "evidence":  [
+                                        "A009",
+                                        "A039",
+                                        "A040",
+                                        "A041",
+                                        "A055",
+                                        "A064",
+                                        "A065",
+                                        "A066",
+                                        "A070",
+                                        "A074",
+                                        "A075",
+                                        "A078",
+                                        "A081",
+                                        "A098",
+                                        "A099",
+                                        "A100",
+                                        "A102"
+                                    ],
+                       "note":  "Unchanged distinct analytic/witness audits and portable replay reused; all three actual canonical result hashes match. Root rc0/no timeout; no numerical rerun. Later timed-out exploratory invocation is retained separately, without a result or localized cause."
+                   },
+                   {
+                       "id":  "specification_compliance",
+                       "status":  "pass",
+                       "auditor":  "/root/astra_damage_symbolic",
+                       "evidence":  [
+                                        "A001",
+                                        "A009",
+                                        "A040",
+                                        "A075",
+                                        "A086",
+                                        "A092",
+                                        "A093",
+                                        "A096",
+                                        "A098",
+                                        "A102"
+                                    ],
+                       "note":  "Real-weight universal theorem separated from rational partial exact solver; actual volumes, continuum oracle, strict convexity, candidate boundaries, all location ties and no action once preserved. Concrete admitted-input runtime limitation is disclosed; separate hand-derived no-action claim excluded."
+                   },
+                   {
+                       "id":  "source_verification",
+                       "status":  "pass",
+                       "auditor":  "/root/astra_damage_symbolic",
+                       "evidence":  [
+                                        "A013",
+                                        "A017",
+                                        "A018",
+                                        "A020",
+                                        "A021",
+                                        "A024",
+                                        "A025",
+                                        "A086",
+                                        "A093"
+                                    ],
+                       "note":  "Distinct primary-source reviews and actual passage/hash chain support classical-method credit and bounded model distinctions; unverified Springer metadata excluded from verified citation. No priority or physical clearance."
+                   },
+                   {
+                       "id":  "implementation_alignment",
+                       "status":  "pass",
+                       "auditor":  "/root/astra_damage_symbolic",
+                       "evidence":  [
+                                        "A060",
+                                        "A062",
+                                        "A064",
+                                        "A066",
+                                        "A074",
+                                        "A075",
+                                        "A087",
+                                        "A088",
+                                        "A092",
+                                        "A095",
+                                        "A049",
+                                        "A096",
+                                        "A097",
+                                        "A098",
+                                        "A101",
+                                        "A102"
+                                    ],
+                       "note":  "Independent portable reviewer is distinct from code/theorem author. Exact sign/tie/inconclusive behavior, complete outputs, analytic bridges and static pinned workflow match the public interface. Hosted CI not attested. Static logger process-tree handling and exploratory launcher distinction verified; no resource reliability guarantee."
+                   }
+               ],
+    "condition":  "Append frozen reviewer packet and attestation, then deterministic gate; no other content changes.",
+    "scope":  "Final semantic LOCAL release review only",
+    "hosted_ci_novelty_or_physical_clearance":  false
+}

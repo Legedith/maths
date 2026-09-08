@@ -1,0 +1,17 @@
+﻿[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "69C937BC3765819EE8BD2CDE5227588F5FDE166DA81B1E94DAB4568A7527B006",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-general-strength-convexity-review-work\\review.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "8479861A835B0686F02733B678F54070E69BBC50F47095F0D456C153DC8409E0",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-review-work\\review.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "11152F62717A691450361C4227A70EB7674E65B1C3BB3D5889464956898AD1A9",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\strength-minimax-portable-work\\strength_minimax.py"
+    }
+]

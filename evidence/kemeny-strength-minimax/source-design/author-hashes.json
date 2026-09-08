@@ -1,0 +1,32 @@
+﻿[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "35CB184BF11E7CE2BDC36BDDA74A557237FB2874207EBB4528574DA08471E1FB",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-priority-work\\claims.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "5AA83CE8C45A69FDF664A1F970F621537C05525436D2036684E4D5C9142FF772",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-priority-work\\raw-finds.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "FEB13654374228AAE3D43E51D662E93BCD24B5A848701481215293B3C04FBFB7",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-priority-work\\raw-opens.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "72F5D8A616D17549FB57363BB15D782155C1518C1B808BBD8B69E00DD920583B",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-priority-work\\raw-search.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "58EF6CBBE5A497F3350B5156270673727BA71477E32ECD077C04024C77B62933",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-priority-work\\report.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "38C468294F16976AE0F8ACD60A494B19DD7B2931AFB34FE16FCA68DAA20EC755",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-priority-work\\requests.json"
+    }
+]

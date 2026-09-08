@@ -1,0 +1,10 @@
+{
+  "status":"author_candidate_pending_independent_audit",
+  "claims":[
+    {"id":"H1","type":"methodological","statement":"For an absent pair in a connected positive weighted loopless undirected graph, total conductance times effective resistance is at least4; equality is exactly a weighted K_(2,n-2) with each two-edge branch having equal weights.","support":"proposal.md#sharp-resistance-bound","method":"Dirichlet trial potential and harmonic equality"},
+    {"id":"H2","type":"conclusion","statement":"Each fixed-edge strength objective and its maximum of two positive-normalized endpoint objectives are strictly convex; each edge has one attained optimal strength on[0,infinity).","support":"proposal.md#strict-convexity-and-attainment","depends_on":["H1"]},
+    {"id":"H3","type":"conclusion","statement":"Continuum endpoint reduction and finite candidate characterization extend to every fixed connected positive weighted graph n>=3 under a fixed iid uniform-hub mixture interval below1 and a finite nonempty missing-edge set.","support":"proposal.md#general-minimax-rule","depends_on":["H1","H2"]}
+  ],
+  "evaluators":0,
+  "limitations":["Primary priority attribution remains pending.","No variable topology oracle beyond the specified single-edge action family.","Physical location ties may persist."]
+}

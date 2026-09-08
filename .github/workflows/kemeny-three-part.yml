@@ -179,3 +179,20 @@ jobs:
           path: work/kemeny-minimax-ci/
           retention-days: 30
           if-no-files-found: warn
+      - name: Check graph-general conductance minimax and exact solver
+        run: >-
+          uv run --project experiments/kemeny-workload-proof --frozen python
+          experiments/kemeny-three-part-proof/run_logged.py
+          --attempt-id strength-minimax --timeout-seconds 90
+          --log-dir work/kemeny-strength-minimax-ci/logs -- uv run
+          --project experiments/kemeny-workload-proof --frozen python
+          experiments/kemeny-workload-proof/verify_strength_minimax.py
+          --output work/kemeny-strength-minimax-ci/check.json
+      - name: Retain conductance minimax proof and solver checks
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: kemeny-strength-minimax
+          path: work/kemeny-strength-minimax-ci/
+          retention-days: 30
+          if-no-files-found: warn

@@ -1,0 +1,3 @@
+# Frozen strength minimax exploration
+
+H1 continuum endpoint reduction holds with positive attained oracle, with positivity/coercivity derived from graph inverse rather than assumed. H2 every per-edge minimax is among t0, endpoint stationary strengths and positive roots of equality of normalized endpoint objectives; include degeneracies and exact completeness proof. H3 endpoint-optimal strengths alone suffice: test or refute, distinguishing per-edge and global endpoint optima. Analytic derivation first. At most two60s exact uv evaluators; only permitted graph/workload witness344 interval[0,1/10]. No grid or other graph. Generic methodology novelty unclaimed; author packet requires independent audit. Other stages/repo read-only.

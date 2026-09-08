@@ -1,0 +1,47 @@
+﻿[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "4501654E0FE2BE51692572D6F45193849CB6066C0D5FACF3DC66A02F10FDD666",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-explore-work\\check.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "0B9C4C54D8C4753A2A062854AE814E76538B9402EC4432706E52BCE1C2B2FBFA",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-explore-work\\input-hashes.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "40E508A6300C1032FE617D028214663F3E0F8F9DFDFFB896FCFD8912DFA45FB1",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-explore-work\\plan.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "6E673F48ED1070017AB5CECD2CA17A245DBD844B658765508FC9F1CD5ACD2EF7",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-explore-work\\proposal.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "9C1BB733C9312F6A8860BE8130F1C74384A85FCA2A715F135C6AD6A7CC0B0A43",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-explore-work\\result.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "506606D585E1C11D3FE80590608D2ED34896C2D343A7C6D4125226D29A5DAC2F",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-explore-work\\run.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "945A36211934791BE13CC96820C95D9BA22053CCB1FA161AF247953BBC03A630",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-explore-work\\run.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "05BDE2467D45473B43201D802613C4A7E95EA076AD7E96E3A93B9D173183AB76",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-explore-work\\stderr.bin"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "4EFDDBCB405156E18F4D16594A140D6B71E978731275898C0D0448A98E25D4AF",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-explore-work\\stdout.bin"
+    }
+]

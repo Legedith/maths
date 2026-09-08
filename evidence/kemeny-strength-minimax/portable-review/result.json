@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "attempts": 2,
+  "replay_rc": 0,
+  "rejection_rc": 2,
+  "byte_identical": true,
+  "utf8_lf": true,
+  "input_hashes_match": true,
+  "output_sha256": "734c9f73753f2ab07232ab8dbf2a1583b42565e88623f9b50d7779aba904665b",
+  "direct_checks": {
+    "344": 64,
+    "cycle": 8,
+    "noop": 4,
+    "weighted_path": 4
+  },
+  "invalid_count": 7,
+  "abstract_balance_count": 5
+}

@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "canonical_sha256": "734c9f73753f2ab07232ab8dbf2a1583b42565e88623f9b50d7779aba904665b",
+  "implementation_hashes": {
+    "strength_minimax.py": "11152f62717a691450361c4227a70eb7674e65b1c3bb3d5889464956898ad1a9",
+    "verify_strength_minimax.py": "4b648d90676f564b2ae12aa39b0ee1be7144f547e39bda3671b3f1813d22ae01"
+  },
+  "byte_identical_to_worker_and_independent_replay": true,
+  "canonical_attempts": 1,
+  "returncode": 0,
+  "timed_out": false,
+  "direct_objective_checks": {
+    "344": 64,
+    "cycle": 8,
+    "noop": 4,
+    "weighted_path": 4
+  },
+  "total_direct_checks": 80,
+  "witness_edges": 16,
+  "witness_candidate_entries": 11,
+  "invalid_inputs_rejected": 7,
+  "abstract_balance_cases": 5
+}

@@ -1,0 +1,62 @@
+﻿[
+    {
+        "sha256":  "734c9f73753f2ab07232ab8dbf2a1583b42565e88623f9b50d7779aba904665b",
+        "path":  "fresh-result.json"
+    },
+    {
+        "sha256":  "f91e05a7627c53e9d690182486ea0b6c96f5c53ed8881bb561fd04e453835bd6",
+        "path":  "plan.md"
+    },
+    {
+        "sha256":  "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f",
+        "path":  "pyproject.toml"
+    },
+    {
+        "sha256":  "efcb64063f6a8b15a3f6eeaec4397e83c459d4c93b4e9021aa8cabd49642481d",
+        "path":  "result.json"
+    },
+    {
+        "sha256":  "58908bba4652d70611bb70584ec7f91556d7f4200ed5262d52bdf987f9b25834",
+        "path":  "review.md"
+    },
+    {
+        "sha256":  "1491b7e2cecdae2a127ae6439effd712647209990c08502c15f20d2e08114913",
+        "path":  "run1-stderr.bin"
+    },
+    {
+        "sha256":  "b82d5bb475ada094e0dd5c20b134d07327ebb4d70524051adc788f2be9a9be4d",
+        "path":  "run1-stdout.bin"
+    },
+    {
+        "sha256":  "fba0ab4296ed263aa8da6ad1d377f2344f1ec1a58e63a9099c4c39c5dd03b7a9",
+        "path":  "run1.json"
+    },
+    {
+        "sha256":  "79dcf170a4de89d4aa20f412e287dd4da555f835cec834a836a132005f22235f",
+        "path":  "run2-stderr.bin"
+    },
+    {
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "path":  "run2-stdout.bin"
+    },
+    {
+        "sha256":  "96877b51b173443bf052885170cf2f456f235fef51ee5cb9e16334290b559983",
+        "path":  "run2.json"
+    },
+    {
+        "sha256":  "ffa318ef912de8529d3b1f0fa62ebb19848cb5351d6d0d308e291df1a9ae15a0",
+        "path":  "run_review.py"
+    },
+    {
+        "sha256":  "11152f62717a691450361c4227a70eb7674e65b1c3bb3d5889464956898ad1a9",
+        "path":  "strength_minimax.py"
+    },
+    {
+        "sha256":  "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d",
+        "path":  "uv.lock"
+    },
+    {
+        "sha256":  "4b648d90676f564b2ae12aa39b0ee1be7144f547e39bda3671b3f1813d22ae01",
+        "path":  "verify_strength_minimax.py"
+    }
+]

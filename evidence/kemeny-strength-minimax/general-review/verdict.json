@@ -1,0 +1,14 @@
+{
+  "status":"pass",
+  "auditor":"/root/astra_damage_symbolic",
+  "proposal_sha256":"6ecc0d9aac9812c791998befc422b189e9d66662a002a889366125277c341f75",
+  "claims_sha256":"2c0b9775c20fd5eead21a2eaac76267c98478c66f576d6c1568248dddcd6718f",
+  "checks":{"reproduction":"pass","specification_compliance":"pass","source_verification":"pass","implementation_alignment":"pass"},
+  "required_corrections":[],
+  "evaluators":0,
+  "source_queries":0,
+  "source_gate_scope":"Accepted mathematical dependencies only; new primary attribution and novelty remain pending.",
+  "evidence":["review.md","input-checks.json"],
+  "scope":"Independent analytic audit of sharp mr>=4 equality classification and graph-general strict-convexity/continuum minimax finite characterization under stated assumptions.",
+  "release_priority_or_physical_clearance":false
+}

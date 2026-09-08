@@ -1,0 +1,1659 @@
+{
+  "schema_version": "1.0",
+  "run_id": "kemeny-strength-minimax-v1",
+  "objective": "Certify a graph-general deterministic conductance minimax characterization and exact rational graph solver under uncertain iid focus workload, with sharp resistance bound, unique per-edge strength and exact balancing witness.",
+  "created_at": "2026-09-08T19:22:00.442047Z",
+  "task_spec_artifact_id": "A001",
+  "evaluator_command": "uv run --project experiments/kemeny-workload-proof --frozen python experiments/kemeny-three-part-proof/run_logged.py --attempt-id strength-minimax-01 --timeout-seconds 90 --log-dir work/kemeny-strength-minimax/logs -- uv run --project experiments/kemeny-workload-proof --frozen python experiments/kemeny-workload-proof/verify_strength_minimax.py --output work/kemeny-strength-minimax/check-01.json",
+  "artifacts": [
+    {
+      "id": "A001",
+      "kind": "spec",
+      "path": "docs/kemeny-strength-minimax-contract.md",
+      "sha256": "9f748cbf4cb593b6128cd86f240350a8fa52396b066e0ef9fcc55239da25db10",
+      "producer": "user-or-orchestrator"
+    },
+    {
+      "id": "A002",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/general-author/claims.json",
+      "sha256": "2c0b9775c20fd5eead21a2eaac76267c98478c66f576d6c1568248dddcd6718f",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A003",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/general-author/hashes.json",
+      "sha256": "5ae040a0b1dd66a94fd0e0b592f42bad4dd8b279c40c1a8b507d9e7f1ef3f696",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A004",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/general-author/input-hashes.json",
+      "sha256": "2784ac15da75b96593dae42d4a78d61714aeefd6fd8452e6fa18f6cb96091a5f",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A005",
+      "kind": "report",
+      "path": "evidence/kemeny-strength-minimax/general-author/plan.md",
+      "sha256": "f6f3b6427556f26b28be0431adc6b0f48f446dcef656fb9b29566b1b849dff7d",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A006",
+      "kind": "report",
+      "path": "evidence/kemeny-strength-minimax/general-author/proposal.md",
+      "sha256": "6ecc0d9aac9812c791998befc422b189e9d66662a002a889366125277c341f75",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A007",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/general-review/hashes.json",
+      "sha256": "967e167e7dd7f9628eb12bd13dd8839d3ca18a61ee94e9a4428f5e95865242f4",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A008",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/general-review/input-checks.json",
+      "sha256": "cb51f562e3905c9724ae44b2b579acd004cdfb418c2f50299e716ba29bb7fcbb",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A009",
+      "kind": "report",
+      "path": "evidence/kemeny-strength-minimax/general-review/review.md",
+      "sha256": "69c937bc3765819ee8bd2cde5227588f5fde166da81b1e94dab4568a7527b006",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A010",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/general-review/verdict.json",
+      "sha256": "545c8446ee7228cb733669b2242ccf4b94606d718abc8ca33caa1d812e4e8623",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A011",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/math-copy-manifest.json",
+      "sha256": "81f207c2d69381e0e2ebb3bc3757161b288fcba1817d11a3d43ed38ab8b9518c",
+      "producer": "/root"
+    },
+    {
+      "id": "A012",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/source-bound/author-hashes.json",
+      "sha256": "4224edeedf01445517767c78295e496e15768744a9b19b7c3abb6dcdeac1c1f9",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A013",
+      "kind": "source",
+      "path": "evidence/kemeny-strength-minimax/source-bound/notes.md",
+      "sha256": "db02c091c141e5db590aec51ecd8d7a2bd4c1a2cba99f798c699d4611526ebbc",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A014",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/source-bound/requests.json",
+      "sha256": "eb5a80f4f9e6e4a81cb9f409c5163d533f9740eee4852c9fdbcf17c299744ce3",
+      "producer": "/root"
+    },
+    {
+      "id": "A015",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/source-bound-review/hashes.json",
+      "sha256": "3318d753159b4db9ff0d576f415a62d6a475fda590e195aba9abc328c39af0e7",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A016",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/source-bound-review/input-checks.json",
+      "sha256": "9b769570c66d0b801eab788359fc666128f419991074b51bf50e3482d23303d4",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A017",
+      "kind": "report",
+      "path": "evidence/kemeny-strength-minimax/source-bound-review/review.md",
+      "sha256": "e09bce809d86f5524eba55242c0fb8cbba97f1501a170a4404c833f59840f698",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A018",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/source-bound-review/verdict.json",
+      "sha256": "4ab3a0f92e1efd02191b25285d5156f1b0684d82e3e7e9645b95d6e5e2333e11",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A019",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/source-design/author-hashes.json",
+      "sha256": "312f5ec4f463639f1cbde6edb6a1630f4b61ef1dba3242993e8d180f4f468d91",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A020",
+      "kind": "source",
+      "path": "evidence/kemeny-strength-minimax/source-design/notes.md",
+      "sha256": "58ef6cbbe5a497f3350b5156270673727ba71477e32ecd077c04024c77b62933",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A021",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/source-design/raw-manifest.json",
+      "sha256": "2290fb5f413b1038fa1bcf56131aeafb370de6388593051b95be45e7aa738fc1",
+      "producer": "/root"
+    },
+    {
+      "id": "A022",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/source-design/requests.json",
+      "sha256": "38c468294f16976ae0f8acd60a494b19dd7b2931afb34fe16fca68daa20ec755",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A023",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/source-design-review/hashes.json",
+      "sha256": "8007c0fd3e64e6222881b1afcb361a2029df9d0311adb8ba7f6ddacf76da0f1b",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A024",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/source-design-review/integrity.json",
+      "sha256": "73ef6a0a0c884fe275756df6d55a240fe1eea72b926b0c48a33ef7a489703102",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A025",
+      "kind": "report",
+      "path": "evidence/kemeny-strength-minimax/source-design-review/review.md",
+      "sha256": "922ecabca4bda9e065116ba97f990b9de31ea1958ae12309977f8531e9050e4a",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A026",
+      "kind": "code",
+      "path": "evidence/kemeny-strength-minimax/strength-author/check.py",
+      "sha256": "4501654e0fe2be51692572d6f45193849cb6066c0d5facf3dc66a02f10fdd666",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A027",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/strength-author/hashes.json",
+      "sha256": "e680af152925ec45e817adbb7738e1c217c414d7ef77130525e9c92f18699ec6",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A028",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/strength-author/input-hashes.json",
+      "sha256": "0b9c4c54d8c4753a2a062854ae814e76538b9402ec4432706e52bce1c2b2fbfa",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A029",
+      "kind": "report",
+      "path": "evidence/kemeny-strength-minimax/strength-author/plan.md",
+      "sha256": "40e508a6300c1032fe617d028214663f3e0f8f9dfdffb896fcfd8912dfa45fb1",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A030",
+      "kind": "report",
+      "path": "evidence/kemeny-strength-minimax/strength-author/proposal.md",
+      "sha256": "6e673f48ed1070017ab5cecd2ca17a245dbd844b658765508fc9f1cd5acd2ef7",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A031",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/strength-author/result.json",
+      "sha256": "9c1bb733c9312f6a8860be8130f1c74384a85fca2a715f135c6ad6a7cc0b0a43",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A032",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-minimax/strength-author/run.json",
+      "sha256": "506606d585e1c11d3fe80590608d2ed34896c2d343a7c6d4125226d29a5dac2f",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A033",
+      "kind": "code",
+      "path": "evidence/kemeny-strength-minimax/strength-author/run.py",
+      "sha256": "945a36211934791be13cc96820c95d9ba22053ccb1fa161af247953bbc03a630",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A034",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-minimax/strength-author/stderr.bin",
+      "sha256": "05bde2467d45473b43201d802613c4a7e95ea076ad7e96e3a93b9d173183ab76",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A035",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-minimax/strength-author/stdout.bin",
+      "sha256": "4efddbcb405156e18f4d16594a140d6b71e978731275898c0d0448a98e25d4af",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A036",
+      "kind": "code",
+      "path": "evidence/kemeny-strength-minimax/strength-review/check.py",
+      "sha256": "5cb59287782cb68f9e5c41b32c5f75c40d5ef69a1881254b5b49eab8e10028a6",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A037",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/strength-review/hashes.json",
+      "sha256": "53a4554a5ac69b6cfcfb028cfeeeb02713d9ea0f0f1b63c96c5e6b1ae02515c6",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A038",
+      "kind": "report",
+      "path": "evidence/kemeny-strength-minimax/strength-review/plan.md",
+      "sha256": "b70cfbf38b604385c624c4057f00b4f370869ab7abcfb322afb536914a423d22",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A039",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/strength-review/result.json",
+      "sha256": "715bb1decde46a20cd6a51158999b766ac91123ba173fed6ec6ff474af770462",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A040",
+      "kind": "report",
+      "path": "evidence/kemeny-strength-minimax/strength-review/review.md",
+      "sha256": "8479861a835b0686f02733b678f54070e69bbc50f47095f0d456c153dc8409e0",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A041",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-minimax/strength-review/run.json",
+      "sha256": "606ba05d458c3359f7aa9e4b3abb8baf60d63ca7e8c24819f472d95bdbaf3d3f",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A042",
+      "kind": "code",
+      "path": "evidence/kemeny-strength-minimax/strength-review/run.py",
+      "sha256": "dfd47e73dfc83510aac9e107e4cbef7f967367d8a95f6bb1c5e3ec20412220dc",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A043",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-minimax/strength-review/stderr.bin",
+      "sha256": "3b7a5d469cb15b9289e55216fd12193ac4e3ffbb60b6e2c0c49dae8c0a582f04",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A044",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-minimax/strength-review/stdout.bin",
+      "sha256": "8271347fefd5f9cca232aafb298c82bafce521671a1687344d73367ad6c12047",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A045",
+      "kind": "report",
+      "path": "docs/kemeny-workload-action-choice.md",
+      "sha256": "3cdbdeac5b7d92fc73cb516be5b83203cb0278bd31bbb63aee409da92f9cd7fc",
+      "producer": "/root"
+    },
+    {
+      "id": "A046",
+      "kind": "report",
+      "path": "evidence/kemeny-workload-action-choice/strength-review/review.md",
+      "sha256": "31d4cbaa231bf3002d6d92110d8051500fb82d43e6992145374f035b8d98b643",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A047",
+      "kind": "code",
+      "path": "experiments/kemeny-workload-proof/verify_action_choice.py",
+      "sha256": "fff7fffc1453b00e9d4d2cca7e815e088f0a5da793e7da0f884ba762ce8f21ce",
+      "producer": "/root"
+    },
+    {
+      "id": "A048",
+      "kind": "report",
+      "path": "evidence/kemeny-unit-minimax/endpoint-review/review.md",
+      "sha256": "c0b0112767bb251a87c45eefccc12dd803f69ca7a0ca1e61f7774a7899a274d8",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A049",
+      "kind": "code",
+      "path": "experiments/kemeny-three-part-proof/run_logged.py",
+      "sha256": "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6",
+      "producer": "/root"
+    },
+    {
+      "id": "A050",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/implementation/hashes.json",
+      "sha256": "7f5330f5de4cc5de08e1a6fdbee43f965620a81d4cb2da13d3d741e4fb88a396",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A051",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/implementation/input-hashes.json",
+      "sha256": "3dc1935803d0a0b0cb86e5bcfe6c5502f88a086e5a6a620136f3af4d831ceb7b",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A052",
+      "kind": "report",
+      "path": "evidence/kemeny-strength-minimax/implementation/plan.md",
+      "sha256": "54151e5ac3de0f6cd2dd12a8a26e2eb90994988747a9eda9259f5c8c052deb54",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A053",
+      "kind": "code",
+      "path": "evidence/kemeny-strength-minimax/implementation/pyproject.toml",
+      "sha256": "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A054",
+      "kind": "report",
+      "path": "evidence/kemeny-strength-minimax/implementation/README.md",
+      "sha256": "dd291b279c82651426ad0e574e61f88867478b248d0f3b53f324bbf0b3ef0b72",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A055",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/implementation/result.json",
+      "sha256": "734c9f73753f2ab07232ab8dbf2a1583b42565e88623f9b50d7779aba904665b",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A056",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-minimax/implementation/run.json",
+      "sha256": "08016a23674a49525e82d79989b6dcbc722f98bc512e771c1b7253c782aecbd0",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A057",
+      "kind": "code",
+      "path": "evidence/kemeny-strength-minimax/implementation/run.py",
+      "sha256": "75c9c7afa38c6b44129464b8e01c3cac1ec83a03df77967565c46435e2f42403",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A058",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-minimax/implementation/stderr.bin",
+      "sha256": "758bcf463ed7ce8515e5daf4fa5bcb2867a540d97dd48b80b1d2596eefcf0ffa",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A059",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-minimax/implementation/stdout.bin",
+      "sha256": "b82d5bb475ada094e0dd5c20b134d07327ebb4d70524051adc788f2be9a9be4d",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A060",
+      "kind": "code",
+      "path": "evidence/kemeny-strength-minimax/implementation/strength_minimax.py",
+      "sha256": "11152f62717a691450361c4227a70eb7674e65b1c3bb3d5889464956898ad1a9",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A061",
+      "kind": "code",
+      "path": "evidence/kemeny-strength-minimax/implementation/uv.lock",
+      "sha256": "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A062",
+      "kind": "code",
+      "path": "evidence/kemeny-strength-minimax/implementation/verify_strength_minimax.py",
+      "sha256": "4b648d90676f564b2ae12aa39b0ee1be7144f547e39bda3671b3f1813d22ae01",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A063",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/implementation-copy-manifest.json",
+      "sha256": "8e98219208c4c48f1e7a13a9db4bf21b78548c2efeb87ed14b927f1f9b4ce54c",
+      "producer": "/root"
+    },
+    {
+      "id": "A064",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/integration/check-01.json",
+      "sha256": "734c9f73753f2ab07232ab8dbf2a1583b42565e88623f9b50d7779aba904665b",
+      "producer": "/root"
+    },
+    {
+      "id": "A065",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/integration/comparison.json",
+      "sha256": "8c745c53c81f64ae6babd9b4d928cdd6a1c3e9deaa10020ed29f180ccb1e66ee",
+      "producer": "/root"
+    },
+    {
+      "id": "A066",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-minimax/integration/logs/attempt-strength-minimax-01.json",
+      "sha256": "648722941617285412cee90443604280983feb13e4489c25754e1c461ce00c10",
+      "producer": "/root"
+    },
+    {
+      "id": "A067",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-minimax/integration/logs/attempt-strength-minimax-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A068",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-minimax/integration/logs/attempt-strength-minimax-01.stdout.bin",
+      "sha256": "b82d5bb475ada094e0dd5c20b134d07327ebb4d70524051adc788f2be9a9be4d",
+      "producer": "/root"
+    },
+    {
+      "id": "A069",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-minimax/integration/logs/attempts.jsonl",
+      "sha256": "3f90d9808409b661a5f8568cc9ccfba202c40a7ba43e2fad6dc6ab83bca5255b",
+      "producer": "/root"
+    },
+    {
+      "id": "A070",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/portable-review/fresh-result.json",
+      "sha256": "734c9f73753f2ab07232ab8dbf2a1583b42565e88623f9b50d7779aba904665b",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A071",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/portable-review/hashes.json",
+      "sha256": "fe08446df7c237c613e8f7caa33337c27d5a7845091102a7aff3c629ba750564",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A072",
+      "kind": "report",
+      "path": "evidence/kemeny-strength-minimax/portable-review/plan.md",
+      "sha256": "f91e05a7627c53e9d690182486ea0b6c96f5c53ed8881bb561fd04e453835bd6",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A073",
+      "kind": "code",
+      "path": "evidence/kemeny-strength-minimax/portable-review/pyproject.toml",
+      "sha256": "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A074",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/portable-review/result.json",
+      "sha256": "efcb64063f6a8b15a3f6eeaec4397e83c459d4c93b4e9021aa8cabd49642481d",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A075",
+      "kind": "report",
+      "path": "evidence/kemeny-strength-minimax/portable-review/review.md",
+      "sha256": "58908bba4652d70611bb70584ec7f91556d7f4200ed5262d52bdf987f9b25834",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A076",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-minimax/portable-review/run1-stderr.bin",
+      "sha256": "1491b7e2cecdae2a127ae6439effd712647209990c08502c15f20d2e08114913",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A077",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-minimax/portable-review/run1-stdout.bin",
+      "sha256": "b82d5bb475ada094e0dd5c20b134d07327ebb4d70524051adc788f2be9a9be4d",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A078",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-minimax/portable-review/run1.json",
+      "sha256": "fba0ab4296ed263aa8da6ad1d377f2344f1ec1a58e63a9099c4c39c5dd03b7a9",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A079",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-minimax/portable-review/run2-stderr.bin",
+      "sha256": "79dcf170a4de89d4aa20f412e287dd4da555f835cec834a836a132005f22235f",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A080",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-minimax/portable-review/run2-stdout.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A081",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-minimax/portable-review/run2.json",
+      "sha256": "96877b51b173443bf052885170cf2f456f235fef51ee5cb9e16334290b559983",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A082",
+      "kind": "code",
+      "path": "evidence/kemeny-strength-minimax/portable-review/run_review.py",
+      "sha256": "ffa318ef912de8529d3b1f0fa62ebb19848cb5351d6d0d308e291df1a9ae15a0",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A083",
+      "kind": "code",
+      "path": "evidence/kemeny-strength-minimax/portable-review/strength_minimax.py",
+      "sha256": "11152f62717a691450361c4227a70eb7674e65b1c3bb3d5889464956898ad1a9",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A084",
+      "kind": "code",
+      "path": "evidence/kemeny-strength-minimax/portable-review/uv.lock",
+      "sha256": "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A085",
+      "kind": "code",
+      "path": "evidence/kemeny-strength-minimax/portable-review/verify_strength_minimax.py",
+      "sha256": "4b648d90676f564b2ae12aa39b0ee1be7144f547e39bda3671b3f1813d22ae01",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A086",
+      "kind": "report",
+      "path": "evidence/kemeny-strength-minimax/README.md",
+      "sha256": "46acebf4c107d5b579a4404fe43224615242f593647d2e907de3a9b3bb348897",
+      "producer": "/root"
+    },
+    {
+      "id": "A087",
+      "kind": "code",
+      "path": "experiments/kemeny-workload-proof/strength_minimax.py",
+      "sha256": "11152f62717a691450361c4227a70eb7674e65b1c3bb3d5889464956898ad1a9",
+      "producer": "/root"
+    },
+    {
+      "id": "A088",
+      "kind": "code",
+      "path": "experiments/kemeny-workload-proof/verify_strength_minimax.py",
+      "sha256": "4b648d90676f564b2ae12aa39b0ee1be7144f547e39bda3671b3f1813d22ae01",
+      "producer": "/root"
+    },
+    {
+      "id": "A089",
+      "kind": "code",
+      "path": "experiments/kemeny-workload-proof/pyproject.toml",
+      "sha256": "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f",
+      "producer": "/root"
+    },
+    {
+      "id": "A090",
+      "kind": "code",
+      "path": "experiments/kemeny-workload-proof/uv.lock",
+      "sha256": "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d",
+      "producer": "/root"
+    },
+    {
+      "id": "A091",
+      "kind": "code",
+      "path": "experiments/kemeny-workload-proof/.python-version",
+      "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d",
+      "producer": "/root"
+    },
+    {
+      "id": "A092",
+      "kind": "report",
+      "path": "experiments/kemeny-workload-proof/README-strength-minimax.md",
+      "sha256": "a26f89dd81b7d7aea642296fa91fe1fcb4a443aa45bdc5624e0c03ac583b3fdf",
+      "producer": "/root"
+    },
+    {
+      "id": "A093",
+      "kind": "report",
+      "path": "docs/kemeny-strength-minimax.md",
+      "sha256": "52e4b1cbefefa7d1c554b4c455b84a6f1776d22d14c2fecfc312b19b39eb421a",
+      "producer": "/root"
+    },
+    {
+      "id": "A094",
+      "kind": "report",
+      "path": "README.md",
+      "sha256": "44aa25b35c9a3322a104e4af4f69dacb43f20f3c894241ad389921c1019c5fe7",
+      "producer": "/root"
+    },
+    {
+      "id": "A095",
+      "kind": "code",
+      "path": ".github/workflows/kemeny-three-part.yml",
+      "sha256": "db345037dc844d3c3cc27e274201100e9fd15736e3aef6d1cf062881a3301ad8",
+      "producer": "/root"
+    },
+    {
+      "id": "A096",
+      "kind": "code",
+      "path": "evidence/kemeny-strength-minimax/resource-limit/check.py",
+      "sha256": "65609534f5c3f75a24a29526e45d0e2444e6ca0ad28f985286a14d7a57c9f7d6",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A097",
+      "kind": "code",
+      "path": "evidence/kemeny-strength-minimax/resource-limit/run.py",
+      "sha256": "945a36211934791be13cc96820c95d9ba22053ccb1fa161af247953bbc03a630",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A098",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-minimax/resource-limit/run.json",
+      "sha256": "55ceebdcd9702359e95cd0fcfb435dab8ed26b1484322d4a1ace1af4185cf49e",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A099",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-minimax/resource-limit/stdout.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A100",
+      "kind": "log",
+      "path": "evidence/kemeny-strength-minimax/resource-limit/stderr.bin",
+      "sha256": "dae0f011cb7e4319d1094a5ba898dd59cb4bf39b8c75b41254ec68ea102f47f0",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A101",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/resource-limit/input-hashes.json",
+      "sha256": "b7102718af6e845cbb047a5f0625705689ba0315dbf8a50732647c816176d6d5",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A102",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/resource-limit/facts.json",
+      "sha256": "47bbcd59540ae7eaaad8e6678ee38110720c1e7d19ff1c2c9452fd197f195656",
+      "producer": "/root"
+    },
+    {
+      "id": "A103",
+      "kind": "report",
+      "path": "evidence/kemeny-strength-minimax/final-review/finalreview.md",
+      "sha256": "ae3aae2b9a51c73def9b30621f2e7289a2cc5a6800bc5d8bf56070707016482c",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A104",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/final-review/hashes-round1.json",
+      "sha256": "f8f3ae7ca14ce75585bacb3088cd0564c437bf16e48c3341e6f84d35fcc76a98",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A105",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/final-review/hashes.json",
+      "sha256": "83385c389001167ff8ed3041ff3f96d5490592e0aa7d82025c6bc144a65442f0",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A106",
+      "kind": "report",
+      "path": "evidence/kemeny-strength-minimax/final-review/review-round1.md",
+      "sha256": "e878c2e7ffba6440df21cafa1c09a78df700d766a4909569ad8b1273656a999b",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A107",
+      "kind": "report",
+      "path": "evidence/kemeny-strength-minimax/final-review/review.md",
+      "sha256": "e878c2e7ffba6440df21cafa1c09a78df700d766a4909569ad8b1273656a999b",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A108",
+      "kind": "report",
+      "path": "evidence/kemeny-strength-minimax/final-review/runtime-evidence-review.md",
+      "sha256": "2a17ac54cbd0117b63a74c418e56709877a599a6993d5e3b5cd87eb1a464d922",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A109",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/final-review/runtime-input-checks.json",
+      "sha256": "b5862356ea8e7c27e14b7a95cc810eab57a336e620494c352a5e0477d32cdc28",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A110",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/final-review/static-check.json",
+      "sha256": "b4f51aa9b99b9fdce3cbc10b3dd0af7a83e706dc4fc56ff91d15571661a28979",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A111",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/final-review/verdict-round1.json",
+      "sha256": "fe0cb1c5388c9d7839f2b7021c0978163504b4fd967f6e59449bbded41b6b55b",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A112",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/final-review/verdict.json",
+      "sha256": "e03100ae55fa81e301567cdcc484664a55ed469cc9ae85c924d4bbadf2d56ae2",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A113",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/resolve/review-input.json",
+      "sha256": "6cfa2ee8d6742b6d66ad3823e81392b4c82a5947441e30d444a553f455c10cce",
+      "producer": "/root"
+    },
+    {
+      "id": "A114",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/resolve/review-input-round2.json",
+      "sha256": "8b59a90ca00a08cde52426401bda8750e2bdd2c64d40ca155aa46361266776ac",
+      "producer": "/root"
+    },
+    {
+      "id": "A115",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/resolve/bundle-review-round1.json",
+      "sha256": "3b63ad91f944a858350bb9ac3c6a47c255cac8bec254f104a8cf81c4b61fe031",
+      "producer": "/root"
+    },
+    {
+      "id": "A116",
+      "kind": "result",
+      "path": "evidence/kemeny-strength-minimax/final-review-copy-manifest.json",
+      "sha256": "1899e4c87ba00fab71e9c9b5eb225c43acc8d916838ffa245a3d9ff724ebc0aa",
+      "producer": "/root"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C001",
+      "type": "citation",
+      "statement": "Classical weighted shorting and commute-time identities support the resistance/volume conventions. The nonadjacent degree bound and mr>=4 follow by an explicit elementary deduction; complete equality at4/m and changing-volume hitting convexity are not attributed as printed theorems in the inspected sources.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A013",
+          "locator": "contains:Corollary3.11"
+        },
+        {
+          "artifact_id": "A013",
+          "locator": "contains:short every other vertex"
+        },
+        {
+          "artifact_id": "A017",
+          "locator": "line:1"
+        }
+      ]
+    },
+    {
+      "id": "C002",
+      "type": "methodological",
+      "statement": "For one missing-edge conductance t, retain the changing volume in f=(m+t)[T-t*s/(1+rt)]. Exact inverse/covariance and derivative algebra, together with positive rank trace, establish positive attained endpoint oracles and the finite stationary/balance candidate characterization.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A026",
+          "locator": "line:1"
+        },
+        {
+          "artifact_id": "A040",
+          "locator": "line:1"
+        },
+        {
+          "artifact_id": "A009",
+          "locator": "line:1"
+        },
+        {
+          "artifact_id": "A047",
+          "locator": "line:1"
+        }
+      ]
+    },
+    {
+      "id": "C003",
+      "type": "conclusion",
+      "statement": "For every fixed connected positive weighted loopless graph with n>=3 and a nonempty allowed missing-edge set under the stated iid focus workload, the sharp mr>=4 equality classification, uniform positivity/coercivity and strict convexity yield a unique optimal minimax strength for each edge. The continuum endpoint reduction and finite candidate comparison retain every global location tie and the single no-action option.",
+      "status": "supported",
+      "supports": [
+        {
+          "claim_id": "C001"
+        },
+        {
+          "claim_id": "C002"
+        },
+        {
+          "artifact_id": "A006",
+          "locator": "contains:General minimax rule"
+        },
+        {
+          "artifact_id": "A009",
+          "locator": "line:1"
+        }
+      ]
+    },
+    {
+      "id": "C004",
+      "type": "numerical",
+      "statement": "The independently audited344,[0,1/10] witness reconstructs all16missing edges and four classes. Restoration at the positive balance strictly beats every endpoint-stationary candidate and t0; every decisive comparison uses exact rational radical bounds.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A031",
+          "locator": "json:/winning_edges",
+          "expected": [
+            [
+              0,
+              11
+            ]
+          ]
+        },
+        {
+          "artifact_id": "A031",
+          "locator": "json:/winning_kind",
+          "expected": "balance"
+        },
+        {
+          "artifact_id": "A031",
+          "locator": "json:/strictly_beats_all_per_edge_endpoint_stationary_candidates",
+          "expected": true
+        },
+        {
+          "artifact_id": "A039",
+          "locator": "json:",
+          "expected": {
+            "status": "PASS",
+            "old_volume": 50,
+            "T": [
+              "985/792",
+              "10657/7920"
+            ],
+            "endpoint_oracle_edges": [
+              [
+                [
+                  3,
+                  4
+                ],
+                [
+                  3,
+                  5
+                ],
+                [
+                  3,
+                  6
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  4,
+                  6
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  7,
+                  8
+                ],
+                [
+                  7,
+                  9
+                ],
+                [
+                  7,
+                  10
+                ],
+                [
+                  8,
+                  9
+                ],
+                [
+                  8,
+                  10
+                ],
+                [
+                  9,
+                  10
+                ]
+              ],
+              [
+                [
+                  0,
+                  11
+                ]
+              ]
+            ],
+            "endpoint_oracle_bounds": [
+              [
+                "308750349577934805424557954706001529030453798614572013631110095/4971464574426251164957945223180471801553065512015515334213632",
+                "154375174788967402712278977353000764515226899307286006815555097/2485732287213125582478972611590235900776532756007757667106816"
+              ],
+              [
+                "1261854170425170878072340852909840053268125960343768580751134253/18831305206160042291507368269622999248307066333392103538688000",
+                "5047416681700683512289363411639360213072503841375074323004538827/75325220824640169166029473078491996993228265333568414154752000"
+              ]
+            ],
+            "classes": [
+              {
+                "edges": [
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    2
+                  ]
+                ],
+                "r": "47/198",
+                "s": [
+                  "4451/156816",
+                  "44753/1568160"
+                ],
+                "B": [
+                  "317/1188",
+                  "6911/23760"
+                ],
+                "A": [
+                  "-1720/9801",
+                  "-31891/392040"
+                ],
+                "stationary_radicands": [
+                  "1197319/1035639",
+                  "24077114/22578237"
+                ],
+                "candidates": [
+                  {
+                    "kind": "zero",
+                    "strength_bounds": [
+                      "0",
+                      "0"
+                    ],
+                    "regret_bounds": [
+                      "672932488917086344946027123711365459614378163755586850681898709/166564750496122555905548992584098887031392626765377452659149781291",
+                      "168233122229271586236506780927841364903594540938896712670489651/41641187624030638976387248146024721757848156691344363164787430349"
+                    ]
+                  },
+                  {
+                    "kind": "left_stationary",
+                    "strength_bounds": [
+                      "2991963778216358833254790096358305852279121980523605683101055/9440761010021567868809027292504330289817942588473907907395584",
+                      "11967855112865435333019160385433223409116487922094422732404319/37763044040086271475236109170017321159271770353895631629582336"
+                    ],
+                    "regret_bounds": [
+                      "1259988212314869202711164800453398698886685635595036420198404399815038450611769769173933488042574550679319900639391971542512497/308236971402644743812894235041955813951294419644380098264356389495818993410870480248457068639610028488022534704777185021276232128",
+                      "166318444025562734757873753659848628253042503898544807466208510962649883541657935917695910165870945702364898451482395471507796753/40687280225149106183302039025538167441570863393058172970895052330971728135697921047187212777197599913945720251232164665584743100672"
+                    ]
+                  },
+                  {
+                    "kind": "right_stationary",
+                    "strength_bounds": [
+                      "5195718733711061846481722061333089015620014913177794732406311/37763044040086271475236109170017321159271770353895631629582336",
+                      "2597859366855530923240861030666544507810007456588897366203205/18881522020043135737618054585008660579635885176947815814791168"
+                    ],
+                    "regret_bounds": [
+                      "3734406323359069397589297177506639598299642953263504673513973548461046082285629089393331018473514293350908730783929219108589/943533786859815581317184248013994594559862157024848447276158561528858991923259706930875649247636824626960722724671894926095936",
+                      "77330218940957929550580371303218739481789856454704023026799797928957375770862313580485134849253973208309819646803603014246837857/19538225891399631150125592815749793066848345616592049221971058161239467781629342783363403718844109127250765853772584424200847616768"
+                    ]
+                  }
+                ]
+              },
+              {
+                "edges": [
+                  [
+                    0,
+                    11
+                  ]
+                ],
+                "r": "5/22",
+                "s": [
+                  "51/1936",
+                  "753/19360"
+                ],
+                "B": [
+                  "203/792",
+                  "1057/3960"
+                ],
+                "A": [
+                  "-80/1089",
+                  "-26099/43560"
+                ],
+                "stationary_radicands": [
+                  "26163/24563",
+                  "386289/255794"
+                ],
+                "candidates": [
+                  {
+                    "kind": "zero",
+                    "strength_bounds": [
+                      "0",
+                      "0"
+                    ],
+                    "regret_bounds": [
+                      "672932488917086344946027123711365459614378163755586850681898709/166564750496122555905548992584098887031392626765377452659149781291",
+                      "168233122229271586236506780927841364903594540938896712670489651/41641187624030638976387248146024721757848156691344363164787430349"
+                    ]
+                  },
+                  {
+                    "kind": "left_stationary",
+                    "strength_bounds": [
+                      "283311905014692326159946588200445159658549369874023695641469/2008672555323737844427452615426453253152753742228491044126720",
+                      "566623810029384652319893176400890319317098739748047391282949/4017345110647475688854905230852906506305507484456982088253440"
+                    ],
+                    "regret_bounds": [
+                      "2326339289064740288417922711806798058583546879682083258060761632956450372794968837247486684054014675571408016221627744396985/803604927469670416478956939772320698868533834673550157606735903752503802974162181626102626155767320079894442384026764108385728",
+                      "51179464359424286345194299659749557288838031353005831677345519838373564509147181897608344228210230711509855893178485432366401/17679308404332749162537052674991055375107744362818103467348194185398583801132938880980959716041611578952929881501884377629827840"
+                    ]
+                  },
+                  {
+                    "kind": "right_stationary",
+                    "strength_bounds": [
+                      "4045831694337107013171400087754715728659043141685447059018451/4017345110647475688854905230852906506305507484456982088253440",
+                      "2022915847168553506585700043877357864329521570842723529509231/2008672555323737844427452615426453253152753742228491044126720"
+                    ],
+                    "regret_bounds": [
+                      "7262545316960618357566623319017741915049345702155149725137028148936834346468117412533990231401197546659338434045375267474997/1951046243498349784991078165118824957695973899815306656621834815467752430832830464555208514332716354012338445711118857974073600",
+                      "3631272658480309178783311659508870957524672851077574862568937061178963181824863410783837305749590441695816168640410266182961/975523121749174892495539082559412478847986949907653328310917588935472931033703276055375096260741893525071550705958477159536000"
+                    ]
+                  },
+                  {
+                    "kind": "balance",
+                    "strength_bounds": [
+                      "451344533921843503509948469755511017955569227877906594074479549115/1177732400325169915450669682147712448853736719811361048999068560573",
+                      "112836133480460875877487117438877754488892306969476648518647824460/294433100081292478862667420536928112213434179952840262249761484397"
+                    ],
+                    "regret_bounds": [
+                      "11377380102292414530673048216610849969155355470660297971479674468174971713849786455706141343179503258523780354976492437303279556503536293711982513573893224609222261672972798302388009122202084152408619616903444337620472113894384883823195783467761215247423847/7977870270139016721041043607193111984679902640262924160845188063407478591858662064137412237625286890546633915147925126350255685111932383857561699672194377561381555166756834184849294952598243866590991848859449499459910258683450669419711016276401670200454080153",
+                      "11624759737289096550659434259774949833751588713184577852619143542570022681628858087032265522182232762353587011760898796762940431167843775248073292944843131969276469757661701994949810617973061082187426706805256208061040255081534987120857453156182945790277771/8151333986542428451793958692911652339939840056473217953675392178126115508848743580073858726241599178916841568216571502438611562241715512349340635018464407213113187815683992236667131587970582040972128868300840690723681192396295287260836873941743848537097914229"
+                    ]
+                  }
+                ]
+              },
+              {
+                "edges": [
+                  [
+                    1,
+                    2
+                  ]
+                ],
+                "r": "2/9",
+                "s": [
+                  "2/81",
+                  "2/81"
+                ],
+                "B": [
+                  "299/1188",
+                  "3259/11880"
+                ],
+                "A": [
+                  "65/7128",
+                  "7913/71280"
+                ],
+                "stationary_radicands": [
+                  null,
+                  null
+                ],
+                "candidates": [
+                  {
+                    "kind": "zero",
+                    "strength_bounds": [
+                      "0",
+                      "0"
+                    ],
+                    "regret_bounds": [
+                      "672932488917086344946027123711365459614378163755586850681898709/166564750496122555905548992584098887031392626765377452659149781291",
+                      "168233122229271586236506780927841364903594540938896712670489651/41641187624030638976387248146024721757848156691344363164787430349"
+                    ]
+                  }
+                ]
+              },
+              {
+                "edges": [
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    3,
+                    6
+                  ],
+                  [
+                    4,
+                    5
+                  ],
+                  [
+                    4,
+                    6
+                  ],
+                  [
+                    5,
+                    6
+                  ],
+                  [
+                    7,
+                    8
+                  ],
+                  [
+                    7,
+                    9
+                  ],
+                  [
+                    7,
+                    10
+                  ],
+                  [
+                    8,
+                    9
+                  ],
+                  [
+                    8,
+                    10
+                  ],
+                  [
+                    9,
+                    10
+                  ]
+                ],
+                "r": "1/4",
+                "s": [
+                  "1/32",
+                  "1/32"
+                ],
+                "B": [
+                  "443/1584",
+                  "9667/31680"
+                ],
+                "A": [
+                  "-505/1584",
+                  "-859/3960"
+                ],
+                "stationary_radicands": [
+                  "2277/1772",
+                  "11385/9667"
+                ],
+                "candidates": [
+                  {
+                    "kind": "zero",
+                    "strength_bounds": [
+                      "0",
+                      "0"
+                    ],
+                    "regret_bounds": [
+                      "672932488917086344946027123711365459614378163755586850681898709/166564750496122555905548992584098887031392626765377452659149781291",
+                      "168233122229271586236506780927841364903594540938896712670489651/41641187624030638976387248146024721757848156691344363164787430349"
+                    ]
+                  },
+                  {
+                    "kind": "left_stationary",
+                    "strength_bounds": [
+                      "53661055195316707694081019688159829504976722109498769562141/100433627766186892221372630771322662657637687111424552206336",
+                      "214644220781266830776324078752639318019906888437995078248565/401734511064747568885490523085290650630550748445698208825344"
+                    ],
+                    "regret_bounds": [
+                      "8976220385802970599394631711561925708427096620590218666879910410926362328948987058384805524711673052405193503354441135157/2451809256441149203827234545264621879291627168101952892667758561435555236225226835225610342152305797731001814489043768938768",
+                      "35545832727779763573602741577785225805371302617537265920848997726639434552412717130136887251353059968979790420801446354793273/9709164655506950847155848799247902641994843585683733454964325742039382144615306991181172680863002975749339017804151791431604352"
+                    ]
+                  },
+                  {
+                    "kind": "right_stationary",
+                    "strength_bounds": [
+                      "136954781298258801526047260608573769029802244692991591706103/401734511064747568885490523085290650630550748445698208825344",
+                      "17119347662282350190755907576071721128725280586623948963263/50216813883093446110686315385661331328818843555712276103168"
+                    ],
+                    "regret_bounds": [
+                      "10877789703054681802447773744863215682196060647442657022011658912342319566147999380168445277818263832136271967478003190930259/3098358116063161269870675339905193693703176128801762806542794790902878470604772926287365814286970699391123895734949722360270816",
+                      "407917113864550567591791515432370588082352274279099638325491736711160989936014478235938968747850380080502913767020226744593/116188429352368547620150325246444763513869104830066105245354829504573826396127958560005173705532224141276348838198376003216832"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "candidate_count": 11,
+            "winner_edges": [
+              [
+                0,
+                11
+              ]
+            ],
+            "winner_kind": "balance",
+            "winner_regret_bounds": [
+              "11377380102292414530673048216610849969155355470660297971479674468174971713849786455706141343179503258523780354976492437303279556503536293711982513573893224609222261672972798302388009122202084152408619616903444337620472113894384883823195783467761215247423847/7977870270139016721041043607193111984679902640262924160845188063407478591858662064137412237625286890546633915147925126350255685111932383857561699672194377561381555166756834184849294952598243866590991848859449499459910258683450669419711016276401670200454080153",
+              "11624759737289096550659434259774949833751588713184577852619143542570022681628858087032265522182232762353587011760898796762940431167843775248073292944843131969276469757661701994949810617973061082187426706805256208061040255081534987120857453156182945790277771/8151333986542428451793958692911652339939840056473217953675392178126115508848743580073858726241599178916841568216571502438611562241715512349340635018464407213113187815683992236667131587970582040972128868300840690723681192396295287260836873941743848537097914229"
+            ],
+            "all_author_candidate_bounds_contain_independent_bounds": true
+          }
+        },
+        {
+          "artifact_id": "A040",
+          "locator": "line:1"
+        }
+      ]
+    },
+    {
+      "id": "C005",
+      "type": "conclusion",
+      "statement": "An endpoint-optimal strength need not be minimax: the exact344 example requires a balancing strength. This is a counterexample within the graph-general characterization, not a universal restoration-location assertion.",
+      "status": "supported",
+      "supports": [
+        {
+          "claim_id": "C003"
+        },
+        {
+          "claim_id": "C004"
+        }
+      ]
+    },
+    {
+      "id": "C006",
+      "type": "citation",
+      "statement": "Inspected primary location-design work uses relative regret against scenario optima, while robust conductance allocation optimizes induced H-infinity gain under fixed total weight. Those model passages and the retained Springer access gap do not directly establish the present hitting-time characterization; no global absence or priority conclusion follows.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A020",
+          "locator": "contains:Definition1"
+        },
+        {
+          "artifact_id": "A020",
+          "locator": "contains:Theorem2"
+        },
+        {
+          "artifact_id": "A025",
+          "locator": "contains:necessary support chain"
+        },
+        {
+          "artifact_id": "A021",
+          "locator": "line:1"
+        }
+      ]
+    },
+    {
+      "id": "C007",
+      "type": "numerical",
+      "statement": "The graph-general mathematical audit is analytic with zero evaluators; the universal conclusion is supported by explicit proof and distinct audit, not inferred from finite graph examples.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A010",
+          "locator": "json:/evaluators",
+          "expected": 0
+        },
+        {
+          "artifact_id": "A009",
+          "locator": "line:1"
+        }
+      ]
+    },
+    {
+      "id": "C008",
+      "type": "numerical",
+      "statement": "The root canonical output matches worker and distinct replay byte-for-byte, with80direct graph-objective comparisons,16main witness edges,11candidate entries, seven invalid-domain rejections and five explicitly abstract balance cases.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A065",
+          "locator": "json:",
+          "expected": {
+            "status": "PASS",
+            "canonical_sha256": "734c9f73753f2ab07232ab8dbf2a1583b42565e88623f9b50d7779aba904665b",
+            "implementation_hashes": {
+              "strength_minimax.py": "11152f62717a691450361c4227a70eb7674e65b1c3bb3d5889464956898ad1a9",
+              "verify_strength_minimax.py": "4b648d90676f564b2ae12aa39b0ee1be7144f547e39bda3671b3f1813d22ae01"
+            },
+            "byte_identical_to_worker_and_independent_replay": true,
+            "canonical_attempts": 1,
+            "returncode": 0,
+            "timed_out": false,
+            "direct_objective_checks": {
+              "344": 64,
+              "cycle": 8,
+              "noop": 4,
+              "weighted_path": 4
+            },
+            "total_direct_checks": 80,
+            "witness_edges": 16,
+            "witness_candidate_entries": 11,
+            "invalid_inputs_rejected": 7,
+            "abstract_balance_cases": 5
+          }
+        },
+        {
+          "artifact_id": "A064",
+          "locator": "json:/witness344/global_actions",
+          "expected": [
+            {
+              "edge": [
+                0,
+                11
+              ],
+              "strength": {
+                "exact": "(-197*sqrt(10081666)/39600 + 37229737/15681600 + 10657*sqrt(112079)/261360)/(-1057*sqrt(112079)/130680 + 3979577/78408000 + 203*sqrt(10081666)/198000)",
+                "rational_bounds": [
+                  "18765506846906895994988256373389117567549244595404171/48966463003522530008950174343261354239230805867092352",
+                  "6567927396417413598245889730686191148642235608392356640/17138262051232885503132561020141473983730782053482144553"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "artifact_id": "A064",
+          "locator": "json:/untouched_only_noaction/global_actions",
+          "expected": [
+            {
+              "edge": null,
+              "strength": {
+                "exact": "0",
+                "rational_bounds": [
+                  "0",
+                  "0"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "artifact_id": "A064",
+          "locator": "json:/collapsed_cycle/global_actions",
+          "expected": [
+            {
+              "edge": [
+                0,
+                2
+              ],
+              "strength": {
+                "exact": "-1 + sqrt(2)",
+                "rational_bounds": [
+                  "605373799612944495129064135297526002848261652853/1461501637330902918203684832716283019655932542976",
+                  "302686899806472247564532067648763001424130826427/730750818665451459101842416358141509827966271488"
+                ]
+              }
+            },
+            {
+              "edge": [
+                1,
+                3
+              ],
+              "strength": {
+                "exact": "-1 + sqrt(2)",
+                "rational_bounds": [
+                  "605373799612944495129064135297526002848261652853/1461501637330902918203684832716283019655932542976",
+                  "302686899806472247564532067648763001424130826427/730750818665451459101842416358141509827966271488"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C009",
+      "type": "methodological",
+      "statement": "The importable rational-graph solver constructs its own inverse and formulas, retains tied locations/noaction once, and certifies algebraic signs by rational bounds or exact zero simplification. Unresolved comparisons are explicit inconclusive failures. Both module hashes, runtime versions, fresh-output behavior and analytic bridges are checked by a distinct implementation review.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A087",
+          "locator": "contains:def solve("
+        },
+        {
+          "artifact_id": "A088",
+          "locator": "contains:except InconclusiveError"
+        },
+        {
+          "artifact_id": "A075",
+          "locator": "line:1"
+        },
+        {
+          "artifact_id": "A074",
+          "locator": "json:/rejection_rc",
+          "expected": 2
+        },
+        {
+          "artifact_id": "A066",
+          "locator": "json:/returncode",
+          "expected": 0
+        },
+        {
+          "artifact_id": "A064",
+          "locator": "json:/implementation_limits",
+          "expected": [
+            "Exact rational inputs only; floating inputs rejected.",
+            "Certified radical interval arithmetic at up to320 bits and exact symbolic zero simplification; unresolved comparisons raise InconclusiveError, never return a recommendation.",
+            "No polynomial-time or all-input termination guarantee; caller should enforce wall-clock resource limit.",
+            "Finite API cases validate implementation, not universal enumeration or proof-assistant formalization."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C010",
+      "type": "numerical",
+      "statement": "A later same-solver exploratory invocation on344,[0,9/10] exceeded its60-second subprocess limit: rc124,132.485s total elapsed, no diagnostic result and no successful stdout. The raw evidence does not localize the delay or establish cleanup causality; admitted-input runtime reliability remains unproved.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A098",
+          "locator": "json:/rc",
+          "expected": 124
+        },
+        {
+          "artifact_id": "A102",
+          "locator": "json:",
+          "expected": {
+            "returncode": 124,
+            "timeout_seconds": 60,
+            "elapsed_seconds": 132.48499999998603,
+            "stdout_bytes": 0,
+            "stderr_bytes": 1834,
+            "diagnostic_result_exists": false,
+            "solver_sha256": "11152f62717a691450361c4227a70eb7674e65b1c3bb3d5889464956898ad1a9",
+            "internal_timeout_location": "not established",
+            "cleanup_causality": "not independently established from retained execution logs",
+            "copy_manifest": [
+              {
+                "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-robust-noaction-work\\check.py",
+                "destination": "evidence/kemeny-strength-minimax/resource-limit/check.py",
+                "sha256": "65609534f5c3f75a24a29526e45d0e2444e6ca0ad28f985286a14d7a57c9f7d6",
+                "bytes": 1375
+              },
+              {
+                "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-robust-noaction-work\\run.py",
+                "destination": "evidence/kemeny-strength-minimax/resource-limit/run.py",
+                "sha256": "945a36211934791be13cc96820c95d9ba22053ccb1fa161af247953bbc03a630",
+                "bytes": 911
+              },
+              {
+                "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-robust-noaction-work\\run.json",
+                "destination": "evidence/kemeny-strength-minimax/resource-limit/run.json",
+                "sha256": "55ceebdcd9702359e95cd0fcfb435dab8ed26b1484322d4a1ace1af4185cf49e",
+                "bytes": 661
+              },
+              {
+                "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-robust-noaction-work\\stdout.bin",
+                "destination": "evidence/kemeny-strength-minimax/resource-limit/stdout.bin",
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "bytes": 0
+              },
+              {
+                "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-robust-noaction-work\\stderr.bin",
+                "destination": "evidence/kemeny-strength-minimax/resource-limit/stderr.bin",
+                "sha256": "dae0f011cb7e4319d1094a5ba898dd59cb4bf39b8c75b41254ec68ea102f47f0",
+                "bytes": 1834
+              },
+              {
+                "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-robust-noaction-work\\input-hashes.json",
+                "destination": "evidence/kemeny-strength-minimax/resource-limit/input-hashes.json",
+                "sha256": "b7102718af6e845cbb047a5f0625705689ba0315dbf8a50732647c816176d6d5",
+                "bytes": 744
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "reproduction",
+      "status": "pass",
+      "auditor": "/root/astra_damage_symbolic",
+      "evidence": [
+        "A009",
+        "A039",
+        "A040",
+        "A041",
+        "A055",
+        "A064",
+        "A065",
+        "A066",
+        "A070",
+        "A074",
+        "A075",
+        "A078",
+        "A081",
+        "A098",
+        "A099",
+        "A100",
+        "A102",
+        "A103",
+        "A112"
+      ],
+      "note": "Unchanged distinct analytic/witness audits and portable replay reused; all three actual canonical result hashes match. Root rc0/no timeout; no numerical rerun. Later timed-out exploratory invocation is retained separately, without a result or localized cause."
+    },
+    {
+      "id": "specification_compliance",
+      "status": "pass",
+      "auditor": "/root/astra_damage_symbolic",
+      "evidence": [
+        "A001",
+        "A009",
+        "A040",
+        "A075",
+        "A086",
+        "A092",
+        "A093",
+        "A096",
+        "A098",
+        "A102",
+        "A103",
+        "A112"
+      ],
+      "note": "Real-weight universal theorem separated from rational partial exact solver; actual volumes, continuum oracle, strict convexity, candidate boundaries, all location ties and no action once preserved. Concrete admitted-input runtime limitation is disclosed; separate hand-derived no-action claim excluded."
+    },
+    {
+      "id": "source_verification",
+      "status": "pass",
+      "auditor": "/root/astra_damage_symbolic",
+      "evidence": [
+        "A013",
+        "A017",
+        "A018",
+        "A020",
+        "A021",
+        "A024",
+        "A025",
+        "A086",
+        "A093",
+        "A103",
+        "A112"
+      ],
+      "note": "Distinct primary-source reviews and actual passage/hash chain support classical-method credit and bounded model distinctions; unverified Springer metadata excluded from verified citation. No priority or physical clearance."
+    },
+    {
+      "id": "implementation_alignment",
+      "status": "pass",
+      "auditor": "/root/astra_damage_symbolic",
+      "evidence": [
+        "A060",
+        "A062",
+        "A064",
+        "A066",
+        "A074",
+        "A075",
+        "A087",
+        "A088",
+        "A092",
+        "A095",
+        "A049",
+        "A096",
+        "A097",
+        "A098",
+        "A101",
+        "A102",
+        "A103",
+        "A112"
+      ],
+      "note": "Independent portable reviewer is distinct from code/theorem author. Exact sign/tie/inconclusive behavior, complete outputs, analytic bridges and static pinned workflow match the public interface. Hosted CI not attested. Static logger process-tree handling and exploratory launcher distinction verified; no resource reliability guarantee."
+    }
+  ],
+  "limitations": [
+    "One fixed missing edge of arbitrary nonnegative strength, including t0=noaction, under iid Uniform/focus mixture on a closed interval below1. Randomized/adaptive/multiple-edge/cost/general-demand objectives are excluded.",
+    "Every graph is fixed, connected, loopless and positive weighted, with n>=3 and a finite nonempty allowed missing-edge set. Complete graphs with no admissible edge and point-mass zero-objective theta1 are excluded.",
+    "Analytic Dirichlet/equality, covariance/inverse, positive-rank, coercivity, strict-convexity and continuum endpoint/completeness bridges need separate audits; finite examples do not universally enumerate graphs or constitute Lean formalization.",
+    "This release gate covers local canonical implementation, distinct replay, source and semantic integration; actual hostedCI requires separate post-push verification for the final commit. Exact comparison is partial up to320-bit interval refinement plus symbolic zero simplification; inconclusive results are not recommendations.",
+    "Known circuit, resistance and robust-design methods require attribution. Source access gaps do not establish novelty or physical impact. Historical Springer volume/pages/year are unverified lead metadata; final verified citations omit them.",
+    "A subsequent344,[0,9/10] exploratory invocation of the unchanged solver timed out with no diagnostic result. This is disclosed resource evidence, not a failed mathematical theorem; no profile localizes the cause. The separate new no-action theorem is excluded."
+  ]
+}

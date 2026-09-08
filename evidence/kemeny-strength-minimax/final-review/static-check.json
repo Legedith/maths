@@ -1,0 +1,704 @@
+﻿{
+    "bundle_sha256":  "3b63ad91f944a858350bb9ac3c6a47c255cac8bec254f104a8cf81c4b61fe031",
+    "replay_hashes":  [
+                          "734c9f73753f2ab07232ab8dbf2a1583b42565e88623f9b50d7779aba904665b",
+                          "734c9f73753f2ab07232ab8dbf2a1583b42565e88623f9b50d7779aba904665b",
+                          "734c9f73753f2ab07232ab8dbf2a1583b42565e88623f9b50d7779aba904665b"
+                      ],
+    "copies":  [
+                   {
+                       "sha256":  "2c0b9775c20fd5eead21a2eaac76267c98478c66f576d6c1568248dddcd6718f",
+                       "path":  "evidence/kemeny-strength-minimax/general-author/claims.json"
+                   },
+                   {
+                       "sha256":  "5ae040a0b1dd66a94fd0e0b592f42bad4dd8b279c40c1a8b507d9e7f1ef3f696",
+                       "path":  "evidence/kemeny-strength-minimax/general-author/hashes.json"
+                   },
+                   {
+                       "sha256":  "2784ac15da75b96593dae42d4a78d61714aeefd6fd8452e6fa18f6cb96091a5f",
+                       "path":  "evidence/kemeny-strength-minimax/general-author/input-hashes.json"
+                   },
+                   {
+                       "sha256":  "f6f3b6427556f26b28be0431adc6b0f48f446dcef656fb9b29566b1b849dff7d",
+                       "path":  "evidence/kemeny-strength-minimax/general-author/plan.md"
+                   },
+                   {
+                       "sha256":  "6ecc0d9aac9812c791998befc422b189e9d66662a002a889366125277c341f75",
+                       "path":  "evidence/kemeny-strength-minimax/general-author/proposal.md"
+                   },
+                   {
+                       "sha256":  "967e167e7dd7f9628eb12bd13dd8839d3ca18a61ee94e9a4428f5e95865242f4",
+                       "path":  "evidence/kemeny-strength-minimax/general-review/hashes.json"
+                   },
+                   {
+                       "sha256":  "cb51f562e3905c9724ae44b2b579acd004cdfb418c2f50299e716ba29bb7fcbb",
+                       "path":  "evidence/kemeny-strength-minimax/general-review/input-checks.json"
+                   },
+                   {
+                       "sha256":  "69c937bc3765819ee8bd2cde5227588f5fde166da81b1e94dab4568a7527b006",
+                       "path":  "evidence/kemeny-strength-minimax/general-review/review.md"
+                   },
+                   {
+                       "sha256":  "545c8446ee7228cb733669b2242ccf4b94606d718abc8ca33caa1d812e4e8623",
+                       "path":  "evidence/kemeny-strength-minimax/general-review/verdict.json"
+                   },
+                   {
+                       "sha256":  "4501654e0fe2be51692572d6f45193849cb6066c0d5facf3dc66a02f10fdd666",
+                       "path":  "evidence/kemeny-strength-minimax/strength-author/check.py"
+                   },
+                   {
+                       "sha256":  "e680af152925ec45e817adbb7738e1c217c414d7ef77130525e9c92f18699ec6",
+                       "path":  "evidence/kemeny-strength-minimax/strength-author/hashes.json"
+                   },
+                   {
+                       "sha256":  "0b9c4c54d8c4753a2a062854ae814e76538b9402ec4432706e52bce1c2b2fbfa",
+                       "path":  "evidence/kemeny-strength-minimax/strength-author/input-hashes.json"
+                   },
+                   {
+                       "sha256":  "40e508a6300c1032fe617d028214663f3e0f8f9dfdffb896fcfd8912dfa45fb1",
+                       "path":  "evidence/kemeny-strength-minimax/strength-author/plan.md"
+                   },
+                   {
+                       "sha256":  "6e673f48ed1070017ab5cecd2ca17a245dbd844b658765508fc9f1cd5acd2ef7",
+                       "path":  "evidence/kemeny-strength-minimax/strength-author/proposal.md"
+                   },
+                   {
+                       "sha256":  "9c1bb733c9312f6a8860be8130f1c74384a85fca2a715f135c6ad6a7cc0b0a43",
+                       "path":  "evidence/kemeny-strength-minimax/strength-author/result.json"
+                   },
+                   {
+                       "sha256":  "506606d585e1c11d3fe80590608d2ed34896c2d343a7c6d4125226d29a5dac2f",
+                       "path":  "evidence/kemeny-strength-minimax/strength-author/run.json"
+                   },
+                   {
+                       "sha256":  "945a36211934791be13cc96820c95d9ba22053ccb1fa161af247953bbc03a630",
+                       "path":  "evidence/kemeny-strength-minimax/strength-author/run.py"
+                   },
+                   {
+                       "sha256":  "05bde2467d45473b43201d802613c4a7e95ea076ad7e96e3a93b9d173183ab76",
+                       "path":  "evidence/kemeny-strength-minimax/strength-author/stderr.bin"
+                   },
+                   {
+                       "sha256":  "4efddbcb405156e18f4d16594a140d6b71e978731275898c0d0448a98e25d4af",
+                       "path":  "evidence/kemeny-strength-minimax/strength-author/stdout.bin"
+                   },
+                   {
+                       "sha256":  "5cb59287782cb68f9e5c41b32c5f75c40d5ef69a1881254b5b49eab8e10028a6",
+                       "path":  "evidence/kemeny-strength-minimax/strength-review/check.py"
+                   },
+                   {
+                       "sha256":  "53a4554a5ac69b6cfcfb028cfeeeb02713d9ea0f0f1b63c96c5e6b1ae02515c6",
+                       "path":  "evidence/kemeny-strength-minimax/strength-review/hashes.json"
+                   },
+                   {
+                       "sha256":  "b70cfbf38b604385c624c4057f00b4f370869ab7abcfb322afb536914a423d22",
+                       "path":  "evidence/kemeny-strength-minimax/strength-review/plan.md"
+                   },
+                   {
+                       "sha256":  "715bb1decde46a20cd6a51158999b766ac91123ba173fed6ec6ff474af770462",
+                       "path":  "evidence/kemeny-strength-minimax/strength-review/result.json"
+                   },
+                   {
+                       "sha256":  "8479861a835b0686f02733b678f54070e69bbc50f47095f0d456c153dc8409e0",
+                       "path":  "evidence/kemeny-strength-minimax/strength-review/review.md"
+                   },
+                   {
+                       "sha256":  "606ba05d458c3359f7aa9e4b3abb8baf60d63ca7e8c24819f472d95bdbaf3d3f",
+                       "path":  "evidence/kemeny-strength-minimax/strength-review/run.json"
+                   },
+                   {
+                       "sha256":  "dfd47e73dfc83510aac9e107e4cbef7f967367d8a95f6bb1c5e3ec20412220dc",
+                       "path":  "evidence/kemeny-strength-minimax/strength-review/run.py"
+                   },
+                   {
+                       "sha256":  "3b7a5d469cb15b9289e55216fd12193ac4e3ffbb60b6e2c0c49dae8c0a582f04",
+                       "path":  "evidence/kemeny-strength-minimax/strength-review/stderr.bin"
+                   },
+                   {
+                       "sha256":  "8271347fefd5f9cca232aafb298c82bafce521671a1687344d73367ad6c12047",
+                       "path":  "evidence/kemeny-strength-minimax/strength-review/stdout.bin"
+                   },
+                   {
+                       "sha256":  "8007c0fd3e64e6222881b1afcb361a2029df9d0311adb8ba7f6ddacf76da0f1b",
+                       "path":  "evidence/kemeny-strength-minimax/source-design-review/hashes.json"
+                   },
+                   {
+                       "sha256":  "73ef6a0a0c884fe275756df6d55a240fe1eea72b926b0c48a33ef7a489703102",
+                       "path":  "evidence/kemeny-strength-minimax/source-design-review/integrity.json"
+                   },
+                   {
+                       "sha256":  "922ecabca4bda9e065116ba97f990b9de31ea1958ae12309977f8531e9050e4a",
+                       "path":  "evidence/kemeny-strength-minimax/source-design-review/review.md"
+                   },
+                   {
+                       "sha256":  "3318d753159b4db9ff0d576f415a62d6a475fda590e195aba9abc328c39af0e7",
+                       "path":  "evidence/kemeny-strength-minimax/source-bound-review/hashes.json"
+                   },
+                   {
+                       "sha256":  "9b769570c66d0b801eab788359fc666128f419991074b51bf50e3482d23303d4",
+                       "path":  "evidence/kemeny-strength-minimax/source-bound-review/input-checks.json"
+                   },
+                   {
+                       "sha256":  "e09bce809d86f5524eba55242c0fb8cbba97f1501a170a4404c833f59840f698",
+                       "path":  "evidence/kemeny-strength-minimax/source-bound-review/review.md"
+                   },
+                   {
+                       "sha256":  "4ab3a0f92e1efd02191b25285d5156f1b0684d82e3e7e9645b95d6e5e2333e11",
+                       "path":  "evidence/kemeny-strength-minimax/source-bound-review/verdict.json"
+                   },
+                   {
+                       "sha256":  "58ef6cbbe5a497f3350b5156270673727ba71477e32ecd077c04024c77b62933",
+                       "path":  "evidence/kemeny-strength-minimax/source-design/notes.md"
+                   },
+                   {
+                       "sha256":  "38c468294f16976ae0f8acd60a494b19dd7b2931afb34fe16fca68daa20ec755",
+                       "path":  "evidence/kemeny-strength-minimax/source-design/requests.json"
+                   },
+                   {
+                       "sha256":  "312f5ec4f463639f1cbde6edb6a1630f4b61ef1dba3242993e8d180f4f468d91",
+                       "path":  "evidence/kemeny-strength-minimax/source-design/author-hashes.json"
+                   },
+                   {
+                       "sha256":  "db02c091c141e5db590aec51ecd8d7a2bd4c1a2cba99f798c699d4611526ebbc",
+                       "path":  "evidence/kemeny-strength-minimax/source-bound/notes.md"
+                   },
+                   {
+                       "sha256":  "4224edeedf01445517767c78295e496e15768744a9b19b7c3abb6dcdeac1c1f9",
+                       "path":  "evidence/kemeny-strength-minimax/source-bound/author-hashes.json"
+                   },
+                   {
+                       "sha256":  "7f5330f5de4cc5de08e1a6fdbee43f965620a81d4cb2da13d3d741e4fb88a396",
+                       "path":  "evidence/kemeny-strength-minimax/implementation/hashes.json"
+                   },
+                   {
+                       "sha256":  "3dc1935803d0a0b0cb86e5bcfe6c5502f88a086e5a6a620136f3af4d831ceb7b",
+                       "path":  "evidence/kemeny-strength-minimax/implementation/input-hashes.json"
+                   },
+                   {
+                       "sha256":  "54151e5ac3de0f6cd2dd12a8a26e2eb90994988747a9eda9259f5c8c052deb54",
+                       "path":  "evidence/kemeny-strength-minimax/implementation/plan.md"
+                   },
+                   {
+                       "sha256":  "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f",
+                       "path":  "evidence/kemeny-strength-minimax/implementation/pyproject.toml"
+                   },
+                   {
+                       "sha256":  "dd291b279c82651426ad0e574e61f88867478b248d0f3b53f324bbf0b3ef0b72",
+                       "path":  "evidence/kemeny-strength-minimax/implementation/README.md"
+                   },
+                   {
+                       "sha256":  "734c9f73753f2ab07232ab8dbf2a1583b42565e88623f9b50d7779aba904665b",
+                       "path":  "evidence/kemeny-strength-minimax/implementation/result.json"
+                   },
+                   {
+                       "sha256":  "08016a23674a49525e82d79989b6dcbc722f98bc512e771c1b7253c782aecbd0",
+                       "path":  "evidence/kemeny-strength-minimax/implementation/run.json"
+                   },
+                   {
+                       "sha256":  "75c9c7afa38c6b44129464b8e01c3cac1ec83a03df77967565c46435e2f42403",
+                       "path":  "evidence/kemeny-strength-minimax/implementation/run.py"
+                   },
+                   {
+                       "sha256":  "758bcf463ed7ce8515e5daf4fa5bcb2867a540d97dd48b80b1d2596eefcf0ffa",
+                       "path":  "evidence/kemeny-strength-minimax/implementation/stderr.bin"
+                   },
+                   {
+                       "sha256":  "b82d5bb475ada094e0dd5c20b134d07327ebb4d70524051adc788f2be9a9be4d",
+                       "path":  "evidence/kemeny-strength-minimax/implementation/stdout.bin"
+                   },
+                   {
+                       "sha256":  "11152f62717a691450361c4227a70eb7674e65b1c3bb3d5889464956898ad1a9",
+                       "path":  "evidence/kemeny-strength-minimax/implementation/strength_minimax.py"
+                   },
+                   {
+                       "sha256":  "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d",
+                       "path":  "evidence/kemeny-strength-minimax/implementation/uv.lock"
+                   },
+                   {
+                       "sha256":  "4b648d90676f564b2ae12aa39b0ee1be7144f547e39bda3671b3f1813d22ae01",
+                       "path":  "evidence/kemeny-strength-minimax/implementation/verify_strength_minimax.py"
+                   },
+                   {
+                       "sha256":  "734c9f73753f2ab07232ab8dbf2a1583b42565e88623f9b50d7779aba904665b",
+                       "path":  "evidence/kemeny-strength-minimax/portable-review/fresh-result.json"
+                   },
+                   {
+                       "sha256":  "fe08446df7c237c613e8f7caa33337c27d5a7845091102a7aff3c629ba750564",
+                       "path":  "evidence/kemeny-strength-minimax/portable-review/hashes.json"
+                   },
+                   {
+                       "sha256":  "f91e05a7627c53e9d690182486ea0b6c96f5c53ed8881bb561fd04e453835bd6",
+                       "path":  "evidence/kemeny-strength-minimax/portable-review/plan.md"
+                   },
+                   {
+                       "sha256":  "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f",
+                       "path":  "evidence/kemeny-strength-minimax/portable-review/pyproject.toml"
+                   },
+                   {
+                       "sha256":  "efcb64063f6a8b15a3f6eeaec4397e83c459d4c93b4e9021aa8cabd49642481d",
+                       "path":  "evidence/kemeny-strength-minimax/portable-review/result.json"
+                   },
+                   {
+                       "sha256":  "58908bba4652d70611bb70584ec7f91556d7f4200ed5262d52bdf987f9b25834",
+                       "path":  "evidence/kemeny-strength-minimax/portable-review/review.md"
+                   },
+                   {
+                       "sha256":  "1491b7e2cecdae2a127ae6439effd712647209990c08502c15f20d2e08114913",
+                       "path":  "evidence/kemeny-strength-minimax/portable-review/run1-stderr.bin"
+                   },
+                   {
+                       "sha256":  "b82d5bb475ada094e0dd5c20b134d07327ebb4d70524051adc788f2be9a9be4d",
+                       "path":  "evidence/kemeny-strength-minimax/portable-review/run1-stdout.bin"
+                   },
+                   {
+                       "sha256":  "fba0ab4296ed263aa8da6ad1d377f2344f1ec1a58e63a9099c4c39c5dd03b7a9",
+                       "path":  "evidence/kemeny-strength-minimax/portable-review/run1.json"
+                   },
+                   {
+                       "sha256":  "79dcf170a4de89d4aa20f412e287dd4da555f835cec834a836a132005f22235f",
+                       "path":  "evidence/kemeny-strength-minimax/portable-review/run2-stderr.bin"
+                   },
+                   {
+                       "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                       "path":  "evidence/kemeny-strength-minimax/portable-review/run2-stdout.bin"
+                   },
+                   {
+                       "sha256":  "96877b51b173443bf052885170cf2f456f235fef51ee5cb9e16334290b559983",
+                       "path":  "evidence/kemeny-strength-minimax/portable-review/run2.json"
+                   },
+                   {
+                       "sha256":  "ffa318ef912de8529d3b1f0fa62ebb19848cb5351d6d0d308e291df1a9ae15a0",
+                       "path":  "evidence/kemeny-strength-minimax/portable-review/run_review.py"
+                   },
+                   {
+                       "sha256":  "11152f62717a691450361c4227a70eb7674e65b1c3bb3d5889464956898ad1a9",
+                       "path":  "evidence/kemeny-strength-minimax/portable-review/strength_minimax.py"
+                   },
+                   {
+                       "sha256":  "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d",
+                       "path":  "evidence/kemeny-strength-minimax/portable-review/uv.lock"
+                   },
+                   {
+                       "sha256":  "4b648d90676f564b2ae12aa39b0ee1be7144f547e39bda3671b3f1813d22ae01",
+                       "path":  "evidence/kemeny-strength-minimax/portable-review/verify_strength_minimax.py"
+                   },
+                   {
+                       "sha256":  "734c9f73753f2ab07232ab8dbf2a1583b42565e88623f9b50d7779aba904665b",
+                       "path":  "evidence/kemeny-strength-minimax/integration/check-01.json"
+                   },
+                   {
+                       "sha256":  "648722941617285412cee90443604280983feb13e4489c25754e1c461ce00c10",
+                       "path":  "evidence/kemeny-strength-minimax/integration/logs/attempt-strength-minimax-01.json"
+                   },
+                   {
+                       "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                       "path":  "evidence/kemeny-strength-minimax/integration/logs/attempt-strength-minimax-01.stderr.bin"
+                   },
+                   {
+                       "sha256":  "b82d5bb475ada094e0dd5c20b134d07327ebb4d70524051adc788f2be9a9be4d",
+                       "path":  "evidence/kemeny-strength-minimax/integration/logs/attempt-strength-minimax-01.stdout.bin"
+                   },
+                   {
+                       "sha256":  "3f90d9808409b661a5f8568cc9ccfba202c40a7ba43e2fad6dc6ab83bca5255b",
+                       "path":  "evidence/kemeny-strength-minimax/integration/logs/attempts.jsonl"
+                   }
+               ],
+    "local_source_returns":  [
+                                 {
+                                     "sha256":  "5aa83ce8c45a69fdf664a1f970f621537c05525436d2036684e4d5c9142ff772",
+                                     "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-priority-work\\raw-finds.json"
+                                 },
+                                 {
+                                     "sha256":  "feb13654374228aae3d43e51d662e93bcd24b5a848701481215293b3c04fbfb7",
+                                     "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-priority-work\\raw-opens.json"
+                                 },
+                                 {
+                                     "sha256":  "72f5d8a616d17549fb57363bb15d782155c1518c1b808bbd8b69e00dd920583b",
+                                     "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-priority-work\\raw-search.json"
+                                 }
+                             ],
+    "artifacts":  [
+                      {
+                          "id":  "A001",
+                          "sha256":  "9f748cbf4cb593b6128cd86f240350a8fa52396b066e0ef9fcc55239da25db10"
+                      },
+                      {
+                          "id":  "A002",
+                          "sha256":  "2c0b9775c20fd5eead21a2eaac76267c98478c66f576d6c1568248dddcd6718f"
+                      },
+                      {
+                          "id":  "A003",
+                          "sha256":  "5ae040a0b1dd66a94fd0e0b592f42bad4dd8b279c40c1a8b507d9e7f1ef3f696"
+                      },
+                      {
+                          "id":  "A004",
+                          "sha256":  "2784ac15da75b96593dae42d4a78d61714aeefd6fd8452e6fa18f6cb96091a5f"
+                      },
+                      {
+                          "id":  "A005",
+                          "sha256":  "f6f3b6427556f26b28be0431adc6b0f48f446dcef656fb9b29566b1b849dff7d"
+                      },
+                      {
+                          "id":  "A006",
+                          "sha256":  "6ecc0d9aac9812c791998befc422b189e9d66662a002a889366125277c341f75"
+                      },
+                      {
+                          "id":  "A007",
+                          "sha256":  "967e167e7dd7f9628eb12bd13dd8839d3ca18a61ee94e9a4428f5e95865242f4"
+                      },
+                      {
+                          "id":  "A008",
+                          "sha256":  "cb51f562e3905c9724ae44b2b579acd004cdfb418c2f50299e716ba29bb7fcbb"
+                      },
+                      {
+                          "id":  "A009",
+                          "sha256":  "69c937bc3765819ee8bd2cde5227588f5fde166da81b1e94dab4568a7527b006"
+                      },
+                      {
+                          "id":  "A010",
+                          "sha256":  "545c8446ee7228cb733669b2242ccf4b94606d718abc8ca33caa1d812e4e8623"
+                      },
+                      {
+                          "id":  "A011",
+                          "sha256":  "81f207c2d69381e0e2ebb3bc3757161b288fcba1817d11a3d43ed38ab8b9518c"
+                      },
+                      {
+                          "id":  "A012",
+                          "sha256":  "4224edeedf01445517767c78295e496e15768744a9b19b7c3abb6dcdeac1c1f9"
+                      },
+                      {
+                          "id":  "A013",
+                          "sha256":  "db02c091c141e5db590aec51ecd8d7a2bd4c1a2cba99f798c699d4611526ebbc"
+                      },
+                      {
+                          "id":  "A014",
+                          "sha256":  "eb5a80f4f9e6e4a81cb9f409c5163d533f9740eee4852c9fdbcf17c299744ce3"
+                      },
+                      {
+                          "id":  "A015",
+                          "sha256":  "3318d753159b4db9ff0d576f415a62d6a475fda590e195aba9abc328c39af0e7"
+                      },
+                      {
+                          "id":  "A016",
+                          "sha256":  "9b769570c66d0b801eab788359fc666128f419991074b51bf50e3482d23303d4"
+                      },
+                      {
+                          "id":  "A017",
+                          "sha256":  "e09bce809d86f5524eba55242c0fb8cbba97f1501a170a4404c833f59840f698"
+                      },
+                      {
+                          "id":  "A018",
+                          "sha256":  "4ab3a0f92e1efd02191b25285d5156f1b0684d82e3e7e9645b95d6e5e2333e11"
+                      },
+                      {
+                          "id":  "A019",
+                          "sha256":  "312f5ec4f463639f1cbde6edb6a1630f4b61ef1dba3242993e8d180f4f468d91"
+                      },
+                      {
+                          "id":  "A020",
+                          "sha256":  "58ef6cbbe5a497f3350b5156270673727ba71477e32ecd077c04024c77b62933"
+                      },
+                      {
+                          "id":  "A021",
+                          "sha256":  "2290fb5f413b1038fa1bcf56131aeafb370de6388593051b95be45e7aa738fc1"
+                      },
+                      {
+                          "id":  "A022",
+                          "sha256":  "38c468294f16976ae0f8acd60a494b19dd7b2931afb34fe16fca68daa20ec755"
+                      },
+                      {
+                          "id":  "A023",
+                          "sha256":  "8007c0fd3e64e6222881b1afcb361a2029df9d0311adb8ba7f6ddacf76da0f1b"
+                      },
+                      {
+                          "id":  "A024",
+                          "sha256":  "73ef6a0a0c884fe275756df6d55a240fe1eea72b926b0c48a33ef7a489703102"
+                      },
+                      {
+                          "id":  "A025",
+                          "sha256":  "922ecabca4bda9e065116ba97f990b9de31ea1958ae12309977f8531e9050e4a"
+                      },
+                      {
+                          "id":  "A026",
+                          "sha256":  "4501654e0fe2be51692572d6f45193849cb6066c0d5facf3dc66a02f10fdd666"
+                      },
+                      {
+                          "id":  "A027",
+                          "sha256":  "e680af152925ec45e817adbb7738e1c217c414d7ef77130525e9c92f18699ec6"
+                      },
+                      {
+                          "id":  "A028",
+                          "sha256":  "0b9c4c54d8c4753a2a062854ae814e76538b9402ec4432706e52bce1c2b2fbfa"
+                      },
+                      {
+                          "id":  "A029",
+                          "sha256":  "40e508a6300c1032fe617d028214663f3e0f8f9dfdffb896fcfd8912dfa45fb1"
+                      },
+                      {
+                          "id":  "A030",
+                          "sha256":  "6e673f48ed1070017ab5cecd2ca17a245dbd844b658765508fc9f1cd5acd2ef7"
+                      },
+                      {
+                          "id":  "A031",
+                          "sha256":  "9c1bb733c9312f6a8860be8130f1c74384a85fca2a715f135c6ad6a7cc0b0a43"
+                      },
+                      {
+                          "id":  "A032",
+                          "sha256":  "506606d585e1c11d3fe80590608d2ed34896c2d343a7c6d4125226d29a5dac2f"
+                      },
+                      {
+                          "id":  "A033",
+                          "sha256":  "945a36211934791be13cc96820c95d9ba22053ccb1fa161af247953bbc03a630"
+                      },
+                      {
+                          "id":  "A034",
+                          "sha256":  "05bde2467d45473b43201d802613c4a7e95ea076ad7e96e3a93b9d173183ab76"
+                      },
+                      {
+                          "id":  "A035",
+                          "sha256":  "4efddbcb405156e18f4d16594a140d6b71e978731275898c0d0448a98e25d4af"
+                      },
+                      {
+                          "id":  "A036",
+                          "sha256":  "5cb59287782cb68f9e5c41b32c5f75c40d5ef69a1881254b5b49eab8e10028a6"
+                      },
+                      {
+                          "id":  "A037",
+                          "sha256":  "53a4554a5ac69b6cfcfb028cfeeeb02713d9ea0f0f1b63c96c5e6b1ae02515c6"
+                      },
+                      {
+                          "id":  "A038",
+                          "sha256":  "b70cfbf38b604385c624c4057f00b4f370869ab7abcfb322afb536914a423d22"
+                      },
+                      {
+                          "id":  "A039",
+                          "sha256":  "715bb1decde46a20cd6a51158999b766ac91123ba173fed6ec6ff474af770462"
+                      },
+                      {
+                          "id":  "A040",
+                          "sha256":  "8479861a835b0686f02733b678f54070e69bbc50f47095f0d456c153dc8409e0"
+                      },
+                      {
+                          "id":  "A041",
+                          "sha256":  "606ba05d458c3359f7aa9e4b3abb8baf60d63ca7e8c24819f472d95bdbaf3d3f"
+                      },
+                      {
+                          "id":  "A042",
+                          "sha256":  "dfd47e73dfc83510aac9e107e4cbef7f967367d8a95f6bb1c5e3ec20412220dc"
+                      },
+                      {
+                          "id":  "A043",
+                          "sha256":  "3b7a5d469cb15b9289e55216fd12193ac4e3ffbb60b6e2c0c49dae8c0a582f04"
+                      },
+                      {
+                          "id":  "A044",
+                          "sha256":  "8271347fefd5f9cca232aafb298c82bafce521671a1687344d73367ad6c12047"
+                      },
+                      {
+                          "id":  "A045",
+                          "sha256":  "3cdbdeac5b7d92fc73cb516be5b83203cb0278bd31bbb63aee409da92f9cd7fc"
+                      },
+                      {
+                          "id":  "A046",
+                          "sha256":  "31d4cbaa231bf3002d6d92110d8051500fb82d43e6992145374f035b8d98b643"
+                      },
+                      {
+                          "id":  "A047",
+                          "sha256":  "fff7fffc1453b00e9d4d2cca7e815e088f0a5da793e7da0f884ba762ce8f21ce"
+                      },
+                      {
+                          "id":  "A048",
+                          "sha256":  "c0b0112767bb251a87c45eefccc12dd803f69ca7a0ca1e61f7774a7899a274d8"
+                      },
+                      {
+                          "id":  "A049",
+                          "sha256":  "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6"
+                      },
+                      {
+                          "id":  "A050",
+                          "sha256":  "7f5330f5de4cc5de08e1a6fdbee43f965620a81d4cb2da13d3d741e4fb88a396"
+                      },
+                      {
+                          "id":  "A051",
+                          "sha256":  "3dc1935803d0a0b0cb86e5bcfe6c5502f88a086e5a6a620136f3af4d831ceb7b"
+                      },
+                      {
+                          "id":  "A052",
+                          "sha256":  "54151e5ac3de0f6cd2dd12a8a26e2eb90994988747a9eda9259f5c8c052deb54"
+                      },
+                      {
+                          "id":  "A053",
+                          "sha256":  "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f"
+                      },
+                      {
+                          "id":  "A054",
+                          "sha256":  "dd291b279c82651426ad0e574e61f88867478b248d0f3b53f324bbf0b3ef0b72"
+                      },
+                      {
+                          "id":  "A055",
+                          "sha256":  "734c9f73753f2ab07232ab8dbf2a1583b42565e88623f9b50d7779aba904665b"
+                      },
+                      {
+                          "id":  "A056",
+                          "sha256":  "08016a23674a49525e82d79989b6dcbc722f98bc512e771c1b7253c782aecbd0"
+                      },
+                      {
+                          "id":  "A057",
+                          "sha256":  "75c9c7afa38c6b44129464b8e01c3cac1ec83a03df77967565c46435e2f42403"
+                      },
+                      {
+                          "id":  "A058",
+                          "sha256":  "758bcf463ed7ce8515e5daf4fa5bcb2867a540d97dd48b80b1d2596eefcf0ffa"
+                      },
+                      {
+                          "id":  "A059",
+                          "sha256":  "b82d5bb475ada094e0dd5c20b134d07327ebb4d70524051adc788f2be9a9be4d"
+                      },
+                      {
+                          "id":  "A060",
+                          "sha256":  "11152f62717a691450361c4227a70eb7674e65b1c3bb3d5889464956898ad1a9"
+                      },
+                      {
+                          "id":  "A061",
+                          "sha256":  "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d"
+                      },
+                      {
+                          "id":  "A062",
+                          "sha256":  "4b648d90676f564b2ae12aa39b0ee1be7144f547e39bda3671b3f1813d22ae01"
+                      },
+                      {
+                          "id":  "A063",
+                          "sha256":  "8e98219208c4c48f1e7a13a9db4bf21b78548c2efeb87ed14b927f1f9b4ce54c"
+                      },
+                      {
+                          "id":  "A064",
+                          "sha256":  "734c9f73753f2ab07232ab8dbf2a1583b42565e88623f9b50d7779aba904665b"
+                      },
+                      {
+                          "id":  "A065",
+                          "sha256":  "8c745c53c81f64ae6babd9b4d928cdd6a1c3e9deaa10020ed29f180ccb1e66ee"
+                      },
+                      {
+                          "id":  "A066",
+                          "sha256":  "648722941617285412cee90443604280983feb13e4489c25754e1c461ce00c10"
+                      },
+                      {
+                          "id":  "A067",
+                          "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                      },
+                      {
+                          "id":  "A068",
+                          "sha256":  "b82d5bb475ada094e0dd5c20b134d07327ebb4d70524051adc788f2be9a9be4d"
+                      },
+                      {
+                          "id":  "A069",
+                          "sha256":  "3f90d9808409b661a5f8568cc9ccfba202c40a7ba43e2fad6dc6ab83bca5255b"
+                      },
+                      {
+                          "id":  "A070",
+                          "sha256":  "734c9f73753f2ab07232ab8dbf2a1583b42565e88623f9b50d7779aba904665b"
+                      },
+                      {
+                          "id":  "A071",
+                          "sha256":  "fe08446df7c237c613e8f7caa33337c27d5a7845091102a7aff3c629ba750564"
+                      },
+                      {
+                          "id":  "A072",
+                          "sha256":  "f91e05a7627c53e9d690182486ea0b6c96f5c53ed8881bb561fd04e453835bd6"
+                      },
+                      {
+                          "id":  "A073",
+                          "sha256":  "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f"
+                      },
+                      {
+                          "id":  "A074",
+                          "sha256":  "efcb64063f6a8b15a3f6eeaec4397e83c459d4c93b4e9021aa8cabd49642481d"
+                      },
+                      {
+                          "id":  "A075",
+                          "sha256":  "58908bba4652d70611bb70584ec7f91556d7f4200ed5262d52bdf987f9b25834"
+                      },
+                      {
+                          "id":  "A076",
+                          "sha256":  "1491b7e2cecdae2a127ae6439effd712647209990c08502c15f20d2e08114913"
+                      },
+                      {
+                          "id":  "A077",
+                          "sha256":  "b82d5bb475ada094e0dd5c20b134d07327ebb4d70524051adc788f2be9a9be4d"
+                      },
+                      {
+                          "id":  "A078",
+                          "sha256":  "fba0ab4296ed263aa8da6ad1d377f2344f1ec1a58e63a9099c4c39c5dd03b7a9"
+                      },
+                      {
+                          "id":  "A079",
+                          "sha256":  "79dcf170a4de89d4aa20f412e287dd4da555f835cec834a836a132005f22235f"
+                      },
+                      {
+                          "id":  "A080",
+                          "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                      },
+                      {
+                          "id":  "A081",
+                          "sha256":  "96877b51b173443bf052885170cf2f456f235fef51ee5cb9e16334290b559983"
+                      },
+                      {
+                          "id":  "A082",
+                          "sha256":  "ffa318ef912de8529d3b1f0fa62ebb19848cb5351d6d0d308e291df1a9ae15a0"
+                      },
+                      {
+                          "id":  "A083",
+                          "sha256":  "11152f62717a691450361c4227a70eb7674e65b1c3bb3d5889464956898ad1a9"
+                      },
+                      {
+                          "id":  "A084",
+                          "sha256":  "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d"
+                      },
+                      {
+                          "id":  "A085",
+                          "sha256":  "4b648d90676f564b2ae12aa39b0ee1be7144f547e39bda3671b3f1813d22ae01"
+                      },
+                      {
+                          "id":  "A086",
+                          "sha256":  "1a359c41a28dea9da002f3e58cd4a6932d2dd7ce5969abd282e4d3a970bb8968"
+                      },
+                      {
+                          "id":  "A087",
+                          "sha256":  "11152f62717a691450361c4227a70eb7674e65b1c3bb3d5889464956898ad1a9"
+                      },
+                      {
+                          "id":  "A088",
+                          "sha256":  "4b648d90676f564b2ae12aa39b0ee1be7144f547e39bda3671b3f1813d22ae01"
+                      },
+                      {
+                          "id":  "A089",
+                          "sha256":  "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f"
+                      },
+                      {
+                          "id":  "A090",
+                          "sha256":  "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d"
+                      },
+                      {
+                          "id":  "A091",
+                          "sha256":  "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d"
+                      },
+                      {
+                          "id":  "A092",
+                          "sha256":  "fbb1898537bc70026172ad7971bcca4fd1d56ed932238f1fe8edac531812bc05"
+                      },
+                      {
+                          "id":  "A093",
+                          "sha256":  "0940292c9bd7673fc7410d642c7e63e2297df3438c21917dd1f800ea4adb843f"
+                      },
+                      {
+                          "id":  "A094",
+                          "sha256":  "44aa25b35c9a3322a104e4af4f69dacb43f20f3c894241ad389921c1019c5fe7"
+                      },
+                      {
+                          "id":  "A095",
+                          "sha256":  "db345037dc844d3c3cc27e274201100e9fd15736e3aef6d1cf062881a3301ad8"
+                      }
+                  ],
+    "strict_utf8_supports":  30,
+    "status":  "pass"
+}

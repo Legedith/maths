@@ -1,0 +1,25 @@
+{
+  "round": 2,
+  "changes": [
+    {
+      "path": "evidence/kemeny-strength-minimax/README.md",
+      "before": "1a359c41a28dea9da002f3e58cd4a6932d2dd7ce5969abd282e4d3a970bb8968",
+      "after": "46acebf4c107d5b579a4404fe43224615242f593647d2e907de3a9b3bb348897"
+    },
+    {
+      "path": "experiments/kemeny-workload-proof/README-strength-minimax.md",
+      "before": "fbb1898537bc70026172ad7971bcca4fd1d56ed932238f1fe8edac531812bc05",
+      "after": "a26f89dd81b7d7aea642296fa91fe1fcb4a443aa45bdc5624e0c03ac583b3fdf"
+    },
+    {
+      "path": "docs/kemeny-strength-minimax.md",
+      "before": "0940292c9bd7673fc7410d642c7e63e2297df3438c21917dd1f800ea4adb843f",
+      "after": "52e4b1cbefefa7d1c554b4c455b84a6f1776d22d14c2fecfc312b19b39eb421a"
+    }
+  ],
+  "new_claim": "C010",
+  "artifacts": 102,
+  "claims": 10,
+  "bundle_sha256": "0ae029b9d6c30491e596181e6fa5542b7baac998380b1c6da848852343ac5f48",
+  "reason": "New actual runtime limitation discovered after round1; no module or successful evaluator result changed."
+}

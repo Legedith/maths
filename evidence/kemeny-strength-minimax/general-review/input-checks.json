@@ -1,0 +1,32 @@
+﻿[
+    {
+        "match":  true,
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-general-strength-convexity-work\\claims.json",
+        "sha256":  "2c0b9775c20fd5eead21a2eaac76267c98478c66f576d6c1568248dddcd6718f"
+    },
+    {
+        "match":  true,
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-general-strength-convexity-work\\input-hashes.json",
+        "sha256":  "2784ac15da75b96593dae42d4a78d61714aeefd6fd8452e6fa18f6cb96091a5f"
+    },
+    {
+        "match":  true,
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-general-strength-convexity-work\\plan.md",
+        "sha256":  "f6f3b6427556f26b28be0431adc6b0f48f446dcef656fb9b29566b1b849dff7d"
+    },
+    {
+        "match":  true,
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-general-strength-convexity-work\\proposal.md",
+        "sha256":  "6ecc0d9aac9812c791998befc422b189e9d66662a002a889366125277c341f75"
+    },
+    {
+        "match":  true,
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-review-work\\review.md",
+        "sha256":  "8479861a835b0686f02733b678f54070e69bbc50f47095f0d456c153dc8409e0"
+    },
+    {
+        "match":  true,
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-review-work\\review.md",
+        "sha256":  "31d4cbaa231bf3002d6d92110d8051500fb82d43e6992145374f035b8d98b643"
+    }
+]

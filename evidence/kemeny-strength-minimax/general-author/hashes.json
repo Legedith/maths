@@ -1,0 +1,22 @@
+﻿[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "2C0B9775C20FD5EEAD21A2EAAC76267C98478C66F576D6C1568248DDDCD6718F",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-general-strength-convexity-work\\claims.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "2784AC15DA75B96593DAE42D4A78D61714AEEFD6FD8452E6FA18F6CB96091A5F",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-general-strength-convexity-work\\input-hashes.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "F6F3B6427556F26B28BE0431ADC6B0F48F446DCEF656FB9B29566B1B849DFF7D",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-general-strength-convexity-work\\plan.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "6ECC0D9AAC9812C791998BEFC422B189E9D66662A002A889366125277C341F75",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-general-strength-convexity-work\\proposal.md"
+    }
+]

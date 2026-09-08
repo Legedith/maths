@@ -1,0 +1,16 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--isolated",
+    "--with",
+    "sympy==1.14.0",
+    "python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-minimax-review-work\\check.py"
+  ],
+  "cwd": "C:\\Users\\Legedith\\Documents\\ChatGPT\\maths",
+  "rc": 0,
+  "timeout": 60,
+  "timed_out": false,
+  "elapsed": 4.921919584274292
+}

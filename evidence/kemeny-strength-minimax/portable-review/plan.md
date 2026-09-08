@@ -1,0 +1,3 @@
+﻿# Frozen implementation review plan
+
+Audit pinned generic solver/checker/contract and distinct general-math review. Exactly one fresh90s copied-code uv--frozen replay then expected existing-output rejection90s, raw streams and hashes retained. No additional targeted run unless a material concern appears. Inspect validation, grouping/ties/noaction, all stationary/balance cases, interval arithmetic and safe inconclusive serialization,80direct objectives and bounded witness outputs. Assertions enabled. No external expression input, shared changes, new graph grid or theorem self-certification. Final four gates are implementation scope only.

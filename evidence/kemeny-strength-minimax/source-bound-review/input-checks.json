@@ -1,0 +1,106 @@
+﻿{
+    "counts":  {
+                   "opens":  3,
+                   "finds":  7,
+                   "queries":  4
+               },
+    "status":  "pass",
+    "files":  [
+                  {
+                      "sha256":  "674c7d03fd9b17b78432b0ccaf286869706a31eeef28a2e62e6cd8d0cdd89d92",
+                      "path":  "claims.json"
+                  },
+                  {
+                      "sha256":  "db02c091c141e5db590aec51ecd8d7a2bd4c1a2cba99f798c699d4611526ebbc",
+                      "path":  "report.md"
+                  },
+                  {
+                      "sha256":  "4c9ba2569b5b097775d521c75f9531907bc993fc92cb042df192b755c7291bc5",
+                      "path":  "request-return-1.json"
+                  },
+                  {
+                      "sha256":  "79bfd618e0147453e6af0a035bfa94a5228cd6a5a4b3d78fd237632d85703df7",
+                      "path":  "request-return-2.json"
+                  },
+                  {
+                      "sha256":  "c3379041df47aff03b413c435754df5316b5e1134addd45f0a60f5da964105bf",
+                      "path":  "request-return-3.json"
+                  },
+                  {
+                      "sha256":  "6593cf9a52ed18f8d2c3248c49e9b294aef55e502d683683ea2f3935ceb0dcb0",
+                      "path":  "request-return-4.json"
+                  }
+              ],
+    "requests":  [
+                     {
+                         "search_query":  [
+                                              {
+                                                  "q":  "effective resistance nonadjacent vertices lower bound \"1/d\" weighted"
+                                              },
+                                              {
+                                                  "q":  "resistance distance lower bound reciprocal degrees nonadjacent vertices equality"
+                                              },
+                                              {
+                                                  "q":  "Doyle Snell Rayleigh shorting law effective resistance Dirichlet principle"
+                                              },
+                                              {
+                                                  "q":  "mean hitting time edge conductance convexity optimal weight effective resistance"
+                                              }
+                                          ],
+                         "response_length":  "long"
+                     },
+                     {
+                         "open":  [
+                                      {
+                                          "ref_id":  "https://www.stat.berkeley.edu/~aldous/RWG/Book_Ralph/Ch3.S3.html"
+                                      },
+                                      {
+                                          "ref_id":  "https://arxiv.org/pdf/1612.00731"
+                                      },
+                                      {
+                                          "ref_id":  "https://web.stanford.edu/~boyd/papers/pdf/eff_res.pdf"
+                                      }
+                                  ],
+                         "response_length":  "long"
+                     },
+                     {
+                         "find":  [
+                                      {
+                                          "ref_id":  "turn476view1",
+                                          "pattern":  "Lemma 1.4"
+                                      },
+                                      {
+                                          "ref_id":  "turn476view1",
+                                          "pattern":  "non-adjacent"
+                                      },
+                                      {
+                                          "ref_id":  "turn476view2",
+                                          "pattern":  "convex"
+                                      },
+                                      {
+                                          "ref_id":  "turn476view2",
+                                          "pattern":  "hitting"
+                                      }
+                                  ],
+                         "response_length":  "long"
+                     },
+                     {
+                         "find":  [
+                                      {
+                                          "ref_id":  "turn476view1",
+                                          "pattern":  "lower bound"
+                                      },
+                                      {
+                                          "ref_id":  "turn476view1",
+                                          "pattern":  "Nash"
+                                      },
+                                      {
+                                          "ref_id":  "turn476view2",
+                                          "pattern":  "Convexity"
+                                      }
+                                  ],
+                         "response_length":  "long"
+                     }
+                 ],
+    "manifest_sha256":  "4224edeedf01445517767c78295e496e15768744a9b19b7c3abb6dcdeac1c1f9"
+}

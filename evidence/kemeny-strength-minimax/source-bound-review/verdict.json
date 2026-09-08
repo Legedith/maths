@@ -1,0 +1,14 @@
+{
+  "status":"pass",
+  "auditor":"/root/astra_damage_symbolic",
+  "report_sha256":"db02c091c141e5db590aec51ecd8d7a2bd4c1a2cba99f798c699d4611526ebbc",
+  "manifest_sha256":"4224edeedf01445517767c78295e496e15768744a9b19b7c3abb6dcdeac1c1f9",
+  "checks":{"reproduction":"pass","specification_compliance":"pass","source_verification":"pass","implementation_alignment":"pass"},
+  "required_corrections":[],
+  "counts":{"queries":4,"opens":3,"finds":7,"basis":"actual retained original request arrays"},
+  "new_retrievals":0,
+  "evaluators":0,
+  "scope":"Primary passage entailment, classical-method inference and equality/attribution boundaries only",
+  "evidence":["review.md","input-checks.json"],
+  "originality_publication_or_physical_clearance":false
+}

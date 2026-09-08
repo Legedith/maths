@@ -1,0 +1,47 @@
+﻿{
+    "scope":  "execution evidence only",
+    "status":  "pass",
+    "result_exists":  false,
+    "inputs":  [
+                   {
+                       "path":  "D:/CodexWorkspaces/mathematics-atlas/astra-robust-noaction-work/check.py",
+                       "sha256":  "65609534f5c3f75a24a29526e45d0e2444e6ca0ad28f985286a14d7a57c9f7d6",
+                       "bytes":  1375
+                   },
+                   {
+                       "path":  "D:/CodexWorkspaces/mathematics-atlas/astra-robust-noaction-work/run.py",
+                       "sha256":  "945a36211934791be13cc96820c95d9ba22053ccb1fa161af247953bbc03a630",
+                       "bytes":  911
+                   },
+                   {
+                       "path":  "D:/CodexWorkspaces/mathematics-atlas/astra-robust-noaction-work/run.json",
+                       "sha256":  "55ceebdcd9702359e95cd0fcfb435dab8ed26b1484322d4a1ace1af4185cf49e",
+                       "bytes":  661
+                   },
+                   {
+                       "path":  "D:/CodexWorkspaces/mathematics-atlas/astra-robust-noaction-work/stdout.bin",
+                       "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                       "bytes":  0
+                   },
+                   {
+                       "path":  "D:/CodexWorkspaces/mathematics-atlas/astra-robust-noaction-work/stderr.bin",
+                       "sha256":  "dae0f011cb7e4319d1094a5ba898dd59cb4bf39b8c75b41254ec68ea102f47f0",
+                       "bytes":  1834
+                   },
+                   {
+                       "path":  "D:/CodexWorkspaces/mathematics-atlas/astra-robust-noaction-work/input-hashes.json",
+                       "sha256":  "b7102718af6e845cbb047a5f0625705689ba0315dbf8a50732647c816176d6d5",
+                       "bytes":  744
+                   },
+                   {
+                       "path":  "D:/CodexWorkspaces/mathematics-atlas/astra-robust-noaction-work/proposal.md",
+                       "sha256":  "5a578113e54f7c3223809cf2b84ca623634ed95eccc417311fd288bd11f907c6",
+                       "bytes":  7429
+                   },
+                   {
+                       "path":  "D:/CodexWorkspaces/mathematics-atlas/astra-robust-noaction-work/hashes.json",
+                       "sha256":  "ac37bf721453183f714b4e6997242db0114d9e3bdfd211b8228f411d76a90042",
+                       "bytes":  2103
+                   }
+               ]
+}
