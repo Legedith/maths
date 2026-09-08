@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-workload-noop-unequal-work\check2.py", line 30, in <module>
+    assert all(v>0 for ex,v in q.terms()) and q.coeff_monomial(1)>0,name
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: cross_b_greater_a

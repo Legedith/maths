@@ -1,0 +1,50 @@
+﻿[
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\input-hashes.json",
+        "matches":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\packaging-note.md",
+        "matches":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\plan.md",
+        "matches":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\pyproject.toml",
+        "matches":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\README.md",
+        "matches":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\result.json",
+        "matches":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\run.json",
+        "matches":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\run.py",
+        "matches":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\stderr.bin",
+        "matches":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\stdout.bin",
+        "matches":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\uv.lock",
+        "matches":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\verify_action_choice.py",
+        "matches":  true
+    }
+]

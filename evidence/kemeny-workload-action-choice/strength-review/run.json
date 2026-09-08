@@ -1,0 +1,18 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--isolated",
+    "--python",
+    "3.12.11",
+    "--with",
+    "sympy==1.14.0",
+    "python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-review-work\\check.py"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-review-work",
+  "timeout": 60,
+  "returncode": 0,
+  "timed_out": false,
+  "elapsed": 12.327999999979511
+}

@@ -1,0 +1,14 @@
+﻿[
+    {
+        "sha256":  "6d1afac4af7c131f5ec0ab0239ecebf2f0e5b6e7b58945d32d2925411daed2c9",
+        "path":  "review.md"
+    },
+    {
+        "sha256":  "63abfcbae550b4fff70a5e50d935ec97622ad38467f0c3ff65ce18ad0c160036",
+        "path":  "static-check.json"
+    },
+    {
+        "sha256":  "156d90ca5d03f999220e2dba82515eb6a03d869cb7948d86404952e1078e5f14",
+        "path":  "verdict.json"
+    }
+]

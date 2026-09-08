@@ -1,0 +1,82 @@
+﻿[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "EDF42F0BCCE111DB4EDBFF179CF32514D4E77F2DE015974702A1EDB948E0C21A",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-unequal-work\\batch2-plan.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "E74FDDD16D53ADC7E58F0B6C7CF86AF2456472DF0286B45A54F32EC34B6BE42D",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-unequal-work\\batch2-run.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "66FD377FD19C898EDE985CBCE51582629E26BD92536EDDFF358E86465ED01F23",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-unequal-work\\batch2-stderr.bin"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "E27861C740589C534490D0DD5D638146233645258D06E0D9CF882B2E37D84C0F",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-unequal-work\\batch2-stdout.bin"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "837F76D418A37D13E68913F64F0963E846049A49915C97264AABA34826B102B1",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-unequal-work\\check.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "C1F826E7DA82075B20DB1B4A41AD2E9F6E2AF053AC9FCBA896C4C1E5905EC026",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-unequal-work\\check2.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "283B875A85316FD0E586BCDEB9F3AFFFA486DF4C545A8800C2D08A05C0A4F47D",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-unequal-work\\contract.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "548E0D297EB311186B1EB756B751E8A419983D9A0C78AFC453EFD0CAE67E47DF",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-unequal-work\\input-hashes.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "EAB159DD5D789F9C32143A4CA7F2B10DFBFBF6699175441F0326CA2BF8596D09",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-unequal-work\\proposal.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "7874E720961C529DCB85F7C265431A0654E68662DBD8A5DDD61E507F360E9FD3",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-unequal-work\\result.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "621DD337D3960B673B2B0E8A65CC9030ED18BFBD6DEA478295DDCD8200327AF3",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-unequal-work\\run.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "992CC9B52CBD12615ED59E6C477D403DA0998190255A05024BEDF777A8A82662",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-unequal-work\\run.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "B21EC4EC0A494DB2D8D696FA5607028742D65630E2614E931D816F16AF6AE72E",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-unequal-work\\run2.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "56DECA31FF57A56B23354591D5BFC98BA7D52E927FAEF0CEE9C171E510D1A8E6",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-unequal-work\\status.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "BFD3CEDDC9C7B2C5DFC775EA7F86215B21768BE701EBD361F3CF03D3FAAE403F",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-unequal-work\\stderr.bin"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "F11BA843C4E54316798596D54A0FB6B934D9EF1E4F240F35BF43E7D6D6031389",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-unequal-work\\stdout.bin"
+    }
+]

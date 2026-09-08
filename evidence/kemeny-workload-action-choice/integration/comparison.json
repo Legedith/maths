@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "canonical_sha256": "42a1da543576b44036eb2b55521e0e873aa8825fdb6a2c7e53fdfac2efa886f1",
+  "byte_identical_to_worker_and_independent_replay": true,
+  "canonical_attempts": 1,
+  "returncode": 0,
+  "timeout": false
+}

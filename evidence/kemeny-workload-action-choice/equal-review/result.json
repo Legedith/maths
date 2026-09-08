@@ -1,0 +1,124 @@
+{
+  "status": "PASS",
+  "diagnostic_rows": [
+    {
+      "parts": [
+        3,
+        3,
+        3
+      ],
+      "theta": "0",
+      "all_values_equal": true
+    },
+    {
+      "parts": [
+        3,
+        3,
+        3
+      ],
+      "theta": "1/10",
+      "all_values_equal": true
+    },
+    {
+      "parts": [
+        3,
+        3,
+        3
+      ],
+      "theta": "1/2",
+      "all_values_equal": true
+    },
+    {
+      "parts": [
+        3,
+        3,
+        3
+      ],
+      "theta": "9/10",
+      "all_values_equal": true
+    },
+    {
+      "parts": [
+        3,
+        3,
+        4
+      ],
+      "theta": "0",
+      "all_values_equal": true
+    },
+    {
+      "parts": [
+        3,
+        3,
+        4
+      ],
+      "theta": "1/10",
+      "all_values_equal": true
+    },
+    {
+      "parts": [
+        3,
+        3,
+        4
+      ],
+      "theta": "1/2",
+      "all_values_equal": true
+    },
+    {
+      "parts": [
+        3,
+        3,
+        4
+      ],
+      "theta": "9/10",
+      "all_values_equal": true
+    },
+    {
+      "parts": [
+        3,
+        3,
+        100
+      ],
+      "theta": "0",
+      "all_values_equal": true
+    },
+    {
+      "parts": [
+        3,
+        3,
+        100
+      ],
+      "theta": "1/10",
+      "all_values_equal": true
+    },
+    {
+      "parts": [
+        3,
+        3,
+        100
+      ],
+      "theta": "1/2",
+      "all_values_equal": true
+    },
+    {
+      "parts": [
+        3,
+        3,
+        100
+      ],
+      "theta": "9/10",
+      "all_values_equal": true
+    }
+  ],
+  "symbolic_identities": 4,
+  "switch_positive_shift_coefficients": [
+    "18",
+    "855",
+    "10701",
+    "61221",
+    "182100",
+    "275302",
+    "167834"
+  ],
+  "sympy": "1.14.0"
+}

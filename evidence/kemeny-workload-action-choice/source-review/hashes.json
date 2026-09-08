@@ -1,0 +1,22 @@
+﻿[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "5CA28FA83705E4B3FCDA22BA54E3FE68B252A2574D4E648719D64ECE90B70FDC",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-action-choice-priority-review-work\\input-checks.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "AC895021F446657CCA6CF896A5F28C2CF4F74695FD084A2CAE23911E128BBDAF",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-action-choice-priority-review-work\\request-counts.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "73DD8717C35B720961ACDCED0EDD71DE0C14CE14478CD3AA4B0612FBF5C50750",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-action-choice-priority-review-work\\review.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "B5F8AE0BCBCC6F696881FA1538603604FAB1386D04EB8F28566FE7920CA89B2F",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-action-choice-priority-review-work\\verdict.json"
+    }
+]

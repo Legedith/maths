@@ -1,0 +1,32 @@
+﻿[
+    {
+        "path":  "input-hash.json",
+        "sha256":  "fd765dd59c9daf3cffcb3ac463eca91a66efd6c9a3b64f068fe7a93ed52f9a75",
+        "match":  true
+    },
+    {
+        "path":  "report.md",
+        "sha256":  "4fecf8ca5cfaddcf37c49d03110437293e50f313ec261338041a8dd7d9896b60",
+        "match":  true
+    },
+    {
+        "path":  "request-return-1.json",
+        "sha256":  "0a7c1ad5bc91dc27ee956a6057f9c0b0b738efa5d29bc159c502c3e9cea07eb0",
+        "match":  true
+    },
+    {
+        "path":  "request-return-2.json",
+        "sha256":  "170e1007e7cc82a666dc714b349ba5e485de943ccae414e22917e0f1b4f198e8",
+        "match":  true
+    },
+    {
+        "path":  "request-return-3.json",
+        "sha256":  "62b748201a1a8b20d2c2e2a2109877c3d08846466acfabea75c2214b35875328",
+        "match":  true
+    },
+    {
+        "path":  "request-return-4.json",
+        "sha256":  "ec98a41db392ee921b9f2617dccc02ea94ee82793c0d683a2b7a623ad9366e30",
+        "match":  true
+    }
+]

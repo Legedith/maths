@@ -1,0 +1,22 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--isolated",
+    "--python",
+    "3.12.11",
+    "--with",
+    "sympy==1.14.0",
+    "python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-counter-review-work\\check.py"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-counter-review-work",
+  "rc": 0,
+  "elapsed": 13.046999999962281,
+  "timeout": 60,
+  "environment": {
+    "UV_CACHE_DIR": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-counter-review-work\\uv-cache",
+    "UV_PROJECT_ENVIRONMENT": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-counter-review-work\\.venv",
+    "UV_PYTHON_INSTALL_DIR": "D:/uv-python"
+  }
+}

@@ -1,0 +1,23 @@
+﻿# Independent action-choice source-entailment review
+
+PASS within the identified passages and bounded non-identification scope. Reviewer /root/astra_damage_symbolic,2026-09-08. Report hash4fecf8ca5cfaddcf37c49d03110437293e50f313ec261338041a8dd7d9896b60 and every manifest entry match. Exact retained request arrays establish4search queries,3primary opens and4find calls. Unlike metadata-only history, these counts are independently recoverable. No new searches or retrievals occurred in this review.
+
+One locator precision note: the KDD passages tagged @P3 use zero-based PDF index3, hence the fourth PDF page including the institutional cover (printed article page3). Use the exact line tags or that expanded wording instead of ambiguous PDFpage3. No substantive claim correction is needed.
+
+## Aldous-Fill
+
+https://www.stat.berkeley.edu/~aldous/RWG/Book_Ralph/Ch4.S1.html, retained request-return-4.json lines55-66, directly gives the upper bound on each pair's changed commute-time ratio by the total-weight ratio under componentwise increased edge weights. Lines15-21 identify its maximum-commute resistance interpretation. An upper bound exceeding1 does not prove actual worsening and does not imply hitting times decrease. The ratio cancels any common convention for counting total weight, so no factor-of-two inference is needed. It is a pairwise commute bound, not a fixed nonuniform iid averaging theorem or exact intervention optimum. The report preserves those distinctions. The visible chapter/date/generated-page information describes the inspected online chapter, not a claimed final book edition.
+
+## Zeng
+
+https://arxiv.org/html/2109.09249, retained request-return-4.json Theorem1.2 lines53-55, fixes a positive edge-weight multiset on weighted trees and describes the extremal path/star structures. Remarks lines183-188 give alpha=volume*tr(L+)/n and distinguish normalized-Laplacian Kemeny. The primary publisher search body in request-return-1.json additionally explicitly defines alpha as1/n^2 times all ordered hitting times, with H(v,v)=0. This matches independent uniform endpoints, rather than conditioning on distinct vertices or stationary targets. The theorem's fixed-multiset tree domain cannot be directly transferred to cyclic damaged multipartite graphs, changing inserted conductance, no-action comparisons or nonuniform hub-mixture workloads. The report correctly leaves manuscript-version matching unresolved for the unversioned HTML and does not claim full journal-version comparison.
+
+## Adriaens-Wang-Gionis
+
+https://helda.helsinki.fi/server/api/core/bitstreams/3f51d1b1-ed3f-43f8-9a24-a12f71a7f7cd/content, retained request-return-3.json. Lines198-224 specify connected undirected graphs, a nonempty disjoint red/blue partition, uniform-neighbor walks and first entry into a target set. Definition1 lines233-245 averages uniformly over red starts, with the blue set absorbing for first-hit purposes. Problems1-2 lines253-260 permit only cross-partition nonedges with budget at mostk. Observation2 lines278-286 is monotonicity under that restricted insertion set; Observation3 lines292-294 concerns individual hitting-time supermodularity. This is not an iid target-vertex distribution or arbitrary-edge monotonicity result, and contains no inspected variable-strength rescue theorem. Consequently it does not contradict the harmful-unit example. The institutional cover supplies the KDD2023 DOI and reprint pagination warning; the article title block supports the stated author order.
+
+## Scope and access conclusion
+
+The returns contain actual cited passages, not only metadata. The three opens succeeded, but an open response is not proof that every fulltext theorem was inspected. This audit covers the named definitions, assumptions, identities and observations above, plus their transfer limits. It does not certify the papers' complete contents or prove that no consequence elsewhere implies the new family statements. The report's bounded non-identification, continuing Sardar/join gaps, and refusal of novelty/physical-impact clearance are appropriate. Generic weighted commute, conductance optimization and inverse methods remain known prior machinery.
+
+The action-choice claims require their separate mathematical evidence; these sources supply context and distinctions, not their proofs. input-checks.json and request-counts.json retain deterministic read-only hash/count checks, and hashes.json seals this review. No repository/Git changes, external messages, new access attempts or evaluator experiments occurred. Suitable for a later scoped source gate, not an exhaustive priority gate.

@@ -1,0 +1,62 @@
+﻿[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "C6F0186AEF10F17282618602D39A209A4A8429FF7218CA5E61ADFA82233E4080",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\input-hashes.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "69558CDD54276743B3F9C53A9B9CA3AF22A4003E3B1C86877B2ECC552F451E81",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\packaging-note.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "65A3FB50284D0C3528C654E24E09B21DE4D287EDCD5D2B60DD3014B9644C38B1",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\plan.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "043135469F15A65EC3BB4106A3D6798BCCCDD0F762288DB41FD740164762445F",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\pyproject.toml"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "C670F8625998D86A23015CD7AFFFF5BFF51B45C9BB2FBFE55293DF380361514A",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\README.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "42A1DA543576B44036EB2B55521E0E873AA8825FDB6A2C7E53FDFAC2EFA886F1",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\result.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "3340937190A50EDFE79884711669C1D63E3D4BB2A11B7461D2D778E470F06666",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\run.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "C34CA797724971C1219ED6453849DC1789D3C51B92F26DF5E3D0140375B20F00",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\run.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "BCC8E590E9B6E3072F3EC81CCA1765B60B263DD9406332ADDD79FBE5B37DDFE6",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\stderr.bin"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "B22D860DE983158C5409335EE0ECECBB53FF940994CFF76DDB01D18C93F833CB",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\stdout.bin"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "378269213EB25AE37448F6993AC983809D7BAB05D3A47434C5BABD06DC0B874D",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\uv.lock"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "FFF7FFFC1453B00E9D4D2CCA7E815E088F0A5DA793E7DA0F884BA762CE8F21CE",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\verify_action_choice.py"
+    }
+]

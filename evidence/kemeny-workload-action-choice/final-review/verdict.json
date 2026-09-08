@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "round": 1,
+  "auditor": "/root/astra_damage_symbolic",
+  "bundle_sha256": "086f71adaf4b135cf81d5185bd17eb5884f85474461b5719a6a6182b4fb4468d",
+  "required_corrections": [],
+  "checks": [
+    {"id":"reproduction","status":"pass","auditor":"/root/astra_damage_symbolic","evidence":["A022","A024","A048","A050","A076","A078","A104","A105","A106","A117","A123"],"note":"Accepted independent exact reconstructions and replay reused; root, worker and distinct portable replay output hashes identical. No numerical rerun or actual CI attestation."},
+    {"id":"specification_compliance","status":"pass","auditor":"/root/astra_damage_symbolic","evidence":["A001","A023","A049","A054","A077","A123","A139"],"note":"Final scope, baseline/insertion volume, all ties, no-action endpoints, equal universal versus finite 344, strength globality and excluded degenerate limits match the contract and distinct audits. Original counterexample author relies on A023, not self-certification."},
+    {"id":"source_verification","status":"pass","auditor":"/root/astra_damage_symbolic","evidence":["A088","A128","A131","A132","A133","A134","A139"],"note":"Distinct source-author/reviewer chain; inspected primary assumptions and averaging conventions retained. Known methods credited; no exhaustive novelty, absence or practical-impact conclusion."},
+    {"id":"implementation_alignment","status":"pass","auditor":"/root/astra_damage_symbolic","evidence":["A092","A102","A104","A106","A116","A123","A126","A135","A140","A143"],"note":"Code and final analytic bridges align, portable audit is distinct from implementation author, byte-identical canonical replay and static logged workflow checked; historical failures and packaging-note limitation preserved."}
+  ],
+  "condition": "Append frozen reviewer packet and attestation only, then deterministic gate; other content changes require review.",
+  "hosted_ci_attested": false,
+  "novelty_or_physical_impact_clearance": false
+}

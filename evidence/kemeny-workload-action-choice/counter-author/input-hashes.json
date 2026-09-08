@@ -1,0 +1,22 @@
+﻿[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "73D49CCD48DA43E2C207EA16CB85EC611EF9DD98F772B708CBC8D809F285A94D",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-explore-work\\report.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "5340D7C86D21A5BD72CEB7EB099C65F95520D43D12D75582D47D498072389F83",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-explore-work\\plan.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "EC1A46A65F569193DE305EC446DFDC40033422BD0CEEAC41CF0B8F8C180642C0",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-family-work\\proposal.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "A7522A07FB83AA7DED1D543BAF0DF735499C5AB87C77481BE2CA301DB754615B",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-family-review-work\\report.md"
+    }
+]

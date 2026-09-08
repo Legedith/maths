@@ -1,0 +1,562 @@
+[
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-explore-work\\batch2-plan.md",
+    "destination": "evidence/kemeny-workload-action-choice/equal-author/batch2-plan.md",
+    "bytes": 426,
+    "sha256": "0ae95a5815fe54c2f2099e3f20a11e55a909ad01c896a9aa06ff90eec954bf2a",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-explore-work\\batch2-run.json",
+    "destination": "evidence/kemeny-workload-action-choice/equal-author/batch2-run.json",
+    "bytes": 354,
+    "sha256": "ba97aebf58d4b5cf899ff0ddae04a10db0c731d5d7df7554c53257a95c5b48f9",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-explore-work\\batch2-stderr.bin",
+    "destination": "evidence/kemeny-workload-action-choice/equal-author/batch2-stderr.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-explore-work\\batch2-stdout.bin",
+    "destination": "evidence/kemeny-workload-action-choice/equal-author/batch2-stdout.bin",
+    "bytes": 822,
+    "sha256": "a01d33ca876961189e4d0b93e14d80f8f37b7d97d19666abda28c4bea13de4e9",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-explore-work\\batch2.json",
+    "destination": "evidence/kemeny-workload-action-choice/equal-author/batch2.json",
+    "bytes": 820,
+    "sha256": "bce372d6d578a66c4217bd8be86913c3d04e3776c3e2d54344d14e74d1e8f612",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-explore-work\\check.py",
+    "destination": "evidence/kemeny-workload-action-choice/equal-author/check.py",
+    "bytes": 1065,
+    "sha256": "bc566e5d643765fbf1e8309c3e1d76fe82863208362b4c6925a26f379ce3de97",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-explore-work\\check2.py",
+    "destination": "evidence/kemeny-workload-action-choice/equal-author/check2.py",
+    "bytes": 865,
+    "sha256": "964ca72312904eece3856546ed820a1d2e42082d66bfabd2140bc9705255e5c2",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-explore-work\\hashes.json",
+    "destination": "evidence/kemeny-workload-action-choice/equal-author/hashes.json",
+    "bytes": 2168,
+    "sha256": "7f911e1798acf9fad2b67d8e3ada59d522d956f1031226796a1dea6631859c0c",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-explore-work\\input-hashes.json",
+    "destination": "evidence/kemeny-workload-action-choice/equal-author/input-hashes.json",
+    "bytes": 668,
+    "sha256": "f011532555a9a30f2809f1d19759e82337662760b515a43700e4f70ef642b9bf",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-explore-work\\plan.md",
+    "destination": "evidence/kemeny-workload-action-choice/equal-author/plan.md",
+    "bytes": 901,
+    "sha256": "5340d7c86d21a5bd72ceb7eb099c65f95520d43d12d75582d47d498072389f83",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-explore-work\\report.md",
+    "destination": "evidence/kemeny-workload-action-choice/equal-author/report.md",
+    "bytes": 5072,
+    "sha256": "73d49ccd48da43e2c207ea16cb85ec611ef9dd98f772b708cbc8d809f285a94d",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-explore-work\\result.json",
+    "destination": "evidence/kemeny-workload-action-choice/equal-author/result.json",
+    "bytes": 6152,
+    "sha256": "a566bb1fc92a2fc4d391a4c7e266a8a94399d6afdc4da6159bc73bfdfbc95a5c",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-explore-work\\run.json",
+    "destination": "evidence/kemeny-workload-action-choice/equal-author/run.json",
+    "bytes": 316,
+    "sha256": "10d77d9e0742d14fd3631301f659d695a698eec9ca228da5696527fb66308097",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-explore-work\\run.py",
+    "destination": "evidence/kemeny-workload-action-choice/equal-author/run.py",
+    "bytes": 714,
+    "sha256": "5a1891a0c76850729e13a0f360e27eee08976d705341a4c2485412cceec437a1",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-explore-work\\run2.py",
+    "destination": "evidence/kemeny-workload-action-choice/equal-author/run2.py",
+    "bytes": 757,
+    "sha256": "1cd7fce08e91907ce41603c87050bfea0b062ad058f22b68f3c79f3ba2edc80a",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-explore-work\\stderr.bin",
+    "destination": "evidence/kemeny-workload-action-choice/equal-author/stderr.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-explore-work\\stdout.bin",
+    "destination": "evidence/kemeny-workload-action-choice/equal-author/stdout.bin",
+    "bytes": 5608,
+    "sha256": "c2facbfceffa7edc0d85c9d6de3f0ca1b649dc5278ee13920d20459425036850",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-review-work\\check.py",
+    "destination": "evidence/kemeny-workload-action-choice/equal-review/check.py",
+    "bytes": 2741,
+    "sha256": "d0bf158b0d1eede1f09c8e3008de3611f591e34d6a9d96c3d042e4578ab597f6",
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-review-work\\hashes.json",
+    "destination": "evidence/kemeny-workload-action-choice/equal-review/hashes.json",
+    "bytes": 1901,
+    "sha256": "f572218976d0b9eb4581c8af41214c73870a23d04898cd23e4c6c4905d9aa46a",
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-review-work\\plan.md",
+    "destination": "evidence/kemeny-workload-action-choice/equal-review/plan.md",
+    "bytes": 725,
+    "sha256": "12488a990b7333000d285f40545fabec238b6e31ec4d15614d6f0ad0bae00923",
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-review-work\\result.json",
+    "destination": "evidence/kemeny-workload-action-choice/equal-review/result.json",
+    "bytes": 1854,
+    "sha256": "8f49a1dbeda358c0a9e22817ca98a4e80ea882c45c2bb28c81bb2d4f4106df87",
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-review-work\\review.md",
+    "destination": "evidence/kemeny-workload-action-choice/equal-review/review.md",
+    "bytes": 4325,
+    "sha256": "c837f8544d31717c6e6bd61a6c58afb3ad8e996a709dd8969023d2dab86c7fd3",
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-review-work\\run.json",
+    "destination": "evidence/kemeny-workload-action-choice/equal-review/run.json",
+    "bytes": 678,
+    "sha256": "aac2994d02253d6db8bb981dab45e22d8d784baf01bbc12d32b53a6fc6e575fd",
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-review-work\\run.py",
+    "destination": "evidence/kemeny-workload-action-choice/equal-review/run.py",
+    "bytes": 911,
+    "sha256": "945a36211934791be13cc96820c95d9ba22053ccb1fa161af247953bbc03a630",
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-review-work\\stderr.bin",
+    "destination": "evidence/kemeny-workload-action-choice/equal-review/stderr.bin",
+    "bytes": 1834,
+    "sha256": "5ca31f6dc1c2e75c655620c8083e23032d2c9b0b68b6769819f874d255bf50d1",
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-review-work\\stdout.bin",
+    "destination": "evidence/kemeny-workload-action-choice/equal-review/stdout.bin",
+    "bytes": 963,
+    "sha256": "484bbe362c83bbf9d46fae8402d11ecc419e93c233817b9312ea077b2248b513",
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-unequal-work\\batch2-plan.md",
+    "destination": "evidence/kemeny-workload-action-choice/counter-author/batch2-plan.md",
+    "bytes": 882,
+    "sha256": "edf42f0bcce111db4edbff179cf32514d4e77f2de015974702a1edb948e0c21a",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-unequal-work\\batch2-run.json",
+    "destination": "evidence/kemeny-workload-action-choice/counter-author/batch2-run.json",
+    "bytes": 421,
+    "sha256": "e74fddd16d53adc7e58f0b6c7cf86af2456472df0286b45a54f32ec34b6be42d",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-unequal-work\\batch2-stderr.bin",
+    "destination": "evidence/kemeny-workload-action-choice/counter-author/batch2-stderr.bin",
+    "bytes": 326,
+    "sha256": "66fd377fd19c898ede985cbce51582629e26bd92536eddff358e86465ed01f23",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-unequal-work\\batch2-stdout.bin",
+    "destination": "evidence/kemeny-workload-action-choice/counter-author/batch2-stdout.bin",
+    "bytes": 27,
+    "sha256": "e27861c740589c534490d0dd5d638146233645258d06e0d9cf882b2e37d84c0f",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-unequal-work\\check.py",
+    "destination": "evidence/kemeny-workload-action-choice/counter-author/check.py",
+    "bytes": 1589,
+    "sha256": "837f76d418a37d13e68913f64f0963e846049a49915c97264aaba34826b102b1",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-unequal-work\\check2.py",
+    "destination": "evidence/kemeny-workload-action-choice/counter-author/check2.py",
+    "bytes": 2157,
+    "sha256": "c1f826e7da82075b20db1b4a41ad2e9f6e2af053ac9fcba896c4c1e5905ec026",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-unequal-work\\contract.md",
+    "destination": "evidence/kemeny-workload-action-choice/counter-author/contract.md",
+    "bytes": 1316,
+    "sha256": "283b875a85316fd0e586bcdeb9f3afffa486df4c545a8800c2d08a05c0a4f47d",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-unequal-work\\hashes.json",
+    "destination": "evidence/kemeny-workload-action-choice/counter-author/hashes.json",
+    "bytes": 3854,
+    "sha256": "cf79e46b5acefa828d8d8fca856cc69df405a39a2cad2c21143420edf9149eba",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-unequal-work\\input-hashes.json",
+    "destination": "evidence/kemeny-workload-action-choice/counter-author/input-hashes.json",
+    "bytes": 955,
+    "sha256": "548e0d297eb311186b1eb756b751e8a419983d9a0c78afc453efd0cae67e47df",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-unequal-work\\proposal.md",
+    "destination": "evidence/kemeny-workload-action-choice/counter-author/proposal.md",
+    "bytes": 6517,
+    "sha256": "eab159dd5d789f9c32143a4ca7f2b10dfbfbf6699175441f0326ca2bf8596d09",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-unequal-work\\result.json",
+    "destination": "evidence/kemeny-workload-action-choice/counter-author/result.json",
+    "bytes": 24802,
+    "sha256": "7874e720961c529dcb85f7c265431a0654e68662dbd8a5ddd61e507f360e9fd3",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-unequal-work\\run.json",
+    "destination": "evidence/kemeny-workload-action-choice/counter-author/run.json",
+    "bytes": 420,
+    "sha256": "621dd337d3960b673b2b0e8a65cc9030ed18bfbd6dea478295ddcd8200327af3",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-unequal-work\\run.py",
+    "destination": "evidence/kemeny-workload-action-choice/counter-author/run.py",
+    "bytes": 800,
+    "sha256": "992cc9b52cbd12615ed59e6c477d403da0998190255a05024bedf777a8a82662",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-unequal-work\\run2.py",
+    "destination": "evidence/kemeny-workload-action-choice/counter-author/run2.py",
+    "bytes": 824,
+    "sha256": "b21ec4ec0a494db2d8d696fa5607028742d65630e2614e931d816f16af6ae72e",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-unequal-work\\status.json",
+    "destination": "evidence/kemeny-workload-action-choice/counter-author/status.json",
+    "bytes": 655,
+    "sha256": "56deca31ff57a56b23354591d5bfc98ba7d52e927faef0cee9c171e510d1a8e6",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-unequal-work\\stderr.bin",
+    "destination": "evidence/kemeny-workload-action-choice/counter-author/stderr.bin",
+    "bytes": 1834,
+    "sha256": "bfd3ceddc9c7b2c5dfc775ea7f86215b21768be701ebd361f3cf03d3faae403f",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-unequal-work\\stdout.bin",
+    "destination": "evidence/kemeny-workload-action-choice/counter-author/stdout.bin",
+    "bytes": 259,
+    "sha256": "f11ba843c4e54316798596d54a0fb6b934d9ef1e4f240f35bf43e7d6d6031389",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-counter-review-work\\check.py",
+    "destination": "evidence/kemeny-workload-action-choice/counter-review/check.py",
+    "bytes": 2270,
+    "sha256": "241776bb05722a8338ecd572280111b0fe6625ba5b135c9e7158ff244da29f98",
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-counter-review-work\\hashes.json",
+    "destination": "evidence/kemeny-workload-action-choice/counter-review/hashes.json",
+    "bytes": 1965,
+    "sha256": "7f1fa4ac0b2d31a6de3c99e4478846085a83da6bff9d692dceaec413d63bd080",
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-counter-review-work\\plan.md",
+    "destination": "evidence/kemeny-workload-action-choice/counter-review/plan.md",
+    "bytes": 591,
+    "sha256": "b58d4f397a2da50b8a47092a50d2dc87d4ca74f6d46aa274075fcee5d3f3800b",
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-counter-review-work\\result.json",
+    "destination": "evidence/kemeny-workload-action-choice/counter-review/result.json",
+    "bytes": 3281,
+    "sha256": "6b48f3bd9521c08ab5db9fa3d31329c08835e5651873b0498b5238f29ba0b0e5",
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-counter-review-work\\review.md",
+    "destination": "evidence/kemeny-workload-action-choice/counter-review/review.md",
+    "bytes": 4015,
+    "sha256": "653a57b0703c36cd73bd4c077a24e0bdbbe4a262dde6420a7595e93dc21d9fb0",
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-counter-review-work\\run.json",
+    "destination": "evidence/kemeny-workload-action-choice/counter-review/run.json",
+    "bytes": 711,
+    "sha256": "2ae3363e3692d5409c2e563deb3ce958214be29a65000d8c406089ff505bc3a9",
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-counter-review-work\\run.py",
+    "destination": "evidence/kemeny-workload-action-choice/counter-review/run.py",
+    "bytes": 911,
+    "sha256": "945a36211934791be13cc96820c95d9ba22053ccb1fa161af247953bbc03a630",
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-counter-review-work\\stderr.bin",
+    "destination": "evidence/kemeny-workload-action-choice/counter-review/stderr.bin",
+    "bytes": 1834,
+    "sha256": "0607e14c54e80d3051457ee3e9acffa08eb3b85b9b24e5568f7915886ca40e7e",
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-counter-review-work\\stdout.bin",
+    "destination": "evidence/kemeny-workload-action-choice/counter-review/stdout.bin",
+    "bytes": 1922,
+    "sha256": "010680442c9024d724a682929fb404fd0ce30d1c13beaed59722a14cf463026e",
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-work\\batch2-plan.md",
+    "destination": "evidence/kemeny-workload-action-choice/strength-author/batch2-plan.md",
+    "bytes": 402,
+    "sha256": "ca8662befc809441bf0f93cf3903a0bc4ac1c706df138e7b86f3661606c63f97",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-work\\batch2-run.json",
+    "destination": "evidence/kemeny-workload-action-choice/strength-author/batch2-run.json",
+    "bytes": 357,
+    "sha256": "987c5b4fe882bb3ef24505a181930bf9150c7b1198cf9c128ea07a504b3b42e1",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-work\\batch2-stderr.bin",
+    "destination": "evidence/kemeny-workload-action-choice/strength-author/batch2-stderr.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-work\\batch2-stdout.bin",
+    "destination": "evidence/kemeny-workload-action-choice/strength-author/batch2-stdout.bin",
+    "bytes": 2525,
+    "sha256": "87411259ca2d09ea92d4629043d402f2350c12e9141868a878321347f9c81610",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-work\\batch2.json",
+    "destination": "evidence/kemeny-workload-action-choice/strength-author/batch2.json",
+    "bytes": 2523,
+    "sha256": "6d7028ceffb963503cc4e4c9c1e997398a872dac7a5c307d9c99491295f9546e",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-work\\check.py",
+    "destination": "evidence/kemeny-workload-action-choice/strength-author/check.py",
+    "bytes": 1062,
+    "sha256": "3e856dbe0f61f240c8365445e7de727ad221c2d704d9e9b3ff613438ee9259e6",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-work\\check2.py",
+    "destination": "evidence/kemeny-workload-action-choice/strength-author/check2.py",
+    "bytes": 1697,
+    "sha256": "6fa5d3de71467cb6990f31d6ebd5c40750bf2bd5a50a301a59d6c572541328b8",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-work\\hashes.json",
+    "destination": "evidence/kemeny-workload-action-choice/strength-author/hashes.json",
+    "bytes": 2027,
+    "sha256": "2d6c70966aeb9d5d0e3279afbf44984b6c58c25fce95eb870a6d26033ac19c80",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-work\\plan.md",
+    "destination": "evidence/kemeny-workload-action-choice/strength-author/plan.md",
+    "bytes": 587,
+    "sha256": "306753413d15005ba02d6d5877414ee2e0403888ee0e2a170c05d272959c4b3a",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-work\\report.md",
+    "destination": "evidence/kemeny-workload-action-choice/strength-author/report.md",
+    "bytes": 5294,
+    "sha256": "83165e5bf7a62b84814a6b28ae69fad0adabdd73f4db3ffce9be30395d9e144e",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-work\\result.json",
+    "destination": "evidence/kemeny-workload-action-choice/strength-author/result.json",
+    "bytes": 5794,
+    "sha256": "ed3de8a5173f575f02b39a89b336888aba29f4d50da9a151a01dd9bcf5d8989e",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-work\\run.json",
+    "destination": "evidence/kemeny-workload-action-choice/strength-author/run.json",
+    "bytes": 356,
+    "sha256": "c2edc7f41db4673747e2390e6e93c8d6f4e97cb41ae010464ec9c28c0752478f",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-work\\run.py",
+    "destination": "evidence/kemeny-workload-action-choice/strength-author/run.py",
+    "bytes": 735,
+    "sha256": "adbacfcab6f1d136108ae484c415462cd6f3feb9b638fb1c193b69f04358f8d7",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-work\\run2.py",
+    "destination": "evidence/kemeny-workload-action-choice/strength-author/run2.py",
+    "bytes": 757,
+    "sha256": "1cd7fce08e91907ce41603c87050bfea0b062ad058f22b68f3c79f3ba2edc80a",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-work\\stderr.bin",
+    "destination": "evidence/kemeny-workload-action-choice/strength-author/stderr.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-work\\stdout.bin",
+    "destination": "evidence/kemeny-workload-action-choice/strength-author/stdout.bin",
+    "bytes": 5796,
+    "sha256": "0dca2d8971c23e31caad544665444306c901bd9e7137ddb10dfc61c73ac518e9",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-review-work\\check.py",
+    "destination": "evidence/kemeny-workload-action-choice/strength-review/check.py",
+    "bytes": 4201,
+    "sha256": "50ebf8d23af8da48eef1bbdf9050cad453413a6d68429531c09976c8f8d41899",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-review-work\\hashes.json",
+    "destination": "evidence/kemeny-workload-action-choice/strength-review/hashes.json",
+    "bytes": 2496,
+    "sha256": "ad3a98ef874186b23e22acd8b687816814d3cce15fb5540cbad721d108a4f632",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-review-work\\input-hashes.json",
+    "destination": "evidence/kemeny-workload-action-choice/strength-review/input-hashes.json",
+    "bytes": 1470,
+    "sha256": "3d8051c07974830163e67e1ada9ff253058e8f88968e221f1ec033d0fb2ee1fe",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-review-work\\plan.md",
+    "destination": "evidence/kemeny-workload-action-choice/strength-review/plan.md",
+    "bytes": 687,
+    "sha256": "6941d3eb325c6e39e300b0ea9d0e1be0bd75c441e18ae29060723edee2990746",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-review-work\\result.json",
+    "destination": "evidence/kemeny-workload-action-choice/strength-review/result.json",
+    "bytes": 2701,
+    "sha256": "2b03b177219b299c5fe6ed1a516bc1c99b1a6478e011d170052bef69d1ff6adb",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-review-work\\review.md",
+    "destination": "evidence/kemeny-workload-action-choice/strength-review/review.md",
+    "bytes": 4356,
+    "sha256": "31d4cbaa231bf3002d6d92110d8051500fb82d43e6992145374f035b8d98b643",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-review-work\\run.json",
+    "destination": "evidence/kemeny-workload-action-choice/strength-review/run.json",
+    "bytes": 440,
+    "sha256": "5c516973c05b91cd07c0ad419ee9129fa8b1ee101a7b9712f2293146d311e88e",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-review-work\\run.py",
+    "destination": "evidence/kemeny-workload-action-choice/strength-review/run.py",
+    "bytes": 800,
+    "sha256": "992cc9b52cbd12615ed59e6c477d403da0998190255a05024bedf777a8a82662",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-review-work\\stderr.bin",
+    "destination": "evidence/kemeny-workload-action-choice/strength-review/stderr.bin",
+    "bytes": 1834,
+    "sha256": "e0dbc31f51504c353da9204938c87f10c4d45c452aff6aa8bb405145b6a78113",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-review-work\\stdout.bin",
+    "destination": "evidence/kemeny-workload-action-choice/strength-review/stdout.bin",
+    "bytes": 2703,
+    "sha256": "23d2fb9e4b05116077b3d0605cfeae07589b0ab9076d14fb6042fdeaf3f7432d",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-review-work\\verdict.json",
+    "destination": "evidence/kemeny-workload-action-choice/strength-review/verdict.json",
+    "bytes": 832,
+    "sha256": "b95b5f4810c1726e89d3d1563ffe1f67355fec3ba35dea18df6e00a420c8660e",
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-workload-release-work\\no-action-interval-proposal.md",
+    "destination": "evidence/kemeny-workload-action-choice/interval-author/proposal.md",
+    "bytes": 2569,
+    "sha256": "5b3e7ce7556d0b4015aadc87e75f5dd6958043c5fda90ccfeabcae8793acd5cf",
+    "producer": "/root"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--project",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-action-portable-review-work",
+    "--frozen",
+    "python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-action-portable-review-work\\verify_action_choice.py",
+    "--output",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-action-portable-review-work\\fresh.json"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-action-portable-review-work",
+  "rc": 0,
+  "timeout": 60,
+  "elapsed": 7.722769899992272,
+  "environment": {
+    "UV_CACHE_DIR": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-action-portable-review-work\\uv-cache",
+    "UV_PROJECT_ENVIRONMENT": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-action-portable-review-work\\.venv",
+    "UV_PYTHON_INSTALL_DIR": "D:/uv-python"
+  }
+}

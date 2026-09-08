@@ -1,0 +1,18 @@
+﻿[
+    {
+        "path":  "astra-workload-family-work/proposal.md",
+        "sha256":  "ec1a46a65f569193de305ec446dfdc40033422bd0ceeac41cf0b8f8c180642c0"
+    },
+    {
+        "path":  "astra-workload-family-review-work/report.md",
+        "sha256":  "a7522a07fb83aa7ded1d543baf0df735499c5ab87c77481be2ca301db754615b"
+    },
+    {
+        "path":  "astra-uniform-noop-review-work/review.md",
+        "sha256":  "ef3022359a4883b8f07211b5b3baab6f3ed15fa05588d0b262d116425ef81624"
+    },
+    {
+        "path":  "astra-workload-effect-review-work/review.md",
+        "sha256":  "9988c53d13c275d8dd00a4c987cc89aea972014697d55efaa51239d5ebbb8d65"
+    }
+]

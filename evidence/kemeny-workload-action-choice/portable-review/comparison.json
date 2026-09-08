@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "fresh_byte_equality": true,
+  "existing_output_rc": 2,
+  "existing_output_unchanged": true,
+  "result_sha256": "42a1da543576b44036eb2b55521e0e873aa8825fdb6a2c7e53fdfac2efa886f1",
+  "attempts": [
+    {
+      "argv": [
+        "uv",
+        "run",
+        "--project",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\astra-action-portable-review-work",
+        "--frozen",
+        "python",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\astra-action-portable-review-work\\verify_action_choice.py",
+        "--output",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\astra-action-portable-review-work\\fresh.json"
+      ],
+      "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-action-portable-review-work",
+      "rc": 0,
+      "timeout": 60,
+      "elapsed": 7.722769899992272,
+      "environment": {
+        "UV_CACHE_DIR": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-action-portable-review-work\\uv-cache",
+        "UV_PROJECT_ENVIRONMENT": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-action-portable-review-work\\.venv",
+        "UV_PYTHON_INSTALL_DIR": "D:/uv-python"
+      }
+    },
+    {
+      "argv": [
+        "uv",
+        "run",
+        "--project",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\astra-action-portable-review-work",
+        "--frozen",
+        "python",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\astra-action-portable-review-work\\verify_action_choice.py",
+        "--output",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\astra-action-portable-review-work\\fresh.json"
+      ],
+      "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-action-portable-review-work",
+      "rc": 2,
+      "timeout": 60,
+      "elapsed": 0.8367134000291117,
+      "environment": {
+        "UV_CACHE_DIR": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-action-portable-review-work\\uv-cache",
+        "UV_PROJECT_ENVIRONMENT": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-action-portable-review-work\\.venv",
+        "UV_PYTHON_INSTALL_DIR": "D:/uv-python"
+      }
+    }
+  ]
+}

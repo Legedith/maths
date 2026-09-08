@@ -1,0 +1,3 @@
+# Frozen independent strength-rescue evaluator
+
+Only344,theta14/405, all16missing edges and t>=0. At most2logged60s runs. Reconstruct baseline inverse from grounded matrix and centering independently of author's full centered inversion; recompute r,s_theta,T_theta,m and every scalar objective. Verify derivative/minimum/limit identities analytically, compare author fields and all ties. Independently bound radicals by rational bisection, not author's integer-square-root scheme; prove strict class ordering and exact half-strength improvement. Reuse distinct counterexample audit for premise, no self-certification of earlier author packet. No extra graph/grid or public release gate.

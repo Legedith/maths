@@ -1,0 +1,3 @@
+# Frozen independent audit
+
+H1 actual no-action improvement contains the unequal volume factors m and m+1 and equals 2(1-theta)F/n. H2 independent spectral inverse plus deletion/insertion updates reconstruct all12 diagnostic rows and all five edge classes. H3 equal-family switch margin and opposite slopes equal the stated rational certificates and prove strict improvement on the entire admitted interval. Reuse independently accepted envelope. At most two logged60second uv evaluators, no expanded graph grid. First batch combines exact rational diagnostics and factored univariate identities. All other stages read-only; no Git. Initial proposal.md lookup failed because author uses report.md; no evaluator was involved.

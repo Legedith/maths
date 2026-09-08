@@ -1,0 +1,2382 @@
+{
+  "schema_version": "1.0",
+  "run_id": "kemeny-workload-action-choice-v1",
+  "objective": "Prove and independently certify the workload-dependent choice between a unit repair and no action, including the full equal-family guarantee, exact 344 no-action interval, and globally optimized variable-strength rescue at the counterexample workload.",
+  "created_at": "2026-09-08T18:13:02.839496Z",
+  "task_spec_artifact_id": "A001",
+  "evaluator_command": "uv run --project experiments/kemeny-workload-proof --frozen python experiments/kemeny-workload-proof/verify_action_choice.py --output work/kemeny-workload-action/check-01.json",
+  "artifacts": [
+    {
+      "id": "A001",
+      "kind": "spec",
+      "path": "docs/kemeny-workload-action-choice-contract.md",
+      "sha256": "a4fc61671a5890e8946d16acd0feef5638f516deba9405495e6d5e9e3ff13677",
+      "producer": "user-or-orchestrator"
+    },
+    {
+      "id": "A002",
+      "kind": "report",
+      "path": "evidence/kemeny-workload-action-choice/counter-author/batch2-plan.md",
+      "sha256": "edf42f0bcce111db4edbff179cf32514d4e77f2de015974702a1edb948e0c21a",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A003",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/counter-author/batch2-run.json",
+      "sha256": "e74fddd16d53adc7e58f0b6c7cf86af2456472df0286b45a54f32ec34b6be42d",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A004",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/counter-author/batch2-stderr.bin",
+      "sha256": "66fd377fd19c898ede985cbce51582629e26bd92536eddff358e86465ed01f23",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A005",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/counter-author/batch2-stdout.bin",
+      "sha256": "e27861c740589c534490d0dd5d638146233645258d06e0d9cf882b2e37d84c0f",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A006",
+      "kind": "code",
+      "path": "evidence/kemeny-workload-action-choice/counter-author/check.py",
+      "sha256": "837f76d418a37d13e68913f64f0963e846049a49915c97264aaba34826b102b1",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A007",
+      "kind": "code",
+      "path": "evidence/kemeny-workload-action-choice/counter-author/check2.py",
+      "sha256": "c1f826e7da82075b20db1b4a41ad2e9f6e2af053ac9fcba896c4c1e5905ec026",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A008",
+      "kind": "report",
+      "path": "evidence/kemeny-workload-action-choice/counter-author/contract.md",
+      "sha256": "283b875a85316fd0e586bcdeb9f3afffa486df4c545a8800c2d08a05c0a4f47d",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A009",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/counter-author/hashes.json",
+      "sha256": "cf79e46b5acefa828d8d8fca856cc69df405a39a2cad2c21143420edf9149eba",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A010",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/counter-author/input-hashes.json",
+      "sha256": "548e0d297eb311186b1eb756b751e8a419983d9a0c78afc453efd0cae67e47df",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A011",
+      "kind": "report",
+      "path": "evidence/kemeny-workload-action-choice/counter-author/proposal.md",
+      "sha256": "eab159dd5d789f9c32143a4ca7f2b10dfbfbf6699175441f0326ca2bf8596d09",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A012",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/counter-author/result.json",
+      "sha256": "7874e720961c529dcb85f7c265431a0654e68662dbd8a5ddd61e507f360e9fd3",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A013",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/counter-author/run.json",
+      "sha256": "621dd337d3960b673b2b0e8a65cc9030ed18bfbd6dea478295ddcd8200327af3",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A014",
+      "kind": "code",
+      "path": "evidence/kemeny-workload-action-choice/counter-author/run.py",
+      "sha256": "992cc9b52cbd12615ed59e6c477d403da0998190255a05024bedf777a8a82662",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A015",
+      "kind": "code",
+      "path": "evidence/kemeny-workload-action-choice/counter-author/run2.py",
+      "sha256": "b21ec4ec0a494db2d8d696fa5607028742d65630e2614e931d816f16af6ae72e",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A016",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/counter-author/status.json",
+      "sha256": "56deca31ff57a56b23354591d5bfc98ba7d52e927faef0cee9c171e510d1a8e6",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A017",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/counter-author/stderr.bin",
+      "sha256": "bfd3ceddc9c7b2c5dfc775ea7f86215b21768be701ebd361f3cf03d3faae403f",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A018",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/counter-author/stdout.bin",
+      "sha256": "f11ba843c4e54316798596d54a0fb6b934d9ef1e4f240f35bf43e7d6d6031389",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A019",
+      "kind": "code",
+      "path": "evidence/kemeny-workload-action-choice/counter-review/check.py",
+      "sha256": "241776bb05722a8338ecd572280111b0fe6625ba5b135c9e7158ff244da29f98",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A020",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/counter-review/hashes.json",
+      "sha256": "7f1fa4ac0b2d31a6de3c99e4478846085a83da6bff9d692dceaec413d63bd080",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A021",
+      "kind": "report",
+      "path": "evidence/kemeny-workload-action-choice/counter-review/plan.md",
+      "sha256": "b58d4f397a2da50b8a47092a50d2dc87d4ca74f6d46aa274075fcee5d3f3800b",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A022",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/counter-review/result.json",
+      "sha256": "6b48f3bd9521c08ab5db9fa3d31329c08835e5651873b0498b5238f29ba0b0e5",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A023",
+      "kind": "report",
+      "path": "evidence/kemeny-workload-action-choice/counter-review/review.md",
+      "sha256": "653a57b0703c36cd73bd4c077a24e0bdbbe4a262dde6420a7595e93dc21d9fb0",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A024",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/counter-review/run.json",
+      "sha256": "2ae3363e3692d5409c2e563deb3ce958214be29a65000d8c406089ff505bc3a9",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A025",
+      "kind": "code",
+      "path": "evidence/kemeny-workload-action-choice/counter-review/run.py",
+      "sha256": "945a36211934791be13cc96820c95d9ba22053ccb1fa161af247953bbc03a630",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A026",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/counter-review/stderr.bin",
+      "sha256": "0607e14c54e80d3051457ee3e9acffa08eb3b85b9b24e5568f7915886ca40e7e",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A027",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/counter-review/stdout.bin",
+      "sha256": "010680442c9024d724a682929fb404fd0ce30d1c13beaed59722a14cf463026e",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A028",
+      "kind": "report",
+      "path": "evidence/kemeny-workload-action-choice/equal-author/batch2-plan.md",
+      "sha256": "0ae95a5815fe54c2f2099e3f20a11e55a909ad01c896a9aa06ff90eec954bf2a",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A029",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/equal-author/batch2-run.json",
+      "sha256": "ba97aebf58d4b5cf899ff0ddae04a10db0c731d5d7df7554c53257a95c5b48f9",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A030",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/equal-author/batch2-stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A031",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/equal-author/batch2-stdout.bin",
+      "sha256": "a01d33ca876961189e4d0b93e14d80f8f37b7d97d19666abda28c4bea13de4e9",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A032",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/equal-author/batch2.json",
+      "sha256": "bce372d6d578a66c4217bd8be86913c3d04e3776c3e2d54344d14e74d1e8f612",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A033",
+      "kind": "code",
+      "path": "evidence/kemeny-workload-action-choice/equal-author/check.py",
+      "sha256": "bc566e5d643765fbf1e8309c3e1d76fe82863208362b4c6925a26f379ce3de97",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A034",
+      "kind": "code",
+      "path": "evidence/kemeny-workload-action-choice/equal-author/check2.py",
+      "sha256": "964ca72312904eece3856546ed820a1d2e42082d66bfabd2140bc9705255e5c2",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A035",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/equal-author/hashes.json",
+      "sha256": "7f911e1798acf9fad2b67d8e3ada59d522d956f1031226796a1dea6631859c0c",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A036",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/equal-author/input-hashes.json",
+      "sha256": "f011532555a9a30f2809f1d19759e82337662760b515a43700e4f70ef642b9bf",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A037",
+      "kind": "report",
+      "path": "evidence/kemeny-workload-action-choice/equal-author/plan.md",
+      "sha256": "5340d7c86d21a5bd72ceb7eb099c65f95520d43d12d75582d47d498072389f83",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A038",
+      "kind": "report",
+      "path": "evidence/kemeny-workload-action-choice/equal-author/report.md",
+      "sha256": "73d49ccd48da43e2c207ea16cb85ec611ef9dd98f772b708cbc8d809f285a94d",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A039",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/equal-author/result.json",
+      "sha256": "a566bb1fc92a2fc4d391a4c7e266a8a94399d6afdc4da6159bc73bfdfbc95a5c",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A040",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/equal-author/run.json",
+      "sha256": "10d77d9e0742d14fd3631301f659d695a698eec9ca228da5696527fb66308097",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A041",
+      "kind": "code",
+      "path": "evidence/kemeny-workload-action-choice/equal-author/run.py",
+      "sha256": "5a1891a0c76850729e13a0f360e27eee08976d705341a4c2485412cceec437a1",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A042",
+      "kind": "code",
+      "path": "evidence/kemeny-workload-action-choice/equal-author/run2.py",
+      "sha256": "1cd7fce08e91907ce41603c87050bfea0b062ad058f22b68f3c79f3ba2edc80a",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A043",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/equal-author/stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A044",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/equal-author/stdout.bin",
+      "sha256": "c2facbfceffa7edc0d85c9d6de3f0ca1b649dc5278ee13920d20459425036850",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A045",
+      "kind": "code",
+      "path": "evidence/kemeny-workload-action-choice/equal-review/check.py",
+      "sha256": "d0bf158b0d1eede1f09c8e3008de3611f591e34d6a9d96c3d042e4578ab597f6",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A046",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/equal-review/hashes.json",
+      "sha256": "f572218976d0b9eb4581c8af41214c73870a23d04898cd23e4c6c4905d9aa46a",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A047",
+      "kind": "report",
+      "path": "evidence/kemeny-workload-action-choice/equal-review/plan.md",
+      "sha256": "12488a990b7333000d285f40545fabec238b6e31ec4d15614d6f0ad0bae00923",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A048",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/equal-review/result.json",
+      "sha256": "8f49a1dbeda358c0a9e22817ca98a4e80ea882c45c2bb28c81bb2d4f4106df87",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A049",
+      "kind": "report",
+      "path": "evidence/kemeny-workload-action-choice/equal-review/review.md",
+      "sha256": "c837f8544d31717c6e6bd61a6c58afb3ad8e996a709dd8969023d2dab86c7fd3",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A050",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/equal-review/run.json",
+      "sha256": "aac2994d02253d6db8bb981dab45e22d8d784baf01bbc12d32b53a6fc6e575fd",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A051",
+      "kind": "code",
+      "path": "evidence/kemeny-workload-action-choice/equal-review/run.py",
+      "sha256": "945a36211934791be13cc96820c95d9ba22053ccb1fa161af247953bbc03a630",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A052",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/equal-review/stderr.bin",
+      "sha256": "5ca31f6dc1c2e75c655620c8083e23032d2c9b0b68b6769819f874d255bf50d1",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A053",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/equal-review/stdout.bin",
+      "sha256": "484bbe362c83bbf9d46fae8402d11ecc419e93c233817b9312ea077b2248b513",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A054",
+      "kind": "report",
+      "path": "evidence/kemeny-workload-action-choice/interval-author/proposal.md",
+      "sha256": "5b3e7ce7556d0b4015aadc87e75f5dd6958043c5fda90ccfeabcae8793acd5cf",
+      "producer": "/root"
+    },
+    {
+      "id": "A055",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/math-copy-manifest.json",
+      "sha256": "a12a7a47726e6eb7c65849d6e38cdf9156580c7fa17b44f64c075484bb843a82",
+      "producer": "/root"
+    },
+    {
+      "id": "A056",
+      "kind": "report",
+      "path": "evidence/kemeny-workload-action-choice/strength-author/batch2-plan.md",
+      "sha256": "ca8662befc809441bf0f93cf3903a0bc4ac1c706df138e7b86f3661606c63f97",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A057",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/strength-author/batch2-run.json",
+      "sha256": "987c5b4fe882bb3ef24505a181930bf9150c7b1198cf9c128ea07a504b3b42e1",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A058",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/strength-author/batch2-stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A059",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/strength-author/batch2-stdout.bin",
+      "sha256": "87411259ca2d09ea92d4629043d402f2350c12e9141868a878321347f9c81610",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A060",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/strength-author/batch2.json",
+      "sha256": "6d7028ceffb963503cc4e4c9c1e997398a872dac7a5c307d9c99491295f9546e",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A061",
+      "kind": "code",
+      "path": "evidence/kemeny-workload-action-choice/strength-author/check.py",
+      "sha256": "3e856dbe0f61f240c8365445e7de727ad221c2d704d9e9b3ff613438ee9259e6",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A062",
+      "kind": "code",
+      "path": "evidence/kemeny-workload-action-choice/strength-author/check2.py",
+      "sha256": "6fa5d3de71467cb6990f31d6ebd5c40750bf2bd5a50a301a59d6c572541328b8",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A063",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/strength-author/hashes.json",
+      "sha256": "2d6c70966aeb9d5d0e3279afbf44984b6c58c25fce95eb870a6d26033ac19c80",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A064",
+      "kind": "report",
+      "path": "evidence/kemeny-workload-action-choice/strength-author/plan.md",
+      "sha256": "306753413d15005ba02d6d5877414ee2e0403888ee0e2a170c05d272959c4b3a",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A065",
+      "kind": "report",
+      "path": "evidence/kemeny-workload-action-choice/strength-author/report.md",
+      "sha256": "83165e5bf7a62b84814a6b28ae69fad0adabdd73f4db3ffce9be30395d9e144e",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A066",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/strength-author/result.json",
+      "sha256": "ed3de8a5173f575f02b39a89b336888aba29f4d50da9a151a01dd9bcf5d8989e",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A067",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/strength-author/run.json",
+      "sha256": "c2edc7f41db4673747e2390e6e93c8d6f4e97cb41ae010464ec9c28c0752478f",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A068",
+      "kind": "code",
+      "path": "evidence/kemeny-workload-action-choice/strength-author/run.py",
+      "sha256": "adbacfcab6f1d136108ae484c415462cd6f3feb9b638fb1c193b69f04358f8d7",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A069",
+      "kind": "code",
+      "path": "evidence/kemeny-workload-action-choice/strength-author/run2.py",
+      "sha256": "1cd7fce08e91907ce41603c87050bfea0b062ad058f22b68f3c79f3ba2edc80a",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A070",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/strength-author/stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A071",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/strength-author/stdout.bin",
+      "sha256": "0dca2d8971c23e31caad544665444306c901bd9e7137ddb10dfc61c73ac518e9",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A072",
+      "kind": "code",
+      "path": "evidence/kemeny-workload-action-choice/strength-review/check.py",
+      "sha256": "50ebf8d23af8da48eef1bbdf9050cad453413a6d68429531c09976c8f8d41899",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A073",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/strength-review/hashes.json",
+      "sha256": "ad3a98ef874186b23e22acd8b687816814d3cce15fb5540cbad721d108a4f632",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A074",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/strength-review/input-hashes.json",
+      "sha256": "3d8051c07974830163e67e1ada9ff253058e8f88968e221f1ec033d0fb2ee1fe",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A075",
+      "kind": "report",
+      "path": "evidence/kemeny-workload-action-choice/strength-review/plan.md",
+      "sha256": "6941d3eb325c6e39e300b0ea9d0e1be0bd75c441e18ae29060723edee2990746",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A076",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/strength-review/result.json",
+      "sha256": "2b03b177219b299c5fe6ed1a516bc1c99b1a6478e011d170052bef69d1ff6adb",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A077",
+      "kind": "report",
+      "path": "evidence/kemeny-workload-action-choice/strength-review/review.md",
+      "sha256": "31d4cbaa231bf3002d6d92110d8051500fb82d43e6992145374f035b8d98b643",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A078",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/strength-review/run.json",
+      "sha256": "5c516973c05b91cd07c0ad419ee9129fa8b1ee101a7b9712f2293146d311e88e",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A079",
+      "kind": "code",
+      "path": "evidence/kemeny-workload-action-choice/strength-review/run.py",
+      "sha256": "992cc9b52cbd12615ed59e6c477d403da0998190255a05024bedf777a8a82662",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A080",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/strength-review/stderr.bin",
+      "sha256": "e0dbc31f51504c353da9204938c87f10c4d45c452aff6aa8bb405145b6a78113",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A081",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/strength-review/stdout.bin",
+      "sha256": "23d2fb9e4b05116077b3d0605cfeae07589b0ab9076d14fb6042fdeaf3f7432d",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A082",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/strength-review/verdict.json",
+      "sha256": "b95b5f4810c1726e89d3d1563ffe1f67355fec3ba35dea18df6e00a420c8660e",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A083",
+      "kind": "report",
+      "path": "docs/kemeny-workload-robustness.md",
+      "sha256": "7e2e9b6ba1b72ea090ce5c4208660b40842e6a5cae94155d9b897e6b227e1888",
+      "producer": "/root"
+    },
+    {
+      "id": "A084",
+      "kind": "report",
+      "path": "evidence/kemeny-workload-robustness/envelope-review/review.md",
+      "sha256": "edaf10d12ad3de86844b22697c1aae06ce662fb5c59e2b410e2b302c009d7671",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A085",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-robustness/envelope-review/result.json",
+      "sha256": "bb857b7c59fc0ba541d974d875c8809eb97187064209d471cf868a22fdbf3682",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A086",
+      "kind": "source",
+      "path": "evidence/kemeny-workload-robustness/source/README.md",
+      "sha256": "065b0015f61c97e2dc5579878a3937cd24419fb0dee1f76cfdd490f1191d52ac",
+      "producer": "/root"
+    },
+    {
+      "id": "A087",
+      "kind": "source",
+      "path": "evidence/kemeny-workload-robustness/source/source-notes.md",
+      "sha256": "bf1b6288d81911328c97b73cd8d06cd9b08c279b6859895bcb6ff55e5be07039",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A088",
+      "kind": "report",
+      "path": "evidence/kemeny-workload-robustness/bound-review/source-review.md",
+      "sha256": "a871ece16c42561f5f6dddd47641530eaf7d9f8499f2eeca4c5ca0b17d12e1a6",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A089",
+      "kind": "code",
+      "path": "experiments/kemeny-three-part-proof/run_logged.py",
+      "sha256": "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6",
+      "producer": "/root"
+    },
+    {
+      "id": "A090",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/implementation/hashes.json",
+      "sha256": "1f5d77b83831b47a9df2871feef2f8bfd087812041dce86baeeefa2f1aa55057",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A091",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/implementation/input-hashes.json",
+      "sha256": "c6f0186aef10f17282618602d39a209a4a8429ff7218ca5e61adfa82233e4080",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A092",
+      "kind": "report",
+      "path": "evidence/kemeny-workload-action-choice/implementation/packaging-note.md",
+      "sha256": "69558cdd54276743b3f9c53a9b9ca3af22a4003e3b1c86877b2ecc552f451e81",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A093",
+      "kind": "report",
+      "path": "evidence/kemeny-workload-action-choice/implementation/plan.md",
+      "sha256": "65a3fb50284d0c3528c654e24e09b21de4d287edcd5d2b60dd3014b9644c38b1",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A094",
+      "kind": "code",
+      "path": "evidence/kemeny-workload-action-choice/implementation/pyproject.toml",
+      "sha256": "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A095",
+      "kind": "report",
+      "path": "evidence/kemeny-workload-action-choice/implementation/README.md",
+      "sha256": "c670f8625998d86a23015cd7affff5bff51b45c9bb2fbfe55293df380361514a",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A096",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/implementation/result.json",
+      "sha256": "42a1da543576b44036eb2b55521e0e873aa8825fdb6a2c7e53fdfac2efa886f1",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A097",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/implementation/run.json",
+      "sha256": "3340937190a50edfe79884711669c1d63e3d4bb2a11b7461d2d778e470f06666",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A098",
+      "kind": "code",
+      "path": "evidence/kemeny-workload-action-choice/implementation/run.py",
+      "sha256": "c34ca797724971c1219ed6453849dc1789d3c51b92f26df5e3d0140375b20f00",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A099",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/implementation/stderr.bin",
+      "sha256": "bcc8e590e9b6e3072f3ec81cca1765b60b263dd9406332addd79fbe5b37ddfe6",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A100",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/implementation/stdout.bin",
+      "sha256": "b22d860de983158c5409335ee0ececbb53ff940994cff76ddb01d18c93f833cb",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A101",
+      "kind": "code",
+      "path": "evidence/kemeny-workload-action-choice/implementation/uv.lock",
+      "sha256": "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A102",
+      "kind": "code",
+      "path": "evidence/kemeny-workload-action-choice/implementation/verify_action_choice.py",
+      "sha256": "fff7fffc1453b00e9d4d2cca7e815e088f0a5da793e7da0f884ba762ce8f21ce",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A103",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/implementation-copy-manifest.json",
+      "sha256": "9682c11f4c200c2aab7383ce39be78efc3c0dc32cfc604fde49c646a4c0136f5",
+      "producer": "/root"
+    },
+    {
+      "id": "A104",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/integration/check-01.json",
+      "sha256": "42a1da543576b44036eb2b55521e0e873aa8825fdb6a2c7e53fdfac2efa886f1",
+      "producer": "/root"
+    },
+    {
+      "id": "A105",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/integration/comparison.json",
+      "sha256": "507507d1da9f8b3ea94f22403253121052bd003830174ca9e67fc7b53226b793",
+      "producer": "/root"
+    },
+    {
+      "id": "A106",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/integration/logs/attempt-action-01.json",
+      "sha256": "17cc8c604ce2de8b365a71eefcf8e7550db22d2e04a227af933cdaf6046eea75",
+      "producer": "/root"
+    },
+    {
+      "id": "A107",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/integration/logs/attempt-action-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A108",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/integration/logs/attempt-action-01.stdout.bin",
+      "sha256": "b22d860de983158c5409335ee0ececbb53ff940994cff76ddb01d18c93f833cb",
+      "producer": "/root"
+    },
+    {
+      "id": "A109",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/integration/logs/attempts.jsonl",
+      "sha256": "cd61fe738c68e2900aae9d1e5902f81341ff0ea95a4e191b041e061de2a08a2b",
+      "producer": "/root"
+    },
+    {
+      "id": "A110",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/portable-review/attempt1.json",
+      "sha256": "70dd965a6e5f0156218398b1b17c7805d5fdd90be36ccc0c6c46a4469cda7df9",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A111",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/portable-review/attempt1.stderr.bin",
+      "sha256": "c1efb322f34b32aff85f4e00b17f661f0e7f83bc5e0f234113b2c5a382058df4",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A112",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/portable-review/attempt1.stdout.bin",
+      "sha256": "b22d860de983158c5409335ee0ececbb53ff940994cff76ddb01d18c93f833cb",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A113",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/portable-review/attempt2.json",
+      "sha256": "89ccbc0fdd8da681b0dfbb3e94e78b5433e1b7474325278265d698355e071a47",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A114",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/portable-review/attempt2.stderr.bin",
+      "sha256": "9f2fe010f5427d6371b9bb6395695906b24d5b9141074acefae97501087fb6a1",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A115",
+      "kind": "log",
+      "path": "evidence/kemeny-workload-action-choice/portable-review/attempt2.stdout.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A116",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/portable-review/comparison.json",
+      "sha256": "e6d4a094c298ba3c3c4465a3e8509f605634032ee03e311fd41dfc637ff78f33",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A117",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/portable-review/fresh.json",
+      "sha256": "42a1da543576b44036eb2b55521e0e873aa8825fdb6a2c7e53fdfac2efa886f1",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A118",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/portable-review/hashes.json",
+      "sha256": "6099deaff94c4886cbe5b8b04595465876182e1f912b80f117bed56d655cff1c",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A119",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/portable-review/input-hashes.json",
+      "sha256": "67884751abea8737208692e840d8a4546532e756cbff702997b772e0ad920951",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A120",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/portable-review/manifest-check.json",
+      "sha256": "0e379e59980644ef48d2b85448e69d1c054360faff411cc987e6ad3eb59e5cef",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A121",
+      "kind": "report",
+      "path": "evidence/kemeny-workload-action-choice/portable-review/plan.md",
+      "sha256": "789fd0fc65401b99278767045578b65d58a6911baecb60948bb55348e393f205",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A122",
+      "kind": "code",
+      "path": "evidence/kemeny-workload-action-choice/portable-review/pyproject.toml",
+      "sha256": "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A123",
+      "kind": "report",
+      "path": "evidence/kemeny-workload-action-choice/portable-review/review.md",
+      "sha256": "974f9f35e61c8d96848603bb16c7af916b22cce70a5b01b6b66aa91fb113a64f",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A124",
+      "kind": "code",
+      "path": "evidence/kemeny-workload-action-choice/portable-review/run-review.py",
+      "sha256": "a9d5c0374646d85e5c56939868f1b4de5131c6e383098214474719a265bf643f",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A125",
+      "kind": "code",
+      "path": "evidence/kemeny-workload-action-choice/portable-review/uv.lock",
+      "sha256": "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A126",
+      "kind": "code",
+      "path": "evidence/kemeny-workload-action-choice/portable-review/verify_action_choice.py",
+      "sha256": "fff7fffc1453b00e9d4d2cca7e815e088f0a5da793e7da0f884ba762ce8f21ce",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A127",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/source/author-input-hashes.json",
+      "sha256": "8354ddb37053a652c84bdb782bcf2dc6e90c5dc57a180a1a9e78539448f031d0",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A128",
+      "kind": "source",
+      "path": "evidence/kemeny-workload-action-choice/source/notes.md",
+      "sha256": "c99b12ff4196b2c44888585828466e3ffa60a70d7c91993129b3add79927a89b",
+      "producer": "/root"
+    },
+    {
+      "id": "A129",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/source/requests.json",
+      "sha256": "7a99376c252cffba66e7ed8cd4e122c9df2b3319b2a2cf91323f504303c5473a",
+      "producer": "/root"
+    },
+    {
+      "id": "A130",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/source-review/hashes.json",
+      "sha256": "6404385fcb33a274069670af278c7bf6d1459dd6737aaa6b04fcd62ffecdeacc",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A131",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/source-review/input-checks.json",
+      "sha256": "5ca28fa83705e4b3fcda22ba54e3fe68b252a2574d4e648719d64ece90b70fdc",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A132",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/source-review/request-counts.json",
+      "sha256": "ac895021f446657cca6cf896a5f28c2cf4f74695fd084a2cae23911e128bbdaf",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A133",
+      "kind": "report",
+      "path": "evidence/kemeny-workload-action-choice/source-review/review.md",
+      "sha256": "73dd8717c35b720961acdced0edd71de0c14ce14478cd3aa4b0612fbf5c50750",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A134",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/source-review/verdict.json",
+      "sha256": "b5f8ae0bcbcc6f696881fa1538603604fab1386d04eb8f28566fe7920ca89b2f",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A135",
+      "kind": "code",
+      "path": "experiments/kemeny-workload-proof/verify_action_choice.py",
+      "sha256": "fff7fffc1453b00e9d4d2cca7e815e088f0a5da793e7da0f884ba762ce8f21ce",
+      "producer": "/root"
+    },
+    {
+      "id": "A136",
+      "kind": "code",
+      "path": "experiments/kemeny-workload-proof/pyproject.toml",
+      "sha256": "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f",
+      "producer": "/root"
+    },
+    {
+      "id": "A137",
+      "kind": "code",
+      "path": "experiments/kemeny-workload-proof/uv.lock",
+      "sha256": "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d",
+      "producer": "/root"
+    },
+    {
+      "id": "A138",
+      "kind": "code",
+      "path": "experiments/kemeny-workload-proof/.python-version",
+      "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d",
+      "producer": "/root"
+    },
+    {
+      "id": "A139",
+      "kind": "report",
+      "path": "docs/kemeny-workload-action-choice.md",
+      "sha256": "3cdbdeac5b7d92fc73cb516be5b83203cb0278bd31bbb63aee409da92f9cd7fc",
+      "producer": "/root"
+    },
+    {
+      "id": "A140",
+      "kind": "report",
+      "path": "experiments/kemeny-workload-proof/README-action-choice.md",
+      "sha256": "e1a2ecee46e8b8468d6fd4a3bf64f3af443863ff8f11ef551d108965c6ada82b",
+      "producer": "/root"
+    },
+    {
+      "id": "A141",
+      "kind": "report",
+      "path": "evidence/kemeny-workload-action-choice/README.md",
+      "sha256": "13e5a80bcd7daed41ac8f848aa8340e399e291bf4ffb78319aff585410a732d8",
+      "producer": "/root"
+    },
+    {
+      "id": "A142",
+      "kind": "report",
+      "path": "README.md",
+      "sha256": "48d24e89f4ba98d8329f221666e6454c0d31fd31209e227a2d9709afa224904a",
+      "producer": "/root"
+    },
+    {
+      "id": "A143",
+      "kind": "code",
+      "path": ".github/workflows/kemeny-three-part.yml",
+      "sha256": "49c28aa176afff809e26e603ab4c3d9cefc090b7a25540e3540820168e97a2bd",
+      "producer": "/root"
+    },
+    {
+      "id": "A144",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/final-review/hashes.json",
+      "sha256": "2a2460a3630b65f8f0e76477a75067053f4e925a181c2762ffb7813ececf88a0",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A145",
+      "kind": "report",
+      "path": "evidence/kemeny-workload-action-choice/final-review/review.md",
+      "sha256": "6d1afac4af7c131f5ec0ab0239ecebf2f0e5b6e7b58945d32d2925411daed2c9",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A146",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/final-review/static-check.json",
+      "sha256": "63abfcbae550b4fff70a5e50d935ec97622ad38467f0c3ff65ce18ad0c160036",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A147",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/final-review/verdict.json",
+      "sha256": "156d90ca5d03f999220e2dba82515eb6a03d869cb7948d86404952e1078e5f14",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A148",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-action-choice/final-review-copy-manifest.json",
+      "sha256": "1bce6ebf656229543dfa7c5dacdde9dc1db46343596842f032b9187cbebf06cc",
+      "producer": "/root"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C001",
+      "type": "methodological",
+      "statement": "Fixed iid hub-mixture baseline versus insertion requires the actual conductance change: baseline minus unit insertion is2(1-theta)F/n. The no-action volume cannot be canceled.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A033",
+          "locator": "line:1"
+        },
+        {
+          "artifact_id": "A049",
+          "locator": "contains:These factors cannot be canceled"
+        }
+      ]
+    },
+    {
+      "id": "C002",
+      "type": "numerical",
+      "statement": "The independent equal-family audit reconstructs12 diagnostic rows and verifies the exact switch margins/slopes with a strictly positive shifted polynomial.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A048",
+          "locator": "json:",
+          "expected": {
+            "status": "PASS",
+            "diagnostic_rows": [
+              {
+                "parts": [
+                  3,
+                  3,
+                  3
+                ],
+                "theta": "0",
+                "all_values_equal": true
+              },
+              {
+                "parts": [
+                  3,
+                  3,
+                  3
+                ],
+                "theta": "1/10",
+                "all_values_equal": true
+              },
+              {
+                "parts": [
+                  3,
+                  3,
+                  3
+                ],
+                "theta": "1/2",
+                "all_values_equal": true
+              },
+              {
+                "parts": [
+                  3,
+                  3,
+                  3
+                ],
+                "theta": "9/10",
+                "all_values_equal": true
+              },
+              {
+                "parts": [
+                  3,
+                  3,
+                  4
+                ],
+                "theta": "0",
+                "all_values_equal": true
+              },
+              {
+                "parts": [
+                  3,
+                  3,
+                  4
+                ],
+                "theta": "1/10",
+                "all_values_equal": true
+              },
+              {
+                "parts": [
+                  3,
+                  3,
+                  4
+                ],
+                "theta": "1/2",
+                "all_values_equal": true
+              },
+              {
+                "parts": [
+                  3,
+                  3,
+                  4
+                ],
+                "theta": "9/10",
+                "all_values_equal": true
+              },
+              {
+                "parts": [
+                  3,
+                  3,
+                  100
+                ],
+                "theta": "0",
+                "all_values_equal": true
+              },
+              {
+                "parts": [
+                  3,
+                  3,
+                  100
+                ],
+                "theta": "1/10",
+                "all_values_equal": true
+              },
+              {
+                "parts": [
+                  3,
+                  3,
+                  100
+                ],
+                "theta": "1/2",
+                "all_values_equal": true
+              },
+              {
+                "parts": [
+                  3,
+                  3,
+                  100
+                ],
+                "theta": "9/10",
+                "all_values_equal": true
+              }
+            ],
+            "symbolic_identities": 4,
+            "switch_positive_shift_coefficients": [
+              "18",
+              "855",
+              "10701",
+              "61221",
+              "182100",
+              "275302",
+              "167834"
+            ],
+            "sympy": "1.14.0"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C003",
+      "type": "conclusion",
+      "statement": "For every integer a=b=c>=3 and0<=theta<1, the best missing unit insertion strictly improves expected hitting time over no action. All candidate ties and the workload switch are included; theta1 is excluded.",
+      "status": "supported",
+      "supports": [
+        {
+          "claim_id": "C001"
+        },
+        {
+          "claim_id": "C002"
+        },
+        {
+          "artifact_id": "A049",
+          "locator": "contains:Both margins attain"
+        }
+      ]
+    },
+    {
+      "id": "C004",
+      "type": "numerical",
+      "statement": "Independent reconstruction for344 verifies the exact witness and all16candidate lines: at theta14/405 every unit insertion is worse than no action, with minimum excess7429/11809800 and13best insertion ties.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A022",
+          "locator": "json:",
+          "expected": {
+            "status": "PASS",
+            "baseline_trace": "985/792",
+            "baseline_hh": "269/3168",
+            "matrices": 17,
+            "rows": [
+              {
+                "edge": [
+                  0,
+                  1
+                ],
+                "margin": "-30887*theta/32340 - 3581/48510",
+                "objective_at_tau": "9940143151/964467000"
+              },
+              {
+                "edge": [
+                  0,
+                  2
+                ],
+                "margin": "-30887*theta/32340 - 3581/48510",
+                "objective_at_tau": "9940143151/964467000"
+              },
+              {
+                "edge": [
+                  0,
+                  11
+                ],
+                "margin": "277*theta/66 - 59/396",
+                "objective_at_tau": "20253409/1968300"
+              },
+              {
+                "edge": [
+                  1,
+                  2
+                ],
+                "margin": "-269*theta/264 - 169/792",
+                "objective_at_tau": "894559907/86605200"
+              },
+              {
+                "edge": [
+                  3,
+                  4
+                ],
+                "margin": "31/990 - 269*theta/264",
+                "objective_at_tau": "20253409/1968300"
+              },
+              {
+                "edge": [
+                  3,
+                  5
+                ],
+                "margin": "31/990 - 269*theta/264",
+                "objective_at_tau": "20253409/1968300"
+              },
+              {
+                "edge": [
+                  3,
+                  6
+                ],
+                "margin": "31/990 - 269*theta/264",
+                "objective_at_tau": "20253409/1968300"
+              },
+              {
+                "edge": [
+                  4,
+                  5
+                ],
+                "margin": "31/990 - 269*theta/264",
+                "objective_at_tau": "20253409/1968300"
+              },
+              {
+                "edge": [
+                  4,
+                  6
+                ],
+                "margin": "31/990 - 269*theta/264",
+                "objective_at_tau": "20253409/1968300"
+              },
+              {
+                "edge": [
+                  5,
+                  6
+                ],
+                "margin": "31/990 - 269*theta/264",
+                "objective_at_tau": "20253409/1968300"
+              },
+              {
+                "edge": [
+                  7,
+                  8
+                ],
+                "margin": "31/990 - 269*theta/264",
+                "objective_at_tau": "20253409/1968300"
+              },
+              {
+                "edge": [
+                  7,
+                  9
+                ],
+                "margin": "31/990 - 269*theta/264",
+                "objective_at_tau": "20253409/1968300"
+              },
+              {
+                "edge": [
+                  7,
+                  10
+                ],
+                "margin": "31/990 - 269*theta/264",
+                "objective_at_tau": "20253409/1968300"
+              },
+              {
+                "edge": [
+                  8,
+                  9
+                ],
+                "margin": "31/990 - 269*theta/264",
+                "objective_at_tau": "20253409/1968300"
+              },
+              {
+                "edge": [
+                  8,
+                  10
+                ],
+                "margin": "31/990 - 269*theta/264",
+                "objective_at_tau": "20253409/1968300"
+              },
+              {
+                "edge": [
+                  9,
+                  10
+                ],
+                "margin": "31/990 - 269*theta/264",
+                "objective_at_tau": "20253409/1968300"
+              }
+            ],
+            "winners_at_tau": [
+              [
+                0,
+                11
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                5
+              ],
+              [
+                3,
+                6
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                4,
+                6
+              ],
+              [
+                5,
+                6
+              ],
+              [
+                7,
+                8
+              ],
+              [
+                7,
+                9
+              ],
+              [
+                7,
+                10
+              ],
+              [
+                8,
+                9
+              ],
+              [
+                8,
+                10
+              ],
+              [
+                9,
+                10
+              ]
+            ],
+            "interval": [
+              "124/4035",
+              "59/1662"
+            ],
+            "baseline_at_tau": "4860521/472392",
+            "best_at_tau": "20253409/1968300",
+            "excess": "7429/11809800",
+            "sympy": "1.14.0"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C005",
+      "type": "conclusion",
+      "statement": "Allowing no action on344 yields the full policy: all B/C pairs below124/4035, union with no action at that endpoint, uniquely no action until59/1662, union with restoration there, and unique restoration afterward for theta<1.",
+      "status": "supported",
+      "supports": [
+        {
+          "claim_id": "C001"
+        },
+        {
+          "claim_id": "C004"
+        },
+        {
+          "artifact_id": "A054",
+          "locator": "contains:Their zeros are"
+        },
+        {
+          "artifact_id": "A023",
+          "locator": "line:1"
+        }
+      ]
+    },
+    {
+      "id": "C006",
+      "type": "methodological",
+      "statement": "For each edge, fixed-workload strength optimization has derivative numerator A+B(2t+rt^2), A=Ttheta-m*s_theta and B=r*Ttheta-s_theta>0. Exact signs, unique positive stationary roots where applicable, t0 and divergence at infinity establish global minima.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A062",
+          "locator": "line:1"
+        },
+        {
+          "artifact_id": "A077",
+          "locator": "contains:For A>=0"
+        }
+      ]
+    },
+    {
+      "id": "C007",
+      "type": "numerical",
+      "statement": "The independent344theta14/405 strength audit verifies all16edges, exact rational square-root enclosures and the half-strength improvement117691/11809800.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A076",
+          "locator": "json:",
+          "expected": {
+            "status": "pass",
+            "candidate_count": 16,
+            "m": "50",
+            "Ttheta": "12431/9720",
+            "factor": "391/2430",
+            "class_bounds": [
+              {
+                "edges": [
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    2
+                  ]
+                ],
+                "interval": [
+                  "386360470701564740188303/6043684332943316090880",
+                  "24727070124900143383959607/386795797308372229816320"
+                ],
+                "t_interval": [
+                  "56540185759018860532785/224169517727330936553472",
+                  "904642972144301783246661/3586712283637294984855552"
+                ]
+              },
+              {
+                "edges": [
+                  [
+                    0,
+                    11
+                  ]
+                ],
+                "interval": [
+                  "93224668899100413050167/1459166279268040704000",
+                  "23306167224775103274793/364791569817010176000"
+                ],
+                "t_interval": [
+                  "982699020508447335487/2108405201549771407360",
+                  "178672549183354062787/383346400281776619520"
+                ]
+              },
+              {
+                "edges": [
+                  [
+                    1,
+                    2
+                  ]
+                ],
+                "interval": [
+                  "62155/972",
+                  "62155/972"
+                ],
+                "t_interval": [
+                  "0",
+                  "0"
+                ]
+              },
+              {
+                "edges": [
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    3,
+                    6
+                  ],
+                  [
+                    4,
+                    5
+                  ],
+                  [
+                    4,
+                    6
+                  ],
+                  [
+                    5,
+                    6
+                  ],
+                  [
+                    7,
+                    8
+                  ],
+                  [
+                    7,
+                    9
+                  ],
+                  [
+                    7,
+                    10
+                  ],
+                  [
+                    8,
+                    9
+                  ],
+                  [
+                    8,
+                    10
+                  ],
+                  [
+                    9,
+                    10
+                  ]
+                ],
+                "interval": [
+                  "2796487077903377870381/43774988378041221120",
+                  "699121769475844467899/10943747094510305280"
+                ],
+                "t_interval": [
+                  "750902704042130731277/1616395949458799460352",
+                  "3003610816168522953053/6465583797835197841408"
+                ]
+              }
+            ],
+            "half_difference": "-117691/11809800",
+            "optimal_edges": [
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                5
+              ],
+              [
+                3,
+                6
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                4,
+                6
+              ],
+              [
+                5,
+                6
+              ],
+              [
+                7,
+                8
+              ],
+              [
+                7,
+                9
+              ],
+              [
+                7,
+                10
+              ],
+              [
+                8,
+                9
+              ],
+              [
+                8,
+                10
+              ],
+              [
+                9,
+                10
+              ]
+            ],
+            "optimal_t": "-4 + 9*sqrt(483690)/1402",
+            "hash_count": 15,
+            "sympy": "1.14.0"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C008",
+      "type": "conclusion",
+      "statement": "At344theta14/405, the complete global optimum over no action or one missing edge of any strength is exactly all12internal B/C pairs, each at the unique strength4(sqrt(27945/22432)-1) in(0,1). Optimized restoration and every other edge are strictly worse.",
+      "status": "supported",
+      "supports": [
+        {
+          "claim_id": "C006"
+        },
+        {
+          "claim_id": "C007"
+        },
+        {
+          "artifact_id": "A077",
+          "locator": "contains:The global optimum set is exactly"
+        }
+      ]
+    },
+    {
+      "id": "C009",
+      "type": "methodological",
+      "statement": "The unequal universal no-action hypothesis is refuted, not proved by its failed symbolic attempts. Timeout and positivity-assertion failure remain frozen; the hand-derived counterexample and independent successful audit are separate evidence.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A013",
+          "locator": "line:1"
+        },
+        {
+          "artifact_id": "A003",
+          "locator": "line:1"
+        },
+        {
+          "artifact_id": "A016",
+          "locator": "line:1"
+        },
+        {
+          "artifact_id": "A023",
+          "locator": "line:1"
+        }
+      ]
+    },
+    {
+      "id": "C010",
+      "type": "citation",
+      "statement": "Established results distinguish arithmetic-average hitting from stationary-target Kemeny, retain total conductance in commute bounds, and prove shortcut monotonicity only for a distinct absorbing-group objective with restricted additions. Their inspected statements do not supply the current claims.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A128",
+          "locator": "contains:Corollary4.3"
+        },
+        {
+          "artifact_id": "A128",
+          "locator": "contains:Theorem1.2"
+        },
+        {
+          "artifact_id": "A128",
+          "locator": "contains:Observations2-3"
+        },
+        {
+          "artifact_id": "A133",
+          "locator": "line:1"
+        }
+      ]
+    },
+    {
+      "id": "C011",
+      "type": "numerical",
+      "statement": "The canonical portable output matches the worker and distinct independent replay byte for byte, with all five full positive coefficient records, all16candidate records and12optimal edges.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A105",
+          "locator": "json:/byte_identical_to_worker_and_independent_replay",
+          "expected": true
+        },
+        {
+          "artifact_id": "A104",
+          "locator": "json:/equal_family",
+          "expected": {
+            "negative_incident_slope": {
+              "coefficients_descending": {
+                "denominator": [
+                  "216",
+                  "4284",
+                  "35262",
+                  "154260",
+                  "378438",
+                  "493812",
+                  "267840"
+                ],
+                "numerator": [
+                  "216",
+                  "4230",
+                  "34395",
+                  "148731",
+                  "360921",
+                  "466232",
+                  "250576"
+                ]
+              },
+              "formula": "(216*a**6 + 342*a**5 + 105*a**4 + 51*a**3 + 12*a**2 + 5*a + 1)/(6*a**2*(3*a + 1)*(12*a**3 + 18*a**2 + 3*a + 1))",
+              "shift": "a=x+3, x>=0"
+            },
+            "restore_slope": {
+              "coefficients_descending": {
+                "denominator": [
+                  "18",
+                  "168",
+                  "522",
+                  "540"
+                ],
+                "numerator": [
+                  "18",
+                  "231",
+                  "1119",
+                  "2419",
+                  "1964"
+                ]
+              },
+              "formula": "(18*a**4 + 15*a**3 + 12*a**2 - 2*a - 1)/(6*a**2*(3*a + 1))",
+              "shift": "a=x+3, x>=0"
+            },
+            "switch_margin": {
+              "coefficients_descending": {
+                "denominator": [
+                  "216",
+                  "5220",
+                  "53898",
+                  "308283",
+                  "1055112",
+                  "2161143",
+                  "2453220",
+                  "1190700"
+                ],
+                "numerator": [
+                  "18",
+                  "855",
+                  "10701",
+                  "61221",
+                  "182100",
+                  "275302",
+                  "167834"
+                ]
+              },
+              "formula": "(18*a**6 + 531*a**5 + 306*a**4 + 39*a**3 - 15*a**2 - 8*a - 1)/(3*a**2*(2*a + 1)**2*(2*a + 3)*(3*a + 1)**2)",
+              "shift": "a=x+3, x>=0"
+            },
+            "threshold": {
+              "coefficients_descending": {
+                "denominator": [
+                  "24",
+                  "356",
+                  "1970",
+                  "4823",
+                  "4410"
+                ],
+                "numerator": [
+                  "10",
+                  "71",
+                  "153",
+                  "92"
+                ]
+              },
+              "formula": "(a - 2)*(10*a**2 + a - 1)/((2*a + 1)**2*(2*a + 3)*(3*a + 1))",
+              "shift": "a=x+3, x>=0"
+            },
+            "threshold_complement": {
+              "coefficients_descending": {
+                "denominator": [
+                  "24",
+                  "356",
+                  "1970",
+                  "4823",
+                  "4410"
+                ],
+                "numerator": [
+                  "24",
+                  "346",
+                  "1899",
+                  "4670",
+                  "4318"
+                ]
+              },
+              "formula": "(24*a**4 + 58*a**3 + 81*a**2 + 26*a + 1)/((2*a + 1)**2*(2*a + 3)*(3*a + 1))",
+              "shift": "a=x+3, x>=0"
+            }
+          }
+        },
+        {
+          "artifact_id": "A104",
+          "locator": "json:/finite_graph/candidates",
+          "expected": [
+            {
+              "A": "-3821/26730",
+              "B": "66191/240570",
+              "edge": [
+                0,
+                1
+              ],
+              "infinite_linear_coefficient": "25880681/138765150",
+              "minimum": "391*sqrt(2382039213378)/362331225 + 224899406909/26087848200",
+              "minimum_bounds": [
+                "2534482750691332865046701594801293/246392759899742409445515617894400",
+                "10137931002765331460186811035317237/985571039598969637782062471577600"
+              ],
+              "r": "47/198",
+              "radicand": "1635789/1456202",
+              "s_theta": "2027/71280",
+              "strength_bounds": [
+                "118573363644897921917778842715/470117552440907528254986911744",
+                "948586909159183375342245463821/3760940419527260226039895293952"
+              ],
+              "tstar": "-198/47 + 9*sqrt(2382039213378)/3110977",
+              "unit_margin": "-30887*theta/32340 - 3581/48510"
+            },
+            {
+              "A": "-3821/26730",
+              "B": "66191/240570",
+              "edge": [
+                0,
+                2
+              ],
+              "infinite_linear_coefficient": "25880681/138765150",
+              "minimum": "391*sqrt(2382039213378)/362331225 + 224899406909/26087848200",
+              "minimum_bounds": [
+                "2534482750691332865046701594801293/246392759899742409445515617894400",
+                "10137931002765331460186811035317237/985571039598969637782062471577600"
+              ],
+              "r": "47/198",
+              "radicand": "1635789/1456202",
+              "s_theta": "2027/71280",
+              "strength_bounds": [
+                "118573363644897921917778842715/470117552440907528254986911744",
+                "948586909159183375342245463821/3760940419527260226039895293952"
+              ],
+              "tstar": "-198/47 + 9*sqrt(2382039213378)/3110977",
+              "unit_margin": "-30887*theta/32340 - 3581/48510"
+            },
+            {
+              "A": "-6821/26730",
+              "B": "2527/9720",
+              "edge": [
+                0,
+                11
+              ],
+              "infinite_linear_coefficient": "10868627/59049000",
+              "minimum": "81719*sqrt(399)/911250 + 835421939/98415000",
+              "minimum_bounds": [
+                "9555370453119339466311973143733/929503394823232267411783680000",
+                "38221481812477357865247911735887/3718013579292929069647134720000"
+              ],
+              "r": "5/22",
+              "radicand": "19683/16093",
+              "s_theta": "27/880",
+              "strength_bounds": [
+                "515217304064332839766636583/1105411546310126551621959680",
+                "58881977607352324544759029/126332748149728748756795392"
+              ],
+              "tstar": "-22/5 + 162*sqrt(399)/665",
+              "unit_margin": "277*theta/66 - 59/396"
+            },
+            {
+              "A": "431/9720",
+              "B": "11351/43740",
+              "edge": [
+                1,
+                2
+              ],
+              "infinite_linear_coefficient": "4438241/23619600",
+              "minimum": "4860521/472392",
+              "minimum_bounds": [
+                "4860521/472392",
+                "4860521/472392"
+              ],
+              "r": "2/9",
+              "radicand": null,
+              "s_theta": "2/81",
+              "strength_bounds": [
+                "0",
+                "0"
+              ],
+              "tstar": "0",
+              "unit_margin": "-269*theta/264 - 169/792"
+            },
+            {
+              "A": "-5513/19440",
+              "B": "701/2430",
+              "edge": [
+                3,
+                4
+              ],
+              "infinite_linear_coefficient": "274091/1476225",
+              "minimum": "391*sqrt(483690)/164025 + 50907809/5904900",
+              "minimum_bounds": [
+                "1146540730572048430502557301051/111540407378787872089414041600",
+                "286635182643012107625639444029/27885101844696968022353510400"
+              ],
+              "r": "1/4",
+              "radicand": "27945/22432",
+              "s_theta": "1/32",
+              "strength_bounds": [
+                "3149514215174725105917032903/6779655996398840411752235008",
+                "196844638448420319119816303/423728499774927525734514688"
+              ],
+              "tstar": "-4 + 9*sqrt(483690)/1402",
+              "unit_margin": "31/990 - 269*theta/264"
+            },
+            {
+              "A": "-5513/19440",
+              "B": "701/2430",
+              "edge": [
+                3,
+                5
+              ],
+              "infinite_linear_coefficient": "274091/1476225",
+              "minimum": "391*sqrt(483690)/164025 + 50907809/5904900",
+              "minimum_bounds": [
+                "1146540730572048430502557301051/111540407378787872089414041600",
+                "286635182643012107625639444029/27885101844696968022353510400"
+              ],
+              "r": "1/4",
+              "radicand": "27945/22432",
+              "s_theta": "1/32",
+              "strength_bounds": [
+                "3149514215174725105917032903/6779655996398840411752235008",
+                "196844638448420319119816303/423728499774927525734514688"
+              ],
+              "tstar": "-4 + 9*sqrt(483690)/1402",
+              "unit_margin": "31/990 - 269*theta/264"
+            },
+            {
+              "A": "-5513/19440",
+              "B": "701/2430",
+              "edge": [
+                3,
+                6
+              ],
+              "infinite_linear_coefficient": "274091/1476225",
+              "minimum": "391*sqrt(483690)/164025 + 50907809/5904900",
+              "minimum_bounds": [
+                "1146540730572048430502557301051/111540407378787872089414041600",
+                "286635182643012107625639444029/27885101844696968022353510400"
+              ],
+              "r": "1/4",
+              "radicand": "27945/22432",
+              "s_theta": "1/32",
+              "strength_bounds": [
+                "3149514215174725105917032903/6779655996398840411752235008",
+                "196844638448420319119816303/423728499774927525734514688"
+              ],
+              "tstar": "-4 + 9*sqrt(483690)/1402",
+              "unit_margin": "31/990 - 269*theta/264"
+            },
+            {
+              "A": "-5513/19440",
+              "B": "701/2430",
+              "edge": [
+                4,
+                5
+              ],
+              "infinite_linear_coefficient": "274091/1476225",
+              "minimum": "391*sqrt(483690)/164025 + 50907809/5904900",
+              "minimum_bounds": [
+                "1146540730572048430502557301051/111540407378787872089414041600",
+                "286635182643012107625639444029/27885101844696968022353510400"
+              ],
+              "r": "1/4",
+              "radicand": "27945/22432",
+              "s_theta": "1/32",
+              "strength_bounds": [
+                "3149514215174725105917032903/6779655996398840411752235008",
+                "196844638448420319119816303/423728499774927525734514688"
+              ],
+              "tstar": "-4 + 9*sqrt(483690)/1402",
+              "unit_margin": "31/990 - 269*theta/264"
+            },
+            {
+              "A": "-5513/19440",
+              "B": "701/2430",
+              "edge": [
+                4,
+                6
+              ],
+              "infinite_linear_coefficient": "274091/1476225",
+              "minimum": "391*sqrt(483690)/164025 + 50907809/5904900",
+              "minimum_bounds": [
+                "1146540730572048430502557301051/111540407378787872089414041600",
+                "286635182643012107625639444029/27885101844696968022353510400"
+              ],
+              "r": "1/4",
+              "radicand": "27945/22432",
+              "s_theta": "1/32",
+              "strength_bounds": [
+                "3149514215174725105917032903/6779655996398840411752235008",
+                "196844638448420319119816303/423728499774927525734514688"
+              ],
+              "tstar": "-4 + 9*sqrt(483690)/1402",
+              "unit_margin": "31/990 - 269*theta/264"
+            },
+            {
+              "A": "-5513/19440",
+              "B": "701/2430",
+              "edge": [
+                5,
+                6
+              ],
+              "infinite_linear_coefficient": "274091/1476225",
+              "minimum": "391*sqrt(483690)/164025 + 50907809/5904900",
+              "minimum_bounds": [
+                "1146540730572048430502557301051/111540407378787872089414041600",
+                "286635182643012107625639444029/27885101844696968022353510400"
+              ],
+              "r": "1/4",
+              "radicand": "27945/22432",
+              "s_theta": "1/32",
+              "strength_bounds": [
+                "3149514215174725105917032903/6779655996398840411752235008",
+                "196844638448420319119816303/423728499774927525734514688"
+              ],
+              "tstar": "-4 + 9*sqrt(483690)/1402",
+              "unit_margin": "31/990 - 269*theta/264"
+            },
+            {
+              "A": "-5513/19440",
+              "B": "701/2430",
+              "edge": [
+                7,
+                8
+              ],
+              "infinite_linear_coefficient": "274091/1476225",
+              "minimum": "391*sqrt(483690)/164025 + 50907809/5904900",
+              "minimum_bounds": [
+                "1146540730572048430502557301051/111540407378787872089414041600",
+                "286635182643012107625639444029/27885101844696968022353510400"
+              ],
+              "r": "1/4",
+              "radicand": "27945/22432",
+              "s_theta": "1/32",
+              "strength_bounds": [
+                "3149514215174725105917032903/6779655996398840411752235008",
+                "196844638448420319119816303/423728499774927525734514688"
+              ],
+              "tstar": "-4 + 9*sqrt(483690)/1402",
+              "unit_margin": "31/990 - 269*theta/264"
+            },
+            {
+              "A": "-5513/19440",
+              "B": "701/2430",
+              "edge": [
+                7,
+                9
+              ],
+              "infinite_linear_coefficient": "274091/1476225",
+              "minimum": "391*sqrt(483690)/164025 + 50907809/5904900",
+              "minimum_bounds": [
+                "1146540730572048430502557301051/111540407378787872089414041600",
+                "286635182643012107625639444029/27885101844696968022353510400"
+              ],
+              "r": "1/4",
+              "radicand": "27945/22432",
+              "s_theta": "1/32",
+              "strength_bounds": [
+                "3149514215174725105917032903/6779655996398840411752235008",
+                "196844638448420319119816303/423728499774927525734514688"
+              ],
+              "tstar": "-4 + 9*sqrt(483690)/1402",
+              "unit_margin": "31/990 - 269*theta/264"
+            },
+            {
+              "A": "-5513/19440",
+              "B": "701/2430",
+              "edge": [
+                7,
+                10
+              ],
+              "infinite_linear_coefficient": "274091/1476225",
+              "minimum": "391*sqrt(483690)/164025 + 50907809/5904900",
+              "minimum_bounds": [
+                "1146540730572048430502557301051/111540407378787872089414041600",
+                "286635182643012107625639444029/27885101844696968022353510400"
+              ],
+              "r": "1/4",
+              "radicand": "27945/22432",
+              "s_theta": "1/32",
+              "strength_bounds": [
+                "3149514215174725105917032903/6779655996398840411752235008",
+                "196844638448420319119816303/423728499774927525734514688"
+              ],
+              "tstar": "-4 + 9*sqrt(483690)/1402",
+              "unit_margin": "31/990 - 269*theta/264"
+            },
+            {
+              "A": "-5513/19440",
+              "B": "701/2430",
+              "edge": [
+                8,
+                9
+              ],
+              "infinite_linear_coefficient": "274091/1476225",
+              "minimum": "391*sqrt(483690)/164025 + 50907809/5904900",
+              "minimum_bounds": [
+                "1146540730572048430502557301051/111540407378787872089414041600",
+                "286635182643012107625639444029/27885101844696968022353510400"
+              ],
+              "r": "1/4",
+              "radicand": "27945/22432",
+              "s_theta": "1/32",
+              "strength_bounds": [
+                "3149514215174725105917032903/6779655996398840411752235008",
+                "196844638448420319119816303/423728499774927525734514688"
+              ],
+              "tstar": "-4 + 9*sqrt(483690)/1402",
+              "unit_margin": "31/990 - 269*theta/264"
+            },
+            {
+              "A": "-5513/19440",
+              "B": "701/2430",
+              "edge": [
+                8,
+                10
+              ],
+              "infinite_linear_coefficient": "274091/1476225",
+              "minimum": "391*sqrt(483690)/164025 + 50907809/5904900",
+              "minimum_bounds": [
+                "1146540730572048430502557301051/111540407378787872089414041600",
+                "286635182643012107625639444029/27885101844696968022353510400"
+              ],
+              "r": "1/4",
+              "radicand": "27945/22432",
+              "s_theta": "1/32",
+              "strength_bounds": [
+                "3149514215174725105917032903/6779655996398840411752235008",
+                "196844638448420319119816303/423728499774927525734514688"
+              ],
+              "tstar": "-4 + 9*sqrt(483690)/1402",
+              "unit_margin": "31/990 - 269*theta/264"
+            },
+            {
+              "A": "-5513/19440",
+              "B": "701/2430",
+              "edge": [
+                9,
+                10
+              ],
+              "infinite_linear_coefficient": "274091/1476225",
+              "minimum": "391*sqrt(483690)/164025 + 50907809/5904900",
+              "minimum_bounds": [
+                "1146540730572048430502557301051/111540407378787872089414041600",
+                "286635182643012107625639444029/27885101844696968022353510400"
+              ],
+              "r": "1/4",
+              "radicand": "27945/22432",
+              "s_theta": "1/32",
+              "strength_bounds": [
+                "3149514215174725105917032903/6779655996398840411752235008",
+                "196844638448420319119816303/423728499774927525734514688"
+              ],
+              "tstar": "-4 + 9*sqrt(483690)/1402",
+              "unit_margin": "31/990 - 269*theta/264"
+            }
+          ]
+        },
+        {
+          "artifact_id": "A104",
+          "locator": "json:/finite_graph/optimal_edges",
+          "expected": [
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              9
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              8,
+              9
+            ],
+            [
+              8,
+              10
+            ],
+            [
+              9,
+              10
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C012",
+      "type": "methodological",
+      "statement": "The portable implementation reconstructs graph matrices, exact identities and radical bounds with fixed uv versions, fresh exclusive output and no executable evidence expressions; analytic globality bridges and ordinary assertion requirements remain explicit. A PowerShell manifest-packaging incident is separate from its single successful proof run.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A135",
+          "locator": "contains:def certificate()"
+        },
+        {
+          "artifact_id": "A123",
+          "locator": "line:1"
+        },
+        {
+          "artifact_id": "A092",
+          "locator": "contains:Packaging incident"
+        },
+        {
+          "artifact_id": "A106",
+          "locator": "json:/returncode",
+          "expected": 0
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "reproduction",
+      "status": "pass",
+      "auditor": "/root/astra_damage_symbolic",
+      "evidence": [
+        "A022",
+        "A024",
+        "A048",
+        "A050",
+        "A076",
+        "A078",
+        "A104",
+        "A105",
+        "A106",
+        "A117",
+        "A123",
+        "A145",
+        "A147"
+      ],
+      "note": "Accepted independent exact reconstructions and replay reused; root, worker and distinct portable replay output hashes identical. No numerical rerun or actual CI attestation."
+    },
+    {
+      "id": "specification_compliance",
+      "status": "pass",
+      "auditor": "/root/astra_damage_symbolic",
+      "evidence": [
+        "A001",
+        "A023",
+        "A049",
+        "A054",
+        "A077",
+        "A123",
+        "A139",
+        "A145",
+        "A147"
+      ],
+      "note": "Final scope, baseline/insertion volume, all ties, no-action endpoints, equal universal versus finite 344, strength globality and excluded degenerate limits match the contract and distinct audits. Original counterexample author relies on A023, not self-certification."
+    },
+    {
+      "id": "source_verification",
+      "status": "pass",
+      "auditor": "/root/astra_damage_symbolic",
+      "evidence": [
+        "A088",
+        "A128",
+        "A131",
+        "A132",
+        "A133",
+        "A134",
+        "A139",
+        "A145",
+        "A147"
+      ],
+      "note": "Distinct source-author/reviewer chain; inspected primary assumptions and averaging conventions retained. Known methods credited; no exhaustive novelty, absence or practical-impact conclusion."
+    },
+    {
+      "id": "implementation_alignment",
+      "status": "pass",
+      "auditor": "/root/astra_damage_symbolic",
+      "evidence": [
+        "A092",
+        "A102",
+        "A104",
+        "A106",
+        "A116",
+        "A123",
+        "A126",
+        "A135",
+        "A140",
+        "A143",
+        "A145",
+        "A147"
+      ],
+      "note": "Code and final analytic bridges align, portable audit is distinct from implementation author, byte-identical canonical replay and static logged workflow checked; historical failures and packaging-note limitation preserved."
+    }
+  ],
+  "limitations": [
+    "Complete all-size guarantee concerns equal parts and unit insertion; the unequal universal extension is false. The exact no-action interval and strength rescue are344-specific.",
+    "Fixed iid hub-mixture endpoints, zero self-hit, conductance-proportional random walk and actual candidate conductance volumes; no monetary objective or measured physical benefit.",
+    "Analytic graph, positivity, envelope/tie and global-strength bridges need separate independent review; no Lean formalization or generic-method novelty.",
+    "This release gate covers local canonical proof, source and semantic integration; actual hosted CI must be verified separately after push for the resulting commit.",
+    "Fixed-ray and minimax results are excluded. Source access gaps cannot establish publication originality or completed mathematics coverage."
+  ]
+}

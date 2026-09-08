@@ -145,3 +145,20 @@ jobs:
           path: work/kemeny-workload-ci/
           retention-days: 30
           if-no-files-found: warn
+      - name: Check unit versus no action and exact strength rescue
+        run: >-
+          uv run --project experiments/kemeny-workload-proof --frozen python
+          experiments/kemeny-three-part-proof/run_logged.py
+          --attempt-id action-choice --timeout-seconds 60
+          --log-dir work/kemeny-action-ci/logs -- uv run
+          --project experiments/kemeny-workload-proof --frozen python
+          experiments/kemeny-workload-proof/verify_action_choice.py
+          --output work/kemeny-action-ci/check.json
+      - name: Retain action-choice proof
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: kemeny-workload-action-choice
+          path: work/kemeny-action-ci/
+          retention-days: 30
+          if-no-files-found: warn

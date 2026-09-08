@@ -1,0 +1,16 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--isolated",
+    "--with",
+    "sympy==1.14.0",
+    "python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-explore-work\\check2.py"
+  ],
+  "cwd": "C:\\Users\\Legedith\\Documents\\ChatGPT\\maths",
+  "rc": 0,
+  "timeout": 60,
+  "timed_out": false,
+  "elapsed": 1.7454321384429932
+}

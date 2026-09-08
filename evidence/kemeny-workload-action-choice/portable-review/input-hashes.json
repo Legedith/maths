@@ -1,0 +1,70 @@
+﻿[
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\hashes.json",
+        "sha256":  "1f5d77b83831b47a9df2871feef2f8bfd087812041dce86baeeefa2f1aa55057"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\input-hashes.json",
+        "sha256":  "c6f0186aef10f17282618602d39a209a4a8429ff7218ca5e61adfa82233e4080"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\packaging-note.md",
+        "sha256":  "69558cdd54276743b3f9c53a9b9ca3af22a4003e3b1c86877b2ecc552f451e81"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\plan.md",
+        "sha256":  "65a3fb50284d0c3528c654e24e09b21de4d287edcd5d2b60dd3014b9644c38b1"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\pyproject.toml",
+        "sha256":  "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\README.md",
+        "sha256":  "c670f8625998d86a23015cd7affff5bff51b45c9bb2fbfe55293df380361514a"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\result.json",
+        "sha256":  "42a1da543576b44036eb2b55521e0e873aa8825fdb6a2c7e53fdfac2efa886f1"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\run.json",
+        "sha256":  "3340937190a50edfe79884711669c1d63e3d4bb2a11b7461d2d778e470f06666"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\run.py",
+        "sha256":  "c34ca797724971c1219ed6453849dc1789d3c51b92f26df5e3d0140375b20f00"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\stderr.bin",
+        "sha256":  "bcc8e590e9b6e3072f3ec81cca1765b60b263dd9406332addd79fbe5b37ddfe6"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\stdout.bin",
+        "sha256":  "b22d860de983158c5409335ee0ececbb53ff940994cff76ddb01d18c93f833cb"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\uv.lock",
+        "sha256":  "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\workload-action-portable-work\\verify_action_choice.py",
+        "sha256":  "fff7fffc1453b00e9d4d2cca7e815e088f0a5da793e7da0f884ba762ce8f21ce"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\project\\docs\\kemeny-workload-action-choice-contract.md",
+        "sha256":  "a4fc61671a5890e8946d16acd0feef5638f516deba9405495e6d5e9e3ff13677"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-review-work\\review.md",
+        "sha256":  "c837f8544d31717c6e6bd61a6c58afb3ad8e996a709dd8969023d2dab86c7fd3"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-counter-review-work\\review.md",
+        "sha256":  "653a57b0703c36cd73bd4c077a24e0bdbbe4a262dde6420a7595e93dc21d9fb0"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-review-work\\review.md",
+        "sha256":  "31d4cbaa231bf3002d6d92110d8051500fb82d43e6992145374f035b8d98b643"
+    }
+]

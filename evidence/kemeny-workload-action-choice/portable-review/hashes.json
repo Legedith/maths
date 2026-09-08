@@ -1,0 +1,66 @@
+﻿[
+    {
+        "path":  "attempt1.json",
+        "sha256":  "70dd965a6e5f0156218398b1b17c7805d5fdd90be36ccc0c6c46a4469cda7df9"
+    },
+    {
+        "path":  "attempt1.stderr.bin",
+        "sha256":  "c1efb322f34b32aff85f4e00b17f661f0e7f83bc5e0f234113b2c5a382058df4"
+    },
+    {
+        "path":  "attempt1.stdout.bin",
+        "sha256":  "b22d860de983158c5409335ee0ececbb53ff940994cff76ddb01d18c93f833cb"
+    },
+    {
+        "path":  "attempt2.json",
+        "sha256":  "89ccbc0fdd8da681b0dfbb3e94e78b5433e1b7474325278265d698355e071a47"
+    },
+    {
+        "path":  "attempt2.stderr.bin",
+        "sha256":  "9f2fe010f5427d6371b9bb6395695906b24d5b9141074acefae97501087fb6a1"
+    },
+    {
+        "path":  "attempt2.stdout.bin",
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+        "path":  "comparison.json",
+        "sha256":  "e6d4a094c298ba3c3c4465a3e8509f605634032ee03e311fd41dfc637ff78f33"
+    },
+    {
+        "path":  "fresh.json",
+        "sha256":  "42a1da543576b44036eb2b55521e0e873aa8825fdb6a2c7e53fdfac2efa886f1"
+    },
+    {
+        "path":  "input-hashes.json",
+        "sha256":  "67884751abea8737208692e840d8a4546532e756cbff702997b772e0ad920951"
+    },
+    {
+        "path":  "manifest-check.json",
+        "sha256":  "0e379e59980644ef48d2b85448e69d1c054360faff411cc987e6ad3eb59e5cef"
+    },
+    {
+        "path":  "plan.md",
+        "sha256":  "789fd0fc65401b99278767045578b65d58a6911baecb60948bb55348e393f205"
+    },
+    {
+        "path":  "pyproject.toml",
+        "sha256":  "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f"
+    },
+    {
+        "path":  "review.md",
+        "sha256":  "974f9f35e61c8d96848603bb16c7af916b22cce70a5b01b6b66aa91fb113a64f"
+    },
+    {
+        "path":  "run-review.py",
+        "sha256":  "a9d5c0374646d85e5c56939868f1b4de5131c6e383098214474719a265bf643f"
+    },
+    {
+        "path":  "uv.lock",
+        "sha256":  "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d"
+    },
+    {
+        "path":  "verify_action_choice.py",
+        "sha256":  "fff7fffc1453b00e9d4d2cca7e815e088f0a5da793e7da0f884ba762ce8f21ce"
+    }
+]

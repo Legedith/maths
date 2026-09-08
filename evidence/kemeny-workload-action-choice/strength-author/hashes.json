@@ -1,0 +1,62 @@
+﻿[
+    {
+        "path":  "batch2-plan.md",
+        "sha256":  "ca8662befc809441bf0f93cf3903a0bc4ac1c706df138e7b86f3661606c63f97"
+    },
+    {
+        "path":  "batch2-run.json",
+        "sha256":  "987c5b4fe882bb3ef24505a181930bf9150c7b1198cf9c128ea07a504b3b42e1"
+    },
+    {
+        "path":  "batch2-stderr.bin",
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+        "path":  "batch2-stdout.bin",
+        "sha256":  "87411259ca2d09ea92d4629043d402f2350c12e9141868a878321347f9c81610"
+    },
+    {
+        "path":  "batch2.json",
+        "sha256":  "6d7028ceffb963503cc4e4c9c1e997398a872dac7a5c307d9c99491295f9546e"
+    },
+    {
+        "path":  "check.py",
+        "sha256":  "3e856dbe0f61f240c8365445e7de727ad221c2d704d9e9b3ff613438ee9259e6"
+    },
+    {
+        "path":  "check2.py",
+        "sha256":  "6fa5d3de71467cb6990f31d6ebd5c40750bf2bd5a50a301a59d6c572541328b8"
+    },
+    {
+        "path":  "plan.md",
+        "sha256":  "306753413d15005ba02d6d5877414ee2e0403888ee0e2a170c05d272959c4b3a"
+    },
+    {
+        "path":  "report.md",
+        "sha256":  "83165e5bf7a62b84814a6b28ae69fad0adabdd73f4db3ffce9be30395d9e144e"
+    },
+    {
+        "path":  "result.json",
+        "sha256":  "ed3de8a5173f575f02b39a89b336888aba29f4d50da9a151a01dd9bcf5d8989e"
+    },
+    {
+        "path":  "run.json",
+        "sha256":  "c2edc7f41db4673747e2390e6e93c8d6f4e97cb41ae010464ec9c28c0752478f"
+    },
+    {
+        "path":  "run.py",
+        "sha256":  "adbacfcab6f1d136108ae484c415462cd6f3feb9b638fb1c193b69f04358f8d7"
+    },
+    {
+        "path":  "run2.py",
+        "sha256":  "1cd7fce08e91907ce41603c87050bfea0b062ad058f22b68f3c79f3ba2edc80a"
+    },
+    {
+        "path":  "stderr.bin",
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+        "path":  "stdout.bin",
+        "sha256":  "0dca2d8971c23e31caad544665444306c901bd9e7137ddb10dfc61c73ac518e9"
+    }
+]

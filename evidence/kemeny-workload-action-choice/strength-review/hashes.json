@@ -1,0 +1,52 @@
+﻿[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "50EBF8D23AF8DA48EEF1BBDF9050CAD453413A6D68429531C09976C8F8D41899",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-review-work\\check.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "3D8051C07974830163E67E1ADA9FF253058E8F88968E221F1EC033D0FB2EE1FE",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-review-work\\input-hashes.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "6941D3EB325C6E39E300B0EA9D0E1BE0BD75C441E18AE29060723EDEE2990746",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-review-work\\plan.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "2B03B177219B299C5FE6ED1A516BC1C99B1A6478E011D170052BEF69D1FF6ADB",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-review-work\\result.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "31D4CBAA231BF3002D6D92110D8051500FB82D43E6992145374F035B8D98B643",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-review-work\\review.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "5C516973C05B91CD07C0AD419EE9129FA8B1EE101A7B9712F2293146D311E88E",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-review-work\\run.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "992CC9B52CBD12615ED59E6C477D403DA0998190255A05024BEDF777A8A82662",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-review-work\\run.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "E0DBC31F51504C353DA9204938C87F10C4D45C452AFF6AA8BB405145B6A78113",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-review-work\\stderr.bin"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "23D2FB9E4B05116077B3D0605CFEAE07589B0AB9076D14FB6042FDEAF3F7432D",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-review-work\\stdout.bin"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "B95B5F4810C1726E89D3D1563FFE1F67355FEC3BA35DEA18DF6E00A420C8660E",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-review-work\\verdict.json"
+    }
+]

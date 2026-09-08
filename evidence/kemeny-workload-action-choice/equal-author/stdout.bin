@@ -1,0 +1,266 @@
+[
+  {
+    "parts": [
+      3,
+      3,
+      3
+    ],
+    "theta": "0",
+    "baseline": "751/90",
+    "candidate_U": {
+      "restore": "1458/175",
+      "uv": "90189/10850",
+      "untouched_A": "1462/175",
+      "B": "1462/175",
+      "C": "1462/175"
+    },
+    "best_edges_orbits": [
+      "uv"
+    ],
+    "improvement": "1567/48825",
+    "restore_improves": true,
+    "best_improves": true
+  },
+  {
+    "parts": [
+      3,
+      3,
+      3
+    ],
+    "theta": "1/10",
+    "baseline": "6119/750",
+    "candidate_U": {
+      "restore": "70713/8750",
+      "uv": "17678169/2170000",
+      "untouched_A": "35814/4375",
+      "B": "35814/4375",
+      "C": "35814/4375"
+    },
+    "best_edges_orbits": [
+      "restore"
+    ],
+    "improvement": "1013/13125",
+    "restore_improves": true,
+    "best_improves": true
+  },
+  {
+    "parts": [
+      3,
+      3,
+      3
+    ],
+    "theta": "1/2",
+    "baseline": "1613/270",
+    "candidate_U": {
+      "restore": "81/14",
+      "uv": "521217/86800",
+      "untouched_A": "3166/525",
+      "B": "3166/525",
+      "C": "3166/525"
+    },
+    "best_edges_orbits": [
+      "restore"
+    ],
+    "improvement": "178/945",
+    "restore_improves": true,
+    "best_improves": true
+  },
+  {
+    "parts": [
+      3,
+      3,
+      3
+    ],
+    "theta": "9/10",
+    "baseline": "3337/2250",
+    "candidate_U": {
+      "restore": "12393/8750",
+      "uv": "3247929/2170000",
+      "untouched_A": "6574/4375",
+      "B": "6574/4375",
+      "C": "6574/4375"
+    },
+    "best_edges_orbits": [
+      "restore"
+    ],
+    "improvement": "2629/39375",
+    "restore_improves": true,
+    "best_improves": true
+  },
+  {
+    "parts": [
+      3,
+      3,
+      4
+    ],
+    "theta": "0",
+    "baseline": "11349/1210",
+    "candidate_U": {
+      "restore": "7955/847",
+      "uv": "11293649/1204434",
+      "untouched_A": "79679/8470",
+      "B": "79679/8470",
+      "C": "1426181/152460"
+    },
+    "best_edges_orbits": [
+      "C"
+    ],
+    "improvement": "3793/152460",
+    "restore_improves": false,
+    "best_improves": true
+  },
+  {
+    "parts": [
+      3,
+      3,
+      4
+    ],
+    "theta": "1/10",
+    "baseline": "553257/60500",
+    "candidate_U": {
+      "restore": "77013/8470",
+      "uv": "2451129/267652",
+      "untouched_A": "3890511/423500",
+      "B": "3890511/423500",
+      "C": "1105831/121000"
+    },
+    "best_edges_orbits": [
+      "restore"
+    ],
+    "improvement": "22149/423500",
+    "restore_improves": true,
+    "best_improves": true
+  },
+  {
+    "parts": [
+      3,
+      3,
+      4
+    ],
+    "theta": "1/2",
+    "baseline": "16077/2420",
+    "candidate_U": {
+      "restore": "10965/1694",
+      "uv": "16103629/2408868",
+      "untouched_A": "113563/16940",
+      "B": "113563/16940",
+      "C": "2036093/304920"
+    },
+    "best_edges_orbits": [
+      "restore"
+    ],
+    "improvement": "2889/16940",
+    "restore_improves": true,
+    "best_improves": true
+  },
+  {
+    "parts": [
+      3,
+      3,
+      4
+    ],
+    "theta": "9/10",
+    "baseline": "9027/5500",
+    "candidate_U": {
+      "restore": "13373/8470",
+      "uv": "1813783/1094940",
+      "untouched_A": "63941/38500",
+      "B": "63941/38500",
+      "C": "1147283/693000"
+    },
+    "best_edges_orbits": [
+      "restore"
+    ],
+    "improvement": "26429/423500",
+    "restore_improves": true,
+    "best_improves": true
+  },
+  {
+    "parts": [
+      3,
+      3,
+      100
+    ],
+    "theta": "0",
+    "baseline": "308161495107/1625002366",
+    "candidate_U": {
+      "restore": "15219215/80143",
+      "uv": "1006568322727/5300497734",
+      "untouched_A": "166163390525/875001274",
+      "B": "166163390525/875001274",
+      "C": "426328137785/2250003276"
+    },
+    "best_edges_orbits": [
+      "C"
+    ],
+    "improvement": "4641120721/29250042588",
+    "restore_improves": false,
+    "best_improves": true
+  },
+  {
+    "parts": [
+      3,
+      3,
+      100
+    ],
+    "theta": "1/10",
+    "baseline": "13964876086383/81250118300",
+    "candidate_U": {
+      "restore": "137927889/801430",
+      "uv": "15204801489669/88341628900",
+      "untouched_A": "1505996954649/8750012740",
+      "B": "1505996954649/8750012740",
+      "C": "429335692049/2500003640"
+    },
+    "best_edges_orbits": [
+      "C"
+    ],
+    "improvement": "22932189581/162500236600",
+    "restore_improves": false,
+    "best_improves": true
+  },
+  {
+    "parts": [
+      3,
+      3,
+      100
+    ],
+    "theta": "1/2",
+    "baseline": "319006918059/3250004732",
+    "candidate_U": {
+      "restore": "15749745/160286",
+      "uv": "1041993872315/10600995468",
+      "untouched_A": "172011412705/1750002548",
+      "B": "172011412705/1750002548",
+      "C": "441365909105/4500006552"
+    },
+    "best_edges_orbits": [
+      "C"
+    ],
+    "improvement": "4367706697/58500085176",
+    "restore_improves": false,
+    "best_improves": true
+  },
+  {
+    "parts": [
+      3,
+      3,
+      100
+    ],
+    "theta": "9/10",
+    "baseline": "1638416282103/81250118300",
+    "candidate_U": {
+      "restore": "16174169/801430",
+      "uv": "764524508561/37860698100",
+      "untouched_A": "176689830449/8750012740",
+      "B": "176689830449/8750012740",
+      "C": "453396126161/22500032760"
+    },
+    "best_edges_orbits": [
+      "C"
+    ],
+    "improvement": "20744877389/1462502129400",
+    "restore_improves": false,
+    "best_improves": true
+  }
+]

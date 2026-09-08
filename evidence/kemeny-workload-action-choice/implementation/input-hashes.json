@@ -1,0 +1,32 @@
+﻿[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "A4FC61671A5890E8946D16ACD0FEEF5638F516DEBA9405495E6D5E9E3FF13677",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\project\\docs\\kemeny-workload-action-choice-contract.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "C837F8544D31717C6E6BD61A6C58AFB3AD8E996A709DD8969023D2DAB86C7FD3",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-review-work\\review.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "653A57B0703C36CD73BD4C077A24E0BDBBE4A262DDE6420A7595E93DC21D9FB0",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-counter-review-work\\review.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "31D4CBAA231BF3002D6D92110D8051500FB82D43E6992145374F035B8D98B643",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-strength-rescue-review-work\\review.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "043135469F15A65EC3BB4106A3D6798BCCCDD0F762288DB41FD740164762445F",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-workload-proof\\pyproject.toml"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "378269213EB25AE37448F6993AC983809D7BAB05D3A47434C5BABD06DC0B874D",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-workload-proof\\uv.lock"
+    }
+]

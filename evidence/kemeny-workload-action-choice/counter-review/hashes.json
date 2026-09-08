@@ -1,0 +1,42 @@
+﻿[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "241776BB05722A8338ECD572280111B0FE6625BA5B135C9E7158FF244DA29F98",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-counter-review-work\\check.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "B58D4F397A2DA50B8A47092A50D2DC87D4CA74F6D46AA274075FCEE5D3F3800B",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-counter-review-work\\plan.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "6B48F3BD9521C08AB5DB9FA3D31329C08835E5651873B0498B5238F29BA0B0E5",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-counter-review-work\\result.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "653A57B0703C36CD73BD4C077A24E0BDBBE4A262DDE6420A7595E93DC21D9FB0",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-counter-review-work\\review.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "2AE3363E3692D5409C2E563DEB3CE958214BE29A65000D8C406089FF505BC3A9",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-counter-review-work\\run.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "945A36211934791BE13CC96820C95D9BA22053CCB1FA161AF247953BBC03A630",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-counter-review-work\\run.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "0607E14C54E80D3051457EE3E9ACFFA08EB3B85B9B24E5568F7915886CA40E7E",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-counter-review-work\\stderr.bin"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "010680442C9024D724A682929FB404FD0CE30D1C13BEAED59722A14CF463026E",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-noop-counter-review-work\\stdout.bin"
+    }
+]

@@ -1,0 +1,2 @@
+﻿# Frozen batch2 analytic check
+No additional diagnostic rows. Symbolically factor equal-family best-action improvement at its accepted oracle switching workload as a function of a>=3. This is the planned switch-margin proof approach, and can yield a full-family refutation if sign changes. Also record affine restore/uv improvement zero workloads and compare them to switch. No numerical parameter grid or fullmatrix run.

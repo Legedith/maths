@@ -1,0 +1,77 @@
+[
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-action-choice-priority-work\\request-return-1.json",
+    "source_sha256": "0a7c1ad5bc91dc27ee956a6057f9c0b0b738efa5d29bc159c502c3e9cea07eb0",
+    "request": {
+      "search_query": [
+        {
+          "q": "\"mean first passage time\" \"edge addition\" \"Braess\" uniform"
+        },
+        {
+          "q": "\"average hitting time\" \"edge weights\" optimization nonuniform"
+        }
+      ],
+      "response_length": "long"
+    }
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-action-choice-priority-work\\request-return-2.json",
+    "source_sha256": "170e1007e7cc82a666dc714b349ba5e485de943ccae414e22917e0f1b4f198e8",
+    "request": {
+      "search_query": [
+        {
+          "q": "\"minimize\" \"hitting time\" \"two disparate groups\" shortcuts"
+        },
+        {
+          "q": "\"edge addition\" \"hitting time\" \"paradox\" conductance"
+        }
+      ],
+      "open": [
+        {
+          "ref_id": "https://www.stat.berkeley.edu/~aldous/RWG/Book_Ralph/Ch4.S1.html"
+        },
+        {
+          "ref_id": "https://arxiv.org/html/2109.09249"
+        }
+      ],
+      "response_length": "long"
+    }
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-action-choice-priority-work\\request-return-3.json",
+    "source_sha256": "62b748201a1a8b20d2c2e2a2109877c3d08846466acfabea75c2214b35875328",
+    "request": {
+      "open": [
+        {
+          "ref_id": "https://helda.helsinki.fi/server/api/core/bitstreams/3f51d1b1-ed3f-43f8-9a24-a12f71a7f7cd/content"
+        }
+      ],
+      "response_length": "long"
+    }
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-action-choice-priority-work\\request-return-4.json",
+    "source_sha256": "ec98a41db392ee921b9f2617dccc02ea94ee82793c0d683a2b7a623ad9366e30",
+    "request": {
+      "find": [
+        {
+          "ref_id": "turn465view0",
+          "pattern": "Corollary 4.3"
+        },
+        {
+          "ref_id": "turn465view0",
+          "pattern": "Lemma 4.1"
+        },
+        {
+          "ref_id": "turn465view1",
+          "pattern": "Theorem 1.2"
+        },
+        {
+          "ref_id": "turn465view1",
+          "pattern": "202"
+        }
+      ],
+      "response_length": "long"
+    }
+  }
+]
