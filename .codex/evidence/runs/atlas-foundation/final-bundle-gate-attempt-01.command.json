@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "python",
+    "C:\\Users\\Legedith\\.codex\\skills\\chain-of-evidence\\scripts\\evidence_gate.py",
+    "verify",
+    "--workspace",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "--bundle",
+    ".codex\\evidence\\runs\\atlas-foundation\\bundle.json"
+  ],
+  "console_log": "D:\\CodexWorkspaces\\mathematics-atlas\\symmetry-audit-work\\final-bundle-gate-attempt-01.console.log",
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+  "ended_at": "2026-09-08T01:43:54.171399+00:00",
+  "environment_overrides": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "UV_CACHE_DIR": "D:/CodexWorkspaces/mathematics-atlas/uv-cache"
+  },
+  "exit_code": 0,
+  "runtime_seconds": 0.5242166999960318,
+  "started_at": "2026-09-08T01:43:53.647173+00:00"
+}

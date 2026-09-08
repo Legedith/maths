@@ -1,0 +1,18 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "python",
+    "review_final_bundle.py"
+  ],
+  "console_log": "D:\\CodexWorkspaces\\mathematics-atlas\\symmetry-audit-work\\final-bundle-semantic-review-attempt-01.console.log",
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\symmetry-audit-work",
+  "ended_at": "2026-09-08T01:47:09.565439+00:00",
+  "environment_overrides": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "UV_CACHE_DIR": "D:/CodexWorkspaces/mathematics-atlas/uv-cache"
+  },
+  "exit_code": 0,
+  "runtime_seconds": 0.5848983000032604,
+  "started_at": "2026-09-08T01:47:08.980532+00:00"
+}

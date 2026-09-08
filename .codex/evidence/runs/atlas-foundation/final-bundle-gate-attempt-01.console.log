@@ -1,0 +1,9 @@
+{
+  "artifact_count": 205,
+  "bundle": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.codex\\evidence\\runs\\atlas-foundation\\bundle.json",
+  "claim_count": 10,
+  "claim_provenance_rate": 1.0,
+  "errors": [],
+  "status": "PASS",
+  "workspace": "D:\\CodexWorkspaces\\mathematics-atlas\\project"
+}
