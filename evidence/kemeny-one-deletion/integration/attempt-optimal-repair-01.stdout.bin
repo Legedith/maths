@@ -1,0 +1,54 @@
+{
+  "schema_version": "optimal-hub-link-repair-frozen-certificate-v1",
+  "pass": true,
+  "certificate_sha256": "1f22a17478ebbfe24cbc75d557bc12a89c9c74db97dfb510cb4c99573052ae82",
+  "implementation_sha256": {
+    "verify_optimal_repair.py": "8365ccfb754f8b578b7445bbb0d42ddc53c38d61c488e904c0e282cf930a883d",
+    "verify_all_deletions.py": "4ebde785ce3515a0d4d5284b71f5e04a5a536197dc315cae60d293435682b2f9",
+    "verify_certificate.py": "ef5d3b84e9f78ac3e6e4840a3be675c2806f3df7aa89efa1ef4d5b776dcc4ffd"
+  },
+  "method": "separate singleton endpoints, subset determinants modulo t^3, K-n=q2/q1-m, exact rational cross-products",
+  "comparisons": [
+    {
+      "comparison": "uv minus restore",
+      "exact_rational_identity": true,
+      "positive_numerator_and_denominator": true,
+      "numerator_term_count": 30,
+      "numerator_constant": 3316,
+      "denominator_constant": 357120
+    },
+    {
+      "comparison": "untouched_A minus restore",
+      "exact_rational_identity": true,
+      "positive_numerator_and_denominator": true,
+      "numerator_term_count": 48,
+      "numerator_constant": 20412,
+      "denominator_constant": 2449440
+    },
+    {
+      "comparison": "B minus restore",
+      "exact_rational_identity": true,
+      "positive_numerator_and_denominator": true,
+      "numerator_term_count": 53,
+      "numerator_constant": 21672,
+      "denominator_constant": 2449440
+    },
+    {
+      "comparison": "C minus restore",
+      "exact_rational_identity": true,
+      "positive_numerator_and_denominator": true,
+      "numerator_term_count": 53,
+      "numerator_constant": 21672,
+      "denominator_constant": 2449440
+    },
+    {
+      "comparison": "uv minus untouched_A",
+      "exact_rational_identity": true,
+      "positive_numerator_and_denominator": true,
+      "numerator_term_count": 84,
+      "numerator_constant": 115668,
+      "denominator_constant": 121492224
+    }
+  ],
+  "proof_boundary": "The missing-edge orbit completeness, graph-to-quotient bridge and empty-cell boundary require independent mathematical audit. Unique optimality assumes exactly one unit-weight missing edge may be added and restoration uh is allowed. No assertion that untouched_A is the best alternative to restoration; no global novelty or practical-benefit certification."
+}

@@ -1,0 +1,2 @@
+# Frozen discovery batch 1
+Domain H=(K_(a,b,c) join K1)-uh; 3<=a<=b,c. Known equitable quotient method, novelty unresolved. Compare all missing-edge orbits: restore uh; u-v in A; untouched A pair; B pair; C pair. Claims: H1 restoration is always best; H2 untouched A insertion always beats u-v; H3 u-v is always best among non-restoration insertions. Exact rational matrix diagnostic on tuples (3,3,3),(3,4,5),(4,4,6),(3,3,7),(4,5,5). Two batches maximum; batch2 range/objective frozen separately before execution. No generic runtime/impact claim. Author cannot self-certify proof.

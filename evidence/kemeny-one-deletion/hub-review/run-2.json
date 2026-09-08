@@ -1,0 +1,10 @@
+{
+  "argv": [
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\.venv\\Scripts\\python.exe",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\evaluate.py"
+  ],
+  "cwd": "C:\\Users\\Legedith\\Documents\\ChatGPT\\maths",
+  "stdout": "full determinant 0 done\nfull determinant 1 done\n",
+  "stderr": "Traceback (most recent call last):\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\evaluate.py\", line 26, in <module>\n    assert len(stored)==len(packet['negative_N_shift_terms']) and actual==stored\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+  "returncode": 1
+}

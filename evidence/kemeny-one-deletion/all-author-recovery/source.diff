@@ -1,0 +1,16 @@
+--- frozen/batch2.py
++++ recovery/batch2.py
+@@ -9,7 +9,7 @@
+  delta=s.cancel(q[1][1]/q[1][0]-q[0][1]/q[0][0]);N,D=s.fraction(delta)
+  P=s.Poly(s.expand(-N.subs({a:x+3,b:x+y+3,c:x+z+3})),x,y,z)
+  T=s.Poly(s.expand(D.subs({a:x+3,b:x+y+3,c:x+z+3})),x,y,z)
+- out={'case':case,'q':[[str(t) for t in row] for row in q],'N':str(N),'D':str(D),'negative_numerator_terms':[[list(m),str(v)] for m,v in P.terms()],'denominator_terms':[[list(m),str(v)] for m,v in T.terms()],'numerator_positive':all(v>0 for v in P.coeffs()) and P.TC()>0,'denominator_positive':all(v>0 for v in T.coeffs()) and T.TC()>0,'numerator_constant':str(P.TC()),'denominator_constant':str(T.TC())}
++ out={'case':case,'q':[[str(t) for t in row] for row in q],'N':str(N),'D':str(D),'negative_numerator_terms':[[list(m),str(v)] for m,v in P.terms()],'denominator_terms':[[list(m),str(v)] for m,v in T.terms()],'numerator_positive':bool(all(v>0 for v in P.coeffs()) and P.TC()>0),'denominator_positive':bool(all(v>0 for v in T.coeffs()) and T.TC()>0),'numerator_constant':str(P.TC()),'denominator_constant':str(T.TC())}
+  Path(case+'.json').write_text(json.dumps(out,indent=2));print(case,'NUMERATOR',out['numerator_positive'],len(P.terms()),'DENOMINATOR',out['denominator_positive'],len(T.terms()),flush=True)
+ if len(sys.argv)>1:symbolic(sys.argv[1])
+ else:
+@@ -22,3 +22,4 @@
+   except subprocess.TimeoutExpired as ex:
+    raw=ex.stdout or b'';Path(case+'.log').write_bytes(raw if isinstance(raw,bytes) else raw.encode());Path(case+'.rc').write_text('timeout');ledger.append({'case':case,'rc':'timeout'});print(case,'TIMEOUT',flush=True)
+   Path('ledger.json').write_text(json.dumps(ledger,indent=2))
++

@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "C:/Users/Legedith/.local/bin/uv.exe",
+    "run",
+    "--project",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-one-deletion-proof",
+    "--frozen",
+    "python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-one-deletion-proof\\verify_certificate.py",
+    "--certificate",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-one-deletion-proof\\symbolic.json",
+    "--output",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\portable-valid.json"
+  ],
+  "cwd": "C:\\Users\\Legedith\\Documents\\ChatGPT\\maths",
+  "env": {
+    "UV_PROJECT_ENVIRONMENT": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\.portable-venv",
+    "UV_CACHE_DIR": "D:/CodexWorkspaces/mathematics-atlas/uv-cache"
+  },
+  "stdout": "{\n  \"schema_version\": \"one-deletion-frozen-certificate-v1\",\n  \"pass\": true,\n  \"certificate_sha256\": \"a5a096223ad9fdd3744a08d5fcfbd9643a5090431eadd501d13ead449cab2940\",\n  \"checker_sha256\": \"ef5d3b84e9f78ac3e6e4840a3be675c2806f3df7aa89efa1ef4d5b776dcc4ffd\",\n  \"method\": \"integer subset determinant in Z[x,y,z,t]/(t^3), retaining coefficients of t and t^2\",\n  \"term_count\": 284,\n  \"minimum_coefficient\": 6,\n  \"constant_coefficient\": 1784916000,\n  \"total_degree\": 10,\n  \"checks\": {\n    \"frozen_input_identity\": true,\n    \"positive_cell_sizes_and_degrees\": true,\n    \"undirected_cell_balance\": true,\n    \"zero_laplacian_determinants\": true,\n    \"positive_ratio_denominators\": true,\n    \"full_negative_numerator_identity\": true,\n    \"strict_coefficient_positivity\": true\n  },\n  \"proof_boundary\": \"The graph-to-quotient spectral reduction, coefficient-ratio interpretation, domain substitution, and vertex relabelling require the accompanying proof and independent audit. This checks only deletion of uh and addition of uv. No Lean formalization, global novelty, or practical benefit is certified.\"\n}\n",
+  "stderr": "Using CPython 3.12.11\nCreating virtual environment at: D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\.portable-venv\n",
+  "returncode": 0
+}

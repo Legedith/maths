@@ -1,0 +1,13 @@
+{
+  "five_symbolic_values_equal": true,
+  "five_differences_equal": true,
+  "all_certificate_identities_positive": true,
+  "full_matrix_K_333": {
+    "restore": "331/40",
+    "uv": "739621/89280",
+    "untouched_A": "497/60",
+    "B": "80519/9720",
+    "C": "80519/9720"
+  },
+  "gap": "17/17856"
+}

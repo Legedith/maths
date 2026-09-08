@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "C:/Users/Legedith/.local/bin/uv.exe",
+    "run",
+    "--project",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-one-deletion-proof",
+    "--frozen",
+    "python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-one-deletion-proof\\verify_all_deletions.py",
+    "--certificates",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-review-work\\portable-bad",
+    "--output",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-review-work\\portable-invalid.json"
+  ],
+  "cwd": "C:\\Users\\Legedith\\Documents\\ChatGPT\\maths",
+  "environment": {
+    "UV_CACHE_DIR": "D:/CodexWorkspaces/mathematics-atlas/uv-cache",
+    "UV_PROJECT_ENVIRONMENT": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-review-work\\.portable-venv"
+  },
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-one-deletion-proof\\verify_all_deletions.py\", line 121, in <module>\n    main()\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-one-deletion-proof\\verify_all_deletions.py\", line 85, in main\n    require(digest == CERTIFICATE_HASHES[case], f'{case}: changed frozen certificate')\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-one-deletion-proof\\verify_certificate.py\", line 17, in require\n    raise ValueError(message)\nValueError: uB: changed frozen certificate\n",
+  "returncode": 1
+}

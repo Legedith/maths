@@ -1,0 +1,8 @@
+[
+    "run",
+    "--isolated",
+    "--with",
+    "sympy==1.14.0",
+    "python",
+    "D:/CodexWorkspaces/mathematics-atlas/astra-postfailure-design-work/batch1.py"
+]

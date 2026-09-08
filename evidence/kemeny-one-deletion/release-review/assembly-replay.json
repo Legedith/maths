@@ -1,0 +1,10 @@
+{
+  "argv": [
+    "D:/CodexWorkspaces/mathematics-atlas/astra-all-deletions-review-work/.venv/Scripts/python.exe",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-single-failure-release-review-work\\check_assembly.py"
+  ],
+  "cwd": "C:\\Users\\Legedith\\Documents\\ChatGPT\\maths",
+  "stdout": "{\n  \"manifest_copies\": 192,\n  \"artifacts\": 216,\n  \"claims\": 9,\n  \"errors\": []\n}\nC001 Spectral K formulas, twin quotient reductions, and ordinary edge-deletion updates are published tools; they are not claimed as new methods. [('A196', 'contains:Corollaries 2.2-2.3'), ('A196', 'contains:Equitable/twin quotient spectra')]\nC002 Six deletion representatives exhaust nine labeled endpoint categories; the determinant ratio and zero-mode correction also cover a=3. [('A208', 'contains:raw_negative_numerator*denominator'), ('A067', 'line:3-11'), ('A077', 'contains:PASS')]\nC003 All six reconstructed deletion ratios equal their complete positive numerator and denominator certificates. [('A123', 'json:/cases')]\nC004 For integers 3<=a<=b,c, every original-edge deletion f in G=K_(a,b,c) join K1 leaves K(G-f+uv)<K(G-f) for any pair u,v in its selected minimum part. [('C002', ''), ('C003', '')]\nC005 Five missing-edge orbits exhaust the hub-damaged graph; split-endpoint determinant ratios retain the correct n-m correction in comparing interventions. [('A210', 'contains:return second-m*first, first'), ('A180', 'contains:unique edge optimum')]\nC006 All five optimal-repair comparison ratios match complete positive numerator and denominator certificates. [('A135', 'json:/comparisons')]\nC007 For H=G-uh in the specified minimum-part domain, restoring uh is the unique minimum-K single missing-edge insertion; an untouched A pair also strictly beats uv. [('C005', ''), ('C006', '')]\nC008 At a=b=c=3, uv is worse than an untouched A insertion by exactly 17/17856, independently verified from full matrices. [('A178', 'json:/gap')]\nC009 Restoring the specified failed hub link strictly improves K relative to the damaged graph. [('C004', ''), ('C007', '')]\n",
+  "stderr": "",
+  "returncode": 0
+}

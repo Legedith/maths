@@ -1,0 +1,182 @@
+[
+  {
+    "tuple": [
+      3,
+      3,
+      3
+    ],
+    "case": "uB",
+    "Delta": "-325413/15224300",
+    "full_quotient_equal": true
+  },
+  {
+    "tuple": [
+      3,
+      3,
+      3
+    ],
+    "case": "rB",
+    "Delta": "-44587/2293200",
+    "full_quotient_equal": true
+  },
+  {
+    "tuple": [
+      3,
+      3,
+      3
+    ],
+    "case": "BC",
+    "Delta": "-47/2450",
+    "full_quotient_equal": true
+  },
+  {
+    "tuple": [
+      3,
+      3,
+      3
+    ],
+    "case": "uh",
+    "Delta": "-787/41664",
+    "full_quotient_equal": true
+  },
+  {
+    "tuple": [
+      3,
+      3,
+      3
+    ],
+    "case": "rh",
+    "Delta": "-5/252",
+    "full_quotient_equal": true
+  },
+  {
+    "tuple": [
+      3,
+      3,
+      3
+    ],
+    "case": "Bh",
+    "Delta": "-263/13608",
+    "full_quotient_equal": true
+  },
+  {
+    "tuple": [
+      3,
+      4,
+      5
+    ],
+    "case": "uB",
+    "Delta": "-808793705/53178475428",
+    "full_quotient_equal": true
+  },
+  {
+    "tuple": [
+      3,
+      4,
+      5
+    ],
+    "case": "rB",
+    "Delta": "-303491/20952906",
+    "full_quotient_equal": true
+  },
+  {
+    "tuple": [
+      3,
+      4,
+      5
+    ],
+    "case": "BC",
+    "Delta": "-584029/40704690",
+    "full_quotient_equal": true
+  },
+  {
+    "tuple": [
+      3,
+      4,
+      5
+    ],
+    "case": "uh",
+    "Delta": "-89013391/6289074792",
+    "full_quotient_equal": true
+  },
+  {
+    "tuple": [
+      3,
+      4,
+      5
+    ],
+    "case": "rh",
+    "Delta": "-70327/4804488",
+    "full_quotient_equal": true
+  },
+  {
+    "tuple": [
+      3,
+      4,
+      5
+    ],
+    "case": "Bh",
+    "Delta": "-154099/10676640",
+    "full_quotient_equal": true
+  },
+  {
+    "tuple": [
+      4,
+      4,
+      6
+    ],
+    "case": "uB",
+    "Delta": "-75767707/8127835716",
+    "full_quotient_equal": true
+  },
+  {
+    "tuple": [
+      4,
+      4,
+      6
+    ],
+    "case": "rB",
+    "Delta": "-41134/4525521",
+    "full_quotient_equal": true
+  },
+  {
+    "tuple": [
+      4,
+      4,
+      6
+    ],
+    "case": "BC",
+    "Delta": "-488249/54279225",
+    "full_quotient_equal": true
+  },
+  {
+    "tuple": [
+      4,
+      4,
+      6
+    ],
+    "case": "uh",
+    "Delta": "-3360439/385735350",
+    "full_quotient_equal": true
+  },
+  {
+    "tuple": [
+      4,
+      4,
+      6
+    ],
+    "case": "rh",
+    "Delta": "-9629/1051050",
+    "full_quotient_equal": true
+  },
+  {
+    "tuple": [
+      4,
+      4,
+      6
+    ],
+    "case": "Bh",
+    "Delta": "-19027/2102100",
+    "full_quotient_equal": true
+  }
+]

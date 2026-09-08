@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "determinant_method": "full permutation expansion, 720 terms each",
+  "terms": 284,
+  "minimum": 6,
+  "constant": 1784916000,
+  "degree": 10,
+  "matrix_checks": [
+    {
+      "tuple": [
+        3,
+        3,
+        3
+      ],
+      "e": 0,
+      "full_K": "5231/630",
+      "reduced_K": "5231/630"
+    },
+    {
+      "tuple": [
+        3,
+        3,
+        3
+      ],
+      "e": 1,
+      "full_K": "739621/89280",
+      "reduced_K": "739621/89280"
+    },
+    {
+      "tuple": [
+        3,
+        4,
+        5
+      ],
+      "e": 0,
+      "full_K": "920897/81432",
+      "reduced_K": "920897/81432"
+    },
+    {
+      "tuple": [
+        3,
+        4,
+        5
+      ],
+      "e": 1,
+      "full_K": "11339844/1004003",
+      "reduced_K": "11339844/1004003"
+    },
+    {
+      "tuple": [
+        4,
+        4,
+        6
+      ],
+      "e": 0,
+      "full_K": "179337/13475",
+      "reduced_K": "179337/13475"
+    },
+    {
+      "tuple": [
+        4,
+        4,
+        6
+      ],
+      "e": 1,
+      "full_K": "9518257/715650",
+      "reduced_K": "9518257/715650"
+    }
+  ]
+}

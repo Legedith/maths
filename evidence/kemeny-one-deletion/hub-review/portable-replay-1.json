@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "C:/Users/Legedith/.local/bin/uv.exe",
+    "run",
+    "--project",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-one-deletion-proof",
+    "--frozen",
+    "python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-one-deletion-proof\\verify_certificate.py",
+    "--certificate",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\portable-modified-symbolic.json",
+    "--output",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\portable-invalid.json"
+  ],
+  "cwd": "C:\\Users\\Legedith\\Documents\\ChatGPT\\maths",
+  "env": {
+    "UV_PROJECT_ENVIRONMENT": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\.portable-venv",
+    "UV_CACHE_DIR": "D:/CodexWorkspaces/mathematics-atlas/uv-cache"
+  },
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-one-deletion-proof\\verify_certificate.py\", line 180, in <module>\n    main()\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-one-deletion-proof\\verify_certificate.py\", line 147, in main\n    certificate, digest = read_certificate(args.certificate)\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-one-deletion-proof\\verify_certificate.py\", line 124, in read_certificate\n    require(digest == CERTIFICATE_SHA256, 'certificate differs from frozen proof input')\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-one-deletion-proof\\verify_certificate.py\", line 17, in require\n    raise ValueError(message)\nValueError: certificate differs from frozen proof input\n",
+  "returncode": 1
+}

@@ -1,0 +1,10 @@
+{
+  "status": "author evidence; independent verification pending",
+  "claims": [
+    {"id":"M1","type":"methodological","statement":"Independent twin-cell zero modes contribute n-6 equally in both graphs; quotient K is q2/q1.","evidence":["proof.md:Exact reduction","batch1.py"]},
+    {"id":"N1","type":"numerical","statement":"The substituted negative numerator has 284 strictly positive nonzero coefficients, minimum 6 and constant 1784916000.","evidence":["symbolic.json:summary","symbolic.json:negative_N_shift_terms","batch1.log","batch2.log"]},
+    {"id":"N2","type":"numerical","statement":"Six full exact graph-matrix K values agree with quotient plus n-6 at three declared tuples.","evidence":["checks.json:full_matrix_checks","batch2.py","batch2.log"]},
+    {"id":"C1","type":"conclusion","statement":"For every integer 3<=a<=b,c, adding uv strictly decreases K after the specified deletion uh.","depends_on":["M1","N1"],"evidence":["proof.md:Sign certificate"],"independent_review":"pending"}
+  ],
+  "limitations":["No assertion of worst-deletion dominance or robustness across other deletion types.","No publication novelty or practical impact assessment.","Independent semantic review remains required."]
+}

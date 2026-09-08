@@ -1,0 +1,11 @@
+{
+  "artifact_count": 228,
+  "bundle": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.codex\\evidence\\runs\\kemeny-single-failure-v1\\bundle.json",
+  "claim_count": 9,
+  "claim_provenance_rate": 1.0,
+  "errors": [
+    "check specification_compliance needs evidence kind in ['spec']"
+  ],
+  "status": "FAIL",
+  "workspace": "D:\\CodexWorkspaces\\mathematics-atlas\\project"
+}

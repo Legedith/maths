@@ -1,0 +1,54 @@
+[
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-damage-symbolic-work\\batch1.log",
+        "Hash":  "71CB1AD8837C2F8FDF0F152B8B12B44AC5049E2B6786DBA3194E4455170EC1BA"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-damage-symbolic-work\\batch1.py",
+        "Hash":  "96C75A42489FBA9DEA9F5E998EAF26CF7DF08E1EFC72FBC7C276A36BED988F62"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-damage-symbolic-work\\batch1.rc",
+        "Hash":  "13BF7B3039C63BF5A50491FA3CFD8EB4E699D1BA1436315AEF9CBE5711530354"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-damage-symbolic-work\\batch2-plan.md",
+        "Hash":  "AB6588AC576F6D1A0036DF216DFF67AB4B0AB34B59D18400BB4001AF0D505724"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-damage-symbolic-work\\batch2.log",
+        "Hash":  "398A5A9ECE704E8443B482CB02B439FF2379FED2E159101ADEB693C8852465E7"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-damage-symbolic-work\\batch2.py",
+        "Hash":  "FF9BAE6B6EC4DAC338A3D755B3D785EEC79416FE78E95B9253452AD627B1BFEB"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-damage-symbolic-work\\batch2.rc",
+        "Hash":  "13BF7B3039C63BF5A50491FA3CFD8EB4E699D1BA1436315AEF9CBE5711530354"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-damage-symbolic-work\\checks.json",
+        "Hash":  "8CDEF34327A6DC8A13D1CC9BCF12BB46281602A9E1B4B8E9B320F22A774997BD"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-damage-symbolic-work\\claims.json",
+        "Hash":  "FE475B49A024A684D3331A142B49BC72E65A91124F4D4B01D82FF79F0391DC0A"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-damage-symbolic-work\\plan.md",
+        "Hash":  "517DDEE604AF363F012067F39CD9A49C73F039B5A1BE764B4927B1484B29DE50"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-damage-symbolic-work\\proof.md",
+        "Hash":  "21875403D4B54A92337C4FFFFA5E7E6B491F38D60D530253F150983052061827"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-damage-symbolic-work\\spec.md",
+        "Hash":  "1C7FD13675BF06E94CD552BC1BFF1707584D9E8B2637FB359005202262ED87FE"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-damage-symbolic-work\\symbolic.json",
+        "Hash":  "A5A096223AD9FDD3744A08D5FCFBD9643A5090431EADD501D13EAD449CAB2940"
+    }
+]

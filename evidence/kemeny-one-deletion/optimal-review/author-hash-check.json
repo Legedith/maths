@@ -1,0 +1,82 @@
+[
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch1-argv.json",
+        "match":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch1-original.py",
+        "match":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch1-rc.txt",
+        "match":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch1-retry-argv.json",
+        "match":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch1-retry-rc.txt",
+        "match":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch1-retry-stderr.txt",
+        "match":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch1-retry-stdout.txt",
+        "match":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch1-stderr.txt",
+        "match":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch1-stdout.txt",
+        "match":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch1.json",
+        "match":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch1.py",
+        "match":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch2-argv.json",
+        "match":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch2-plan.md",
+        "match":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch2-rc.txt",
+        "match":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch2-stderr.txt",
+        "match":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch2-stdout.txt",
+        "match":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch2.json",
+        "match":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch2.py",
+        "match":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\plan.md",
+        "match":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\proposal.md",
+        "match":  true
+    }
+]

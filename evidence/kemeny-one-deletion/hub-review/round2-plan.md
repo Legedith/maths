@@ -1,0 +1,1 @@
+﻿Round 1 reconstructed all four determinant coefficients and N successfully. The dictionary comparison failed solely because author coefficients are JSON decimal strings whereas independent coefficients were Python integers. Round 2 changes only parsing to int(v), preserving original evaluator and logs. No mathematical target/range change.

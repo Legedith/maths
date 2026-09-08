@@ -1,0 +1,1430 @@
+[
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-damage-symbolic-work\\batch1.log",
+    "destination": "evidence/kemeny-one-deletion/hub-author/batch1.log",
+    "sha256": "71cb1ad8837c2f8fdf0f152b8b12b44ac5049e2b6786dba3194e4455170ec1ba",
+    "bytes": 8812,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-damage-symbolic-work\\batch1.py",
+    "destination": "evidence/kemeny-one-deletion/hub-author/batch1.py",
+    "sha256": "96c75a42489fba9dea9f5e998eaf26cf7df08e1efc72fbc7c276a36bed988f62",
+    "bytes": 1360,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-damage-symbolic-work\\batch1.rc",
+    "destination": "evidence/kemeny-one-deletion/hub-author/batch1.rc",
+    "sha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+    "bytes": 3,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-damage-symbolic-work\\batch2-plan.md",
+    "destination": "evidence/kemeny-one-deletion/hub-author/batch2-plan.md",
+    "sha256": "ab6588ac576f6d1a0036df216dff67ab4b0ab34b59d18400bb4001af0d505724",
+    "bytes": 519,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-damage-symbolic-work\\batch2.log",
+    "destination": "evidence/kemeny-one-deletion/hub-author/batch2.log",
+    "sha256": "398a5a9ece704e8443b482cb02b439ff2379fed2e159101adeb693c8852465e7",
+    "bytes": 1202,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-damage-symbolic-work\\batch2.py",
+    "destination": "evidence/kemeny-one-deletion/hub-author/batch2.py",
+    "sha256": "ff9bae6b6ec4dac338a3d755b3d785eec79416fe78e95b9253452ad627b1bfeb",
+    "bytes": 1432,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-damage-symbolic-work\\batch2.rc",
+    "destination": "evidence/kemeny-one-deletion/hub-author/batch2.rc",
+    "sha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+    "bytes": 3,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-damage-symbolic-work\\checks.json",
+    "destination": "evidence/kemeny-one-deletion/hub-author/checks.json",
+    "sha256": "8cdef34327a6dc8a13d1cc9bcf12bb46281602a9e1b4b8e9b320f22a774997bd",
+    "bytes": 1277,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-damage-symbolic-work\\claims.json",
+    "destination": "evidence/kemeny-one-deletion/hub-author/claims.json",
+    "sha256": "fe475b49a024a684d3331a142b49bc72e65a91124f4d4b01d82ff79f0391dc0a",
+    "bytes": 1221,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-damage-symbolic-work\\hashes.json",
+    "destination": "evidence/kemeny-one-deletion/hub-author/hashes.json",
+    "sha256": "a47d81d65edfa42344e94c4c741927090fd2122f921dec666a646424a443b710",
+    "bytes": 2602,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-damage-symbolic-work\\plan.md",
+    "destination": "evidence/kemeny-one-deletion/hub-author/plan.md",
+    "sha256": "517ddee604af363f012067f39cd9a49c73f039b5a1be764b4927b1484b29de50",
+    "bytes": 861,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-damage-symbolic-work\\proof.md",
+    "destination": "evidence/kemeny-one-deletion/hub-author/proof.md",
+    "sha256": "21875403d4b54a92337c4ffffa5e7e6b491f38d60d530253f150983052061827",
+    "bytes": 4680,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-damage-symbolic-work\\spec.md",
+    "destination": "evidence/kemeny-one-deletion/hub-author/spec.md",
+    "sha256": "1c7fd13675bf06e94cd552bc1bff1707584d9e8b2637fb359005202262ed87fe",
+    "bytes": 1824,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-damage-symbolic-work\\symbolic.json",
+    "destination": "evidence/kemeny-one-deletion/hub-author/symbolic.json",
+    "sha256": "a5a096223ad9fdd3744a08d5fcfbd9643a5090431eadd501d13ead449cab2940",
+    "bytes": 28550,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\evaluate-round1.py",
+    "destination": "evidence/kemeny-one-deletion/hub-review/evaluate-round1.py",
+    "sha256": "14b90c3352f7a905f800dd988f4de01a4a5e1120234a1071ec6c25843124a2ef",
+    "bytes": 2835,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\evaluate.py",
+    "destination": "evidence/kemeny-one-deletion/hub-review/evaluate.py",
+    "sha256": "a84076634d65dfdbe8027996bf64fb6f0b714ffd3cd1757bbe902dfe44a4be47",
+    "bytes": 2842,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\evaluator-contract.md",
+    "destination": "evidence/kemeny-one-deletion/hub-review/evaluator-contract.md",
+    "sha256": "53fa619c9b5320f805f126d09b079842d61e083a470a9b751d5668e231492497",
+    "bytes": 888,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\hash.py",
+    "destination": "evidence/kemeny-one-deletion/hub-review/hash.py",
+    "sha256": "a7cbda623a566877da5a0921030bf429e10f87864b22414e1837d791df8ab39a",
+    "bytes": 664,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\hashes.json",
+    "destination": "evidence/kemeny-one-deletion/hub-review/hashes.json",
+    "sha256": "33d2a0e125d3411eee6184f7939721dbc990fea15e5ead68f8615080a380cd0e",
+    "bytes": 3490,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\portable-hashes.json",
+    "destination": "evidence/kemeny-one-deletion/hub-review/portable-hashes.json",
+    "sha256": "ecf1e39e3116cb42d832e1820636cba0eaebcafa584b98b5ade4ccb99c8e8937",
+    "bytes": 1402,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\portable-modified-symbolic.json",
+    "destination": "evidence/kemeny-one-deletion/hub-review/portable-modified-symbolic.json",
+    "sha256": "51889e9d0d5bb768e313e3f90d30c19731af27be6758ca4759ffaf471f92419b",
+    "bytes": 10859,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\portable-replay-0.json",
+    "destination": "evidence/kemeny-one-deletion/hub-review/portable-replay-0.json",
+    "sha256": "ce4ddf04e41200f94e80a2be1ebbf854410a620adb98c8c2287ff7b280f8e8ff",
+    "bytes": 2219,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\portable-replay-1.json",
+    "destination": "evidence/kemeny-one-deletion/hub-review/portable-replay-1.json",
+    "sha256": "dfebf053343750ffade18e56a268dd793e1375f9639abab1ea7b304ec33210f8",
+    "bytes": 1853,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\portable-replay-2.json",
+    "destination": "evidence/kemeny-one-deletion/hub-review/portable-replay-2.json",
+    "sha256": "5e6797999c4fcf53ea7c59e54f2f4c2cc282ceb3683fdbb47ce84dc9fff3bf55",
+    "bytes": 794,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\portable-replay.py",
+    "destination": "evidence/kemeny-one-deletion/hub-review/portable-replay.py",
+    "sha256": "454172604d676034eba4b5bcc1c8254b64b6175ee6f124da5ebafc549f3c256b",
+    "bytes": 1872,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\portable-review.md",
+    "destination": "evidence/kemeny-one-deletion/hub-review/portable-review.md",
+    "sha256": "80f5c6b688c177c5f9d922a9f150e32415b1901b1bd9cc1ad51a060ed6b2af5d",
+    "bytes": 3556,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\portable-valid.json",
+    "destination": "evidence/kemeny-one-deletion/hub-review/portable-valid.json",
+    "sha256": "18d80f4a239d0d590af0d78770bd50c0c2e015ba9344b42c7deb1ec586f4ea22",
+    "bytes": 1094,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\report.md",
+    "destination": "evidence/kemeny-one-deletion/hub-review/report.md",
+    "sha256": "6dc480707dd4f53fddfda733602f3e923fa3518d3387471ce1b63af545c8381f",
+    "bytes": 6562,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\result.json",
+    "destination": "evidence/kemeny-one-deletion/hub-review/result.json",
+    "sha256": "a4019936f77f0f16c924a7035c64a84f48f7b419fc28e1c5f4ef1c264b0397d4",
+    "bytes": 1170,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\round2-plan.md",
+    "destination": "evidence/kemeny-one-deletion/hub-review/round2-plan.md",
+    "sha256": "01a7c75348a366baa46c7018535ddb8937f70b02acc310be3aa78b4ad32d3fbf",
+    "bytes": 345,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\round2-run.json",
+    "destination": "evidence/kemeny-one-deletion/hub-review/round2-run.json",
+    "sha256": "4ffca9e15f270ef4471fa77db34c41ba7f9a00fc03ac8c0de4ef4bff90df57c3",
+    "bytes": 1730,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\round2-run.py",
+    "destination": "evidence/kemeny-one-deletion/hub-review/round2-run.py",
+    "sha256": "58c03d4ef3dcb5691c55e8a337170e048df80e75c6ea22d8c17f654400b43435",
+    "bytes": 438,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\run-0.json",
+    "destination": "evidence/kemeny-one-deletion/hub-review/run-0.json",
+    "sha256": "a34e2f54294f08a87373cd606e087c169d9f7bb6cf2697793eca1a3c60b252a3",
+    "bytes": 559,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\run-1.json",
+    "destination": "evidence/kemeny-one-deletion/hub-review/run-1.json",
+    "sha256": "c06d0f724f430943fd53a63eec7dc8bf8e32e99c8a46df12f8b064780e68f04d",
+    "bytes": 565,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\run-2.json",
+    "destination": "evidence/kemeny-one-deletion/hub-review/run-2.json",
+    "sha256": "02fbca95294cd9985fd73f576eb8595a8b0df4b0b2512b0b0101205cb5ce21ce",
+    "bytes": 718,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\run.py",
+    "destination": "evidence/kemeny-one-deletion/hub-review/run.py",
+    "sha256": "c56c035d7243d69fd86d6ffb867273c09a81002c7d554c50c931937cf23a926f",
+    "bytes": 770,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-work\\batch1-original.py",
+    "destination": "evidence/kemeny-one-deletion/all-author-failed/batch1-original.py",
+    "sha256": "2490682f8fabacdd598dc3becb69ab2fbc94d6d8536faf65648ed25bca305181",
+    "bytes": 2286,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-work\\batch1.log",
+    "destination": "evidence/kemeny-one-deletion/all-author-failed/batch1.log",
+    "sha256": "d1967bb3e3b1e437dece0d535605cfdc9144349e64b5c83b0892eccc8b72a382",
+    "bytes": 2126,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-work\\batch1.py",
+    "destination": "evidence/kemeny-one-deletion/all-author-failed/batch1.py",
+    "sha256": "bb2c8589ba028e5da1723b27e86de4243fd417453e2cac0927614a12b20ccc3e",
+    "bytes": 2297,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-work\\batch1.rc",
+    "destination": "evidence/kemeny-one-deletion/all-author-failed/batch1.rc",
+    "sha256": "f1b2f662800122bed0ff255693df89c4487fbdcf453d3524a42d4ec20c3d9c04",
+    "bytes": 3,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-work\\batch2-plan.md",
+    "destination": "evidence/kemeny-one-deletion/all-author-failed/batch2-plan.md",
+    "sha256": "1da0af089e59e81d2731aa365dca484485bca02d55b5d3c55859387bfd4a633d",
+    "bytes": 712,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-work\\batch2.log",
+    "destination": "evidence/kemeny-one-deletion/all-author-failed/batch2.log",
+    "sha256": "8b2ea27be961cd1f0d88b1b58892c8805089e74355bfbe32d09e1dcc0d0e8e64",
+    "bytes": 21972,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-work\\batch2.py",
+    "destination": "evidence/kemeny-one-deletion/all-author-failed/batch2.py",
+    "sha256": "64de78d5e9a08d6695f23c9d82cb26a00e953bd3b3e040faaf299069b6cb97a3",
+    "bytes": 1800,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-work\\batch2.rc",
+    "destination": "evidence/kemeny-one-deletion/all-author-failed/batch2.rc",
+    "sha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+    "bytes": 3,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-work\\BC.log",
+    "destination": "evidence/kemeny-one-deletion/all-author-failed/BC.log",
+    "sha256": "3e41214fb5129b02940dbaac445391919f146c291cfd67c4936b7c612acf9599",
+    "bytes": 1473,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-work\\BC.rc",
+    "destination": "evidence/kemeny-one-deletion/all-author-failed/BC.rc",
+    "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+    "bytes": 1,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-work\\Bh.log",
+    "destination": "evidence/kemeny-one-deletion/all-author-failed/Bh.log",
+    "sha256": "7c2fe513e50c7fa98f7cf4c271c5b761f5ba0d7fc29fad4ba1424e89dbf5723a",
+    "bytes": 1473,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-work\\Bh.rc",
+    "destination": "evidence/kemeny-one-deletion/all-author-failed/Bh.rc",
+    "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+    "bytes": 1,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-work\\checks.json",
+    "destination": "evidence/kemeny-one-deletion/all-author-failed/checks.json",
+    "sha256": "b22012cc352da71a5532ee1cbdcc2d5e1d5c7ec6a294d792fcd3a2d27b697250",
+    "bytes": 2678,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-work\\claims.json",
+    "destination": "evidence/kemeny-one-deletion/all-author-failed/claims.json",
+    "sha256": "5e60ba3d801a9a4a65efc919edb363982256ebf6b6b818f5e49c0c0edf3c00e8",
+    "bytes": 781,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-work\\hashes.json",
+    "destination": "evidence/kemeny-one-deletion/all-author-failed/hashes.json",
+    "sha256": "c3b488204aed5bc2a43b71d0ee2b6ffad6e9bb0599b8e0bea013c6d1f927dff2",
+    "bytes": 5106,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-work\\ledger.json",
+    "destination": "evidence/kemeny-one-deletion/all-author-failed/ledger.json",
+    "sha256": "64ef437a99c15698a0831e4352b5b0c6e56a13b2c8cf9c4d3f54ae34b51c53d4",
+    "bytes": 261,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-work\\method.md",
+    "destination": "evidence/kemeny-one-deletion/all-author-failed/method.md",
+    "sha256": "ed116fbab54c508a5fa930887559537cf2c62699bc41a61ce75f49d81db2ed0b",
+    "bytes": 3763,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-work\\outcome.md",
+    "destination": "evidence/kemeny-one-deletion/all-author-failed/outcome.md",
+    "sha256": "8bc60572adca4cd7fa66abc45f37bd09e2ec15c4da67fc4813a5002891e68ec2",
+    "bytes": 2489,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-work\\plan.md",
+    "destination": "evidence/kemeny-one-deletion/all-author-failed/plan.md",
+    "sha256": "05599f38423355e6d7641fb3b3799a0b581c6d12bd208a305e395eb01fe09285",
+    "bytes": 1741,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-work\\rB.log",
+    "destination": "evidence/kemeny-one-deletion/all-author-failed/rB.log",
+    "sha256": "03da50bdcaeea0f5963032a2c9309f364a67f8d429982b09e6e80d6a1b43267f",
+    "bytes": 1473,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-work\\rB.rc",
+    "destination": "evidence/kemeny-one-deletion/all-author-failed/rB.rc",
+    "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+    "bytes": 1,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-work\\rh.log",
+    "destination": "evidence/kemeny-one-deletion/all-author-failed/rh.log",
+    "sha256": "ee565bfa3befb6df3b047d7314782aa74c11e65028542046714ca2b03416fe37",
+    "bytes": 1473,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-work\\rh.rc",
+    "destination": "evidence/kemeny-one-deletion/all-author-failed/rh.rc",
+    "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+    "bytes": 1,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-work\\uB.log",
+    "destination": "evidence/kemeny-one-deletion/all-author-failed/uB.log",
+    "sha256": "63e4b9b7fed6039baebd28b03122afc8aee80fe4649d46be6ceaa155d1951ecf",
+    "bytes": 1473,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-work\\uB.rc",
+    "destination": "evidence/kemeny-one-deletion/all-author-failed/uB.rc",
+    "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+    "bytes": 1,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-work\\uh.log",
+    "destination": "evidence/kemeny-one-deletion/all-author-failed/uh.log",
+    "sha256": "3a69ca970f4ba4bbcecdd1975573630f06019e106cccc4fcebdc4dcdcf47b691",
+    "bytes": 1473,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-work\\uh.rc",
+    "destination": "evidence/kemeny-one-deletion/all-author-failed/uh.rc",
+    "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+    "bytes": 1,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\aggregate.rc",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/aggregate.rc",
+    "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+    "bytes": 1,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\amendment.md",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/amendment.md",
+    "sha256": "307a779ba0b9d90a583afb3b95ec538b58626131bf49de58f04a365ae4e0b301",
+    "bytes": 1577,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\batch1.py",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/batch1.py",
+    "sha256": "bb2c8589ba028e5da1723b27e86de4243fd417453e2cac0927614a12b20ccc3e",
+    "bytes": 2297,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\batch2-before.py",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/batch2-before.py",
+    "sha256": "64de78d5e9a08d6695f23c9d82cb26a00e953bd3b3e040faaf299069b6cb97a3",
+    "bytes": 1800,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\batch2.py",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/batch2.py",
+    "sha256": "c00a88707b0d5d9f413b4199ce233e036d2bd8922d3533d7f82f939d510ad768",
+    "bytes": 1814,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\BC.json",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/BC.json",
+    "sha256": "da05aedc95d3cf4fd65f0616acd9cf6e89d6e296342be0169cfcfe420c8062a4",
+    "bytes": 45487,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\BC.stderr",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/BC.stderr",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\BC.stdout",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/BC.stdout",
+    "sha256": "da9f2a6db320859101e590eafae025f72e1ee35afc3b9de49f70a6fbcb06d0e3",
+    "bytes": 100,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\Bh.json",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/Bh.json",
+    "sha256": "c6666bdac52e000d971cc47cf66901d21c3f3ae4d2c86b3040038d4dc4e1fe12",
+    "bytes": 33658,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\Bh.stderr",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/Bh.stderr",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\Bh.stdout",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/Bh.stdout",
+    "sha256": "5eedba092b068d182f0270f81a0088508222b7f939506945f4674534eb0b893b",
+    "bytes": 100,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\certificate-summary.json",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/certificate-summary.json",
+    "sha256": "8a38814292e79f98c4ae402be7cb91df2109d756f97bea250719369b95e01aa5",
+    "bytes": 1666,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\claims.json",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/claims.json",
+    "sha256": "557a08bb99acde40270403a2a0ac3377802567a9c55ce40222c597907aabe90e",
+    "bytes": 1002,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\hashes.json",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/hashes.json",
+    "sha256": "308f839417d98bc455e2443acf48fa0c57dddf94415cb5b3575f960ae793d4ac",
+    "bytes": 6847,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\input-hashes.json",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/input-hashes.json",
+    "sha256": "92643ccc265569f5f4089604907334bfc6af2c1196ec0d29a0460b7a29e91305",
+    "bytes": 434,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\method.md",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/method.md",
+    "sha256": "ed116fbab54c508a5fa930887559537cf2c62699bc41a61ce75f49d81db2ed0b",
+    "bytes": 3763,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\proof.md",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/proof.md",
+    "sha256": "55a9545fe981c1d9206839ba9d9ebcb498080de00fd2d6e3568971764bbba8ba",
+    "bytes": 3547,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\rB.json",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/rB.json",
+    "sha256": "100fbbed6fe0ec9a36359e51df4202b27ee7476553f2e67b04e2cce2d2687351",
+    "bytes": 46033,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\rB.stderr",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/rB.stderr",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\rB.stdout",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/rB.stdout",
+    "sha256": "ba39f68e263c987c2d5ff1b88edc71b68816c1aa7e0654538a7fc3eedcf17130",
+    "bytes": 100,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\recover.py",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/recover.py",
+    "sha256": "a8e7b66c6d604c072cac431bbfd723bf2ff109d3261f95eb923d4183e7a553f5",
+    "bytes": 1672,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\recovery-ledger.json",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/recovery-ledger.json",
+    "sha256": "d4ecf8044a229b4639f0d3154f589fb1faf6485a695839b65608144f9f245cca",
+    "bytes": 1884,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\recovery.log",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/recovery.log",
+    "sha256": "c759bb679f11819c1774473b87b75ecacaff893e83db90d736b2a3adb1518535",
+    "bytes": 5006,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\recovery.rc",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/recovery.rc",
+    "sha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+    "bytes": 3,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\rh.json",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/rh.json",
+    "sha256": "1e2292ed4ac5ea20bc159aeb0144cc5eb1cb1e296b25c7fb84ab9cc6e2ae0c53",
+    "bytes": 34105,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\rh.stderr",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/rh.stderr",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\rh.stdout",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/rh.stdout",
+    "sha256": "627f12f0259d3d1d4a020e4a0b7baf53ee148f12e5a17e3e98f4327260518bb7",
+    "bytes": 100,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\source.diff",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/source.diff",
+    "sha256": "27784d842f4bb51e3a3aa1f604138836a8f88f70608e79b0bd6dc2750a2df95f",
+    "bytes": 1678,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\uB.json",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/uB.json",
+    "sha256": "766cbf6c546f790d34cfa23a88e065bc5407c70369192b0bba63f7edf33f3be5",
+    "bytes": 74448,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\uB.stderr",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/uB.stderr",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\uB.stdout",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/uB.stdout",
+    "sha256": "2b1c89b5d1cedcbf42eaf380fd520dfbb5cb669fcc970783af2e2fd612076c0a",
+    "bytes": 100,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\uh.json",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/uh.json",
+    "sha256": "ce69a5f4a70d7286831ec17ebb184af41a74a1f5f0b7f864ea0f816cce0aaaac",
+    "bytes": 45180,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\uh.stderr",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/uh.stderr",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\uh.stdout",
+    "destination": "evidence/kemeny-one-deletion/all-author-recovery/uh.stdout",
+    "sha256": "03b5eaa826b5ab2d1e98faaafe629e21ec16afd5bcb51881bfa73c69f84c4677",
+    "bytes": 100,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-review-work\\evaluate.py",
+    "destination": "evidence/kemeny-one-deletion/all-review/evaluate.py",
+    "sha256": "3ca965a91aa3ec768a88554af3ec6f4ce949e5c3aa5f5203a02de82d048e0452",
+    "bytes": 3152,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-review-work\\evaluator-contract.md",
+    "destination": "evidence/kemeny-one-deletion/all-review/evaluator-contract.md",
+    "sha256": "764ce1d64127ea8f37b0ff315af53c1a0ad4901bd546bbbbec96b757661a5c43",
+    "bytes": 831,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-review-work\\hash.py",
+    "destination": "evidence/kemeny-one-deletion/all-review/hash.py",
+    "sha256": "64249f0072e0e017ff5b79bda14401ce2bb1c8139d2b61ec605775a1972cb7b7",
+    "bytes": 718,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-review-work\\hashes.json",
+    "destination": "evidence/kemeny-one-deletion/all-review/hashes.json",
+    "sha256": "3b7a9d0d9c0ef9b12a48e75250a10bbe7bf05dcdfc7cef337d4cbfe8aacd9825",
+    "bytes": 4340,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-review-work\\manual-proof-notes.md",
+    "destination": "evidence/kemeny-one-deletion/all-review/manual-proof-notes.md",
+    "sha256": "b65494300609e98a3e639636c7ecad86b4fdc5fa09ef2c63cb437966f768a81c",
+    "bytes": 3485,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-review-work\\packet-inspection.py",
+    "destination": "evidence/kemeny-one-deletion/all-review/packet-inspection.py",
+    "sha256": "7888dbc0dcdc5ba43a015c2cc9e94faf50a72322e6be16b33045770d83876b5b",
+    "bytes": 277,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-review-work\\partial-results.json",
+    "destination": "evidence/kemeny-one-deletion/all-review/partial-results.json",
+    "sha256": "01f3c63217970a3cfda69ff29354737572d4c9b6c58f2ac12a84a082ef20ec6d",
+    "bytes": 1771,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-review-work\\portable-hashes.json",
+    "destination": "evidence/kemeny-one-deletion/all-review/portable-hashes.json",
+    "sha256": "e843ec3b9e7d8fbb50ea8a4c4e5851ea1126dbd1fa4fb3528606a13e9c65d9db",
+    "bytes": 2190,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-review-work\\portable-replay-0.json",
+    "destination": "evidence/kemeny-one-deletion/all-review/portable-replay-0.json",
+    "sha256": "d727acda15eafcee32721943c6fc9c7aa27afb84852fe595e1d260ec2c7e621e",
+    "bytes": 5047,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-review-work\\portable-replay-1.json",
+    "destination": "evidence/kemeny-one-deletion/all-review/portable-replay-1.json",
+    "sha256": "07d79a98a08d2accc1c9b670b3445919c545471846ec1d2564bdd1d6516fc0e3",
+    "bytes": 1558,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-review-work\\portable-replay-2.json",
+    "destination": "evidence/kemeny-one-deletion/all-review/portable-replay-2.json",
+    "sha256": "f470ffde4ba580c5d0f76ccc8e277ee0b391561cad19ac1ed535c8f699c895fd",
+    "bytes": 802,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-review-work\\portable-replay.py",
+    "destination": "evidence/kemeny-one-deletion/all-review/portable-replay.py",
+    "sha256": "a3f7bb17eb249294ba4ccb592b72946607a670a3bad5905c25bff4ca4601ade0",
+    "bytes": 1981,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-review-work\\portable-review.md",
+    "destination": "evidence/kemeny-one-deletion/all-review/portable-review.md",
+    "sha256": "5ba6a1701f4bda73ffdc1d88692228beb7d1f8c62cf913964a6d016c822af34a",
+    "bytes": 2892,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-review-work\\portable-valid.json",
+    "destination": "evidence/kemeny-one-deletion/all-review/portable-valid.json",
+    "sha256": "55eb284fa6d0c6954c7aed24f5e288352e15bc1c3d87178d2bdb8be5b575931e",
+    "bytes": 3608,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-review-work\\report.md",
+    "destination": "evidence/kemeny-one-deletion/all-review/report.md",
+    "sha256": "5a60bed98997a8dcf78bde36d4c33c284280065186ef6322d8bbc7aab033dbf7",
+    "bytes": 5429,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-review-work\\result.json",
+    "destination": "evidence/kemeny-one-deletion/all-review/result.json",
+    "sha256": "ca86525eca58614ca55c545a9cb1946d7901a086209208d26264564cd0839a4f",
+    "bytes": 8230,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-review-work\\round2-plan.md",
+    "destination": "evidence/kemeny-one-deletion/all-review/round2-plan.md",
+    "sha256": "e82bb8e0cde668c5a30976d68c3d679c5fdf581115bf383bfd1647ae36527a44",
+    "bytes": 284,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-review-work\\round2-run.json",
+    "destination": "evidence/kemeny-one-deletion/all-review/round2-run.json",
+    "sha256": "a80a3706de1b50403d2788c8afff09e32fbbecee2209829dc815aecddc976938",
+    "bytes": 1741,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-review-work\\round2-run.py",
+    "destination": "evidence/kemeny-one-deletion/all-review/round2-run.py",
+    "sha256": "58c03d4ef3dcb5691c55e8a337170e048df80e75c6ea22d8c17f654400b43435",
+    "bytes": 438,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-review-work\\run-0.json",
+    "destination": "evidence/kemeny-one-deletion/all-review/run-0.json",
+    "sha256": "73b7bbe5831e396ef258982fd5ca52344b6fd02ff50442b5ff029ad50469c7c4",
+    "bytes": 562,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-review-work\\run-1.json",
+    "destination": "evidence/kemeny-one-deletion/all-review/run-1.json",
+    "sha256": "999c1759da36e72f37c4d3789fb3cd4595dd7aef30f68ee8814510f4e6631421",
+    "bytes": 566,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-review-work\\run-2.json",
+    "destination": "evidence/kemeny-one-deletion/all-review/run-2.json",
+    "sha256": "35f0d6aa026fab9da2cbf53d3f3e688dcf9141588f97fe4bec683d074c62527d",
+    "bytes": 18652,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-review-work\\run.py",
+    "destination": "evidence/kemeny-one-deletion/all-review/run.py",
+    "sha256": "dbb3ca9df725172be3d447c6088f667685c67f71bebdbc7a163d83790186f1f4",
+    "bytes": 747,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch1-argv.json",
+    "destination": "evidence/kemeny-one-deletion/optimal-author/batch1-argv.json",
+    "sha256": "87df474b07f24be6ec651fa52998ddb1a8a8840506f6d37b8c7b607c05ddd5d1",
+    "bytes": 173,
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch1-original.py",
+    "destination": "evidence/kemeny-one-deletion/optimal-author/batch1-original.py",
+    "sha256": "e7d0e89e23c0c15831b9454b6d0945cb28506fd6a6c30ef01105ee6024573d9a",
+    "bytes": 887,
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch1-rc.txt",
+    "destination": "evidence/kemeny-one-deletion/optimal-author/batch1-rc.txt",
+    "sha256": "f1b2f662800122bed0ff255693df89c4487fbdcf453d3524a42d4ec20c3d9c04",
+    "bytes": 3,
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch1-retry-argv.json",
+    "destination": "evidence/kemeny-one-deletion/optimal-author/batch1-retry-argv.json",
+    "sha256": "87df474b07f24be6ec651fa52998ddb1a8a8840506f6d37b8c7b607c05ddd5d1",
+    "bytes": 173,
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch1-retry-rc.txt",
+    "destination": "evidence/kemeny-one-deletion/optimal-author/batch1-retry-rc.txt",
+    "sha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+    "bytes": 3,
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch1-retry-stderr.txt",
+    "destination": "evidence/kemeny-one-deletion/optimal-author/batch1-retry-stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch1-retry-stdout.txt",
+    "destination": "evidence/kemeny-one-deletion/optimal-author/batch1-retry-stdout.txt",
+    "sha256": "f40a1dd4c249b4ce10d8ce4921d45b4dec0ac76d58cc902497dfe376cbf4e732",
+    "bytes": 4024,
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch1-stderr.txt",
+    "destination": "evidence/kemeny-one-deletion/optimal-author/batch1-stderr.txt",
+    "sha256": "f91f4ac7b83d93ccb1ee576bb7659c41a648195de7811667d19b2470249c66c7",
+    "bytes": 2812,
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch1-stdout.txt",
+    "destination": "evidence/kemeny-one-deletion/optimal-author/batch1-stdout.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch1.json",
+    "destination": "evidence/kemeny-one-deletion/optimal-author/batch1.json",
+    "sha256": "d7f28e449e255ba9717713d8c9742fb3b242069f0fe6fe9eaf1b6c1f93f13c17",
+    "bytes": 2009,
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch1.py",
+    "destination": "evidence/kemeny-one-deletion/optimal-author/batch1.py",
+    "sha256": "aa882e3e8ea477f4e6ff291e394bf3019ed114bf7c985a6e5f81df55b8a1181d",
+    "bytes": 895,
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch2-argv.json",
+    "destination": "evidence/kemeny-one-deletion/optimal-author/batch2-argv.json",
+    "sha256": "2e82f420ab52bc4f717b44ac169e551d33e823180902c85832fdc98521c58c0c",
+    "bytes": 173,
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch2-plan.md",
+    "destination": "evidence/kemeny-one-deletion/optimal-author/batch2-plan.md",
+    "sha256": "ed03e44890625e13f26b72b6daf448be78f61243648d5183735b4e3b94b439f5",
+    "bytes": 751,
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch2-rc.txt",
+    "destination": "evidence/kemeny-one-deletion/optimal-author/batch2-rc.txt",
+    "sha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+    "bytes": 3,
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch2-stderr.txt",
+    "destination": "evidence/kemeny-one-deletion/optimal-author/batch2-stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch2-stdout.txt",
+    "destination": "evidence/kemeny-one-deletion/optimal-author/batch2-stdout.txt",
+    "sha256": "5a48c449ec129c4b58773065dc8c5419232822f989aa336a93c677988e6c1646",
+    "bytes": 354,
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch2.json",
+    "destination": "evidence/kemeny-one-deletion/optimal-author/batch2.json",
+    "sha256": "1f22a17478ebbfe24cbc75d557bc12a89c9c74db97dfb510cb4c99573052ae82",
+    "bytes": 122416,
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch2.py",
+    "destination": "evidence/kemeny-one-deletion/optimal-author/batch2.py",
+    "sha256": "0cf26c4c7cac6c662dd483423b54f353a295318f7d94dbc2692ab967761b45c8",
+    "bytes": 2567,
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\hashes.json",
+    "destination": "evidence/kemeny-one-deletion/optimal-author/hashes.json",
+    "sha256": "7ad262afaebd9ecbd5fb9ca7d1b909ca78742ee817588af68d2da50dfe4f1fa3",
+    "bytes": 4828,
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\plan.md",
+    "destination": "evidence/kemeny-one-deletion/optimal-author/plan.md",
+    "sha256": "8081571be8b82fa4f37eb0433e379a90a9c712c2d56dcafca5ebcecdb0ec0f7b",
+    "bytes": 583,
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\proposal.md",
+    "destination": "evidence/kemeny-one-deletion/optimal-author/proposal.md",
+    "sha256": "42abf0c7a814824936ead29f9f1ccae77f38bb7464d5c51fd935f2472fc14f26",
+    "bytes": 7237,
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\author-hash-check.json",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/author-hash-check.json",
+    "sha256": "2692c64a2ad2fa0890e026b85d3b12a42d8b9e66e877c4866ce86b0d6691f135",
+    "bytes": 2948,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\B.json",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/B.json",
+    "sha256": "d97a2cf00824ae4bf478bb326482e09d706183d37e826281b56d9bf04259214f",
+    "bytes": 6199,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\B.stderr",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/B.stderr",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\B.stdout",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/B.stdout",
+    "sha256": "3329e05405b5c9f870cb09a397ece13287b33ef4da3a796243fe8425f8d9514d",
+    "bytes": 31,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\C.json",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/C.json",
+    "sha256": "735814bca5cc306839812c2bbbecf2852dfd09f298a2c37540521fa7fd75b798",
+    "bytes": 6199,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\C.stderr",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/C.stderr",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\C.stdout",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/C.stdout",
+    "sha256": "f31b2b81767247a5a05c9a79a0dc3ad710e8d79e80ff8a941f785eb0f0923508",
+    "bytes": 31,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\execution.json",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/execution.json",
+    "sha256": "a42e5288456151f39869ebed506c11d178270fd17581c8395d66946d9545d614",
+    "bytes": 1236,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\hashes.json",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/hashes.json",
+    "sha256": "4252a6d8ef25ddd3b5635777cbfd7b5bfdf8702075a011b46cf383827926b26f",
+    "bytes": 7407,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\input-hashes.json",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/input-hashes.json",
+    "sha256": "4122dc2a23793e2deafdc93f0eeaa4409b3f938e0c2a1495188b1b390bbe886e",
+    "bytes": 472,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\plan.md",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/plan.md",
+    "sha256": "3540fa676f3df0a26f23352def3314af4d294295ea2de135414b11cc2dc63707",
+    "bytes": 1067,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\portable-argv.json",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/portable-argv.json",
+    "sha256": "28e675c0f4edbed487009fa221e0ef519a8f0ecfa570eb6897df7bb67be4cdd2",
+    "bytes": 520,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\portable-comparison.json",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/portable-comparison.json",
+    "sha256": "1f784c488a4200e2d960ef7527f363d730ecb481f4b01ed845d66619cb6606a8",
+    "bytes": 81,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\portable-execution.json",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/portable-execution.json",
+    "sha256": "09abb3ca8e3b6463d1d338fa961efc51676c8f38d82b74b4c9ac00193bd9147e",
+    "bytes": 48,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\portable-plan.md",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/portable-plan.md",
+    "sha256": "434e3c87e00d6d162c101104512eda5709d75b762c1cc72d7d3c978687a7ac4e",
+    "bytes": 498,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\portable-result.json",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/portable-result.json",
+    "sha256": "925cd7fa7fae2b8b6c289236711bd3476f476126e2ac433b95985fb16a6b5872",
+    "bytes": 2289,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\portable.stderr",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/portable.stderr",
+    "sha256": "3f98a1a7c9fa5819d9340dbf57fdcab3bc8a003186fc27c6ca932096761ad806",
+    "bytes": 796,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\portable.stdout",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/portable.stdout",
+    "sha256": "cd85143b18d9607bfb1323239ac6928d59e582ac05fa419e18ce6e473f3bbc26",
+    "bytes": 4688,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\restore.json",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/restore.json",
+    "sha256": "d0f5f45291beee9bf834baa3190eac276c5392e85685ce325781455b5b16af1e",
+    "bytes": 1659,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\restore.stderr",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/restore.stderr",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\restore.stdout",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/restore.stdout",
+    "sha256": "e8d5cd309431a19c2e653073676a190a5d97c7ce4fddd9cf5d435b08ddfdc2eb",
+    "bytes": 37,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\result.json",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/result.json",
+    "sha256": "63f636e21a8de5f1419a54c51554cc909f47add25b58ba823c7bcd03d2ed88cb",
+    "bytes": 309,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\review.log",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/review.log",
+    "sha256": "843737353e928c43f3f18ba514e2c976956d97ac48e573a46219a4704002bd44",
+    "bytes": 2904,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\review.md",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/review.md",
+    "sha256": "145705603fa7a54ccc1fa2cf31b4c8be4ae456b8966de5d45e16ac6f93c7a7d8",
+    "bytes": 6515,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\review.py",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/review.py",
+    "sha256": "5597e065d5a718c902ba4d220d233e61ed1f1e071e8cb4897b962870ab7b146c",
+    "bytes": 3509,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\review.rc",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/review.rc",
+    "sha256": "186a919b8c7cb84aebf4e53c70cd1cc028a93a1d183ee29dd6e10cd18a714577",
+    "bytes": 4,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\round2-plan.md",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/round2-plan.md",
+    "sha256": "59e7ad3021cf185ba477044988b8e0590b783202528cb34e6e9c5d70b1041c37",
+    "bytes": 687,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\round2.log",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/round2.log",
+    "sha256": "8fd9eac12f9372c9a35b5a461a4b8d131825dc829572f4fcc725501760c5e351",
+    "bytes": 1286,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\round2.py",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/round2.py",
+    "sha256": "b4bcc10b46b15b28256bf4c8d11a550ee290ebc2b97638a9967388e447b5bda3",
+    "bytes": 1712,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\round2.rc",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/round2.rc",
+    "sha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+    "bytes": 3,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\untouched_A.json",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/untouched_A.json",
+    "sha256": "32b2b13e2397cf973c6c164f7648521504b9147a2d36bc16ce251781cf82fea0",
+    "bytes": 5785,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\untouched_A.stderr",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/untouched_A.stderr",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\untouched_A.stdout",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/untouched_A.stdout",
+    "sha256": "ac8808693de792a900c1942ead813b1ad0f149f2cf93c9ee389c5e568db3cb35",
+    "bytes": 41,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\uv.json",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/uv.json",
+    "sha256": "29a0ac2a108a06c51feb78db80e681d8f5d6e3f4ad1f9e87b0db89a0aeecee61",
+    "bytes": 4202,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\uv.stderr",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/uv.stderr",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\uv.stdout",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/uv.stdout",
+    "sha256": "263fe64a163ae2d4b5dafa33f11464c2ef86dcefc2bbc89513f4fa523df75aa7",
+    "bytes": 32,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\verdict.json",
+    "destination": "evidence/kemeny-one-deletion/optimal-review/verdict.json",
+    "sha256": "0aa10a7b694746d5b19d3b6d0e56d870d92a07b8433f28bb7e223f6d2ed7f024",
+    "bytes": 945,
+    "producer": "/root/astra_damage_symbolic"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\work\\kemeny-one-deletion-proof\\all-deletions-01.json",
+    "destination": "evidence/kemeny-one-deletion/integration/all-deletions-01.json",
+    "sha256": "55eb284fa6d0c6954c7aed24f5e288352e15bc1c3d87178d2bdb8be5b575931e",
+    "bytes": 3608,
+    "producer": "/root"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\work\\kemeny-one-deletion-proof\\check-01.json",
+    "destination": "evidence/kemeny-one-deletion/integration/check-01.json",
+    "sha256": "18d80f4a239d0d590af0d78770bd50c0c2e015ba9344b42c7deb1ec586f4ea22",
+    "bytes": 1094,
+    "producer": "/root"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\work\\kemeny-one-deletion-proof\\optimal-repair-01.json",
+    "destination": "evidence/kemeny-one-deletion/integration/optimal-repair-01.json",
+    "sha256": "925cd7fa7fae2b8b6c289236711bd3476f476126e2ac433b95985fb16a6b5872",
+    "bytes": 2289,
+    "producer": "/root"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\work\\kemeny-one-deletion-proof\\logs\\attempt-all-deletions-01.json",
+    "destination": "evidence/kemeny-one-deletion/integration/attempt-all-deletions-01.json",
+    "sha256": "5b4b5770df7d4daa6e93f14240e1e89cea5e4a26b976265be8e19da5fd50758f",
+    "bytes": 1128,
+    "producer": "/root"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\work\\kemeny-one-deletion-proof\\logs\\attempt-all-deletions-01.stderr.bin",
+    "destination": "evidence/kemeny-one-deletion/integration/attempt-all-deletions-01.stderr.bin",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "producer": "/root"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\work\\kemeny-one-deletion-proof\\logs\\attempt-all-deletions-01.stdout.bin",
+    "destination": "evidence/kemeny-one-deletion/integration/attempt-all-deletions-01.stdout.bin",
+    "sha256": "866bd209589c3b9248ebf4e7272fd11ab5fcfacadc995d5f49798d5313a40e38",
+    "bytes": 3733,
+    "producer": "/root"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\work\\kemeny-one-deletion-proof\\logs\\attempt-one-deletion-01.json",
+    "destination": "evidence/kemeny-one-deletion/integration/attempt-one-deletion-01.json",
+    "sha256": "8f7f82cb662c8b3328418c8efe619c59719122cf81dcfadf7e5aa790014c8a0b",
+    "bytes": 1114,
+    "producer": "/root"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\work\\kemeny-one-deletion-proof\\logs\\attempt-one-deletion-01.stderr.bin",
+    "destination": "evidence/kemeny-one-deletion/integration/attempt-one-deletion-01.stderr.bin",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "producer": "/root"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\work\\kemeny-one-deletion-proof\\logs\\attempt-one-deletion-01.stdout.bin",
+    "destination": "evidence/kemeny-one-deletion/integration/attempt-one-deletion-01.stdout.bin",
+    "sha256": "70080642c07898d2032a6c7249cc38e39c4f7ae44d07d8d0d7c8e666c1aa0e7c",
+    "bytes": 1115,
+    "producer": "/root"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\work\\kemeny-one-deletion-proof\\logs\\attempt-optimal-repair-01.json",
+    "destination": "evidence/kemeny-one-deletion/integration/attempt-optimal-repair-01.json",
+    "sha256": "120738e1752177ea6ff08a126ad5f41b96ecfb5106a9c2e1ca899c7456dbde0d",
+    "bytes": 1138,
+    "producer": "/root"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\work\\kemeny-one-deletion-proof\\logs\\attempt-optimal-repair-01.stderr.bin",
+    "destination": "evidence/kemeny-one-deletion/integration/attempt-optimal-repair-01.stderr.bin",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "producer": "/root"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\work\\kemeny-one-deletion-proof\\logs\\attempt-optimal-repair-01.stdout.bin",
+    "destination": "evidence/kemeny-one-deletion/integration/attempt-optimal-repair-01.stdout.bin",
+    "sha256": "bfb7b52a78223ddf44b07742f29e60d64b61705c34ac63ae3ee2d7230d0de751",
+    "bytes": 2343,
+    "producer": "/root"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\work\\kemeny-one-deletion-proof\\logs\\attempts.jsonl",
+    "destination": "evidence/kemeny-one-deletion/integration/attempts.jsonl",
+    "sha256": "4fce62697c398eede7fe74957f909c413174e87f274be0bcbd0d50769ac65d23",
+    "bytes": 2933,
+    "producer": "/root"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-damage-prior-art-work\\report.md",
+    "destination": "evidence/kemeny-one-deletion/source/bounded-investigation.md",
+    "sha256": "1dd6fbdabb8ba0ad26fdcfcb8b47659d842ac6eea6ddc5508e34c6d7fb19b6f7",
+    "bytes": 9421,
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-single-failure-release-review-work\\assembly-replay.json",
+    "destination": "evidence/kemeny-one-deletion/release-review/assembly-replay.json",
+    "sha256": "46032625aff113f4992161ae39e23d733f3c77f64daae7e6496d4c11bda5a370",
+    "bytes": 2120,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-single-failure-release-review-work\\assembly-result.json",
+    "destination": "evidence/kemeny-one-deletion/release-review/assembly-result.json",
+    "sha256": "c13f9ca84e0dbc8af1a2daf8359610700b83769d7b2aa9b0e6e1e4059ea39a07",
+    "bytes": 9116,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-single-failure-release-review-work\\canonical-result.json",
+    "destination": "evidence/kemeny-one-deletion/release-review/canonical-result.json",
+    "sha256": "1fa3acba3dfd44e1288e33667f00fb5c41b33eca916fc64ca9f7ecf0885f22c1",
+    "bytes": 324,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-single-failure-release-review-work\\check_assembly.py",
+    "destination": "evidence/kemeny-one-deletion/release-review/check_assembly.py",
+    "sha256": "d935f3de1978c37a5c9e0c88d0392b890c7aa8d00b89b7cc6e689e77282efd49",
+    "bytes": 2129,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-single-failure-release-review-work\\check_canonical.py",
+    "destination": "evidence/kemeny-one-deletion/release-review/check_canonical.py",
+    "sha256": "e8b3aff7b2b19d24fc1eeb8527b735acfde5d59962ec547d5dcd15be2d3c5974",
+    "bytes": 1088,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-single-failure-release-review-work\\hashes.json",
+    "destination": "evidence/kemeny-one-deletion/release-review/hashes.json",
+    "sha256": "19bd9389af356a2621041f92add6fbfd6fb03f4da180886c80d6c6c57fe3c49f",
+    "bytes": 3375,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-single-failure-release-review-work\\review.md",
+    "destination": "evidence/kemeny-one-deletion/release-review/review.md",
+    "sha256": "2b84d18b373445f9ec49de935384be40146a03299da39dce1d64e467cf726941",
+    "bytes": 4926,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-single-failure-release-review-work\\reviewed-bundle-sha256.txt",
+    "destination": "evidence/kemeny-one-deletion/release-review/reviewed-bundle-sha256.txt",
+    "sha256": "5a290fe6473b582ac41dfd5669d9c5fa7c33bfa0306b297ec3c74de0fbe842cb",
+    "bytes": 64,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-single-failure-release-review-work\\run_assembly.py",
+    "destination": "evidence/kemeny-one-deletion/release-review/run_assembly.py",
+    "sha256": "1f77c25d4cfe43f9fd77f6d85eb122562c42e6474acc6ed28c02e47f7a1a98b8",
+    "bytes": 897,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-single-failure-release-review-work\\seal.py",
+    "destination": "evidence/kemeny-one-deletion/release-review/seal.py",
+    "sha256": "86604bdb18c864e7ebcf0131e0f5a4f8765165b12834960b40d7dfb920612680",
+    "bytes": 1986,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-single-failure-release-review-work\\source_inspection.py",
+    "destination": "evidence/kemeny-one-deletion/release-review/source_inspection.py",
+    "sha256": "412045978a8171d94821f886ae60e7259469b8a41fe8063771c52b1821fcb6d7",
+    "bytes": 339,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-single-failure-release-review-work\\verdict.json",
+    "destination": "evidence/kemeny-one-deletion/release-review/verdict.json",
+    "sha256": "7c01a43b4479c6d9c8fd03e261c2a9b439b7f15ab79a665d871a18eb48fee0bd",
+    "bytes": 1472,
+    "producer": "/root/astra_general_proof_verifier"
+  }
+]

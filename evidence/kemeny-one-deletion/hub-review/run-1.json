@@ -1,0 +1,14 @@
+{
+  "argv": [
+    "C:/Users/Legedith/.local/bin/uv.exe",
+    "pip",
+    "install",
+    "--python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\.venv\\Scripts\\python.exe",
+    "sympy==1.14.0"
+  ],
+  "cwd": "C:\\Users\\Legedith\\Documents\\ChatGPT\\maths",
+  "stdout": "",
+  "stderr": "Using Python 3.12.11 environment at: D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\.venv\nResolved 2 packages in 46ms\nInstalled 2 packages in 390ms\n + mpmath==1.3.0\n + sympy==1.14.0\n",
+  "returncode": 0
+}

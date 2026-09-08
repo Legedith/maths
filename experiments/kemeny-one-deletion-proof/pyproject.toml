@@ -1,0 +1,9 @@
+[project]
+name = "kemeny-one-deletion-proof"
+version = "0.1.0"
+description = "Exact determinant certificate for a damaged multipartite network"
+requires-python = "==3.12.11"
+dependencies = []
+
+[tool.uv]
+package = false

@@ -1,0 +1,10 @@
+{
+  "argv": [
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-review-work\\.venv\\Scripts\\python.exe",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-review-work\\evaluate.py"
+  ],
+  "cwd": "C:\\Users\\Legedith\\Documents\\ChatGPT\\maths",
+  "stdout": "uB determinants complete\n{'case': 'uB', 'cells': 7, 'negative_numerator': {'terms': 275, 'minimum': 3, 'constant': 656032608, 'degree': 10}, 'denominator': {'terms': 431, 'minimum': 2, 'constant': 30692188800, 'degree': 12}}\nrB determinants complete\n{'case': 'rB', 'cells': 8, 'negative_numerator': {'terms': 160, 'minimum': 3, 'constant': 11235924, 'degree': 8}, 'denominator': {'terms': 272, 'minimum': 2, 'constant': 577886400, 'degree': 10}}\nBC determinants complete\n{'case': 'BC', 'cells': 8, 'negative_numerator': {'terms': 157, 'minimum': 3, 'constant': 11085984, 'degree': 8}, 'denominator': {'terms': 266, 'minimum': 2, 'constant': 577886400, 'degree': 10}}\nuh determinants complete\n{'case': 'uh', 'cells': 6, 'negative_numerator': {'terms': 163, 'minimum': 3, 'constant': 12749400, 'degree': 8}, 'denominator': {'terms': 278, 'minimum': 2, 'constant': 674956800, 'degree': 10}}\nrh determinants complete\n{'case': 'rh', 'cells': 7, 'negative_numerator': {'terms': 118, 'minimum': 3, 'constant': 1701000, 'degree': 7}, 'denominator': {'terms': 212, 'minimum': 2, 'constant': 85730400, 'degree': 9}}\nBh determinants complete\n{'case': 'Bh', 'cells': 7, 'negative_numerator': {'terms': 115, 'minimum': 3, 'constant': 1656900, 'degree': 7}, 'denominator': {'terms': 206, 'minimum': 2, 'constant': 85730400, 'degree': 9}}\nPASS all six cases; 36 matrix comparisons and 18 strict differences\n",
+  "stderr": "",
+  "returncode": 0
+}

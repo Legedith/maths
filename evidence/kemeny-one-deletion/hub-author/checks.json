@@ -1,0 +1,72 @@
+{
+  "full_matrix_checks": [
+    {
+      "tuple": [
+        3,
+        3,
+        3
+      ],
+      "e": 0,
+      "full_K": "5231/630",
+      "quotient_K_plus_modes": "5231/630",
+      "equal": true
+    },
+    {
+      "tuple": [
+        3,
+        3,
+        3
+      ],
+      "e": 1,
+      "full_K": "739621/89280",
+      "quotient_K_plus_modes": "739621/89280",
+      "equal": true
+    },
+    {
+      "tuple": [
+        3,
+        4,
+        5
+      ],
+      "e": 0,
+      "full_K": "920897/81432",
+      "quotient_K_plus_modes": "920897/81432",
+      "equal": true
+    },
+    {
+      "tuple": [
+        3,
+        4,
+        5
+      ],
+      "e": 1,
+      "full_K": "11339844/1004003",
+      "quotient_K_plus_modes": "11339844/1004003",
+      "equal": true
+    },
+    {
+      "tuple": [
+        4,
+        4,
+        6
+      ],
+      "e": 0,
+      "full_K": "179337/13475",
+      "quotient_K_plus_modes": "179337/13475",
+      "equal": true
+    },
+    {
+      "tuple": [
+        4,
+        4,
+        6
+      ],
+      "e": 1,
+      "full_K": "9518257/715650",
+      "quotient_K_plus_modes": "9518257/715650",
+      "equal": true
+    }
+  ],
+  "certificate_identity": true,
+  "coefficient_positivity": true
+}

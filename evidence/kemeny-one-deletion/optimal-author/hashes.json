@@ -1,0 +1,102 @@
+[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "87DF474B07F24BE6EC651FA52998DDB1A8A8840506F6D37B8C7B607C05DDD5D1",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch1-argv.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "E7D0E89E23C0C15831B9454B6D0945CB28506FD6A6C30EF01105EE6024573D9A",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch1-original.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "F1B2F662800122BED0FF255693DF89C4487FBDCF453D3524A42D4EC20C3D9C04",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch1-rc.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "87DF474B07F24BE6EC651FA52998DDB1A8A8840506F6D37B8C7B607C05DDD5D1",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch1-retry-argv.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "13BF7B3039C63BF5A50491FA3CFD8EB4E699D1BA1436315AEF9CBE5711530354",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch1-retry-rc.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch1-retry-stderr.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "F40A1DD4C249B4CE10D8CE4921D45B4DEC0AC76D58CC902497DFE376CBF4E732",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch1-retry-stdout.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "F91F4AC7B83D93CCB1EE576BB7659C41A648195DE7811667D19B2470249C66C7",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch1-stderr.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch1-stdout.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "D7F28E449E255BA9717713D8C9742FB3B242069F0FE6FE9EAF1B6C1F93F13C17",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch1.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "AA882E3E8EA477F4E6FF291E394BF3019ED114BF7C985A6E5F81DF55B8A1181D",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch1.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "2E82F420AB52BC4F717B44AC169E551D33E823180902C85832FDC98521C58C0C",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch2-argv.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "ED03E44890625E13F26B72B6DAF448BE78F61243648D5183735B4E3B94B439F5",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch2-plan.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "13BF7B3039C63BF5A50491FA3CFD8EB4E699D1BA1436315AEF9CBE5711530354",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch2-rc.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch2-stderr.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "5A48C449EC129C4B58773065DC8C5419232822F989AA336A93C677988E6C1646",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch2-stdout.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "1F22A17478EBBFE24CBC75D557BC12A89C9C74DB97DFB510CB4C99573052AE82",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch2.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "0CF26C4C7CAC6C662DD483423B54F353A295318F7D94DBC2692AB967761B45C8",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\batch2.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "8081571BE8B82FA4F37EB0433E379A90A9C712C2D56DCAFCA5EBCECDB0EC0F7B",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\plan.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "42ABF0C7A814824936EAD29F9F1CCAE77F38BB7464D5C51FD935F2472FC14F26",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-design-work\\proposal.md"
+    }
+]

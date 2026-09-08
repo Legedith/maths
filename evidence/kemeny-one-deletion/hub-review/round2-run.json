@@ -1,0 +1,10 @@
+{
+  "argv": [
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\.venv\\Scripts\\python.exe",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\evaluate.py"
+  ],
+  "cwd": "C:\\Users\\Legedith\\Documents\\ChatGPT\\maths",
+  "stdout": "full determinant 0 done\nfull determinant 1 done\n[3, 3, 3] -787/41664\n[3, 4, 5] -89013391/6289074792\n[4, 4, 6] -3360439/385735350\n{\n  \"status\": \"PASS\",\n  \"determinant_method\": \"full permutation expansion, 720 terms each\",\n  \"terms\": 284,\n  \"minimum\": 6,\n  \"constant\": 1784916000,\n  \"degree\": 10,\n  \"matrix_checks\": [\n    {\n      \"tuple\": [\n        3,\n        3,\n        3\n      ],\n      \"e\": 0,\n      \"full_K\": \"5231/630\",\n      \"reduced_K\": \"5231/630\"\n    },\n    {\n      \"tuple\": [\n        3,\n        3,\n        3\n      ],\n      \"e\": 1,\n      \"full_K\": \"739621/89280\",\n      \"reduced_K\": \"739621/89280\"\n    },\n    {\n      \"tuple\": [\n        3,\n        4,\n        5\n      ],\n      \"e\": 0,\n      \"full_K\": \"920897/81432\",\n      \"reduced_K\": \"920897/81432\"\n    },\n    {\n      \"tuple\": [\n        3,\n        4,\n        5\n      ],\n      \"e\": 1,\n      \"full_K\": \"11339844/1004003\",\n      \"reduced_K\": \"11339844/1004003\"\n    },\n    {\n      \"tuple\": [\n        4,\n        4,\n        6\n      ],\n      \"e\": 0,\n      \"full_K\": \"179337/13475\",\n      \"reduced_K\": \"179337/13475\"\n    },\n    {\n      \"tuple\": [\n        4,\n        4,\n        6\n      ],\n      \"e\": 1,\n      \"full_K\": \"9518257/715650\",\n      \"reduced_K\": \"9518257/715650\"\n    }\n  ]\n}\n",
+  "stderr": "",
+  "returncode": 0
+}

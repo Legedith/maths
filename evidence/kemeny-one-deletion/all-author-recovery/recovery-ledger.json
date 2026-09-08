@@ -1,0 +1,74 @@
+[
+  {
+    "case": "uB",
+    "argv": [
+      "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\.venv\\Scripts\\python.exe",
+      "batch2.py",
+      "uB"
+    ],
+    "seconds": 19.571213245391846,
+    "rc": 0,
+    "numerator_positive": true,
+    "denominator_positive": true
+  },
+  {
+    "case": "rB",
+    "argv": [
+      "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\.venv\\Scripts\\python.exe",
+      "batch2.py",
+      "rB"
+    ],
+    "seconds": 10.479873418807983,
+    "rc": 0,
+    "numerator_positive": true,
+    "denominator_positive": true
+  },
+  {
+    "case": "BC",
+    "argv": [
+      "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\.venv\\Scripts\\python.exe",
+      "batch2.py",
+      "BC"
+    ],
+    "seconds": 10.438276767730713,
+    "rc": 0,
+    "numerator_positive": true,
+    "denominator_positive": true
+  },
+  {
+    "case": "uh",
+    "argv": [
+      "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\.venv\\Scripts\\python.exe",
+      "batch2.py",
+      "uh"
+    ],
+    "seconds": 6.528955698013306,
+    "rc": 0,
+    "numerator_positive": true,
+    "denominator_positive": true
+  },
+  {
+    "case": "rh",
+    "argv": [
+      "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\.venv\\Scripts\\python.exe",
+      "batch2.py",
+      "rh"
+    ],
+    "seconds": 5.169975996017456,
+    "rc": 0,
+    "numerator_positive": true,
+    "denominator_positive": true
+  },
+  {
+    "case": "Bh",
+    "argv": [
+      "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\.venv\\Scripts\\python.exe",
+      "batch2.py",
+      "Bh"
+    ],
+    "seconds": 5.452510356903076,
+    "rc": 0,
+    "numerator_positive": true,
+    "denominator_positive": true
+  }
+]

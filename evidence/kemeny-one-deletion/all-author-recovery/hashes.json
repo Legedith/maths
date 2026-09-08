@@ -1,0 +1,134 @@
+[
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\aggregate.rc",
+        "Hash":  "5FECEB66FFC86F38D952786C6D696C79C2DBC239DD4E91B46729D73A27FB57E9"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\amendment.md",
+        "Hash":  "307A779BA0B9D90A583AFB3B95EC538B58626131BF49DE58F04A365AE4E0B301"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\batch1.py",
+        "Hash":  "BB2C8589BA028E5DA1723B27E86DE4243FD417453E2CAC0927614A12B20CCC3E"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\batch2-before.py",
+        "Hash":  "64DE78D5E9A08D6695F23C9D82CB26A00E953BD3B3E040FAAF299069B6CB97A3"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\batch2.py",
+        "Hash":  "C00A88707B0D5D9F413B4199CE233E036D2BD8922D3533D7F82F939D510AD768"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\BC.json",
+        "Hash":  "DA05AEDC95D3CF4FD65F0616ACD9CF6E89D6E296342BE0169CFCFE420C8062A4"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\BC.stderr",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\BC.stdout",
+        "Hash":  "DA9F2A6DB320859101E590EAFAE025F72E1EE35AFC3B9DE49F70A6FBCB06D0E3"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\Bh.json",
+        "Hash":  "C6666BDAC52E000D971CC47CF66901D21C3F3AE4D2C86B3040038D4DC4E1FE12"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\Bh.stderr",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\Bh.stdout",
+        "Hash":  "5EEDBA092B068D182F0270F81A0088508222B7F939506945F4674534EB0B893B"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\certificate-summary.json",
+        "Hash":  "8A38814292E79F98C4AE402BE7CB91DF2109D756F97BEA250719369B95E01AA5"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\claims.json",
+        "Hash":  "557A08BB99ACDE40270403A2A0AC3377802567A9C55CE40222C597907AABE90E"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\input-hashes.json",
+        "Hash":  "92643CCC265569F5F4089604907334BFC6AF2C1196EC0D29A0460B7A29E91305"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\method.md",
+        "Hash":  "ED116FBAB54C508A5FA930887559537CF2C62699BC41A61CE75F49D81DB2ED0B"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\proof.md",
+        "Hash":  "55A9545FE981C1D9206839BA9D9EBCB498080DE00FD2D6E3568971764BBBA8BA"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\rB.json",
+        "Hash":  "100FBBED6FE0EC9A36359E51DF4202B27EE7476553F2E67B04E2CCE2D2687351"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\rB.stderr",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\rB.stdout",
+        "Hash":  "BA39F68E263C987C2D5FF1B88EDC71B68816C1AA7E0654538A7FC3EEDCF17130"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\recover.py",
+        "Hash":  "A8E7B66C6D604C072CAC431BBFD723BF2FF109D3261F95EB923D4183E7A553F5"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\recovery-ledger.json",
+        "Hash":  "D4ECF8044A229B4639F0D3154F589FB1FAF6485A695839B65608144F9F245CCA"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\recovery.log",
+        "Hash":  "C759BB679F11819C1774473B87B75ECACAFF893E83DB90D736B2A3ADB1518535"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\recovery.rc",
+        "Hash":  "13BF7B3039C63BF5A50491FA3CFD8EB4E699D1BA1436315AEF9CBE5711530354"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\rh.json",
+        "Hash":  "1E2292ED4AC5EA20BC159AEB0144CC5EB1CB1E296B25C7FB84AB9CC6E2AE0C53"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\rh.stderr",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\rh.stdout",
+        "Hash":  "627F12F0259D3D1D4A020E4A0B7BAF53EE148F12E5A17E3E98F4327260518BB7"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\source.diff",
+        "Hash":  "27784D842F4BB51E3A3AA1F604138836A8F88F70608E79B0BD6DC2750A2DF95F"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\uB.json",
+        "Hash":  "766CBF6C546F790D34CFA23A88E065BC5407C70369192B0BBA63F7EDF33F3BE5"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\uB.stderr",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\uB.stdout",
+        "Hash":  "2B1C89B5D1CEDCBF42EAF380FD520DFBB5CB669FCC970783AF2E2FD612076C0A"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\uh.json",
+        "Hash":  "CE69A5F4A70D7286831EC17EBB184AF41A74A1F5F0B7F864EA0F816CCE0AAAAC"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\uh.stderr",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-all-deletions-recovery-work\\uh.stdout",
+        "Hash":  "03B5EAA826B5AB2D1E98FAAAFE629E21EC16AFD5BCB51881BFA73C69F84C4677"
+    }
+]

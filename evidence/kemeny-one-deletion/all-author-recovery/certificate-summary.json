@@ -1,0 +1,56 @@
+[
+    {
+        "case":  "uB",
+        "numerator_terms":  275,
+        "denominator_terms":  431,
+        "numerator_constant":  "656032608",
+        "denominator_constant":  "30692188800",
+        "numerator_positive":  true,
+        "denominator_positive":  true
+    },
+    {
+        "case":  "rB",
+        "numerator_terms":  160,
+        "denominator_terms":  272,
+        "numerator_constant":  "11235924",
+        "denominator_constant":  "577886400",
+        "numerator_positive":  true,
+        "denominator_positive":  true
+    },
+    {
+        "case":  "BC",
+        "numerator_terms":  157,
+        "denominator_terms":  266,
+        "numerator_constant":  "11085984",
+        "denominator_constant":  "577886400",
+        "numerator_positive":  true,
+        "denominator_positive":  true
+    },
+    {
+        "case":  "uh",
+        "numerator_terms":  163,
+        "denominator_terms":  278,
+        "numerator_constant":  "12749400",
+        "denominator_constant":  "674956800",
+        "numerator_positive":  true,
+        "denominator_positive":  true
+    },
+    {
+        "case":  "rh",
+        "numerator_terms":  118,
+        "denominator_terms":  212,
+        "numerator_constant":  "1701000",
+        "denominator_constant":  "85730400",
+        "numerator_positive":  true,
+        "denominator_positive":  true
+    },
+    {
+        "case":  "Bh",
+        "numerator_terms":  115,
+        "denominator_terms":  206,
+        "numerator_constant":  "1656900",
+        "denominator_constant":  "85730400",
+        "numerator_positive":  true,
+        "denominator_positive":  true
+    }
+]

@@ -1,0 +1,125 @@
+{
+  "schema_version": "all-single-deletions-frozen-certificate-v1",
+  "pass": true,
+  "checker_sha256": "4ebde785ce3515a0d4d5284b71f5e04a5a536197dc315cae60d293435682b2f9",
+  "arithmetic_sha256": "ef5d3b84e9f78ac3e6e4840a3be675c2806f3df7aa89efa1ef4d5b776dcc4ffd",
+  "method": "subset determinants modulo t^3 and exact cross-multiplication of six rational certificates",
+  "cases": [
+    {
+      "case": "uB",
+      "certificate_sha256": "766cbf6c546f790d34cfa23a88e065bc5407c70369192b0bba63f7edf33f3be5",
+      "cells": [
+        "u",
+        "v",
+        "j",
+        "A",
+        "B",
+        "C",
+        "h"
+      ],
+      "exact_rational_identity": true,
+      "positive_numerator_and_denominator": true,
+      "numerator_term_count": 275,
+      "denominator_term_count": 431,
+      "numerator_constant": 656032608,
+      "denominator_constant": 30692188800
+    },
+    {
+      "case": "rB",
+      "certificate_sha256": "100fbbed6fe0ec9a36359e51df4202b27ee7476553f2e67b04e2cce2d2687351",
+      "cells": [
+        "u",
+        "v",
+        "r",
+        "j",
+        "A",
+        "B",
+        "C",
+        "h"
+      ],
+      "exact_rational_identity": true,
+      "positive_numerator_and_denominator": true,
+      "numerator_term_count": 160,
+      "denominator_term_count": 272,
+      "numerator_constant": 11235924,
+      "denominator_constant": 577886400
+    },
+    {
+      "case": "BC",
+      "certificate_sha256": "da05aedc95d3cf4fd65f0616acd9cf6e89d6e296342be0169cfcfe420c8062a4",
+      "cells": [
+        "u",
+        "v",
+        "j",
+        "k",
+        "A",
+        "B",
+        "C",
+        "h"
+      ],
+      "exact_rational_identity": true,
+      "positive_numerator_and_denominator": true,
+      "numerator_term_count": 157,
+      "denominator_term_count": 266,
+      "numerator_constant": 11085984,
+      "denominator_constant": 577886400
+    },
+    {
+      "case": "uh",
+      "certificate_sha256": "ce69a5f4a70d7286831ec17ebb184af41a74a1f5f0b7f864ea0f816cce0aaaac",
+      "cells": [
+        "u",
+        "v",
+        "A",
+        "B",
+        "C",
+        "h"
+      ],
+      "exact_rational_identity": true,
+      "positive_numerator_and_denominator": true,
+      "numerator_term_count": 163,
+      "denominator_term_count": 278,
+      "numerator_constant": 12749400,
+      "denominator_constant": 674956800
+    },
+    {
+      "case": "rh",
+      "certificate_sha256": "1e2292ed4ac5ea20bc159aeb0144cc5eb1cb1e296b25c7fb84ab9cc6e2ae0c53",
+      "cells": [
+        "u",
+        "v",
+        "r",
+        "A",
+        "B",
+        "C",
+        "h"
+      ],
+      "exact_rational_identity": true,
+      "positive_numerator_and_denominator": true,
+      "numerator_term_count": 118,
+      "denominator_term_count": 212,
+      "numerator_constant": 1701000,
+      "denominator_constant": 85730400
+    },
+    {
+      "case": "Bh",
+      "certificate_sha256": "c6666bdac52e000d971cc47cf66901d21c3f3ae4d2c86b3040038d4dc4e1fe12",
+      "cells": [
+        "u",
+        "v",
+        "j",
+        "A",
+        "B",
+        "C",
+        "h"
+      ],
+      "exact_rational_identity": true,
+      "positive_numerator_and_denominator": true,
+      "numerator_term_count": 115,
+      "denominator_term_count": 206,
+      "numerator_constant": 1656900,
+      "denominator_constant": 85730400
+    }
+  ],
+  "proof_boundary": "Nine deletion orbits, B/C relabelling, zero-mode corrections including the empty A cell at a=3, and graph interpretation require the accompanying independent proof audit. Exactly one original edge deletion; no optimality, multi-failure, novelty, or practical-benefit certification."
+}

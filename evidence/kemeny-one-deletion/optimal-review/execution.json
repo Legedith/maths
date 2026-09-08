@@ -1,0 +1,52 @@
+[
+  {
+    "name": "restore",
+    "argv": [
+      "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\.venv\\Scripts\\python.exe",
+      "review.py",
+      "restore"
+    ],
+    "seconds": 1.1188104152679443,
+    "rc": 0
+  },
+  {
+    "name": "uv",
+    "argv": [
+      "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\.venv\\Scripts\\python.exe",
+      "review.py",
+      "uv"
+    ],
+    "seconds": 1.4753940105438232,
+    "rc": 0
+  },
+  {
+    "name": "untouched_A",
+    "argv": [
+      "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\.venv\\Scripts\\python.exe",
+      "review.py",
+      "untouched_A"
+    ],
+    "seconds": 2.3941450119018555,
+    "rc": 0
+  },
+  {
+    "name": "B",
+    "argv": [
+      "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\.venv\\Scripts\\python.exe",
+      "review.py",
+      "B"
+    ],
+    "seconds": 2.6371374130249023,
+    "rc": 0
+  },
+  {
+    "name": "C",
+    "argv": [
+      "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\.venv\\Scripts\\python.exe",
+      "review.py",
+      "C"
+    ],
+    "seconds": 2.786482572555542,
+    "rc": 0
+  }
+]

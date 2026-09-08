@@ -1,0 +1,21 @@
+{
+  "schema_version": "one-deletion-frozen-certificate-v1",
+  "pass": true,
+  "certificate_sha256": "a5a096223ad9fdd3744a08d5fcfbd9643a5090431eadd501d13ead449cab2940",
+  "checker_sha256": "ef5d3b84e9f78ac3e6e4840a3be675c2806f3df7aa89efa1ef4d5b776dcc4ffd",
+  "method": "integer subset determinant in Z[x,y,z,t]/(t^3), retaining coefficients of t and t^2",
+  "term_count": 284,
+  "minimum_coefficient": 6,
+  "constant_coefficient": 1784916000,
+  "total_degree": 10,
+  "checks": {
+    "frozen_input_identity": true,
+    "positive_cell_sizes_and_degrees": true,
+    "undirected_cell_balance": true,
+    "zero_laplacian_determinants": true,
+    "positive_ratio_denominators": true,
+    "full_negative_numerator_identity": true,
+    "strict_coefficient_positivity": true
+  },
+  "proof_boundary": "The graph-to-quotient spectral reduction, coefficient-ratio interpretation, domain substitution, and vertex relabelling require the accompanying proof and independent audit. This checks only deletion of uh and addition of uv. No Lean formalization, global novelty, or practical benefit is certified."
+}

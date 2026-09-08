@@ -1,0 +1,20 @@
+BC 0 coefficients complete
+BC 1 coefficients complete
+Traceback (most recent call last):
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-all-deletions-work\batch2.py", line 14, in <module>
+    if len(sys.argv)>1:symbolic(sys.argv[1])
+                       ~~~~~~~~^^^^^^^^^^^^^
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-all-deletions-work\batch2.py", line 13, in symbolic
+    Path(case+'.json').write_text(json.dumps(out,indent=2));print(case,'NUMERATOR',out['numerator_positive'],len(P.terms()),'DENOMINATOR',out['denominator_positive'],len(T.terms()),flush=True)
+                                  ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Legedith\AppData\Roaming\uv\python\cpython-3.13.7-windows-x86_64-none\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Users\Legedith\AppData\Roaming\uv\python\cpython-3.13.7-windows-x86_64-none\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Legedith\AppData\Roaming\uv\python\cpython-3.13.7-windows-x86_64-none\Lib\json\encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Legedith\AppData\Roaming\uv\python\cpython-3.13.7-windows-x86_64-none\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type BooleanTrue is not JSON serializable

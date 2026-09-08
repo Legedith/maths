@@ -1,0 +1,17 @@
+[
+  {
+    "case": "one-deletion-01",
+    "canonical_equals_independent_replay": true,
+    "rc": 0
+  },
+  {
+    "case": "all-deletions-01",
+    "canonical_equals_independent_replay": true,
+    "rc": 0
+  },
+  {
+    "case": "optimal-repair-01",
+    "canonical_equals_independent_replay": true,
+    "rc": 0
+  }
+]

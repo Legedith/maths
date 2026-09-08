@@ -1,0 +1,2 @@
+# Portable alignment replay frozen
+Read changed verify_optimal_repair.py and release contract, reuse previously independently audited unchanged arithmetic/parser. Fresh uv --frozen run with project Python3.12.11 and no dependencies; all environment/cache/output paths inside this review stage. Inspect endpoint partitions, deletion/insert operations, n-m correction, exact cross-product identity, hash and comparison pinning. No additional mathematical search or re-audit of unchanged arithmetic.

@@ -1,0 +1,1 @@
+﻿Round 1 failed before any mathematical evaluation: the reviewer's helper inspect.py shadowed Python stdlib inspect during SymPy import. Rename this helper to packet-inspection.py. No evaluator mathematics or range changes. Retain run-2.json. Round 2 runs the unchanged evaluator.

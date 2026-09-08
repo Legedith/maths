@@ -1,0 +1,12 @@
+[
+    "run",
+    "--project",
+    "D:/CodexWorkspaces/mathematics-atlas/project/experiments/kemeny-one-deletion-proof",
+    "--frozen",
+    "python",
+    "D:/CodexWorkspaces/mathematics-atlas/project/experiments/kemeny-one-deletion-proof/verify_optimal_repair.py",
+    "--certificate",
+    "D:/CodexWorkspaces/mathematics-atlas/project/experiments/kemeny-one-deletion-proof/optimal-repair.json",
+    "--output",
+    "D:/CodexWorkspaces/mathematics-atlas/astra-postfailure-review-work/portable-result.json"
+]

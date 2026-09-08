@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "auditor": "/root/astra_general_proof_verifier",
+  "rounds": 2,
+  "checks": [
+    {
+      "id": "reproduction",
+      "status": "pass",
+      "evidence": [
+        "A123",
+        "A135",
+        "A178"
+      ],
+      "note": "All public copies/artifacts/claim locators checked; canonical results equal independent replays and rc0 raw output."
+    },
+    {
+      "id": "specification_compliance",
+      "status": "pass",
+      "evidence": [
+        "A067",
+        "A077",
+        "A180"
+      ],
+      "note": "Full endpoint/tie/a3 domain; exactly one original deletion; optimal restoration admissible and unique; alternate A not globally ranked."
+    },
+    {
+      "id": "source_verification",
+      "status": "pass",
+      "evidence": [
+        "A196"
+      ],
+      "note": "Direct primary passages support only known-method attributions; novelty and practical impact excluded."
+    },
+    {
+      "id": "implementation_alignment",
+      "status": "pass",
+      "evidence": [
+        "A208",
+        "A210",
+        "A123",
+        "A135"
+      ],
+      "note": "Unchanged independently audited implementations/results and corrected final prose align; CI static only until push."
+    }
+  ],
+  "limitations": [
+    "Deterministic gate after attestation and actual GitHub CI after push remain root follow-through.",
+    "No global priority, practical impact or multi-failure certification."
+  ]
+}

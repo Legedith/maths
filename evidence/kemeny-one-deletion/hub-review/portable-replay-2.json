@@ -1,0 +1,20 @@
+{
+  "argv": [
+    "C:/Users/Legedith/.local/bin/uv.exe",
+    "run",
+    "--project",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-one-deletion-proof",
+    "--frozen",
+    "python",
+    "-c",
+    "import sys; print(sys.version); print(sys.executable)"
+  ],
+  "cwd": "C:\\Users\\Legedith\\Documents\\ChatGPT\\maths",
+  "env": {
+    "UV_PROJECT_ENVIRONMENT": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\.portable-venv",
+    "UV_CACHE_DIR": "D:/CodexWorkspaces/mathematics-atlas/uv-cache"
+  },
+  "stdout": "3.12.11 (main, Sep 18 2025, 19:45:51) [MSC v.1944 64 bit (AMD64)]\nD:\\CodexWorkspaces\\mathematics-atlas\\astra-one-deletion-review-work\\.portable-venv\\Scripts\\python.exe\n",
+  "stderr": "",
+  "returncode": 0
+}

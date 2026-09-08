@@ -1,0 +1,22 @@
+{
+  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-single-failure-release-review-work\\assembly-replay.json": "46032625aff113f4992161ae39e23d733f3c77f64daae7e6496d4c11bda5a370",
+  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-single-failure-release-review-work\\assembly-result.json": "c13f9ca84e0dbc8af1a2daf8359610700b83769d7b2aa9b0e6e1e4059ea39a07",
+  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-single-failure-release-review-work\\canonical-result.json": "1fa3acba3dfd44e1288e33667f00fb5c41b33eca916fc64ca9f7ecf0885f22c1",
+  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-single-failure-release-review-work\\check_assembly.py": "d935f3de1978c37a5c9e0c88d0392b890c7aa8d00b89b7cc6e689e77282efd49",
+  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-single-failure-release-review-work\\check_canonical.py": "e8b3aff7b2b19d24fc1eeb8527b735acfde5d59962ec547d5dcd15be2d3c5974",
+  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-single-failure-release-review-work\\review.md": "2b84d18b373445f9ec49de935384be40146a03299da39dce1d64e467cf726941",
+  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-single-failure-release-review-work\\reviewed-bundle-sha256.txt": "5a290fe6473b582ac41dfd5669d9c5fa7c33bfa0306b297ec3c74de0fbe842cb",
+  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-single-failure-release-review-work\\run_assembly.py": "1f77c25d4cfe43f9fd77f6d85eb122562c42e6474acc6ed28c02e47f7a1a98b8",
+  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-single-failure-release-review-work\\seal.py": "86604bdb18c864e7ebcf0131e0f5a4f8765165b12834960b40d7dfb920612680",
+  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-single-failure-release-review-work\\source_inspection.py": "412045978a8171d94821f886ae60e7259469b8a41fe8063771c52b1821fcb6d7",
+  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-single-failure-release-review-work\\verdict.json": "7c01a43b4479c6d9c8fd03e261c2a9b439b7f15ab79a665d871a18eb48fee0bd",
+  "D:\\CodexWorkspaces\\mathematics-atlas\\project\\docs\\kemeny-fault-tolerant-design.md": "313a18a9345602a4d5d6a4ec6defe9b503f7dedb812ae3ee5491e487eec9812f",
+  "D:\\CodexWorkspaces\\mathematics-atlas\\project\\docs\\kemeny-one-deletion.md": "aba8276db4982ee5fb1a62610cda06c378c622f036fcf4c0014c143fdb4916e5",
+  "D:\\CodexWorkspaces\\mathematics-atlas\\project\\docs\\kemeny-single-failure-contract.md": "0f3d666988649b034ca25b2c9869a831074ceac66f2681cb783a97f5d64bb379",
+  "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\kemeny-one-deletion\\README.md": "32ffded443d0bba57fa64f554baf080da38063222a7447bac1357b61aa60d9df",
+  "D:\\CodexWorkspaces\\mathematics-atlas\\project\\README.md": "ad7d354488b9e810d0272d3d2a078af93acd349edcfdb4ba03d4c34103220aae",
+  "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.github\\workflows\\kemeny-three-part.yml": "5cca5e9974d7dda290d3d46b1675e9ad113dd9b6424a7870e0ed44247011945d",
+  "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.codex\\evidence\\runs\\kemeny-single-failure-v1\\bundle.json": "a288f47f635e84bd89c466101f83b11619172c794cf3702f9373381801843011",
+  "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\kemeny-one-deletion\\copy-manifest.json": "7720f7b24941f7959e1a1707902035a4bab664ac33b4a8af28c0f0d805c51f06",
+  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-damage-prior-art-work\\damage_sources4.json": "2563358ba8fa132c016ec3a661c13df78d0196d3f50e4c1bc3559ba8db83373e"
+}
