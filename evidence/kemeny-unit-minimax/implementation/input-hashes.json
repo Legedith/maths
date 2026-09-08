@@ -1,0 +1,42 @@
+﻿[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "19D4AAC28A4DF98D217A8A2C57CC8B4A345FACAFF0E408EF074F30830DE0075E",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\project\\docs\\kemeny-unit-minimax-contract.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "FC9F481397A4979D3F56093EB4FF7D104FF3D086DB65CAD8418CE4C11C3EAE6E",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-full-unit-minimax-work\\proposal.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "9C1579ED18BA979C5A6141F16778A97D50689B31356CB8E39A5CAD9BC1325E22",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-full-unit-minimax-review-work\\review.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "652799067C254044BD262961814BE5FF62B9A13237D5049908119C05D07E5E74",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-workload-review-work\\review.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "03E68D3DC38BC0C746605D86E1B27AD749AFB2C1CCBD13C067725223A3ED4C22",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-strength-review-work\\review.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "C0B0112767BB251A87C45EEFCCC12DD803F69CA7A0CA1E61F7774A7899A274D8",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-minimax-endpoint-review-work\\review.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "043135469F15A65EC3BB4106A3D6798BCCCDD0F762288DB41FD740164762445F",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-workload-proof\\pyproject.toml"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "378269213EB25AE37448F6993AC983809D7BAB05D3A47434C5BABD06DC0B874D",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-workload-proof\\uv.lock"
+    }
+]

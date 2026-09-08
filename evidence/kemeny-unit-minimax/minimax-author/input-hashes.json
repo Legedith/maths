@@ -1,0 +1,17 @@
+﻿[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "652799067C254044BD262961814BE5FF62B9A13237D5049908119C05D07E5E74",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-workload-review-work\\review.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "C0B0112767BB251A87C45EEFCCC12DD803F69CA7A0CA1E61F7774A7899A274D8",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-minimax-endpoint-review-work\\review.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "EDAF10D12AD3DE86844B22697C1AAE06CE662FB5C59E2B410E2B302C009D7671",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weight-workload-family-review-work\\review.md"
+    }
+]

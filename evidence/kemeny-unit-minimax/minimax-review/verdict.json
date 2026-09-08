@@ -1,0 +1,22 @@
+{
+  "status": "pass",
+  "reviewer": "/root/astra_damage_symbolic",
+  "target_proposal_sha256": "fc9f481397a4979d3f56093eb4ff7d104ff3d086db65cad8418ce4c11c3eae6e",
+  "target_result_sha256": "2c3081854bbed71c05770583d117b1ae03aed6646ff1de19ca3c07e299d3abca",
+  "checks": {
+    "reproduction": "pass",
+    "specification_compliance": "pass",
+    "source_verification": "pass",
+    "implementation_alignment": "pass"
+  },
+  "required_corrections": [],
+  "independent_evaluators": 1,
+  "matrices": 10,
+  "diagnostic_interval": ["0", "21/500"],
+  "midpoint_winners": [[0,9]],
+  "minimax_winners": [[0,1],[0,2]],
+  "evidence": ["plan.md", "check.py", "result.json", "run.json", "stdout.bin", "stderr.bin", "review.md"],
+  "scope": "Complete deterministic unit-insertion minimax theorem for the stated family and closed theta intervals below 1, with distinct accepted analytic dependencies; one independent full-matrix midpoint diagnostic.",
+  "public_implementation_or_release_approval": false,
+  "novelty_or_physical_impact_clearance": false
+}

@@ -1,0 +1,82 @@
+﻿[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "83BF31B3F64325330251A44304619ACBDB62248256059C7C688F54B4A41EA0B9",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-strength-work\\batch2-plan.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "C89F53024DE0ABFA2941B9EE29DCBFC04AF031693DCD6230B475A37758105D60",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-strength-work\\batch2-run.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-strength-work\\batch2-stderr.bin"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "63AA421CB77C89A330EA6E2C3CDCE2F43448498925A3A0E6391513B9FBF59892",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-strength-work\\batch2-stdout.bin"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "2DCBE58DE0AC5E384C4140A6F1379270FF9D1ADFB1B69753B6C3340147E73A17",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-strength-work\\batch2.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "A2D56DE4827B06A3F9181393137E847D9FDAB09CB26E5AC58E58EAA6A7A134ED",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-strength-work\\check.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "E8C16DD2698ADCC9703326DB824EC1752F2696226C3D8114449534E66EDF5479",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-strength-work\\check2.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "E3BE5850C43023D3BC40EBA755DA7A2B88EEE7EEBE0B53E54FCAE452A4A1F5CC",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-strength-work\\input-hashes.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "EFB6B80CC6A4D48E9EFD9688DAB22DFB2970B4F1BA93FBC3E6363F716E707FBE",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-strength-work\\plan.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "60459628123DEDB3F4300C083ED6DCD4A79CA6F1CD1A9506A02FA409D375F68C",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-strength-work\\proposal.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "A70838CF182EBA49C19A5FF519AF62BD91D0231C87E505FE8C2DD62C42622D67",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-strength-work\\result.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "AE221851C4CBE76154F5E01C2416B89EB1AE9B51CE7451AB3D9CE57F1EB332D4",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-strength-work\\run.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "945A36211934791BE13CC96820C95D9BA22053CCB1FA161AF247953BBC03A630",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-strength-work\\run.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "B5E42819DFF6E79E16BA5E478C4A85066EFA0AEDBF899DA31ED0609ACFB7C9BD",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-strength-work\\run2.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "F2161366EE43BB4DE0C4528B0E8F5834A1D361FE224C0A949838DBC09F7855BC",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-strength-work\\stderr.bin"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "879279DBD8BA4B77DE98156B9ADAC2A5ACC2036E5F5E6DE3A7A390CCE432D324",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-strength-work\\stdout.bin"
+    }
+]

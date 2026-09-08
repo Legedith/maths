@@ -1,0 +1,46 @@
+﻿[
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-workload-work\\check.py",
+        "matches":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-workload-work\\input-hashes.json",
+        "matches":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-workload-work\\plan.md",
+        "matches":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-workload-work\\proposal.md",
+        "matches":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-workload-work\\result.json",
+        "matches":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-workload-work\\run.json",
+        "matches":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-workload-work\\run.py",
+        "matches":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-workload-work\\stderr.bin",
+        "matches":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-workload-work\\stdout.bin",
+        "matches":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weight-workload-family-review-work\\review.md",
+        "matches":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-family-review-work\\report.md",
+        "matches":  true
+    }
+]

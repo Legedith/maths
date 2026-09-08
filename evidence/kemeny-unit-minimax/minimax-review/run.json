@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--isolated",
+    "--python",
+    "3.12.11",
+    "python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-full-unit-minimax-review-work\\check.py"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-full-unit-minimax-review-work",
+  "rc": 0,
+  "elapsed": 0.40600000001722947,
+  "timeout_seconds": 60,
+  "environment": {
+    "UV_CACHE_DIR": "D:\\CodexWorkspaces\\mathematics-atlas\\uv-cache",
+    "UV_PROJECT_ENVIRONMENT": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-full-unit-minimax-review-work\\.venv"
+  }
+}

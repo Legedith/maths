@@ -1,0 +1,57 @@
+﻿[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "2456BDBA5D4387B83FAFE8DF998A732F9C09484D3A8F3A3E6B5ABBADE4354B30",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\unit-minimax-portable-work\\input-hashes.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "7C61A1E0EDFC35FA29E87359F0738801156F7459094EB6DF272A9D86D3A3DC1F",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\unit-minimax-portable-work\\plan.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "043135469F15A65EC3BB4106A3D6798BCCCDD0F762288DB41FD740164762445F",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\unit-minimax-portable-work\\pyproject.toml"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "16AB6A2720871003B2EEC87C301D91691F519A2D4FA7D6C2619D4820BD8A5F17",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\unit-minimax-portable-work\\README.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "E7D260218DD6ED48700FFF61417311D2B10F48F30EC15EF3E8287644A07BCC60",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\unit-minimax-portable-work\\result.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "C52C86111410A9090CA78351BA5AE3120A280D90AFB404D2A3BFAC4B4B64CA20",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\unit-minimax-portable-work\\run.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "F8BB3FDF778A41337264AB8B5D5E5F7FA222DD840620D92512DA8CD5DB9AED5B",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\unit-minimax-portable-work\\run.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "FB403AB6FC533860408BE9D004D7501481E2D12729ADCF460EF854E46744D818",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\unit-minimax-portable-work\\stderr.bin"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "FFEEC04365C6A6121ACCE3174122A3D8868219D5F483139AA248F314FE96C0FB",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\unit-minimax-portable-work\\stdout.bin"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "378269213EB25AE37448F6993AC983809D7BAB05D3A47434C5BABD06DC0B874D",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\unit-minimax-portable-work\\uv.lock"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "39100CA08B809D629341326EAB55F27278B29EF73243B0A6061003F5A6872A6A",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\unit-minimax-portable-work\\verify_unit_minimax.py"
+    }
+]

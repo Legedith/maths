@@ -1,0 +1,2 @@
+b_equal_a {'case': 'b_equal_a', 'numerator_t0_positive': True, 'numerator_t0_constant': '28910', 'numerator_t1_positive': False, 'numerator_t1_constant': '-1820', 'denominator_positive': True, 'denominator_constant': '15366400'}
+b_above_a {'case': 'b_above_a', 'numerator_t0_positive': True, 'numerator_t0_constant': '52864', 'numerator_t1_positive': False, 'numerator_t1_constant': '-2624', 'denominator_positive': True, 'denominator_constant': '40144896'}

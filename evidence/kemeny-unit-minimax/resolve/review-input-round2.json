@@ -1,0 +1,15 @@
+{
+  "round": 2,
+  "correction": "Future/requirement wording for hostedCI; no mathematical or implementation change.",
+  "changes": [
+    {
+      "artifact_id": "A128",
+      "path": "experiments/kemeny-workload-proof/README-unit-minimax.md",
+      "before": "d7ea038f4c83580f3bb3e6c7f765804e26dbba99bb9f58aafa59a6a1f174b022",
+      "after": "0b2b415f84bcef02cf71f927323ca268d9cc217e7d79187fe1c7bcd581564e34"
+    }
+  ],
+  "bundle_sha256": "8b7815b6f24e385841473a72917518a9fbe282d1575979ac3195c46fc9e1d482",
+  "artifacts": 131,
+  "claims": 11
+}

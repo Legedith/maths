@@ -1,0 +1,15 @@
+{
+  "status":"fail",
+  "auditor":"/root/astra_damage_symbolic",
+  "round":1,
+  "bundle_sha256":"0823cd13403cc3163adff7316de260b9cb2ef4169389c1e9295d6dfe9637e13e",
+  "required_corrections":[{"artifact_id":"A128","path":"experiments/kemeny-workload-proof/README-unit-minimax.md","issue":"Final paragraph prematurely asserts an existing actual hosted CI record.","replacement":"Actual hosted CI requires a separate record for the final pushed commit; a local PASS alone does not assert hosted completion."}],
+  "checks":[
+    {"id":"reproduction","status":"pass","auditor":"/root/astra_damage_symbolic","evidence":["A016","A018","A042","A044","A076","A078","A094","A102","A103","A104","A109","A114"],"note":"Independent mathematical reconstructions and distinct portable replay reused; actual worker/root/reviewer result bytes match. No numerical rerun."},
+    {"id":"specification_compliance","status":"fail","auditor":"/root/astra_damage_symbolic","evidence":["A001","A017","A027","A043","A077","A128","A129"],"note":"All mathematical scope and ties align; A128 prematurely asserts an existing postpush CI record, contrary to the pending hosted-check boundary in A001."},
+    {"id":"source_verification","status":"pass","auditor":"/root/astra_damage_symbolic","evidence":["A050","A051","A053","A054","A055","A087","A129"],"note":"Distinct source review supports bounded primary-source attribution and access limits, not novelty or real-world validation."},
+    {"id":"implementation_alignment","status":"pass","auditor":"/root/astra_damage_symbolic","evidence":["A100","A102","A104","A113","A114","A117","A120","A124","A128","A131"],"note":"Code, accepted analytic bridges, complete finite outputs and static pinned workflow align; implementation author and portable reviewer are distinct. Hosted CI not attested."}
+  ],
+  "scope":"Final semantic LOCAL release review only",
+  "hosted_ci_or_publication_priority_clearance":false
+}

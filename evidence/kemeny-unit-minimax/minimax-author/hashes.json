@@ -1,0 +1,47 @@
+﻿[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "90E17FAB9CEF58DFEC4240284593A463EE07B03A0E1D2861938707B71D28EDD0",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-full-unit-minimax-work\\check.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "FB3E2F8A80EE11F4DD7CB52EBF2CC73224BBB7F71D95913F1FA77374EC694E33",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-full-unit-minimax-work\\input-hashes.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "FCFDA5EE9B809A3C8DAA67AEBF2F82C36A1DCE8E441B7CE302426FB11FDE128D",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-full-unit-minimax-work\\plan.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "FC9F481397A4979D3F56093EB4FF7D104FF3D086DB65CAD8418CE4C11C3EAE6E",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-full-unit-minimax-work\\proposal.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "2C3081854BBED71C05770583D117B1AE03AED6646FF1DE19CA3C07E299D3ABCA",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-full-unit-minimax-work\\result.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "B9E29ECF98F1A4566EEE2159F6C951180A40A207E94C4AD6262FA7CA8B1CCC70",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-full-unit-minimax-work\\run.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "0A39D7E027A0F02FC5534726806258D8E32A49330EE2E6F33010456970531455",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-full-unit-minimax-work\\run.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-full-unit-minimax-work\\stderr.bin"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "CFBB95D2BFEC78880D91C019CBEFF93A269FD0CAC0B2B02BBE10FFF355F47D53",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-full-unit-minimax-work\\stdout.bin"
+    }
+]

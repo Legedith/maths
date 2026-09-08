@@ -1,0 +1,5908 @@
+{
+  "gap": "(2*d**4*n**2 - 4*d**4*n + 2*d**4 + 4*d**3*n**2*t - 4*d**3*n**2 - 8*d**3*n*t + 8*d**3*n + 4*d**3*t - 4*d**3 - 2*d**2*e**2*n**2 + 3*d**2*e**2*n - 3*d**2*e**2 - 4*d**2*e*n**2*t + 6*d**2*e*n*t - 6*d**2*e*t - 6*d**2*n**2*t + 2*d**2*n**2 + 14*d**2*n*t - 4*d**2*n - 8*d**2*t + 2*d**2 + 2*d*e**2*n**2 - 6*d*e**2*n + 5*d*e**2 + 4*d*e*n**2*t - 12*d*e*n*t + 10*d*e*t + 2*d*n**2*t - 6*d*n*t + 4*d*t - e**2*n**2 + 3*e**2*n - 2*e**2 - 2*e*n**2*t + 6*e*n*t - 4*e*t)/(d*e*(d - 1)*(e + 2*t)*(n - 1)*(d**2*n - d**2 + 2*d*n*t - d*n - 2*d*t + d - n*t + 2*t))",
+  "numerator_degree_in_t": 1,
+  "cases": [
+    {
+      "case": "b_equal_a",
+      "coefficients": {
+        "numerator_t0": [
+          {
+            "powers": [
+              5,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "288"
+          },
+          {
+            "powers": [
+              5,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "96"
+          },
+          {
+            "powers": [
+              4,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "552"
+          },
+          {
+            "powers": [
+              4,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "5336"
+          },
+          {
+            "powers": [
+              4,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1548"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              3,
+              0
+            ],
+            "coefficient": "416"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "8020"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "39288"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "9872"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              4,
+              0
+            ],
+            "coefficient": "154"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              3,
+              0
+            ],
+            "coefficient": "4496"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "43584"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "143778"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "31039"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              5,
+              0
+            ],
+            "coefficient": "28"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              4,
+              0
+            ],
+            "coefficient": "1104"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              3,
+              0
+            ],
+            "coefficient": "16172"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "105013"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "261648"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "47929"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              6,
+              0
+            ],
+            "coefficient": "2"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              5,
+              0
+            ],
+            "coefficient": "100"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              4,
+              0
+            ],
+            "coefficient": "1976"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              3,
+              0
+            ],
+            "coefficient": "19361"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "94665"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "189490"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "28910"
+          }
+        ],
+        "numerator_t1": [
+          {
+            "powers": [
+              4,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "144"
+          },
+          {
+            "powers": [
+              4,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "24"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "240"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "2096"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "216"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              3,
+              0
+            ],
+            "coefficient": "148"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "2586"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "11318"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "482"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              4,
+              0
+            ],
+            "coefficient": "40"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              3,
+              0
+            ],
+            "coefficient": "1056"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "9256"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "26886"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-450"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              5,
+              0
+            ],
+            "coefficient": "4"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              4,
+              0
+            ],
+            "coefficient": "142"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              3,
+              0
+            ],
+            "coefficient": "1882"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "11008"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "23712"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1820"
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              8,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "576"
+          },
+          {
+            "powers": [
+              7,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1536"
+          },
+          {
+            "powers": [
+              7,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "1152"
+          },
+          {
+            "powers": [
+              7,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "16512"
+          },
+          {
+            "powers": [
+              6,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "1696"
+          },
+          {
+            "powers": [
+              6,
+              0,
+              1,
+              1
+            ],
+            "coefficient": "2784"
+          },
+          {
+            "powers": [
+              6,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "38432"
+          },
+          {
+            "powers": [
+              6,
+              0,
+              0,
+              2
+            ],
+            "coefficient": "576"
+          },
+          {
+            "powers": [
+              6,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "28848"
+          },
+          {
+            "powers": [
+              6,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "206944"
+          },
+          {
+            "powers": [
+              5,
+              0,
+              3,
+              0
+            ],
+            "coefficient": "992"
+          },
+          {
+            "powers": [
+              5,
+              0,
+              2,
+              1
+            ],
+            "coefficient": "2768"
+          },
+          {
+            "powers": [
+              5,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "36272"
+          },
+          {
+            "powers": [
+              5,
+              0,
+              1,
+              2
+            ],
+            "coefficient": "1248"
+          },
+          {
+            "powers": [
+              5,
+              0,
+              1,
+              1
+            ],
+            "coefficient": "59632"
+          },
+          {
+            "powers": [
+              5,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "411856"
+          },
+          {
+            "powers": [
+              5,
+              0,
+              0,
+              2
+            ],
+            "coefficient": "12336"
+          },
+          {
+            "powers": [
+              5,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "309416"
+          },
+          {
+            "powers": [
+              5,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1481056"
+          },
+          {
+            "powers": [
+              4,
+              0,
+              4,
+              0
+            ],
+            "coefficient": "324"
+          },
+          {
+            "powers": [
+              4,
+              0,
+              3,
+              1
+            ],
+            "coefficient": "1448"
+          },
+          {
+            "powers": [
+              4,
+              0,
+              3,
+              0
+            ],
+            "coefficient": "17624"
+          },
+          {
+            "powers": [
+              4,
+              0,
+              2,
+              2
+            ],
+            "coefficient": "1072"
+          },
+          {
+            "powers": [
+              4,
+              0,
+              2,
+              1
+            ],
+            "coefficient": "49300"
+          },
+          {
+            "powers": [
+              4,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "323052"
+          },
+          {
+            "powers": [
+              4,
+              0,
+              1,
+              2
+            ],
+            "coefficient": "22208"
+          },
+          {
+            "powers": [
+              4,
+              0,
+              1,
+              1
+            ],
+            "coefficient": "531900"
+          },
+          {
+            "powers": [
+              4,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "2450520"
+          },
+          {
+            "powers": [
+              4,
+              0,
+              0,
+              2
+            ],
+            "coefficient": "110032"
+          },
+          {
+            "powers": [
+              4,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "1842652"
+          },
+          {
+            "powers": [
+              4,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "6620324"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              5,
+              0
+            ],
+            "coefficient": "56"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              4,
+              1
+            ],
+            "coefficient": "420"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              4,
+              0
+            ],
+            "coefficient": "4588"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              3,
+              2
+            ],
+            "coefficient": "456"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              3,
+              1
+            ],
+            "coefficient": "20584"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              3,
+              0
+            ],
+            "coefficient": "125192"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              2,
+              2
+            ],
+            "coefficient": "15212"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              2,
+              1
+            ],
+            "coefficient": "351040"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "1533712"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              1,
+              2
+            ],
+            "coefficient": "158012"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              1,
+              1
+            ],
+            "coefficient": "2528924"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "8743004"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              0,
+              2
+            ],
+            "coefficient": "523212"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "6580310"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "18926992"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              6,
+              0
+            ],
+            "coefficient": "4"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              5,
+              1
+            ],
+            "coefficient": "64"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              5,
+              0
+            ],
+            "coefficient": "592"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              4,
+              2
+            ],
+            "coefficient": "96"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              4,
+              1
+            ],
+            "coefficient": "4466"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              4,
+              0
+            ],
+            "coefficient": "24357"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              3,
+              2
+            ],
+            "coefficient": "4836"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              3,
+              1
+            ],
+            "coefficient": "109678"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              3,
+              0
+            ],
+            "coefficient": "444470"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              2,
+              2
+            ],
+            "coefficient": "80922"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              2,
+              1
+            ],
+            "coefficient": "1249135"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "4093685"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              1,
+              2
+            ],
+            "coefficient": "561922"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              1,
+              1
+            ],
+            "coefficient": "6759665"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "18705008"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              0,
+              2
+            ],
+            "coefficient": "1398892"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "14091490"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "33797456"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              6,
+              1
+            ],
+            "coefficient": "4"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              6,
+              0
+            ],
+            "coefficient": "28"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              5,
+              2
+            ],
+            "coefficient": "8"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              5,
+              1
+            ],
+            "coefficient": "452"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              5,
+              0
+            ],
+            "coefficient": "2086"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              4,
+              2
+            ],
+            "coefficient": "676"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              4,
+              1
+            ],
+            "coefficient": "15824"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              4,
+              0
+            ],
+            "coefficient": "57456"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              3,
+              2
+            ],
+            "coefficient": "17092"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              3,
+              1
+            ],
+            "coefficient": "259614"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              3,
+              0
+            ],
+            "coefficient": "788690"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              2,
+              2
+            ],
+            "coefficient": "191262"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              2,
+              1
+            ],
+            "coefficient": "2221311"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "5824588"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              1,
+              2
+            ],
+            "coefficient": "998794"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              1,
+              1
+            ],
+            "coefficient": "9631167"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "22219344"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              2
+            ],
+            "coefficient": "1993992"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "16755452"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "34464640"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              6,
+              1
+            ],
+            "coefficient": "14"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              6,
+              0
+            ],
+            "coefficient": "49"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              5,
+              2
+            ],
+            "coefficient": "28"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              5,
+              1
+            ],
+            "coefficient": "798"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              5,
+              0
+            ],
+            "coefficient": "2450"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              4,
+              2
+            ],
+            "coefficient": "1190"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              4,
+              1
+            ],
+            "coefficient": "18683"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              4,
+              0
+            ],
+            "coefficient": "50813"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              3,
+              2
+            ],
+            "coefficient": "20132"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              3,
+              1
+            ],
+            "coefficient": "230342"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              3,
+              0
+            ],
+            "coefficient": "559580"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              2,
+              2
+            ],
+            "coefficient": "169470"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              2,
+              1
+            ],
+            "coefficient": "1579249"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "3451364"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              1,
+              2
+            ],
+            "coefficient": "709884"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "coefficient": "5714674"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "11305280"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              2
+            ],
+            "coefficient": "1183840"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "8533840"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "15366400"
+          }
+        ]
+      },
+      "numerator_t0_positive": true,
+      "numerator_t0_constant": "28910",
+      "numerator_t1_positive": false,
+      "numerator_t1_constant": "-1820",
+      "denominator_positive": true,
+      "denominator_constant": "15366400"
+    },
+    {
+      "case": "b_above_a",
+      "coefficients": {
+        "numerator_t0": [
+          {
+            "powers": [
+              5,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "288"
+          },
+          {
+            "powers": [
+              5,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "288"
+          },
+          {
+            "powers": [
+              5,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "96"
+          },
+          {
+            "powers": [
+              4,
+              2,
+              0,
+              0
+            ],
+            "coefficient": "1176"
+          },
+          {
+            "powers": [
+              4,
+              1,
+              1,
+              0
+            ],
+            "coefficient": "1728"
+          },
+          {
+            "powers": [
+              4,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "6160"
+          },
+          {
+            "powers": [
+              4,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "552"
+          },
+          {
+            "powers": [
+              4,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "5960"
+          },
+          {
+            "powers": [
+              4,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1748"
+          },
+          {
+            "powers": [
+              3,
+              3,
+              0,
+              0
+            ],
+            "coefficient": "1904"
+          },
+          {
+            "powers": [
+              3,
+              2,
+              1,
+              0
+            ],
+            "coefficient": "3688"
+          },
+          {
+            "powers": [
+              3,
+              2,
+              0,
+              0
+            ],
+            "coefficient": "19424"
+          },
+          {
+            "powers": [
+              3,
+              1,
+              2,
+              0
+            ],
+            "coefficient": "2200"
+          },
+          {
+            "powers": [
+              3,
+              1,
+              1,
+              0
+            ],
+            "coefficient": "28232"
+          },
+          {
+            "powers": [
+              3,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "51916"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              3,
+              0
+            ],
+            "coefficient": "416"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "8972"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "49040"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "12584"
+          },
+          {
+            "powers": [
+              2,
+              4,
+              0,
+              0
+            ],
+            "coefficient": "1528"
+          },
+          {
+            "powers": [
+              2,
+              3,
+              1,
+              0
+            ],
+            "coefficient": "3672"
+          },
+          {
+            "powers": [
+              2,
+              3,
+              0,
+              0
+            ],
+            "coefficient": "23260"
+          },
+          {
+            "powers": [
+              2,
+              2,
+              2,
+              0
+            ],
+            "coefficient": "3142"
+          },
+          {
+            "powers": [
+              2,
+              2,
+              1,
+              0
+            ],
+            "coefficient": "44822"
+          },
+          {
+            "powers": [
+              2,
+              2,
+              0,
+              0
+            ],
+            "coefficient": "119491"
+          },
+          {
+            "powers": [
+              2,
+              1,
+              3,
+              0
+            ],
+            "coefficient": "1152"
+          },
+          {
+            "powers": [
+              2,
+              1,
+              2,
+              0
+            ],
+            "coefficient": "26660"
+          },
+          {
+            "powers": [
+              2,
+              1,
+              1,
+              0
+            ],
+            "coefficient": "172288"
+          },
+          {
+            "powers": [
+              2,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "215904"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              4,
+              0
+            ],
+            "coefficient": "154"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              3,
+              0
+            ],
+            "coefficient": "5032"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "54538"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "200620"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "44648"
+          },
+          {
+            "powers": [
+              1,
+              5,
+              0,
+              0
+            ],
+            "coefficient": "608"
+          },
+          {
+            "powers": [
+              1,
+              4,
+              1,
+              0
+            ],
+            "coefficient": "1744"
+          },
+          {
+            "powers": [
+              1,
+              4,
+              0,
+              0
+            ],
+            "coefficient": "12340"
+          },
+          {
+            "powers": [
+              1,
+              3,
+              2,
+              0
+            ],
+            "coefficient": "1928"
+          },
+          {
+            "powers": [
+              1,
+              3,
+              1,
+              0
+            ],
+            "coefficient": "29572"
+          },
+          {
+            "powers": [
+              1,
+              3,
+              0,
+              0
+            ],
+            "coefficient": "94300"
+          },
+          {
+            "powers": [
+              1,
+              2,
+              3,
+              0
+            ],
+            "coefficient": "1036"
+          },
+          {
+            "powers": [
+              1,
+              2,
+              2,
+              0
+            ],
+            "coefficient": "25261"
+          },
+          {
+            "powers": [
+              1,
+              2,
+              1,
+              0
+            ],
+            "coefficient": "181038"
+          },
+          {
+            "powers": [
+              1,
+              2,
+              0,
+              0
+            ],
+            "coefficient": "324606"
+          },
+          {
+            "powers": [
+              1,
+              1,
+              4,
+              0
+            ],
+            "coefficient": "272"
+          },
+          {
+            "powers": [
+              1,
+              1,
+              3,
+              0
+            ],
+            "coefficient": "9252"
+          },
+          {
+            "powers": [
+              1,
+              1,
+              2,
+              0
+            ],
+            "coefficient": "107448"
+          },
+          {
+            "powers": [
+              1,
+              1,
+              1,
+              0
+            ],
+            "coefficient": "465516"
+          },
+          {
+            "powers": [
+              1,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "443600"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              5,
+              0
+            ],
+            "coefficient": "28"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              4,
+              0
+            ],
+            "coefficient": "1236"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              3,
+              0
+            ],
+            "coefficient": "20252"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "146956"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "408168"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "77760"
+          },
+          {
+            "powers": [
+              0,
+              6,
+              0,
+              0
+            ],
+            "coefficient": "96"
+          },
+          {
+            "powers": [
+              0,
+              5,
+              1,
+              0
+            ],
+            "coefficient": "320"
+          },
+          {
+            "powers": [
+              0,
+              5,
+              0,
+              0
+            ],
+            "coefficient": "2440"
+          },
+          {
+            "powers": [
+              0,
+              4,
+              2,
+              0
+            ],
+            "coefficient": "432"
+          },
+          {
+            "powers": [
+              0,
+              4,
+              1,
+              0
+            ],
+            "coefficient": "6988"
+          },
+          {
+            "powers": [
+              0,
+              4,
+              0,
+              0
+            ],
+            "coefficient": "24832"
+          },
+          {
+            "powers": [
+              0,
+              3,
+              3,
+              0
+            ],
+            "coefficient": "304"
+          },
+          {
+            "powers": [
+              0,
+              3,
+              2,
+              0
+            ],
+            "coefficient": "7718"
+          },
+          {
+            "powers": [
+              0,
+              3,
+              1,
+              0
+            ],
+            "coefficient": "59392"
+          },
+          {
+            "powers": [
+              0,
+              3,
+              0,
+              0
+            ],
+            "coefficient": "126894"
+          },
+          {
+            "powers": [
+              0,
+              2,
+              4,
+              0
+            ],
+            "coefficient": "118"
+          },
+          {
+            "powers": [
+              0,
+              2,
+              3,
+              0
+            ],
+            "coefficient": "4145"
+          },
+          {
+            "powers": [
+              0,
+              2,
+              2,
+              0
+            ],
+            "coefficient": "50672"
+          },
+          {
+            "powers": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "coefficient": "243031"
+          },
+          {
+            "powers": [
+              0,
+              2,
+              0,
+              0
+            ],
+            "coefficient": "328656"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              5,
+              0
+            ],
+            "coefficient": "24"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              4,
+              0
+            ],
+            "coefficient": "1088"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              3,
+              0
+            ],
+            "coefficient": "18544"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              2,
+              0
+            ],
+            "coefficient": "144032"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "coefficient": "469944"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "360512"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              6,
+              0
+            ],
+            "coefficient": "2"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              5,
+              0
+            ],
+            "coefficient": "112"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              4,
+              0
+            ],
+            "coefficient": "2476"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              3,
+              0
+            ],
+            "coefficient": "27120"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "148114"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "330464"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "52864"
+          }
+        ],
+        "numerator_t1": [
+          {
+            "powers": [
+              4,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "144"
+          },
+          {
+            "powers": [
+              4,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "144"
+          },
+          {
+            "powers": [
+              4,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "24"
+          },
+          {
+            "powers": [
+              3,
+              2,
+              0,
+              0
+            ],
+            "coefficient": "480"
+          },
+          {
+            "powers": [
+              3,
+              1,
+              1,
+              0
+            ],
+            "coefficient": "720"
+          },
+          {
+            "powers": [
+              3,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "2368"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "240"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "2336"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "248"
+          },
+          {
+            "powers": [
+              2,
+              3,
+              0,
+              0
+            ],
+            "coefficient": "592"
+          },
+          {
+            "powers": [
+              2,
+              2,
+              1,
+              0
+            ],
+            "coefficient": "1184"
+          },
+          {
+            "powers": [
+              2,
+              2,
+              0,
+              0
+            ],
+            "coefficient": "5792"
+          },
+          {
+            "powers": [
+              2,
+              1,
+              2,
+              0
+            ],
+            "coefficient": "740"
+          },
+          {
+            "powers": [
+              2,
+              1,
+              1,
+              0
+            ],
+            "coefficient": "8660"
+          },
+          {
+            "powers": [
+              2,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "14266"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              3,
+              0
+            ],
+            "coefficient": "148"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "2882"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "14066"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "668"
+          },
+          {
+            "powers": [
+              1,
+              4,
+              0,
+              0
+            ],
+            "coefficient": "320"
+          },
+          {
+            "powers": [
+              1,
+              3,
+              1,
+              0
+            ],
+            "coefficient": "800"
+          },
+          {
+            "powers": [
+              1,
+              3,
+              0,
+              0
+            ],
+            "coefficient": "4712"
+          },
+          {
+            "powers": [
+              1,
+              2,
+              2,
+              0
+            ],
+            "coefficient": "720"
+          },
+          {
+            "powers": [
+              1,
+              2,
+              1,
+              0
+            ],
+            "coefficient": "9416"
+          },
+          {
+            "powers": [
+              1,
+              2,
+              0,
+              0
+            ],
+            "coefficient": "23040"
+          },
+          {
+            "powers": [
+              1,
+              1,
+              3,
+              0
+            ],
+            "coefficient": "280"
+          },
+          {
+            "powers": [
+              1,
+              1,
+              2,
+              0
+            ],
+            "coefficient": "5882"
+          },
+          {
+            "powers": [
+              1,
+              1,
+              1,
+              0
+            ],
+            "coefficient": "34500"
+          },
+          {
+            "powers": [
+              1,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "37328"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              4,
+              0
+            ],
+            "coefficient": "40"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              3,
+              0
+            ],
+            "coefficient": "1176"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "11490"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "37266"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-416"
+          },
+          {
+            "powers": [
+              0,
+              5,
+              0,
+              0
+            ],
+            "coefficient": "64"
+          },
+          {
+            "powers": [
+              0,
+              4,
+              1,
+              0
+            ],
+            "coefficient": "192"
+          },
+          {
+            "powers": [
+              0,
+              4,
+              0,
+              0
+            ],
+            "coefficient": "1264"
+          },
+          {
+            "powers": [
+              0,
+              3,
+              2,
+              0
+            ],
+            "coefficient": "224"
+          },
+          {
+            "powers": [
+              0,
+              3,
+              1,
+              0
+            ],
+            "coefficient": "3160"
+          },
+          {
+            "powers": [
+              0,
+              3,
+              0,
+              0
+            ],
+            "coefficient": "9312"
+          },
+          {
+            "powers": [
+              0,
+              2,
+              3,
+              0
+            ],
+            "coefficient": "128"
+          },
+          {
+            "powers": [
+              0,
+              2,
+              2,
+              0
+            ],
+            "coefficient": "2844"
+          },
+          {
+            "powers": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "coefficient": "18640"
+          },
+          {
+            "powers": [
+              0,
+              2,
+              0,
+              0
+            ],
+            "coefficient": "30212"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              4,
+              0
+            ],
+            "coefficient": "36"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              3,
+              0
+            ],
+            "coefficient": "1106"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              2,
+              0
+            ],
+            "coefficient": "11656"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "coefficient": "45526"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "35744"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              5,
+              0
+            ],
+            "coefficient": "4"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              4,
+              0
+            ],
+            "coefficient": "158"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              3,
+              0
+            ],
+            "coefficient": "2332"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "15210"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "36648"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-2624"
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              8,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "576"
+          },
+          {
+            "powers": [
+              7,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "3648"
+          },
+          {
+            "powers": [
+              7,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1536"
+          },
+          {
+            "powers": [
+              7,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "1152"
+          },
+          {
+            "powers": [
+              7,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "18624"
+          },
+          {
+            "powers": [
+              6,
+              2,
+              0,
+              0
+            ],
+            "coefficient": "10000"
+          },
+          {
+            "powers": [
+              6,
+              1,
+              1,
+              0
+            ],
+            "coefficient": "8320"
+          },
+          {
+            "powers": [
+              6,
+              1,
+              0,
+              1
+            ],
+            "coefficient": "6432"
+          },
+          {
+            "powers": [
+              6,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "103040"
+          },
+          {
+            "powers": [
+              6,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "1696"
+          },
+          {
+            "powers": [
+              6,
+              0,
+              1,
+              1
+            ],
+            "coefficient": "2784"
+          },
+          {
+            "powers": [
+              6,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "43360"
+          },
+          {
+            "powers": [
+              6,
+              0,
+              0,
+              2
+            ],
+            "coefficient": "576"
+          },
+          {
+            "powers": [
+              6,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "32496"
+          },
+          {
+            "powers": [
+              6,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "263248"
+          },
+          {
+            "powers": [
+              5,
+              3,
+              0,
+              0
+            ],
+            "coefficient": "15488"
+          },
+          {
+            "powers": [
+              5,
+              2,
+              1,
+              0
+            ],
+            "coefficient": "19072"
+          },
+          {
+            "powers": [
+              5,
+              2,
+              0,
+              1
+            ],
+            "coefficient": "15248"
+          },
+          {
+            "powers": [
+              5,
+              2,
+              0,
+              0
+            ],
+            "coefficient": "241712"
+          },
+          {
+            "powers": [
+              5,
+              1,
+              2,
+              0
+            ],
+            "coefficient": "7648"
+          },
+          {
+            "powers": [
+              5,
+              1,
+              1,
+              1
+            ],
+            "coefficient": "13088"
+          },
+          {
+            "powers": [
+              5,
+              1,
+              1,
+              0
+            ],
+            "coefficient": "200992"
+          },
+          {
+            "powers": [
+              5,
+              1,
+              0,
+              2
+            ],
+            "coefficient": "2784"
+          },
+          {
+            "powers": [
+              5,
+              1,
+              0,
+              1
+            ],
+            "coefficient": "155248"
+          },
+          {
+            "powers": [
+              5,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "1246384"
+          },
+          {
+            "powers": [
+              5,
+              0,
+              3,
+              0
+            ],
+            "coefficient": "992"
+          },
+          {
+            "powers": [
+              5,
+              0,
+              2,
+              1
+            ],
+            "coefficient": "2768"
+          },
+          {
+            "powers": [
+              5,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "40944"
+          },
+          {
+            "powers": [
+              5,
+              0,
+              1,
+              2
+            ],
+            "coefficient": "1248"
+          },
+          {
+            "powers": [
+              5,
+              0,
+              1,
+              1
+            ],
+            "coefficient": "67184"
+          },
+          {
+            "powers": [
+              5,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "524208"
+          },
+          {
+            "powers": [
+              5,
+              0,
+              0,
+              2
+            ],
+            "coefficient": "13872"
+          },
+          {
+            "powers": [
+              5,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "392552"
+          },
+          {
+            "powers": [
+              5,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "2124640"
+          },
+          {
+            "powers": [
+              4,
+              4,
+              0,
+              0
+            ],
+            "coefficient": "14816"
+          },
+          {
+            "powers": [
+              4,
+              3,
+              1,
+              0
+            ],
+            "coefficient": "23968"
+          },
+          {
+            "powers": [
+              4,
+              3,
+              0,
+              1
+            ],
+            "coefficient": "19888"
+          },
+          {
+            "powers": [
+              4,
+              3,
+              0,
+              0
+            ],
+            "coefficient": "311472"
+          },
+          {
+            "powers": [
+              4,
+              2,
+              2,
+              0
+            ],
+            "coefficient": "14152"
+          },
+          {
+            "powers": [
+              4,
+              2,
+              1,
+              1
+            ],
+            "coefficient": "25368"
+          },
+          {
+            "powers": [
+              4,
+              2,
+              1,
+              0
+            ],
+            "coefficient": "383352"
+          },
+          {
+            "powers": [
+              4,
+              2,
+              0,
+              2
+            ],
+            "coefficient": "5536"
+          },
+          {
+            "powers": [
+              4,
+              2,
+              0,
+              1
+            ],
+            "coefficient": "306172"
+          },
+          {
+            "powers": [
+              4,
+              2,
+              0,
+              0
+            ],
+            "coefficient": "2432580"
+          },
+          {
+            "powers": [
+              4,
+              1,
+              3,
+              0
+            ],
+            "coefficient": "3584"
+          },
+          {
+            "powers": [
+              4,
+              1,
+              2,
+              1
+            ],
+            "coefficient": "10608"
+          },
+          {
+            "powers": [
+              4,
+              1,
+              2,
+              0
+            ],
+            "coefficient": "153632"
+          },
+          {
+            "powers": [
+              4,
+              1,
+              1,
+              2
+            ],
+            "coefficient": "4912"
+          },
+          {
+            "powers": [
+              4,
+              1,
+              1,
+              1
+            ],
+            "coefficient": "262768"
+          },
+          {
+            "powers": [
+              4,
+              1,
+              1,
+              0
+            ],
+            "coefficient": "2021760"
+          },
+          {
+            "powers": [
+              4,
+              1,
+              0,
+              2
+            ],
+            "coefficient": "55736"
+          },
+          {
+            "powers": [
+              4,
+              1,
+              0,
+              1
+            ],
+            "coefficient": "1560136"
+          },
+          {
+            "powers": [
+              4,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "8369504"
+          },
+          {
+            "powers": [
+              4,
+              0,
+              4,
+              0
+            ],
+            "coefficient": "324"
+          },
+          {
+            "powers": [
+              4,
+              0,
+              3,
+              1
+            ],
+            "coefficient": "1448"
+          },
+          {
+            "powers": [
+              4,
+              0,
+              3,
+              0
+            ],
+            "coefficient": "19912"
+          },
+          {
+            "powers": [
+              4,
+              0,
+              2,
+              2
+            ],
+            "coefficient": "1072"
+          },
+          {
+            "powers": [
+              4,
+              0,
+              2,
+              1
+            ],
+            "coefficient": "55564"
+          },
+          {
+            "powers": [
+              4,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "411604"
+          },
+          {
+            "powers": [
+              4,
+              0,
+              1,
+              2
+            ],
+            "coefficient": "24976"
+          },
+          {
+            "powers": [
+              4,
+              0,
+              1,
+              1
+            ],
+            "coefficient": "675044"
+          },
+          {
+            "powers": [
+              4,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "3518368"
+          },
+          {
+            "powers": [
+              4,
+              0,
+              0,
+              2
+            ],
+            "coefficient": "139096"
+          },
+          {
+            "powers": [
+              4,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "2632456"
+          },
+          {
+            "powers": [
+              4,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "10709136"
+          },
+          {
+            "powers": [
+              3,
+              5,
+              0,
+              0
+            ],
+            "coefficient": "8960"
+          },
+          {
+            "powers": [
+              3,
+              4,
+              1,
+              0
+            ],
+            "coefficient": "17824"
+          },
+          {
+            "powers": [
+              3,
+              4,
+              0,
+              1
+            ],
+            "coefficient": "15408"
+          },
+          {
+            "powers": [
+              3,
+              4,
+              0,
+              0
+            ],
+            "coefficient": "238000"
+          },
+          {
+            "powers": [
+              3,
+              3,
+              2,
+              0
+            ],
+            "coefficient": "13744"
+          },
+          {
+            "powers": [
+              3,
+              3,
+              1,
+              1
+            ],
+            "coefficient": "25936"
+          },
+          {
+            "powers": [
+              3,
+              3,
+              1,
+              0
+            ],
+            "coefficient": "384848"
+          },
+          {
+            "powers": [
+              3,
+              3,
+              0,
+              2
+            ],
+            "coefficient": "5792"
+          },
+          {
+            "powers": [
+              3,
+              3,
+              0,
+              1
+            ],
+            "coefficient": "318936"
+          },
+          {
+            "powers": [
+              3,
+              3,
+              0,
+              0
+            ],
+            "coefficient": "2503784"
+          },
+          {
+            "powers": [
+              3,
+              2,
+              3,
+              0
+            ],
+            "coefficient": "5080"
+          },
+          {
+            "powers": [
+              3,
+              2,
+              2,
+              1
+            ],
+            "coefficient": "16060"
+          },
+          {
+            "powers": [
+              3,
+              2,
+              2,
+              0
+            ],
+            "coefficient": "227116"
+          },
+          {
+            "powers": [
+              3,
+              2,
+              1,
+              2
+            ],
+            "coefficient": "7616"
+          },
+          {
+            "powers": [
+              3,
+              2,
+              1,
+              1
+            ],
+            "coefficient": "406804"
+          },
+          {
+            "powers": [
+              3,
+              2,
+              1,
+              0
+            ],
+            "coefficient": "3080220"
+          },
+          {
+            "powers": [
+              3,
+              2,
+              0,
+              2
+            ],
+            "coefficient": "88448"
+          },
+          {
+            "powers": [
+              3,
+              2,
+              0,
+              1
+            ],
+            "coefficient": "2457246"
+          },
+          {
+            "powers": [
+              3,
+              2,
+              0,
+              0
+            ],
+            "coefficient": "13047256"
+          },
+          {
+            "powers": [
+              3,
+              1,
+              4,
+              0
+            ],
+            "coefficient": "884"
+          },
+          {
+            "powers": [
+              3,
+              1,
+              3,
+              1
+            ],
+            "coefficient": "4312"
+          },
+          {
+            "powers": [
+              3,
+              1,
+              3,
+              0
+            ],
+            "coefficient": "57480"
+          },
+          {
+            "powers": [
+              3,
+              1,
+              2,
+              2
+            ],
+            "coefficient": "3272"
+          },
+          {
+            "powers": [
+              3,
+              1,
+              2,
+              1
+            ],
+            "coefficient": "170100"
+          },
+          {
+            "powers": [
+              3,
+              1,
+              2,
+              0
+            ],
+            "coefficient": "1233764"
+          },
+          {
+            "powers": [
+              3,
+              1,
+              1,
+              2
+            ],
+            "coefficient": "78456"
+          },
+          {
+            "powers": [
+              3,
+              1,
+              1,
+              1
+            ],
+            "coefficient": "2108716"
+          },
+          {
+            "powers": [
+              3,
+              1,
+              1,
+              0
+            ],
+            "coefficient": "10838976"
+          },
+          {
+            "powers": [
+              3,
+              1,
+              0,
+              2
+            ],
+            "coefficient": "446004"
+          },
+          {
+            "powers": [
+              3,
+              1,
+              0,
+              1
+            ],
+            "coefficient": "8355408"
+          },
+          {
+            "powers": [
+              3,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "33695792"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              5,
+              0
+            ],
+            "coefficient": "56"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              4,
+              1
+            ],
+            "coefficient": "420"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              4,
+              0
+            ],
+            "coefficient": "5192"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              3,
+              2
+            ],
+            "coefficient": "456"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              3,
+              1
+            ],
+            "coefficient": "23216"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              3,
+              0
+            ],
+            "coefficient": "159800"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              2,
+              2
+            ],
+            "coefficient": "17116"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              2,
+              1
+            ],
+            "coefficient": "445848"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "2205496"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              1,
+              2
+            ],
+            "coefficient": "199796"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              1,
+              1
+            ],
+            "coefficient": "3614764"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "14158864"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              0,
+              2
+            ],
+            "coefficient": "743304"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "10583952"
+          },
+          {
+            "powers": [
+              3,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "34520320"
+          },
+          {
+            "powers": [
+              2,
+              6,
+              0,
+              0
+            ],
+            "coefficient": "3344"
+          },
+          {
+            "powers": [
+              2,
+              5,
+              1,
+              0
+            ],
+            "coefficient": "7840"
+          },
+          {
+            "powers": [
+              2,
+              5,
+              0,
+              1
+            ],
+            "coefficient": "7088"
+          },
+          {
+            "powers": [
+              2,
+              5,
+              0,
+              0
+            ],
+            "coefficient": "107792"
+          },
+          {
+            "powers": [
+              2,
+              4,
+              2,
+              0
+            ],
+            "coefficient": "7384"
+          },
+          {
+            "powers": [
+              2,
+              4,
+              1,
+              1
+            ],
+            "coefficient": "14744"
+          },
+          {
+            "powers": [
+              2,
+              4,
+              1,
+              0
+            ],
+            "coefficient": "214360"
+          },
+          {
+            "powers": [
+              2,
+              4,
+              0,
+              2
+            ],
+            "coefficient": "3360"
+          },
+          {
+            "powers": [
+              2,
+              4,
+              0,
+              1
+            ],
+            "coefficient": "185020"
+          },
+          {
+            "powers": [
+              2,
+              4,
+              0,
+              0
+            ],
+            "coefficient": "1432724"
+          },
+          {
+            "powers": [
+              2,
+              3,
+              3,
+              0
+            ],
+            "coefficient": "3528"
+          },
+          {
+            "powers": [
+              2,
+              3,
+              2,
+              1
+            ],
+            "coefficient": "11996"
+          },
+          {
+            "powers": [
+              2,
+              3,
+              2,
+              0
+            ],
+            "coefficient": "165228"
+          },
+          {
+            "powers": [
+              2,
+              3,
+              1,
+              2
+            ],
+            "coefficient": "5808"
+          },
+          {
+            "powers": [
+              2,
+              3,
+              1,
+              1
+            ],
+            "coefficient": "311468"
+          },
+          {
+            "powers": [
+              2,
+              3,
+              1,
+              0
+            ],
+            "coefficient": "2315892"
+          },
+          {
+            "powers": [
+              2,
+              3,
+              0,
+              2
+            ],
+            "coefficient": "69240"
+          },
+          {
+            "powers": [
+              2,
+              3,
+              0,
+              1
+            ],
+            "coefficient": "1916562"
+          },
+          {
+            "powers": [
+              2,
+              3,
+              0,
+              0
+            ],
+            "coefficient": "10056368"
+          },
+          {
+            "powers": [
+              2,
+              2,
+              4,
+              0
+            ],
+            "coefficient": "881"
+          },
+          {
+            "powers": [
+              2,
+              2,
+              3,
+              1
+            ],
+            "coefficient": "4738"
+          },
+          {
+            "powers": [
+              2,
+              2,
+              3,
+              0
+            ],
+            "coefficient": "61042"
+          },
+          {
+            "powers": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "coefficient": "3672"
+          },
+          {
+            "powers": [
+              2,
+              2,
+              2,
+              1
+            ],
+            "coefficient": "192879"
+          },
+          {
+            "powers": [
+              2,
+              2,
+              2,
+              0
+            ],
+            "coefficient": "1366117"
+          },
+          {
+            "powers": [
+              2,
+              2,
+              1,
+              2
+            ],
+            "coefficient": "91032"
+          },
+          {
+            "powers": [
+              2,
+              2,
+              1,
+              1
+            ],
+            "coefficient": "2444613"
+          },
+          {
+            "powers": [
+              2,
+              2,
+              1,
+              0
+            ],
+            "coefficient": "12366888"
+          },
+          {
+            "powers": [
+              2,
+              2,
+              0,
+              2
+            ],
+            "coefficient": "529540"
+          },
+          {
+            "powers": [
+              2,
+              2,
+              0,
+              1
+            ],
+            "coefficient": "9853138"
+          },
+          {
+            "powers": [
+              2,
+              2,
+              0,
+              0
+            ],
+            "coefficient": "39335124"
+          },
+          {
+            "powers": [
+              2,
+              1,
+              5,
+              0
+            ],
+            "coefficient": "104"
+          },
+          {
+            "powers": [
+              2,
+              1,
+              4,
+              1
+            ],
+            "coefficient": "898"
+          },
+          {
+            "powers": [
+              2,
+              1,
+              4,
+              0
+            ],
+            "coefficient": "10616"
+          },
+          {
+            "powers": [
+              2,
+              1,
+              3,
+              2
+            ],
+            "coefficient": "996"
+          },
+          {
+            "powers": [
+              2,
+              1,
+              3,
+              1
+            ],
+            "coefficient": "51788"
+          },
+          {
+            "powers": [
+              2,
+              1,
+              3,
+              0
+            ],
+            "coefficient": "345560"
+          },
+          {
+            "powers": [
+              2,
+              1,
+              2,
+              2
+            ],
+            "coefficient": "39102"
+          },
+          {
+            "powers": [
+              2,
+              1,
+              2,
+              1
+            ],
+            "coefficient": "1022174"
+          },
+          {
+            "powers": [
+              2,
+              1,
+              2,
+              0
+            ],
+            "coefficient": "4951208"
+          },
+          {
+            "powers": [
+              2,
+              1,
+              1,
+              2
+            ],
+            "coefficient": "469610"
+          },
+          {
+            "powers": [
+              2,
+              1,
+              1,
+              1
+            ],
+            "coefficient": "8455164"
+          },
+          {
+            "powers": [
+              2,
+              1,
+              1,
+              0
+            ],
+            "coefficient": "32664864"
+          },
+          {
+            "powers": [
+              2,
+              1,
+              0,
+              2
+            ],
+            "coefficient": "1783180"
+          },
+          {
+            "powers": [
+              2,
+              1,
+              0,
+              1
+            ],
+            "coefficient": "25151720"
+          },
+          {
+            "powers": [
+              2,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "81335872"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              6,
+              0
+            ],
+            "coefficient": "4"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              5,
+              1
+            ],
+            "coefficient": "64"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              5,
+              0
+            ],
+            "coefficient": "672"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              4,
+              2
+            ],
+            "coefficient": "96"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              4,
+              1
+            ],
+            "coefficient": "5044"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              4,
+              0
+            ],
+            "coefficient": "31192"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              3,
+              2
+            ],
+            "coefficient": "5448"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              3,
+              1
+            ],
+            "coefficient": "139504"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              3,
+              0
+            ],
+            "coefficient": "640928"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              2,
+              2
+            ],
+            "coefficient": "102420"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              2,
+              1
+            ],
+            "coefficient": "1787548"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "6643492"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              1,
+              2
+            ],
+            "coefficient": "798588"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              1,
+              1
+            ],
+            "coefficient": "10880160"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "34163904"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              0,
+              2
+            ],
+            "coefficient": "2232672"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "25512896"
+          },
+          {
+            "powers": [
+              2,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "69494272"
+          },
+          {
+            "powers": [
+              1,
+              7,
+              0,
+              0
+            ],
+            "coefficient": "704"
+          },
+          {
+            "powers": [
+              1,
+              6,
+              1,
+              0
+            ],
+            "coefficient": "1888"
+          },
+          {
+            "powers": [
+              1,
+              6,
+              0,
+              1
+            ],
+            "coefficient": "1792"
+          },
+          {
+            "powers": [
+              1,
+              6,
+              0,
+              0
+            ],
+            "coefficient": "26784"
+          },
+          {
+            "powers": [
+              1,
+              5,
+              2,
+              0
+            ],
+            "coefficient": "2080"
+          },
+          {
+            "powers": [
+              1,
+              5,
+              1,
+              1
+            ],
+            "coefficient": "4416"
+          },
+          {
+            "powers": [
+              1,
+              5,
+              1,
+              0
+            ],
+            "coefficient": "62784"
+          },
+          {
+            "powers": [
+              1,
+              5,
+              0,
+              2
+            ],
+            "coefficient": "1024"
+          },
+          {
+            "powers": [
+              1,
+              5,
+              0,
+              1
+            ],
+            "coefficient": "56656"
+          },
+          {
+            "powers": [
+              1,
+              5,
+              0,
+              0
+            ],
+            "coefficient": "431984"
+          },
+          {
+            "powers": [
+              1,
+              4,
+              3,
+              0
+            ],
+            "coefficient": "1200"
+          },
+          {
+            "powers": [
+              1,
+              4,
+              2,
+              1
+            ],
+            "coefficient": "4416"
+          },
+          {
+            "powers": [
+              1,
+              4,
+              2,
+              0
+            ],
+            "coefficient": "59120"
+          },
+          {
+            "powers": [
+              1,
+              4,
+              1,
+              2
+            ],
+            "coefficient": "2176"
+          },
+          {
+            "powers": [
+              1,
+              4,
+              1,
+              1
+            ],
+            "coefficient": "117880"
+          },
+          {
+            "powers": [
+              1,
+              4,
+              1,
+              0
+            ],
+            "coefficient": "858856"
+          },
+          {
+            "powers": [
+              1,
+              4,
+              0,
+              2
+            ],
+            "coefficient": "26720"
+          },
+          {
+            "powers": [
+              1,
+              4,
+              0,
+              1
+            ],
+            "coefficient": "740036"
+          },
+          {
+            "powers": [
+              1,
+              4,
+              0,
+              0
+            ],
+            "coefficient": "3830680"
+          },
+          {
+            "powers": [
+              1,
+              3,
+              4,
+              0
+            ],
+            "coefficient": "380"
+          },
+          {
+            "powers": [
+              1,
+              3,
+              3,
+              1
+            ],
+            "coefficient": "2272"
+          },
+          {
+            "powers": [
+              1,
+              3,
+              3,
+              0
+            ],
+            "coefficient": "28240"
+          },
+          {
+            "powers": [
+              1,
+              3,
+              2,
+              2
+            ],
+            "coefficient": "1792"
+          },
+          {
+            "powers": [
+              1,
+              3,
+              2,
+              1
+            ],
+            "coefficient": "95932"
+          },
+          {
+            "powers": [
+              1,
+              3,
+              2,
+              0
+            ],
+            "coefficient": "661812"
+          },
+          {
+            "powers": [
+              1,
+              3,
+              1,
+              2
+            ],
+            "coefficient": "46192"
+          },
+          {
+            "powers": [
+              1,
+              3,
+              1,
+              1
+            ],
+            "coefficient": "1245972"
+          },
+          {
+            "powers": [
+              1,
+              3,
+              1,
+              0
+            ],
+            "coefficient": "6190232"
+          },
+          {
+            "powers": [
+              1,
+              3,
+              0,
+              2
+            ],
+            "coefficient": "275720"
+          },
+          {
+            "powers": [
+              1,
+              3,
+              0,
+              1
+            ],
+            "coefficient": "5114902"
+          },
+          {
+            "powers": [
+              1,
+              3,
+              0,
+              0
+            ],
+            "coefficient": "20181528"
+          },
+          {
+            "powers": [
+              1,
+              2,
+              5,
+              0
+            ],
+            "coefficient": "62"
+          },
+          {
+            "powers": [
+              1,
+              2,
+              4,
+              1
+            ],
+            "coefficient": "624"
+          },
+          {
+            "powers": [
+              1,
+              2,
+              4,
+              0
+            ],
+            "coefficient": "7050"
+          },
+          {
+            "powers": [
+              1,
+              2,
+              3,
+              2
+            ],
+            "coefficient": "704"
+          },
+          {
+            "powers": [
+              1,
+              2,
+              3,
+              1
+            ],
+            "coefficient": "37898"
+          },
+          {
+            "powers": [
+              1,
+              2,
+              3,
+              0
+            ],
+            "coefficient": "244414"
+          },
+          {
+            "powers": [
+              1,
+              2,
+              2,
+              2
+            ],
+            "coefficient": "29208"
+          },
+          {
+            "powers": [
+              1,
+              2,
+              2,
+              1
+            ],
+            "coefficient": "771681"
+          },
+          {
+            "powers": [
+              1,
+              2,
+              2,
+              0
+            ],
+            "coefficient": "3650278"
+          },
+          {
+            "powers": [
+              1,
+              2,
+              1,
+              2
+            ],
+            "coefficient": "362472"
+          },
+          {
+            "powers": [
+              1,
+              2,
+              1,
+              1
+            ],
+            "coefficient": "6524523"
+          },
+          {
+            "powers": [
+              1,
+              2,
+              1,
+              0
+            ],
+            "coefficient": "24810516"
+          },
+          {
+            "powers": [
+              1,
+              2,
+              0,
+              2
+            ],
+            "coefficient": "1408060"
+          },
+          {
+            "powers": [
+              1,
+              2,
+              0,
+              1
+            ],
+            "coefficient": "19739920"
+          },
+          {
+            "powers": [
+              1,
+              2,
+              0,
+              0
+            ],
+            "coefficient": "63201824"
+          },
+          {
+            "powers": [
+              1,
+              1,
+              6,
+              0
+            ],
+            "coefficient": "4"
+          },
+          {
+            "powers": [
+              1,
+              1,
+              5,
+              1
+            ],
+            "coefficient": "84"
+          },
+          {
+            "powers": [
+              1,
+              1,
+              5,
+              0
+            ],
+            "coefficient": "832"
+          },
+          {
+            "powers": [
+              1,
+              1,
+              4,
+              2
+            ],
+            "coefficient": "128"
+          },
+          {
+            "powers": [
+              1,
+              1,
+              4,
+              1
+            ],
+            "coefficient": "7184"
+          },
+          {
+            "powers": [
+              1,
+              1,
+              4,
+              0
+            ],
+            "coefficient": "42488"
+          },
+          {
+            "powers": [
+              1,
+              1,
+              3,
+              2
+            ],
+            "coefficient": "7924"
+          },
+          {
+            "powers": [
+              1,
+              1,
+              3,
+              1
+            ],
+            "coefficient": "207220"
+          },
+          {
+            "powers": [
+              1,
+              1,
+              3,
+              0
+            ],
+            "coefficient": "922944"
+          },
+          {
+            "powers": [
+              1,
+              1,
+              2,
+              2
+            ],
+            "coefficient": "155682"
+          },
+          {
+            "powers": [
+              1,
+              1,
+              2,
+              1
+            ],
+            "coefficient": "2728240"
+          },
+          {
+            "powers": [
+              1,
+              1,
+              2,
+              0
+            ],
+            "coefficient": "9929348"
+          },
+          {
+            "powers": [
+              1,
+              1,
+              1,
+              2
+            ],
+            "coefficient": "1248486"
+          },
+          {
+            "powers": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "coefficient": "16938936"
+          },
+          {
+            "powers": [
+              1,
+              1,
+              1,
+              0
+            ],
+            "coefficient": "52466944"
+          },
+          {
+            "powers": [
+              1,
+              1,
+              0,
+              2
+            ],
+            "coefficient": "3562144"
+          },
+          {
+            "powers": [
+              1,
+              1,
+              0,
+              1
+            ],
+            "coefficient": "40349760"
+          },
+          {
+            "powers": [
+              1,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "108992768"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              6,
+              1
+            ],
+            "coefficient": "4"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              6,
+              0
+            ],
+            "coefficient": "32"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              5,
+              2
+            ],
+            "coefficient": "8"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              5,
+              1
+            ],
+            "coefficient": "512"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              5,
+              0
+            ],
+            "coefficient": "2688"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              4,
+              2
+            ],
+            "coefficient": "764"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              4,
+              1
+            ],
+            "coefficient": "20184"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              4,
+              0
+            ],
+            "coefficient": "83264"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              3,
+              2
+            ],
+            "coefficient": "21688"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              3,
+              1
+            ],
+            "coefficient": "372352"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              3,
+              0
+            ],
+            "coefficient": "1284736"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              2,
+              2
+            ],
+            "coefficient": "272228"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              2,
+              1
+            ],
+            "coefficient": "3581028"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "10666656"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              1,
+              2
+            ],
+            "coefficient": "1594912"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              1,
+              1
+            ],
+            "coefficient": "17453248"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "45765376"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              2
+            ],
+            "coefficient": "3574144"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "34140928"
+          },
+          {
+            "powers": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "79884288"
+          },
+          {
+            "powers": [
+              0,
+              8,
+              0,
+              0
+            ],
+            "coefficient": "64"
+          },
+          {
+            "powers": [
+              0,
+              7,
+              1,
+              0
+            ],
+            "coefficient": "192"
+          },
+          {
+            "powers": [
+              0,
+              7,
+              0,
+              1
+            ],
+            "coefficient": "192"
+          },
+          {
+            "powers": [
+              0,
+              7,
+              0,
+              0
+            ],
+            "coefficient": "2816"
+          },
+          {
+            "powers": [
+              0,
+              6,
+              2,
+              0
+            ],
+            "coefficient": "240"
+          },
+          {
+            "powers": [
+              0,
+              6,
+              1,
+              1
+            ],
+            "coefficient": "544"
+          },
+          {
+            "powers": [
+              0,
+              6,
+              1,
+              0
+            ],
+            "coefficient": "7552"
+          },
+          {
+            "powers": [
+              0,
+              6,
+              0,
+              2
+            ],
+            "coefficient": "128"
+          },
+          {
+            "powers": [
+              0,
+              6,
+              0,
+              1
+            ],
+            "coefficient": "7152"
+          },
+          {
+            "powers": [
+              0,
+              6,
+              0,
+              0
+            ],
+            "coefficient": "53600"
+          },
+          {
+            "powers": [
+              0,
+              5,
+              3,
+              0
+            ],
+            "coefficient": "160"
+          },
+          {
+            "powers": [
+              0,
+              5,
+              2,
+              1
+            ],
+            "coefficient": "640"
+          },
+          {
+            "powers": [
+              0,
+              5,
+              2,
+              0
+            ],
+            "coefficient": "8320"
+          },
+          {
+            "powers": [
+              0,
+              5,
+              1,
+              2
+            ],
+            "coefficient": "320"
+          },
+          {
+            "powers": [
+              0,
+              5,
+              1,
+              1
+            ],
+            "coefficient": "17632"
+          },
+          {
+            "powers": [
+              0,
+              5,
+              1,
+              0
+            ],
+            "coefficient": "125632"
+          },
+          {
+            "powers": [
+              0,
+              5,
+              0,
+              2
+            ],
+            "coefficient": "4064"
+          },
+          {
+            "powers": [
+              0,
+              5,
+              0,
+              1
+            ],
+            "coefficient": "113136"
+          },
+          {
+            "powers": [
+              0,
+              5,
+              0,
+              0
+            ],
+            "coefficient": "576704"
+          },
+          {
+            "powers": [
+              0,
+              4,
+              4,
+              0
+            ],
+            "coefficient": "60"
+          },
+          {
+            "powers": [
+              0,
+              4,
+              3,
+              1
+            ],
+            "coefficient": "400"
+          },
+          {
+            "powers": [
+              0,
+              4,
+              3,
+              0
+            ],
+            "coefficient": "4800"
+          },
+          {
+            "powers": [
+              0,
+              4,
+              2,
+              2
+            ],
+            "coefficient": "320"
+          },
+          {
+            "powers": [
+              0,
+              4,
+              2,
+              1
+            ],
+            "coefficient": "17640"
+          },
+          {
+            "powers": [
+              0,
+              4,
+              2,
+              0
+            ],
+            "coefficient": "118288"
+          },
+          {
+            "powers": [
+              0,
+              4,
+              1,
+              2
+            ],
+            "coefficient": "8640"
+          },
+          {
+            "powers": [
+              0,
+              4,
+              1,
+              1
+            ],
+            "coefficient": "235464"
+          },
+          {
+            "powers": [
+              0,
+              4,
+              1,
+              0
+            ],
+            "coefficient": "1146400"
+          },
+          {
+            "powers": [
+              0,
+              4,
+              0,
+              2
+            ],
+            "coefficient": "53088"
+          },
+          {
+            "powers": [
+              0,
+              4,
+              0,
+              1
+            ],
+            "coefficient": "985940"
+          },
+          {
+            "powers": [
+              0,
+              4,
+              0,
+              0
+            ],
+            "coefficient": "3838244"
+          },
+          {
+            "powers": [
+              0,
+              3,
+              5,
+              0
+            ],
+            "coefficient": "12"
+          },
+          {
+            "powers": [
+              0,
+              3,
+              4,
+              1
+            ],
+            "coefficient": "140"
+          },
+          {
+            "powers": [
+              0,
+              3,
+              4,
+              0
+            ],
+            "coefficient": "1520"
+          },
+          {
+            "powers": [
+              0,
+              3,
+              3,
+              2
+            ],
+            "coefficient": "160"
+          },
+          {
+            "powers": [
+              0,
+              3,
+              3,
+              1
+            ],
+            "coefficient": "9080"
+          },
+          {
+            "powers": [
+              0,
+              3,
+              3,
+              0
+            ],
+            "coefficient": "56496"
+          },
+          {
+            "powers": [
+              0,
+              3,
+              2,
+              2
+            ],
+            "coefficient": "7120"
+          },
+          {
+            "powers": [
+              0,
+              3,
+              2,
+              1
+            ],
+            "coefficient": "191684"
+          },
+          {
+            "powers": [
+              0,
+              3,
+              2,
+              0
+            ],
+            "coefficient": "883216"
+          },
+          {
+            "powers": [
+              0,
+              3,
+              1,
+              2
+            ],
+            "coefficient": "91792"
+          },
+          {
+            "powers": [
+              0,
+              3,
+              1,
+              1
+            ],
+            "coefficient": "1660308"
+          },
+          {
+            "powers": [
+              0,
+              3,
+              1,
+              0
+            ],
+            "coefficient": "6201124"
+          },
+          {
+            "powers": [
+              0,
+              3,
+              0,
+              2
+            ],
+            "coefficient": "365736"
+          },
+          {
+            "powers": [
+              0,
+              3,
+              0,
+              1
+            ],
+            "coefficient": "5115200"
+          },
+          {
+            "powers": [
+              0,
+              3,
+              0,
+              0
+            ],
+            "coefficient": "16189280"
+          },
+          {
+            "powers": [
+              0,
+              2,
+              6,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              2,
+              5,
+              1
+            ],
+            "coefficient": "26"
+          },
+          {
+            "powers": [
+              0,
+              2,
+              5,
+              0
+            ],
+            "coefficient": "248"
+          },
+          {
+            "powers": [
+              0,
+              2,
+              4,
+              2
+            ],
+            "coefficient": "40"
+          },
+          {
+            "powers": [
+              0,
+              2,
+              4,
+              1
+            ],
+            "coefficient": "2495"
+          },
+          {
+            "powers": [
+              0,
+              2,
+              4,
+              0
+            ],
+            "coefficient": "14102"
+          },
+          {
+            "powers": [
+              0,
+              2,
+              3,
+              2
+            ],
+            "coefficient": "2800"
+          },
+          {
+            "powers": [
+              0,
+              2,
+              3,
+              1
+            ],
+            "coefficient": "75750"
+          },
+          {
+            "powers": [
+              0,
+              2,
+              3,
+              0
+            ],
+            "coefficient": "326104"
+          },
+          {
+            "powers": [
+              0,
+              2,
+              2,
+              2
+            ],
+            "coefficient": "58056"
+          },
+          {
+            "powers": [
+              0,
+              2,
+              2,
+              1
+            ],
+            "coefficient": "1028501"
+          },
+          {
+            "powers": [
+              0,
+              2,
+              2,
+              0
+            ],
+            "coefficient": "3655753"
+          },
+          {
+            "powers": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "coefficient": "480808"
+          },
+          {
+            "powers": [
+              0,
+              2,
+              1,
+              1
+            ],
+            "coefficient": "6525540"
+          },
+          {
+            "powers": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "coefficient": "19897552"
+          },
+          {
+            "powers": [
+              0,
+              2,
+              0,
+              2
+            ],
+            "coefficient": "1403056"
+          },
+          {
+            "powers": [
+              0,
+              2,
+              0,
+              1
+            ],
+            "coefficient": "15807136"
+          },
+          {
+            "powers": [
+              0,
+              2,
+              0,
+              0
+            ],
+            "coefficient": "42282304"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              6,
+              1
+            ],
+            "coefficient": "2"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              6,
+              0
+            ],
+            "coefficient": "16"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              5,
+              2
+            ],
+            "coefficient": "4"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              5,
+              1
+            ],
+            "coefficient": "336"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              5,
+              0
+            ],
+            "coefficient": "1664"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              4,
+              2
+            ],
+            "coefficient": "510"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              4,
+              1
+            ],
+            "coefficient": "14364"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              4,
+              0
+            ],
+            "coefficient": "56672"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              3,
+              2
+            ],
+            "coefficient": "15756"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              3,
+              1
+            ],
+            "coefficient": "276240"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              3,
+              0
+            ],
+            "coefficient": "924032"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              2,
+              2
+            ],
+            "coefficient": "206506"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              2,
+              1
+            ],
+            "coefficient": "2728930"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              2,
+              0
+            ],
+            "coefficient": "7960720"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              1,
+              2
+            ],
+            "coefficient": "1243896"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "coefficient": "13564448"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "coefficient": "35090944"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              2
+            ],
+            "coefficient": "2844352"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "coefficient": "26951296"
+          },
+          {
+            "powers": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "coefficient": "62548992"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              6,
+              1
+            ],
+            "coefficient": "16"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              6,
+              0
+            ],
+            "coefficient": "64"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              5,
+              2
+            ],
+            "coefficient": "32"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              5,
+              1
+            ],
+            "coefficient": "1024"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              5,
+              0
+            ],
+            "coefficient": "3584"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              4,
+              2
+            ],
+            "coefficient": "1520"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              4,
+              1
+            ],
+            "coefficient": "26912"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              4,
+              0
+            ],
+            "coefficient": "83328"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              3,
+              2
+            ],
+            "coefficient": "28768"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              3,
+              1
+            ],
+            "coefficient": "372480"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              3,
+              0
+            ],
+            "coefficient": "1029632"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              2,
+              2
+            ],
+            "coefficient": "271184"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              2,
+              1
+            ],
+            "coefficient": "2867664"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              2,
+              0
+            ],
+            "coefficient": "7131712"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              1,
+              2
+            ],
+            "coefficient": "1273280"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "coefficient": "11657216"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "coefficient": "26256384"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              2
+            ],
+            "coefficient": "2382336"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "coefficient": "19565568"
+          },
+          {
+            "powers": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "coefficient": "40144896"
+          }
+        ]
+      },
+      "numerator_t0_positive": true,
+      "numerator_t0_constant": "52864",
+      "numerator_t1_positive": false,
+      "numerator_t1_constant": "-2624",
+      "denominator_positive": true,
+      "denominator_constant": "40144896"
+    }
+  ]
+}

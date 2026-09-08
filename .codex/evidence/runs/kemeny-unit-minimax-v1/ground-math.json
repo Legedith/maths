@@ -1,0 +1,14 @@
+{
+  "status": "FAIL",
+  "bundle": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.codex\\evidence\\runs\\kemeny-unit-minimax-v1\\bundle.json",
+  "workspace": "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+  "artifact_count": 88,
+  "claim_count": 9,
+  "claim_provenance_rate": 1.0,
+  "errors": [
+    "checks[0].status blocks promotion: 'pending'",
+    "checks[1].status blocks promotion: 'pending'",
+    "checks[2].status blocks promotion: 'pending'",
+    "checks[3].status blocks promotion: 'pending'"
+  ]
+}

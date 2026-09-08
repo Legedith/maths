@@ -1,0 +1,12 @@
+﻿[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "3A1C60ACAF7B0AF643E4556CD5500E6A1A3B53F9FAA0CED7D36CF319937D6074",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-minimax-endpoint-review-work\\input-hashes.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "C0B0112767BB251A87C45EEFCCC12DD803F69CA7A0CA1E61F7774A7899A274D8",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-minimax-endpoint-review-work\\review.md"
+    }
+]

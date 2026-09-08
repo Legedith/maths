@@ -1,0 +1,26 @@
+﻿[
+    {
+        "sha256":  "520d4257ca92ebfb5c2fd20be9bfae2426221581b30639bbf172cfa3d78ddac4",
+        "path":  "claims.json"
+    },
+    {
+        "sha256":  "343831c664dcf731c847cdd55b3f50a95847c8dbc3146a1815c717f9cf30d952",
+        "path":  "report.md"
+    },
+    {
+        "sha256":  "bc0774d83490d14626beb1ad977ec805bcb33c6b7b5c38e281002ddbf98084da",
+        "path":  "request-return-1.json"
+    },
+    {
+        "sha256":  "085f0f3d054ff1a3f4ec8be366a11e36e6f2ec5506ef52fbd3b27bfa1cd21136",
+        "path":  "request-return-2.json"
+    },
+    {
+        "sha256":  "102be0bf86b43ac960d90dfc3efaead6161b40c9ff5a95e919d3a249109a6509",
+        "path":  "request-return-3.json"
+    },
+    {
+        "sha256":  "0b1163e5a8df62ec9865c4623be607ffded3ba9b72f07280905ed3e9cd37007f",
+        "path":  "request-return-4.json"
+    }
+]

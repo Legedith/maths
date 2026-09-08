@@ -1,0 +1,101 @@
+﻿{
+    "files":  [
+                  {
+                      "match":  true,
+                      "path":  "claims.json",
+                      "sha256":  "520d4257ca92ebfb5c2fd20be9bfae2426221581b30639bbf172cfa3d78ddac4"
+                  },
+                  {
+                      "match":  true,
+                      "path":  "report.md",
+                      "sha256":  "343831c664dcf731c847cdd55b3f50a95847c8dbc3146a1815c717f9cf30d952"
+                  },
+                  {
+                      "match":  true,
+                      "path":  "request-return-1.json",
+                      "sha256":  "bc0774d83490d14626beb1ad977ec805bcb33c6b7b5c38e281002ddbf98084da"
+                  },
+                  {
+                      "match":  true,
+                      "path":  "request-return-2.json",
+                      "sha256":  "085f0f3d054ff1a3f4ec8be366a11e36e6f2ec5506ef52fbd3b27bfa1cd21136"
+                  },
+                  {
+                      "match":  true,
+                      "path":  "request-return-3.json",
+                      "sha256":  "102be0bf86b43ac960d90dfc3efaead6161b40c9ff5a95e919d3a249109a6509"
+                  },
+                  {
+                      "match":  true,
+                      "path":  "request-return-4.json",
+                      "sha256":  "0b1163e5a8df62ec9865c4623be607ffded3ba9b72f07280905ed3e9cd37007f"
+                  }
+              ],
+    "requests":  [
+                     {
+                         "search_query":  [
+                                              {
+                                                  "q":  "\"minimax relative regret\" \"network\" design demand"
+                                              },
+                                              {
+                                                  "q":  "\"hitting time\" \"regret\" \"network design\" robust"
+                                              },
+                                              {
+                                                  "q":  "\"relative regret\" \"linear fractional\" optimization uncertainty"
+                                              },
+                                              {
+                                                  "q":  "\"minmax regret\" \"network design\" uncertain demands"
+                                              }
+                                          ],
+                         "response_length":  "long"
+                     },
+                     {
+                         "open":  [
+                                      {
+                                          "ref_id":  "https://ojs.aaai.org/index.php/AAAI/article/download/9908/9767"
+                                      },
+                                      {
+                                          "ref_id":  "https://www.sciencedirect.com/science/article/pii/S2405896322019061"
+                                      },
+                                      {
+                                          "ref_id":  "https://stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf"
+                                      }
+                                  ],
+                         "response_length":  "long"
+                     },
+                     {
+                         "find":  [
+                                      {
+                                          "ref_id":  "turn469view2",
+                                          "pattern":  "quasilinear"
+                                      },
+                                      {
+                                          "ref_id":  "turn469view2",
+                                          "pattern":  "Linear-fractional function"
+                                      }
+                                  ],
+                         "response_length":  "long"
+                     },
+                     {
+                         "find":  [
+                                      {
+                                          "ref_id":  "turn469view2",
+                                          "pattern":  "linear-fractional"
+                                      },
+                                      {
+                                          "ref_id":  "turn469view2",
+                                          "pattern":  "quasiconvex"
+                                      }
+                                  ],
+                         "response_length":  "long"
+                     }
+                 ],
+    "manifest_sha256":  "e5e7e767d482ed03d72bff7e2d290991a2819f5d6564e34cb70a3f7b5bb271e4",
+    "basis":  "actual retained request arrays",
+    "status":  "pass",
+    "counts":  {
+                   "opens":  3,
+                   "finds":  4,
+                   "queries":  4
+               }
+}

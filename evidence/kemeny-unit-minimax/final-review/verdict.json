@@ -1,0 +1,16 @@
+{
+  "status":"pass",
+  "auditor":"/root/astra_damage_symbolic",
+  "round":2,
+  "bundle_sha256":"8b7815b6f24e385841473a72917518a9fbe282d1575979ac3195c46fc9e1d482",
+  "required_corrections":[],
+  "checks":[
+    {"id":"reproduction","status":"pass","auditor":"/root/astra_damage_symbolic","evidence":["A016","A018","A042","A044","A076","A078","A094","A102","A103","A104","A109","A114"],"note":"Unchanged independent reconstructions and distinct portable replay reused; actual worker/root/reviewer result bytes match. No evaluator rerun."},
+    {"id":"specification_compliance","status":"pass","auditor":"/root/astra_damage_symbolic","evidence":["A001","A017","A027","A043","A077","A128","A129"],"note":"Sole round1 correction resolved: A128 now requires a future hosted-CI record. Complete ties, strict domination, interval boundaries, actual volumes and required-unit scope match contract and independent reviews."},
+    {"id":"source_verification","status":"pass","auditor":"/root/astra_damage_symbolic","evidence":["A050","A051","A053","A054","A055","A087","A129"],"note":"Unchanged distinct source review supports bounded primary-source attribution and access limits, not novelty or real-world validation."},
+    {"id":"implementation_alignment","status":"pass","auditor":"/root/astra_damage_symbolic","evidence":["A100","A102","A104","A113","A114","A117","A120","A124","A128","A131"],"note":"Unchanged code, accepted analytic bridges, complete finite outputs and static pinned workflow align; implementation author and portable reviewer are distinct. Hosted CI not attested."}
+  ],
+  "condition":"Append frozen reviewer packet and attestation, then deterministic gate; no other content changes.",
+  "scope":"Final semantic LOCAL release review only",
+  "hosted_ci_or_publication_priority_clearance":false
+}

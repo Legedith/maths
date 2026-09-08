@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "bundle": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.codex\\evidence\\runs\\kemeny-unit-minimax-v1\\bundle.json",
+  "workspace": "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+  "artifact_count": 142,
+  "claim_count": 11,
+  "claim_provenance_rate": 1.0,
+  "errors": []
+}

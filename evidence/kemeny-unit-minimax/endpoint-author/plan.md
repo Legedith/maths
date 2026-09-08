@@ -1,0 +1,2 @@
+﻿# Frozen analytic scope
+Finite nonempty set of fixed connected weighted-graph interventions; same iid hub-mixture law for every intervention and fixed vertex set. Closed uncertainty interval[l,h] subset[0,1), all reduced objective lines positive. Prove endpoint relative-regret reduction, then two-line crossing product criterion and exact ties. Examine weak domination versus elimination of all minimizers. No graph-family two-action assumption. Analytic reasoning only, no evaluator or source search. Owned stage UTF8/ASCII; excludedPR12, independent audit pending.

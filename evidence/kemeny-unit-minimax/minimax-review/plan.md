@@ -1,0 +1,5 @@
+# Frozen independent evaluator
+
+Audit all-family deterministic minimax theorem analytically through the distinct pinned forbidden-restoration, endpoint and common-strength reviews. No action, randomization and strength choice are excluded. Verify all domain and tie branches, positive volumes and strict fixed-action elimination.
+
+One planned evaluator (maximum two attempts, each 60 seconds): independently build all ten candidate full Laplacians for 333, invert L+J/n with standard-library Fraction Gauss-Jordan, and subtract J/n. Reconstruct each positive reduced line from trace and hub diagonal. Falsifiable checks: (1) all ten edges and full inverse residuals, (2) both claimed lines and every candidate endpoint regret, (3) unique midpoint restoration versus exactly two incident minimax edges, (4) exact reported products and regrets, (5) all frozen author/dependency hashes. No other graph, workload interval or numerical grid. Retain exact argv, rc, duration and raw streams. This checks the sole diagnostic; it does not infer the family theorem from it.

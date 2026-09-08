@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "attempts": 2,
+  "fresh_rc": 0,
+  "rejection_rc": 2,
+  "result_sha256": "e7d260218dd6ed48700fff61417311d2b10f48f30ec15ef3e8287644a07bcc60",
+  "byte_identical": true,
+  "utf8_lf": true,
+  "all_input_hashes_match": true,
+  "coefficient_counts": [
+    {
+      "denominator": 42,
+      "numerator": 27
+    },
+    {
+      "denominator": 161,
+      "numerator": 83
+    }
+  ]
+}

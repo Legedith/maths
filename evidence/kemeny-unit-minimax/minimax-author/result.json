@@ -1,0 +1,38 @@
+{
+  "parts": [
+    3,
+    3,
+    3
+  ],
+  "interval": [
+    "0",
+    "21/500"
+  ],
+  "midpoint": "21/1000",
+  "tau": "46/2205",
+  "lines": {
+    "incident": [
+      "10021/8680",
+      "2547/2480"
+    ],
+    "restoration": [
+      "81/70",
+      "9/10"
+    ]
+  },
+  "midpoint_values": {
+    "incident": "20416409/17360000",
+    "restoration": "82323/70000"
+  },
+  "worst_relative_regrets": {
+    "incident": "23305/10372104",
+    "restoration": "23/10021"
+  },
+  "products": {
+    "incident": "104172393589/75342400000",
+    "restoration": "3387663/2450000"
+  },
+  "midpoint_winner": "restoration",
+  "minimax_orbit": "incident-u A",
+  "status": "PASS"
+}

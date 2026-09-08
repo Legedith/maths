@@ -1,0 +1,2 @@
+# Frozen second and final evaluator
+The first coefficient positivity assertion failed (rc1), retained. At the first orthant origin334 the cleared numerator is28910-1820t, so t16 gives a negative endpoint gap. Verify exactly that boundary only, no grid: compute sigma=(C-I)/lambda and choose theta=(sigma+1)/2, then compare every remaining class. This is same-domain rational counterexample resolution of a failed sign conjecture; no further run is permitted.

@@ -1,0 +1,1 @@
+﻿Frozen audit only334,t16,theta9147/9152, restoration forbidden; all12remaining missing edges. One<=60s direct grounded-matrix run verifies actual objectives and scaled scores against counterexample, all ties and positive cancellation. Inspect failed first run separately; no universal coefficient rerun/grid. UTF8/ASCII uvD owned stage only.

@@ -1,0 +1,47 @@
+﻿[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "4178F165E24063399C2E36CA0B776FEFAA2B51972BFC4A1C922385F2C7FA8749",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-workload-work\\check.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "931588A36FCEE5919098C80E85FBC32CD2475E8F71BD8293A6021F682B5AB7E7",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-workload-work\\input-hashes.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "0B82282949CADED6ED26E6EF39C6ED88337FCDEA534F00E8DFCDA2F780FDF29A",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-workload-work\\plan.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "161F3B82F41BA7ADA806FA1D2779BBEE18066B31AAA29CE6EF1CB586E96094BF",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-workload-work\\proposal.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "12373B7F62CCB631DA09B31840AB3B337EB1A7F424C4DFB8D78A0A66FEAFE681",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-workload-work\\result.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "4CC686BC15531BF6CC5D4C1A2B2BDEC9C96ADBC4CB2C82301C482AE242A38CF0",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-workload-work\\run.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "945A36211934791BE13CC96820C95D9BA22053CCB1FA161AF247953BBC03A630",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-workload-work\\run.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "D0A1818D83370741873B46AEAA16E511C2B44F647960320D35B7130FC1D0ADEF",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-workload-work\\stderr.bin"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "12B8CB37452FEE44F92CA078F51F8BFA1C6DC7AA0FDE476C33A106B88BC16C59",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-workload-work\\stdout.bin"
+    }
+]

@@ -1,0 +1,1674 @@
+{
+  "schema_version": "1.0",
+  "run_id": "kemeny-unit-minimax-v1",
+  "objective": "Certify the complete deterministic unit-repair minimax rule under uncertain iid hub workload, its strict-domination foundation, midpoint counterexample and strength-scope boundary.",
+  "created_at": "2026-09-08T18:56:01.000450Z",
+  "task_spec_artifact_id": "A001",
+  "evaluator_command": "uv run --project experiments/kemeny-workload-proof --frozen python experiments/kemeny-three-part-proof/run_logged.py --attempt-id minimax-01 --timeout-seconds 60 --log-dir work/kemeny-unit-minimax/logs -- uv run --project experiments/kemeny-workload-proof --frozen python experiments/kemeny-workload-proof/verify_unit_minimax.py --output work/kemeny-unit-minimax/check-01.json",
+  "artifacts": [
+    {
+      "id": "A001",
+      "kind": "spec",
+      "path": "docs/kemeny-unit-minimax-contract.md",
+      "sha256": "19d4aac28a4df98d217a8a2c57cc8b4a345facaff0e408ef074f30830de0075e",
+      "producer": "user-or-orchestrator"
+    },
+    {
+      "id": "A002",
+      "kind": "code",
+      "path": "evidence/kemeny-unit-minimax/domination-author/check.py",
+      "sha256": "4178f165e24063399c2e36ca0b776fefaa2b51972bfc4a1c922385f2c7fa8749",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A003",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/domination-author/hashes.json",
+      "sha256": "ed3d4a4664f9f0596571cc4da9f8d3b736772a6e3a84fd83c2d754d4ed2fb048",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A004",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/domination-author/input-hashes.json",
+      "sha256": "931588a36fcee5919098c80e85fbc32cd2475e8f71bd8293a6021f682b5ab7e7",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A005",
+      "kind": "report",
+      "path": "evidence/kemeny-unit-minimax/domination-author/plan.md",
+      "sha256": "0b82282949caded6ed26e6ef39c6ed88337fcdea534f00e8dfcda2f780fdf29a",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A006",
+      "kind": "report",
+      "path": "evidence/kemeny-unit-minimax/domination-author/proposal.md",
+      "sha256": "161f3b82f41ba7ada806fa1d2779bbee18066b31aaa29ce6ef1cb586e96094bf",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A007",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/domination-author/result.json",
+      "sha256": "12373b7f62ccb631da09b31840ab3b337eb1a7f424c4dfb8d78a0a66feafe681",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A008",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/domination-author/run.json",
+      "sha256": "4cc686bc15531bf6cc5d4c1a2b2bdec9c96adbc4cb2c82301c482ae242a38cf0",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A009",
+      "kind": "code",
+      "path": "evidence/kemeny-unit-minimax/domination-author/run.py",
+      "sha256": "945a36211934791be13cc96820c95d9ba22053ccb1fa161af247953bbc03a630",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A010",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/domination-author/stderr.bin",
+      "sha256": "d0a1818d83370741873b46aeaa16e511c2b44f647960320d35b7130fc1d0adef",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A011",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/domination-author/stdout.bin",
+      "sha256": "12b8cb37452fee44f92ca078f51f8bfa1c6dc7aa0fde476c33a106b88bc16c59",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A012",
+      "kind": "code",
+      "path": "evidence/kemeny-unit-minimax/domination-review/check.py",
+      "sha256": "83450ebac49dfe90116f210906e65be13ea4a7a4d51d059ee37462a5508bdd8e",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A013",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/domination-review/hashes.json",
+      "sha256": "62ec4cd28497c532cae5b4d3f48912b3ac29ce60490c12c53c1685318863a09c",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A014",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/domination-review/input-check.json",
+      "sha256": "f6eaf833d96062a84ffcc003c682ddcfcc6b969de3030d6ad63035f26ee105ab",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A015",
+      "kind": "report",
+      "path": "evidence/kemeny-unit-minimax/domination-review/plan.md",
+      "sha256": "5f3364eef2792e7b69d33e9dde90227e7e074143cb73efd2b04dab1cd1ca2380",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A016",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/domination-review/result.json",
+      "sha256": "e11b787c96aeafafa5b0032d9e4b8d8b9f7967c80bfee8d938c68367b7474542",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A017",
+      "kind": "report",
+      "path": "evidence/kemeny-unit-minimax/domination-review/review.md",
+      "sha256": "652799067c254044bd262961814be5ff62b9a13237d5049908119c05d07e5e74",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A018",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/domination-review/run.json",
+      "sha256": "5d458cf2e58d07b267aa7deaae6dd85d595e7ae4e0b09eab9880470f290f2266",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A019",
+      "kind": "code",
+      "path": "evidence/kemeny-unit-minimax/domination-review/run.py",
+      "sha256": "adbacfcab6f1d136108ae484c415462cd6f3feb9b638fb1c193b69f04358f8d7",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A020",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/domination-review/stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A021",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/domination-review/stdout.bin",
+      "sha256": "eb024fd070d5b3e4bcf57ca14b57e4b3274d1631c48c37481bd9d449f3c22b74",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A022",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/endpoint-author/hashes.json",
+      "sha256": "b61230ca4e3a52d13ed3f5165bd8ab10fe5c2f3d70c19805252b2556b524a39a",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A023",
+      "kind": "report",
+      "path": "evidence/kemeny-unit-minimax/endpoint-author/plan.md",
+      "sha256": "b0da1dca6e833478a2c7dc1ced0df1ae818b6904875dda2c478248e2e73c0eca",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A024",
+      "kind": "report",
+      "path": "evidence/kemeny-unit-minimax/endpoint-author/proposal.md",
+      "sha256": "f4fc5119ca0f35badbb7c2b31f90a574d86a12459f03f5d0251c8b1ab2d59f75",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A025",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/endpoint-review/hashes.json",
+      "sha256": "790c7f0144bef2ba781074e099d0c3c9f485a5eea5f64095c8deea6c2a5b1a35",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A026",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/endpoint-review/input-hashes.json",
+      "sha256": "3a1c60acaf7b0af643e4556cd5500e6a1a3b53f9faa0ced7d36cf319937d6074",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A027",
+      "kind": "report",
+      "path": "evidence/kemeny-unit-minimax/endpoint-review/review.md",
+      "sha256": "c0b0112767bb251a87c45eefccc12dd803f69ca7a0ca1e61f7774a7899a274d8",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A028",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/math-copy-manifest.json",
+      "sha256": "b8ff2d625d19c5e9e6840fd16e6759e6c3f8f31b6f016238aecf512fd2809003",
+      "producer": "/root"
+    },
+    {
+      "id": "A029",
+      "kind": "code",
+      "path": "evidence/kemeny-unit-minimax/minimax-author/check.py",
+      "sha256": "90e17fab9cef58dfec4240284593a463ee07b03a0e1d2861938707b71d28edd0",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A030",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/minimax-author/hashes.json",
+      "sha256": "9a2997e5128f4a131c8674bb578dcb9262b20078a127c99d65935019d0762196",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A031",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/minimax-author/input-hashes.json",
+      "sha256": "fb3e2f8a80ee11f4dd7cb52ebf2cc73224bbb7f71d95913f1fa77374ec694e33",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A032",
+      "kind": "report",
+      "path": "evidence/kemeny-unit-minimax/minimax-author/plan.md",
+      "sha256": "fcfda5ee9b809a3c8daa67aebf2f82c36a1dce8e441b7ce302426fb11fde128d",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A033",
+      "kind": "report",
+      "path": "evidence/kemeny-unit-minimax/minimax-author/proposal.md",
+      "sha256": "fc9f481397a4979d3f56093eb4ff7d104ff3d086db65cad8418ce4c11c3eae6e",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A034",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/minimax-author/result.json",
+      "sha256": "2c3081854bbed71c05770583d117b1ae03aed6646ff1de19ca3c07e299d3abca",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A035",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/minimax-author/run.json",
+      "sha256": "b9e29ecf98f1a4566eee2159f6c951180a40a207e94c4ad6262fa7ca8b1ccc70",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A036",
+      "kind": "code",
+      "path": "evidence/kemeny-unit-minimax/minimax-author/run.py",
+      "sha256": "0a39d7e027a0f02fc5534726806258d8e32a49330ee2e6f33010456970531455",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A037",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/minimax-author/stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A038",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/minimax-author/stdout.bin",
+      "sha256": "cfbb95d2bfec78880d91c019cbeff93a269fd0cac0b2b02bbe10fff355f47d53",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A039",
+      "kind": "code",
+      "path": "evidence/kemeny-unit-minimax/minimax-review/check.py",
+      "sha256": "aabb2f69b04697ce95f236d8963c92dce75bb08ce0423ff082ea7c561132b19b",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A040",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/minimax-review/hashes.json",
+      "sha256": "e598909d421f196c7bdc49b94a44eb235aa6d0c71b78317c327c18fa541b2bc4",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A041",
+      "kind": "report",
+      "path": "evidence/kemeny-unit-minimax/minimax-review/plan.md",
+      "sha256": "c99bf64796f8d7350ca85f7fd151489c96a4256aa732b31c76121414b09b4896",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A042",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/minimax-review/result.json",
+      "sha256": "97ea75f59714ed75afb6c65c863d2936d3e284d598d96041a4b9db77064b8f69",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A043",
+      "kind": "report",
+      "path": "evidence/kemeny-unit-minimax/minimax-review/review.md",
+      "sha256": "9c1579ed18ba979c5a6141f16778a97d50689b31356cb8e39a5cad9bc1325e22",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A044",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/minimax-review/run.json",
+      "sha256": "030d8a4e281ed5d7c72ed8b9654d43f9f57b50e246cda5365c81fb33b4e1e6f2",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A045",
+      "kind": "code",
+      "path": "evidence/kemeny-unit-minimax/minimax-review/run.py",
+      "sha256": "caf029ce0c754ab9a71d681aa2a0866318ad159d4f9b9946feb5075124097707",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A046",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/minimax-review/stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A047",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/minimax-review/stdout.bin",
+      "sha256": "1e2f0e63e5fb7a48454e356fa327574773efb2f5d83514e28a6bbc9e47119d61",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A048",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/minimax-review/verdict.json",
+      "sha256": "212a5fd3e8eef6d753dd8a919175edceb8670a50af33ecc73fff7d3a457dbf75",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A049",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/source/author-hashes.json",
+      "sha256": "e5e7e767d482ed03d72bff7e2d290991a2819f5d6564e34cb70a3f7b5bb271e4",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A050",
+      "kind": "source",
+      "path": "evidence/kemeny-unit-minimax/source/notes.md",
+      "sha256": "343831c664dcf731c847cdd55b3f50a95847c8dbc3146a1815c717f9cf30d952",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A051",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/source/requests.json",
+      "sha256": "e2409d434cc5a411506c6e1e43ada4cae60abae18cdc1ae48f50a01d4a5abd97",
+      "producer": "/root"
+    },
+    {
+      "id": "A052",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/source-review/hashes.json",
+      "sha256": "c800e7999d51b9431e53669c23097407f8eb25836fe29d0029fce1f00253d89c",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A053",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/source-review/input-checks.json",
+      "sha256": "d4f1e99e5f9f1bb8971463cf77de57dc797b668c822b28ed3d0c1d009f596910",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A054",
+      "kind": "report",
+      "path": "evidence/kemeny-unit-minimax/source-review/review.md",
+      "sha256": "868412f32534148345fd9cda3234b2bfdf70b508e324186551535b07816ba141",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A055",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/source-review/verdict.json",
+      "sha256": "1a4766de5be98a59516c5cbb95bdfa710af27b89cfaeb95a51ae5828ed6073cc",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A056",
+      "kind": "report",
+      "path": "evidence/kemeny-unit-minimax/strength-author/batch2-plan.md",
+      "sha256": "83bf31b3f64325330251a44304619acbdb62248256059c7c688f54b4a41ea0b9",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A057",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/strength-author/batch2-run.json",
+      "sha256": "c89f53024de0abfa2941b9ee29dcbfc04af031693dcd6230b475a37758105d60",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A058",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/strength-author/batch2-stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A059",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/strength-author/batch2-stdout.bin",
+      "sha256": "63aa421cb77c89a330ea6e2c3cdce2f43448498925a3a0e6391513b9fbf59892",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A060",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/strength-author/batch2.json",
+      "sha256": "2dcbe58de0ac5e384c4140a6f1379270ff9d1adfb1b69753b6c3340147e73a17",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A061",
+      "kind": "code",
+      "path": "evidence/kemeny-unit-minimax/strength-author/check.py",
+      "sha256": "a2d56de4827b06a3f9181393137e847d9fdab09cb26e5ac58e58eaa6a7a134ed",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A062",
+      "kind": "code",
+      "path": "evidence/kemeny-unit-minimax/strength-author/check2.py",
+      "sha256": "e8c16dd2698adcc9703326db824ec1752f2696226c3d8114449534e66edf5479",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A063",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/strength-author/hashes.json",
+      "sha256": "12b5ec8671cea7aa544c85cb943898ac90472e916174814bdfa5b334b2c9a3fe",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A064",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/strength-author/input-hashes.json",
+      "sha256": "e3be5850c43023d3bc40eba755da7a2b88eee7eebe0b53e54fcae452a4a1f5cc",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A065",
+      "kind": "report",
+      "path": "evidence/kemeny-unit-minimax/strength-author/plan.md",
+      "sha256": "efb6b80cc6a4d48e9efd9688dab22dfb2970b4f1ba93fbc3e6363f716e707fbe",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A066",
+      "kind": "report",
+      "path": "evidence/kemeny-unit-minimax/strength-author/proposal.md",
+      "sha256": "60459628123dedb3f4300c083ed6dcd4a79ca6f1cd1a9506a02fa409d375f68c",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A067",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/strength-author/result.json",
+      "sha256": "a70838cf182eba49c19a5ff519af62bd91d0231c87e505fe8c2dd62c42622d67",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A068",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/strength-author/run.json",
+      "sha256": "ae221851c4cbe76154f5e01c2416b89eb1ae9b51ce7451ab3d9ce57f1eb332d4",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A069",
+      "kind": "code",
+      "path": "evidence/kemeny-unit-minimax/strength-author/run.py",
+      "sha256": "945a36211934791be13cc96820c95d9ba22053ccb1fa161af247953bbc03a630",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A070",
+      "kind": "code",
+      "path": "evidence/kemeny-unit-minimax/strength-author/run2.py",
+      "sha256": "b5e42819dff6e79e16ba5e478c4a85066efa0aedbf899da31ed0609acfb7c9bd",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A071",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/strength-author/stderr.bin",
+      "sha256": "f2161366ee43bb4de0c4528b0e8f5834a1d361fe224c0a949838dbc09f7855bc",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A072",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/strength-author/stdout.bin",
+      "sha256": "879279dbd8ba4b77de98156b9adac2a5acc2036e5f5e6de3a7a390cce432d324",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A073",
+      "kind": "code",
+      "path": "evidence/kemeny-unit-minimax/strength-review/check.py",
+      "sha256": "79f2e67973db7dba0ae6a420ebd4300d8757dd03ca60ea0de1c80c136015a7c0",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A074",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/strength-review/hashes.json",
+      "sha256": "c293b711f84bdf881f28506a94f5d7f497f51f16bcf5039e1bedf35116f5e87e",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A075",
+      "kind": "report",
+      "path": "evidence/kemeny-unit-minimax/strength-review/plan.md",
+      "sha256": "5547e57e7140686c4300f0fed694fa1204f200cf94345c3052edea4127d7ab54",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A076",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/strength-review/result.json",
+      "sha256": "f7d2de4af314a59540c12cae1a40757f7536a38915446faa2723878051ff7a5d",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A077",
+      "kind": "report",
+      "path": "evidence/kemeny-unit-minimax/strength-review/review.md",
+      "sha256": "03e68d3dc38bc0c746605d86e1b27ad749afb2c1ccbd13c067725223a3ed4c22",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A078",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/strength-review/run.json",
+      "sha256": "11aa5d4065b7ec96639d99ebd3a94868efca46c23d8b304353c669488f663049",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A079",
+      "kind": "code",
+      "path": "evidence/kemeny-unit-minimax/strength-review/run.py",
+      "sha256": "adbacfcab6f1d136108ae484c415462cd6f3feb9b638fb1c193b69f04358f8d7",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A080",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/strength-review/stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A081",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/strength-review/stdout.bin",
+      "sha256": "19217b417948242882c3055de3bd77ccc2fae5fc49a0a368718f270beb7e2c18",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A082",
+      "kind": "report",
+      "path": "docs/kemeny-workload-robustness.md",
+      "sha256": "7e2e9b6ba1b72ea090ce5c4208660b40842e6a5cae94155d9b897e6b227e1888",
+      "producer": "/root"
+    },
+    {
+      "id": "A083",
+      "kind": "report",
+      "path": "evidence/kemeny-workload-robustness/envelope-review/review.md",
+      "sha256": "edaf10d12ad3de86844b22697c1aae06ce662fb5c59e2b410e2b302c009d7671",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A084",
+      "kind": "result",
+      "path": "evidence/kemeny-workload-robustness/envelope-review/result.json",
+      "sha256": "bb857b7c59fc0ba541d974d875c8809eb97187064209d471cf868a22fdbf3682",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A085",
+      "kind": "source",
+      "path": "evidence/kemeny-workload-robustness/source/README.md",
+      "sha256": "065b0015f61c97e2dc5579878a3937cd24419fb0dee1f76cfdd490f1191d52ac",
+      "producer": "/root"
+    },
+    {
+      "id": "A086",
+      "kind": "source",
+      "path": "evidence/kemeny-workload-robustness/source/source-notes.md",
+      "sha256": "bf1b6288d81911328c97b73cd8d06cd9b08c279b6859895bcb6ff55e5be07039",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A087",
+      "kind": "report",
+      "path": "evidence/kemeny-workload-robustness/bound-review/source-review.md",
+      "sha256": "a871ece16c42561f5f6dddd47641530eaf7d9f8499f2eeca4c5ca0b17d12e1a6",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A088",
+      "kind": "code",
+      "path": "experiments/kemeny-three-part-proof/run_logged.py",
+      "sha256": "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6",
+      "producer": "/root"
+    },
+    {
+      "id": "A089",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/implementation/hashes.json",
+      "sha256": "9a42f25665dd508aad10f396b26fd0fff12e01c442c3c85272c085d88ecf5c36",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A090",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/implementation/input-hashes.json",
+      "sha256": "2456bdba5d4387b83fafe8df998a732f9c09484d3a8f3a3e6b5abbade4354b30",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A091",
+      "kind": "report",
+      "path": "evidence/kemeny-unit-minimax/implementation/plan.md",
+      "sha256": "7c61a1e0edfc35fa29e87359f0738801156f7459094eb6df272a9d86d3a3dc1f",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A092",
+      "kind": "code",
+      "path": "evidence/kemeny-unit-minimax/implementation/pyproject.toml",
+      "sha256": "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A093",
+      "kind": "report",
+      "path": "evidence/kemeny-unit-minimax/implementation/README.md",
+      "sha256": "16ab6a2720871003b2eec87c301d91691f519a2d4fa7d6c2619d4820bd8a5f17",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A094",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/implementation/result.json",
+      "sha256": "e7d260218dd6ed48700fff61417311d2b10f48f30ec15ef3e8287644a07bcc60",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A095",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/implementation/run.json",
+      "sha256": "c52c86111410a9090ca78351ba5ae3120a280d90afb404d2a3bfac4b4b64ca20",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A096",
+      "kind": "code",
+      "path": "evidence/kemeny-unit-minimax/implementation/run.py",
+      "sha256": "f8bb3fdf778a41337264ab8b5d5e5f7fa222dd840620d92512da8cd5db9aed5b",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A097",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/implementation/stderr.bin",
+      "sha256": "fb403ab6fc533860408be9d004d7501481e2d12729adcf460ef854e46744d818",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A098",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/implementation/stdout.bin",
+      "sha256": "ffeec04365c6a6121acce3174122a3d8868219d5f483139aa248f314fe96c0fb",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A099",
+      "kind": "code",
+      "path": "evidence/kemeny-unit-minimax/implementation/uv.lock",
+      "sha256": "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A100",
+      "kind": "code",
+      "path": "evidence/kemeny-unit-minimax/implementation/verify_unit_minimax.py",
+      "sha256": "39100ca08b809d629341326eab55f27278b29ef73243b0a6061003f5a6872a6a",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A101",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/implementation-copy-manifest.json",
+      "sha256": "f1ea1ecec84347c07016d00e80d3ca7e91c5861997698dfad7ac2437a66949f6",
+      "producer": "/root"
+    },
+    {
+      "id": "A102",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/integration/check-01.json",
+      "sha256": "e7d260218dd6ed48700fff61417311d2b10f48f30ec15ef3e8287644a07bcc60",
+      "producer": "/root"
+    },
+    {
+      "id": "A103",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/integration/comparison.json",
+      "sha256": "62fbdb3da0da4043788485e48ad1912af592beed2fadf5848eb97fcc7e89f795",
+      "producer": "/root"
+    },
+    {
+      "id": "A104",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/integration/logs/attempt-minimax-01.json",
+      "sha256": "5f31fe5b2faa453903ed74dcc275b88b71af8b48895638ea4d61322fecb2dd9c",
+      "producer": "/root"
+    },
+    {
+      "id": "A105",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/integration/logs/attempt-minimax-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A106",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/integration/logs/attempt-minimax-01.stdout.bin",
+      "sha256": "ffeec04365c6a6121acce3174122a3d8868219d5f483139aa248f314fe96c0fb",
+      "producer": "/root"
+    },
+    {
+      "id": "A107",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/integration/logs/attempts.jsonl",
+      "sha256": "cb3070c3739769cdb4343c5236e37aa1e36cd250ccb0c0b995675d5c26c3a0df",
+      "producer": "/root"
+    },
+    {
+      "id": "A108",
+      "kind": "code",
+      "path": "evidence/kemeny-unit-minimax/portable-review/audit_run.py",
+      "sha256": "40fb3b47b6d01c2218c6c474f9028932a274a4bda22fc319fd39cff89fce42bb",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A109",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/portable-review/fresh-result.json",
+      "sha256": "e7d260218dd6ed48700fff61417311d2b10f48f30ec15ef3e8287644a07bcc60",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A110",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/portable-review/hashes.json",
+      "sha256": "16d2c7c4a20ae989a93afd8cff77852216e81cd355dda3bedef59472da24a476",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A111",
+      "kind": "report",
+      "path": "evidence/kemeny-unit-minimax/portable-review/plan.md",
+      "sha256": "bbb01885b7bc476f57f8546433ee8ab9519115920bd62ca1837aa466b85748cd",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A112",
+      "kind": "code",
+      "path": "evidence/kemeny-unit-minimax/portable-review/pyproject.toml",
+      "sha256": "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A113",
+      "kind": "result",
+      "path": "evidence/kemeny-unit-minimax/portable-review/result.json",
+      "sha256": "f38e12e7519343acd95b76b0b60edc8925f9a01dab25e38de2a6d8e5d9022003",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A114",
+      "kind": "report",
+      "path": "evidence/kemeny-unit-minimax/portable-review/review.md",
+      "sha256": "831167eb4af111375c9771cdd24fa909d74d49f2c0f9abff923667cb11c1b5cd",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A115",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/portable-review/run1-stderr.bin",
+      "sha256": "7cf030a5090a2720fa2cf7d4f91f57af7987836a52e0e978563bcd1f1b46049c",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A116",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/portable-review/run1-stdout.bin",
+      "sha256": "ffeec04365c6a6121acce3174122a3d8868219d5f483139aa248f314fe96c0fb",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A117",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/portable-review/run1.json",
+      "sha256": "f9444cba984dfa72aa90fe52ab29fabc5de7bd2c665328577fd3a38e9eaacc3b",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A118",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/portable-review/run2-stderr.bin",
+      "sha256": "ee12ba137140d50b9e6408148cd198a1ac21315cff9ce6a4bf7818802eb23300",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A119",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/portable-review/run2-stdout.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A120",
+      "kind": "log",
+      "path": "evidence/kemeny-unit-minimax/portable-review/run2.json",
+      "sha256": "747f7c12262262068d26cca8bf7409c0e4969617be9e310f6de1968e60e19705",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A121",
+      "kind": "code",
+      "path": "evidence/kemeny-unit-minimax/portable-review/uv.lock",
+      "sha256": "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A122",
+      "kind": "code",
+      "path": "evidence/kemeny-unit-minimax/portable-review/verify_unit_minimax.py",
+      "sha256": "39100ca08b809d629341326eab55f27278b29ef73243b0a6061003f5a6872a6a",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A123",
+      "kind": "report",
+      "path": "evidence/kemeny-unit-minimax/README.md",
+      "sha256": "bbc1c4dd2e1df8c91bc3f6f63cd643d4008ed234f2fbe3228a18be92ffaf6a45",
+      "producer": "/root"
+    },
+    {
+      "id": "A124",
+      "kind": "code",
+      "path": "experiments/kemeny-workload-proof/verify_unit_minimax.py",
+      "sha256": "39100ca08b809d629341326eab55f27278b29ef73243b0a6061003f5a6872a6a",
+      "producer": "/root"
+    },
+    {
+      "id": "A125",
+      "kind": "code",
+      "path": "experiments/kemeny-workload-proof/pyproject.toml",
+      "sha256": "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f",
+      "producer": "/root"
+    },
+    {
+      "id": "A126",
+      "kind": "code",
+      "path": "experiments/kemeny-workload-proof/uv.lock",
+      "sha256": "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d",
+      "producer": "/root"
+    },
+    {
+      "id": "A127",
+      "kind": "code",
+      "path": "experiments/kemeny-workload-proof/.python-version",
+      "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d",
+      "producer": "/root"
+    },
+    {
+      "id": "A128",
+      "kind": "report",
+      "path": "experiments/kemeny-workload-proof/README-unit-minimax.md",
+      "sha256": "d7ea038f4c83580f3bb3e6c7f765804e26dbba99bb9f58aafa59a6a1f174b022",
+      "producer": "/root"
+    },
+    {
+      "id": "A129",
+      "kind": "report",
+      "path": "docs/kemeny-unit-minimax.md",
+      "sha256": "27fdcbe574eca00f5c8dac907bae07a6b844778b09ecd6b15588345e62f119d4",
+      "producer": "/root"
+    },
+    {
+      "id": "A130",
+      "kind": "report",
+      "path": "README.md",
+      "sha256": "d27c8fdb00b8d620e8be84425f414fdb23d8438659ebd207fba1cb069f2ebb86",
+      "producer": "/root"
+    },
+    {
+      "id": "A131",
+      "kind": "code",
+      "path": ".github/workflows/kemeny-three-part.yml",
+      "sha256": "17ee92235512c36fe13f1db6b3c835d01f176af8bc6aa6bc05c9e7fc690e32cb",
+      "producer": "/root"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C001",
+      "type": "methodological",
+      "statement": "For unit insertions, fixed iid hub workloads give positive reduced affine objectives with the common actual factor 2(m+1)(1-theta)/n. Strict fixed-action domination is required to exclude every other tied minimax action.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A033",
+          "locator": "contains:Every other insertion"
+        },
+        {
+          "artifact_id": "A039",
+          "locator": "line:1"
+        },
+        {
+          "artifact_id": "A043",
+          "locator": "line:1"
+        }
+      ]
+    },
+    {
+      "id": "C002",
+      "type": "numerical",
+      "statement": "The independent unequal-family certificate reconstructs every shifted numerator and denominator coefficient for G=C-I-lambda_I in two exhaustive disjoint cases, with positive coefficients and constants.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A016",
+          "locator": "json:",
+          "expected": {
+            "status": "PASS",
+            "independent_gap": "(2*d**4*n**2 - 4*d**4*n + 2*d**4 - 2*d**2*e**2*n**2 + 3*d**2*e**2*n - 3*d**2*e**2 - 4*d**2*e*n**2 + 6*d**2*e*n - 6*d**2*e - 4*d**2*n**2 + 10*d**2*n - 6*d**2 + 2*d*e**2*n**2 - 6*d*e**2*n + 5*d*e**2 + 4*d*e*n**2 - 12*d*e*n + 10*d*e + 2*d*n**2 - 6*d*n + 4*d - e**2*n**2 + 3*e**2*n - 2*e**2 - 2*e*n**2 + 6*e*n - 4*e)/(d*e*(d - 1)*(e + 2)*(n - 1)*(d**2*n - d**2 + d*n - d - n + 2))",
+            "orthants": [
+              {
+                "name": "b_equal_a",
+                "numerator": {
+                  "full_polynomial_equal": true,
+                  "nonzero_terms": 27,
+                  "constant": "27090",
+                  "degree": 6,
+                  "all_nonzero_positive": true
+                },
+                "denominator": {
+                  "full_polynomial_equal": true,
+                  "nonzero_terms": 42,
+                  "constant": "25084080",
+                  "degree": 8,
+                  "all_nonzero_positive": true
+                }
+              },
+              {
+                "name": "b_above_a",
+                "numerator": {
+                  "full_polynomial_equal": true,
+                  "nonzero_terms": 83,
+                  "constant": "50240",
+                  "degree": 6,
+                  "all_nonzero_positive": true
+                },
+                "denominator": {
+                  "full_polynomial_equal": true,
+                  "nonzero_terms": 161,
+                  "constant": "62092800",
+                  "degree": 8,
+                  "all_nonzero_positive": true
+                }
+              }
+            ],
+            "sympy": "1.14.0"
+          }
+        },
+        {
+          "artifact_id": "A017",
+          "locator": "line:1"
+        }
+      ]
+    },
+    {
+      "id": "C003",
+      "type": "conclusion",
+      "statement": "For every unequal integer triple 3<=a<=b<=c and theta<1, every unit insertion outside restoration or an internal pair in a largest part is strictly dominated by a fixed largest-part pair. With restoration forbidden these largest-part pairs are exactly all optimal insertions.",
+      "status": "supported",
+      "supports": [
+        {
+          "claim_id": "C001"
+        },
+        {
+          "claim_id": "C002"
+        },
+        {
+          "artifact_id": "A006",
+          "locator": "contains:two exhaustive disjoint integer cases"
+        }
+      ]
+    },
+    {
+      "id": "C004",
+      "type": "methodological",
+      "statement": "For a finite set of positive affine reduced objectives, maximum relative regret is attained at an uncertainty endpoint. Positive cross multiplication gives the two-action product rule. Weak domination alone does not preserve all minimizers, and removing actions merely absent from the oracle envelope can change the minimax value.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A024",
+          "locator": "line:1"
+        },
+        {
+          "artifact_id": "A027",
+          "locator": "line:1"
+        },
+        {
+          "artifact_id": "A039",
+          "locator": "line:1"
+        }
+      ]
+    },
+    {
+      "id": "C005",
+      "type": "conclusion",
+      "statement": "For every stated family and interval [l,h] below1, complete deterministic unit-repair minimax selection reduces to the X orbit and restoration. Collapsed intervals, one-sided intervals, endpoint crossing, tau>=1 and equal product ties retain exactly the stated physical actions; the full theorem is analytic, not a finite grid inference.",
+      "status": "supported",
+      "supports": [
+        {
+          "claim_id": "C001"
+        },
+        {
+          "claim_id": "C003"
+        },
+        {
+          "claim_id": "C004"
+        },
+        {
+          "artifact_id": "A043",
+          "locator": "line:1"
+        },
+        {
+          "artifact_id": "A033",
+          "locator": "contains:Complete rule"
+        }
+      ]
+    },
+    {
+      "id": "C006",
+      "type": "numerical",
+      "statement": "The independently reconstructed333 interval[0,21/500] example has midpoint restoration but exactly two incident-u minimax edges, with worst relative regrets23305/10372104 and23/10021.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A042",
+          "locator": "json:",
+          "expected": {
+            "status": "PASS",
+            "python": "3.12.11",
+            "matrices": 10,
+            "old_edges": 35,
+            "interval": [
+              "0",
+              "21/500"
+            ],
+            "tau": "46/2205",
+            "midpoint_winners": [
+              [
+                0,
+                9
+              ]
+            ],
+            "minimax_winners": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ]
+            ],
+            "rows": [
+              {
+                "edge": [
+                  0,
+                  1
+                ],
+                "line": [
+                  "10021/8680",
+                  "2547/2480"
+                ],
+                "endpoint_regrets": [
+                  "0",
+                  "23305/10372104"
+                ],
+                "worst_regret": "23305/10372104"
+              },
+              {
+                "edge": [
+                  0,
+                  2
+                ],
+                "line": [
+                  "10021/8680",
+                  "2547/2480"
+                ],
+                "endpoint_regrets": [
+                  "0",
+                  "23305/10372104"
+                ],
+                "worst_regret": "23305/10372104"
+              },
+              {
+                "edge": [
+                  0,
+                  9
+                ],
+                "line": [
+                  "81/70",
+                  "9/10"
+                ],
+                "endpoint_regrets": [
+                  "23/10021",
+                  "0"
+                ],
+                "worst_regret": "23/10021"
+              },
+              {
+                "edge": [
+                  1,
+                  2
+                ],
+                "line": [
+                  "731/630",
+                  "139/135"
+                ],
+                "endpoint_regrets": [
+                  "455/90189",
+                  "905/125469"
+                ],
+                "worst_regret": "905/125469"
+              },
+              {
+                "edge": [
+                  3,
+                  4
+                ],
+                "line": [
+                  "731/630",
+                  "139/135"
+                ],
+                "endpoint_regrets": [
+                  "455/90189",
+                  "905/125469"
+                ],
+                "worst_regret": "905/125469"
+              },
+              {
+                "edge": [
+                  3,
+                  5
+                ],
+                "line": [
+                  "731/630",
+                  "139/135"
+                ],
+                "endpoint_regrets": [
+                  "455/90189",
+                  "905/125469"
+                ],
+                "worst_regret": "905/125469"
+              },
+              {
+                "edge": [
+                  4,
+                  5
+                ],
+                "line": [
+                  "731/630",
+                  "139/135"
+                ],
+                "endpoint_regrets": [
+                  "455/90189",
+                  "905/125469"
+                ],
+                "worst_regret": "905/125469"
+              },
+              {
+                "edge": [
+                  6,
+                  7
+                ],
+                "line": [
+                  "731/630",
+                  "139/135"
+                ],
+                "endpoint_regrets": [
+                  "455/90189",
+                  "905/125469"
+                ],
+                "worst_regret": "905/125469"
+              },
+              {
+                "edge": [
+                  6,
+                  8
+                ],
+                "line": [
+                  "731/630",
+                  "139/135"
+                ],
+                "endpoint_regrets": [
+                  "455/90189",
+                  "905/125469"
+                ],
+                "worst_regret": "905/125469"
+              },
+              {
+                "edge": [
+                  7,
+                  8
+                ],
+                "line": [
+                  "731/630",
+                  "139/135"
+                ],
+                "endpoint_regrets": [
+                  "455/90189",
+                  "905/125469"
+                ],
+                "worst_regret": "905/125469"
+              }
+            ],
+            "input_hashes": [
+              {
+                "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-full-unit-minimax-work\\check.py",
+                "sha256": "90e17fab9cef58dfec4240284593a463ee07b03a0e1d2861938707b71d28edd0"
+              },
+              {
+                "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-full-unit-minimax-work\\input-hashes.json",
+                "sha256": "fb3e2f8a80ee11f4dd7cb52ebf2cc73224bbb7f71d95913f1fa77374ec694e33"
+              },
+              {
+                "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-full-unit-minimax-work\\plan.md",
+                "sha256": "fcfda5ee9b809a3c8daa67aebf2f82c36a1dce8e441b7ce302426fb11fde128d"
+              },
+              {
+                "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-full-unit-minimax-work\\proposal.md",
+                "sha256": "fc9f481397a4979d3f56093eb4ff7d104ff3d086db65cad8418ce4c11c3eae6e"
+              },
+              {
+                "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-full-unit-minimax-work\\result.json",
+                "sha256": "2c3081854bbed71c05770583d117b1ae03aed6646ff1de19ca3c07e299d3abca"
+              },
+              {
+                "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-full-unit-minimax-work\\run.json",
+                "sha256": "b9e29ecf98f1a4566eee2159f6c951180a40a207e94c4ad6262fa7ca8b1ccc70"
+              },
+              {
+                "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-full-unit-minimax-work\\run.py",
+                "sha256": "0a39d7e027a0f02fc5534726806258d8e32a49330ee2e6f33010456970531455"
+              },
+              {
+                "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-full-unit-minimax-work\\stderr.bin",
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+              },
+              {
+                "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-full-unit-minimax-work\\stdout.bin",
+                "sha256": "cfbb95d2bfec78880d91c019cbeff93a269fd0cac0b2b02bbe10fff355f47d53"
+              },
+              {
+                "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-workload-review-work\\review.md",
+                "sha256": "652799067c254044bd262961814be5ff62b9a13237d5049908119c05d07e5e74"
+              },
+              {
+                "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-minimax-endpoint-review-work\\review.md",
+                "sha256": "c0b0112767bb251a87c45eefccc12dd803f69ca7a0ca1e61f7774a7899a274d8"
+              },
+              {
+                "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weight-workload-family-review-work\\review.md",
+                "sha256": "edaf10d12ad3de86844b22697c1aae06ce662fb5c59e2b410e2b302c009d7671"
+              }
+            ]
+          }
+        },
+        {
+          "artifact_id": "A034",
+          "locator": "json:",
+          "expected": {
+            "parts": [
+              3,
+              3,
+              3
+            ],
+            "interval": [
+              "0",
+              "21/500"
+            ],
+            "midpoint": "21/1000",
+            "tau": "46/2205",
+            "lines": {
+              "incident": [
+                "10021/8680",
+                "2547/2480"
+              ],
+              "restoration": [
+                "81/70",
+                "9/10"
+              ]
+            },
+            "midpoint_values": {
+              "incident": "20416409/17360000",
+              "restoration": "82323/70000"
+            },
+            "worst_relative_regrets": {
+              "incident": "23305/10372104",
+              "restoration": "23/10021"
+            },
+            "products": {
+              "incident": "104172393589/75342400000",
+              "restoration": "3387663/2450000"
+            },
+            "midpoint_winner": "restoration",
+            "minimax_orbit": "incident-u A",
+            "status": "PASS"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C007",
+      "type": "numerical",
+      "statement": "The independent334,t16,theta9147/9152 restoration-forbidden reconstruction covers all12allowed insertions and verifies two incident-u winners, with score gap1/4333056 and actual objective gap145/6815897088 over largest-part pairs.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A076",
+          "locator": "json:",
+          "expected": {
+            "status": "PASS",
+            "m": "42",
+            "final_volume": "58",
+            "positive_score_to_U_factor": "145/1573",
+            "winners": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ]
+            ],
+            "C_minus_incident_U": "145/6815897088",
+            "rows": [
+              {
+                "edge": [
+                  0,
+                  1
+                ],
+                "class": "incident_A",
+                "score": "4535/619008",
+                "U": "389957345/31720136448"
+              },
+              {
+                "edge": [
+                  0,
+                  2
+                ],
+                "class": "incident_A",
+                "score": "4535/619008",
+                "U": "389957345/31720136448"
+              },
+              {
+                "edge": [
+                  1,
+                  2
+                ],
+                "class": "untouched_A",
+                "score": "1/160",
+                "U": "109900111/8867995136"
+              },
+              {
+                "edge": [
+                  3,
+                  4
+                ],
+                "class": "B",
+                "score": "1/160",
+                "U": "109900111/8867995136"
+              },
+              {
+                "edge": [
+                  3,
+                  5
+                ],
+                "class": "B",
+                "score": "1/160",
+                "U": "109900111/8867995136"
+              },
+              {
+                "edge": [
+                  4,
+                  5
+                ],
+                "class": "B",
+                "score": "1/160",
+                "U": "109900111/8867995136"
+              },
+              {
+                "edge": [
+                  6,
+                  7
+                ],
+                "class": "C",
+                "score": "2/273",
+                "U": "327061565/26603985408"
+              },
+              {
+                "edge": [
+                  6,
+                  8
+                ],
+                "class": "C",
+                "score": "2/273",
+                "U": "327061565/26603985408"
+              },
+              {
+                "edge": [
+                  6,
+                  9
+                ],
+                "class": "C",
+                "score": "2/273",
+                "U": "327061565/26603985408"
+              },
+              {
+                "edge": [
+                  7,
+                  8
+                ],
+                "class": "C",
+                "score": "2/273",
+                "U": "327061565/26603985408"
+              },
+              {
+                "edge": [
+                  7,
+                  9
+                ],
+                "class": "C",
+                "score": "2/273",
+                "U": "327061565/26603985408"
+              },
+              {
+                "edge": [
+                  8,
+                  9
+                ],
+                "class": "C",
+                "score": "2/273",
+                "U": "327061565/26603985408"
+              }
+            ]
+          }
+        },
+        {
+          "artifact_id": "A077",
+          "locator": "line:1"
+        }
+      ]
+    },
+    {
+      "id": "C008",
+      "type": "methodological",
+      "statement": "The arbitrary-strength domination conjecture failed its first positivity assertion; its second exact counterexample run succeeded. Both raw attempts are retained. Unit-strength and arbitrary-strength conclusions remain distinct.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A068",
+          "locator": "line:1"
+        },
+        {
+          "artifact_id": "A057",
+          "locator": "line:1"
+        },
+        {
+          "artifact_id": "A077",
+          "locator": "line:1"
+        }
+      ]
+    },
+    {
+      "id": "C009",
+      "type": "citation",
+      "statement": "Kumar et al. AAAI2016 establish absolute minimax-regret stochastic network design and an endpoint property for uncertain cascade probabilities; IFAC2022 publisher abstract establishes prior relative-regret network design. These inspected models do not directly supply this fixed-iid hitting family rule. Full-text and textbook passage access gaps do not establish novelty.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A050",
+          "locator": "contains:Proposition2"
+        },
+        {
+          "artifact_id": "A050",
+          "locator": "contains:10.1016/j.ifacol.2022.09.597"
+        },
+        {
+          "artifact_id": "A054",
+          "locator": "line:1"
+        }
+      ]
+    },
+    {
+      "id": "C010",
+      "type": "numerical",
+      "status": "supported",
+      "statement": "The canonical portable output matches the worker and distinct replay byte-for-byte, reconstructing22candidate matrices, ten policy illustrations and all four complete positive polynomial dictionaries.",
+      "supports": [
+        {
+          "artifact_id": "A103",
+          "locator": "json:",
+          "expected": {
+            "status": "PASS",
+            "canonical_sha256": "e7d260218dd6ed48700fff61417311d2b10f48f30ec15ef3e8287644a07bcc60",
+            "implementation_sha256": "39100ca08b809d629341326eab55f27278b29ef73243b0a6061003f5a6872a6a",
+            "byte_identical_to_worker_and_independent_replay": true,
+            "canonical_attempts": 1,
+            "returncode": 0,
+            "timed_out": false,
+            "midpoint_candidates": 10,
+            "strength_candidates": 12,
+            "policy_illustrations": 10,
+            "polynomial_terms": [
+              [
+                27,
+                42
+              ],
+              [
+                83,
+                161
+              ]
+            ],
+            "polynomial_constants": [
+              [
+                "27090",
+                "25084080"
+              ],
+              [
+                "50240",
+                "62092800"
+              ]
+            ]
+          }
+        },
+        {
+          "artifact_id": "A102",
+          "locator": "json:/midpoint_witness/minimax_edges",
+          "expected": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ]
+          ]
+        },
+        {
+          "artifact_id": "A102",
+          "locator": "json:/midpoint_witness/midpoint_edges",
+          "expected": [
+            [
+              0,
+              9
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C011",
+      "type": "methodological",
+      "status": "supported",
+      "statement": "The portable pinned uv checker constructs its own symbolic expressions and graph inverses, rejects existing output, writes explicit UTF8 LF and keeps analytic bridges explicit. One root canonical replay returned0 without timeout; the distinct implementation review confirms alignment and fresh/rejection behavior.",
+      "supports": [
+        {
+          "artifact_id": "A124",
+          "locator": "contains:def certificate()"
+        },
+        {
+          "artifact_id": "A114",
+          "locator": "line:1"
+        },
+        {
+          "artifact_id": "A104",
+          "locator": "json:/returncode",
+          "expected": 0
+        },
+        {
+          "artifact_id": "A102",
+          "locator": "json:/analytic_bridges_required",
+          "expected": [
+            "Weighted commute/covariance reduction under fixed iid hub mixture, zero self hit and connected positive graphs; differing fixed action volumes remain inside their own affine lines.",
+            "Accepted inverse-action formulas and equal-family envelope; the symbolic checker does not derive the universal graph inverse.",
+            "Two disjoint integer shifts exhaust unequal sorted triples; positive constants and nonnegative coefficients prove full-domain positivity.",
+            "Largest-part untouched score ordering and strict unit incident domination imply fixed-action strict domination of every excluded physical action.",
+            "Finite positive-affine endpoint lemma follows by constant-sign quotient derivatives and commuting finite maxima; no oracle-switch grid is needed.",
+            "Strict domination at both endpoints excludes all tied minimizers; weak domination alone may preserve only value.",
+            "Complete policy uses positive lines, unique crossing, exact product comparison and all physical ties; theta1 has zero actual objectives and undefined relative regret."
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "implementation_alignment",
+      "status": "pending",
+      "auditor": "unassigned",
+      "evidence": [],
+      "note": ""
+    },
+    {
+      "id": "reproduction",
+      "status": "pending",
+      "auditor": "unassigned",
+      "evidence": [],
+      "note": ""
+    },
+    {
+      "id": "source_verification",
+      "status": "pending",
+      "auditor": "unassigned",
+      "evidence": [],
+      "note": ""
+    },
+    {
+      "id": "specification_compliance",
+      "status": "pending",
+      "auditor": "unassigned",
+      "evidence": [],
+      "note": ""
+    }
+  ],
+  "limitations": [
+    "Deterministic single unit insertion is required; no action, freely varying strength, randomization, adaptive decisions and general workloads are outside this classification.",
+    "Fixed iid hub-mixture workload, conductance-proportional random walks, zero self-hit and actual intervention volumes. Theta1 is excluded because relative regret is undefined there.",
+    "Full-family proofs use independently audited analytic graph/inverse, orthant-coverage, strict-domination and endpoint arguments; exact finite examples alone are not universal proofs or Lean formalization.",
+    "This release gate covers local canonical implementation, distinct replay, source and semantic integration; actual hostedCI must be inspected separately after push for its exact commit.",
+    "Known inverse and robust regret methods receive attribution. Bounded source retrieval and its access gaps do not establish novelty, priority, measured physical benefit or completed mathematical coverage."
+  ]
+}

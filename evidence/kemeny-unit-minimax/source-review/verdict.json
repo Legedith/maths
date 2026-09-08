@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "reviewer": "/root/astra_damage_symbolic",
+  "target_report_sha256": "343831c664dcf731c847cdd55b3f50a95847c8dbc3146a1815c717f9cf30d952",
+  "target_manifest_sha256": "e5e7e767d482ed03d72bff7e2d290991a2819f5d6564e34cb70a3f7b5bb271e4",
+  "checks": {"reproduction":"pass","specification_compliance":"pass","source_verification":"pass","implementation_alignment":"pass"},
+  "counts": {"queries":4,"opens":3,"finds":4,"basis":"retained original request arrays"},
+  "required_corrections": [],
+  "locator_precision": "AAAI equations (3)-(5) and Propositions 1-2 are on printed page 3859, PDF index 2; broader report locator 3858-3859 is valid.",
+  "new_retrievals": 0,
+  "numerical_evaluators": 0,
+  "scope": "Retained primary passages, request/access provenance and bounded transfer comparison only",
+  "novelty_absence_or_real_world_clearance": false,
+  "evidence": ["review.md","input-checks.json"]
+}

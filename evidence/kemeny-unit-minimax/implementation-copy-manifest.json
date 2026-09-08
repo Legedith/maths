@@ -1,0 +1,226 @@
+[
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\unit-minimax-portable-work\\hashes.json",
+    "destination": "evidence/kemeny-unit-minimax/implementation/hashes.json",
+    "bytes": 2582,
+    "sha256": "9a42f25665dd508aad10f396b26fd0fff12e01c442c3c85272c085d88ecf5c36",
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\unit-minimax-portable-work\\input-hashes.json",
+    "destination": "evidence/kemeny-unit-minimax/implementation/input-hashes.json",
+    "bytes": 1951,
+    "sha256": "2456bdba5d4387b83fafe8df998a732f9c09484d3a8f3a3e6b5abbade4354b30",
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\unit-minimax-portable-work\\plan.md",
+    "destination": "evidence/kemeny-unit-minimax/implementation/plan.md",
+    "bytes": 853,
+    "sha256": "7c61a1e0edfc35fa29e87359f0738801156f7459094eb6df272a9d86d3a3dc1f",
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\unit-minimax-portable-work\\pyproject.toml",
+    "destination": "evidence/kemeny-unit-minimax/implementation/pyproject.toml",
+    "bytes": 168,
+    "sha256": "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f",
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\unit-minimax-portable-work\\README.md",
+    "destination": "evidence/kemeny-unit-minimax/implementation/README.md",
+    "bytes": 5711,
+    "sha256": "16ab6a2720871003b2eec87c301d91691f519a2d4fa7d6c2619d4820bd8a5f17",
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\unit-minimax-portable-work\\result.json",
+    "destination": "evidence/kemeny-unit-minimax/implementation/result.json",
+    "bytes": 637407,
+    "sha256": "e7d260218dd6ed48700fff61417311d2b10f48f30ec15ef3e8287644a07bcc60",
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\unit-minimax-portable-work\\run.json",
+    "destination": "evidence/kemeny-unit-minimax/implementation/run.json",
+    "bytes": 798,
+    "sha256": "c52c86111410a9090ca78351ba5ae3120a280d90afb404d2a3bfac4b4b64ca20",
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\unit-minimax-portable-work\\run.py",
+    "destination": "evidence/kemeny-unit-minimax/implementation/run.py",
+    "bytes": 928,
+    "sha256": "f8bb3fdf778a41337264ab8b5d5e5f7fa222dd840620d92512da8cd5db9aed5b",
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\unit-minimax-portable-work\\stderr.bin",
+    "destination": "evidence/kemeny-unit-minimax/implementation/stderr.bin",
+    "bytes": 137,
+    "sha256": "fb403ab6fc533860408be9d004d7501481e2d12729adcf460ef854e46744d818",
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\unit-minimax-portable-work\\stdout.bin",
+    "destination": "evidence/kemeny-unit-minimax/implementation/stdout.bin",
+    "bytes": 86,
+    "sha256": "ffeec04365c6a6121acce3174122a3d8868219d5f483139aa248f314fe96c0fb",
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\unit-minimax-portable-work\\uv.lock",
+    "destination": "evidence/kemeny-unit-minimax/implementation/uv.lock",
+    "bytes": 1707,
+    "sha256": "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d",
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\unit-minimax-portable-work\\verify_unit_minimax.py",
+    "destination": "evidence/kemeny-unit-minimax/implementation/verify_unit_minimax.py",
+    "bytes": 11000,
+    "sha256": "39100ca08b809d629341326eab55f27278b29ef73243b0a6061003f5a6872a6a",
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-unit-minimax-portable-review-work\\audit_run.py",
+    "destination": "evidence/kemeny-unit-minimax/portable-review/audit_run.py",
+    "bytes": 2548,
+    "sha256": "40fb3b47b6d01c2218c6c474f9028932a274a4bda22fc319fd39cff89fce42bb",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-unit-minimax-portable-review-work\\fresh-result.json",
+    "destination": "evidence/kemeny-unit-minimax/portable-review/fresh-result.json",
+    "bytes": 637407,
+    "sha256": "e7d260218dd6ed48700fff61417311d2b10f48f30ec15ef3e8287644a07bcc60",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-unit-minimax-portable-review-work\\hashes.json",
+    "destination": "evidence/kemeny-unit-minimax/portable-review/hashes.json",
+    "bytes": 1921,
+    "sha256": "16d2c7c4a20ae989a93afd8cff77852216e81cd355dda3bedef59472da24a476",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-unit-minimax-portable-review-work\\plan.md",
+    "destination": "evidence/kemeny-unit-minimax/portable-review/plan.md",
+    "bytes": 1124,
+    "sha256": "bbb01885b7bc476f57f8546433ee8ab9519115920bd62ca1837aa466b85748cd",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-unit-minimax-portable-review-work\\pyproject.toml",
+    "destination": "evidence/kemeny-unit-minimax/portable-review/pyproject.toml",
+    "bytes": 168,
+    "sha256": "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-unit-minimax-portable-review-work\\result.json",
+    "destination": "evidence/kemeny-unit-minimax/portable-review/result.json",
+    "bytes": 415,
+    "sha256": "f38e12e7519343acd95b76b0b60edc8925f9a01dab25e38de2a6d8e5d9022003",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-unit-minimax-portable-review-work\\review.md",
+    "destination": "evidence/kemeny-unit-minimax/portable-review/review.md",
+    "bytes": 7028,
+    "sha256": "831167eb4af111375c9771cdd24fa909d74d49f2c0f9abff923667cb11c1b5cd",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-unit-minimax-portable-review-work\\run1-stderr.bin",
+    "destination": "evidence/kemeny-unit-minimax/portable-review/run1-stderr.bin",
+    "bytes": 319,
+    "sha256": "7cf030a5090a2720fa2cf7d4f91f57af7987836a52e0e978563bcd1f1b46049c",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-unit-minimax-portable-review-work\\run1-stdout.bin",
+    "destination": "evidence/kemeny-unit-minimax/portable-review/run1-stdout.bin",
+    "bytes": 86,
+    "sha256": "ffeec04365c6a6121acce3174122a3d8868219d5f483139aa248f314fe96c0fb",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-unit-minimax-portable-review-work\\run1.json",
+    "destination": "evidence/kemeny-unit-minimax/portable-review/run1.json",
+    "bytes": 666,
+    "sha256": "f9444cba984dfa72aa90fe52ab29fabc5de7bd2c665328577fd3a38e9eaacc3b",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-unit-minimax-portable-review-work\\run2-stderr.bin",
+    "destination": "evidence/kemeny-unit-minimax/portable-review/run2-stderr.bin",
+    "bytes": 309,
+    "sha256": "ee12ba137140d50b9e6408148cd198a1ac21315cff9ce6a4bf7818802eb23300",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-unit-minimax-portable-review-work\\run2-stdout.bin",
+    "destination": "evidence/kemeny-unit-minimax/portable-review/run2-stdout.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-unit-minimax-portable-review-work\\run2.json",
+    "destination": "evidence/kemeny-unit-minimax/portable-review/run2.json",
+    "bytes": 667,
+    "sha256": "747f7c12262262068d26cca8bf7409c0e4969617be9e310f6de1968e60e19705",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-unit-minimax-portable-review-work\\uv.lock",
+    "destination": "evidence/kemeny-unit-minimax/portable-review/uv.lock",
+    "bytes": 1707,
+    "sha256": "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-unit-minimax-portable-review-work\\verify_unit_minimax.py",
+    "destination": "evidence/kemeny-unit-minimax/portable-review/verify_unit_minimax.py",
+    "bytes": 11000,
+    "sha256": "39100ca08b809d629341326eab55f27278b29ef73243b0a6061003f5a6872a6a",
+    "producer": "/root/astra_ranking_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\work\\kemeny-unit-minimax\\check-01.json",
+    "destination": "evidence/kemeny-unit-minimax/integration/check-01.json",
+    "bytes": 637407,
+    "sha256": "e7d260218dd6ed48700fff61417311d2b10f48f30ec15ef3e8287644a07bcc60",
+    "producer": "/root"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\work\\kemeny-unit-minimax\\logs\\attempt-minimax-01.json",
+    "destination": "evidence/kemeny-unit-minimax/integration/logs/attempt-minimax-01.json",
+    "bytes": 1103,
+    "sha256": "5f31fe5b2faa453903ed74dcc275b88b71af8b48895638ea4d61322fecb2dd9c",
+    "producer": "/root"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\work\\kemeny-unit-minimax\\logs\\attempt-minimax-01.stderr.bin",
+    "destination": "evidence/kemeny-unit-minimax/integration/logs/attempt-minimax-01.stderr.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "producer": "/root"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\work\\kemeny-unit-minimax\\logs\\attempt-minimax-01.stdout.bin",
+    "destination": "evidence/kemeny-unit-minimax/integration/logs/attempt-minimax-01.stdout.bin",
+    "bytes": 86,
+    "sha256": "ffeec04365c6a6121acce3174122a3d8868219d5f483139aa248f314fe96c0fb",
+    "producer": "/root"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\work\\kemeny-unit-minimax\\logs\\attempts.jsonl",
+    "destination": "evidence/kemeny-unit-minimax/integration/logs/attempts.jsonl",
+    "bytes": 939,
+    "sha256": "cb3070c3739769cdb4343c5236e37aa1e36cd250ccb0c0b995675d5c26c3a0df",
+    "producer": "/root"
+  }
+]

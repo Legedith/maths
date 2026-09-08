@@ -1,0 +1,22 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--frozen",
+    "python",
+    "verify_unit_minimax.py",
+    "--output",
+    "fresh-result.json"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-unit-minimax-portable-review-work",
+  "rc": 2,
+  "elapsed": 0.7350000000442378,
+  "timeout": 60,
+  "timed_out": false,
+  "assertions_enabled": true,
+  "environment": {
+    "UV_CACHE_DIR": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-unit-minimax-portable-review-work\\uv-cache",
+    "UV_PROJECT_ENVIRONMENT": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-unit-minimax-portable-review-work\\.venv",
+    "UV_PYTHON_INSTALL_DIR": "D:/uv-python"
+  }
+}

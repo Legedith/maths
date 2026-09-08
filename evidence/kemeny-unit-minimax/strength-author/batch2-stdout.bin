@@ -1,0 +1,1 @@
+{"parts": [3, 3, 4], "t": "16", "sigma": "4571/4576", "theta": "9147/9152", "endpoint_gap": "-1/2166528", "scores": {"incident_A": "4535/619008", "untouched_A": "1/160", "B": "1/160", "C": "2/273"}, "incident_minus_C": "1/4333056", "optimal_edges": [[0, 1], [0, 2]], "restoration_forbidden": true, "status": "counterexample_verified"}

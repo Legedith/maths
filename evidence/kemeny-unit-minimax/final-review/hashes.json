@@ -1,0 +1,26 @@
+﻿[
+    {
+        "sha256":  "8857e1192f2bd41d9b2f4f2ad5b357f5efe203df576894218421607cb3644556",
+        "path":  "hashes-round1.json"
+    },
+    {
+        "sha256":  "58bf6d03aaf3cf235eb6a76a303eb8bbd0b2ce1121f283898374b323ba507b45",
+        "path":  "review-round1.md"
+    },
+    {
+        "sha256":  "ccc05aa5db53262780185e0d5360451060dee2cae26feac1bc1298b05ca250ea",
+        "path":  "review.md"
+    },
+    {
+        "sha256":  "97c66794248ae2a67286a68a4d55f544fb43c7725bb8cb03a83913b9e5d4747d",
+        "path":  "static-check.json"
+    },
+    {
+        "sha256":  "3700aede081696a7660b1d769b358f7a8551acccf5fca78aef3d55f0d729c3d2",
+        "path":  "verdict-round1.json"
+    },
+    {
+        "sha256":  "3be769c02fd92fbcdd16be6884ccd40da76bf6adfac8b561143da6484bc908ad",
+        "path":  "verdict.json"
+    }
+]

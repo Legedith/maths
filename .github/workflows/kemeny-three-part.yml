@@ -162,3 +162,20 @@ jobs:
           path: work/kemeny-action-ci/
           retention-days: 30
           if-no-files-found: warn
+      - name: Check the complete deterministic unit-repair minimax rule
+        run: >-
+          uv run --project experiments/kemeny-workload-proof --frozen python
+          experiments/kemeny-three-part-proof/run_logged.py
+          --attempt-id unit-minimax --timeout-seconds 60
+          --log-dir work/kemeny-minimax-ci/logs -- uv run
+          --project experiments/kemeny-workload-proof --frozen python
+          experiments/kemeny-workload-proof/verify_unit_minimax.py
+          --output work/kemeny-minimax-ci/check.json
+      - name: Retain deterministic unit-repair minimax proof
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: kemeny-unit-minimax
+          path: work/kemeny-minimax-ci/
+          retention-days: 30
+          if-no-files-found: warn

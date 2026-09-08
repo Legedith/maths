@@ -1,0 +1,58 @@
+﻿[
+    {
+        "sha256":  "40fb3b47b6d01c2218c6c474f9028932a274a4bda22fc319fd39cff89fce42bb",
+        "path":  "audit_run.py"
+    },
+    {
+        "sha256":  "e7d260218dd6ed48700fff61417311d2b10f48f30ec15ef3e8287644a07bcc60",
+        "path":  "fresh-result.json"
+    },
+    {
+        "sha256":  "bbb01885b7bc476f57f8546433ee8ab9519115920bd62ca1837aa466b85748cd",
+        "path":  "plan.md"
+    },
+    {
+        "sha256":  "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f",
+        "path":  "pyproject.toml"
+    },
+    {
+        "sha256":  "f38e12e7519343acd95b76b0b60edc8925f9a01dab25e38de2a6d8e5d9022003",
+        "path":  "result.json"
+    },
+    {
+        "sha256":  "831167eb4af111375c9771cdd24fa909d74d49f2c0f9abff923667cb11c1b5cd",
+        "path":  "review.md"
+    },
+    {
+        "sha256":  "7cf030a5090a2720fa2cf7d4f91f57af7987836a52e0e978563bcd1f1b46049c",
+        "path":  "run1-stderr.bin"
+    },
+    {
+        "sha256":  "ffeec04365c6a6121acce3174122a3d8868219d5f483139aa248f314fe96c0fb",
+        "path":  "run1-stdout.bin"
+    },
+    {
+        "sha256":  "f9444cba984dfa72aa90fe52ab29fabc5de7bd2c665328577fd3a38e9eaacc3b",
+        "path":  "run1.json"
+    },
+    {
+        "sha256":  "ee12ba137140d50b9e6408148cd198a1ac21315cff9ce6a4bf7818802eb23300",
+        "path":  "run2-stderr.bin"
+    },
+    {
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "path":  "run2-stdout.bin"
+    },
+    {
+        "sha256":  "747f7c12262262068d26cca8bf7409c0e4969617be9e310f6de1968e60e19705",
+        "path":  "run2.json"
+    },
+    {
+        "sha256":  "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d",
+        "path":  "uv.lock"
+    },
+    {
+        "sha256":  "39100ca08b809d629341326eab55f27278b29ef73243b0a6061003f5a6872a6a",
+        "path":  "verify_unit_minimax.py"
+    }
+]

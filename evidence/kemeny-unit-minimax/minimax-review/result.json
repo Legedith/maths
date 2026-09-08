@@ -1,0 +1,229 @@
+{
+  "status": "PASS",
+  "python": "3.12.11",
+  "matrices": 10,
+  "old_edges": 35,
+  "interval": [
+    "0",
+    "21/500"
+  ],
+  "tau": "46/2205",
+  "midpoint_winners": [
+    [
+      0,
+      9
+    ]
+  ],
+  "minimax_winners": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "rows": [
+    {
+      "edge": [
+        0,
+        1
+      ],
+      "line": [
+        "10021/8680",
+        "2547/2480"
+      ],
+      "endpoint_regrets": [
+        "0",
+        "23305/10372104"
+      ],
+      "worst_regret": "23305/10372104"
+    },
+    {
+      "edge": [
+        0,
+        2
+      ],
+      "line": [
+        "10021/8680",
+        "2547/2480"
+      ],
+      "endpoint_regrets": [
+        "0",
+        "23305/10372104"
+      ],
+      "worst_regret": "23305/10372104"
+    },
+    {
+      "edge": [
+        0,
+        9
+      ],
+      "line": [
+        "81/70",
+        "9/10"
+      ],
+      "endpoint_regrets": [
+        "23/10021",
+        "0"
+      ],
+      "worst_regret": "23/10021"
+    },
+    {
+      "edge": [
+        1,
+        2
+      ],
+      "line": [
+        "731/630",
+        "139/135"
+      ],
+      "endpoint_regrets": [
+        "455/90189",
+        "905/125469"
+      ],
+      "worst_regret": "905/125469"
+    },
+    {
+      "edge": [
+        3,
+        4
+      ],
+      "line": [
+        "731/630",
+        "139/135"
+      ],
+      "endpoint_regrets": [
+        "455/90189",
+        "905/125469"
+      ],
+      "worst_regret": "905/125469"
+    },
+    {
+      "edge": [
+        3,
+        5
+      ],
+      "line": [
+        "731/630",
+        "139/135"
+      ],
+      "endpoint_regrets": [
+        "455/90189",
+        "905/125469"
+      ],
+      "worst_regret": "905/125469"
+    },
+    {
+      "edge": [
+        4,
+        5
+      ],
+      "line": [
+        "731/630",
+        "139/135"
+      ],
+      "endpoint_regrets": [
+        "455/90189",
+        "905/125469"
+      ],
+      "worst_regret": "905/125469"
+    },
+    {
+      "edge": [
+        6,
+        7
+      ],
+      "line": [
+        "731/630",
+        "139/135"
+      ],
+      "endpoint_regrets": [
+        "455/90189",
+        "905/125469"
+      ],
+      "worst_regret": "905/125469"
+    },
+    {
+      "edge": [
+        6,
+        8
+      ],
+      "line": [
+        "731/630",
+        "139/135"
+      ],
+      "endpoint_regrets": [
+        "455/90189",
+        "905/125469"
+      ],
+      "worst_regret": "905/125469"
+    },
+    {
+      "edge": [
+        7,
+        8
+      ],
+      "line": [
+        "731/630",
+        "139/135"
+      ],
+      "endpoint_regrets": [
+        "455/90189",
+        "905/125469"
+      ],
+      "worst_regret": "905/125469"
+    }
+  ],
+  "input_hashes": [
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-full-unit-minimax-work\\check.py",
+      "sha256": "90e17fab9cef58dfec4240284593a463ee07b03a0e1d2861938707b71d28edd0"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-full-unit-minimax-work\\input-hashes.json",
+      "sha256": "fb3e2f8a80ee11f4dd7cb52ebf2cc73224bbb7f71d95913f1fa77374ec694e33"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-full-unit-minimax-work\\plan.md",
+      "sha256": "fcfda5ee9b809a3c8daa67aebf2f82c36a1dce8e441b7ce302426fb11fde128d"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-full-unit-minimax-work\\proposal.md",
+      "sha256": "fc9f481397a4979d3f56093eb4ff7d104ff3d086db65cad8418ce4c11c3eae6e"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-full-unit-minimax-work\\result.json",
+      "sha256": "2c3081854bbed71c05770583d117b1ae03aed6646ff1de19ca3c07e299d3abca"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-full-unit-minimax-work\\run.json",
+      "sha256": "b9e29ecf98f1a4566eee2159f6c951180a40a207e94c4ad6262fa7ca8b1ccc70"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-full-unit-minimax-work\\run.py",
+      "sha256": "0a39d7e027a0f02fc5534726806258d8e32a49330ee2e6f33010456970531455"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-full-unit-minimax-work\\stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-full-unit-minimax-work\\stdout.bin",
+      "sha256": "cfbb95d2bfec78880d91c019cbeff93a269fd0cac0b2b02bbe10fff355f47d53"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-forbidden-workload-review-work\\review.md",
+      "sha256": "652799067c254044bd262961814be5ff62b9a13237d5049908119c05d07e5e74"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-minimax-endpoint-review-work\\review.md",
+      "sha256": "c0b0112767bb251a87c45eefccc12dd803f69ca7a0ca1e61f7774a7899a274d8"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weight-workload-family-review-work\\review.md",
+      "sha256": "edaf10d12ad3de86844b22697c1aae06ce662fb5c59e2b410e2b302c009d7671"
+    }
+  ]
+}

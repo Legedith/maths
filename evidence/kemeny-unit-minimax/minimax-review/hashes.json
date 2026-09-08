@@ -1,0 +1,38 @@
+﻿[
+    {
+        "sha256":  "aabb2f69b04697ce95f236d8963c92dce75bb08ce0423ff082ea7c561132b19b",
+        "path":  "check.py"
+    },
+    {
+        "sha256":  "c99bf64796f8d7350ca85f7fd151489c96a4256aa732b31c76121414b09b4896",
+        "path":  "plan.md"
+    },
+    {
+        "sha256":  "97ea75f59714ed75afb6c65c863d2936d3e284d598d96041a4b9db77064b8f69",
+        "path":  "result.json"
+    },
+    {
+        "sha256":  "9c1579ed18ba979c5a6141f16778a97d50689b31356cb8e39a5cad9bc1325e22",
+        "path":  "review.md"
+    },
+    {
+        "sha256":  "030d8a4e281ed5d7c72ed8b9654d43f9f57b50e246cda5365c81fb33b4e1e6f2",
+        "path":  "run.json"
+    },
+    {
+        "sha256":  "caf029ce0c754ab9a71d681aa2a0866318ad159d4f9b9946feb5075124097707",
+        "path":  "run.py"
+    },
+    {
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "path":  "stderr.bin"
+    },
+    {
+        "sha256":  "1e2f0e63e5fb7a48454e356fa327574773efb2f5d83514e28a6bbc9e47119d61",
+        "path":  "stdout.bin"
+    },
+    {
+        "sha256":  "212a5fd3e8eef6d753dd8a919175edceb8670a50af33ecc73fff7d3a457dbf75",
+        "path":  "verdict.json"
+    }
+]
