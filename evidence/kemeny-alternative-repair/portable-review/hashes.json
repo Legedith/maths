@@ -1,0 +1,62 @@
+[
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-release-review-work\\changed.json",
+        "Hash":  "58A95F55DD5B3E55CA10C80B58ABEC51DF25A66DABF47B01C178113C536F9BC4"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-release-review-work\\comparison.json",
+        "Hash":  "761D950D3E5481DFC6CEAD9666B6561B3686DC06FACFDD5312E17FB765BA5E1A"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-release-review-work\\plan.md",
+        "Hash":  "851423FF4AC8A17765F285474FE618AF36282156501F913935782ECFF84BD3B7"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-release-review-work\\portable-review.md",
+        "Hash":  "00221CFEBCEE7771499A7B749E7B8490EDBDE8C96AF9ADE214BB4D630397C7AF"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-release-review-work\\reject-argv.json",
+        "Hash":  "49AACF61BDCDE3AD3948680F9B051709E8FA994CFDAEC824DF43FA245E5487FE"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-release-review-work\\reject-execution.json",
+        "Hash":  "F76E7243327613FF1FDFCC52F537F6E16D8D6A9C7DD0FAD789703FA5F67BA876"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-release-review-work\\reject.stderr",
+        "Hash":  "883511787A4B45531614696347F97A6B4EC7C746243741A0A7787F81BD104708"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-release-review-work\\reject.stdout",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-release-review-work\\replay-argv.json",
+        "Hash":  "3E517C707378AA8CBFB37EF0A5DCB561D6B66AC76FF6ACA5B2E7DFF6F0CE60BF"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-release-review-work\\replay-execution.json",
+        "Hash":  "0267EF2C794156C1FB0350596D1009F9CF3B2E9B5F79C6BA9D34E8FB630CBCD3"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-release-review-work\\replay.json",
+        "Hash":  "A606AC9A9D6B516A8B1DA3A20C910F847426B387F6FE6077A513CEC96839E34F"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-release-review-work\\replay.stderr",
+        "Hash":  "90924EE4FA0916D6C330C40B28214D5083DCA39E0E45432EC2AB3BA5D771D662"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-release-review-work\\replay.stdout",
+        "Hash":  "E9DE196609710950EBCA1BB40A4FBB09C6EEA57612694CBCA2C465333170B59F"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-release-review-work\\unchanged-check.json",
+        "Hash":  "FE8977F7F91DBB29B5B77EC3D488D788EDD50370940DC124FEDAB2BC333A342C"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-release-review-work\\verdict.json",
+        "Hash":  "85A5ED67E49FA7D6A705CFD538D5539A7CEA9B1C62C1B9C9BA1E2501A7A59A40"
+    }
+]

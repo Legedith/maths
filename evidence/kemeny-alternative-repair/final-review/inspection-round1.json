@@ -1,0 +1,10 @@
+{
+  "bundle_sha256": "1229de066e5a3942e5dc95b7edc9aa595c905bde66e0f29920f2cd8aa9f5b259",
+  "artifact_count": 98,
+  "copy_count": 43,
+  "claim_count": 7,
+  "errors": [
+    "unhandled locator line:20-21"
+  ],
+  "pending_checks_expected": true
+}

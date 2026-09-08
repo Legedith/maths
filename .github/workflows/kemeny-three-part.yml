@@ -81,6 +81,16 @@ jobs:
           experiments/kemeny-one-deletion-proof/verify_optimal_repair.py
           --certificate experiments/kemeny-one-deletion-proof/optimal-repair.json
           --output work/kemeny-failure-ci/optimal-repair.json
+      - name: Check the optimum when restoration is forbidden
+        run: >-
+          uv run --project experiments/kemeny-one-deletion-proof --frozen python
+          experiments/kemeny-three-part-proof/run_logged.py
+          --attempt-id alternative-repair --timeout-seconds 90
+          --log-dir work/kemeny-failure-ci/logs -- python
+          experiments/kemeny-one-deletion-proof/verify_alternative_repair.py
+          --certificate experiments/kemeny-one-deletion-proof/alternative-repair.json
+          --prior-certificate experiments/kemeny-one-deletion-proof/optimal-repair.json
+          --output work/kemeny-failure-ci/alternative-repair.json
       - name: Retain single-failure proof results
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4

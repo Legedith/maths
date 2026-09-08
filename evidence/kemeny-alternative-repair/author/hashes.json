@@ -1,0 +1,47 @@
+[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "E14CF9C3F293A9400122FBB2BA4C5EC67971735415A4B8A93EFCBD71DA972855",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-repair-work\\argv.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "461F8E6229C97241FAD0CD86F7754B6DB5B60BFCC5B720B8E0689672799BB775",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-repair-work\\batch1.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "15C92BA5E86961E8B052028BAFA5AD6C2478E7FB22ABF7159A06D4A41AABEC94",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-repair-work\\input-hash.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "EE25DC11038D070B10E4EB136396AE785D2435E14F14F43866293218AD61AD40",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-repair-work\\plan.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "7825A6E606A6AD740235F7F93F39C30EF7627325E9F5CC8828050720C87B0C54",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-repair-work\\proposal.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "13BF7B3039C63BF5A50491FA3CFD8EB4E699D1BA1436315AEF9CBE5711530354",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-repair-work\\rc.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "CA626BD80211A00907089A877F5685C29A426F783F8DF93418E2272A16E1B602",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-repair-work\\result.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-repair-work\\stderr.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "2361B808CD46B98A9A5598A8948341ACD823BABEE0EA19FAA462C4B5A40F7E9C",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-repair-work\\stdout.txt"
+    }
+]

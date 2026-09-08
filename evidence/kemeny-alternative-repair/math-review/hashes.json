@@ -1,0 +1,46 @@
+[
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-repair-review-work\\evaluate.py",
+        "Hash":  "D5C736F6596F53716723BCEE310C358084E169CD5A2D05989D3DB664556A52DE"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-repair-review-work\\execution.json",
+        "Hash":  "FDEB339B2C861721322E53237774697625F62177A83A878CE199FAB20A8228E4"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-repair-review-work\\plan.md",
+        "Hash":  "C674732B877E129DD74AB8420298D8376C5ECF359FA82277E0F16CA4E220E8EA"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-repair-review-work\\result.json",
+        "Hash":  "3109D6C72F4E9123B7E1429EF1DD2412D38AACC0012CA5ED96C1F92B79A19864"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-repair-review-work\\review.md",
+        "Hash":  "AAE66C5F5DBF4BF62691554CAFDD2276880C6C6F0664C933FA683ECEF7CF3ADE"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-repair-review-work\\run.py",
+        "Hash":  "BDD670B582DE5F11E248286DF4254FD61B6A9B75EC02CD3843D9A26C5746A8A6"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-repair-review-work\\stderr.txt",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-repair-review-work\\stdout.txt",
+        "Hash":  "9218D2F636E80E737161602AFEE04F8F2654A5E8223A71C5679862DC08C06C29"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-repair-review-work\\verdict.json",
+        "Hash":  "44DFD3D268C38FBDD0830F73D290557EAB3D6C0467730C8045FB3F121928720D"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-repair-review-work\\wrapper.log",
+        "Hash":  "7473920132EF3E8DEDB80FDD9CD16EFB2399E083109F305BD66D2B9AB705DA1E"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-repair-review-work\\wrapper.rc",
+        "Hash":  "13BF7B3039C63BF5A50491FA3CFD8EB4E699D1BA1436315AEF9CBE5711530354"
+    }
+]

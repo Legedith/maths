@@ -1,0 +1,1048 @@
+{
+  "schema_version": "1.0",
+  "run_id": "kemeny-alternative-repair-v1",
+  "objective": "Complete the exact optimal edge set when direct hub-link restoration is forbidden, preserving the full size/tie domain and reproducible independently audited proof.",
+  "created_at": "2026-09-08T14:41:01.206948Z",
+  "task_spec_artifact_id": "A001",
+  "evaluator_command": "uv run --project experiments/kemeny-one-deletion-proof --frozen python experiments/kemeny-one-deletion-proof/verify_alternative_repair.py --certificate experiments/kemeny-one-deletion-proof/alternative-repair.json --prior-certificate experiments/kemeny-one-deletion-proof/optimal-repair.json --output work/kemeny-alternative-repair/check-01.json",
+  "artifacts": [
+    {
+      "id": "A001",
+      "kind": "spec",
+      "path": "docs/kemeny-alternative-repair-contract.md",
+      "sha256": "0f8180cfa94b71e489f8d9c9821e3e058a098432212e0968b977943a7b28eb5b",
+      "producer": "/root"
+    },
+    {
+      "id": "A002",
+      "kind": "log",
+      "path": "evidence/kemeny-alternative-repair/author/argv.json",
+      "sha256": "e14cf9c3f293a9400122fbb2ba4c5ec67971735415a4b8a93efcbd71da972855",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A003",
+      "kind": "code",
+      "path": "evidence/kemeny-alternative-repair/author/batch1.py",
+      "sha256": "461f8e6229c97241fad0cd86f7754b6db5b60bfcc5b720b8e0689672799bb775",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A004",
+      "kind": "result",
+      "path": "evidence/kemeny-alternative-repair/author/hashes.json",
+      "sha256": "932540145e73e7f4acc048b4126acdae3d8ca4a1f9b92d317c42ad97117707d1",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A005",
+      "kind": "result",
+      "path": "evidence/kemeny-alternative-repair/author/input-hash.json",
+      "sha256": "15c92ba5e86961e8b052028bafa5ad6c2478e7fb22abf7159a06d4a41aabec94",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A006",
+      "kind": "report",
+      "path": "evidence/kemeny-alternative-repair/author/plan.md",
+      "sha256": "ee25dc11038d070b10e4eb136396ae785d2435e14f14f43866293218ad61ad40",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A007",
+      "kind": "report",
+      "path": "evidence/kemeny-alternative-repair/author/proposal.md",
+      "sha256": "7825a6e606a6ad740235f7f93f39c30ef7627325e9f5cc8828050720c87b0c54",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A008",
+      "kind": "log",
+      "path": "evidence/kemeny-alternative-repair/author/rc.txt",
+      "sha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A009",
+      "kind": "result",
+      "path": "evidence/kemeny-alternative-repair/author/result.json",
+      "sha256": "ca626bd80211a00907089a877f5685c29a426f783f8df93418e2272a16e1b602",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A010",
+      "kind": "log",
+      "path": "evidence/kemeny-alternative-repair/author/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A011",
+      "kind": "log",
+      "path": "evidence/kemeny-alternative-repair/author/stdout.txt",
+      "sha256": "2361b808cd46b98a9a5598a8948341acd823babee0ea19faa462c4b5a40f7e9c",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A012",
+      "kind": "result",
+      "path": "evidence/kemeny-alternative-repair/copy-manifest.json",
+      "sha256": "e386e795b6c9619411c9ef7f01610b9a1ed67589055219ef2f043d0ba88efe13",
+      "producer": "/root"
+    },
+    {
+      "id": "A013",
+      "kind": "result",
+      "path": "evidence/kemeny-alternative-repair/integration/check-01.json",
+      "sha256": "a606ac9a9d6b516a8b1da3a20c910f847426b387f6fe6077a513cec96839e34f",
+      "producer": "/root"
+    },
+    {
+      "id": "A014",
+      "kind": "log",
+      "path": "evidence/kemeny-alternative-repair/integration/logs/attempt-alternative-repair-01.json",
+      "sha256": "f464c4eaf35d4ede8542b222cd817af216ee3c6d54f9cfca2332e99efd227e83",
+      "producer": "/root"
+    },
+    {
+      "id": "A015",
+      "kind": "log",
+      "path": "evidence/kemeny-alternative-repair/integration/logs/attempt-alternative-repair-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A016",
+      "kind": "log",
+      "path": "evidence/kemeny-alternative-repair/integration/logs/attempt-alternative-repair-01.stdout.bin",
+      "sha256": "5e47045f4a628681b79f4f2d2fc89d9eea157b77407f34531c0a4907056fb9ca",
+      "producer": "/root"
+    },
+    {
+      "id": "A017",
+      "kind": "log",
+      "path": "evidence/kemeny-alternative-repair/integration/logs/attempts.jsonl",
+      "sha256": "37f63da73a8ab261066f9501e3e8fdfc5d81d2622846c6fed9288688d72afbcd",
+      "producer": "/root"
+    },
+    {
+      "id": "A018",
+      "kind": "code",
+      "path": "evidence/kemeny-alternative-repair/math-review/evaluate.py",
+      "sha256": "d5c736f6596f53716723bcee310c358084e169cd5a2d05989d3db664556a52de",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A019",
+      "kind": "log",
+      "path": "evidence/kemeny-alternative-repair/math-review/execution.json",
+      "sha256": "fdeb339b2c861721322e53237774697625f62177a83a878ce199fab20a8228e4",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A020",
+      "kind": "result",
+      "path": "evidence/kemeny-alternative-repair/math-review/hashes.json",
+      "sha256": "00a016990672f26aa1dab57355603d00d9b4fd213165ef285d1002164e904f25",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A021",
+      "kind": "report",
+      "path": "evidence/kemeny-alternative-repair/math-review/plan.md",
+      "sha256": "c674732b877e129dd74ab8420298d8376c5ecf359fa82277e0f16ca4e220e8ea",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A022",
+      "kind": "result",
+      "path": "evidence/kemeny-alternative-repair/math-review/result.json",
+      "sha256": "3109d6c72f4e9123b7e1429ef1dd2412d38aacc0012ca5ed96c1f92b79a19864",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A023",
+      "kind": "report",
+      "path": "evidence/kemeny-alternative-repair/math-review/review.md",
+      "sha256": "aae66c5f5dbf4bf62691554cafdd2276880c6c6f0664c933fa683ecef7cf3ade",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A024",
+      "kind": "code",
+      "path": "evidence/kemeny-alternative-repair/math-review/run.py",
+      "sha256": "bdd670b582de5f11e248286df4254fd61b6a9b75ec02cd3843d9a26c5746a8a6",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A025",
+      "kind": "log",
+      "path": "evidence/kemeny-alternative-repair/math-review/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A026",
+      "kind": "log",
+      "path": "evidence/kemeny-alternative-repair/math-review/stdout.txt",
+      "sha256": "9218d2f636e80e737161602afee04f8f2654a5e8223a71c5679862dc08c06c29",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A027",
+      "kind": "result",
+      "path": "evidence/kemeny-alternative-repair/math-review/verdict.json",
+      "sha256": "44dfd3d268c38fbdd0830f73d290557eab3d6c0467730c8045fb3f121928720d",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A028",
+      "kind": "log",
+      "path": "evidence/kemeny-alternative-repair/math-review/wrapper.log",
+      "sha256": "7473920132ef3e8dedb80fdd9cd16efb2399e083109f305bd66d2b9ab705da1e",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A029",
+      "kind": "log",
+      "path": "evidence/kemeny-alternative-repair/math-review/wrapper.rc",
+      "sha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A030",
+      "kind": "result",
+      "path": "evidence/kemeny-alternative-repair/portable-review/changed.json",
+      "sha256": "58a95f55dd5b3e55ca10c80b58abec51df25a66dabf47b01c178113c536f9bc4",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A031",
+      "kind": "result",
+      "path": "evidence/kemeny-alternative-repair/portable-review/comparison.json",
+      "sha256": "761d950d3e5481dfc6cead9666b6561b3686dc06facfdd5312e17fb765ba5e1a",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A032",
+      "kind": "result",
+      "path": "evidence/kemeny-alternative-repair/portable-review/hashes.json",
+      "sha256": "064a98ee8e0e5badce96b858a0b55ddc5427a39190cbbcc691ee72d209dac147",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A033",
+      "kind": "report",
+      "path": "evidence/kemeny-alternative-repair/portable-review/plan.md",
+      "sha256": "851423ff4ac8a17765f285474fe618af36282156501f913935782ecff84bd3b7",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A034",
+      "kind": "report",
+      "path": "evidence/kemeny-alternative-repair/portable-review/portable-review.md",
+      "sha256": "00221cfebcee7771499a7b749e7b8490edbde8c96af9ade214bb4d630397c7af",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A035",
+      "kind": "log",
+      "path": "evidence/kemeny-alternative-repair/portable-review/reject-argv.json",
+      "sha256": "49aacf61bdcde3ad3948680f9b051709e8fa994cfdaec824df43fa245e5487fe",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A036",
+      "kind": "log",
+      "path": "evidence/kemeny-alternative-repair/portable-review/reject-execution.json",
+      "sha256": "f76e7243327613ff1fdfcc52f537f6e16d8d6a9c7dd0fad789703fa5f67ba876",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A037",
+      "kind": "log",
+      "path": "evidence/kemeny-alternative-repair/portable-review/reject.stderr",
+      "sha256": "883511787a4b45531614696347f97a6b4ec7c746243741a0a7787f81bd104708",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A038",
+      "kind": "log",
+      "path": "evidence/kemeny-alternative-repair/portable-review/reject.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A039",
+      "kind": "log",
+      "path": "evidence/kemeny-alternative-repair/portable-review/replay-argv.json",
+      "sha256": "3e517c707378aa8cbfb37ef0a5dcb561d6b66ac76ff6aca5b2e7dff6f0ce60bf",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A040",
+      "kind": "log",
+      "path": "evidence/kemeny-alternative-repair/portable-review/replay-execution.json",
+      "sha256": "0267ef2c794156c1fb0350596d1009f9cf3b2e9b5f79c6ba9d34e8fb630cbcd3",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A041",
+      "kind": "result",
+      "path": "evidence/kemeny-alternative-repair/portable-review/replay.json",
+      "sha256": "a606ac9a9d6b516a8b1da3a20c910f847426b387f6fe6077a513cec96839e34f",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A042",
+      "kind": "log",
+      "path": "evidence/kemeny-alternative-repair/portable-review/replay.stderr",
+      "sha256": "90924ee4fa0916d6c330c40b28214d5083dca39e0e45432ec2ab3ba5d771d662",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A043",
+      "kind": "log",
+      "path": "evidence/kemeny-alternative-repair/portable-review/replay.stdout",
+      "sha256": "e9de196609710950ebca1bb40a4fbb09c6eea57612694cbca2c465333170b59f",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A044",
+      "kind": "result",
+      "path": "evidence/kemeny-alternative-repair/portable-review/unchanged-check.json",
+      "sha256": "fe8977f7f91dbb29b5b77ec3d488d788edd50370940dc124fedab2bc333a342c",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A045",
+      "kind": "result",
+      "path": "evidence/kemeny-alternative-repair/portable-review/verdict.json",
+      "sha256": "85a5ed67e49fa7d6a705cfd538d5539a7cea9b1c62c1b9c9ba1e2501a7a59a40",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A046",
+      "kind": "report",
+      "path": "evidence/kemeny-alternative-repair/README.md",
+      "sha256": "fe372612060b9e554a4651addb89a65b63d3c3ca0f278d75e776df0d07404cef",
+      "producer": "/root"
+    },
+    {
+      "id": "A047",
+      "kind": "code",
+      "path": "experiments/kemeny-one-deletion-proof/verify_alternative_repair.py",
+      "sha256": "187f4fc9a52dab74b928d813ec832e0d280e559f71f20de9749409ec0ddd91e8",
+      "producer": "/root"
+    },
+    {
+      "id": "A048",
+      "kind": "result",
+      "path": "experiments/kemeny-one-deletion-proof/alternative-repair.json",
+      "sha256": "ca626bd80211a00907089a877f5685c29a426f783f8df93418e2272a16e1b602",
+      "producer": "/root"
+    },
+    {
+      "id": "A049",
+      "kind": "code",
+      "path": "experiments/kemeny-one-deletion-proof/verify_optimal_repair.py",
+      "sha256": "8365ccfb754f8b578b7445bbb0d42ddc53c38d61c488e904c0e282cf930a883d",
+      "producer": "/root"
+    },
+    {
+      "id": "A050",
+      "kind": "result",
+      "path": "experiments/kemeny-one-deletion-proof/optimal-repair.json",
+      "sha256": "1f22a17478ebbfe24cbc75d557bc12a89c9c74db97dfb510cb4c99573052ae82",
+      "producer": "/root"
+    },
+    {
+      "id": "A051",
+      "kind": "code",
+      "path": "experiments/kemeny-one-deletion-proof/verify_all_deletions.py",
+      "sha256": "4ebde785ce3515a0d4d5284b71f5e04a5a536197dc315cae60d293435682b2f9",
+      "producer": "/root"
+    },
+    {
+      "id": "A052",
+      "kind": "code",
+      "path": "experiments/kemeny-one-deletion-proof/verify_certificate.py",
+      "sha256": "ef5d3b84e9f78ac3e6e4840a3be675c2806f3df7aa89efa1ef4d5b776dcc4ffd",
+      "producer": "/root"
+    },
+    {
+      "id": "A053",
+      "kind": "code",
+      "path": "experiments/kemeny-one-deletion-proof/pyproject.toml",
+      "sha256": "a8679bfc0476154ddc4ef5826510445db303e16add568bed3a580ae72254bedf",
+      "producer": "/root"
+    },
+    {
+      "id": "A054",
+      "kind": "code",
+      "path": "experiments/kemeny-one-deletion-proof/uv.lock",
+      "sha256": "bee89f2a7c9ae018f566fcec18f429f8bd5c388bf3cffea1fc35cf118b89754f",
+      "producer": "/root"
+    },
+    {
+      "id": "A055",
+      "kind": "code",
+      "path": "experiments/kemeny-one-deletion-proof/.python-version",
+      "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d",
+      "producer": "/root"
+    },
+    {
+      "id": "A056",
+      "kind": "result",
+      "path": "evidence/kemeny-one-deletion/optimal-review/author-hash-check.json",
+      "sha256": "2692c64a2ad2fa0890e026b85d3b12a42d8b9e66e877c4866ce86b0d6691f135",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A057",
+      "kind": "result",
+      "path": "evidence/kemeny-one-deletion/optimal-review/B.json",
+      "sha256": "d97a2cf00824ae4bf478bb326482e09d706183d37e826281b56d9bf04259214f",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A058",
+      "kind": "log",
+      "path": "evidence/kemeny-one-deletion/optimal-review/B.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A059",
+      "kind": "log",
+      "path": "evidence/kemeny-one-deletion/optimal-review/B.stdout",
+      "sha256": "3329e05405b5c9f870cb09a397ece13287b33ef4da3a796243fe8425f8d9514d",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A060",
+      "kind": "result",
+      "path": "evidence/kemeny-one-deletion/optimal-review/C.json",
+      "sha256": "735814bca5cc306839812c2bbbecf2852dfd09f298a2c37540521fa7fd75b798",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A061",
+      "kind": "log",
+      "path": "evidence/kemeny-one-deletion/optimal-review/C.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A062",
+      "kind": "log",
+      "path": "evidence/kemeny-one-deletion/optimal-review/C.stdout",
+      "sha256": "f31b2b81767247a5a05c9a79a0dc3ad710e8d79e80ff8a941f785eb0f0923508",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A063",
+      "kind": "log",
+      "path": "evidence/kemeny-one-deletion/optimal-review/execution.json",
+      "sha256": "a42e5288456151f39869ebed506c11d178270fd17581c8395d66946d9545d614",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A064",
+      "kind": "result",
+      "path": "evidence/kemeny-one-deletion/optimal-review/hashes.json",
+      "sha256": "4252a6d8ef25ddd3b5635777cbfd7b5bfdf8702075a011b46cf383827926b26f",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A065",
+      "kind": "result",
+      "path": "evidence/kemeny-one-deletion/optimal-review/input-hashes.json",
+      "sha256": "4122dc2a23793e2deafdc93f0eeaa4409b3f938e0c2a1495188b1b390bbe886e",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A066",
+      "kind": "report",
+      "path": "evidence/kemeny-one-deletion/optimal-review/plan.md",
+      "sha256": "3540fa676f3df0a26f23352def3314af4d294295ea2de135414b11cc2dc63707",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A067",
+      "kind": "log",
+      "path": "evidence/kemeny-one-deletion/optimal-review/portable-argv.json",
+      "sha256": "28e675c0f4edbed487009fa221e0ef519a8f0ecfa570eb6897df7bb67be4cdd2",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A068",
+      "kind": "result",
+      "path": "evidence/kemeny-one-deletion/optimal-review/portable-comparison.json",
+      "sha256": "1f784c488a4200e2d960ef7527f363d730ecb481f4b01ed845d66619cb6606a8",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A069",
+      "kind": "log",
+      "path": "evidence/kemeny-one-deletion/optimal-review/portable-execution.json",
+      "sha256": "09abb3ca8e3b6463d1d338fa961efc51676c8f38d82b74b4c9ac00193bd9147e",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A070",
+      "kind": "report",
+      "path": "evidence/kemeny-one-deletion/optimal-review/portable-plan.md",
+      "sha256": "434e3c87e00d6d162c101104512eda5709d75b762c1cc72d7d3c978687a7ac4e",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A071",
+      "kind": "result",
+      "path": "evidence/kemeny-one-deletion/optimal-review/portable-result.json",
+      "sha256": "925cd7fa7fae2b8b6c289236711bd3476f476126e2ac433b95985fb16a6b5872",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A072",
+      "kind": "log",
+      "path": "evidence/kemeny-one-deletion/optimal-review/portable.stderr",
+      "sha256": "3f98a1a7c9fa5819d9340dbf57fdcab3bc8a003186fc27c6ca932096761ad806",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A073",
+      "kind": "log",
+      "path": "evidence/kemeny-one-deletion/optimal-review/portable.stdout",
+      "sha256": "cd85143b18d9607bfb1323239ac6928d59e582ac05fa419e18ce6e473f3bbc26",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A074",
+      "kind": "result",
+      "path": "evidence/kemeny-one-deletion/optimal-review/restore.json",
+      "sha256": "d0f5f45291beee9bf834baa3190eac276c5392e85685ce325781455b5b16af1e",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A075",
+      "kind": "log",
+      "path": "evidence/kemeny-one-deletion/optimal-review/restore.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A076",
+      "kind": "log",
+      "path": "evidence/kemeny-one-deletion/optimal-review/restore.stdout",
+      "sha256": "e8d5cd309431a19c2e653073676a190a5d97c7ce4fddd9cf5d435b08ddfdc2eb",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A077",
+      "kind": "result",
+      "path": "evidence/kemeny-one-deletion/optimal-review/result.json",
+      "sha256": "63f636e21a8de5f1419a54c51554cc909f47add25b58ba823c7bcd03d2ed88cb",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A078",
+      "kind": "result",
+      "path": "evidence/kemeny-one-deletion/optimal-review/review.log",
+      "sha256": "843737353e928c43f3f18ba514e2c976956d97ac48e573a46219a4704002bd44",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A079",
+      "kind": "report",
+      "path": "evidence/kemeny-one-deletion/optimal-review/review.md",
+      "sha256": "145705603fa7a54ccc1fa2cf31b4c8be4ae456b8966de5d45e16ac6f93c7a7d8",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A080",
+      "kind": "code",
+      "path": "evidence/kemeny-one-deletion/optimal-review/review.py",
+      "sha256": "5597e065d5a718c902ba4d220d233e61ed1f1e071e8cb4897b962870ab7b146c",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A081",
+      "kind": "log",
+      "path": "evidence/kemeny-one-deletion/optimal-review/review.rc",
+      "sha256": "186a919b8c7cb84aebf4e53c70cd1cc028a93a1d183ee29dd6e10cd18a714577",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A082",
+      "kind": "report",
+      "path": "evidence/kemeny-one-deletion/optimal-review/round2-plan.md",
+      "sha256": "59e7ad3021cf185ba477044988b8e0590b783202528cb34e6e9c5d70b1041c37",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A083",
+      "kind": "result",
+      "path": "evidence/kemeny-one-deletion/optimal-review/round2.log",
+      "sha256": "8fd9eac12f9372c9a35b5a461a4b8d131825dc829572f4fcc725501760c5e351",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A084",
+      "kind": "code",
+      "path": "evidence/kemeny-one-deletion/optimal-review/round2.py",
+      "sha256": "b4bcc10b46b15b28256bf4c8d11a550ee290ebc2b97638a9967388e447b5bda3",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A085",
+      "kind": "log",
+      "path": "evidence/kemeny-one-deletion/optimal-review/round2.rc",
+      "sha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A086",
+      "kind": "result",
+      "path": "evidence/kemeny-one-deletion/optimal-review/untouched_A.json",
+      "sha256": "32b2b13e2397cf973c6c164f7648521504b9147a2d36bc16ce251781cf82fea0",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A087",
+      "kind": "log",
+      "path": "evidence/kemeny-one-deletion/optimal-review/untouched_A.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A088",
+      "kind": "log",
+      "path": "evidence/kemeny-one-deletion/optimal-review/untouched_A.stdout",
+      "sha256": "ac8808693de792a900c1942ead813b1ad0f149f2cf93c9ee389c5e568db3cb35",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A089",
+      "kind": "result",
+      "path": "evidence/kemeny-one-deletion/optimal-review/uv.json",
+      "sha256": "29a0ac2a108a06c51feb78db80e681d8f5d6e3f4ad1f9e87b0db89a0aeecee61",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A090",
+      "kind": "log",
+      "path": "evidence/kemeny-one-deletion/optimal-review/uv.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A091",
+      "kind": "log",
+      "path": "evidence/kemeny-one-deletion/optimal-review/uv.stdout",
+      "sha256": "263fe64a163ae2d4b5dafa33f11464c2ef86dcefc2bbc89513f4fa523df75aa7",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A092",
+      "kind": "result",
+      "path": "evidence/kemeny-one-deletion/optimal-review/verdict.json",
+      "sha256": "0aa10a7b694746d5b19d3b6d0e56d870d92a07b8433f28bb7e223f6d2ed7f024",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A093",
+      "kind": "source",
+      "path": "evidence/kemeny-one-deletion/source/primary-notes.md",
+      "sha256": "318dc7626069cd9f595ce19108aafd2ce17a7b23a8d977b83a2f39fc1c8fe51b",
+      "producer": "/root"
+    },
+    {
+      "id": "A094",
+      "kind": "code",
+      "path": "experiments/kemeny-three-part-proof/run_logged.py",
+      "sha256": "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6",
+      "producer": "/root"
+    },
+    {
+      "id": "A095",
+      "kind": "report",
+      "path": "README.md",
+      "sha256": "8c933a8ef566763433e597b64eabdd3b764454e6b52273d2cfb9b9d8071f420c",
+      "producer": "/root"
+    },
+    {
+      "id": "A096",
+      "kind": "report",
+      "path": "docs/kemeny-fault-tolerant-design.md",
+      "sha256": "242c5a70ceaf6b6cf378dcf540cf07ad8f2631d2a1af09b5d76ef56c1dbdb735",
+      "producer": "/root"
+    },
+    {
+      "id": "A097",
+      "kind": "report",
+      "path": "docs/kemeny-alternative-repair.md",
+      "sha256": "f65bd78801eb5508c62d25c35aaa905c9f4bbcd3f9a273ded643a000f6243fd2",
+      "producer": "/root"
+    },
+    {
+      "id": "A098",
+      "kind": "code",
+      "path": ".github/workflows/kemeny-three-part.yml",
+      "sha256": "cfc15012e00ecec4061c8926c64ca936394502c16e0d1cb6b05fbcb58ff4dcb6",
+      "producer": "/root"
+    },
+    {
+      "id": "A099",
+      "kind": "result",
+      "path": "evidence/kemeny-alternative-repair/final-review/attestation.json",
+      "sha256": "8d3be60a17bb11bdce6c78c63ff37cf2c941de245f8acf5e28472ddd048824ee",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A100",
+      "kind": "result",
+      "path": "evidence/kemeny-alternative-repair/final-review/copy-manifest.json",
+      "sha256": "3f2c11f8d56064844913785b3d7f7f0c0a5dfb38cf41eecda098da608023bc5d",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A101",
+      "kind": "result",
+      "path": "evidence/kemeny-alternative-repair/final-review/hashes.json",
+      "sha256": "8bc08ee5dd62f1aef34972c06283034ff879b2c5f4ab94080115b00eaedec5a0",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A102",
+      "kind": "code",
+      "path": "evidence/kemeny-alternative-repair/final-review/inspect-round1.py",
+      "sha256": "093ed8a05dcd3396ac7711c370cd9d8d836619d4632effcbcd956e31eaf1d891",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A103",
+      "kind": "code",
+      "path": "evidence/kemeny-alternative-repair/final-review/inspect.py",
+      "sha256": "66d5a04377158c2490b8fa19e33171b5fd1b50c5f294b34d790f0e4d2e337be1",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A104",
+      "kind": "log",
+      "path": "evidence/kemeny-alternative-repair/final-review/inspect.rc",
+      "sha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A105",
+      "kind": "log",
+      "path": "evidence/kemeny-alternative-repair/final-review/inspect.stderr",
+      "sha256": "c9b32fb32736dfaf63daced9ba0c43673ddbdd832c12abe2c38ea99609fe5e12",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A106",
+      "kind": "log",
+      "path": "evidence/kemeny-alternative-repair/final-review/inspect.stdout",
+      "sha256": "9bea9bbb7abb8aa4633d3b9f1fef4446446fa8838366df0d068d7b7566f62813",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A107",
+      "kind": "result",
+      "path": "evidence/kemeny-alternative-repair/final-review/inspection-round1.json",
+      "sha256": "8daeb6940210d0571071aba2b887bd9c26de5b2d0f5a6b7205e32664c90be187",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A108",
+      "kind": "result",
+      "path": "evidence/kemeny-alternative-repair/final-review/inspection.json",
+      "sha256": "ae2926072ce66095baf18725f8e0f0b8e58f194504dcaaca980dfd112e530b69",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A109",
+      "kind": "report",
+      "path": "evidence/kemeny-alternative-repair/final-review/plan.md",
+      "sha256": "226fd3c0beb616321ba3c79377e3b65f8f75782a77d203d5928dab33157ee177",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A110",
+      "kind": "report",
+      "path": "evidence/kemeny-alternative-repair/final-review/review.md",
+      "sha256": "e482160fb6b126342d5ace28e32ece7e8e37a553bb1097f4c03b52ee63274e6e",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A111",
+      "kind": "report",
+      "path": "evidence/kemeny-alternative-repair/final-review/round2-plan.md",
+      "sha256": "d3c363e13ed0e2b558fe8354b53814972169a752a01a87c4bed0c327cc47363d",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A112",
+      "kind": "log",
+      "path": "evidence/kemeny-alternative-repair/final-review/round2.rc",
+      "sha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A113",
+      "kind": "log",
+      "path": "evidence/kemeny-alternative-repair/final-review/round2.stderr",
+      "sha256": "b8de0b064dee3f0c8c65c0257902f02df2106389d9701f807255c6446d413c06",
+      "producer": "/root/astra_damage_symbolic"
+    },
+    {
+      "id": "A114",
+      "kind": "log",
+      "path": "evidence/kemeny-alternative-repair/final-review/round2.stdout",
+      "sha256": "689813533b256c6a89d40c924785866e530d534cc6b03b25200d7bff4782b9c5",
+      "producer": "/root/astra_damage_symbolic"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C001",
+      "type": "methodological",
+      "statement": "The four admissible insertion types exhaust all missing edges except restoration; unchanged singleton determinants give the correct K-n ratios including a=3.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A023",
+          "locator": "contains:only missing-edge categories"
+        },
+        {
+          "artifact_id": "A079",
+          "locator": "contains:PASS"
+        },
+        {
+          "artifact_id": "A049",
+          "locator": "contains:return second-m*first, first"
+        }
+      ]
+    },
+    {
+      "id": "C002",
+      "type": "numerical",
+      "statement": "All three exact rational comparisons have positive complete numerator and denominator certificates; each new numerator has 104 terms, minimum 2 and constant 39690.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A013",
+          "locator": "json:/comparisons",
+          "expected": [
+            {
+              "comparison": "B minus untouched_A",
+              "provenance": "new",
+              "exact_rational_identity": true,
+              "positive_numerator_and_denominator": true,
+              "numerator_term_count": 104,
+              "minimum_numerator_coefficient": 2,
+              "numerator_constant": 39690,
+              "denominator_constant": 77157360
+            },
+            {
+              "comparison": "C minus untouched_A",
+              "provenance": "new",
+              "exact_rational_identity": true,
+              "positive_numerator_and_denominator": true,
+              "numerator_term_count": 104,
+              "minimum_numerator_coefficient": 2,
+              "numerator_constant": 39690,
+              "denominator_constant": 77157360
+            },
+            {
+              "comparison": "uv minus untouched_A",
+              "provenance": "previously audited",
+              "exact_rational_identity": true,
+              "positive_numerator_and_denominator": true,
+              "numerator_term_count": 84,
+              "minimum_numerator_coefficient": 2,
+              "numerator_constant": 115668,
+              "denominator_constant": 121492224
+            }
+          ]
+        },
+        {
+          "artifact_id": "A022",
+          "locator": "json:/comparisons",
+          "expected": {
+            "B": {
+              "exact_difference_identity": true,
+              "complete_coefficient_identities": true,
+              "positive_every_coefficient_and_constant": true,
+              "numerator_terms": 104,
+              "full_matrix_gap_333": "1/1944"
+            },
+            "C": {
+              "exact_difference_identity": true,
+              "complete_coefficient_identities": true,
+              "positive_every_coefficient_and_constant": true,
+              "numerator_terms": 104,
+              "full_matrix_gap_333": "1/1944"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "C003",
+      "type": "conclusion",
+      "statement": "Under the budget of exactly one non-restoration unit insertion, for 3<=a<=b,c and H=(K_(a,b,c) join K1)-uh, the edges minimizing stationary-target K are precisely the unordered pairs in A excluding u. The optimum set has binomial(a-1,2) edges, with a unique edge exactly at a=3.",
+      "status": "supported",
+      "supports": [
+        {
+          "claim_id": "C001"
+        },
+        {
+          "claim_id": "C002"
+        },
+        {
+          "artifact_id": "A023",
+          "locator": "contains:both necessity and sufficiency"
+        }
+      ]
+    },
+    {
+      "id": "C004",
+      "type": "numerical",
+      "statement": "At a=b=c=3, each B/C insertion exceeds untouched-A K by 1/1944, rejecting the tied-minimum equivalence assumption.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A022",
+          "locator": "json:/comparisons/B/full_matrix_gap_333",
+          "expected": "1/1944"
+        },
+        {
+          "artifact_id": "A022",
+          "locator": "json:/comparisons/C/full_matrix_gap_333",
+          "expected": "1/1944"
+        }
+      ]
+    },
+    {
+      "id": "C005",
+      "type": "methodological",
+      "statement": "The portable checker pins both certificates and provenance, reconstructs all three comparisons in exact integer arithmetic, and the independent replay matches the canonical result while a modified input is rejected.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A047",
+          "locator": "contains:prior_certificate_sha256"
+        },
+        {
+          "artifact_id": "A034",
+          "locator": "contains:byte-identical"
+        },
+        {
+          "artifact_id": "A034",
+          "locator": "contains:rejected rc1"
+        }
+      ]
+    },
+    {
+      "id": "C006",
+      "type": "methodological",
+      "statement": "Even equal-edge-count insertions change the stationary destination weights: pi_j=(degree_H(j)+endpoint_indicator)/(2M). Fixed workloads require separate evidence.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A097",
+          "locator": "contains:pi_j="
+        },
+        {
+          "artifact_id": "A001",
+          "locator": "contains:graph-dependent stationary-target objective"
+        },
+        {
+          "artifact_id": "A084",
+          "locator": "line:20-21"
+        }
+      ]
+    },
+    {
+      "id": "C007",
+      "type": "citation",
+      "statement": "Quotient and ordinary edge-update methods are established tools; the specific ordering is a potential contribution with unresolved priority.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A093",
+          "locator": "contains:Equitable/twin quotient spectra"
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "reproduction",
+      "status": "pass",
+      "auditor": "/root/astra_damage_symbolic",
+      "evidence": [
+        "A110",
+        "A099",
+        "A013",
+        "A022",
+        "A034",
+        "A041"
+      ],
+      "note": "Reuse unchanged independently verified exact math and portable replay; all artifact and copy hashes checked in final review."
+    },
+    {
+      "id": "specification_compliance",
+      "status": "pass",
+      "auditor": "/root/astra_damage_symbolic",
+      "evidence": [
+        "A110",
+        "A099",
+        "A001",
+        "A023",
+        "A097"
+      ],
+      "note": "Contract plus independent review and final prose agree on full domain, ties, one forbidden-restoration insertion and exact optimum set; unique edge only a=3."
+    },
+    {
+      "id": "source_verification",
+      "status": "pass",
+      "auditor": "/root/astra_damage_symbolic",
+      "evidence": [
+        "A110",
+        "A099",
+        "A093",
+        "A023",
+        "A022",
+        "A084"
+      ],
+      "note": "Primary source method attribution and exact new comparisons support scoped claims; stationary weights caveat correct, novelty/impact unresolved."
+    },
+    {
+      "id": "implementation_alignment",
+      "status": "pass",
+      "auditor": "/root/astra_damage_symbolic",
+      "evidence": [
+        "A110",
+        "A099",
+        "A047",
+        "A049",
+        "A034",
+        "A041",
+        "A098",
+        "A097"
+      ],
+      "note": "Changed checker, reused reduction, replay, static workflow and final prose aligned. Actual CI pending."
+    }
+  ],
+  "limitations": [
+    "Exactly one unit-weight insertion after the specified minimum-part hub-edge failure; restoration forbidden for this theorem. No weighted, multi-failure, or multiple-insertion assertion.",
+    "Stationary target weights depend on the candidate graph. Fixed-workload findings are separate and are not certified by this bundle.",
+    "Global originality, publication priority, Lean formalization, and measured practical benefit remain unresolved.",
+    "Unchanged graph reductions, dependencies, prior certificate and independent audits are hash-pinned and reused. Historical bundles describe their recorded commits.",
+    "Historical execution paths are retained; the portable checker is the fresh-checkout reproduction route. New workflow reviewed statically here; actual CI is inspected after push."
+  ]
+}

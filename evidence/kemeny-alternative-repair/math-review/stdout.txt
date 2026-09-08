@@ -1,0 +1,3 @@
+B {'exact_difference_identity': True, 'complete_coefficient_identities': True, 'positive_every_coefficient_and_constant': True, 'numerator_terms': 104, 'full_matrix_gap_333': '1/1944'}
+C {'exact_difference_identity': True, 'complete_coefficient_identities': True, 'positive_every_coefficient_and_constant': True, 'numerator_terms': 104, 'full_matrix_gap_333': '1/1944'}
+PASS

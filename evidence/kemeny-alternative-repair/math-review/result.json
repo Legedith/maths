@@ -1,0 +1,37 @@
+{
+  "pass": true,
+  "checked_hash_paths": [
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\B.json",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\C.json",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\input-hashes.json",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\result.json",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\untouched_A.json",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-postfailure-review-work\\verdict.json",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-repair-work\\argv.json",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-repair-work\\batch1.py",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-repair-work\\input-hash.json",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-repair-work\\plan.md",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-repair-work\\proposal.md",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-repair-work\\rc.txt",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-repair-work\\result.json",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-repair-work\\stderr.txt",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-alternative-repair-work\\stdout.txt"
+  ],
+  "same_previously_reviewed_input": true,
+  "comparisons": {
+    "B": {
+      "exact_difference_identity": true,
+      "complete_coefficient_identities": true,
+      "positive_every_coefficient_and_constant": true,
+      "numerator_terms": 104,
+      "full_matrix_gap_333": "1/1944"
+    },
+    "C": {
+      "exact_difference_identity": true,
+      "complete_coefficient_identities": true,
+      "positive_every_coefficient_and_constant": true,
+      "numerator_terms": 104,
+      "full_matrix_gap_333": "1/1944"
+    }
+  }
+}

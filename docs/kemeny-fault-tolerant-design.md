@@ -41,8 +41,9 @@ new edge, assuming restoration is allowed in the intervention budget.
     K(H+vw) < K(H+uv).
 
 This last comparison rejects the candidate rule that an insertion incident
-to the damaged vertex is the best alternative to restoration. It does not
-yet establish vw as the best alternative among all groups. Combining
+to the damaged vertex is the best alternative to restoration. The subsequent
+[complete alternative comparison](kemeny-alternative-repair.md) proves that
+the optimal alternatives are exactly all pairs in A excluding u. Combining
 Theorems 1 and 2 also proves K(G)<K(H), so the optimal restoration improves
 on doing nothing.
 
@@ -200,5 +201,7 @@ These theorems distinguish a safe upgrade from an optimal repair in an
 idealized random-walk model. They do not establish routing latency,
 throughput, or user benefit. Extending the result to multiple failures,
 unequal costs, more groups, or a fixed application workload requires new
-evidence. If restoration is unavailable, the best alternate insertion
-remains a separate research question.
+evidence. The [subsequent alternative theorem](kemeny-alternative-repair.md)
+settles the case where restoration is unavailable for this same K objective.
+Each design's stationary target weights depend on its degrees; none of
+these statements establishes optimality for a fixed traffic workload.

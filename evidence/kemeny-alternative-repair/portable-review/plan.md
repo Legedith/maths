@@ -1,0 +1,2 @@
+# Frozen portable alternate review
+Inspect only verify_alternative_repair.py changes, exact certificate/provenance pins, comparison set B,C plus pinned prioruv, cross-product signs, optimum-set scope. Reuse unchanged audited reduced_k/parser/arithmetic after hash comparison. Execute one fresh uv --frozen replay and one changed-input rejection using a stage-only whitespace-modified certificate; fresh outputs, stage env/cache, Python3.12.11. No determinant re-audit or math search. Keep separate from workload packet. Final prose and bundle later.

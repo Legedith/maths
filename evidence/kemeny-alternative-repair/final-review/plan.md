@@ -1,0 +1,2 @@
+# Final review round1
+Read final prose/contract/workflow and typed claims. Check every bundle artifact hash, all copy-manifest bytes/source/destination hashes, claim locators/expected values/types and conclusion dependency acyclicity. No numerical rerun. Checks pending intentionally until final independent attestation. Round2 reserved solely for defects. Script command uv run --python3.12.11 --no-project inspect.py, stage-local environment/cache.

@@ -1,0 +1,46 @@
+{
+  "schema_version": "forbidden-restoration-optimum-frozen-certificate-v1",
+  "pass": true,
+  "certificate_sha256": "ca626bd80211a00907089a877f5685c29a426f783f8df93418e2272a16e1b602",
+  "prior_certificate_sha256": "1f22a17478ebbfe24cbc75d557bc12a89c9c74db97dfb510cb4c99573052ae82",
+  "implementation_sha256": {
+    "verify_alternative_repair.py": "187f4fc9a52dab74b928d813ec832e0d280e559f71f20de9749409ec0ddd91e8",
+    "verify_optimal_repair.py": "8365ccfb754f8b578b7445bbb0d42ddc53c38d61c488e904c0e282cf930a883d",
+    "verify_all_deletions.py": "4ebde785ce3515a0d4d5284b71f5e04a5a536197dc315cae60d293435682b2f9",
+    "verify_certificate.py": "ef5d3b84e9f78ac3e6e4840a3be675c2806f3df7aa89efa1ef4d5b776dcc4ffd"
+  },
+  "method": "reuse singleton-endpoint exact determinants; cross-multiply two new comparisons and prior uv domination",
+  "comparisons": [
+    {
+      "comparison": "B minus untouched_A",
+      "provenance": "new",
+      "exact_rational_identity": true,
+      "positive_numerator_and_denominator": true,
+      "numerator_term_count": 104,
+      "minimum_numerator_coefficient": 2,
+      "numerator_constant": 39690,
+      "denominator_constant": 77157360
+    },
+    {
+      "comparison": "C minus untouched_A",
+      "provenance": "new",
+      "exact_rational_identity": true,
+      "positive_numerator_and_denominator": true,
+      "numerator_term_count": 104,
+      "minimum_numerator_coefficient": 2,
+      "numerator_constant": 39690,
+      "denominator_constant": 77157360
+    },
+    {
+      "comparison": "uv minus untouched_A",
+      "provenance": "previously audited",
+      "exact_rational_identity": true,
+      "positive_numerator_and_denominator": true,
+      "numerator_term_count": 84,
+      "minimum_numerator_coefficient": 2,
+      "numerator_constant": 115668,
+      "denominator_constant": 121492224
+    }
+  ],
+  "proof_boundary": "The orbit argument proves the optimal set is all unordered pairs in A excluding u, with binomial(a-1,2) edges and uniqueness only at a=3. This graph/domain/counting bridge is independently audited in the accompanying proof. Exactly one unit-weight insertion, restoration forbidden, stationary-target K; no fixed-workload, priority, or practical-benefit certification."
+}
