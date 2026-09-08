@@ -1,0 +1,50 @@
+[
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-priority-work\\raw-01.json",
+    "sha256": "4bf0d798a902f3550f388e96d5dd9a07fd1f0b11fa902ae0e6445ed86850bc2b",
+    "bytes": 13061,
+    "public_copy": false
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-priority-work\\raw-02.json",
+    "sha256": "3da2c24c0a55142a3a7fd29f214b96f695bd8d78bc938064c61bcb35c4b33bc3",
+    "bytes": 3286,
+    "public_copy": false
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\source-target-priority-work\\raw-01.json",
+    "sha256": "e250353255172285991f4f5682914ee0b401cac1aaf3342b416f66a154a1337f",
+    "bytes": 32835,
+    "public_copy": false
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\source-target-priority-work\\raw-02.json",
+    "sha256": "df22f147717dc6e203bd084c7014926e6777a255d247380d26fd3d6d58aeba56",
+    "bytes": 229,
+    "public_copy": false
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\source-target-priority-work\\raw-03.json",
+    "sha256": "18ef8f752c204f6db93375bd392470529e252d47ecccf9d2ee1fcd0c3a5b05d1",
+    "bytes": 38435,
+    "public_copy": false
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-reachability-objective-work\\raw-01.json",
+    "sha256": "470f2667697d9239f6a23579c13c97915ac01004b88a85e112988dd85dde80f1",
+    "bytes": 5956,
+    "public_copy": false
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-reachability-objective-work\\raw-02.txt",
+    "sha256": "288d4244de536eeadd606d9bb7a4c2f63ccc88c3595a731eff0bdf1e05907ea9",
+    "bytes": 15053,
+    "public_copy": false
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-reachability-objective-work\\raw-03.txt",
+    "sha256": "b4586eff1723be08216c9c1fba27900f1e3d1d28c231990c2217dd8274f3662c",
+    "bytes": 9205,
+    "public_copy": false
+  }
+]

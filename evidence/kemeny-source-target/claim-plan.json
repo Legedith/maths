@@ -1,0 +1,86 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "type": "methodological",
+      "statement": "Directed first-step identity and degree/rank-one update give actual quadratic-over-linear source-target objectives.",
+      "evidence": [
+        "theorem",
+        "theorem-review",
+        "solver",
+        "symbolic and direct tests"
+      ]
+    },
+    {
+      "id": "C002",
+      "type": "conclusion",
+      "statement": "Uniform component gives positive coercivity and oracles; endpoint regret and strict quasiconvexity give unique per-edge strength among finite quadratic candidates.",
+      "evidence": [
+        "C001",
+        "distinct theorem audit"
+      ]
+    },
+    {
+      "id": "C003",
+      "type": "numerical",
+      "statement": "Weighted-path negative and zero curvature examples select no action; full wide interval has a balancing winner;30direct checks/3identities/7root cases/7invalid pass in identical worker/reviewer/root JSON.",
+      "evidence": [
+        "canonical comparison",
+        "full certificates"
+      ]
+    },
+    {
+      "id": "C004",
+      "type": "methodological",
+      "statement": "Rational graph API preserves exact roots, all location ties/noop once and explicit inconclusive outcomes; fresh output rejects overwrite.",
+      "evidence": [
+        "3modules",
+        "distinct code audit",
+        "rejection raw"
+      ]
+    },
+    {
+      "id": "C005",
+      "type": "numerical",
+      "statement": "Fixed source path U=(1-theta)(1+8/[3(3t+2)]) has positive unattained infimum and a finite-cap boundary remedy under changed assumptions.",
+      "evidence": [
+        "boundary exact result",
+        "first-step code",
+        "distinct analytic review"
+      ]
+    },
+    {
+      "id": "C006",
+      "type": "citation",
+      "statement": "Published directed recommendation-walk optimization is substantial partial prior work; indexed publisher passages/full-PDF access gap distinguished.",
+      "evidence": [
+        "primary source notes and requests/raw hashes",
+        "source audit"
+      ]
+    },
+    {
+      "id": "C007",
+      "type": "citation",
+      "statement": "Pinned author code normalizes G=U0/(n-1)=C/n and uses positive teleportation plus directed probability interventions, so direct theorem/benchmark transfer is unsupported.",
+      "evidence": [
+        "immutable code URLs/locators",
+        "source-code notes",
+        "distinct static audit"
+      ]
+    },
+    {
+      "id": "C008",
+      "type": "conclusion",
+      "statement": "An audited exact algorithm and model boundary are established locally; novelty, real workload validation, practical benefit and hosted CI remain separate.",
+      "evidence": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005",
+        "C006",
+        "C007"
+      ]
+    }
+  ]
+}

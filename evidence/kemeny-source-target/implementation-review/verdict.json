@@ -1,0 +1,20 @@
+{
+    "public_release_approval":  false,
+    "result_sha256":  "cbb643c5f3fb79f2df2af5d51744c56ae4908bd5aaba66b82bacfdf3ed0fcfc7",
+    "auditor":  "/root/astra_ranking_verifier",
+    "status":  "pass",
+    "attempts":  {
+                     "review01":  0,
+                     "review02_expected_rejection":  2
+                 },
+    "required_corrections":  [
+
+                             ],
+    "checks":  [
+                   "reproduction",
+                   "implementation_alignment",
+                   "source_verification",
+                   "specification_compliance"
+               ],
+    "replay":  "fresh-replay.json"
+}

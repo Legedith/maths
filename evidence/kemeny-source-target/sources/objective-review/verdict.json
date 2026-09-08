@@ -1,0 +1,9 @@
+{
+  "scope":"pinned two-file static objective and normalization audit",
+  "gates":{"source_identity":"PASS","algebraic_integrity":"PASS","static_code_locator_integrity":"PASS","interpretation_scope_integrity":"PASS"},
+  "required_corrections":[],
+  "source_executions":0,
+  "new_network_requests":0,
+  "release_approval":false,
+  "evidence":"review.md"
+}

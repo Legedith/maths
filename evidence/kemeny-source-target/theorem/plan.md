@@ -1,0 +1,5 @@
+# Frozen exploration
+
+Model: fixed uniform source, independent target (1-theta)Uniform+theta delta_q, connected positive weighted loopless graph, one absent edge of strength t>=0, closed0<=l<=h<1. No application validation or novelty claim.
+Approaches: (1) derive directed hitting potentials from grounded first-step equations, then rank-one update; selected. (2) use iid commute symmetrization; rejected because source/target laws differ. (3) prove convexity by covariance PSD trace; unavailable because directed degree correction remains. Test its sign directly.
+Hypotheses: H1 objective affine theta; H2 endpoint regret reduction survives positive affine lines; H3 strict strength convexity may fail due directed correction; H4 finite stationary/balance candidates may survive without convexity. At most two60second evaluations, process-tree logger, uv/D. First fixed diagnostic: three-vertex path weights1,2, missing endpoints, all three target focuses, symbolic theta. If H3 unresolved, a separately frozen second small graph may be used; no grid. Retain every failure. Graph-general reasoning is analytic, diagnostic not universal proof.

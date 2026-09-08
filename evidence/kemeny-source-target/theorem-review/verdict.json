@@ -1,0 +1,21 @@
+{
+    "scope":  "directed uniform-source mixed-target analytic theorem and declared three-vertex diagnostic",
+    "gates":  {
+                  "source_claim_integrity":  "PASS",
+                  "mathematical_integrity":  "PASS",
+                  "independent_reproduction":  "PASS",
+                  "scope_candidate_integrity":  "PASS"
+              },
+    "required_correction":  "None. First setup failure retained; authorized corrected replay passed.",
+    "attempts":  2,
+    "release_approval":  false,
+    "evidence":  [
+                     "review.md",
+                     "check.py",
+                     "logs/attempt-review01.json",
+                     "logs/attempt-review01.stderr.bin",
+                     "amendment.md",
+                     "result.json",
+                     "logs/attempt-review02.json"
+                 ]
+}

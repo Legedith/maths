@@ -1,0 +1,19 @@
+# Exact directed-workload minimax candidate
+
+Import `solve` from source_target_minimax. Signature: solve(n, edges, focus, interval, allowed). Edges are (u,v,positive rational weight); allowed pairs must be distinct and absent. Vertex indices are integers. Connected undirected loopless graphs n>=3 and rational 0<=l<=h<1 are required. Parallel present entries merge. Floats and booleans are rejected as rational values. The modeled source is uniform, independently of a target drawn from (1-theta)Uniform+theta*delta_focus. This is not the iid mixture model.
+
+The return object contains SymPy exact values: directed actual objectives (not divided by an iid factor), old and candidate volumes, endpoint oracles and all oracle actions, each physical edge's coefficients and root classifications, deduplicated candidate strengths, its unique robust optimum, and all global location ties. All zero-strength labels collapse to one no-action action. `encode_certificate` converts exact expressions to inert strings with certified rational intervals; evidence strings are never evaluated.
+
+The general graph theorem is a separately reviewed analytic dependency. The new implementation uses quadratic-over-linear directed objectives; it does not assume positive curvature or affine balance. Boundary, stationary and all positive real quadratic-balance roots are compared exactly. Identically zero, nonzero constant, linear, repeated, zero, negative and nonreal-root cases are explicit. At a balance candidate, equality is certified by the defining quadratic formula; positive denominators justify selecting an endpoint by the cross-product sign elsewhere.
+
+Run from this directory:
+
+    uv run --frozen python verify_source_target.py --output fresh-result.json
+
+Bundle source_target_minimax.py, verify_source_target.py, exact_support.py and the three environment pin files. exact_support.py is an unchanged bytewise copy of the prior module, SHA256 0057aae1dc61cfcb69c43bd2fcb5b43674e66a252c409a857b71a069eef82980. Only its rational/comparison/minimum/encoding/error utilities are imported; its iid solver is never called. Neither new module has a D-specific runtime import. The checker pins the support hash and emits all module hashes and Python/SymPy versions. Fresh output is checked initially and created exclusively with UTF-8 LF.
+
+Validation retains four declared cases: weighted three-path focus1 at collapsed 99/100 (negative curvature and no action), collapsed 98/101 (zero curvature and no action), [0,99/100] (finite robust decision without assuming its winner), and uniform collapsed four-cycle (all symmetric location ties). Direct transition first-step grounded systems validate every declared physical edge at t=0,1/2,2 and both endpoints: 30 comparisons. Three symbolic derivative/rank-one identities, seven root-classification cases, and seven malformed-input rejections pass. These are implementation diagnostics, not an enumeration proof of the graph-general theorem.
+
+One full evaluation so far, rc0 with empty stderr in 2.956313 seconds under the 90-second process-tree-aware logger. Both outer logger and child used uv with pinned Python 3.12.11 and SymPy 1.14.0, isolated stage cache/environment. Raw argv/streams/status are in logs/attempt-directed01.*. No failed evaluator, extra graph grid, or modification to the prior iid modules occurred.
+
+Limits: exact algebraic comparison is partial and may raise InconclusiveError; the CLI reports INCONCLUSIVE with exit 3. Generic symbolic simplification can be expensive and has no internal all-input runtime guarantee. Enforce an external process-tree-aware limit. No floating tolerance or approximate winner is used. Independent implementation audit and canonical replay are still required before promotion. No novelty, real workload validation, physical benefit or release approval is claimed.

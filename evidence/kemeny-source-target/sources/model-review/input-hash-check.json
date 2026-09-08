@@ -1,0 +1,80 @@
+﻿[
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-priority-work\\claims.json",
+        "expected":  "2b3c5fd4851cbc3c04964227e82a38d761e58ccadbed10b95b3d3de9bdee96b7",
+        "actual":  "2b3c5fd4851cbc3c04964227e82a38d761e58ccadbed10b95b3d3de9bdee96b7",
+        "matches":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-priority-work\\raw-01.json",
+        "expected":  "4bf0d798a902f3550f388e96d5dd9a07fd1f0b11fa902ae0e6445ed86850bc2b",
+        "actual":  "4bf0d798a902f3550f388e96d5dd9a07fd1f0b11fa902ae0e6445ed86850bc2b",
+        "matches":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-priority-work\\raw-02.json",
+        "expected":  "3da2c24c0a55142a3a7fd29f214b96f695bd8d78bc938064c61bcb35c4b33bc3",
+        "actual":  "3da2c24c0a55142a3a7fd29f214b96f695bd8d78bc938064c61bcb35c4b33bc3",
+        "matches":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-priority-work\\request-01.json",
+        "expected":  "17a5fa6f951a0280dbbe6148d9898139828b86680e63bdebf45eff7ced95e3f5",
+        "actual":  "17a5fa6f951a0280dbbe6148d9898139828b86680e63bdebf45eff7ced95e3f5",
+        "matches":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-priority-work\\request-02.json",
+        "expected":  "785be077064c8a3c265fb7b46d1e2a5b839f6a4b14505605830c743bdb0578f4",
+        "actual":  "785be077064c8a3c265fb7b46d1e2a5b839f6a4b14505605830c743bdb0578f4",
+        "matches":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-priority-work\\source-notes.md",
+        "expected":  "14b9a376fcf7323f055fccc9b47c61e710350638c346fb33b0bd0f603d3dfadf",
+        "actual":  "14b9a376fcf7323f055fccc9b47c61e710350638c346fb33b0bd0f603d3dfadf",
+        "matches":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\source-target-priority-work\\raw-01.json",
+        "expected":  "e250353255172285991f4f5682914ee0b401cac1aaf3342b416f66a154a1337f",
+        "actual":  "e250353255172285991f4f5682914ee0b401cac1aaf3342b416f66a154a1337f",
+        "matches":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\source-target-priority-work\\raw-02.json",
+        "expected":  "df22f147717dc6e203bd084c7014926e6777a255d247380d26fd3d6d58aeba56",
+        "actual":  "df22f147717dc6e203bd084c7014926e6777a255d247380d26fd3d6d58aeba56",
+        "matches":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\source-target-priority-work\\raw-03.json",
+        "expected":  "18ef8f752c204f6db93375bd392470529e252d47ecccf9d2ee1fcd0c3a5b05d1",
+        "actual":  "18ef8f752c204f6db93375bd392470529e252d47ecccf9d2ee1fcd0c3a5b05d1",
+        "matches":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\source-target-priority-work\\request-01.json",
+        "expected":  "b53e51914880def4fb2defed0be835cd7e9211860a9ef537ced6e6b82027835b",
+        "actual":  "b53e51914880def4fb2defed0be835cd7e9211860a9ef537ced6e6b82027835b",
+        "matches":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\source-target-priority-work\\request-02.json",
+        "expected":  "a658c5dccc3b3b8582b1fb0a81cc3b7d43d36affb2e71a286b37e2a62c72e715",
+        "actual":  "a658c5dccc3b3b8582b1fb0a81cc3b7d43d36affb2e71a286b37e2a62c72e715",
+        "matches":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\source-target-priority-work\\request-03.json",
+        "expected":  "67894afe6503ba3842808a5541697bb4a140b219384b8b6456ff1d5de4cf12e6",
+        "actual":  "67894afe6503ba3842808a5541697bb4a140b219384b8b6456ff1d5de4cf12e6",
+        "matches":  true
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-explore-work\\proposal.md",
+        "expected":  "e24ab919b620169d69b48b7fabae65e265598ad4a6d61da75bd69d025c3398f0",
+        "actual":  "e24ab919b620169d69b48b7fabae65e265598ad4a6d61da75bd69d025c3398f0",
+        "matches":  true
+    }
+]

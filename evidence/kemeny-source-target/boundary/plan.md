@@ -1,0 +1,5 @@
+# Frozen bounded falsification protocol
+
+Only graph: vertices 0,1,2; old weights c01=1,c12=2; added absent edge 02 has t>=0. Source is fixed at 1; independent target law (1-theta)Uniform+theta*delta1, 0<=theta<=h<1. Include zero hitting time to the source itself. No symmetric variant or other graph will be evaluated.
+
+Approaches: (1) directed first-step equations, selected because there are only two unknowns per target; (2) centered inverse update, eliminated as unnecessary and liable to obscure source dependence; (3) numerical large-t sampling, eliminated because it cannot establish nonattainment. Falsifiable checks: exact first-step residuals; exact rational objective and derivative; zero/infinity limits and strictly positive finite gap. At most one 60-second symbolic evaluator, uv outer and child, Python 3.12.11/SymPy 1.14.0, own D environment/cache and preflighted process-tree-aware logger. Retain raw output and hashes. No API change, physical model validation, or novelty claim. Distinct audit required.

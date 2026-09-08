@@ -1,0 +1,74 @@
+[
+    {
+        "sha256":  "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-portable-review-work\\.python-version"
+    },
+    {
+        "sha256":  "0057aae1dc61cfcb69c43bd2fcb5b43674e66a252c409a857b71a069eef82980",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-portable-review-work\\exact_support.py"
+    },
+    {
+        "sha256":  "cbb643c5f3fb79f2df2af5d51744c56ae4908bd5aaba66b82bacfdf3ed0fcfc7",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-portable-review-work\\fresh-replay.json"
+    },
+    {
+        "sha256":  "699c0cc14f21586f1df80446f75e6a30a031ce9b49d59103bf36bf793b8065e5",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-portable-review-work\\input-checks.json"
+    },
+    {
+        "sha256":  "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-portable-review-work\\pyproject.toml"
+    },
+    {
+        "sha256":  "033194992bc9cef65685015e3d6743f0d539fdce6b98f98ea3ef2069f79e7c88",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-portable-review-work\\review.md"
+    },
+    {
+        "sha256":  "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-portable-review-work\\run_logged.py"
+    },
+    {
+        "sha256":  "a6e5c9fcfead2c952b1a4d1b66b967fd6e6613452cccb7137ce75e80c343ede2",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-portable-review-work\\source_target_minimax.py"
+    },
+    {
+        "sha256":  "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-portable-review-work\\uv.lock"
+    },
+    {
+        "sha256":  "a548e55804cddb945ad581a142f0d5a44b4243ce680a8218912f32155113fcc4",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-portable-review-work\\verdict.json"
+    },
+    {
+        "sha256":  "737ae7a365a2ac1c6a2b969115b60127fdc10bbbbf02c46d864b280a1e7bb7c6",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-portable-review-work\\verify_source_target.py"
+    },
+    {
+        "sha256":  "3356c372503b114de192ce97399de4b19753dbf5091d0f197f2c51b5a26caf36",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-portable-review-work\\logs\\attempt-review01.json"
+    },
+    {
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-portable-review-work\\logs\\attempt-review01.stderr.bin"
+    },
+    {
+        "sha256":  "c56aefa5068151e8843ce8130f33dfb9c513c7982bcb5194a6b98a85712e293a",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-portable-review-work\\logs\\attempt-review01.stdout.bin"
+    },
+    {
+        "sha256":  "dd506d03803c1861335a4681c58a2ba62c25b3720c2f82aecc5a23407d6ea9cd",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-portable-review-work\\logs\\attempt-review02.json"
+    },
+    {
+        "sha256":  "01f1cb59a953cf6d6410c63def607e1c829249c1bf0d0dafef508cfa6b0b8102",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-portable-review-work\\logs\\attempt-review02.stderr.bin"
+    },
+    {
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-portable-review-work\\logs\\attempt-review02.stdout.bin"
+    },
+    {
+        "sha256":  "850e11c5eedcd655024007dcc5aaa5bd6f4ce0d7bc74c1ee4528f3cbc119b16e",
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-portable-review-work\\logs\\attempts.jsonl"
+    }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\source-target-minimax-portable-work\\.python-version",
+        "Hash":  "43FD694BD564DD2215F51A6B23F6A3712834850225E629D7781C81C71076092D"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\source-target-minimax-portable-work\\claims.json",
+        "Hash":  "D56FC011A7199C7A99D75C7524786D194C49E146CC1304A520566D873E0299F1"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\source-target-minimax-portable-work\\exact_support.py",
+        "Hash":  "0057AAE1DC61CFCB69C43BD2FCB5B43674E66A252C409A857B71A069EEF82980"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\source-target-minimax-portable-work\\plan.md",
+        "Hash":  "47FE9C0AD5C7C40CB0D8D260BC14C96D2C5D7C5D0DFFB2688A665271E0F9B69D"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\source-target-minimax-portable-work\\pyproject.toml",
+        "Hash":  "043135469F15A65EC3BB4106A3D6798BCCCDD0F762288DB41FD740164762445F"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\source-target-minimax-portable-work\\README.md",
+        "Hash":  "81322CA3D9D313A29D0184FCFEA866B98899279E5DEFCDB03364C249E7884FBD"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\source-target-minimax-portable-work\\result.json",
+        "Hash":  "CBB643C5F3FB79F2DF2AF5D51744C56AE4908BD5AABA66B82BACFDF3ED0FCFC7"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\source-target-minimax-portable-work\\source_target_minimax.py",
+        "Hash":  "A6E5C9FCFEAD2C952B1A4D1B66B967FD6E6613452CCCB7137CE75E80C343EDE2"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\source-target-minimax-portable-work\\uv.lock",
+        "Hash":  "378269213EB25AE37448F6993AC983809D7BAB05D3A47434C5BABD06DC0B874D"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\source-target-minimax-portable-work\\verify_source_target.py",
+        "Hash":  "737AE7A365A2AC1C6A2B969115B60127FDC10BBBBF02C46D864B280A1E7BB7C6"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\source-target-minimax-portable-work\\logs\\attempt-directed01.json",
+        "Hash":  "F81177BD1D614DD7187BDE3015338EA694E26966861F7CCF4BC70582842A3E13"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\source-target-minimax-portable-work\\logs\\attempt-directed01.stderr.bin",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\source-target-minimax-portable-work\\logs\\attempt-directed01.stdout.bin",
+        "Hash":  "C56AEFA5068151E8843CE8130F33DFB9C513C7982BCB5194A6B98A85712E293A"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\source-target-minimax-portable-work\\logs\\attempts.jsonl",
+        "Hash":  "E06C74F08942B775D40D9C330C2ABC87E1DCD96B15AE8BB299A6741843192458"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-explore-work\\proposal.md",
+        "Hash":  "E24AB919B620169D69B48B7FABAE65E265598AD4A6D61DA75BD69D025C3398F0"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-review-work\\review.md",
+        "Hash":  "2DD02113766370E953DDCE65EA3AF535C83FCA976814AA765CB27BDE1E718D8E"
+    }
+]

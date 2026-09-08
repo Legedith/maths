@@ -1,0 +1,35 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--project",
+    "D:/CodexWorkspaces/mathematics-atlas/astra-fixed-source-limit-explore-work",
+    "--frozen",
+    "python",
+    "D:/CodexWorkspaces/mathematics-atlas/astra-fixed-source-limit-explore-work/check.py"
+  ],
+  "attempt_id": "explore01",
+  "ended_at_utc": "2026-09-08T20:22:30.597490+00:00",
+  "returncode": 0,
+  "schema_version": "logged-command-attempt-v1",
+  "selected_environment": {
+    "PYTHONDONTWRITEBYTECODE": null,
+    "UV_CACHE_DIR": "D:/CodexWorkspaces/mathematics-atlas/astra-fixed-source-limit-explore-work/uv-cache",
+    "UV_PROJECT_ENVIRONMENT": "D:/CodexWorkspaces/mathematics-atlas/astra-fixed-source-limit-explore-work/.venv"
+  },
+  "started_at_utc": "2026-09-08T20:22:27.847481+00:00",
+  "stderr": {
+    "bytes": 0,
+    "path": "attempt-explore01.stderr.bin",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 744,
+    "path": "attempt-explore01.stdout.bin",
+    "sha256": "9b2527130498a3af9719a055484de24dc1e6f0c0b71553f1c26e136122fd30e0"
+  },
+  "termination": null,
+  "timed_out": false,
+  "timeout_seconds": 60,
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-fixed-source-limit-explore-work"
+}

@@ -1,0 +1,176 @@
+[
+    {
+        "claim":  "C001",
+        "locator":  "contains:F0=2*m*M[q,q]-(M*d)[q]",
+        "artifact":  "A110",
+        "pass":  true
+    },
+    {
+        "claim":  "C001",
+        "locator":  "contains:H_ij=(Md)_i",
+        "artifact":  "A088",
+        "pass":  true
+    },
+    {
+        "claim":  "C001",
+        "locator":  "contains:First-step equations",
+        "artifact":  "A104",
+        "pass":  true
+    },
+    {
+        "claim":  "C001",
+        "locator":  "json:/symbolic_identities",
+        "artifact":  "A053",
+        "pass":  true
+    },
+    {
+        "claim":  "C002",
+        "locator":  "contains:Nevertheless per-edge uniqueness SURVIVES",
+        "artifact":  "A088",
+        "pass":  true
+    },
+    {
+        "claim":  "C002",
+        "locator":  "contains:positive linear slope",
+        "artifact":  "A104",
+        "pass":  true
+    },
+    {
+        "claim":  "C002",
+        "locator":  "line:1",
+        "artifact":  "A114",
+        "pass":  true
+    },
+    {
+        "claim":  "C003",
+        "locator":  "json:",
+        "artifact":  "A054",
+        "pass":  true
+    },
+    {
+        "claim":  "C003",
+        "locator":  "json:/cases/2/global_actions",
+        "artifact":  "A053",
+        "pass":  true
+    },
+    {
+        "claim":  "C003",
+        "locator":  "line:1",
+        "artifact":  "A047",
+        "pass":  true
+    },
+    {
+        "claim":  "C004",
+        "locator":  "contains:def roots(coeff):",
+        "artifact":  "A110",
+        "pass":  true
+    },
+    {
+        "claim":  "C004",
+        "locator":  "contains:except InconclusiveError",
+        "artifact":  "A112",
+        "pass":  true
+    },
+    {
+        "claim":  "C004",
+        "locator":  "contains:bytes remain the frozen hash",
+        "artifact":  "A047",
+        "pass":  true
+    },
+    {
+        "claim":  "C004",
+        "locator":  "json:/returncode",
+        "artifact":  "A042",
+        "pass":  true
+    },
+    {
+        "claim":  "C004",
+        "locator":  "json:/module_hashes",
+        "artifact":  "A053",
+        "pass":  true
+    },
+    {
+        "claim":  "C005",
+        "locator":  "json:/objective",
+        "artifact":  "A011",
+        "pass":  true
+    },
+    {
+        "claim":  "C005",
+        "locator":  "json:/infimum",
+        "artifact":  "A011",
+        "pass":  true
+    },
+    {
+        "claim":  "C005",
+        "locator":  "line:1",
+        "artifact":  "A002",
+        "pass":  true
+    },
+    {
+        "claim":  "C005",
+        "locator":  "contains:Strict convexity alone does not repair attainment",
+        "artifact":  "A009",
+        "pass":  true
+    },
+    {
+        "claim":  "C005",
+        "locator":  "contains:infimum 1-theta unattained at finite t",
+        "artifact":  "A015",
+        "pass":  true
+    },
+    {
+        "claim":  "C006",
+        "locator":  "contains:substantial prior work",
+        "artifact":  "A066",
+        "pass":  true
+    },
+    {
+        "claim":  "C006",
+        "locator":  "line:1",
+        "artifact":  "A069",
+        "pass":  true
+    },
+    {
+        "claim":  "C006",
+        "locator":  "line:1",
+        "artifact":  "A061",
+        "pass":  true
+    },
+    {
+        "claim":  "C006",
+        "locator":  "line:1",
+        "artifact":  "A079",
+        "pass":  true
+    },
+    {
+        "claim":  "C007",
+        "locator":  "contains:G=S/[n^2(n-1)] = U_0/(n-1) = C/n",
+        "artifact":  "A075",
+        "pass":  true
+    },
+    {
+        "claim":  "C007",
+        "locator":  "contains:P=0.985*X+0.015*J/n",
+        "artifact":  "A075",
+        "pass":  true
+    },
+    {
+        "claim":  "C007",
+        "locator":  "line:1",
+        "artifact":  "A077",
+        "pass":  true
+    },
+    {
+        "claim":  "C007",
+        "locator":  "line:1",
+        "artifact":  "A072",
+        "pass":  true
+    },
+    {
+        "claim":  "C007",
+        "locator":  "line:1",
+        "artifact":  "A079",
+        "pass":  true
+    }
+]

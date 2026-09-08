@@ -1,0 +1,50 @@
+[
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-release-review-work\\hashes.json",
+    "destination": "evidence/kemeny-source-target/final-review/hashes.json",
+    "sha256": "07c8af438e47ea5007671fb28f6bf7c08fb7248c7fb15e8faae32069c3fe36a4",
+    "bytes": 548
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-release-review-work\\integrity.json",
+    "destination": "evidence/kemeny-source-target/final-review/integrity.json",
+    "sha256": "ddce041e99d43232b58887c7444d6b9d7065c6d3f149a2d636a7bd1ff6864fad",
+    "bytes": 27893
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-release-review-work\\locators.json",
+    "destination": "evidence/kemeny-source-target/final-review/locators.json",
+    "sha256": "f949ea5f4e204087834382f4f7662442409dfa5f39781e12fdaec70e5fb20eeb",
+    "bytes": 4120
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-release-review-work\\review.md",
+    "destination": "evidence/kemeny-source-target/final-review/review.md",
+    "sha256": "a1d543be1724688d1ef3344374cef0ab5ff8ab07ad9a9167d73ec8544bbe614b",
+    "bytes": 5674
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-release-review-work\\verdict.json",
+    "destination": "evidence/kemeny-source-target/final-review/verdict.json",
+    "sha256": "3625c6c58cfbc403381b2505a14866b6ef1af3a8510fa439f3d95da8273c93c6",
+    "bytes": 3874
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-source-target-work\\review-input.json",
+    "destination": "evidence/kemeny-source-target/resolve/review-input.json",
+    "sha256": "a6987738a93b42797850affc2bff6944bcac6ce89b38ac1740aac38dcac85fcb",
+    "bytes": 663
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-source-target-work\\pre-review-bundle.json",
+    "destination": "evidence/kemeny-source-target/resolve/pre-review-bundle.json",
+    "sha256": "ddd39ec9d805a5797aaed0491e89f74522c2c3ddc8edae0755281641fdfd54fb",
+    "bytes": 46204
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-source-target-work\\pre-review-ground-report.json",
+    "destination": "evidence/kemeny-source-target/resolve/pre-review-ground-report.json",
+    "sha256": "d086f109565d03478f22443caa8345faa68a4f67a81aadd0d1ae1fd6c81ccd86",
+    "bytes": 665
+  }
+]

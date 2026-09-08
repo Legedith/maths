@@ -1,0 +1,9 @@
+{
+  "claims":[
+    {"id":"directed-model","type":"implementation","evidence":"source_target_minimax.py","claim":"Separate uniform-source mixed-target solver with actual volume, quadratic candidates and all physical ties."},
+    {"id":"replay","type":"numerical","evidence":["verify_source_target.py","result.json","logs/attempt-directed01.json"],"claim":"Four declared API cases, 30 direct first-step checks, three symbolic identities and seven invalid inputs pass."},
+    {"id":"scope","type":"methodological","evidence":"README.md","claim":"Partial exact comparator, independent audit pending; no universal runtime or application claim."}
+  ],
+  "independent_gate":"PENDING",
+  "full_evaluator_attempts":1
+}

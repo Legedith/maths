@@ -1,0 +1,38 @@
+﻿[
+    {
+        "sha256":  "024ba785a6fce952870c0d2b814ebf2fff7519260047030e508e5219b40b72bf",
+        "path":  "check.py"
+    },
+    {
+        "sha256":  "e820cd1918fde5179a8a2c04e4bc45faa05d9caf1c7f4a08e57b194ed128b8ef",
+        "path":  "input-hashes.json"
+    },
+    {
+        "sha256":  "2bb9118e420d0513e5c37a8f1d4d401e7e7280bc82f06073a09f236771c3e806",
+        "path":  "plan.md"
+    },
+    {
+        "sha256":  "e24ab919b620169d69b48b7fabae65e265598ad4a6d61da75bd69d025c3398f0",
+        "path":  "proposal.md"
+    },
+    {
+        "sha256":  "213dab0beccb68c2df2b2b0180818bb695a9bbe34671ca467a5c0453004be7b2",
+        "path":  "result.json"
+    },
+    {
+        "sha256":  "cde1685c84409e607161c0508cfe403474e176be05b8a7960a9d54ebb5eb4fef",
+        "path":  "logs\\attempt-path.json"
+    },
+    {
+        "sha256":  "4e331d9db2eeab491546357f91518e4cf3670652f3b0baf93e4f2bff6b449ed9",
+        "path":  "logs\\attempt-path.stderr.bin"
+    },
+    {
+        "sha256":  "cde1b2387b9e919f52c062da1d6b8245b845b2744baeaafefb49e8a0cd21ab48",
+        "path":  "logs\\attempt-path.stdout.bin"
+    },
+    {
+        "sha256":  "837a4d45c83ece91fc891a2710cc70fa5cd43de8cdf78239a96fcf4d55ae43f6",
+        "path":  "logs\\attempts.jsonl"
+    }
+]

@@ -196,3 +196,20 @@ jobs:
           path: work/kemeny-strength-minimax-ci/
           retention-days: 30
           if-no-files-found: warn
+      - name: Check uniform-source mixed-target minimax
+        run: >-
+          uv run --project experiments/kemeny-source-target-proof --frozen python
+          experiments/kemeny-three-part-proof/run_logged.py
+          --attempt-id source-target --timeout-seconds 90
+          --log-dir work/kemeny-source-target-ci/logs -- uv run
+          --project experiments/kemeny-source-target-proof --frozen python
+          experiments/kemeny-source-target-proof/verify_source_target.py
+          --output work/kemeny-source-target-ci/check.json
+      - name: Retain source-target exact solver checks
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: kemeny-source-target
+          path: work/kemeny-source-target-ci/
+          retention-days: 30
+          if-no-files-found: warn

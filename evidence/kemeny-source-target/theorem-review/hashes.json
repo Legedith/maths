@@ -1,0 +1,82 @@
+[
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-review-work\\.python-version",
+        "Hash":  "43FD694BD564DD2215F51A6B23F6A3712834850225E629D7781C81C71076092D"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-review-work\\amendment.md",
+        "Hash":  "145937085844A7B8654AD4D132370E804987CD673F02CF095024AF22F6A19E19"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-review-work\\check.py",
+        "Hash":  "D96AF13644314AA7EFEFC9EEA918E3947447C2E966C3A560FFAE3F65711BC776"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-review-work\\plan.md",
+        "Hash":  "27A935BA451CB4FC28AE925F5A7DFEC2B4D83DE945D0E5BE5985345AFB57EFAE"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-review-work\\pyproject.toml",
+        "Hash":  "043135469F15A65EC3BB4106A3D6798BCCCDD0F762288DB41FD740164762445F"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-review-work\\result.json",
+        "Hash":  "7975C697ADAF0AA5C2719CA2F36A161BFA9C51E4EA378CAA1AF18C5EA8D1D201"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-review-work\\review.md",
+        "Hash":  "2DD02113766370E953DDCE65EA3AF535C83FCA976814AA765CB27BDE1E718D8E"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-review-work\\uv.lock",
+        "Hash":  "378269213EB25AE37448F6993AC983809D7BAB05D3A47434C5BABD06DC0B874D"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-review-work\\verdict.json",
+        "Hash":  "399E669B55B6C010833D3B0A16E58598ABC61F43B3DD72A093CAE212F7B3CC58"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-review-work\\logs\\attempt-review01.json",
+        "Hash":  "B6F1B8721A93474C3BF514E27323074841AF32E38803C63C77400D51DF8AEC23"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-review-work\\logs\\attempt-review01.stderr.bin",
+        "Hash":  "E96FB431B9CF37BF1B50C5A48EBC1BBC034D9DD860B6F579DE27CF6E6D9E5771"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-review-work\\logs\\attempt-review01.stdout.bin",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-review-work\\logs\\attempt-review02.json",
+        "Hash":  "C655F2DF84B70F01B812484DDCCCAA94EC124659A7DBF4B50A262BD94786CD30"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-review-work\\logs\\attempt-review02.stderr.bin",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-review-work\\logs\\attempt-review02.stdout.bin",
+        "Hash":  "FEC8D5B03EAD49527D0F18025BA03C14DD939266EC3793F1A3D525230BFE3D70"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-review-work\\logs\\attempts.jsonl",
+        "Hash":  "0137E1673DD2BED7A9791BD9F592279D9CAAEF73550929468B20582DC978320D"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-explore-work\\proposal.md",
+        "Hash":  "E24AB919B620169D69B48B7FABAE65E265598AD4A6D61DA75BD69D025C3398F0"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-explore-work\\result.json",
+        "Hash":  "213DAB0BECCB68C2DF2B2B0180818BB695A9BBE34671CA467A5C0453004BE7B2"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-explore-work\\check.py",
+        "Hash":  "024BA785A6FCE952870C0D2B814EBF2FFF7519260047030E508E5219B40B72BF"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-explore-work\\logs\\attempt-path.json",
+        "Hash":  "CDE1685C84409E607161C0508CFE403474E176BE05B8A7960A9D54EBB5EB4FEF"
+    }
+]

@@ -1,0 +1,32 @@
+{
+  "rows": [
+    {
+      "focus": 0,
+      "focused": "(8*t + 22)/(9*t + 6)",
+      "uniform": "(4*t**2 + 24*t + 36)/(27*t + 18)",
+      "objective": "(-4*t**2*theta + 4*t**2 + 24*t + 30*theta + 36)/(27*t + 18)",
+      "curvature": "4*(127*theta + 98)/(9*(3*t + 2)**3)"
+    },
+    {
+      "focus": 1,
+      "focused": "(4*t**2 + 9*t + 4)/(9*t + 6)",
+      "uniform": "(4*t**2 + 24*t + 36)/(27*t + 18)",
+      "objective": "(8*t**2*theta + 4*t**2 + 3*t*theta + 24*t - 24*theta + 36)/(27*t + 18)",
+      "curvature": "-4*(101*theta - 98)/(9*(3*t + 2)**3)"
+    },
+    {
+      "focus": 2,
+      "focused": "(7*t + 10)/(9*t + 6)",
+      "uniform": "(4*t**2 + 24*t + 36)/(27*t + 18)",
+      "objective": "(-4*t**2*theta + 4*t**2 - 3*t*theta + 24*t - 6*theta + 36)/(27*t + 18)",
+      "curvature": "-8*(13*theta - 49)/(9*(3*t + 2)**3)"
+    }
+  ],
+  "r": "3/2",
+  "z": [
+    "5/6",
+    "-1/6",
+    "-2/3"
+  ],
+  "status": "PASS"
+}

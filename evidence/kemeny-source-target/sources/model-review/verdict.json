@@ -1,0 +1,16 @@
+{
+ "status":"pass",
+ "auditor":"astra_damage_symbolic",
+ "source_notes_sha256":"14b9a376fcf7323f055fccc9b47c61e710350638c346fb33b0bd0f603d3dfadf",
+ "source_manifest_sha256":"3404c2c4729286a1a0288095152cd39eb45a4cb55fe74841db7ecf56b1aa60fb",
+ "required_corrections":[],
+ "checks":[
+  {"name":"specification_compliance","status":"pass","evidence":["review.md","input-hash-check.json"]},
+  {"name":"source_entailment","status":"pass","evidence":["review.md","../astra-source-target-priority-work/raw-01.json","../astra-source-target-priority-work/raw-02.json","../source-target-priority-work/raw-03.json"]},
+  {"name":"methodological_integrity","status":"pass","evidence":["review.md","input-hash-check.json"]},
+  {"name":"conclusion_integrity","status":"pass","evidence":["review.md","../astra-source-target-priority-work/source-notes.md"]}
+ ],
+ "scope":"Primary-source support and bounded comparison only; no mathematical self-certification, novelty, application validation, reuse authorization, release or hosted CI gate",
+ "new_retrievals":0,
+ "evaluators":0
+}

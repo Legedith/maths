@@ -1,0 +1,16 @@
+{
+  "status": "FAIL",
+  "bundle": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.codex\\evidence\\runs\\kemeny-source-target-v1\\bundle.json",
+  "workspace": "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+  "artifact_count": 120,
+  "claim_count": 8,
+  "claim_provenance_rate": 1.0,
+  "errors": [
+    "artifacts[65].retrieved_at is required when uri is present",
+    "artifacts[74].retrieved_at is required when uri is present",
+    "checks[0].status blocks promotion: 'pending'",
+    "checks[1].status blocks promotion: 'pending'",
+    "checks[2].status blocks promotion: 'pending'",
+    "checks[3].status blocks promotion: 'pending'"
+  ]
+}

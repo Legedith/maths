@@ -1,0 +1,4 @@
+﻿{
+    "method":  "GET",
+    "url":  "https://api.github.com/repos/alexmartinezmiguel/reachability/commits/main"
+}

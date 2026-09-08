@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-source-target-review-work\check.py", line 1, in <module>
+    import sympy as S
+ModuleNotFoundError: No module named 'sympy'

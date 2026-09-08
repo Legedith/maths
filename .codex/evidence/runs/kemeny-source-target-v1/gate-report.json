@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "bundle": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.codex\\evidence\\runs\\kemeny-source-target-v1\\bundle.json",
+  "workspace": "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+  "artifact_count": 129,
+  "claim_count": 8,
+  "claim_provenance_rate": 1.0,
+  "errors": []
+}

@@ -1,0 +1,54 @@
+[
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-priority-work\\claims.json",
+        "Hash":  "2B3C5FD4851CBC3C04964227E82A38D761E58CCADBED10B95B3D3DE9BDEE96B7"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-priority-work\\raw-01.json",
+        "Hash":  "4BF0D798A902F3550F388E96D5DD9A07FD1F0B11FA902AE0E6445ED86850BC2B"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-priority-work\\raw-02.json",
+        "Hash":  "3DA2C24C0A55142A3A7FD29F214B96F695BD8D78BC938064C61BCB35C4B33BC3"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-priority-work\\request-01.json",
+        "Hash":  "17A5FA6F951A0280DBBE6148D9898139828B86680E63BDEBF45EFF7CED95E3F5"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-priority-work\\request-02.json",
+        "Hash":  "785BE077064C8A3C265FB7B46D1E2A5B839F6A4B14505605830C743BDB0578F4"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-priority-work\\source-notes.md",
+        "Hash":  "14B9A376FCF7323F055FCCC9B47C61E710350638C346FB33B0BD0F603D3DFADF"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\source-target-priority-work\\raw-01.json",
+        "Hash":  "E250353255172285991F4F5682914EE0B401CAC1AAF3342B416F66A154A1337F"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\source-target-priority-work\\raw-02.json",
+        "Hash":  "DF22F147717DC6E203BD084C7014926E6777A255D247380D26FD3D6D58AEBA56"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\source-target-priority-work\\raw-03.json",
+        "Hash":  "18EF8F752C204F6DB93375BD392470529E252D47ECCCF9D2EE1FCD0C3A5B05D1"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\source-target-priority-work\\request-01.json",
+        "Hash":  "B53E51914880DEF4FB2DEFED0BE835CD7E9211860A9EF537CED6E6B82027835B"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\source-target-priority-work\\request-02.json",
+        "Hash":  "A658C5DCCC3B3B8582B1FB0A81CC3B7D43D36AFFB2E71A286B37E2A62C72E715"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\source-target-priority-work\\request-03.json",
+        "Hash":  "67894AFE6503BA3842808A5541697BB4A140B219384B8B6456FF1D5DE4CF12E6"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-explore-work\\proposal.md",
+        "Hash":  "E24AB919B620169D69B48B7FABAE65E265598AD4A6D61DA75BD69D025C3398F0"
+    }
+]

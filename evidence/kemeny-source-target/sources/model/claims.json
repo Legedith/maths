@@ -1,0 +1,12 @@
+{
+  "claims":[
+    {"id":"overlap","type":"primary-source-attribution","source":"../source-target-priority-work/raw-03.json","locator":"ACM publisher result, sections 1, 3, 4, 7","classification":"partial overlap","claim":"Directed random-walk reachability optimization includes rewiring and continuous probability adjustment; therefore those broad themes are prior work."},
+    {"id":"distinction","type":"inference-from-model-comparison","sources":["../source-target-priority-work/raw-03.json","../astra-source-target-explore-work/proposal.md"],"claim":"The available publisher passages describe a different feasible set and objective from one undirected conductance insertion with interval-relative-regret optimization. Direct equivalence of the new characterization is not established."},
+    {"id":"reuse","type":"primary-repository-metadata","source":"raw-01.json","locator":"repository lines 148-160, 184-238","claim":"Author repository exposes implementation scripts, preprocessing guidance and requirements; no execution was performed."},
+    {"id":"license-gap","type":"bounded-inspection-gap","sources":["raw-01.json","raw-02.json"],"claim":"No license declaration was visible in the inspected root/README; dataset landing page fetch failed. Code/data reuse terms remain unverified, not prohibited by inference."}
+  ],
+  "independent_source_audit":"pending",
+  "new_queries":0,
+  "new_page_accesses":3,
+  "finds":0
+}

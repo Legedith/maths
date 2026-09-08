@@ -1,0 +1,46 @@
+﻿[
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-fixed-source-limit-explore-work\\check.py",
+        "sha256":  "303fc35ff16f919a99fd66530d705e7513ead7c7e5d720f49b0b4ac291ed3a5a"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-fixed-source-limit-explore-work\\plan.md",
+        "sha256":  "74b41a5758a75a24372fb83734e1429d5463714cc3ad85b0a50ab50e0344ae4e"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-fixed-source-limit-explore-work\\proposal.md",
+        "sha256":  "3d0ae18bbef7aba00aed0bf0d4e6ffbbcf567538a131061d6faf66b984d7c173"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-fixed-source-limit-explore-work\\pyproject.toml",
+        "sha256":  "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-fixed-source-limit-explore-work\\result.json",
+        "sha256":  "44b52dde1867e4490cfc0093e82adf171b351771ce429edf5ed941d92c1f34a9"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-fixed-source-limit-explore-work\\uv.lock",
+        "sha256":  "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-fixed-source-limit-explore-work\\logs\\attempt-explore01.json",
+        "sha256":  "b95e878ed2163eace6a622ce75a2becd3949d149812902f01c67ab3318d8c5d3"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-fixed-source-limit-explore-work\\logs\\attempt-explore01.stderr.bin",
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-fixed-source-limit-explore-work\\logs\\attempt-explore01.stdout.bin",
+        "sha256":  "9b2527130498a3af9719a055484de24dc1e6f0c0b71553f1c26e136122fd30e0"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-fixed-source-limit-explore-work\\logs\\attempts.jsonl",
+        "sha256":  "534a09c77b4bc463c7cf1ced65c7ae79a4f78e1baceec7774e2910b975169bda"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-three-part-proof\\run_logged.py",
+        "sha256":  "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6"
+    }
+]

@@ -1,0 +1,18 @@
+{
+  "input_bundle_sha256": "7f1458bc66bac575d1ed9bd1298df27a201edbb8846097ee63f485263d095c70",
+  "artifacts": 120,
+  "claims": 8,
+  "round": 1,
+  "pre_review_resolution": [
+    {
+      "id": "A066",
+      "uri": "https://doi.org/10.1145/3744658",
+      "reason": "Primary URLs and exact requests are in pinned source notes; no unsupported exact retrieval timestamp is added."
+    },
+    {
+      "id": "A075",
+      "uri": "https://github.com/alexmartinezmiguel/reachability/tree/20f35f4c28da3f40049f5b10caa64a3371905cb8",
+      "reason": "Primary URLs and exact requests are in pinned source notes; no unsupported exact retrieval timestamp is added."
+    }
+  ]
+}

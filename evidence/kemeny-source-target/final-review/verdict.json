@@ -1,0 +1,81 @@
+{
+    "auditor":  "/root/astra_ranking_verifier",
+    "hosted_ci_approval":  false,
+    "checks":  [
+                   {
+                       "status":  "pass",
+                       "evidence":  [
+                                        "A047",
+                                        "A108",
+                                        "A110",
+                                        "A112",
+                                        "A116",
+                                        "A117",
+                                        "A120"
+                                    ],
+                       "id":  "implementation_alignment",
+                       "auditor":  "/root/astra_ranking_verifier",
+                       "note":  "Deployed modules, API, source-target model and CI configuration match audited implementation."
+                   },
+                   {
+                       "status":  "pass",
+                       "evidence":  [
+                                        "A030",
+                                        "A036",
+                                        "A039",
+                                        "A042",
+                                        "A047",
+                                        "A053",
+                                        "A054",
+                                        "A055",
+                                        "A056",
+                                        "A057"
+                                    ],
+                       "id":  "reproduction",
+                       "auditor":  "/root/astra_ranking_verifier",
+                       "note":  "Root/worker/reviewer bytes match,30direct checks and full balance certificate; raw histories retained."
+                   },
+                   {
+                       "status":  "pass",
+                       "evidence":  [
+                                        "A066",
+                                        "A069",
+                                        "A075",
+                                        "A077",
+                                        "A079",
+                                        "A104",
+                                        "A015"
+                                    ],
+                       "id":  "source_verification",
+                       "auditor":  "/root/astra_ranking_verifier",
+                       "note":  "120hashes,29locators,8local raw source hashes verified; primary static normalization and precise transfer limits supported."
+                   },
+                   {
+                       "status":  "pass",
+                       "evidence":  [
+                                        "A001",
+                                        "A015",
+                                        "A047",
+                                        "A088",
+                                        "A091",
+                                        "A094",
+                                        "A097",
+                                        "A104",
+                                        "A114",
+                                        "A116",
+                                        "A117",
+                                        "A119",
+                                        "A120"
+                                    ],
+                       "id":  "specification_compliance",
+                       "auditor":  "/root/astra_ranking_verifier",
+                       "note":  "Uniform-source domain, quasiconvex completeness, distinct boundary and failed setup history preserved; local only."
+                   }
+               ],
+    "round":  1,
+    "input_bundle_sha256":  "7f1458bc66bac575d1ed9bd1298df27a201edbb8846097ee63f485263d095c70",
+    "required_corrections":  [
+
+                             ],
+    "status":  "pass"
+}

@@ -1,0 +1,9 @@
+{
+  "scope":"independent analytic audit of fixed-source weighted-path nonattainment",
+  "gates":{"claim_source_integrity":"PASS","mathematical_integrity":"PASS","analytic_reproduction_integrity":"PASS","domain_conclusion_integrity":"PASS"},
+  "new_evaluator_invocations":0,
+  "verification_method":"independent exact first-step elimination and rational calculus",
+  "required_corrections":[],
+  "release_approval":false,
+  "evidence":["review.md","plan.md"]
+}

@@ -1,0 +1,14 @@
+﻿[
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-priority-review-work\\input-hash-check.json",
+        "sha256":  "fc33b491196c6335c1bd435bb708437bdc534e3912f4084cd25f4bdfbf22947f"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-priority-review-work\\review.md",
+        "sha256":  "0550bed29afcbe2aafa8987f9c3449e31f447576a67644d68ec7bbd9fa10eaa2"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-source-target-priority-review-work\\verdict.json",
+        "sha256":  "df3793d8457dfdb480be199a4b2b46e2d38a3c2f294b36022c989aca2ba4553d"
+    }
+]

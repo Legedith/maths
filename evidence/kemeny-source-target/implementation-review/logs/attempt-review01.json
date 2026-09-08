@@ -1,0 +1,37 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--project",
+    "D:/CodexWorkspaces/mathematics-atlas/astra-source-target-portable-review-work",
+    "--frozen",
+    "python",
+    "D:/CodexWorkspaces/mathematics-atlas/astra-source-target-portable-review-work/verify_source_target.py",
+    "--output",
+    "D:/CodexWorkspaces/mathematics-atlas/astra-source-target-portable-review-work/fresh-replay.json"
+  ],
+  "attempt_id": "review01",
+  "ended_at_utc": "2026-09-08T20:22:50.504167+00:00",
+  "returncode": 0,
+  "schema_version": "logged-command-attempt-v1",
+  "selected_environment": {
+    "PYTHONDONTWRITEBYTECODE": null,
+    "UV_CACHE_DIR": "D:/CodexWorkspaces/mathematics-atlas/astra-source-target-portable-review-work/uv-cache",
+    "UV_PROJECT_ENVIRONMENT": "D:/CodexWorkspaces/mathematics-atlas/astra-source-target-portable-review-work/.venv"
+  },
+  "started_at_utc": "2026-09-08T20:22:49.559465+00:00",
+  "stderr": {
+    "bytes": 0,
+    "path": "attempt-review01.stderr.bin",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 57,
+    "path": "attempt-review01.stdout.bin",
+    "sha256": "c56aefa5068151e8843ce8130f33dfb9c513c7982bcb5194a6b98a85712e293a"
+  },
+  "termination": null,
+  "timed_out": false,
+  "timeout_seconds": 90,
+  "working_directory": "C:\\Users\\Legedith\\Documents\\ChatGPT\\maths"
+}

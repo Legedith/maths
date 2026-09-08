@@ -1,0 +1,14 @@
+{
+  "search_query": [
+    {
+      "q": "\"uniform source\" \"hitting time\" \"edge\" optimization"
+    },
+    {
+      "q": "\"mean first passage time\" \"edge addition\" weighted networks optimization"
+    },
+    {
+      "q": "\"target\" \"hitting time\" \"network design\" random walk optimization"
+    }
+  ],
+  "response_length": "long"
+}

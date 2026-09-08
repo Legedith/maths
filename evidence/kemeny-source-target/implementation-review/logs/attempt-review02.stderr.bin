@@ -1,0 +1,2 @@
+usage: verify_source_target.py [-h] --output OUTPUT
+verify_source_target.py: error: output already exists
