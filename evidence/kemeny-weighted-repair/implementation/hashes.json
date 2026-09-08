@@ -1,0 +1,94 @@
+[
+    {
+        "Hash":  "43FD694BD564DD2215F51A6B23F6A3712834850225E629D7781C81C71076092D",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\.python-version"
+    },
+    {
+        "Hash":  "1FA7DA6D67B75B26015F4F3EC417E22A579B1D8985F6CE09E9B7C19A8635BE0D",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\attempt1-argv.json"
+    },
+    {
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\attempt1-rc.txt"
+    },
+    {
+        "Hash":  "133489D36BCEE09756924C9AACF392D7BC8DAB71E232BD8B23DA1DBF23AAAE49",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\attempt1-stderr.txt"
+    },
+    {
+        "Hash":  "2E2D814388364ACDDEEB0DC71D5665442D0221169869FEB7D5F8730689BF7FBD",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\attempt1-stdout.txt"
+    },
+    {
+        "Hash":  "401F155E9F8487374F12E19AC721AD7618E91FD7DFB9C5F8B49F80403468D25A",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\attempt2-argv.json"
+    },
+    {
+        "Hash":  "7CC769BC368FA187DE842FE11750C8D51511420C1098312F49F36CBB3502F90A",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\attempt2-plan.md"
+    },
+    {
+        "Hash":  "13BF7B3039C63BF5A50491FA3CFD8EB4E699D1BA1436315AEF9CBE5711530354",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\attempt2-rc.txt"
+    },
+    {
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\attempt2-stderr.txt"
+    },
+    {
+        "Hash":  "2E2D814388364ACDDEEB0DC71D5665442D0221169869FEB7D5F8730689BF7FBD",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\attempt2-stdout.txt"
+    },
+    {
+        "Hash":  "DCD6953F9AD73C78873E117B0A91A9C2C108623E203A91C15D8D26B330F0900B",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\check-01.json"
+    },
+    {
+        "Hash":  "DCD6953F9AD73C78873E117B0A91A9C2C108623E203A91C15D8D26B330F0900B",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\check-02.json"
+    },
+    {
+        "Hash":  "D8966087EE1D5DBC2E507190BE15E17F91A239FA58DFC8916617B9285F58195C",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\implementation-notes.md"
+    },
+    {
+        "Hash":  "13FFD8A811C450F78E1E4F1ED7F173AD9359D945657226DDEE3CC94E85C58524",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\plan.md"
+    },
+    {
+        "Hash":  "A8679BFC0476154DDC4EF5826510445DB303E16ADD568BED3A580AE72254BEDF",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\pyproject.toml"
+    },
+    {
+        "Hash":  "CB826306332224B6817AEBFF49CD313383A17E12652AEBC3682FFB8C1D3F6D5A",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\run_attempt2.py"
+    },
+    {
+        "Hash":  "DAA02C1A3656829DEF24A7E81ABE69D55AFE77E7FFA97A7311A788C1893D280F",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\uniform-noop.json"
+    },
+    {
+        "Hash":  "3B7DF821E983B715B98369EA3CC2FE89196CCD17C29EDE949C7058EC6D259CEC",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\uniform-weighted.json"
+    },
+    {
+        "Hash":  "BEE89F2A7C9AE018F566FCEC18F429F8BD5C388BF3CFFEA1FC35CF118B89754F",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\uv.lock"
+    },
+    {
+        "Hash":  "4EBDE785CE3515A0D4D5284B71F5E04A5A536197DC315CAE60D293435682B2F9",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\verify_all_deletions.py"
+    },
+    {
+        "Hash":  "EF5D3B84E9F78AC3E6E4840A3BE675C2806F3DF7AA89EFA1EF4D5B776DCC4FFD",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\verify_certificate.py"
+    },
+    {
+        "Hash":  "08D338487DDA30C3E7ABCAE09DC70B644073ADB348762F5419DC17C1EB0F4302",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\verify_uniform_repair.py"
+    },
+    {
+        "Hash":  "71E0EFBF26F28B4C8B73662FC26E5F123DD285A0F81F266FD50463125B9CCD0D",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\verify_weighted_repair.py"
+    }
+]

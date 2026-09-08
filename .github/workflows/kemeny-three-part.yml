@@ -101,6 +101,16 @@ jobs:
           --ranking-certificate experiments/kemeny-one-deletion-proof/uniform-ranking.json
           --noop-certificate experiments/kemeny-one-deletion-proof/uniform-noop.json
           --output work/kemeny-failure-ci/uniform-repair.json
+      - name: Check weighted repair and strength premises
+        run: >-
+          uv run --project experiments/kemeny-one-deletion-proof --frozen python
+          experiments/kemeny-three-part-proof/run_logged.py
+          --attempt-id weighted-repair --timeout-seconds 90
+          --log-dir work/kemeny-failure-ci/logs -- python
+          experiments/kemeny-one-deletion-proof/verify_weighted_repair.py
+          --weighted-certificate experiments/kemeny-one-deletion-proof/uniform-weighted.json
+          --noop-certificate experiments/kemeny-one-deletion-proof/uniform-noop.json
+          --output work/kemeny-failure-ci/weighted-repair.json
       - name: Retain single-failure proof results
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4

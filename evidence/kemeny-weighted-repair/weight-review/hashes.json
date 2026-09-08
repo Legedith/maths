@@ -1,0 +1,62 @@
+[
+    {
+        "Hash":  "F641812FF02681BB939612E6BC7C8AB96F11C7C24A09A0D07362CDAB511468D2",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-weight-review-work\\batch1-argv.json"
+    },
+    {
+        "Hash":  "186A919B8C7CB84AEBF4E53C70CD1CC028A93A1D183EE29DD6E10CD18A714577",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-weight-review-work\\batch1-rc.txt"
+    },
+    {
+        "Hash":  "0B4466037052252825C7B90EEEC2B71B440085710983E83EE8445A3804401D79",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-weight-review-work\\batch1-stderr.txt"
+    },
+    {
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-weight-review-work\\batch1-stdout.txt"
+    },
+    {
+        "Hash":  "B3963864F7073C0C62A1F78314A174DAB41B4B2F4BE6B2D03A5E332F624282C8",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-weight-review-work\\batch2-argv.json"
+    },
+    {
+        "Hash":  "623EA2688044FF3C6C5878A480776E222B57BDF682D3A5947569EB4B3C8F1F54",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-weight-review-work\\batch2-plan.md"
+    },
+    {
+        "Hash":  "13BF7B3039C63BF5A50491FA3CFD8EB4E699D1BA1436315AEF9CBE5711530354",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-weight-review-work\\batch2-rc.txt"
+    },
+    {
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-weight-review-work\\batch2-stderr.txt"
+    },
+    {
+        "Hash":  "07311A38140EE29C7DB969CC39EDF81B9090809FCD66AB193131543895DCCC1A",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-weight-review-work\\batch2-stdout.txt"
+    },
+    {
+        "Hash":  "AC7B97EDCF21BB22B241B287738FB0E3F9F553C60C9BEA371ECCF2DF96B49E32",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-weight-review-work\\check.py"
+    },
+    {
+        "Hash":  "026B45BA9821AB0573F61980AAD71572AAE37AC9DB72AD6BD181D0F9FC63875C",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-weight-review-work\\check2.py"
+    },
+    {
+        "Hash":  "CA89A2A760BF9B68885B7F44FDFBAD78C99CF04DB1540DA591A4A5B184C5A639",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-weight-review-work\\plan.md"
+    },
+    {
+        "Hash":  "9E9E0AB8BAC3680B12B72449DA9CC0C7C56264C348212D2537662AA4942AB4BC",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-weight-review-work\\result.json"
+    },
+    {
+        "Hash":  "221338DFCE7A9E799C8689C806381598F8237FBC38ECEE6A60D4D2C3DB74A137",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-weight-review-work\\review.md"
+    },
+    {
+        "Hash":  "C5E81FAE62852D6BCC059423CFCE4928F5C8AEFE5941EBFC5F65DB2712D6B148",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-weight-review-work\\semantic-notes.md"
+    }
+]

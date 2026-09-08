@@ -1,0 +1,47 @@
+[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "2FFE945A8E00C79AF1E2401CA23013ECDAEE34CBB689470C8EA0D768EC975ECF",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-strength-work\\argv.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "5A1CBE422D878754F22181B59ABB935332170FCC5FD6FF73DA2A230BE0C6B874",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-strength-work\\batch1.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "BE8B1CDA629AEB1252F9DB4D42B1B1A02441E97F9507741665A2A05D926AF348",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-strength-work\\input-hash.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "AA1D59E4F4EB5ACF86D8C3592488949E5193BD1007ECFCE1A4D9BFB105C2D041",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-strength-work\\plan.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "49CE5A4D478558006B27D22EDC7BE1087B4BDA791C9D7B5BA97548265EEC7632",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-strength-work\\proposal.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "13BF7B3039C63BF5A50491FA3CFD8EB4E699D1BA1436315AEF9CBE5711530354",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-strength-work\\rc.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "E7C30D22C9733A35AE3B9C62914B5519681C6603C40B133D101565B53D4FEF17",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-strength-work\\result.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-strength-work\\stderr.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "AD892EF2C84FCE949A1EEADA1CC1FE3561EB13FADA70B99C36B66D939627FBAE",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-strength-work\\stdout.txt"
+    }
+]

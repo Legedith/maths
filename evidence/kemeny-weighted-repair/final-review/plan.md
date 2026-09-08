@@ -1,0 +1,2 @@
+# Final weighted review round1
+Strict UTF8 locator reading (no fallback), all148 hashes125 copies12 claims and typed requirements/dependencies; reuse independent math/portable/source-normalization audits. Static workflow, final prose algebra/global endpoints and finite values checked from already accepted records; no symbolic rerun. Maximum2 Critic/Resolve rounds. uv Python3.12.11 stage-local cache. Finalgate/actualCI not preattested.

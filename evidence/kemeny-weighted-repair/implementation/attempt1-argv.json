@@ -1,0 +1,14 @@
+[
+    "run",
+    "--frozen",
+    "--project",
+    "D:/CodexWorkspaces/mathematics-atlas/weighted-portable-work",
+    "python",
+    "D:/CodexWorkspaces/mathematics-atlas/weighted-portable-work/verify_weighted_repair.py",
+    "--weighted-certificate",
+    "D:/CodexWorkspaces/mathematics-atlas/weighted-portable-work/uniform-weighted.json",
+    "--noop-certificate",
+    "D:/CodexWorkspaces/mathematics-atlas/weighted-portable-work/uniform-noop.json",
+    "--output",
+    "D:/CodexWorkspaces/mathematics-atlas/weighted-portable-work/check-01.json"
+]

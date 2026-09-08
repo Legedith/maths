@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "scope": "Seven input hashes and retained primary-locator availability only; semantic reading is documented in review.md.",
+  "inputs": [
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-priority-work\\queries.json",
+      "sha256": "312717959df9f95af1bb128aa38aa54d042e9ae2ec8f68f3082691249d86416d",
+      "matches_frozen_input": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-priority-work\\raw-find.json",
+      "sha256": "52bae72426f8fa0ef03f1cf7386dfb4ff156d1b2decefae88ef97cc713d7b9db",
+      "matches_frozen_input": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-priority-work\\raw-follow.json",
+      "sha256": "ec88c6d2f1160a4c3e37c35d4e50153e9fe8c9d3a3e2cbac5d0d412b2bc76a3d",
+      "matches_frozen_input": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-priority-work\\raw-primary-final.json",
+      "sha256": "cf2448f4caa49dfcfab824e9aea509bc7e26b5b45abc2a337dfd508acf20c7b5",
+      "matches_frozen_input": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-priority-work\\raw-search.json",
+      "sha256": "2fe5320cc7f6fab015ea514c0de5c1343ba12fb6f9eaa551ced8193853f86e62",
+      "matches_frozen_input": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-priority-work\\report.md",
+      "sha256": "d5031f93f51e4faea381c314622dfb9518d2d9730a972aecca9edd4a0ea7febb",
+      "matches_frozen_input": true
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-strength-priority-work\\source-notes.md",
+      "sha256": "f5972281ee8049cb4e30ff6bc8e29d2e2c4c604a0d05bc78303deb5da49ac2ab",
+      "matches_frozen_input": true
+    }
+  ]
+}

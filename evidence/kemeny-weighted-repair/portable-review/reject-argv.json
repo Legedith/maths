@@ -1,0 +1,15 @@
+[
+  "uv",
+  "run",
+  "--frozen",
+  "--project",
+  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work",
+  "python",
+  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work\\verify_weighted_repair.py",
+  "--weighted-certificate",
+  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work\\modified.json",
+  "--noop-certificate",
+  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work\\uniform-noop.json",
+  "--output",
+  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work\\rejected-output.json"
+]

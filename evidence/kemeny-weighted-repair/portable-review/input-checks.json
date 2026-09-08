@@ -1,0 +1,31 @@
+{
+  "worker_hashes_checked": [
+    "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\.python-version",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\attempt1-argv.json",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\attempt1-rc.txt",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\attempt1-stderr.txt",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\attempt1-stdout.txt",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\attempt2-argv.json",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\attempt2-plan.md",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\attempt2-rc.txt",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\attempt2-stderr.txt",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\attempt2-stdout.txt",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\check-01.json",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\check-02.json",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\implementation-notes.md",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\plan.md",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\pyproject.toml",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\run_attempt2.py",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\uniform-noop.json",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\uniform-weighted.json",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\uv.lock",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\verify_all_deletions.py",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\verify_certificate.py",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\verify_uniform_repair.py",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\weighted-portable-work\\verify_weighted_repair.py"
+  ],
+  "copies_identical": true,
+  "attempt1_rc_unknown": true,
+  "attempt2_rc_zero_empty_stderr": true,
+  "worker_outputs_equal": true
+}

@@ -1,0 +1,42 @@
+{
+  "six_identities": {
+    "uv>restore:intercept": true,
+    "uv>restore:slope": true,
+    "uv>untouched_A:intercept": true,
+    "uv>untouched_A:slope": true,
+    "B>uv:intercept": true,
+    "B>uv:slope": true
+  },
+  "crossing": "12",
+  "at_crossing": {
+    "restore": "2/385",
+    "uv": "1093/195580",
+    "untouched_A": "2/385",
+    "B": "2/385",
+    "C": "2/297"
+  },
+  "grounded_rs": {
+    "restore": [
+      "5/28",
+      "4/245"
+    ],
+    "uv": [
+      "59/308",
+      "1093/59290"
+    ],
+    "untouched_A": [
+      "2/11",
+      "2/121"
+    ],
+    "B": [
+      "2/11",
+      "2/121"
+    ],
+    "C": [
+      "2/9",
+      "2/81"
+    ]
+  },
+  "python": "3.12.11 (main, Sep 18 2025, 19:45:51) [MSC v.1944 64 bit (AMD64)]",
+  "sympy": "1.14.0"
+}

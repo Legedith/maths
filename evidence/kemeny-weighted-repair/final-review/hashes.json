@@ -1,0 +1,38 @@
+[
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-final-review-work\\attestation.json",
+        "Hash":  "393C607A7D1FBF6F8D6E9DB4D813C8FA6929C3B773A88E94E42EC4ADDD175423"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-final-review-work\\inspect.rc",
+        "Hash":  "13BF7B3039C63BF5A50491FA3CFD8EB4E699D1BA1436315AEF9CBE5711530354"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-final-review-work\\inspect.stderr",
+        "Hash":  "4481DA357C73B74146D02ACAFDE2A9BF0C070B74B255D169A3D8F4AC5C52A3EE"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-final-review-work\\inspect.stdout",
+        "Hash":  "2E90207EA8567FA43ABFC25DD274C7AD1FEBF32E19CE9EFEA951BC5B387B43A0"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-final-review-work\\inspection.json",
+        "Hash":  "EF20EC848623458930826540BEFAABC3651A74EE1DE3E1DECF59415341A463D8"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-final-review-work\\inspect_bundle.py",
+        "Hash":  "F43254F777A85B3DDEB7A3A239ED44F742EF25123AE0C00C193D40BA4CAD6CA3"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-final-review-work\\plan.md",
+        "Hash":  "122380AB6F4FFBDA3D27D822F6E6D7768BD7985F96A2D6C6D9CE007361462484"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-final-review-work\\reused-byte-check.json",
+        "Hash":  "945B43B50D4040DB6FD2F2E757F6B080A7E6AAA82DD9906A3A80887D9D308000"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-final-review-work\\review.md",
+        "Hash":  "EE25CACB3C344042D400042AF9698A2C7D57C923873A4DF6E79130259147CD73"
+    }
+]

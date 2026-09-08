@@ -1,0 +1,12 @@
+{
+  "derivative_identity": true,
+  "critical_equation": true,
+  "radicand": "1573160/1037853",
+  "inverse_r": "189/59",
+  "derivative_at_0": "-9073/17010",
+  "derivative_at_1": "66587/538160",
+  "B": "4271/13230",
+  "strict_between_0_and_1": true,
+  "python": "3.12.11 (main, Sep 18 2025, 19:45:51) [MSC v.1944 64 bit (AMD64)]",
+  "sympy": "1.14.0"
+}

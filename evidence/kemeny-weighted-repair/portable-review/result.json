@@ -1,0 +1,7 @@
+{
+  "pass": true,
+  "replay_exactly_worker_canonical": true,
+  "nine_identities": 9,
+  "changed_weighted_certificate_rejected": true,
+  "scope": "portable changed code only; generic analytic proof reused"
+}

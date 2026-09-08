@@ -1,0 +1,22 @@
+[
+    {
+        "path":  "evidence/kemeny-weighted-repair/integration/check-01.json",
+        "hash":  "dcd6953f9ad73c78873e117b0a91a9c2c108623e203a91c15d8d26b330f0900b"
+    },
+    {
+        "path":  "evidence/kemeny-weighted-repair/implementation/check-02.json",
+        "hash":  "dcd6953f9ad73c78873e117b0a91a9c2c108623e203a91c15d8d26b330f0900b"
+    },
+    {
+        "path":  "evidence/kemeny-weighted-repair/portable-review/replay.json",
+        "hash":  "dcd6953f9ad73c78873e117b0a91a9c2c108623e203a91c15d8d26b330f0900b"
+    },
+    {
+        "path":  "experiments/kemeny-one-deletion-proof/verify_weighted_repair.py",
+        "hash":  "71e0efbf26f28b4c8b73662fc26e5f123dd285a0f81f266fd50463125b9ccd0d"
+    },
+    {
+        "path":  "evidence/kemeny-weighted-repair/portable-review/verify_weighted_repair.py",
+        "hash":  "71e0efbf26f28b4c8b73662fc26e5f123dd285a0f81f266fd50463125b9ccd0d"
+    }
+]

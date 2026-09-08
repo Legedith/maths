@@ -1,0 +1,82 @@
+[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "67A477269D864CE7B14C371AEF49AE9C8E2C3735554F87E2DC721E8E5039E5C8",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-weight-work\\batch1-argv.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "13BF7B3039C63BF5A50491FA3CFD8EB4E699D1BA1436315AEF9CBE5711530354",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-weight-work\\batch1-rc.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-weight-work\\batch1-stderr.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "DE70AA56BF256AEA1D8977EF22921706F57771CD17A497494B237D2688F24CF8",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-weight-work\\batch1-stdout.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "02CEAD443A53A3E07D8CD4BB712BD647CF38BA21F69FBF79ACB57EFC92C0ADCF",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-weight-work\\batch1.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "9A5FF291CC52E30195D31FC839DDBD5E57442F049ACB1627F047C28556B96F33",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-weight-work\\batch1.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "6AEFD642F5EC9DD839A584A381294D1AEF9B577D131182F0D5A399231EAA38C5",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-weight-work\\batch2-argv.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "98BE9685EF83EBCFC7489D26B653ED332CD102677D8BFCDF7C39C9368A007C94",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-weight-work\\batch2-plan.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "13BF7B3039C63BF5A50491FA3CFD8EB4E699D1BA1436315AEF9CBE5711530354",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-weight-work\\batch2-rc.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-weight-work\\batch2-stderr.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "92A3626ED8F66586905430BF86C4AF417623F715FF8AF21D26DB5D27C35FC3EE",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-weight-work\\batch2-stdout.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "3B7DF821E983B715B98369EA3CC2FE89196CCD17C29EDE949C7058EC6D259CEC",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-weight-work\\batch2.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "FBDB2A5FE8C6B38DBBACCDD70A685AC43F40591CDBD1C7761167BDCED31F451D",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-weight-work\\batch2.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "BE8B1CDA629AEB1252F9DB4D42B1B1A02441E97F9507741665A2A05D926AF348",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-weight-work\\input-hash.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "7F0F1999057DEFC8B00068963EBBCBB49524B7517E341B8296F6E923A5E786DC",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-weight-work\\plan.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "C5DEEC9825EFABEDF53E59C6D99CA111B5722612CEE96A596B825A5445978C84",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-weight-work\\proposal.md"
+    }
+]

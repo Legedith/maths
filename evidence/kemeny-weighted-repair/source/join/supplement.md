@@ -1,0 +1,7 @@
+# Join-formula overlap supplement for a future release
+
+The damaged graph is an ordinary join, although it is not complete multipartite. Put X=H[A union {h}] and Y=K_(b,c). X consists of a star centered at h on A excluding u, together with isolated u. Every X-Y edge exists, so H=X join Y. All missing edges are internal to X or Y. Thus every legal insertion has the form (X+e) join Y or X join (Y+e), including restoration.
+
+Consequently the general ordinary-join evaluation methods described in [Sedlak and Slavik, Resistance distances and Kirchhoff indices in graph joins](https://doi.org/10.1088/1751-8121/ae2997), introduction and Section2 preview, are a potentially applicable route to ALL candidate values, not only the intact graph. Full Theorems2.5-2.6 and their factor-connectedness assumptions remain unretrieved. X is disconnected before insertion and after an untouched-A or B/C insertion; it becomes connected after restoration or an incident-u A insertion. The available publisher material therefore does not yet justify unconditional application of those named theorems to every case.
+
+General evaluation formulas do not themselves establish the required family-wide ordering inequalities or the no-action comparison. No accessible passage was found stating that exact optimization result; incomplete access cannot establish its absence. This supplements an explicitly unresolved lead, not a new priority claim. Full theorem hypotheses, other optimization statements and final versions remain to be checked.

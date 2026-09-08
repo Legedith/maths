@@ -1,0 +1,34 @@
+[
+    {
+        "Hash":  "9ED02BEC2D7A115062DE6B6ECDFD4372ED3BE5042448AB15B373353CD2D13263",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-strength-review-work\\batch1-argv.json"
+    },
+    {
+        "Hash":  "13BF7B3039C63BF5A50491FA3CFD8EB4E699D1BA1436315AEF9CBE5711530354",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-strength-review-work\\batch1-rc.txt"
+    },
+    {
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-strength-review-work\\batch1-stderr.txt"
+    },
+    {
+        "Hash":  "D689104EE6484A5E902BFD0A98FBDD0C28B037EF5E48A8BC7E8BD6D2DB63C321",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-strength-review-work\\batch1-stdout.txt"
+    },
+    {
+        "Hash":  "13B6CAB862C4A0657EECB48AEB168E90BA19D6CD72FDCD50543164726D782789",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-strength-review-work\\check.py"
+    },
+    {
+        "Hash":  "BF16B9360237F5858031DA1B03D5CDFBDC41DE9129AFD560D2940D7B476404DF",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-strength-review-work\\plan.md"
+    },
+    {
+        "Hash":  "AADC64F76B29988E4132326E4FBBDE466C8AF661D6825FC40EFF40CE0516111D",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-strength-review-work\\result.json"
+    },
+    {
+        "Hash":  "3370E801BD377B112DCFF30082A6DC6B15EAFAB1E5B5C3608DE2FD8584380EA7",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-strength-review-work\\review.md"
+    }
+]

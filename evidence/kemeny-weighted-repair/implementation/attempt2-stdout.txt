@@ -1,0 +1,140 @@
+{
+  "schema_version": "weighted-repair-nine-comparisons-v1",
+  "pass": true,
+  "weighted_certificate_sha256": "3b7df821e983b715b98369ea3cc2fe89196ccd17c29ede949c7058ec6d259cec",
+  "noop_certificate_sha256": "daa02c1a3656829def24a7e81abe69d55afe77e7ffa97a7311a788c1893d280f",
+  "implementation_sha256": {
+    "verify_certificate.py": "ef5d3b84e9f78ac3e6e4840a3be675c2806f3df7aa89efa1ef4d5b776dcc4ffd",
+    "verify_all_deletions.py": "4ebde785ce3515a0d4d5284b71f5e04a5a536197dc315cae60d293435682b2f9",
+    "verify_uniform_repair.py": "08d338487dda30c3e7abcae09dc70b644073adb348762f5419dc17c1eb0f4302",
+    "verify_weighted_repair.py": "71e0efbf26f28b4c8b73662fc26e5f123dd285a0f81f266fd50463125b9ccd0d"
+  },
+  "comparisons": [
+    {
+      "comparison": "uv>restore:intercept",
+      "substitution": "a=3+x,b=3+x+y,c=3+x+z",
+      "exact_rational_identity": true,
+      "positive_numerator_and_denominator": true,
+      "positive_reconstruction_denominator": true,
+      "numerator_term_count": 7,
+      "minimum_numerator_coefficient": 2,
+      "numerator_constant": 16,
+      "denominator_constant": 3969
+    },
+    {
+      "comparison": "uv>restore:slope",
+      "substitution": "a=3+x,b=3+x+y,c=3+x+z",
+      "exact_rational_identity": true,
+      "positive_numerator_and_denominator": true,
+      "positive_reconstruction_denominator": true,
+      "numerator_term_count": 16,
+      "minimum_numerator_coefficient": 2,
+      "numerator_constant": 68,
+      "denominator_constant": 142884
+    },
+    {
+      "comparison": "uv>untouched_A:intercept",
+      "substitution": "a=3+x,b=3+x+y,c=3+x+z",
+      "exact_rational_identity": true,
+      "positive_numerator_and_denominator": true,
+      "positive_reconstruction_denominator": true,
+      "numerator_term_count": 20,
+      "minimum_numerator_coefficient": 2,
+      "numerator_constant": 1212,
+      "denominator_constant": 142884
+    },
+    {
+      "comparison": "uv>untouched_A:slope",
+      "substitution": "a=3+x,b=3+x+y,c=3+x+z",
+      "exact_rational_identity": true,
+      "positive_numerator_and_denominator": true,
+      "positive_reconstruction_denominator": true,
+      "numerator_term_count": 10,
+      "minimum_numerator_coefficient": 2,
+      "numerator_constant": 192,
+      "denominator_constant": 142884
+    },
+    {
+      "comparison": "B>uv:intercept",
+      "substitution": "a=3+x,b=4+x+y,c=3+x+z",
+      "exact_rational_identity": true,
+      "positive_numerator_and_denominator": true,
+      "positive_reconstruction_denominator": true,
+      "numerator_term_count": 77,
+      "minimum_numerator_coefficient": 2,
+      "numerator_constant": 63406,
+      "denominator_constant": 15366400
+    },
+    {
+      "comparison": "B>uv:slope",
+      "substitution": "a=3+x,b=4+x+y,c=3+x+z",
+      "exact_rational_identity": true,
+      "positive_numerator_and_denominator": true,
+      "positive_reconstruction_denominator": true,
+      "numerator_term_count": 50,
+      "minimum_numerator_coefficient": 2,
+      "numerator_constant": 8036,
+      "denominator_constant": 15366400
+    },
+    {
+      "comparison": "improvement_equal",
+      "substitution": "a=b=c=3+x",
+      "exact_rational_identity": true,
+      "positive_numerator_and_denominator": true,
+      "positive_reconstruction_denominator": true,
+      "numerator_term_count": 6,
+      "minimum_numerator_coefficient": 216,
+      "numerator_constant": 100288,
+      "denominator_constant": 624960
+    },
+    {
+      "comparison": "improvement_one_larger",
+      "substitution": "a=c=3+x,b=4+x+y",
+      "exact_rational_identity": true,
+      "positive_numerator_and_denominator": true,
+      "positive_reconstruction_denominator": true,
+      "numerator_term_count": 26,
+      "minimum_numerator_coefficient": 2,
+      "numerator_constant": 53102,
+      "denominator_constant": 388080
+    },
+    {
+      "comparison": "improvement_both_larger",
+      "substitution": "a=3+x,c=4+x+z,b=4+x+z+y",
+      "exact_rational_identity": true,
+      "positive_numerator_and_denominator": true,
+      "positive_reconstruction_denominator": true,
+      "numerator_term_count": 117,
+      "minimum_numerator_coefficient": 1,
+      "numerator_constant": 190464,
+      "denominator_constant": 6082560
+    }
+  ],
+  "finite_diagnostics": {
+    "scope": "Two finite rational diagnostics only; generic calculus and joint optimality require the accompanying independent proof.",
+    "crossing_parts": [
+      4,
+      4,
+      6
+    ],
+    "crossing": "12",
+    "scores_at_crossing": {
+      "restore": "2/385",
+      "uv": "1093/195580",
+      "untouched_A": "2/385",
+      "B": "2/385",
+      "C": "2/297"
+    },
+    "strength_parts": [
+      3,
+      3,
+      3
+    ],
+    "radical_prefactor": "189/59",
+    "radicand": "1573160/1037853",
+    "fprime_at_one": "66587/538160",
+    "strict_zero_less_strength_less_one": true
+  },
+  "method": "Exact integer polynomial cross-products; only first three variables used, so helper fourth-exponent truncation has no effect.",
+  "proof_boundary": "Certificates verify six affine-component signs and three unit-improvement premises. Connected graph reduction, weighted uniform-walk volume m+t, complete missing-edge orbits, integer-domain coverage, common-t optimum set, generic derivative and endpoint arguments, and joint global strength optimum require accompanying independently audited proofs. Finite diagnostics do not establish generic calculus. No monetary cost, physical-performance or novelty claim."
+}

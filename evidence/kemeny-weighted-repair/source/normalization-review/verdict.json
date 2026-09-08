@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "auditor": "/root",
+  "investigator": "/root/astra_damage_symbolic",
+  "scope": "Known normalized-conductance attribution, explicitly inferred affine-slice equivalence, and bounded priority limits only",
+  "primary_url": "https://stanford.edu/~boyd/papers/pdf/eff_res.pdf",
+  "primary_locator": "printed p38 equation2 and retained raw-follow.json lines58-74",
+  "fresh_open": "timeout; retained primary return used",
+  "generic_new_algorithm_claim": false,
+  "publication_originality_certified": false
+}

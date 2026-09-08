@@ -1,0 +1,118 @@
+[
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work\\.python-version",
+        "Hash":  "43FD694BD564DD2215F51A6B23F6A3712834850225E629D7781C81C71076092D"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work\\input-checks.json",
+        "Hash":  "434FEBA9ABA1CB8AD38DED57D66B72F94FA3A03207FB8F46716D2CFD3A644C40"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work\\modified.json",
+        "Hash":  "B51EDE8762561432FB61C06C2BF518A5B7FE6902737A405017B5D4D5DA9EBCCF"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work\\plan.md",
+        "Hash":  "6579EA2749DD84995C7CBA510761E9A8ECFC9A2575C4454E9539332B7ECE75AD"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work\\prior-review-hashes.json",
+        "Hash":  "8B464F1A3F4573B623802F437C98008CFE11A065DBCD6DDC33312BF1FBA59DF8"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work\\pyproject.toml",
+        "Hash":  "A8679BFC0476154DDC4EF5826510445DB303E16ADD568BED3A580AE72254BEDF"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work\\reject-argv.json",
+        "Hash":  "E7011D5C8BA06AEAC42E9B06EFCD3EF00F90516F4AFADEEA4070CD9E28C18994"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work\\reject.rc",
+        "Hash":  "6B86B273FF34FCE19D6B804EFF5A3F5747ADA4EAA22F1D49C01E52DDB7875B4B"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work\\reject.stderr",
+        "Hash":  "A1E75214C3514504DA8931DF6E9280E3B9B468B8D2AE508F4ABD8CAE02CC194D"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work\\reject.stdout",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work\\replay.json",
+        "Hash":  "DCD6953F9AD73C78873E117B0A91A9C2C108623E203A91C15D8D26B330F0900B"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work\\result.json",
+        "Hash":  "7961F56ED51E687FEC3A55A4CB7AD696845A4273CC47CE474F2F65F19772C8DC"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work\\review-run.py",
+        "Hash":  "86485F2D20405F2C30F36C303B277BBEE48E74B14802247FDCB58CCA60ABCFD0"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work\\review.md",
+        "Hash":  "496D7252EB24DA205973C77B5A54C4C8049A12ADD6AF6FA4F723034B40AE1A3F"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work\\uniform-noop.json",
+        "Hash":  "DAA02C1A3656829DEF24A7E81ABE69D55AFE77E7FFA97A7311A788C1893D280F"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work\\uniform-weighted.json",
+        "Hash":  "3B7DF821E983B715B98369EA3CC2FE89196CCD17C29EDE949C7058EC6D259CEC"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work\\uv.lock",
+        "Hash":  "BEE89F2A7C9AE018F566FCEC18F429F8BD5C388BF3CFFEA1FC35CF118B89754F"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work\\valid-argv.json",
+        "Hash":  "A45B66549342DA2BDA73D1D749103E4650508C05A94CFFB72A101CE2EEC7FC9E"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work\\valid.rc",
+        "Hash":  "5FECEB66FFC86F38D952786C6D696C79C2DBC239DD4E91B46729D73A27FB57E9"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work\\valid.stderr",
+        "Hash":  "3A864F6984CA6EF69AFD1C7BF25A84DECCF1DF8104A5E177973724033E7C4507"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work\\valid.stdout",
+        "Hash":  "2E2D814388364ACDDEEB0DC71D5665442D0221169869FEB7D5F8730689BF7FBD"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work\\verdict.json",
+        "Hash":  "6332AE53EA6A81278E5A87BB6FDE3BE619F3DCCCEE246953386AB898FE5CFD5D"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work\\verify_all_deletions.py",
+        "Hash":  "4EBDE785CE3515A0D4D5284B71F5E04A5A536197DC315CAE60D293435682B2F9"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work\\verify_certificate.py",
+        "Hash":  "EF5D3B84E9F78AC3E6E4840A3BE675C2806F3DF7AA89EFA1EF4D5B776DCC4FFD"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work\\verify_uniform_repair.py",
+        "Hash":  "08D338487DDA30C3E7ABCAE09DC70B644073ADB348762F5419DC17C1EB0F4302"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work\\verify_weighted_repair.py",
+        "Hash":  "71E0EFBF26F28B4C8B73662FC26E5F123DD285A0F81F266FD50463125B9CCD0D"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work\\wrapper.rc",
+        "Hash":  "13BF7B3039C63BF5A50491FA3CFD8EB4E699D1BA1436315AEF9CBE5711530354"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work\\wrapper.stderr",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weighted-portable-review-work\\wrapper.stdout",
+        "Hash":  "794E9F10F2B4CA934A3F1885CBDC755E89134DE88F08B7971558AB224BC78B1B"
+    }
+]

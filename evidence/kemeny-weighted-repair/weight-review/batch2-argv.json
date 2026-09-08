@@ -1,0 +1,10 @@
+[
+    "run",
+    "--isolated",
+    "--python",
+    "3.12.11",
+    "--with",
+    "sympy==1.14.0",
+    "python",
+    "D:/CodexWorkspaces/mathematics-atlas/astra-uniform-weight-review-work/check2.py"
+]
