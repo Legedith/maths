@@ -1,0 +1,9 @@
+[
+    "run",
+    "--isolated",
+    "--no-project",
+    "--with",
+    "sympy==1.14.0",
+    "python",
+    "D:/CodexWorkspaces/mathematics-atlas/astra-ranking-review-work/check.py"
+]

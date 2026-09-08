@@ -1,0 +1,12 @@
+[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "CA9AA8D9B29ACA9840A525D0AD289965E58A47B700CAF7BDA4CEFD9D739DE895",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-multipartite-proof\\verify_ranking.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "7B656D33739A7A77834D1AE47F8115CD830F04BB05638A68A8DE73189F747749",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-multipartite-proof\\verify_certificate.py"
+    }
+]

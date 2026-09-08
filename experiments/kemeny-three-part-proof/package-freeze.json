@@ -1,0 +1,87 @@
+{
+  "contract_sha256": "563d11151e21d31a21804e7871db6979996bc2cbe4dc0ed3673563975b1d2aba",
+  "created_at_utc": "2026-09-08T10:56:15.183520+00:00",
+  "file_count": 14,
+  "files": [
+    {
+      "bytes": 8,
+      "path": ".python-version",
+      "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d"
+    },
+    {
+      "bytes": 1059,
+      "path": "ATTRIBUTION.md",
+      "sha256": "7fe9847d34814d64ce9586130bbb66d2c6287713b97b03b7da16c9a47f2d6716"
+    },
+    {
+      "bytes": 2135,
+      "path": "README.md",
+      "sha256": "6dcce71ca4f014f8e29c91243c6c77009d44af90fc53c327e6de39be4939b014"
+    },
+    {
+      "bytes": 3691,
+      "path": "build_publication_manifest.py",
+      "sha256": "04fc09041325cfa1dfb95a8a58dc8df24081f54f08f00affc3f2eb244bb187e7"
+    },
+    {
+      "bytes": 6092,
+      "path": "coefficient-certificate.json",
+      "sha256": "540ea590fb2e3d671e95102ab8ac5b80a22752f85354c7ded4aa84a4848fb8a9"
+    },
+    {
+      "bytes": 7110,
+      "path": "contract-v1.md",
+      "sha256": "563d11151e21d31a21804e7871db6979996bc2cbe4dc0ed3673563975b1d2aba"
+    },
+    {
+      "bytes": 3260,
+      "path": "freeze_package.py",
+      "sha256": "667c8cce8345ef4169b3bcd4ece654ccc3cb1b12e199bb7bdba778335fcc6c95"
+    },
+    {
+      "bytes": 2285,
+      "path": "proposal.json",
+      "sha256": "6a821c189ce481d4138c4d7cda5a223332bf3317a0b91c0d84c63887d69c2c5d"
+    },
+    {
+      "bytes": 7701,
+      "path": "proposal.md",
+      "sha256": "53c78f650397b3a791dd6b2a715f2294c564bcb9440feabce7327ceb4dcfa3e4"
+    },
+    {
+      "bytes": 238,
+      "path": "pyproject.toml",
+      "sha256": "7c2b2ab211d4b735cf762b5694489f58c945d153b92fbbd0f831498e12cda48c"
+    },
+    {
+      "bytes": 4600,
+      "path": "run_logged.py",
+      "sha256": "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6"
+    },
+    {
+      "bytes": 4609,
+      "path": "selection-v1.json",
+      "sha256": "c750ff018cc7e04db9d9b964486d71a0e5f9b5a42ea93e9de25b68c73632b996"
+    },
+    {
+      "bytes": 158,
+      "path": "uv.lock",
+      "sha256": "c033cbab7d273f72503d2e832385c6215db9a8c51b82da637ce14cca4172d999"
+    },
+    {
+      "bytes": 10220,
+      "path": "verify_coefficient_certificate.py",
+      "sha256": "08aee29b87793cb288eaa7dfe54dd748b169972c32e46ed6e1b5bb2e1f3327f5"
+    }
+  ],
+  "independent_final_proof_gate": "pending",
+  "python": {
+    "implementation": "CPython",
+    "version": "3.12.11 (main, Sep 18 2025, 19:45:51) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "schema_version": "kemeny-three-part-portable-freeze-v1",
+  "selected_certificate_sha256": "540ea590fb2e3d671e95102ab8ac5b80a22752f85354c7ded4aa84a4848fb8a9",
+  "selected_checker_sha256": "08aee29b87793cb288eaa7dfe54dd748b169972c32e46ed6e1b5bb2e1f3327f5",
+  "selection_sha256": "c750ff018cc7e04db9d9b964486d71a0e5f9b5a42ea93e9de25b68c73632b996",
+  "status": "frozen_before_first_portable_checker_run"
+}

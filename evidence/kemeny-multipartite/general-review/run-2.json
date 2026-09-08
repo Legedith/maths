@@ -1,0 +1,10 @@
+{
+  "argv": [
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-general-proof-review-work\\.venv\\Scripts\\python.exe",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-general-proof-review-work\\evaluate.py"
+  ],
+  "cwd": "C:\\Users\\Legedith\\Documents\\ChatGPT\\maths",
+  "stdout": "{\n  \"status\": \"PASS\",\n  \"complements\": [\n    \"a*g*n + 2*g*n\",\n    \"a**2*g*n + 2*a*g*n\",\n    \"2*a**2 + 4*a\",\n    \"a**2*n + 2*a*n\",\n    \"a + 2\",\n    \"2*g*n\"\n  ],\n  \"terms\": 1777,\n  \"minimum_coefficient\": 2,\n  \"constant\": 60948,\n  \"weighted_gap_degree\": 5,\n  \"matrix\": [\n    {\n      \"q\": [\n        9,\n        9\n      ],\n      \"p\": 1,\n      \"delta\": \"229/627000\"\n    },\n    {\n      \"q\": [\n        3,\n        3,\n        4,\n        4,\n        5,\n        6\n      ],\n      \"p\": 2,\n      \"delta\": \"-302125/100216116\"\n    }\n  ]\n}\n",
+  "stderr": "",
+  "returncode": 0
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": "independent-portable-alignment-v1",
+  "status": "PASS",
+  "portable": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work",
+  "package_freeze": {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\package-freeze.json",
+    "sha256": "bdcb4a2eeae2eac2a7e4c6899c94a9a66ea7867278b87ba62f2d764d812a3024",
+    "verified_files": 14,
+    "frozen_before_canonical_run": true
+  },
+  "publication_manifest": {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\publication-manifest.json",
+    "sha256": "04471269259bc372bf7296526ebf267625a5323b50970a80305cb9cf4a40e900",
+    "verified_files": 29
+  },
+  "selected_byte_identity": [
+    {
+      "portable": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\coefficient-certificate.json",
+      "frozen_source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-explorer-3-work\\proof\\coefficient-certificate.json",
+      "sha256": "540ea590fb2e3d671e95102ab8ac5b80a22752f85354c7ded4aa84a4848fb8a9",
+      "byte_identical": true
+    },
+    {
+      "portable": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\verify_coefficient_certificate.py",
+      "frozen_source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-explorer-3-work\\proof\\verify_coefficient_certificate.py",
+      "sha256": "08aee29b87793cb288eaa7dfe54dd748b169972c32e46ed6e1b5bb2e1f3327f5",
+      "byte_identical": true
+    },
+    {
+      "portable": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\proposal.md",
+      "frozen_source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-explorer-3-work\\proposal.md",
+      "sha256": "53c78f650397b3a791dd6b2a715f2294c564bcb9440feabce7327ceb4dcfa3e4",
+      "byte_identical": true
+    },
+    {
+      "portable": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\proposal.json",
+      "frozen_source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-explorer-3-work\\proposal.json",
+      "sha256": "6a821c189ce481d4138c4d7cda5a223332bf3317a0b91c0d84c63887d69c2c5d",
+      "byte_identical": true
+    },
+    {
+      "portable": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\selection-v1.json",
+      "frozen_source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-work\\selection-v1.json",
+      "sha256": "c750ff018cc7e04db9d9b964486d71a0e5f9b5a42ea93e9de25b68c73632b996",
+      "byte_identical": true
+    },
+    {
+      "portable": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\contract-v1.md",
+      "frozen_source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-work\\contract-v1.md",
+      "sha256": "563d11151e21d31a21804e7871db6979996bc2cbe4dc0ed3673563975b1d2aba",
+      "byte_identical": true
+    }
+  ],
+  "packager_canonical_attempt": {
+    "record": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\logs\\attempt-portable-check-01.json",
+    "returncode": 0,
+    "timed_out": false,
+    "all_checker_flags_true": true
+  },
+  "claim_boundary": {
+    "broader_than_three_non_singleton_parts": "not_claimed",
+    "independent_mathematical_validity": "pending",
+    "portable_replay": "complete",
+    "publication_novelty": "unresolved"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "argv": [
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-general-proof-review-work\\.portable-venv\\Scripts\\python.exe",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-multipartite-proof\\verify_certificate.py",
+    "--certificate",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-multipartite-proof\\certificate.json",
+    "--output",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-general-proof-review-work\\portable-valid.json"
+  ],
+  "cwd": "C:\\Users\\Legedith\\Documents\\ChatGPT\\maths",
+  "stdout": "{\n  \"schema_version\": \"multipartite-frozen-polynomial-check-v1\",\n  \"pass\": true,\n  \"certificate_sha256\": \"b264e53aa98bb9171fcb327cb82cd01ec31e4c67eecbf30af6752545c078804c\",\n  \"checker_sha256\": \"7b656d33739a7a77834d1ae47f8115cd830f04bb05638a68a8de73189f747749\",\n  \"method\": \"stdlib sparse integer polynomial reconstruction from six sourced rational terms\",\n  \"term_count\": 1777,\n  \"gap_partition_count\": 18,\n  \"max_gap_degree\": 5,\n  \"constant_coefficient\": 60948,\n  \"checks\": {\n    \"frozen_input_identity\": true,\n    \"exact_coefficient_identity\": true,\n    \"six_denominator_complements\": true,\n    \"positive_denominator_factors\": true,\n    \"positive_coefficients_and_constant\": true,\n    \"gap_permutation_symmetry\": true,\n    \"gap_degree_at_most_five\": true\n  },\n  \"proof_boundary\": \"The source transcription, full-domain substitutions, finite-support lemma for arbitrary gap counts, and vertex relabelling require the accompanying mathematical proof and independent audit. This is not Lean formalization or novelty certification.\"\n}\n",
+  "stderr": "",
+  "returncode": 0
+}

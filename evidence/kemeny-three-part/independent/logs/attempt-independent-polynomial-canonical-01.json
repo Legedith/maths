@@ -1,0 +1,40 @@
+{
+  "schema_version": "independent-command-attempt-v1",
+  "attempt": "attempt-independent-polynomial-canonical-01",
+  "command_argv": [
+    "python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\scripts\\independent_polynomial_audit.py",
+    "--certificate",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-explorer-3-work\\proof\\coefficient-certificate.json",
+    "--source-pdf",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-postresult-review-work\\sources\\hu-kirkland-2019.pdf",
+    "--output",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\outputs\\independent-polynomial-audit-canonical.json",
+    "--expected-certificate-sha256",
+    "540ea590fb2e3d671e95102ab8ac5b80a22752f85354c7ded4aa84a4848fb8a9",
+    "--expected-source-pdf-sha256",
+    "c896d263c6bec602274f84a29c30492f99e85e3bde654f3e61dcf5aa10718c77"
+  ],
+  "command_display": "python D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\scripts\\independent_polynomial_audit.py --certificate D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-explorer-3-work\\proof\\coefficient-certificate.json --source-pdf D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-postresult-review-work\\sources\\hu-kirkland-2019.pdf --output D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\outputs\\independent-polynomial-audit-canonical.json --expected-certificate-sha256 540ea590fb2e3d671e95102ab8ac5b80a22752f85354c7ded4aa84a4848fb8a9 --expected-source-pdf-sha256 c896d263c6bec602274f84a29c30492f99e85e3bde654f3e61dcf5aa10718c77",
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work",
+  "started_at_utc": "2026-09-08T12:16:17.660918+00:00",
+  "ended_at_utc": "2026-09-08T12:16:17.812032+00:00",
+  "returncode": 0,
+  "stdout": {
+    "path": "attempt-independent-polynomial-canonical-01.stdout.bin",
+    "bytes": 2081,
+    "sha256": "8eba6d8d05139e3c43a11b382c38387cee83a8794fcafd2832395fa47a96ee87"
+  },
+  "stderr": {
+    "path": "attempt-independent-polynomial-canonical-01.stderr.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "runner_python": "3.12.11 (main, Sep 18 2025, 19:45:51) [MSC v.1944 64 bit (AMD64)]",
+  "runner_executable": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "selected_environment": {
+    "UV_CACHE_DIR": "D:\\CodexWorkspaces\\mathematics-atlas\\uv-cache",
+    "UV_PROJECT_ENVIRONMENT": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\.venv"
+  }
+}

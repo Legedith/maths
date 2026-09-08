@@ -1,0 +1,42 @@
+[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "151A7D40F6BAC2CD97BB79172268B54044E798CB05081E2C3379B14CD807F405",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-network-generalization-work\\contract.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "0012F66A7A61B1FE7A2076878F078EAD8BF446AB5A8BC23472267318D89E793F",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-network-generalization-work\\batch1.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "FDB72FB67637E3E4E20B9A3AC4E1796A354485029A3AD0BFED9632930916D548",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-network-generalization-work\\batch2.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "B264E53AA98BB9171FCB327CB82CD01EC31E4C67EECBF30AF6752545C078804C",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-network-generalization-work\\certificate.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "62A221349C246FCDEDB6301270497A2461F9FA0B5D9582B93089F4F77A562541",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-network-generalization-work\\symmetric-coefficients.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "10B8BD87A1857F1CEBC2463E53418D77D5DE0A85FB4AFA04EEC70B61A6E2A354",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-network-generalization-work\\batch1.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "F6A28BF15163E427BDA7260555DDEF5F6DD57D00F492708EB64CB372EC41C913",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-network-generalization-work\\batch2.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "0CD623573884161CBC6DBFB28381B716ED63B5FFF8104063C337A2117BE73BF9",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-network-generalization-work\\proposal.md"
+    }
+]

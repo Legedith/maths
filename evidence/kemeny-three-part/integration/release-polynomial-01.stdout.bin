@@ -1,0 +1,35 @@
+{
+  "certificate": {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-three-part-proof\\coefficient-certificate.json",
+    "sha256": "540ea590fb2e3d671e95102ab8ac5b80a22752f85354c7ded4aa84a4848fb8a9"
+  },
+  "checks": {
+    "all_coefficients_strictly_positive": true,
+    "coefficient_identity": true,
+    "constant_strictness": true,
+    "gamma_identity": true,
+    "grouped_display_identity": true,
+    "reported_extrema": true,
+    "schema": true,
+    "term_count": true,
+    "variable_order": true
+  },
+  "conclusion": "D2*B=-Q<0, so B<0 and Delta=2*B/(gamma+2)<0 for an edge inside a smallest non-singleton part.",
+  "denominator_sign": {
+    "D2": "2*alpha*n*(alpha+2)*gamma",
+    "alpha": "y+z+p >= 7",
+    "alpha_plus_two": "alpha+2 >= 9",
+    "gamma": "2xy+2xz+2yz+2p(x+y+z)+p(p-1) > 0",
+    "n": "x+y+z+p >= 10",
+    "positive": true
+  },
+  "domain_coverage": {
+    "all_new_variables_nonnegative": true,
+    "given": "integers p>=1 and x=min(a,b,c)>=3",
+    "inverse": "x=3+A, y=x+u, z=x+v, p=1+P",
+    "substitution": "A=x-3, u=y-x, v=z-x, P=p-1"
+  },
+  "method": "stdlib sparse integer polynomial reconstruction",
+  "pass": true,
+  "schema_version": "kemeny-three-part-certificate-check-v1"
+}

@@ -1,0 +1,434 @@
+{
+  "schema_version": "kemeny-three-part-release-copy-v1",
+  "status": "PASS",
+  "copy_count": 71,
+  "files": [
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\.python-version",
+      "path": "experiments/kemeny-three-part-proof/.python-version",
+      "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d",
+      "bytes": 8
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\ATTRIBUTION.md",
+      "path": "experiments/kemeny-three-part-proof/ATTRIBUTION.md",
+      "sha256": "7fe9847d34814d64ce9586130bbb66d2c6287713b97b03b7da16c9a47f2d6716",
+      "bytes": 1059
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\README.md",
+      "path": "experiments/kemeny-three-part-proof/README.md",
+      "sha256": "6dcce71ca4f014f8e29c91243c6c77009d44af90fc53c327e6de39be4939b014",
+      "bytes": 2135
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\build_publication_manifest.py",
+      "path": "experiments/kemeny-three-part-proof/build_publication_manifest.py",
+      "sha256": "04fc09041325cfa1dfb95a8a58dc8df24081f54f08f00affc3f2eb244bb187e7",
+      "bytes": 3691
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\coefficient-certificate.json",
+      "path": "experiments/kemeny-three-part-proof/coefficient-certificate.json",
+      "sha256": "540ea590fb2e3d671e95102ab8ac5b80a22752f85354c7ded4aa84a4848fb8a9",
+      "bytes": 6092
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\contract-v1.md",
+      "path": "experiments/kemeny-three-part-proof/contract-v1.md",
+      "sha256": "563d11151e21d31a21804e7871db6979996bc2cbe4dc0ed3673563975b1d2aba",
+      "bytes": 7110
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\freeze_package.py",
+      "path": "experiments/kemeny-three-part-proof/freeze_package.py",
+      "sha256": "667c8cce8345ef4169b3bcd4ece654ccc3cb1b12e199bb7bdba778335fcc6c95",
+      "bytes": 3260
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\logs\\attempt-environment-python-01.json",
+      "path": "experiments/kemeny-three-part-proof/logs/attempt-environment-python-01.json",
+      "sha256": "2d75a7338965cb46bd0fb3c9192b23b783ad47c07a6a56662547c3067c97f012",
+      "bytes": 1351
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\logs\\attempt-environment-python-01.stderr.bin",
+      "path": "experiments/kemeny-three-part-proof/logs/attempt-environment-python-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\logs\\attempt-environment-python-01.stdout.bin",
+      "path": "experiments/kemeny-three-part-proof/logs/attempt-environment-python-01.stdout.bin",
+      "sha256": "a659949deb748e16c2a61d1ec84461193e8d21928cedd5febccd971116034d6f",
+      "bytes": 269
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\logs\\attempt-environment-uv-01.json",
+      "path": "experiments/kemeny-three-part-proof/logs/attempt-environment-uv-01.json",
+      "sha256": "951529ca28df3bf7f6513a059244d06382ed278c2141354bac96a34fcee5aa07",
+      "bytes": 1011
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\logs\\attempt-environment-uv-01.stderr.bin",
+      "path": "experiments/kemeny-three-part-proof/logs/attempt-environment-uv-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\logs\\attempt-environment-uv-01.stdout.bin",
+      "path": "experiments/kemeny-three-part-proof/logs/attempt-environment-uv-01.stdout.bin",
+      "sha256": "b8efdf882e013e974b58ac07babfdc9ee1540650ef8f847379269bb4546ab7a6",
+      "bytes": 33
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\logs\\attempt-portable-check-01.json",
+      "path": "experiments/kemeny-three-part-proof/logs/attempt-portable-check-01.json",
+      "sha256": "91685bffaa5f9fc3c774f70dc7f0bd825e284de64adb35922135529ebf6712a9",
+      "bytes": 1514
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\logs\\attempt-portable-check-01.stderr.bin",
+      "path": "experiments/kemeny-three-part-proof/logs/attempt-portable-check-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\logs\\attempt-portable-check-01.stdout.bin",
+      "path": "experiments/kemeny-three-part-proof/logs/attempt-portable-check-01.stdout.bin",
+      "sha256": "f80443929a0f5a343783ce6c5e7ef3168b9cba47d2839470088958b17ad5b928",
+      "bytes": 1259
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\logs\\attempt-post-run-static-identity-01.json",
+      "path": "experiments/kemeny-three-part-proof/logs/attempt-post-run-static-identity-01.json",
+      "sha256": "33f120d045a1dfea9f47fe25230b0abe95cddec3215d246b7019f1db36aba025",
+      "bytes": 1564
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\logs\\attempt-post-run-static-identity-01.stderr.bin",
+      "path": "experiments/kemeny-three-part-proof/logs/attempt-post-run-static-identity-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\logs\\attempt-post-run-static-identity-01.stdout.bin",
+      "path": "experiments/kemeny-three-part-proof/logs/attempt-post-run-static-identity-01.stdout.bin",
+      "sha256": "6d2d0a3dbace1886cdc41945a6c44a8cdc8377bb5d5a0701dc307eafb2a85b2f",
+      "bytes": 49
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\logs\\attempts.jsonl",
+      "path": "experiments/kemeny-three-part-proof/logs/attempts.jsonl",
+      "sha256": "911d55a9fd013419a940e9aa74cc67ef33ee36862da8fbe637cad9a97e617888",
+      "bytes": 4819
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\output\\attempt-portable-check-01\\certificate-check.json",
+      "path": "experiments/kemeny-three-part-proof/output/attempt-portable-check-01/certificate-check.json",
+      "sha256": "b54f31bc39b16806b8ca5968b246927dac8c7d722ae67fc35746e82e63df188c",
+      "bytes": 1224
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\package-freeze.json",
+      "path": "experiments/kemeny-three-part-proof/package-freeze.json",
+      "sha256": "bdcb4a2eeae2eac2a7e4c6899c94a9a66ea7867278b87ba62f2d764d812a3024",
+      "bytes": 2889
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\proposal.json",
+      "path": "experiments/kemeny-three-part-proof/proposal.json",
+      "sha256": "6a821c189ce481d4138c4d7cda5a223332bf3317a0b91c0d84c63887d69c2c5d",
+      "bytes": 2285
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\proposal.md",
+      "path": "experiments/kemeny-three-part-proof/proposal.md",
+      "sha256": "53c78f650397b3a791dd6b2a715f2294c564bcb9440feabce7327ceb4dcfa3e4",
+      "bytes": 7701
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\pyproject.toml",
+      "path": "experiments/kemeny-three-part-proof/pyproject.toml",
+      "sha256": "7c2b2ab211d4b735cf762b5694489f58c945d153b92fbbd0f831498e12cda48c",
+      "bytes": 238
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\run_logged.py",
+      "path": "experiments/kemeny-three-part-proof/run_logged.py",
+      "sha256": "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6",
+      "bytes": 4600
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\selection-v1.json",
+      "path": "experiments/kemeny-three-part-proof/selection-v1.json",
+      "sha256": "c750ff018cc7e04db9d9b964486d71a0e5f9b5a42ea93e9de25b68c73632b996",
+      "bytes": 4609
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\uv.lock",
+      "path": "experiments/kemeny-three-part-proof/uv.lock",
+      "sha256": "c033cbab7d273f72503d2e832385c6215db9a8c51b82da637ce14cca4172d999",
+      "bytes": 158
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\verify_coefficient_certificate.py",
+      "path": "experiments/kemeny-three-part-proof/verify_coefficient_certificate.py",
+      "sha256": "08aee29b87793cb288eaa7dfe54dd748b169972c32e46ed6e1b5bb2e1f3327f5",
+      "bytes": 10220
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\publication-manifest.json",
+      "path": "experiments/kemeny-three-part-proof/publication-manifest.json",
+      "sha256": "04471269259bc372bf7296526ebf267625a5323b50970a80305cb9cf4a40e900",
+      "bytes": 6038
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\audit-spec.md",
+      "path": "evidence/kemeny-three-part/independent/audit-spec.md",
+      "sha256": "7f8c5cfab01bc55ac4c0207585527997c145f3e3410ad8899756a783d51b901e",
+      "bytes": 2705
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\independent-review-report.md",
+      "path": "evidence/kemeny-three-part/independent/independent-review-report.md",
+      "sha256": "5e4cb23293d62d2e5e8e285534bd3207e1e0c8b053301e3bbc494cb348403a51",
+      "bytes": 10191
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\source-domain-proof-notes.md",
+      "path": "evidence/kemeny-three-part/independent/source-domain-proof-notes.md",
+      "sha256": "838533fbed3b2937fe02f8a8a29acdcd0ed4a99fd40c302c8ca483f6ee324ff4",
+      "bytes": 7428
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-prior-art-work\\priority-review-v2.json",
+      "path": "evidence/kemeny-three-part/independent/source-notes/priority-review-v2.json",
+      "sha256": "25545977eafd4f042d90ecc69dfcaf3f82bb86578a3653cb033388d5d2c1a75b",
+      "bytes": 13079
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-prior-art-work\\priority-review-correction-v2.json",
+      "path": "evidence/kemeny-three-part/independent/source-notes/priority-review-correction-v2.json",
+      "sha256": "3f48c1281a59b803af536e0b0cd567c11eedec1d8b26f29a49925b7d8a1960cb",
+      "bytes": 1011
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\failed-attempts.md",
+      "path": "evidence/kemeny-three-part/independent/failed-attempts.md",
+      "sha256": "56a3f9ba7f4ca99bb1c0024aa0dd6a6e66dcc8edc5d106dfcd479f49ab9c8b0d",
+      "bytes": 1446
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\evaluator-freeze.json",
+      "path": "evidence/kemeny-three-part/independent/evaluator-freeze.json",
+      "sha256": "8fdb337a6a079aabcb64c3e2886a1891c20469141186697cb9ae229866935e37",
+      "bytes": 2243
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\.python-version",
+      "path": "evidence/kemeny-three-part/independent/.python-version",
+      "sha256": "312ef13d6605e0274e1d4e1666077daa3b32018cc188d7d0fe5436fd0f20e106",
+      "bytes": 9
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\pyproject.toml",
+      "path": "evidence/kemeny-three-part/independent/pyproject.toml",
+      "sha256": "f2f9d125aaea04607fe300b5441794c959d53d95034b541f4eb398600d86354d",
+      "bytes": 122
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\uv.lock",
+      "path": "evidence/kemeny-three-part/independent/uv.lock",
+      "sha256": "c20410b38c2c619a70951511b1a96c9d67484b5f6e6d31389f6359cc7d9776c3",
+      "bytes": 158
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\scripts\\run_capture.py",
+      "path": "evidence/kemeny-three-part/independent/scripts/run_capture.py",
+      "sha256": "973b8107d7f485184c11cd2bf0356fd2c7667b72520db8631c44d48613794d30",
+      "bytes": 2634
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\scripts\\independent_polynomial_audit.py",
+      "path": "evidence/kemeny-three-part/independent/scripts/independent_polynomial_audit.py",
+      "sha256": "024fb7ba0967c165cae75d6b5b794484ddc93107cea533ff6040d1cf4b322633",
+      "bytes": 16638
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\scripts\\adversarial_author_checker.py",
+      "path": "evidence/kemeny-three-part/independent/scripts/adversarial_author_checker.py",
+      "sha256": "ba3ed6675d145aac5b07236dddd9bace43ee7814b4c11e22841200f7f6247f7d",
+      "bytes": 6598
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\scripts\\exact_matrix_diagnostic.py",
+      "path": "evidence/kemeny-three-part/independent/scripts/exact_matrix_diagnostic.py",
+      "sha256": "5d839d68d9bfba4d71b04e02a02008a3d14b5eff1fe5cfc962adb43e80b58814",
+      "bytes": 6496
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\scripts\\verify_portable_alignment.py",
+      "path": "evidence/kemeny-three-part/independent/scripts/verify_portable_alignment.py",
+      "sha256": "6d5fc0e21f26c5ce5c7ba664539eec340e5cda16d37517b9d8765663049e0827",
+      "bytes": 8105
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\outputs\\independent-polynomial-audit-canonical.json",
+      "path": "evidence/kemeny-three-part/independent/outputs/independent-polynomial-audit-canonical.json",
+      "sha256": "8eba6d8d05139e3c43a11b382c38387cee83a8794fcafd2832395fa47a96ee87",
+      "bytes": 2081
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\attempt-independent-polynomial-canonical-01.json",
+      "path": "evidence/kemeny-three-part/independent/logs/attempt-independent-polynomial-canonical-01.json",
+      "sha256": "c153c669a90191aa9cba14db91184c5dda4191226aee2d16e5d6d1630e695e49",
+      "bytes": 2739
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\attempt-independent-polynomial-canonical-01.stdout.bin",
+      "path": "evidence/kemeny-three-part/independent/logs/attempt-independent-polynomial-canonical-01.stdout.bin",
+      "sha256": "8eba6d8d05139e3c43a11b382c38387cee83a8794fcafd2832395fa47a96ee87",
+      "bytes": 2081
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\attempt-independent-polynomial-canonical-01.stderr.bin",
+      "path": "evidence/kemeny-three-part/independent/logs/attempt-independent-polynomial-canonical-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\outputs\\author-checker-adversarial-02.json",
+      "path": "evidence/kemeny-three-part/independent/outputs/author-checker-adversarial-02.json",
+      "sha256": "7234f6a336fc9c2645d9add796ea970969bfc2be39806e293a13528aa5894e0b",
+      "bytes": 19375
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\attempt-author-checker-adversarial-02.json",
+      "path": "evidence/kemeny-three-part/independent/logs/attempt-author-checker-adversarial-02.json",
+      "sha256": "f888bb94f026ac79c42c8daf3c20e86354da356727d59d841d2263d858eca694",
+      "bytes": 3074
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\attempt-author-checker-adversarial-02.stdout.bin",
+      "path": "evidence/kemeny-three-part/independent/logs/attempt-author-checker-adversarial-02.stdout.bin",
+      "sha256": "7234f6a336fc9c2645d9add796ea970969bfc2be39806e293a13528aa5894e0b",
+      "bytes": 19375
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\attempt-author-checker-adversarial-02.stderr.bin",
+      "path": "evidence/kemeny-three-part/independent/logs/attempt-author-checker-adversarial-02.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\outputs\\exact-matrix-diagnostic.json",
+      "path": "evidence/kemeny-three-part/independent/outputs/exact-matrix-diagnostic.json",
+      "sha256": "6fe9690e7538b18174440555720489bb6fc94806b44643e5e654edbb28b5f6dd",
+      "bytes": 7103
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\attempt-exact-matrix-diagnostic-01.json",
+      "path": "evidence/kemeny-three-part/independent/logs/attempt-exact-matrix-diagnostic-01.json",
+      "sha256": "c574b2b2c6028d01fc2f3c96a3f90c7c9d6202ce1e8ef9d1d266bdd7d676be87",
+      "bytes": 1944
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\attempt-exact-matrix-diagnostic-01.stdout.bin",
+      "path": "evidence/kemeny-three-part/independent/logs/attempt-exact-matrix-diagnostic-01.stdout.bin",
+      "sha256": "6fe9690e7538b18174440555720489bb6fc94806b44643e5e654edbb28b5f6dd",
+      "bytes": 7103
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\attempt-exact-matrix-diagnostic-01.stderr.bin",
+      "path": "evidence/kemeny-three-part/independent/logs/attempt-exact-matrix-diagnostic-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\outputs\\portable-alignment.json",
+      "path": "evidence/kemeny-three-part/independent/outputs/portable-alignment.json",
+      "sha256": "df80e6c8651fb0f6353b5ec85baedb367249b4da9aceacb35f94ca3cc1935c86",
+      "bytes": 3429
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\attempt-portable-alignment-01.json",
+      "path": "evidence/kemeny-three-part/independent/logs/attempt-portable-alignment-01.json",
+      "sha256": "02f0de91c8305f09610b9f0a777ddfe70f4a153e194cc493838245a64badc0ef",
+      "bytes": 2691
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\attempt-portable-alignment-01.stdout.bin",
+      "path": "evidence/kemeny-three-part/independent/logs/attempt-portable-alignment-01.stdout.bin",
+      "sha256": "df80e6c8651fb0f6353b5ec85baedb367249b4da9aceacb35f94ca3cc1935c86",
+      "bytes": 3429
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\attempt-portable-alignment-01.stderr.bin",
+      "path": "evidence/kemeny-three-part/independent/logs/attempt-portable-alignment-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\outputs\\portable-canonical-replay-01.json",
+      "path": "evidence/kemeny-three-part/independent/outputs/portable-canonical-replay-01.json",
+      "sha256": "b54f31bc39b16806b8ca5968b246927dac8c7d722ae67fc35746e82e63df188c",
+      "bytes": 1224
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\attempt-portable-canonical-replay-01.json",
+      "path": "evidence/kemeny-three-part/independent/logs/attempt-portable-canonical-replay-01.json",
+      "sha256": "152545e4cb1219f4c0aa50d302c3cfc28ac22a155636bd85b1480131b13c3f1e",
+      "bytes": 2283
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\attempt-portable-canonical-replay-01.stdout.bin",
+      "path": "evidence/kemeny-three-part/independent/logs/attempt-portable-canonical-replay-01.stdout.bin",
+      "sha256": "f80443929a0f5a343783ce6c5e7ef3168b9cba47d2839470088958b17ad5b928",
+      "bytes": 1259
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\attempt-portable-canonical-replay-01.stderr.bin",
+      "path": "evidence/kemeny-three-part/independent/logs/attempt-portable-canonical-replay-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\.codex\\evidence\\runs\\kemeny-three-part-independent-review-20260908\\bundle.json",
+      "path": "evidence/kemeny-three-part/independent/.codex/evidence/runs/kemeny-three-part-independent-review-20260908/bundle.json",
+      "sha256": "770e810772dccb124208de7830365a3a59cc1aba24f7d95a65c89b8ade5c5cfa",
+      "bytes": 16238
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\attempt-evidence-gate-verify-01.json",
+      "path": "evidence/kemeny-three-part/independent/logs/attempt-evidence-gate-verify-01.json",
+      "sha256": "768910d34ca49fc1b3d31f2628128545695486b86cd80c08571804dae11427b7",
+      "bytes": 1824
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\attempt-evidence-gate-verify-01.stdout.bin",
+      "path": "evidence/kemeny-three-part/independent/logs/attempt-evidence-gate-verify-01.stdout.bin",
+      "sha256": "4f07bd1707c286fe1b1c14accdfe867bc660bee26e5e5989b13d80aaed7105e4",
+      "bytes": 392
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\attempt-evidence-gate-verify-01.stderr.bin",
+      "path": "evidence/kemeny-three-part/independent/logs/attempt-evidence-gate-verify-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\publication-subset-manifest.json",
+      "path": "evidence/kemeny-three-part/independent/publication-subset-manifest.json",
+      "sha256": "d068c543623533cfc5cf84f8e4b2053d5d569830780455bffb4b0baed956d9b0",
+      "bytes": 23495
+    },
+    {
+      "source": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-work\\root-proof-adoption.json",
+      "path": "evidence/kemeny-three-part/root-proof-adoption.json",
+      "sha256": "97ff89ec1f1ea06ceb5485419b11761532ce6331da80f3869093a335d7beb799",
+      "bytes": 2188
+    }
+  ],
+  "boundary": "Byte identity of selected public files only; mathematical acceptance is in the independent report."
+}

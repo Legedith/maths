@@ -1,0 +1,27 @@
+[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "D170D04C7C3AB5DF247540FD970FB9CE19EDCA28B63F2AE6051FF5AA0B6CB435",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-ranking-review-work\\check.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "59A8D365580F9D13B3B10ADC9CD6D0B6DB5EB8EC0721C94B9604A9999AC192BD",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-ranking-review-work\\stdout.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "333136FE21DBE270B56082C677BA431754B78E3BFAE03A1B8D92C6962D4C2621",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-edge-selection-work\\proposal.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "603A2406E9D3AE27F07F008AA0A5797F1EA161CE13F4A66E2049FD9177CDB917",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-postresult-review-work\\sources\\hu-kirkland-2019.page-marked.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "C896D263C6BEC602274F84A29C30492F99E85E3BDE654F3E61DCF5AA10718C77",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-postresult-review-work\\sources\\hu-kirkland-2019.pdf"
+    }
+]

@@ -1,0 +1,33 @@
+{
+  "schema_version": "independent-command-attempt-v1",
+  "attempt": "attempt-evidence-gate-verify-01",
+  "command_argv": [
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\.venv\\Scripts\\python.exe",
+    "C:\\Users\\Legedith\\.codex\\skills\\chain-of-evidence\\scripts\\evidence_gate.py",
+    "verify",
+    "--workspace",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work"
+  ],
+  "command_display": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\.venv\\Scripts\\python.exe C:\\Users\\Legedith\\.codex\\skills\\chain-of-evidence\\scripts\\evidence_gate.py verify --workspace D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work",
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work",
+  "started_at_utc": "2026-09-08T12:43:11.093251+00:00",
+  "ended_at_utc": "2026-09-08T12:43:11.269032+00:00",
+  "returncode": 0,
+  "stdout": {
+    "path": "attempt-evidence-gate-verify-01.stdout.bin",
+    "bytes": 392,
+    "sha256": "4f07bd1707c286fe1b1c14accdfe867bc660bee26e5e5989b13d80aaed7105e4"
+  },
+  "stderr": {
+    "path": "attempt-evidence-gate-verify-01.stderr.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "runner_python": "3.12.11 (main, Sep 18 2025, 19:45:51) [MSC v.1944 64 bit (AMD64)]",
+  "runner_executable": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "selected_environment": {
+    "UV_CACHE_DIR": "D:\\CodexWorkspaces\\mathematics-atlas\\uv-cache",
+    "UV_PROJECT_ENVIRONMENT": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\.venv"
+  }
+}

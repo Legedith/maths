@@ -1,0 +1,532 @@
+{
+  "schema_version": "1.0",
+  "run_id": "kemeny-network-design-v1",
+  "objective": "Publish independently audited universal multipartite improvement and strict part-size ranking theorems, exact portable checks, bounded source claims, and retained research evidence.",
+  "created_at": "2026-09-08T13:42:27.883225Z",
+  "task_spec_artifact_id": "A001",
+  "evaluator_command": "uv run --project experiments/kemeny-multipartite-proof --frozen python experiments/kemeny-multipartite-proof/verify_certificate.py --certificate experiments/kemeny-multipartite-proof/certificate.json --output work/kemeny-multipartite-proof/check-01.json",
+  "artifacts": [
+    {
+      "id": "A001",
+      "kind": "spec",
+      "path": "docs/kemeny-network-design-contract.md",
+      "sha256": "db411c549fd0917c4237e93ee022a93c0be43e987d97ff5e2aa97f9a187db0e4",
+      "producer": "/root"
+    },
+    {
+      "id": "A002",
+      "kind": "code",
+      "path": "experiments/kemeny-multipartite-proof/verify_certificate.py",
+      "sha256": "7b656d33739a7a77834d1ae47f8115cd830f04bb05638a68a8de73189f747749",
+      "producer": "/root"
+    },
+    {
+      "id": "A003",
+      "kind": "result",
+      "path": "experiments/kemeny-multipartite-proof/certificate.json",
+      "sha256": "b264e53aa98bb9171fcb327cb82cd01ec31e4c67eecbf30af6752545c078804c",
+      "producer": "/root/astra_network_generalization"
+    },
+    {
+      "id": "A004",
+      "kind": "code",
+      "path": "experiments/kemeny-multipartite-proof/verify_ranking.py",
+      "sha256": "ca9aa8d9b29aca9840a525d0ad289965e58a47b700caf7bda4cefd9d739de895",
+      "producer": "/root"
+    },
+    {
+      "id": "A005",
+      "kind": "report",
+      "path": "evidence/kemeny-multipartite/general-review/report.md",
+      "sha256": "85b165206fd017efbd2d26feee1d50ec438f8c1531ff5900e47d765f174a3e39",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A006",
+      "kind": "source",
+      "path": "evidence/kemeny-three-part/independent/source-domain-proof-notes.md",
+      "sha256": "838533fbed3b2937fe02f8a8a29acdcd0ed4a99fd40c302c8ca483f6ee324ff4",
+      "producer": "/root/sol_kemeny_fresh_review"
+    },
+    {
+      "id": "A007",
+      "kind": "code",
+      "path": "evidence/kemeny-multipartite/general-review/evaluate.py",
+      "sha256": "70a18bf1c47289f8f1ec25d3f6d568f6f1b8937bd254b6f8a43ce3922c155b54",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A008",
+      "kind": "result",
+      "path": "evidence/kemeny-multipartite/general-review/result.json",
+      "sha256": "1a1d594d564585e34ea07921c632c47a382913a56314406e6bc9f2f526d97938",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A009",
+      "kind": "log",
+      "path": "evidence/kemeny-multipartite/general-review/run-2.json",
+      "sha256": "94599bd50984dd99aff4795fe35145a534ad90bfb636bb75e6fa7ca450f7d261",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A010",
+      "kind": "result",
+      "path": "evidence/kemeny-multipartite/integration/check-01.json",
+      "sha256": "2cb48d892b68af54779d84dcb48fcd6f642195353cefe7622873e502ef0f243c",
+      "producer": "/root"
+    },
+    {
+      "id": "A011",
+      "kind": "log",
+      "path": "evidence/kemeny-multipartite/integration/multipartite-polynomial-01.json",
+      "sha256": "957e50c53acff836d835b5f7412ec4ad6aa30cca0684de7139b1d03a4ba50ab5",
+      "producer": "/root"
+    },
+    {
+      "id": "A012",
+      "kind": "report",
+      "path": "evidence/kemeny-multipartite/ranking-review/review.md",
+      "sha256": "9142b6e6d2d761e86ffefa60d430c37a1aafa67a6e542f889a4a0797c76e4039",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A013",
+      "kind": "code",
+      "path": "evidence/kemeny-multipartite/ranking-review/check.py",
+      "sha256": "d170d04c7c3ab5df247540fd970fb9ce19edca28b63f2ae6051ff5aa0b6cb435",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A014",
+      "kind": "result",
+      "path": "evidence/kemeny-multipartite/ranking-review/stdout.txt",
+      "sha256": "59a8d365580f9d13b3b10adc9cd6d0b6db5eb8ec0721c94b9604a9999ac192bd",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A015",
+      "kind": "log",
+      "path": "evidence/kemeny-multipartite/ranking-review/argv.json",
+      "sha256": "89af222b9e8f6d2ac676b694ebcae66cbf0864202b85fb0761aa8fdd9d296f17",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A016",
+      "kind": "result",
+      "path": "evidence/kemeny-multipartite/integration/ranking-01.json",
+      "sha256": "bdd3eb0418213c00d076f517ebcb8d4bfd0c6fbbf0f932496649b758b92a81d3",
+      "producer": "/root"
+    },
+    {
+      "id": "A017",
+      "kind": "log",
+      "path": "evidence/kemeny-multipartite/integration/ranking-polynomial-01.json",
+      "sha256": "384226b550c89fbb2355689356030383245b7b8ace9ee0b6d32b62f3f07c5e77",
+      "producer": "/root"
+    },
+    {
+      "id": "A018",
+      "kind": "report",
+      "path": "docs/kemeny-network-design.md",
+      "sha256": "b71e97636328117c07013df1e8acf463f4847277bb83baa1fa3e9618dd9de9fb",
+      "producer": "/root"
+    },
+    {
+      "id": "A019",
+      "kind": "report",
+      "path": "experiments/kemeny-multipartite-proof/PROOF.md",
+      "sha256": "fb73b0aff9db3df2048143985236a6c6b6a558cbaef77dcf79b795d90c1e4a8a",
+      "producer": "/root"
+    },
+    {
+      "id": "A020",
+      "kind": "report",
+      "path": "README.md",
+      "sha256": "995b98ca011a7df13f99ec0b9a58c17dec1db1b020f9af6ef05dbab6245ddab9",
+      "producer": "/root"
+    },
+    {
+      "id": "A021",
+      "kind": "code",
+      "path": ".github/workflows/kemeny-three-part.yml",
+      "sha256": "ab18249426ba1fd73777cf875a1a9e10ec3d4e85222fe1b8657ceae50ace5658",
+      "producer": "/root"
+    },
+    {
+      "id": "A022",
+      "kind": "result",
+      "path": "evidence/kemeny-multipartite/public-copy-manifest.json",
+      "sha256": "46ebf0df428645d92ac9fa20271cadd69bee041222c5827b9a82c5d8f0071078",
+      "producer": "/root"
+    },
+    {
+      "id": "A023",
+      "kind": "result",
+      "path": "evidence/kemeny-three-part/release-copy-manifest.json",
+      "sha256": "c66a403f6d54816aac97f6a55e2192b5175efa53fc593019bdca77afd0c29408",
+      "producer": "/root"
+    },
+    {
+      "id": "A024",
+      "kind": "report",
+      "path": "evidence/kemeny-multipartite/general-review/portable-review.md",
+      "sha256": "21c6373c186a44dc8a555e6101de2813364a65be114c3c7f2c3bdd99be167075",
+      "producer": "/root/astra_general_proof_verifier"
+    },
+    {
+      "id": "A025",
+      "kind": "spec",
+      "path": "evidence/kemeny-multipartite/selection.json",
+      "sha256": "29543de7f639db23fed0bdc8bdccb024b5c8b2c29e301f41455520b8e0694a8e",
+      "producer": "/root"
+    },
+    {
+      "id": "A026",
+      "kind": "source",
+      "path": "evidence/kemeny-multipartite/source-comparison.json",
+      "sha256": "a7969e507b08512f8c4c7e3b36d9d79fba9a66e4034fad6331884995eca9387c",
+      "producer": "/root"
+    },
+    {
+      "id": "A027",
+      "kind": "spec",
+      "path": "AGENTS.md",
+      "sha256": "159a5689bfb58b4d27356e1505d39cfb5ae6f11340675006c71f12c32427923d",
+      "producer": "user-and-root"
+    },
+    {
+      "id": "A028",
+      "kind": "report",
+      "path": "evidence/kemeny-multipartite/adoption.json",
+      "sha256": "ecf6f13ead6caedfd472ae2ada0311d7274bf5d4d6335b13bddf6fbe57b9ffc2",
+      "producer": "/root"
+    },
+    {
+      "id": "A029",
+      "kind": "report",
+      "path": "README-kemeny-three-part.md",
+      "sha256": "d774dd6d37990b18b9e9d4112623fc1615aec6b87ed73357d3e8765b7aa9ea65",
+      "producer": "/root"
+    },
+    {
+      "id": "A030",
+      "kind": "code",
+      "path": "experiments/kemeny-three-part-proof/verify_coefficient_certificate.py",
+      "sha256": "08aee29b87793cb288eaa7dfe54dd748b169972c32e46ed6e1b5bb2e1f3327f5",
+      "producer": "previous-proof-author"
+    },
+    {
+      "id": "A031",
+      "kind": "result",
+      "path": "evidence/kemeny-three-part/integration/certificate-check.json",
+      "sha256": "88c044446e4db0eef56b8ab064dd1cd5e2734a688f5bdc67641bd7532704f718",
+      "producer": "/root"
+    },
+    {
+      "id": "A032",
+      "kind": "report",
+      "path": "evidence/kemeny-three-part/independent/independent-review-report.md",
+      "sha256": "5e4cb23293d62d2e5e8e285534bd3207e1e0c8b053301e3bbc494cb348403a51",
+      "producer": "/root/sol_kemeny_fresh_review"
+    },
+    {
+      "id": "A033",
+      "kind": "report",
+      "path": "evidence/kemeny-multipartite/ranking-review/final-release-ack.md",
+      "sha256": "83b1cff40edbecaee29e834b7de7e05f59c628a5538db31b616fafb788db866e",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A034",
+      "kind": "log",
+      "path": "evidence/kemeny-multipartite/ranking-review/release-argv.json",
+      "sha256": "28112e17d9b1f2315dc7e9d291b19a3d8f5f85282c780c7659c1ff64eecccef4",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A035",
+      "kind": "log",
+      "path": "evidence/kemeny-multipartite/ranking-review/release-copy-check.json",
+      "sha256": "6103c374e943d6e979ef251cc6222c4324f2fba18c8074487a491bd8f9ea1629",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A036",
+      "kind": "report",
+      "path": "evidence/kemeny-multipartite/ranking-review/release-freeze.md",
+      "sha256": "421a61d5e8813afdf574822e831667eddcb79ed1b42fceb81170b6f81739fdfa",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A037",
+      "kind": "log",
+      "path": "evidence/kemeny-multipartite/ranking-review/release-hashes.json",
+      "sha256": "583b616a250e58d57355bb24e56d8be5b867b2bb74c2c22851e62c21b56a6c62",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A038",
+      "kind": "log",
+      "path": "evidence/kemeny-multipartite/ranking-review/release-pre-run-hashes.json",
+      "sha256": "fce94feddfc3d61fa1341e02c81f0fd0a0fd1ae47cf02c2ec5f4332a43ab59dc",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A039",
+      "kind": "log",
+      "path": "evidence/kemeny-multipartite/ranking-review/release-rc.txt",
+      "sha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A040",
+      "kind": "log",
+      "path": "evidence/kemeny-multipartite/ranking-review/release-replay.json",
+      "sha256": "bdd3eb0418213c00d076f517ebcb8d4bfd0c6fbbf0f932496649b758b92a81d3",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A041",
+      "kind": "report",
+      "path": "evidence/kemeny-multipartite/ranking-review/release-review.md",
+      "sha256": "ea0426683acaa524e395fbb5ba8c145f24ef2ea652c9583e942ff47222040c3d",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A042",
+      "kind": "log",
+      "path": "evidence/kemeny-multipartite/ranking-review/release-stderr.txt",
+      "sha256": "8a54e7ea5f3f0384c4febacce28da29e0824791734a2003f710fefb9b6925ae2",
+      "producer": "/root/astra_ranking_verifier"
+    },
+    {
+      "id": "A043",
+      "kind": "log",
+      "path": "evidence/kemeny-multipartite/ranking-review/release-stdout.txt",
+      "sha256": "23271e3fc6a52d50d116d163553cf9c01fe804016ed38563811b6005d84c3a8e",
+      "producer": "/root/astra_ranking_verifier"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C001",
+      "type": "citation",
+      "statement": "The derivations use Hu and Kirkland's Theorem 3.2.3 for simple random walks with the source's complete multipartite sums including all singleton parts.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A006",
+          "locator": "contains:Theorem 3.2.3"
+        },
+        {
+          "artifact_id": "A005",
+          "locator": "contains:arbitrary total part count"
+        }
+      ]
+    },
+    {
+      "id": "C002",
+      "type": "methodological",
+      "statement": "Separate source-derived reconstruction and the portable integer checker establish the fixed certificate identity. The independent proof justifies denominator positivity and the finite-support lemma for every number of parts.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A007",
+          "locator": "contains:weighted"
+        },
+        {
+          "artifact_id": "A009",
+          "locator": "json:/returncode",
+          "expected": 0
+        },
+        {
+          "artifact_id": "A010",
+          "locator": "json:/pass",
+          "expected": true
+        },
+        {
+          "artifact_id": "A005",
+          "locator": "contains:universal-variable step is valid"
+        }
+      ]
+    },
+    {
+      "id": "C003",
+      "type": "numerical",
+      "statement": "The independently reconstructed five-gap polynomial has 1777 positive coefficients, minimum 2, constant 60948, and weighted gap degree 5.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A008",
+          "locator": "json:/terms",
+          "expected": 1777
+        },
+        {
+          "artifact_id": "A008",
+          "locator": "json:/minimum_coefficient",
+          "expected": 2
+        },
+        {
+          "artifact_id": "A008",
+          "locator": "json:/constant",
+          "expected": 60948
+        },
+        {
+          "artifact_id": "A008",
+          "locator": "json:/weighted_gap_degree",
+          "expected": 5
+        }
+      ]
+    },
+    {
+      "id": "C004",
+      "type": "conclusion",
+      "statement": "For r>=3,p>=1,q_i>=3, every missing edge within every minimum-size non-singleton part of K_(q_1,...,q_r) join K_p strictly decreases the simple-random-walk Kemeny constant.",
+      "status": "supported",
+      "supports": [
+        {
+          "claim_id": "C001"
+        },
+        {
+          "claim_id": "C002"
+        },
+        {
+          "claim_id": "C003"
+        },
+        {
+          "artifact_id": "A005",
+          "locator": "contains:every pair in every minimum part"
+        }
+      ]
+    },
+    {
+      "id": "C005",
+      "type": "methodological",
+      "statement": "Independent rational subtraction and the portable exact cross-multiplication checker verify the ranking identity; the independent review proves both positivity inequalities on the full eligible domain.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A013",
+          "locator": "contains:assert res==0"
+        },
+        {
+          "artifact_id": "A004",
+          "locator": "contains:ranking identity fails"
+        },
+        {
+          "artifact_id": "A016",
+          "locator": "json:/pass",
+          "expected": true
+        },
+        {
+          "artifact_id": "A012",
+          "locator": "contains:No concrete mathematical defect found"
+        }
+      ]
+    },
+    {
+      "id": "C006",
+      "type": "conclusion",
+      "statement": "In a connected complete multipartite graph, sign(Delta_x-Delta_y)=sign(x-y) for two parts x,y>=3; arbitrary other positive integer part sizes.",
+      "status": "supported",
+      "supports": [
+        {
+          "claim_id": "C001"
+        },
+        {
+          "claim_id": "C005"
+        },
+        {
+          "artifact_id": "A012",
+          "locator": "contains:sign(Delta_x-Delta_y)=sign(x-y)"
+        }
+      ]
+    },
+    {
+      "id": "C007",
+      "type": "conclusion",
+      "statement": "In the improvement theorem graph family, any edge within any smallest non-singleton part is a globally optimal single missing-edge insertion and strictly decreases K.",
+      "status": "supported",
+      "supports": [
+        {
+          "claim_id": "C004"
+        },
+        {
+          "claim_id": "C006"
+        },
+        {
+          "artifact_id": "A018",
+          "locator": "contains:Combined consequence"
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "implementation_alignment",
+      "status": "pass",
+      "auditor": "/root/astra_ranking_verifier",
+      "evidence": [
+        "A033",
+        "A002",
+        "A004",
+        "A018",
+        "A021",
+        "A022",
+        "A024"
+      ],
+      "note": "Independent review matched both portable implementations, final proof note, historical distinctions, and all 143 public source/destination copies. The workflow has static review pending actual CI."
+    },
+    {
+      "id": "reproduction",
+      "status": "pass",
+      "auditor": "/root/astra_ranking_verifier",
+      "evidence": [
+        "A033",
+        "A007",
+        "A009",
+        "A010",
+        "A011",
+        "A013",
+        "A016",
+        "A017"
+      ],
+      "note": "Independent source-derived exact algebra, full-domain arguments, diagnostic matrices, root canonical checks, and fresh portable replays agree. Mutated fixed certificate was rejected; historical exploration counts are not promoted claims."
+    },
+    {
+      "id": "source_verification",
+      "status": "pass",
+      "auditor": "/root/astra_ranking_verifier",
+      "evidence": [
+        "A033",
+        "A006",
+        "A005",
+        "A012",
+        "A026"
+      ],
+      "note": "Independent audits support the Hu-Kirkland source transcription and precise result boundaries. The published update is attributed; global novelty, current openness and practical impact remain unresolved."
+    },
+    {
+      "id": "specification_compliance",
+      "status": "pass",
+      "auditor": "/root/astra_ranking_verifier",
+      "evidence": [
+        "A033",
+        "A001",
+        "A018",
+        "A020",
+        "A027"
+      ],
+      "note": "The final text and implementations preserve arbitrary r>=3 improvement, eligible-size ranking, full quantifiers, normalization, scoped operation count and excluded models. README smallest-part wording was corrected and verified."
+    }
+  ],
+  "limitations": [
+    "Global novelty, publication priority, current openness, Lean formalization and measured real-world benefit remain unestablished.",
+    "Ranking compares only parts of sizes >=3 and counts operations for a supplied partition; no graph-recognition, bit-complexity or runtime-speedup claim.",
+    "Deletion robustness, arbitrary batches, repeated greedy insertion, and weighted walks are not established.",
+    "Finite exploration counts and their rejected hypotheses remain history; universal conclusions rest on exact identities and independent full-domain arguments.",
+    "Original audit scripts/logs retain local dependencies and paths. The portable stdlib package is the provided fresh-checkout route.",
+    "The new workflow has static review only until an actual GitHub execution is separately retained."
+  ]
+}

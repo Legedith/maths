@@ -1,0 +1,14 @@
+{
+  "argv": [
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-general-proof-review-work\\.portable-venv\\Scripts\\python.exe",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-multipartite-proof\\verify_certificate.py",
+    "--certificate",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-general-proof-review-work\\modified-certificate.json",
+    "--output",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-general-proof-review-work\\portable-invalid.json"
+  ],
+  "cwd": "C:\\Users\\Legedith\\Documents\\ChatGPT\\maths",
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-multipartite-proof\\verify_certificate.py\", line 190, in <module>\n    main()\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-multipartite-proof\\verify_certificate.py\", line 157, in main\n    certificate, digest = read_certificate(args.certificate)\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-multipartite-proof\\verify_certificate.py\", line 78, in read_certificate\n    require(digest == CERTIFICATE_SHA256, 'certificate differs from the accepted frozen input')\n  File \"D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-multipartite-proof\\verify_certificate.py\", line 72, in require\n    raise ValueError(message)\nValueError: certificate differs from the accepted frozen input\n",
+  "returncode": 1
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "independent-command-attempt-v1",
+  "attempt_id": "network-design-gate-01",
+  "argv": [
+    "uv",
+    "run",
+    "--frozen",
+    "python",
+    "C:\\Users\\Legedith\\.codex\\skills\\chain-of-evidence\\scripts\\evidence_gate.py",
+    "verify",
+    "--workspace",
+    "."
+  ],
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+  "started_at_utc": "2026-09-08T13:48:17.512882+00:00",
+  "ended_at_utc": "2026-09-08T13:48:17.699059+00:00",
+  "elapsed_seconds": 0.186177,
+  "timeout_seconds": 60,
+  "timed_out": false,
+  "termination": null,
+  "returncode": 0,
+  "selected_environment": {
+    "UV_CACHE_DIR": "D:\\CodexWorkspaces\\mathematics-atlas\\uv-cache",
+    "UV_PROJECT_ENVIRONMENT": null,
+    "VIRTUAL_ENV": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.venv",
+    "PYTHONDONTWRITEBYTECODE": null
+  },
+  "stdout": {
+    "path": "network-design-gate-01.stdout.bin",
+    "bytes": 316,
+    "sha256": "dcd19a024492b9bc219522dd38a367715093d11cd71deb0887238efa35d06efc"
+  },
+  "stderr": {
+    "path": "network-design-gate-01.stderr.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

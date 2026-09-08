@@ -1,0 +1,9 @@
+{
+  "artifact_count": 43,
+  "bundle": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.codex\\evidence\\runs\\kemeny-network-design-v1\\bundle.json",
+  "claim_count": 7,
+  "claim_provenance_rate": 1.0,
+  "errors": [],
+  "status": "PASS",
+  "workspace": "D:\\CodexWorkspaces\\mathematics-atlas\\project"
+}

@@ -1,0 +1,150 @@
+{
+  "schema_version": "kemeny-three-part-priority-review-v2",
+  "auditor": {
+    "identity": "/root/sol_symmetry_audit",
+    "role": "source investigator and branch-2 proposal author; not an independent final proof or novelty certifier",
+    "independence_limitation": "The same agent authored explorer branch 2. This source review may inform a fresh independent verifier but cannot serve as the final independent proof, priority, or novelty attestation."
+  },
+  "review_date": "2026-09-08",
+  "cutoff": "Sources and indexes retrieved through 2026-09-08; bounded review only.",
+  "candidate_statement_reviewed": "For every integer a,b,c >= 3 and p >= 1, if G=K_{a,b,c} join K_p, then adding any missing edge inside any minimum-cardinality non-singleton part strictly decreases simple-random-walk Kemeny's constant.",
+  "scoped_verdict": {
+    "category": "MATERIALLY_DISTINCT_FROM_INSPECTED_PRIOR_RESULTS",
+    "exact_theorem_found": false,
+    "full_existential_nonpositive_consequence_found_as_theorem": false,
+    "stronger_sign_theorem_found": false,
+    "priority_status": "UNRESOLVED",
+    "novelty_status": "UNESTABLISHED",
+    "pivot_required_by_inspected_sources": false,
+    "summary": "The exact all-p unequal-three-part strict sign statement was not located. Hu-Kirkland 2019 already gives the exact general edge-addition identity and proves adjacent subfamilies, while its Conjecture 3.4.7 leaves the relevant three-nonsingleton-part existential conclusion conjectural. Later inspected primary works do not state the candidate or a stronger sign conclusion. A valid candidate proof would therefore be a new sign analysis built on the 2019 identity, not a new general Kemeny edge-addition formula; this bounded search does not establish publication priority or novelty."
+  },
+  "convention_alignment": {
+    "graph": "K_{a,b,c} join K_p is the source's complete multipartite graph with three parts of sizes a,b,c and p singleton parts; the p clique vertices are dominating.",
+    "kemeny": "Use the 2019 convention for the simple random walk T=D^{-1}A: kappa(T)=sum_{i=2}^n 1/(1-lambda_i). The source also writes the random-target hitting-time expression as kappa+1 because its diagonal first-passage entries are mean return times.",
+    "sign": "Hu-Kirkland 2019 defines Braess as strict increase and non-Braess as weak nonincrease. The candidate's strict decrease is unambiguous and stronger than merely non-Braess.",
+    "later_convention_warning": "Breen-deBlieck-Vander Meulen 2026 uses >= in its introductory Braess-edge wording, whereas Hu-Kirkland 2019 uses >. Compare displayed deltas and explicit strict inequalities, not the bare word Braess, across these sources."
+  },
+  "source_comparisons": [
+    {
+      "id": "HK2019-DEFINITION",
+      "source": "hu-kirkland-2019",
+      "locator": "PDF p.3, lines 88-104 of the page-marked text",
+      "source_result": "Braess means kappa(G+e)>kappa(G); non-Braess means kappa(G+e)<=kappa(G).",
+      "relation_to_candidate": "Fixes the sign convention. Candidate asserts the strictly stronger negative sign."
+    },
+    {
+      "id": "HK2019-T3.2.3",
+      "source": "hu-kirkland-2019",
+      "locator": "PDF pp.10-12, especially Theorem 3.2.3 on p.12; page-marked lines 507-523 and 699-714",
+      "source_result": "An exact formula for kappa after adding an edge between two vertices in any selected part of size at least 3 of an arbitrary complete multipartite graph.",
+      "relation_to_candidate": "Foundational and more general as an identity. It does not itself give the candidate's minimum-part sign. The candidate requires a separate inequality proof after substituting the three nonsingleton sizes and p singleton parts."
+    },
+    {
+      "id": "HK2019-T3.3.1",
+      "source": "hu-kirkland-2019",
+      "locator": "PDF pp.13-14, Theorem 3.3.1 and proof; page-marked lines 826-909",
+      "source_result": "For r>=3, no singleton parts, and every part size at least 3, choosing a smallest part yields a strictly negative displayed bound for the inserted edge, although the theorem statement calls it non-Braess.",
+      "relation_to_candidate": "Exact boundary analogue at p=0 and the same minimum-part strategy, but outside the candidate's p>=1 domain."
+    },
+    {
+      "id": "HK2019-T3.4.2",
+      "source": "hu-kirkland-2019",
+      "locator": "PDF pp.15-16, Theorem 3.4.2; page-marked lines 981-1048",
+      "source_result": "For p>=1 and minimum nonsingleton part size exactly 2, a non-Braess edge exists.",
+      "relation_to_candidate": "Different size regime; it does not cover a,b,c>=3."
+    },
+    {
+      "id": "HK2019-T3.4.3",
+      "source": "hu-kirkland-2019",
+      "locator": "PDF pp.16-17, Theorem 3.4.3; page-marked lines 1049-1125",
+      "source_result": "For fixed nonsingleton part sizes at least 3, there is a threshold p0 beyond which a non-Braess edge exists; the proof obtains a negative leading term in p.",
+      "relation_to_candidate": "Covers only sufficiently large p and supplies neither an all-p result nor the candidate's uniform minimum-part statement."
+    },
+    {
+      "id": "HK2019-C3.4.5",
+      "source": "hu-kirkland-2019",
+      "locator": "PDF p.18, Theorem 3.4.4 and Corollary 3.4.5; page-marked lines 1126-1161",
+      "source_result": "When at least three nonsingleton parts all have the same size k>=3, every missing edge is non-Braess for every p>=1. The proof's strictly negative coefficients imply a strict decrease under the paper's positive-denominator reduction.",
+      "relation_to_candidate": "Establishes the equal-size subfamily a=b=c, and is stronger there because it covers every part. It does not cover unequal a,b,c. The strictness sentence is this reviewer's inference from the displayed proof, not the corollary's wording."
+    },
+    {
+      "id": "HK2019-CONJ3.4.7",
+      "source": "hu-kirkland-2019",
+      "locator": "PDF p.19, Conjecture 3.4.7; page-marked lines 1224-1229",
+      "source_result": "For complete multipartite graphs with p dominating vertices and all nonsingleton parts of size at least 3, the paper conjectures that a Braess graph can occur only with two nonsingleton parts satisfying its stated inequality.",
+      "relation_to_candidate": "The candidate's weak existential consequence proves the r=3, all-p portion of this conjecture; its located strict-decrease conclusion is stronger. The source labels the encompassing statement a conjecture, not a theorem."
+    },
+    {
+      "id": "CIARDO2020-T2.2",
+      "source": "ciardo-2020",
+      "locator": "PDF p.3, Theorems 2.1-2.2; PDF p.11, Corollary 4.1",
+      "source_result": "Adding an edge between two newly attached or existing pendent twins gives a Braess increase for every nontrivial connected base graph.",
+      "relation_to_candidate": "Different graph operation and opposite sign; it cites the 2019 complete-multipartite work but does not extend its dominated multipartite sign results."
+    },
+    {
+      "id": "KIM2022-SCOPE",
+      "source": "kim-2022",
+      "locator": "PDF pp.1-2, Introduction and roadmap; PDF p.6, Theorem 3.10",
+      "source_result": "Studies the edge joining endpoints of twin pendent paths at a cut vertex and gives a criterion for that operation.",
+      "relation_to_candidate": "The introduction only summarizes Hu-Kirkland's complete-multipartite characterization; the paper's theorems concern a different cut-vertex family."
+    },
+    {
+      "id": "JANG2024-SCOPE",
+      "source": "jang-et-al-2024",
+      "locator": "PDF pp.1-2, Abstract and Introduction, especially page-marked lines 55-85",
+      "source_result": "Enumerates and bounds Braess edges in families of trees, including paths, spiders, and brooms.",
+      "relation_to_candidate": "It describes Hu-Kirkland as the complete-multipartite source and then explicitly restricts its own purpose to trees."
+    },
+    {
+      "id": "KIRKLAND2025-SCOPE",
+      "source": "kirkland-et-al-2025",
+      "locator": "PDF p.1, Abstract; PDF pp.3-4, page-marked lines 101-155; Theorems 3.1 and 4.1",
+      "source_result": "Provides attainable maximum increase and decrease bounds when one edge is added to an initial tree, with extremal trees and edges.",
+      "relation_to_candidate": "Despite its broad title, the main results are tree-only and do not cover the dense complete-multipartite target."
+    },
+    {
+      "id": "BREEN2026-T3.5",
+      "source": "breen-et-al-2026",
+      "locator": "PDF pp.11-12, Theorem 3.5 and Remark 3.6; page-marked lines 723-865",
+      "source_result": "Gives a general exact formula for adding a clique to an independent set of twin vertices, expressed through degree, edge count, and accessibility index.",
+      "relation_to_candidate": "A broader later mechanism, but not a sign classification. For two vertices it still requires evaluating and bounding the target graph's accessibility index."
+    },
+    {
+      "id": "BREEN2026-T4.7",
+      "source": "breen-et-al-2026",
+      "locator": "PDF pp.16-17, Theorem 4.7; page-marked lines 1053-1145",
+      "source_result": "Classifies Braess clique insertion in complete bipartite graphs; k=2 recovers the earlier complete-bipartite edge criterion.",
+      "relation_to_candidate": "The section applies the general formula only to two partite sets, not three nonsingleton parts plus p singleton parts. The paper's conclusion proposes further work on families with large independent sets rather than stating the target theorem."
+    }
+  ],
+  "direct_corollary_assessment": {
+    "found_in_source": false,
+    "reason": "No inspected theorem covers unequal a,b,c, every p>=1, and the strict sign in a minimum nonsingleton part. Theorem 3.2.3 reduces the question to algebra but does not discharge it. The branch's proposed positivity decomposition is therefore a substantive sign argument, not merely a citation or parameter renaming.",
+    "reuse_requirement": "Any eventual proof must foreground Hu-Kirkland Theorem 3.2.3 as the exact starting identity and claim only the resulting sign theorem/corollary."
+  },
+  "recommended_frozen_statement": "Let a,b,c,p be integers with a,b,c>=3 and p>=1, and let G=K_{a,b,c} join K_p. Put m=min{a,b,c}. For every nonsingleton part S of G with |S|=m and every distinct u,v in S, K(G+uv)-K(G)<0, where K is Kemeny's constant of the simple random walk T=D^{-1}A.",
+  "recommended_claim_boundaries": [
+    "State every tied minimum part, not just one relabelled representative; within-part pair invariance follows from graph automorphisms but should be said explicitly.",
+    "State strict delta <0 instead of relying on the convention-sensitive words Braess or non-Braess.",
+    "Describe the existential consequence as the r=3 portion of Hu-Kirkland Conjecture 3.4.7, and the strict/location result as a strengthening within that portion.",
+    "Do not describe the exact edge-addition formula as new; it is Theorem 3.2.3 of Hu-Kirkland 2019, with a later accessibility-index reformulation in Breen et al. 2026.",
+    "Do not claim resolution for four or more nonsingleton parts, classification of all edge signs, publication priority, global novelty, or an open problem from this bounded search."
+  ],
+  "search_evidence": {
+    "inherited_root_search": {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-three-part-work/source-inspection/resolution-followup.json",
+      "sha256": "fa0c9f1c581aa8b70ee3b6eecd5534729410f60767d1e69c49be73ab9441c3b8"
+    },
+    "citation_index_observation": "At retrieval, Crossref reported 5 citations, OpenAlex 7, and Semantic Scholar returned 8 records including one malformed journal-title record. The August 2026 clique preprint was present in Semantic Scholar but absent from OpenAlex's citing list. These services are discovery aids only and demonstrably incomplete/inconsistent here.",
+    "arxiv_query_observation": "The bounded exact phrase query for Braess edge returned four arXiv records; the Kemeny plus multipartite query returned zero. Neither result is evidence of absence outside that index or of novelty.",
+    "query_record": "query-log.json",
+    "source_record": "source-inventory.json"
+  },
+  "limitations": [
+    "This is a bounded primary-source and forward-citation review, not a systematic review of every journal, thesis, preprint server, language, or unpublished manuscript.",
+    "Citation databases can miss or mislink citations; their count disagreement is retained rather than reconciled into a false complete census.",
+    "The review does not certify the branch proof. It assesses only source relationship and priority risk.",
+    "Failure to locate the theorem is not evidence that no prior proof exists. Publication priority, novelty, and current openness remain unresolved until a broader expert literature review and normal scholarly scrutiny."
+  ],
+  "recommendation": "PASS_FOR_CONTINUED_PROOF_AND_INDEPENDENT_CERTIFICATION_WITH_SCOPED_WORDING; DO_NOT_MAKE_A_NOVELTY_OR_OPENNESS_CLAIM"
+}

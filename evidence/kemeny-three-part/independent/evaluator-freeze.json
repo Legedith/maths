@@ -1,0 +1,42 @@
+{
+  "schema_version": "independent-evaluator-freeze-v1",
+  "frozen_at_utc": "2026-09-08T12:15:24.1798595Z",
+  "status": "frozen_before_canonical_run",
+  "python": "3.12.11",
+  "environment": {
+    "UV_CACHE_DIR": "D:\\CodexWorkspaces\\mathematics-atlas\\uv-cache",
+    "UV_PROJECT_ENVIRONMENT": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\.venv"
+  },
+  "frozen_files": {
+    "scripts/independent_polynomial_audit.py": "024fb7ba0967c165cae75d6b5b794484ddc93107cea533ff6040d1cf4b322633",
+    "scripts/run_capture.py": "973b8107d7f485184c11cd2bf0356fd2c7667b72520db8631c44d48613794d30",
+    "pyproject.toml": "f2f9d125aaea04607fe300b5441794c959d53d95034b541f4eb398600d86354d",
+    "uv.lock": "c20410b38c2c619a70951511b1a96c9d67484b5f6e6d31389f6359cc7d9776c3"
+  },
+  "read_only_inputs": {
+    "certificate": {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-explorer-3-work\\proof\\coefficient-certificate.json",
+      "sha256": "540ea590fb2e3d671e95102ab8ac5b80a22752f85354c7ded4aa84a4848fb8a9"
+    },
+    "source_pdf": {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-postresult-review-work\\sources\\hu-kirkland-2019.pdf",
+      "sha256": "c896d263c6bec602274f84a29c30492f99e85e3bde654f3e61dcf5aa10718c77"
+    }
+  },
+  "canonical_attempt": "attempt-independent-polynomial-canonical-01",
+  "canonical_output": "outputs/independent-polynomial-audit-canonical.json",
+  "canonical_inner_argv": [
+    "python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\scripts\\independent_polynomial_audit.py",
+    "--certificate",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-explorer-3-work\\proof\\coefficient-certificate.json",
+    "--source-pdf",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-postresult-review-work\\sources\\hu-kirkland-2019.pdf",
+    "--output",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\outputs\\independent-polynomial-audit-canonical.json",
+    "--expected-certificate-sha256",
+    "540ea590fb2e3d671e95102ab8ac5b80a22752f85354c7ded4aa84a4848fb8a9",
+    "--expected-source-pdf-sha256",
+    "c896d263c6bec602274f84a29c30492f99e85e3bde654f3e61dcf5aa10718c77"
+  ]
+}

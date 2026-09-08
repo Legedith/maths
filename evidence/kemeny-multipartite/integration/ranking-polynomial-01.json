@@ -1,0 +1,39 @@
+{
+  "schema_version": "independent-command-attempt-v1",
+  "attempt_id": "ranking-polynomial-01",
+  "argv": [
+    "uv",
+    "run",
+    "--project",
+    "experiments/kemeny-multipartite-proof",
+    "--frozen",
+    "python",
+    "experiments/kemeny-multipartite-proof/verify_ranking.py",
+    "--output",
+    "work/kemeny-multipartite-proof/ranking-01.json"
+  ],
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+  "started_at_utc": "2026-09-08T13:40:38.269190+00:00",
+  "ended_at_utc": "2026-09-08T13:40:38.406923+00:00",
+  "elapsed_seconds": 0.137733,
+  "timeout_seconds": 60,
+  "timed_out": false,
+  "termination": null,
+  "returncode": 0,
+  "selected_environment": {
+    "UV_CACHE_DIR": "D:\\CodexWorkspaces\\mathematics-atlas\\uv-cache",
+    "UV_PROJECT_ENVIRONMENT": null,
+    "VIRTUAL_ENV": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-multipartite-proof\\.venv",
+    "PYTHONDONTWRITEBYTECODE": null
+  },
+  "stdout": {
+    "path": "ranking-polynomial-01.stdout.bin",
+    "bytes": 779,
+    "sha256": "531ee0f5e7ace36cd317773c539e666321f04041aebce5578482f9812e20bc43"
+  },
+  "stderr": {
+    "path": "ranking-polynomial-01.stderr.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

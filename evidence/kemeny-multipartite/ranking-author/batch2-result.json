@@ -1,0 +1,121 @@
+{
+  "symbolic_difference": "(g*n**2 - 2*g*n - g*x*y + 2*g*x + 2*g*y - 4*g + 2*n**4 - 4*n**3*x - 4*n**3*y + 7*n**3 + 2*n**2*x**2 + 8*n**2*x*y - 11*n**2*x + 2*n**2*y**2 - 11*n**2*y + 8*n**2 - 4*n*x**2*y + 4*n*x**2 - 4*n*x*y**2 + 15*n*x*y - 8*n*x + 4*n*y**2 - 8*n*y + 2*x**2*y**2 - 4*x**2*y - 4*x*y**2 + 8*x*y)/(n*(-n + x)*(-n + y)*(-n + x - 2)*(-n + y - 2))",
+  "numerator_alpha_beta": "2*alpha**2*beta**2 + 4*alpha**2*beta + 4*alpha*beta**2 - alpha*beta*g - alpha*beta*n + 8*alpha*beta + alpha*g*n - 2*alpha*g + beta*g*n - 2*beta*g + 2*g*n - 4*g",
+  "substitution": "n=x+y+w,x=3+u,y=3+v; gamma=g>0,u,v,w>=0",
+  "coefficient_count": 37,
+  "minimum_coefficient": "1",
+  "all_positive": true,
+  "constant_in_u_v_w": "23*g + 396",
+  "matrix_checks": [
+    {
+      "q": [
+        3,
+        4,
+        5,
+        1
+      ],
+      "selected": 3,
+      "delta": "-6419/460200"
+    },
+    {
+      "q": [
+        3,
+        4,
+        5,
+        1
+      ],
+      "selected": 4,
+      "delta": "-44261/4555980"
+    },
+    {
+      "q": [
+        3,
+        4,
+        5,
+        1
+      ],
+      "selected": 5,
+      "delta": "-115/24544"
+    },
+    {
+      "q": [
+        3,
+        5,
+        1,
+        1
+      ],
+      "selected": 3,
+      "delta": "-983/44352"
+    },
+    {
+      "q": [
+        3,
+        5,
+        1,
+        1
+      ],
+      "selected": 5,
+      "delta": "313/123200"
+    },
+    {
+      "q": [
+        3,
+        4
+      ],
+      "selected": 3,
+      "delta": "-2/39"
+    },
+    {
+      "q": [
+        3,
+        4
+      ],
+      "selected": 4,
+      "delta": "-1/130"
+    },
+    {
+      "q": [
+        3,
+        4,
+        5,
+        6,
+        1
+      ],
+      "selected": 3,
+      "delta": "-115453/17242272"
+    },
+    {
+      "q": [
+        3,
+        4,
+        5,
+        6,
+        1
+      ],
+      "selected": 4,
+      "delta": "-13258/2410515"
+    },
+    {
+      "q": [
+        3,
+        4,
+        5,
+        6,
+        1
+      ],
+      "selected": 5,
+      "delta": "-28055/6705328"
+    },
+    {
+      "q": [
+        3,
+        4,
+        5,
+        6,
+        1
+      ],
+      "selected": 6,
+      "delta": "-31607/11674455"
+    }
+  ]
+}

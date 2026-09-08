@@ -1,0 +1,174 @@
+{
+  "canonical_attempt": {
+    "author_checker_reported_pass": true,
+    "checker_result": "output/attempt-portable-check-01/certificate-check.json",
+    "record": "logs/attempt-portable-check-01.json",
+    "returncode": 0,
+    "timed_out": false
+  },
+  "claim_boundary": {
+    "broader_than_three_non_singleton_parts": "not_claimed",
+    "independent_mathematical_validity": "pending",
+    "portable_replay": "complete",
+    "publication_novelty": "unresolved"
+  },
+  "contract_sha256": "563d11151e21d31a21804e7871db6979996bc2cbe4dc0ed3673563975b1d2aba",
+  "created_at_utc": "2026-09-08T10:58:35.881889+00:00",
+  "file_count": 29,
+  "files": [
+    {
+      "bytes": 8,
+      "path": ".python-version",
+      "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d"
+    },
+    {
+      "bytes": 1059,
+      "path": "ATTRIBUTION.md",
+      "sha256": "7fe9847d34814d64ce9586130bbb66d2c6287713b97b03b7da16c9a47f2d6716"
+    },
+    {
+      "bytes": 2135,
+      "path": "README.md",
+      "sha256": "6dcce71ca4f014f8e29c91243c6c77009d44af90fc53c327e6de39be4939b014"
+    },
+    {
+      "bytes": 3691,
+      "path": "build_publication_manifest.py",
+      "sha256": "04fc09041325cfa1dfb95a8a58dc8df24081f54f08f00affc3f2eb244bb187e7"
+    },
+    {
+      "bytes": 6092,
+      "path": "coefficient-certificate.json",
+      "sha256": "540ea590fb2e3d671e95102ab8ac5b80a22752f85354c7ded4aa84a4848fb8a9"
+    },
+    {
+      "bytes": 7110,
+      "path": "contract-v1.md",
+      "sha256": "563d11151e21d31a21804e7871db6979996bc2cbe4dc0ed3673563975b1d2aba"
+    },
+    {
+      "bytes": 3260,
+      "path": "freeze_package.py",
+      "sha256": "667c8cce8345ef4169b3bcd4ece654ccc3cb1b12e199bb7bdba778335fcc6c95"
+    },
+    {
+      "bytes": 1351,
+      "path": "logs/attempt-environment-python-01.json",
+      "sha256": "2d75a7338965cb46bd0fb3c9192b23b783ad47c07a6a56662547c3067c97f012"
+    },
+    {
+      "bytes": 0,
+      "path": "logs/attempt-environment-python-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 269,
+      "path": "logs/attempt-environment-python-01.stdout.bin",
+      "sha256": "a659949deb748e16c2a61d1ec84461193e8d21928cedd5febccd971116034d6f"
+    },
+    {
+      "bytes": 1011,
+      "path": "logs/attempt-environment-uv-01.json",
+      "sha256": "951529ca28df3bf7f6513a059244d06382ed278c2141354bac96a34fcee5aa07"
+    },
+    {
+      "bytes": 0,
+      "path": "logs/attempt-environment-uv-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 33,
+      "path": "logs/attempt-environment-uv-01.stdout.bin",
+      "sha256": "b8efdf882e013e974b58ac07babfdc9ee1540650ef8f847379269bb4546ab7a6"
+    },
+    {
+      "bytes": 1514,
+      "path": "logs/attempt-portable-check-01.json",
+      "sha256": "91685bffaa5f9fc3c774f70dc7f0bd825e284de64adb35922135529ebf6712a9"
+    },
+    {
+      "bytes": 0,
+      "path": "logs/attempt-portable-check-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1259,
+      "path": "logs/attempt-portable-check-01.stdout.bin",
+      "sha256": "f80443929a0f5a343783ce6c5e7ef3168b9cba47d2839470088958b17ad5b928"
+    },
+    {
+      "bytes": 1564,
+      "path": "logs/attempt-post-run-static-identity-01.json",
+      "sha256": "33f120d045a1dfea9f47fe25230b0abe95cddec3215d246b7019f1db36aba025"
+    },
+    {
+      "bytes": 0,
+      "path": "logs/attempt-post-run-static-identity-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 49,
+      "path": "logs/attempt-post-run-static-identity-01.stdout.bin",
+      "sha256": "6d2d0a3dbace1886cdc41945a6c44a8cdc8377bb5d5a0701dc307eafb2a85b2f"
+    },
+    {
+      "bytes": 4819,
+      "path": "logs/attempts.jsonl",
+      "sha256": "911d55a9fd013419a940e9aa74cc67ef33ee36862da8fbe637cad9a97e617888"
+    },
+    {
+      "bytes": 1224,
+      "path": "output/attempt-portable-check-01/certificate-check.json",
+      "sha256": "b54f31bc39b16806b8ca5968b246927dac8c7d722ae67fc35746e82e63df188c"
+    },
+    {
+      "bytes": 2889,
+      "path": "package-freeze.json",
+      "sha256": "bdcb4a2eeae2eac2a7e4c6899c94a9a66ea7867278b87ba62f2d764d812a3024"
+    },
+    {
+      "bytes": 2285,
+      "path": "proposal.json",
+      "sha256": "6a821c189ce481d4138c4d7cda5a223332bf3317a0b91c0d84c63887d69c2c5d"
+    },
+    {
+      "bytes": 7701,
+      "path": "proposal.md",
+      "sha256": "53c78f650397b3a791dd6b2a715f2294c564bcb9440feabce7327ceb4dcfa3e4"
+    },
+    {
+      "bytes": 238,
+      "path": "pyproject.toml",
+      "sha256": "7c2b2ab211d4b735cf762b5694489f58c945d153b92fbbd0f831498e12cda48c"
+    },
+    {
+      "bytes": 4600,
+      "path": "run_logged.py",
+      "sha256": "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6"
+    },
+    {
+      "bytes": 4609,
+      "path": "selection-v1.json",
+      "sha256": "c750ff018cc7e04db9d9b964486d71a0e5f9b5a42ea93e9de25b68c73632b996"
+    },
+    {
+      "bytes": 158,
+      "path": "uv.lock",
+      "sha256": "c033cbab7d273f72503d2e832385c6215db9a8c51b82da637ce14cca4172d999"
+    },
+    {
+      "bytes": 10220,
+      "path": "verify_coefficient_certificate.py",
+      "sha256": "08aee29b87793cb288eaa7dfe54dd748b169972c32e46ed6e1b5bb2e1f3327f5"
+    }
+  ],
+  "schema_version": "kemeny-three-part-portable-publication-v1",
+  "selected_source_identity": {
+    "certificate_sha256": "540ea590fb2e3d671e95102ab8ac5b80a22752f85354c7ded4aa84a4848fb8a9",
+    "checker_sha256": "08aee29b87793cb288eaa7dfe54dd748b169972c32e46ed6e1b5bb2e1f3327f5",
+    "proposal_json_sha256": "6a821c189ce481d4138c4d7cda5a223332bf3317a0b91c0d84c63887d69c2c5d",
+    "proposal_markdown_sha256": "53c78f650397b3a791dd6b2a715f2294c564bcb9440feabce7327ceb4dcfa3e4"
+  },
+  "selection_sha256": "c750ff018cc7e04db9d9b964486d71a0e5f9b5a42ea93e9de25b68c73632b996",
+  "status": "portable_author_checker_replay_complete_independent_proof_gate_pending"
+}

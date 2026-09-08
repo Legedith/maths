@@ -1,0 +1,461 @@
+{
+  "schema_version": "kemeny-three-part-independent-publication-subset-v1",
+  "status": "manifest_only_no_copy_performed",
+  "prepared_on": "2026-09-08",
+  "purpose": "Copy the accepted independent-review evidence as a small byte-preserved public subset while keeping the proof implementation in its separate portable package.",
+  "scope": {
+    "selected_file_count": 39,
+    "selected_payload_bytes": 176507,
+    "copy_rule": "Copy every selected file byte-for-byte to its public_relative_path under one independent-review directory and verify SHA256 after copying.",
+    "manifest_self_hash": "Recorded out of band after this manifest is written; a file cannot contain its own SHA256 without changing it.",
+    "approved_report_sha256": "5e4cb23293d62d2e5e8e285534bd3207e1e0c8b053301e3bbc494cb348403a51"
+  },
+  "verdict_boundaries_to_preserve": {
+    "mathematical": "The exact frozen proof is accepted for all integers a,b,c>=3 and p>=1, for every missing edge in every minimum-size non-singleton part of K_{a,b,c} join K_p.",
+    "priority": "Publication priority, global novelty, current openness, and practical impact remain unresolved or unestablished.",
+    "checker": "The preserved checker is a core exact polynomial checker for the frozen certificate, not a complete provenance-schema validator; it accepts malformed source, target, and domain metadata described in the report.",
+    "diagnostic": "The 30 exact matrix comparisons are diagnostic support only; the universal conclusion comes from the exact polynomial identity and sign proof."
+  },
+  "source_roots": {
+    "independent_review": "D:/CodexWorkspaces/mathematics-atlas/kemeny-three-part-independent-work",
+    "bounded_prior_art_packet": "D:/CodexWorkspaces/mathematics-atlas/kemeny-three-part-prior-art-work"
+  },
+  "selected_files": [
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "audit-spec.md",
+      "public_relative_path": "audit-spec.md",
+      "role": "review_scope",
+      "bytes": 2705,
+      "sha256": "7f8c5cfab01bc55ac4c0207585527997c145f3e3410ad8899756a783d51b901e"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "independent-review-report.md",
+      "public_relative_path": "independent-review-report.md",
+      "role": "accepted_report",
+      "bytes": 10191,
+      "sha256": "5e4cb23293d62d2e5e8e285534bd3207e1e0c8b053301e3bbc494cb348403a51"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "source-domain-proof-notes.md",
+      "public_relative_path": "source-domain-proof-notes.md",
+      "role": "source_domain_sign_and_ties_notes",
+      "bytes": 7428,
+      "sha256": "838533fbed3b2937fe02f8a8a29acdcd0ed4a99fd40c302c8ca483f6ee324ff4"
+    },
+    {
+      "source_root": "bounded_prior_art_packet",
+      "source_relative_path": "priority-review-v2.json",
+      "public_relative_path": "source-notes/priority-review-v2.json",
+      "role": "bounded_prior_art_context_not_priority_certificate",
+      "bytes": 13079,
+      "sha256": "25545977eafd4f042d90ecc69dfcaf3f82bb86578a3653cb033388d5d2c1a75b"
+    },
+    {
+      "source_root": "bounded_prior_art_packet",
+      "source_relative_path": "priority-review-correction-v2.json",
+      "public_relative_path": "source-notes/priority-review-correction-v2.json",
+      "role": "priority_independence_correction",
+      "bytes": 1011,
+      "sha256": "3f48c1281a59b803af536e0b0cd567c11eedec1d8b26f29a49925b7d8a1960cb"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "failed-attempts.md",
+      "public_relative_path": "failed-attempts.md",
+      "role": "failure_and_supersession_disclosure",
+      "bytes": 1446,
+      "sha256": "56a3f9ba7f4ca99bb1c0024aa0dd6a6e66dcc8edc5d106dfcd479f49ab9c8b0d"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "evaluator-freeze.json",
+      "public_relative_path": "evaluator-freeze.json",
+      "role": "independent_evaluator_freeze_historical_paths",
+      "bytes": 2243,
+      "sha256": "8fdb337a6a079aabcb64c3e2886a1891c20469141186697cb9ae229866935e37"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": ".python-version",
+      "public_relative_path": ".python-version",
+      "role": "text_only_runtime_specification",
+      "bytes": 9,
+      "sha256": "312ef13d6605e0274e1d4e1666077daa3b32018cc188d7d0fe5436fd0f20e106"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "pyproject.toml",
+      "public_relative_path": "pyproject.toml",
+      "role": "text_only_runtime_specification",
+      "bytes": 122,
+      "sha256": "f2f9d125aaea04607fe300b5441794c959d53d95034b541f4eb398600d86354d"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "uv.lock",
+      "public_relative_path": "uv.lock",
+      "role": "text_only_runtime_lock",
+      "bytes": 158,
+      "sha256": "c20410b38c2c619a70951511b1a96c9d67484b5f6e6d31389f6359cc7d9776c3"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "scripts/run_capture.py",
+      "public_relative_path": "scripts/run_capture.py",
+      "role": "raw_attempt_capture_utility",
+      "bytes": 2634,
+      "sha256": "973b8107d7f485184c11cd2bf0356fd2c7667b72520db8631c44d48613794d30"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "scripts/independent_polynomial_audit.py",
+      "public_relative_path": "scripts/independent_polynomial_audit.py",
+      "role": "frozen_independent_exact_evaluator",
+      "bytes": 16638,
+      "sha256": "024fb7ba0967c165cae75d6b5b794484ddc93107cea533ff6040d1cf4b322633"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "scripts/adversarial_author_checker.py",
+      "public_relative_path": "scripts/adversarial_author_checker.py",
+      "role": "checker_adversarial_harness",
+      "bytes": 6598,
+      "sha256": "ba3ed6675d145aac5b07236dddd9bace43ee7814b4c11e22841200f7f6247f7d"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "scripts/exact_matrix_diagnostic.py",
+      "public_relative_path": "scripts/exact_matrix_diagnostic.py",
+      "role": "finite_exact_matrix_diagnostic",
+      "bytes": 6496,
+      "sha256": "5d839d68d9bfba4d71b04e02a02008a3d14b5eff1fe5cfc962adb43e80b58814"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "scripts/verify_portable_alignment.py",
+      "public_relative_path": "scripts/verify_portable_alignment.py",
+      "role": "portable_package_alignment_verifier",
+      "bytes": 8105,
+      "sha256": "6d5fc0e21f26c5ce5c7ba664539eec340e5cda16d37517b9d8765663049e0827"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "outputs/independent-polynomial-audit-canonical.json",
+      "public_relative_path": "outputs/independent-polynomial-audit-canonical.json",
+      "role": "canonical_independent_result_historical_paths",
+      "bytes": 2081,
+      "sha256": "8eba6d8d05139e3c43a11b382c38387cee83a8794fcafd2832395fa47a96ee87"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "logs/attempt-independent-polynomial-canonical-01.json",
+      "public_relative_path": "logs/attempt-independent-polynomial-canonical-01.json",
+      "role": "canonical_independent_attempt_record_historical_paths",
+      "bytes": 2739,
+      "sha256": "c153c669a90191aa9cba14db91184c5dda4191226aee2d16e5d6d1630e695e49"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "logs/attempt-independent-polynomial-canonical-01.stdout.bin",
+      "public_relative_path": "logs/attempt-independent-polynomial-canonical-01.stdout.bin",
+      "role": "canonical_independent_raw_stdout",
+      "bytes": 2081,
+      "sha256": "8eba6d8d05139e3c43a11b382c38387cee83a8794fcafd2832395fa47a96ee87"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "logs/attempt-independent-polynomial-canonical-01.stderr.bin",
+      "public_relative_path": "logs/attempt-independent-polynomial-canonical-01.stderr.bin",
+      "role": "canonical_independent_raw_stderr_empty",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "outputs/author-checker-adversarial-02.json",
+      "public_relative_path": "outputs/author-checker-adversarial-02.json",
+      "role": "canonical_adversarial_result_historical_paths",
+      "bytes": 19375,
+      "sha256": "7234f6a336fc9c2645d9add796ea970969bfc2be39806e293a13528aa5894e0b"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "logs/attempt-author-checker-adversarial-02.json",
+      "public_relative_path": "logs/attempt-author-checker-adversarial-02.json",
+      "role": "canonical_adversarial_attempt_record_historical_paths",
+      "bytes": 3074,
+      "sha256": "f888bb94f026ac79c42c8daf3c20e86354da356727d59d841d2263d858eca694"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "logs/attempt-author-checker-adversarial-02.stdout.bin",
+      "public_relative_path": "logs/attempt-author-checker-adversarial-02.stdout.bin",
+      "role": "canonical_adversarial_raw_stdout",
+      "bytes": 19375,
+      "sha256": "7234f6a336fc9c2645d9add796ea970969bfc2be39806e293a13528aa5894e0b"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "logs/attempt-author-checker-adversarial-02.stderr.bin",
+      "public_relative_path": "logs/attempt-author-checker-adversarial-02.stderr.bin",
+      "role": "canonical_adversarial_raw_stderr_empty",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "outputs/exact-matrix-diagnostic.json",
+      "public_relative_path": "outputs/exact-matrix-diagnostic.json",
+      "role": "canonical_finite_diagnostic_result",
+      "bytes": 7103,
+      "sha256": "6fe9690e7538b18174440555720489bb6fc94806b44643e5e654edbb28b5f6dd"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "logs/attempt-exact-matrix-diagnostic-01.json",
+      "public_relative_path": "logs/attempt-exact-matrix-diagnostic-01.json",
+      "role": "canonical_finite_diagnostic_attempt_record_historical_paths",
+      "bytes": 1944,
+      "sha256": "c574b2b2c6028d01fc2f3c96a3f90c7c9d6202ce1e8ef9d1d266bdd7d676be87"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "logs/attempt-exact-matrix-diagnostic-01.stdout.bin",
+      "public_relative_path": "logs/attempt-exact-matrix-diagnostic-01.stdout.bin",
+      "role": "canonical_finite_diagnostic_raw_stdout",
+      "bytes": 7103,
+      "sha256": "6fe9690e7538b18174440555720489bb6fc94806b44643e5e654edbb28b5f6dd"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "logs/attempt-exact-matrix-diagnostic-01.stderr.bin",
+      "public_relative_path": "logs/attempt-exact-matrix-diagnostic-01.stderr.bin",
+      "role": "canonical_finite_diagnostic_raw_stderr_empty",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "outputs/portable-alignment.json",
+      "public_relative_path": "outputs/portable-alignment.json",
+      "role": "canonical_portable_alignment_result_historical_paths",
+      "bytes": 3429,
+      "sha256": "df80e6c8651fb0f6353b5ec85baedb367249b4da9aceacb35f94ca3cc1935c86"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "logs/attempt-portable-alignment-01.json",
+      "public_relative_path": "logs/attempt-portable-alignment-01.json",
+      "role": "canonical_portable_alignment_attempt_record_historical_paths",
+      "bytes": 2691,
+      "sha256": "02f0de91c8305f09610b9f0a777ddfe70f4a153e194cc493838245a64badc0ef"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "logs/attempt-portable-alignment-01.stdout.bin",
+      "public_relative_path": "logs/attempt-portable-alignment-01.stdout.bin",
+      "role": "canonical_portable_alignment_raw_stdout",
+      "bytes": 3429,
+      "sha256": "df80e6c8651fb0f6353b5ec85baedb367249b4da9aceacb35f94ca3cc1935c86"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "logs/attempt-portable-alignment-01.stderr.bin",
+      "public_relative_path": "logs/attempt-portable-alignment-01.stderr.bin",
+      "role": "canonical_portable_alignment_raw_stderr_empty",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "outputs/portable-canonical-replay-01.json",
+      "public_relative_path": "outputs/portable-canonical-replay-01.json",
+      "role": "canonical_portable_checker_result_historical_paths",
+      "bytes": 1224,
+      "sha256": "b54f31bc39b16806b8ca5968b246927dac8c7d722ae67fc35746e82e63df188c"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "logs/attempt-portable-canonical-replay-01.json",
+      "public_relative_path": "logs/attempt-portable-canonical-replay-01.json",
+      "role": "canonical_portable_checker_attempt_record_historical_paths",
+      "bytes": 2283,
+      "sha256": "152545e4cb1219f4c0aa50d302c3cfc28ac22a155636bd85b1480131b13c3f1e"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "logs/attempt-portable-canonical-replay-01.stdout.bin",
+      "public_relative_path": "logs/attempt-portable-canonical-replay-01.stdout.bin",
+      "role": "canonical_portable_checker_raw_stdout",
+      "bytes": 1259,
+      "sha256": "f80443929a0f5a343783ce6c5e7ef3168b9cba47d2839470088958b17ad5b928"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "logs/attempt-portable-canonical-replay-01.stderr.bin",
+      "public_relative_path": "logs/attempt-portable-canonical-replay-01.stderr.bin",
+      "role": "canonical_portable_checker_raw_stderr_empty",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": ".codex/evidence/runs/kemeny-three-part-independent-review-20260908/bundle.json",
+      "public_relative_path": ".codex/evidence/runs/kemeny-three-part-independent-review-20260908/bundle.json",
+      "role": "historical_local_coe_bundle_nonportable_subset",
+      "bytes": 16238,
+      "sha256": "770e810772dccb124208de7830365a3a59cc1aba24f7d95a65c89b8ade5c5cfa"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "logs/attempt-evidence-gate-verify-01.json",
+      "public_relative_path": "logs/attempt-evidence-gate-verify-01.json",
+      "role": "historical_local_coe_gate_attempt_record",
+      "bytes": 1824,
+      "sha256": "768910d34ca49fc1b3d31f2628128545695486b86cd80c08571804dae11427b7"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "logs/attempt-evidence-gate-verify-01.stdout.bin",
+      "public_relative_path": "logs/attempt-evidence-gate-verify-01.stdout.bin",
+      "role": "historical_local_coe_gate_raw_stdout",
+      "bytes": 392,
+      "sha256": "4f07bd1707c286fe1b1c14accdfe867bc660bee26e5e5989b13d80aaed7105e4"
+    },
+    {
+      "source_root": "independent_review",
+      "source_relative_path": "logs/attempt-evidence-gate-verify-01.stderr.bin",
+      "public_relative_path": "logs/attempt-evidence-gate-verify-01.stderr.bin",
+      "role": "historical_local_coe_gate_raw_stderr_empty",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "excluded_third_party_sources": [
+    {
+      "title": "Yuxiang Hu and Steve Kirkland, Complete Multipartite Graphs and Braess Edges (2019)",
+      "local_path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-postresult-review-work/sources/hu-kirkland-2019.pdf",
+      "sha256": "c896d263c6bec602274f84a29c30492f99e85e3bde654f3e61dcf5aa10718c77",
+      "source_url": "https://mspace.lib.umanitoba.ca/server/api/core/bitstreams/04a4246d-2b67-4e4c-9c4b-60f0c5417031/content",
+      "disposition": "keep_local_reference_by_url_and_hash_do_not_copy_pdf_or_rendered_pages"
+    },
+    {
+      "title": "Breen, deBlieck, and Vander Meulen, Kemeny's constant and Braess cliques in graphs (2026)",
+      "local_path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-three-part-prior-art-work/sources/breen-et-al-2026-arxiv.pdf",
+      "sha256": "69037b759b6c7948fba80c77c4e50823c4d051658ff93eedf1113d7c21a3d660",
+      "source_url": "https://arxiv.org/abs/2608.04150",
+      "disposition": "keep_local_reference_by_url_and_hash_do_not_copy_pdf_or_rendered_pages"
+    }
+  ],
+  "excluded_local_classes": [
+    {
+      "pattern": "**/*.pdf",
+      "reason": "full third-party source PDFs are reference-only"
+    },
+    {
+      "pattern": "tmp/pdfs/** and any rendered source-page image directory",
+      "reason": "rendered pages and source-page snapshots remain local"
+    },
+    {
+      "pattern": ".venv*/**, **/__pycache__/**, D:/CodexWorkspaces/mathematics-atlas/uv-cache/**",
+      "reason": "virtual environments, interpreter binaries, bytecode, and caches are excluded; only the three small text runtime specifications are selected"
+    },
+    {
+      "pattern": "artifacts/author-checker-mutations*/** and logs/author-checker-adversarial*/**",
+      "reason": "per-case generated mutations and subprocess logs remain local; the selected harness, summary, and outer raw attempt files are sufficient to regenerate them when the exact checker and certificate are supplied"
+    },
+    {
+      "pattern": "raw-artifact-manifest.json and unselected source-render, source-info, environment, compile, initialization, superseded, and failed-attempt command records",
+      "reason": "these remain in the complete local audit archive and are not part of the small public subset"
+    }
+  ],
+  "historical_coe_limits": {
+    "classification": "historical_local_audit_evidence_only",
+    "bundle_sha256": "770e810772dccb124208de7830365a3a59cc1aba24f7d95a65c89b8ade5c5cfa",
+    "captured_gate_stdout_sha256": "4f07bd1707c286fe1b1c14accdfe867bc660bee26e5e5989b13d80aaed7105e4",
+    "gate_script": {
+      "local_path": "C:/Users/Legedith/.codex/skills/chain-of-evidence/scripts/evidence_gate.py",
+      "bytes": 26691,
+      "sha256": "bd51384dab6679898775c81fbae2c3ede216bc15e8b6a60eb2554ba0ad96d136"
+    },
+    "limits": [
+      "The bundle names 40 artifacts. This public subset intentionally omits its rendered source pages, source-render command records, and raw-artifact-manifest.json, so the copied bundle cannot pass a standalone artifact gate against the subset.",
+      "The bundle evaluator command, the freeze, and several captured results and attempt records retain original absolute local or external paths. Copying those bytes preserves history; it does not relocate those paths.",
+      "The selected captured gate output records a local PASS before the final administrative manifest and bundle hash updates. The current bundle later passed a direct relative-path gate invocation locally, but that later PASS was not retained as a separate captured output file.",
+      "Do not describe the copied historical bundle or gate output as a portable verification certificate. A new relocatable CoE bundle, if desired, is a distinct artifact and must be built and gated from the actual published file set."
+    ]
+  },
+  "local_dependencies_for_separate_portable_proof_package": {
+    "portable_tree": {
+      "local_path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-three-part-portable-work",
+      "package_freeze": {
+        "path": "package-freeze.json",
+        "bytes": 2889,
+        "sha256": "bdcb4a2eeae2eac2a7e4c6899c94a9a66ea7867278b87ba62f2d764d812a3024"
+      },
+      "publication_manifest": {
+        "path": "publication-manifest.json",
+        "bytes": 6038,
+        "sha256": "04471269259bc372bf7296526ebf267625a5323b50970a80305cb9cf4a40e900"
+      },
+      "instruction": "Publish this tree as the separate portable proof package under its own manifest; do not duplicate or rewrite its checker or certificate inside the independent-review subset."
+    },
+    "critical_frozen_inputs": [
+      {
+        "portable_path": "coefficient-certificate.json",
+        "sha256": "540ea590fb2e3d671e95102ab8ac5b80a22752f85354c7ded4aa84a4848fb8a9"
+      },
+      {
+        "portable_path": "verify_coefficient_certificate.py",
+        "sha256": "08aee29b87793cb288eaa7dfe54dd748b169972c32e46ed6e1b5bb2e1f3327f5"
+      },
+      {
+        "portable_path": "proposal.md",
+        "sha256": "53c78f650397b3a791dd6b2a715f2294c564bcb9440feabce7327ceb4dcfa3e4"
+      },
+      {
+        "portable_path": "proposal.json",
+        "sha256": "6a821c189ce481d4138c4d7cda5a223332bf3317a0b91c0d84c63887d69c2c5d"
+      },
+      {
+        "portable_path": "contract-v1.md",
+        "sha256": "563d11151e21d31a21804e7871db6979996bc2cbe4dc0ed3673563975b1d2aba"
+      },
+      {
+        "portable_path": "selection-v1.json",
+        "sha256": "c750ff018cc7e04db9d9b964486d71a0e5f9b5a42ea93e9de25b68c73632b996"
+      }
+    ],
+    "selected_author_manifest_reference": {
+      "local_path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-three-part-explorer-3-work/publication-manifest.json",
+      "sha256": "30f667f7a0a7657444984f578bd9f51b9a217d93f2eca10dea5b34f49710f04c"
+    },
+    "replay_mapping": [
+      {
+        "review_component": "independent_polynomial_audit",
+        "needs": "The exact certificate plus the Hu--Kirkland PDF at its recorded SHA256; pass relocated paths on the command line and use a fresh output path."
+      },
+      {
+        "review_component": "adversarial_author_checker",
+        "needs": "The exact portable checker and certificate. The harness regenerates the excluded mutation files and per-case subprocess logs."
+      },
+      {
+        "review_component": "portable_alignment",
+        "needs": "The complete portable tree governed by package-freeze.json and publication-manifest.json, the selected branch-3 source tree, and the exact contract and selection. The retained result is historical until those local inputs are supplied."
+      },
+      {
+        "review_component": "historical_coe_gate",
+        "needs": "The complete original 40-artifact local audit archive and the exact evidence_gate.py above. The 39-file public subset cannot reproduce the historical bundle gate by itself."
+      }
+    ]
+  },
+  "publication_checks_for_root": [
+    "Copy all 39 selected payload files plus this manifest without text normalization or edits, then rehash every selected payload against this manifest.",
+    "Keep the portable proof package in its separate directory and verify it against its own publication-manifest.json and package-freeze.json.",
+    "Link the third-party sources by URL and recorded SHA256; do not copy the PDFs or rendered pages into the public review subset.",
+    "Keep the report's mathematical scope, unresolved novelty and impact status, diagnostic-only label, and checker metadata-validation limitation visible in any landing text."
+  ]
+}

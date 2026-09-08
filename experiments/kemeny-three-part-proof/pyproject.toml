@@ -1,0 +1,9 @@
+[project]
+name = "kemeny-three-part-proof-certificate"
+version = "0.1.0"
+description = "Portable exact checker for the selected three-part Kemeny proof candidate"
+requires-python = "==3.12.11"
+dependencies = []
+
+[tool.uv]
+package = false

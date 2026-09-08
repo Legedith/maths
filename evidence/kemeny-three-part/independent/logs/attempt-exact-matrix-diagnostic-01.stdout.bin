@@ -1,0 +1,328 @@
+{
+  "schema_version": "independent-exact-matrix-diagnostic-v1",
+  "status": "PASS",
+  "method": "Fraction trace((I-P+1*pi)^-1)-1 versus Theorem 3.2.3",
+  "scope": "finite diagnostics only; not evidence for the universal quantifier",
+  "cases": 4,
+  "edge_comparisons": 30,
+  "results": [
+    {
+      "a_b_c_p": [
+        3,
+        3,
+        3,
+        1
+      ],
+      "base_kemeny": "331/40",
+      "minimum_size": 3,
+      "minimum_part_count": 3,
+      "minimum_parts": [
+        {
+          "part_index": 0,
+          "part_size": 3,
+          "source_delta": "-1693/93240",
+          "all_within_part_edges": [
+            {
+              "edge": [
+                0,
+                1
+              ],
+              "delta": "-1693/93240"
+            },
+            {
+              "edge": [
+                0,
+                2
+              ],
+              "delta": "-1693/93240"
+            },
+            {
+              "edge": [
+                1,
+                2
+              ],
+              "delta": "-1693/93240"
+            }
+          ]
+        },
+        {
+          "part_index": 1,
+          "part_size": 3,
+          "source_delta": "-1693/93240",
+          "all_within_part_edges": [
+            {
+              "edge": [
+                3,
+                4
+              ],
+              "delta": "-1693/93240"
+            },
+            {
+              "edge": [
+                3,
+                5
+              ],
+              "delta": "-1693/93240"
+            },
+            {
+              "edge": [
+                4,
+                5
+              ],
+              "delta": "-1693/93240"
+            }
+          ]
+        },
+        {
+          "part_index": 2,
+          "part_size": 3,
+          "source_delta": "-1693/93240",
+          "all_within_part_edges": [
+            {
+              "edge": [
+                6,
+                7
+              ],
+              "delta": "-1693/93240"
+            },
+            {
+              "edge": [
+                6,
+                8
+              ],
+              "delta": "-1693/93240"
+            },
+            {
+              "edge": [
+                7,
+                8
+              ],
+              "delta": "-1693/93240"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "a_b_c_p": [
+        3,
+        3,
+        5,
+        2
+      ],
+      "base_kemeny": "4534/403",
+      "minimum_size": 3,
+      "minimum_part_count": 2,
+      "minimum_parts": [
+        {
+          "part_index": 0,
+          "part_size": 3,
+          "source_delta": "-913/72540",
+          "all_within_part_edges": [
+            {
+              "edge": [
+                0,
+                1
+              ],
+              "delta": "-913/72540"
+            },
+            {
+              "edge": [
+                0,
+                2
+              ],
+              "delta": "-913/72540"
+            },
+            {
+              "edge": [
+                1,
+                2
+              ],
+              "delta": "-913/72540"
+            }
+          ]
+        },
+        {
+          "part_index": 1,
+          "part_size": 3,
+          "source_delta": "-913/72540",
+          "all_within_part_edges": [
+            {
+              "edge": [
+                3,
+                4
+              ],
+              "delta": "-913/72540"
+            },
+            {
+              "edge": [
+                3,
+                5
+              ],
+              "delta": "-913/72540"
+            },
+            {
+              "edge": [
+                4,
+                5
+              ],
+              "delta": "-913/72540"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "a_b_c_p": [
+        3,
+        4,
+        5,
+        1
+      ],
+      "base_kemeny": "8660/767",
+      "minimum_size": 3,
+      "minimum_part_count": 1,
+      "minimum_parts": [
+        {
+          "part_index": 0,
+          "part_size": 3,
+          "source_delta": "-6419/460200",
+          "all_within_part_edges": [
+            {
+              "edge": [
+                0,
+                1
+              ],
+              "delta": "-6419/460200"
+            },
+            {
+              "edge": [
+                0,
+                2
+              ],
+              "delta": "-6419/460200"
+            },
+            {
+              "edge": [
+                1,
+                2
+              ],
+              "delta": "-6419/460200"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "a_b_c_p": [
+        4,
+        4,
+        6,
+        3
+      ],
+      "base_kemeny": "28225/1853",
+      "minimum_size": 4,
+      "minimum_part_count": 2,
+      "minimum_parts": [
+        {
+          "part_index": 0,
+          "part_size": 4,
+          "source_delta": "-25171/3974685",
+          "all_within_part_edges": [
+            {
+              "edge": [
+                0,
+                1
+              ],
+              "delta": "-25171/3974685"
+            },
+            {
+              "edge": [
+                0,
+                2
+              ],
+              "delta": "-25171/3974685"
+            },
+            {
+              "edge": [
+                0,
+                3
+              ],
+              "delta": "-25171/3974685"
+            },
+            {
+              "edge": [
+                1,
+                2
+              ],
+              "delta": "-25171/3974685"
+            },
+            {
+              "edge": [
+                1,
+                3
+              ],
+              "delta": "-25171/3974685"
+            },
+            {
+              "edge": [
+                2,
+                3
+              ],
+              "delta": "-25171/3974685"
+            }
+          ]
+        },
+        {
+          "part_index": 1,
+          "part_size": 4,
+          "source_delta": "-25171/3974685",
+          "all_within_part_edges": [
+            {
+              "edge": [
+                4,
+                5
+              ],
+              "delta": "-25171/3974685"
+            },
+            {
+              "edge": [
+                4,
+                6
+              ],
+              "delta": "-25171/3974685"
+            },
+            {
+              "edge": [
+                4,
+                7
+              ],
+              "delta": "-25171/3974685"
+            },
+            {
+              "edge": [
+                5,
+                6
+              ],
+              "delta": "-25171/3974685"
+            },
+            {
+              "edge": [
+                5,
+                7
+              ],
+              "delta": "-25171/3974685"
+            },
+            {
+              "edge": [
+                6,
+                7
+              ],
+              "delta": "-25171/3974685"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

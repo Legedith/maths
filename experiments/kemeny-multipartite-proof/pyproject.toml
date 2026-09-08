@@ -1,0 +1,9 @@
+[project]
+name = "kemeny-multipartite-proof"
+version = "0.1.0"
+description = "Exact frozen polynomial certificate for arbitrary multipartite part counts"
+requires-python = "==3.12.11"
+dependencies = []
+
+[tool.uv]
+package = false

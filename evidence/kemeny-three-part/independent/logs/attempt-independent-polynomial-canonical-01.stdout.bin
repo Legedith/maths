@@ -1,0 +1,84 @@
+{
+  "schema_version": "independent-kemeny-polynomial-audit-v1",
+  "status": "PASS",
+  "inputs": {
+    "certificate": {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-explorer-3-work\\proof\\coefficient-certificate.json",
+      "sha256": "540ea590fb2e3d671e95102ab8ac5b80a22752f85354c7ded4aa84a4848fb8a9"
+    },
+    "source_pdf": {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-postresult-review-work\\sources\\hu-kirkland-2019.pdf",
+      "sha256": "c896d263c6bec602274f84a29c30492f99e85e3bde654f3e61dcf5aa10718c77"
+    }
+  },
+  "source_reconstruction": {
+    "total_parts": "R=3+p",
+    "singleton_aggregation": "p copies of (k_j,alpha_j)=(1,n-1)",
+    "six_rational_terms": 6,
+    "all_clearing_complements_exact": true,
+    "direct_and_grouped_M_identical": true
+  },
+  "polynomial": {
+    "identity": "2*alpha*n*(alpha+2)*gamma*B = M = -Q",
+    "variable_order": [
+      "A",
+      "u",
+      "v",
+      "P"
+    ],
+    "term_count": 124,
+    "minimum_coefficient": 2,
+    "maximum_coefficient": 73722,
+    "constant_coefficient": 60948,
+    "all_coefficients_strictly_positive": true,
+    "certificate_exact_match": true,
+    "eleven_group_display_exact_match": true
+  },
+  "domain": {
+    "forward": "x=3+A, y=x+u, z=x+v, p=1+P for A,u,v,P>=0",
+    "inverse": "A=x-3, u=y-x, v=z-x, P=p-1 for x>=3, y,z>=x, p>=1",
+    "covers_every_relabelled_minimum_part": true
+  },
+  "strictness": {
+    "reason": "Q is a positive-coefficient polynomial in nonnegative variables",
+    "uniform_lower_bound_for_Q": 60948
+  },
+  "diagnostics_only": [
+    {
+      "A_u_v_P": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Q": 60948
+    },
+    {
+      "A_u_v_P": [
+        0,
+        2,
+        5,
+        0
+      ],
+      "Q": 1410624
+    },
+    {
+      "A_u_v_P": [
+        3,
+        0,
+        0,
+        4
+      ],
+      "Q": 3154076
+    },
+    {
+      "A_u_v_P": [
+        5,
+        7,
+        1,
+        8
+      ],
+      "Q": 83582604
+    }
+  ]
+}

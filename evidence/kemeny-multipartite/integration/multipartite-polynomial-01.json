@@ -1,0 +1,41 @@
+{
+  "schema_version": "independent-command-attempt-v1",
+  "attempt_id": "multipartite-polynomial-01",
+  "argv": [
+    "uv",
+    "run",
+    "--project",
+    "experiments/kemeny-multipartite-proof",
+    "--frozen",
+    "python",
+    "experiments/kemeny-multipartite-proof/verify_certificate.py",
+    "--certificate",
+    "experiments/kemeny-multipartite-proof/certificate.json",
+    "--output",
+    "work/kemeny-multipartite-proof/check-01.json"
+  ],
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+  "started_at_utc": "2026-09-08T13:36:02.155510+00:00",
+  "ended_at_utc": "2026-09-08T13:36:02.764958+00:00",
+  "elapsed_seconds": 0.609448,
+  "timeout_seconds": 60,
+  "timed_out": false,
+  "termination": null,
+  "returncode": 0,
+  "selected_environment": {
+    "UV_CACHE_DIR": "D:\\CodexWorkspaces\\mathematics-atlas\\uv-cache",
+    "UV_PROJECT_ENVIRONMENT": null,
+    "VIRTUAL_ENV": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-multipartite-proof\\.venv",
+    "PYTHONDONTWRITEBYTECODE": null
+  },
+  "stdout": {
+    "path": "multipartite-polynomial-01.stdout.bin",
+    "bytes": 1054,
+    "sha256": "41c6e1ba8f71ff4872083d54329fba3d8e5fa618d184e22501828bdab67dbfb7"
+  },
+  "stderr": {
+    "path": "multipartite-polynomial-01.stderr.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

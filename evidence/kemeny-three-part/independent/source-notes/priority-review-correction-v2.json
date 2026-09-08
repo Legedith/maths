@@ -1,0 +1,19 @@
+{
+  "schema_version": "kemeny-three-part-priority-review-correction-v2",
+  "date": "2026-09-08",
+  "reason": "The v1 auditor role incorrectly described the source reviewer as independent even though the same agent authored explorer branch 2.",
+  "superseded_review": {
+    "path": "priority-review.json",
+    "sha256": "e2a02a2f2960e97283709880af92f8db60705ff3882c08107fcc30917bfd407b",
+    "bytes": 12690,
+    "status": "retained_failed_provenance_wording; do not use as an independent attestation"
+  },
+  "corrected_review": {
+    "path": "priority-review-v2.json",
+    "sha256": "25545977eafd4f042d90ecc69dfcaf3f82bb86578a3653cb033388d5d2c1a75b",
+    "bytes": 13079,
+    "auditor_role": "source investigator and branch-2 proposal author; not an independent final proof or novelty certifier"
+  },
+  "substantive_source_findings_changed": false,
+  "required_downstream_handling": "A fresh verifier independent of all proposal branches must assess the source comparisons and any final proof/priority claims."
+}

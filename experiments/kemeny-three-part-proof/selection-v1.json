@@ -1,0 +1,30 @@
+{
+  "schema_version": "three-part-proposal-selection-v1",
+  "producer": "root",
+  "status": "selected_for_implementation_and_independent_verification_not_certified",
+  "contract_sha256": "563d11151e21d31a21804e7871db6979996bc2cbe4dc0ed3673563975b1d2aba",
+  "proposal_identity_check": "branch-seals-02.json",
+  "comparison": [
+    {"branch": 1, "manifest_sha256": "1ec60354eb21336ae282c20703425b34e6b80aa2d25a82eeafbf956dbe79d87c", "identity": "53/53 files match", "proposed_result": "Every minimum non-singleton part gives strict decrease on the entire contracted domain.", "certificate": "124 positive coefficients after shifting the minimum size, with p left unshifted; SymPy checker; constant 31104.", "assessment": "A complete candidate with explicit denominator and exhaustive-domain arguments. Its author checker and finite matrix comparisons do not constitute independent approval."},
+    {"branch": 2, "manifest_sha256": "a9ef93a4da9799b6b568b766f373fc5523cb3dbc5d544db2ee01e5e30d745bd7", "identity": "59/59 files match", "proposed_result": "Every minimum non-singleton part gives strict decrease on the entire contracted domain.", "certificate": "123 positive coefficients after shifting p but retaining a; simplified rational brace; strictness from 33a; SymPy checker.", "assessment": "A complete candidate with a shorter polynomial. It introduces an additional rational cancellation identity, which must itself be checked. Its T includes the selected part, unlike branch 1's T; the notation is not interchangeable."},
+    {"branch": 3, "manifest_sha256": "30f667f7a0a7657444984f578bd9f51b9a217d93f2eca10dea5b34f49710f04c", "identity": "73/73 files match", "proposed_result": "Every minimum non-singleton part gives strict decrease on the entire contracted domain.", "certificate": "124 positive coefficients after shifting both a and p; direct clearing of six sourced summands; an 11-group positive display; dependency-free integer polynomial checker; constant 60948.", "assessment": "Selected for transparent source-to-polynomial reconstruction, a readable grouped certificate, and a portable checker without symbolic-algebra dependencies. These are auditability reasons, not a proof-validity or performance finding."}
+  ],
+  "selected_branch": 3,
+  "selected_files": {
+    "proposal.md": "53c78f650397b3a791dd6b2a715f2294c564bcb9440feabce7327ceb4dcfa3e4",
+    "proposal.json": "6a821c189ce481d4138c4d7cda5a223332bf3317a0b91c0d84c63887d69c2c5d",
+    "proof/coefficient-certificate.json": "540ea590fb2e3d671e95102ab8ac5b80a22752f85354c7ded4aa84a4848fb8a9",
+    "proof/verify_coefficient_certificate.py": "08aee29b87793cb288eaa7dfe54dd748b169972c32e46ed6e1b5bb2e1f3327f5"
+  },
+  "implementation": "Preserve the selected proof and certificate mathematics and checker bytes in a portable uv package. A worker may add packaging, dependency/runtime pins, a clear command and provenance documentation. Any substantive correction must retain the failed selected version and be reviewed afresh.",
+  "canonical_evaluator": "uv run --project <portable-package> --frozen python <portable-package>/verify_coefficient_certificate.py --certificate <portable-package>/coefficient-certificate.json --output <fresh-output-path>",
+  "independent_gate": [
+    "A fresh agent who authored none of the three proposals must compare the actual primary PDF and its conventions to the reconstructed formula.",
+    "Independently reconstruct the exact target and polynomial identity, verify all denominator signs and the exhaustive substitution, and justify every tied minimum part and every within-part edge.",
+    "Check coefficient and grouped-display identities with a separately written implementation, not only an author-provided pass flag. Finite cases are diagnostic only.",
+    "Replay the selected portable checker and check that altered coefficients and malformed certificates fail. Preserve raw commands, stdout, stderr, return codes and failures.",
+    "Inspect the prior-art source investigator's corrected v2 packet. Its author also wrote branch 2, so it cannot supply independent final proof or novelty certification.",
+    "Keep mathematical validity, source scope, publication novelty and demonstrated practical impact separate. The exact starting identity is known; no result for four or more non-singleton parts is asserted."
+  ],
+  "publication": "Preserve all author and failed-probe records locally. Do not redistribute full primary papers or full-page source renderings; publish source metadata and original proof/checker work. Agreement between three authors is not an independent evidence gate."
+}

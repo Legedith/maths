@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "complements": [
+    "a*g*n + 2*g*n",
+    "a**2*g*n + 2*a*g*n",
+    "2*a**2 + 4*a",
+    "a**2*n + 2*a*n",
+    "a + 2",
+    "2*g*n"
+  ],
+  "terms": 1777,
+  "minimum_coefficient": 2,
+  "constant": 60948,
+  "weighted_gap_degree": 5,
+  "matrix": [
+    {
+      "q": [
+        9,
+        9
+      ],
+      "p": 1,
+      "delta": "229/627000"
+    },
+    {
+      "q": [
+        3,
+        3,
+        4,
+        4,
+        5,
+        6
+      ],
+      "p": 2,
+      "delta": "-302125/100216116"
+    }
+  ]
+}

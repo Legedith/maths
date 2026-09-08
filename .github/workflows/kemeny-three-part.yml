@@ -1,0 +1,56 @@
+name: Check Kemeny network-design proofs
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  exact-polynomial:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: astral-sh/setup-uv@d0d8abe699bfb85fec6de9f7adb5ae17292296ff # v6
+        with:
+          version: '0.8.19'
+          python-version: '3.12.11'
+      - name: Reconstruct the frozen polynomial exactly
+        run: >-
+          uv run --project experiments/kemeny-three-part-proof --frozen python
+          experiments/kemeny-three-part-proof/run_logged.py
+          --attempt-id ci-polynomial --timeout-seconds 60
+          --log-dir work/kemeny-three-part-ci/logs -- python
+          experiments/kemeny-three-part-proof/verify_coefficient_certificate.py
+          --certificate experiments/kemeny-three-part-proof/coefficient-certificate.json
+          --output work/kemeny-three-part-ci/certificate-check.json
+      - name: Retain exact result and raw command outputs
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: kemeny-three-part-polynomial
+          path: work/kemeny-three-part-ci/
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Check arbitrary part counts
+        run: >-
+          uv run --project experiments/kemeny-multipartite-proof --frozen python
+          experiments/kemeny-three-part-proof/run_logged.py
+          --attempt-id multipartite --timeout-seconds 60
+          --log-dir work/kemeny-network-ci/logs -- python
+          experiments/kemeny-multipartite-proof/verify_certificate.py
+          --certificate experiments/kemeny-multipartite-proof/certificate.json
+          --output work/kemeny-network-ci/multipartite.json
+      - name: Check strict part-size ranking
+        run: >-
+          uv run --project experiments/kemeny-multipartite-proof --frozen python
+          experiments/kemeny-three-part-proof/run_logged.py
+          --attempt-id ranking --timeout-seconds 60
+          --log-dir work/kemeny-network-ci/logs -- python
+          experiments/kemeny-multipartite-proof/verify_ranking.py
+          --output work/kemeny-network-ci/ranking.json
+      - name: Retain network-design proof results
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: kemeny-network-design
+          path: work/kemeny-network-ci/
+          retention-days: 30
+          if-no-files-found: warn

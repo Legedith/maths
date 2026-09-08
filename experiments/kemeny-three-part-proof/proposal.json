@@ -1,0 +1,46 @@
+{
+  "schema_version": "kemeny-three-part-explorer-proposal-v1",
+  "branch_identity": "/root/sol_atlas_audit",
+  "status": "universal_proof_candidate",
+  "objective_scope": {
+    "graph": "K_{a,b,c} join K_p",
+    "parameters": "integers p>=1 and a,b,c>=3",
+    "walk": "simple random walk on a finite simple undirected unweighted graph",
+    "target": "at least one within-part missing edge has K(G+e)-K(G)<=0"
+  },
+  "proposed_theorem": "Every edge added within a minimum-size non-singleton part has K(G+e)-K(G)<0.",
+  "proof_method": "Apply Hu-Kirkland Theorem 3.2.3 to a relabeled minimum part, clear only positive denominators, and certify the resulting numerator as the negative of a 124-term strictly positive-coefficient polynomial in x-3, y-x, z-x, and p-1.",
+  "source_dependency": {
+    "url": "https://mspace.lib.umanitoba.ca/server/api/core/bitstreams/04a4246d-2b67-4e4c-9c4b-60f0c5417031/content",
+    "local_path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-postresult-review-work/sources/hu-kirkland-2019.pdf",
+    "sha256": "c896d263c6bec602274f84a29c30492f99e85e3bde654f3e61dcf5aa10718c77",
+    "locator": "PDF page 12, Theorem 3.2.3, Case 1",
+    "excluded_source_expressions": [
+      "PDF page 19 equation (13)",
+      "Theorem 3.2.5"
+    ]
+  },
+  "certificate": {
+    "path": "proof/coefficient-certificate.json",
+    "checker": "proof/verify_coefficient_certificate.py",
+    "checker_method": "dependency-free sparse integer polynomial reconstruction",
+    "portable_result": "proof/portable-certificate-check.json",
+    "term_count": 124,
+    "minimum_coefficient": 2,
+    "constant_coefficient": 60948,
+    "status": "pass_author_branch_pending_independent_review"
+  },
+  "finite_diagnostic": {
+    "path": "proof/matrix-sanity.json",
+    "cases": 5,
+    "edge_types_checked": 15,
+    "formula_matches": 15,
+    "scope": "sanity check only; not proof of the universal quantifier"
+  },
+  "limitations": [
+    "The authoring branch cannot certify the final mathematical gate.",
+    "No claim is made for p=0 or more than three non-singleton parts.",
+    "Current publication novelty is unresolved and requires later primary-literature review.",
+    "No real-world impact, performance, or broad graph-family claim follows from this proof candidate alone."
+  ]
+}

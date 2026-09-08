@@ -1,0 +1,40 @@
+{
+  "schema_version": "independent-command-attempt-v1",
+  "attempt": "attempt-author-checker-adversarial-02",
+  "command_argv": [
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\.venv-author-replay-02\\Scripts\\python.exe",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\scripts\\adversarial_author_checker.py",
+    "--checker",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\verify_coefficient_certificate.py",
+    "--certificate",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\coefficient-certificate.json",
+    "--artifact-dir",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\artifacts\\author-checker-mutations-02",
+    "--log-dir",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\author-checker-adversarial-02",
+    "--report",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\outputs\\author-checker-adversarial-02.json"
+  ],
+  "command_display": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\.venv-author-replay-02\\Scripts\\python.exe D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\scripts\\adversarial_author_checker.py --checker D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\verify_coefficient_certificate.py --certificate D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\coefficient-certificate.json --artifact-dir D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\artifacts\\author-checker-mutations-02 --log-dir D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\author-checker-adversarial-02 --report D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\outputs\\author-checker-adversarial-02.json",
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work",
+  "started_at_utc": "2026-09-08T12:19:57.377926+00:00",
+  "ended_at_utc": "2026-09-08T12:19:58.680557+00:00",
+  "returncode": 0,
+  "stdout": {
+    "path": "attempt-author-checker-adversarial-02.stdout.bin",
+    "bytes": 19375,
+    "sha256": "7234f6a336fc9c2645d9add796ea970969bfc2be39806e293a13528aa5894e0b"
+  },
+  "stderr": {
+    "path": "attempt-author-checker-adversarial-02.stderr.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "runner_python": "3.12.11 (main, Sep 18 2025, 19:45:51) [MSC v.1944 64 bit (AMD64)]",
+  "runner_executable": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\.venv-author-replay-02\\Scripts\\python.exe",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "selected_environment": {
+    "UV_CACHE_DIR": "D:\\CodexWorkspaces\\mathematics-atlas\\uv-cache",
+    "UV_PROJECT_ENVIRONMENT": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\.venv-author-replay-02"
+  }
+}

@@ -1,0 +1,6 @@
+# Batch 2 declaration
+
+Use exact SymPy polynomials only. Substitute k=2+R, x=3+A, p=1+P into the aggregate -M and substitute U=sum(u_i), V=sum(u_i^2), W=sum(u_i^3) for five formal gap variables. Because total gap degree is at most 5, every possible gap exponent partition in any number k of gaps is represented using five variables. Screen every coefficient as a polynomial in R,A,P; derive a universal certificate if all are nonnegative with positive constant. This is a symbolic screening batch, not a numerical sweep. If wrong-sign coefficients occur, H3 is unresolved/false as represented and no third batch is permitted.
+
+Batch 1 completed mathematically; PowerShell returned 1 because uv environment setup stderr was promoted to NativeCommandError despite complete output files. Preserve batch1.log rather than overwrite. Exact counts and aggregate derivation are retained. H2 refuted by (9,9),p=1 with Delta=229/627000.
+`nCorrection retry within batch 2: original aggregate S1 cubic sum omitted +p singleton cube contribution. Numerical batch 1 formula was correct; original symbolic outputs are INVALID and retained with original-invalid suffix. Correct S1 includes +p. Accepted constant 60948 catches this error. Retry identical declared polynomial domain.

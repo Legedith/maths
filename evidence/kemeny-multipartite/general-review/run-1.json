@@ -1,0 +1,14 @@
+{
+  "argv": [
+    "C:/Users/Legedith/.local/bin/uv.exe",
+    "pip",
+    "install",
+    "--python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-general-proof-review-work\\.venv\\Scripts\\python.exe",
+    "sympy==1.14.0"
+  ],
+  "cwd": "C:\\Users\\Legedith\\Documents\\ChatGPT\\maths",
+  "stdout": "",
+  "stderr": "Using Python 3.13.7 environment at: D:\\CodexWorkspaces\\mathematics-atlas\\astra-general-proof-review-work\\.venv\nResolved 2 packages in 4ms\nInstalled 2 packages in 462ms\n + mpmath==1.3.0\n + sympy==1.14.0\n",
+  "returncode": 0
+}

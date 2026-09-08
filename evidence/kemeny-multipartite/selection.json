@@ -1,0 +1,48 @@
+{
+  "schema_version": "network-discovery-selection-v1",
+  "date": "2026-09-08",
+  "contract_sha256": "151a7d40f6bac2cd97bb79172268b54044e798cb05081e2c3379b14cd807f405",
+  "selected": {
+    "candidate": "arbitrary-number-of-parts minimum-edge theorem",
+    "author": "/root/astra_network_generalization",
+    "proposal": "D:/CodexWorkspaces/mathematics-atlas/astra-network-generalization-work/proposal.md",
+    "proposal_sha256": "0cd623573884161cbc6dbfb28381b716ed63b5fff8104063c337a2117be73bf9",
+    "certificate_sha256": "b264e53aa98bb9171fcb327cb82cd01ec31e4c67eecbf30af6752545c078804c",
+    "author_code_sha256": "fdb72fb67637e3e4e20b9a3ac4e1796a354485029a3ad0bfed9632930916d548",
+    "reason": "Addresses all r>=3 in the historical conjectural branch rather than one further fixed part count, with a proposed exact certificate and a finite-support argument for the universal number of parts.",
+    "status": "SELECTED_FOR_INDEPENDENT_VERIFICATION_NOT_ACCEPTED"
+  },
+  "other_candidates": [
+    {
+      "candidate": "strict part-size ranking",
+      "author": "/root/astra_edge_selection",
+      "decision": "RETAIN_FOR_SEPARATE_REVIEW",
+      "reason": "Short prospective theorem gives optimal location among eligible parts; complements but does not itself prove guaranteed improvement."
+    },
+    {
+      "candidate": "one-deletion robustness and arbitrary insertion batches",
+      "author": "/root/astra_network_robustness",
+      "decision": "RETAIN_AS_UNPROVED_CONJECTURES",
+      "reason": "Finite probes survived but no universal proof; promising for application relevance."
+    },
+    {
+      "candidate": "strictly improving twin edge implies improving clique",
+      "author": "/root/astra_network_robustness",
+      "decision": "REUSE_SOURCED_COROLLARY_NO_NOVELTY_CLAIM",
+      "reason": "Direct consequence of the published 2026 twin-clique update, useful supporting lemma."
+    }
+  ],
+  "eliminations": [
+    "Unrestricted two-non-singleton-part extension: exact positive Delta counterexample.",
+    "More dominating vertices always strengthens minimum-edge improvement: exact counterexample.",
+    "Claiming the published update formula or generic single-edge versus clique sign mismatch as new: existing primary work."
+  ],
+  "verification_required": [
+    "Actual arbitrary-r source domain and singleton moment aggregation, including corrected +p in T3.",
+    "Independent exact reconstruction of the selected certificate and all denominator-clearing terms.",
+    "Proof that five formal gap variables suffice for every gap count; symmetry, degree and coefficient stability must all be justified.",
+    "Strictness, full parameter substitution, tied minima and every pair.",
+    "Independent exact matrix check of the r=2 counterexample and one r>=6 case.",
+    "Keep bounded literature novelty and practical applicability unresolved unless separately established."
+  ]
+}

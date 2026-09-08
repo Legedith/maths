@@ -1,0 +1,333 @@
+{
+  "schema_version": "selected-author-checker-adversarial-audit-v1",
+  "checker": {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\verify_coefficient_certificate.py",
+    "sha256": "08aee29b87793cb288eaa7dfe54dd748b169972c32e46ed6e1b5bb2e1f3327f5"
+  },
+  "certificate": {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\coefficient-certificate.json",
+    "sha256": "540ea590fb2e3d671e95102ab8ac5b80a22752f85354c7ded4aa84a4848fb8a9"
+  },
+  "fresh_python": {
+    "executable": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\.venv-author-replay-02\\Scripts\\python.exe",
+    "version": "3.12.11 (main, Sep 18 2025, 19:45:51) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "required_behavior": {
+    "original_accepted": true,
+    "coefficient_corruption_rejected": true,
+    "wrong_exponent_count_rejected": true,
+    "duplicate_exponent_rejected": true,
+    "missing_schema_rejected": true,
+    "wrong_variable_order_rejected": true
+  },
+  "required_behavior_pass": true,
+  "accepted_provenance_mutations": [
+    "missing_source_formula",
+    "wrong_target_identity",
+    "wrong_domain_substitution",
+    "unknown_top_level_field"
+  ],
+  "interpretation": "The selected checker rejects coefficient corruption and malformed core term arrays, but it is not a full provenance-schema validator if accepted_provenance_mutations is nonempty.",
+  "cases": [
+    {
+      "case": "original",
+      "classification": "must_accept",
+      "command_argv": [
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\.venv-author-replay-02\\Scripts\\python.exe",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\verify_coefficient_certificate.py",
+        "--certificate",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\coefficient-certificate.json",
+        "--output",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\artifacts\\author-checker-mutations-02\\original.checker-output.json"
+      ],
+      "input": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\coefficient-certificate.json",
+        "sha256": "540ea590fb2e3d671e95102ab8ac5b80a22752f85354c7ded4aa84a4848fb8a9"
+      },
+      "returncode": 0,
+      "accepted": true,
+      "output_created": true,
+      "output_sha256": "b54f31bc39b16806b8ca5968b246927dac8c7d722ae67fc35746e82e63df188c",
+      "stdout": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\author-checker-adversarial-02\\original.stdout.bin",
+        "bytes": 1259,
+        "sha256": "f80443929a0f5a343783ce6c5e7ef3168b9cba47d2839470088958b17ad5b928"
+      },
+      "stderr": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\author-checker-adversarial-02\\original.stderr.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "case": "coefficient_plus_one",
+      "classification": "must_reject_core_corruption",
+      "command_argv": [
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\.venv-author-replay-02\\Scripts\\python.exe",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\verify_coefficient_certificate.py",
+        "--certificate",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\artifacts\\author-checker-mutations-02\\coefficient_plus_one.json",
+        "--output",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\artifacts\\author-checker-mutations-02\\coefficient_plus_one.checker-output.json"
+      ],
+      "input": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\artifacts\\author-checker-mutations-02\\coefficient_plus_one.json",
+        "sha256": "c1920bedef92d32d8034ec28882e64a379c8a4bb3ed07a5f4c095615becee2fe"
+      },
+      "returncode": 1,
+      "accepted": false,
+      "output_created": true,
+      "output_sha256": "fb49860dcb1809de63ea70365209e8a8a0b081f425ff6f3b490165b29fcf7041",
+      "stdout": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\author-checker-adversarial-02\\coefficient_plus_one.stdout.bin",
+        "bytes": 1301,
+        "sha256": "944999b4ce8e7189e43c221fb194169b8079024232b974d139ce0ae5841531a2"
+      },
+      "stderr": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\author-checker-adversarial-02\\coefficient_plus_one.stderr.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "case": "three_exponents",
+      "classification": "must_reject_malformed_term",
+      "command_argv": [
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\.venv-author-replay-02\\Scripts\\python.exe",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\verify_coefficient_certificate.py",
+        "--certificate",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\artifacts\\author-checker-mutations-02\\three_exponents.json",
+        "--output",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\artifacts\\author-checker-mutations-02\\three_exponents.checker-output.json"
+      ],
+      "input": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\artifacts\\author-checker-mutations-02\\three_exponents.json",
+        "sha256": "52664968e1953b0880a239d97415560e35b4aa6d484040fe10897f451d6c9370"
+      },
+      "returncode": 1,
+      "accepted": false,
+      "output_created": false,
+      "output_sha256": null,
+      "stdout": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\author-checker-adversarial-02\\three_exponents.stdout.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\author-checker-adversarial-02\\three_exponents.stderr.bin",
+        "bytes": 726,
+        "sha256": "08d24e8ef65dcc9022dbb6028e8297c408ca5e96df256abe8a7cf632336d1c90"
+      }
+    },
+    {
+      "case": "duplicate_exponent",
+      "classification": "must_reject_malformed_term",
+      "command_argv": [
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\.venv-author-replay-02\\Scripts\\python.exe",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\verify_coefficient_certificate.py",
+        "--certificate",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\artifacts\\author-checker-mutations-02\\duplicate_exponent.json",
+        "--output",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\artifacts\\author-checker-mutations-02\\duplicate_exponent.checker-output.json"
+      ],
+      "input": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\artifacts\\author-checker-mutations-02\\duplicate_exponent.json",
+        "sha256": "f69bc22a1009f7f2141ca33d32ec58d05cc8cd1ef9fa51547df6ef5074817c99"
+      },
+      "returncode": 1,
+      "accepted": false,
+      "output_created": false,
+      "output_sha256": null,
+      "stdout": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\author-checker-adversarial-02\\duplicate_exponent.stdout.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\author-checker-adversarial-02\\duplicate_exponent.stderr.bin",
+        "bytes": 767,
+        "sha256": "cb4ff5f9fcfd21b348f57d610c1a935d3c55818a670b0e1f301649f63368eeb3"
+      }
+    },
+    {
+      "case": "missing_schema",
+      "classification": "must_reject_checked_metadata",
+      "command_argv": [
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\.venv-author-replay-02\\Scripts\\python.exe",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\verify_coefficient_certificate.py",
+        "--certificate",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\artifacts\\author-checker-mutations-02\\missing_schema.json",
+        "--output",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\artifacts\\author-checker-mutations-02\\missing_schema.checker-output.json"
+      ],
+      "input": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\artifacts\\author-checker-mutations-02\\missing_schema.json",
+        "sha256": "af1b404ade6bd2c0dc0d31fa5221342f04c10dbd9df3f111000076a97ec695f9"
+      },
+      "returncode": 1,
+      "accepted": false,
+      "output_created": true,
+      "output_sha256": "a3e2aa655e1a51cfeda2ce13ea6e9cf450f5d18f309f790d1ef883b891630e18",
+      "stdout": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\author-checker-adversarial-02\\missing_schema.stdout.bin",
+        "bytes": 1295,
+        "sha256": "be5860dff33d564836d52aa06654579ad70d79f137cdfa6c02075d1d6e50f5ae"
+      },
+      "stderr": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\author-checker-adversarial-02\\missing_schema.stderr.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "case": "wrong_variable_order",
+      "classification": "must_reject_checked_metadata",
+      "command_argv": [
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\.venv-author-replay-02\\Scripts\\python.exe",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\verify_coefficient_certificate.py",
+        "--certificate",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\artifacts\\author-checker-mutations-02\\wrong_variable_order.json",
+        "--output",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\artifacts\\author-checker-mutations-02\\wrong_variable_order.checker-output.json"
+      ],
+      "input": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\artifacts\\author-checker-mutations-02\\wrong_variable_order.json",
+        "sha256": "0d876199b09c6e26fce64b56df2909b7bc0c6254e67926f66cf1597e79fcb4b2"
+      },
+      "returncode": 1,
+      "accepted": false,
+      "output_created": true,
+      "output_sha256": "3273e90d9296280fb4576b9c4eeee7aabea97762c56f9e64f443a40327acaeb1",
+      "stdout": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\author-checker-adversarial-02\\wrong_variable_order.stdout.bin",
+        "bytes": 1301,
+        "sha256": "109f36f026192dab6afd562bc4e296333a7f7a3bf2e3ab2b6907c5f0a7d2bf0e"
+      },
+      "stderr": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\author-checker-adversarial-02\\wrong_variable_order.stderr.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "case": "missing_source_formula",
+      "classification": "probe_unchecked_provenance",
+      "command_argv": [
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\.venv-author-replay-02\\Scripts\\python.exe",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\verify_coefficient_certificate.py",
+        "--certificate",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\artifacts\\author-checker-mutations-02\\missing_source_formula.json",
+        "--output",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\artifacts\\author-checker-mutations-02\\missing_source_formula.checker-output.json"
+      ],
+      "input": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\artifacts\\author-checker-mutations-02\\missing_source_formula.json",
+        "sha256": "7cc6736845ac9caefc6b26f8612c9a2b0473928ae34b0a5d91319a813b59d3dc"
+      },
+      "returncode": 0,
+      "accepted": true,
+      "output_created": true,
+      "output_sha256": "1b3623a555872870596eedcc66ea8480aae972835d18042b27f4d7483cfc252a",
+      "stdout": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\author-checker-adversarial-02\\missing_source_formula.stdout.bin",
+        "bytes": 1301,
+        "sha256": "8e79951d9a72614e490aea8ecfd2b7fcf8e73b291f219c429b4384279b17355f"
+      },
+      "stderr": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\author-checker-adversarial-02\\missing_source_formula.stderr.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "case": "wrong_target_identity",
+      "classification": "probe_unchecked_provenance",
+      "command_argv": [
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\.venv-author-replay-02\\Scripts\\python.exe",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\verify_coefficient_certificate.py",
+        "--certificate",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\artifacts\\author-checker-mutations-02\\wrong_target_identity.json",
+        "--output",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\artifacts\\author-checker-mutations-02\\wrong_target_identity.checker-output.json"
+      ],
+      "input": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\artifacts\\author-checker-mutations-02\\wrong_target_identity.json",
+        "sha256": "9bd8d9874b1dee8ee731059c509d52f40b419e2775b6668c2a9097cc5f66e931"
+      },
+      "returncode": 0,
+      "accepted": true,
+      "output_created": true,
+      "output_sha256": "8fa4870e12ae000f460694a4ee8f413a9d2a2ae8ba4ad57e35f380871215903b",
+      "stdout": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\author-checker-adversarial-02\\wrong_target_identity.stdout.bin",
+        "bytes": 1300,
+        "sha256": "f9bbde525161aac90cb9bba7a5c7412693af5a455adf8a7c7e4b2a1a57e2f60a"
+      },
+      "stderr": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\author-checker-adversarial-02\\wrong_target_identity.stderr.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "case": "wrong_domain_substitution",
+      "classification": "probe_unchecked_provenance",
+      "command_argv": [
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\.venv-author-replay-02\\Scripts\\python.exe",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\verify_coefficient_certificate.py",
+        "--certificate",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\artifacts\\author-checker-mutations-02\\wrong_domain_substitution.json",
+        "--output",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\artifacts\\author-checker-mutations-02\\wrong_domain_substitution.checker-output.json"
+      ],
+      "input": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\artifacts\\author-checker-mutations-02\\wrong_domain_substitution.json",
+        "sha256": "c3ab5f11ff49b15f77f687f1c0280fdddf28e68c9209f962971237068a204495"
+      },
+      "returncode": 0,
+      "accepted": true,
+      "output_created": true,
+      "output_sha256": "6deda20f8157e8160fecf06b99026da2016917d2294fc46523886c58e1211c3a",
+      "stdout": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\author-checker-adversarial-02\\wrong_domain_substitution.stdout.bin",
+        "bytes": 1304,
+        "sha256": "33c40619d6e728e0d794ae1bae0871de9109fedf7a85925cc82842a8c83e2185"
+      },
+      "stderr": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\author-checker-adversarial-02\\wrong_domain_substitution.stderr.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "case": "unknown_top_level_field",
+      "classification": "probe_unchecked_provenance",
+      "command_argv": [
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\.venv-author-replay-02\\Scripts\\python.exe",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work\\verify_coefficient_certificate.py",
+        "--certificate",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\artifacts\\author-checker-mutations-02\\unknown_top_level_field.json",
+        "--output",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\artifacts\\author-checker-mutations-02\\unknown_top_level_field.checker-output.json"
+      ],
+      "input": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\artifacts\\author-checker-mutations-02\\unknown_top_level_field.json",
+        "sha256": "cbbccd1f8166b75343d08e32c1cc4d2bf2dd1d294873480c01a6abdc440b1e2b"
+      },
+      "returncode": 0,
+      "accepted": true,
+      "output_created": true,
+      "output_sha256": "1e45c51982e94083a76c246ac234d70e7555fb0c3b8f53669ab196f72545494d",
+      "stdout": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\author-checker-adversarial-02\\unknown_top_level_field.stdout.bin",
+        "bytes": 1302,
+        "sha256": "658403a4d4fa9572f89d854bcb8776c7c5cbed869407028b91ce7f6354a3cad6"
+      },
+      "stderr": {
+        "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-independent-work\\logs\\author-checker-adversarial-02\\unknown_top_level_field.stderr.bin",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  ]
+}

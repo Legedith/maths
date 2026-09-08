@@ -1,0 +1,2 @@
+﻿# Frozen independent review
+Reconstruct Theorem 3.2.3 source sum using aggregate sum t and squared-degree sum H; subtract symbolic updates, check candidate identity exactly. Check both claimed inequality gaps by algebra. Diagnostics only partitions (3,4) and (3,5,2,1), compare source update with exact rational fundamental-matrix update. No grid, no size-2 target. uv isolated environment with D cache. Freeze script hash before execution. Reviewer reads no other discovery proposals.

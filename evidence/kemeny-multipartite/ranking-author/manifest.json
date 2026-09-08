@@ -1,0 +1,46 @@
+[
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-edge-selection-work\\batch1-raw.json",
+        "Hash":  "C75549992F25ADAB190C0979EDA8F982FAFBDCFAF98EAE07CE9D71610EF44D25"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-edge-selection-work\\batch1-result.json",
+        "Hash":  "60507F7D779F88F02A77350262954725E515E30D8DE524A7633A35ACD40B501C"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-edge-selection-work\\batch1.log",
+        "Hash":  "D300E83E4F411625C7A50E29CB1A6A3D9B029EB97ABCED0A78A14D1C5E35201E"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-edge-selection-work\\batch1.py",
+        "Hash":  "20D8FBE459E758C182FD91A988926C2ED403A8F078D80D9C8EF827E38082543F"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-edge-selection-work\\batch2-result.json",
+        "Hash":  "498E099E70E959F153C429BAD41BBD093DD93E91FE8A9D585E7E608A93F94512"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-edge-selection-work\\batch2.log",
+        "Hash":  "D5208B8E97447E0207367BA7D60A6B0171ED54C9B4FC7043656EF6ED95786459"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-edge-selection-work\\batch2.py",
+        "Hash":  "529114EC5D939B94123CDBF545AD01C19B1CFAFFBD7457CDFC56A711F29D3BF8"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-edge-selection-work\\commands.txt",
+        "Hash":  "B3F23F1E40ED3AA8029E6942C6A09282241DD586FE5C4561BF1B1F8D4AAAE6E5"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-edge-selection-work\\hypotheses.md",
+        "Hash":  "6F9AEC02ABF3B1C791658E7065BC3A48518C695B2E6075F517D4510BF4574C12"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-edge-selection-work\\proposal.md",
+        "Hash":  "333136FE21DBE270B56082C677BA431754B78E3BFAE03A1B8D92C6962D4C2621"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-edge-selection-work\\ranking-polynomial.json",
+        "Hash":  "E442AF9DFF9274A423A38485D83878A48917DBB790C96E9A6CF23D5538D5E922"
+    }
+]

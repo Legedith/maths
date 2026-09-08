@@ -1,0 +1,36 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--project",
+    "D:/CodexWorkspaces/mathematics-atlas/kemeny-three-part-portable-work",
+    "--frozen",
+    "python",
+    "-c",
+    "import hashlib,json,pathlib; p=pathlib.Path(r'D:/CodexWorkspaces/mathematics-atlas/kemeny-three-part-portable-work'); m=json.loads((p/'package-freeze.json').read_text(encoding='utf-8')); bad=[r['path'] for r in m['files'] if hashlib.sha256((p/r['path']).read_bytes()).hexdigest()!=r['sha256']]; print(json.dumps({'checked':len(m['files']),'mismatches':bad,'pass':not bad},sort_keys=True))"
+  ],
+  "attempt_id": "post-run-static-identity-01",
+  "ended_at_utc": "2026-09-08T10:58:21.667131+00:00",
+  "returncode": 0,
+  "schema_version": "logged-command-attempt-v1",
+  "selected_environment": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "UV_CACHE_DIR": "D:/CodexWorkspaces/mathematics-atlas/uv-cache",
+    "UV_PROJECT_ENVIRONMENT": "D:/CodexWorkspaces/mathematics-atlas/kemeny-three-part-portable-work/.venv"
+  },
+  "started_at_utc": "2026-09-08T10:58:21.551531+00:00",
+  "stderr": {
+    "bytes": 0,
+    "path": "attempt-post-run-static-identity-01.stderr.bin",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 49,
+    "path": "attempt-post-run-static-identity-01.stdout.bin",
+    "sha256": "6d2d0a3dbace1886cdc41945a6c44a8cdc8377bb5d5a0701dc307eafb2a85b2f"
+  },
+  "termination": null,
+  "timed_out": false,
+  "timeout_seconds": 60,
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-three-part-portable-work"
+}

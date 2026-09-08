@@ -1,0 +1,30 @@
+{
+  "schema_version": "kemeny-three-part-proof-adoption-v1",
+  "decision": "ACCEPT_INDEPENDENTLY_AUDITED_MATHEMATICAL_PROOF",
+  "accepted_statement": "For all integers a,b,c>=3 and p>=1, every missing edge inside every minimum-size non-singleton part of K_{a,b,c} join K_p strictly decreases the simple-random-walk Kemeny constant.",
+  "normalization": "T=D^{-1}A; stationary-target hitting time with zero hitting time at the starting vertex.",
+  "selected_proposal_sha256": "53c78f650397b3a791dd6b2a715f2294c564bcb9440feabce7327ceb4dcfa3e4",
+  "certificate_sha256": "540ea590fb2e3d671e95102ab8ac5b80a22752f85354c7ded4aa84a4848fb8a9",
+  "independent_report": {
+    "path": "D:/CodexWorkspaces/mathematics-atlas/kemeny-three-part-independent-work/independent-review-report.md",
+    "sha256": "5e4cb23293d62d2e5e8e285534bd3207e1e0c8b053301e3bbc494cb348403a51",
+    "auditor": "/root/sol_kemeny_fresh_review",
+    "auditor_authored_no_candidate": true
+  },
+  "proof_basis": "Independently reconstructed exact source formula, denominator clearing, positive-coefficient polynomial identity, positive denominators and full-domain substitution; relabelling and within-part transitivity cover every tied minimum and every pair.",
+  "proof_status": "ALGORITHMICALLY_CHECKED_AND_INDEPENDENTLY_AUDITED_FOR_FROZEN_INPUTS",
+  "lean4_status": "NOT_FORMALIZED",
+  "novelty_status": "UNESTABLISHED",
+  "publication_priority": "UNRESOLVED",
+  "practical_impact": "NOT_DEMONSTRATED",
+  "checker_boundary": "The preserved author checker validates its core polynomial reconstruction but accepts some incorrect descriptive provenance metadata. The fresh independent evaluator and source review validate the frozen input's source, target and domain separately.",
+  "excluded_claims": [
+    "Nonminimum parts",
+    "Four or more non-singleton parts",
+    "p=0",
+    "Different random-walk normalizations",
+    "Global novelty or current openness",
+    "Completion of the full mathematics atlas goal"
+  ],
+  "next_action": "Publish the exact portable proof and independently reviewed source bridge with explicit scope and novelty limitations; exclude full third-party source files from the public repository."
+}

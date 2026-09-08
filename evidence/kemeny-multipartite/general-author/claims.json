@@ -1,0 +1,8 @@
+[
+ {"id":"C1","type":"citation","statement":"The arbitrary-complete-multipartite selected-size>=3 edge-update formula is Hu--Kirkland Theorem 3.2.3.","evidence":["D:/CodexWorkspaces/mathematics-atlas/project/evidence/kemeny-three-part/independent/source-domain-proof-notes.md, Exact reduction section"],"status":"grounded in retained independent source audit; primary recheck delegated to root"},
+ {"id":"C2","type":"numerical","statement":"All 27168 tested tuples with r=3..7 have negative minimum-part Delta.","evidence":["batch1.py","batch1.json","batch1.log"],"status":"author-reproduced exact finite computation"},
+ {"id":"C3","type":"numerical","statement":"For q=(9,9),p=1, Delta=229/627000>0.","evidence":["batch1.json:2.first_nonnegative[0]","batch1.py"],"status":"author-computed counterexample; independent matrix check pending"},
+ {"id":"C4","type":"numerical","statement":"The corrected five-gap polynomial expansion has 1777 positive coefficients, no nonpositive terms, and constant 60948.","evidence":["batch2.py","certificate.json","batch2.json","batch2-corrected.stdout.txt"],"status":"author-derived exact symbolic certificate; independent verification pending"},
+ {"id":"C5","type":"methodological","statement":"A symmetric power-sum polynomial of gap degree at most five has every monomial coefficient represented by five formal gaps, with k retained independently.","evidence":["proposal.md:Stable symmetric-polynomial certificate"],"status":"proof argument supplied; independent review pending"},
+ {"id":"C6","type":"conclusion","statement":"Every minimum-part missing edge strictly decreases K for arbitrary r>=3,p>=1, q_i>=3.","depends_on":["C1","C4","C5"],"evidence":["proposal.md"],"status":"universal theorem candidate; not promoted"}
+]

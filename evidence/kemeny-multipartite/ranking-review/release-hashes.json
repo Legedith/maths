@@ -1,0 +1,47 @@
+[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "CA9AA8D9B29ACA9840A525D0AD289965E58A47B700CAF7BDA4CEFD9D739DE895",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-multipartite-proof\\verify_ranking.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "7B656D33739A7A77834D1AE47F8115CD830F04BB05638A68A8DE73189F747749",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-multipartite-proof\\verify_certificate.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "B71E97636328117C07013DF1E8ACF463F4847277BB83BAA1FA3E9618DD9DE9FB",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\project\\docs\\kemeny-network-design.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "FB73B0AFF9DB3DF2048143985236A6C6B6A558CBAEF77DCF79B795D90C1E4A8A",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-multipartite-proof\\PROOF.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "995B98CA011A7DF13F99EC0B9A58C17DEC1DB1B020F9AF6EF05DBAB6245DDAB9",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\project\\README.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "159A5689BFB58B4D27356E1505D39CFB5AE6F11340675006C71F12C32427923D",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\project\\AGENTS.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "AB18249426BA1FD73777CF875A1A9E10EC3D4E85222FE1B8657CEAE50ACE5658",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.github\\workflows\\kemeny-three-part.yml"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "DB411C549FD0917C4237E93EE022A93C0BE43E987D97FF5E2AA97F9A187DB0E4",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\project\\docs\\kemeny-network-design-contract.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "BDD3EB0418213C00D076F517EBCB8D4BFD0C6FBBF0F932496649B758B92A81D3",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-ranking-review-work\\release-replay.json"
+    }
+]

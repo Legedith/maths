@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "C:/Users/Legedith/.local/bin/uv.exe",
+    "venv",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-general-proof-review-work\\.venv"
+  ],
+  "cwd": "C:\\Users\\Legedith\\Documents\\ChatGPT\\maths",
+  "stdout": "",
+  "stderr": "Using CPython 3.13.7\nCreating virtual environment at: D:\\CodexWorkspaces\\mathematics-atlas\\astra-general-proof-review-work\\.venv\nActivate with: D:\\CodexWorkspaces\\mathematics-atlas\\astra-general-proof-review-work\\.venv\\Scripts\\activate\n",
+  "returncode": 0
+}

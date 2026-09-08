@@ -1,0 +1,64 @@
+{
+  "schema_version": "bounded-network-source-comparison-v1",
+  "date": "2026-09-08",
+  "producer": "/root",
+  "status": "bounded_primary_source_investigation_not_global_priority_certification",
+  "queries": [
+    "\"Kemeny\" \"multipartite\" \"smallest\"",
+    "\"Complete multipartite graphs and Braess edges\" conjecture",
+    "\"Kemeny\" \"Braess cliques\"",
+    "Kemeny constant edge addition optimization network algorithm minimize",
+    "Kemeny constant Braess edge twin vertices edge selection 2025 2026",
+    "\"Kemeny\" \"multipartite\" \"conjecture\" -site:researchgate.net -site:sciencedirect.com",
+    "\"Kemeny\" \"Conjecture 3.4.7\"",
+    "\"Braess\" \"multipartite\" \"dominating\" conjecture proof"
+  ],
+  "sources": [
+    {
+      "id": "S2019",
+      "title": "Complete multipartite graphs and Braess edges",
+      "authors": "Yuxiang Hu and Steve Kirkland",
+      "date": "2019-10-15",
+      "url": "https://mspace.lib.umanitoba.ca/server/api/core/bitstreams/04a4246d-2b67-4e4c-9c4b-60f0c5417031/content",
+      "doi": "10.1016/j.laa.2019.05.035",
+      "local_pdf_sha256": "c896d263c6bec602274f84a29c30492f99e85e3bde654f3e61dcf5aa10718c77",
+      "inspected": "Existing independently inspected pinned source/domain notes, page-marked text pp13-19, and current primary publisher/repository records.",
+      "locators": ["Theorem 3.2.3, PDF p12", "Theorem 3.3.1, PDF pp13-14", "Theorem 3.4.2, PDF pp15-16", "Theorem 3.4.3, PDF pp16-17", "Corollary 3.4.5, PDF p18", "Remark 2 and Conjecture 3.4.7, PDF p19"],
+      "notes": "Known: general twin-edge update, no-dominating-vertex case, minimum-size-two case, sufficiently-large-p result, and equal non-singleton part sizes. Conjecture 3.4.7 predicts no Braess graph when there are at least three non-singleton parts and dominating vertices. Remark 2 compares sign polynomials for two non-singleton parts; its displayed equation (13) has a transcription defect, so our derivations use Theorem 3.2.3 instead."
+    },
+    {
+      "id": "S2026",
+      "title": "Kemeny's constant and Braess cliques in graphs",
+      "authors": "Jane Breen, Emma deBlieck, Kevin N. Vander Meulen",
+      "date": "2026-08-04",
+      "url": "https://arxiv.org/html/2608.04150v1",
+      "locators": ["Theorem 3.5", "Theorem 4.7", "Section 5", "Section 6"],
+      "inspected": "Current primary HTML passages and existing pinned independent source review.",
+      "notes": "Theorem 3.5 gives the general independent-twin clique update through accessibility, size and degree. Theorem 4.7 specializes to complete bipartite graphs. Section 5 already shows that the signs of individual edges do not determine the sign of a clique addition. These formulas and generic phenomena cannot be claimed as new. The inspected results do not state an all-r minimum-part sign theorem with dominating vertices."
+    },
+    {
+      "id": "S2025",
+      "title": "Edge addition and the change in Kemeny's constant",
+      "date": "2025-10-15",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0166218X25002008",
+      "doi": "10.1016/j.dam.2025.04.031",
+      "inspected": "Primary publisher abstract and section previews only.",
+      "notes": "The stated main results optimize the change from adding an edge to a tree. This is relevant prior edge-design work but does not itself establish the multipartite claims. Full-paper equivalence assessment was not performed."
+    },
+    {
+      "id": "S2021THESIS",
+      "title": "Qualitative and Quantitative Research on Graphs via Matrices: Gram Mates, Fiedler Vectors, Kemeny's Constant, and Perfect State Transfer",
+      "authors": "Sooyeong Kim",
+      "date": "2021",
+      "url": "https://mspace.lib.umanitoba.ca/bitstreams/45e50023-c465-4947-814b-171fe6907a03/download",
+      "inspected": "Title page, abstract and contents only.",
+      "notes": "The search engine labelled this recently published, but the primary title page is 2021. The Kemeny chapter studies twin pendent paths. It was not treated as a 2026 resolution or reviewed in full."
+    }
+  ],
+  "claim": {
+    "type": "conclusion",
+    "statement": "The bounded searches have not identified a primary publication proving the exact prospective all-r minimum-part theorem or general strict part-size ranking. This is not evidence of exhaustive novelty; both candidates need mathematical review and further priority assessment before publication claims.",
+    "supports": ["S2019", "S2026", "S2025", "S2021THESIS"]
+  },
+  "impact_boundary": "A correct result for ideal complete multipartite networks does not establish gains for sparse, weighted, congested, or measured real networks. Those require a separate justified model and evaluation."
+}

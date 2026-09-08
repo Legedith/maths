@@ -1,0 +1,11 @@
+[
+    "run",
+    "--isolated",
+    "--no-project",
+    "--python",
+    "3.12.11",
+    "python",
+    "D:/CodexWorkspaces/mathematics-atlas/project/experiments/kemeny-multipartite-proof/verify_ranking.py",
+    "--output",
+    "D:/CodexWorkspaces/mathematics-atlas/astra-ranking-review-work/release-replay.json"
+]

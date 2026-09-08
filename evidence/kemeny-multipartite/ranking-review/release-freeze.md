@@ -1,0 +1,1 @@
+Final follow-up freeze: review verify_ranking.py cross multiplication using independently checked identity; rely on sealed general-review and portable-review. One fresh stdlib replay only, no matrix/grid. Review listed prose and workflow statically. Use uv isolated CPython 3.12.11, D cache, output only in reviewer stage.
