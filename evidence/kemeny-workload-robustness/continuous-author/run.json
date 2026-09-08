@@ -1,0 +1,15 @@
+{
+  "argv": [
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-robustness-work\\.venv\\Scripts\\python.exe",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-robustness-work\\check.py"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-robustness-work",
+  "timeout_seconds": 60,
+  "returncode": 0,
+  "elapsed_seconds": 0.9688220000243746,
+  "uv_cache_dir": "D:/CodexWorkspaces/mathematics-atlas/uv-cache",
+  "uv_project_environment": "D:/CodexWorkspaces/mathematics-atlas/kemeny-robustness-work/.venv",
+  "stdout_sha256": "1cb9337fad36c70c9919024938d7d8c1816f327e355d4a65394500d6862c9129",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "enclosing_execution": "uv run --project D:/CodexWorkspaces/mathematics-atlas/project/experiments/kemeny-one-deletion-proof --frozen python D:/CodexWorkspaces/mathematics-atlas/kemeny-robustness-work/run.py"
+}

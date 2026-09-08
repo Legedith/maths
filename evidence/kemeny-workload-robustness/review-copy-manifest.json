@@ -1,0 +1,44 @@
+[
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-release-review-work\\ground-result.json",
+    "destination": "evidence/kemeny-workload-robustness/final-review/ground-result.json",
+    "sha256": "b32b34f17f7b235e44d56ec674cfc3fcdb9a74857ea51f73b2f641240484cf99",
+    "bytes": 326,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-release-review-work\\ground.py",
+    "destination": "evidence/kemeny-workload-robustness/final-review/ground.py",
+    "sha256": "86bcdcead12bfce143506359b644ce7bde5039563af8aa7b16454a6a5d3959e2",
+    "bytes": 1796,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-release-review-work\\hashes.json",
+    "destination": "evidence/kemeny-workload-robustness/final-review/hashes.json",
+    "sha256": "5a631f6aba628e599ea390053c3c22533095550435779ee4aaac86cfc58a0707",
+    "bytes": 1218,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-release-review-work\\plan.md",
+    "destination": "evidence/kemeny-workload-robustness/final-review/plan.md",
+    "sha256": "66c62c4f2472661d1f28c63f9b5d73c33363c54c939494f8ed57d952f743c1d6",
+    "bytes": 511,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-release-review-work\\review.md",
+    "destination": "evidence/kemeny-workload-robustness/final-review/review.md",
+    "sha256": "0266ebbfa1b348844ff81d7d9202cbd95c88ad0226dbed8c6a0b954cd4260d60",
+    "bytes": 4909,
+    "producer": "/root/astra_general_proof_verifier"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-release-review-work\\verdict.json",
+    "destination": "evidence/kemeny-workload-robustness/final-review/verdict.json",
+    "sha256": "520383c6533245c8056045f0dc8aad3a58b6e7b4ed2c44739a25268271747581",
+    "bytes": 1577,
+    "producer": "/root/astra_general_proof_verifier"
+  }
+]

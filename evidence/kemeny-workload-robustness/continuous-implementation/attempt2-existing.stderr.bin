@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-continuous-portable-work\verify_continuous_perturbation.py", line 183, in <module>
+    main()
+  File "D:\CodexWorkspaces\mathematics-atlas\astra-continuous-portable-work\verify_continuous_perturbation.py", line 177, in main
+    assert not destination.exists(), 'Use a fresh attempt output, never overwrite evidence.'
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Use a fresh attempt output, never overwrite evidence.

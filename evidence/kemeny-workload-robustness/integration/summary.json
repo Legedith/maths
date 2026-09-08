@@ -1,0 +1,23 @@
+{
+  "symbolic_checks": 33,
+  "continuous_contexts": 96,
+  "quadratic_comparisons": 3896,
+  "bound_instances": 8,
+  "strict_one_percent_certificates": 3,
+  "simultaneous_patterns": 16,
+  "simultaneous_screen": {
+    "1/100": {
+      "cases": 8,
+      "outside_failures": 0
+    },
+    "1/10": {
+      "cases": 8,
+      "outside_failures": 3
+    }
+  },
+  "canonical_replay_byte_identical": true,
+  "envelope_failed_attempts": 1,
+  "envelope_successful_attempts": 1,
+  "continuous_successful_attempts": 1,
+  "ci_status": "not yet executed for this branch; static workflow is not runtime evidence"
+}

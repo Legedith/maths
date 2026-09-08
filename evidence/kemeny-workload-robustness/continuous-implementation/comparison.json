@@ -1,0 +1,12 @@
+{
+  "mathematical_fields_equal": true,
+  "ignored_fields": [
+    "implementation_sha256"
+  ],
+  "canonical_rc": 0,
+  "existing_output_rc": 1,
+  "existing_output_unchanged": true,
+  "script_sha256": "6625373266410d302527d509516bb7df6c9a397573f42ba85798d9fe089853bb",
+  "replay_sha256": "03b7294b89656601b4ec8d69554a5d64affd209412d46df50f889ebca0eaabdc",
+  "scope": "Implementation preparation only; independent interface review pending"
+}

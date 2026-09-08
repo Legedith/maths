@@ -1,0 +1,14 @@
+{
+  "bundle_sha256": "a6d3eb931d27ebefa64dcb16e773be856dc506a2c714b80343edb2912443330b",
+  "artifacts_verified": 192,
+  "claims": 13,
+  "copies_verified": 172,
+  "canonical_independent_byte_matches": 2,
+  "unchanged_portable_scripts": 2,
+  "retained_returncodes": [
+    1,
+    0,
+    0
+  ],
+  "status": "PASS"
+}

@@ -1,0 +1,42 @@
+﻿[
+    {
+        "Hash":  "B462B166FC53EE21C83664FFD0BCBA0A257FF34B40C9A5E62798902BF0430875",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weight-workload-family-review-work\\argv.json"
+    },
+    {
+        "Hash":  "13BD2BF56169A2E0945E1EC6CCF4671AE5B8880064AED250C9920922E4F4808A",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weight-workload-family-review-work\\check.py"
+    },
+    {
+        "Hash":  "9EBDC4C67C260BF9EF7E615EEB8834C26EEEEF0E51D25658EBA27A95D01EB063",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weight-workload-family-review-work\\input-hash-check.json"
+    },
+    {
+        "Hash":  "C326D649B268D81AF1408C9DF9C5262A9EBF4DA98AE6CCD316AFF4A89082F900",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weight-workload-family-review-work\\plan.md"
+    },
+    {
+        "Hash":  "5FECEB66FFC86F38D952786C6D696C79C2DBC239DD4E91B46729D73A27FB57E9",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weight-workload-family-review-work\\rc.txt"
+    },
+    {
+        "Hash":  "BB857B7C59FC0BA541D974D875C8809EB97187064209D471CF868A22FDBF3682",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weight-workload-family-review-work\\result.json"
+    },
+    {
+        "Hash":  "EDAF10D12AD3DE86844B22697C1AAE06CE662FB5C59E2B410E2B302C009D7671",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weight-workload-family-review-work\\review.md"
+    },
+    {
+        "Hash":  "89C5E920007ED9B4DB887186D98A8FED88DF5A23971237D44781A4EF65D7086A",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weight-workload-family-review-work\\run.py"
+    },
+    {
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weight-workload-family-review-work\\stderr.txt"
+    },
+    {
+        "Hash":  "7DD089C359DA8F2D0380C35FFAF5F01C20097BC41DE1E8C991955B5B31883371",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weight-workload-family-review-work\\stdout.txt"
+    }
+]

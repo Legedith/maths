@@ -1,0 +1,18 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--isolated",
+    "--python",
+    "3.12.11",
+    "--with",
+    "sympy==1.14.0",
+    "python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-perturb-review-work\\check.py"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-perturb-review-work",
+  "timeout": 60,
+  "timed_out": false,
+  "rc": 0,
+  "elapsed": 15.10899999999674
+}

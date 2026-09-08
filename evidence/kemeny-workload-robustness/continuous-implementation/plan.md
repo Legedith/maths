@@ -1,0 +1,2 @@
+﻿# Frozen interface preparation plan
+Copy accepted root check.py unchanged except standard-library argparse import and main() parsing required --output PATH; destination becomes that path. Preserve refuse-existing-output check and all math/domain fields. One <=60s fresh canonical execution and compare full JSON ignoring only implementation_sha256. One optional <=60s existing-output rejection execution. Use Python3.12.11 via uv with D cache/environment. No integration or self-certification; independent changed-interface review required.

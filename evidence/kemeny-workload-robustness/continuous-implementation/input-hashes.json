@@ -1,0 +1,12 @@
+﻿[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "C6CA55AC065E8ED75FF16680DFDDEA2A3D32E4E0054FE2EE7836BFE2BBE83625",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-robustness-work\\check.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "13D3F0AF59CCAE1E848FE2C1C79D87CCA1539B3E304FC6C8D3994AB0AF5B09E0",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-robustness-work\\result.json"
+    }
+]

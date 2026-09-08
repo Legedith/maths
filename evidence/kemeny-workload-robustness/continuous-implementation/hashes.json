@@ -1,0 +1,72 @@
+﻿[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "8A8D0A383D734AC1ADBB91E94274AC2FBC1F70CA90AA7AC3005434BE95E70926",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-portable-work\\attempt1.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-portable-work\\attempt1.stderr.bin"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "1CB9337FAD36C70C9919024938D7D8C1816F327E355D4A65394500D6862C9129",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-portable-work\\attempt1.stdout.bin"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "6645ED6CCF60C5991613BCFEE5A2D7666BC58DC9B36DC29A25171D92DB966530",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-portable-work\\attempt2-existing.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "691B26023BE318E814BF3D4705B334F5E6DCD6351BDE63C29018FF1899B8FBB8",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-portable-work\\attempt2-existing.stderr.bin"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-portable-work\\attempt2-existing.stdout.bin"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "DD3A21773694B524838E5B5247EB13204A68AF073846F0A6B325A0ACE1FF7580",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-portable-work\\changes.diff"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "48362E91E3C28C584304860DF2EBCB2CCCF85F8775E9085394EA5AB51AD34181",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-portable-work\\comparison.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "A2FA56DF035DCD49DF26A1636878CDBCE91EBABFAF904DD78CF1FA186185F5E1",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-portable-work\\input-hashes.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "AE448DAA692AFBC8D728C45906F5A9BDFCB79374755685D9D025CB904A47E079",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-portable-work\\plan.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "1AF9B96AA065CEA6B7B13B140ADFF06974E3F328849F8C7817E13ED468949EBB",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-portable-work\\README.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "03B7294B89656601B4EC8D69554A5D64AFFD209412D46DF50F889EBCA0EAABDC",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-portable-work\\replay.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "67AC3405F36097913736052EDBDC967796E68524631EA7CEFEE4E21CA27990B4",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-portable-work\\run.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "6625373266410D302527D509516BB7DF6C9A397573F42BA85798D9FE089853BB",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-portable-work\\verify_continuous_perturbation.py"
+    }
+]

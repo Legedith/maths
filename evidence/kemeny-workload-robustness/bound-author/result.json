@@ -1,0 +1,442 @@
+{
+  "inputs": {
+    "astra-workload-effect-work/result.json": "f7de3722c44e98b2205f0aadc48329640d9688a79c081d3176c95fce07faa64e",
+    "astra-workload-effect-review-work/review.md": "9988c53d13c275d8dd00a4c987cc89aea972014697d55efaa51239d5ebbb8d65"
+  },
+  "rows": [
+    {
+      "parts": [
+        3,
+        3,
+        3
+      ],
+      "theta": "1/10",
+      "optimal_edges": [
+        [
+          0,
+          9
+        ]
+      ],
+      "nearest_outside_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "Ustar": "70713/8750",
+      "Uoutside": "17678169/2170000",
+      "strict_epsilon_radius": "1745/434753",
+      "radius_at_least_one_percent": false,
+      "one_percent_strictly_certified": false
+    },
+    {
+      "parts": [
+        3,
+        3,
+        3
+      ],
+      "theta": "1/2",
+      "optimal_edges": [
+        [
+          0,
+          9
+        ]
+      ],
+      "nearest_outside_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "Ustar": "81/14",
+      "Uoutside": "521217/86800",
+      "strict_epsilon_radius": "2113/113713",
+      "radius_at_least_one_percent": true,
+      "one_percent_strictly_certified": true
+    },
+    {
+      "parts": [
+        3,
+        3,
+        4
+      ],
+      "theta": "1/10",
+      "optimal_edges": [
+        [
+          0,
+          10
+        ]
+      ],
+      "nearest_outside_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "Ustar": "77013/8470",
+      "Uoutside": "1105831/121000",
+      "strict_epsilon_radius": "919/359119",
+      "radius_at_least_one_percent": false,
+      "one_percent_strictly_certified": false
+    },
+    {
+      "parts": [
+        3,
+        3,
+        4
+      ],
+      "theta": "1/2",
+      "optimal_edges": [
+        [
+          0,
+          10
+        ]
+      ],
+      "nearest_outside_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "Ustar": "10965/1694",
+      "Uoutside": "2036093/304920",
+      "strict_epsilon_radius": "1451/93251",
+      "radius_at_least_one_percent": true,
+      "one_percent_strictly_certified": true
+    },
+    {
+      "parts": [
+        3,
+        4,
+        5
+      ],
+      "theta": "1/10",
+      "optimal_edges": [
+        [
+          0,
+          12
+        ]
+      ],
+      "nearest_outside_edges": [
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          7,
+          11
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "Ustar": "93633/8450",
+      "Uoutside": "1125071/101400",
+      "strict_epsilon_radius": "25/38113",
+      "radius_at_least_one_percent": false,
+      "one_percent_strictly_certified": false
+    },
+    {
+      "parts": [
+        3,
+        4,
+        5
+      ],
+      "theta": "1/2",
+      "optimal_edges": [
+        [
+          0,
+          12
+        ]
+      ],
+      "nearest_outside_edges": [
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          7,
+          11
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "Ustar": "39707/5070",
+      "Uoutside": "1461607/182520",
+      "strict_epsilon_radius": "545/49001",
+      "radius_at_least_one_percent": true,
+      "one_percent_strictly_certified": true
+    },
+    {
+      "parts": [
+        4,
+        4,
+        6
+      ],
+      "theta": "1/10",
+      "optimal_edges": [
+        [
+          0,
+          14
+        ]
+      ],
+      "nearest_outside_edges": [
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          8,
+          12
+        ],
+        [
+          8,
+          13
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          9,
+          12
+        ],
+        [
+          9,
+          13
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          10,
+          13
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          11,
+          13
+        ],
+        [
+          12,
+          13
+        ]
+      ],
+      "Ustar": "89726/6875",
+      "Uoutside": "503009/38500",
+      "strict_epsilon_radius": "209/386721",
+      "radius_at_least_one_percent": false,
+      "one_percent_strictly_certified": false
+    },
+    {
+      "parts": [
+        4,
+        4,
+        6
+      ],
+      "theta": "1/2",
+      "optimal_edges": [
+        [
+          0,
+          14
+        ]
+      ],
+      "nearest_outside_edges": [
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          8,
+          12
+        ],
+        [
+          8,
+          13
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          9,
+          12
+        ],
+        [
+          9,
+          13
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          10,
+          13
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          11,
+          13
+        ],
+        [
+          12,
+          13
+        ]
+      ],
+      "Ustar": "910/99",
+      "Uoutside": "648869/69300",
+      "strict_epsilon_radius": "913/98913",
+      "radius_at_least_one_percent": false,
+      "one_percent_strictly_certified": false
+    }
+  ],
+  "H2_all_radii_at_least_one_percent": false,
+  "scope": "radii certify sufficient simultaneous perturbation bounds, not failure thresholds"
+}

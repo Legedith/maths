@@ -1,0 +1,2 @@
+usage: verify_workload_envelope.py [-h] --output OUTPUT
+verify_workload_envelope.py: error: output already exists; choose a fresh path

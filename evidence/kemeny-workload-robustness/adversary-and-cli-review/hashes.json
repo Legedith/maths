@@ -1,0 +1,66 @@
+﻿[
+    {
+        "path":  "adversary-result.json",
+        "sha256":  "1264c612a9a0a075c67ad0f1e6e801c2d82ca62023675abe48087e5d9660eaa3"
+    },
+    {
+        "path":  "check.py",
+        "sha256":  "ef61afe9ec50c11a44fbd691cc01aa954f9bff6c9238d38eecc8b0b5350d966c"
+    },
+    {
+        "path":  "cli-comparison.json",
+        "sha256":  "0e0460a23b211ef82d87db9e2014819cc1db6a15061f18125843d2005c863168"
+    },
+    {
+        "path":  "cli-output.json",
+        "sha256":  "03b7294b89656601b4ec8d69554a5d64affd209412d46df50f889ebca0eaabdc"
+    },
+    {
+        "path":  "cli-run.json",
+        "sha256":  "bf7dd1bb5d8ef0f2d75f73185262b2ada7a6329ea852b0a62256a812673b48bb"
+    },
+    {
+        "path":  "cli-stderr.bin",
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+        "path":  "cli-stdout.bin",
+        "sha256":  "1cb9337fad36c70c9919024938d7d8c1816f327e355d4a65394500d6862c9129"
+    },
+    {
+        "path":  "input-hashes.json",
+        "sha256":  "c47ce5a6eb3b37d86afed5db87a99dc1df08b9f9aac555f0c348d149b0490ae8"
+    },
+    {
+        "path":  "plan.md",
+        "sha256":  "3a791d0cb7fd38aca1e0bfa4bca8713d378afc0e3c1d2399956a8349c0f2da53"
+    },
+    {
+        "path":  "review.md",
+        "sha256":  "5def221868453ee6ba5d30ec1e9ee22e913f14997c1c2b16f09260baded81f22"
+    },
+    {
+        "path":  "run.json",
+        "sha256":  "dde6d1744b43c380fe13fea064862be4fe3246c35486f5d5f84e7ac11a0383f3"
+    },
+    {
+        "path":  "run.py",
+        "sha256":  "adbacfcab6f1d136108ae484c415462cd6f3feb9b638fb1c193b69f04358f8d7"
+    },
+    {
+        "path":  "run-cli.py",
+        "sha256":  "a78a8e8deb949a01ca1622096515f99f4956268ddde857d37c5610aa55e3032f"
+    },
+    {
+        "path":  "stderr.bin",
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+        "path":  "stdout.bin",
+        "sha256":  "bfce2b7fbcbb29c2f4ee23c4c008fa4d685ea8c5ff3f525daa9d34f2063761af"
+    },
+    {
+        "path":  "verify_continuous_perturbation.py",
+        "sha256":  "6625373266410d302527d509516bb7df6c9a397573f42ba85798d9fe089853bb"
+    }
+]

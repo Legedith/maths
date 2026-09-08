@@ -1,0 +1,66 @@
+﻿[
+    {
+        "path":  "batch2.json",
+        "sha256":  "29744dbd0033770c786567d151989c9ed9a6173f721f40cc289e68f7a9d01289"
+    },
+    {
+        "path":  "batch2-plan.md",
+        "sha256":  "bb587b935eb91e4dd7416acf31e42f28b717318cbce71467da0fba4c5798aa2d"
+    },
+    {
+        "path":  "batch2-run.json",
+        "sha256":  "208dae38145096fbcba3a9d1ce1091f52e21b273cdf7f649c1f8c48878cf5156"
+    },
+    {
+        "path":  "batch2-stderr.bin",
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+        "path":  "batch2-stdout.bin",
+        "sha256":  "5980e8377839e4625b360878a05cc1cffc9b2c6b75c245ef5cb4fa826ee8bb11"
+    },
+    {
+        "path":  "check.py",
+        "sha256":  "10088f26284d09d8a0d651dca6372aaf9d9b40c78340aefcfc91de436ede69a8"
+    },
+    {
+        "path":  "check2.py",
+        "sha256":  "14475ad53e8673136d7373a6347ecac7404ff51fc59ae6ee61b98d6d54aac88e"
+    },
+    {
+        "path":  "input-hashes.json",
+        "sha256":  "75cab7abf1b02f2e4aa399422d6dd443efdd0736f924409a7e174d7fce6ea001"
+    },
+    {
+        "path":  "plan.md",
+        "sha256":  "a3181510a1d4b8e0a840aff7bf1810683fa5307977912d50f29003f197c01027"
+    },
+    {
+        "path":  "proposal.md",
+        "sha256":  "973868b9277394cb1fe6a1e3abfc659481ff19a8c3a7e77b7bb96cb5e0254850"
+    },
+    {
+        "path":  "result.json",
+        "sha256":  "d580bb220d28ce883222fd21cdf94c6b6653ed7c42112347eb8e6df5eea77ad8"
+    },
+    {
+        "path":  "run.json",
+        "sha256":  "b68c1f06bca79b5e25424f8a9a4a38de9e2dbc6a2e88b41783c7b0824021b3cf"
+    },
+    {
+        "path":  "run.py",
+        "sha256":  "adbacfcab6f1d136108ae484c415462cd6f3feb9b638fb1c193b69f04358f8d7"
+    },
+    {
+        "path":  "run2.py",
+        "sha256":  "e34089240d5eb356223eb734a3e672803b919d4c1739de92b8fb7f56049c60f0"
+    },
+    {
+        "path":  "stderr.bin",
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+        "path":  "stdout.bin",
+        "sha256":  "fb3454cd7e13637348da7cdf3231e7cf9c68091d57ac63a75c0a8cc34b2424cd"
+    }
+]

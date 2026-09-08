@@ -1,0 +1,18 @@
+﻿[
+    {
+        "path":  "astra-uniform-weight-review-work/review.md",
+        "sha256":  "221338dfce7a9e799c8689c806381598f8237fbc38ecee6a60d4d2c3db74a137"
+    },
+    {
+        "path":  "astra-workload-family-review-work/report.md",
+        "sha256":  "a7522a07fb83aa7ded1d543baf0df735499c5ab87c77481be2ca301db754615b"
+    },
+    {
+        "path":  "astra-next-screen-summary-review-work/workload-attestation.md",
+        "sha256":  "7e818c509c641218c352a8bb211ac78ceaf547e4ccf5eac25c9840b37028874c"
+    },
+    {
+        "path":  "astra-workload-screen-review-work/result.json",
+        "sha256":  "9d806f771e604ccccdd91fcc154b168b5173baa7e5aec2fec77e2d3feac1e7e8"
+    }
+]

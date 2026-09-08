@@ -1,0 +1,11 @@
+[
+  "uv",
+  "run",
+  "--isolated",
+  "--python",
+  "3.12.11",
+  "--with",
+  "sympy==1.14.0",
+  "python",
+  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-weight-workload-family-review-work\\check.py"
+]

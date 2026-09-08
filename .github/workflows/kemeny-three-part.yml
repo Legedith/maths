@@ -119,3 +119,29 @@ jobs:
           path: work/kemeny-failure-ci/
           retention-days: 30
           if-no-files-found: warn
+      - name: Check the complete common-strength workload envelope
+        run: >-
+          uv run --project experiments/kemeny-workload-proof --frozen python
+          experiments/kemeny-three-part-proof/run_logged.py
+          --attempt-id workload-envelope --timeout-seconds 60
+          --log-dir work/kemeny-workload-ci/logs -- uv run
+          --project experiments/kemeny-workload-proof --frozen python
+          experiments/kemeny-workload-proof/verify_workload_envelope.py
+          --output work/kemeny-workload-ci/envelope.json
+      - name: Check the full one-old-link perturbation intervals
+        run: >-
+          uv run --project experiments/kemeny-workload-proof --frozen python
+          experiments/kemeny-three-part-proof/run_logged.py
+          --attempt-id workload-continuous --timeout-seconds 60
+          --log-dir work/kemeny-workload-ci/logs -- uv run
+          --project experiments/kemeny-workload-proof --frozen python
+          experiments/kemeny-workload-proof/verify_continuous_perturbation.py
+          --output work/kemeny-workload-ci/continuous.json
+      - name: Retain workload and robustness proofs
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: kemeny-workload-robustness
+          path: work/kemeny-workload-ci/
+          retention-days: 30
+          if-no-files-found: warn

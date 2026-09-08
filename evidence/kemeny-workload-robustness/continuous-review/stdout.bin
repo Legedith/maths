@@ -1,0 +1,132 @@
+{
+  "status": "pass",
+  "full_centered_candidate_inverses": 71,
+  "contexts": 96,
+  "quadratics": 3896,
+  "interior_vertices": 0,
+  "direct_perturbed_inverses": 4,
+  "summary": [
+    {
+      "parts": [
+        3,
+        3,
+        3
+      ],
+      "theta": "0",
+      "nominal_best_count": 2,
+      "pairs_per_oldedge": 16
+    },
+    {
+      "parts": [
+        3,
+        3,
+        3
+      ],
+      "theta": "1/10",
+      "nominal_best_count": 1,
+      "pairs_per_oldedge": 9
+    },
+    {
+      "parts": [
+        3,
+        3,
+        3
+      ],
+      "theta": "1/2",
+      "nominal_best_count": 1,
+      "pairs_per_oldedge": 9
+    },
+    {
+      "parts": [
+        3,
+        3,
+        4
+      ],
+      "theta": "0",
+      "nominal_best_count": 6,
+      "pairs_per_oldedge": 42
+    },
+    {
+      "parts": [
+        3,
+        3,
+        4
+      ],
+      "theta": "1/10",
+      "nominal_best_count": 1,
+      "pairs_per_oldedge": 12
+    },
+    {
+      "parts": [
+        3,
+        3,
+        4
+      ],
+      "theta": "1/2",
+      "nominal_best_count": 1,
+      "pairs_per_oldedge": 12
+    },
+    {
+      "parts": [
+        3,
+        4,
+        5
+      ],
+      "theta": "0",
+      "nominal_best_count": 10,
+      "pairs_per_oldedge": 100
+    },
+    {
+      "parts": [
+        3,
+        4,
+        5
+      ],
+      "theta": "1/10",
+      "nominal_best_count": 1,
+      "pairs_per_oldedge": 19
+    },
+    {
+      "parts": [
+        3,
+        4,
+        5
+      ],
+      "theta": "1/2",
+      "nominal_best_count": 1,
+      "pairs_per_oldedge": 19
+    },
+    {
+      "parts": [
+        4,
+        4,
+        6
+      ],
+      "theta": "0",
+      "nominal_best_count": 15,
+      "pairs_per_oldedge": 195
+    },
+    {
+      "parts": [
+        4,
+        4,
+        6
+      ],
+      "theta": "1/10",
+      "nominal_best_count": 1,
+      "pairs_per_oldedge": 27
+    },
+    {
+      "parts": [
+        4,
+        4,
+        6
+      ],
+      "theta": "1/2",
+      "nominal_best_count": 1,
+      "pairs_per_oldedge": 27
+    }
+  ],
+  "hashes": 8,
+  "sympy": "1.14.0"
+}

@@ -1,0 +1,1 @@
+Conditional second batch activated: first lexicographic counterexample is334,theta1/10,epsilon1/10. Rebuild its exact recorded old weights and directly compute fundamental-matrix first-hitting objectives for every missing unit edge. Compare complete objective values and winners to first-batch output. No new graph/workload/weight or adversarial pattern. <=60seconds, final batch.

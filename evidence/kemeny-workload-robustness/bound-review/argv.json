@@ -1,0 +1,9 @@
+[
+  "uv",
+  "run",
+  "--isolated",
+  "--python",
+  "3.12.11",
+  "python",
+  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-link-robust-bound-review-work\\check.py"
+]

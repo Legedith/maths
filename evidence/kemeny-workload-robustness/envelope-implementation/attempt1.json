@@ -1,0 +1,16 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--frozen",
+    "python",
+    "verify_workload_envelope.py",
+    "--output",
+    "result.json"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-portable-work",
+  "timeout": 60,
+  "timed_out": false,
+  "returncode": 0,
+  "elapsed": 10.905999999959022
+}

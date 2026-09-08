@@ -1,0 +1,65 @@
+{
+  "copies": {
+    "verify_workload_envelope.py": {
+      "source": "f4024bfbd7848621fda906cd77bb7ca1f698ee0468a8c6d1786defae8f4491e3",
+      "copy": "f4024bfbd7848621fda906cd77bb7ca1f698ee0468a8c6d1786defae8f4491e3"
+    },
+    "pyproject.toml": {
+      "source": "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f",
+      "copy": "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f"
+    },
+    "uv.lock": {
+      "source": "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d",
+      "copy": "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d"
+    }
+  },
+  "expected_result": "f094f231ea76732f90e091e72e4168cc0a8aa270568e54f58e832e98593eaf5e",
+  "attempts": [
+    {
+      "argv": [
+        "uv",
+        "run",
+        "--frozen",
+        "--project",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-portable-review-work",
+        "python",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-portable-review-work\\verify_workload_envelope.py",
+        "--output",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-portable-review-work\\replay.json"
+      ],
+      "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-portable-review-work",
+      "environment": {
+        "UV_CACHE_DIR": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-portable-review-work\\uv-cache",
+        "UV_PYTHON_INSTALL_DIR": "D:/uv-python",
+        "UV_PROJECT_ENVIRONMENT": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-portable-review-work\\.venv"
+      },
+      "rc": 0,
+      "seconds": 21.56199999997625,
+      "output_sha256": "f094f231ea76732f90e091e72e4168cc0a8aa270568e54f58e832e98593eaf5e"
+    },
+    {
+      "argv": [
+        "uv",
+        "run",
+        "--frozen",
+        "--project",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-portable-review-work",
+        "python",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-portable-review-work\\verify_workload_envelope.py",
+        "--output",
+        "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-portable-review-work\\replay.json"
+      ],
+      "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-portable-review-work",
+      "environment": {
+        "UV_CACHE_DIR": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-portable-review-work\\uv-cache",
+        "UV_PYTHON_INSTALL_DIR": "D:/uv-python",
+        "UV_PROJECT_ENVIRONMENT": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-portable-review-work\\.venv"
+      },
+      "rc": 2,
+      "seconds": 1.5630000000237487,
+      "output_sha256": "f094f231ea76732f90e091e72e4168cc0a8aa270568e54f58e832e98593eaf5e"
+    }
+  ],
+  "exact_replay": true,
+  "exclusive_output": true
+}

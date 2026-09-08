@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "exact_diff_match": true,
+  "all_fields_equal_except_implementation_hash": true,
+  "source_script_sha256": "6625373266410d302527d509516bb7df6c9a397573f42ba85798d9fe089853bb",
+  "run": {
+    "argv": [
+      "uv",
+      "run",
+      "--isolated",
+      "--python",
+      "3.12.11",
+      "python",
+      "D:\\CodexWorkspaces\\mathematics-atlas\\astra-robustness-integration-review-work\\verify_continuous_perturbation.py",
+      "--output",
+      "D:\\CodexWorkspaces\\mathematics-atlas\\astra-robustness-integration-review-work\\cli-output.json"
+    ],
+    "cwd": "C:\\Users\\Legedith\\Documents\\ChatGPT\\maths",
+    "rc": 0,
+    "timed_out": false,
+    "timeout": 60,
+    "elapsed": 1.915128469467163
+  }
+}

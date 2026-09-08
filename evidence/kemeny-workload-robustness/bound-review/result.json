@@ -1,0 +1,127 @@
+{
+  "radii": [
+    {
+      "parts": [
+        3,
+        3,
+        3
+      ],
+      "theta": "1/10",
+      "radius": "1745/434753",
+      "one_percent": false
+    },
+    {
+      "parts": [
+        3,
+        3,
+        3
+      ],
+      "theta": "1/2",
+      "radius": "2113/113713",
+      "one_percent": true
+    },
+    {
+      "parts": [
+        3,
+        3,
+        4
+      ],
+      "theta": "1/10",
+      "radius": "919/359119",
+      "one_percent": false
+    },
+    {
+      "parts": [
+        3,
+        3,
+        4
+      ],
+      "theta": "1/2",
+      "radius": "1451/93251",
+      "one_percent": true
+    },
+    {
+      "parts": [
+        3,
+        4,
+        5
+      ],
+      "theta": "1/10",
+      "radius": "25/38113",
+      "one_percent": false
+    },
+    {
+      "parts": [
+        3,
+        4,
+        5
+      ],
+      "theta": "1/2",
+      "radius": "545/49001",
+      "one_percent": true
+    },
+    {
+      "parts": [
+        4,
+        4,
+        6
+      ],
+      "theta": "1/10",
+      "radius": "209/386721",
+      "one_percent": false
+    },
+    {
+      "parts": [
+        4,
+        4,
+        6
+      ],
+      "theta": "1/2",
+      "radius": "913/98913",
+      "one_percent": false
+    }
+  ],
+  "source_hashes": [
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-link-robust-priority-work\\queries.json",
+      "sha256": "36a5ce6536ffe0a88b58c437f736029082b5821fe63450d714d0fbf8f043737d"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-link-robust-priority-work\\raw-follow.json",
+      "sha256": "8e4a8eeeff52a5bbaedb0ca2d96fc2efa64d761c113b54c64ee17d54fe3d77e5"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-link-robust-priority-work\\raw-passages.json",
+      "sha256": "97006bbc3f49d6a8fcb0eb6aeb87443a4c290f8af74fd6391ef716b5abcc2dbd"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-link-robust-priority-work\\raw-search.json",
+      "sha256": "17fd154627965a6e1342a97025fcf6086439920ec9f1bd3188f23c8d28aac84d"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-link-robust-priority-work\\reused-input-hashes.json",
+      "sha256": "7a087ae66359ad02f1a9c3df7ba107a84e5e659ad4e028bd94ac29aa75401c51"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-link-robust-priority-work\\source-notes.md",
+      "sha256": "bf1b6288d81911328c97b73cd8d06cd9b08c279b6859895bcb6ff55e5be07039"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-link-robust-priority-work\\status.json",
+      "sha256": "be79349bb3e21e9a508dc28f0aff41ba6116ca520e1f3f3847730e6d6005f264"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-source-review-work\\source-notes.md",
+      "sha256": "f5c3594f3e79c7009970b1e3490eb640090928e594995bfb94a0c734b185155f"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-conductance-fulltext-work\\eff_res.txt",
+      "sha256": "05cea3e05fe6f97e1f20b797e6822546ad48936da5d98a82214911454e2a61a9"
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-conductance-fulltext-review-work\\review.md",
+      "sha256": "8206a0086d48a3c3d4b48429f426bff3f503fcaa72648b8e374e0b694596616f"
+    }
+  ],
+  "python": "3.12.11 (main, Sep 18 2025, 19:45:51) [MSC v.1944 64 bit (AMD64)]"
+}

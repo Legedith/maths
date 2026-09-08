@@ -1,0 +1,18 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--isolated",
+    "--python",
+    "3.12.11",
+    "python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-portable-work\\verify_continuous_perturbation.py",
+    "--output",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-portable-work\\replay.json"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-portable-work",
+  "timeout": 60,
+  "timed_out": false,
+  "returncode": 1,
+  "elapsed": 1.1869999999762513
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "path":  "contract.md",
+        "sha256":  "e0de28a31efbe6f2be66c60379ae40f5244dc919988bc182fe6cc23636ae382f",
+        "bytes":  3246
+    },
+    {
+        "path":  "check.py",
+        "sha256":  "c6ca55ac065e8ed75ff16680dfddea2a3d32e4e0054fe2ee7836bfe2bbe83625",
+        "bytes":  7718
+    },
+    {
+        "path":  "run.py",
+        "sha256":  "d0ea98748e31d2bf41fe34441084d44bcd5e54e82b7423dfec79569aac093793",
+        "bytes":  1491
+    },
+    {
+        "path":  "run.json",
+        "sha256":  "9b22aa90158fb6e867748427b29e8a5741f1be29d75f0131f4696fadd571fcbd",
+        "bytes":  921
+    },
+    {
+        "path":  "stdout.bin",
+        "sha256":  "1cb9337fad36c70c9919024938d7d8c1816f327e355d4a65394500d6862c9129",
+        "bytes":  129
+    },
+    {
+        "path":  "stderr.bin",
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes":  0
+    },
+    {
+        "path":  "result.json",
+        "sha256":  "13d3f0af59ccae1e848fe2c1c79d87cca1539b3e304fc6c8d3994ab0af5b09e0",
+        "bytes":  3052456
+    },
+    {
+        "path":  "proposal.md",
+        "sha256":  "e905e3501e6ce7f6faddf2ee08770a4db5c4d58a125f1048bfb9a3e38c0b03b5",
+        "bytes":  5960
+    }
+]

@@ -1,0 +1,14 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--isolated",
+    "python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-link-robust-bound-work\\check.py"
+  ],
+  "cwd": "C:\\Users\\Legedith\\Documents\\ChatGPT\\maths",
+  "rc": 0,
+  "timeout": 60,
+  "timed_out": false,
+  "elapsed": 0.37038660049438477
+}

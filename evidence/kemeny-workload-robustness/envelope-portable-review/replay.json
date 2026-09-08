@@ -1,0 +1,169 @@
+{
+  "analytic_bridges_required": [
+    "Graph inverse/deletion action must justify input r,s,hub coordinates; identities do not derive them from adjacency.",
+    "Commute/covariance identity, centering and equal candidate volume justify the affine scores for actual hitting times.",
+    "Missing-edge orbit exhaustion and accepted common-positive-strength uniform ordering are independent proof inputs.",
+    "Positive denominators, 0<k<1, a>=3, unequal j>=1 and d=e+j must be used to interpret factored identities as strict inequalities.",
+    "Positive E and slope ordering exclude incident-u from unequal envelope; equal envelope uses positive incident slope and uniform ordering.",
+    "Monotonicity, positive limits and continuity justify threshold ranges; theta=1 and t=0 are degenerate actual objectives, not strict-ranking endpoints.",
+    "Ties within largest parts or incident-u orbits require symmetry; threshold>=1 gives no admitted restoration interval.",
+    "Uniform old-weight scaling follows invariant transitions under global conductance scaling; not joint strength optimization or no-action comparison."
+  ],
+  "checks": [
+    "restore_score_from_r_s",
+    "restore_slope_from_hub",
+    "incident_score_from_r_s",
+    "incident_slope_from_hub",
+    "untouched_score_from_r_s",
+    "untouched_zero_hub_slope",
+    "denominator_difference",
+    "unit_restore_denominator",
+    "unit_incident_denominator",
+    "E_identity",
+    "E_rearrangement",
+    "N_lower_bound_remainder",
+    "E_lower_bound_simplification",
+    "unequal_crossing",
+    "unequal_derivative",
+    "unequal_derivative_upper_bound",
+    "unequal_derivative_bound_difference",
+    "unequal_zero_limit",
+    "unequal_infinity_limit",
+    "unequal_infinity_positive_bound",
+    "unequal_infinity_bound_difference",
+    "equal_candidate_crossing_general",
+    "equal_derivative",
+    "equal_derivative_sign_bound",
+    "equal_closed_form",
+    "equal_zero_limit",
+    "equal_infinity_limit",
+    "equal_zero_complement",
+    "equal_unit_reduction",
+    "equal_zero_complete_positive_shifted_coefficients",
+    "equal_infinity_complete_positive_shifted_coefficients",
+    "equal_zero_complement_complete_positive_shifted_coefficients",
+    "equal_unit_complete_positive_shifted_coefficients"
+  ],
+  "domain": "integers 3<=a<=b<=c; n=a+b+c+1, d=n-a, e=n-c; common t>0; fixed iid hub mixture 0<=theta<1",
+  "exact_formulas": {
+    "D_R": "(d*n + d*t - d + n*t - n - t + 1)/(d*n)",
+    "D_U": "(d**2*n - d**2 + 2*d*n*t - d*n - 2*d*t + d - n*t + 2*t)/n",
+    "E": "2*(d**3*n - d**3 + 2*d**2*n*t - d**2*n - 2*d**2*t + d**2 - d*e**2*n + d*e**2 - 2*d*e*n*t + 2*d*e*t - d*n*t - d*n + d*t + d - e**2 - 2*e*t - n*t + n + t - 1)/(d*e*n*(e + 2*t))",
+    "N": "d**2 + 2*d*t - e**2 - 2*e*t + t - 1",
+    "W": "(d**2 - d + n**2 - n)/(d**2*n**2)",
+    "incident_score": "(2*d**2*n**2 - 4*d**2*n + 3*d**2 - 2*d*n**2 + 6*d*n - 5*d + n**2 - 3*n + 2)/(d*(d - 1)*(n - 1)*(d**2*n - d**2 + 2*d*n*t - d*n - 2*d*t + d - n*t + 2*t))",
+    "incident_slope": "d*n/((d - 1)*(n - 1)*(d**2*n - d**2 + 2*d*n*t - d*n - 2*d*t + d - n*t + 2*t))",
+    "k": "(d - 1)*(n - 1)/(d*n)",
+    "largest_untouched_score": "2/(e*(e + 2*t))",
+    "one_minus_equal_zero": "(12*a**4 + 23*a**3 + 32*a**2 + 10*a + 1)/((a + 1)*(2*a + 1)**2*(3*a + 1))",
+    "restore_score": "(d**2 - d + n**2 - n)/((d - 1)*(n - 1)*(d*n + d*t - d + n*t - n - t + 1))",
+    "restore_slope": "d**2*n/((d - 1)*(n - 1)*(d*n + d*t - d + n*t - n - t + 1))",
+    "tau_equal": "(a - 2)*(20*a**3 + 8*a**2*t + 4*a**2 - a*t - t)/((2*a + 1)**2*(3*a + 1)*(4*a**2 + 4*a*t + 4*a + 3*t))",
+    "tau_equal_derivative": "2*(d - 1)*(d - n + 2)*(d*n - d + 1)/(d*n*(d**2 + 2*d*t + t - 1)**2)",
+    "tau_equal_infinity": "(a - 2)*(8*a**2 - a - 1)/((2*a + 1)**2*(3*a + 1)*(4*a + 3))",
+    "tau_equal_unit": "(a - 2)*(10*a**2 + a - 1)/((2*a + 1)**2*(2*a + 3)*(3*a + 1))",
+    "tau_equal_zero": "a*(a - 2)*(5*a + 1)/((a + 1)*(2*a + 1)**2*(3*a + 1))",
+    "tau_unequal": "-(d**2*e**2 + 2*d**2*e*t - 2*d**2*n**2 - 2*d**2*n*t + 4*d**2*n + 2*d**2*t - 2*d**2 - d*e**2 - 2*d*e*t - 2*d*n**2*t + 4*d*n**2 + 6*d*n*t - 8*d*n - 4*d*t + 4*d + e**2*n**2 - e**2*n + 2*e*n**2*t - 2*e*n*t + 2*n**2*t - 2*n**2 - 4*n*t + 4*n + 2*t - 2)/(d**2*e*n*(e + 2*t))",
+    "tau_unequal_derivative": "2*(d - 1)*(n - 1)*(d*e - 2*d*n + 2*d + e*n - e + 2*n - 2)/(d**2*e*n*(e + 2*t)**2)",
+    "tau_unequal_infinity": "-(d**2*e - d**2*n + d**2 - d*e - d*n**2 + 3*d*n - 2*d + e*n**2 - e*n + n**2 - 2*n + 1)/(d**2*e*n)",
+    "tau_unequal_zero": "-(d**2*e**2 - 2*d**2*n**2 + 4*d**2*n - 2*d**2 - d*e**2 + 4*d*n**2 - 8*d*n + 4*d + e**2*n**2 - e**2*n - 2*n**2 + 4*n - 2)/(d**2*e**2*n)"
+  },
+  "full_positive_coefficients": {
+    "equal_infinity": {
+      "denominator": {
+        "coefficients_descending": [
+          "48",
+          "676",
+          "3568",
+          "8365",
+          "7350"
+        ],
+        "degree": 4
+      },
+      "numerator": {
+        "coefficients_descending": [
+          "8",
+          "55",
+          "115",
+          "68"
+        ],
+        "degree": 3
+      }
+    },
+    "equal_unit": {
+      "denominator": {
+        "coefficients_descending": [
+          "24",
+          "356",
+          "1970",
+          "4823",
+          "4410"
+        ],
+        "degree": 4
+      },
+      "numerator": {
+        "coefficients_descending": [
+          "10",
+          "71",
+          "153",
+          "92"
+        ],
+        "degree": 3
+      }
+    },
+    "equal_zero": {
+      "denominator": {
+        "coefficients_descending": [
+          "12",
+          "172",
+          "923",
+          "2198",
+          "1960"
+        ],
+        "degree": 4
+      },
+      "numerator": {
+        "coefficients_descending": [
+          "5",
+          "36",
+          "79",
+          "48"
+        ],
+        "degree": 3
+      }
+    },
+    "equal_zero_complement": {
+      "denominator": {
+        "coefficients_descending": [
+          "12",
+          "172",
+          "923",
+          "2198",
+          "1960"
+        ],
+        "degree": 4
+      },
+      "numerator": {
+        "coefficients_descending": [
+          "12",
+          "167",
+          "887",
+          "2119",
+          "1912"
+        ],
+        "degree": 4
+      }
+    }
+  },
+  "implementation_sha256": "f4024bfbd7848621fda906cd77bb7ca1f698ee0468a8c6d1786defae8f4491e3",
+  "limitations": [
+    "Symbolic identities alone do not certify all analytic bridges.",
+    "No graph grid, global priority, physical benefit or independent final evidence gate."
+  ],
+  "positive_shift": "a=x+3, x>=0",
+  "runtime": {
+    "python": "3.12.11",
+    "sympy": "1.14.0"
+  },
+  "status": "PASS"
+}

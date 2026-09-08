@@ -1,0 +1,9 @@
+{
+  "score_slope_identities": true,
+  "E_identity": true,
+  "threshold_derivatives": true,
+  "strict_bound_identities": true,
+  "equal_limits_and_unit": true,
+  "python": "3.12.11 (main, Sep 18 2025, 19:45:51) [MSC v.1944 64 bit (AMD64)]",
+  "sympy": "1.14.0"
+}

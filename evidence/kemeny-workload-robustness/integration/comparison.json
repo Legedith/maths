@@ -1,0 +1,14 @@
+[
+  {
+    "result": "envelope-02.json",
+    "reference": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-portable-review-work\\replay.json",
+    "byte_identical": true,
+    "sha256": "f094f231ea76732f90e091e72e4168cc0a8aa270568e54f58e832e98593eaf5e"
+  },
+  {
+    "result": "continuous-01.json",
+    "reference": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-portable-work\\replay.json",
+    "byte_identical": true,
+    "sha256": "03b7294b89656601b4ec8d69554a5d64affd209412d46df50f889ebca0eaabdc"
+  }
+]

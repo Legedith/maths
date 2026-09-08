@@ -1,0 +1,37 @@
+﻿[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "36A5CE6536FFE0A88B58C437F736029082B5821FE63450D714D0FBF8F043737D",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-link-robust-priority-work\\queries.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "8E4A8EEEFF52A5BBAEDB0CA2D96FC2EFA64D761C113B54C64EE17D54FE3D77E5",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-link-robust-priority-work\\raw-follow.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "97006BBC3F49D6A8FCB0EB6AEB87443A4C290F8AF74FD6391EF716B5ABCC2DBD",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-link-robust-priority-work\\raw-passages.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "17FD154627965A6E1342A97025FCF6086439920EC9F1BD3188F23C8D28AAC84D",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-link-robust-priority-work\\raw-search.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "7A087AE66359AD02F1A9C3DF7BA107A84E5E659AD4E028BD94AC29AA75401C51",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-link-robust-priority-work\\reused-input-hashes.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "BF1B6288D81911328C97B73CD8D06CD9B08C279B6859895BCB6FF55E5BE07039",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-link-robust-priority-work\\source-notes.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "BE79349BB3E21E9A508DC28F0AFF41BA6116CA520E1F3F3847730E6D6005F264",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-link-robust-priority-work\\status.json"
+    }
+]

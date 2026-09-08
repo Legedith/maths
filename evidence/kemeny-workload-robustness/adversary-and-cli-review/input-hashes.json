@@ -1,0 +1,142 @@
+﻿[
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-joint-perturb-screen-work\\argv.json",
+        "sha256":  "674a41d43c5ef5f0908edd40f0a130d071ebf94c0bcf8be0d2a206d3e3a30dc8"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-joint-perturb-screen-work\\argv2.json",
+        "sha256":  "834d9700f90a5c1d4ad1e95e00cc4cbd8e7e0b51f61081ca3a1850dc5ae845b9"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-joint-perturb-screen-work\\batch2-plan.md",
+        "sha256":  "14c3e59f3e4147e87dc990eae23a6284faa987a0001475abe0fcae39a13747bb"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-joint-perturb-screen-work\\check.py",
+        "sha256":  "c832426759015a7f0ccad8cbc43777164344c7a2ecf420d6f8b98c0e07ff76ab"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-joint-perturb-screen-work\\check2.py",
+        "sha256":  "217b1f4fd4afefd4fd506ed8fc55e76d89ac2c9fcc263fda239297b86602101b"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-joint-perturb-screen-work\\direct-result.json",
+        "sha256":  "16df0808fa4eabc52ddbf4ceb126b2d934ee0625a691da3b028ed18ef4ccf59a"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-joint-perturb-screen-work\\hashes.json",
+        "sha256":  "b4fedbcbb6658c254ea346e138977ea2cff899cdb3a22932707639e3ac34a415"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-joint-perturb-screen-work\\plan.md",
+        "sha256":  "c0602d87486af6c7258940526ff79aaeab0020525c57943cbcaeef9c71026a31"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-joint-perturb-screen-work\\rc.txt",
+        "sha256":  "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-joint-perturb-screen-work\\rc2.txt",
+        "sha256":  "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-joint-perturb-screen-work\\report.md",
+        "sha256":  "3a62abc44630dfcd56c206ba6e0e517af7d7ccac25c383abd90b48bacc2a900a"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-joint-perturb-screen-work\\result.json",
+        "sha256":  "79e26d6215ab39316658a6480440c2ccc005fbc9bb9df7435628c7c2c91f2171"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-joint-perturb-screen-work\\run.py",
+        "sha256":  "5483d60180e1f620d352f1ecf241bceb863645b949948083af0c7e1206c0d51e"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-joint-perturb-screen-work\\run2.py",
+        "sha256":  "bd756c5e99568d1fb1cb2e00dbd97a2d7449db57da6583b4b80224eb1bf874cf"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-joint-perturb-screen-work\\stderr.txt",
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-joint-perturb-screen-work\\stderr2.txt",
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-joint-perturb-screen-work\\stdout.txt",
+        "sha256":  "06378ac107ea4f564d38f12401c23d55d828d055b5cb2ed2ae50b8891b640d10"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-joint-perturb-screen-work\\stdout2.txt",
+        "sha256":  "78e3f80e00804b4a614797e3ab4c06329f3d0ee4ba87a11343ce4cfa34fb8830"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-portable-work\\attempt1.json",
+        "sha256":  "8a8d0a383d734ac1adbb91e94274ac2fbc1f70ca90aa7ac3005434be95e70926"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-portable-work\\attempt1.stderr.bin",
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-portable-work\\attempt1.stdout.bin",
+        "sha256":  "1cb9337fad36c70c9919024938d7d8c1816f327e355d4a65394500d6862c9129"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-portable-work\\attempt2-existing.json",
+        "sha256":  "6645ed6ccf60c5991613bcfee5a2d7666bc58dc9b36dc29a25171d92db966530"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-portable-work\\attempt2-existing.stderr.bin",
+        "sha256":  "691b26023be318e814bf3d4705b334f5e6dcd6351bde63c29018ff1899b8fbb8"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-portable-work\\attempt2-existing.stdout.bin",
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-portable-work\\changes.diff",
+        "sha256":  "dd3a21773694b524838e5b5247eb13204a68af073846f0a6b325a0ace1ff7580"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-portable-work\\comparison.json",
+        "sha256":  "48362e91e3c28c584304860df2ebcb2cccf85f8775e9085394ea5ab51ad34181"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-portable-work\\hashes.json",
+        "sha256":  "32c3887cf652c1e7b20d8632da77f8d821f8ce2f21e394b2dd8ea75295ea6c8d"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-portable-work\\input-hashes.json",
+        "sha256":  "a2fa56df035dcd49df26a1636878cdbce91ebabfaf904dd78cf1fa186185f5e1"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-portable-work\\plan.md",
+        "sha256":  "ae448daa692afbc8d728c45906f5a9bdfcb79374755685d9d025cb904a47e079"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-portable-work\\README.md",
+        "sha256":  "1af9b96aa065cea6b7b13b140adff06974e3f328849f8c7817e13ed468949ebb"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-portable-work\\replay.json",
+        "sha256":  "03b7294b89656601b4ec8d69554a5d64affd209412d46df50f889ebca0eaabdc"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-portable-work\\run.py",
+        "sha256":  "67ac3405f36097913736052edbdc967796e68524631ea7cefee4e21ca27990b4"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-portable-work\\verify_continuous_perturbation.py",
+        "sha256":  "6625373266410d302527d509516bb7df6c9a397573f42ba85798d9fe089853bb"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-perturb-review-work\\review.md",
+        "sha256":  "56ee6cd70500246d6ab68645fc209e4bdcc4280c5849cc0e1a112295e69040d4"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-link-robust-bound-review-work\\source-review.md",
+        "sha256":  "a871ece16c42561f5f6dddd47641530eaf7d9f8499f2eeca4c5ca0b17d12e1a6"
+    }
+]

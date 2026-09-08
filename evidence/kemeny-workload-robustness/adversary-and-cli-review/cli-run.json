@@ -1,0 +1,18 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--isolated",
+    "--python",
+    "3.12.11",
+    "python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-robustness-integration-review-work\\verify_continuous_perturbation.py",
+    "--output",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-robustness-integration-review-work\\cli-output.json"
+  ],
+  "cwd": "C:\\Users\\Legedith\\Documents\\ChatGPT\\maths",
+  "rc": 0,
+  "timed_out": false,
+  "timeout": 60,
+  "elapsed": 1.915128469467163
+}

@@ -1,0 +1,27 @@
+﻿[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "B32B34F17F7B235E44D56EC674CFC3FCDB9A74857EA51F73B2F641240484CF99",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-release-review-work\\ground-result.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "86BCDCEAD12BFCE143506359B644CE7BDE5039563AF8AA7B16454A6A5D3959E2",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-release-review-work\\ground.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "66C62C4F2472661D1F28C63F9B5D73C33363C54C939494F8ED57D952F743C1D6",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-release-review-work\\plan.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "0266EBBFA1B348844FF81D7D9202CBD95C88AD0226DBED8C6A0B954CD4260D60",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-release-review-work\\review.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "520383C6533245C8056045F0DC8AAD3A58B6E7B4ED2C44739A25268271747581",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-release-review-work\\verdict.json"
+    }
+]

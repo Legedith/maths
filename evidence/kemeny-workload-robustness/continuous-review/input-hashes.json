@@ -1,0 +1,37 @@
+﻿[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "E0DE28A31EFBE6F2BE66C60379AE40F5244DC919988BC182FE6CC23636AE382F",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-robustness-work\\contract.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "E905E3501E6CE7F6FADDF2EE08770A4DB5C4D58A125F1048BFB9A3E38C0B03B5",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-robustness-work\\proposal.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "C6CA55AC065E8ED75FF16680DFDDEA2A3D32E4E0054FE2EE7836BFE2BBE83625",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-robustness-work\\check.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "13D3F0AF59CCAE1E848FE2C1C79D87CCA1539B3E304FC6C8D3994AB0AF5B09E0",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-robustness-work\\result.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "C86206F4B46163BEAF29E2AF6ABF6E0765A6004EFCC2E17160CD271A9E2406F7",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-robustness-work\\hashes.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "9B22AA90158FB6E867748427B29E8A5741F1BE29D75F0131F4696FADD571FCBD",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-robustness-work\\run.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "A871ECE16C42561F5F6DDDD47641530EAF7D9F8499F2EECA4C5CA0B17D12E1A6",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-link-robust-bound-review-work\\source-review.md"
+    }
+]

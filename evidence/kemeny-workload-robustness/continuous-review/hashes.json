@@ -1,0 +1,47 @@
+﻿[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "D3CD34E567AF01ED4F5B30E991176594DBF5B72CC6684C1C85091B3B7D0F7FD9",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-perturb-review-work\\check.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "890F387322EA8EE4FA0A23D05A9206B43555AE33A92A0C245E4260166BE334BD",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-perturb-review-work\\input-hashes.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "54E21D60FEFE40E4131A1ECE2938BB7005C91990FB03F0E1EBBEE42AA8EAAE9E",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-perturb-review-work\\plan.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "56EE6CD70500246D6AB68645FC209E4BDCC4280C5849CC0E1A112295E69040D4",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-perturb-review-work\\review.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "4197E5F884D0D71143B9F0E1B17FCA6164AD20C72C0CAD7CC6ADFB674BEBD649",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-perturb-review-work\\run.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "A9F6A837FB86ACAD3DCB690C93528F2A4AFA8C6F2F1CBA3A44EB9EC2FD4AE2FA",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-perturb-review-work\\run.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "6BD5AE436E99564D515BC480803891068FBFD2693F0D4D3E5082C41DB183A90D",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-perturb-review-work\\stderr.bin"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "50F5168B7398030F557011D0CDD053D154CC5343224DA849356636C00B39CECF",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-perturb-review-work\\stdout.bin"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "65AA9CE2F106F60C09D3E38148536D5FB704701A898C8105AAC2BE1C9D1BF4D9",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-continuous-perturb-review-work\\verdict.json"
+    }
+]

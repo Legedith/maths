@@ -1,0 +1,17 @@
+﻿[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "F5C3594F3E79C7009970B1E3490EB640090928E594995BFB94A0C734B185155F",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-uniform-source-review-work\\source-notes.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "05CEA3E05FE6F97E1F20B797E6822546AD48936DA5D98A82214911454E2A61A9",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-conductance-fulltext-work\\eff_res.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "8206A0086D48A3C3D4B48429F426BFF3F503FCAA72648B8E374E0B694596616F",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-conductance-fulltext-review-work\\review.md"
+    }
+]

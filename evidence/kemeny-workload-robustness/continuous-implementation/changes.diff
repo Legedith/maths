@@ -1,0 +1,28 @@
+--- accepted/check.py
++++ verify_continuous_perturbation.py
+@@ -1,5 +1,6 @@
+ from __future__ import annotations
+ 
++import argparse
+ import hashlib
+ import json
+ import platform
+@@ -107,6 +108,9 @@
+ 
+ 
+ def main():
++    parser = argparse.ArgumentParser(description='Verify the frozen continuous one-edge perturbation certificate.')
++    parser.add_argument('--output', type=Path, required=True, help='Fresh JSON output path; existing files are refused.')
++    args = parser.parse_args()
+     records = []
+     comparison_count = 0
+     interior_minima = 0
+@@ -169,7 +173,7 @@
+         'python': platform.python_version(),
+         'implementation_sha256': hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
+     }
+-    destination = STAGE / 'result.json'
++    destination = args.output
+     assert not destination.exists(), 'Use a fresh attempt output, never overwrite evidence.'
+     destination.write_text(json.dumps(serial(result), indent=2) + '\n', encoding='utf-8')
+     print(json.dumps({key: serial(result[key]) for key in ('status', 'graph_count', 'continuous_contexts', 'comparison_count', 'quadratics_with_interior_vertex')}))

@@ -1,0 +1,82 @@
+﻿[
+    {
+        "path":  "batch2.json",
+        "match":  true
+    },
+    {
+        "path":  "batch2-plan.md",
+        "match":  true
+    },
+    {
+        "path":  "batch2-run.json",
+        "match":  true
+    },
+    {
+        "path":  "batch2-stderr.bin",
+        "match":  true
+    },
+    {
+        "path":  "batch2-stdout.bin",
+        "match":  true
+    },
+    {
+        "path":  "check.py",
+        "match":  true
+    },
+    {
+        "path":  "check2.py",
+        "match":  true
+    },
+    {
+        "path":  "input-hashes.json",
+        "match":  true
+    },
+    {
+        "path":  "plan.md",
+        "match":  true
+    },
+    {
+        "path":  "proposal.md",
+        "match":  true
+    },
+    {
+        "path":  "result.json",
+        "match":  true
+    },
+    {
+        "path":  "run.json",
+        "match":  true
+    },
+    {
+        "path":  "run.py",
+        "match":  true
+    },
+    {
+        "path":  "run2.py",
+        "match":  true
+    },
+    {
+        "path":  "stderr.bin",
+        "match":  true
+    },
+    {
+        "path":  "stdout.bin",
+        "match":  true
+    },
+    {
+        "path":  "astra-uniform-weight-review-work/review.md",
+        "match":  true
+    },
+    {
+        "path":  "astra-workload-family-review-work/report.md",
+        "match":  true
+    },
+    {
+        "path":  "astra-next-screen-summary-review-work/workload-attestation.md",
+        "match":  true
+    },
+    {
+        "path":  "astra-workload-screen-review-work/result.json",
+        "match":  true
+    }
+]

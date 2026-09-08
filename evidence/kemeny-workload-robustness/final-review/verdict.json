@@ -1,0 +1,12 @@
+{
+  "reviewed_bundle_sha256": "a6d3eb931d27ebefa64dcb16e773be856dc506a2c714b80343edb2912443330b",
+  "round": 1,
+  "status": "pass",
+  "required_corrections": [],
+  "checks": [
+    {"id":"reproduction","status":"pass","auditor":"/root/astra_general_proof_verifier","evidence":["A154","A155","A156","A157","A160","A161","A163","A167","A012","A139"],"note":"Both actual canonical outputs match independent replays byte for byte; failed rc1 and recovered rc0 retained. No new numerical run. Static CI only; future execution unverified."},
+    {"id":"implementation_alignment","status":"pass","auditor":"/root/astra_general_proof_verifier","evidence":["A012","A085","A139","A150","A187","A188","A192"],"note":"Unchanged portable bytes and final prose align with independent mathematical and CLI audits. Analytic bridges and ordinary-Python assertion limits explicit."},
+    {"id":"specification_compliance","status":"pass","auditor":"/root/astra_general_proof_verifier","evidence":["A001","A012","A002","A085","A150","A187","A189"],"note":"All13 claims retain correct quantifiers, ties and separate uncertainty sets. Adversary claims rely on distinct ranking reviewer A012/A002, not this author's self-verdict. New ray/minimax work excluded."},
+    {"id":"source_verification","status":"pass","auditor":"/root/astra_general_proof_verifier","evidence":["A054","A175","A185","A186","A190"],"note":"Reused accepted primary-source entailment supports narrow known-method attributions; publisher-preview/join gaps remain unresolved. No novelty or physical-benefit certification."}
+  ]
+}

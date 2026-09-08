@@ -1,0 +1,72 @@
+﻿[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "1DC7F645FF9D3FD3CE2FA5A54BEA026F643693F558FA0B159F2BEA42D981D327",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-portable-review-work\\attempt-1.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "BB67AB3D900D7DAFB616C5A49E5AD8EA00184187587BBF944D17304591799E1D",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-portable-review-work\\attempt-1.stderr.bin"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "49C0B3599AC1198C36118070FE59A2ABAB400EF274AB2EFBA0F9AA1A8F38C560",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-portable-review-work\\attempt-1.stdout.bin"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "4A9BA76632ABF65E76058A8711BC4A40A6060452FC84CBDEBBFE52E60224377E",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-portable-review-work\\attempt-2.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "70FC26D68DF05A684B72511D8FB7CDC34384EEB4DA407FECFAC23C0C6291919A",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-portable-review-work\\attempt-2.stderr.bin"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-portable-review-work\\attempt-2.stdout.bin"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "2F61D0FBF48F3C580D728E9EF0818B93F6A0A097C7807CB5F25F0DAD477D2C95",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-portable-review-work\\plan.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "043135469F15A65EC3BB4106A3D6798BCCCDD0F762288DB41FD740164762445F",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-portable-review-work\\pyproject.toml"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "F094F231EA76732F90E091E72E4168CC0A8AA270568E54F58E832E98593EAF5E",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-portable-review-work\\replay.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "7F1DEAF06EBE65B54DBB58BB856A410C9ED3C3E96A4D2C647AAD5F7B9332858A",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-portable-review-work\\reproduction.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "9BE5371EF81240AA449C81AF87A00953E9F380D37B3FE13AE7C9CBED8E73995B",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-portable-review-work\\review.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "9DB2EB11967B42C282B921B9D27348F8114CA5387E823864A82E6E1866587E8D",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-portable-review-work\\run_review.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "378269213EB25AE37448F6993AC983809D7BAB05D3A47434C5BABD06DC0B874D",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-portable-review-work\\uv.lock"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "F4024BFBD7848621FDA906CD77BB7CA1F698EE0468A8C6D1786DEFAE8F4491E3",
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-workload-portable-review-work\\verify_workload_envelope.py"
+    }
+]
