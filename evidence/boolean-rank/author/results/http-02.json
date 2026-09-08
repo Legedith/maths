@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "responses": [
+    {
+      "path": "/api/atlas",
+      "status": 200,
+      "body_sha256": "2e929620db00ec9b327b16dad1334afd89da266044b07836ebf2c2dce448157d",
+      "exact_json_equal": true,
+      "content_type": "application/json"
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "body_sha256": "b08efc2a529bab2086e977c617b3db3d6ee196380b98e855fef4a1d73ff9a472",
+      "broadened_scope_visible_in_response": true
+    }
+  ],
+  "scope": "Actual local HTTP response bodies and exact API object only; no browser interaction, visual, or deployed-site verification."
+}

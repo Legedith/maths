@@ -1,0 +1,49 @@
+{
+  "schema_version": "boolean-rank-design-input-drift-v1",
+  "reviewed_project_revision": "08434cb8f3a0923a7b781503cec64a86878cf171",
+  "observed_at_utc": "2026-09-08T11:33:14.524888+00:00",
+  "cause": "Root-confirmed serial implementation edits appeared after the independent design baseline was pinned.",
+  "boundary": "The design is verified against the Git object bytes at the reviewed revision. These later working-tree bytes are recorded but are not certified by this design pass.",
+  "unchanged_material_inputs": [
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/boolean-rank-clarification-work/corrected-records-v1.json",
+      "sha256": "0ba1c19b75b0b37fcd29214d3ad5565aca747481aba779084e23367b0a110fd2"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/boolean-rank-correction-review-work/correction-review.json",
+      "sha256": "13bff50ecbd050f359a7948996197e9b09a12c5a5305fedb4aa40804cefcbad0"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/project/data/atlas.json",
+      "sha256": "6d0b37a4f7bdd7181b45d464bb5ea5f038cd097e33d56140c8beb74a3158276d"
+    }
+  ],
+  "later_working_tree_drift": [
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/project/lib/atlas.ts",
+      "reviewed_sha256": "5d5e666c98eb2a1392a109fc1678b52bed736beb87975173ae81155e95c32812",
+      "observed_working_tree_sha256": "7cefe5ab0640fdfb0c988ae488cee564168141d0d8a60852d1c3646122caab4b"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/project/components/atlas-map.tsx",
+      "reviewed_sha256": "9913b1f3496210bf878b0da92275ea8011da3d52d20d379cdfe45d1ce146bd26",
+      "observed_working_tree_sha256": "74e78cdb347cbe361e52bf19e917414e4a4eef6dbbb6bb6024e3efe181b1c101"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/project/scripts/validate_atlas.py",
+      "reviewed_sha256": "ab9813ad602dedf34c12220331ab515f8887362ca5c076e4fda24a1d069a72e9",
+      "observed_working_tree_sha256": "e1b3f3e2e5f74b4b51c4109d4d7f39a39154bed1e9acde8424c20df164fd2595"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/project/scripts/check-atlas.ts",
+      "reviewed_sha256": "5c05eff13df45ab06f9226935b91c9b70ca48013d75e4519a73ddbca7f5613bb",
+      "observed_working_tree_sha256": "0210c6dbdf11941fb6e613d29313e2f3342829ac470772d0e98f36643d3be49c"
+    }
+  ],
+  "raw_evidence": [
+    "logs/validation/attempt-design-validation-02.json",
+    "logs/validation/attempt-design-validation-02.stdout.bin",
+    "logs/validation/attempt-design-validation-03.json",
+    "logs/validation/attempt-design-validation-03.stdout.bin"
+  ]
+}

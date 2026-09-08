@@ -1,0 +1,100 @@
+{
+  "auditor": "/root/sol_atlas_audit",
+  "created_at_utc": "2026-09-08T12:36:50.346670+00:00",
+  "inputs": [
+    {
+      "bytes": 11078,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-review-work\\check_release_delta.py",
+      "sha256": "9dbf082448909706b8e1e259e4fdd69a42dac778a4cc7de72164f029bf6aa550"
+    },
+    {
+      "bytes": 4600,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-review-work\\run_logged.py",
+      "sha256": "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6"
+    },
+    {
+      "bytes": 1411,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-work\\release-assembly-01.json",
+      "sha256": "96c1f21edc7feb0ff82af90c70f462603c9c158bc4d96101608eccf1cc912991"
+    },
+    {
+      "bytes": 1212,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-work\\release-logs\\boolean-review-assembly-01.json",
+      "sha256": "3e7a9c54afd4c2b5875af74e39c5e7ceaf39b10d5d38dac726aec8ba76f8c954"
+    },
+    {
+      "bytes": 1995,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-work\\verification-note-draft.md",
+      "sha256": "fb3d05c6f49d53e3677df786c9c0ee312d6609a8eb31c9c159e7b6f385fae7fb"
+    },
+    {
+      "bytes": 9727,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-work\\implementation-freeze-v2.json",
+      "sha256": "391aa34b932aa37c4ccb45e2b9ee589ba3eaec38540c15f9d43b9581c420f7f6"
+    },
+    {
+      "bytes": 76423,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.codex\\evidence\\runs\\boolean-rank-integration-v1\\bundle.json",
+      "sha256": "1a2f4d1b4e4c6c186e9d91e8605d6b4851accdf6d5ca5e28aaeee12c334b1f16"
+    },
+    {
+      "bytes": 32670,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\boolean-rank\\author\\history\\release-docs\\bundle-draft.json",
+      "sha256": "d5f1f0e07be30477cb5338a53916ce7f85fd0ed840bd928e0aa9da6fb0017d50"
+    },
+    {
+      "bytes": 19844,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-review-work\\final-boolean-rank-integration-audit.json",
+      "sha256": "2787ef459e7266daaead4d9ab445b48597575cb986e31625638ab0be68cfc29a"
+    },
+    {
+      "bytes": 32695,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-review-work\\publication-manifest.json",
+      "sha256": "9a07b01eb998257fde7864349b32c53ad174915f3e9fa879d3ab00023e0bceed"
+    },
+    {
+      "bytes": 19844,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\boolean-rank\\independent\\final-boolean-rank-integration-audit.json",
+      "sha256": "2787ef459e7266daaead4d9ab445b48597575cb986e31625638ab0be68cfc29a"
+    },
+    {
+      "bytes": 32695,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\boolean-rank\\independent\\publication-manifest.json",
+      "sha256": "9a07b01eb998257fde7864349b32c53ad174915f3e9fa879d3ab00023e0bceed"
+    },
+    {
+      "bytes": 4353,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\docs\\boolean-rank-bridge.md",
+      "sha256": "5aa6c883f6aa6371702dc371df349d8a1d70edd9b604e77f0915a9f9bf80817a"
+    },
+    {
+      "bytes": 1995,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\docs\\boolean-rank-verification.md",
+      "sha256": "fb3d05c6f49d53e3677df786c9c0ee312d6609a8eb31c9c159e7b6f385fae7fb"
+    },
+    {
+      "bytes": 2181,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.github\\workflows\\verify.yml",
+      "sha256": "afbebe72181060269c6615d83e81b703a9aa395df31476f5f143ed4671b89cb0"
+    }
+  ],
+  "named_inputs": {
+    "assembled_bundle": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.codex\\evidence\\runs\\boolean-rank-integration-v1\\bundle.json",
+    "implementation_freeze": "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-work\\implementation-freeze-v2.json",
+    "independent_audit": "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-review-work\\final-boolean-rank-integration-audit.json",
+    "independent_publication_manifest": "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-review-work\\publication-manifest.json",
+    "original_bundle": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\boolean-rank\\author\\history\\release-docs\\bundle-draft.json",
+    "release_assembly": "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-work\\release-assembly-01.json"
+  },
+  "schema_version": "boolean-rank-release-delta-checker-freeze-v3",
+  "scope": "Frozen checker and inputs for the additive documentation, CI-command and evidence-assembly review.",
+  "supersedes": {
+    "path": "release-delta-checker-freeze-v2.json",
+    "reason": "V1 required a literal line break and V2 expected wording with `not`; the actual scoped sentence uses `neither ... treated`. V3 normalizes whitespace and checks both exact semantic clauses. All product assertions and inputs are unchanged.",
+    "retained_failed_attempts": [
+      "logs/release-delta/attempt-release-delta-01.json",
+      "logs/release-delta/attempt-release-delta-02.json"
+    ],
+    "sha256": "7cf95ec7d410835b0d8fe868ea6ccd2312caa9475d1cf1d786d66bea5afc9adc"
+  }
+}

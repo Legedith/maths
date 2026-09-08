@@ -1,0 +1,15 @@
+file:///D:/CodexWorkspaces/mathematics-atlas/project/lib/use-atlas-tools.ts:3
+import { flushSync } from 'react-dom';
+         ^^^^^^^^^
+SyntaxError: Named export 'flushSync' not found. The requested module 'react-dom' is a CommonJS module, which may not support all module.exports as named exports.
+CommonJS modules can always be imported via the default export, for example using:
+
+import pkg from 'react-dom';
+const { flushSync } = pkg;
+
+    at #asyncInstantiate (node:internal/modules/esm/module_job:302:21)
+    at async ModuleJob.run (node:internal/modules/esm/module_job:405:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+    at async file:///D:/CodexWorkspaces/mathematics-atlas/boolean-rank-integration-review-work/independent_runtime_check.mjs:75:24
+
+Node.js v24.12.0

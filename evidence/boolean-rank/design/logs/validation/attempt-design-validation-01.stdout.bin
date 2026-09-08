@@ -1,0 +1,24 @@
+{
+  "checks": {
+    "consumer_version_boundary": true,
+    "edge_endpoints": true,
+    "evidence_sources": true,
+    "expected_counts": true,
+    "functional_not_visual_scope": false,
+    "input_hashes": true,
+    "journey_references": true,
+    "known_not_novel": false,
+    "r1_to_r4_complete": true,
+    "r3_boundaries": true,
+    "r4_nodes_explicit": true,
+    "unique_new_ids": true
+  },
+  "counts": {
+    "checks": 12,
+    "failed": 2,
+    "passed": 10
+  },
+  "passed": false,
+  "schema_version": "boolean-rank-integration-design-validation-v1",
+  "scope": "Internal consistency and pinned-input integrity only; no implementation, source re-review, example certification or application benchmark."
+}

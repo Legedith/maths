@@ -1,0 +1,2807 @@
+{
+  "schema_version": "1.1",
+  "title": "Mathematics Atlas",
+  "scope": "Laplacians and networks; Boolean relations, covers and communication",
+  "domains": [
+    "Mathematics",
+    "Physics",
+    "Probability",
+    "Computer science",
+    "Chemistry"
+  ],
+  "sources": [
+    {
+      "id": "spielman-laplacian",
+      "title": "The Laplacian",
+      "author": "Daniel A. Spielman",
+      "year": 2015,
+      "url": "https://cs.yale.edu/homes/spielman/561/lect02-15.pdf",
+      "locator": "§2.2, equations (2.1)–(2.3)",
+      "note": "Weighted Laplacian, its quadratic form, and matrix structure."
+    },
+    {
+      "id": "spielman-resistance",
+      "title": "Effective Resistance",
+      "author": "Daniel A. Spielman",
+      "year": 2018,
+      "url": "https://cs.yale.edu/homes/spielman/561/lect13-18.pdf",
+      "locator": "§13.1–13.6",
+      "note": "Electrical flows and effective resistance."
+    },
+    {
+      "id": "spielman-trees",
+      "title": "More Effective Resistance",
+      "author": "Daniel A. Spielman",
+      "year": 2018,
+      "url": "https://www.cs.yale.edu/homes/spielman/561/lect14-18.pdf",
+      "locator": "§14.2 and Theorem 14.6.1",
+      "note": "Energy dissipation and weighted spanning-tree edge probabilities."
+    },
+    {
+      "id": "chandra-commute",
+      "title": "Electrical resistance captures commute and cover times",
+      "author": "Chandra, Raghavan, Ruzzo, Smolensky & Tiwari",
+      "year": 1996,
+      "url": "https://homes.cs.washington.edu/~ruzzo/papers/resist.pdf",
+      "locator": "§2, Theorem 2.1 (PDF p.6)",
+      "note": "Commute time in connected unweighted undirected graphs equals twice the number of edges times effective resistance."
+    },
+    {
+      "id": "spielman-sparsification",
+      "title": "Graph Sparsification by Effective Resistances",
+      "author": "Daniel A. Spielman & Nikhil Srivastava",
+      "year": 2008,
+      "url": "https://arxiv.org/abs/0803.0929",
+      "locator": "§1.1, Sparsify and Theorem 1",
+      "note": "Reweighted resistance-based edge sampling approximates all Laplacian quadratic forms under the stated sampling and error conditions."
+    },
+    {
+      "id": "grady-segmentation",
+      "title": "Random Walks for Image Segmentation",
+      "author": "Leo Grady",
+      "year": 2006,
+      "url": "https://leogrady.net/wp-content/uploads/2017/01/grady2006random.pdf",
+      "locator": "Abstract; §§II–III",
+      "note": "Seeded image segmentation via first-hit probabilities and a discrete Dirichlet problem. Source abstract retrieved through the web index; local TLS download failed."
+    },
+    {
+      "id": "klein-sum-rules",
+      "title": "Resistance-Distance Sum Rules",
+      "author": "Douglas J. Klein",
+      "year": 2002,
+      "url": "https://hrcak.srce.hr/127542",
+      "locator": "Abstract; Introduction, journal p.633",
+      "note": "Resistance distance and graph-invariant sum rules in chemical graph theory. This is not an empirical chemical-property prediction."
+    },
+    {
+      "id": "faught-kemeny-braess",
+      "title": "A 1-Separation Formula for the Graph Kemeny Constant and Braess Edges",
+      "author": "Nolan Faught, Mark Kempton and Adam Knudson",
+      "year": 2021,
+      "url": "https://arxiv.org/html/2108.01061v1",
+      "locator": "Lemma 1.1; Definition 4.1; paragraph after Corollary 4.3",
+      "note": "Exact resistance formula, strict Braess-set convention and the published P7 example; the example is not a minimum-order theorem."
+    },
+    {
+      "id": "breen-kemeny-cliques",
+      "title": "Kemeny's constant and Braess cliques in graphs",
+      "author": "Jane Breen, Emma deBlieck and Kevin N. Vander Meulen",
+      "year": 2026,
+      "url": "https://arxiv.org/html/2608.04150",
+      "locator": "Sections 2.1 and 2.2",
+      "note": "Hitting-time and spectral conventions, simple-random-walk transition matrix and resistance formula. This atlas separately pins a strict Braess comparison because conventions differ in the literature."
+    },
+    {
+      "id": "javadi-local-clique",
+      "title": "Local Clique Covering of Graphs",
+      "author": "Ramin Javadi, Zeinab Maleki & Behnaz Omoomi",
+      "year": 2012,
+      "url": "https://arxiv.org/pdf/1210.6965v1",
+      "locator": "Introduction, printed pp. 2-3",
+      "note": "Boolean rank, all-one rectangle covers, fixed-bipartition biclique covers and their local-incidence versions. The Atlas zero-support conventions are separate local definitions. Link and paraphrase; no downstream open-content license was established in the source review."
+    },
+    {
+      "id": "karchmer-few-witnesses",
+      "title": "Non-deterministic Communication Complexity with Few Witnesses",
+      "author": "Mauricio Karchmer, Ilan Newman, Mike Saks & Avi Wigderson",
+      "year": 2003,
+      "url": "https://www.math.ias.edu/~avi/PUBLICATIONS/MYPAPERS/SAKS/KCOVER/JOURNAL/kcover.pdf",
+      "locator": "Sections 2.1-2.3, printed pp. 3-5; Proposition 3 and proof",
+      "note": "Unrestricted rectangle-cover number, the paper's maximum-leaf-depth nondeterministic protocol convention and the nonzero-support ceiling-log formula. The Atlas zero case and superscript notation are local. Link and paraphrase; the source review found no explicit open-content license."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "weighted-graph",
+      "label": "Weighted graph",
+      "kind": "concept",
+      "domains": [
+        "Mathematics"
+      ],
+      "cluster": "foundations",
+      "x": 445,
+      "y": 230,
+      "summary": "Objects joined by connections, each carrying a numerical weight.",
+      "explanation": "Here weights are positive conductances. A graph records which vertices are joined and the weight of each connection; using it to model an application requires additional assumptions.",
+      "formula": "G = (V, E, w)",
+      "level": "Start here",
+      "aliases": [
+        "network",
+        "vertices",
+        "edges"
+      ],
+      "assumptions": [
+        "Finite, connected, undirected graph",
+        "Positive conductances"
+      ],
+      "evidence": [
+        {
+          "source": "spielman-laplacian",
+          "locator": "§2.2, equations (2.1)–(2.3)"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "laplacian",
+      "label": "Graph Laplacian",
+      "kind": "concept",
+      "domains": [
+        "Mathematics"
+      ],
+      "cluster": "foundations",
+      "x": 408,
+      "y": 297,
+      "summary": "A matrix that measures differences between neighbouring vertices.",
+      "explanation": "Place each weighted degree on the diagonal and negative edge weights off the diagonal. Multiplying by a vector compares each value with its neighbours.",
+      "formula": "L = D − A",
+      "level": "Intermediate",
+      "aliases": [
+        "graph matrix",
+        "L = D - A",
+        "Laplacian matrix"
+      ],
+      "assumptions": [
+        "Finite, connected, undirected graph",
+        "Positive conductances"
+      ],
+      "evidence": [
+        {
+          "source": "spielman-laplacian",
+          "locator": "§2.2, equations (2.1)–(2.3)"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "energy",
+      "label": "Dirichlet energy",
+      "kind": "concept",
+      "domains": [
+        "Mathematics"
+      ],
+      "cluster": "foundations",
+      "x": 320,
+      "y": 325,
+      "summary": "A score for how much values change across graph edges.",
+      "explanation": "A large difference across a highly conducting edge contributes more energy. This quadratic form connects the graph to electrical dissipation.",
+      "formula": "xᵀLx = Σ wᵤᵥ(xᵤ − xᵥ)²",
+      "level": "Intermediate",
+      "aliases": [
+        "quadratic energy",
+        "Dirichlet",
+        "smoothness",
+        "dissipation"
+      ],
+      "assumptions": [
+        "Finite, connected, undirected graph",
+        "Positive conductances"
+      ],
+      "evidence": [
+        {
+          "source": "spielman-laplacian",
+          "locator": "§2.2, equations (2.1)–(2.3)"
+        },
+        {
+          "source": "spielman-trees",
+          "locator": "Section 14.2 (energy of a flow and electrical dissipation)"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "electrical-flow",
+      "label": "Electrical flow",
+      "kind": "concept",
+      "domains": [
+        "Physics"
+      ],
+      "cluster": "physics",
+      "x": 295,
+      "y": 445,
+      "summary": "Currents move through a resistive network under imposed injections.",
+      "explanation": "Voltage differences and conductances determine currents. One unit enters at one vertex and leaves at another.",
+      "formula": "L v = eₛ − eₜ",
+      "level": "Intermediate",
+      "aliases": [],
+      "assumptions": [
+        "Finite, connected, undirected graph",
+        "Positive conductances"
+      ],
+      "evidence": [
+        {
+          "source": "spielman-resistance",
+          "locator": "§13.1"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "effective-resistance",
+      "label": "Effective resistance",
+      "kind": "concept",
+      "domains": [
+        "Physics"
+      ],
+      "cluster": "physics",
+      "x": 233,
+      "y": 527,
+      "summary": "The voltage needed to send one unit of current between two vertices.",
+      "explanation": "Multiple routes can lower the effective resistance. Its role reaches beyond circuits into the probabilities of graph edges appearing in spanning trees.",
+      "formula": "Rₛₜ = vₛ − vₜ",
+      "level": "Intermediate",
+      "aliases": [
+        "circuit resistance",
+        "network resistance",
+        "unit current"
+      ],
+      "assumptions": [
+        "Finite, connected, undirected graph",
+        "Positive conductances"
+      ],
+      "evidence": [
+        {
+          "source": "spielman-resistance",
+          "locator": "§13.1"
+        },
+        {
+          "source": "spielman-trees",
+          "locator": "Section 14.6, Theorem 14.6.1 (tree edge marginal)"
+        },
+        {
+          "source": "spielman-resistance",
+          "locator": "Section 13.3 (resistors in parallel)"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "spanning-tree",
+      "label": "Spanning tree",
+      "kind": "concept",
+      "domains": [
+        "Mathematics"
+      ],
+      "cluster": "probability",
+      "x": 750,
+      "y": 200,
+      "summary": "A connected selection of edges that reaches every vertex without a cycle.",
+      "explanation": "A connected finite graph can have many spanning trees. Weighting each tree by the product of its edge weights defines a probability distribution.",
+      "formula": "|E(T)| = |V| − 1",
+      "level": "Intermediate",
+      "aliases": [],
+      "assumptions": [
+        "Finite, connected, undirected graph",
+        "Positive conductances"
+      ],
+      "evidence": [
+        {
+          "source": "spielman-trees",
+          "locator": "§14.5–14.6"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "edge-probability",
+      "label": "Edge inclusion probability",
+      "kind": "concept",
+      "domains": [
+        "Probability"
+      ],
+      "cluster": "probability",
+      "x": 703,
+      "y": 274,
+      "summary": "How often an edge appears in a random spanning tree.",
+      "explanation": "For a tree drawn with probability proportional to its edge-weight product, an edge's inclusion probability is its conductance times its effective resistance.",
+      "formula": "Pr(e ∈ T) = wₑ Rₑ",
+      "level": "Intermediate",
+      "aliases": [],
+      "assumptions": [
+        "Finite, connected, undirected graph",
+        "Positive conductances"
+      ],
+      "evidence": [
+        {
+          "source": "spielman-trees",
+          "locator": "§14.6, Theorem 14.6.1"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "leverage-score",
+      "label": "Edge leverage score",
+      "kind": "concept",
+      "domains": [
+        "Computer science"
+      ],
+      "cluster": "algorithms",
+      "x": 845,
+      "y": 470,
+      "summary": "A numerical measure of an edge's role in the network.",
+      "explanation": "For these graph edges the leverage score is conductance times effective resistance. A bridge that is the only connection between two parts has score one.",
+      "formula": "ℓₑ = wₑ Rₑ",
+      "level": "Intermediate",
+      "aliases": [],
+      "assumptions": [
+        "Finite, connected, undirected graph",
+        "Positive conductances"
+      ],
+      "evidence": [
+        {
+          "source": "spielman-trees",
+          "locator": "§14.6"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "degree-matrix",
+      "label": "Degree matrix",
+      "kind": "concept",
+      "domains": [
+        "Mathematics"
+      ],
+      "cluster": "foundations",
+      "x": 232,
+      "y": 297,
+      "summary": "A diagonal matrix of weighted vertex degrees.",
+      "explanation": "Each entry is the sum of the conductances incident to that vertex. Together with adjacency, it defines the Laplacian.",
+      "formula": "Dᵤᵤ = Σᵥ wᵤᵥ",
+      "level": "Start here",
+      "aliases": [
+        "degree",
+        "diagonal"
+      ],
+      "assumptions": [
+        "Finite, connected, undirected graph",
+        "Positive conductances"
+      ],
+      "evidence": [
+        {
+          "source": "spielman-laplacian",
+          "locator": "§2.2, after equation (2.2)"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "adjacency-matrix",
+      "label": "Adjacency matrix",
+      "kind": "concept",
+      "domains": [
+        "Mathematics",
+        "Computer science"
+      ],
+      "cluster": "foundations",
+      "x": 195,
+      "y": 230,
+      "summary": "A matrix recording which vertices are connected.",
+      "explanation": "An off-diagonal entry gives the edge weight. In this undirected setting the matrix is symmetric.",
+      "formula": "Aᵤᵥ = wᵤᵥ",
+      "level": "Start here",
+      "aliases": [
+        "neighbour",
+        "neighbor",
+        "matrix"
+      ],
+      "assumptions": [
+        "Finite, connected, undirected graph",
+        "Positive conductances"
+      ],
+      "evidence": [
+        {
+          "source": "spielman-laplacian",
+          "locator": "§2.2, L = D − A"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "conductance",
+      "label": "Conductance",
+      "kind": "concept",
+      "domains": [
+        "Physics"
+      ],
+      "cluster": "physics",
+      "x": 108,
+      "y": 527,
+      "summary": "How readily an edge carries current.",
+      "explanation": "Conductance is the reciprocal of resistance. The atlas's computational lab initially uses conductance one on every edge.",
+      "formula": "w = 1/r",
+      "level": "Start here",
+      "aliases": [
+        "resistor",
+        "conductivity",
+        "edge weight"
+      ],
+      "assumptions": [
+        "Finite, connected, undirected graph",
+        "Positive conductances"
+      ],
+      "evidence": [
+        {
+          "source": "spielman-resistance",
+          "locator": "§13.3, series and parallel"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "ohms-law",
+      "label": "Ohm’s law",
+      "kind": "theorem",
+      "domains": [
+        "Physics"
+      ],
+      "cluster": "physics",
+      "x": 45,
+      "y": 445,
+      "summary": "Current through a resistor is proportional to its voltage drop.",
+      "explanation": "For an ohmic edge, conductance times voltage difference gives current. This physical assumption defines the circuit model here.",
+      "formula": "iᵤᵥ = wᵤᵥ(vᵤ − vᵥ)",
+      "level": "Start here",
+      "aliases": [
+        "voltage",
+        "current",
+        "resistor"
+      ],
+      "assumptions": [
+        "Finite, connected, undirected graph",
+        "Positive conductances"
+      ],
+      "evidence": [
+        {
+          "source": "spielman-resistance",
+          "locator": "§13.3, path example"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "harmonic-function",
+      "label": "Harmonic function on a graph",
+      "kind": "concept",
+      "domains": [
+        "Mathematics",
+        "Probability"
+      ],
+      "cluster": "foundations",
+      "x": 232,
+      "y": 163,
+      "summary": "At an interior vertex, the value equals its weighted neighbour average.",
+      "explanation": "The Laplacian is zero there. Fixed boundary values determine the interior when every relevant component reaches the boundary.",
+      "formula": "(Lx)ᵤ = 0",
+      "level": "Intermediate",
+      "aliases": [
+        "harmonic",
+        "averaging",
+        "smooth"
+      ],
+      "assumptions": [
+        "Finite undirected graph with positive conductances",
+        "Each interior component connects to a fixed boundary"
+      ],
+      "evidence": [
+        {
+          "source": "spielman-resistance",
+          "locator": "§13.1, fixed boundary voltages"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "dirichlet-problem",
+      "label": "Dirichlet boundary problem",
+      "kind": "problem",
+      "domains": [
+        "Mathematics",
+        "Physics"
+      ],
+      "cluster": "foundations",
+      "x": 320,
+      "y": 135,
+      "summary": "Find interior values from specified boundary values.",
+      "explanation": "Solve a reduced linear system. The solution also minimizes the quadratic energy subject to those same boundary values.",
+      "formula": "xₛ = −Lₛₛ⁻¹Lₛᵦxᵦ",
+      "level": "Intermediate",
+      "aliases": [
+        "boundary conditions",
+        "boundary value",
+        "interpolation"
+      ],
+      "assumptions": [
+        "Positive conductances",
+        "Nonempty boundary meeting each connected component"
+      ],
+      "evidence": [
+        {
+          "source": "spielman-resistance",
+          "locator": "§13.1, equation for S = V − B"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "random-walk",
+      "label": "Random walk on a graph",
+      "kind": "concept",
+      "domains": [
+        "Probability",
+        "Computer science"
+      ],
+      "cluster": "probability",
+      "x": 597,
+      "y": 293,
+      "summary": "A process that repeatedly moves to a neighbouring vertex.",
+      "explanation": "In the unweighted model each neighbour is equally likely. Long-run travel behaviour can be studied using the same network as an electrical circuit.",
+      "formula": "P(u → v) = 1/deg(u)",
+      "level": "Start here",
+      "aliases": [
+        "stochastic",
+        "Markov chain",
+        "walk",
+        "random"
+      ],
+      "assumptions": [
+        "Finite connected unweighted undirected graph"
+      ],
+      "evidence": [
+        {
+          "source": "chandra-commute",
+          "locator": "§1, first paragraph"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "hitting-time",
+      "label": "Expected hitting time",
+      "kind": "concept",
+      "domains": [
+        "Probability"
+      ],
+      "cluster": "probability",
+      "x": 512,
+      "y": 241,
+      "summary": "The expected steps needed to reach a specified target.",
+      "explanation": "First-step equations express the value as one step plus the average of the neighbours' values. Travel in opposite directions need not have equal expectation.",
+      "formula": "h(u) = 1 + ΣᵥPᵤᵥh(v)",
+      "level": "Intermediate",
+      "aliases": [
+        "first passage time",
+        "expected steps",
+        "travel time"
+      ],
+      "assumptions": [
+        "Finite connected unweighted undirected graph",
+        "Target is absorbing for the hitting-time calculation"
+      ],
+      "evidence": [
+        {
+          "source": "chandra-commute",
+          "locator": "§2, proof of Theorem 2.1"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "commute-time",
+      "label": "Commute time",
+      "kind": "concept",
+      "domains": [
+        "Probability"
+      ],
+      "cluster": "probability",
+      "x": 512,
+      "y": 159,
+      "summary": "Expected steps to travel from one vertex to another and back.",
+      "explanation": "It is the sum of the two directed hitting times. The resistance identity applies to this sum, not to either direction individually.",
+      "formula": "Cₛₜ = Hₛₜ + Hₜₛ",
+      "level": "Intermediate",
+      "aliases": [
+        "round trip",
+        "return journey",
+        "travel"
+      ],
+      "assumptions": [
+        "Finite connected unweighted undirected graph"
+      ],
+      "evidence": [
+        {
+          "source": "chandra-commute",
+          "locator": "§2, Theorem 2.1"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "commute-resistance",
+      "label": "Commute–resistance identity",
+      "kind": "theorem",
+      "domains": [
+        "Probability",
+        "Physics"
+      ],
+      "cluster": "probability",
+      "x": 597,
+      "y": 107,
+      "summary": "Electrical resistance determines random-walk round-trip time.",
+      "explanation": "Replace each graph edge with a unit resistor. Twice the edge count times the effective resistance gives the commute time.",
+      "formula": "Cₛₜ = 2m Rₛₜ",
+      "level": "Advanced",
+      "aliases": [
+        "electrical random walk theorem",
+        "round trip resistance"
+      ],
+      "assumptions": [
+        "Finite connected unweighted undirected graph",
+        "Unit resistance on each edge",
+        "Simple random walk"
+      ],
+      "evidence": [
+        {
+          "source": "chandra-commute",
+          "locator": "§2, Theorem 2.1 (PDF p.6)"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "hitting-probability",
+      "label": "First-hit probability",
+      "kind": "concept",
+      "domains": [
+        "Probability",
+        "Computer science"
+      ],
+      "cluster": "probability",
+      "x": 703,
+      "y": 126,
+      "summary": "The chance of reaching one labelled boundary before another.",
+      "explanation": "Unlike expected hitting time, this quantity measures a probability. In a seeded image model it supplies a label score.",
+      "formula": "p(u) = ΣᵥPᵤᵥp(v)",
+      "level": "Intermediate",
+      "aliases": [
+        "absorption probability",
+        "seed probability"
+      ],
+      "assumptions": [
+        "Positive-weight pixel graph",
+        "Specified boundary seeds"
+      ],
+      "evidence": [
+        {
+          "source": "grady-segmentation",
+          "locator": "Abstract; §§II–III"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "matrix-tree",
+      "label": "Matrix–Tree theorem",
+      "kind": "theorem",
+      "domains": [
+        "Mathematics",
+        "Computer science"
+      ],
+      "cluster": "foundations",
+      "x": 408,
+      "y": 163,
+      "summary": "Laplacian eigenvalues encode the total weight of spanning trees.",
+      "explanation": "For a connected weighted graph, the product of the nonzero Laplacian eigenvalues is n times the sum of the tree-weight products.",
+      "formula": "Πᵢ₌₂ⁿ λᵢ = n Σᵀ Πₑ∈ᵀ wₑ",
+      "level": "Advanced",
+      "aliases": [
+        "Kirchhoff theorem",
+        "count spanning trees",
+        "determinant"
+      ],
+      "assumptions": [
+        "Finite, connected, undirected graph",
+        "Positive conductances"
+      ],
+      "evidence": [
+        {
+          "source": "spielman-trees",
+          "locator": "§14.5, Theorem 14.5.1"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "resistance-distance",
+      "label": "Resistance distance",
+      "kind": "concept",
+      "domains": [
+        "Mathematics",
+        "Chemistry"
+      ],
+      "cluster": "physics",
+      "x": 107,
+      "y": 363,
+      "summary": "Effective resistance is also a distance on graph vertices.",
+      "explanation": "It satisfies the triangle inequality. A squared-Euclidean representation exists, which must not be confused with claiming resistance itself is a Euclidean norm.",
+      "formula": "R(a,c) ≤ R(a,b) + R(b,c)",
+      "level": "Advanced",
+      "aliases": [
+        "metric",
+        "distance",
+        "chemical graph distance"
+      ],
+      "assumptions": [
+        "Finite, connected, undirected graph",
+        "Positive conductances"
+      ],
+      "evidence": [
+        {
+          "source": "spielman-resistance",
+          "locator": "§13.6, Lemma 13.6.1"
+        },
+        {
+          "source": "spielman-resistance",
+          "locator": "Section 13.1, PDF p.2 (squared-Euclidean representation)"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "schur-complement",
+      "label": "Schur complement",
+      "kind": "method",
+      "domains": [
+        "Mathematics",
+        "Computer science"
+      ],
+      "cluster": "algorithms",
+      "x": 783,
+      "y": 552,
+      "summary": "Eliminate interior variables while retaining boundary behaviour.",
+      "explanation": "For a network Laplacian, the reduced matrix sends retained boundary voltages to their external currents after the interior has equilibrated.",
+      "formula": "Lᵦᵦ − LᵦₛLₛₛ⁻¹Lₛᵦ",
+      "level": "Advanced",
+      "aliases": [
+        "elimination",
+        "network reduction",
+        "boundary response"
+      ],
+      "assumptions": [
+        "Positive conductances",
+        "Interior block invertible",
+        "Interior vertices have no external current"
+      ],
+      "evidence": [
+        {
+          "source": "spielman-resistance",
+          "locator": "§13.4–13.5, PDF pp.4–7"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "vertex-elimination",
+      "label": "Vertex elimination",
+      "kind": "method",
+      "domains": [
+        "Computer science",
+        "Physics"
+      ],
+      "cluster": "algorithms",
+      "x": 658,
+      "y": 552,
+      "summary": "Replace interior network vertices by an equivalent boundary network.",
+      "explanation": "The replacement preserves the stated boundary current–voltage map. It does not preserve every internal path or every interior query.",
+      "formula": "iᵦ = L_reduced vᵦ",
+      "level": "Advanced",
+      "aliases": [
+        "Gaussian elimination",
+        "reduce circuit",
+        "equivalent networks"
+      ],
+      "assumptions": [
+        "Boundary set fixed",
+        "Interior vertices harmonic"
+      ],
+      "evidence": [
+        {
+          "source": "spielman-resistance",
+          "locator": "§13.4–13.5"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "series-parallel",
+      "label": "Series and parallel rules",
+      "kind": "method",
+      "domains": [
+        "Physics",
+        "Mathematics"
+      ],
+      "cluster": "physics",
+      "x": 233,
+      "y": 363,
+      "summary": "Simple arrangements allow direct resistance calculations.",
+      "explanation": "Resistances add along a series path; conductances add for parallel connections. General graphs require additional methods.",
+      "formula": "r_series = Σrᵢ; 1/r_parallel = Σ1/rᵢ",
+      "level": "Start here",
+      "aliases": [
+        "series",
+        "parallel",
+        "circuit simplification"
+      ],
+      "assumptions": [
+        "Resistors in the specified series or parallel configuration"
+      ],
+      "evidence": [
+        {
+          "source": "spielman-resistance",
+          "locator": "§13.3"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "resistance-sampling",
+      "label": "Resistance-based sampling",
+      "kind": "method",
+      "domains": [
+        "Computer science",
+        "Probability"
+      ],
+      "cluster": "algorithms",
+      "x": 595,
+      "y": 470,
+      "summary": "Sample edges according to their conductance times resistance.",
+      "explanation": "The sparsification algorithm samples with replacement and reweights the sampled edges. Its guarantee depends on sample count and error parameters.",
+      "formula": "pₑ ∝ wₑRₑ",
+      "level": "Advanced",
+      "aliases": [
+        "sample edges",
+        "sampling",
+        "reduce graph",
+        "graph compression"
+      ],
+      "assumptions": [
+        "Connected graph with positive weights",
+        "Specified sampling count and approximation parameter",
+        "Reweight sampled edges"
+      ],
+      "evidence": [
+        {
+          "source": "spielman-sparsification",
+          "locator": "§1.1, Sparsify(G,q); Theorem 1"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "spectral-approximation",
+      "label": "Spectral approximation",
+      "kind": "concept",
+      "domains": [
+        "Mathematics",
+        "Computer science"
+      ],
+      "cluster": "algorithms",
+      "x": 658,
+      "y": 388,
+      "summary": "Two graphs have similar energy for every vector of vertex values.",
+      "explanation": "The comparison is multiplicative and includes an error parameter. It does not require the graphs to have the same edges.",
+      "formula": "(1−ε)xᵀL_Gx ≤ xᵀL_Hx ≤ (1+ε)xᵀL_Gx",
+      "level": "Advanced",
+      "aliases": [
+        "energy preservation",
+        "approximation",
+        "quadratic form"
+      ],
+      "assumptions": [
+        "Same vertex set",
+        "Specified ε",
+        "All test vectors x"
+      ],
+      "evidence": [
+        {
+          "source": "spielman-sparsification",
+          "locator": "§1.1, definition and Theorem 1"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "spectral-sparsifier",
+      "label": "Spectral sparsifier",
+      "kind": "method",
+      "domains": [
+        "Computer science"
+      ],
+      "cluster": "algorithms",
+      "x": 783,
+      "y": 388,
+      "summary": "A weighted subgraph that approximately preserves every Laplacian quadratic form.",
+      "explanation": "The aim is to retain the energy of every vector while using a sparse set of reweighted edges. This is useful when the input is dense; strict edge reduction is not guaranteed for every input. The resistance-sampling construction has separate size, accuracy and probability conditions in the source theorem.",
+      "formula": "(1 - epsilon) x^T L_G x <= x^T L_H x <= (1 + epsilon) x^T L_G x for all x",
+      "level": "Advanced",
+      "aliases": [
+        "fast graph algorithm",
+        "sparsification",
+        "compression",
+        "sparse graph"
+      ],
+      "assumptions": [
+        "The graphs have the same vertex set",
+        "Positive edge weights; approximation is for every vector",
+        "For the cited construction, Theorem 1 imposes sufficiently large n, 1/sqrt(n) < epsilon <= 1, its specified sample count q and a probability of success at least 1/2",
+        "A sparse-edge bound does not imply fewer edges than every possible input graph"
+      ],
+      "evidence": [
+        {
+          "source": "spielman-sparsification",
+          "locator": "§1.1, Theorem 1"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "pixel-graph",
+      "label": "Pixel graph",
+      "kind": "concept",
+      "domains": [
+        "Computer science"
+      ],
+      "cluster": "applications",
+      "x": 625,
+      "y": 560,
+      "summary": "An image represented by vertices and weighted neighbour connections.",
+      "explanation": "A modelling choice turns local image relationships into graph weights. Seed labels provide boundary information for the random-walker method.",
+      "formula": "pixels → vertices; relationships → weights",
+      "level": "Start here",
+      "aliases": [
+        "image",
+        "pixels",
+        "vision"
+      ],
+      "assumptions": [
+        "An explicitly chosen image-to-graph model"
+      ],
+      "evidence": [
+        {
+          "source": "grady-segmentation",
+          "locator": "Abstract; §II"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "image-segmentation",
+      "label": "Seeded image segmentation",
+      "kind": "problem",
+      "domains": [
+        "Computer science"
+      ],
+      "cluster": "applications",
+      "x": 500,
+      "y": 655,
+      "summary": "Assign image regions using labelled seeds and random-walk probabilities.",
+      "explanation": "Each unlabelled pixel receives the label with the largest first-hit probability. The model does not remove the need to choose seeds and weights.",
+      "formula": "label(u) = argmaxₖ Pr(first seed has label k)",
+      "level": "Intermediate",
+      "aliases": [
+        "computer vision",
+        "segment image",
+        "random walker segmentation"
+      ],
+      "assumptions": [
+        "Labelled seeds",
+        "Positive graph weights",
+        "Every unlabelled component reaches a seed"
+      ],
+      "evidence": [
+        {
+          "source": "grady-segmentation",
+          "locator": "Abstract; §§II–III"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "chemical-graph-invariants",
+      "label": "Chemical graph invariants",
+      "kind": "concept",
+      "domains": [
+        "Chemistry",
+        "Mathematics"
+      ],
+      "cluster": "applications",
+      "x": 375,
+      "y": 560,
+      "summary": "Graph quantities used to describe structure in chemical graph theory.",
+      "explanation": "Resistance-based sums provide mathematical descriptors. A descriptor alone establishes no empirical relationship to a material property.",
+      "formula": "graph structure → invariant",
+      "level": "Intermediate",
+      "aliases": [
+        "molecule",
+        "molecular descriptor",
+        "chemical network"
+      ],
+      "assumptions": [
+        "A declared graph representation",
+        "No empirical prediction inferred"
+      ],
+      "evidence": [
+        {
+          "source": "klein-sum-rules",
+          "locator": "Abstract; Introduction, p.633"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "resistance-sums",
+      "label": "Resistance-distance sums",
+      "kind": "concept",
+      "domains": [
+        "Chemistry",
+        "Mathematics"
+      ],
+      "cluster": "applications",
+      "x": 500,
+      "y": 465,
+      "summary": "Combine vertex-pair resistance distances into graph invariants.",
+      "explanation": "Klein studies global and local sum rules and relationships between invariants. These connect electrical-network mathematics to chemical graph theory.",
+      "formula": "sum of selected resistance distances",
+      "level": "Advanced",
+      "aliases": [
+        "Kirchhoff index",
+        "resistance sum",
+        "molecular graph"
+      ],
+      "assumptions": [
+        "Finite, connected, undirected graph",
+        "Positive conductances"
+      ],
+      "evidence": [
+        {
+          "source": "klein-sum-rules",
+          "locator": "Abstract; Introduction, p.633"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "kemeny-constant",
+      "label": "Kemeny's constant",
+      "kind": "concept",
+      "domains": [
+        "Mathematics",
+        "Probability",
+        "Computer science"
+      ],
+      "summary": "An average of random-walk travel times to destinations weighted by their long-run fraction of visits.",
+      "explanation": "At each step choose a neighbouring vertex uniformly. Choose a destination with probability proportional to its degree. With zero steps assigned when the destination is the starting point, the expected number of steps to reach that destination is Kemeny's constant. It has the same value for every starting vertex.",
+      "formula": "K(G) = sum_j (d_j / (2m)) H_ij = d^T R d / (4m)",
+      "cluster": "probability",
+      "x": 590,
+      "y": 55,
+      "level": "Intermediate",
+      "aliases": [
+        "Kemeny constant",
+        "stationary weighted hitting time"
+      ],
+      "assumptions": [
+        "Finite connected simple undirected unweighted graph with at least two vertices",
+        "Simple random walk P = D^-1 A",
+        "H_ii = 0",
+        "Destination probabilities are recomputed when graph degrees change"
+      ],
+      "evidence": [
+        {
+          "source": "breen-kemeny-cliques",
+          "locator": "Section 2.1, hitting-time definition and Theorem 2.1; Section 2.2, graph transition matrix and resistance formula"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "kemeny-braess-set",
+      "label": "Braess set for a random walk",
+      "kind": "concept",
+      "domains": [
+        "Mathematics",
+        "Probability",
+        "Computer science"
+      ],
+      "summary": "A group of added connections that increases Kemeny's constant.",
+      "explanation": "Under the strict convention used here, a missing edge or set of missing edges is Braess when adding it makes K larger. The effect of adding edges together can differ from their individual effects. This compares a specific random-walk statistic; it does not by itself establish slower traffic, a longer shortest path, or worse performance for an application.",
+      "formula": "K(G + S) > K(G)",
+      "cluster": "probability",
+      "x": 690,
+      "y": 55,
+      "level": "Intermediate",
+      "aliases": [
+        "Braess set",
+        "joint edge addition",
+        "Braess paradox for Kemeny constant"
+      ],
+      "assumptions": [
+        "The same connected simple undirected unweighted graph model and K convention",
+        "S is a nonempty set of distinct missing edges",
+        "Strict increase; exact equality is not classified as Braess here"
+      ],
+      "evidence": [
+        {
+          "source": "faught-kemeny-braess",
+          "locator": "Definition 4.1 and the P7 example immediately after Corollary 4.3"
+        }
+      ],
+      "status": "sourced"
+    },
+    {
+      "id": "boolean-relation-matrix",
+      "label": "Boolean relation matrix",
+      "kind": "concept",
+      "domains": [
+        "Mathematics",
+        "Computer science"
+      ],
+      "cluster": "foundations",
+      "level": "Start here",
+      "summary": "A finite yes-or-no table representing which labeled row and column choices are related.",
+      "explanation": "Choose finite nonempty labeled sets X and Y. The entry A[x,y] is 1 exactly when x is related to y. For a Boolean function f, its communication matrix is M_f[x,y]=f(x,y). The all-zero table keeps the same nonempty row and column sets.",
+      "formula": "A : X x Y -> {0,1}; M_f[x,y] = f(x,y)",
+      "aliases": [
+        "binary relation",
+        "0-1 matrix",
+        "communication matrix",
+        "biadjacency matrix"
+      ],
+      "assumptions": [
+        "X and Y are finite, nonempty and labeled",
+        "Entries are exactly 0 or 1",
+        "A rectangular X-by-Y matrix is not automatically the full symmetric adjacency matrix of a graph"
+      ],
+      "evidence": [
+        {
+          "source": "javadi-local-clique",
+          "locator": "Introduction, printed p. 2, Boolean-matrix and bipartite-adjacency paragraphs"
+        }
+      ],
+      "status": "sourced",
+      "x": 100,
+      "y": 500
+    },
+    {
+      "id": "boolean-rank",
+      "label": "Boolean rank",
+      "kind": "concept",
+      "domains": [
+        "Mathematics",
+        "Computer science"
+      ],
+      "cluster": "algorithms",
+      "level": "Intermediate",
+      "summary": "The fewest Boolean rank-one factors whose OR-AND product reconstructs a binary matrix.",
+      "explanation": "A factor index chooses one set of rows and one set of columns. Its 1-entries form a rectangle. Boolean OR combines the rectangles, so overlap on a 1-cell is allowed.",
+      "formula": "r_B(A) = min { k : A[x,y] = OR_l (U[x,l] AND V[l,y]) }",
+      "aliases": [
+        "Boolean matrix factorization",
+        "OR-AND rank",
+        "binary matrix factorization"
+      ],
+      "assumptions": [
+        "Boolean OR-AND arithmetic",
+        "Factor dimension k may be zero",
+        "The empty disjunction is defined as 0"
+      ],
+      "evidence": [
+        {
+          "source": "javadi-local-clique",
+          "locator": "Introduction, printed p. 2, Boolean-rank paragraph"
+        }
+      ],
+      "status": "sourced",
+      "x": 200,
+      "y": 500
+    },
+    {
+      "id": "one-support-rectangle-cover",
+      "label": "1-support rectangle cover",
+      "kind": "concept",
+      "domains": [
+        "Mathematics",
+        "Computer science"
+      ],
+      "cluster": "algorithms",
+      "level": "Start here",
+      "summary": "Cover every 1-cell of a binary matrix by all-one row-by-column blocks.",
+      "explanation": "A rectangle S x T selects some rows and some columns. It is usable only when every selected cell is 1. A cover reaches every 1-cell; rectangles may overlap. The subscript in rc_1 names the cell value being covered, not a one-witness restriction.",
+      "formula": "rc_1(A) = minimum number of all-one rectangles covering supp_1(A)",
+      "aliases": [
+        "rectangle cover",
+        "1-rectangle cover",
+        "unrestricted rectangle cover",
+        "kappa(A)"
+      ],
+      "assumptions": [
+        "X and Y are finite and nonempty",
+        "Rectangles contain no zero cell",
+        "Arbitrary overlap on 1-cells is allowed",
+        "The empty family covers empty 1-support"
+      ],
+      "evidence": [
+        {
+          "source": "javadi-local-clique",
+          "locator": "Introduction, printed p. 2"
+        },
+        {
+          "source": "karchmer-few-witnesses",
+          "locator": "Section 2.1, printed p. 3, unrestricted kappa"
+        }
+      ],
+      "status": "sourced",
+      "x": 300,
+      "y": 500
+    },
+    {
+      "id": "fixed-bipartition-biclique-cover",
+      "label": "Fixed-side biclique cover",
+      "kind": "concept",
+      "domains": [
+        "Mathematics",
+        "Computer science"
+      ],
+      "cluster": "algorithms",
+      "level": "Start here",
+      "summary": "Cover a bipartite graph's edges by complete bipartite subgraphs that respect its fixed labeled sides.",
+      "explanation": "Keep the disjoint sides X and Y fixed. A biclique with sides S subset X and T subset Y contains exactly the edges represented by the rectangle S x T in the X-by-Y biadjacency matrix.",
+      "formula": "bc(G) = minimum number of bicliques covering E(G)",
+      "aliases": [
+        "biclique edge cover",
+        "bipartite dimension",
+        "complete bipartite cover"
+      ],
+      "assumptions": [
+        "Finite simple bipartite graph",
+        "Fixed labeled nonempty sides X and Y",
+        "Use the X-by-Y biadjacency matrix, not the full symmetric adjacency matrix",
+        "The empty family covers an edgeless graph"
+      ],
+      "evidence": [
+        {
+          "source": "javadi-local-clique",
+          "locator": "Introduction, printed p. 2, biclique-cover and biadjacency paragraphs"
+        }
+      ],
+      "status": "sourced",
+      "x": 400,
+      "y": 500
+    },
+    {
+      "id": "nondeterministic-communication-s2",
+      "label": "Nondeterministic communication depth",
+      "kind": "concept",
+      "domains": [
+        "Computer science",
+        "Mathematics"
+      ],
+      "cluster": "algorithms",
+      "level": "Intermediate",
+      "summary": "Worst-case accepting protocol depth under the precise Karchmer-Newman-Saks-Wigderson convention.",
+      "explanation": "One party has x and the other has y. An accepting branch identifies an all-one rectangle containing (x,y). N^1_S2 is Atlas notation for the source's n(f), measured by maximum leaf depth. It is not deterministic communication complexity and gives no privacy or implementation-latency guarantee.",
+      "formula": "N^1_S2(f) = ceil(log_2(max(1, rc_1(M_f))))",
+      "aliases": [
+        "nondeterministic communication complexity",
+        "yes-certificate communication",
+        "n(f)"
+      ],
+      "assumptions": [
+        "Finite nonempty input sets X and Y",
+        "M_f[x,y]=f(x,y)",
+        "S2 maximum-leaf-depth protocol convention",
+        "Accept exactly the 1-inputs",
+        "The displayed all-zero totalization is an Atlas convention"
+      ],
+      "evidence": [
+        {
+          "source": "karchmer-few-witnesses",
+          "locator": "Sections 2.2-2.3, printed pp. 4-5; Proposition 3 and proof for nonempty 1-support"
+        }
+      ],
+      "status": "sourced",
+      "x": 500,
+      "y": 500
+    },
+    {
+      "id": "local-boolean-rank",
+      "label": "Local Boolean rank",
+      "kind": "concept",
+      "domains": [
+        "Mathematics",
+        "Computer science"
+      ],
+      "cluster": "algorithms",
+      "level": "Advanced",
+      "summary": "Minimize the largest number of selected rectangles containing any one row or column.",
+      "explanation": "This changes the objective from the total number of rectangles to the heaviest row-or-column participation. It does not count how many rectangles overlap on one matrix cell.",
+      "formula": "lr_B(A) = min_C max over rows and columns of rectangle incidence in C",
+      "aliases": [
+        "local rank",
+        "local rectangle-cover load",
+        "row-column incidence"
+      ],
+      "assumptions": [
+        "Unrestricted all-one rectangle covers",
+        "Incidence is measured per row or column",
+        "X and Y are nonempty so the maximum is defined",
+        "The empty cover gives load zero on empty support"
+      ],
+      "evidence": [
+        {
+          "source": "javadi-local-clique",
+          "locator": "Introduction, printed pp. 2-3, local Boolean-rank definition"
+        }
+      ],
+      "status": "sourced",
+      "x": 600,
+      "y": 500
+    },
+    {
+      "id": "local-biclique-cover",
+      "label": "Local biclique cover number",
+      "kind": "concept",
+      "domains": [
+        "Mathematics",
+        "Computer science"
+      ],
+      "cluster": "algorithms",
+      "level": "Advanced",
+      "summary": "Minimize the largest number of selected covering bicliques containing any one vertex.",
+      "explanation": "This is a vertex-load objective for a biclique edge cover. It is distinct from the total number of bicliques and from the number of witnesses covering an individual edge.",
+      "formula": "lbc(G) = min_C max_v number of bicliques in C containing v",
+      "aliases": [
+        "local biclique covering",
+        "vertex biclique load",
+        "local biclique cover"
+      ],
+      "assumptions": [
+        "Finite simple graph with fixed labeled nonempty bipartition",
+        "Incidence is measured per vertex",
+        "The empty cover gives every vertex load zero in an edgeless graph"
+      ],
+      "evidence": [
+        {
+          "source": "javadi-local-clique",
+          "locator": "Introduction, printed pp. 2-3, local biclique-cover definition"
+        }
+      ],
+      "status": "sourced",
+      "x": 700,
+      "y": 500
+    }
+  ],
+  "edges": [
+    {
+      "id": "r1",
+      "from": "weighted-graph",
+      "to": "laplacian",
+      "type": "defines",
+      "statement": "The edge weights define the combinatorial Laplacian.",
+      "assumptions": [
+        "Finite, connected, undirected graph with positive conductances"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-laplacian",
+          "locator": "§2.2, equations (2.1)–(2.3)"
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "from": "laplacian",
+      "to": "energy",
+      "type": "has_quadratic_form",
+      "statement": "The Laplacian quadratic form sums weighted squared differences.",
+      "assumptions": [
+        "Finite, connected, undirected graph with positive conductances"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-laplacian",
+          "locator": "§2.2, equations (2.1)–(2.3)"
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "from": "laplacian",
+      "to": "electrical-flow",
+      "type": "models",
+      "statement": "The Laplacian expresses current balance for voltage-driven flows.",
+      "assumptions": [
+        "Finite, connected, undirected graph with positive conductances"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-resistance",
+          "locator": "Section 13.1, PDF p.1 (unit external current and potentials)"
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "from": "electrical-flow",
+      "to": "effective-resistance",
+      "type": "defines",
+      "statement": "A unit current's voltage drop defines effective resistance.",
+      "assumptions": [
+        "Finite, connected, undirected graph with positive conductances"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-resistance",
+          "locator": "Section 13.1, PDF p.1 (unit external current and potentials)"
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "from": "effective-resistance",
+      "to": "edge-probability",
+      "type": "relates_by_theorem",
+      "statement": "For an existing edge, multiply its effective resistance by its conductance to get its tree-inclusion probability.",
+      "assumptions": [
+        "Finite, connected, undirected graph with positive conductances"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-trees",
+          "locator": "§14.6, Theorem 14.6.1"
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "from": "spanning-tree",
+      "to": "edge-probability",
+      "type": "defines",
+      "statement": "Sample a spanning tree with probability proportional to its edge-weight product.",
+      "assumptions": [
+        "Finite, connected, undirected graph with positive conductances"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-trees",
+          "locator": "§14.6, Theorem 14.6.1"
+        }
+      ]
+    },
+    {
+      "id": "r7",
+      "from": "edge-probability",
+      "to": "leverage-score",
+      "type": "equals_under_assumptions",
+      "statement": "The edge inclusion probability equals the edge leverage score.",
+      "assumptions": [
+        "Finite, connected, undirected graph with positive conductances"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-trees",
+          "locator": "§14.6, Theorem 14.6.1"
+        }
+      ]
+    },
+    {
+      "id": "r8",
+      "from": "energy",
+      "to": "effective-resistance",
+      "type": "characterizes",
+      "statement": "Effective resistance is the minimum dissipation among unit flows.",
+      "assumptions": [
+        "Finite, connected, undirected graph with positive conductances"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-trees",
+          "locator": "§14.2"
+        }
+      ]
+    },
+    {
+      "id": "r9",
+      "from": "adjacency-matrix",
+      "to": "laplacian",
+      "type": "defines",
+      "statement": "Subtract weighted adjacency from the degree matrix to obtain L.",
+      "assumptions": [
+        "Finite, connected, undirected graph with positive conductances"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-laplacian",
+          "locator": "§2.2"
+        }
+      ]
+    },
+    {
+      "id": "r10",
+      "from": "degree-matrix",
+      "to": "laplacian",
+      "type": "defines",
+      "statement": "The diagonal degree matrix is one part of L = D − A.",
+      "assumptions": [
+        "Finite, connected, undirected graph with positive conductances"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-laplacian",
+          "locator": "§2.2"
+        }
+      ]
+    },
+    {
+      "id": "r11",
+      "from": "weighted-graph",
+      "to": "adjacency-matrix",
+      "type": "represented_by",
+      "statement": "The weighted connections supply the adjacency entries.",
+      "assumptions": [
+        "Finite, connected, undirected graph with positive conductances"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-laplacian",
+          "locator": "§2.2"
+        }
+      ]
+    },
+    {
+      "id": "r12",
+      "from": "conductance",
+      "to": "weighted-graph",
+      "type": "supplies_weights",
+      "statement": "Treat conductances as the graph's positive edge weights.",
+      "assumptions": [
+        "Finite, connected, undirected graph with positive conductances"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-resistance",
+          "locator": "§13.3"
+        }
+      ]
+    },
+    {
+      "id": "r13",
+      "from": "ohms-law",
+      "to": "electrical-flow",
+      "type": "models",
+      "statement": "Ohmic edge currents depend linearly on voltage differences.",
+      "assumptions": [
+        "Ohmic resistors",
+        "Positive conductances"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-resistance",
+          "locator": "§13.1 and §13.3"
+        }
+      ]
+    },
+    {
+      "id": "r14",
+      "from": "conductance",
+      "to": "ohms-law",
+      "type": "parameterizes",
+      "statement": "Conductance is the proportionality coefficient for an ohmic edge.",
+      "assumptions": [
+        "Ohmic resistors"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-resistance",
+          "locator": "§13.3"
+        }
+      ]
+    },
+    {
+      "id": "r15",
+      "from": "laplacian",
+      "to": "harmonic-function",
+      "type": "characterizes",
+      "statement": "A vector is harmonic at the interior vertices where its Laplacian vanishes.",
+      "assumptions": [
+        "Finite, connected, undirected graph with positive conductances"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-resistance",
+          "locator": "§13.1"
+        }
+      ]
+    },
+    {
+      "id": "r16",
+      "from": "harmonic-function",
+      "to": "dirichlet-problem",
+      "type": "solves",
+      "statement": "The harmonic extension satisfies the prescribed boundary values.",
+      "assumptions": [
+        "Boundary reaches each connected component",
+        "Positive conductances"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-resistance",
+          "locator": "§13.1"
+        }
+      ]
+    },
+    {
+      "id": "r17",
+      "from": "dirichlet-problem",
+      "to": "energy",
+      "type": "minimizes",
+      "statement": "The Dirichlet solution minimizes this energy subject to the fixed boundary values.",
+      "assumptions": [
+        "Fixed boundary values",
+        "Interior block invertible"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-resistance",
+          "locator": "§13.1"
+        }
+      ]
+    },
+    {
+      "id": "r18",
+      "from": "dirichlet-problem",
+      "to": "electrical-flow",
+      "type": "models",
+      "statement": "Fixed boundary voltages give harmonic interior voltages in the corresponding circuit.",
+      "assumptions": [
+        "Interior vertices have no external current"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-resistance",
+          "locator": "§13.1"
+        }
+      ]
+    },
+    {
+      "id": "r19",
+      "from": "random-walk",
+      "to": "hitting-time",
+      "type": "defines",
+      "statement": "A walk's expected time to a target is a hitting time.",
+      "assumptions": [
+        "Finite connected unweighted undirected graph"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "chandra-commute",
+          "locator": "§1 and §2"
+        }
+      ]
+    },
+    {
+      "id": "r20",
+      "from": "hitting-time",
+      "to": "commute-time",
+      "type": "combines",
+      "statement": "Add the forward and backward hitting times to obtain the commute time.",
+      "assumptions": [
+        "Same pair of vertices in the same random walk"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "chandra-commute",
+          "locator": "§2, Theorem 2.1"
+        }
+      ]
+    },
+    {
+      "id": "r21",
+      "from": "commute-time",
+      "to": "commute-resistance",
+      "type": "relates_by_theorem",
+      "statement": "The round-trip expectation is the left side of C = 2mR.",
+      "assumptions": [
+        "Unweighted undirected connected graph",
+        "Simple random walk"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "chandra-commute",
+          "locator": "§2, Theorem 2.1"
+        }
+      ]
+    },
+    {
+      "id": "r22",
+      "from": "effective-resistance",
+      "to": "commute-resistance",
+      "type": "relates_by_theorem",
+      "statement": "Unit-resistor effective resistance determines the round-trip expectation after multiplication by 2m.",
+      "assumptions": [
+        "Unweighted undirected connected graph",
+        "Unit edge resistances"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "chandra-commute",
+          "locator": "§2, Theorem 2.1"
+        }
+      ]
+    },
+    {
+      "id": "r23",
+      "from": "random-walk",
+      "to": "hitting-probability",
+      "type": "defines",
+      "statement": "First-hit probabilities describe which seed set is reached first.",
+      "assumptions": [
+        "Specified absorbing seed sets",
+        "Chosen positive-weight graph"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "grady-segmentation",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "id": "r24",
+      "from": "hitting-probability",
+      "to": "harmonic-function",
+      "type": "characterized_by",
+      "statement": "The random-walker segmentation formulation uses a discrete potential problem for seed probabilities.",
+      "assumptions": [
+        "Seeded image graph",
+        "Boundary values encode the seed labels"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "grady-segmentation",
+          "locator": "Abstract; §§II–III"
+        }
+      ]
+    },
+    {
+      "id": "r25",
+      "from": "pixel-graph",
+      "to": "image-segmentation",
+      "type": "models",
+      "statement": "The seeded image is represented as a weighted graph for the random-walker method.",
+      "assumptions": [
+        "Declared image-to-graph weights and seeds"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "grady-segmentation",
+          "locator": "Abstract; §II"
+        }
+      ]
+    },
+    {
+      "id": "r26",
+      "from": "hitting-probability",
+      "to": "image-segmentation",
+      "type": "used_by",
+      "statement": "Choose the label with the greatest first-seed probability.",
+      "assumptions": [
+        "Labelled seeds",
+        "No claim of universal segmentation accuracy"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "grady-segmentation",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "id": "r27",
+      "from": "dirichlet-problem",
+      "to": "image-segmentation",
+      "type": "used_by",
+      "statement": "The method solves a combinatorial Dirichlet problem to obtain the seed probabilities.",
+      "assumptions": [
+        "Seeded positive-weight image graph"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "grady-segmentation",
+          "locator": "Abstract; §§II–III"
+        }
+      ]
+    },
+    {
+      "id": "r28",
+      "from": "laplacian",
+      "to": "matrix-tree",
+      "type": "relates_by_theorem",
+      "statement": "Laplacian eigenvalues determine the total spanning-tree weight.",
+      "assumptions": [
+        "Finite, connected, undirected graph with positive conductances"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-trees",
+          "locator": "§14.5, Theorem 14.5.1"
+        }
+      ]
+    },
+    {
+      "id": "r29",
+      "from": "spanning-tree",
+      "to": "matrix-tree",
+      "type": "counted_by",
+      "statement": "With unit edge weights the theorem counts spanning trees.",
+      "assumptions": [
+        "Connected unweighted graph"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-trees",
+          "locator": "§14.5, Theorem 14.5.1"
+        }
+      ]
+    },
+    {
+      "id": "r30",
+      "from": "effective-resistance",
+      "to": "resistance-distance",
+      "type": "is_interpreted_as",
+      "statement": "Effective resistance satisfies graph-distance axioms under these assumptions.",
+      "assumptions": [
+        "Finite, connected, undirected graph with positive conductances"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-resistance",
+          "locator": "§13.6"
+        }
+      ]
+    },
+    {
+      "id": "r31",
+      "from": "effective-resistance",
+      "to": "series-parallel",
+      "type": "computed_by",
+      "statement": "The stated series or parallel arrangements admit these closed-form calculations.",
+      "assumptions": [
+        "Series path or parallel resistors"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-resistance",
+          "locator": "§13.3"
+        }
+      ]
+    },
+    {
+      "id": "r32",
+      "from": "laplacian",
+      "to": "schur-complement",
+      "type": "reduced_by",
+      "statement": "Partition the Laplacian into retained boundary and eliminated interior blocks.",
+      "assumptions": [
+        "Invertible interior block",
+        "Fixed retained boundary"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-resistance",
+          "locator": "§13.4–13.5"
+        }
+      ]
+    },
+    {
+      "id": "r33",
+      "from": "schur-complement",
+      "to": "vertex-elimination",
+      "type": "implements",
+      "statement": "The Schur complement gives the boundary current–voltage map after eliminating harmonic interior variables.",
+      "assumptions": [
+        "No external current at eliminated vertices"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-resistance",
+          "locator": "§13.4–13.5"
+        }
+      ]
+    },
+    {
+      "id": "r34",
+      "from": "vertex-elimination",
+      "to": "electrical-flow",
+      "type": "preserves_boundary_response",
+      "statement": "The reduced network preserves external current as a function of retained boundary voltage.",
+      "assumptions": [
+        "Only the specified boundary response is preserved"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-resistance",
+          "locator": "§13.5"
+        }
+      ]
+    },
+    {
+      "id": "r35",
+      "from": "leverage-score",
+      "to": "resistance-sampling",
+      "type": "used_by",
+      "statement": "Sampling probabilities are proportional to conductance times effective resistance.",
+      "assumptions": [
+        "Positive edge weights",
+        "Normalize sampling probabilities"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-sparsification",
+          "locator": "§1.1, Sparsify(G,q)"
+        }
+      ]
+    },
+    {
+      "id": "r36",
+      "from": "resistance-sampling",
+      "to": "spectral-sparsifier",
+      "type": "constructs",
+      "statement": "Sampling with replacement and reweighting constructs a spectral approximation under the theorem's parameter conditions.",
+      "assumptions": [
+        "Sample count and ε follow Theorem 1",
+        "Approximate, randomized guarantee"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-sparsification",
+          "locator": "§1.1, Theorem 1"
+        }
+      ]
+    },
+    {
+      "id": "r37",
+      "from": "spectral-sparsifier",
+      "to": "spectral-approximation",
+      "type": "satisfies",
+      "statement": "The weighted subgraph approximately preserves all Laplacian energies.",
+      "assumptions": [
+        "Same vertices",
+        "The stated ε and probability guarantee"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-sparsification",
+          "locator": "§1.1, Theorem 1"
+        }
+      ]
+    },
+    {
+      "id": "r38",
+      "from": "spectral-approximation",
+      "to": "energy",
+      "type": "compares",
+      "statement": "Spectral approximation bounds the energy of every vertex-value vector.",
+      "assumptions": [
+        "Specified ε",
+        "Same vertex set"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "spielman-sparsification",
+          "locator": "§1.1, equation (1)"
+        }
+      ]
+    },
+    {
+      "id": "r39",
+      "from": "resistance-distance",
+      "to": "resistance-sums",
+      "type": "aggregated_by",
+      "statement": "Sum rules combine resistance distances into graph invariants.",
+      "assumptions": [
+        "Finite, connected, undirected graph with positive conductances"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "klein-sum-rules",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "id": "r40",
+      "from": "resistance-sums",
+      "to": "chemical-graph-invariants",
+      "type": "used_by",
+      "statement": "Resistance-based invariants form a connection with chemical graph theory.",
+      "assumptions": [
+        "Mathematical graph descriptor",
+        "No empirical chemical-property guarantee"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "klein-sum-rules",
+          "locator": "Abstract; Introduction"
+        }
+      ]
+    },
+    {
+      "from": "random-walk",
+      "to": "kemeny-constant",
+      "type": "defines_statistic",
+      "statement": "The simple random walk defines Kemeny's constant through its expected hitting times.",
+      "id": "kemeny-r1",
+      "assumptions": [
+        "Finite connected simple undirected unweighted graph with at least two vertices",
+        "Simple random walk P = D^-1 A",
+        "H_ii = 0",
+        "Destination probabilities are recomputed when graph degrees change"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "breen-kemeny-cliques",
+          "locator": "Sections 2.1 and 2.2"
+        }
+      ]
+    },
+    {
+      "from": "hitting-time",
+      "to": "kemeny-constant",
+      "type": "weighted_average",
+      "statement": "A stationary-distribution-weighted average of hitting times is independent of the starting vertex. The hitting time from a vertex to itself is zero in this convention.",
+      "id": "kemeny-r2",
+      "assumptions": [
+        "Finite connected simple undirected unweighted graph with at least two vertices",
+        "Simple random walk P = D^-1 A",
+        "H_ii = 0",
+        "Destination probabilities are recomputed when graph degrees change"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "breen-kemeny-cliques",
+          "locator": "Sections 2.1 and 2.2"
+        }
+      ]
+    },
+    {
+      "from": "effective-resistance",
+      "to": "kemeny-constant",
+      "type": "exact_formula",
+      "statement": "For the stated graph model, electrical effective resistances and vertex degrees determine K exactly by d^T R d/(4m).",
+      "id": "kemeny-r3",
+      "assumptions": [
+        "Finite connected simple undirected unweighted graph with at least two vertices",
+        "Simple random walk P = D^-1 A",
+        "H_ii = 0",
+        "Destination probabilities are recomputed when graph degrees change"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "faught-kemeny-braess",
+          "locator": "Lemma 1.1"
+        }
+      ]
+    },
+    {
+      "from": "kemeny-constant",
+      "to": "kemeny-braess-set",
+      "type": "defines_change_condition",
+      "statement": "A strict increase of K after adding an edge set defines a Braess set under the pinned convention.",
+      "id": "kemeny-r4",
+      "assumptions": [
+        "The same connected simple undirected unweighted graph model and K convention",
+        "S is a nonempty set of distinct missing edges",
+        "Strict increase; exact equality is not classified as Braess here"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "faught-kemeny-braess",
+          "locator": "Definition 4.1"
+        }
+      ]
+    },
+    {
+      "id": "boolean-rank-r1",
+      "from": "boolean-rank",
+      "to": "one-support-rectangle-cover",
+      "type": "equals_under_translation",
+      "statement": "For the stated Boolean conventions, r_B(A)=rc_1(A).",
+      "assumptions": [
+        "Finite nonempty labeled X and Y",
+        "A:X x Y->{0,1}",
+        "Boolean OR-AND factors",
+        "Unrestricted overlapping all-one rectangle cover",
+        "k=0 and empty OR are allowed"
+      ],
+      "source_scope": "Javadi, Maleki and Omoomi supports the factor/rectangle correspondence. It does not separately supply the Atlas empty-support normalization.",
+      "witness_translation": {
+        "forward": "For each factor index l, take S_l={x:U[x,l]=1} and T_l={y:V[l,y]=1}. Its support S_l x T_l contains no zero of A, and the union covers every 1-cell; omit empty factors.",
+        "reverse": "For each chosen all-one rectangle S_l x T_l, use the indicator of S_l as a factor column and the indicator of T_l as a factor row. Their Boolean OR-AND product reconstructs A.",
+        "result": "A factorization with k factors gives a cover with at most k rectangles after empty factors are omitted, while a cover with t rectangles gives a factorization with exactly t factors. The two inequalities make the minima equal."
+      },
+      "local_boundary_case": {
+        "case": "A is all-zero on the still nonempty X and Y",
+        "adopted_conventions": [
+          "Allow factor dimension k=0",
+          "Define the empty disjunction as 0",
+          "Allow the empty rectangle family"
+        ],
+        "argument": "The empty Boolean product reconstructs zero and the empty family covers empty support; nonnegative objectives make both minima zero.",
+        "result": "r_B(A)=rc_1(A)=0",
+        "evidence_basis": "atlas_local_definition_and_proof"
+      },
+      "notation_boundaries": [
+        "rc_1 names the covered cell value and maps to S2 kappa(A)",
+        "It is not S2 kappa_1(A), which restricts each 1-cell to at most one covering rectangle"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "javadi-local-clique",
+          "locator": "Introduction, printed p. 2, Boolean-rank/all-one-submatrix correspondence"
+        }
+      ],
+      "curation_record": {
+        "id": "R1",
+        "artifact": "evidence/boolean-rank/source-review/corrected-records-v1.json",
+        "artifact_sha256": "0ba1c19b75b0b37fcd29214d3ad5565aca747481aba779084e23367b0a110fd2",
+        "independent_review": "evidence/boolean-rank/source-review/correction-review.json",
+        "independent_review_sha256": "13bff50ecbd050f359a7948996197e9b09a12c5a5305fedb4aa40804cefcbad0"
+      }
+    },
+    {
+      "id": "boolean-rank-r2",
+      "from": "one-support-rectangle-cover",
+      "to": "fixed-bipartition-biclique-cover",
+      "type": "equals_under_translation",
+      "statement": "For a graph with its fixed labeled bipartition, rc_1(A_G)=bc(G).",
+      "assumptions": [
+        "Finite simple bipartite G",
+        "Fixed labeled nonempty sides X and Y",
+        "A_G is the X-by-Y biadjacency matrix",
+        "Bicliques respect the fixed sides"
+      ],
+      "source_scope": "Javadi, Maleki and Omoomi supports the rectangle/biclique correspondence. The empty-cover normalization is stated separately by the Atlas.",
+      "witness_translation": {
+        "forward": "An all-one rectangle S x T gives the biclique with sides S subset X and T subset Y.",
+        "reverse": "A covering biclique with sides S subset X and T subset Y gives the all-one rectangle S x T in A_G.",
+        "result": "Matrix cells and graph edges correspond one-to-one, preserving cover cardinality in both directions."
+      },
+      "local_boundary_case": {
+        "case": "G is edgeless on the fixed nonempty sides",
+        "adopted_conventions": [
+          "Allow the empty rectangle family",
+          "Allow the empty biclique-cover family"
+        ],
+        "argument": "Both empty families cover the empty target set; nonnegative cardinalities make both minima zero.",
+        "result": "rc_1(A_G)=bc(G)=0",
+        "evidence_basis": "atlas_local_definition_and_proof"
+      },
+      "notation_boundaries": [
+        "Use the rectangular biadjacency matrix A_G, not the full symmetric adjacency matrix",
+        "The bipartition is part of the data and may not be changed during translation"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "javadi-local-clique",
+          "locator": "Introduction, printed p. 2, rectangle-biclique correspondence"
+        }
+      ],
+      "curation_record": {
+        "id": "R2",
+        "artifact": "evidence/boolean-rank/source-review/corrected-records-v1.json",
+        "artifact_sha256": "0ba1c19b75b0b37fcd29214d3ad5565aca747481aba779084e23367b0a110fd2",
+        "independent_review": "evidence/boolean-rank/source-review/correction-review.json",
+        "independent_review_sha256": "13bff50ecbd050f359a7948996197e9b09a12c5a5305fedb4aa40804cefcbad0"
+      }
+    },
+    {
+      "id": "boolean-rank-r3",
+      "from": "one-support-rectangle-cover",
+      "to": "nondeterministic-communication-s2",
+      "type": "exact_formula_under_protocol_convention",
+      "statement": "For nonzero f, N^1_S2(f)=ceil(log_2 rc_1(M_f)); with the separately defined Atlas zero case, N^1_S2(f)=ceil(log_2(max(1,rc_1(M_f)))).",
+      "assumptions": [
+        "Finite nonempty X and Y",
+        "M_f[x,y]=f(x,y)",
+        "S2 maximum-leaf-depth nondeterministic protocol convention",
+        "Accepting-side unrestricted rectangle covers",
+        "For the cited formula, f has at least one 1-input"
+      ],
+      "source_scope": "Karchmer, Newman, Saks and Wigderson Proposition 3 and its proof support the nonempty-1-support formula after the explicit notation mapping. The printed logarithm does not resolve rc_1=0.",
+      "witness_translation": {
+        "forward": "Given t>=1 covering rectangles, the first party nondeterministically names a row-compatible rectangle using ceil(log_2 t) bits and the second party checks column membership.",
+        "reverse": "Accepting leaves of a depth-h binary protocol are all-one rectangles covering every 1-input; there are at most 2^h leaves.",
+        "result": "The two inequalities give the ceiling-log equality for nonempty 1-support under the S2 protocol convention."
+      },
+      "local_boundary_case": {
+        "case": "f is all-zero",
+        "adopted_conventions": [
+          "Set rc_1(M_f)=0 using the empty cover",
+          "Use a depth-zero constant-reject protocol and set N^1_S2(f)=0"
+        ],
+        "argument": "There are no 1-inputs to accept, so constant rejection is sound and complete; depths are nonnegative.",
+        "result": "The local totalization equals ceil(log_2(max(1,0)))=0",
+        "evidence_basis": "atlas_local_definition_and_proof"
+      },
+      "notation_boundaries": [
+        "N^1_S2 is Atlas notation for S2 n(f)",
+        "It is not S2 n_1(f), which restricts witness multiplicity",
+        "rc_1 is S2 unrestricted kappa, not kappa_1",
+        "This is not deterministic communication complexity",
+        "N^0_S2(f):=N^1_S2(1-f) is an Atlas complement-side definition if later displayed"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "karchmer-few-witnesses",
+          "locator": "Sections 2.1-2.3, printed pp. 3-5; Proposition 3 and proof"
+        }
+      ],
+      "curation_record": {
+        "id": "R3",
+        "artifact": "evidence/boolean-rank/source-review/corrected-records-v1.json",
+        "artifact_sha256": "0ba1c19b75b0b37fcd29214d3ad5565aca747481aba779084e23367b0a110fd2",
+        "independent_review": "evidence/boolean-rank/source-review/correction-review.json",
+        "independent_review_sha256": "13bff50ecbd050f359a7948996197e9b09a12c5a5305fedb4aa40804cefcbad0"
+      }
+    },
+    {
+      "id": "boolean-rank-r4",
+      "from": "local-boolean-rank",
+      "to": "local-biclique-cover",
+      "type": "equals_under_translation",
+      "statement": "For a graph with its fixed labeled bipartition, lr_B(A_G)=lbc(G).",
+      "assumptions": [
+        "Same fixed labeled nonempty bipartition as R2",
+        "Objective is maximum rectangle incidence per row or column",
+        "Graph objective is maximum biclique incidence per vertex",
+        "Neither objective is per-cell or per-edge witness multiplicity"
+      ],
+      "source_scope": "Javadi, Maleki and Omoomi defines the two local-incidence objectives and states their equality. Its text does not separately supply the Atlas empty-cover convention.",
+      "witness_translation": {
+        "forward": "Translate every selected rectangle S x T to the corresponding fixed-side biclique. A row or column belongs to exactly the bicliques containing its corresponding graph vertex.",
+        "reverse": "Translate each selected fixed-side biclique back to its all-one rectangle; every vertex incidence becomes the corresponding row or column incidence.",
+        "result": "Every cover retains the same maximum incidence objective, so the minima agree."
+      },
+      "local_boundary_case": {
+        "case": "A_G has empty support and G is edgeless on nonempty X and Y",
+        "adopted_conventions": [
+          "Allow empty rectangle and biclique-cover families",
+          "Assign load zero to every row, column and vertex"
+        ],
+        "argument": "The maximum over the still nonempty index or vertex sets is defined and equals zero; nonnegative loads make it minimal.",
+        "result": "lr_B(A_G)=lbc(G)=0",
+        "evidence_basis": "atlas_local_definition_and_proof"
+      },
+      "notation_boundaries": [
+        "Local means maximum participation per row, column or vertex",
+        "It is not the number of rectangles covering an individual 1-cell and is not S2 bounded witness multiplicity"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "javadi-local-clique",
+          "locator": "Introduction, printed pp. 2-3, local Boolean-rank and local biclique-cover paragraphs"
+        }
+      ],
+      "curation_record": {
+        "id": "R4",
+        "artifact": "evidence/boolean-rank/source-review/corrected-records-v1.json",
+        "artifact_sha256": "0ba1c19b75b0b37fcd29214d3ad5565aca747481aba779084e23367b0a110fd2",
+        "independent_review": "evidence/boolean-rank/source-review/correction-review.json",
+        "independent_review_sha256": "13bff50ecbd050f359a7948996197e9b09a12c5a5305fedb4aa40804cefcbad0"
+      }
+    },
+    {
+      "id": "boolean-matrix-cover-definition",
+      "from": "boolean-relation-matrix",
+      "to": "one-support-rectangle-cover",
+      "type": "defines_parameter",
+      "statement": "The positions of the 1-cells determine which all-one rectangles are available and what must be covered.",
+      "assumptions": [
+        "Finite nonempty labeled X and Y",
+        "A has entries in {0,1}"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "javadi-local-clique",
+          "locator": "Introduction, printed p. 2"
+        },
+        {
+          "source": "karchmer-few-witnesses",
+          "locator": "Section 2.1, printed p. 3"
+        }
+      ]
+    },
+    {
+      "id": "rectangle-cover-local-objective",
+      "from": "one-support-rectangle-cover",
+      "to": "local-boolean-rank",
+      "type": "changes_objective",
+      "statement": "Local Boolean rank minimizes the worst row-or-column participation over the same kind of all-one rectangle covers, rather than the total number of rectangles.",
+      "assumptions": [
+        "Incidence is per row or column",
+        "Arbitrary 1-cell overlap remains allowed"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "javadi-local-clique",
+          "locator": "Introduction, printed pp. 2-3"
+        }
+      ]
+    },
+    {
+      "id": "biclique-cover-local-objective",
+      "from": "fixed-bipartition-biclique-cover",
+      "to": "local-biclique-cover",
+      "type": "changes_objective",
+      "statement": "Local biclique cover number minimizes worst vertex participation over biclique edge covers, rather than the total number of bicliques.",
+      "assumptions": [
+        "Fixed labeled bipartition",
+        "Incidence is per vertex"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "javadi-local-clique",
+          "locator": "Introduction, printed pp. 2-3"
+        }
+      ]
+    },
+    {
+      "id": "biadjacency-versus-adjacency",
+      "from": "boolean-relation-matrix",
+      "to": "adjacency-matrix",
+      "type": "distinguishes_representation",
+      "statement": "The X-by-Y Boolean relation or biadjacency matrix used in R2 may be rectangular; the existing network node uses a square symmetric full-graph adjacency matrix.",
+      "assumptions": [
+        "For the biadjacency reading, a fixed labeled bipartition X disjoint-union Y is retained",
+        "No equality between the two matrix objects is asserted"
+      ],
+      "status": "established",
+      "evidence": [
+        {
+          "source": "javadi-local-clique",
+          "locator": "Introduction, printed p. 2, bipartite adjacency matrix"
+        },
+        {
+          "source": "spielman-laplacian",
+          "locator": "Section 2.2, L=D-A and symmetric weighted adjacency convention"
+        }
+      ]
+    }
+  ],
+  "journeys": [
+    {
+      "id": "triangle",
+      "title": "From a network to a surprising probability",
+      "description": "Start with vertices and edges, then follow the circuit interpretation into spanning trees.",
+      "steps": [
+        {
+          "node": "weighted-graph",
+          "prompt": "What are the vertices and edges in a triangle?"
+        },
+        {
+          "node": "conductance",
+          "prompt": "Give each connection the same conductance."
+        },
+        {
+          "node": "laplacian",
+          "prompt": "See how the network becomes a matrix."
+        },
+        {
+          "node": "electrical-flow",
+          "prompt": "Imagine one unit of current entering and leaving."
+        },
+        {
+          "node": "effective-resistance",
+          "prompt": "Measure the voltage needed."
+        },
+        {
+          "node": "edge-probability",
+          "prompt": "Use the same quantity to understand random spanning trees. Try the triangle in the lab."
+        }
+      ]
+    },
+    {
+      "id": "algorithm",
+      "title": "From circuit physics to graph algorithms",
+      "description": "Follow the quantity that helps decide which edges to sample.",
+      "steps": [
+        {
+          "node": "effective-resistance",
+          "prompt": "How does the rest of the network affect an edge's resistance?"
+        },
+        {
+          "node": "leverage-score",
+          "prompt": "Multiply by conductance to obtain the edge score."
+        },
+        {
+          "node": "resistance-sampling",
+          "prompt": "Turn these scores into sampling probabilities."
+        },
+        {
+          "node": "spectral-approximation",
+          "prompt": "Specify the property and error that must be preserved."
+        },
+        {
+          "node": "spectral-sparsifier",
+          "prompt": "Read the construction's assumptions before transferring it to a task."
+        }
+      ]
+    },
+    {
+      "id": "vision",
+      "title": "From random walks to an image method",
+      "description": "Understand how seeded probabilities connect to a boundary-value problem.",
+      "steps": [
+        {
+          "node": "random-walk",
+          "prompt": "Imagine moving between neighbouring pixels."
+        },
+        {
+          "node": "hitting-probability",
+          "prompt": "Which labelled seed will be reached first?"
+        },
+        {
+          "node": "harmonic-function",
+          "prompt": "Why does each interior probability average neighbouring values?"
+        },
+        {
+          "node": "dirichlet-problem",
+          "prompt": "Treat the seed values as fixed boundary conditions."
+        },
+        {
+          "node": "image-segmentation",
+          "prompt": "Inspect what the model needs and what it does not guarantee."
+        }
+      ]
+    },
+    {
+      "id": "kemeny-networks",
+      "title": "When adding connections changes a random walk",
+      "description": "Follow a random-walk statistic into an electrical calculation, then examine how groups of added edges can interact.",
+      "steps": [
+        {
+          "node": "random-walk",
+          "prompt": "At each step, choose one neighbour uniformly."
+        },
+        {
+          "node": "hitting-time",
+          "prompt": "Count the expected steps to reach a destination."
+        },
+        {
+          "node": "kemeny-constant",
+          "prompt": "Average over destinations using degree weights, with zero time to the starting vertex."
+        },
+        {
+          "node": "effective-resistance",
+          "prompt": "Use the electrical formula to compute that same average exactly."
+        },
+        {
+          "node": "kemeny-braess-set",
+          "prompt": "Compare individual edge additions with their joint effect. Check the model assumptions before interpreting a larger value."
+        }
+      ]
+    },
+    {
+      "id": "boolean-table-to-certificate",
+      "title": "From a yes/no table to a communication certificate",
+      "description": "Follow the same collection of yes-pairs through rectangles, Boolean factors, fixed-side bicliques and one precise nondeterministic communication model.",
+      "steps": [
+        {
+          "node": "boolean-relation-matrix",
+          "prompt": "Start with a public yes/no table f(x,y). Which labeled pairs are accepted?"
+        },
+        {
+          "node": "one-support-rectangle-cover",
+          "prompt": "Group accepted pairs into row-by-column blocks that contain no rejected pair."
+        },
+        {
+          "node": "boolean-rank",
+          "prompt": "Read each block as one Boolean factor; overlap on accepted cells is allowed."
+        },
+        {
+          "node": "fixed-bipartition-biclique-cover",
+          "prompt": "Keep X and Y fixed and read the same blocks as complete bipartite subgraphs."
+        },
+        {
+          "node": "nondeterministic-communication-s2",
+          "prompt": "If one machine knows x and another knows y, how many bits of branch depth identify a compatible block under the S2 model? Check the all-zero convention and what this does not say about deterministic cost, privacy, latency or deployed systems."
+        }
+      ]
+    },
+    {
+      "id": "total-cover-to-local-load",
+      "title": "From total cover size to participant load",
+      "description": "Compare minimizing the number of covering objects with minimizing how many objects touch any one row, column or vertex.",
+      "steps": [
+        {
+          "node": "one-support-rectangle-cover",
+          "prompt": "First count the total number of rectangles."
+        },
+        {
+          "node": "local-boolean-rank",
+          "prompt": "Now change the objective to the busiest row or column, not the busiest cell."
+        },
+        {
+          "node": "local-biclique-cover",
+          "prompt": "Translate that row-or-column load to vertex participation while keeping the bipartition fixed."
+        }
+      ]
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "weighted-engine",
+      "title": "Extend the exact lab to weighted graphs",
+      "kind": "implementation",
+      "difficulty": "Intermediate",
+      "description": "Add positive rational conductances while preserving exact arithmetic. The broader theorem is known; the current engine covers unit weights.",
+      "acceptance": [
+        "State the weighted random-walk convention and commute factor.",
+        "Compare weighted tree-product enumeration with wₑRₑ.",
+        "Reject zero, negative and ambiguous edge weights."
+      ],
+      "nodes": [
+        "conductance",
+        "commute-resistance",
+        "edge-probability"
+      ],
+      "status": "ready"
+    },
+    {
+      "id": "lean-bridge",
+      "title": "Formalize a finite bridge in Lean",
+      "kind": "formalization",
+      "difficulty": "Advanced",
+      "description": "Connect a precise graph/circuit statement to a machine-checked proof. This is a formalization task for established mathematics.",
+      "acceptance": [
+        "Locate existing mathlib definitions and record the pinned version.",
+        "State all hypotheses and prove the result without placeholders.",
+        "Run an independent proof and statement review."
+      ],
+      "nodes": [
+        "effective-resistance",
+        "edge-probability"
+      ],
+      "status": "ready"
+    },
+    {
+      "id": "biology-source",
+      "title": "Ground a connection to a biological model",
+      "kind": "source review",
+      "difficulty": "Intermediate",
+      "description": "Find a primary biological-model paper that uses a compatible graph operator, and state what its modelling assumptions permit.",
+      "acceptance": [
+        "Provide the primary source and exact supporting section.",
+        "Specify what vertices, weights and boundary values mean.",
+        "Keep model equivalence separate from biological validity."
+      ],
+      "nodes": [
+        "laplacian",
+        "dirichlet-problem"
+      ],
+      "status": "needs source"
+    },
+    {
+      "id": "beginner-example",
+      "title": "Add an explanation a beginner can test",
+      "kind": "education",
+      "difficulty": "Start here",
+      "description": "Explain one existing connection through a small graph and a checkable calculation.",
+      "acceptance": [
+        "Use an in-scope example with a reproducible exact result.",
+        "Explain symbols and assumptions in plain language.",
+        "Have another reader reproduce it and suggest corrections."
+      ],
+      "nodes": [
+        "weighted-graph",
+        "series-parallel"
+      ],
+      "status": "ready"
+    },
+    {
+      "id": "boundary-counterexample",
+      "title": "Find where a proposed transfer breaks",
+      "kind": "counterexample",
+      "difficulty": "Intermediate",
+      "description": "Construct a small example showing why a stated hypothesis matters. A failed transfer can be a useful contribution.",
+      "acceptance": [
+        "Identify the hypothesis being removed.",
+        "Retain the input and an independent calculation.",
+        "Describe the limited conclusion without declaring an entire field unsolved."
+      ],
+      "nodes": [
+        "commute-resistance",
+        "spectral-approximation"
+      ],
+      "status": "ready"
+    },
+    {
+      "id": "choose-network-objective",
+      "title": "Choose the network measure that fits the application",
+      "kind": "Human modelling judgment",
+      "difficulty": "Intermediate",
+      "description": "Does a random walk with degree-weighted destinations represent the application you care about? Adding edges changes both the walk and those destination weights, so a mathematical increase in K needs interpretation before it supports a practical decision.",
+      "acceptance": [
+        "State the transition rule and how destinations are chosen.",
+        "Explain whether destination weights should change when edges are added.",
+        "State what an increase in the chosen statistic would mean for the application, and what it would not establish."
+      ],
+      "nodes": [
+        "random-walk",
+        "hitting-time",
+        "kemeny-constant",
+        "kemeny-braess-set"
+      ],
+      "status": "Modelling task; not an asserted open theorem"
+    }
+  ],
+  "examples": [
+    {
+      "id": "single-edge",
+      "kind": "example",
+      "fixture": "single-edge",
+      "artifact": "fixtures/frozen.json",
+      "status": "finite-computation",
+      "concepts": [
+        "effective-resistance",
+        "commute-resistance",
+        "edge-probability"
+      ]
+    },
+    {
+      "id": "triangle",
+      "kind": "example",
+      "fixture": "triangle",
+      "artifact": "fixtures/frozen.json",
+      "status": "finite-computation",
+      "concepts": [
+        "effective-resistance",
+        "commute-resistance",
+        "edge-probability"
+      ]
+    },
+    {
+      "id": "cycle4",
+      "kind": "example",
+      "fixture": "cycle4",
+      "artifact": "fixtures/frozen.json",
+      "status": "finite-computation",
+      "concepts": [
+        "effective-resistance",
+        "commute-resistance",
+        "edge-probability"
+      ]
+    },
+    {
+      "id": "complete4",
+      "kind": "example",
+      "fixture": "complete4",
+      "artifact": "fixtures/frozen.json",
+      "status": "finite-computation",
+      "concepts": [
+        "effective-resistance",
+        "commute-resistance",
+        "edge-probability"
+      ]
+    },
+    {
+      "id": "triangle-leaf",
+      "kind": "example",
+      "fixture": "triangle-leaf",
+      "artifact": "fixtures/frozen.json",
+      "status": "finite-computation",
+      "concepts": [
+        "effective-resistance",
+        "commute-resistance",
+        "edge-probability"
+      ]
+    },
+    {
+      "id": "nonedge-path",
+      "kind": "example",
+      "fixture": "nonedge-path",
+      "artifact": "fixtures/frozen.json",
+      "status": "finite-computation",
+      "concepts": [
+        "effective-resistance",
+        "commute-resistance",
+        "edge-probability"
+      ]
+    },
+    {
+      "id": "cycle6",
+      "kind": "example",
+      "fixture": "cycle6",
+      "artifact": "fixtures/frozen.json",
+      "status": "finite-computation",
+      "concepts": [
+        "effective-resistance",
+        "commute-resistance",
+        "edge-probability"
+      ]
+    }
+  ]
+}

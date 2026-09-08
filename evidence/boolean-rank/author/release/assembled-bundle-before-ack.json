@@ -1,0 +1,2026 @@
+{
+  "schema_version": "1.0",
+  "run_id": "boolean-rank-integration-v1",
+  "objective": "Integrate source-admitted Boolean rank, rectangle, fixed-side biclique and communication translations into the curated Atlas with inspectable witnesses and conventions.",
+  "created_at": "2026-09-08T11:26:38.166967Z",
+  "task_spec_artifact_id": "A008",
+  "evaluator_command": "node scripts/check-boolean-rank.mjs --output work/boolean-rank-functional.json",
+  "artifacts": [
+    {
+      "id": "A001",
+      "kind": "report",
+      "path": "README.md",
+      "sha256": "08867d1901b27cf4f04f7c398107a6692886809881cd26b518040f3194d4c7dd",
+      "producer": "/root"
+    },
+    {
+      "id": "A002",
+      "kind": "code",
+      "path": "app/api/atlas/route.ts",
+      "sha256": "a287d62290ccc2d31a8d6247ea5fa7bc33a57b4c83fafd4930c2ca0dc6929fc1",
+      "producer": "/root"
+    },
+    {
+      "id": "A003",
+      "kind": "code",
+      "path": "app/page.tsx",
+      "sha256": "c3a477de17d3f8daf3a445d5927d8102337a9af9693b420e4a8271d0ce898ba1",
+      "producer": "/root"
+    },
+    {
+      "id": "A004",
+      "kind": "code",
+      "path": "components/atlas-map.tsx",
+      "sha256": "74e78cdb347cbe361e52bf19e917414e4a4eef6dbbb6bb6024e3efe181b1c101",
+      "producer": "/root"
+    },
+    {
+      "id": "A005",
+      "kind": "code",
+      "path": "components/ui/native-select.tsx",
+      "sha256": "3aafb74b98c039dae4eb2c64c47ec6f5d61fdc888c057de47550346f702f434b",
+      "producer": "/root"
+    },
+    {
+      "id": "A006",
+      "kind": "report",
+      "path": "data/atlas.json",
+      "sha256": "2176614bbaea3a075245a1ee12d1085ae8ccb2507189b655285397d91c306e25",
+      "producer": "/root"
+    },
+    {
+      "id": "A007",
+      "kind": "report",
+      "path": "docs/boolean-rank-bridge.md",
+      "sha256": "5aa6c883f6aa6371702dc371df349d8a1d70edd9b604e77f0915a9f9bf80817a",
+      "producer": "/root"
+    },
+    {
+      "id": "A008",
+      "kind": "spec",
+      "path": "docs/boolean-rank-contract.md",
+      "sha256": "a302711e12faa6526456d92a42707f94c55ff421c7afabe58f925133c071dcda",
+      "producer": "/root"
+    },
+    {
+      "id": "A009",
+      "kind": "report",
+      "path": "docs/coverage.md",
+      "sha256": "c454047430c02d05ba7ee86ae343ebfed923359a181515473db8be4c40dbb356",
+      "producer": "/root"
+    },
+    {
+      "id": "A010",
+      "kind": "report",
+      "path": "docs/data-model.md",
+      "sha256": "81ca409d76a4af674fef8d45ac567e716737938827202accb52fa97e4da68688",
+      "producer": "/root"
+    },
+    {
+      "id": "A011",
+      "kind": "report",
+      "path": "docs/reuse-decision.md",
+      "sha256": "b827eca9ef5e200d13fcb786733533a111972901183023ae9e95cf7c0dc87ccd",
+      "producer": "/root"
+    },
+    {
+      "id": "A012",
+      "kind": "code",
+      "path": "evidence/boolean-rank/author/assemble_author_evidence.py",
+      "sha256": "c4ea730b4264a4d642747ef979437dff971590a80746b08b176202f895968a7e",
+      "producer": "/root"
+    },
+    {
+      "id": "A013",
+      "kind": "report",
+      "path": "evidence/boolean-rank/author/assembly-record.json",
+      "sha256": "2dfa21b1268cd95904d64911b223cb513e123cae8222d09feceb36a61e4f8c00",
+      "producer": "/root"
+    },
+    {
+      "id": "A014",
+      "kind": "code",
+      "path": "evidence/boolean-rank/author/check_http.py",
+      "sha256": "282bcd3534ff946b97da7c82c2b88298fb859ba3566d36418e9fc2ce124ce9d0",
+      "producer": "/root"
+    },
+    {
+      "id": "A015",
+      "kind": "report",
+      "path": "evidence/boolean-rank/author/claims-draft.json",
+      "sha256": "fc5ca9b2870f7eb2a0cec8dde21d7716820260ca3a6aa32f965eb43b6d214b99",
+      "producer": "/root"
+    },
+    {
+      "id": "A016",
+      "kind": "report",
+      "path": "evidence/boolean-rank/author/contract-v1.md",
+      "sha256": "a302711e12faa6526456d92a42707f94c55ff421c7afabe58f925133c071dcda",
+      "producer": "/root"
+    },
+    {
+      "id": "A017",
+      "kind": "code",
+      "path": "evidence/boolean-rank/author/freeze_implementation.py",
+      "sha256": "962bad527cdf97297cbb0a7b4488cf3c7cbc1f6211179af5f87fca84f8177e5d",
+      "producer": "/root"
+    },
+    {
+      "id": "A018",
+      "kind": "report",
+      "path": "evidence/boolean-rank/author/history/attempt-01/README.md",
+      "sha256": "bbbce4562b77b8545994030d1eab25d0f2278441cf79699119c9d78348e419b1",
+      "producer": "/root"
+    },
+    {
+      "id": "A019",
+      "kind": "report",
+      "path": "evidence/boolean-rank/author/history/attempt-01/atlas.json",
+      "sha256": "2fdc4cffd6d7b7e37bd083ad498e87b1c54c73fd9ad81af6e0fdc68a58b3da33",
+      "producer": "/root"
+    },
+    {
+      "id": "A020",
+      "kind": "code",
+      "path": "evidence/boolean-rank/author/history/attempt-01/check_http.py",
+      "sha256": "df02040fb06b3e8f02876550fe16f9a329d11a0a5ca742b0f75dc3905ccecaf6",
+      "producer": "/root"
+    },
+    {
+      "id": "A021",
+      "kind": "code",
+      "path": "evidence/boolean-rank/author/history/attempt-01/integrate_data.py",
+      "sha256": "fd39b11518b1a91fd0b2dfb63ebf45f637a20f9e22af63a8ce6c14fa13bbf59f",
+      "producer": "/root"
+    },
+    {
+      "id": "A022",
+      "kind": "report",
+      "path": "evidence/boolean-rank/author/history/attempt-01/integration-projection.json",
+      "sha256": "5ad8db0cb61a6152f8fe3db48bfe537bb43d6bcee0acc155f505299b689602a7",
+      "producer": "/root"
+    },
+    {
+      "id": "A023",
+      "kind": "report",
+      "path": "evidence/boolean-rank/author/implementation-freeze-v1.json",
+      "sha256": "e2b9dbdf70ebcead51807960101e0248c4be93846444f564b90903144b2052f1",
+      "producer": "/root"
+    },
+    {
+      "id": "A024",
+      "kind": "report",
+      "path": "evidence/boolean-rank/author/implementation-freeze-v2.json",
+      "sha256": "391aa34b932aa37c4ccb45e2b9ee589ba3eaec38540c15f9d43b9581c420f7f6",
+      "producer": "/root"
+    },
+    {
+      "id": "A025",
+      "kind": "code",
+      "path": "evidence/boolean-rank/author/integrate_data.py",
+      "sha256": "fd39b11518b1a91fd0b2dfb63ebf45f637a20f9e22af63a8ce6c14fa13bbf59f",
+      "producer": "/root"
+    },
+    {
+      "id": "A026",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-build-01.json",
+      "sha256": "61705d077d697307d67c7a23de0dfccb5fb83fa4fb71b068749e1eae79ac65e9",
+      "producer": "/root"
+    },
+    {
+      "id": "A027",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-build-01.stderr.bin",
+      "sha256": "729d8972b51de5e2457a45b53681f0065959be096264bf3ccc0a93db9432920d",
+      "producer": "/root"
+    },
+    {
+      "id": "A028",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-build-01.stdout.bin",
+      "sha256": "39462aa99a78e31c73d0693e2aee14cddad90958fa3d66922b5c188735b4b9d1",
+      "producer": "/root"
+    },
+    {
+      "id": "A029",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-corpus-tests-02.json",
+      "sha256": "9348599e0ff293bcf9e7314c6f6ab71460d85fcd273a175e0a141d4dbd216ed8",
+      "producer": "/root"
+    },
+    {
+      "id": "A030",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-corpus-tests-02.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A031",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-corpus-tests-02.stdout.bin",
+      "sha256": "f784d91362c0bfcb642f7917353fa043b3ad1079a3c7f7c342048066ba34c5f1",
+      "producer": "/root"
+    },
+    {
+      "id": "A032",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-freeze-01.json",
+      "sha256": "f8bf739bccf4fcc2e3535189b9ac9a7d319ae1951e21505a11a7eebf690e252f",
+      "producer": "/root"
+    },
+    {
+      "id": "A033",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-freeze-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A034",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-freeze-01.stdout.bin",
+      "sha256": "309d08b9442dc49ff863436cf7c19fa5b845338f80988d0849f386e565718aaf",
+      "producer": "/root"
+    },
+    {
+      "id": "A035",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-functional-01.json",
+      "sha256": "3d42f3500a796ce92bb11c33c8faafd0bad2d04777dda7a892c9703cff4819b0",
+      "producer": "/root"
+    },
+    {
+      "id": "A036",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-functional-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A037",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-functional-01.stdout.bin",
+      "sha256": "13d40391635b61be04918d4d20e177236df8e1cc4d1c985808ff4a26900cdd27",
+      "producer": "/root"
+    },
+    {
+      "id": "A038",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-http-01.json",
+      "sha256": "64e64a0f6b83ff03e1aa49bb4dce594005f60195e660bcfac3d8341fc3db99d4",
+      "producer": "/root"
+    },
+    {
+      "id": "A039",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-http-01.stderr.bin",
+      "sha256": "9c35d304befe8eab47a19b28331eb37f615a02442e0d051f755c8d3118c0ca0e",
+      "producer": "/root"
+    },
+    {
+      "id": "A040",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-http-01.stdout.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A041",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-http-02.json",
+      "sha256": "f738001f3f0a1609be11f01ebe56a062ad0b6cffe22edd44b8631174c605d6ef",
+      "producer": "/root"
+    },
+    {
+      "id": "A042",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-http-02.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A043",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-http-02.stdout.bin",
+      "sha256": "9bea9c6db9faf3847a87346a60b1d568e8a27efff91f0bc1a4a26b7d556c7faa",
+      "producer": "/root"
+    },
+    {
+      "id": "A044",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-integrate-01.json",
+      "sha256": "887c58385ed367d4f2540b9e45aad03e6879441b1308806b50f7e2f92ee4edad",
+      "producer": "/root"
+    },
+    {
+      "id": "A045",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-integrate-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A046",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-integrate-01.stdout.bin",
+      "sha256": "d643c9ba4738b150b321750f705708427bcd1fa8091b20e7015fc95572f6a744",
+      "producer": "/root"
+    },
+    {
+      "id": "A047",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-lint-01.json",
+      "sha256": "887e05029aad46ef9d30bd84be0921582f22c9645ca7b0b8f58dd893f4c719ed",
+      "producer": "/root"
+    },
+    {
+      "id": "A048",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-lint-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A049",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-lint-01.stdout.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A050",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-navigation-01.json",
+      "sha256": "252eb24d2b018dfe1eb79861711656b1c60a483e27a740a1ca841c091fb25752",
+      "producer": "/root"
+    },
+    {
+      "id": "A051",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-navigation-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A052",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-navigation-01.stdout.bin",
+      "sha256": "3784199aff384a85aff41df2566c1c7f485c574b93629dac09670ca87d1bcb3c",
+      "producer": "/root"
+    },
+    {
+      "id": "A053",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-newlines-01.json",
+      "sha256": "46f152e4d5585ab1d18a9c6c1a089beaf3a7493b170ee3cfd190b43d6a5570e6",
+      "producer": "/root"
+    },
+    {
+      "id": "A054",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-newlines-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A055",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-newlines-01.stdout.bin",
+      "sha256": "407e5e482e1150087da6541c64cb240cd626d7da2617cb98c7615415aa41fd94",
+      "producer": "/root"
+    },
+    {
+      "id": "A056",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-pytest-01.json",
+      "sha256": "4b1b2ec4b22a27818191429d1cd25b93c00805c09cbda09ca89f4e76991ecbe4",
+      "producer": "/root"
+    },
+    {
+      "id": "A057",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-pytest-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A058",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-pytest-01.stdout.bin",
+      "sha256": "3f056be2f475a462dd894d13045e23b57e13ff741a699ddb8c494da4d8c9bb70",
+      "producer": "/root"
+    },
+    {
+      "id": "A059",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-types-01.json",
+      "sha256": "896a14d6fb4403c6cb7a827df7c78f003c1bec9cbd2870afa3af00ad3ab71ae5",
+      "producer": "/root"
+    },
+    {
+      "id": "A060",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-types-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A061",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-types-01.stdout.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A062",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-validate-01.json",
+      "sha256": "2b21933cddbe51c80ec78d06dfa8367a5fd24829f8d1b5edb734ffd15555e55b",
+      "producer": "/root"
+    },
+    {
+      "id": "A063",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-validate-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A064",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-validate-01.stdout.bin",
+      "sha256": "923f6be0ad2fdea6581b2d01e1f70d8393d95c369598c628a5ca58aca814868e",
+      "producer": "/root"
+    },
+    {
+      "id": "A065",
+      "kind": "report",
+      "path": "evidence/boolean-rank/author/newline-correction.json",
+      "sha256": "6f84f9c0679b7f7dd9b9ee0533255401dfe5f75b4d6adad683d5c1aecd2bbf36",
+      "producer": "/root"
+    },
+    {
+      "id": "A066",
+      "kind": "code",
+      "path": "evidence/boolean-rank/author/normalize_generated_files.py",
+      "sha256": "9276156668562bba4bb207d6c13a492836ee76c5e1c3b344030a40a846a24aa4",
+      "producer": "/root"
+    },
+    {
+      "id": "A067",
+      "kind": "result",
+      "path": "evidence/boolean-rank/author/results/functional-01-rendered.json",
+      "sha256": "754a84d00d52fdd3d0b9ebae840aae2c4475c12668d7eaba465a00745a1ac838",
+      "producer": "/root"
+    },
+    {
+      "id": "A068",
+      "kind": "result",
+      "path": "evidence/boolean-rank/author/results/functional-01.json",
+      "sha256": "13d40391635b61be04918d4d20e177236df8e1cc4d1c985808ff4a26900cdd27",
+      "producer": "/root"
+    },
+    {
+      "id": "A069",
+      "kind": "result",
+      "path": "evidence/boolean-rank/author/results/http-02-api.json",
+      "sha256": "2e929620db00ec9b327b16dad1334afd89da266044b07836ebf2c2dce448157d",
+      "producer": "/root"
+    },
+    {
+      "id": "A070",
+      "kind": "result",
+      "path": "evidence/boolean-rank/author/results/http-02.json",
+      "sha256": "50f79c8248237e01efd455f97f11d95bfd9945f24915f43d1270c89ffe1dcd68",
+      "producer": "/root"
+    },
+    {
+      "id": "A071",
+      "kind": "result",
+      "path": "evidence/boolean-rank/author/results/navigation-01.json",
+      "sha256": "3784199aff384a85aff41df2566c1c7f485c574b93629dac09670ca87d1bcb3c",
+      "producer": "/root"
+    },
+    {
+      "id": "A072",
+      "kind": "result",
+      "path": "evidence/boolean-rank/author/results/validation-01.json",
+      "sha256": "923f6be0ad2fdea6581b2d01e1f70d8393d95c369598c628a5ca58aca814868e",
+      "producer": "/root"
+    },
+    {
+      "id": "A073",
+      "kind": "report",
+      "path": "evidence/boolean-rank/design/assessment.md",
+      "sha256": "3dfd0b838edaa087c607bae4f11da4b0072ee0ec1b8fdc0adfe2af712263cb1a",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A074",
+      "kind": "report",
+      "path": "evidence/boolean-rank/design/consumer-inventory.json",
+      "sha256": "cbea42001daedd44b0b144f2d1ca84a03ae0e0859ed7f5c694ffbd206c340e22",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A075",
+      "kind": "report",
+      "path": "evidence/boolean-rank/design/design-validation-attempt01.json",
+      "sha256": "cc34ff44359506b9aadb47a68b0cd523a32d2fb5112b6273ba08fa79bf3f3c6a",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A076",
+      "kind": "report",
+      "path": "evidence/boolean-rank/design/design-validation-attempt02.json",
+      "sha256": "2a1b238126d85c74c6492021ef5063c28f2a03d2105fe2bdd0c63c99e870c613",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A077",
+      "kind": "report",
+      "path": "evidence/boolean-rank/design/design-validation.json",
+      "sha256": "4403da72c0cfeb1f8044bbb2d8a3d741c6f87abc2cdceac9cd12f9f778de4121",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A078",
+      "kind": "code",
+      "path": "evidence/boolean-rank/design/freeze_packet.py",
+      "sha256": "024a30cd3e9fc9535624e52d0301e895f2340fa3121a37cfacaf545af58cecd9",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A079",
+      "kind": "report",
+      "path": "evidence/boolean-rank/design/input-drift.json",
+      "sha256": "ea6a2324929af1d0f0776b218fff11f02ba63c2f21df08040a6887a14f254ae3",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A080",
+      "kind": "report",
+      "path": "evidence/boolean-rank/design/integration-design.json",
+      "sha256": "9f4cf1d0549ac691b01ec195f033a49884258246e1611293085c898dc0b55ea2",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A081",
+      "kind": "log",
+      "path": "evidence/boolean-rank/design/logs/validation/attempt-design-validation-01.json",
+      "sha256": "61230ba9e2302c833e4d31aa76fdedf1eda5f9b7c3c3ceb99d7577f5fa7b4bfd",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A082",
+      "kind": "log",
+      "path": "evidence/boolean-rank/design/logs/validation/attempt-design-validation-01.stderr.bin",
+      "sha256": "dd7241fb9634d51d4b90a8782d9a26dd3fe2ada28ad873374b2d9b28b76827ef",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A083",
+      "kind": "log",
+      "path": "evidence/boolean-rank/design/logs/validation/attempt-design-validation-01.stdout.bin",
+      "sha256": "cc34ff44359506b9aadb47a68b0cd523a32d2fb5112b6273ba08fa79bf3f3c6a",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A084",
+      "kind": "log",
+      "path": "evidence/boolean-rank/design/logs/validation/attempt-design-validation-02.json",
+      "sha256": "737b0f79a806aa17270da10896db7417e7baa71b1672253f411ec03a00b48cd2",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A085",
+      "kind": "log",
+      "path": "evidence/boolean-rank/design/logs/validation/attempt-design-validation-02.stderr.bin",
+      "sha256": "dd7241fb9634d51d4b90a8782d9a26dd3fe2ada28ad873374b2d9b28b76827ef",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A086",
+      "kind": "log",
+      "path": "evidence/boolean-rank/design/logs/validation/attempt-design-validation-02.stdout.bin",
+      "sha256": "2a1b238126d85c74c6492021ef5063c28f2a03d2105fe2bdd0c63c99e870c613",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A087",
+      "kind": "log",
+      "path": "evidence/boolean-rank/design/logs/validation/attempt-design-validation-03.json",
+      "sha256": "50319701de30a90bbe758c3836fcef0c4276869f2a18584dd8df308d73442dd5",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A088",
+      "kind": "log",
+      "path": "evidence/boolean-rank/design/logs/validation/attempt-design-validation-03.stderr.bin",
+      "sha256": "dd7241fb9634d51d4b90a8782d9a26dd3fe2ada28ad873374b2d9b28b76827ef",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A089",
+      "kind": "log",
+      "path": "evidence/boolean-rank/design/logs/validation/attempt-design-validation-03.stdout.bin",
+      "sha256": "4403da72c0cfeb1f8044bbb2d8a3d741c6f87abc2cdceac9cd12f9f778de4121",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A090",
+      "kind": "log",
+      "path": "evidence/boolean-rank/design/logs/validation/attempts.jsonl",
+      "sha256": "2c6b39d6258c99ae6b906378f9f98be0460d5fe66c4f3df78062881743c661fa",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A091",
+      "kind": "report",
+      "path": "evidence/boolean-rank/design/publication-manifest.json",
+      "sha256": "92af0789482d416b51785f96ff2fd492243720e3cfa977724c195a40e944830b",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A092",
+      "kind": "code",
+      "path": "evidence/boolean-rank/design/run_logged.py",
+      "sha256": "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A093",
+      "kind": "report",
+      "path": "evidence/boolean-rank/design/status-sanity.json",
+      "sha256": "34021bd57da3d9782fb829a78c386e7c6ac206d57dd7d91a0ed520cade38c3b3",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A094",
+      "kind": "code",
+      "path": "evidence/boolean-rank/design/validate_design.py",
+      "sha256": "7ca66ff1b2daf74e8c650cd68c01c4a9a108d12f347e37fa032d56ef9e7af0a6",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A095",
+      "kind": "report",
+      "path": "evidence/boolean-rank/integration-projection.json",
+      "sha256": "df9ae45c6af00afab7148e7efda358e80c4976a12bd78e476493e3b04ac3ae35",
+      "producer": "/root"
+    },
+    {
+      "id": "A096",
+      "kind": "source",
+      "path": "evidence/boolean-rank/source-review/corrected-records-v1.json",
+      "sha256": "0ba1c19b75b0b37fcd29214d3ad5565aca747481aba779084e23367b0a110fd2",
+      "producer": "/root"
+    },
+    {
+      "id": "A097",
+      "kind": "report",
+      "path": "evidence/boolean-rank/source-review/correction-review.json",
+      "sha256": "13bff50ecbd050f359a7948996197e9b09a12c5a5305fedb4aa40804cefcbad0",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A098",
+      "kind": "source",
+      "path": "evidence/boolean-rank/source-review/source-assessment.json",
+      "sha256": "aa983aa245fe272a2f392e22e79d81179fd18687a2e36bdf6d37d55b4447dd6f",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A099",
+      "kind": "code",
+      "path": "lib/atlas.ts",
+      "sha256": "7cefe5ab0640fdfb0c988ae488cee564168141d0d8a60852d1c3646122caab4b",
+      "producer": "/root"
+    },
+    {
+      "id": "A100",
+      "kind": "code",
+      "path": "lib/use-atlas-tools.ts",
+      "sha256": "04cc7a2700f225cab9d1884931f4e416433951bb20d60248bb5af06400873dca",
+      "producer": "/root"
+    },
+    {
+      "id": "A101",
+      "kind": "code",
+      "path": "lib/utils.ts",
+      "sha256": "9304a861c8673bee09e0f12de31773abbde503b02e59dfd74763ddec2e37cf05",
+      "producer": "/root"
+    },
+    {
+      "id": "A102",
+      "kind": "report",
+      "path": "package-lock.json",
+      "sha256": "59f2697b0a268b4b20033bab4a8ba156ec21d7bd709350482264061509ec56f7",
+      "producer": "/root"
+    },
+    {
+      "id": "A103",
+      "kind": "report",
+      "path": "package.json",
+      "sha256": "4995cbbd54b3038468bb9393a0413ffcd6927ce1a040c53e23544c7ec71f68dd",
+      "producer": "/root"
+    },
+    {
+      "id": "A104",
+      "kind": "report",
+      "path": "pyproject.toml",
+      "sha256": "546f4ce267864644b6abe78daeae2ea255bc80dafe087e9952b51cd26eb8c81c",
+      "producer": "/root"
+    },
+    {
+      "id": "A105",
+      "kind": "test",
+      "path": "scripts/check-atlas.ts",
+      "sha256": "0210c6dbdf11941fb6e613d29313e2f3342829ac470772d0e98f36643d3be49c",
+      "producer": "/root"
+    },
+    {
+      "id": "A106",
+      "kind": "test",
+      "path": "scripts/check-boolean-rank.mjs",
+      "sha256": "6856aa8ad98c384e360d32345b9ba62574865f215582cdf2d403f58bb8e0bf11",
+      "producer": "/root"
+    },
+    {
+      "id": "A107",
+      "kind": "code",
+      "path": "scripts/validate_atlas.py",
+      "sha256": "ed6d3f74ec355a22b3957ce8ab412a523d212137e64fe506563841bc708b7384",
+      "producer": "/root"
+    },
+    {
+      "id": "A108",
+      "kind": "test",
+      "path": "tests/test_corpus_validation.py",
+      "sha256": "7df20d98979bdee609cd546eb7498b0422f069ae5155e5b8b91400e27a71f003",
+      "producer": "/root"
+    },
+    {
+      "id": "A109",
+      "kind": "report",
+      "path": "tsconfig.json",
+      "sha256": "2db1393d6e039ca5e6f4015b7462f14ff77bd4135829d0d4a092d14c1eaaaf10",
+      "producer": "/root"
+    },
+    {
+      "id": "A110",
+      "kind": "report",
+      "path": "uv.lock",
+      "sha256": "af702441deef709f31364324f3add35c05a14572e8c39e85daa3f447c35d3275",
+      "producer": "/root"
+    },
+    {
+      "id": "A111",
+      "kind": "code",
+      "path": ".github/workflows/verify.yml",
+      "sha256": "afbebe72181060269c6615d83e81b703a9aa395df31476f5f143ed4671b89cb0",
+      "producer": "/root"
+    },
+    {
+      "id": "A112",
+      "kind": "report",
+      "path": "docs/boolean-rank-verification.md",
+      "sha256": "fb3d05c6f49d53e3677df786c9c0ee312d6609a8eb31c9c159e7b6f385fae7fb",
+      "producer": "/root"
+    },
+    {
+      "id": "A113",
+      "kind": "report",
+      "path": "evidence/boolean-rank/author/history/release-docs/boolean-rank-bridge.md",
+      "sha256": "2d6fe4c11950c6bb8c79c4e1b041e5c93d058addf6f9f4a5d0154e4b3fc8245a",
+      "producer": "/root"
+    },
+    {
+      "id": "A114",
+      "kind": "report",
+      "path": "evidence/boolean-rank/author/history/release-docs/bundle-draft.json",
+      "sha256": "d5f1f0e07be30477cb5338a53916ce7f85fd0ed840bd928e0aa9da6fb0017d50",
+      "producer": "/root"
+    },
+    {
+      "id": "A115",
+      "kind": "report",
+      "path": "evidence/boolean-rank/independent/checker-freeze-v1.json",
+      "sha256": "fe29c855d651790b547de505d7c35a91a89ee26ed85be854b15f9a2b74b46ad9",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A116",
+      "kind": "report",
+      "path": "evidence/boolean-rank/independent/checker-freeze-v2.json",
+      "sha256": "88219084a1e06b3afcf935527333db696c19ba5472d52c709ce2f102224c96b0",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A117",
+      "kind": "report",
+      "path": "evidence/boolean-rank/independent/checker-freeze-v3.json",
+      "sha256": "e2421ccc5cf00f890886cd8fe9325665a93e7c69ba459f39cf684a02997fc876",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A118",
+      "kind": "report",
+      "path": "evidence/boolean-rank/independent/checker-freeze-v4.json",
+      "sha256": "8e5407ebb483011bb3fa08dae70794e1345ba6032c55cf7f0eb2ea83b0f56a80",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A119",
+      "kind": "report",
+      "path": "evidence/boolean-rank/independent/checker-freeze-v5.json",
+      "sha256": "aed8bec3b58433c3a3da3e3c0f7ee307a41264a94c5729d80a0189ca6bd64fd7",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A120",
+      "kind": "report",
+      "path": "evidence/boolean-rank/independent/checker-freeze.json",
+      "sha256": "c335dd28d7af4286e6603e2383352c2fe253a7fd59455f7967f7f3f37ba53539",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A121",
+      "kind": "report",
+      "path": "evidence/boolean-rank/independent/environment.json",
+      "sha256": "62bf672b4d1d1eca8bed82090cf1a6c3d85637a5413908364abb50f82b0e4549",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A122",
+      "kind": "report",
+      "path": "evidence/boolean-rank/independent/final-boolean-rank-integration-audit.json",
+      "sha256": "2787ef459e7266daaead4d9ab445b48597575cb986e31625638ab0be68cfc29a",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A123",
+      "kind": "code",
+      "path": "evidence/boolean-rank/independent/freeze_checker.py",
+      "sha256": "a1d38f6ec19ca4a6cb680167dbd2a13b4c534180d676888f5e7bf832cd59a0d1",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A124",
+      "kind": "report",
+      "path": "evidence/boolean-rank/independent/history/checker-v1/checker-freeze.json",
+      "sha256": "fe29c855d651790b547de505d7c35a91a89ee26ed85be854b15f9a2b74b46ad9",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A125",
+      "kind": "code",
+      "path": "evidence/boolean-rank/independent/history/checker-v1/freeze_checker.py",
+      "sha256": "152589441542be9c12b109bac1b8e56699b5e2fae43cf31ce6f1e0c502dc5773",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A126",
+      "kind": "code",
+      "path": "evidence/boolean-rank/independent/history/checker-v1/independent_data_check.py",
+      "sha256": "d2e88b33a9fa59d13a68c7b33d0de3d393b97d376e592c1f20abbada5337b46c",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A127",
+      "kind": "report",
+      "path": "evidence/boolean-rank/independent/history/checker-v2/checker-freeze.json",
+      "sha256": "88219084a1e06b3afcf935527333db696c19ba5472d52c709ce2f102224c96b0",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A128",
+      "kind": "code",
+      "path": "evidence/boolean-rank/independent/history/checker-v2/freeze_checker.py",
+      "sha256": "4b0a6eb6a764bfed85368c4849d8b7f6ce11175c8c22c9cf7340e0d1e05ffe8e",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A129",
+      "kind": "code",
+      "path": "evidence/boolean-rank/independent/history/checker-v2/independent_data_check.py",
+      "sha256": "16275c87e512720559700e8950dda4a9d5a2b3142f34276138979660e093b23d",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A130",
+      "kind": "code",
+      "path": "evidence/boolean-rank/independent/history/checker-v2/independent_runtime_check.mjs",
+      "sha256": "7d803354687d4ef2c799c7461001ff86d3dae5c97151a144ebd667266971d92f",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A131",
+      "kind": "report",
+      "path": "evidence/boolean-rank/independent/history/checker-v3/checker-freeze.json",
+      "sha256": "e2421ccc5cf00f890886cd8fe9325665a93e7c69ba459f39cf684a02997fc876",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A132",
+      "kind": "code",
+      "path": "evidence/boolean-rank/independent/history/checker-v3/freeze_checker.py",
+      "sha256": "584140329e993102fd87706e0bd992a291be2cb6d1484d153a1b862973a07049",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A133",
+      "kind": "code",
+      "path": "evidence/boolean-rank/independent/history/checker-v3/independent_data_check.py",
+      "sha256": "16275c87e512720559700e8950dda4a9d5a2b3142f34276138979660e093b23d",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A134",
+      "kind": "code",
+      "path": "evidence/boolean-rank/independent/history/checker-v3/independent_runtime_check.mjs",
+      "sha256": "f8db4e3909b99d969460780f65e7923163b164a234ca91b3827a37265cb08d9c",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A135",
+      "kind": "report",
+      "path": "evidence/boolean-rank/independent/history/checker-v4/checker-freeze.json",
+      "sha256": "8e5407ebb483011bb3fa08dae70794e1345ba6032c55cf7f0eb2ea83b0f56a80",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A136",
+      "kind": "code",
+      "path": "evidence/boolean-rank/independent/history/checker-v4/freeze_checker.py",
+      "sha256": "5f14da4c0f5fa1b817d05c4dd7e54451a75893210dd6a320d00f9a9ec1d58c0d",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A137",
+      "kind": "code",
+      "path": "evidence/boolean-rank/independent/history/checker-v4/independent_data_check.py",
+      "sha256": "16275c87e512720559700e8950dda4a9d5a2b3142f34276138979660e093b23d",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A138",
+      "kind": "code",
+      "path": "evidence/boolean-rank/independent/history/checker-v4/independent_runtime_check.mjs",
+      "sha256": "6d25fbf6f3e711493933de474c89b81d320f15bc84181dec6a021c25323a8bd6",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A139",
+      "kind": "report",
+      "path": "evidence/boolean-rank/independent/history/checker-v5/checker-freeze.json",
+      "sha256": "aed8bec3b58433c3a3da3e3c0f7ee307a41264a94c5729d80a0189ca6bd64fd7",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A140",
+      "kind": "code",
+      "path": "evidence/boolean-rank/independent/history/checker-v5/freeze_checker.py",
+      "sha256": "31a93255e284fd526303990103cec03a91ec501c81d85dab8744a7180e01c470",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A141",
+      "kind": "code",
+      "path": "evidence/boolean-rank/independent/history/checker-v5/independent_data_check.py",
+      "sha256": "16275c87e512720559700e8950dda4a9d5a2b3142f34276138979660e093b23d",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A142",
+      "kind": "code",
+      "path": "evidence/boolean-rank/independent/history/checker-v5/independent_runtime_check.mjs",
+      "sha256": "c269546ffb8ac263634afd62b3acb1668b6fd9bcb31ce8a821e240e699828376",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A143",
+      "kind": "code",
+      "path": "evidence/boolean-rank/independent/independent_data_check.py",
+      "sha256": "16275c87e512720559700e8950dda4a9d5a2b3142f34276138979660e093b23d",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A144",
+      "kind": "code",
+      "path": "evidence/boolean-rank/independent/independent_runtime_check.mjs",
+      "sha256": "71ba152f45c3f82031dae179e27a0910e793ee178e3020e8a2d672691f639204",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A145",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/canonical/attempt-canonical-functional-01.json",
+      "sha256": "2d4a7b277251de0044d534eb98de6767ccfac67be39c4f6ffa4ab9a0cd45c028",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A146",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/canonical/attempt-canonical-functional-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A147",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/canonical/attempt-canonical-functional-01.stdout.bin",
+      "sha256": "13d40391635b61be04918d4d20e177236df8e1cc4d1c985808ff4a26900cdd27",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A148",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/canonical/attempt-canonical-navigation-01.json",
+      "sha256": "81e2b7b147498f31c9f89cfd1f13c9e864ad1b152bba8822edcb1f48ff65abd2",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A149",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/canonical/attempt-canonical-navigation-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A150",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/canonical/attempt-canonical-navigation-01.stdout.bin",
+      "sha256": "3784199aff384a85aff41df2566c1c7f485c574b93629dac09670ca87d1bcb3c",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A151",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/canonical/attempt-canonical-pytest-01.json",
+      "sha256": "9c5d98f3f8acabbdda6c6e7ee789bb8698bfccbf0516495486969cb2461fb93d",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A152",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/canonical/attempt-canonical-pytest-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A153",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/canonical/attempt-canonical-pytest-01.stdout.bin",
+      "sha256": "e72c9bb98da2597fed98194ebba052ff83b6fc91abe6612b195a3c86c4b94516",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A154",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/canonical/attempt-canonical-validation-01.json",
+      "sha256": "7e2a53c357cd50a71780c39803c7d60de80176d5e5fb2638d8116e74d9be197e",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A155",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/canonical/attempt-canonical-validation-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A156",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/canonical/attempt-canonical-validation-01.stdout.bin",
+      "sha256": "923f6be0ad2fdea6581b2d01e1f70d8393d95c369598c628a5ca58aca814868e",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A157",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/canonical/attempts.jsonl",
+      "sha256": "ce7fabe749fa38e76613c4a9bc92745f263752e4b441db9e225adcf2ebdee3e6",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A158",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/data/attempt-independent-data-01.json",
+      "sha256": "20a855146ea221ddd234693db32483eb21168f043d4c66320834ce71101024f9",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A159",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/data/attempt-independent-data-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A160",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/data/attempt-independent-data-01.stdout.bin",
+      "sha256": "43c66e34d7a1cc1a753f89c34582bcf865a1e24b272a4fe990db239e4caa2507",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A161",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/data/attempt-independent-data-02.json",
+      "sha256": "148eef57eb54be8cf5e023787bc6cea481b21ed7065b83b35f50c8ccf17cf53e",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A162",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/data/attempt-independent-data-02.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A163",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/data/attempt-independent-data-02.stdout.bin",
+      "sha256": "b54c60fae49a7278cf9a6ef23f6a6dafc43f40cb03148a2d0be482a6306f088d",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A164",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/data/attempts.jsonl",
+      "sha256": "433328d10e1246423686ee875d8ecb854c097cf26d28db04e913f89f1b91fc1d",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A165",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/runtime/attempt-independent-runtime-01.json",
+      "sha256": "7b97c26cbaf1c83662a742ced6bcd60cb1a6b05403c33f41e97153fa8033fb1f",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A166",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/runtime/attempt-independent-runtime-01.stderr.bin",
+      "sha256": "de886426a69c9b00cfbe62049c50617ba7639f8180bcd544005ebc626ef89af1",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A167",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/runtime/attempt-independent-runtime-01.stdout.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A168",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/runtime/attempt-independent-runtime-02.json",
+      "sha256": "cafd81a751b14ed07f1c5280a28bd1b55690aca6bebabbf4c793e56df5a1e3c3",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A169",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/runtime/attempt-independent-runtime-02.stderr.bin",
+      "sha256": "de886426a69c9b00cfbe62049c50617ba7639f8180bcd544005ebc626ef89af1",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A170",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/runtime/attempt-independent-runtime-02.stdout.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A171",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/runtime/attempt-independent-runtime-03.json",
+      "sha256": "f8c30d42eff7670d2b879750694806b3c17277202603d69bfca987649b4b8115",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A172",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/runtime/attempt-independent-runtime-03.stderr.bin",
+      "sha256": "ae27e1b106daac8e08c754eb46343e2d55651a9fccd1ce4c0713f9c1f77479d3",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A173",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/runtime/attempt-independent-runtime-03.stdout.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A174",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/runtime/attempt-independent-runtime-04.json",
+      "sha256": "e601cc3f4ab72f83fc7ffa5afb4b1286ea816b74e9f5f317637de4ba046886b3",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A175",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/runtime/attempt-independent-runtime-04.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A176",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/runtime/attempt-independent-runtime-04.stdout.bin",
+      "sha256": "38d84e833dcff1050ee4167b64dfc8becbb7000c2979df3fb5964d0a4d4b564a",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A177",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/runtime/attempt-independent-runtime-05.json",
+      "sha256": "b81934804f804ff7ab0c67ce0df4264699ff210ca42421dfe3b431ade80f0c9c",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A178",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/runtime/attempt-independent-runtime-05.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A179",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/runtime/attempt-independent-runtime-05.stdout.bin",
+      "sha256": "1937135bd66195ef568cb029845491cf7dc9f7b64b487a5456cf2617e4bb8943",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A180",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/logs/runtime/attempts.jsonl",
+      "sha256": "785267b7434ce2317b399bbe09640d66123588bca7ebc3c67977a2dfc355831b",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A181",
+      "kind": "report",
+      "path": "evidence/boolean-rank/independent/publication-manifest.json",
+      "sha256": "9a07b01eb998257fde7864349b32c53ad174915f3e9fa879d3ab00023e0bceed",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A182",
+      "kind": "report",
+      "path": "evidence/boolean-rank/independent/pyproject.toml",
+      "sha256": "d8336c0dc6f1f7236de15adadcae4ee5d521f5a8ae4034102b1658a4c0a614ae",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A183",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/canonical/functional-rendered.json",
+      "sha256": "754a84d00d52fdd3d0b9ebae840aae2c4475c12668d7eaba465a00745a1ac838",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A184",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/canonical/functional.json",
+      "sha256": "13d40391635b61be04918d4d20e177236df8e1cc4d1c985808ff4a26900cdd27",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A185",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/canonical/navigation.json",
+      "sha256": "3784199aff384a85aff41df2566c1c7f485c574b93629dac09670ca87d1bcb3c",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A186",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/canonical/validation.json",
+      "sha256": "923f6be0ad2fdea6581b2d01e1f70d8393d95c369598c628a5ca58aca814868e",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A187",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-01/freeze-hash-verification.json",
+      "sha256": "3cfd5eee4244957fe91c44b34888b5c80c24ce3f3b8f3da95c19caaaa897b122",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A188",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-01/independent-data-check.json",
+      "sha256": "8d5bc2b6488acd216d3f11684d861e96da39a9b3b6593a27fce42d1c0c782ea7",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A189",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/freeze-hash-verification.json",
+      "sha256": "3cfd5eee4244957fe91c44b34888b5c80c24ce3f3b8f3da95c19caaaa897b122",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A190",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/independent-data-check.json",
+      "sha256": "6129129db96a535dddd5404c535c33cd81e0458a291d78886f247ee939cb1613",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A191",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/absolute-curation-path/command.json",
+      "sha256": "a70b432e75ed109f715bccec59562a68f17ab8a121388a0dc7ad2c4008d65f99",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A192",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/absolute-curation-path/report.json",
+      "sha256": "120adff97c597c431b52c27daf75d2dece2413324b4f2da679e5519ed02e9ee3",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A193",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/absolute-curation-path/stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A194",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/absolute-curation-path/stdout.bin",
+      "sha256": "120adff97c597c431b52c27daf75d2dece2413324b4f2da679e5519ed02e9ee3",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A195",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/blank-forward-witness/command.json",
+      "sha256": "0731f71d04c2fd42c87d10b61c85d446b0baea07ef4be9dfe911ee0c22d52042",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A196",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/blank-forward-witness/report.json",
+      "sha256": "eaf292e4e61ccaab22c469f578dc801e8c8e46f8e2d8730f9fb052fbc2168244",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A197",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/blank-forward-witness/stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A198",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/blank-forward-witness/stdout.bin",
+      "sha256": "eaf292e4e61ccaab22c469f578dc801e8c8e46f8e2d8730f9fb052fbc2168244",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A199",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/boolean-coordinate/command.json",
+      "sha256": "486a9cea6d5c6bb674ca0aff8161a2d75204932f3350a676c829d8f51ba00b6c",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A200",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/boolean-coordinate/report.json",
+      "sha256": "796eaa7b00cc4eab182fc2b9bdc07979162671aaa8768a7738f2bd5347344431",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A201",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/boolean-coordinate/stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A202",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/boolean-coordinate/stdout.bin",
+      "sha256": "796eaa7b00cc4eab182fc2b9bdc07979162671aaa8768a7738f2bd5347344431",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A203",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/directory-curation-path/command.json",
+      "sha256": "16fa713d24c8efd812e9f0461a83fa1985d54aff67cc2a2044a2de04340a0514",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A204",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/directory-curation-path/report.json",
+      "sha256": "d623793da746f3592999a96a31c36ed486fff7588af262855df1564ec83f04ef",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A205",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/directory-curation-path/stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A206",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/directory-curation-path/stdout.bin",
+      "sha256": "d623793da746f3592999a96a31c36ed486fff7588af262855df1564ec83f04ef",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A207",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/empty-notation/command.json",
+      "sha256": "81f9d76a9829357ed81fd7c743b7d2808ee22d42d3c110009227088014b51a19",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A208",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/empty-notation/report.json",
+      "sha256": "a996e53b7fe1b4d3e28f8c5eb7efacc4bebea279519e7bf550db7c03799af138",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A209",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/empty-notation/stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A210",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/empty-notation/stdout.bin",
+      "sha256": "a996e53b7fe1b4d3e28f8c5eb7efacc4bebea279519e7bf550db7c03799af138",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A211",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/empty-zero-conventions/command.json",
+      "sha256": "808389f5844d297a967bc6c4aeece994861e5928ded35b50d1eb0dee785a9f25",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A212",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/empty-zero-conventions/report.json",
+      "sha256": "0acaeb03d5d005ba3e0bc2d5148fb415b0eb53c7dc1ce9819ef683b8449324d3",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A213",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/empty-zero-conventions/stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A214",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/empty-zero-conventions/stdout.bin",
+      "sha256": "0acaeb03d5d005ba3e0bc2d5148fb415b0eb53c7dc1ce9819ef683b8449324d3",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A215",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/malformed-edge-id/command.json",
+      "sha256": "a5c2a718f4e7acd40c46789d5c2e2e9c19bed765ad647b48a946bbc7f942a913",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A216",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/malformed-edge-id/report.json",
+      "sha256": "5bf6cbf3ae338ee155debc20a06390145abdaf8da464afc34639e74c69116855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A217",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/malformed-edge-id/stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A218",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/malformed-edge-id/stdout.bin",
+      "sha256": "5bf6cbf3ae338ee155debc20a06390145abdaf8da464afc34639e74c69116855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A219",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/missing-source-scope/command.json",
+      "sha256": "ac725ab72053989d688da91cf1d0b7cb1886cbd8a91241cd7a4f8c27acb9a59d",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A220",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/missing-source-scope/report.json",
+      "sha256": "59e4a8b28ceb1e77aabd74e538fa9d25cbdb0144eadaacf8d85c022690c557b0",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A221",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/missing-source-scope/stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A222",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/missing-source-scope/stdout.bin",
+      "sha256": "59e4a8b28ceb1e77aabd74e538fa9d25cbdb0144eadaacf8d85c022690c557b0",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A223",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/missing-zero-evidence-basis/command.json",
+      "sha256": "2dc69d5c855a56f3433239965990f84f28d11027892c7b54efcecda3aeb10883",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A224",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/missing-zero-evidence-basis/report.json",
+      "sha256": "0acaeb03d5d005ba3e0bc2d5148fb415b0eb53c7dc1ce9819ef683b8449324d3",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A225",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/missing-zero-evidence-basis/stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A226",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/missing-zero-evidence-basis/stdout.bin",
+      "sha256": "0acaeb03d5d005ba3e0bc2d5148fb415b0eb53c7dc1ce9819ef683b8449324d3",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A227",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/nan-coordinate/command.json",
+      "sha256": "afc26758280360107650ee10f28363149deb57113ad1c15e4b4f3d461fa95fae",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A228",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/nan-coordinate/report.json",
+      "sha256": "796eaa7b00cc4eab182fc2b9bdc07979162671aaa8768a7738f2bd5347344431",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A229",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/nan-coordinate/stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A230",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/nan-coordinate/stdout.bin",
+      "sha256": "796eaa7b00cc4eab182fc2b9bdc07979162671aaa8768a7738f2bd5347344431",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A231",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/old-schema/command.json",
+      "sha256": "470b50dd3cc4694e635fb19daf18ae027bc17608c9cb21bd4f3f83d9ac82bcf5",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A232",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/old-schema/report.json",
+      "sha256": "ca6d895b0985ed423ee5f23ad00873929cf3315844c2ec1322da09f362ee39d0",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A233",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/old-schema/stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A234",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/old-schema/stdout.bin",
+      "sha256": "ca6d895b0985ed423ee5f23ad00873929cf3315844c2ec1322da09f362ee39d0",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A235",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/source-attributed-zero/command.json",
+      "sha256": "ecc48e869f6a13ed9a07b11b7661e6b3a169adc5c66f95f72f2b745584e734b9",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A236",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/source-attributed-zero/report.json",
+      "sha256": "0acaeb03d5d005ba3e0bc2d5148fb415b0eb53c7dc1ce9819ef683b8449324d3",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A237",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/source-attributed-zero/stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A238",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/source-attributed-zero/stdout.bin",
+      "sha256": "0acaeb03d5d005ba3e0bc2d5148fb415b0eb53c7dc1ce9819ef683b8449324d3",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A239",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/stale-curation-hash/command.json",
+      "sha256": "96f034a71e2cc5ae60982c83dfb829689a3451450f782ed0050f52c80657e117",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A240",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/stale-curation-hash/report.json",
+      "sha256": "bddb67b972d7f5af1a4f6d473f4d3163ff95b734a38dbf422d9eb2b086ddff59",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A241",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/stale-curation-hash/stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A242",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/stale-curation-hash/stdout.bin",
+      "sha256": "bddb67b972d7f5af1a4f6d473f4d3163ff95b734a38dbf422d9eb2b086ddff59",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A243",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/traversal-curation-path/command.json",
+      "sha256": "5f8580ea8013ac19fe5fc4ebd270f50555c760625d6c4d69f449ec773e5fdf6e",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A244",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/traversal-curation-path/report.json",
+      "sha256": "120adff97c597c431b52c27daf75d2dece2413324b4f2da679e5519ed02e9ee3",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A245",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/traversal-curation-path/stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A246",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/traversal-curation-path/stdout.bin",
+      "sha256": "120adff97c597c431b52c27daf75d2dece2413324b4f2da679e5519ed02e9ee3",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A247",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/wrong-curation-id/command.json",
+      "sha256": "5ee8b00c166dd41a7ce2cf2747802e1a9fd729bdcbf63c8ca555941cbe019400",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A248",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/wrong-curation-id/report.json",
+      "sha256": "247a1341a1a17d01be81035706e929ef2dec043f8143a49ac888b062dfbd132b",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A249",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/wrong-curation-id/stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A250",
+      "kind": "log",
+      "path": "evidence/boolean-rank/independent/results/independent-data-02/malformed/wrong-curation-id/stdout.bin",
+      "sha256": "247a1341a1a17d01be81035706e929ef2dec043f8143a49ac888b062dfbd132b",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A251",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-runtime-04/geometry.json",
+      "sha256": "2abf72c97214f2c9199785dd8375d53c91aaf65a287a7e3617fe8876072c8907",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A252",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-runtime-04/independent-runtime-check.json",
+      "sha256": "a491329815729f15efcc7df36326c80e572366e0dd7a741b279a33c4e4f87c2a",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A253",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-runtime-04/rendered-connections.json",
+      "sha256": "13c740f865d4c2d49103643ecf7e78348e742ba1d5dbcfbb4a35f3990f81ce61",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A254",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-runtime-05/geometry.json",
+      "sha256": "2abf72c97214f2c9199785dd8375d53c91aaf65a287a7e3617fe8876072c8907",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A255",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-runtime-05/independent-runtime-check.json",
+      "sha256": "1b474cdcfb2cf0d6ca21375dfc0e4a1d0724ee67649d8b308c3a6bff5548af6d",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A256",
+      "kind": "result",
+      "path": "evidence/boolean-rank/independent/results/independent-runtime-05/rendered-connections.json",
+      "sha256": "13c740f865d4c2d49103643ecf7e78348e742ba1d5dbcfbb4a35f3990f81ce61",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A257",
+      "kind": "code",
+      "path": "evidence/boolean-rank/independent/run_logged.py",
+      "sha256": "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A258",
+      "kind": "code",
+      "path": "evidence/boolean-rank/independent/seal_publication.py",
+      "sha256": "ffc2412e462511e102fdb4458df29aeec31c30d30b9765fce56875b6c6c55732",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A259",
+      "kind": "report",
+      "path": "evidence/boolean-rank/independent/uv.lock",
+      "sha256": "15638a7312a0f00f9ae183c85ce8add2d4375c9ceae8e43cad7c8bbab51c6576",
+      "producer": "/root/sol_atlas_audit"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C001",
+      "type": "citation",
+      "statement": "R1-R4 retain known source-admitted translations and explicit local zero conventions; no novelty is claimed.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A096",
+          "locator": "json:/novelty",
+          "expected": "All four relationships are known. The zero conventions are explicit definitions and elementary local checks, not a claimed discovery."
+        },
+        {
+          "artifact_id": "A097",
+          "locator": "json:/bridge_decisions"
+        }
+      ]
+    },
+    {
+      "id": "C002",
+      "type": "numerical",
+      "statement": "The curated corpus has 40 nodes, 52 edges, 11 sources, six journeys, six opportunities and seven graph examples.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A072",
+          "locator": "json:/counts",
+          "expected": {
+            "nodes": 40,
+            "edges": 52,
+            "sources": 11,
+            "journeys": 6,
+            "opportunities": 6,
+            "examples": 7
+          }
+        }
+      ]
+    },
+    {
+      "id": "C003",
+      "type": "numerical",
+      "statement": "The author component/API check passed nine scoped checks, rendering four admitted connections and all 40 selected-concept maps.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A068",
+          "locator": "json:/check_count",
+          "expected": 9
+        },
+        {
+          "artifact_id": "A068",
+          "locator": "json:/rendered_connections",
+          "expected": 4
+        },
+        {
+          "artifact_id": "A068",
+          "locator": "json:/rendered_maps",
+          "expected": 40
+        }
+      ]
+    },
+    {
+      "id": "C004",
+      "type": "numerical",
+      "statement": "Fifteen lexical sanity cases and 1600 ordered navigation-pair checks passed.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A071",
+          "locator": "json:/retrieval_sanity_cases",
+          "expected": 15
+        },
+        {
+          "artifact_id": "A071",
+          "locator": "json:/navigation_pairs",
+          "expected": 1600
+        }
+      ]
+    },
+    {
+      "id": "C005",
+      "type": "methodological",
+      "statement": "The implementation carries source scope, bidirectional witness translations, local boundary arguments, notation distinctions and retained curation identity through the typed model and connection display.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A099",
+          "locator": "contains:witness_translation?"
+        },
+        {
+          "artifact_id": "A004",
+          "locator": "contains:Atlas convention for the zero case"
+        },
+        {
+          "artifact_id": "A035",
+          "locator": "json:/returncode",
+          "expected": 0
+        }
+      ]
+    },
+    {
+      "id": "C006",
+      "type": "methodological",
+      "statement": "The initial full Python suite, typecheck, lint and build passed; the final corpus tests also passed after two malformed-path cases were added.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A056",
+          "locator": "json:/returncode",
+          "expected": 0
+        },
+        {
+          "artifact_id": "A059",
+          "locator": "json:/returncode",
+          "expected": 0
+        },
+        {
+          "artifact_id": "A047",
+          "locator": "json:/returncode",
+          "expected": 0
+        },
+        {
+          "artifact_id": "A026",
+          "locator": "json:/returncode",
+          "expected": 0
+        },
+        {
+          "artifact_id": "A029",
+          "locator": "json:/returncode",
+          "expected": 0
+        }
+      ]
+    },
+    {
+      "id": "C007",
+      "type": "methodological",
+      "statement": "Actual local HTTP routes returned the canonical API object and the broadened home-page scope.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A014",
+          "locator": "contains:actual != expected"
+        },
+        {
+          "artifact_id": "A070",
+          "locator": "json:/passed",
+          "expected": true
+        },
+        {
+          "artifact_id": "A041",
+          "locator": "json:/returncode",
+          "expected": 0
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "implementation_alignment",
+      "status": "pass",
+      "auditor": "/root/sol_atlas_audit",
+      "evidence": [
+        "A122"
+      ],
+      "note": "Actual data, TypeScript types, API, find_connection tool and connection rendering retain every admitted R1-R4 semantic field. All old corpus records remain value-identical to baseline; the release adds exactly 7 nodes, 8 edges, 2 sources and 2 journeys."
+    },
+    {
+      "id": "reproduction",
+      "status": "pass",
+      "auditor": "/root/sol_atlas_audit",
+      "evidence": [
+        "A122"
+      ],
+      "note": "Frozen independent checks and four canonical replays all exited zero: 22/22 independent data checks, 15/15 fresh malformed cases, 6/6 runtime checks, structural validation, 9/9 author functional checks, 1,600 ordered navigation pairs and 35 targeted pytest cases."
+    },
+    {
+      "id": "source_verification",
+      "status": "pass",
+      "auditor": "/root/sol_atlas_audit",
+      "evidence": [
+        "A122"
+      ],
+      "note": "Scoped product-source gate: the implementation exactly projects the four relationships admitted by the pinned independent correction review. This audit checked source IDs, URLs, locators, scope limits and local-convention attribution; it did not perform a new primary-paper entailment review."
+    },
+    {
+      "id": "specification_compliance",
+      "status": "pass",
+      "auditor": "/root/sol_atlas_audit",
+      "evidence": [
+        "A122"
+      ],
+      "note": "The frozen implementation meets the contract's typed schema, exact addition counts, old-record preservation, source/witness/boundary/notation display, strict malformed-input behavior, search and navigation requirements."
+    }
+  ],
+  "limitations": [
+    "The independent product audit passed for the frozen implementation. The documentation, CI and evidence-assembly delta is pending its separate acknowledgment; publication remains withheld until then.",
+    "Known translations under specified conditions only; no new theorem, algorithm, formal proof, universal coverage or practical-impact result.",
+    "Structural and lexical checks do not establish source entailment or semantic retrieval quality. Navigation paths do not compose implications.",
+    "Server-rendered text/geometry and local HTTP checks do not establish browser interaction, visual quality, accessibility or deployed behavior.",
+    "The first typecheck preceded corpus integration. Build01 preceded a value-preserving LF correction; a final exact-tree build is required before publication.",
+    "The source records preserve historical pending wording; their separate later correction review records semantic admission.",
+    "The finite teaching example, stopped role-mining software run and pending Kemeny proof are separate tasks."
+  ]
+}

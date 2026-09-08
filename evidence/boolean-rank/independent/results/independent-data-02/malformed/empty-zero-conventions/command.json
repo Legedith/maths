@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-review-work\\.venv\\Scripts\\python.exe",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\scripts\\validate_atlas.py",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-review-work\\results\\independent-data-02\\malformed\\empty-zero-conventions\\corpus.json",
+    "--output",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-review-work\\results\\independent-data-02\\malformed\\empty-zero-conventions\\report.json"
+  ],
+  "cwd": "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+  "returncode": 1
+}

@@ -1,0 +1,83 @@
+{
+  "auditor": {
+    "identity": "/root/sol_atlas_audit",
+    "implementation_author": false,
+    "role": "independent product auditor and earlier integration-design author"
+  },
+  "checker_files": [
+    {
+      "bytes": 732,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-review-work\\environment.json",
+      "sha256": "62bf672b4d1d1eca8bed82090cf1a6c3d85637a5413908364abb50f82b0e4549"
+    },
+    {
+      "bytes": 4020,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-review-work\\freeze_checker.py",
+      "sha256": "152589441542be9c12b109bac1b8e56699b5e2fae43cf31ce6f1e0c502dc5773"
+    },
+    {
+      "bytes": 26666,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-review-work\\independent_data_check.py",
+      "sha256": "d2e88b33a9fa59d13a68c7b33d0de3d393b97d376e592c1f20abbada5337b46c"
+    },
+    {
+      "bytes": 12566,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-review-work\\independent_runtime_check.mjs",
+      "sha256": "7d803354687d4ef2c799c7461001ff86d3dae5c97151a144ebd667266971d92f"
+    },
+    {
+      "bytes": 158,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-review-work\\pyproject.toml",
+      "sha256": "d8336c0dc6f1f7236de15adadcae4ee5d521f5a8ae4034102b1658a4c0a614ae"
+    },
+    {
+      "bytes": 4600,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-review-work\\run_logged.py",
+      "sha256": "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6"
+    },
+    {
+      "bytes": 4632,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-review-work\\uv.lock",
+      "sha256": "15638a7312a0f00f9ae183c85ce8add2d4375c9ceae8e43cad7c8bbab51c6576"
+    }
+  ],
+  "frozen_before_evaluation": true,
+  "implementation": {
+    "all_hashes_match": true,
+    "manifest": "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-work\\implementation-freeze-v2.json",
+    "manifest_sha256": "391aa34b932aa37c4ccb45e2b9ee589ba3eaec38540c15f9d43b9581c420f7f6",
+    "verified_file_count": 49
+  },
+  "inputs": [
+    {
+      "bytes": 9727,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-work\\implementation-freeze-v2.json",
+      "sha256": "391aa34b932aa37c4ccb45e2b9ee589ba3eaec38540c15f9d43b9581c420f7f6"
+    },
+    {
+      "bytes": 3614,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\docs\\boolean-rank-contract.md",
+      "sha256": "a302711e12faa6526456d92a42707f94c55ff421c7afabe58f925133c071dcda"
+    },
+    {
+      "bytes": 7852,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-clarification-work\\corrected-records-v1.json",
+      "sha256": "0ba1c19b75b0b37fcd29214d3ad5565aca747481aba779084e23367b0a110fd2"
+    },
+    {
+      "bytes": 8560,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-correction-review-work\\correction-review.json",
+      "sha256": "13bff50ecbd050f359a7948996197e9b09a12c5a5305fedb4aa40804cefcbad0"
+    }
+  ],
+  "planned_commands": [
+    "uv run --frozen python independent_data_check.py --project-root PROJECT --freeze-manifest FREEZE --admitted-records RECORDS --correction-review REVIEW --output-dir FRESH",
+    "node independent_runtime_check.mjs --project-root PROJECT --output-dir FRESH --http-origin http://localhost:8598",
+    "uv run --frozen python PROJECT/scripts/validate_atlas.py PROJECT/data/atlas.json --output FRESH",
+    "node PROJECT/scripts/check-boolean-rank.mjs --output FRESH",
+    "node PROJECT/scripts/check-atlas.ts --output FRESH",
+    "uv run --frozen pytest -p no:cacheprovider PROJECT/tests/test_corpus_validation.py"
+  ],
+  "schema_version": "boolean-rank-independent-checker-freeze-v1",
+  "scope": "Frozen independent semantic/data/runtime/negative checks. The author scripts are also replayed, but do not replace the independent checkers. No browser DOM, screenshot, visual-quality, teaching-example, novelty or impact evaluation."
+}

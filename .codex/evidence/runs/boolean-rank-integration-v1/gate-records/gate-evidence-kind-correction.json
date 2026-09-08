@@ -1,0 +1,22 @@
+{
+  "classification": "STRUCTURAL_DIRECT_PROVENANCE_WIRING",
+  "before_sha256": "717d1eaf93c77218eb2d277396ab2d50d29c72a37a209656666c2b04e0216de8",
+  "after_sha256": "4aa8631f863b85fc2c065fc687521c1e7fef28c44fd4176058af893caa8083c4",
+  "added_direct_evidence": {
+    "reproduction": [
+      "evidence/boolean-rank/independent/results/canonical/functional.json"
+    ],
+    "specification_compliance": [
+      "docs/boolean-rank-contract.md"
+    ],
+    "source_verification": [
+      "evidence/boolean-rank/source-review/corrected-records-v1.json"
+    ],
+    "implementation_alignment": [
+      "lib/atlas.ts",
+      "evidence/boolean-rank/independent/logs/canonical/attempt-canonical-functional-01.json"
+    ]
+  },
+  "claim_and_semantic_check_content_unchanged": true,
+  "retained_failure": "release-logs/boolean-gate-final-01.json"
+}

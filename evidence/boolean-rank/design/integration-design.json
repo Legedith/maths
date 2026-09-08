@@ -1,0 +1,480 @@
+{
+  "schema_version": "boolean-rank-atlas-integration-design-v1",
+  "status": "design_only_no_project_changes",
+  "auditor": {
+    "identity": "/root/sol_atlas_audit",
+    "role": "independent integration designer",
+    "implementation_author": false
+  },
+  "project_snapshot": {
+    "repository": "D:/CodexWorkspaces/mathematics-atlas/project",
+    "git_revision": "08434cb8f3a0923a7b781503cec64a86878cf171",
+    "verification_method": "The project input hashes below were rechecked against `git show <revision>:<repo-relative-path>` after concurrent root-authored working-tree edits appeared.",
+    "working_tree_boundary": "This packet describes the baseline before those implementation edits. See input-drift.json. It does not independently review or certify the later working tree."
+  },
+  "input_pins": [
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/boolean-rank-clarification-work/corrected-records-v1.json",
+      "sha256": "0ba1c19b75b0b37fcd29214d3ad5565aca747481aba779084e23367b0a110fd2",
+      "role": "admitted semantic records R1-R4"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/boolean-rank-correction-review-work/correction-review.json",
+      "sha256": "13bff50ecbd050f359a7948996197e9b09a12c5a5305fedb4aa40804cefcbad0",
+      "role": "independent source and correction review"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/project/data/atlas.json",
+      "sha256": "6d0b37a4f7bdd7181b45d464bb5ea5f038cd097e33d56140c8beb74a3158276d",
+      "role": "current curated corpus"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/project/lib/atlas.ts",
+      "sha256": "5d5e666c98eb2a1392a109fc1678b52bed736beb87975173ae81155e95c32812",
+      "role": "current TypeScript corpus and navigation model"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/project/components/atlas-map.tsx",
+      "sha256": "9913b1f3496210bf878b0da92275ea8011da3d52d20d379cdfe45d1ce146bd26",
+      "role": "current concept and connection rendering"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/project/scripts/validate_atlas.py",
+      "sha256": "ab9813ad602dedf34c12220331ab515f8887362ca5c076e4fda24a1d069a72e9",
+      "role": "current structural validator"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/project/scripts/check-atlas.ts",
+      "sha256": "5c05eff13df45ab06f9226935b91c9b70ca48013d75e4519a73ddbca7f5613bb",
+      "role": "current lexical and all-pairs navigation checks"
+    }
+  ],
+  "current_constraints": [
+    "Atlas nodes require stable IDs, kind, domains, cluster, coordinates, summary, explanation, level, aliases, assumptions, evidence and status.",
+    "Atlas edges currently expose only endpoints, type, statement, assumptions, status and source evidence.",
+    "Navigation deliberately treats directed edges as undirected for discovery but displays the original relation direction; a path is not a composed implication.",
+    "scripts/check-atlas.ts requires every node pair to have a navigation path, so the new region needs an explicit non-equivalence connection to the current component.",
+    "The SVG ignores corpus x/y metadata and dynamically places only the selected node and its direct neighbors inside a fixed 840-by-660 viewBox. Total corpus size alone does not require a viewBox change; maximum direct degree and wrapped-label bounds require functional checks.",
+    "The page header and coverage copy still describe the sole region as Laplacians and networks and must be updated if these records enter the same map."
+  ],
+  "schema_decision": {
+    "recommended_atlas_schema_version": "1.1",
+    "reason": "Witness directions and Atlas-local boundary conventions are material semantics. A version bump prevents clients that only understand 1.0 from silently discarding them.",
+    "new_edge_typescript": {
+      "source_scope": "optional string describing exactly what the cited primary passage supports",
+      "witness_translation": {
+        "forward": "nonempty string",
+        "reverse": "nonempty string",
+        "result": "nonempty string stating the preserved objective or the two inequalities that imply the formula"
+      },
+      "local_boundary_case": {
+        "case": "nonempty string",
+        "adopted_conventions": "nonempty string array",
+        "argument": "nonempty string",
+        "result": "nonempty string",
+        "evidence_basis": "literal atlas_local_definition_and_proof"
+      },
+      "notation_boundaries": "optional nonempty string array",
+      "curation_record": {
+        "id": "R1, R2, R3 or R4",
+        "artifact": "repo-relative path to the retained corrected record",
+        "artifact_sha256": "0ba1c19b75b0b37fcd29214d3ad5565aca747481aba779084e23367b0a110fd2",
+        "independent_review": "repo-relative path to the retained correction review",
+        "independent_review_sha256": "13bff50ecbd050f359a7948996197e9b09a12c5a5305fedb4aa40804cefcbad0"
+      }
+    },
+    "display_rule": "Render source_scope, both witness directions, the result, the local boundary case and notation boundaries inside the existing Assumptions & evidence disclosure. Label the boundary block 'Atlas convention for the zero case'; do not imply that its convention was stated by the cited paper.",
+    "validator_rule": "Validate each optional object when present. Require all five semantic detail fields on boolean-rank-r1 through boolean-rank-r4. Require finite numeric x and y for every node, which the current TypeScript type assumes but the Python validator does not check."
+  },
+  "source_records": [
+    {
+      "id": "javadi-local-clique",
+      "title": "Local Clique Covering of Graphs",
+      "author": "Ramin Javadi, Zeinab Maleki & Behnaz Omoomi",
+      "year": 2012,
+      "url": "https://arxiv.org/pdf/1210.6965v1",
+      "locator": "Introduction, printed pp. 2-3",
+      "note": "Boolean rank, all-one rectangle covers, fixed-bipartition biclique covers and their local-incidence versions. The Atlas zero-support conventions are separate local definitions. Link and paraphrase; no downstream open-content license was established in the source review."
+    },
+    {
+      "id": "karchmer-few-witnesses",
+      "title": "Non-deterministic Communication Complexity with Few Witnesses",
+      "author": "Mauricio Karchmer, Ilan Newman, Mike Saks & Avi Wigderson",
+      "year": 2003,
+      "url": "https://www.math.ias.edu/~avi/PUBLICATIONS/MYPAPERS/SAKS/KCOVER/JOURNAL/kcover.pdf",
+      "locator": "Sections 2.1-2.3, printed pp. 3-5; Proposition 3 and proof",
+      "note": "Unrestricted rectangle-cover number, the paper's maximum-leaf-depth nondeterministic protocol convention and the nonzero-support ceiling-log formula. The Atlas zero case and superscript notation are local. Link and paraphrase; the source review found no explicit open-content license."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "boolean-relation-matrix",
+      "label": "Boolean relation matrix",
+      "kind": "concept",
+      "domains": ["Mathematics", "Computer science"],
+      "cluster": "foundations",
+      "level": "Start here",
+      "summary": "A finite yes-or-no table representing which labeled row and column choices are related.",
+      "explanation": "Choose finite nonempty labeled sets X and Y. The entry A[x,y] is 1 exactly when x is related to y. For a Boolean function f, its communication matrix is M_f[x,y]=f(x,y). The all-zero table keeps the same nonempty row and column sets.",
+      "formula": "A : X x Y -> {0,1}; M_f[x,y] = f(x,y)",
+      "aliases": ["binary relation", "0-1 matrix", "communication matrix", "biadjacency matrix"],
+      "assumptions": ["X and Y are finite, nonempty and labeled", "Entries are exactly 0 or 1", "A rectangular X-by-Y matrix is not automatically the full symmetric adjacency matrix of a graph"],
+      "evidence": [{"source": "javadi-local-clique", "locator": "Introduction, printed p. 2, Boolean-matrix and bipartite-adjacency paragraphs"}],
+      "status": "sourced"
+    },
+    {
+      "id": "boolean-rank",
+      "label": "Boolean rank",
+      "kind": "concept",
+      "domains": ["Mathematics", "Computer science"],
+      "cluster": "algorithms",
+      "level": "Intermediate",
+      "summary": "The fewest Boolean rank-one factors whose OR-AND product reconstructs a binary matrix.",
+      "explanation": "A factor index chooses one set of rows and one set of columns. Its 1-entries form a rectangle. Boolean OR combines the rectangles, so overlap on a 1-cell is allowed.",
+      "formula": "r_B(A) = min { k : A[x,y] = OR_l (U[x,l] AND V[l,y]) }",
+      "aliases": ["Boolean matrix factorization", "OR-AND rank", "binary matrix factorization"],
+      "assumptions": ["Boolean OR-AND arithmetic", "Factor dimension k may be zero", "The empty disjunction is defined as 0"],
+      "evidence": [{"source": "javadi-local-clique", "locator": "Introduction, printed p. 2, Boolean-rank paragraph"}],
+      "status": "sourced"
+    },
+    {
+      "id": "one-support-rectangle-cover",
+      "label": "1-support rectangle cover",
+      "kind": "concept",
+      "domains": ["Mathematics", "Computer science"],
+      "cluster": "algorithms",
+      "level": "Start here",
+      "summary": "Cover every 1-cell of a binary matrix by all-one row-by-column blocks.",
+      "explanation": "A rectangle S x T selects some rows and some columns. It is usable only when every selected cell is 1. A cover reaches every 1-cell; rectangles may overlap. The subscript in rc_1 names the cell value being covered, not a one-witness restriction.",
+      "formula": "rc_1(A) = minimum number of all-one rectangles covering supp_1(A)",
+      "aliases": ["rectangle cover", "1-rectangle cover", "unrestricted rectangle cover", "kappa(A)"],
+      "assumptions": ["X and Y are finite and nonempty", "Rectangles contain no zero cell", "Arbitrary overlap on 1-cells is allowed", "The empty family covers empty 1-support"],
+      "evidence": [{"source": "javadi-local-clique", "locator": "Introduction, printed p. 2"}, {"source": "karchmer-few-witnesses", "locator": "Section 2.1, printed p. 3, unrestricted kappa"}],
+      "status": "sourced"
+    },
+    {
+      "id": "fixed-bipartition-biclique-cover",
+      "label": "Fixed-side biclique cover",
+      "kind": "concept",
+      "domains": ["Mathematics", "Computer science"],
+      "cluster": "algorithms",
+      "level": "Start here",
+      "summary": "Cover a bipartite graph's edges by complete bipartite subgraphs that respect its fixed labeled sides.",
+      "explanation": "Keep the disjoint sides X and Y fixed. A biclique with sides S subset X and T subset Y contains exactly the edges represented by the rectangle S x T in the X-by-Y biadjacency matrix.",
+      "formula": "bc(G) = minimum number of bicliques covering E(G)",
+      "aliases": ["biclique edge cover", "bipartite dimension", "complete bipartite cover"],
+      "assumptions": ["Finite simple bipartite graph", "Fixed labeled nonempty sides X and Y", "Use the X-by-Y biadjacency matrix, not the full symmetric adjacency matrix", "The empty family covers an edgeless graph"],
+      "evidence": [{"source": "javadi-local-clique", "locator": "Introduction, printed p. 2, biclique-cover and biadjacency paragraphs"}],
+      "status": "sourced"
+    },
+    {
+      "id": "nondeterministic-communication-s2",
+      "label": "Nondeterministic communication depth",
+      "kind": "concept",
+      "domains": ["Computer science", "Mathematics"],
+      "cluster": "algorithms",
+      "level": "Intermediate",
+      "summary": "Worst-case accepting protocol depth under the precise Karchmer-Newman-Saks-Wigderson convention.",
+      "explanation": "One party has x and the other has y. An accepting branch identifies an all-one rectangle containing (x,y). N^1_S2 is Atlas notation for the source's n(f), measured by maximum leaf depth. It is not deterministic communication complexity and gives no privacy or implementation-latency guarantee.",
+      "formula": "N^1_S2(f) = ceil(log_2(max(1, rc_1(M_f))))",
+      "aliases": ["nondeterministic communication complexity", "yes-certificate communication", "n(f)"],
+      "assumptions": ["Finite nonempty input sets X and Y", "M_f[x,y]=f(x,y)", "S2 maximum-leaf-depth protocol convention", "Accept exactly the 1-inputs", "The displayed all-zero totalization is an Atlas convention"],
+      "evidence": [{"source": "karchmer-few-witnesses", "locator": "Sections 2.2-2.3, printed pp. 4-5; Proposition 3 and proof for nonempty 1-support"}],
+      "status": "sourced"
+    },
+    {
+      "id": "local-boolean-rank",
+      "label": "Local Boolean rank",
+      "kind": "concept",
+      "domains": ["Mathematics", "Computer science"],
+      "cluster": "algorithms",
+      "level": "Advanced",
+      "summary": "Minimize the largest number of selected rectangles containing any one row or column.",
+      "explanation": "This changes the objective from the total number of rectangles to the heaviest row-or-column participation. It does not count how many rectangles overlap on one matrix cell.",
+      "formula": "lr_B(A) = min_C max over rows and columns of rectangle incidence in C",
+      "aliases": ["local rank", "local rectangle-cover load", "row-column incidence"],
+      "assumptions": ["Unrestricted all-one rectangle covers", "Incidence is measured per row or column", "X and Y are nonempty so the maximum is defined", "The empty cover gives load zero on empty support"],
+      "evidence": [{"source": "javadi-local-clique", "locator": "Introduction, printed pp. 2-3, local Boolean-rank definition"}],
+      "status": "sourced"
+    },
+    {
+      "id": "local-biclique-cover",
+      "label": "Local biclique cover number",
+      "kind": "concept",
+      "domains": ["Mathematics", "Computer science"],
+      "cluster": "algorithms",
+      "level": "Advanced",
+      "summary": "Minimize the largest number of selected covering bicliques containing any one vertex.",
+      "explanation": "This is a vertex-load objective for a biclique edge cover. It is distinct from the total number of bicliques and from the number of witnesses covering an individual edge.",
+      "formula": "lbc(G) = min_C max_v number of bicliques in C containing v",
+      "aliases": ["local biclique covering", "vertex biclique load", "local biclique cover"],
+      "assumptions": ["Finite simple graph with fixed labeled nonempty bipartition", "Incidence is measured per vertex", "The empty cover gives every vertex load zero in an edgeless graph"],
+      "evidence": [{"source": "javadi-local-clique", "locator": "Introduction, printed pp. 2-3, local biclique-cover definition"}],
+      "status": "sourced"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "boolean-rank-r1",
+      "curation_record_id": "R1",
+      "from": "boolean-rank",
+      "to": "one-support-rectangle-cover",
+      "type": "equals_under_translation",
+      "statement": "For the stated Boolean conventions, r_B(A)=rc_1(A).",
+      "assumptions": ["Finite nonempty labeled X and Y", "A:X x Y->{0,1}", "Boolean OR-AND factors", "Unrestricted overlapping all-one rectangle cover", "k=0 and empty OR are allowed"],
+      "source_scope": "S1 supports the factor/rectangle correspondence. It does not separately supply the Atlas empty-support normalization.",
+      "witness_translation": {
+        "forward": "For each factor index l, take S_l={x:U[x,l]=1} and T_l={y:V[l,y]=1}. Its support S_l x T_l contains no zero of A, and the union covers every 1-cell; omit empty factors.",
+        "reverse": "For each chosen all-one rectangle S_l x T_l, use the indicator of S_l as a factor column and the indicator of T_l as a factor row. Their Boolean OR-AND product reconstructs A.",
+        "result": "A factorization with k factors gives a cover with at most k rectangles after empty factors are omitted, while a cover with t rectangles gives a factorization with exactly t factors. The two inequalities make the minima equal."
+      },
+      "local_boundary_case": {
+        "case": "A is all-zero on the still nonempty X and Y",
+        "adopted_conventions": ["Allow factor dimension k=0", "Define the empty disjunction as 0", "Allow the empty rectangle family"],
+        "argument": "The empty Boolean product reconstructs zero and the empty family covers empty support; nonnegative objectives make both minima zero.",
+        "result": "r_B(A)=rc_1(A)=0",
+        "evidence_basis": "atlas_local_definition_and_proof"
+      },
+      "notation_boundaries": ["rc_1 names the covered cell value and maps to S2 kappa(A)", "It is not S2 kappa_1(A), which restricts each 1-cell to at most one covering rectangle"],
+      "status": "established",
+      "evidence": [{"source": "javadi-local-clique", "locator": "Introduction, printed p. 2, Boolean-rank/all-one-submatrix correspondence"}]
+    },
+    {
+      "id": "boolean-rank-r2",
+      "curation_record_id": "R2",
+      "from": "one-support-rectangle-cover",
+      "to": "fixed-bipartition-biclique-cover",
+      "type": "equals_under_translation",
+      "statement": "For a graph with its fixed labeled bipartition, rc_1(A_G)=bc(G).",
+      "assumptions": ["Finite simple bipartite G", "Fixed labeled nonempty sides X and Y", "A_G is the X-by-Y biadjacency matrix", "Bicliques respect the fixed sides"],
+      "source_scope": "S1 supports the rectangle/biclique correspondence. The empty-cover normalization is stated separately by the Atlas.",
+      "witness_translation": {
+        "forward": "An all-one rectangle S x T gives the biclique with sides S subset X and T subset Y.",
+        "reverse": "A covering biclique with sides S subset X and T subset Y gives the all-one rectangle S x T in A_G.",
+        "result": "Matrix cells and graph edges correspond one-to-one, preserving cover cardinality in both directions."
+      },
+      "local_boundary_case": {
+        "case": "G is edgeless on the fixed nonempty sides",
+        "adopted_conventions": ["Allow the empty rectangle family", "Allow the empty biclique-cover family"],
+        "argument": "Both empty families cover the empty target set; nonnegative cardinalities make both minima zero.",
+        "result": "rc_1(A_G)=bc(G)=0",
+        "evidence_basis": "atlas_local_definition_and_proof"
+      },
+      "notation_boundaries": ["Use the rectangular biadjacency matrix A_G, not the full symmetric adjacency matrix", "The bipartition is part of the data and may not be changed during translation"],
+      "status": "established",
+      "evidence": [{"source": "javadi-local-clique", "locator": "Introduction, printed p. 2, rectangle-biclique correspondence"}]
+    },
+    {
+      "id": "boolean-rank-r3",
+      "curation_record_id": "R3",
+      "from": "one-support-rectangle-cover",
+      "to": "nondeterministic-communication-s2",
+      "type": "exact_formula_under_protocol_convention",
+      "statement": "For nonzero f, N^1_S2(f)=ceil(log_2 rc_1(M_f)); with the separately defined Atlas zero case, N^1_S2(f)=ceil(log_2(max(1,rc_1(M_f)))).",
+      "assumptions": ["Finite nonempty X and Y", "M_f[x,y]=f(x,y)", "S2 maximum-leaf-depth nondeterministic protocol convention", "Accepting-side unrestricted rectangle covers", "For the cited formula, f has at least one 1-input"],
+      "source_scope": "S2 Proposition 3 and its proof support the nonempty-1-support formula after the explicit notation mapping. The printed logarithm does not resolve rc_1=0.",
+      "witness_translation": {
+        "forward": "Given t>=1 covering rectangles, the first party nondeterministically names a row-compatible rectangle using ceil(log_2 t) bits and the second party checks column membership.",
+        "reverse": "Accepting leaves of a depth-h binary protocol are all-one rectangles covering every 1-input; there are at most 2^h leaves.",
+        "result": "The two inequalities give the ceiling-log equality for nonempty 1-support under the S2 protocol convention."
+      },
+      "local_boundary_case": {
+        "case": "f is all-zero",
+        "adopted_conventions": ["Set rc_1(M_f)=0 using the empty cover", "Use a depth-zero constant-reject protocol and set N^1_S2(f)=0"],
+        "argument": "There are no 1-inputs to accept, so constant rejection is sound and complete; depths are nonnegative.",
+        "result": "The local totalization equals ceil(log_2(max(1,0)))=0",
+        "evidence_basis": "atlas_local_definition_and_proof"
+      },
+      "notation_boundaries": ["N^1_S2 is Atlas notation for S2 n(f)", "It is not S2 n_1(f), which restricts witness multiplicity", "rc_1 is S2 unrestricted kappa, not kappa_1", "This is not deterministic communication complexity", "N^0_S2(f):=N^1_S2(1-f) is an Atlas complement-side definition if later displayed"],
+      "status": "established",
+      "evidence": [{"source": "karchmer-few-witnesses", "locator": "Sections 2.1-2.3, printed pp. 3-5; Proposition 3 and proof"}]
+    },
+    {
+      "id": "boolean-rank-r4",
+      "curation_record_id": "R4",
+      "from": "local-boolean-rank",
+      "to": "local-biclique-cover",
+      "type": "equals_under_translation",
+      "statement": "For a graph with its fixed labeled bipartition, lr_B(A_G)=lbc(G).",
+      "assumptions": ["Same fixed labeled nonempty bipartition as R2", "Objective is maximum rectangle incidence per row or column", "Graph objective is maximum biclique incidence per vertex", "Neither objective is per-cell or per-edge witness multiplicity"],
+      "source_scope": "S1 defines the two local-incidence objectives and states their equality. Its text does not separately supply the Atlas empty-cover convention.",
+      "witness_translation": {
+        "forward": "Translate every selected rectangle S x T to the corresponding fixed-side biclique. A row or column belongs to exactly the bicliques containing its corresponding graph vertex.",
+        "reverse": "Translate each selected fixed-side biclique back to its all-one rectangle; every vertex incidence becomes the corresponding row or column incidence.",
+        "result": "Every cover retains the same maximum incidence objective, so the minima agree."
+      },
+      "local_boundary_case": {
+        "case": "A_G has empty support and G is edgeless on nonempty X and Y",
+        "adopted_conventions": ["Allow empty rectangle and biclique-cover families", "Assign load zero to every row, column and vertex"],
+        "argument": "The maximum over the still nonempty index or vertex sets is defined and equals zero; nonnegative loads make it minimal.",
+        "result": "lr_B(A_G)=lbc(G)=0",
+        "evidence_basis": "atlas_local_definition_and_proof"
+      },
+      "notation_boundaries": ["Local means maximum participation per row, column or vertex", "It is not the number of rectangles covering an individual 1-cell and is not S2 bounded witness multiplicity"],
+      "status": "established",
+      "evidence": [{"source": "javadi-local-clique", "locator": "Introduction, printed pp. 2-3, local Boolean-rank and local biclique-cover paragraphs"}]
+    }
+  ],
+  "supporting_navigation_edges": [
+    {
+      "id": "boolean-matrix-cover-definition",
+      "from": "boolean-relation-matrix",
+      "to": "one-support-rectangle-cover",
+      "type": "defines_parameter",
+      "statement": "The positions of the 1-cells determine which all-one rectangles are available and what must be covered.",
+      "assumptions": ["Finite nonempty labeled X and Y", "A has entries in {0,1}"],
+      "status": "established",
+      "evidence": [{"source": "javadi-local-clique", "locator": "Introduction, printed p. 2"}, {"source": "karchmer-few-witnesses", "locator": "Section 2.1, printed p. 3"}]
+    },
+    {
+      "id": "rectangle-cover-local-objective",
+      "from": "one-support-rectangle-cover",
+      "to": "local-boolean-rank",
+      "type": "changes_objective",
+      "statement": "Local Boolean rank minimizes the worst row-or-column participation over the same kind of all-one rectangle covers, rather than the total number of rectangles.",
+      "assumptions": ["Incidence is per row or column", "Arbitrary 1-cell overlap remains allowed"],
+      "status": "established",
+      "evidence": [{"source": "javadi-local-clique", "locator": "Introduction, printed pp. 2-3"}]
+    },
+    {
+      "id": "biclique-cover-local-objective",
+      "from": "fixed-bipartition-biclique-cover",
+      "to": "local-biclique-cover",
+      "type": "changes_objective",
+      "statement": "Local biclique cover number minimizes worst vertex participation over biclique edge covers, rather than the total number of bicliques.",
+      "assumptions": ["Fixed labeled bipartition", "Incidence is per vertex"],
+      "status": "established",
+      "evidence": [{"source": "javadi-local-clique", "locator": "Introduction, printed pp. 2-3"}]
+    },
+    {
+      "id": "biadjacency-versus-adjacency",
+      "from": "boolean-relation-matrix",
+      "to": "adjacency-matrix",
+      "type": "distinguishes_representation",
+      "statement": "The X-by-Y Boolean relation or biadjacency matrix used in R2 may be rectangular; the existing network node uses a square symmetric full-graph adjacency matrix.",
+      "assumptions": ["For the biadjacency reading, a fixed labeled bipartition X disjoint-union Y is retained", "No equality between the two matrix objects is asserted"],
+      "status": "established",
+      "evidence": [{"source": "javadi-local-clique", "locator": "Introduction, printed p. 2, bipartite adjacency matrix"}, {"source": "spielman-laplacian", "locator": "Section 2.2, L=D-A and symmetric weighted adjacency convention"}],
+      "purpose": "This exact definitional boundary connects the new records to the existing navigation component without claiming a semantic equivalence."
+    }
+  ],
+  "journeys": [
+    {
+      "id": "boolean-table-to-certificate",
+      "title": "From a yes/no table to a communication certificate",
+      "description": "Follow the same collection of yes-pairs through rectangles, Boolean factors, fixed-side bicliques and one precise nondeterministic communication model.",
+      "steps": [
+        {"node": "boolean-relation-matrix", "prompt": "Start with a public yes/no table f(x,y). Which labeled pairs are accepted?"},
+        {"node": "one-support-rectangle-cover", "prompt": "Group accepted pairs into row-by-column blocks that contain no rejected pair."},
+        {"node": "boolean-rank", "prompt": "Read each block as one Boolean factor; overlap on accepted cells is allowed."},
+        {"node": "fixed-bipartition-biclique-cover", "prompt": "Keep X and Y fixed and read the same blocks as complete bipartite subgraphs."},
+        {"node": "nondeterministic-communication-s2", "prompt": "If one machine knows x and another knows y, how many bits of branch depth identify a compatible block under the S2 model? Check the all-zero convention and what this does not say about deterministic cost, privacy, latency or deployed systems."}
+      ]
+    },
+    {
+      "id": "total-cover-to-local-load",
+      "title": "From total cover size to participant load",
+      "description": "Compare minimizing the number of covering objects with minimizing how many objects touch any one row, column or vertex.",
+      "steps": [
+        {"node": "one-support-rectangle-cover", "prompt": "First count the total number of rectangles."},
+        {"node": "local-boolean-rank", "prompt": "Now change the objective to the busiest row or column, not the busiest cell."},
+        {"node": "local-biclique-cover", "prompt": "Translate that row-or-column load to vertex participation while keeping the bipartition fixed."}
+      ]
+    }
+  ],
+  "beginner_explanation": "Imagine a yes/no table. A rectangle is a block of rows and columns for which every pair says yes. The same nonempty block can be read as one Boolean factor or as one complete bipartite subgraph. Translating a solution in either direction never needs more pieces, so the two best counts are equal under the listed assumptions. In the cited nondeterministic communication model, naming one of t blocks needs ceiling(log_2 t) branch bits when at least one yes-pair exists. The all-no table is handled by a separately declared Atlas convention. These are established translations, not a new discovery or a performance claim about real software.",
+  "file_mapping": [
+    {
+      "path": "data/atlas.json",
+      "actions": ["Bump schema_version from 1.0 to 1.1", "Broaden scope text from only Laplacian/network content to name both curated regions", "Add two source records", "Add seven nodes", "Add four admitted R-edges and four supporting navigation/definition edges", "Add two journeys", "Retain status sourced/established rather than formal or proposed", "Store curation_record metadata for R1-R4"]
+    },
+    {
+      "path": "lib/atlas.ts",
+      "actions": ["Add typed SourceScope, WitnessTranslation, LocalBoundaryCase and CurationRecord structures", "Extend AtlasEdge with the new optional fields", "Update the accepted raw schema type to 1.1 if made literal", "No search or connectionPath algorithm change is needed"]
+    },
+    {
+      "path": "components/atlas-map.tsx",
+      "actions": ["Render every new semantic edge field in Connection", "Use plain learner labels for source scope, witness directions, zero case and notation boundaries", "Retain relation direction and the navigation-only warning", "Keep the current dynamic radial layout unless a functional bounds check shows a concrete failure; if bounds change, update both the SVG viewBox and background rectangle"]
+    },
+    {
+      "path": "app/page.tsx",
+      "actions": ["Replace the hard-coded LAPLACIANS & NETWORKS scope label", "Update the first-region coverage sentence", "Journey choice and step rendering require no structural change"]
+    },
+    {
+      "path": "scripts/validate_atlas.py",
+      "actions": ["Require schema 1.1", "Validate finite numeric node x/y", "Validate the shape and nonempty text of new optional edge fields", "Require full semantic detail and matching curation IDs on boolean-rank-r1 through boolean-rank-r4", "Keep source entailment outside this structural validator"]
+    },
+    {
+      "path": "scripts/check-atlas.ts",
+      "actions": ["Add lexical rediscovery cases for all seven new concepts", "Assert R1-R4 exact statements, source scopes, witness directions, zero-case evidence_basis and notation guardrails", "Assert the two new journeys and all-pairs connectivity", "Retain the limitation that these are curated checks, not semantic retrieval evaluation"]
+    },
+    {
+      "path": "docs/data-model.md",
+      "actions": ["Document schema 1.1 edge details and the difference between primary-source scope and Atlas-local boundary conventions", "State that witness translations explain known equalities and do not make them formally verified"]
+    },
+    {
+      "path": "docs/boolean-rank-bridge.md",
+      "actions": ["Add the beginner explanation", "List R1-R4 with exact assumptions, source locators and notation boundaries", "State that all four relationships are known and that no benchmark or practical impact was measured"]
+    },
+    {
+      "path": "docs/coverage.md and docs/reuse-decision.md",
+      "actions": ["Update exact curated counts only after integration", "Describe this as a reviewed known cross-domain bridge", "Make no discovery, broad coverage or practical-impact claim"]
+    },
+    {
+      "path": "evidence/boolean-rank/",
+      "actions": ["Copy the corrected records and independent review byte-for-byte", "Add a typed integration projection mapping R1-R4 to final edge IDs and hashes", "Retain source-acquisition limitations without publishing copied paper prose or figures"]
+    }
+  ],
+  "test_plan": {
+    "structural_positive": [
+      "Final corpus has expected count deltas: +7 nodes, +8 edges, +2 sources and +2 journeys relative to the pinned input, if this exact design is used.",
+      "Every new endpoint, journey step and evidence source resolves.",
+      "All node metadata coordinates are finite numbers and all cluster names have colors, even though the current map renderer computes its own selected/neighbor positions.",
+      "All ordered node pairs still have a navigation path."
+    ],
+    "semantic_projection": [
+      "R1-R4 final edge fields equal the reviewed record projection, including every condition, witness direction, source locator and zero-case result.",
+      "R4 cannot pass unless local-boolean-rank and local-biclique-cover exist as separate definitions.",
+      "R3 must say M_f[x,y]=f(x,y), limit the cited formula to nonempty 1-support and label the totalization Atlas-local.",
+      "R2 and R4 must retain fixed labeled sides and the biadjacency-matrix convention.",
+      "Local incidence must remain per row/column or vertex and must not become per-cell witness multiplicity."
+    ],
+    "negative_fixtures": [
+      "Reject an R3 record that attributes log_2(max(1,rc_1)) to S2 without the local boundary block.",
+      "Reject notation that maps rc_1 to S2 kappa_1 or N^1_S2 to S2 n_1.",
+      "Reject R2 with a full symmetric adjacency matrix or without fixed labeled sides.",
+      "Reject R4 if its objective is per-cell or per-edge multiplicity.",
+      "Reject a witness object missing either direction or its stated result.",
+      "Reject an Atlas-local zero convention with source-backed attribution.",
+      "Reject nonnumeric, infinite or missing x/y coordinates."
+    ],
+    "search_and_journey": [
+      "Search 'boolean rank', 'rectangle cover', 'biclique cover', 'communication matrix', 'nondeterministic communication' and 'local biclique' returns the intended node.",
+      "Hyphen and punctuation normalization finds one-support-rectangle-cover.",
+      "The beginner journey renders all five steps, each node's assumptions and source link, and the R3 zero-case/notation boundary when its connection is opened.",
+      "For each new selectable node, the computed center, circles and wrapped label coordinates stay within the declared SVG bounds; this is a functional coordinate assertion, not visual-quality certification.",
+      "The practical-CS prompt contains no claim about deterministic cost, privacy, latency, deployed performance or novelty."
+    ],
+    "regression": [
+      "Run validate_atlas.py and check-atlas.ts.",
+      "Run TypeScript typecheck, lint and production build.",
+      "Run existing corpus, graph-browser, library, external-relation, subject, formal-search and research-search checks because atlas scope and page copy changed.",
+      "Independently compare the final integrated projection with the two pinned admitted inputs; the implementer must not self-certify this gate."
+    ],
+    "not_required": ["No solver or 682-matrix census is needed to integrate these already-reviewed identities", "No application benchmark or performance study", "No claim that the source papers, imported maps or this integration discover a new equivalence"]
+  },
+  "conditional_teaching_example": {
+    "status": "do_not_integrate_until_its_separate_independent_audit_passes",
+    "reported_external_artifacts": ["D:/CodexWorkspaces/mathematics-atlas/boolean-rank-example-work/contract-v1.md", "D:/CodexWorkspaces/mathematics-atlas/boolean-rank-example-work/output/attempt-01.json"],
+    "recommended_placement_if_approved": "A worked-example card linked from the one-support-rectangle-cover and boolean-rank stops, immediately after the explanation that Boolean OR permits overlap.",
+    "concept_links": ["boolean-relation-matrix", "one-support-rectangle-cover", "boolean-rank"],
+    "schema_note": "The current examples validator hard-codes artifact=fixtures/frozen.json and graph fixture IDs. A non-graph example needs a safely resolved artifact field and a kind-specific fixture validator, or it should remain documentation rather than be forced into the graph fixture collection.",
+    "teaching_boundary": "Use the audited 3x3 record only to illustrate Boolean OR versus ordinary arithmetic addition and overlap versus partition. Label it authored finite teaching material; do not use it as a practical benchmark, discovery, general proof or impact evidence.",
+    "certification": "This design did not inspect or certify the example's computation."
+  },
+  "recommendation": {
+    "decision": "IMPLEMENT_LATER_WITH_SCHEMA_1_1",
+    "reason": "The bridge is already source-reviewed and adds a useful matrix/graph/communication path. The structured edge extension is necessary so the assumptions and local zero conventions survive API, UI and navigation instead of being buried in prose.",
+    "material_guardrail": "The R1-R4 edge statements are established known mathematics under exact conventions. The practical question is an explanatory use of the S2 model, not evidence of real-system benefit, privacy, latency, deterministic complexity, benchmark performance or novelty."
+  }
+}

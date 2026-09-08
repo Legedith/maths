@@ -1,0 +1,273 @@
+{
+  "schema_version": "1.0",
+  "review_id": "boolean-rank-source-independent-review-v1",
+  "reviewed_at_utc": "2026-09-08T08:54:17.565092+00:00",
+  "auditor": {
+    "identity": "/root/sol_symmetry_audit",
+    "role": "independent source and mathematical-assumption reviewer",
+    "not_author": true
+  },
+  "scope": {
+    "kind": "source_only_semantic_review",
+    "numeric_validation_executed": false,
+    "implementation_reviewed": false,
+    "novelty_assessed": false,
+    "publication_boundary": "No third-party full text is included in the publication artifacts; local PDFs are excluded from the publication manifest."
+  },
+  "input_pins": [
+    {
+      "path": "boolean-rank-source-work/manifest.json",
+      "bytes": 1099,
+      "sha256": "c5600db027620636552c23db3db54a1ffa3d6d44ba478b1da5f1174e2dec0d04"
+    },
+    {
+      "path": "boolean-rank-source-work/proposal.md",
+      "bytes": 5317,
+      "sha256": "7ae36d092d1bb285d0bad35fd75b40e93383fa1261ecab02f190c2869e900940"
+    },
+    {
+      "path": "boolean-rank-source-work/retrieval-log.json",
+      "bytes": 4689,
+      "sha256": "9a0be248f7333cecc5b202094aed655edd337ed0742a374f3e82f98ef62eb7d3"
+    },
+    {
+      "path": "boolean-rank-source-work/source-notes.json",
+      "bytes": 11132,
+      "sha256": "fd3e20377abac75c74545a7e1358dc99bcce4977d495236a7791fa4bdedcf592"
+    }
+  ],
+  "primary_sources": [
+    {
+      "source_id": "S1",
+      "title": "Local Clique Covering of Graphs",
+      "authors": [
+        "Ramin Javadi",
+        "Zeinab Maleki",
+        "Behnaz Omoomi"
+      ],
+      "url": "https://arxiv.org/pdf/1210.6965v1",
+      "local_bytes": 376122,
+      "local_sha256": "ac9b847ddb8691cc84526cf9b080ef351b9fa60b72f4038b591c31eca4e6d1e0",
+      "locators": [
+        {
+          "printed_pdf_pages": [
+            2,
+            3
+          ],
+          "section": "Introduction",
+          "support": "Boolean rank is the minimum number of all-one submatrices covering all one entries; for a bipartite adjacency matrix those rectangles correspond to bicliques and give r_B(A)=bc(G)."
+        },
+        {
+          "printed_pdf_pages": [
+            2,
+            3
+          ],
+          "section": "Introduction",
+          "support": "Local Boolean rank bounds the number of selected rectangles containing each row or column, and the source states lr_B(A)=lbc(G)."
+        }
+      ],
+      "source_limit": "The paper does not separately state the empty-support normalization used by this proposal."
+    },
+    {
+      "source_id": "S2",
+      "title": "Non-deterministic Communication Complexity with Few Witnesses",
+      "authors": [
+        "Mauricio Karchmer",
+        "Ilan Newman",
+        "Mike Saks",
+        "Avi Wigderson"
+      ],
+      "url": "https://www.math.ias.edu/~avi/PUBLICATIONS/MYPAPERS/SAKS/KCOVER/JOURNAL/kcover.pdf",
+      "local_bytes": 168879,
+      "local_sha256": "05b20f1d7ba8707d3c70fb214d6fa4e15a134ba5024d4712a885a5bf05403609",
+      "locators": [
+        {
+          "printed_pdf_page": 3,
+          "section": "2.1 Matrices",
+          "support": "The source defines unrestricted rectangle-cover number κ(M), entry degree, and κ_k(M), where k bounds per-cell cover multiplicity."
+        },
+        {
+          "printed_pdf_page": 4,
+          "section": "2.2 Communication Protocols",
+          "support": "The source defines nondeterministic protocol complexity n(f) as maximum leaf depth and n_k(f) by witness multiplicity at most k."
+        },
+        {
+          "printed_pdf_page": 5,
+          "section": "2.3, Proposition 3 and proof",
+          "support": "For nonempty 1-support, the stated formula is n(f)=ceil(log2 κ(M_f)); the proof names t cover rectangles using ceil(log2 t) bits."
+        }
+      ],
+      "source_limits": [
+        "The printed proposition says any function but does not resolve κ(M_f)=0: log2(0) is undefined and the proof assumes a cover of size t that can be encoded.",
+        "The source notation n_1(f) denotes witness multiplicity at most one and is not the superscript N^1 notation proposed for the accepting side.",
+        "The local downloaded byte copy required disabled TLS certificate verification after verified clients rejected the host chain; semantic verification therefore rests on direct reading of the same official primary URL, while the local hash is acquisition metadata only."
+      ]
+    },
+    {
+      "source_id": "S3",
+      "title": "Contentment in graph theory: Covering graphs with cliques",
+      "author": "James B. Orlin",
+      "url": "https://doi.org/10.1016/1385-7258(77)90055-5",
+      "locator": "Publisher abstract only",
+      "support": "Historical provenance that biclique edge covering has a natural matrix translation.",
+      "source_limit": "No full article was reviewed; this source cannot carry any exact equality or edge-case claim in the map."
+    }
+  ],
+  "relationship_decisions": [
+    {
+      "claim_id": "R1",
+      "decision": "supported_with_explicit_local_zero_convention",
+      "may_enter_map": true,
+      "statement_reviewed": "r_B(A)=rc_1(A)",
+      "conditions": [
+        "X and Y are finite and nonempty.",
+        "Boolean multiplication/addition are AND/OR.",
+        "rc_1 covers the 1-support with arbitrary overlap and no zero cells."
+      ],
+      "proof_check": "Each factor column/row pair has rectangular support and Boolean OR takes the union; conversely each rectangle supplies indicator vectors for one factor.",
+      "zero_case": "With empty disjunction equal to 0 and the empty rectangle family admissible, both values are 0. This is a project definition and proof, not a separately stated S1 edge case.",
+      "required_change_ids": [
+        "CH1",
+        "CH2",
+        "CH4"
+      ]
+    },
+    {
+      "claim_id": "R2",
+      "decision": "supported",
+      "may_enter_map": true,
+      "statement_reviewed": "rc_1(A_G)=bc(G), hence r_B(A_G)=bc(G)",
+      "conditions": [
+        "G is finite and simple.",
+        "Its labeled bipartition X disjoint-union Y is fixed, with X and Y nonempty.",
+        "Only edge-bearing bicliques matter; their sides align with X and Y."
+      ],
+      "proof_check": "The edge set of a biclique with sides S subseteq X and T subseteq Y is exactly the all-one rectangle S x T, preserving cover cardinality in both directions.",
+      "zero_case": "For an edgeless graph on the fixed nonempty sides, the equality uses the project convention that the empty biclique and rectangle families are covers of size 0.",
+      "required_change_ids": [
+        "CH1",
+        "CH4"
+      ]
+    },
+    {
+      "claim_id": "R3",
+      "decision": "changes_required",
+      "may_enter_map": false,
+      "statement_reviewed": "N^1(f)=ceil(log2(max(1,rc_1(M_f))))",
+      "supported_core": "For nonzero f, after identifying atlas N^1 with S2 n(f) and atlas rc_1 with S2 unrestricted κ, S2 Proposition 3 gives the claimed formula.",
+      "required_convention_mapping": [
+        "Atlas superscript N^1 means acceptance on the 1-side and equals S2 n(f).",
+        "Atlas rc_1 means covering 1-cells and equals S2 κ(M); it is not S2 κ_1(M).",
+        "S2 subscript n_1(f) means witness multiplicity at most one and corresponds to κ_1, not to atlas N^1."
+      ],
+      "zero_case": "For all-zero f, define rc_1(M_f)=0 by the empty cover and define N^1(f)=0 via a depth-zero constant-reject protocol. The max(1,.) formula then follows as a local totalization; do not attribute that resolution to the printed proposition.",
+      "complement_case": "N^0(f):=N^1(1-f) is an atlas definition of the rejecting side; S2 uses n(complement f), not this superscript notation.",
+      "required_change_ids": [
+        "CH1",
+        "CH2",
+        "CH3",
+        "CH4",
+        "CH5",
+        "CH6"
+      ]
+    },
+    {
+      "claim_id": "R4",
+      "decision": "supported_with_explicit_local_zero_convention",
+      "may_enter_map": true,
+      "statement_reviewed": "lr_B(A_G)=lbc(G)",
+      "conditions": [
+        "The fixed bipartition and labels are retained.",
+        "The objective counts selected rectangles containing each row or column and selected bicliques containing each corresponding vertex.",
+        "It does not count how many rectangles cover an individual cell."
+      ],
+      "proof_check": "The rectangle-biclique correspondence is objectwise and preserves membership of every row/column index as membership of the corresponding vertex, so it preserves the maximum incidence objective.",
+      "zero_case": "The empty cover gives incidence 0 on every vertex/row/column when X,Y are nonempty; this normalization should be labeled local.",
+      "required_change_ids": [
+        "CH1",
+        "CH4"
+      ]
+    }
+  ],
+  "guardrail_decisions": [
+    {
+      "id": "G1",
+      "decision": "supported",
+      "note": "S2 Proposition 2 uses an ordinary sum only for κ_1, whose per-cell degree at most one makes the nonzero rectangles disjoint. It does not convert arbitrary overlapping Boolean covers into ordinary-rank decompositions."
+    },
+    {
+      "id": "G2",
+      "decision": "supported",
+      "note": "S1 local incidence is per row/column or graph vertex; S2 k-cover degree is per matrix cell/input."
+    },
+    {
+      "id": "G3",
+      "decision": "supported",
+      "note": "S2 explicitly separates deterministic c(f) from nondeterministic n(f) and says no analogous exact deterministic characterization is known."
+    },
+    {
+      "id": "G4",
+      "decision": "supported",
+      "note": "Each cross-domain edge must retain its typed translation and assumptions."
+    }
+  ],
+  "required_changes": [
+    {
+      "id": "CH1",
+      "severity": "required",
+      "change": "Replace the dimension sentence with: Let X and Y be finite nonempty sets throughout. Empty support means the all-zero matrix on X x Y; it does not mean an empty index set."
+    },
+    {
+      "id": "CH2",
+      "severity": "required",
+      "change": "State that rc_1 means rectangle cover of the 1-support and maps to S2 κ(M), while S2 κ_1(M) is the distinct multiplicity-one cover/partition parameter."
+    },
+    {
+      "id": "CH3",
+      "severity": "required",
+      "change": "Define atlas N^1 as S2 n(f) under the cited max-leaf-depth protocol convention, and warn that superscript N^1 is not S2 subscript n_1(f)."
+    },
+    {
+      "id": "CH4",
+      "severity": "required",
+      "change": "Label every zero-support value as an adopted empty-family/empty-disjunction convention with a short local proof; do not imply S1 or S2 explicitly states all of those edge cases."
+    },
+    {
+      "id": "CH5",
+      "severity": "required",
+      "change": "For the converse in R3, describe S2’s convention precisely: the first party nondeterministically names a cover rectangle compatible with its row and the second party tests its column. Avoid presenting the equality as convention-independent certificate complexity."
+    },
+    {
+      "id": "CH6",
+      "severity": "required",
+      "change": "Present N^0(f):=N^1(1-f) as the atlas rejecting-side definition and show the mapping to S2 n(complement f), rather than attributing the superscript notation to S2."
+    }
+  ],
+  "recommended_map_wording": {
+    "scope": "Let X and Y be finite nonempty sets. Empty support means A is all-zero on X x Y. We allow k=0, use empty OR = 0, and allow the empty cover family.",
+    "rectangle_notation": "rc_1(A) denotes an unrestricted cover of the 1-support by all-one rectangles; the subscript names the cell value being covered. It corresponds to κ(A) in Karchmer et al., not their κ_1(A).",
+    "communication_concept": "Write N^1_S2(f) for Karchmer et al.’s n(f), the minimum maximum leaf depth of a nondeterministic protocol accepting exactly the 1-inputs. The superscript records the accepted side; it is unrelated to their n_1(f), which imposes one witness per input.",
+    "communication_relationship": "If f has at least one 1-input, Proposition 3 gives N^1_S2(f)=ceil(log2 rc_1(M_f)). Separately, for all-zero f we adopt rc_1(M_f)=0 and N^1_S2(f)=0 using the empty cover and a depth-zero constant-reject protocol. Thus the totalized local formula is N^1_S2(f)=ceil(log2(max(1,rc_1(M_f)))).",
+    "local_relationship": "Under the fixed bipartition, lr_B(A_G)=lbc(G) because row/column participation is exactly vertex participation. This is different from bounding the number of rectangles covering each 1-cell."
+  },
+  "map_admission": {
+    "concepts_C1_to_C4": "admissible after CH1, CH2, and CH4 are applied where relevant",
+    "concept_C5": "admissible only after CH3, CH5, and CH6",
+    "relationships_R1_R2_R4": "admissible with their listed assumptions and explicit project zero convention",
+    "relationship_R3": "blocked in the current wording; admissible after all six changes",
+    "historical_S3_link": "admissible only as historical provenance with publisher-abstract access disclosed"
+  },
+  "overall_recommendation": "changes_required",
+  "post_change_outlook": "All four conditioned relationships are suitable for a learning map after the required notation, protocol-convention, domain, and zero-case attribution repairs. They are established/source-backed bridges, not novel results.",
+  "evidence_files": [
+    "input-verification.json",
+    "source-direct-check.json",
+    "source-direct-check-attempt-01.json",
+    "source-fetch-attempt-01.json",
+    "source-fetch-attempt-02.json",
+    "source-fetch-attempt-03.json",
+    "source-fetch-attempt-04.json",
+    "source-fetch-attempt-05.json",
+    "retrieval-process-note.json"
+  ]
+}

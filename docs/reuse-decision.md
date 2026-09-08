@@ -19,3 +19,11 @@ The terminal-symmetry cache has an independently audited correctness argument an
 The fixed 24-result study is now complete. Two frozen source-only AI reviews agreed on 21 results; adjudication retained 12 supported generated summaries, 9 refuted summaries and 3 insufficient cases. These are descriptive counts for a purposive set, not population error rates or claims that the original papers are wrong. The retrieval-derived checker fixtures produced seven instance successes, two abstentions and no counterexamples, adding zero source-refutation detections beyond the source reviews. See the [independent final audit](../evidence/assumption-checks/independent/final-audit.json) and [approved claims](../.codex/evidence/runs/assumption-checks-v1/bundle.json).
 
 Keep that checker as a bounded diagnostic. Before extending its grammar, assess whether existing formal-search and exact mathematics tools can supply independently replayable witnesses for cases it cannot express. Any reuse of the already labelled 24 results is post hoc feasibility work; new accuracy claims would require a separate untouched evaluation. Useful impact would mean preventing an incorrect transfer in a real task or saving measured researcher work. Neither benefit nor new mathematics has been demonstrated.
+
+The Boolean-rank region now represents four independently admitted known
+translations, with both witness directions and local zero conventions visible
+in connection details and retained in API objects. Its
+[integration record](boolean-rank-bridge.md) tracks the separate product review.
+This extends the explanation of applicable mathematics. A practical reuse
+test must still reproduce an existing application method and validate its
+explicit output; adding these records alone does not establish that benefit.

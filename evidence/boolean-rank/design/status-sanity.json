@@ -1,0 +1,143 @@
+{
+  "schema_version": "boolean-rank-status-sanity-v1",
+  "observed_at": "2026-09-08",
+  "scope": "Read-only sanity check of the requested ELI15/current-status wording against the current project and admitted Boolean-rank records. This is not an implementation, browser review, practical-impact evaluation, or novelty assessment.",
+  "overall_status": "accurate_with_required_qualifiers",
+  "statements": [
+    {
+      "id": "mathgloss_reuse",
+      "status": "supported",
+      "approved_wording": "The project reuses a pinned MathGloss export containing 4,814 metadata records and 7,217 resource links as a concept and learning-resource library.",
+      "required_qualifier": "MathGloss identity and mapping assertions remain unreviewed, and the import is not a verified semantic atlas.",
+      "evidence": [
+        {
+          "path": "D:/CodexWorkspaces/mathematics-atlas/project/docs/reuse-decision.md",
+          "sha256": "74d5e1613f4cf83b2215ddbb5ce1c09f0fa606c97343ab8b0208a4698409bb75",
+          "locator": "lines 5-11, especially row MathGloss"
+        },
+        {
+          "path": "D:/CodexWorkspaces/mathematics-atlas/project/docs/coverage.md",
+          "sha256": "92358d4e3d47e2035207132c1a1044f113bae32a5366a78bec51574f44051361",
+          "locator": "lines 3-5"
+        }
+      ]
+    },
+    {
+      "id": "msc_reuse",
+      "status": "supported",
+      "approved_wording": "The project reuses MSC2020 classification data: 6,603 subject records and 3,083 retained source cross-references are available for subject navigation.",
+      "required_qualifier": "The browser preserves qualifications, collection targets, and source differences; it does not infer equivalence, prerequisites, proofs, or automatic discovery.",
+      "evidence": [
+        {
+          "path": "D:/CodexWorkspaces/mathematics-atlas/project/docs/reuse-decision.md",
+          "sha256": "74d5e1613f4cf83b2215ddbb5ce1c09f0fa606c97343ab8b0208a4698409bb75",
+          "locator": "lines 5-11, especially row MSC2020"
+        },
+        {
+          "path": "D:/CodexWorkspaces/mathematics-atlas/project/docs/subject-browser.md",
+          "sha256": "c8f454011e9e9411a77d3340e05d49b53c7223ce2edb8d83110c7c534c1b18bb",
+          "locator": "lines 3-7 and 31-33"
+        }
+      ]
+    },
+    {
+      "id": "external_search_reuse",
+      "status": "supported",
+      "approved_wording": "The project has thin external-search adapters for Loogle and TheoremSearch instead of duplicating their theorem indexes.",
+      "required_qualifier": "Loogle is used as declaration-name substring search. TheoremSearch generated summaries are kept separate from extracted source bodies. Neither result type proves applicability, equivalence, truth, or novelty.",
+      "evidence": [
+        {
+          "path": "D:/CodexWorkspaces/mathematics-atlas/project/docs/reuse-decision.md",
+          "sha256": "74d5e1613f4cf83b2215ddbb5ce1c09f0fa606c97343ab8b0208a4698409bb75",
+          "locator": "lines 5-13"
+        },
+        {
+          "path": "D:/CodexWorkspaces/mathematics-atlas/project/docs/research-search.md",
+          "sha256": "f59b2222b9ddf5204491d87ea9230aaac7db173f2e05eb61a9c52202b731b34c",
+          "locator": "lines 3-7"
+        }
+      ]
+    },
+    {
+      "id": "boolean_rank_current_state",
+      "status": "supported_with_timing_boundary",
+      "approved_wording": "Reviewed Boolean-rank, one-rectangle-cover, fixed-side biclique-cover, nondeterministic-communication, and local-load relationships are being prepared for explicit integration with their assumptions and witness translations.",
+      "required_qualifier": "The current project atlas did not yet contain these nodes or edges when this check was made. The admitted R1-R4 records and independent correction review support design work; they do not by themselves certify a later implementation.",
+      "evidence": [
+        {
+          "path": "D:/CodexWorkspaces/mathematics-atlas/boolean-rank-clarification-work/corrected-records-v1.json",
+          "sha256": "0ba1c19b75b0b37fcd29214d3ad5565aca747481aba779084e23367b0a110fd2",
+          "locator": "records R1-R4"
+        },
+        {
+          "path": "D:/CodexWorkspaces/mathematics-atlas/boolean-rank-correction-review-work/correction-review.json",
+          "sha256": "13bff50ecbd050f359a7948996197e9b09a12c5a5305fedb4aa40804cefcbad0",
+          "locator": "independent correction verdict and per-record checks"
+        },
+        {
+          "path": "D:/CodexWorkspaces/mathematics-atlas/project/data/atlas.json",
+          "sha256": "6d0b37a4f7bdd7181b45d464bb5ea5f038cd097e33d56140c8beb74a3158276d",
+          "locator": "current node and edge arrays; no Boolean-rank/rectangle/biclique entries"
+        }
+      ]
+    },
+    {
+      "id": "teaching_example_current_state",
+      "status": "pending_independent_review",
+      "approved_wording": "A small 3-by-3 teaching illustration has been computed and is being independently checked.",
+      "required_qualifier": "Do not call it independently verified until its separate audit is sealed. It is a teaching illustration, not an application benchmark or evidence of practical impact.",
+      "evidence": [
+        {
+          "path": "D:/CodexWorkspaces/mathematics-atlas/boolean-rank-example-work/contract-v1.md",
+          "sha256": "c6ab37d4841ccaaadf5a95160bf75cfe76a34bbf9225645cee09f06a23f1bfd7",
+          "locator": "teaching-only scope and frozen example contract"
+        },
+        {
+          "path": "D:/CodexWorkspaces/mathematics-atlas/boolean-rank-example-work/output/attempt-01.json",
+          "sha256": "07b65f9a15e827f4707d9187f8c71bafd454134269e5e3ada8403ccf6eac0a8f",
+          "locator": "author output; independent certification intentionally not inferred"
+        }
+      ]
+    },
+    {
+      "id": "real_world_impact",
+      "status": "not_measured",
+      "approved_wording": "The current value is a checked way to find candidate concepts, expose assumptions, and replay small exact witnesses. No measured real-world discovery or researcher-productivity benefit has yet been shown.",
+      "required_qualifier": "A source mismatch or exact known-case replay demonstrates a guardrail on one case, not prevalence, broad accuracy, a new theorem, or practical benefit.",
+      "evidence": [
+        {
+          "path": "D:/CodexWorkspaces/mathematics-atlas/project/docs/reuse-decision.md",
+          "sha256": "74d5e1613f4cf83b2215ddbb5ce1c09f0fa606c97343ab8b0208a4698409bb75",
+          "locator": "lines 15-21"
+        },
+        {
+          "path": "D:/CodexWorkspaces/mathematics-atlas/project/docs/coverage.md",
+          "sha256": "92358d4e3d47e2035207132c1a1044f113bae32a5366a78bec51574f44051361",
+          "locator": "lines 3-17"
+        }
+      ]
+    },
+    {
+      "id": "reuse_or_pivot",
+      "status": "reuse_first_supported",
+      "approved_wording": "Reuse existing catalogues and search indexes for breadth; keep the custom Atlas as a small curated explanation and verification layer for assumption-sensitive links.",
+      "required_qualifier": "The initial survey was a focused literature brief, not an installation or comparative evaluation, so it did not justify building a custom broad mathematics index. Future pivots should follow concrete usefulness or measured failure, not an unsupported claim that existing systems are inadequate.",
+      "evidence": [
+        {
+          "path": "D:/CodexWorkspaces/mathematics-atlas/project/docs/reuse-decision.md",
+          "sha256": "74d5e1613f4cf83b2215ddbb5ce1c09f0fa606c97343ab8b0208a4698409bb75",
+          "locator": "lines 1-15 and 21"
+        }
+      ]
+    }
+  ],
+  "eli15": "Use the big existing catalogues as indexes that help us find books on the shelves. Use the small Atlas as a carefully checked guide that explains when two ideas really line up and what assumptions are needed. Right now it has useful parts and safeguards, but it has not yet proved that it produces new discoveries or saves people measurable work.",
+  "prohibited_overclaims": [
+    "The project maps all mathematics.",
+    "MathGloss or MSC links are automatically proved equivalences or prerequisites.",
+    "Loogle or TheoremSearch results establish applicability, truth, or novelty.",
+    "The Boolean-rank bridge is already integrated into the public Atlas.",
+    "The 3-by-3 illustration is independently verified before its separate audit is sealed.",
+    "The project has measured a real-world discovery or productivity benefit."
+  ]
+}

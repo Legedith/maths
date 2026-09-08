@@ -1,6 +1,6 @@
 # Coverage and expansion
 
-The reviewed region covers Laplacians and networks, with 33 concepts and 44 directed relations. Its established bridges reach probability, physics, computer science and a limited chemical graph-theory context. This is a finite region of mathematical content.
+The curated map covers Laplacians and networks plus Boolean relations, covers and a precise nondeterministic communication model, with 40 concepts and 52 directed relations. Its established bridges reach probability, physics, computer science and a limited chemical graph-theory context. The new region retains explicit witness translations, source scope and Atlas-local boundary conventions; its [integration review status](boolean-rank-bridge.md) is separate from the source admission. This is finite mathematical content.
 
 Broader navigation reuses existing work. The MathGloss library imports 4,814 concept records and 7,217 resource links, with 5,390 separately represented external relations. The MSC2020 subject browser imports 6,603 classification records, their hierarchy and 3,083 source cross-references. Neither import automatically establishes a mathematical identity, a prerequisite or a proved theorem. The live Loogle and TheoremSearch integrations retrieve external statements; a search result does not demonstrate applicability or novelty. These layers are not summed into a universal coverage percentage.
 
@@ -8,7 +8,7 @@ Next work must extend both content and verification capacity:
 
 1. Use the independently audited symmetry cache and Kemeny minimum study as existing verification infrastructure. Their finite results and novelty limits are documented in the repository; further discovery requires a distinct mathematical contribution.
 2. Add weighted exact computation, including conductance conventions and weighted spanning-tree measures. Preserve an independent oracle.
-3. Explore binary energy minimization, submodularity and min-cut as a second region, with exact transfer conditions and non-submodular counterexamples.
+3. Explore binary energy minimization, submodularity and min-cut as another region, with exact transfer conditions and non-submodular counterexamples.
 4. Explore optimization duality and transport to connect mathematical algorithms to economics, distinguishing equivalent formulations from analogies.
 5. Add a primary-source biological application with an explicit model and empirical boundary; the current corpus has no such verified application.
 6. Add machine-checkable formal dependency links and a Lean 4 proof artifact for a small known bridge, then use formal search without conflating imported dependencies and semantic equivalence.

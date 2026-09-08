@@ -1,8 +1,10 @@
 """Validate curated graph integrity. This checks structure, not source entailment."""
 from __future__ import annotations
 import argparse
+import hashlib
 import json
-from pathlib import Path
+from pathlib import Path, PurePosixPath
+import re
 from urllib.parse import urlparse
 
 
@@ -19,7 +21,7 @@ def validate(data: object) -> dict[str, object]:
         return isinstance(value, list) and bool(value) and all(text(x) for x in value)
     def member(value: object, choices: set[str]) -> bool:
         return isinstance(value, str) and value in choices
-    require(data.get("schema_version") == "1.0", "unsupported schema version")
+    require(data.get("schema_version") == "1.1", "unsupported schema version")
     for field in ("title", "scope"):
         require(text(data.get(field)), f"missing {field}")
     records: dict[str, list[dict]] = {}
@@ -60,6 +62,9 @@ def validate(data: object) -> dict[str, object]:
             require(text(n.get(key)), f"{context}: missing {key}")
         for key in ("domains", "assumptions"):
             require(strings(n.get(key)), f"{context}: missing {key}")
+        for key in ("x", "y"):
+            value = n.get(key)
+            require(type(value) in (int, float) and -1.7976931348623157e308 <= value <= 1.7976931348623157e308, f"{context}: {key} must be finite numeric metadata")
         require(isinstance(n.get("aliases"), list) and all(text(x) for x in n["aliases"]), f"{context}: invalid aliases")
         if n.get("status") == "formally_verified":
             require(text(n.get("proof_artifact")), f"{context}: formal status needs proof artifact")
@@ -73,6 +78,33 @@ def validate(data: object) -> dict[str, object]:
         require(member(e.get("status"), {"established", "proposed", "formal"}), f"{context}: invalid evidence status")
         if e.get("status") == "formal":
             require(text(e.get("proof_artifact")), f"{context}: formal status needs proof artifact")
+        details = ("source_scope", "witness_translation", "local_boundary_case", "notation_boundaries", "curation_record")
+        admitted = {f"boolean-rank-r{i}": f"R{i}" for i in range(1, 5)}
+        is_admitted = isinstance(e.get("id"), str) and e["id"] in admitted
+        if is_admitted:
+            for key in details:
+                require(key in e, f"{context}: {key} required for admitted translation")
+        if "source_scope" in e:
+            require(text(e["source_scope"]), f"{context}: source_scope must be nonempty text")
+        if "witness_translation" in e:
+            witness = e["witness_translation"]
+            require(isinstance(witness, dict) and all(text(witness.get(k)) for k in ("forward", "reverse", "result")), f"{context}: complete two-way witness required")
+        if "local_boundary_case" in e:
+            boundary = e["local_boundary_case"]
+            require(isinstance(boundary, dict) and all(text(boundary.get(k)) for k in ("case", "argument", "result")) and strings(boundary.get("adopted_conventions")) and boundary.get("evidence_basis") == "atlas_local_definition_and_proof", f"{context}: local boundary needs explicit conventions, argument, result and Atlas evidence basis")
+        if "notation_boundaries" in e:
+            require(strings(e["notation_boundaries"]), f"{context}: notation_boundaries must be nonempty text array")
+        if "curation_record" in e:
+            curation = e["curation_record"]
+            require(isinstance(curation, dict), f"{context}: curation_record must be an object")
+            if isinstance(curation, dict):
+                require(member(curation.get("id"), {"R1", "R2", "R3", "R4"}), f"{context}: invalid curation ID")
+                if is_admitted:
+                    require(curation.get("id") == admitted[e["id"]], f"{context}: curation ID must match relation")
+                for key in ("artifact", "independent_review"):
+                    require(safe_relative_path(curation.get(key)), f"{context}: {key} must be a relative workspace path")
+                    digest = curation.get(f"{key}_sha256")
+                    require(isinstance(digest, str) and re.fullmatch(r"[0-9a-f]{64}", digest) is not None, f"{context}: invalid {key} SHA-256")
         evidence(e, context)
     for j in records["journeys"]:
         require(text(j.get("title")) and text(j.get("description")), f"journey {j.get('id')}: missing explanation")
@@ -94,6 +126,32 @@ def validate(data: object) -> dict[str, object]:
     return {"passed": not errors, "counts": {**{k: len(v) for k, v in records.items()}, "examples": len(examples) if isinstance(examples, list) else 0}, "errors": errors, "scope": "Structural consistency only. Independent review must establish source entailment and proof status."}
 
 
+def safe_relative_path(value: object) -> bool:
+    return isinstance(value, str) and bool(value.strip()) and not any(ord(char) < 32 or char in '\\:<>"|?*' for char in value) and not PurePosixPath(value).is_absolute() and all(part not in ("..", ".") for part in value.split("/")) and all(value.split("/"))
+
+
+def check_curation_files(data: dict, workspace: Path) -> list[str]:
+    errors: list[str] = []
+    edges = data.get("edges", [])
+    for edge in edges if isinstance(edges, list) else []:
+        record = edge.get("curation_record") if isinstance(edge, dict) else None
+        if not isinstance(record, dict):
+            continue
+        for key in ("artifact", "independent_review"):
+            relative = record.get(key)
+            if not safe_relative_path(relative):
+                continue  # Already rejected by structural validation.
+            try:
+                path = (workspace / relative).resolve()
+                if not path.is_relative_to(workspace) or not path.is_file():
+                    errors.append(f"{edge.get('id')}: {key} must resolve to a file inside the workspace")
+                elif hashlib.sha256(path.read_bytes()).hexdigest() != record.get(f"{key}_sha256"):
+                    errors.append(f"{edge.get('id')}: {key} hash mismatch")
+            except (OSError, ValueError) as exc:
+                errors.append(f"{edge.get('id')}: cannot read {key}: {type(exc).__name__}")
+    return errors
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("corpus", nargs="?", default="data/atlas.json")
@@ -105,6 +163,7 @@ if __name__ == "__main__":
     if not isinstance(data, dict):
         data = {}
     workspace = Path.cwd().resolve()
+    report["errors"].extend(check_curation_files(data, workspace))
     def safe_records(category: str) -> list[dict]:
         items = data.get(category, [])
         return [item for item in items if isinstance(item, dict)] if isinstance(items, list) else []

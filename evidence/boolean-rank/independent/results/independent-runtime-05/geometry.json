@@ -1,0 +1,322 @@
+[
+  {
+    "node": "weighted-graph",
+    "width": 840,
+    "height": 660,
+    "circleCount": 9,
+    "lineCount": 3,
+    "baselineCount": 4
+  },
+  {
+    "node": "laplacian",
+    "width": 840,
+    "height": 660,
+    "circleCount": 19,
+    "lineCount": 8,
+    "baselineCount": 10
+  },
+  {
+    "node": "energy",
+    "width": 840,
+    "height": 660,
+    "circleCount": 11,
+    "lineCount": 4,
+    "baselineCount": 6
+  },
+  {
+    "node": "electrical-flow",
+    "width": 840,
+    "height": 660,
+    "circleCount": 13,
+    "lineCount": 5,
+    "baselineCount": 7
+  },
+  {
+    "node": "effective-resistance",
+    "width": 840,
+    "height": 660,
+    "circleCount": 17,
+    "lineCount": 7,
+    "baselineCount": 10
+  },
+  {
+    "node": "spanning-tree",
+    "width": 840,
+    "height": 660,
+    "circleCount": 7,
+    "lineCount": 2,
+    "baselineCount": 4
+  },
+  {
+    "node": "edge-probability",
+    "width": 840,
+    "height": 660,
+    "circleCount": 9,
+    "lineCount": 3,
+    "baselineCount": 5
+  },
+  {
+    "node": "leverage-score",
+    "width": 840,
+    "height": 660,
+    "circleCount": 7,
+    "lineCount": 2,
+    "baselineCount": 4
+  },
+  {
+    "node": "degree-matrix",
+    "width": 840,
+    "height": 660,
+    "circleCount": 5,
+    "lineCount": 1,
+    "baselineCount": 2
+  },
+  {
+    "node": "adjacency-matrix",
+    "width": 840,
+    "height": 660,
+    "circleCount": 9,
+    "lineCount": 3,
+    "baselineCount": 4
+  },
+  {
+    "node": "conductance",
+    "width": 840,
+    "height": 660,
+    "circleCount": 7,
+    "lineCount": 2,
+    "baselineCount": 3
+  },
+  {
+    "node": "ohms-law",
+    "width": 840,
+    "height": 660,
+    "circleCount": 7,
+    "lineCount": 2,
+    "baselineCount": 3
+  },
+  {
+    "node": "harmonic-function",
+    "width": 840,
+    "height": 660,
+    "circleCount": 9,
+    "lineCount": 3,
+    "baselineCount": 6
+  },
+  {
+    "node": "dirichlet-problem",
+    "width": 840,
+    "height": 660,
+    "circleCount": 11,
+    "lineCount": 4,
+    "baselineCount": 7
+  },
+  {
+    "node": "random-walk",
+    "width": 840,
+    "height": 660,
+    "circleCount": 9,
+    "lineCount": 3,
+    "baselineCount": 4
+  },
+  {
+    "node": "hitting-time",
+    "width": 840,
+    "height": 660,
+    "circleCount": 9,
+    "lineCount": 3,
+    "baselineCount": 4
+  },
+  {
+    "node": "commute-time",
+    "width": 840,
+    "height": 660,
+    "circleCount": 7,
+    "lineCount": 2,
+    "baselineCount": 4
+  },
+  {
+    "node": "commute-resistance",
+    "width": 840,
+    "height": 660,
+    "circleCount": 7,
+    "lineCount": 2,
+    "baselineCount": 4
+  },
+  {
+    "node": "hitting-probability",
+    "width": 840,
+    "height": 660,
+    "circleCount": 9,
+    "lineCount": 3,
+    "baselineCount": 5
+  },
+  {
+    "node": "matrix-tree",
+    "width": 840,
+    "height": 660,
+    "circleCount": 7,
+    "lineCount": 2,
+    "baselineCount": 3
+  },
+  {
+    "node": "resistance-distance",
+    "width": 840,
+    "height": 660,
+    "circleCount": 7,
+    "lineCount": 2,
+    "baselineCount": 3
+  },
+  {
+    "node": "schur-complement",
+    "width": 840,
+    "height": 660,
+    "circleCount": 7,
+    "lineCount": 2,
+    "baselineCount": 3
+  },
+  {
+    "node": "vertex-elimination",
+    "width": 840,
+    "height": 660,
+    "circleCount": 7,
+    "lineCount": 2,
+    "baselineCount": 3
+  },
+  {
+    "node": "series-parallel",
+    "width": 840,
+    "height": 660,
+    "circleCount": 5,
+    "lineCount": 1,
+    "baselineCount": 2
+  },
+  {
+    "node": "resistance-sampling",
+    "width": 840,
+    "height": 660,
+    "circleCount": 7,
+    "lineCount": 2,
+    "baselineCount": 3
+  },
+  {
+    "node": "spectral-approximation",
+    "width": 840,
+    "height": 660,
+    "circleCount": 7,
+    "lineCount": 2,
+    "baselineCount": 3
+  },
+  {
+    "node": "spectral-sparsifier",
+    "width": 840,
+    "height": 660,
+    "circleCount": 7,
+    "lineCount": 2,
+    "baselineCount": 3
+  },
+  {
+    "node": "pixel-graph",
+    "width": 840,
+    "height": 660,
+    "circleCount": 5,
+    "lineCount": 1,
+    "baselineCount": 2
+  },
+  {
+    "node": "image-segmentation",
+    "width": 840,
+    "height": 660,
+    "circleCount": 9,
+    "lineCount": 3,
+    "baselineCount": 5
+  },
+  {
+    "node": "chemical-graph-invariants",
+    "width": 840,
+    "height": 660,
+    "circleCount": 5,
+    "lineCount": 1,
+    "baselineCount": 2
+  },
+  {
+    "node": "resistance-sums",
+    "width": 840,
+    "height": 660,
+    "circleCount": 7,
+    "lineCount": 2,
+    "baselineCount": 3
+  },
+  {
+    "node": "kemeny-constant",
+    "width": 840,
+    "height": 660,
+    "circleCount": 11,
+    "lineCount": 4,
+    "baselineCount": 6
+  },
+  {
+    "node": "kemeny-braess-set",
+    "width": 840,
+    "height": 660,
+    "circleCount": 5,
+    "lineCount": 1,
+    "baselineCount": 3
+  },
+  {
+    "node": "boolean-relation-matrix",
+    "width": 840,
+    "height": 660,
+    "circleCount": 7,
+    "lineCount": 2,
+    "baselineCount": 3
+  },
+  {
+    "node": "boolean-rank",
+    "width": 840,
+    "height": 660,
+    "circleCount": 5,
+    "lineCount": 1,
+    "baselineCount": 2
+  },
+  {
+    "node": "one-support-rectangle-cover",
+    "width": 840,
+    "height": 660,
+    "circleCount": 13,
+    "lineCount": 5,
+    "baselineCount": 7
+  },
+  {
+    "node": "fixed-bipartition-biclique-cover",
+    "width": 840,
+    "height": 660,
+    "circleCount": 7,
+    "lineCount": 2,
+    "baselineCount": 4
+  },
+  {
+    "node": "nondeterministic-communication-s2",
+    "width": 840,
+    "height": 660,
+    "circleCount": 5,
+    "lineCount": 1,
+    "baselineCount": 3
+  },
+  {
+    "node": "local-boolean-rank",
+    "width": 840,
+    "height": 660,
+    "circleCount": 7,
+    "lineCount": 2,
+    "baselineCount": 4
+  },
+  {
+    "node": "local-biclique-cover",
+    "width": 840,
+    "height": 660,
+    "circleCount": 7,
+    "lineCount": 2,
+    "baselineCount": 4
+  }
+]

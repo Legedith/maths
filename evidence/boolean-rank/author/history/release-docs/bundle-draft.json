@@ -1,0 +1,975 @@
+{
+  "schema_version": "1.0",
+  "run_id": "boolean-rank-integration-v1",
+  "objective": "Integrate source-admitted Boolean rank, rectangle, fixed-side biclique and communication translations into the curated Atlas with inspectable witnesses and conventions.",
+  "created_at": "2026-09-08T11:26:38.166967Z",
+  "task_spec_artifact_id": "A008",
+  "evaluator_command": "node scripts/check-boolean-rank.mjs --output work/boolean-rank-functional.json",
+  "artifacts": [
+    {
+      "id": "A001",
+      "kind": "report",
+      "path": "README.md",
+      "sha256": "08867d1901b27cf4f04f7c398107a6692886809881cd26b518040f3194d4c7dd",
+      "producer": "/root"
+    },
+    {
+      "id": "A002",
+      "kind": "code",
+      "path": "app/api/atlas/route.ts",
+      "sha256": "a287d62290ccc2d31a8d6247ea5fa7bc33a57b4c83fafd4930c2ca0dc6929fc1",
+      "producer": "/root"
+    },
+    {
+      "id": "A003",
+      "kind": "code",
+      "path": "app/page.tsx",
+      "sha256": "c3a477de17d3f8daf3a445d5927d8102337a9af9693b420e4a8271d0ce898ba1",
+      "producer": "/root"
+    },
+    {
+      "id": "A004",
+      "kind": "code",
+      "path": "components/atlas-map.tsx",
+      "sha256": "74e78cdb347cbe361e52bf19e917414e4a4eef6dbbb6bb6024e3efe181b1c101",
+      "producer": "/root"
+    },
+    {
+      "id": "A005",
+      "kind": "code",
+      "path": "components/ui/native-select.tsx",
+      "sha256": "3aafb74b98c039dae4eb2c64c47ec6f5d61fdc888c057de47550346f702f434b",
+      "producer": "/root"
+    },
+    {
+      "id": "A006",
+      "kind": "report",
+      "path": "data/atlas.json",
+      "sha256": "2176614bbaea3a075245a1ee12d1085ae8ccb2507189b655285397d91c306e25",
+      "producer": "/root"
+    },
+    {
+      "id": "A007",
+      "kind": "report",
+      "path": "docs/boolean-rank-bridge.md",
+      "sha256": "2d6fe4c11950c6bb8c79c4e1b041e5c93d058addf6f9f4a5d0154e4b3fc8245a",
+      "producer": "/root"
+    },
+    {
+      "id": "A008",
+      "kind": "spec",
+      "path": "docs/boolean-rank-contract.md",
+      "sha256": "a302711e12faa6526456d92a42707f94c55ff421c7afabe58f925133c071dcda",
+      "producer": "/root"
+    },
+    {
+      "id": "A009",
+      "kind": "report",
+      "path": "docs/coverage.md",
+      "sha256": "c454047430c02d05ba7ee86ae343ebfed923359a181515473db8be4c40dbb356",
+      "producer": "/root"
+    },
+    {
+      "id": "A010",
+      "kind": "report",
+      "path": "docs/data-model.md",
+      "sha256": "81ca409d76a4af674fef8d45ac567e716737938827202accb52fa97e4da68688",
+      "producer": "/root"
+    },
+    {
+      "id": "A011",
+      "kind": "report",
+      "path": "docs/reuse-decision.md",
+      "sha256": "b827eca9ef5e200d13fcb786733533a111972901183023ae9e95cf7c0dc87ccd",
+      "producer": "/root"
+    },
+    {
+      "id": "A012",
+      "kind": "code",
+      "path": "evidence/boolean-rank/author/assemble_author_evidence.py",
+      "sha256": "c4ea730b4264a4d642747ef979437dff971590a80746b08b176202f895968a7e",
+      "producer": "/root"
+    },
+    {
+      "id": "A013",
+      "kind": "report",
+      "path": "evidence/boolean-rank/author/assembly-record.json",
+      "sha256": "2dfa21b1268cd95904d64911b223cb513e123cae8222d09feceb36a61e4f8c00",
+      "producer": "/root"
+    },
+    {
+      "id": "A014",
+      "kind": "code",
+      "path": "evidence/boolean-rank/author/check_http.py",
+      "sha256": "282bcd3534ff946b97da7c82c2b88298fb859ba3566d36418e9fc2ce124ce9d0",
+      "producer": "/root"
+    },
+    {
+      "id": "A015",
+      "kind": "report",
+      "path": "evidence/boolean-rank/author/claims-draft.json",
+      "sha256": "fc5ca9b2870f7eb2a0cec8dde21d7716820260ca3a6aa32f965eb43b6d214b99",
+      "producer": "/root"
+    },
+    {
+      "id": "A016",
+      "kind": "report",
+      "path": "evidence/boolean-rank/author/contract-v1.md",
+      "sha256": "a302711e12faa6526456d92a42707f94c55ff421c7afabe58f925133c071dcda",
+      "producer": "/root"
+    },
+    {
+      "id": "A017",
+      "kind": "code",
+      "path": "evidence/boolean-rank/author/freeze_implementation.py",
+      "sha256": "962bad527cdf97297cbb0a7b4488cf3c7cbc1f6211179af5f87fca84f8177e5d",
+      "producer": "/root"
+    },
+    {
+      "id": "A018",
+      "kind": "report",
+      "path": "evidence/boolean-rank/author/history/attempt-01/README.md",
+      "sha256": "bbbce4562b77b8545994030d1eab25d0f2278441cf79699119c9d78348e419b1",
+      "producer": "/root"
+    },
+    {
+      "id": "A019",
+      "kind": "report",
+      "path": "evidence/boolean-rank/author/history/attempt-01/atlas.json",
+      "sha256": "2fdc4cffd6d7b7e37bd083ad498e87b1c54c73fd9ad81af6e0fdc68a58b3da33",
+      "producer": "/root"
+    },
+    {
+      "id": "A020",
+      "kind": "code",
+      "path": "evidence/boolean-rank/author/history/attempt-01/check_http.py",
+      "sha256": "df02040fb06b3e8f02876550fe16f9a329d11a0a5ca742b0f75dc3905ccecaf6",
+      "producer": "/root"
+    },
+    {
+      "id": "A021",
+      "kind": "code",
+      "path": "evidence/boolean-rank/author/history/attempt-01/integrate_data.py",
+      "sha256": "fd39b11518b1a91fd0b2dfb63ebf45f637a20f9e22af63a8ce6c14fa13bbf59f",
+      "producer": "/root"
+    },
+    {
+      "id": "A022",
+      "kind": "report",
+      "path": "evidence/boolean-rank/author/history/attempt-01/integration-projection.json",
+      "sha256": "5ad8db0cb61a6152f8fe3db48bfe537bb43d6bcee0acc155f505299b689602a7",
+      "producer": "/root"
+    },
+    {
+      "id": "A023",
+      "kind": "report",
+      "path": "evidence/boolean-rank/author/implementation-freeze-v1.json",
+      "sha256": "e2b9dbdf70ebcead51807960101e0248c4be93846444f564b90903144b2052f1",
+      "producer": "/root"
+    },
+    {
+      "id": "A024",
+      "kind": "report",
+      "path": "evidence/boolean-rank/author/implementation-freeze-v2.json",
+      "sha256": "391aa34b932aa37c4ccb45e2b9ee589ba3eaec38540c15f9d43b9581c420f7f6",
+      "producer": "/root"
+    },
+    {
+      "id": "A025",
+      "kind": "code",
+      "path": "evidence/boolean-rank/author/integrate_data.py",
+      "sha256": "fd39b11518b1a91fd0b2dfb63ebf45f637a20f9e22af63a8ce6c14fa13bbf59f",
+      "producer": "/root"
+    },
+    {
+      "id": "A026",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-build-01.json",
+      "sha256": "61705d077d697307d67c7a23de0dfccb5fb83fa4fb71b068749e1eae79ac65e9",
+      "producer": "/root"
+    },
+    {
+      "id": "A027",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-build-01.stderr.bin",
+      "sha256": "729d8972b51de5e2457a45b53681f0065959be096264bf3ccc0a93db9432920d",
+      "producer": "/root"
+    },
+    {
+      "id": "A028",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-build-01.stdout.bin",
+      "sha256": "39462aa99a78e31c73d0693e2aee14cddad90958fa3d66922b5c188735b4b9d1",
+      "producer": "/root"
+    },
+    {
+      "id": "A029",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-corpus-tests-02.json",
+      "sha256": "9348599e0ff293bcf9e7314c6f6ab71460d85fcd273a175e0a141d4dbd216ed8",
+      "producer": "/root"
+    },
+    {
+      "id": "A030",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-corpus-tests-02.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A031",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-corpus-tests-02.stdout.bin",
+      "sha256": "f784d91362c0bfcb642f7917353fa043b3ad1079a3c7f7c342048066ba34c5f1",
+      "producer": "/root"
+    },
+    {
+      "id": "A032",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-freeze-01.json",
+      "sha256": "f8bf739bccf4fcc2e3535189b9ac9a7d319ae1951e21505a11a7eebf690e252f",
+      "producer": "/root"
+    },
+    {
+      "id": "A033",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-freeze-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A034",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-freeze-01.stdout.bin",
+      "sha256": "309d08b9442dc49ff863436cf7c19fa5b845338f80988d0849f386e565718aaf",
+      "producer": "/root"
+    },
+    {
+      "id": "A035",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-functional-01.json",
+      "sha256": "3d42f3500a796ce92bb11c33c8faafd0bad2d04777dda7a892c9703cff4819b0",
+      "producer": "/root"
+    },
+    {
+      "id": "A036",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-functional-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A037",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-functional-01.stdout.bin",
+      "sha256": "13d40391635b61be04918d4d20e177236df8e1cc4d1c985808ff4a26900cdd27",
+      "producer": "/root"
+    },
+    {
+      "id": "A038",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-http-01.json",
+      "sha256": "64e64a0f6b83ff03e1aa49bb4dce594005f60195e660bcfac3d8341fc3db99d4",
+      "producer": "/root"
+    },
+    {
+      "id": "A039",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-http-01.stderr.bin",
+      "sha256": "9c35d304befe8eab47a19b28331eb37f615a02442e0d051f755c8d3118c0ca0e",
+      "producer": "/root"
+    },
+    {
+      "id": "A040",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-http-01.stdout.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A041",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-http-02.json",
+      "sha256": "f738001f3f0a1609be11f01ebe56a062ad0b6cffe22edd44b8631174c605d6ef",
+      "producer": "/root"
+    },
+    {
+      "id": "A042",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-http-02.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A043",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-http-02.stdout.bin",
+      "sha256": "9bea9c6db9faf3847a87346a60b1d568e8a27efff91f0bc1a4a26b7d556c7faa",
+      "producer": "/root"
+    },
+    {
+      "id": "A044",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-integrate-01.json",
+      "sha256": "887c58385ed367d4f2540b9e45aad03e6879441b1308806b50f7e2f92ee4edad",
+      "producer": "/root"
+    },
+    {
+      "id": "A045",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-integrate-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A046",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-integrate-01.stdout.bin",
+      "sha256": "d643c9ba4738b150b321750f705708427bcd1fa8091b20e7015fc95572f6a744",
+      "producer": "/root"
+    },
+    {
+      "id": "A047",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-lint-01.json",
+      "sha256": "887e05029aad46ef9d30bd84be0921582f22c9645ca7b0b8f58dd893f4c719ed",
+      "producer": "/root"
+    },
+    {
+      "id": "A048",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-lint-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A049",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-lint-01.stdout.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A050",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-navigation-01.json",
+      "sha256": "252eb24d2b018dfe1eb79861711656b1c60a483e27a740a1ca841c091fb25752",
+      "producer": "/root"
+    },
+    {
+      "id": "A051",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-navigation-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A052",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-navigation-01.stdout.bin",
+      "sha256": "3784199aff384a85aff41df2566c1c7f485c574b93629dac09670ca87d1bcb3c",
+      "producer": "/root"
+    },
+    {
+      "id": "A053",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-newlines-01.json",
+      "sha256": "46f152e4d5585ab1d18a9c6c1a089beaf3a7493b170ee3cfd190b43d6a5570e6",
+      "producer": "/root"
+    },
+    {
+      "id": "A054",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-newlines-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A055",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-newlines-01.stdout.bin",
+      "sha256": "407e5e482e1150087da6541c64cb240cd626d7da2617cb98c7615415aa41fd94",
+      "producer": "/root"
+    },
+    {
+      "id": "A056",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-pytest-01.json",
+      "sha256": "4b1b2ec4b22a27818191429d1cd25b93c00805c09cbda09ca89f4e76991ecbe4",
+      "producer": "/root"
+    },
+    {
+      "id": "A057",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-pytest-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A058",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-pytest-01.stdout.bin",
+      "sha256": "3f056be2f475a462dd894d13045e23b57e13ff741a699ddb8c494da4d8c9bb70",
+      "producer": "/root"
+    },
+    {
+      "id": "A059",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-types-01.json",
+      "sha256": "896a14d6fb4403c6cb7a827df7c78f003c1bec9cbd2870afa3af00ad3ab71ae5",
+      "producer": "/root"
+    },
+    {
+      "id": "A060",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-types-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A061",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-types-01.stdout.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A062",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-validate-01.json",
+      "sha256": "2b21933cddbe51c80ec78d06dfa8367a5fd24829f8d1b5edb734ffd15555e55b",
+      "producer": "/root"
+    },
+    {
+      "id": "A063",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-validate-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "producer": "/root"
+    },
+    {
+      "id": "A064",
+      "kind": "log",
+      "path": "evidence/boolean-rank/author/logs/boolean-validate-01.stdout.bin",
+      "sha256": "923f6be0ad2fdea6581b2d01e1f70d8393d95c369598c628a5ca58aca814868e",
+      "producer": "/root"
+    },
+    {
+      "id": "A065",
+      "kind": "report",
+      "path": "evidence/boolean-rank/author/newline-correction.json",
+      "sha256": "6f84f9c0679b7f7dd9b9ee0533255401dfe5f75b4d6adad683d5c1aecd2bbf36",
+      "producer": "/root"
+    },
+    {
+      "id": "A066",
+      "kind": "code",
+      "path": "evidence/boolean-rank/author/normalize_generated_files.py",
+      "sha256": "9276156668562bba4bb207d6c13a492836ee76c5e1c3b344030a40a846a24aa4",
+      "producer": "/root"
+    },
+    {
+      "id": "A067",
+      "kind": "result",
+      "path": "evidence/boolean-rank/author/results/functional-01-rendered.json",
+      "sha256": "754a84d00d52fdd3d0b9ebae840aae2c4475c12668d7eaba465a00745a1ac838",
+      "producer": "/root"
+    },
+    {
+      "id": "A068",
+      "kind": "result",
+      "path": "evidence/boolean-rank/author/results/functional-01.json",
+      "sha256": "13d40391635b61be04918d4d20e177236df8e1cc4d1c985808ff4a26900cdd27",
+      "producer": "/root"
+    },
+    {
+      "id": "A069",
+      "kind": "result",
+      "path": "evidence/boolean-rank/author/results/http-02-api.json",
+      "sha256": "2e929620db00ec9b327b16dad1334afd89da266044b07836ebf2c2dce448157d",
+      "producer": "/root"
+    },
+    {
+      "id": "A070",
+      "kind": "result",
+      "path": "evidence/boolean-rank/author/results/http-02.json",
+      "sha256": "50f79c8248237e01efd455f97f11d95bfd9945f24915f43d1270c89ffe1dcd68",
+      "producer": "/root"
+    },
+    {
+      "id": "A071",
+      "kind": "result",
+      "path": "evidence/boolean-rank/author/results/navigation-01.json",
+      "sha256": "3784199aff384a85aff41df2566c1c7f485c574b93629dac09670ca87d1bcb3c",
+      "producer": "/root"
+    },
+    {
+      "id": "A072",
+      "kind": "result",
+      "path": "evidence/boolean-rank/author/results/validation-01.json",
+      "sha256": "923f6be0ad2fdea6581b2d01e1f70d8393d95c369598c628a5ca58aca814868e",
+      "producer": "/root"
+    },
+    {
+      "id": "A073",
+      "kind": "report",
+      "path": "evidence/boolean-rank/design/assessment.md",
+      "sha256": "3dfd0b838edaa087c607bae4f11da4b0072ee0ec1b8fdc0adfe2af712263cb1a",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A074",
+      "kind": "report",
+      "path": "evidence/boolean-rank/design/consumer-inventory.json",
+      "sha256": "cbea42001daedd44b0b144f2d1ca84a03ae0e0859ed7f5c694ffbd206c340e22",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A075",
+      "kind": "report",
+      "path": "evidence/boolean-rank/design/design-validation-attempt01.json",
+      "sha256": "cc34ff44359506b9aadb47a68b0cd523a32d2fb5112b6273ba08fa79bf3f3c6a",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A076",
+      "kind": "report",
+      "path": "evidence/boolean-rank/design/design-validation-attempt02.json",
+      "sha256": "2a1b238126d85c74c6492021ef5063c28f2a03d2105fe2bdd0c63c99e870c613",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A077",
+      "kind": "report",
+      "path": "evidence/boolean-rank/design/design-validation.json",
+      "sha256": "4403da72c0cfeb1f8044bbb2d8a3d741c6f87abc2cdceac9cd12f9f778de4121",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A078",
+      "kind": "code",
+      "path": "evidence/boolean-rank/design/freeze_packet.py",
+      "sha256": "024a30cd3e9fc9535624e52d0301e895f2340fa3121a37cfacaf545af58cecd9",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A079",
+      "kind": "report",
+      "path": "evidence/boolean-rank/design/input-drift.json",
+      "sha256": "ea6a2324929af1d0f0776b218fff11f02ba63c2f21df08040a6887a14f254ae3",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A080",
+      "kind": "report",
+      "path": "evidence/boolean-rank/design/integration-design.json",
+      "sha256": "9f4cf1d0549ac691b01ec195f033a49884258246e1611293085c898dc0b55ea2",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A081",
+      "kind": "log",
+      "path": "evidence/boolean-rank/design/logs/validation/attempt-design-validation-01.json",
+      "sha256": "61230ba9e2302c833e4d31aa76fdedf1eda5f9b7c3c3ceb99d7577f5fa7b4bfd",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A082",
+      "kind": "log",
+      "path": "evidence/boolean-rank/design/logs/validation/attempt-design-validation-01.stderr.bin",
+      "sha256": "dd7241fb9634d51d4b90a8782d9a26dd3fe2ada28ad873374b2d9b28b76827ef",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A083",
+      "kind": "log",
+      "path": "evidence/boolean-rank/design/logs/validation/attempt-design-validation-01.stdout.bin",
+      "sha256": "cc34ff44359506b9aadb47a68b0cd523a32d2fb5112b6273ba08fa79bf3f3c6a",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A084",
+      "kind": "log",
+      "path": "evidence/boolean-rank/design/logs/validation/attempt-design-validation-02.json",
+      "sha256": "737b0f79a806aa17270da10896db7417e7baa71b1672253f411ec03a00b48cd2",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A085",
+      "kind": "log",
+      "path": "evidence/boolean-rank/design/logs/validation/attempt-design-validation-02.stderr.bin",
+      "sha256": "dd7241fb9634d51d4b90a8782d9a26dd3fe2ada28ad873374b2d9b28b76827ef",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A086",
+      "kind": "log",
+      "path": "evidence/boolean-rank/design/logs/validation/attempt-design-validation-02.stdout.bin",
+      "sha256": "2a1b238126d85c74c6492021ef5063c28f2a03d2105fe2bdd0c63c99e870c613",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A087",
+      "kind": "log",
+      "path": "evidence/boolean-rank/design/logs/validation/attempt-design-validation-03.json",
+      "sha256": "50319701de30a90bbe758c3836fcef0c4276869f2a18584dd8df308d73442dd5",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A088",
+      "kind": "log",
+      "path": "evidence/boolean-rank/design/logs/validation/attempt-design-validation-03.stderr.bin",
+      "sha256": "dd7241fb9634d51d4b90a8782d9a26dd3fe2ada28ad873374b2d9b28b76827ef",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A089",
+      "kind": "log",
+      "path": "evidence/boolean-rank/design/logs/validation/attempt-design-validation-03.stdout.bin",
+      "sha256": "4403da72c0cfeb1f8044bbb2d8a3d741c6f87abc2cdceac9cd12f9f778de4121",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A090",
+      "kind": "log",
+      "path": "evidence/boolean-rank/design/logs/validation/attempts.jsonl",
+      "sha256": "2c6b39d6258c99ae6b906378f9f98be0460d5fe66c4f3df78062881743c661fa",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A091",
+      "kind": "report",
+      "path": "evidence/boolean-rank/design/publication-manifest.json",
+      "sha256": "92af0789482d416b51785f96ff2fd492243720e3cfa977724c195a40e944830b",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A092",
+      "kind": "code",
+      "path": "evidence/boolean-rank/design/run_logged.py",
+      "sha256": "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A093",
+      "kind": "report",
+      "path": "evidence/boolean-rank/design/status-sanity.json",
+      "sha256": "34021bd57da3d9782fb829a78c386e7c6ac206d57dd7d91a0ed520cade38c3b3",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A094",
+      "kind": "code",
+      "path": "evidence/boolean-rank/design/validate_design.py",
+      "sha256": "7ca66ff1b2daf74e8c650cd68c01c4a9a108d12f347e37fa032d56ef9e7af0a6",
+      "producer": "/root/sol_atlas_audit"
+    },
+    {
+      "id": "A095",
+      "kind": "report",
+      "path": "evidence/boolean-rank/integration-projection.json",
+      "sha256": "df9ae45c6af00afab7148e7efda358e80c4976a12bd78e476493e3b04ac3ae35",
+      "producer": "/root"
+    },
+    {
+      "id": "A096",
+      "kind": "source",
+      "path": "evidence/boolean-rank/source-review/corrected-records-v1.json",
+      "sha256": "0ba1c19b75b0b37fcd29214d3ad5565aca747481aba779084e23367b0a110fd2",
+      "producer": "/root"
+    },
+    {
+      "id": "A097",
+      "kind": "report",
+      "path": "evidence/boolean-rank/source-review/correction-review.json",
+      "sha256": "13bff50ecbd050f359a7948996197e9b09a12c5a5305fedb4aa40804cefcbad0",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A098",
+      "kind": "source",
+      "path": "evidence/boolean-rank/source-review/source-assessment.json",
+      "sha256": "aa983aa245fe272a2f392e22e79d81179fd18687a2e36bdf6d37d55b4447dd6f",
+      "producer": "/root/sol_symmetry_audit"
+    },
+    {
+      "id": "A099",
+      "kind": "code",
+      "path": "lib/atlas.ts",
+      "sha256": "7cefe5ab0640fdfb0c988ae488cee564168141d0d8a60852d1c3646122caab4b",
+      "producer": "/root"
+    },
+    {
+      "id": "A100",
+      "kind": "code",
+      "path": "lib/use-atlas-tools.ts",
+      "sha256": "04cc7a2700f225cab9d1884931f4e416433951bb20d60248bb5af06400873dca",
+      "producer": "/root"
+    },
+    {
+      "id": "A101",
+      "kind": "code",
+      "path": "lib/utils.ts",
+      "sha256": "9304a861c8673bee09e0f12de31773abbde503b02e59dfd74763ddec2e37cf05",
+      "producer": "/root"
+    },
+    {
+      "id": "A102",
+      "kind": "report",
+      "path": "package-lock.json",
+      "sha256": "59f2697b0a268b4b20033bab4a8ba156ec21d7bd709350482264061509ec56f7",
+      "producer": "/root"
+    },
+    {
+      "id": "A103",
+      "kind": "report",
+      "path": "package.json",
+      "sha256": "4995cbbd54b3038468bb9393a0413ffcd6927ce1a040c53e23544c7ec71f68dd",
+      "producer": "/root"
+    },
+    {
+      "id": "A104",
+      "kind": "report",
+      "path": "pyproject.toml",
+      "sha256": "546f4ce267864644b6abe78daeae2ea255bc80dafe087e9952b51cd26eb8c81c",
+      "producer": "/root"
+    },
+    {
+      "id": "A105",
+      "kind": "test",
+      "path": "scripts/check-atlas.ts",
+      "sha256": "0210c6dbdf11941fb6e613d29313e2f3342829ac470772d0e98f36643d3be49c",
+      "producer": "/root"
+    },
+    {
+      "id": "A106",
+      "kind": "test",
+      "path": "scripts/check-boolean-rank.mjs",
+      "sha256": "6856aa8ad98c384e360d32345b9ba62574865f215582cdf2d403f58bb8e0bf11",
+      "producer": "/root"
+    },
+    {
+      "id": "A107",
+      "kind": "code",
+      "path": "scripts/validate_atlas.py",
+      "sha256": "ed6d3f74ec355a22b3957ce8ab412a523d212137e64fe506563841bc708b7384",
+      "producer": "/root"
+    },
+    {
+      "id": "A108",
+      "kind": "test",
+      "path": "tests/test_corpus_validation.py",
+      "sha256": "7df20d98979bdee609cd546eb7498b0422f069ae5155e5b8b91400e27a71f003",
+      "producer": "/root"
+    },
+    {
+      "id": "A109",
+      "kind": "report",
+      "path": "tsconfig.json",
+      "sha256": "2db1393d6e039ca5e6f4015b7462f14ff77bd4135829d0d4a092d14c1eaaaf10",
+      "producer": "/root"
+    },
+    {
+      "id": "A110",
+      "kind": "report",
+      "path": "uv.lock",
+      "sha256": "af702441deef709f31364324f3add35c05a14572e8c39e85daa3f447c35d3275",
+      "producer": "/root"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C001",
+      "type": "citation",
+      "statement": "R1-R4 retain known source-admitted translations and explicit local zero conventions; no novelty is claimed.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A096",
+          "locator": "json:/novelty",
+          "expected": "All four relationships are known. The zero conventions are explicit definitions and elementary local checks, not a claimed discovery."
+        },
+        {
+          "artifact_id": "A097",
+          "locator": "json:/bridge_decisions"
+        }
+      ]
+    },
+    {
+      "id": "C002",
+      "type": "numerical",
+      "statement": "The curated corpus has 40 nodes, 52 edges, 11 sources, six journeys, six opportunities and seven graph examples.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A072",
+          "locator": "json:/counts",
+          "expected": {
+            "nodes": 40,
+            "edges": 52,
+            "sources": 11,
+            "journeys": 6,
+            "opportunities": 6,
+            "examples": 7
+          }
+        }
+      ]
+    },
+    {
+      "id": "C003",
+      "type": "numerical",
+      "statement": "The author component/API check passed nine scoped checks, rendering four admitted connections and all 40 selected-concept maps.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A068",
+          "locator": "json:/check_count",
+          "expected": 9
+        },
+        {
+          "artifact_id": "A068",
+          "locator": "json:/rendered_connections",
+          "expected": 4
+        },
+        {
+          "artifact_id": "A068",
+          "locator": "json:/rendered_maps",
+          "expected": 40
+        }
+      ]
+    },
+    {
+      "id": "C004",
+      "type": "numerical",
+      "statement": "Fifteen lexical sanity cases and 1600 ordered navigation-pair checks passed.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A071",
+          "locator": "json:/retrieval_sanity_cases",
+          "expected": 15
+        },
+        {
+          "artifact_id": "A071",
+          "locator": "json:/navigation_pairs",
+          "expected": 1600
+        }
+      ]
+    },
+    {
+      "id": "C005",
+      "type": "methodological",
+      "statement": "The implementation carries source scope, bidirectional witness translations, local boundary arguments, notation distinctions and retained curation identity through the typed model and connection display.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A099",
+          "locator": "contains:witness_translation?"
+        },
+        {
+          "artifact_id": "A004",
+          "locator": "contains:Atlas convention for the zero case"
+        },
+        {
+          "artifact_id": "A035",
+          "locator": "json:/returncode",
+          "expected": 0
+        }
+      ]
+    },
+    {
+      "id": "C006",
+      "type": "methodological",
+      "statement": "The initial full Python suite, typecheck, lint and build passed; the final corpus tests also passed after two malformed-path cases were added.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A056",
+          "locator": "json:/returncode",
+          "expected": 0
+        },
+        {
+          "artifact_id": "A059",
+          "locator": "json:/returncode",
+          "expected": 0
+        },
+        {
+          "artifact_id": "A047",
+          "locator": "json:/returncode",
+          "expected": 0
+        },
+        {
+          "artifact_id": "A026",
+          "locator": "json:/returncode",
+          "expected": 0
+        },
+        {
+          "artifact_id": "A029",
+          "locator": "json:/returncode",
+          "expected": 0
+        }
+      ]
+    },
+    {
+      "id": "C007",
+      "type": "methodological",
+      "statement": "Actual local HTTP routes returned the canonical API object and the broadened home-page scope.",
+      "status": "supported",
+      "supports": [
+        {
+          "artifact_id": "A014",
+          "locator": "contains:actual != expected"
+        },
+        {
+          "artifact_id": "A070",
+          "locator": "json:/passed",
+          "expected": true
+        },
+        {
+          "artifact_id": "A041",
+          "locator": "json:/returncode",
+          "expected": 0
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "implementation_alignment",
+      "status": "pending",
+      "auditor": "unassigned",
+      "evidence": [],
+      "note": ""
+    },
+    {
+      "id": "reproduction",
+      "status": "pending",
+      "auditor": "unassigned",
+      "evidence": [],
+      "note": ""
+    },
+    {
+      "id": "source_verification",
+      "status": "pending",
+      "auditor": "unassigned",
+      "evidence": [],
+      "note": ""
+    },
+    {
+      "id": "specification_compliance",
+      "status": "pending",
+      "auditor": "unassigned",
+      "evidence": [],
+      "note": ""
+    }
+  ],
+  "limitations": [
+    "Independent final product review is pending; this bundle cannot pass or authorize publication yet.",
+    "Known translations under specified conditions only; no new theorem, algorithm, formal proof, universal coverage or practical-impact result.",
+    "Structural and lexical checks do not establish source entailment or semantic retrieval quality. Navigation paths do not compose implications.",
+    "Server-rendered text/geometry and local HTTP checks do not establish browser interaction, visual quality, accessibility or deployed behavior.",
+    "The first typecheck preceded corpus integration. Build01 preceded a value-preserving LF correction; a final exact-tree build is required before publication.",
+    "The source records preserve historical pending wording; their separate later correction review records semantic admission.",
+    "The finite teaching example, stopped role-mining software run and pending Kemeny proof are separate tasks."
+  ]
+}

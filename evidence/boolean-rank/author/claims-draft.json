@@ -1,0 +1,63 @@
+{
+  "schema_version": "boolean-rank-integration-claims-draft-v1",
+  "status": "pending_independent_final_product_gate",
+  "claims": [
+    {
+      "id": "C001",
+      "type": "citation",
+      "statement": "The R1-R4 connections represent known source-admitted translations with explicit domain, overlap, notation and local-zero conventions.",
+      "source": "project/evidence/boolean-rank/source-review/corrected-records-v1.json",
+      "review": "project/evidence/boolean-rank/source-review/correction-review.json",
+      "locators": ["relationships R1-R4", "global_domain", "bridge_decisions", "four_checks"],
+      "boundary": "This source admission does not certify the later product projection or a new theorem."
+    },
+    {
+      "id": "C002",
+      "type": "numerical",
+      "statement": "The curated corpus contains 40 nodes, 52 edges, 11 sources, six journeys, six opportunities and seven pre-existing graph examples.",
+      "result": "results/validation-01.json",
+      "locator": "counts",
+      "boundary": "Corpus counts are not universal coverage or a count of newly proved relationships."
+    },
+    {
+      "id": "C003",
+      "type": "numerical",
+      "statement": "The author functional check rendered all four admitted connections and all 40 selected-concept maps, verified the full API handler object, and passed nine scoped checks.",
+      "result": "results/functional-01.json",
+      "locators": ["check_count", "rendered_connections", "rendered_maps", "passed"],
+      "boundary": "Server-rendered text and coordinate bounds do not establish browser interaction or visual quality."
+    },
+    {
+      "id": "C004",
+      "type": "numerical",
+      "statement": "Fifteen curated lexical sanity cases and all 1600 ordered node-pair navigation checks passed.",
+      "result": "results/navigation-01.json",
+      "locators": ["retrieval_sanity_cases", "navigation_pairs", "passed"],
+      "boundary": "Navigation paths do not compose mathematical implications; these cases do not benchmark semantic retrieval."
+    },
+    {
+      "id": "C005",
+      "type": "methodological",
+      "statement": "Schema 1.1 retains separate source scope, forward/reverse witness construction, local boundary proof, notation distinctions and source/review identity; the validator rejects malformed fields and invalid or stale provenance.",
+      "code": ["project/lib/atlas.ts", "project/components/atlas-map.tsx", "project/scripts/validate_atlas.py", "project/tests/test_corpus_validation.py"],
+      "logs": ["logs/boolean-corpus-tests-02.json", "logs/boolean-functional-01.json"],
+      "boundary": "Structural validation is not source entailment or a proof verifier."
+    },
+    {
+      "id": "C006",
+      "type": "methodological",
+      "statement": "The initial full Python suite, TypeScript check, lint and production build passed; two additional malformed-path cases passed with the final corpus test file.",
+      "logs": ["logs/boolean-pytest-01.json", "logs/boolean-types-01.json", "logs/boolean-lint-01.json", "logs/boolean-build-01.json", "logs/boolean-corpus-tests-02.json"],
+      "boundary": "The initial typecheck preceded data integration; the build followed it. Three generated files later received a value-preserving LF correction, requiring the independent review to bind final bytes. Publication requires a later exact-tree final build."
+    }
+  ],
+  "not_claimed": [
+    "New mathematics or algorithmic novelty",
+    "Lean verification",
+    "Complete mathematical mapping",
+    "Automatic cross-domain discovery",
+    "Measured researcher or organizational benefit",
+    "Role-mining software reproduction",
+    "Approval of the separate Kemeny proof candidate"
+  ]
+}

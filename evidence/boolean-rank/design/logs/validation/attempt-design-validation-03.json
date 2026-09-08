@@ -1,0 +1,35 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--no-project",
+    "--python",
+    "3.12",
+    "python",
+    "validate_design.py"
+  ],
+  "attempt_id": "design-validation-03",
+  "ended_at_utc": "2026-09-08T11:33:14.524888+00:00",
+  "returncode": 0,
+  "schema_version": "logged-command-attempt-v1",
+  "selected_environment": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "UV_CACHE_DIR": "D:/CodexWorkspaces/mathematics-atlas/uv-cache",
+    "UV_PROJECT_ENVIRONMENT": null
+  },
+  "started_at_utc": "2026-09-08T11:33:14.265871+00:00",
+  "stderr": {
+    "bytes": 59,
+    "path": "attempt-design-validation-03.stderr.bin",
+    "sha256": "dd7241fb9634d51d4b90a8782d9a26dd3fe2ada28ad873374b2d9b28b76827ef"
+  },
+  "stdout": {
+    "bytes": 5121,
+    "path": "attempt-design-validation-03.stdout.bin",
+    "sha256": "4403da72c0cfeb1f8044bbb2d8a3d741c6f87abc2cdceac9cd12f9f778de4121"
+  },
+  "termination": null,
+  "timed_out": false,
+  "timeout_seconds": 120,
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-design-work"
+}

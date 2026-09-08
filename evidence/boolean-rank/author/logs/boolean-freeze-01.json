@@ -1,0 +1,35 @@
+{
+  "schema_version": "independent-command-attempt-v1",
+  "attempt_id": "boolean-freeze-01",
+  "argv": [
+    "uv",
+    "run",
+    "--frozen",
+    "python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-work\\freeze_implementation.py"
+  ],
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+  "started_at_utc": "2026-09-08T11:42:52.551272+00:00",
+  "ended_at_utc": "2026-09-08T11:42:52.892800+00:00",
+  "elapsed_seconds": 0.341528,
+  "timeout_seconds": 30,
+  "timed_out": false,
+  "termination": null,
+  "returncode": 0,
+  "selected_environment": {
+    "UV_CACHE_DIR": "D:\\CodexWorkspaces\\mathematics-atlas\\uv-cache",
+    "UV_PROJECT_ENVIRONMENT": null,
+    "VIRTUAL_ENV": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.venv",
+    "PYTHONDONTWRITEBYTECODE": null
+  },
+  "stdout": {
+    "path": "boolean-freeze-01.stdout.bin",
+    "bytes": 217,
+    "sha256": "309d08b9442dc49ff863436cf7c19fa5b845338f80988d0849f386e565718aaf"
+  },
+  "stderr": {
+    "path": "boolean-freeze-01.stderr.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

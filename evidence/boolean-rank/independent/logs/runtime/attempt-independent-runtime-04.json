@@ -1,0 +1,36 @@
+{
+  "argv": [
+    "node",
+    "independent_runtime_check.mjs",
+    "--project-root",
+    "D:/CodexWorkspaces/mathematics-atlas/project",
+    "--output-dir",
+    "D:/CodexWorkspaces/mathematics-atlas/boolean-rank-integration-review-work/results/independent-runtime-04",
+    "--http-origin",
+    "http://localhost:8598"
+  ],
+  "attempt_id": "independent-runtime-04",
+  "ended_at_utc": "2026-09-08T12:10:58.638309+00:00",
+  "returncode": 1,
+  "schema_version": "logged-command-attempt-v1",
+  "selected_environment": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "UV_CACHE_DIR": "D:/CodexWorkspaces/mathematics-atlas/uv-cache",
+    "UV_PROJECT_ENVIRONMENT": null
+  },
+  "started_at_utc": "2026-09-08T12:10:55.565134+00:00",
+  "stderr": {
+    "bytes": 0,
+    "path": "attempt-independent-runtime-04.stderr.bin",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 35,
+    "path": "attempt-independent-runtime-04.stdout.bin",
+    "sha256": "38d84e833dcff1050ee4167b64dfc8becbb7000c2979df3fb5964d0a4d4b564a"
+  },
+  "termination": null,
+  "timed_out": false,
+  "timeout_seconds": 300,
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-review-work"
+}

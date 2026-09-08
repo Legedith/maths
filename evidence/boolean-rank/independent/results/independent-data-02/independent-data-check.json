@@ -1,0 +1,571 @@
+{
+  "auditor": {
+    "identity": "/root/sol_atlas_audit",
+    "implementation_author": false,
+    "role": "independent product auditor and earlier integration-design author"
+  },
+  "checks": [
+    {
+      "detail": {
+        "records": 49,
+        "sha256": "391aa34b932aa37c4ccb45e2b9ee589ba3eaec38540c15f9d43b9581c420f7f6"
+      },
+      "name": "freeze manifest identity",
+      "passed": true
+    },
+    {
+      "detail": {
+        "failures": [],
+        "records": 49
+      },
+      "name": "all 49 frozen project artifacts match",
+      "passed": true
+    },
+    {
+      "detail": {
+        "admitted": "0ba1c19b75b0b37fcd29214d3ad5565aca747481aba779084e23367b0a110fd2",
+        "contract": "a302711e12faa6526456d92a42707f94c55ff421c7afabe58f925133c071dcda",
+        "correction_review": "13bff50ecbd050f359a7948996197e9b09a12c5a5305fedb4aa40804cefcbad0"
+      },
+      "name": "contract and admitted inputs have pinned identities",
+      "passed": true
+    },
+    {
+      "detail": "This product audit reuses the upstream source review; hash identity alone is not a new source-entailment proof.",
+      "name": "upstream independent semantic review admits exactly R1-R4",
+      "passed": true
+    },
+    {
+      "detail": {
+        "edges": 52,
+        "examples": 7,
+        "journeys": 6,
+        "nodes": 40,
+        "opportunities": 6,
+        "sources": 11
+      },
+      "name": "schema and collection counts",
+      "passed": true
+    },
+    {
+      "detail": {
+        "changed_old_records": [],
+        "examples_equal": true
+      },
+      "name": "all pre-existing records remain value-identical",
+      "passed": true
+    },
+    {
+      "detail": {
+        "edges": {
+          "actual": [
+            "biadjacency-versus-adjacency",
+            "biclique-cover-local-objective",
+            "boolean-matrix-cover-definition",
+            "boolean-rank-r1",
+            "boolean-rank-r2",
+            "boolean-rank-r3",
+            "boolean-rank-r4",
+            "rectangle-cover-local-objective"
+          ],
+          "expected": [
+            "biadjacency-versus-adjacency",
+            "biclique-cover-local-objective",
+            "boolean-matrix-cover-definition",
+            "boolean-rank-r1",
+            "boolean-rank-r2",
+            "boolean-rank-r3",
+            "boolean-rank-r4",
+            "rectangle-cover-local-objective"
+          ],
+          "passed": true
+        },
+        "journeys": {
+          "actual": [
+            "boolean-table-to-certificate",
+            "total-cover-to-local-load"
+          ],
+          "expected": [
+            "boolean-table-to-certificate",
+            "total-cover-to-local-load"
+          ],
+          "passed": true
+        },
+        "nodes": {
+          "actual": [
+            "boolean-rank",
+            "boolean-relation-matrix",
+            "fixed-bipartition-biclique-cover",
+            "local-biclique-cover",
+            "local-boolean-rank",
+            "nondeterministic-communication-s2",
+            "one-support-rectangle-cover"
+          ],
+          "expected": [
+            "boolean-rank",
+            "boolean-relation-matrix",
+            "fixed-bipartition-biclique-cover",
+            "local-biclique-cover",
+            "local-boolean-rank",
+            "nondeterministic-communication-s2",
+            "one-support-rectangle-cover"
+          ],
+          "passed": true
+        },
+        "opportunities": {
+          "actual": [],
+          "expected": [],
+          "passed": true
+        },
+        "sources": {
+          "actual": [
+            "javadi-local-clique",
+            "karchmer-few-witnesses"
+          ],
+          "expected": [
+            "javadi-local-clique",
+            "karchmer-few-witnesses"
+          ],
+          "passed": true
+        }
+      },
+      "name": "exact 7/8/2/2 additions and no opportunity addition",
+      "passed": true
+    },
+    {
+      "detail": {
+        "javadi-local-clique": {
+          "locator": "Introduction, printed pp. 2-3",
+          "url": "https://arxiv.org/pdf/1210.6965v1",
+          "year": 2012
+        },
+        "karchmer-few-witnesses": {
+          "locator": "Sections 2.1-2.3, printed pp. 3-5; Proposition 3 and proof",
+          "url": "https://www.math.ias.edu/~avi/PUBLICATIONS/MYPAPERS/SAKS/KCOVER/JOURNAL/kcover.pdf",
+          "year": 2003
+        }
+      },
+      "name": "new sources preserve primary URLs, locators, dates and local-convention limits",
+      "passed": true
+    },
+    {
+      "detail": {
+        "boolean-rank": {
+          "obligations": [
+            "boolean or-and",
+            "dimension k may be zero",
+            "empty disjunction"
+          ],
+          "passed": true
+        },
+        "boolean-relation-matrix": {
+          "obligations": [
+            "finite nonempty labeled",
+            "0 or 1",
+            "not automatically the full symmetric adjacency"
+          ],
+          "passed": true
+        },
+        "fixed-bipartition-biclique-cover": {
+          "obligations": [
+            "fixed labeled nonempty sides",
+            "biadjacency matrix",
+            "not the full symmetric adjacency",
+            "empty family"
+          ],
+          "passed": true
+        },
+        "local-biclique-cover": {
+          "obligations": [
+            "per vertex",
+            "individual edge",
+            "load zero"
+          ],
+          "passed": true
+        },
+        "local-boolean-rank": {
+          "obligations": [
+            "per row or column",
+            "does not count",
+            "matrix cell",
+            "load zero"
+          ],
+          "passed": true
+        },
+        "nondeterministic-communication-s2": {
+          "obligations": [
+            "maximum leaf depth",
+            "not deterministic",
+            "m_f[x,y]=f(x,y)",
+            "all-zero totalization is an atlas convention"
+          ],
+          "passed": true
+        },
+        "one-support-rectangle-cover": {
+          "obligations": [
+            "no zero cell",
+            "overlap",
+            "not a one-witness restriction",
+            "empty family"
+          ],
+          "passed": true
+        }
+      },
+      "name": "seven concepts retain definitions, domain assumptions and nearby-parameter boundaries",
+      "passed": true
+    },
+    {
+      "detail": {
+        "boolean-rank-r1": {
+          "admitted_record_present": true,
+          "passed": true
+        },
+        "boolean-rank-r2": {
+          "admitted_record_present": true,
+          "passed": true
+        },
+        "boolean-rank-r3": {
+          "admitted_record_present": true,
+          "passed": true
+        },
+        "boolean-rank-r4": {
+          "admitted_record_present": true,
+          "passed": true
+        }
+      },
+      "name": "R1-R4 each retain typed source, witness, zero-case, notation and curation fields",
+      "passed": true
+    },
+    {
+      "detail": {
+        "forward": "For each factor index l, take S_l={x:U[x,l]=1} and T_l={y:V[l,y]=1}. Its support S_l x T_l contains no zero of A, and the union covers every 1-cell; omit empty factors.",
+        "result": "A factorization with k factors gives a cover with at most k rectangles after empty factors are omitted, while a cover with t rectangles gives a factorization with exactly t factors. The two inequalities make the minima equal.",
+        "reverse": "For each chosen all-one rectangle S_l x T_l, use the indicator of S_l as a factor column and the indicator of T_l as a factor row. Their Boolean OR-AND product reconstructs A."
+      },
+      "name": "R1 uses both witness inequalities rather than false exact k preservation",
+      "passed": true
+    },
+    {
+      "detail": {
+        "assumptions": [
+          "Finite simple bipartite G",
+          "Fixed labeled nonempty sides X and Y",
+          "A_G is the X-by-Y biadjacency matrix",
+          "Bicliques respect the fixed sides"
+        ],
+        "witness_translation": {
+          "forward": "An all-one rectangle S x T gives the biclique with sides S subset X and T subset Y.",
+          "result": "Matrix cells and graph edges correspond one-to-one, preserving cover cardinality in both directions.",
+          "reverse": "A covering biclique with sides S subset X and T subset Y gives the all-one rectangle S x T in A_G."
+        }
+      },
+      "name": "R2 fixes the labeled bipartition and preserves cell-edge cover cardinality",
+      "passed": true
+    },
+    {
+      "detail": {
+        "source_scope": "Karchmer, Newman, Saks and Wigderson Proposition 3 and its proof support the nonempty-1-support formula after the explicit notation mapping. The printed logarithm does not resolve rc_1=0.",
+        "statement": "For nonzero f, N^1_S2(f)=ceil(log_2 rc_1(M_f)); with the separately defined Atlas zero case, N^1_S2(f)=ceil(log_2(max(1,rc_1(M_f)))).",
+        "witness_translation": {
+          "forward": "Given t>=1 covering rectangles, the first party nondeterministically names a row-compatible rectangle using ceil(log_2 t) bits and the second party checks column membership.",
+          "result": "The two inequalities give the ceiling-log equality for nonempty 1-support under the S2 protocol convention.",
+          "reverse": "Accepting leaves of a depth-h binary protocol are all-one rectangles covering every 1-input; there are at most 2^h leaves."
+        }
+      },
+      "name": "R3 preserves the exact S2 protocol, nonzero domain and reverse leaf bound",
+      "passed": true
+    },
+    {
+      "detail": {
+        "notation": [
+          "N^1_S2 is Atlas notation for S2 n(f)",
+          "It is not S2 n_1(f), which restricts witness multiplicity",
+          "rc_1 is S2 unrestricted kappa, not kappa_1",
+          "This is not deterministic communication complexity",
+          "N^0_S2(f):=N^1_S2(1-f) is an Atlas complement-side definition if later displayed"
+        ],
+        "zero": {
+          "adopted_conventions": [
+            "Set rc_1(M_f)=0 using the empty cover",
+            "Use a depth-zero constant-reject protocol and set N^1_S2(f)=0"
+          ],
+          "argument": "There are no 1-inputs to accept, so constant rejection is sound and complete; depths are nonnegative.",
+          "case": "f is all-zero",
+          "evidence_basis": "atlas_local_definition_and_proof",
+          "result": "The local totalization equals ceil(log_2(max(1,0)))=0"
+        }
+      },
+      "name": "R3 separates the Atlas zero totalization and nearby notation",
+      "passed": true
+    },
+    {
+      "detail": {
+        "assumptions": [
+          "Same fixed labeled nonempty bipartition as R2",
+          "Objective is maximum rectangle incidence per row or column",
+          "Graph objective is maximum biclique incidence per vertex",
+          "Neither objective is per-cell or per-edge witness multiplicity"
+        ],
+        "witness_translation": {
+          "forward": "Translate every selected rectangle S x T to the corresponding fixed-side biclique. A row or column belongs to exactly the bicliques containing its corresponding graph vertex.",
+          "result": "Every cover retains the same maximum incidence objective, so the minima agree.",
+          "reverse": "Translate each selected fixed-side biclique back to its all-one rectangle; every vertex incidence becomes the corresponding row or column incidence."
+        }
+      },
+      "name": "R4 preserves participant incidence and rejects cell-edge multiplicity",
+      "passed": true
+    },
+    {
+      "detail": {
+        "biadjacency-versus-adjacency": [
+          "boolean-relation-matrix",
+          "adjacency-matrix",
+          "distinguishes_representation"
+        ],
+        "biclique-cover-local-objective": [
+          "fixed-bipartition-biclique-cover",
+          "local-biclique-cover",
+          "changes_objective"
+        ],
+        "boolean-matrix-cover-definition": [
+          "boolean-relation-matrix",
+          "one-support-rectangle-cover",
+          "defines_parameter"
+        ],
+        "rectangle-cover-local-objective": [
+          "one-support-rectangle-cover",
+          "local-boolean-rank",
+          "changes_objective"
+        ]
+      },
+      "name": "supporting edges are definitions or an explicit representation boundary",
+      "passed": true
+    },
+    {
+      "detail": {
+        "boolean-table-to-certificate": [
+          "boolean-relation-matrix",
+          "one-support-rectangle-cover",
+          "boolean-rank",
+          "fixed-bipartition-biclique-cover",
+          "nondeterministic-communication-s2"
+        ],
+        "total-cover-to-local-load": [
+          "one-support-rectangle-cover",
+          "local-boolean-rank",
+          "local-biclique-cover"
+        ]
+      },
+      "name": "two learning journeys retain the intended node sequences and scope prompts",
+      "passed": true
+    },
+    {
+      "detail": {
+        "ordered_pairs": 1600
+      },
+      "name": "independent undirected traversal reaches all 1,600 ordered pairs",
+      "passed": true
+    },
+    {
+      "detail": "This identity is provenance only; semantic checks above do not rely solely on the author projection.",
+      "name": "author projection is byte-value aligned with actual additions",
+      "passed": true
+    },
+    {
+      "detail": "Documentation is reviewed as frozen pending the product audit; a later status-only publication update is outside this freeze.",
+      "name": "documentation states counts, review boundary and no novelty or impact",
+      "passed": true
+    },
+    {
+      "detail": {
+        "crlf_files": [],
+        "replacement_character_files": []
+      },
+      "name": "frozen learner text is valid UTF-8 and corrected files use LF",
+      "passed": true
+    },
+    {
+      "detail": [
+        {
+          "errors": [
+            "unsupported schema version"
+          ],
+          "id": "old-schema",
+          "passed": true,
+          "returncode": 1,
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_sha256": "ca6d895b0985ed423ee5f23ad00873929cf3315844c2ec1322da09f362ee39d0"
+        },
+        {
+          "errors": [
+            "node weighted-graph: x must be finite numeric metadata"
+          ],
+          "id": "boolean-coordinate",
+          "passed": true,
+          "returncode": 1,
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_sha256": "796eaa7b00cc4eab182fc2b9bdc07979162671aaa8768a7738f2bd5347344431"
+        },
+        {
+          "errors": [
+            "node weighted-graph: x must be finite numeric metadata"
+          ],
+          "id": "nan-coordinate",
+          "passed": true,
+          "returncode": 1,
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_sha256": "796eaa7b00cc4eab182fc2b9bdc07979162671aaa8768a7738f2bd5347344431"
+        },
+        {
+          "errors": [
+            "edge boolean-rank-r3: source_scope required for admitted translation"
+          ],
+          "id": "missing-source-scope",
+          "passed": true,
+          "returncode": 1,
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_sha256": "59e4a8b28ceb1e77aabd74e538fa9d25cbdb0144eadaacf8d85c022690c557b0"
+        },
+        {
+          "errors": [
+            "edge boolean-rank-r3: complete two-way witness required"
+          ],
+          "id": "blank-forward-witness",
+          "passed": true,
+          "returncode": 1,
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_sha256": "eaf292e4e61ccaab22c469f578dc801e8c8e46f8e2d8730f9fb052fbc2168244"
+        },
+        {
+          "errors": [
+            "edge boolean-rank-r3: local boundary needs explicit conventions, argument, result and Atlas evidence basis"
+          ],
+          "id": "missing-zero-evidence-basis",
+          "passed": true,
+          "returncode": 1,
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_sha256": "0acaeb03d5d005ba3e0bc2d5148fb415b0eb53c7dc1ce9819ef683b8449324d3"
+        },
+        {
+          "errors": [
+            "edge boolean-rank-r3: local boundary needs explicit conventions, argument, result and Atlas evidence basis"
+          ],
+          "id": "source-attributed-zero",
+          "passed": true,
+          "returncode": 1,
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_sha256": "0acaeb03d5d005ba3e0bc2d5148fb415b0eb53c7dc1ce9819ef683b8449324d3"
+        },
+        {
+          "errors": [
+            "edge boolean-rank-r3: local boundary needs explicit conventions, argument, result and Atlas evidence basis"
+          ],
+          "id": "empty-zero-conventions",
+          "passed": true,
+          "returncode": 1,
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_sha256": "0acaeb03d5d005ba3e0bc2d5148fb415b0eb53c7dc1ce9819ef683b8449324d3"
+        },
+        {
+          "errors": [
+            "edge boolean-rank-r3: notation_boundaries must be nonempty text array"
+          ],
+          "id": "empty-notation",
+          "passed": true,
+          "returncode": 1,
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_sha256": "a996e53b7fe1b4d3e28f8c5eb7efacc4bebea279519e7bf550db7c03799af138"
+        },
+        {
+          "errors": [
+            "edge boolean-rank-r3: curation ID must match relation"
+          ],
+          "id": "wrong-curation-id",
+          "passed": true,
+          "returncode": 1,
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_sha256": "247a1341a1a17d01be81035706e929ef2dec043f8143a49ac888b062dfbd132b"
+        },
+        {
+          "errors": [
+            "boolean-rank-r3: artifact hash mismatch"
+          ],
+          "id": "stale-curation-hash",
+          "passed": true,
+          "returncode": 1,
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_sha256": "bddb67b972d7f5af1a4f6d473f4d3163ff95b734a38dbf422d9eb2b086ddff59"
+        },
+        {
+          "errors": [
+            "edge boolean-rank-r3: artifact must be a relative workspace path"
+          ],
+          "id": "absolute-curation-path",
+          "passed": true,
+          "returncode": 1,
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_sha256": "120adff97c597c431b52c27daf75d2dece2413324b4f2da679e5519ed02e9ee3"
+        },
+        {
+          "errors": [
+            "edge boolean-rank-r3: artifact must be a relative workspace path"
+          ],
+          "id": "traversal-curation-path",
+          "passed": true,
+          "returncode": 1,
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_sha256": "120adff97c597c431b52c27daf75d2dece2413324b4f2da679e5519ed02e9ee3"
+        },
+        {
+          "errors": [
+            "boolean-rank-r3: artifact must resolve to a file inside the workspace"
+          ],
+          "id": "directory-curation-path",
+          "passed": true,
+          "returncode": 1,
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_sha256": "d623793da746f3592999a96a31c36ed486fff7588af262855df1564ec83f04ef"
+        },
+        {
+          "errors": [
+            "edges: missing ID"
+          ],
+          "id": "malformed-edge-id",
+          "passed": true,
+          "returncode": 1,
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_sha256": "5bf6cbf3ae338ee155debc20a06390145abdaf8da464afc34639e74c69116855"
+        }
+      ],
+      "name": "15 fresh malformed semantic and provenance cases fail structurally without traceback",
+      "passed": true
+    }
+  ],
+  "counts": {
+    "checks": 22,
+    "failed": 0,
+    "malformed_cases": 15,
+    "passed": 22
+  },
+  "inputs": {
+    "admitted_records": {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-clarification-work\\corrected-records-v1.json",
+      "sha256": "0ba1c19b75b0b37fcd29214d3ad5565aca747481aba779084e23367b0a110fd2"
+    },
+    "contract": {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\docs\\boolean-rank-contract.md",
+      "sha256": "a302711e12faa6526456d92a42707f94c55ff421c7afabe58f925133c071dcda"
+    },
+    "correction_review": {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-correction-review-work\\correction-review.json",
+      "sha256": "13bff50ecbd050f359a7948996197e9b09a12c5a5305fedb4aa40804cefcbad0"
+    },
+    "freeze_manifest": {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-work\\implementation-freeze-v2.json",
+      "sha256": "391aa34b932aa37c4ccb45e2b9ee589ba3eaec38540c15f9d43b9581c420f7f6"
+    }
+  },
+  "passed": true,
+  "schema_version": "boolean-rank-independent-data-check-v1",
+  "scope": "Frozen data, admitted-record projection, provenance, baseline preservation, docs, independent navigation, and malformed validator behavior. It does not newly prove the source papers, visually assess a browser, certify the teaching example, or measure practical impact or novelty."
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "independent-command-attempt-v1",
+  "attempt_id": "boolean-http-02",
+  "argv": [
+    "uv",
+    "run",
+    "--frozen",
+    "python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-work\\check_http.py"
+  ],
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+  "started_at_utc": "2026-09-08T11:51:55.813225+00:00",
+  "ended_at_utc": "2026-09-08T11:51:59.496304+00:00",
+  "elapsed_seconds": 3.683079,
+  "timeout_seconds": 100,
+  "timed_out": false,
+  "termination": null,
+  "returncode": 0,
+  "selected_environment": {
+    "UV_CACHE_DIR": "D:\\CodexWorkspaces\\mathematics-atlas\\uv-cache",
+    "UV_PROJECT_ENVIRONMENT": null,
+    "VIRTUAL_ENV": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.venv",
+    "PYTHONDONTWRITEBYTECODE": null
+  },
+  "stdout": {
+    "path": "boolean-http-02.stdout.bin",
+    "bytes": 615,
+    "sha256": "9bea9c6db9faf3847a87346a60b1d568e8a27efff91f0bc1a4a26b7d556c7faa"
+  },
+  "stderr": {
+    "path": "boolean-http-02.stderr.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

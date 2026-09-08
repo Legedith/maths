@@ -47,6 +47,46 @@ export function Connection({
             <li key={a}>{a}</li>
           ))}
         </ul>
+        {edge.source_scope && (
+          <section aria-label="Source scope">
+            <h4>What the source establishes</h4>
+            <p>{edge.source_scope}</p>
+          </section>
+        )}
+        {edge.witness_translation && (
+          <section aria-label="Translation in both directions">
+            <h4>How to translate a solution</h4>
+            <p><strong>Forward. </strong>{edge.witness_translation.forward}</p>
+            <p><strong>Reverse. </strong>{edge.witness_translation.reverse}</p>
+            <p>{edge.witness_translation.result}</p>
+          </section>
+        )}
+        {edge.local_boundary_case && (
+          <section aria-label="Atlas convention for the zero case">
+            <h4>Atlas convention for the zero case</h4>
+            <p>{edge.local_boundary_case.case}</p>
+            <ul>
+              {edge.local_boundary_case.adopted_conventions.map((convention) => (
+                <li key={convention}>{convention}</li>
+              ))}
+            </ul>
+            <p>{edge.local_boundary_case.argument}</p>
+            <p>{edge.local_boundary_case.result}</p>
+            <p className="fine-print">
+              This boundary case uses the Atlas definitions and argument above.
+            </p>
+          </section>
+        )}
+        {edge.notation_boundaries && (
+          <section aria-label="Notation and scope distinctions">
+            <h4>Keep these meanings separate</h4>
+            <ul>
+              {edge.notation_boundaries.map((boundary) => (
+                <li key={boundary}>{boundary}</li>
+              ))}
+            </ul>
+          </section>
+        )}
         {edge.evidence.map((v, i) => (
           <a
             key={i}
@@ -175,7 +215,7 @@ export function AtlasMap({
           </span>
           <span>
             {neighbors.length} direct neighbors · {atlas.nodes.length} concepts
-            in this region
+            in the curated map
           </span>
         </div>
         <svg

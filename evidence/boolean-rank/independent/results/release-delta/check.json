@@ -1,0 +1,111 @@
+{
+  "auditor": "/root/sol_atlas_audit",
+  "check_count": 10,
+  "checks": [
+    {
+      "detail": [],
+      "name": "all frozen delta-review inputs match",
+      "passed": true
+    },
+    {
+      "detail": {
+        "failures": [],
+        "target_count": 4
+      },
+      "name": "all four release-assembly review targets match",
+      "passed": true
+    },
+    {
+      "detail": {
+        "actual": [
+          {
+            "after_sha256": "5aa6c883f6aa6371702dc371df349d8a1d70edd9b604e77f0915a9f9bf80817a",
+            "before_sha256": "2d6fe4c11950c6bb8c79c4e1b041e5c93d058addf6f9f4a5d0154e4b3fc8245a",
+            "path": "docs/boolean-rank-bridge.md"
+          }
+        ],
+        "declared": [
+          {
+            "after_sha256": "5aa6c883f6aa6371702dc371df349d8a1d70edd9b604e77f0915a9f9bf80817a",
+            "before_sha256": "2d6fe4c11950c6bb8c79c4e1b041e5c93d058addf6f9f4a5d0154e4b3fc8245a",
+            "path": "docs/boolean-rank-bridge.md"
+          }
+        ]
+      },
+      "name": "exactly one frozen file changed and it is the declared bridge documentation delta",
+      "passed": true
+    },
+    {
+      "detail": {
+        "equal_to_bundle_draft": true,
+        "ids": [
+          "C001",
+          "C002",
+          "C003",
+          "C004",
+          "C005",
+          "C006",
+          "C007"
+        ]
+      },
+      "name": "C001-C007 remain byte-value identical",
+      "passed": true
+    },
+    {
+      "detail": [],
+      "name": "bundle carries all four sealed gate decisions without changing notes",
+      "passed": true
+    },
+    {
+      "detail": {
+        "artifact_count": 259,
+        "failures": []
+      },
+      "name": "all assembled bundle artifacts have unique safe paths and matching bytes",
+      "passed": true
+    },
+    {
+      "detail": {
+        "failures": [],
+        "manifest_sha256": "9a07b01eb998257fde7864349b32c53ad174915f3e9fa879d3ab00023e0bceed",
+        "record_count": 144
+      },
+      "name": "all 144 selected independent publication records copied byte-identically",
+      "passed": true
+    },
+    {
+      "detail": {
+        "bridge_no_new_source_proof": true,
+        "bridge_pass_link": true,
+        "no_impact_claim": true,
+        "no_visual_claim": true,
+        "old_product_pending_removed": true,
+        "role_disclosed": true,
+        "scoped_integration": true,
+        "source_gate_limited": false
+      },
+      "name": "verification note and bridge status replacement preserve the sealed scope",
+      "passed": false
+    },
+    {
+      "detail": {
+        "audited_checker": true,
+        "bounded_timeout": true,
+        "logged_runner": true,
+        "pinned_upload": true,
+        "raw_folder_uploaded": true,
+        "uv_frozen": true
+      },
+      "name": "workflow delta schedules the audited checker and raw folder with pinned actions",
+      "passed": true
+    },
+    {
+      "detail": "The independent product audit passed for the frozen implementation. The documentation, CI and evidence-assembly delta is pending its separate acknowledgment; publication remains withheld until then.",
+      "name": "current bundle truthfully keeps additive review pending",
+      "passed": true
+    }
+  ],
+  "passed": false,
+  "schema_version": "boolean-rank-release-delta-independent-check-v1",
+  "scope": "Exact additive documentation, CI-command and evidence-assembly review only. No repeated runtime, browser, mathematical-source, production-build, hosted-CI or deployment verification."
+}

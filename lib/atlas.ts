@@ -26,6 +26,27 @@ export type AtlasEdge = {
   assumptions: string[];
   status: string;
   evidence: Evidence[];
+  source_scope?: string;
+  witness_translation?: {
+    forward: string;
+    reverse: string;
+    result: string;
+  };
+  local_boundary_case?: {
+    case: string;
+    adopted_conventions: string[];
+    argument: string;
+    result: string;
+    evidence_basis: 'atlas_local_definition_and_proof';
+  };
+  notation_boundaries?: string[];
+  curation_record?: {
+    id: 'R1' | 'R2' | 'R3' | 'R4';
+    artifact: string;
+    artifact_sha256: string;
+    independent_review: string;
+    independent_review_sha256: string;
+  };
 };
 export type AtlasSource = {
   id: string;
@@ -60,8 +81,9 @@ export type AtlasExample = {
   status: 'finite-computation';
   concepts: string[];
 };
+if (raw.schema_version !== '1.1') throw new Error('Unsupported Atlas schema.');
 export const atlas = raw as {
-  schema_version: string;
+  schema_version: '1.1';
   title: string;
   scope: string;
   domains: string[];

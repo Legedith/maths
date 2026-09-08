@@ -1,0 +1,421 @@
+{
+  "audited_at_utc": "2026-09-08T12:25:02.189043+00:00",
+  "auditor": {
+    "identity": "/root/sol_atlas_audit",
+    "implementation_author": false,
+    "role": "independent product auditor and earlier integration-design author",
+    "role_disclosure": "The auditor previously authored nonbinding integration-design advice. Root authored the 49-file implementation; this audit compares it directly with the admitted corrected records and upstream independent source review."
+  },
+  "bundle_draft_claim_review": {
+    "approved_claim_ids": [
+      "C001",
+      "C002",
+      "C003",
+      "C004",
+      "C005",
+      "C006",
+      "C007"
+    ],
+    "bundle": {
+      "bytes": 32670,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.codex\\evidence\\runs\\boolean-rank-integration-v1\\bundle.json",
+      "sha256": "d5f1f0e07be30477cb5338a53916ce7f85fd0ed840bd928e0aa9da6fb0017d50"
+    },
+    "note": "The seven current statements are aligned with their cited artifacts and retain the historical/final-run distinctions. Approval is limited to the draft bytes identified above; later bundle changes require an explicit delta review."
+  },
+  "four_checks": [
+    {
+      "auditor": "/root/sol_atlas_audit",
+      "evidence": [
+        {
+          "bytes": 22054,
+          "path": "results/independent-data-02/independent-data-check.json",
+          "sha256": "6129129db96a535dddd5404c535c33cd81e0458a291d78886f247ee939cb1613"
+        },
+        {
+          "bytes": 2344,
+          "path": "results/independent-runtime-05/independent-runtime-check.json",
+          "sha256": "1b474cdcfb2cf0d6ca21375dfc0e4a1d0724ee67649d8b308c3a6bff5548af6d"
+        },
+        {
+          "bytes": 1529,
+          "path": "results/canonical/functional.json",
+          "sha256": "13d40391635b61be04918d4d20e177236df8e1cc4d1c985808ff4a26900cdd27"
+        },
+        {
+          "bytes": 10353,
+          "path": "results/canonical/functional-rendered.json",
+          "sha256": "754a84d00d52fdd3d0b9ebae840aae2c4475c12668d7eaba465a00745a1ac838"
+        }
+      ],
+      "id": "implementation_alignment",
+      "note": "Actual data, TypeScript types, API, find_connection tool and connection rendering retain every admitted R1-R4 semantic field. All old corpus records remain value-identical to baseline; the release adds exactly 7 nodes, 8 edges, 2 sources and 2 journeys.",
+      "status": "PASS"
+    },
+    {
+      "auditor": "/root/sol_atlas_audit",
+      "evidence": [
+        {
+          "bytes": 22054,
+          "path": "results/independent-data-02/independent-data-check.json",
+          "sha256": "6129129db96a535dddd5404c535c33cd81e0458a291d78886f247ee939cb1613"
+        },
+        {
+          "bytes": 2344,
+          "path": "results/independent-runtime-05/independent-runtime-check.json",
+          "sha256": "1b474cdcfb2cf0d6ca21375dfc0e4a1d0724ee67649d8b308c3a6bff5548af6d"
+        },
+        {
+          "bytes": 296,
+          "path": "results/canonical/validation.json",
+          "sha256": "923f6be0ad2fdea6581b2d01e1f70d8393d95c369598c628a5ca58aca814868e"
+        },
+        {
+          "bytes": 1529,
+          "path": "results/canonical/functional.json",
+          "sha256": "13d40391635b61be04918d4d20e177236df8e1cc4d1c985808ff4a26900cdd27"
+        },
+        {
+          "bytes": 429,
+          "path": "results/canonical/navigation.json",
+          "sha256": "3784199aff384a85aff41df2566c1c7f485c574b93629dac09670ca87d1bcb3c"
+        },
+        {
+          "attempt_id": "canonical-pytest-01",
+          "bytes": 1174,
+          "ended_at_utc": "2026-09-08T12:16:32.293527+00:00",
+          "path": "logs/canonical/attempt-canonical-pytest-01.json",
+          "returncode": 0,
+          "sha256": "9c5d98f3f8acabbdda6c6e7ee789bb8698bfccbf0516495486969cb2461fb93d",
+          "started_at_utc": "2026-09-08T12:16:26.093912+00:00",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_sha256": "e72c9bb98da2597fed98194ebba052ff83b6fc91abe6612b195a3c86c4b94516",
+          "timed_out": false
+        }
+      ],
+      "id": "reproduction",
+      "note": "Frozen independent checks and four canonical replays all exited zero: 22/22 independent data checks, 15/15 fresh malformed cases, 6/6 runtime checks, structural validation, 9/9 author functional checks, 1,600 ordered navigation pairs and 35 targeted pytest cases.",
+      "status": "PASS"
+    },
+    {
+      "auditor": "/root/sol_atlas_audit",
+      "evidence": [
+        {
+          "bytes": 7852,
+          "path": "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-clarification-work\\corrected-records-v1.json",
+          "sha256": "0ba1c19b75b0b37fcd29214d3ad5565aca747481aba779084e23367b0a110fd2"
+        },
+        {
+          "bytes": 8560,
+          "path": "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-correction-review-work\\correction-review.json",
+          "sha256": "13bff50ecbd050f359a7948996197e9b09a12c5a5305fedb4aa40804cefcbad0"
+        },
+        {
+          "bytes": 22054,
+          "path": "results/independent-data-02/independent-data-check.json",
+          "sha256": "6129129db96a535dddd5404c535c33cd81e0458a291d78886f247ee939cb1613"
+        }
+      ],
+      "id": "source_verification",
+      "note": "Scoped product-source gate: the implementation exactly projects the four relationships admitted by the pinned independent correction review. This audit checked source IDs, URLs, locators, scope limits and local-convention attribution; it did not perform a new primary-paper entailment review.",
+      "status": "PASS"
+    },
+    {
+      "auditor": "/root/sol_atlas_audit",
+      "evidence": [
+        {
+          "bytes": 3614,
+          "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\docs\\boolean-rank-contract.md",
+          "sha256": "a302711e12faa6526456d92a42707f94c55ff421c7afabe58f925133c071dcda"
+        },
+        {
+          "bytes": 22054,
+          "path": "results/independent-data-02/independent-data-check.json",
+          "sha256": "6129129db96a535dddd5404c535c33cd81e0458a291d78886f247ee939cb1613"
+        },
+        {
+          "bytes": 2344,
+          "path": "results/independent-runtime-05/independent-runtime-check.json",
+          "sha256": "1b474cdcfb2cf0d6ca21375dfc0e4a1d0724ee67649d8b308c3a6bff5548af6d"
+        },
+        {
+          "bytes": 296,
+          "path": "results/canonical/validation.json",
+          "sha256": "923f6be0ad2fdea6581b2d01e1f70d8393d95c369598c628a5ca58aca814868e"
+        }
+      ],
+      "id": "specification_compliance",
+      "note": "The frozen implementation meets the contract's typed schema, exact addition counts, old-record preservation, source/witness/boundary/notation display, strict malformed-input behavior, search and navigation requirements.",
+      "status": "PASS"
+    }
+  ],
+  "inputs": {
+    "admitted_corrected_records": {
+      "bytes": 7852,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-clarification-work\\corrected-records-v1.json",
+      "sha256": "0ba1c19b75b0b37fcd29214d3ad5565aca747481aba779084e23367b0a110fd2"
+    },
+    "author_bundle_draft": {
+      "bytes": 32670,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.codex\\evidence\\runs\\boolean-rank-integration-v1\\bundle.json",
+      "sha256": "d5f1f0e07be30477cb5338a53916ce7f85fd0ed840bd928e0aa9da6fb0017d50"
+    },
+    "checker_freeze": {
+      "bytes": 5158,
+      "path": "checker-freeze.json",
+      "sha256": "c335dd28d7af4286e6603e2383352c2fe253a7fd59455f7967f7f3f37ba53539"
+    },
+    "contract": {
+      "bytes": 3614,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\docs\\boolean-rank-contract.md",
+      "sha256": "a302711e12faa6526456d92a42707f94c55ff421c7afabe58f925133c071dcda"
+    },
+    "upstream_independent_correction_review": {
+      "bytes": 8560,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-correction-review-work\\correction-review.json",
+      "sha256": "13bff50ecbd050f359a7948996197e9b09a12c5a5305fedb4aa40804cefcbad0"
+    }
+  },
+  "limitations": [
+    "No browser DOM, screenshot or visual-quality audit was performed or is claimed.",
+    "The finite teaching illustration and role pilot are outside this product gate.",
+    "Structural and functional checks do not independently prove the cited mathematics; source entailment rests on the pinned upstream independent correction review.",
+    "No formal-proof, retrieval-quality, discovery, novelty, prevalence or practical-impact claim is supported by this audit.",
+    "The live HTTP check used the already running localhost:8598 IPv6-bound server; server startup portability was not re-evaluated here."
+  ],
+  "material_alignment_findings": [
+    {
+      "finding": "A k-factor Boolean factorization yields at most k nonempty rectangles; a t-rectangle cover yields exactly t factors. The two inequalities, rather than false exact-k preservation after omission, prove equality of minima.",
+      "id": "R1-two-inequalities",
+      "locator": "project/data/atlas.json:2182 and 2192-2211",
+      "status": "supported"
+    },
+    {
+      "finding": "The source-backed nonzero formula is separated from the Atlas all-zero definition; M_f, maximum leaf depth, n(f) versus n_1(f), unrestricted kappa versus kappa_1, and the deterministic-complexity boundary are all visible.",
+      "id": "R3-domain-and-notation",
+      "locator": "project/data/atlas.json:2277-2308",
+      "status": "supported"
+    },
+    {
+      "finding": "The equality preserves row/column-to-vertex participation. The product explicitly excludes per-cell or per-edge witness multiplicity.",
+      "id": "R4-participation-objective",
+      "locator": "project/data/atlas.json:2329-2356",
+      "status": "supported"
+    },
+    {
+      "finding": "Typed fields survive the API and find_connection path and are rendered as source scope, forward/reverse/result witnesses, local cases and notation.",
+      "id": "semantic-display-and-api",
+      "locator": "project/lib/atlas.ts:19-51; project/components/atlas-map.tsx:50-88; project/app/api/atlas/route.ts:1-6; project/lib/use-atlas-tools.ts:135-159",
+      "status": "supported"
+    },
+    {
+      "finding": "The validator enforces complete admitted-translation fields and safe, hash-matched curation references. Fifteen independently generated malformed cases were rejected without traceback.",
+      "id": "malformed-record-guards",
+      "locator": "project/scripts/validate_atlas.py:81-106 and 133-166",
+      "status": "supported"
+    }
+  ],
+  "material_defects": [],
+  "overall_status": "PASS_SCOPED",
+  "reproduction": {
+    "author_build_context": "The author's production build attempt boolean-build-01 exited zero before the value-preserving LF-only correction. This audit independently loaded the final v2 data and runtime modules and exercised the live final product, but did not repeat the production build.",
+    "outputs": [
+      {
+        "bytes": 22054,
+        "path": "results/independent-data-02/independent-data-check.json",
+        "sha256": "6129129db96a535dddd5404c535c33cd81e0458a291d78886f247ee939cb1613"
+      },
+      {
+        "bytes": 2344,
+        "path": "results/independent-runtime-05/independent-runtime-check.json",
+        "sha256": "1b474cdcfb2cf0d6ca21375dfc0e4a1d0724ee67649d8b308c3a6bff5548af6d"
+      },
+      {
+        "bytes": 5758,
+        "path": "results/independent-runtime-05/geometry.json",
+        "sha256": "2abf72c97214f2c9199785dd8375d53c91aaf65a287a7e3617fe8876072c8907"
+      },
+      {
+        "bytes": 10345,
+        "path": "results/independent-runtime-05/rendered-connections.json",
+        "sha256": "13c740f865d4c2d49103643ecf7e78348e742ba1d5dbcfbb4a35f3990f81ce61"
+      },
+      {
+        "bytes": 296,
+        "path": "results/canonical/validation.json",
+        "sha256": "923f6be0ad2fdea6581b2d01e1f70d8393d95c369598c628a5ca58aca814868e"
+      },
+      {
+        "bytes": 1529,
+        "path": "results/canonical/functional.json",
+        "sha256": "13d40391635b61be04918d4d20e177236df8e1cc4d1c985808ff4a26900cdd27"
+      },
+      {
+        "bytes": 10353,
+        "path": "results/canonical/functional-rendered.json",
+        "sha256": "754a84d00d52fdd3d0b9ebae840aae2c4475c12668d7eaba465a00745a1ac838"
+      },
+      {
+        "bytes": 429,
+        "path": "results/canonical/navigation.json",
+        "sha256": "3784199aff384a85aff41df2566c1c7f485c574b93629dac09670ca87d1bcb3c"
+      }
+    ],
+    "successful_runs": [
+      {
+        "attempt_id": "independent-data-02",
+        "bytes": 1598,
+        "ended_at_utc": "2026-09-08T12:04:00.923615+00:00",
+        "path": "logs/data/attempt-independent-data-02.json",
+        "returncode": 0,
+        "sha256": "148eef57eb54be8cf5e023787bc6cea481b21ed7065b83b35f50c8ccf17cf53e",
+        "started_at_utc": "2026-09-08T12:03:59.013336+00:00",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout_sha256": "b54c60fae49a7278cf9a6ef23f6a6dafc43f40cb03148a2d0be482a6306f088d",
+        "timed_out": false
+      },
+      {
+        "attempt_id": "independent-runtime-05",
+        "bytes": 1238,
+        "ended_at_utc": "2026-09-08T12:13:02.318702+00:00",
+        "path": "logs/runtime/attempt-independent-runtime-05.json",
+        "returncode": 0,
+        "sha256": "b81934804f804ff7ab0c67ce0df4264699ff210ca42421dfe3b431ade80f0c9c",
+        "started_at_utc": "2026-09-08T12:13:00.792513+00:00",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout_sha256": "1937135bd66195ef568cb029845491cf7dc9f7b64b487a5456cf2617e4bb8943",
+        "timed_out": false
+      },
+      {
+        "attempt_id": "canonical-validation-01",
+        "bytes": 1356,
+        "ended_at_utc": "2026-09-08T12:16:22.076726+00:00",
+        "path": "logs/canonical/attempt-canonical-validation-01.json",
+        "returncode": 0,
+        "sha256": "7e2a53c357cd50a71780c39803c7d60de80176d5e5fb2638d8116e74d9be197e",
+        "started_at_utc": "2026-09-08T12:16:21.940494+00:00",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout_sha256": "923f6be0ad2fdea6581b2d01e1f70d8393d95c369598c628a5ca58aca814868e",
+        "timed_out": false
+      },
+      {
+        "attempt_id": "canonical-functional-01",
+        "bytes": 1149,
+        "ended_at_utc": "2026-09-08T12:16:24.791071+00:00",
+        "path": "logs/canonical/attempt-canonical-functional-01.json",
+        "returncode": 0,
+        "sha256": "2d4a7b277251de0044d534eb98de6767ccfac67be39c4f6ffa4ab9a0cd45c028",
+        "started_at_utc": "2026-09-08T12:16:23.286155+00:00",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout_sha256": "13d40391635b61be04918d4d20e177236df8e1cc4d1c985808ff4a26900cdd27",
+        "timed_out": false
+      },
+      {
+        "attempt_id": "canonical-navigation-01",
+        "bytes": 1140,
+        "ended_at_utc": "2026-09-08T12:16:24.892781+00:00",
+        "path": "logs/canonical/attempt-canonical-navigation-01.json",
+        "returncode": 0,
+        "sha256": "81e2b7b147498f31c9f89cfd1f13c9e864ad1b152bba8822edcb1f48ff65abd2",
+        "started_at_utc": "2026-09-08T12:16:24.724239+00:00",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout_sha256": "3784199aff384a85aff41df2566c1c7f485c574b93629dac09670ca87d1bcb3c",
+        "timed_out": false
+      },
+      {
+        "attempt_id": "canonical-pytest-01",
+        "bytes": 1174,
+        "ended_at_utc": "2026-09-08T12:16:32.293527+00:00",
+        "path": "logs/canonical/attempt-canonical-pytest-01.json",
+        "returncode": 0,
+        "sha256": "9c5d98f3f8acabbdda6c6e7ee789bb8698bfccbf0516495486969cb2461fb93d",
+        "started_at_utc": "2026-09-08T12:16:26.093912+00:00",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout_sha256": "e72c9bb98da2597fed98194ebba052ff83b6fc91abe6612b195a3c86c4b94516",
+        "timed_out": false
+      }
+    ]
+  },
+  "required_changes": [],
+  "retained_checker_history": [
+    {
+      "attempt": "independent-data-01",
+      "classification": "auditor-checker false failure",
+      "reason": "Raw Markdown matching did not normalize backticks and whitespace.",
+      "retained": {
+        "bytes": 1598,
+        "path": "logs/data/attempt-independent-data-01.json",
+        "sha256": "20a855146ea221ddd234693db32483eb21168f043d4c66320834ce71101024f9"
+      }
+    },
+    {
+      "attempts": [
+        "independent-runtime-01",
+        "independent-runtime-02",
+        "independent-runtime-03"
+      ],
+      "classification": "auditor-loader failures before assertions",
+      "reason": "The custom ESM loader needed React CommonJS named-export interop.",
+      "retained": [
+        {
+          "bytes": 1239,
+          "path": "logs/runtime/attempt-independent-runtime-01.json",
+          "sha256": "7b97c26cbaf1c83662a742ced6bcd60cb1a6b05403c33f41e97153fa8033fb1f"
+        },
+        {
+          "bytes": 1239,
+          "path": "logs/runtime/attempt-independent-runtime-02.json",
+          "sha256": "cafd81a751b14ed07f1c5280a28bd1b55690aca6bebabbf4c793e56df5a1e3c3"
+        },
+        {
+          "bytes": 1239,
+          "path": "logs/runtime/attempt-independent-runtime-03.json",
+          "sha256": "f8c30d42eff7670d2b879750694806b3c17277202603d69bfca987649b4b8115"
+        }
+      ]
+    },
+    {
+      "attempt": "independent-runtime-04",
+      "classification": "auditor-checker false failure after 5 of 6 checks passed",
+      "reason": "The HTTP assertion searched raw streamed HTML for adjacent dynamic text; React inserted an empty comment separator. V6 removes only comment separators before checking the same count and scope text.",
+      "retained": {
+        "bytes": 1238,
+        "path": "logs/runtime/attempt-independent-runtime-04.json",
+        "sha256": "e601cc3f4ab72f83fc7ffa5afb4b1286ea816b74e9f5f317637de4ba046886b3"
+      }
+    }
+  ],
+  "reviewed_snapshot": {
+    "all_frozen_hashes_matched": true,
+    "freeze": {
+      "bytes": 9727,
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-work\\implementation-freeze-v2.json",
+      "sha256": "391aa34b932aa37c4ccb45e2b9ee589ba3eaec38540c15f9d43b9581c420f7f6"
+    },
+    "newline_delta": "Freeze v2 differs from v1 only by CRLF-to-LF normalization of atlas.json, README.md and integration-projection.json; parsed JSON values and text lines were retained by the author's correction record. The audit used v2 bytes.",
+    "verified_file_count": 49
+  },
+  "schema_version": "boolean-rank-integration-independent-product-audit-v1",
+  "source_matrix": [
+    {
+      "locator": "printed p. 2, Boolean-rank, rectangle-cover, biclique-cover and biadjacency paragraphs; first lines of printed p. 3 for lr_B(A)=lbc(G)",
+      "product_scope": "Supports the factor/rectangle, fixed-bipartition rectangle/biclique and local incidence correspondences. Atlas empty-support conventions are separate local definitions.",
+      "relationships": [
+        "R1",
+        "R2",
+        "R4"
+      ],
+      "source": "Local Clique Covering of Graphs",
+      "url": "https://arxiv.org/pdf/1210.6965v1"
+    },
+    {
+      "locator": "printed p. 3 Section 2.1; p. 4 Section 2.2; p. 5 Proposition 3 and proof",
+      "product_scope": "Supports unrestricted kappa, maximum-leaf-depth n(f), and the ceiling-log relation when the 1-support is nonempty. The all-zero totalization and Atlas superscript notation are explicitly local.",
+      "relationships": [
+        "R3"
+      ],
+      "source": "Non-deterministic Communication Complexity with Few Witnesses",
+      "url": "https://www.math.ias.edu/~avi/PUBLICATIONS/MYPAPERS/SAKS/KCOVER/JOURNAL/kcover.pdf"
+    }
+  ]
+}

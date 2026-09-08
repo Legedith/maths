@@ -1,5 +1,6 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import assert from 'node:assert/strict';
+import { dirname } from 'node:path';
 import { atlas, connectionPath, searchNodes } from '../lib/atlas.ts';
 // Curated retrieval sanity cases, not a held-out semantic search benchmark.
 const queries = [
@@ -11,6 +12,13 @@ const queries = [
   { query: 'commute-resistance', contains: 'commute-resistance' },
   { query: 'matrix-tree', contains: 'matrix-tree' },
   { query: 'random-walk', contains: 'random-walk' },
+  { query: 'Boolean relation matrix', contains: 'boolean-relation-matrix' },
+  { query: 'Boolean rank', contains: 'boolean-rank' },
+  { query: 'rectangle cover', contains: 'one-support-rectangle-cover' },
+  { query: 'fixed-bipartition-biclique-cover', contains: 'fixed-bipartition-biclique-cover' },
+  { query: 'nondeterministic-communication-s2', contains: 'nondeterministic-communication-s2' },
+  { query: 'local Boolean rank', contains: 'local-boolean-rank' },
+  { query: 'local biclique', contains: 'local-biclique-cover' },
 ];
 for (const c of queries)
   assert.ok(
@@ -48,9 +56,14 @@ const report = {
     'A traversal path is not a logical composition of its mathematical relations.',
   ],
 };
-mkdirSync('evidence/corpus', { recursive: true });
+const args = process.argv.slice(2);
+if (args.length !== 0 && (args.length !== 2 || args[0] !== '--output')) {
+  throw new Error('Usage: node scripts/check-atlas.ts [--output PATH]');
+}
+const output = args[1] ?? 'evidence/corpus/search-and-paths.json';
+mkdirSync(dirname(output), { recursive: true });
 writeFileSync(
-  'evidence/corpus/search-and-paths.json',
+  output,
   JSON.stringify(report, null, 2) + '\n',
 );
 console.log(JSON.stringify(report, null, 2));

@@ -221,7 +221,7 @@ export default function Home() {
             Mathematics<span className="brand-light"> Atlas</span>
           </span>
         </Link>
-        <span className="scope-label">LAPLACIANS & NETWORKS</span>
+        <span className="scope-label">NETWORKS & BOOLEAN RELATIONS</span>
         <a
           className="repo-link"
           href="https://github.com/Legedith/maths"
@@ -328,8 +328,8 @@ export default function Home() {
               <strong>A growing map</strong>
               <p>
                 {atlas.nodes.length} concepts, {atlas.edges.length} connections,{' '}
-                {atlas.sources.length} sources. This first region covers
-                networks; most mathematics is still to be mapped.
+                {atlas.sources.length} sources. Explore networks and Boolean
+                relations; most mathematics is still to be mapped.
               </p>
               <a href="/api/atlas" target="_blank" rel="noreferrer">
                 Get the open dataset <Download size={12} />
@@ -361,7 +361,7 @@ export default function Home() {
                 <HandHelping /> Contribute
               </TabsTrigger>
             </TabsList>
-            <span>First region · source backed</span>
+            <span>Curated connections · source backed</span>
           </div>
           <TabsContent value="map">
             <AtlasMap

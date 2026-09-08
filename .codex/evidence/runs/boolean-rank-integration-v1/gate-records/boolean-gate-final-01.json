@@ -1,0 +1,38 @@
+{
+  "schema_version": "independent-command-attempt-v1",
+  "attempt_id": "boolean-gate-final-01",
+  "argv": [
+    "uv",
+    "run",
+    "--frozen",
+    "python",
+    "C:\\Users\\Legedith\\.codex\\skills\\chain-of-evidence\\scripts\\evidence_gate.py",
+    "verify",
+    "--workspace",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project"
+  ],
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+  "started_at_utc": "2026-09-08T12:42:12.001710+00:00",
+  "ended_at_utc": "2026-09-08T12:42:12.401549+00:00",
+  "elapsed_seconds": 0.399839,
+  "timeout_seconds": 120,
+  "timed_out": false,
+  "termination": null,
+  "returncode": 1,
+  "selected_environment": {
+    "UV_CACHE_DIR": "D:\\CodexWorkspaces\\mathematics-atlas\\uv-cache",
+    "UV_PROJECT_ENVIRONMENT": null,
+    "VIRTUAL_ENV": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.venv",
+    "PYTHONDONTWRITEBYTECODE": null
+  },
+  "stdout": {
+    "path": "boolean-gate-final-01.stdout.bin",
+    "bytes": 616,
+    "sha256": "42cef15b8ead223b73fd68db9e54ae22af9d0b7b03104b3ea654611b57617c87"
+  },
+  "stderr": {
+    "path": "boolean-gate-final-01.stderr.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

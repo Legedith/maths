@@ -1,0 +1,13 @@
+{
+  "counts": {
+    "nodes": 40,
+    "edges": 52,
+    "sources": 11,
+    "journeys": 6,
+    "opportunities": 6,
+    "examples": 7
+  },
+  "atlas_sha256": "2fdc4cffd6d7b7e37bd083ad498e87b1c54c73fd9ad81af6e0fdc68a58b3da33",
+  "projection_sha256": "5ad8db0cb61a6152f8fe3db48bfe537bb43d6bcee0acc155f505299b689602a7",
+  "existing_records_value_identical": true
+}

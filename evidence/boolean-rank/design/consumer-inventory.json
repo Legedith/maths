@@ -1,0 +1,158 @@
+{
+  "schema_version": "boolean-rank-atlas-consumer-inventory-v1",
+  "review_scope": "Pinned project consumers of data/atlas.json and fixed map-coordinate assumptions",
+  "atlas_schema_version_inventory": {
+    "active_atlas_version_declaration": {
+      "path": "data/atlas.json",
+      "line": 2,
+      "current": "1.0",
+      "action": "Change to 1.1 with the semantic edge-field addition."
+    },
+    "literal_runtime_check": {
+      "path": "scripts/validate_atlas.py",
+      "line": 22,
+      "current": "data.get('schema_version') == '1.0'",
+      "action": "Require 1.1 after migration. This is the only active code equality check found for the curated atlas schema."
+    },
+    "typescript_declaration_without_value_check": {
+      "path": "lib/atlas.ts",
+      "line": 64,
+      "current": "schema_version: string",
+      "action": "Prefer the literal type '1.1' so an unexpected imported corpus version fails typechecking; there is currently no runtime TypeScript version check."
+    },
+    "human_contract": {
+      "path": "docs/data-model.md",
+      "line": 1,
+      "current": "Data semantics, version 1.0",
+      "action": "Update to 1.1 and document the new edge fields."
+    },
+    "unrelated_version_1_0_records_do_not_change": [
+      {"path": "fixtures/frozen.json", "line": 2, "meaning": "graph-engine fixture schema"},
+      {"path": "fixtures/retrieval-study-v1.json", "line": 2, "meaning": "retrieval-study fixture schema"},
+      {"path": "src/atlas_engine/evaluator.py", "line": 145, "meaning": "graph evaluator output schema"},
+      {"path": "scripts/run_symmetry_correctness.py", "line": 559, "meaning": "symmetry correctness report schema"},
+      {"path": "scripts/run_symmetry_benchmark.py", "line": 193, "meaning": "symmetry benchmark report schema"},
+      {"path": "scripts/build_evidence_bundle.py", "line": 104, "meaning": "historical foundation bundle schema"},
+      {"path": "scripts/import_relations.py", "line": 14, "meaning": "MathGloss relation import schema"},
+      {"path": "docs/relation-import-interface.md", "line": 19, "meaning": "MathGloss relation-index interface"},
+      {"path": "data/mathgloss/relations/relation-index.json", "line": 1, "meaning": "separate external-relation dataset"},
+      {"path": "data/mathgloss/relations/relation-ledger.json", "line": 1, "meaning": "separate external-relation ledger"},
+      {"path": "data/mathgloss/relations/relation-summary.json", "line": 1, "meaning": "separate external-relation summary"}
+    ],
+    "generated_or_immutable_copies": "Existing logs, evidence bundles and experiment snapshots may contain schema_version 1.0. They are historical artifacts and should remain byte-identical rather than being migrated in place."
+  },
+  "active_consumers": [
+    {
+      "path": "lib/atlas.ts",
+      "kind": "TypeScript canonical loader and algorithms",
+      "reads": ["all corpus collections", "node and edge types", "source index", "lexical search", "undirected navigation paths", "domain list"],
+      "required_change": "Extend AtlasEdge and narrow schema_version; searchNodes and connectionPath need no algorithm change."
+    },
+    {
+      "path": "app/api/atlas/route.ts",
+      "kind": "server API",
+      "reads": ["atlas object imported from lib/atlas.ts"],
+      "required_change": "No source change expected. Verify the response includes schema 1.1 and all structured edge detail byte-for-value."
+    },
+    {
+      "path": "app/page.tsx",
+      "kind": "main client product",
+      "reads": ["search results", "domain filter", "node/source counts", "journeys", "node explanations and evidence", "opportunities"],
+      "required_change": "Update hard-coded scope copy at lines 224, 331-332 and 364; journey rendering already consumes added journey records."
+    },
+    {
+      "path": "components/atlas-map.tsx",
+      "kind": "concept and connection UI",
+      "reads": ["selected node", "direct edges", "edge statements", "assumptions", "evidence", "clusters", "navigation path"],
+      "required_change": "Render source_scope, witness_translation, local_boundary_case and notation_boundaries. Keep curation hashes out of the learner-facing flow unless exposed in a provenance disclosure."
+    },
+    {
+      "path": "lib/use-atlas-tools.ts",
+      "kind": "WebMCP tool projection",
+      "reads": ["scope", "domains", "search", "node index", "connection paths"],
+      "required_change": "No algorithm change. find_connection returns full edge objects and therefore carries new details automatically; verify this. show_concept still returns only id, label and status while updating visible state."
+    },
+    {
+      "path": "scripts/validate_atlas.py",
+      "kind": "Python structural validator and CLI",
+      "reads": ["schema version", "all corpus collections", "IDs", "sources", "nodes", "edges", "journeys", "opportunities", "examples"],
+      "required_change": "Migrate the version check, validate new edge details and finite node coordinates, and preserve structured failure behavior for malformed values."
+    },
+    {
+      "path": "tests/test_corpus_validation.py",
+      "kind": "Python negative-regression consumer",
+      "reads": ["canonical atlas JSON", "validator output"],
+      "required_change": "Add malformed new-field cases and explicit wrong-version coverage; existing mutations should keep passing."
+    },
+    {
+      "path": "scripts/check-atlas.ts",
+      "kind": "TypeScript lexical and graph-navigation check",
+      "reads": ["atlas", "searchNodes", "connectionPath"],
+      "required_change": "Add exact semantic-projection assertions and new lexical/journey cases; its all-pairs loop automatically expands from 1,089 to 1,600 ordered pairs if the exact 40-node design is used."
+    },
+    {
+      "path": "scripts/build_evidence_bundle.py",
+      "kind": "foundation evidence packager",
+      "reads": ["data/atlas.json as an artifact"],
+      "required_change": "Do not rewrite the historical bundle. A new integration bundle should pin the updated atlas hash and independent projection review."
+    },
+    {
+      "path": "README.md and CONTRIBUTING.md",
+      "kind": "public usage/editing contracts",
+      "reads": ["atlas/API workflow", "edit and validation commands"],
+      "required_change": "Update region wording or schema guidance only where the final implementation changes it; keep the same canonical validation commands."
+    },
+    {
+      "path": "docs/data-model.md, docs/coverage.md and docs/reuse-decision.md",
+      "kind": "semantic and scope documentation",
+      "reads": ["record meanings", "curated counts", "reuse and novelty boundaries"],
+      "required_change": "Document schema 1.1, exact final counts, known-source status and lack of practical-impact/novelty evidence."
+    }
+  ],
+  "fixed_svg_and_coordinate_assumptions": [
+    {
+      "path": "components/atlas-map.tsx",
+      "lines": "158-166",
+      "behavior": "Corpus node x/y values are ignored. The selected node is fixed at (420,335); direct neighbors are placed around an ellipse centered near (420,315) with radii 280 and 235.",
+      "impact": "Adding seven total nodes does not itself change map geometry. The largest current direct degree is 8; the proposed rectangle-cover node has degree 5, so this design does not increase that maximum."
+    },
+    {
+      "path": "components/atlas-map.tsx",
+      "lines": "183 and 208",
+      "behavior": "The SVG viewBox and dotted background rectangle are both fixed at 840 by 660.",
+      "impact": "No change is required on current degree evidence. If root changes bounds, both literals must change together."
+    },
+    {
+      "path": "components/atlas-map.tsx",
+      "lines": "212-224",
+      "behavior": "Edge directions normalize the center-to-center vector and shorten endpoints by 34 and 36 units.",
+      "impact": "All new nodes need at least one edge. No self-edge may enter, because a zero-length vector would yield invalid coordinates and the validator already rejects self-relations."
+    },
+    {
+      "path": "components/atlas-map.tsx",
+      "lines": "127-134 and 263-275",
+      "behavior": "Labels wrap greedily above 24 characters and begin 48 units below the computed node center, with 20 units per extra line.",
+      "impact": "Functionally assert that generated label coordinates remain within declared bounds for every selectable new node. This does not constitute visual-quality review."
+    },
+    {
+      "path": "components/atlas-map.tsx and app/page.tsx",
+      "lines": "16-22 and 298",
+      "behavior": "Cluster names index a fixed colors object without a fallback.",
+      "impact": "Use existing foundations/algorithms clusters as designed or add a color before using a new cluster; assert every node cluster is present in colors."
+    },
+    {
+      "path": "data/atlas.json and lib/atlas.ts",
+      "lines": "node x/y fields; lib/atlas.ts lines 9-10",
+      "behavior": "x and y remain public presentation metadata even though the current renderer does not consume them.",
+      "impact": "Assign finite numeric metadata values and validate type, but do not require them to fit the current dynamic viewBox."
+    }
+  ],
+  "functional_layout_checks": [
+    "For every node selected in turn, all computed circle centers and shortened edge endpoints are finite.",
+    "Every computed circle center remains inside the 840-by-660 viewBox.",
+    "Every generated text baseline from wrapLabel remains inside the declared vertical bound, or the implementation adjusts the bound and background together.",
+    "Every node cluster resolves to a color.",
+    "No claim of responsive, aesthetic or screenshot-based visual QA follows from these coordinate checks."
+  ],
+  "conclusion": "Only the atlas declaration, Python validator equality check, TypeScript atlas schema type and data-model version belong to the curated schema migration. All other 1.0 schemas are independent or historical and must remain unchanged."
+}

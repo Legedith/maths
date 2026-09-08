@@ -1,0 +1,80 @@
+{
+  "schema_version": "boolean-rank-independent-runtime-check-v1",
+  "auditor": {
+    "identity": "/root/sol_atlas_audit",
+    "role": "independent product auditor and earlier integration-design author",
+    "implementation_author": false
+  },
+  "passed": false,
+  "counts": {
+    "checks": 6,
+    "passed": 5,
+    "failed": 1
+  },
+  "checks": [
+    {
+      "name": "actual API handler preserves the entire atlas value and cache policy",
+      "passed": true,
+      "detail": {
+        "schema_version": "1.1",
+        "bytes": 71463
+      }
+    },
+    {
+      "name": "actual connection tool returns full R1 and R3 edge records",
+      "passed": true,
+      "detail": {
+        "registered_tools": [
+          "search_research_statements",
+          "search_formal_library",
+          "search_concepts",
+          "show_concept",
+          "find_connection",
+          "run_graph_experiment"
+        ],
+        "action_calls": [
+          [
+            "path",
+            "boolean-rank",
+            "one-support-rectangle-cover"
+          ],
+          [
+            "path",
+            "one-support-rectangle-cover",
+            "nondeterministic-communication-s2"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "actual lexical search reaches all seven added concepts",
+      "passed": true,
+      "detail": {
+        "cases": 7
+      }
+    },
+    {
+      "name": "actual connection rendering exposes every semantic value and source locator",
+      "passed": true,
+      "detail": {
+        "rendered_connections": 4
+      }
+    },
+    {
+      "name": "all selected-node server renders have finite bounded circles, lines and text baselines",
+      "passed": true,
+      "detail": {
+        "rendered_maps": 40,
+        "circles": 328,
+        "lines": 104,
+        "text_baselines": 167
+      }
+    },
+    {
+      "name": "live HTTP API and home response agree with frozen product",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert.ok(home.includes('40 concepts'))\n\n    at file:///D:/CodexWorkspaces/mathematics-atlas/boolean-rank-integration-review-work/independent_runtime_check.mjs:250:10\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async check (file:///D:/CodexWorkspaces/mathematics-atlas/boolean-rank-integration-review-work/independent_runtime_check.mjs:87:20)\n    at async file:///D:/CodexWorkspaces/mathematics-atlas/boolean-rank-integration-review-work/independent_runtime_check.mjs:240:1"
+    }
+  ],
+  "scope": "Actual TypeScript loader, API handler, connection tool, lexical search, server-rendered connection text, SVG coordinate bounds, and existing live HTTP server. No browser DOM, screenshots, visual quality, source-paper proof, retrieval quality, novelty, or impact is certified."
+}

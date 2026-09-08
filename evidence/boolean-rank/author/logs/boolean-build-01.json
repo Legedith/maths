@@ -1,0 +1,33 @@
+{
+  "schema_version": "independent-command-attempt-v1",
+  "attempt_id": "boolean-build-01",
+  "argv": [
+    "C:\\Program Files\\nodejs\\npm.cmd",
+    "run",
+    "build"
+  ],
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+  "started_at_utc": "2026-09-08T11:43:30.440724+00:00",
+  "ended_at_utc": "2026-09-08T11:43:41.724102+00:00",
+  "elapsed_seconds": 11.283378,
+  "timeout_seconds": 300,
+  "timed_out": false,
+  "termination": null,
+  "returncode": 0,
+  "selected_environment": {
+    "UV_CACHE_DIR": "D:\\CodexWorkspaces\\mathematics-atlas\\uv-cache",
+    "UV_PROJECT_ENVIRONMENT": null,
+    "VIRTUAL_ENV": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.venv",
+    "PYTHONDONTWRITEBYTECODE": null
+  },
+  "stdout": {
+    "path": "boolean-build-01.stdout.bin",
+    "bytes": 1466,
+    "sha256": "39462aa99a78e31c73d0693e2aee14cddad90958fa3d66922b5c188735b4b9d1"
+  },
+  "stderr": {
+    "path": "boolean-build-01.stderr.bin",
+    "bytes": 153,
+    "sha256": "729d8972b51de5e2457a45b53681f0065959be096264bf3ccc0a93db9432920d"
+  }
+}

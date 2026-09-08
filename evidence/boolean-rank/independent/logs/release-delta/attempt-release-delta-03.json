@@ -1,0 +1,41 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--project",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-review-work",
+    "--frozen",
+    "python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-review-work\\check_release_delta.py",
+    "--project-root",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+    "--freeze",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-review-work\\release-delta-checker-freeze.json",
+    "--output",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-review-work\\results\\release-delta\\check-attempt-03.json"
+  ],
+  "attempt_id": "release-delta-03",
+  "ended_at_utc": "2026-09-08T12:36:50.700100+00:00",
+  "returncode": 0,
+  "schema_version": "logged-command-attempt-v1",
+  "selected_environment": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "UV_CACHE_DIR": "D:\\CodexWorkspaces\\mathematics-atlas\\uv-cache",
+    "UV_PROJECT_ENVIRONMENT": null
+  },
+  "started_at_utc": "2026-09-08T12:36:50.487760+00:00",
+  "stderr": {
+    "bytes": 0,
+    "path": "attempt-release-delta-03.stderr.bin",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 3586,
+    "path": "attempt-release-delta-03.stdout.bin",
+    "sha256": "e1841a0850f182aa2ce7f629d529e90b5e63a72cd1b601a5f42b9529f3958743"
+  },
+  "termination": null,
+  "timed_out": false,
+  "timeout_seconds": 120,
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\project"
+}

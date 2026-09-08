@@ -1,0 +1,28 @@
+{
+  "scope": "Line endings only for three root-generated files. Pinned source/design artifacts are unchanged.",
+  "reason": "Python write_text default newline translation introduced CRLF against the LF base source.",
+  "records": [
+    {
+      "path": "data/atlas.json",
+      "before_sha256": "2fdc4cffd6d7b7e37bd083ad498e87b1c54c73fd9ad81af6e0fdc68a58b3da33",
+      "after_sha256": "2176614bbaea3a075245a1ee12d1085ae8ccb2507189b655285397d91c306e25",
+      "text_lines_unchanged": true,
+      "json_value_unchanged": true
+    },
+    {
+      "path": "README.md",
+      "before_sha256": "bbbce4562b77b8545994030d1eab25d0f2278441cf79699119c9d78348e419b1",
+      "after_sha256": "08867d1901b27cf4f04f7c398107a6692886809881cd26b518040f3194d4c7dd",
+      "text_lines_unchanged": true,
+      "json_value_unchanged": false
+    },
+    {
+      "path": "evidence/boolean-rank/integration-projection.json",
+      "before_sha256": "5ad8db0cb61a6152f8fe3db48bfe537bb43d6bcee0acc155f505299b689602a7",
+      "after_sha256": "df9ae45c6af00afab7148e7efda358e80c4976a12bd78e476493e3b04ac3ae35",
+      "text_lines_unchanged": true,
+      "json_value_unchanged": true
+    }
+  ],
+  "preserved_attempt_01": "history/attempt-01"
+}

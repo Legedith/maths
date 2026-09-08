@@ -1,0 +1,37 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--project",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-review-work",
+    "--frozen",
+    "pytest",
+    "-p",
+    "no:cacheprovider",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\tests\\test_corpus_validation.py"
+  ],
+  "attempt_id": "canonical-pytest-01",
+  "ended_at_utc": "2026-09-08T12:16:32.293527+00:00",
+  "returncode": 0,
+  "schema_version": "logged-command-attempt-v1",
+  "selected_environment": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "UV_CACHE_DIR": "D:\\CodexWorkspaces\\mathematics-atlas\\uv-cache",
+    "UV_PROJECT_ENVIRONMENT": null
+  },
+  "started_at_utc": "2026-09-08T12:16:26.093912+00:00",
+  "stderr": {
+    "bytes": 0,
+    "path": "attempt-canonical-pytest-01.stderr.bin",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 101,
+    "path": "attempt-canonical-pytest-01.stdout.bin",
+    "sha256": "e72c9bb98da2597fed98194ebba052ff83b6fc91abe6612b195a3c86c4b94516"
+  },
+  "termination": null,
+  "timed_out": false,
+  "timeout_seconds": 180,
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\project"
+}

@@ -1,0 +1,8 @@
+{
+  "status": "ACKNOWLEDGED_TRANSFORM_ONLY",
+  "bundle_sha256": "717d1eaf93c77218eb2d277396ab2d50d29c72a37a209656666c2b04e0216de8",
+  "artifacts": 291,
+  "claims": 7,
+  "product_and_claim_content_unchanged": true,
+  "required_next": "Existing deterministic gate, commit, exact-commit CI and final build, private deployment."
+}

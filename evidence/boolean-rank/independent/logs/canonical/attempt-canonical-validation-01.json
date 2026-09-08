@@ -1,0 +1,38 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--project",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-review-work",
+    "--frozen",
+    "python",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\scripts\\validate_atlas.py",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\data\\atlas.json",
+    "--output",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\boolean-rank-integration-review-work\\results\\canonical\\validation.json"
+  ],
+  "attempt_id": "canonical-validation-01",
+  "ended_at_utc": "2026-09-08T12:16:22.076726+00:00",
+  "returncode": 0,
+  "schema_version": "logged-command-attempt-v1",
+  "selected_environment": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "UV_CACHE_DIR": "D:\\CodexWorkspaces\\mathematics-atlas\\uv-cache",
+    "UV_PROJECT_ENVIRONMENT": null
+  },
+  "started_at_utc": "2026-09-08T12:16:21.940494+00:00",
+  "stderr": {
+    "bytes": 0,
+    "path": "attempt-canonical-validation-01.stderr.bin",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 296,
+    "path": "attempt-canonical-validation-01.stdout.bin",
+    "sha256": "923f6be0ad2fdea6581b2d01e1f70d8393d95c369598c628a5ca58aca814868e"
+  },
+  "termination": null,
+  "timed_out": false,
+  "timeout_seconds": 120,
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\project"
+}

@@ -24,6 +24,13 @@ jobs:
       - run: uv run --frozen python scripts/run_symmetry_correctness.py --output-dir evidence/symmetry/ci
       - run: node scripts/check-browser-engine.ts
       - run: node scripts/check-atlas.ts
+      - name: Check Boolean-rank connection projection and rendering
+        run: >-
+          uv run --project experiments/msc-index --frozen python
+          experiments/msc-index/run_logged.py
+          --attempt-id boolean-rank-ci --timeout-seconds 300
+          --log-dir work/boolean-rank-ci/logs --
+          node scripts/check-boolean-rank.mjs --output work/boolean-rank-ci/functional.json
       - run: node scripts/check-formal-search.ts
       - run: node scripts/check-research-search.ts
       - run: node scripts/check-concept-library.ts
@@ -32,3 +39,10 @@ jobs:
       - run: npx tsc --noEmit
       - run: npm run lint
       - run: npm run build
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        if: always()
+        with:
+          name: boolean-rank-functional
+          path: work/boolean-rank-ci/
+          if-no-files-found: error
+          retention-days: 30

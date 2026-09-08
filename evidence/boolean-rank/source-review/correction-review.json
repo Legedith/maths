@@ -1,0 +1,148 @@
+{
+  "schema_version": "boolean-rank-correction-independent-review-v1",
+  "reviewed_at_date": "2026-09-08",
+  "auditor": {
+    "identity": "/root/sol_symmetry_audit",
+    "role": "independent reviewer of the root-authored correction",
+    "correction_author": false
+  },
+  "scope": {
+    "kind": "source_and_semantic_correction_review",
+    "solver_or_numeric_experiment": false,
+    "implementation_review": false,
+    "novelty_review": false
+  },
+  "inputs": [
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/boolean-rank-clarification-work/corrected-records-v1.json",
+      "sha256": "0ba1c19b75b0b37fcd29214d3ad5565aca747481aba779084e23367b0a110fd2",
+      "bytes": 7852
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/boolean-rank-review-work/source-assessment.json",
+      "sha256": "aa983aa245fe272a2f392e22e79d81179fd18687a2e36bdf6d37d55b4447dd6f",
+      "bytes": 13814
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/boolean-rank-review-work/primary-sources-local/1210.6965v1.pdf",
+      "sha256": "ac9b847ddb8691cc84526cf9b080ef351b9fa60b72f4038b591c31eca4e6d1e0",
+      "bytes": 376122,
+      "url": "https://arxiv.org/pdf/1210.6965v1"
+    },
+    {
+      "path": "D:/CodexWorkspaces/mathematics-atlas/boolean-rank-review-work/primary-sources-local/kcover.pdf",
+      "sha256": "05b20f1d7ba8707d3c70fb214d6fa4e15a134ba5024d4712a885a5bf05403609",
+      "bytes": 168879,
+      "url": "https://www.math.ias.edu/~avi/PUBLICATIONS/MYPAPERS/SAKS/KCOVER/JOURNAL/kcover.pdf",
+      "acquisition_limit": "The local copy was previously acquired with TLS verification disabled after verified clients rejected the host chain; this review also read the official URL directly through the browser."
+    }
+  ],
+  "change_review": [
+    {
+      "id": "CH1",
+      "status": "SATISFIED",
+      "corrected_locator": "global_domain.X, global_domain.Y, global_domain.empty_support",
+      "finding": "X and Y are finite, nonempty, and labeled; empty support is an all-zero matrix on those nonempty sets."
+    },
+    {
+      "id": "CH2",
+      "status": "SATISFIED",
+      "corrected_locator": "concepts[one-support-rectangle-cover].source_symbol_mapping and relationships[R3].distinct_parameters",
+      "finding": "Atlas rc_1 is mapped to S2 unrestricted kappa, while S2 kappa_1 is explicitly separated as multiplicity-one cover/partition."
+    },
+    {
+      "id": "CH3",
+      "status": "SATISFIED",
+      "corrected_locator": "concepts[nondeterministic-communication-s2].definition and source_symbol_mapping",
+      "finding": "Atlas N^1_S2 is explicitly defined as S2 n(f), and is distinguished from S2 subscript n_1(f)."
+    },
+    {
+      "id": "CH4",
+      "status": "SATISFIED",
+      "corrected_locator": "global_domain.local_conventions, each relationship's zero_case_local_proof, and both source limit fields",
+      "finding": "Zero-support values are attributed to adopted empty-family, empty-OR, and depth-zero conventions with local proofs, rather than to S1 or the unresolved log(0) wording in S2."
+    },
+    {
+      "id": "CH5",
+      "status": "SATISFIED",
+      "corrected_locator": "relationships[R3].cover_to_protocol",
+      "finding": "The converse states S2's precise row-compatible nondeterministic rectangle choice followed by the other party's column test, and disclaims convention-independent certificate cost."
+    },
+    {
+      "id": "CH6",
+      "status": "SATISFIED",
+      "corrected_locator": "concepts[nondeterministic-communication-s2].complement_definition",
+      "finding": "N^0_S2(f):=N^1_S2(1-f) is labeled an Atlas definition and mapped to S2 n(complement f), without attributing the superscript notation to S2."
+    }
+  ],
+  "bridge_decisions": [
+    {
+      "id": "R1",
+      "decision": "ADMIT",
+      "statement": "r_B(A)=rc_1(A)",
+      "domain": "finite nonempty X,Y; Boolean OR-AND product; unrestricted all-one rectangle cover of exactly the 1-support",
+      "source_alignment": "S1 printed p.2 identifies Boolean rank with the minimum all-one-submatrix cover number.",
+      "zero_alignment": "For the all-zero matrix, k=0 and the empty cover both give value 0 by the stated local convention and elementary two-way construction."
+    },
+    {
+      "id": "R2",
+      "decision": "ADMIT",
+      "statement": "rc_1(A_G)=bc(G), hence r_B(A_G)=bc(G)",
+      "domain": "finite simple bipartite graph with fixed labeled nonempty sides X,Y and its X-by-Y biadjacency matrix; bicliques respect those sides",
+      "source_alignment": "S1 printed p.2 gives the rectangle-biclique correspondence and r_B(A)=bc(G).",
+      "boundary": "This is a cell-to-edge translation; it does not use the full symmetric adjacency matrix or infer a relation for an unfixed bipartition."
+    },
+    {
+      "id": "R3",
+      "decision": "ADMIT",
+      "statement": "For nonzero f, N^1_S2(f)=ceil(log_2 rc_1(M_f)); locally totalized as ceil(log_2 max(1,rc_1(M_f))) for all f",
+      "domain": "finite nonempty X,Y; M_f is the X-by-Y representing matrix; S2 n(f) maximum-leaf-depth convention; accepting-side unrestricted rectangle covers",
+      "source_alignment": "S2 printed pp.3-5 defines kappa, n(f), n_k(f), the accepting-leaf cover, and Proposition 3 with the row-name/column-test proof.",
+      "zero_alignment": "The all-zero case is admitted only as the correction's separate local definition and depth-zero constant-reject proof; it is not presented as a resolved case of the printed log formula.",
+      "notation_boundary": "N^1_S2 is Atlas notation for S2 n(f); it is not S2 n_1(f), and N^0_S2 is likewise local complement-side notation."
+    },
+    {
+      "id": "R4",
+      "decision": "ADMIT",
+      "statement": "lr_B(A_G)=lbc(G)",
+      "domain": "the same fixed labeled bipartition as R2; objective is maximum selected-rectangle incidence per row/column or maximum selected-biclique incidence per vertex",
+      "source_alignment": "S1 printed pp.2-3 defines these local quantities and states the equality.",
+      "boundary": "Local row/column or vertex incidence remains distinct from S2's per-cell witness multiplicity."
+    }
+  ],
+  "exact_source_locators": [
+    {
+      "source": "S1 Local Clique Covering of Graphs",
+      "url": "https://arxiv.org/pdf/1210.6965v1",
+      "locator": "printed p.2, Boolean-rank and biadjacency paragraphs; first lines of printed p.3 for lr_B(A)=lbc(G)"
+    },
+    {
+      "source": "S2 Non-deterministic Communication Complexity with Few Witnesses",
+      "url": "https://www.math.ias.edu/~avi/PUBLICATIONS/MYPAPERS/SAKS/KCOVER/JOURNAL/kcover.pdf",
+      "locator": "printed p.3 Section 2.1; p.4 Section 2.2; p.5 Proposition 3 and proof"
+    }
+  ],
+  "nonblocking_wording_refinement": {
+    "finding": "R3 uses M_f without an inline definition in the corrected record, although S2 and the reviewed precursor define it and the intended domain is clear.",
+    "recommended_projection_text": "Add 'where M_f[x,y]=f(x,y)' the first time R3 is shown to learners.",
+    "blocks_admission": false
+  },
+  "guardrails_confirmed": [
+    "No inference from arbitrary overlapping Boolean covers to ordinary-rank sums.",
+    "No identification of row/column-local incidence with cell overlap or witness multiplicity.",
+    "No identification of one-sided nondeterministic complexity with deterministic complexity.",
+    "No source attribution for the local all-zero totalization or Atlas superscript notation."
+  ],
+  "four_checks": [
+    {"id": "source_verification", "status": "PASS", "note": "Both primary passages were read at pinned local hashes and official URLs; the TLS limitation on the S2 local acquisition remains disclosed."},
+    {"id": "specification_compliance", "status": "PASS", "note": "CH1-CH6 are each explicitly satisfied in the corrected record."},
+    {"id": "mathematical_alignment", "status": "PASS", "note": "Each two-way translation preserves the declared objective; zero cases follow from explicit local conventions on nonempty index sets."},
+    {"id": "admission_alignment", "status": "PASS", "note": "R1-R4 can enter the learning map with their corrected domains, source mappings, and guardrails."}
+  ],
+  "overall_recommendation": "PASS",
+  "limitations": [
+    "This review admits source-backed semantic bridges only; it did not run the proposed 682-matrix validation or inspect an implementation.",
+    "It makes no performance, practical-impact, prevalence, discovery, or novelty claim.",
+    "S3 was not needed for the corrected exact equalities; any future S3 use remains abstract-only historical provenance."
+  ]
+}

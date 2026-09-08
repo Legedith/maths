@@ -1,0 +1,63 @@
+{
+  "schema_version": "conditioned-bridge-proposal-v1",
+  "producer": "root",
+  "status": "corrected_proposal_pending_independent_review",
+  "supersedes_wording_only": "boolean-rank-source-work/proposal.md",
+  "source_review": {
+    "path": "D:/CodexWorkspaces/mathematics-atlas/boolean-rank-review-work/source-assessment.json",
+    "sha256": "aa983aa245fe272a2f392e22e79d81179fd18687a2e36bdf6d37d55b4447dd6f",
+    "changes_addressed": ["CH1", "CH2", "CH3", "CH4", "CH5", "CH6"]
+  },
+  "global_domain": {
+    "X": "finite nonempty labeled set",
+    "Y": "finite nonempty labeled set",
+    "A": "function X times Y to {0,1}",
+    "empty_support": "The all-zero matrix on the still nonempty index sets X and Y.",
+    "local_conventions": ["Allow factor dimension k=0 and define the empty disjunction as 0.", "Allow the empty rectangle and biclique cover families.", "For zero-support functions adopt a depth-zero constant-reject protocol with complexity 0."]
+  },
+  "sources": [
+    {"id": "S1", "url": "https://arxiv.org/pdf/1210.6965v1", "title": "Local Clique Covering of Graphs", "locator": "Introduction, printed pages 2-3", "supports": ["Boolean rank and rectangle-cover correspondence", "fixed-bipartition biclique correspondence", "local row/column and vertex incidence correspondence"], "limit": "The adopted zero-support conventions are not separately supplied by this source."},
+    {"id": "S2", "url": "https://www.math.ias.edu/~avi/PUBLICATIONS/MYPAPERS/SAKS/KCOVER/JOURNAL/kcover.pdf", "title": "Non-deterministic Communication Complexity with Few Witnesses", "locator": "Sections 2.1-2.3, printed pages 3-5, Proposition 3 and proof", "supports": ["unrestricted cover number kappa", "maximum-leaf-depth nondeterministic protocol convention n(f)", "ceiling-log relation for nonempty 1-support"], "limit": "Its printed logarithm does not resolve cover number 0. Superscript notation used in the Atlas is defined here, not attributed to this source."}
+  ],
+  "concepts": [
+    {"id": "boolean-relation-matrix", "definition": "A records a finite binary relation through its 1-support."},
+    {"id": "boolean-rank", "symbol": "r_B(A)", "definition": "The least k>=0 admitting A[x,y]=OR over l=1..k of (U[x,l] AND V[l,y]), with Boolean factors U,V."},
+    {"id": "one-support-rectangle-cover", "symbol": "rc_1(A)", "definition": "The smallest number of all-one rectangles S times T whose union equals the 1-support. Arbitrary overlap on 1-cells is allowed.", "source_symbol_mapping": "Atlas rc_1 is S2 kappa(A). The Atlas subscript names the covered cell value; it does not impose the multiplicity-one condition denoted kappa_1(A) in S2."},
+    {"id": "fixed-bipartition-biclique-cover", "symbol": "bc(G)", "definition": "The minimum number of edge-bearing complete bipartite subgraphs covering all edges of a finite simple graph with fixed labeled disjoint sides X and Y. Use its biadjacency matrix A_G, not the full symmetric adjacency matrix."},
+    {"id": "nondeterministic-communication-s2", "symbol": "N^1_S2(f)", "definition": "S2 n(f): minimum maximum leaf depth of a nondeterministic protocol accepting exactly the 1-inputs, under the paper's local row/column leaf-test convention.", "source_symbol_mapping": "The Atlas superscript 1 identifies the accepted side. It is unrelated to S2 subscript n_1(f), which restricts each input to at most one witness.", "complement_definition": "Define N^0_S2(f):=N^1_S2(1-f), corresponding to S2 n(complement f). This superscript notation is an Atlas definition."}
+  ],
+  "relationships": [
+    {
+      "id": "R1", "kind": "exact_parameter_equality_under_translation", "statement": "r_B(A)=rc_1(A)", "sources": ["S1"],
+      "forward_witness": "Each factor index l gives S_l={x:U[x,l]=1} and T_l={y:V[l,y]=1}. Their rectangular supports contain no zero of A and their union is its support; empty factors may be omitted.",
+      "reverse_witness": "For each selected rectangle choose the indicator column of S_l and indicator row of T_l. Their Boolean OR-AND product reconstructs A.",
+      "zero_case_local_proof": "When A is all-zero, k=0 reconstructs A by empty OR, and the empty rectangle family covers its empty support. Both objectives are nonnegative, so both minima are 0."
+    },
+    {
+      "id": "R2", "kind": "exact_parameter_equality_under_translation", "statement": "rc_1(A_G)=bc(G)", "sources": ["S1"],
+      "conditions": ["fixed labeled bipartition X disjoint-union Y", "biadjacency matrix", "finite simple graph"],
+      "witness_translation": "S times T corresponds to the biclique with vertex sides S subset X and T subset Y. Rectangle cells correspond one-to-one to graph edges. The translation preserves cover cardinality in both directions.",
+      "zero_case_local_proof": "An edgeless graph on nonempty X,Y has the empty edge cover and empty rectangle cover. Nonnegative cardinalities force both minima to be 0."
+    },
+    {
+      "id": "R3", "kind": "exact_parameter_formula_under_protocol_convention", "statement_nonzero": "N^1_S2(f)=ceil(log_2(rc_1(M_f))) when f has at least one 1-input", "sources": ["S2"],
+      "source_locator": "Proposition 3 and proof",
+      "conditions": ["S2 maximum-leaf-depth protocol convention", "unrestricted overlapping all-one rectangle cover", "nonempty 1-support for the cited formula"],
+      "cover_to_protocol": "For a cover with t>=1 rectangles, the first party nondeterministically names a rectangle compatible with its row, using ceil(log_2 t) bits, and the second party checks membership of its column. Rejection is allowed when no compatible choice succeeds. This is the cited protocol convention, not a convention-independent certificate-cost statement.",
+      "protocol_to_cover": "Accepting leaves supply all-one rectangles covering the 1-inputs. A binary protocol of maximum depth h has at most 2^h leaves, yielding rc_1(M_f)<=2^h.",
+      "zero_case_local_proof": "For all-zero f, an empty rectangle family gives rc_1=0. A depth-zero constant-reject protocol is sound and complete because there are no 1-inputs. Nonnegative depth gives N^1_S2=0.",
+      "local_totalization": "Combining the cited nonzero statement with the separately proved local zero convention gives N^1_S2(f)=ceil(log_2(max(1,rc_1(M_f)))).",
+      "distinct_parameters": ["S2 kappa_1 counts a multiplicity-one cover, equivalent to a rectangle partition", "S2 n_1 imposes at most one witness per input", "deterministic communication complexity is separate"]
+    },
+    {
+      "id": "R4", "kind": "exact_parameter_equality_under_translation", "statement": "lr_B(A_G)=lbc(G)", "sources": ["S1"],
+      "definitions": "lr_B minimizes, over all-one rectangle covers, the maximum number of chosen rectangles containing any row or column. lbc minimizes, over biclique edge covers, the maximum number of chosen bicliques containing any vertex.",
+      "conditions": ["fixed labeled bipartition", "row/column or vertex incidence objective", "not per-cell witness multiplicity"],
+      "witness_translation": "The objectwise translation in R2 preserves participation of every row/column as participation of the corresponding graph vertex. Thus every cover has the same maximum incidence before and after translation, in both directions.",
+      "zero_case_local_proof": "The empty cover assigns load 0 to every row, column and vertex. X and Y are nonempty, so the maximum is defined and equals 0; nonnegative loads make it minimal."
+    }
+  ],
+  "admission_status": "Not yet incorporated in the public Atlas. Await independent confirmation that all six requested wording changes are satisfied.",
+  "novelty": "All four relationships are known. The zero conventions are explicit definitions and elementary local checks, not a claimed discovery.",
+  "computation": "No solver, finite census or performance experiment has been run for these corrected records."
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": "boolean-rank-integration-functional-v1",
+  "passed": true,
+  "checks": [
+    {
+      "name": "schema and exact release collection counts",
+      "passed": true
+    },
+    {
+      "name": "retained corrected source records projected without omitted edge detail",
+      "passed": true
+    },
+    {
+      "name": "new concepts, supporting edges and learning journeys match frozen projection",
+      "passed": true
+    },
+    {
+      "name": "API preserves every semantic edge field",
+      "passed": true
+    },
+    {
+      "name": "boolean-rank-r1: all semantic details appear in actual rendered component",
+      "passed": true
+    },
+    {
+      "name": "boolean-rank-r2: all semantic details appear in actual rendered component",
+      "passed": true
+    },
+    {
+      "name": "boolean-rank-r3: all semantic details appear in actual rendered component",
+      "passed": true
+    },
+    {
+      "name": "boolean-rank-r4: all semantic details appear in actual rendered component",
+      "passed": true
+    },
+    {
+      "name": "all selectable concepts have finite rendered geometry, circle and text baseline bounds and known colors",
+      "passed": true
+    }
+  ],
+  "check_count": 9,
+  "rendered_connections": 4,
+  "rendered_maps": 40,
+  "checked_circle_centers": 328,
+  "scope": "Pinned projection, actual component server output, API handler and coordinate bounds only. No mathematical proof, browser interaction, visual quality, retrieval performance, discovery or practical impact is certified."
+}

@@ -1,0 +1,47 @@
+{
+  "status": "PENDING_ADDITIVE_REVIEW",
+  "copied_independent_records": 144,
+  "manifest_copied_separately": true,
+  "all_source_hashes_matched": true,
+  "unchanged_frozen_files": 48,
+  "frozen_file_delta": [
+    {
+      "path": "docs/boolean-rank-bridge.md",
+      "before_sha256": "2d6fe4c11950c6bb8c79c4e1b041e5c93d058addf6f9f4a5d0154e4b3fc8245a",
+      "after_sha256": "5aa6c883f6aa6371702dc371df349d8a1d70edd9b604e77f0915a9f9bf80817a"
+    }
+  ],
+  "unchanged_claim_ids": [
+    "C001",
+    "C002",
+    "C003",
+    "C004",
+    "C005",
+    "C006",
+    "C007"
+  ],
+  "review_targets": [
+    {
+      "path": "docs/boolean-rank-bridge.md",
+      "sha256": "5aa6c883f6aa6371702dc371df349d8a1d70edd9b604e77f0915a9f9bf80817a",
+      "bytes": 4353
+    },
+    {
+      "path": "docs/boolean-rank-verification.md",
+      "sha256": "fb3d05c6f49d53e3677df786c9c0ee312d6609a8eb31c9c159e7b6f385fae7fb",
+      "bytes": 1995
+    },
+    {
+      "path": ".github/workflows/verify.yml",
+      "sha256": "afbebe72181060269c6615d83e81b703a9aa395df31476f5f143ed4671b89cb0",
+      "bytes": 2181
+    },
+    {
+      "path": ".codex/evidence/runs/boolean-rank-integration-v1/bundle.json",
+      "sha256": "1a2f4d1b4e4c6c186e9d91e8605d6b4851accdf6d5ca5e28aaeee12c334b1f16",
+      "bytes": 76423
+    }
+  ],
+  "independent_manifest_sha256": "9a07b01eb998257fde7864349b32c53ad174915f3e9fa879d3ab00023e0bceed",
+  "known_math_only": true
+}
