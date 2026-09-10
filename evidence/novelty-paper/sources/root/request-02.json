@@ -1,0 +1,27 @@
+{
+  "find": [
+    {
+      "ref_id": "turn503view0",
+      "pattern": "multipartite"
+    },
+    {
+      "ref_id": "turn503view0",
+      "pattern": "conjecture"
+    },
+    {
+      "ref_id": "turn503view0",
+      "pattern": "3.5"
+    },
+    {
+      "ref_id": "turn503view0",
+      "pattern": "6 Concluding"
+    }
+  ],
+  "open": [
+    {
+      "ref_id": "turn503search12",
+      "lineno": 1100
+    }
+  ],
+  "response_length": "long"
+}

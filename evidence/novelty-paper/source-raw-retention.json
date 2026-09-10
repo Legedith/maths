@@ -1,0 +1,137 @@
+[
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-multipartite-work\\raw-01.json",
+    "sha256": "78a7409c190f132e78eecd10c9ef82481b33894034504c0649910f123a6a0a4f",
+    "bytes": 30332
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-multipartite-work\\raw-02.json",
+    "sha256": "5453711dd4089f86e3cd2c78d428368a59db2c0ef9761a9c61f17a9e604bdd8e",
+    "bytes": 27488
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-multipartite-work\\raw-03.json",
+    "sha256": "9ede5048294cf67ab23669489708d1df28c9d482828d7aa1c08577bed3d43ff9",
+    "bytes": 26537
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-multipartite-work\\raw-04.json",
+    "sha256": "fd949b20236c998b8c4f530d08c53009fab9286c0318b8d5ae626af57fa150e7",
+    "bytes": 28259
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-conjecture-followups-work\\raw-01.json",
+    "sha256": "6ad1128fdd858a5d08000a3e3f239df17287cc54f9dae90b8c043ae1efb53b8b",
+    "bytes": 27989
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-conjecture-followups-work\\raw-02.json",
+    "sha256": "ee0f63ceae22041dbd28a6c4135333b6ff01309040326e24c82658141a10e724",
+    "bytes": 28654
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-conjecture-followups-work\\raw-03.json",
+    "sha256": "37f9164d32beb61986779e372ee21957e85f9f288e0102979ffd7b84487c28f2",
+    "bytes": 28216
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-conjecture-followups-work\\raw-04.json",
+    "sha256": "9c062db4e114c1fbfcb1077ca59b6d43280a87c73f58e4116e8302d9ef0bb647",
+    "bytes": 20049
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-conjecture-followups-work\\raw-05.json",
+    "sha256": "6b2b3d2efb510fcfd396419181ef2ca4896206a4859e48c986cb7e824b7f9186",
+    "bytes": 9656
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-completion-overlap-work\\raw-01.json",
+    "sha256": "eabb2abbc6e608e133c778d8844fb489069f11525874b41d7b042296d1bdaa0f",
+    "bytes": 30850
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-completion-overlap-work\\raw-02.json",
+    "sha256": "7904d96aeb5e14641df905c042a06446f590685c656a54d650e58fff1a1b62db",
+    "bytes": 27525
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-pair-minimum-work\\raw-01.json",
+    "sha256": "7d84f78e592d46a0836a40d53f747b8ea7f4658955fbb4f2a46ab5295d26dd2d",
+    "bytes": 31674
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-pair-minimum-work\\raw-02.json",
+    "sha256": "685a96ab11f3c451df26ddc085157b4d5951b50a4440aeec56c68a0950be0172",
+    "bytes": 22016
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-pair-minimum-work\\raw-03.json",
+    "sha256": "4ff2985b968ef990d060623e8d9d1c0026695f3ed48665a968e11d6d582e7c50",
+    "bytes": 21803
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-pair-minimum-work\\raw-04.json",
+    "sha256": "d7a3a4429fa509f07865515ed09114188cdbe4ecae57a77c7ada9aae3bcbfded",
+    "bytes": 29449
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-pair-minimum-work\\raw-05.json",
+    "sha256": "0bd284e825fbf6f52f1ecba9775a4b64fe8d3a4fd948e2fb6dd3ddd8f45f730d",
+    "bytes": 28970
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-open-problems-work\\raw-01.json",
+    "sha256": "15c20b715fa0e406fd06dcb504f5f5d3f2028343cf720bce1f15b11ce512abc8",
+    "bytes": 31875
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-open-problems-work\\raw-03.json",
+    "sha256": "ad00c8b9c6dee5fc9f0d46c4fcada1c73446303a77020f2a2bffa6f3de06aff0",
+    "bytes": 20184
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-open-problems-work\\raw-04.json",
+    "sha256": "b102b76ea29cd1a4d96c85ce9d1ba42941b3a23fd981e35f3cac0ef756fee163",
+    "bytes": 17300
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-open-problems-work\\raw-05.json",
+    "sha256": "fd9736dd655844d2b8fed9d9e7467e604af98d7b6f20fed40e7b10b52d0bce7f",
+    "bytes": 35456
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-open-problems-work\\raw-06.json",
+    "sha256": "641d7fa8dd4c600f00aeba080c00aafef02760108ca1775e1741f0630496f229",
+    "bytes": 25874
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-open-problems-work\\raw-07.json",
+    "sha256": "b9b4b573f2eb79ee630c4115f0da7eefb39ee80262ec8374275d0ad53aaf98fc",
+    "bytes": 1173
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-source-design-work\\raw-01.json",
+    "sha256": "6d51be7e16edea704cdd138461d9d32a6ae964dc6f962dd6963e3d35144ecbde",
+    "bytes": 36248
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-source-design-work\\raw-02.json",
+    "sha256": "49ed0afc7a99aa8b60610268503f154a8eba5c4271e2660888043fd55d489905",
+    "bytes": 29728
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-source-design-work\\raw-03.json",
+    "sha256": "e5e7ae8b82787e1e8a5a66d87b1f7d6bdb041eb75e51e5ba733567bdafe0e327",
+    "bytes": 24060
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-source-design-work\\raw-04.json",
+    "sha256": "66b0534eb23bcdc600a287aced9d34d05f8c1f89018d52ac38155ca8db7949f6",
+    "bytes": 19030
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-source-design-work\\raw-05.json",
+    "sha256": "8492703de63a360641e37840eef5a3ba636b0784302c29b0d93dcec99b62e836",
+    "bytes": 21459
+  }
+]

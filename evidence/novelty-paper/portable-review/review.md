@@ -1,0 +1,11 @@
+# Portable adaptation alignment
+
+PASS, bounded semantic adaptation review. No evaluator rerun, source-priority verdict, bridge self-certification, or final release gate.
+
+Read complete verify_clique_example.py SHA05578d2cc5f8077f862fd644c0e5d206a26f14538a79620aa7f961a4f1a59265. Mathematical loop and all endpoint/mode/formula calculations match the previously independently audited Fraction author code. Changes remove stage-specific source/logger metadata and require --output. No D runtime paths remain. Output uses exclusive creation, explicit UTF8/LF and sorted deterministic fields; sys.version and own-code hash intentionally identify the runtime/code. Existing output is rejected at final write, after computation, without overwriting it. Parent directories may be created. Runtime assertion pins Python3.12.11. No executable evidence strings or external dependencies.
+
+Fresh read-only PowerShell comparisons checked every field in all89 canonical rows against author result, and k/K/delta against my independent result; all match. Canonical clique.json SHA1abbadee1bceb97b85717c9939311fa1cc4fe8e19c810fbf0973488a3f074e38. Root raw attempt-clique-01.json records explicit uv child, rc0,0.161236s, empty stderr. The earlier independent audit supplies full100x100 fundamental inverses at28/33 and exhaustive quotient reconstruction; it need not be rerun for metadata/CLI changes. Status pass certifies the hardcoded finite example/formula agreement, not arbitrary-input or universal clique optimization.
+
+Static CI addition uses pinned uv/Python, process-tree-aware outer logger, explicit uv child, fresh output,60s child cap and always-upload artifact. Workflow SHAe83831045c6d354a9890f02ff1cb281c95c14aa0351dd55318df1e2f644c9bda. Actual post-push execution remains outside this review. Existing job-wide5minute cap is unchanged; no execution success is inferred from static validity.
+
+Actual README SHA5bc1716a7eaf822b46b4019edc262f9134a5cf75fde0abf1173809e255a9342a includes both requested corrections: lines115-117 state the weighted aggregate degree bound independent of gap count, and lines213-214 require fresh output paths. These correctly close the preliminary presentation issues. Final source/claim integration remains the distinct wrap review's responsibility.

@@ -1,0 +1,23 @@
+{
+  "open": [
+    {
+      "ref_id": "https://arxiv.org/pdf/2104.09706"
+    },
+    {
+      "ref_id": "https://stanford.edu/~boyd/papers/pdf/eff_res.pdf"
+    },
+    {
+      "ref_id": "https://arxiv.org/pdf/1508.04805"
+    },
+    {
+      "ref_id": "https://arxiv.org/pdf/2306.03571"
+    },
+    {
+      "ref_id": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf"
+    },
+    {
+      "ref_id": "https://onlinelibrary.wiley.com/doi/pdf/10.1155/2014/852481"
+    }
+  ],
+  "response_length": "long"
+}

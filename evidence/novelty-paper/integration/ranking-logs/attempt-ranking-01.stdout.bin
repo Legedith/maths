@@ -1,0 +1,15 @@
+{
+  "schema_version": "multipartite-ranking-identity-check-v1",
+  "pass": true,
+  "method": "stdlib sparse integer polynomial cross multiplication",
+  "checks": {
+    "denominator_clearing": true,
+    "rational_difference_identity": true,
+    "first_positive_bracket_decomposition": true,
+    "positive_quadratic_decomposition": true,
+    "second_positive_bracket_decomposition": true
+  },
+  "checker_sha256": "ca9aa8d9b29aca9840a525d0ad289965e58a47b700caf7bda4cefd9d739de895",
+  "polynomial_module_sha256": "7b656d33739a7a77834d1ae47f8115cd830f04bb05638a68a8de73189f747749",
+  "boundary": "Source brace and constraints x,y>=3 for distinct parts, g>0, and tied-size handling require the accompanying mathematical proof. This check is not a novelty certificate."
+}

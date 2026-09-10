@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "bundle_sha256": "03e80d0b039dd2131af3bdf5379761930da66cbcab8e8aee6406ab6a18f7eecb",
+  "artifact_count": 147,
+  "claim_count": 17,
+  "recursive_supports": 145,
+  "canonical_logs": 6,
+  "portable_rows": 89
+}

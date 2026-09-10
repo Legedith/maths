@@ -1,0 +1,10 @@
+{
+  "schema_version": "source-comparison-notes-v1",
+  "producer": "/root",
+  "claims": [
+    {"id":"S2019_CONJECTURE","type":"citation","statement":"The pinned 2019 paper states the r>=3 exclusion as Conjecture 3.4.7, PDF page 19.","source":"https://doi.org/10.1016/j.laa.2019.05.035","locator":"PDF page 19, Conjecture 3.4.7","status":"supported"},
+    {"id":"S2026_COMPARISON","type":"citation","statement":"The inspected 2026 v1 statements give a general twin-clique update and a complete-bipartite specialization; those statements do not state the all-r minimum-part sign theorem.","source":"https://arxiv.org/html/2608.04150v1","locator":"Theorems 3.5 and 4.7; Sections 5 and 6","status":"supported"},
+    {"id":"S2026_VERSION","type":"citation","statement":"The abstract page inspected on 10 September 2026 lists v1 submitted on 4 August 2026 as its only version.","source":"https://arxiv.org/abs/2608.04150","locator":"Submission history; raw-04.json","status":"supported"},
+    {"id":"CANDIDATE","type":"conclusion","statement":"The named conjectural clause supplies a precise nontrivial candidate contribution; current priority requires the separate follow-up investigation and independent review.","dependencies":["S2019_CONJECTURE","S2026_COMPARISON"],"status":"candidate_not_novelty_certified"}
+  ]
+}

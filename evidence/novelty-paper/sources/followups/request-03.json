@@ -1,0 +1,20 @@
+{
+  "open": [
+    {
+      "ref_id": "https://arxiv.org/html/2306.04005v2"
+    },
+    {
+      "ref_id": "https://arxiv.org/abs/2306.04005"
+    },
+    {
+      "ref_id": "https://arxiv.org/html/2309.02977v2"
+    }
+  ],
+  "find": [
+    {
+      "ref_id": "turn519view0",
+      "pattern": "Edge addition"
+    }
+  ],
+  "response_length": "long"
+}

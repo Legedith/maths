@@ -1,0 +1,39 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--project",
+    "experiments/kemeny-multipartite-proof",
+    "--frozen",
+    "python",
+    "experiments/kemeny-multipartite-proof/verify_certificate.py",
+    "--certificate",
+    "experiments/kemeny-multipartite-proof/certificate.json",
+    "--output",
+    "work/novelty-paper/polynomial.json"
+  ],
+  "attempt_id": "polynomial-01",
+  "ended_at_utc": "2026-09-10T02:33:39.592249+00:00",
+  "returncode": 0,
+  "schema_version": "logged-command-attempt-v1",
+  "selected_environment": {
+    "PYTHONDONTWRITEBYTECODE": null,
+    "UV_CACHE_DIR": "D:/CodexWorkspaces/mathematics-atlas/uv-cache",
+    "UV_PROJECT_ENVIRONMENT": null
+  },
+  "started_at_utc": "2026-09-10T02:33:39.153936+00:00",
+  "stderr": {
+    "bytes": 0,
+    "path": "attempt-polynomial-01.stderr.bin",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 1054,
+    "path": "attempt-polynomial-01.stdout.bin",
+    "sha256": "41c6e1ba8f71ff4872083d54329fba3d8e5fa618d184e22501828bdab67dbfb7"
+  },
+  "termination": null,
+  "timed_out": false,
+  "timeout_seconds": 60,
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\project"
+}

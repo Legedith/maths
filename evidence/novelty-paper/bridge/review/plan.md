@@ -1,0 +1,2 @@
+# Frozen bridge audit
+2026-09-10. Independently compare bridge.md with original page-marked Hu-Kirkland source and accepted distinct general/ranking proof audits. Check signs, quantifiers, parameter domains, missing-edge coverage and certificate chain. Reuse prior distinct mathematical audits, do not self-certify authorship. No literature search or evaluator unless a concrete new discrepancy requires one. Own isolated stage only. Novelty and current priority remain separate.

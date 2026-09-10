@@ -1,0 +1,94 @@
+{
+  "files": [
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-source-design-work\\claims.json",
+      "sha256": "cb58168f855021c1d81fa92123f10b378323789c29216670bfeb5c64d7b57d8a",
+      "bytes": 3933
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-source-design-work\\comparison-notes.md",
+      "sha256": "f8453b27ed3e4f9daba9d524c5cfd1b8c7b2e60923364986213277a2d94ba03a",
+      "bytes": 8276
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-source-design-work\\finalize.py",
+      "sha256": "6e38908d6daaa9d6584beb43407992df41bc659ea7b10d9459901a42b5f9f6ce",
+      "bytes": 3538
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-source-design-work\\plan.md",
+      "sha256": "5fb3c1a9f4b28852d935b0c08992fe87421f67346f1f1a7ff8aed32ef577e06f",
+      "bytes": 1017
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-source-design-work\\raw-01.json",
+      "sha256": "6d51be7e16edea704cdd138461d9d32a6ae964dc6f962dd6963e3d35144ecbde",
+      "bytes": 36248
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-source-design-work\\raw-02.json",
+      "sha256": "49ed0afc7a99aa8b60610268503f154a8eba5c4271e2660888043fd55d489905",
+      "bytes": 29728
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-source-design-work\\raw-03.json",
+      "sha256": "e5e7ae8b82787e1e8a5a66d87b1f7d6bdb041eb75e51e5ba733567bdafe0e327",
+      "bytes": 24060
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-source-design-work\\raw-04.json",
+      "sha256": "66b0534eb23bcdc600a287aced9d34d05f8c1f89018d52ac38155ca8db7949f6",
+      "bytes": 19030
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-source-design-work\\raw-05.json",
+      "sha256": "8492703de63a360641e37840eef5a3ba636b0784302c29b0d93dcec99b62e836",
+      "bytes": 21459
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-source-design-work\\request-01.json",
+      "sha256": "4f85fabc545a3faee88c68e7080c6b82f8afef7edb6eb219a5ae8c97997e466d",
+      "bytes": 297
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-source-design-work\\request-02.json",
+      "sha256": "b364b80b05d91f2f860dc77871e75d051b8f7f760a324eb6e351d0f6fedad03f",
+      "bytes": 406
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-source-design-work\\request-03.json",
+      "sha256": "bbb1db3f18fc1d7fb495469ebcf5ba4cf910c3a32ef9fb750247242b921df530",
+      "bytes": 497
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-source-design-work\\request-04.json",
+      "sha256": "9b21b4b0b94d0a79c19c282589178c60061c80eeecb776d1dda5dc188fcc5672",
+      "bytes": 406
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-source-design-work\\request-05.json",
+      "sha256": "f57f9a3e26424edb12f0d2d7aedca0d1a52b3138db809e0125164ac70cce2878",
+      "bytes": 425
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\README.md",
+      "sha256": "435a043c2d217910a6a8f00d64a5732c91919ea286986941a0ae4f1cb1ceee3b",
+      "bytes": 15976
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\docs\\novelty-investigation-contract.md",
+      "sha256": "a39139e29f66cb0e1de89f4cc30011b9e903b73f46461c983037074d9eea72ff",
+      "bytes": 2589
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\research-paper\\sources\\palacios\\author\\source-notes.md",
+      "sha256": "3812e55ab31a38da0cb75e7b13fb87de175cf4574ff1e7e58e187078eb979e16",
+      "bytes": 1418
+    },
+    {
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\research-paper\\sources\\palacios\\review\\review.md",
+      "sha256": "311103316af66d4b777c4639c79a8a2ba23b0e883494682772ce3bd470670ae7",
+      "bytes": 4257
+    }
+  ]
+}

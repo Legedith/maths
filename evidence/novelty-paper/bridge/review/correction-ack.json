@@ -1,0 +1,7 @@
+{
+  "status": "pass",
+  "required_corrections": [],
+  "bridge_sha256": "76a74e870d0f1ce6840fc178ca3aee6442bc704b0850b1b18757737fdd41f946",
+  "manifest_sha256": "813b3e6d42c8579339b628586db7f5013717e7fcff4d8bd7b37f9dd48f2ba204",
+  "note": "Only malformed P2 hash changed; reverse substitution recovers original audited bridge hash. Prior semantic approval carries forward. Original corrections verdict retained. Novelty/priority separate."
+}

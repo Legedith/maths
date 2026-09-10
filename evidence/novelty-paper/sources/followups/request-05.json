@@ -1,0 +1,13 @@
+{
+  "find": [
+    {
+      "ref_id": "turn521view0",
+      "pattern": "multipartite"
+    },
+    {
+      "ref_id": "turn521view0",
+      "pattern": "Conjecture"
+    }
+  ],
+  "response_length": "short"
+}

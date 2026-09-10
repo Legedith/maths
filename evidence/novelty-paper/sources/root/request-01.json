@@ -1,0 +1,22 @@
+{
+  "open": [
+    {
+      "ref_id": "https://arxiv.org/html/2608.04150v1"
+    },
+    {
+      "ref_id": "https://mspace.lib.umanitoba.ca/server/api/core/bitstreams/04a4246d-2b67-4e4c-9c4b-60f0c5417031/content"
+    }
+  ],
+  "search_query": [
+    {
+      "q": "\"Complete multipartite graphs and Braess edges\" conjecture"
+    },
+    {
+      "q": "\"Kemeny\" \"Hu\" \"Kirkland\" \"conjecture\" multipartite"
+    },
+    {
+      "q": "\"Braess cliques\" \"multipartite\""
+    }
+  ],
+  "response_length": "long"
+}

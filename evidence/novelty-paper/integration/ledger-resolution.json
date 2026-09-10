@@ -1,0 +1,4 @@
+{
+  "status": "resolved",
+  "issue": "Correction acknowledgement status is lowercase pass; initial contains:PASS locator was invalid. Replaced with json:/status expected pass. All four final semantic checks remain pending independent review. No mathematical artifact or result changed."
+}

@@ -1,0 +1,124 @@
+{
+  "artifacts": [
+    {
+      "id": "B001",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-conjecture-bridge-work\\bridge.md",
+      "sha256": "15a3941afb41bf9de014dea1569a5fe28508dd8af25850360eb90386a5c3df12",
+      "bytes": 4889
+    },
+    {
+      "id": "B002",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-conjecture-bridge-work\\plan.md",
+      "sha256": "a6490837c98eb6587387cacafb2b2834d82e1e601b4eb3ddb6f2ca226d517007",
+      "bytes": 433
+    },
+    {
+      "id": "B003",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-conjecture-bridge-work\\hashes.json",
+      "sha256": "369810620605c3ffcccee8aba8d82842b0eaa7b399ae689ecc3e8b39b5ff6dff",
+      "bytes": 239
+    },
+    {
+      "id": "B004",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-postresult-review-work\\sources\\hu-kirkland-2019.pdf",
+      "sha256": "c896d263c6bec602274f84a29c30492f99e85e3bde654f3e61dcf5aa10718c77",
+      "bytes": 291152
+    },
+    {
+      "id": "B005",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-postresult-review-work\\sources\\hu-kirkland-2019.page-marked.txt",
+      "sha256": "603a2406e9d3ae27f07f008aa0a5797f1ea161ce13f4a66e2049fd9177cdb917",
+      "bytes": 33766
+    },
+    {
+      "id": "B006",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\kemeny-three-part\\independent\\source-domain-proof-notes.md",
+      "sha256": "838533fbed3b2937fe02f8a8a29acdcd0ed4a99fd40c302c8ca483f6ee324ff4",
+      "bytes": 7428
+    },
+    {
+      "id": "B007",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\kemeny-multipartite\\general-review\\report.md",
+      "sha256": "85b165206fd017efbd2d26feee1d50ec438f8c1531ff5900e47d765f174a3e39",
+      "bytes": 5929
+    },
+    {
+      "id": "B008",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\kemeny-multipartite\\general-review\\evaluate.py",
+      "sha256": "70a18bf1c47289f8f1ec25d3f6d568f6f1b8937bd254b6f8a43ce3922c155b54",
+      "bytes": 2776
+    },
+    {
+      "id": "B009",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\kemeny-multipartite\\general-review\\result.json",
+      "sha256": "1a1d594d564585e34ea07921c632c47a382913a56314406e6bc9f2f526d97938",
+      "bytes": 555
+    },
+    {
+      "id": "B010",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\kemeny-multipartite\\general-review\\run-2.json",
+      "sha256": "94599bd50984dd99aff4795fe35145a534ad90bfb636bb75e6fa7ca450f7d261",
+      "bytes": 937
+    },
+    {
+      "id": "B011",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-multipartite-proof\\certificate.json",
+      "sha256": "b264e53aa98bb9171fcb327cb82cd01ec31e4c67eecbf30af6752545c078804c",
+      "bytes": 249240
+    },
+    {
+      "id": "B012",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\kemeny-multipartite\\ranking-review\\review.md",
+      "sha256": "9142b6e6d2d761e86ffefa60d430c37a1aafa67a6e542f889a4a0797c76e4039",
+      "bytes": 4061
+    },
+    {
+      "id": "B013",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\kemeny-multipartite\\ranking-review\\hashes.json",
+      "sha256": "9327753df04a27b36d2152e829630c60affe37149350cd4c42c06ab3a8d77f54",
+      "bytes": 1222
+    },
+    {
+      "id": "B014",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\kemeny-multipartite\\ranking-review\\stdout.txt",
+      "sha256": "59a8d365580f9d13b3b10adc9cd6d0b6db5eb8ec0721c94b9604a9999ac192bd",
+      "bytes": 856
+    },
+    {
+      "id": "B015",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\kemeny-multipartite\\ranking-review\\rc.txt",
+      "sha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+      "bytes": 3
+    },
+    {
+      "id": "B016",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\kemeny-multipartite\\ranking-review\\check.py",
+      "sha256": "d170d04c7c3ab5df247540fd970fb9ce19edca28b63f2ae6051ff5aa0b6cb435",
+      "bytes": 1368
+    },
+    {
+      "id": "B017",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-conjecture-bridge-review-work\\plan.md",
+      "sha256": "f1221cbe1c993e9d259c87777048ede7fe768e5871dffd2f203403a19676d6fe",
+      "bytes": 481
+    },
+    {
+      "id": "B018",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-conjecture-bridge-review-work\\review.md",
+      "sha256": "e85495387f17a435f326cb575812415df3a15f80a819b1108627cd7c2fbdd129",
+      "bytes": 5141
+    },
+    {
+      "id": "B019",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-conjecture-bridge-review-work\\verdict.json",
+      "sha256": "242cf3140a540eeeb7c321ca143044825fa1f31802ecb2fd90b0c21adbf1c99a",
+      "bytes": 2328
+    },
+    {
+      "id": "B020",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-conjecture-bridge-review-work\\finalize.py",
+      "sha256": "42e8f7f2a580231bcc295e33781120c6397511a241ffbe83271b6fea4faff9fd",
+      "bytes": 4123
+    }
+  ]
+}

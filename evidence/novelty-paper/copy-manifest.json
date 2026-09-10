@@ -1,0 +1,457 @@
+[
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-multipartite-work\\claims.json",
+    "path": "evidence/novelty-paper/sources/root/claims.json",
+    "sha256": "94a6308e4072e425e78d87013cd43af0e3ffcbf46eb0a81702fdbc50d4667724"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-multipartite-work\\comparison-notes.md",
+    "path": "evidence/novelty-paper/sources/root/comparison-notes.md",
+    "sha256": "52d2de7ca2dea2fe2a41080dcefa2b4730373ac0cdb0577019adc86eada46e97"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-multipartite-work\\hashes.json",
+    "path": "evidence/novelty-paper/sources/root/hashes.json",
+    "sha256": "ff934f46a8f3b8c8a908399de4d57d96f81fa3cb26dea2037403b8e88c2b2a48"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-multipartite-work\\plan.md",
+    "path": "evidence/novelty-paper/sources/root/plan.md",
+    "sha256": "b509c3a057a5c68dbda764e899a1a11af2dedd2ffa4d83d6150fb5b8727279c4"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-multipartite-work\\request-01.json",
+    "path": "evidence/novelty-paper/sources/root/request-01.json",
+    "sha256": "1e9c8149623ed699b35718187738d80adf7648a622282ce5b7b401414f2fa50f"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-multipartite-work\\request-02.json",
+    "path": "evidence/novelty-paper/sources/root/request-02.json",
+    "sha256": "1f6da2381975389de6f242e61b6c39e3fbb088177045008d33b6efa398a1cdb5"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-multipartite-work\\request-03.json",
+    "path": "evidence/novelty-paper/sources/root/request-03.json",
+    "sha256": "f6b6673d3e83053904fa086db0d0c76a5e95d7f2aa69653b316a5315920ed0dd"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-multipartite-work\\request-04.json",
+    "path": "evidence/novelty-paper/sources/root/request-04.json",
+    "sha256": "da1d8b493ab65c53231c664bf932db4567bdd0e494a6ba6667b0a290badf2b48"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-conjecture-followups-work\\hashes.json",
+    "path": "evidence/novelty-paper/sources/followups/hashes.json",
+    "sha256": "22913b8e6a879a01e61df3062013ae426b9b750394982df826e600662248abbf"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-conjecture-followups-work\\plan.md",
+    "path": "evidence/novelty-paper/sources/followups/plan.md",
+    "sha256": "6865695633195504e1b7fd647a4e95864ba8c6c5f85aa126bcfa56d4285abdb5"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-conjecture-followups-work\\request-01.json",
+    "path": "evidence/novelty-paper/sources/followups/request-01.json",
+    "sha256": "acf51f3aeb97d04871e141145ce1ce79992cda448b4ce4905ad033dbc504a924"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-conjecture-followups-work\\request-02.json",
+    "path": "evidence/novelty-paper/sources/followups/request-02.json",
+    "sha256": "28ba08b5759289d9ddc2e04d6c5533557a90a356f77dccd682dbfb34f60f7929"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-conjecture-followups-work\\request-03.json",
+    "path": "evidence/novelty-paper/sources/followups/request-03.json",
+    "sha256": "987deb3d5c07f845774c0a215cdbdc6de55871b5c92ac97fe02c471ec03e2e9a"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-conjecture-followups-work\\request-04.json",
+    "path": "evidence/novelty-paper/sources/followups/request-04.json",
+    "sha256": "93640abe11101f74454a1cd5da86740552fa81f4e5fa15d9ad2fb394f45663be"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-conjecture-followups-work\\request-05.json",
+    "path": "evidence/novelty-paper/sources/followups/request-05.json",
+    "sha256": "a24989cc0966b7621b7e14d203e2a73742e19158de6ddf165e7b89a52a9e37dd"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-conjecture-followups-work\\source-notes.md",
+    "path": "evidence/novelty-paper/sources/followups/source-notes.md",
+    "sha256": "511e7d131300243d371685d54a9d6e41364d6900b033e72e2c197f63f81e2247"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-completion-overlap-work\\hashes.json",
+    "path": "evidence/novelty-paper/sources/completion/hashes.json",
+    "sha256": "fc0d195706e9197409d2b332b51fb0b07a04baf9cc795807f489ab6c7d66f40d"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-completion-overlap-work\\plan.md",
+    "path": "evidence/novelty-paper/sources/completion/plan.md",
+    "sha256": "cab493a03d6a73b77d4662f7334345ccc2281da291184f0adcb8335218173baf"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-completion-overlap-work\\request-01.json",
+    "path": "evidence/novelty-paper/sources/completion/request-01.json",
+    "sha256": "94bc7454e5a9905b632c2d16c913c3a74bf08de502784c99d9b2805afbad3d7d"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-completion-overlap-work\\request-02.json",
+    "path": "evidence/novelty-paper/sources/completion/request-02.json",
+    "sha256": "2498da84413dd26175c8ade99f7d8ebcbe79122e48cba78e1d79c6c05609913e"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-completion-overlap-work\\source-notes.md",
+    "path": "evidence/novelty-paper/sources/completion/source-notes.md",
+    "sha256": "88bc65a47bf38da090c41ba0696149a653f629a9aac7ae70b49a83922ff9081c"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-pair-minimum-work\\claims.json",
+    "path": "evidence/novelty-paper/screen/pairs/claims.json",
+    "sha256": "60ccc0d0e2d65a84054eabeae031f42dbb16e591bfc835105294ae1292e201df"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-pair-minimum-work\\comparison-notes.md",
+    "path": "evidence/novelty-paper/screen/pairs/comparison-notes.md",
+    "sha256": "708084b1bc8cea85959c6d43b980de603de5d5940a64f50d15fa9097c6dc60bf"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-pair-minimum-work\\hashes.json",
+    "path": "evidence/novelty-paper/screen/pairs/hashes.json",
+    "sha256": "fddb23a8758094bf492dd15681d8d97fb64aab7fdd4062a7af885936c0253194"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-pair-minimum-work\\plan.md",
+    "path": "evidence/novelty-paper/screen/pairs/plan.md",
+    "sha256": "593adf37c58662f0a0b6f0da6f7252c716416ca500965583b489eb8df9b66a45"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-pair-minimum-work\\request-01.json",
+    "path": "evidence/novelty-paper/screen/pairs/request-01.json",
+    "sha256": "df6bba2488a8bfd3f602fba6e3215045d1cf1e7556f8db79f213138c1e33ce86"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-pair-minimum-work\\request-02.json",
+    "path": "evidence/novelty-paper/screen/pairs/request-02.json",
+    "sha256": "1986b53109f429a521fc96b9d24d022c020a994b4e1be7bcd73f3bc0b97e1efe"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-pair-minimum-work\\request-03.json",
+    "path": "evidence/novelty-paper/screen/pairs/request-03.json",
+    "sha256": "4bd31e7a8ba651da022ee3f16097292ffffaa2c3ede70b1b1b2756b2e8d1fae3"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-pair-minimum-work\\request-04.json",
+    "path": "evidence/novelty-paper/screen/pairs/request-04.json",
+    "sha256": "f023c93cf48d5c419de46c38501902aefed409f130d48615ce952d1428711044"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-pair-minimum-work\\request-05.json",
+    "path": "evidence/novelty-paper/screen/pairs/request-05.json",
+    "sha256": "b2669912dfeb584ad9214a4112491e8d77bb512a92f1ce6e14eb728d7b97301f"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-open-problems-work\\failure-02.md",
+    "path": "evidence/novelty-paper/screen/open-problems/failure-02.md",
+    "sha256": "10d2aa8c0c1594d61e9863bd346355bd740bcabe762a7b5ebba997f3b69dea04"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-open-problems-work\\hashes.json",
+    "path": "evidence/novelty-paper/screen/open-problems/hashes.json",
+    "sha256": "c12b6ad67f486658ce8509a8bd55523adac6a618403fb5d23a324e950e51e380"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-open-problems-work\\plan.md",
+    "path": "evidence/novelty-paper/screen/open-problems/plan.md",
+    "sha256": "7f84940590813feb0477459db02ee684e11a08dc258c2e2fba792ef8c78bf63b"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-open-problems-work\\request-01.json",
+    "path": "evidence/novelty-paper/screen/open-problems/request-01.json",
+    "sha256": "23b81285a0d0b1359bc5b83a4c707b2fbfbd5aef6c58c2f7dd06d42f74e114ea"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-open-problems-work\\request-03.json",
+    "path": "evidence/novelty-paper/screen/open-problems/request-03.json",
+    "sha256": "6afc7771573221649107e61ec03ab19ecd7574d3e19567099ba869d1e9eba261"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-open-problems-work\\request-04.json",
+    "path": "evidence/novelty-paper/screen/open-problems/request-04.json",
+    "sha256": "7b47a8eb95881b587bd1767522a9aaceb0b086b78e2881608556e6dfb75c76bd"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-open-problems-work\\request-05.json",
+    "path": "evidence/novelty-paper/screen/open-problems/request-05.json",
+    "sha256": "190aecc896d4bde47e57b79dc906a2015e2bbf79333d875a977aba50628aa47d"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-open-problems-work\\request-06.json",
+    "path": "evidence/novelty-paper/screen/open-problems/request-06.json",
+    "sha256": "87eb40231c06ac1ecd96b6cdf080221ff2f533c5f390c2aea61d30faf01f478c"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-open-problems-work\\request-07.json",
+    "path": "evidence/novelty-paper/screen/open-problems/request-07.json",
+    "sha256": "14e119c4ba1236e29b62f192bf8c1e880e047b96f8a26e9482cb78f512969834"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-open-problems-work\\source-notes.md",
+    "path": "evidence/novelty-paper/screen/open-problems/source-notes.md",
+    "sha256": "de798251f74d268a04a5445f06691e9271fe96a7a0a1840d56d5b6e5bd6336a5"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-source-design-work\\claims.json",
+    "path": "evidence/novelty-paper/screen/source-design/claims.json",
+    "sha256": "cb58168f855021c1d81fa92123f10b378323789c29216670bfeb5c64d7b57d8a"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-source-design-work\\comparison-notes.md",
+    "path": "evidence/novelty-paper/screen/source-design/comparison-notes.md",
+    "sha256": "f8453b27ed3e4f9daba9d524c5cfd1b8c7b2e60923364986213277a2d94ba03a"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-source-design-work\\finalize.py",
+    "path": "evidence/novelty-paper/screen/source-design/finalize.py",
+    "sha256": "6e38908d6daaa9d6584beb43407992df41bc659ea7b10d9459901a42b5f9f6ce"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-source-design-work\\hashes.json",
+    "path": "evidence/novelty-paper/screen/source-design/hashes.json",
+    "sha256": "a60c52bbbdcc639f3b744a6e3283a236e961fca4c487bfaecd0fbe67510a1b70"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-source-design-work\\plan.md",
+    "path": "evidence/novelty-paper/screen/source-design/plan.md",
+    "sha256": "5fb3c1a9f4b28852d935b0c08992fe87421f67346f1f1a7ff8aed32ef577e06f"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-source-design-work\\request-01.json",
+    "path": "evidence/novelty-paper/screen/source-design/request-01.json",
+    "sha256": "4f85fabc545a3faee88c68e7080c6b82f8afef7edb6eb219a5ae8c97997e466d"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-source-design-work\\request-02.json",
+    "path": "evidence/novelty-paper/screen/source-design/request-02.json",
+    "sha256": "b364b80b05d91f2f860dc77871e75d051b8f7f760a324eb6e351d0f6fedad03f"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-source-design-work\\request-03.json",
+    "path": "evidence/novelty-paper/screen/source-design/request-03.json",
+    "sha256": "bbb1db3f18fc1d7fb495469ebcf5ba4cf910c3a32ef9fb750247242b921df530"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-source-design-work\\request-04.json",
+    "path": "evidence/novelty-paper/screen/source-design/request-04.json",
+    "sha256": "9b21b4b0b94d0a79c19c282589178c60061c80eeecb776d1dda5dc188fcc5672"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-source-design-work\\request-05.json",
+    "path": "evidence/novelty-paper/screen/source-design/request-05.json",
+    "sha256": "f57f9a3e26424edb12f0d2d7aedca0d1a52b3138db809e0125164ac70cce2878"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-conjecture-bridge-work\\bridge.md",
+    "path": "evidence/novelty-paper/bridge/author/bridge.md",
+    "sha256": "76a74e870d0f1ce6840fc178ca3aee6442bc704b0850b1b18757737fdd41f946"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-conjecture-bridge-work\\hashes-superseded-01.json",
+    "path": "evidence/novelty-paper/bridge/author/hashes-superseded-01.json",
+    "sha256": "369810620605c3ffcccee8aba8d82842b0eaa7b399ae689ecc3e8b39b5ff6dff"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-conjecture-bridge-work\\hashes.json",
+    "path": "evidence/novelty-paper/bridge/author/hashes.json",
+    "sha256": "813b3e6d42c8579339b628586db7f5013717e7fcff4d8bd7b37f9dd48f2ba204"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-conjecture-bridge-work\\plan.md",
+    "path": "evidence/novelty-paper/bridge/author/plan.md",
+    "sha256": "a6490837c98eb6587387cacafb2b2834d82e1e601b4eb3ddb6f2ca226d517007"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-conjecture-bridge-review-work\\acknowledge.py",
+    "path": "evidence/novelty-paper/bridge/review/acknowledge.py",
+    "sha256": "03ab22ad39351dee2be52298b3c1840a977a197be40ca7ffe9bceb8eefb846ae"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-conjecture-bridge-review-work\\correction-ack.json",
+    "path": "evidence/novelty-paper/bridge/review/correction-ack.json",
+    "sha256": "9758c440bfd3b078e5c54f747a20f52e01b3d3c8327d907997075f60522a37b8"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-conjecture-bridge-review-work\\finalize.py",
+    "path": "evidence/novelty-paper/bridge/review/finalize.py",
+    "sha256": "42e8f7f2a580231bcc295e33781120c6397511a241ffbe83271b6fea4faff9fd"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-conjecture-bridge-review-work\\hashes.json",
+    "path": "evidence/novelty-paper/bridge/review/hashes.json",
+    "sha256": "f05efc31b36b27d3c9d0a6d398fcdba81430b35ff9ec60ec4b11c1b5f1772d2d"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-conjecture-bridge-review-work\\plan.md",
+    "path": "evidence/novelty-paper/bridge/review/plan.md",
+    "sha256": "f1221cbe1c993e9d259c87777048ede7fe768e5871dffd2f203403a19676d6fe"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-conjecture-bridge-review-work\\review.md",
+    "path": "evidence/novelty-paper/bridge/review/review.md",
+    "sha256": "e85495387f17a435f326cb575812415df3a15f80a819b1108627cd7c2fbdd129"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-conjecture-bridge-review-work\\verdict.json",
+    "path": "evidence/novelty-paper/bridge/review/verdict.json",
+    "sha256": "242cf3140a540eeeb7c321ca143044825fa1f31802ecb2fd90b0c21adbf1c99a"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-work\\check.py",
+    "path": "evidence/novelty-paper/clique/author/check.py",
+    "sha256": "4d632a40ce39d199f3ff9f5715dcc9ed6950f6727d467842815d8ff015809e8b"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-work\\claims.json",
+    "path": "evidence/novelty-paper/clique/author/claims.json",
+    "sha256": "f313d4bcd7cf3dc2293e657c722af45c115e9e80d50229977799851a41c8eae2"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-work\\hashes.json",
+    "path": "evidence/novelty-paper/clique/author/hashes.json",
+    "sha256": "bac011e47efcc3279d351295d208b4472d39babd37ab3af6e6469d69811c71e7"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-work\\logs\\attempt-check01.json",
+    "path": "evidence/novelty-paper/clique/author/logs/attempt-check01.json",
+    "sha256": "70b8f2a3e806236b91b64c4f335a1444fbb0625cd9e671589269f5876e71e157"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-work\\logs\\attempt-check01.stderr.bin",
+    "path": "evidence/novelty-paper/clique/author/logs/attempt-check01.stderr.bin",
+    "sha256": "dd7241fb9634d51d4b90a8782d9a26dd3fe2ada28ad873374b2d9b28b76827ef"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-work\\logs\\attempt-check01.stdout.bin",
+    "path": "evidence/novelty-paper/clique/author/logs/attempt-check01.stdout.bin",
+    "sha256": "b6e7cdd747defc8860ae882f8d41d9dfc31acb09d30556960d48213d279b4796"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-work\\logs\\attempts.jsonl",
+    "path": "evidence/novelty-paper/clique/author/logs/attempts.jsonl",
+    "sha256": "a2c42278422d11d78e191360072dc6637acf0c7d0bec0e12543cda412cfaadfe"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-work\\plan.md",
+    "path": "evidence/novelty-paper/clique/author/plan.md",
+    "sha256": "8a23a5758aa71c5d06899ae9030df6ece6057606ebf3f5196b44cc04e22f3a4c"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-work\\proposal.md",
+    "path": "evidence/novelty-paper/clique/author/proposal.md",
+    "sha256": "d206fe6ec171cd49cdd6d5b108cee7abd4aaf7f73eae870bbb1ca0d452cca130"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-work\\result.json",
+    "path": "evidence/novelty-paper/clique/author/result.json",
+    "sha256": "3bf79f4e7a36fc9e3fffd55f3097fb9ba618dfb5331e4a9a3b4bcbbb19901643"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-review-work\\.python-version",
+    "path": "evidence/novelty-paper/clique/review/.python-version",
+    "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-review-work\\check.py",
+    "path": "evidence/novelty-paper/clique/review/check.py",
+    "sha256": "ca580139acc6ff841b13afc00e25b285a2414c82b806e1f427d1c862ec776b61"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-review-work\\hashes.json",
+    "path": "evidence/novelty-paper/clique/review/hashes.json",
+    "sha256": "e05924d65ebeb82a14fd8d8a74986dc03f13bb1de17e0568bce42a48ead7b6a6"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-review-work\\logs\\attempt-review01.json",
+    "path": "evidence/novelty-paper/clique/review/logs/attempt-review01.json",
+    "sha256": "23226d9a7f6064a91ee078329e7cacc6a5b203f7ba1b4ca8a47f52ab9a89e723"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-review-work\\logs\\attempt-review01.stderr.bin",
+    "path": "evidence/novelty-paper/clique/review/logs/attempt-review01.stderr.bin",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-review-work\\logs\\attempt-review01.stdout.bin",
+    "path": "evidence/novelty-paper/clique/review/logs/attempt-review01.stdout.bin",
+    "sha256": "fb538ecd4aadeddbb76213df207544f2925fa10693da935a19d4aca0e2fd9211"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-review-work\\logs\\attempts.jsonl",
+    "path": "evidence/novelty-paper/clique/review/logs/attempts.jsonl",
+    "sha256": "b44ad9f9907de546e3d9f907eb034d91cb09595b43cb9655f79c1c64dff7f5a1"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-review-work\\plan.md",
+    "path": "evidence/novelty-paper/clique/review/plan.md",
+    "sha256": "807557fccc5220abcb4fed6943908e8d25cfef3bdaa15db94b481ec544d85e80"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-review-work\\pyproject.toml",
+    "path": "evidence/novelty-paper/clique/review/pyproject.toml",
+    "sha256": "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-review-work\\result.json",
+    "path": "evidence/novelty-paper/clique/review/result.json",
+    "sha256": "c888d3d9a38b5662ecf3fefe81812fbcd9de760e8ddc4ece912bda275b699adb"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-review-work\\review.md",
+    "path": "evidence/novelty-paper/clique/review/review.md",
+    "sha256": "e4227de90f132bef1a2a201241f63118414e64136555cff900d2726ed83672b5"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-review-work\\uv.lock",
+    "path": "evidence/novelty-paper/clique/review/uv.lock",
+    "sha256": "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-review-work\\verdict.json",
+    "path": "evidence/novelty-paper/clique/review/verdict.json",
+    "sha256": "b5df7c4440fdbff29d538c84bb44481dd90dcb1edf4fbe5a0caa564eae92a0a2"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-paper-preliminary-review-work\\review.md",
+    "path": "evidence/novelty-paper/preliminary-review/review.md",
+    "sha256": "b29032bc2e63f2ed9c7b12bea2ffe4e35ad59ec326aa36fe5f4ecafa6fbb4c15"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-priority-review-work\\finalize.py",
+    "path": "evidence/novelty-paper/sources/review/finalize.py",
+    "sha256": "5e5318186b66e07199328e942ff197f5de283dd8ce143fb0bd82744f70ed73f8"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-priority-review-work\\hashes.json",
+    "path": "evidence/novelty-paper/sources/review/hashes.json",
+    "sha256": "f5d85ed57b79c4c735bcc64e2a609455fc5eca978e04cb075a8a3973d427c6e4"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-priority-review-work\\plan.md",
+    "path": "evidence/novelty-paper/sources/review/plan.md",
+    "sha256": "9c0b948d7c71dc2440cf8114399b50451c24ad8cc052227685e7ba0c0d7fee85"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-priority-review-work\\review-draft.md",
+    "path": "evidence/novelty-paper/sources/review/review-draft.md",
+    "sha256": "f3e8efce94d87822bc84031f254b4139e257243fc27785bf73572c396b8cd491"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-priority-review-work\\review.md",
+    "path": "evidence/novelty-paper/sources/review/review.md",
+    "sha256": "5eaa03bc56be83bdda482ae797484946894a1b6f9791854da2eb9b3f1707a4bf"
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-priority-review-work\\verdict.json",
+    "path": "evidence/novelty-paper/sources/review/verdict.json",
+    "sha256": "b2b519c3268646d3595df95c49338e888ee09cd1b92b697c887d6ecd8e1fa69f"
+  }
+]

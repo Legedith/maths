@@ -1,0 +1,69 @@
+{
+  "status": "corrections",
+  "required_corrections": [
+    "Replace P2 ranking-review SHA256 in bridge.md with 9142b6e6d2d761e86ffefa60d430c37a1aafa67a6e542f889a4a0797c76e4039 (remove extra a); refresh bridge hash manifest."
+  ],
+  "input_bridge_sha256": "15a3941afb41bf9de014dea1569a5fe28508dd8af25850360eb90386a5c3df12",
+  "checks": [
+    {
+      "id": "reproduction",
+      "status": "pass",
+      "type": "methodological",
+      "evidence": [
+        "B007",
+        "B008",
+        "B009",
+        "B010",
+        "B011",
+        "B012",
+        "B014",
+        "B015",
+        "B016"
+      ],
+      "note": "Reused distinct accepted proof audits with unchanged frozen certificate/source hashes and raw rc0 records; no evaluator rerun."
+    },
+    {
+      "id": "specification_compliance",
+      "status": "pass",
+      "type": "conclusion",
+      "evidence": [
+        "B001",
+        "B005",
+        "B007",
+        "B012"
+      ],
+      "note": "All r>=3, p>=1, minimum part>=3 cases covered, including ties; one strict-decrease nonedge refutes every-nonedge-positive definition. r=2 ranking validates graph criterion."
+    },
+    {
+      "id": "source_verification",
+      "status": "pass",
+      "type": "citation",
+      "evidence": [
+        "B004",
+        "B005",
+        "B006"
+      ],
+      "note": "Pinned primary page19 lines1177-1229, page12 lines699-714 and page3 definition inspected. Equation13 qualification retained; current priority not assessed."
+    },
+    {
+      "id": "implementation_alignment",
+      "status": "pass",
+      "type": "methodological",
+      "evidence": [
+        "B001",
+        "B007",
+        "B008",
+        "B011",
+        "B012"
+      ],
+      "note": "Bridge uses accepted all-r strict sign theorem and separately audited optional actual-change ranking; finite coefficient certificate linked to analytic gap-support extension."
+    }
+  ],
+  "mathematical_bridge_settles_historical_r_ge_3": true,
+  "novelty_priority_status": "not_assessed",
+  "limitations": [
+    "No new evaluator, PDF render or literature search.",
+    "Do not assert literal malformed equation13 or a fully reconstructed replacement polynomial.",
+    "Original proof audits reused as distinct audits, not self-certified anew."
+  ]
+}

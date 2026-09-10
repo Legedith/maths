@@ -1,0 +1,14 @@
+[
+  {
+    "path": "bridge.md",
+    "sha256": "76a74e870d0f1ce6840fc178ca3aee6442bc704b0850b1b18757737fdd41f946"
+  },
+  {
+    "path": "hashes-superseded-01.json",
+    "sha256": "369810620605c3ffcccee8aba8d82842b0eaa7b399ae689ecc3e8b39b5ff6dff"
+  },
+  {
+    "path": "plan.md",
+    "sha256": "a6490837c98eb6587387cacafb2b2834d82e1e601b4eb3ddb6f2ca226d517007"
+  }
+]

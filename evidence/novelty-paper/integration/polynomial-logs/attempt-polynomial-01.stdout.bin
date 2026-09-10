@@ -1,0 +1,21 @@
+{
+  "schema_version": "multipartite-frozen-polynomial-check-v1",
+  "pass": true,
+  "certificate_sha256": "b264e53aa98bb9171fcb327cb82cd01ec31e4c67eecbf30af6752545c078804c",
+  "checker_sha256": "7b656d33739a7a77834d1ae47f8115cd830f04bb05638a68a8de73189f747749",
+  "method": "stdlib sparse integer polynomial reconstruction from six sourced rational terms",
+  "term_count": 1777,
+  "gap_partition_count": 18,
+  "max_gap_degree": 5,
+  "constant_coefficient": 60948,
+  "checks": {
+    "frozen_input_identity": true,
+    "exact_coefficient_identity": true,
+    "six_denominator_complements": true,
+    "positive_denominator_factors": true,
+    "positive_coefficients_and_constant": true,
+    "gap_permutation_symmetry": true,
+    "gap_degree_at_most_five": true
+  },
+  "proof_boundary": "The source transcription, full-domain substitutions, finite-support lemma for arbitrary gap counts, and vertex relabelling require the accompanying mathematical proof and independent audit. This is not Lean formalization or novelty certification."
+}

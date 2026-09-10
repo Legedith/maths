@@ -1,0 +1,25 @@
+{
+  "find": [
+    {
+      "ref_id": "turn500view1",
+      "pattern": "average expected"
+    },
+    {
+      "ref_id": "turn500view1",
+      "pattern": "subject to"
+    },
+    {
+      "ref_id": "turn500view2",
+      "pattern": "Theorem 2.1"
+    },
+    {
+      "ref_id": "turn500view3",
+      "pattern": "open"
+    },
+    {
+      "ref_id": "turn500view5",
+      "pattern": "Corollary 8"
+    }
+  ],
+  "response_length": "long"
+}

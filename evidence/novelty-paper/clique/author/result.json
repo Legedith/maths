@@ -1,0 +1,2506 @@
+{
+  "code_sha256": "4d632a40ce39d199f3ff9f5715dcc9ed6950f6727d467842815d8ff015809e8b",
+  "count": 89,
+  "delta28_minus_delta33": "201710/6902833",
+  "input_hashes": {
+    "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-multipartite-work\\raw-02.json": "5453711dd4089f86e3cd2c78d428368a59db2c0ef9761a9c61f17a9e604bdd8e",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-three-part-proof\\run_logged.py": "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6"
+  },
+  "max_delta": "1008/1349",
+  "maximizers": [
+    28
+  ],
+  "printed_maximizers": [
+    33
+  ],
+  "printed_mismatch_count": 89,
+  "python": "3.12.11 (main, Sep 18 2025, 19:45:51) [MSC v.1944 64 bit (AMD64)]",
+  "rows": [
+    {
+      "K": "1065143/10812",
+      "Q": [
+        [
+          "1/11",
+          "0",
+          "10/11"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "1/45",
+          "44/45",
+          "0"
+        ]
+      ],
+      "corrected": "161/10812",
+      "delta": "161/10812",
+      "k": 2,
+      "omitted_contribution": "1163/12",
+      "printed": "161/91001",
+      "printed_matches": false,
+      "quotient_contribution": "1440/901",
+      "theorem35": "161/10812"
+    },
+    {
+      "K": "385589/3913",
+      "Q": [
+        [
+          "1/6",
+          "0",
+          "5/6"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "1/30",
+          "29/30",
+          "0"
+        ]
+      ],
+      "corrected": "317/7826",
+      "delta": "317/7826",
+      "k": 3,
+      "omitted_contribution": "1259/13",
+      "printed": "317/61404",
+      "printed_matches": false,
+      "quotient_contribution": "510/301",
+      "theorem35": "317/7826"
+    },
+    {
+      "K": "208385/2114",
+      "Q": [
+        [
+          "3/13",
+          "0",
+          "10/13"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "2/45",
+          "43/45",
+          "0"
+        ]
+      ],
+      "corrected": "78/1057",
+      "delta": "78/1057",
+      "k": 4,
+      "omitted_contribution": "1355/14",
+      "printed": "156/15553",
+      "printed_matches": false,
+      "quotient_contribution": "270/151",
+      "theorem35": "78/1057"
+    },
+    {
+      "K": "134606/1365",
+      "Q": [
+        [
+          "2/7",
+          "0",
+          "5/7"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "1/18",
+          "17/18",
+          "0"
+        ]
+      ],
+      "corrected": "307/2730",
+      "delta": "307/2730",
+      "k": 5,
+      "omitted_contribution": "1451/15",
+      "printed": "307/18928",
+      "printed_matches": false,
+      "quotient_contribution": "171/91",
+      "theorem35": "307/2730"
+    },
+    {
+      "K": "96287/976",
+      "Q": [
+        [
+          "1/3",
+          "0",
+          "2/3"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "1/15",
+          "14/15",
+          "0"
+        ]
+      ],
+      "corrected": "151/976",
+      "delta": "151/976",
+      "k": 6,
+      "omitted_contribution": "1547/16",
+      "printed": "151/6405",
+      "printed_matches": false,
+      "quotient_contribution": "120/61",
+      "theorem35": "151/976"
+    },
+    {
+      "K": "515111/5219",
+      "Q": [
+        [
+          "3/8",
+          "0",
+          "5/8"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "7/90",
+          "83/90",
+          "0"
+        ]
+      ],
+      "corrected": "2079/10438",
+      "delta": "2079/10438",
+      "k": 7,
+      "omitted_contribution": "1643/17",
+      "printed": "2079/65084",
+      "printed_matches": false,
+      "quotient_contribution": "630/307",
+      "theorem35": "2079/10438"
+    },
+    {
+      "K": "206179/2088",
+      "Q": [
+        [
+          "7/17",
+          "0",
+          "10/17"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "4/45",
+          "41/45",
+          "0"
+        ]
+      ],
+      "corrected": "511/2088",
+      "delta": "511/2088",
+      "k": 8,
+      "omitted_contribution": "1739/18",
+      "printed": "511/12412",
+      "printed_matches": false,
+      "quotient_contribution": "495/232",
+      "theorem35": "511/2088"
+    },
+    {
+      "K": "97605/988",
+      "Q": [
+        [
+          "4/9",
+          "0",
+          "5/9"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "1/10",
+          "9/10",
+          "0"
+        ]
+      ],
+      "corrected": "287/988",
+      "delta": "287/988",
+      "k": 9,
+      "omitted_contribution": "1835/19",
+      "printed": "287/5616",
+      "printed_matches": false,
+      "quotient_contribution": "115/52",
+      "theorem35": "287/988"
+    },
+    {
+      "K": "13837/140",
+      "Q": [
+        [
+          "9/19",
+          "0",
+          "10/19"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "1/9",
+          "8/9",
+          "0"
+        ]
+      ],
+      "corrected": "47/140",
+      "delta": "47/140",
+      "k": 10,
+      "omitted_contribution": "1931/20",
+      "printed": "47/763",
+      "printed_matches": false,
+      "quotient_contribution": "16/7",
+      "theorem35": "47/140"
+    },
+    {
+      "K": "396607/4011",
+      "Q": [
+        [
+          "1/2",
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "11/90",
+          "79/90",
+          "0"
+        ]
+      ],
+      "corrected": "3047/8022",
+      "delta": "3047/8022",
+      "k": 11,
+      "omitted_contribution": "2027/21",
+      "printed": "277/3820",
+      "printed_matches": false,
+      "quotient_contribution": "450/191",
+      "theorem35": "3047/8022"
+    },
+    {
+      "K": "31853/322",
+      "Q": [
+        [
+          "11/21",
+          "0",
+          "10/21"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "2/15",
+          "13/15",
+          "0"
+        ]
+      ],
+      "corrected": "68/161",
+      "delta": "68/161",
+      "k": 12,
+      "omitted_contribution": "193/2",
+      "printed": "1496/17871",
+      "printed_matches": false,
+      "quotient_contribution": "390/161",
+      "theorem35": "68/161"
+    },
+    {
+      "K": "371012/3749",
+      "Q": [
+        [
+          "6/11",
+          "0",
+          "5/11"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "13/90",
+          "77/90",
+          "0"
+        ]
+      ],
+      "corrected": "3471/7498",
+      "delta": "3471/7498",
+      "k": 13,
+      "omitted_contribution": "2219/23",
+      "printed": "3471/36512",
+      "printed_matches": false,
+      "quotient_contribution": "405/163",
+      "theorem35": "3471/7498"
+    },
+    {
+      "K": "2354645/23784",
+      "Q": [
+        [
+          "13/23",
+          "0",
+          "10/23"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "7/45",
+          "38/45",
+          "0"
+        ]
+      ],
+      "corrected": "11921/23784",
+      "delta": "11921/23784",
+      "k": 14,
+      "omitted_contribution": "2315/24",
+      "printed": "11921/111983",
+      "printed_matches": false,
+      "quotient_contribution": "2520/991",
+      "theorem35": "11921/23784"
+    },
+    {
+      "K": "165887/1675",
+      "Q": [
+        [
+          "7/12",
+          "0",
+          "5/12"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "1/6",
+          "5/6",
+          "0"
+        ]
+      ],
+      "corrected": "1799/3350",
+      "delta": "1799/3350",
+      "k": 15,
+      "omitted_contribution": "2411/25",
+      "printed": "1799/15276",
+      "printed_matches": false,
+      "quotient_contribution": "174/67",
+      "theorem35": "1799/3350"
+    },
+    {
+      "K": "43789/442",
+      "Q": [
+        [
+          "3/5",
+          "0",
+          "2/5"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "8/45",
+          "37/45",
+          "0"
+        ]
+      ],
+      "corrected": "126/221",
+      "delta": "126/221",
+      "k": 16,
+      "omitted_contribution": "2507/26",
+      "printed": "252/1955",
+      "printed_matches": false,
+      "quotient_contribution": "45/17",
+      "theorem35": "126/221"
+    },
+    {
+      "K": "1386019/13986",
+      "Q": [
+        [
+          "8/13",
+          "0",
+          "5/13"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "17/90",
+          "73/90",
+          "0"
+        ]
+      ],
+      "corrected": "4199/6993",
+      "delta": "4199/6993",
+      "k": 17,
+      "omitted_contribution": "2603/27",
+      "printed": "4199/30044",
+      "printed_matches": false,
+      "quotient_contribution": "1395/518",
+      "theorem35": "4199/6993"
+    },
+    {
+      "K": "324743/3276",
+      "Q": [
+        [
+          "17/27",
+          "0",
+          "10/27"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "1/5",
+          "4/5",
+          "0"
+        ]
+      ],
+      "corrected": "2057/3276",
+      "delta": "2057/3276",
+      "k": 18,
+      "omitted_contribution": "2699/28",
+      "printed": "2057/13689",
+      "printed_matches": false,
+      "quotient_contribution": "320/117",
+      "theorem35": "2057/3276"
+    },
+    {
+      "K": "342175/3451",
+      "Q": [
+        [
+          "9/14",
+          "0",
+          "5/14"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "19/90",
+          "71/90",
+          "0"
+        ]
+      ],
+      "corrected": "4503/6902",
+      "delta": "4503/6902",
+      "k": 19,
+      "omitted_contribution": "2795/29",
+      "printed": "4503/28084",
+      "printed_matches": false,
+      "quotient_contribution": "330/119",
+      "theorem35": "4503/6902"
+    },
+    {
+      "K": "324299/3270",
+      "Q": [
+        [
+          "19/29",
+          "0",
+          "10/29"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "2/9",
+          "7/9",
+          "0"
+        ]
+      ],
+      "corrected": "1102/1635",
+      "delta": "1102/1635",
+      "k": 20,
+      "omitted_contribution": "2891/30",
+      "printed": "2204/12971",
+      "printed_matches": false,
+      "quotient_contribution": "306/109",
+      "theorem35": "1102/1635"
+    },
+    {
+      "K": "113774/1147",
+      "Q": [
+        [
+          "2/3",
+          "0",
+          "1/3"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "7/30",
+          "23/30",
+          "0"
+        ]
+      ],
+      "corrected": "1589/2294",
+      "delta": "1589/2294",
+      "k": 21,
+      "omitted_contribution": "2987/31",
+      "printed": "1589/8880",
+      "printed_matches": false,
+      "quotient_contribution": "105/37",
+      "theorem35": "1589/2294"
+    },
+    {
+      "K": "1196851/12064",
+      "Q": [
+        [
+          "21/31",
+          "0",
+          "10/31"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "11/45",
+          "34/45",
+          "0"
+        ]
+      ],
+      "corrected": "8547/12064",
+      "delta": "8547/12064",
+      "k": 22,
+      "omitted_contribution": "3083/32",
+      "printed": "777/4147",
+      "printed_matches": false,
+      "quotient_contribution": "1080/377",
+      "theorem35": "8547/12064"
+    },
+    {
+      "K": "343207/3459",
+      "Q": [
+        [
+          "11/16",
+          "0",
+          "5/16"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "23/90",
+          "67/90",
+          "0"
+        ]
+      ],
+      "corrected": "4991/6918",
+      "delta": "4991/6918",
+      "k": 23,
+      "omitted_contribution": "289/3",
+      "printed": "54901/281332",
+      "printed_matches": false,
+      "quotient_contribution": "3330/1153",
+      "theorem35": "4991/6918"
+    },
+    {
+      "K": "82660/833",
+      "Q": [
+        [
+          "23/33",
+          "0",
+          "10/33"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "4/15",
+          "11/15",
+          "0"
+        ]
+      ],
+      "corrected": "1219/1666",
+      "delta": "1219/1666",
+      "k": 24,
+      "omitted_contribution": "3275/34",
+      "printed": "1219/6027",
+      "printed_matches": false,
+      "quotient_contribution": "285/98",
+      "theorem35": "1219/1666"
+    },
+    {
+      "K": "27787/280",
+      "Q": [
+        [
+          "12/17",
+          "0",
+          "5/17"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "5/18",
+          "13/18",
+          "0"
+        ]
+      ],
+      "corrected": "207/280",
+      "delta": "207/280",
+      "k": 25,
+      "omitted_contribution": "3371/35",
+      "printed": "207/992",
+      "printed_matches": false,
+      "quotient_contribution": "117/40",
+      "theorem35": "207/280"
+    },
+    {
+      "K": "175067/1764",
+      "Q": [
+        [
+          "5/7",
+          "0",
+          "2/7"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "13/45",
+          "32/45",
+          "0"
+        ]
+      ],
+      "corrected": "1313/1764",
+      "delta": "1313/1764",
+      "k": 26,
+      "omitted_contribution": "3467/36",
+      "printed": "1313/6125",
+      "printed_matches": false,
+      "quotient_contribution": "144/49",
+      "theorem35": "1313/1764"
+    },
+    {
+      "K": "510427/5143",
+      "Q": [
+        [
+          "13/18",
+          "0",
+          "5/18"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "3/10",
+          "7/10",
+          "0"
+        ]
+      ],
+      "corrected": "7683/10286",
+      "delta": "7683/10286",
+      "k": 27,
+      "omitted_contribution": "3563/37",
+      "printed": "2561/11676",
+      "printed_matches": false,
+      "quotient_contribution": "410/139",
+      "theorem35": "7683/10286"
+    },
+    {
+      "K": "267769/2698",
+      "Q": [
+        [
+          "27/37",
+          "0",
+          "10/37"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "14/45",
+          "31/45",
+          "0"
+        ]
+      ],
+      "corrected": "1008/1349",
+      "delta": "1008/1349",
+      "k": 28,
+      "omitted_contribution": "3659/38",
+      "printed": "2016/9017",
+      "printed_matches": false,
+      "quotient_contribution": "210/71",
+      "theorem35": "1008/1349"
+    },
+    {
+      "K": "2527480/25467",
+      "Q": [
+        [
+          "14/19",
+          "0",
+          "5/19"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "29/90",
+          "61/90",
+          "0"
+        ]
+      ],
+      "corrected": "37961/50934",
+      "delta": "37961/50934",
+      "k": 29,
+      "omitted_contribution": "3755/39",
+      "printed": "37961/167168",
+      "printed_matches": false,
+      "quotient_contribution": "1935/653",
+      "theorem35": "37961/50934"
+    },
+    {
+      "K": "353299/3560",
+      "Q": [
+        [
+          "29/39",
+          "0",
+          "10/39"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "1/3",
+          "2/3",
+          "0"
+        ]
+      ],
+      "corrected": "2639/3560",
+      "delta": "2639/3560",
+      "k": 30,
+      "omitted_contribution": "3851/40",
+      "printed": "2639/11481",
+      "printed_matches": false,
+      "quotient_contribution": "264/89",
+      "theorem35": "2639/3560"
+    },
+    {
+      "K": "370247/3731",
+      "Q": [
+        [
+          "3/4",
+          "0",
+          "1/4"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "31/90",
+          "59/90",
+          "0"
+        ]
+      ],
+      "corrected": "5487/7462",
+      "delta": "5487/7462",
+      "k": 31,
+      "omitted_contribution": "3947/41",
+      "printed": "5487/23660",
+      "printed_matches": false,
+      "quotient_contribution": "270/91",
+      "theorem35": "5487/7462"
+    },
+    {
+      "K": "1454477/14658",
+      "Q": [
+        [
+          "31/41",
+          "0",
+          "10/41"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "16/45",
+          "29/45",
+          "0"
+        ]
+      ],
+      "corrected": "5332/7329",
+      "delta": "5332/7329",
+      "k": 32,
+      "omitted_contribution": "4043/42",
+      "printed": "10664/45719",
+      "printed_matches": false,
+      "quotient_contribution": "1035/349",
+      "theorem35": "5332/7329"
+    },
+    {
+      "K": "1015397/10234",
+      "Q": [
+        [
+          "16/21",
+          "0",
+          "5/21"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "11/30",
+          "19/30",
+          "0"
+        ]
+      ],
+      "corrected": "3674/5117",
+      "delta": "3674/5117",
+      "k": 33,
+      "omitted_contribution": "4139/43",
+      "printed": "167/714",
+      "printed_matches": false,
+      "quotient_contribution": "705/238",
+      "theorem35": "3674/5117"
+    },
+    {
+      "K": "193255/1948",
+      "Q": [
+        [
+          "33/43",
+          "0",
+          "10/43"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "17/45",
+          "28/45",
+          "0"
+        ]
+      ],
+      "corrected": "1377/1948",
+      "delta": "1377/1948",
+      "k": 34,
+      "omitted_contribution": "385/4",
+      "printed": "15147/64771",
+      "printed_matches": false,
+      "quotient_contribution": "1440/487",
+      "theorem35": "1377/1948"
+    },
+    {
+      "K": "1334659/13455",
+      "Q": [
+        [
+          "17/22",
+          "0",
+          "5/22"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "7/18",
+          "11/18",
+          "0"
+        ]
+      ],
+      "corrected": "18683/26910",
+      "delta": "18683/26910",
+      "k": 35,
+      "omitted_contribution": "4331/45",
+      "printed": "18683/80132",
+      "printed_matches": false,
+      "quotient_contribution": "882/299",
+      "theorem35": "18683/26910"
+    },
+    {
+      "K": "77559/782",
+      "Q": [
+        [
+          "7/9",
+          "0",
+          "2/9"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "2/5",
+          "3/5",
+          "0"
+        ]
+      ],
+      "corrected": "266/391",
+      "delta": "266/391",
+      "k": 36,
+      "omitted_contribution": "4427/46",
+      "printed": "532/2295",
+      "printed_matches": false,
+      "quotient_contribution": "50/17",
+      "theorem35": "266/391"
+    },
+    {
+      "K": "135162/1363",
+      "Q": [
+        [
+          "18/23",
+          "0",
+          "5/23"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "37/90",
+          "53/90",
+          "0"
+        ]
+      ],
+      "corrected": "1813/2726",
+      "delta": "1813/2726",
+      "k": 37,
+      "omitted_contribution": "4523/47",
+      "printed": "1813/7888",
+      "printed_matches": false,
+      "quotient_contribution": "85/29",
+      "theorem35": "1813/2726"
+    },
+    {
+      "K": "7628897/76944",
+      "Q": [
+        [
+          "37/47",
+          "0",
+          "10/47"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "19/45",
+          "26/45",
+          "0"
+        ]
+      ],
+      "corrected": "49913/76944",
+      "delta": "49913/76944",
+      "k": 38,
+      "omitted_contribution": "4619/48",
+      "printed": "49913/219611",
+      "printed_matches": false,
+      "quotient_contribution": "4680/1603",
+      "theorem35": "49913/76944"
+    },
+    {
+      "K": "2657015/26803",
+      "Q": [
+        [
+          "19/24",
+          "0",
+          "5/24"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "13/30",
+          "17/30",
+          "0"
+        ]
+      ],
+      "corrected": "33839/53606",
+      "delta": "33839/53606",
+      "k": 39,
+      "omitted_contribution": "4715/49",
+      "printed": "33839/150972",
+      "printed_matches": false,
+      "quotient_contribution": "1590/547",
+      "theorem35": "33839/53606"
+    },
+    {
+      "K": "69379/700",
+      "Q": [
+        [
+          "39/49",
+          "0",
+          "10/49"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "4/9",
+          "5/9",
+          "0"
+        ]
+      ],
+      "corrected": "429/700",
+      "delta": "429/700",
+      "k": 40,
+      "omitted_contribution": "4811/50",
+      "printed": "429/1946",
+      "printed_matches": false,
+      "quotient_contribution": "81/28",
+      "theorem35": "429/700"
+    },
+    {
+      "K": "869249/8772",
+      "Q": [
+        [
+          "4/5",
+          "0",
+          "1/5"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "41/90",
+          "49/90",
+          "0"
+        ]
+      ],
+      "corrected": "5207/8772",
+      "delta": "5207/8772",
+      "k": 41,
+      "omitted_contribution": "4907/51",
+      "printed": "5207/24080",
+      "printed_matches": false,
+      "quotient_contribution": "495/172",
+      "theorem35": "5207/8772"
+    },
+    {
+      "K": "3024121/30524",
+      "Q": [
+        [
+          "41/51",
+          "0",
+          "10/51"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "7/15",
+          "8/15",
+          "0"
+        ]
+      ],
+      "corrected": "17507/30524",
+      "delta": "17507/30524",
+      "k": 42,
+      "omitted_contribution": "5003/52",
+      "printed": "17507/82767",
+      "printed_matches": false,
+      "quotient_contribution": "1680/587",
+      "theorem35": "17507/30524"
+    },
+    {
+      "K": "3155129/31853",
+      "Q": [
+        [
+          "21/26",
+          "0",
+          "5/26"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "43/90",
+          "47/90",
+          "0"
+        ]
+      ],
+      "corrected": "35217/63706",
+      "delta": "35217/63706",
+      "k": 43,
+      "omitted_contribution": "5099/53",
+      "printed": "35217/170684",
+      "printed_matches": false,
+      "quotient_contribution": "1710/601",
+      "theorem35": "35217/63706"
+    },
+    {
+      "K": "4935925/49842",
+      "Q": [
+        [
+          "43/53",
+          "0",
+          "10/53"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "22/45",
+          "23/45",
+          "0"
+        ]
+      ],
+      "corrected": "13244/24921",
+      "delta": "13244/24921",
+      "k": 44,
+      "omitted_contribution": "5195/54",
+      "printed": "2408/11999",
+      "printed_matches": false,
+      "quotient_contribution": "2610/923",
+      "theorem35": "13244/24921"
+    },
+    {
+      "K": "10396/105",
+      "Q": [
+        [
+          "22/27",
+          "0",
+          "5/27"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ]
+      ],
+      "corrected": "107/210",
+      "delta": "107/210",
+      "k": 45,
+      "omitted_contribution": "481/5",
+      "printed": "1177/6048",
+      "printed_matches": false,
+      "quotient_contribution": "59/21",
+      "theorem35": "107/210"
+    },
+    {
+      "K": "238361/2408",
+      "Q": [
+        [
+          "9/11",
+          "0",
+          "2/11"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "23/45",
+          "22/45",
+          "0"
+        ]
+      ],
+      "corrected": "1173/2408",
+      "delta": "1173/2408",
+      "k": 46,
+      "omitted_contribution": "5387/56",
+      "printed": "1173/6235",
+      "printed_matches": false,
+      "quotient_contribution": "120/43",
+      "theorem35": "1173/2408"
+    },
+    {
+      "K": "11174753/112917",
+      "Q": [
+        [
+          "23/28",
+          "0",
+          "5/28"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "47/90",
+          "43/90",
+          "0"
+        ]
+      ],
+      "corrected": "104857/225834",
+      "delta": "104857/225834",
+      "k": 47,
+      "omitted_contribution": "5483/57",
+      "printed": "104857/578452",
+      "printed_matches": false,
+      "quotient_contribution": "5490/1981",
+      "theorem35": "104857/225834"
+    },
+    {
+      "K": "969821/9802",
+      "Q": [
+        [
+          "47/57",
+          "0",
+          "10/57"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "8/15",
+          "7/15",
+          "0"
+        ]
+      ],
+      "corrected": "2162/4901",
+      "delta": "2162/4901",
+      "k": 48,
+      "omitted_contribution": "5579/58",
+      "printed": "4324/24843",
+      "printed_matches": false,
+      "quotient_contribution": "465/169",
+      "theorem35": "2162/4901"
+    },
+    {
+      "K": "2019305/20414",
+      "Q": [
+        [
+          "24/29",
+          "0",
+          "5/29"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "49/90",
+          "41/90",
+          "0"
+        ]
+      ],
+      "corrected": "4263/10207",
+      "delta": "4263/10207",
+      "k": 49,
+      "omitted_contribution": "5675/59",
+      "printed": "4263/25604",
+      "printed_matches": false,
+      "quotient_contribution": "945/346",
+      "theorem35": "4263/10207"
+    },
+    {
+      "K": "504359/5100",
+      "Q": [
+        [
+          "49/59",
+          "0",
+          "10/59"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "5/9",
+          "4/9",
+          "0"
+        ]
+      ],
+      "corrected": "2009/5100",
+      "delta": "2009/5100",
+      "k": 50,
+      "omitted_contribution": "5771/60",
+      "printed": "2009/12665",
+      "printed_matches": false,
+      "quotient_contribution": "1152/425",
+      "theorem35": "2009/5100"
+    },
+    {
+      "K": "174901/1769",
+      "Q": [
+        [
+          "5/6",
+          "0",
+          "1/6"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "17/30",
+          "13/30",
+          "0"
+        ]
+      ],
+      "corrected": "1309/3538",
+      "delta": "1309/3538",
+      "k": 51,
+      "omitted_contribution": "5867/61",
+      "printed": "1309/8700",
+      "printed_matches": false,
+      "quotient_contribution": "78/29",
+      "theorem35": "1309/3538"
+    },
+    {
+      "K": "2273653/23002",
+      "Q": [
+        [
+          "51/61",
+          "0",
+          "10/61"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "26/45",
+          "19/45",
+          "0"
+        ]
+      ],
+      "corrected": "3978/11501",
+      "delta": "3978/11501",
+      "k": 52,
+      "omitted_contribution": "5963/62",
+      "printed": "7956/56021",
+      "printed_matches": false,
+      "quotient_contribution": "990/371",
+      "theorem35": "3978/11501"
+    },
+    {
+      "K": "105838/1071",
+      "Q": [
+        [
+          "26/31",
+          "0",
+          "5/31"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "53/90",
+          "37/90",
+          "0"
+        ]
+      ],
+      "corrected": "689/2142",
+      "delta": "689/2142",
+      "k": 53,
+      "omitted_contribution": "6059/63",
+      "printed": "689/5168",
+      "printed_matches": false,
+      "quotient_contribution": "45/17",
+      "theorem35": "689/2142"
+    },
+    {
+      "K": "1637665/16576",
+      "Q": [
+        [
+          "53/63",
+          "0",
+          "10/63"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "3/5",
+          "2/5",
+          "0"
+        ]
+      ],
+      "corrected": "4929/16576",
+      "delta": "4929/16576",
+      "k": 54,
+      "omitted_contribution": "6155/64",
+      "printed": "1643/13209",
+      "printed_matches": false,
+      "quotient_contribution": "680/259",
+      "theorem35": "4929/16576"
+    },
+    {
+      "K": "340273/3445",
+      "Q": [
+        [
+          "27/32",
+          "0",
+          "5/32"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "11/18",
+          "7/18",
+          "0"
+        ]
+      ],
+      "corrected": "1881/6890",
+      "delta": "1881/6890",
+      "k": 55,
+      "omitted_contribution": "6251/65",
+      "printed": "171/1484",
+      "printed_matches": false,
+      "quotient_contribution": "138/53",
+      "theorem35": "1881/6890"
+    },
+    {
+      "K": "18071/183",
+      "Q": [
+        [
+          "11/13",
+          "0",
+          "2/13"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "28/45",
+          "17/45",
+          "0"
+        ]
+      ],
+      "corrected": "91/366",
+      "delta": "91/366",
+      "k": 56,
+      "omitted_contribution": "577/6",
+      "printed": "1001/9455",
+      "printed_matches": false,
+      "quotient_contribution": "315/122",
+      "theorem35": "91/366"
+    },
+    {
+      "K": "2751643/27872",
+      "Q": [
+        [
+          "28/33",
+          "0",
+          "5/33"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "19/30",
+          "11/30",
+          "0"
+        ]
+      ],
+      "corrected": "6251/27872",
+      "delta": "6251/27872",
+      "k": 57,
+      "omitted_contribution": "6443/67",
+      "printed": "6251/64896",
+      "printed_matches": false,
+      "quotient_contribution": "1065/416",
+      "theorem35": "6251/27872"
+    },
+    {
+      "K": "5711569/57868",
+      "Q": [
+        [
+          "57/67",
+          "0",
+          "10/67"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "29/45",
+          "16/45",
+          "0"
+        ]
+      ],
+      "corrected": "11571/57868",
+      "delta": "11571/57868",
+      "k": 58,
+      "omitted_contribution": "6539/68",
+      "printed": "11571/133607",
+      "printed_matches": false,
+      "quotient_contribution": "2160/851",
+      "theorem35": "11571/57868"
+    },
+    {
+      "K": "17777315/180159",
+      "Q": [
+        [
+          "29/34",
+          "0",
+          "5/34"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "59/90",
+          "31/90",
+          "0"
+        ]
+      ],
+      "corrected": "63307/360318",
+      "delta": "63307/360318",
+      "k": 59,
+      "omitted_contribution": "6635/69",
+      "printed": "63307/825076",
+      "printed_matches": false,
+      "quotient_contribution": "6570/2611",
+      "theorem35": "63307/360318"
+    },
+    {
+      "K": "614599/6230",
+      "Q": [
+        [
+          "59/69",
+          "0",
+          "10/69"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "2/3",
+          "1/3",
+          "0"
+        ]
+      ],
+      "corrected": "472/3115",
+      "delta": "472/3115",
+      "k": 60,
+      "omitted_contribution": "6731/70",
+      "printed": "944/14151",
+      "printed_matches": false,
+      "quotient_contribution": "222/89",
+      "theorem35": "472/3115"
+    },
+    {
+      "K": "637232/6461",
+      "Q": [
+        [
+          "6/7",
+          "0",
+          "1/7"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "61/90",
+          "29/90",
+          "0"
+        ]
+      ],
+      "corrected": "1647/12922",
+      "delta": "1647/12922",
+      "k": 61,
+      "omitted_contribution": "6827/71",
+      "printed": "1647/29120",
+      "printed_matches": false,
+      "quotient_contribution": "225/91",
+      "theorem35": "1647/12922"
+    },
+    {
+      "K": "19814573/200952",
+      "Q": [
+        [
+          "61/71",
+          "0",
+          "10/71"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "31/45",
+          "14/45",
+          "0"
+        ]
+      ],
+      "corrected": "20801/200952",
+      "delta": "20801/200952",
+      "k": 62,
+      "omitted_contribution": "6923/72",
+      "printed": "20801/449351",
+      "printed_matches": false,
+      "quotient_contribution": "6840/2791",
+      "theorem35": "20801/200952"
+    },
+    {
+      "K": "2281233/23141",
+      "Q": [
+        [
+          "31/36",
+          "0",
+          "5/36"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "7/10",
+          "3/10",
+          "0"
+        ]
+      ],
+      "corrected": "3689/46282",
+      "delta": "3689/46282",
+      "k": 63,
+      "omitted_contribution": "7019/73",
+      "printed": "3689/102708",
+      "printed_matches": false,
+      "quotient_contribution": "770/317",
+      "theorem35": "3689/46282"
+    },
+    {
+      "K": "196915/1998",
+      "Q": [
+        [
+          "63/73",
+          "0",
+          "10/73"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "32/45",
+          "13/45",
+          "0"
+        ]
+      ],
+      "corrected": "56/999",
+      "delta": "56/999",
+      "k": 64,
+      "omitted_contribution": "7115/74",
+      "printed": "112/4401",
+      "printed_matches": false,
+      "quotient_contribution": "65/27",
+      "theorem35": "56/999"
+    },
+    {
+      "K": "2202203/22350",
+      "Q": [
+        [
+          "32/37",
+          "0",
+          "5/37"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "13/18",
+          "5/18",
+          "0"
+        ]
+      ],
+      "corrected": "364/11175",
+      "delta": "364/11175",
+      "k": 65,
+      "omitted_contribution": "7211/75",
+      "printed": "91/6109",
+      "printed_matches": false,
+      "quotient_contribution": "711/298",
+      "theorem35": "364/11175"
+    },
+    {
+      "K": "1519801/15428",
+      "Q": [
+        [
+          "13/15",
+          "0",
+          "2/15"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "11/15",
+          "4/15",
+          "0"
+        ]
+      ],
+      "corrected": "143/15428",
+      "delta": "143/15428",
+      "k": 66,
+      "omitted_contribution": "7307/76",
+      "printed": "13/3045",
+      "printed_matches": false,
+      "quotient_contribution": "480/203",
+      "theorem35": "143/15428"
+    },
+    {
+      "K": "714911/7259",
+      "Q": [
+        [
+          "33/38",
+          "0",
+          "5/38"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "67/90",
+          "23/90",
+          "0"
+        ]
+      ],
+      "corrected": "-201/14518",
+      "delta": "-201/14518",
+      "k": 67,
+      "omitted_contribution": "673/7",
+      "printed": "-2211/344284",
+      "printed_matches": false,
+      "quotient_contribution": "2430/1037",
+      "theorem35": "-201/14518"
+    },
+    {
+      "K": "12203731/123942",
+      "Q": [
+        [
+          "67/77",
+          "0",
+          "10/77"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "34/45",
+          "11/45",
+          "0"
+        ]
+      ],
+      "corrected": "-2278/61971",
+      "delta": "-2278/61971",
+      "k": 68,
+      "omitted_contribution": "7499/78",
+      "printed": "-4556/265363",
+      "printed_matches": false,
+      "quotient_contribution": "3690/1589",
+      "theorem35": "-2278/61971"
+    },
+    {
+      "K": "4207250/42739",
+      "Q": [
+        [
+          "34/39",
+          "0",
+          "5/39"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "23/30",
+          "7/30",
+          "0"
+        ]
+      ],
+      "corrected": "-5083/85478",
+      "delta": "-5083/85478",
+      "k": 69,
+      "omitted_contribution": "7595/79",
+      "printed": "-5083/181776",
+      "printed_matches": false,
+      "quotient_contribution": "1245/541",
+      "theorem35": "-5083/85478"
+    },
+    {
+      "K": "1740031/17680",
+      "Q": [
+        [
+          "69/79",
+          "0",
+          "10/79"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "7/9",
+          "2/9",
+          "0"
+        ]
+      ],
+      "corrected": "-1449/17680",
+      "delta": "-1449/17680",
+      "k": 70,
+      "omitted_contribution": "7691/80",
+      "printed": "-1449/37349",
+      "printed_matches": false,
+      "quotient_contribution": "504/221",
+      "theorem35": "-1449/17680"
+    },
+    {
+      "K": "5395729/54837",
+      "Q": [
+        [
+          "7/8",
+          "0",
+          "1/8"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "71/90",
+          "19/90",
+          "0"
+        ]
+      ],
+      "corrected": "-11431/109674",
+      "delta": "-11431/109674",
+      "k": 71,
+      "omitted_contribution": "7787/81",
+      "printed": "-11431/230180",
+      "printed_matches": false,
+      "quotient_contribution": "1530/677",
+      "theorem35": "-11431/109674"
+    },
+    {
+      "K": "387199/3936",
+      "Q": [
+        [
+          "71/81",
+          "0",
+          "10/81"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "4/5",
+          "1/5",
+          "0"
+        ]
+      ],
+      "corrected": "-497/3936",
+      "delta": "-497/3936",
+      "k": 72,
+      "omitted_contribution": "7883/82",
+      "printed": "-497/8208",
+      "printed_matches": false,
+      "quotient_contribution": "215/96",
+      "theorem35": "-497/3936"
+    },
+    {
+      "K": "1599989/16268",
+      "Q": [
+        [
+          "36/41",
+          "0",
+          "5/41"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "73/90",
+          "17/90",
+          "0"
+        ]
+      ],
+      "corrected": "-2409/16268",
+      "delta": "-2409/16268",
+      "k": 73,
+      "omitted_contribution": "7979/83",
+      "printed": "-2409/33712",
+      "printed_matches": false,
+      "quotient_contribution": "435/196",
+      "theorem35": "-2409/16268"
+    },
+    {
+      "K": "29743355/302484",
+      "Q": [
+        [
+          "73/83",
+          "0",
+          "10/83"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "37/45",
+          "8/45",
+          "0"
+        ]
+      ],
+      "corrected": "-51319/302484",
+      "delta": "-51319/302484",
+      "k": 74,
+      "omitted_contribution": "8075/84",
+      "printed": "-51319/622973",
+      "printed_matches": false,
+      "quotient_contribution": "7920/3601",
+      "theorem35": "-51319/302484"
+    },
+    {
+      "K": "409457/4165",
+      "Q": [
+        [
+          "37/42",
+          "0",
+          "5/42"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "5/6",
+          "1/6",
+          "0"
+        ]
+      ],
+      "corrected": "-1591/8330",
+      "delta": "-1591/8330",
+      "k": 75,
+      "omitted_contribution": "8171/85",
+      "printed": "-1591/17052",
+      "printed_matches": false,
+      "quotient_contribution": "534/245",
+      "theorem35": "-1591/8330"
+    },
+    {
+      "K": "211319/2150",
+      "Q": [
+        [
+          "15/17",
+          "0",
+          "2/17"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "38/45",
+          "7/45",
+          "0"
+        ]
+      ],
+      "corrected": "-228/1075",
+      "delta": "-228/1075",
+      "k": 76,
+      "omitted_contribution": "8267/86",
+      "printed": "-456/4375",
+      "printed_matches": false,
+      "quotient_contribution": "54/25",
+      "theorem35": "-228/1075"
+    },
+    {
+      "K": "16354684/166431",
+      "Q": [
+        [
+          "38/43",
+          "0",
+          "5/43"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "77/90",
+          "13/90",
+          "0"
+        ]
+      ],
+      "corrected": "-77539/332862",
+      "delta": "-77539/332862",
+      "k": 77,
+      "omitted_contribution": "8363/87",
+      "printed": "-7049/61216",
+      "printed_matches": false,
+      "quotient_contribution": "4095/1913",
+      "theorem35": "-77539/332862"
+    },
+    {
+      "K": "1022549/10408",
+      "Q": [
+        [
+          "77/87",
+          "0",
+          "10/87"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "13/15",
+          "2/15",
+          "0"
+        ]
+      ],
+      "corrected": "-2639/10408",
+      "delta": "-2639/10408",
+      "k": 78,
+      "omitted_contribution": "769/8",
+      "printed": "-29029/230277",
+      "printed_matches": false,
+      "quotient_contribution": "2760/1301",
+      "theorem35": "-2639/10408"
+    },
+    {
+      "K": "11600795/118103",
+      "Q": [
+        [
+          "39/44",
+          "0",
+          "5/44"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "79/90",
+          "11/90",
+          "0"
+        ]
+      ],
+      "corrected": "-64701/236206",
+      "delta": "-64701/236206",
+      "k": 79,
+      "omitted_contribution": "8555/89",
+      "printed": "-64701/472412",
+      "printed_matches": false,
+      "quotient_contribution": "2790/1327",
+      "theorem35": "-64701/236206"
+    },
+    {
+      "K": "1794223/18270",
+      "Q": [
+        [
+          "79/89",
+          "0",
+          "10/89"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "8/9",
+          "1/9",
+          "0"
+        ]
+      ],
+      "corrected": "-2686/9135",
+      "delta": "-2686/9135",
+      "k": 80,
+      "omitted_contribution": "8651/90",
+      "printed": "-5372/36337",
+      "printed_matches": false,
+      "quotient_contribution": "423/203",
+      "theorem35": "-2686/9135"
+    },
+    {
+      "K": "411007/4186",
+      "Q": [
+        [
+          "8/9",
+          "0",
+          "1/9"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "9/10",
+          "1/10",
+          "0"
+        ]
+      ],
+      "corrected": "-657/2093",
+      "delta": "-657/2093",
+      "k": 81,
+      "omitted_contribution": "8747/91",
+      "printed": "-73/460",
+      "printed_matches": false,
+      "quotient_contribution": "95/46",
+      "theorem35": "-657/2093"
+    },
+    {
+      "K": "4235687/43148",
+      "Q": [
+        [
+          "81/91",
+          "0",
+          "10/91"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "41/45",
+          "4/45",
+          "0"
+        ]
+      ],
+      "corrected": "-14391/43148",
+      "delta": "-14391/43148",
+      "k": 82,
+      "omitted_contribution": "8843/92",
+      "printed": "-14391/84889",
+      "printed_matches": false,
+      "quotient_contribution": "960/469",
+      "theorem35": "-14391/43148"
+    },
+    {
+      "K": "39276407/400179",
+      "Q": [
+        [
+          "41/46",
+          "0",
+          "5/46"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "83/90",
+          "7/90",
+          "0"
+        ]
+      ],
+      "corrected": "-282449/800358",
+      "delta": "-282449/800358",
+      "k": 83,
+      "omitted_contribution": "8939/93",
+      "printed": "-282449/1566292",
+      "printed_matches": false,
+      "quotient_contribution": "8730/4303",
+      "theorem35": "-282449/800358"
+    },
+    {
+      "K": "6742765/68714",
+      "Q": [
+        [
+          "83/93",
+          "0",
+          "10/93"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "14/15",
+          "1/15",
+          "0"
+        ]
+      ],
+      "corrected": "-12782/34357",
+      "delta": "-12782/34357",
+      "k": 84,
+      "omitted_contribution": "9035/94",
+      "printed": "-25564/133773",
+      "printed_matches": false,
+      "quotient_contribution": "1470/731",
+      "theorem35": "-12782/34357"
+    },
+    {
+      "K": "1388734/14155",
+      "Q": [
+        [
+          "42/47",
+          "0",
+          "5/47"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "17/18",
+          "1/18",
+          "0"
+        ]
+      ],
+      "corrected": "-11067/28310",
+      "delta": "-11067/28310",
+      "k": 85,
+      "omitted_contribution": "9131/95",
+      "printed": "-11067/54832",
+      "printed_matches": false,
+      "quotient_contribution": "297/149",
+      "theorem35": "-11067/28310"
+    },
+    {
+      "K": "8578597/87456",
+      "Q": [
+        [
+          "17/19",
+          "0",
+          "2/19"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "43/45",
+          "2/45",
+          "0"
+        ]
+      ],
+      "corrected": "-35819/87456",
+      "delta": "-35819/87456",
+      "k": 86,
+      "omitted_contribution": "9227/96",
+      "printed": "-35819/168535",
+      "printed_matches": false,
+      "quotient_contribution": "1800/911",
+      "theorem35": "-35819/87456"
+    },
+    {
+      "K": "14716591/150059",
+      "Q": [
+        [
+          "43/48",
+          "0",
+          "5/48"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "29/30",
+          "1/30",
+          "0"
+        ]
+      ],
+      "corrected": "-128441/300118",
+      "delta": "-128441/300118",
+      "k": 87,
+      "omitted_contribution": "9323/97",
+      "printed": "-128441/575484",
+      "printed_matches": false,
+      "quotient_contribution": "3030/1547",
+      "theorem35": "-128441/300118"
+    },
+    {
+      "K": "946514/9653",
+      "Q": [
+        [
+          "87/97",
+          "0",
+          "10/97"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "44/45",
+          "1/45",
+          "0"
+        ]
+      ],
+      "corrected": "-8613/19306",
+      "delta": "-8613/19306",
+      "k": 88,
+      "omitted_contribution": "9419/98",
+      "printed": "-783/3349",
+      "printed_matches": false,
+      "quotient_contribution": "765/394",
+      "theorem35": "-8613/19306"
+    },
+    {
+      "K": "2124635/21672",
+      "Q": [
+        [
+          "44/49",
+          "0",
+          "5/49"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "89/90",
+          "1/90",
+          "0"
+        ]
+      ],
+      "corrected": "-10057/21672",
+      "delta": "-10057/21672",
+      "k": 89,
+      "omitted_contribution": "865/9",
+      "printed": "-110627/452704",
+      "printed_matches": false,
+      "quotient_contribution": "4635/2408",
+      "theorem35": "-10057/21672"
+    },
+    {
+      "K": "1068399/10900",
+      "Q": [
+        [
+          "89/99",
+          "10/99"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "corrected": "-5251/10900",
+      "delta": "-5251/10900",
+      "k": 90,
+      "omitted_contribution": "9711/100",
+      "printed": "-5251/20601",
+      "printed_matches": false,
+      "quotient_contribution": "99/109",
+      "theorem35": "-5251/10900"
+    }
+  ],
+  "status": "pass"
+}

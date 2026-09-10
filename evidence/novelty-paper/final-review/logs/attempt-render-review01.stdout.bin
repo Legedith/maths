@@ -1,0 +1,1 @@
+{"status": "PASS", "readme_sha256": "5bc1716a7eaf822b46b4019edc262f9134a5cf75fde0abf1173809e255a9342a", "html_sha256": "a890ca07f8c8768c242eb427bded88e057ab73e1d5f38e266344a98d1a893c66", "math_expressions": 103, "checked_repository_links": 13, "checked_fragment_links": 11, "html_h1_count": 1, "independent_read_only_replay": "byte-identical"}

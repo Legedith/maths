@@ -1,0 +1,1 @@
+{"code_sha256": "ca580139acc6ff841b13afc00e25b285a2414c82b806e1f427d1c862ec776b61", "direct_full_matrix": {"28": {"K": "267769/2698", "volume": "2556"}, "33": {"K": "1015397/10234", "volume": "2856"}}, "gap": "201710/6902833", "maximizers": [28], "pass": true, "python": "3.12.11 (main, Sep 18 2025, 19:45:51) [MSC v.1944 64 bit (AMD64)]", "sympy": "1.14.0"}

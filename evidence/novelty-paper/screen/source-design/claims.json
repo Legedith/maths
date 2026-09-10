@@ -1,0 +1,112 @@
+{
+  "status": "investigation_complete_not_novelty_pass",
+  "independent_source_audit_required": true,
+  "queries": 6,
+  "primary_opens": 6,
+  "find_calls": 10,
+  "claims": [
+    {
+      "id": "C1",
+      "type": "citation",
+      "classification": "exact_prior_ingredient",
+      "statement": "Palacios Theorem 2 gives conductance-weighted voltage hitting time; Corollaries 8-10 concern simple-walk cutpoint/bridge/tree formulas.",
+      "supports": [
+        {
+          "path": "raw-04.json",
+          "locator": "turn502view4: PDF page2 lines113-139"
+        },
+        {
+          "path": "raw-05.json",
+          "locator": "turn505view4: PDF pages3-4 lines277-384"
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "type": "citation",
+      "classification": "different_special_perturbation",
+      "statement": "Markowsky-Palacios Theorem3 concerns deletion resistance; Theorem4 specializes hitting-time deletion to walk-regular graphs.",
+      "supports": [
+        {
+          "path": "raw-03.json",
+          "locator": "turn500view0: PDF pages6-7 lines197-278"
+        }
+      ]
+    },
+    {
+      "id": "C3",
+      "type": "citation",
+      "classification": "broad_prior_only",
+      "statement": "Conductance allocation minimizing total effective resistance is prior convex optimization; detailed equivalence is not established by the inspected abstract.",
+      "supports": [
+        {
+          "path": "raw-03.json",
+          "locator": "turn500view1: PDF page1 lines0-22"
+        }
+      ]
+    },
+    {
+      "id": "C4",
+      "type": "citation",
+      "classification": "not_direct_theorem_transfer",
+      "statement": "Robust fractional programming Theorem2.1 assumes attainment and convexity; the Sion discussion also has convex feasible-set hypotheses.",
+      "supports": [
+        {
+          "path": "raw-05.json",
+          "locator": "turn505view2: PDF page3 lines138-161"
+        },
+        {
+          "path": "raw-04.json",
+          "locator": "turn502view2: PDF page18 lines1220-1226"
+        }
+      ]
+    },
+    {
+      "id": "C5",
+      "type": "citation",
+      "classification": "different_model",
+      "statement": "Shortcut-edge group hitting work has bicriteria and max-average comparison theorems, not the identical continuous-strength workload-regret model.",
+      "supports": [
+        {
+          "path": "raw-04.json",
+          "locator": "turn502view3: PDF page6 lines771-774 and927-932"
+        }
+      ]
+    },
+    {
+      "id": "C6",
+      "type": "methodological",
+      "classification": "investigator_routine_corollary_assessment",
+      "statement": "Endpoint reduction, quadratic candidates and infimum bookkeeping follow short displayed algebra; recommend rejection as standalone novelty, not a claim of exact prior printing.",
+      "supports": [
+        {
+          "path": "comparison-notes.md",
+          "locator": "Claim-by-claim novelty triage items1-3,6"
+        },
+        {
+          "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\README.md",
+          "locator": "sections2,3,6"
+        }
+      ]
+    },
+    {
+      "id": "C7",
+      "type": "conclusion",
+      "classification": "unresolved_nontriviality_and_priority",
+      "statement": "Fork-path equivalence is the precise residual comparison but its short separator proof does not establish a nontrivial new contribution; no sourced open question was found or certified open.",
+      "supports": [
+        {
+          "claim_id": "C1"
+        },
+        {
+          "claim_id": "C6"
+        },
+        {
+          "path": "comparison-notes.md",
+          "locator": "triage item5 and Follow-up status"
+        }
+      ]
+    }
+  ],
+  "required_followup": "Independent skeptical source audit; prefer sourced unresolved question from another branch. Do not mark goal complete."
+}

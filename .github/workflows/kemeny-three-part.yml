@@ -213,3 +213,24 @@ jobs:
           path: work/kemeny-source-target-ci/
           retention-days: 30
           if-no-files-found: warn
+      - name: Reproduce the K90,10 clique-size correction
+        run: >-
+          uv run --project experiments/kemeny-multipartite-proof --frozen python
+          experiments/kemeny-three-part-proof/run_logged.py
+          --attempt-id clique-example --timeout-seconds 60
+          --log-dir work/kemeny-clique-example-ci/logs -- uv run
+          --project experiments/kemeny-multipartite-proof --frozen python
+          experiments/kemeny-multipartite-proof/verify_clique_example.py
+          --output work/kemeny-clique-example-ci/check.json
+      - name: Retain the exact clique-size correction
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: kemeny-clique-example
+          path: work/kemeny-clique-example-ci/
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Verify the paper matches its README source
+        run: |
+          uv run --project experiments/research-paper --frozen python scripts/build_research_paper.py
+          git diff --exit-code -- docs/index.html docs/.nojekyll

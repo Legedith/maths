@@ -1,0 +1,21 @@
+{
+  "search_query": [
+    {
+      "q": "\"Kemeny\" \"smallest\" \"Braess set\""
+    },
+    {
+      "q": "\"Kemeny\" \"Braess cliques\" \"question\" conjecture"
+    }
+  ],
+  "open": [
+    {
+      "ref_id": "turn501view1",
+      "lineno": 510
+    },
+    {
+      "ref_id": "turn501view1",
+      "lineno": 698
+    }
+  ],
+  "response_length": "long"
+}

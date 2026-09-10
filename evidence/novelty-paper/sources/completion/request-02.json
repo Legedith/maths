@@ -1,0 +1,17 @@
+{
+  "find": [
+    {
+      "ref_id": "turn523view0",
+      "pattern": "Theorem 2.4"
+    },
+    {
+      "ref_id": "turn523view0",
+      "pattern": "Theorem 2.3"
+    },
+    {
+      "ref_id": "turn523view0",
+      "pattern": "spars"
+    }
+  ],
+  "response_length": "long"
+}

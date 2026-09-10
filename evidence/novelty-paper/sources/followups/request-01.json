@@ -1,0 +1,14 @@
+{
+  "search_query": [
+    {
+      "q": "\"Kemeny\" \"Conjecture 3.4.7\""
+    },
+    {
+      "q": "\"Complete multipartite graphs and Braess edges\" conjecture solved"
+    },
+    {
+      "q": "\"Kirkland\" \"multipartite\" \"Braess\" conjecture 2024 2025 2026"
+    }
+  ],
+  "response_length": "long"
+}

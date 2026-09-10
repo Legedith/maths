@@ -1,0 +1,13 @@
+{
+  "find": [
+    {
+      "ref_id": "https://arxiv.org/abs/2608.04150",
+      "pattern": "Submission history"
+    },
+    {
+      "ref_id": "https://server.math.umanitoba.ca/~kirkland/",
+      "pattern": "2026"
+    }
+  ],
+  "response_length": "long"
+}

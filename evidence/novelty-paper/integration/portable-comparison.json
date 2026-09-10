@@ -1,0 +1,9 @@
+{
+  "all_rows_equal": true,
+  "independent_rows_equal": true,
+  "row_count": 89,
+  "unchanged_main_checks_byte_identical": true,
+  "python": "3.12.11 (main, Sep 18 2025, 19:45:51) [MSC v.1944 64 bit (AMD64)]",
+  "uv": "uv 0.8.19 (fc7c2f8b5 2025-09-19)",
+  "code_sha256": "05578d2cc5f8077f862fd644c0e5d206a26f14538a79620aa7f961a4f1a59265"
+}

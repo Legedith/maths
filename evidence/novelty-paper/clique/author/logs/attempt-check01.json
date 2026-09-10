@@ -1,0 +1,35 @@
+{
+  "argv": [
+    "uv",
+    "run",
+    "--no-project",
+    "--python",
+    "D:/CodexWorkspaces/mathematics-atlas/novelty-clique-example-work/.venv/Scripts/python.exe",
+    "python",
+    "D:/CodexWorkspaces/mathematics-atlas/novelty-clique-example-work/check.py"
+  ],
+  "attempt_id": "check01",
+  "ended_at_utc": "2026-09-10T02:21:55.901527+00:00",
+  "returncode": 0,
+  "schema_version": "logged-command-attempt-v1",
+  "selected_environment": {
+    "PYTHONDONTWRITEBYTECODE": null,
+    "UV_CACHE_DIR": "D:/CodexWorkspaces/mathematics-atlas/novelty-clique-example-work/uv-cache",
+    "UV_PROJECT_ENVIRONMENT": "D:/CodexWorkspaces/mathematics-atlas/novelty-clique-example-work/.venv"
+  },
+  "started_at_utc": "2026-09-10T02:21:55.746399+00:00",
+  "stderr": {
+    "bytes": 59,
+    "path": "attempt-check01.stderr.bin",
+    "sha256": "dd7241fb9634d51d4b90a8782d9a26dd3fe2ada28ad873374b2d9b28b76827ef"
+  },
+  "stdout": {
+    "bytes": 342,
+    "path": "attempt-check01.stdout.bin",
+    "sha256": "b6e7cdd747defc8860ae882f8d41d9dfc31acb09d30556960d48213d279b4796"
+  },
+  "termination": null,
+  "timed_out": false,
+  "timeout_seconds": 60,
+  "working_directory": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-work"
+}

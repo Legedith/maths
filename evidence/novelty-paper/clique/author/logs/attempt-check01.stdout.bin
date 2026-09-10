@@ -1,0 +1,1 @@
+{"code_sha256": "4d632a40ce39d199f3ff9f5715dcc9ed6950f6727d467842815d8ff015809e8b", "count": 89, "delta28_minus_delta33": "201710/6902833", "max_delta": "1008/1349", "maximizers": [28], "printed_maximizers": [33], "printed_mismatch_count": 89, "python": "3.12.11 (main, Sep 18 2025, 19:45:51) [MSC v.1944 64 bit (AMD64)]", "status": "pass"}

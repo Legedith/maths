@@ -1,0 +1,21 @@
+{
+  "find": [
+    {
+      "ref_id": "turn513view0",
+      "pattern": "conject"
+    },
+    {
+      "ref_id": "turn513view1",
+      "pattern": "conject"
+    },
+    {
+      "ref_id": "turn513view1",
+      "pattern": "problem remains"
+    },
+    {
+      "ref_id": "turn513view0",
+      "pattern": "future"
+    }
+  ],
+  "response_length": "long"
+}

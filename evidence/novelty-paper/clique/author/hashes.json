@@ -1,0 +1,46 @@
+[
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-work\\check.py",
+    "sha256": "4d632a40ce39d199f3ff9f5715dcc9ed6950f6727d467842815d8ff015809e8b"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-work\\claims.json",
+    "sha256": "f313d4bcd7cf3dc2293e657c722af45c115e9e80d50229977799851a41c8eae2"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-work\\plan.md",
+    "sha256": "8a23a5758aa71c5d06899ae9030df6ece6057606ebf3f5196b44cc04e22f3a4c"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-work\\proposal.md",
+    "sha256": "d206fe6ec171cd49cdd6d5b108cee7abd4aaf7f73eae870bbb1ca0d452cca130"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-work\\result.json",
+    "sha256": "3bf79f4e7a36fc9e3fffd55f3097fb9ba618dfb5331e4a9a3b4bcbbb19901643"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-work\\logs\\attempt-check01.json",
+    "sha256": "70b8f2a3e806236b91b64c4f335a1444fbb0625cd9e671589269f5876e71e157"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-work\\logs\\attempt-check01.stderr.bin",
+    "sha256": "dd7241fb9634d51d4b90a8782d9a26dd3fe2ada28ad873374b2d9b28b76827ef"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-work\\logs\\attempt-check01.stdout.bin",
+    "sha256": "b6e7cdd747defc8860ae882f8d41d9dfc31acb09d30556960d48213d279b4796"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-work\\logs\\attempts.jsonl",
+    "sha256": "a2c42278422d11d78e191360072dc6637acf0c7d0bec0e12543cda412cfaadfe"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-multipartite-work\\raw-02.json",
+    "sha256": "5453711dd4089f86e3cd2c78d428368a59db2c0ef9761a9c61f17a9e604bdd8e"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-three-part-proof\\run_logged.py",
+    "sha256": "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6"
+  }
+]

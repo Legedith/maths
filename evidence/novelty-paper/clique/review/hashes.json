@@ -1,0 +1,50 @@
+[
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-review-work\\.python-version",
+    "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-review-work\\check.py",
+    "sha256": "ca580139acc6ff841b13afc00e25b285a2414c82b806e1f427d1c862ec776b61"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-review-work\\plan.md",
+    "sha256": "807557fccc5220abcb4fed6943908e8d25cfef3bdaa15db94b481ec544d85e80"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-review-work\\pyproject.toml",
+    "sha256": "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-review-work\\result.json",
+    "sha256": "c888d3d9a38b5662ecf3fefe81812fbcd9de760e8ddc4ece912bda275b699adb"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-review-work\\review.md",
+    "sha256": "e4227de90f132bef1a2a201241f63118414e64136555cff900d2726ed83672b5"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-review-work\\uv.lock",
+    "sha256": "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-review-work\\verdict.json",
+    "sha256": "b5df7c4440fdbff29d538c84bb44481dd90dcb1edf4fbe5a0caa564eae92a0a2"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-review-work\\logs\\attempt-review01.json",
+    "sha256": "23226d9a7f6064a91ee078329e7cacc6a5b203f7ba1b4ca8a47f52ab9a89e723"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-review-work\\logs\\attempt-review01.stderr.bin",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-review-work\\logs\\attempt-review01.stdout.bin",
+    "sha256": "fb538ecd4aadeddbb76213df207544f2925fa10693da935a19d4aca0e2fd9211"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-clique-example-review-work\\logs\\attempts.jsonl",
+    "sha256": "b44ad9f9907de546e3d9f907eb034d91cb09595b43cb9655f79c1c64dff7f5a1"
+  }
+]

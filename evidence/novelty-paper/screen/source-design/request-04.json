@@ -1,0 +1,25 @@
+{
+  "find": [
+    {
+      "ref_id": "turn500view1",
+      "pattern": "3.3."
+    },
+    {
+      "ref_id": "turn500view1",
+      "pattern": "1T g = 1"
+    },
+    {
+      "ref_id": "turn500view2",
+      "pattern": "quasi"
+    },
+    {
+      "ref_id": "turn500view3",
+      "pattern": "Theorem"
+    },
+    {
+      "ref_id": "turn500view5",
+      "pattern": "Theorem 2"
+    }
+  ],
+  "response_length": "long"
+}

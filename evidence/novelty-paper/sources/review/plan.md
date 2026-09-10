@@ -1,0 +1,2 @@
+# Frozen independent priority/source audit
+2026-09-10. Audit exact all-r conjecture clause against retained original, root and followup primary returns; test known, equivalent or routine consequence; distinguish reasoned submission-level contribution from exhaustive priority. No new query/open/evaluator unless a concrete source gap is essential and reported first. Validate manifests, requests, source locators and bridge correction. Own isolated stage only. Final release integration remains separate.

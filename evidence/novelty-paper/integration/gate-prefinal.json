@@ -1,0 +1,15 @@
+{
+  "status": "FAIL",
+  "bundle": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.codex\\evidence\\runs\\novelty-investigation-v1\\bundle.json",
+  "workspace": "D:\\CodexWorkspaces\\mathematics-atlas\\project",
+  "artifact_count": 144,
+  "claim_count": 17,
+  "claim_provenance_rate": 1.0,
+  "errors": [
+    "claims[8].supports[4] text is absent from artifact",
+    "checks[0].status blocks promotion: 'pending'",
+    "checks[1].status blocks promotion: 'pending'",
+    "checks[2].status blocks promotion: 'pending'",
+    "checks[3].status blocks promotion: 'pending'"
+  ]
+}

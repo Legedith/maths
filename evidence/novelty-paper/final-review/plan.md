@@ -1,0 +1,2 @@
+# Final integration frozen audit
+2026-09-10 round1. Input bundle03e80d0b039dd2131af3bdf5379761930da66cbcab8e8aee6406ab6a18f7eecb. Check all147artifact hashes,17claims,raw canonical log/row correspondence, finalpaper theorem/source scopes, portableadaptation distinctreview and workflow. Reuse accepted proof audits. One in-memory renderer replay allowed through uv/process-tree logger <=90s, no shared writes or math evaluator. Hosted publication remains separate. At mosttwo critic rounds.

@@ -1,0 +1,69 @@
+{
+  "status": "pass",
+  "scope": "reasoned submission-level contribution assessment against inspected literature",
+  "required_corrections": [],
+  "blocking_unresolved_material_gaps": [],
+  "absolute_priority": "not_certified",
+  "checks": [
+    {
+      "id": "reproduction",
+      "status": "pass",
+      "note": "Source record/manifest reproduction, original request counts and corrected bridge provenance checked; mathematical proof reuse is explicit, no evaluator."
+    },
+    {
+      "id": "specification_compliance",
+      "status": "pass",
+      "note": "Exact positive-p r>=3 clause, not known p=0/equal-size/r=2 cases or generic update novelty. Named conjecture is affirmative support."
+    },
+    {
+      "id": "source_verification",
+      "status": "pass",
+      "note": "Read primary conjecture and retained closest later theorem passages; concrete completion gap independently resolved through feasible-set mismatch."
+    },
+    {
+      "id": "implementation_alignment",
+      "status": "pass",
+      "note": "Draft Section5 and theorem-level contribution boundary agree with inspected source comparison; ranking kept as strengthening, not sole substantial novelty basis."
+    }
+  ],
+  "claims": [
+    {
+      "id": "N1",
+      "type": "citation",
+      "statement": "Original Conjecture3.4.7 expressly posits the target r>=3 exclusion.",
+      "evidence": "pinned Hu-Kirkland page19 lines1226-1229"
+    },
+    {
+      "id": "N2",
+      "type": "conclusion",
+      "statement": "Accepted theorem settles exact clause with a universal sign argument beyond the prior update formula.",
+      "dependencies": [
+        "N1"
+      ],
+      "evidence": "corrected bridge and independent bridge review/ack"
+    },
+    {
+      "id": "N3",
+      "type": "citation",
+      "statement": "Inspected 2025 tree, 2026 twin-clique, stochastic-completion and tree-enumeration statements do not state the target all-r theorem.",
+      "evidence": "review.md Direct later-source comparisons and Concrete overlap gap resolved"
+    },
+    {
+      "id": "N4",
+      "type": "conclusion",
+      "statement": "A nontrivial submission-level contribution claim is defensible against inspected literature; absolute priority is unestablished.",
+      "dependencies": [
+        "N1",
+        "N2",
+        "N3"
+      ],
+      "evidence": "review.md Evidence integrity and final disposition"
+    }
+  ],
+  "required_wording_boundaries": [
+    "r>=3 clause, p>=1, all non-singleton sizes>=3",
+    "No first-proof or exhaustive-priority claim",
+    "Ranking separately proved strengthening",
+    "Final integration/publication audit separate"
+  ]
+}

@@ -34,8 +34,8 @@ body=re.sub(r'href="([^"]+)"',link,body)
 source_sha=hashlib.sha256(SOURCE.read_bytes()).hexdigest()
 page='''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Exact Robust Link Design for Random-Walk Search</title>
-<meta name="description" content="An exact robust network-design algorithm, mathematical proofs, reproducible certificates, and the boundary between finite optima and unattained limits.">
+<title>Optimal Edge Insertion and a Multipartite Braess Conjecture</title>
+<meta name="description" content="A constructive proof of the r≥3 assertion of Hu–Kirkland's multipartite Braess conjecture, strict edge ranking, and reproducible exact certificates.">
 <meta name="paper-source-sha256" content="'''+source_sha+'''">
 <link rel="canonical" href="https://legedith.github.io/maths/">
 <link rel="stylesheet" href="paper.css">
@@ -44,7 +44,7 @@ page='''<!doctype html>
 </head><body><a class="skip" href="#paper">Skip to paper</a>
 <div class="page-shell"><aside aria-label="Contents"><a class="journal" href="https://github.com/Legedith/maths">MATHEMATICS ATLAS<br><span>Research note · 2026</span></a>
 <nav aria-label="Paper sections">'''+md.toc+'''</nav><button type="button" id="print-paper">Print / save PDF</button></aside>
-<main id="paper"><article>'''+body+'''</article><footer>Research software and independently audited mathematics. Publication priority remains unresolved.</footer></main></div>
+<main id="paper"><article>'''+body+'''</article><footer>Computer-assisted mathematics with independent audits. Novelty assessed against inspected literature; no exhaustive priority or journal peer-review claim.</footer></main></div>
 </body></html>
 '''
 class Check(HTMLParser):

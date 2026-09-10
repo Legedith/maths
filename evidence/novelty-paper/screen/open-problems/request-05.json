@@ -1,0 +1,17 @@
+{
+  "search_query": [
+    {
+      "q": "\"Kemeny\" \"Conjecture\" \"Braess\" 2025 2026"
+    },
+    {
+      "q": "\"Kemeny\" \"open problems\" edge"
+    },
+    {
+      "q": "\"enumerating Braess edges\" \"question\" followup"
+    },
+    {
+      "q": "\"Kemeny\" \"conjecture\" \"derivative\""
+    }
+  ],
+  "response_length": "long"
+}

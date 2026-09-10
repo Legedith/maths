@@ -1,0 +1,1 @@
+The second request opened https://arxiv.org/html/2309.02977v2 and https://arxiv.org/html/2306.04005v2. Both tool returns were HTTP 404, with refs turn509view0 and turn509view1. The exact structured return was not stored before the subsequent call; this is a transcription of the visible failure, not a retained raw return. These two opens count toward the six-open cap.

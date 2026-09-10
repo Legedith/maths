@@ -1,0 +1,62 @@
+[
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-pair-minimum-work\\claims.json",
+    "sha256": "60ccc0d0e2d65a84054eabeae031f42dbb16e591bfc835105294ae1292e201df"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-pair-minimum-work\\comparison-notes.md",
+    "sha256": "708084b1bc8cea85959c6d43b980de603de5d5940a64f50d15fa9097c6dc60bf"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-pair-minimum-work\\plan.md",
+    "sha256": "593adf37c58662f0a0b6f0da6f7252c716416ca500965583b489eb8df9b66a45"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-pair-minimum-work\\raw-01.json",
+    "sha256": "7d84f78e592d46a0836a40d53f747b8ea7f4658955fbb4f2a46ab5295d26dd2d"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-pair-minimum-work\\raw-02.json",
+    "sha256": "685a96ab11f3c451df26ddc085157b4d5951b50a4440aeec56c68a0950be0172"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-pair-minimum-work\\raw-03.json",
+    "sha256": "4ff2985b968ef990d060623e8d9d1c0026695f3ed48665a968e11d6d582e7c50"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-pair-minimum-work\\raw-04.json",
+    "sha256": "d7a3a4429fa509f07865515ed09114188cdbe4ecae57a77c7ada9aae3bcbfded"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-pair-minimum-work\\raw-05.json",
+    "sha256": "0bd284e825fbf6f52f1ecba9775a4b64fe8d3a4fd948e2fb6dd3ddd8f45f730d"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-pair-minimum-work\\request-01.json",
+    "sha256": "df6bba2488a8bfd3f602fba6e3215045d1cf1e7556f8db79f213138c1e33ce86"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-pair-minimum-work\\request-02.json",
+    "sha256": "1986b53109f429a521fc96b9d24d022c020a994b4e1be7bcd73f3bc0b97e1efe"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-pair-minimum-work\\request-03.json",
+    "sha256": "4bd31e7a8ba651da022ee3f16097292ffffaa2c3ede70b1b1b2756b2e8d1fae3"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-pair-minimum-work\\request-04.json",
+    "sha256": "f023c93cf48d5c419de46c38501902aefed409f130d48615ce952d1428711044"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-pair-minimum-work\\request-05.json",
+    "sha256": "b2669912dfeb584ad9214a4112491e8d77bb512a92f1ce6e14eb728d7b97301f"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\docs\\novelty-investigation-contract.md",
+    "sha256": "a39139e29f66cb0e1de89f4cc30011b9e903b73f46461c983037074d9eea72ff"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\README-kemeny.md",
+    "sha256": "2761e3d592c5816511e2f1a90c1a2a7bc09224d71c52fa323bd49d26d71ed47f"
+  }
+]

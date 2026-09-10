@@ -1,0 +1,22 @@
+{
+  "search_query": [
+    {
+      "q": "\"Edge addition and the change in Kemeny\" arxiv"
+    },
+    {
+      "q": "\"Braess\" \"dominating vertices\" \"conjecture\""
+    },
+    {
+      "q": "\"Hu\" \"Kirkland\" \"3.4.7\""
+    }
+  ],
+  "open": [
+    {
+      "ref_id": "https://server.math.umanitoba.ca/~kirkland/"
+    },
+    {
+      "ref_id": "https://www.sciencedirect.com/science/article/pii/S0024379519302526"
+    }
+  ],
+  "response_length": "long"
+}

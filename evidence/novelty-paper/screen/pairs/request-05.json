@@ -1,0 +1,11 @@
+{
+  "search_query": [
+    {
+      "q": "site:arxiv.org/html/2608.04150 \"question\" \"open\""
+    },
+    {
+      "q": "site:arxiv.org \"Braess\" \"Kemeny\" \"Conjecture\" \"sets\""
+    }
+  ],
+  "response_length": "long"
+}

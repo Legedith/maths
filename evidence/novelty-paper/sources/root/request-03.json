@@ -1,0 +1,25 @@
+{
+  "search_query": [
+    {
+      "q": "\"Braess\" \"3.4.7\""
+    },
+    {
+      "q": "\"multipartite\" \"Braess\" \"dominating\" proof conjecture solved"
+    },
+    {
+      "q": "\"Complete multipartite graphs and Braess edges\" \"2026\" OR \"2025\" OR \"2024\""
+    }
+  ],
+  "open": [
+    {
+      "ref_id": "https://server.math.umanitoba.ca/~kirkland/"
+    },
+    {
+      "ref_id": "https://arxiv.org/abs/2608.04150"
+    },
+    {
+      "ref_id": "https://arxiv.org/html/2306.04005"
+    }
+  ],
+  "response_length": "long"
+}

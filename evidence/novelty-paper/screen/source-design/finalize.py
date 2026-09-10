@@ -1,0 +1,17 @@
+from pathlib import Path
+import hashlib,json
+S=Path(__file__).parent;P=S.parent/'project'
+claims=[
+dict(id='C1',type='citation',classification='exact_prior_ingredient',statement='Palacios Theorem 2 gives conductance-weighted voltage hitting time; Corollaries 8-10 concern simple-walk cutpoint/bridge/tree formulas.',supports=[dict(path='raw-04.json',locator='turn502view4: PDF page2 lines113-139'),dict(path='raw-05.json',locator='turn505view4: PDF pages3-4 lines277-384')]),
+dict(id='C2',type='citation',classification='different_special_perturbation',statement='Markowsky-Palacios Theorem3 concerns deletion resistance; Theorem4 specializes hitting-time deletion to walk-regular graphs.',supports=[dict(path='raw-03.json',locator='turn500view0: PDF pages6-7 lines197-278')]),
+dict(id='C3',type='citation',classification='broad_prior_only',statement='Conductance allocation minimizing total effective resistance is prior convex optimization; detailed equivalence is not established by the inspected abstract.',supports=[dict(path='raw-03.json',locator='turn500view1: PDF page1 lines0-22')]),
+dict(id='C4',type='citation',classification='not_direct_theorem_transfer',statement='Robust fractional programming Theorem2.1 assumes attainment and convexity; the Sion discussion also has convex feasible-set hypotheses.',supports=[dict(path='raw-05.json',locator='turn505view2: PDF page3 lines138-161'),dict(path='raw-04.json',locator='turn502view2: PDF page18 lines1220-1226')]),
+dict(id='C5',type='citation',classification='different_model',statement='Shortcut-edge group hitting work has bicriteria and max-average comparison theorems, not the identical continuous-strength workload-regret model.',supports=[dict(path='raw-04.json',locator='turn502view3: PDF page6 lines771-774 and927-932')]),
+dict(id='C6',type='methodological',classification='investigator_routine_corollary_assessment',statement='Endpoint reduction, quadratic candidates and infimum bookkeeping follow short displayed algebra; recommend rejection as standalone novelty, not a claim of exact prior printing.',supports=[dict(path='comparison-notes.md',locator='Claim-by-claim novelty triage items1-3,6'),dict(path=str(P/'README.md'),locator='sections2,3,6')]),
+dict(id='C7',type='conclusion',classification='unresolved_nontriviality_and_priority',statement='Fork-path equivalence is the precise residual comparison but its short separator proof does not establish a nontrivial new contribution; no sourced open question was found or certified open.',supports=[dict(claim_id='C1'),dict(claim_id='C6'),dict(path='comparison-notes.md',locator='triage item5 and Follow-up status')])]
+out=dict(status='investigation_complete_not_novelty_pass',independent_source_audit_required=True,queries=6,primary_opens=6,find_calls=10,claims=claims,required_followup='Independent skeptical source audit; prefer sourced unresolved question from another branch. Do not mark goal complete.')
+(S/'claims.json').write_text(json.dumps(out,indent=2)+'\n',encoding='utf-8')
+files=[p for p in S.iterdir() if p.is_file() and p.name!='hashes.json']
+files += [P/'README.md',P/'docs/novelty-investigation-contract.md',P/'evidence/research-paper/sources/palacios/author/source-notes.md',P/'evidence/research-paper/sources/palacios/review/review.md']
+(S/'hashes.json').write_text(json.dumps(dict(files=[dict(path=str(p),sha256=hashlib.sha256(p.read_bytes()).hexdigest(),bytes=p.stat().st_size) for p in files]),indent=2)+'\n',encoding='utf-8')
+print(json.dumps(dict(status=out['status'],files=len(files))))

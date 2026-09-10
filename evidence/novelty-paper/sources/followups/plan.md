@@ -1,0 +1,3 @@
+# Frozen conjecture follow-up protocol
+
+Target: prior resolution of Hu-Kirkland2019 Conjecture3.4.7 r>=3 clause, DOI10.1016/j.laa.2019.05.035. Read root bridge and existing latest2026 primary returns. At most six targeted search queries, six primary opens and bounded in-document finds. Search exact conjecture identifier/title and later citing work/author bibliography. No evaluators. Primary theorem comparison must distinguish all-r result from bipartite/twin/clique special cases. Nonidentification is not priority proof. Retain requests/raw locally and independent source audit requirement. No shared edits or expanding budget.

@@ -1,0 +1,105 @@
+{
+  "status": "corrections",
+  "semantic_status": "pass",
+  "input_bundle_sha256": "03e80d0b039dd2131af3bdf5379761930da66cbcab8e8aee6406ab6a18f7eecb",
+  "checks": [
+    {
+      "id": "reproduction",
+      "status": "pass",
+      "auditor": "independent Astra final reviewer",
+      "evidence": [
+        "A006",
+        "A007",
+        "A008",
+        "A011",
+        "A027",
+        "A033",
+        "A037",
+        "A043",
+        "A049",
+        "A051",
+        "A053",
+        "A057",
+        "A058",
+        "A062",
+        "A063",
+        "A064",
+        "A068"
+      ],
+      "note": "Six canonical raw logs and stream hashes validated. Main outputs byte-equal prior audited outputs. All89 portable rows equal author, and k/K/delta equal independent reviewer. One<=90s in-memory renderer replay through uv process-tree logger rc0/empty stderr produced identical HTML and build metrics. Mathematical evaluators not rerun."
+    },
+    {
+      "id": "specification_compliance",
+      "status": "pass",
+      "auditor": "independent Astra final reviewer",
+      "evidence": [
+        "A001",
+        "A013",
+        "A018",
+        "A022",
+        "A023",
+        "A070",
+        "A118",
+        "A119",
+        "A128",
+        "A130"
+      ],
+      "note": "Central result is exact r>=3 positive-p conjecture clause, all minimum ties, single unweighted insertion. Proof finite-support extension explicit. Ranking secondary strengthening and correction subsidiary. Novelty is against inspected literature, no first/exhaustive priority, Lean, journal-review or measured impact claim. Publication separate."
+    },
+    {
+      "id": "source_verification",
+      "status": "pass",
+      "auditor": "independent Astra final reviewer",
+      "evidence": [
+        "A004",
+        "A044",
+        "A100",
+        "A105",
+        "A113",
+        "A118",
+        "A119",
+        "A121",
+        "A128"
+      ],
+      "note": "All147 artifact hashes and17 claims/145 recursive supports checked. Primary-return retention hashes checked against local bytes. Accepted distinct source and bridge audits cover original conjecture and later completion/tree/twin-clique scopes. Corrected bridge ACK closes P2 typo; original failure retained. SourceExample and corrected89-row result match inspected version-specific statement."
+    },
+    {
+      "id": "implementation_alignment",
+      "status": "pass",
+      "auditor": "independent Astra final reviewer",
+      "evidence": [
+        "A002",
+        "A003",
+        "A005",
+        "A009",
+        "A010",
+        "A012",
+        "A032",
+        "A044",
+        "A128",
+        "A129",
+        "A132",
+        "A133",
+        "A135",
+        "A136",
+        "A137",
+        "A138",
+        "A139",
+        "A140",
+        "A141",
+        "A142",
+        "A143",
+        "A144"
+      ],
+      "note": "Final equations/domain/eigenmodes/finite-support proof align with accepted audits and actual code. Distinct portable-adaptation review3717ce38... read and hash checked. Workflow logger/uv/cap/upload paths inspected; no hosted success inferred. HTML source equality/nesting/links/assets static checks pass. Three-ref publication plan keeps codex/research-paper links aligned. Explicit certificate/checker final ledger entries required as metadata correction."
+    }
+  ],
+  "required_corrections": [
+    "Add explicit hashed artifacts for experiments/kemeny-multipartite-proof/certificate.json and verify_certificate.py, plus distinct portable/final reviews and publication-plan. Preserve reviewed source bytes, rerun deterministic gate, and obtain final-bundle metadata/hash acknowledgement before push."
+  ],
+  "limitations": [
+    "Local integration only; actual final-head CI and hosted publication require post-push audit.",
+    "No new mathematical evaluator or browser interaction; one read-only renderer replay.",
+    "No exhaustive priority, first-proof, Lean, external journal-review or field-impact certification."
+  ]
+}

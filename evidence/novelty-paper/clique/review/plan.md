@@ -1,0 +1,3 @@
+# Frozen independent audit
+
+H1: full transition-matrix fundamental inverses at k28 and k33 agree with the proposed strict counterexample. H2: independent quotient characteristic-polynomial coefficients plus all within-cell modes establish the unique maximum over exactly k2..90, including empty-cell k90. H3: corrected rational expression agrees with these values and primary Example4.8 actually asserts k33. One logged evaluator <=60s, pinned Python3.12.11/SymPy1.14.0, uv outer/child and process-tree logger. No new graph, evaluator retry, source query or novelty certification. Freeze this plan and code before execution.

@@ -1,0 +1,34 @@
+[
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-completion-overlap-work\\plan.md",
+    "sha256": "cab493a03d6a73b77d4662f7334345ccc2281da291184f0adcb8335218173baf"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-completion-overlap-work\\raw-01.json",
+    "sha256": "eabb2abbc6e608e133c778d8844fb489069f11525874b41d7b042296d1bdaa0f"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-completion-overlap-work\\raw-02.json",
+    "sha256": "7904d96aeb5e14641df905c042a06446f590685c656a54d650e58fff1a1b62db"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-completion-overlap-work\\request-01.json",
+    "sha256": "94bc7454e5a9905b632c2d16c913c3a74bf08de502784c99d9b2805afbad3d7d"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-completion-overlap-work\\request-02.json",
+    "sha256": "2498da84413dd26175c8ade99f7d8ebcbe79122e48cba78e1d79c6c05609913e"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\novelty-completion-overlap-work\\source-notes.md",
+    "sha256": "88bc65a47bf38da090c41ba0696149a653f629a9aac7ae70b49a83922ff9081c"
+  },
+  {
+    "path": "D:/CodexWorkspaces/mathematics-atlas/novelty-open-problems-work/raw-04.json",
+    "sha256": "b102b76ea29cd1a4d96c85ce9d1ba42941b3a23fd981e35f3cac0ef756fee163"
+  },
+  {
+    "path": "D:/CodexWorkspaces/mathematics-atlas/novelty-conjecture-followups-work/raw-03.json",
+    "sha256": "37f9164d32beb61986779e372ee21957e85f9f288e0102979ffd7b84487c28f2"
+  }
+]
