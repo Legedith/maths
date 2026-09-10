@@ -1,0 +1,46 @@
+﻿[
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-review-work\\check.py",
+        "sha256":  "ad5b4ae24802acb9a04ba2260860ad4a177a6797c6966d3a799a54ac13c6b729"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-review-work\\plan.md",
+        "sha256":  "c77c9198f853fa37d204c4fe96fe11513016c4fbfc877a711b5f804628436857"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-review-work\\pyproject.toml",
+        "sha256":  "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-review-work\\result.json",
+        "sha256":  "ff987f5d0ff825073508d863c4a8be6cdf144e51f6a6862ad3520a642b522f9e"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-review-work\\review.md",
+        "sha256":  "4a46cdd108cae41e737d6c164e02fbbac795d37f9659bf3bf397e387814033f6"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-review-work\\uv.lock",
+        "sha256":  "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-review-work\\verdict.json",
+        "sha256":  "ac742a24547f5c4e141f7bbdf3ee016e5fb9925dd39f5b25ec2f98bb94404cd0"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-review-work\\logs\\attempt-review01.json",
+        "sha256":  "cb0411db0f69b4e5bf483ba8e032411fe90bbc0e7e5c169dba0cc39f893ca07e"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-review-work\\logs\\attempt-review01.stderr.bin",
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-review-work\\logs\\attempt-review01.stdout.bin",
+        "sha256":  "0ab6f6c8f5a30f119214f85f3b56b05ae6e1a71ef627e4be0f890efef84ac5fd"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-review-work\\logs\\attempts.jsonl",
+        "sha256":  "58d92ab45ece51999b78182ca2ee753cab2d2ab5fe20bb04720e914075d2b5de"
+    }
+]

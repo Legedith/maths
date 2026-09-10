@@ -1,0 +1,15 @@
+{
+ "status":"pass",
+ "auditor":"astra_damage_symbolic",
+ "proposal_sha256":"738bb72678514e1efc4789ab8308e1cf6b38d05b07db564b7b052fbcb80deeec",
+ "result_sha256":"f3063f1ec7fffef435ead55e875a793abc89c90fa316e70ff9faa9ad42c5e947",
+ "manifest_sha256":"7b8365b88862cc91ad077944ca102bdc85b3163dd8ab766e97fdf5e0e8bc8289",
+ "required_corrections":[],
+ "checks":[
+  {"name":"specification_compliance","status":"pass","evidence":["plan.md","review.md","logs/attempt-review01.json"]},
+  {"name":"mathematical_numerical_integrity","status":"pass","evidence":["review.md","check.py","result.json"]},
+  {"name":"methodological_integrity","status":"pass","evidence":["result.json","logs/attempt-review01.json","logs/attempt-review01.stdout.bin","logs/attempt-review01.stderr.bin"]},
+  {"name":"conclusion_integrity","status":"pass","evidence":["review.md","../astra-hitting-growth-explore-work/proposal.md"]}
+ ],
+ "scope":"Graph hitting-growth sign criterion, boundary cases, fixed source-law averaging with uniform target floor, conditional finite-set coercivity and two exact diagnostics. No attribution, novelty, physical benefit or release approval."
+}

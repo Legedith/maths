@@ -1,0 +1,16 @@
+{
+  "search_query": [
+    {
+      "q": "\"852481\" \"Theorem\""
+    },
+    {
+      "q": "\"Hitting Times of Walks on Graphs through Voltages\" pdf"
+    }
+  ],
+  "open": [
+    {
+      "ref_id": "https://onlinelibrary.wiley.com/doi/10.1155/2014/852481"
+    }
+  ],
+  "response_length": "long"
+}

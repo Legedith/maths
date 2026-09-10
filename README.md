@@ -1,95 +1,193 @@
-# Mathematics Atlas
+# Exact Robust Link Design for Random-Walk Search
 
-An expanding, source-backed map of mathematics and its connections to other fields. Start with a concept, follow an explained relation, inspect its assumptions, learn the prerequisites, and test a finite example.
+*Mathematics Atlas project · Research note · 10 September 2026*
 
-The first region connects **graph Laplacians, electrical networks, random walks, spanning trees, spectral algorithms, image segmentation and chemical graph descriptors**, including Kemeny's constant and Braess sets. It contains 33 concepts, 44 directed relations, nine authoritative sources (six research papers and three first-party lecture notes), four learning journeys and six concrete contribution tasks. These are corpus counts, not measures of all mathematics. Economics, biology and most mathematical areas remain outside this first region.
+[Read the paper](https://legedith.github.io/maths/) · [Exact solver](experiments/kemeny-source-target-proof/README.md) · [Proof and evidence index](evidence/research-paper/README.md)
 
-A second region adds seven concepts connecting **Boolean relations, rectangle covers, fixed-side biclique covers and a precise nondeterministic communication model**. Eight added relations include explicit translations and representation boundaries; two new journeys guide the reader through them. The combined curated corpus has 40 concepts, 52 relations, 11 sources and six journeys. The [source-reviewed mathematics and integration status](docs/boolean-rank-bridge.md) distinguish known results from Atlas-local boundary conventions.
+## Abstract
 
-The broader **concept and resource library** reuses a pinned MathGloss export with 4,814 concept records and 7,217 resource links. Its source fidelity and navigation have [passed independent verification](docs/concept-library-verification.md); its proposed identities and resource mappings remain unreviewed. These records expand searchable vocabulary without being promoted to proved relationships in the curated map.
+We give a finite exact characterization of a robust link-design problem on a weighted undirected graph. A request starts at a uniformly chosen vertex and independently chooses a destination from a mixture of uniform demand and demand concentrated at one focus vertex. The mixture weight is unknown within a prescribed interval. Before it is known, the designer chooses one missing edge and any nonnegative conductance, including zero for no action. Performance is expected discrete-time hitting time; the objective is worst relative regret against an oracle with the same available interventions. We prove that the worst workload occurs at an interval endpoint and that each edge has a unique optimal conductance, found among boundary, stationary and quadratic balance candidates. Strict convexity is unnecessary and can fail. An audited rational-input implementation retains exact certificates and all location ties. An analytic supplement classifies the exceptional fixed-source graphs where finite attainment fails and extends the characterization to infimum oracles. These are mathematical results, not measured improvements in a deployed search system.
 
-The **subject browser** at `/subjects` reuses the pinned MSC2020 classification: 6,603 subject records in 63 top-level areas, with 3,083 retained source cross-references. Browse the hierarchy, search recorded labels and descriptions, and inspect reference conditions and source differences. These are classification records, not a count of known theorems or proved connections. See [source scope and reproduction](docs/subject-browser.md).
+## 1. Problem and main result
 
-## What works
+Let $G$ be a finite connected loopless undirected graph with $n\ge3$, positive edge conductances and a finite nonempty set $\mathcal E$ of allowed missing edges. Parallel conductances, if supplied, are combined. An action is $(e,t)$, where $e\in\mathcal E$ and $0\le t<\infty$ is the conductance inserted at that edge. All labels with $t=0$ describe the same physical no-action graph.
 
-- Search concepts and aliases; filter by field.
-- Explore a concept's neighbors, relation directions, assumptions and source locators.
-- Find a shortest navigation path between two concepts. Traversal may go against a relation's direction and is explicitly not a composed proof.
-- Follow beginner journeys and find contribution tasks with acceptance criteria.
-- Edit a graph with 2–6 vertices and compute exact resistance, directed hitting times, commute time and enumerated spanning-tree counts in your browser. Export the actual result.
-- Search the live Loogle Mathlib index by declaration-name substring, with returned formal statement types and documentation links. External results remain separate from reviewed Atlas entries.
-- Describe a mathematical problem and search the existing TheoremSearch index. Inspect generated summaries separately from extracted statements and save a source packet for review.
-- Browse `/library` by concept name or Wikidata QID, filter by resource, and follow each mapping to its original source record. See the [library's matching rules, import and limits](docs/concept-library.md).
-- Browse `/subjects` and `/subjects/[code]` for the MSC2020 hierarchy, original descriptions and qualified cross-references. `/api/subjects` provides paginated lists or a single subject detail.
-- Retrieve the corpus as JSON at `/api/atlas`. Six WebMCP tools expose the same curated search, navigation, path, experiment and external-library workflows to supporting agents.
-- Use `search_learning_resources` on the library page to operate the same visible resource search and pagination through WebMCP.
+The walk chooses its next neighbor in proportion to incident conductance. Write $H_{ab}$ for its expected number of steps from source $a$ to target $b$, with $H_{aa}=0$. The source is uniform. Independently, the target follows
 
-## Run locally
+$$
+\nu_\theta=(1-\theta)\operatorname{Uniform}+\theta\delta_q,
+\qquad 0\le l\le\theta\le h<1.
+$$
 
-Use Node 24 and [uv](https://docs.astral.sh/uv/). Python runs in the project `.venv`; the mathematical engine has no runtime dependencies.
+The graph, focus $q$, interval and allowed edges are fixed before the action. Let $U_e(t,\theta)$ be the resulting expected hitting time. Define the same-action-set oracle and regret by
 
-```powershell
-# Windows workspace used for this project; choose your own checkout elsewhere.
-Set-Location D:\CodexWorkspaces\mathematics-atlas\project
-$env:UV_CACHE_DIR = 'D:\CodexWorkspaces\mathematics-atlas\uv-cache'
-$env:npm_config_cache = 'D:\CodexWorkspaces\mathematics-atlas\npm-cache'
-npm ci
-uv sync --frozen
-npm run dev
+$$
+O(\theta)=\min_{e\in\mathcal E,\,t\ge0}U_e(t,\theta),
+\qquad R_e(t)=\max_{\theta\in[l,h]}
+\left(\frac{U_e(t,\theta)}{O(\theta)}-1\right).
+$$
+
+**Main theorem.** Under these assumptions, the oracle is positive and attained. For every action, worst regret occurs at $l$ or $h$. Each allowed edge has exactly one minimizing strength. Its strength belongs to a finite list consisting of zero, positive stationary strengths for either endpoint, and positive roots of an equation of degree at most two equating normalized endpoint objectives. Comparing these per-edge minima gives every globally optimal location, including ties.
+
+This is a deterministic decision made before the workload is known. It does not allow several insertions, adaptive choices, randomization or a separate monetary cost. The source and target conventions are essential: expected hitting time can change when either distribution changes.
+
+## 2. Directed hitting times and exact coefficients
+
+Let $L$ be the weighted Laplacian, $M=L^+$, $d$ the weighted-degree vector and $m$ total undirected conductance. First-step equations for a fixed target $b$ give
+
+$$
+LH_{\cdot b}=d-2m e_b.
+$$
+
+Solving with $H_{bb}=0$ yields
+
+$$
+H_{ab}=(Md)_a-(Md)_b+2m(M_{bb}-M_{ab}).
+$$
+
+Uniform source averaging therefore gives $F_b=2mM_{bb}-(Md)_b$, and
+
+$$
+U_\theta=(1-\theta)\frac{2m}{n}\operatorname{tr}M
++\theta F_q.
+$$
+
+The degree correction cannot be omitted: directed hitting times need not be symmetric even though the graph is undirected.
+
+For an inserted pair $i,j$, set $v=e_i-e_j$, $w=e_i+e_j$, $z=Mv$, $r=v^TMv>0$, and $D=1+rt$. The inverse update on the subspace perpendicular to the constant vector is
+
+$$
+M_t=M-\frac{tzz^T}{D},\qquad d_t=d+tw.
+$$
+
+Consequently
+
+$$
+U_e(t,\theta)=\frac{a_0(\theta)+a_1(\theta)t+a_2(\theta)t^2}{1+rt},
+$$
+
+where the coefficients are affine in $\theta$. For explicit reconstruction, write $T=\operatorname{tr}M$, $s=z^Tz$. The uniform-target coefficients are
+
+$$
+(u_0,u_1,u_2)=\frac2n(mT,\ T+mrT-ms,\ rT-s).
+$$
+
+Set $F_0=2mM_{qq}-(Md)_q$, $F_1=2M_{qq}-(Mw)_q$, $P_1=z_q(z^Td-2mz_q)$, and $P_2=z_q(z^Tw-2z_q)$. The focused coefficients are $(f_0,f_1,f_2)=(F_0,rF_0+F_1+P_1,rF_1+P_2)$; finally $a_k=(1-\theta)u_k+\theta f_k$. Actual conductance volume is always $m+t$.
+
+## 3. Proof of the finite characterization
+
+**Positivity and attainment.** On the nonconstant subspace, $rM-Mvv^TM$ is positive semidefinite of rank $n-2$. Hence $B=rT-s>0$. Nonnegative focused hitting times and the uniform target component imply
+
+$$
+U_e(t,\theta)\ge(1-h)\frac{2(m+t)B}{nr}>0.
+$$
+
+Finitely many allowed edges give a common coercive bound. Continuity supplies finite oracle minima. In particular, each endpoint quotient has positive asymptotic slope $a_2/r$.
+
+**Endpoint reduction.** For fixed actions $x,y$, $U_x(\theta)/U_y(\theta)$ is a ratio of positive affine functions, so it is monotone or constant on the interval. Moreover, $U_x/O=\sup_y U_x/U_y$. Exchanging this supremum with the maximum over the two endpoints proves the asserted reduction. The comparator need not be the same oracle action at both endpoints.
+
+**Uniqueness without convexity.** For an endpoint quotient $f(t)=(a_0+a_1t+a_2t^2)/(1+rt)$,
+
+$$
+f'(t)=\frac{a_1-ra_0+2a_2t+ra_2t^2}{(1+rt)^2},\qquad
+f''(t)=\frac{2(a_2-ra_1+r^2a_0)}{(1+rt)^3}.
+$$
+
+If curvature is nonpositive, the derivative is at least its positive limiting value, so $f$ strictly increases. Otherwise it is strictly convex. Both cases are strictly quasiconvex: at an interior point between distinct strengths, the value is below the larger endpoint value. Positive normalization preserves this property. A finite maximum also preserves it: choose a branch active at the interior point and apply its strict inequality. Thus the robust objective has a unique minimizing strength on each edge.
+
+**Candidates.** First compute endpoint oracles from zero and positive roots of the displayed derivative numerator. Then include the positive roots of
+
+$$
+O_h(a_{0,l}+a_{1,l}t+a_{2,l}t^2)
+-O_l(a_{0,h}+a_{1,h}t+a_{2,h}t^2)=0.
+$$
+
+An interior minimum either has a locally active stationary branch or equal active branches. Identical branches reduce to one function; nonzero constant, linear, repeated-root and nonreal-root cases are handled explicitly. Zero is already a boundary candidate. Algebraically equal strengths are deduplicated. Coercivity excludes infinity, completing the proof.
+
+## 4. Exact weighted-path example
+
+Take the path $0-1-2$ with conductances $1,2$, focus $1$, and insert the missing edge $0,2$. Direct first-step equations give
+
+$$
+U_\theta(t)=\frac{(4+8\theta)t^2+(24+3\theta)t+36-24\theta}{27t+18}.
+$$
+
+On $[0,99/100]$, the certified robust optimum is the positive balance strength
+
+$$
+\boxed{t^*=\frac{-10617+3\sqrt{24368421}}{13934}}.
+$$
+
+The [canonical exact certificate](evidence/kemeny-source-target/integration/check-01.json) records its rational enclosing bounds and every competing candidate. This value is not selected from a sampled strength grid.
+
+At the collapsed workload $\theta=99/100$, however,
+
+$$
+U''_\theta(t)=-\frac{199}{225(3t+2)^3}<0.
+$$
+
+The objective remains strictly increasing, so the unique optimum is $t=0$: leave the graph unchanged. At $98/101$ it is affine and increasing. These cases demonstrate why the uniqueness proof uses strict quasiconvexity rather than importing a strict-convexity theorem from the different iid-demand model.
+
+## 5. Implementation and reproducibility
+
+The [separate rational-input solver](experiments/kemeny-source-target-proof/README.md) implements this model. It returns endpoint oracles, all candidate classifications, actual objectives and conductance volumes, unique strength per edge, and all global location ties. Zero-strength labels collapse once. Exact algebraic comparisons use certified rational intervals and exact identities; unresolved comparisons raise an explicit inconclusive error instead of returning an approximate winner.
+
+From the repository root, choose a fresh output:
+
+```sh
+uv run --project experiments/kemeny-source-target-proof --frozen python experiments/kemeny-source-target-proof/verify_source_target.py --output source-target-replay.json
 ```
 
-Open the URL printed by the development server. To build the site, run `npm run build`.
+Python 3.12.11 and SymPy 1.14.0 are pinned. The [evidence guide](evidence/kemeny-source-target/README.md) records independent audits and canonical artifacts. Validation includes 30 direct grounded first-step comparisons at strengths $0,1/2,2$, three symbolic identities, seven abstract root cases and seven malformed inputs. A symmetric four-cycle checks location ties. Existing-output rejection protects prior certificates. Worker, independent reviewer and integration outputs agree byte-for-byte. Both downloaded GitHub proof runs also match that certificate exactly; the [separate hosted audit](evidence/research-paper/pr16-hosted-review/ci-review.md) records the verified revision and scope.
 
-## Reproduce the foundation
+These checks support the implementation; the universal proof also needs the analytic arguments above. Neither the main result nor the supplement is claimed to be formalized in Lean. Symbolic comparison may be expensive, so the documented process-tree-aware logger supplies an external time limit. No all-input termination or polynomial-time guarantee is asserted.
 
-```powershell
-uv run --frozen pytest
-uv run --frozen python -m atlas_engine evaluate --output-dir evidence/baseline
-uv run --frozen python scripts/validate_atlas.py
-uv run --frozen python scripts/check_supplemental.py
-uv run --frozen python scripts/check_normalization_case.py
-node scripts/check-browser-engine.ts
-node scripts/check-atlas.ts
-node scripts/check-formal-search.ts
-node scripts/check-research-search.ts
-node scripts/check-concept-library.ts
-node scripts/check-subjects.ts
-npx tsc --noEmit
-npm run lint
+## 6. Analytic supplement: arbitrary sources and nonattainment
+
+The following separately audited results extend the mathematics, not the implemented uniform-source API. The public supplements contain the [growth proof and audit](evidence/research-paper/supplement/growth/author/proposal.md), [structural classification](evidence/research-paper/supplement/classification/author/proposal.md), and [infimum/attainment characterization](evidence/research-paper/supplement/infimum/author/proposal.md); the [evidence index](evidence/research-paper/README.md) links their independent reviews.
+
+Fix a source $a$. When the target $b$ lies outside an inserted pair $i,j$, the coefficient of linear growth in $H_{ab}(t)$ is positive exactly when $a\ne b$ and $a$ can reach the pair without visiting $b$. It is zero for a target in the pair or a self target. Grounding $b$, let $K=L_b^{-1}$, $v=e_i-e_j$, and $w=e_i+e_j$. The coefficient is
+
+$$
+[Cw]_a=2C_{ai},\qquad C=K-\frac{Kvv^TK}{v^TKv}.
+$$
+
+The matrix $C$ is the lifted Green matrix after identifying the pair. Its positive entries encode the stated target-avoiding connectivity; the factor two records both degree increments.
+
+With a positive uniform target floor, zero averaged growth occurs precisely when the contracted underlying graph is a path with endpoints $a$ and the merged pair. Equivalently, the original graph is a tail from $a$ to a vertex $w$, followed by two leaves $i,j$ attached to $w$. The tail may be empty. Parallel conductances created by contraction are combined. There is at most one exceptional source for a fixed pair, so any fixed source law supported on at least two vertices restores coercivity for every allowed edge.
+
+For the exceptional fixed source, prong hitting times strictly decrease with strength and approach positive finite limits; other target times remain unchanged. Thus no finite strength attains the edge-ray infimum. This is not a contradiction of the uniform-source theorem. In the three-vertex example with source fixed at vertex $1$,
+
+$$
+U_\theta(t)=(1-\theta)\left(1+\frac8{3(3t+2)}\right),
+$$
+
+whose infimum $1-\theta$ is unattained.
+
+For arbitrary fixed source laws, define the oracle by its **infimum**, preserving positive denominators. Endpoint reduction still holds. Coercive rays use the finite stationary/balance candidates; an exceptional ray contributes its limiting value, labelled infinity only as a certificate, never as a physical action. Compare all these values. The global infimum is attained exactly when a finite candidate ties the least value. A finite action may tie an exceptional limit; otherwise a uniquely winning limit means nonattainment. A fixed source has at most one exceptional pair. This characterization is algebraically effective for rational inputs, but arbitrary real probabilities require an appropriate exact representation. No new general-source implementation is claimed.
+
+## 7. Related work and interpretation
+
+Electrical-network methods provide established foundations. Palacios, Gomez and Del Rio give the conductance-weighted voltage identity in Theorem 2 and simple-random-walk cutpoint, bridge and tree formulas in Corollaries 8–10 [1]. The growth supplement combines such ingredients with a limiting argument and separator classification; it is not presented as a novelty certificate.
+
+Martinez and coauthors optimize directed recommendation-walk reachability through rewiring and probability adjustment [2]. Their objective is closely related, but their intervention set differs. Static inspection of a [pinned implementation](https://github.com/alexmartinezmiguel/reachability/blob/20f35f4c28da3f40049f5b10caa64a3371905cb8/compute_SLSQP_rewirings-reweighting.py) gives $G=U_0/(n-1)=C/n$, where $C$ averages over distinct source-target pairs. It also applies teleportation, $P=0.985X+0.015J/n$, and changes directed probabilities across rows. A common positive rescaling preserves rankings and regret; a different transition matrix or action set does not.
+
+Search and navigation systems motivate asking how link choices interact with uneven destination demand. The theorem supplies an exact answer for the specified walk and intervention model. It does not establish that real users walk this way, that conductance is a calibrated resource cost, or that a mathematical improvement produces deployment gains. Establishing those connections requires workload evidence and a common feasible set before empirical comparison. Publication priority and practical value remain separate questions.
+
+The upper bound $h<1$ ensures a positive uniform component throughout the workload interval. Removing that condition changes the proof obligations. Likewise, a finite conductance cap or an intervention cost defines a different optimization problem: a cap introduces an additional boundary candidate, while a cost requires its own objective and regularity analysis. These distinctions should be preserved when adapting the result to another search model.
+
+## References
+
+1. Palacios, Gomez and Del Rio. *Hitting Times of Walks on Graphs through Voltages*. Journal of Probability, article 852481, 2014. [Official full text](https://onlinelibrary.wiley.com/doi/pdf/10.1155/2014/852481).
+2. A. Martinez, F. Cinus, F. Bonchi and J. Vitria. *Optimizing Reachability in Graph-Based Recommender Systems*. ACM Transactions on Intelligent Systems and Technology 16(4), article 93, 2025. [DOI](https://doi.org/10.1145/3744658).
+3. [Main theorem, implementation and evidence](docs/kemeny-source-target.md); [repository research overview](docs/atlas-overview.md).
+
+## Repository and verification record
+
+The atlas, earlier network-design studies and learning tools remain available in the [preserved project overview](docs/atlas-overview.md). The [final release contract](docs/research-paper-contract.md) fixes this paper’s scope. The [typed evidence bundle](.codex/evidence/runs/research-paper-v1/bundle.json) and independent review connect claims to proofs, code, results and sources. Independent checks were performed by separate AI agents; this is not journal peer review. The work is not claimed to map all mathematics or to establish publication priority.
+
+Generate the web edition from this README with:
+
+```sh
+uv run --project experiments/research-paper --frozen python scripts/build_research_paper.py
 ```
-
-The baseline evaluator checks one selected existing edge for every connected labelled simple graph on two through five vertices, plus a named six-vertex cycle: 772 records. The seven fixed positive examples also include a nonedge query; ten negative fixtures enforce the input boundary. Browser agreement compares every public output, not just the final resistance. Raw records and scope are under `evidence/` and `logs/`.
-
-The engine separately solves the electrical equations, solves Markov first-step equations, and enumerates trees by subset connectivity. The first two share a generic rational equation solver; their agreement is not complete implementation independence. See [engine documentation](README-engine.md) and the [frozen contract](docs/engine-contract.md).
-
-## Discovery and evidence
-
-Known identities are useful rediscoveries, not new mathematics. A missing search result or graph edge never establishes that a problem is open. The terminal-symmetry cache now has an independently audited correctness argument and a bounded benchmark; see [its scope and reproduction commands](README-symmetry.md). Canonical graph caching has direct prior art, so this optimization is not claimed as a globally new algorithm.
-
-The [Kemeny pair study](README-kemeny.md) determines a minimum of six vertices when individually neutral additions are allowed, and seven when both additions must individually decrease the constant. It retains two independent exact censuses, complete lower-order exclusion, a separately reviewed process correction, and a [portable uv reproduction package](experiments/kemeny-pair-minimum/README.md). The seven-vertex example and the evaluation formulas are prior work; publication-level novelty of the minimum results remains unresolved.
-
-The [network-design research note](docs/kemeny-network-design.md) now gives two independently audited results: with at least three non-singleton parts of sizes at least three and at least one dominating vertex, any edge added inside a smallest non-singleton part strictly decreases the simple-random-walk Kemeny constant; a separate ranking theorem shows that this is an optimal single-edge location. A dependency-free exact polynomial certificate covers every number of parts. The [earlier three-part proof](README-kemeny-three-part.md) remains reproducible. Global novelty and practical impact remain unestablished.
-
-The [single-failure research note](docs/kemeny-fault-tolerant-design.md) extends safety to every single original-edge deletion for three parts of sizes at least three and one hub. For a hub-link failure incident to a minimum part, restoring that link uniquely minimizes K among all one-edge insertions. A separate strict comparison eliminates an initially plausible alternate-upgrade rule. Complete integer certificates and independent audits support these scoped results; originality and real-world benefit remain unresolved.
-
-When direct restoration is forbidden, the [complete alternative theorem](docs/kemeny-alternative-repair.md) identifies every optimal insertion: pairs between unaffected vertices of the damaged minimum part. There is one optimal orbit, with a unique edge only when that part has size three. These rules use each design's own stationary target weights; a fixed workload requires separate analysis.
-
-For a fixed uniform start-and-destination workload, the [new decision rule](docs/kemeny-uniform-repair.md) selects a different repair: connect to the damaged vertex when all groups are equal; otherwise insert inside a largest group. Exact certificates prove the complete optimum set and that the best insertion beats doing nothing. A counterexample shows other legal links can worsen the same objective even while lowering electrical resistance.
-
-The [weighted extension](docs/kemeny-weighted-repair.md) proves that these optimal locations remain unchanged for every common positive link strength, and gives the unique best strength when it can also be chosen. The proof links random walks, electrical resistance and established conductance optimization, while keeping the specific family result and its unresolved publication priority explicit.
-
-The [workload and robustness extension](docs/kemeny-workload-robustness.md) gives the full repair rule when journeys increasingly involve the hub, for every common positive insertion strength. It also certifies a finite set of recommendations against any single old-link change up to 10%, and records exact counterexamples when several links change together. Portable exact checks and separate independent audits support these different scopes; publication priority and physical-network benefit remain unresolved.
-
-The [action-choice study](docs/kemeny-workload-action-choice.md) includes doing nothing in the decision. Best unit repairs always improve the specified equal-part family, but an unequal12-vertex example has an exact workload interval where every unit addition is harmful. At a workload inside that interval, a weaker link helps; exact certificates identify the globally best edge set and strength. The result separates location, strength and the option to leave the network alone.
-
-The [uncertain-workload study](docs/kemeny-unit-minimax.md) classifies every best deterministic unit repair across a traffic interval. A strict domination proof reduces the whole family to two repair types, selected by exact endpoint products. One example shows that choosing for the midpoint gives a worse worst-case relative regret; another refutes extending the unit-strength location rule to every strength. These are audited model results, with publication priority and practical impact still unresolved.
-
-The [conductance minimax study](docs/kemeny-strength-minimax.md) allows choosing link strength and doing nothing. Its characterization applies to arbitrary connected weighted graphs under the stated iid traffic model: each allowed missing link has a unique best robust strength, found among finitely many candidates. An importable exact rational-graph solver retains tied locations and reports inconclusive comparisons explicitly. A certified example requires balancing the traffic extremes instead of choosing an endpoint-optimal strength. A [targeted endpoint comparison update](docs/kemeny-strength-comparison.md) preserves the earlier exact certificates and completes a previously difficult wide-interval regression. The [source-target study](docs/kemeny-source-target.md) separates uniform starting points from uneven destination demand, gives an exact robust solver despite possible negative curvature, and exhibits a fixed-source case with no finite best strength.
-
-The broader objective remains active: progressively map more mathematics and use its connections to support verified discoveries. This finite region does not fulfill that full coverage objective. Proof status, source support, finite computation and novelty are separate questions. No current entry claims Lean 4 verification.
-
-See [contribution guidance](CONTRIBUTING.md), [data semantics](docs/data-model.md), and [coverage and next regions](docs/coverage.md). The foundation evidence bundle certifies the published snapshot at commit `9e0adc5d7f7fb994d6e302086da47a13ac2a8561`; reproduce that historical gate from that revision. The structured-checker milestone has its own independently approved [evidence bundle](.codex/evidence/runs/assumption-checks-v1/bundle.json) and [passing gate](.codex/evidence/runs/assumption-checks-v1/gate-report-attempt-02.json). It passes 80 finite oracle cases, but the separate 24-result retrieval study added zero source-refutation detections. An earlier certificate does not certify later edits.
-
-## Verification limits
-
-Curated search uses explicit lexical substring scoring, with fifteen retrieval sanity cases. External searches reuse Loogle and TheoremSearch; none is an evaluated novelty detector. See the [reuse decision](docs/reuse-decision.md), [research-search boundary](docs/research-search.md) and [independently checked normalization case](docs/normalization-case.md). The exact browser lab is restricted to connected simple undirected unweighted graphs, even where a source entry discusses a weighted theorem. Source PDFs stay local under ignored `work/sources/`; only paraphrases, bibliographic metadata and limited evidence extracts belong in the repository. Untouched generated UI components are excluded from lint because the scaffold itself has existing lint violations. Historical evaluator source snapshots under `evidence/` are excluded from application lint and type checking; product source and the current portable checks remain checked. Browser checks cover focused WebMCP contracts, not general visual or responsive QA.

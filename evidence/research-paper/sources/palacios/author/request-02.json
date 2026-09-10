@@ -1,0 +1,19 @@
+{
+  "open": [
+    {
+      "ref_id": "https://onlinelibrary.wiley.com/doi/pdf/10.1155/2014/852481"
+    },
+    {
+      "ref_id": "https://pdfs.semanticscholar.org/0c5f/d0c1ef2b7521c503c3e6cb20551faaa0f8ff.pdf"
+    }
+  ],
+  "search_query": [
+    {
+      "q": "site:onlinelibrary.wiley.com/doi/10.1155/2014/852481 \"cutpoint\""
+    },
+    {
+      "q": "site:onlinelibrary.wiley.com/doi/10.1155/2014/852481 \"Theorem 6\""
+    }
+  ],
+  "response_length": "long"
+}

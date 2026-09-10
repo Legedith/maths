@@ -1,0 +1,9 @@
+{
+  "scope":"sharp zero-growth structural classification and exceptional edge-ray nonattainment",
+  "gates":{"specification_provenance":"PASS","structural_math":"PASS","independent_analytic_formulas":"PASS","consequence_domain":"PASS"},
+  "required_corrections":[],
+  "new_evaluators":0,
+  "prior_premise_independent_review":"4a46cdd108cae41e737d6c164e02fbbac795d37f9659bf3bf397e387814033f6",
+  "release_approval":false,
+  "evidence":"review.md"
+}

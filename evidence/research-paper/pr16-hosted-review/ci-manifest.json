@@ -1,0 +1,203 @@
+{
+  "schema_version": "1.0",
+  "artifacts": [
+    {
+      "id": "A001",
+      "kind": "log",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-source-target-work\\ci-status-01.json",
+      "sha256": "9a2b6bd560b3cd4f2e0f5af393faa79d93e40017ee31f9ed1fb802a47121ea3f"
+    },
+    {
+      "id": "A002",
+      "kind": "source",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-source-target-work\\ci-status-01.stdout.bin",
+      "sha256": "5ff470c61ee4507fd62cb1960fefdcd305dc4158d7aa661f8001426142b16aa4"
+    },
+    {
+      "id": "A003",
+      "kind": "log",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-source-target-work\\ci-status-01.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "A004",
+      "kind": "result",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\evidence\\kemeny-source-target\\integration\\check-01.json",
+      "sha256": "cbb643c5f3fb79f2df2af5d51744c56ae4908bd5aaba66b82bacfdf3ed0fcfc7"
+    },
+    {
+      "id": "A005",
+      "kind": "result",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-source-target-work\\ci-download-comparison.json",
+      "sha256": "7c1a8b0683eb66c8eb2f27ba4297f5f360454fc27f1add9c0135e4ba5eac62f9"
+    },
+    {
+      "id": "A006",
+      "kind": "code",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-source-target-work\\ci.py",
+      "sha256": "6d456167f31ef64fd9163b9e4eb67883de3a2caa22d13c2f22413fe3b8e422d8"
+    },
+    {
+      "id": "A007",
+      "kind": "log",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-source-target-work\\ci-download-34276950678.json",
+      "sha256": "4326667b232a58c6b2c0662409dc9b0d5b616ddab52542f6204911d92a04ef73"
+    },
+    {
+      "id": "A008",
+      "kind": "log",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-source-target-work\\ci-download-34276950678.stdout.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "A009",
+      "kind": "log",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-source-target-work\\ci-download-34276950678.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "A010",
+      "kind": "result",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-source-target-work\\ci\\34276950678\\check.json",
+      "sha256": "cbb643c5f3fb79f2df2af5d51744c56ae4908bd5aaba66b82bacfdf3ed0fcfc7"
+    },
+    {
+      "id": "A011",
+      "kind": "code",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-source-target-proof\\exact_support.py",
+      "sha256": "0057aae1dc61cfcb69c43bd2fcb5b43674e66a252c409a857b71a069eef82980"
+    },
+    {
+      "id": "A012",
+      "kind": "code",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-source-target-proof\\source_target_minimax.py",
+      "sha256": "a6e5c9fcfead2c952b1a4d1b66b967fd6e6613452cccb7137ce75e80c343ede2"
+    },
+    {
+      "id": "A013",
+      "kind": "code",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-source-target-proof\\verify_source_target.py",
+      "sha256": "737ae7a365a2ac1c6a2b969115b60127fdc10bbbbf02c46d864b280a1e7bb7c6"
+    },
+    {
+      "id": "A014",
+      "kind": "log",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-source-target-work\\ci\\34276950678\\logs\\attempt-source-target.json",
+      "sha256": "4db79addb733b52777b61eca15aa8158d9710d8a78c9a2ba7d9fb8f2909b9de7"
+    },
+    {
+      "id": "A015",
+      "kind": "log",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-source-target-work\\ci\\34276950678\\logs\\attempt-source-target.stdout.bin",
+      "sha256": "b6abb4e583d139f99131a3e8c53aecf704039c3a89582892784079a635b0310e"
+    },
+    {
+      "id": "A016",
+      "kind": "log",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-source-target-work\\ci\\34276950678\\logs\\attempt-source-target.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "A017",
+      "kind": "log",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-source-target-work\\ci\\34276950678\\logs\\attempts.jsonl",
+      "sha256": "930978fd397dc6bb1d213d0fb38a447f12cdde0b374509cc4490d3d4865fbe25"
+    },
+    {
+      "id": "A018",
+      "kind": "log",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-source-target-work\\ci-download-34276943554.json",
+      "sha256": "850d6fd5b464f794f447be5942154c2ca3a0c06353a7ef0d147a5c43f4caa7ce"
+    },
+    {
+      "id": "A019",
+      "kind": "log",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-source-target-work\\ci-download-34276943554.stdout.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "A020",
+      "kind": "log",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-source-target-work\\ci-download-34276943554.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "A021",
+      "kind": "result",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-source-target-work\\ci\\34276943554\\check.json",
+      "sha256": "cbb643c5f3fb79f2df2af5d51744c56ae4908bd5aaba66b82bacfdf3ed0fcfc7"
+    },
+    {
+      "id": "A022",
+      "kind": "code",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-source-target-proof\\exact_support.py",
+      "sha256": "0057aae1dc61cfcb69c43bd2fcb5b43674e66a252c409a857b71a069eef82980"
+    },
+    {
+      "id": "A023",
+      "kind": "code",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-source-target-proof\\source_target_minimax.py",
+      "sha256": "a6e5c9fcfead2c952b1a4d1b66b967fd6e6613452cccb7137ce75e80c343ede2"
+    },
+    {
+      "id": "A024",
+      "kind": "code",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-source-target-proof\\verify_source_target.py",
+      "sha256": "737ae7a365a2ac1c6a2b969115b60127fdc10bbbbf02c46d864b280a1e7bb7c6"
+    },
+    {
+      "id": "A025",
+      "kind": "log",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-source-target-work\\ci\\34276943554\\logs\\attempt-source-target.json",
+      "sha256": "bd6594eca1fd4d72853c5647a085763702327751fab629776d020250999d21b3"
+    },
+    {
+      "id": "A026",
+      "kind": "log",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-source-target-work\\ci\\34276943554\\logs\\attempt-source-target.stdout.bin",
+      "sha256": "b6abb4e583d139f99131a3e8c53aecf704039c3a89582892784079a635b0310e"
+    },
+    {
+      "id": "A027",
+      "kind": "log",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-source-target-work\\ci\\34276943554\\logs\\attempt-source-target.stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "A028",
+      "kind": "log",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\kemeny-source-target-work\\ci\\34276943554\\logs\\attempts.jsonl",
+      "sha256": "d7e2d42626516c4d69696f57a9cbd5dba0f4cfb53487aa35b5ac969c2bb9d82a"
+    },
+    {
+      "id": "A029",
+      "kind": "code",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.github\\workflows\\kemeny-three-part.yml",
+      "sha256": "26b38b900ea18c13bc3a0fd0e53c796eb354db488cc26e93fb6ead8dd3b2237e"
+    },
+    {
+      "id": "A030",
+      "kind": "report",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\project\\.codex\\evidence\\runs\\kemeny-source-target-v1\\bundle.json",
+      "sha256": "3aa645f02fcd789f62c05b1e6d3e1a8c7824f4d395f8bb17e34196192247f93e"
+    },
+    {
+      "id": "A031",
+      "kind": "report",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-wrap-verifier-work\\ci-verdict.json",
+      "sha256": "7bcc80d382b49ec018ec9d6fc5edb0f845cfbf31ea46e204ba5d481167684ee1"
+    },
+    {
+      "id": "A032",
+      "kind": "report",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-wrap-verifier-work\\ci-review.md",
+      "sha256": "d7de351f3f7f991ba5d672ad13409aac99ea0183b98be760e973fc30a29c1e0c"
+    },
+    {
+      "id": "A033",
+      "kind": "code",
+      "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-wrap-verifier-work\\audit_ci.py",
+      "sha256": "563868bc1eba5b19f4e01f62e4d97f8eefb08731f1ac504a83af8236e50805a8"
+    }
+  ]
+}

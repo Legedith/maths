@@ -1,0 +1,55 @@
+{
+  "code_sha256": "ad5b4ae24802acb9a04ba2260860ad4a177a6797c6966d3a799a54ac13c6b729",
+  "input_hashes": {
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\.python-version": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\check.py": "ed29e17fa73db910f39218b1626569849f45afddabd14356ad333ebab808c623",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\claims.json": "656dd13a10d06a04f45a3b85c8e3bae0ee3c6ff893358e5216e195e6143ffc69",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\hashes.json": "7b8365b88862cc91ad077944ca102bdc85b3163dd8ab766e97fdf5e0e8bc8289",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\logs\\attempt-growth01.json": "829dad73adff1e3dfef4d21cf86633716d1fa6c219f40506693cfef0bb878f27",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\logs\\attempt-growth01.stderr.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\logs\\attempt-growth01.stdout.bin": "1721f9fb25fcda99793fdbbecce4af07566b69eae6456e11f785630fc5a1814c",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\logs\\attempts.jsonl": "74576b6f698233c3efe1d4cec5951c5d4244f027d55bf30269237885f961c2f9",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\plan.md": "b19f77e020e4df38a98b6381173e4d6fbd4b6f7e0840bfefc2194141e6e9c131",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\proposal.md": "738bb72678514e1efc4789ab8308e1cf6b38d05b07db564b7b052fbcb80deeec",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\pyproject.toml": "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\result.json": "f3063f1ec7fffef435ead55e875a793abc89c90fa316e70ff9faa9ad42c5e947",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\uv.lock": "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d",
+    "D:\\CodexWorkspaces\\mathematics-atlas\\project\\experiments\\kemeny-three-part-proof\\run_logged.py": "b6f4c329387705b2adf67f7dd3f806bbcd0a5906d476f5214fe8278d5ea5bfa6"
+  },
+  "method": "directed transition first-step equations",
+  "python": "3.12.11 (main, Sep 18 2025, 19:45:51) [MSC v.1944 64 bit (AMD64)]",
+  "rows": [
+    {
+      "graph": "star",
+      "hitting": [
+        "(7*t + 6)/(2*t + 1)",
+        "1",
+        "(7*t + 6)/(2*t + 1)",
+        "0"
+      ],
+      "slopes": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "graph": "path",
+      "hitting": [
+        "(3*t + 5)/(2*t + 1)",
+        "0",
+        "(3*t + 3)/(2*t + 1)",
+        "(4*t**2 + 15*t + 8)/(2*t + 1)"
+      ],
+      "slopes": [
+        "0",
+        "0",
+        "0",
+        "2"
+      ]
+    }
+  ],
+  "status": "pass",
+  "sympy": "1.14.0"
+}

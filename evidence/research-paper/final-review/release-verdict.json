@@ -1,0 +1,95 @@
+{
+  "input_bundle_sha256": "b7802c039c6578e46bca0b965b939f32b5c55cacc9804393201a76f957c12c3b",
+  "status": "pass",
+  "round": 1,
+  "checks": [
+    {
+      "id": "reproduction",
+      "status": "pass",
+      "auditor": "independent Astra wrap verifier",
+      "evidence": [
+        "A132",
+        "A133",
+        "A134",
+        "A135",
+        "A198",
+        "A199",
+        "A204",
+        "A205",
+        "A206",
+        "A207"
+      ],
+      "note": "Raw canonical build rc0, timeout false and streams match recorded hashes. Independent read-only renderer replay produced byte-identical HTML and identical build metrics (95 math expressions, 15 repository links, 12 fragments, one h1). No mathematical evaluator rerun."
+    },
+    {
+      "id": "specification_compliance",
+      "status": "pass",
+      "auditor": "independent Astra wrap verifier",
+      "evidence": [
+        "A001",
+        "A145",
+        "A161",
+        "A163",
+        "A174",
+        "A187",
+        "A193",
+        "A196",
+        "A198",
+        "A199",
+        "A203"
+      ],
+      "note": "Paper provides model, theorem and proof, worked exact example, implementation/replay, supplementary analysis, related work and explicit limitations. Preserved overview retained. Analytic source-law extension is explicitly outside implemented API and neither result is claimed Lean-formalized. Hosted publication and final-head CI remain separate delivery gates."
+    },
+    {
+      "id": "source_verification",
+      "status": "pass",
+      "auditor": "independent Astra wrap verifier",
+      "evidence": [
+        "A067",
+        "A073",
+        "A076",
+        "A078",
+        "A080",
+        "A136",
+        "A143",
+        "A144",
+        "A152",
+        "A154",
+        "A155",
+        "A156",
+        "A157",
+        "A198"
+      ],
+      "note": "All 207 bundle artifact hashes and 100 recursive support locators checked, including expected JSON values and dependency acyclicity. Read accepted Palacios source notes and distinct source audit: weighted voltage theorem distinguished from simple-walk cutpoint/bridge/tree corollaries and added limiting arguments. Pinned Martinez score scaling and directed teleportation model match attributed prior audit. Historical hosted evidence explicitly names ba90dd8 and does not certify this later release. No novelty, priority, measured impact, or journal peer-review inference."
+    },
+    {
+      "id": "implementation_alignment",
+      "status": "pass",
+      "auditor": "independent Astra wrap verifier",
+      "evidence": [
+        "A131",
+        "A161",
+        "A163",
+        "A174",
+        "A187",
+        "A193",
+        "A196",
+        "A198",
+        "A199",
+        "A200",
+        "A201",
+        "A204",
+        "A205",
+        "A206",
+        "A207"
+      ],
+      "note": "README equations and hypotheses align with accepted coefficient, quasiconvexity, candidate, growth, fork-path and infimum proofs; finite versus limit certificates and edge ties remain distinct. Solver API remains uniform-source rational-input. Generated content agrees with README. Static HTML nesting, local repository links, fragments, IDs, metadata and assets pass. CSS has responsive and print rules; skip link, labeled navigation, semantic main/article, focus styles and native button are present. Deferred MathJax configuration precedes pinned CDN script. No browser interaction or visual rendering certification claimed."
+    }
+  ],
+  "required_corrections": [],
+  "limitations": [
+    "Local paper/evidence approval only; actual GitHub Pages response, published branch/commit and final-head CI require post-push checks.",
+    "No browser interaction or visual rendering audit; MathJax relies on external pinned CDN availability.",
+    "No mathematical evaluator reruns, new literature search, novelty certificate, deployment gain, Lean verification or all-mathematics completion claim."
+  ]
+}

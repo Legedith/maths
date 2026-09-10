@@ -1,0 +1,356 @@
+[
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\.python-version",
+    "path": "evidence/research-paper/supplement/growth/author/.python-version",
+    "sha256": "43fd694bd564dd2215f51a6b23f6a3712834850225e629d7781c81c71076092d",
+    "bytes": 8
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\check.py",
+    "path": "evidence/research-paper/supplement/growth/author/check.py",
+    "sha256": "ed29e17fa73db910f39218b1626569849f45afddabd14356ad333ebab808c623",
+    "bytes": 965
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\claims.json",
+    "path": "evidence/research-paper/supplement/growth/author/claims.json",
+    "sha256": "656dd13a10d06a04f45a3b85c8e3bae0ee3c6ff893358e5216e195e6143ffc69",
+    "bytes": 834
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\hashes.json",
+    "path": "evidence/research-paper/supplement/growth/author/hashes.json",
+    "sha256": "7b8365b88862cc91ad077944ca102bdc85b3163dd8ab766e97fdf5e0e8bc8289",
+    "bytes": 2565
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\logs\\attempt-growth01.json",
+    "path": "evidence/research-paper/supplement/growth/author/logs/attempt-growth01.json",
+    "sha256": "829dad73adff1e3dfef4d21cf86633716d1fa6c219f40506693cfef0bb878f27",
+    "bytes": 1203
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\logs\\attempt-growth01.stderr.bin",
+    "path": "evidence/research-paper/supplement/growth/author/logs/attempt-growth01.stderr.bin",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\logs\\attempt-growth01.stdout.bin",
+    "path": "evidence/research-paper/supplement/growth/author/logs/attempt-growth01.stdout.bin",
+    "sha256": "1721f9fb25fcda99793fdbbecce4af07566b69eae6456e11f785630fc5a1814c",
+    "bytes": 412
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\logs\\attempts.jsonl",
+    "path": "evidence/research-paper/supplement/growth/author/logs/attempts.jsonl",
+    "sha256": "74576b6f698233c3efe1d4cec5951c5d4244f027d55bf30269237885f961c2f9",
+    "bytes": 1049
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\plan.md",
+    "path": "evidence/research-paper/supplement/growth/author/plan.md",
+    "sha256": "b19f77e020e4df38a98b6381173e4d6fbd4b6f7e0840bfefc2194141e6e9c131",
+    "bytes": 886
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\proposal.md",
+    "path": "evidence/research-paper/supplement/growth/author/proposal.md",
+    "sha256": "738bb72678514e1efc4789ab8308e1cf6b38d05b07db564b7b052fbcb80deeec",
+    "bytes": 4748
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\pyproject.toml",
+    "path": "evidence/research-paper/supplement/growth/author/pyproject.toml",
+    "sha256": "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f",
+    "bytes": 168
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\result.json",
+    "path": "evidence/research-paper/supplement/growth/author/result.json",
+    "sha256": "f3063f1ec7fffef435ead55e875a793abc89c90fa316e70ff9faa9ad42c5e947",
+    "bytes": 821
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\uv.lock",
+    "path": "evidence/research-paper/supplement/growth/author/uv.lock",
+    "sha256": "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d",
+    "bytes": 1707
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-review-work\\check.py",
+    "path": "evidence/research-paper/supplement/growth/review/check.py",
+    "sha256": "ad5b4ae24802acb9a04ba2260860ad4a177a6797c6966d3a799a54ac13c6b729",
+    "bytes": 2299
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-review-work\\hashes.json",
+    "path": "evidence/research-paper/supplement/growth/review/hashes.json",
+    "sha256": "11205002ff5158e201c74a8dad76242740203a5a4b985a259a7f91ad301dab73",
+    "bytes": 2367
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-review-work\\logs\\attempt-review01.json",
+    "path": "evidence/research-paper/supplement/growth/review/logs/attempt-review01.json",
+    "sha256": "cb0411db0f69b4e5bf483ba8e032411fe90bbc0e7e5c169dba0cc39f893ca07e",
+    "bytes": 1224
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-review-work\\logs\\attempt-review01.stderr.bin",
+    "path": "evidence/research-paper/supplement/growth/review/logs/attempt-review01.stderr.bin",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-review-work\\logs\\attempt-review01.stdout.bin",
+    "path": "evidence/research-paper/supplement/growth/review/logs/attempt-review01.stdout.bin",
+    "sha256": "0ab6f6c8f5a30f119214f85f3b56b05ae6e1a71ef627e4be0f890efef84ac5fd",
+    "bytes": 76
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-review-work\\logs\\attempts.jsonl",
+    "path": "evidence/research-paper/supplement/growth/review/logs/attempts.jsonl",
+    "sha256": "58d92ab45ece51999b78182ca2ee753cab2d2ab5fe20bb04720e914075d2b5de",
+    "bytes": 1070
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-review-work\\plan.md",
+    "path": "evidence/research-paper/supplement/growth/review/plan.md",
+    "sha256": "c77c9198f853fa37d204c4fe96fe11513016c4fbfc877a711b5f804628436857",
+    "bytes": 725
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-review-work\\pyproject.toml",
+    "path": "evidence/research-paper/supplement/growth/review/pyproject.toml",
+    "sha256": "043135469f15a65ec3bb4106a3d6798bcccdd0f762288db41fd740164762445f",
+    "bytes": 168
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-review-work\\result.json",
+    "path": "evidence/research-paper/supplement/growth/review/result.json",
+    "sha256": "ff987f5d0ff825073508d863c4a8be6cdf144e51f6a6862ad3520a642b522f9e",
+    "bytes": 3137
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-review-work\\review.md",
+    "path": "evidence/research-paper/supplement/growth/review/review.md",
+    "sha256": "4a46cdd108cae41e737d6c164e02fbbac795d37f9659bf3bf397e387814033f6",
+    "bytes": 5798
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-review-work\\uv.lock",
+    "path": "evidence/research-paper/supplement/growth/review/uv.lock",
+    "sha256": "378269213eb25ae37448f6993ac983809d7bab05d3a47434c5babd06dc0b874d",
+    "bytes": 1707
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-review-work\\verdict.json",
+    "path": "evidence/research-paper/supplement/growth/review/verdict.json",
+    "sha256": "ac742a24547f5c4e141f7bbdf3ee016e5fb9925dd39f5b25ec2f98bb94404cd0",
+    "bytes": 1142
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-zero-growth-classification-work\\claims.json",
+    "path": "evidence/research-paper/supplement/classification/author/claims.json",
+    "sha256": "5bb29a7b376121f8f8b2d1a932f335f895c8b589ec93fddee595bcb332d97166",
+    "bytes": 1112
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-zero-growth-classification-work\\hashes.json",
+    "path": "evidence/research-paper/supplement/classification/author/hashes.json",
+    "sha256": "882655836b02334e9f8ed267c4dcf07eed73b38614004f02949de001569cbb2e",
+    "bytes": 1063
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-zero-growth-classification-work\\plan.md",
+    "path": "evidence/research-paper/supplement/classification/author/plan.md",
+    "sha256": "1303d0aae2401c84fc573880f291d1ea1573e858c54b5a7cf752ab519788d3e3",
+    "bytes": 1330
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-zero-growth-classification-work\\proposal.md",
+    "path": "evidence/research-paper/supplement/classification/author/proposal.md",
+    "sha256": "5b1981a2c9d2ee3c27da7ed0c1c17eb714a61a709bec56692e552b1a225936b3",
+    "bytes": 6896
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-zero-growth-classification-review-work\\hashes.json",
+    "path": "evidence/research-paper/supplement/classification/review/hashes.json",
+    "sha256": "506150cc4ed75aaa04031fa5788ab13ce37167888aa093ddb0440445bb4f02e4",
+    "bytes": 1490
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-zero-growth-classification-review-work\\review.md",
+    "path": "evidence/research-paper/supplement/classification/review/review.md",
+    "sha256": "cd94730bfdd553565c86992256efd9093e4630bb9ebf8255e5d9d9eab9a3655a",
+    "bytes": 4030
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-zero-growth-classification-review-work\\verdict.json",
+    "path": "evidence/research-paper/supplement/classification/review/verdict.json",
+    "sha256": "f57215fe358b42f94a69f9cda801c1c90d0e6417a3a56fcede9c6ebaed2c0190",
+    "bytes": 448
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-general-source-infimum-explore-work\\claims.json",
+    "path": "evidence/research-paper/supplement/infimum/author/claims.json",
+    "sha256": "4313deb2b69e19420f3e4f23b3ffa1acb7dd52ce18054f6c2a848dd64e05fc5a",
+    "bytes": 842
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-general-source-infimum-explore-work\\hashes.json",
+    "path": "evidence/research-paper/supplement/infimum/author/hashes.json",
+    "sha256": "91408c2e54cb19f1aeffd633fbdf45903f425f74906643143d55e298fd1bde32",
+    "bytes": 1070
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-general-source-infimum-explore-work\\plan.md",
+    "path": "evidence/research-paper/supplement/infimum/author/plan.md",
+    "sha256": "3aa3753ecb54aa6edf42ab6cc814924dd2a05b6478d4127f9670301e312569eb",
+    "bytes": 959
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-general-source-infimum-explore-work\\proposal.md",
+    "path": "evidence/research-paper/supplement/infimum/author/proposal.md",
+    "sha256": "fdfaedabe166af618fdff39149755819b294a5e17a302094a4583d7ccef3971f",
+    "bytes": 7007
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-general-source-infimum-review-work\\hashes.json",
+    "path": "evidence/research-paper/supplement/infimum/review/hashes.json",
+    "sha256": "ba2ea94cd3abaa7a4fa91182daf7181117ec302c212a1b40dcb96b01501582f2",
+    "bytes": 623
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-general-source-infimum-review-work\\input-hash-check.json",
+    "path": "evidence/research-paper/supplement/infimum/review/input-hash-check.json",
+    "sha256": "391fd5399569e01532c2c101fbc1b21152370bc55585ee6505f43db5770d63cf",
+    "bytes": 1121
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-general-source-infimum-review-work\\review.md",
+    "path": "evidence/research-paper/supplement/infimum/review/review.md",
+    "sha256": "860a4b1ead20286d4822c2f56207e30ade60924049a57bcac0fb10698af04b5d",
+    "bytes": 7146
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-general-source-infimum-review-work\\verdict.json",
+    "path": "evidence/research-paper/supplement/infimum/review/verdict.json",
+    "sha256": "346e3794f374c494b8b3708015c433da7c3daa94381da3e578c05b5441ec09e6",
+    "bytes": 826
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-palacios-overlap-review-work\\hashes.json",
+    "path": "evidence/research-paper/sources/palacios/review/hashes.json",
+    "sha256": "935f944d1a4f6c2ee7f224dd940169fda2ffd093f6fb57426e2fc02c36c1ea3b",
+    "bytes": 605
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-palacios-overlap-review-work\\input-hash-check.json",
+    "path": "evidence/research-paper/sources/palacios/review/input-hash-check.json",
+    "sha256": "c4b6a251a68066a672381d0e883035ce98fac76b1318453cbe7513d17f21dc02",
+    "bytes": 1925
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-palacios-overlap-review-work\\review.md",
+    "path": "evidence/research-paper/sources/palacios/review/review.md",
+    "sha256": "311103316af66d4b777c4639c79a8a2ba23b0e883494682772ce3bd470670ae7",
+    "bytes": 4257
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-palacios-overlap-review-work\\verdict.json",
+    "path": "evidence/research-paper/sources/palacios/review/verdict.json",
+    "sha256": "83e9334f2118ef2933e6ecebacbaaeb77b906de9ec2bfcbaf2d557513236c6c0",
+    "bytes": 897
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\research-paper-draft-work\\claim-checklist.md",
+    "path": "evidence/research-paper/draft/claim-checklist.md",
+    "sha256": "ec551c107c7de9827c4edfc8099c23d362a3f26f4a9f242a02ef74aa74e5236c",
+    "bytes": 2048
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\research-paper-draft-work\\hashes.json",
+    "path": "evidence/research-paper/draft/hashes.json",
+    "sha256": "410d4ea79a6b108ca9e563d3fcc8177663fdfa1fdf2c39d302a4c4c044fd4125",
+    "bytes": 566
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\research-paper-draft-work\\link-map.md",
+    "path": "evidence/research-paper/draft/link-map.md",
+    "sha256": "c2cadb182c3f9f6fcc2ac1455fa6ef2756b916bf070f5a1e49aaa378485ceb1d",
+    "bytes": 854
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\research-paper-draft-work\\paper.md",
+    "path": "evidence/research-paper/draft/paper.md",
+    "sha256": "b31a54d2ebe351675341bcbf674519d1ddd4bfe14d958ceb98c45e253b2e46b3",
+    "bytes": 14540
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-palacios-overlap-work\\claims.json",
+    "path": "evidence/research-paper/sources/palacios/author/claims.json",
+    "sha256": "e78e1b6a8bf9e1d0b5ab6bb0d05314b3b83b120afceb05c4616335b521fd1d7a",
+    "bytes": 681
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-palacios-overlap-work\\hashes.json",
+    "path": "evidence/research-paper/sources/palacios/author/hashes.json",
+    "sha256": "bede9cc696f3fafb10c24d195a1bb12396b3926fa7dba599bb1d675cc594ba36",
+    "bytes": 1708
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-palacios-overlap-work\\plan.md",
+    "path": "evidence/research-paper/sources/palacios/author/plan.md",
+    "sha256": "51cc05f9dc070876ba4eb7afa86eb4970563a29bb086c2f047d8729f6b5184e8",
+    "bytes": 516
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-palacios-overlap-work\\request-01.json",
+    "path": "evidence/research-paper/sources/palacios/author/request-01.json",
+    "sha256": "430e612f6dbce791a2b0ed417914511a5243c8e090f004b7dadcf3e9fb77e7dc",
+    "bytes": 292
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-palacios-overlap-work\\request-02.json",
+    "path": "evidence/research-paper/sources/palacios/author/request-02.json",
+    "sha256": "30c9c77f83276869fbb61c6dc781e74f7763836e256f86c1f2198f34f0b6345f",
+    "bytes": 458
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-palacios-overlap-work\\request-03.json",
+    "path": "evidence/research-paper/sources/palacios/author/request-03.json",
+    "sha256": "3826115a6ffd13c694c7ca0b8bc2d9cf10a050cac895bcc4896328ebcc946ba0",
+    "bytes": 113
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-palacios-overlap-work\\source-notes.md",
+    "path": "evidence/research-paper/sources/palacios/author/source-notes.md",
+    "sha256": "3812e55ab31a38da0cb75e7b13fb87de175cf4574ff1e7e58e187078eb979e16",
+    "bytes": 1418
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-wrap-verifier-work\\ci-review.md",
+    "path": "evidence/research-paper/pr16-hosted-review/ci-review.md",
+    "sha256": "d7de351f3f7f991ba5d672ad13409aac99ea0183b98be760e973fc30a29c1e0c",
+    "bytes": 1682
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-wrap-verifier-work\\ci-verdict.json",
+    "path": "evidence/research-paper/pr16-hosted-review/ci-verdict.json",
+    "sha256": "7bcc80d382b49ec018ec9d6fc5edb0f845cfbf31ea46e204ba5d481167684ee1",
+    "bytes": 4297
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-wrap-verifier-work\\ci-manifest.json",
+    "path": "evidence/research-paper/pr16-hosted-review/ci-manifest.json",
+    "sha256": "7a5b824034c2dfbf79f4fe893874b2d89ef58e7e23a48b344b34bc1e2b216344",
+    "bytes": 8750
+  },
+  {
+    "source": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-wrap-verifier-work\\audit_ci.py",
+    "path": "evidence/research-paper/pr16-hosted-review/audit_ci.py",
+    "sha256": "563868bc1eba5b19f4e01f62e4d97f8eefb08731f1ac504a83af8236e50805a8",
+    "bytes": 5650
+  }
+]

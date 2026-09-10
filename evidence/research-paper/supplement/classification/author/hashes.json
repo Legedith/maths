@@ -1,0 +1,22 @@
+﻿[
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-zero-growth-classification-work\\claims.json",
+        "sha256":  "5bb29a7b376121f8f8b2d1a932f335f895c8b589ec93fddee595bcb332d97166"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-zero-growth-classification-work\\plan.md",
+        "sha256":  "1303d0aae2401c84fc573880f291d1ea1573e858c54b5a7cf752ab519788d3e3"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-zero-growth-classification-work\\proposal.md",
+        "sha256":  "5b1981a2c9d2ee3c27da7ed0c1c17eb714a61a709bec56692e552b1a225936b3"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\proposal.md",
+        "sha256":  "738bb72678514e1efc4789ab8308e1cf6b38d05b07db564b7b052fbcb80deeec"
+    },
+    {
+        "path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-review-work\\review.md",
+        "sha256":  "4a46cdd108cae41e737d6c164e02fbbac795d37f9659bf3bf397e387814033f6"
+    }
+]

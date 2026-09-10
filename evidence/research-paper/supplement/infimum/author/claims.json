@@ -1,0 +1,10 @@
+{
+  "claims":[
+    {"id":"coefficients","type":"analytic-proposal","evidence":"proposal.md","claim":"General source laws yield affine-in-workload quadratic-over-linear actual objectives."},
+    {"id":"exception","type":"analytic-proposal-from-audited-premises","evidence":"proposal.md","claim":"Only fixed-source fork rays are noncoercive, strictly decreasing; at most one exceptional pair for a fixed source."},
+    {"id":"infimum-policy","type":"analytic-proposal","evidence":"proposal.md","claim":"Positive infimum oracles give endpoint reduction and a finite candidate policy distinguishing physical attainment from limit certificates."}
+  ],
+  "independent_gate":"pending",
+  "evaluators":0,
+  "effective_algorithm_scope":"rational or suitably represented algebraic input; arbitrary real source law only mathematical characterization"
+}

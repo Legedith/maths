@@ -1,0 +1,17 @@
+[
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-palacios-overlap-work\\raw-01.json",
+    "sha256": "0b2f89959f014e4afc1ec0641bb137f89ede9716e658ed539e1a98651b8024c7",
+    "bytes": 31123
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-palacios-overlap-work\\raw-02.json",
+    "sha256": "bcad5ed91b8f746f6a5d7f628871b157509670ca5271e273073823b5a8f4ac48",
+    "bytes": 33184
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-palacios-overlap-work\\raw-03.json",
+    "sha256": "f17538314feb3bd92e2c4b8ab7e4d2996cf1654f9b1428a3305cdb36dddb7f31",
+    "bytes": 17338
+  }
+]

@@ -1,0 +1,11 @@
+{
+ "status":"candidate_requires_independent_audit",
+ "claims":[
+  {"id":"H1","type":"analytic","claim":"Zero growth iff source is outside inserted pair and the underlying contracted graph is a path with that source and contracted pair as endpoints; equivalently a weighted forked path.","support":"proposal.md H1","boundary":"Parallel contracted conductances are combined; n=3 tail may be empty."},
+  {"id":"H2","type":"analytic","claim":"At most one zero-growth source per absent edge; fixed source support at least two ensures positive growth and finite-set coercivity under positive uniform target floor.","support":"proposal.md H2"},
+  {"id":"H3","type":"analytic","claim":"Exceptional fixed-source forked-path edge objective strictly decreases to a positive finite unattained limit.","support":"proposal.md H3","limit":"An edge-ray conclusion, not global nonattainment if other edge locations are allowed."}
+ ],
+ "evaluators":0,
+ "new_graph_evaluations":0,
+ "not_claimed":["novelty","physical benefit","release approval","global nonattainment with other edge locations","general-source strict convexity"]
+}

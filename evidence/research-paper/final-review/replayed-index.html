@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Exact Robust Link Design for Random-Walk Search</title>
+<meta name="description" content="An exact robust network-design algorithm, mathematical proofs, reproducible certificates, and the boundary between finite optima and unattained limits.">
+<meta name="paper-source-sha256" content="435a043c2d217910a6a8f00d64a5732c91919ea286986941a0ae4f1cb1ceee3b">
+<link rel="canonical" href="https://legedith.github.io/maths/">
+<link rel="stylesheet" href="paper.css">
+<script defer src="paper.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js"></script>
+</head><body><a class="skip" href="#paper">Skip to paper</a>
+<div class="page-shell"><aside aria-label="Contents"><a class="journal" href="https://github.com/Legedith/maths">MATHEMATICS ATLAS<br><span>Research note · 2026</span></a>
+<nav aria-label="Paper sections"><div class="toc">
+<ul>
+<li><a href="#exact-robust-link-design-for-random-walk-search">Exact Robust Link Design for Random-Walk Search</a><ul>
+<li><a href="#abstract">Abstract</a></li>
+<li><a href="#1-problem-and-main-result">1. Problem and main result</a></li>
+<li><a href="#2-directed-hitting-times-and-exact-coefficients">2. Directed hitting times and exact coefficients</a></li>
+<li><a href="#3-proof-of-the-finite-characterization">3. Proof of the finite characterization</a></li>
+<li><a href="#4-exact-weighted-path-example">4. Exact weighted-path example</a></li>
+<li><a href="#5-implementation-and-reproducibility">5. Implementation and reproducibility</a></li>
+<li><a href="#6-analytic-supplement-arbitrary-sources-and-nonattainment">6. Analytic supplement: arbitrary sources and nonattainment</a></li>
+<li><a href="#7-related-work-and-interpretation">7. Related work and interpretation</a></li>
+<li><a href="#references">References</a></li>
+<li><a href="#repository-and-verification-record">Repository and verification record</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</nav><button type="button" id="print-paper">Print / save PDF</button></aside>
+<main id="paper"><article><h1 id="exact-robust-link-design-for-random-walk-search">Exact Robust Link Design for Random-Walk Search</h1>
+<p><em>Mathematics Atlas project · Research note · 10 September 2026</em></p>
+<p><a href="https://legedith.github.io/maths/">Read the paper</a> · <a href="https://github.com/Legedith/maths/blob/codex/research-paper/experiments/kemeny-source-target-proof/README.md">Exact solver</a> · <a href="https://github.com/Legedith/maths/blob/codex/research-paper/evidence/research-paper/README.md">Proof and evidence index</a></p>
+<h2 id="abstract">Abstract</h2>
+<p>We give a finite exact characterization of a robust link-design problem on a weighted undirected graph. A request starts at a uniformly chosen vertex and independently chooses a destination from a mixture of uniform demand and demand concentrated at one focus vertex. The mixture weight is unknown within a prescribed interval. Before it is known, the designer chooses one missing edge and any nonnegative conductance, including zero for no action. Performance is expected discrete-time hitting time; the objective is worst relative regret against an oracle with the same available interventions. We prove that the worst workload occurs at an interval endpoint and that each edge has a unique optimal conductance, found among boundary, stationary and quadratic balance candidates. Strict convexity is unnecessary and can fail. An audited rational-input implementation retains exact certificates and all location ties. An analytic supplement classifies the exceptional fixed-source graphs where finite attainment fails and extends the characterization to infimum oracles. These are mathematical results, not measured improvements in a deployed search system.</p>
+<h2 id="1-problem-and-main-result">1. Problem and main result</h2>
+<p>Let <span class="equation">\(G\)</span> be a finite connected loopless undirected graph with <span class="equation">\(n\ge3\)</span>, positive edge conductances and a finite nonempty set <span class="equation">\(\mathcal E\)</span> of allowed missing edges. Parallel conductances, if supplied, are combined. An action is <span class="equation">\((e,t)\)</span>, where <span class="equation">\(e\in\mathcal E\)</span> and <span class="equation">\(0\le t&lt;\infty\)</span> is the conductance inserted at that edge. All labels with <span class="equation">\(t=0\)</span> describe the same physical no-action graph.</p>
+<p>The walk chooses its next neighbor in proportion to incident conductance. Write <span class="equation">\(H_{ab}\)</span> for its expected number of steps from source <span class="equation">\(a\)</span> to target <span class="equation">\(b\)</span>, with <span class="equation">\(H_{aa}=0\)</span>. The source is uniform. Independently, the target follows</p>
+<div class="equation">\[\nu_\theta=(1-\theta)\operatorname{Uniform}+\theta\delta_q,
+\qquad 0\le l\le\theta\le h&lt;1.\]</div>
+<p>The graph, focus <span class="equation">\(q\)</span>, interval and allowed edges are fixed before the action. Let <span class="equation">\(U_e(t,\theta)\)</span> be the resulting expected hitting time. Define the same-action-set oracle and regret by</p>
+<div class="equation">\[O(\theta)=\min_{e\in\mathcal E,\,t\ge0}U_e(t,\theta),
+\qquad R_e(t)=\max_{\theta\in[l,h]}
+\left(\frac{U_e(t,\theta)}{O(\theta)}-1\right).\]</div>
+<p><strong>Main theorem.</strong> Under these assumptions, the oracle is positive and attained. For every action, worst regret occurs at <span class="equation">\(l\)</span> or <span class="equation">\(h\)</span>. Each allowed edge has exactly one minimizing strength. Its strength belongs to a finite list consisting of zero, positive stationary strengths for either endpoint, and positive roots of an equation of degree at most two equating normalized endpoint objectives. Comparing these per-edge minima gives every globally optimal location, including ties.</p>
+<p>This is a deterministic decision made before the workload is known. It does not allow several insertions, adaptive choices, randomization or a separate monetary cost. The source and target conventions are essential: expected hitting time can change when either distribution changes.</p>
+<h2 id="2-directed-hitting-times-and-exact-coefficients">2. Directed hitting times and exact coefficients</h2>
+<p>Let <span class="equation">\(L\)</span> be the weighted Laplacian, <span class="equation">\(M=L^+\)</span>, <span class="equation">\(d\)</span> the weighted-degree vector and <span class="equation">\(m\)</span> total undirected conductance. First-step equations for a fixed target <span class="equation">\(b\)</span> give</p>
+<div class="equation">\[LH_{\cdot b}=d-2m e_b.\]</div>
+<p>Solving with <span class="equation">\(H_{bb}=0\)</span> yields</p>
+<div class="equation">\[H_{ab}=(Md)_a-(Md)_b+2m(M_{bb}-M_{ab}).\]</div>
+<p>Uniform source averaging therefore gives <span class="equation">\(F_b=2mM_{bb}-(Md)_b\)</span>, and</p>
+<div class="equation">\[U_\theta=(1-\theta)\frac{2m}{n}\operatorname{tr}M
++\theta F_q.\]</div>
+<p>The degree correction cannot be omitted: directed hitting times need not be symmetric even though the graph is undirected.</p>
+<p>For an inserted pair <span class="equation">\(i,j\)</span>, set <span class="equation">\(v=e_i-e_j\)</span>, <span class="equation">\(w=e_i+e_j\)</span>, <span class="equation">\(z=Mv\)</span>, <span class="equation">\(r=v^TMv&gt;0\)</span>, and <span class="equation">\(D=1+rt\)</span>. The inverse update on the subspace perpendicular to the constant vector is</p>
+<div class="equation">\[M_t=M-\frac{tzz^T}{D},\qquad d_t=d+tw.\]</div>
+<p>Consequently</p>
+<div class="equation">\[U_e(t,\theta)=\frac{a_0(\theta)+a_1(\theta)t+a_2(\theta)t^2}{1+rt},\]</div>
+<p>where the coefficients are affine in <span class="equation">\(\theta\)</span>. For explicit reconstruction, write <span class="equation">\(T=\operatorname{tr}M\)</span>, <span class="equation">\(s=z^Tz\)</span>. The uniform-target coefficients are</p>
+<div class="equation">\[(u_0,u_1,u_2)=\frac2n(mT,\ T+mrT-ms,\ rT-s).\]</div>
+<p>Set <span class="equation">\(F_0=2mM_{qq}-(Md)_q\)</span>, <span class="equation">\(F_1=2M_{qq}-(Mw)_q\)</span>, <span class="equation">\(P_1=z_q(z^Td-2mz_q)\)</span>, and <span class="equation">\(P_2=z_q(z^Tw-2z_q)\)</span>. The focused coefficients are <span class="equation">\((f_0,f_1,f_2)=(F_0,rF_0+F_1+P_1,rF_1+P_2)\)</span>; finally <span class="equation">\(a_k=(1-\theta)u_k+\theta f_k\)</span>. Actual conductance volume is always <span class="equation">\(m+t\)</span>.</p>
+<h2 id="3-proof-of-the-finite-characterization">3. Proof of the finite characterization</h2>
+<p><strong>Positivity and attainment.</strong> On the nonconstant subspace, <span class="equation">\(rM-Mvv^TM\)</span> is positive semidefinite of rank <span class="equation">\(n-2\)</span>. Hence <span class="equation">\(B=rT-s&gt;0\)</span>. Nonnegative focused hitting times and the uniform target component imply</p>
+<div class="equation">\[U_e(t,\theta)\ge(1-h)\frac{2(m+t)B}{nr}&gt;0.\]</div>
+<p>Finitely many allowed edges give a common coercive bound. Continuity supplies finite oracle minima. In particular, each endpoint quotient has positive asymptotic slope <span class="equation">\(a_2/r\)</span>.</p>
+<p><strong>Endpoint reduction.</strong> For fixed actions <span class="equation">\(x,y\)</span>, <span class="equation">\(U_x(\theta)/U_y(\theta)\)</span> is a ratio of positive affine functions, so it is monotone or constant on the interval. Moreover, <span class="equation">\(U_x/O=\sup_y U_x/U_y\)</span>. Exchanging this supremum with the maximum over the two endpoints proves the asserted reduction. The comparator need not be the same oracle action at both endpoints.</p>
+<p><strong>Uniqueness without convexity.</strong> For an endpoint quotient <span class="equation">\(f(t)=(a_0+a_1t+a_2t^2)/(1+rt)\)</span>,</p>
+<div class="equation">\[f&#x27;(t)=\frac{a_1-ra_0+2a_2t+ra_2t^2}{(1+rt)^2},\qquad
+f&#x27;&#x27;(t)=\frac{2(a_2-ra_1+r^2a_0)}{(1+rt)^3}.\]</div>
+<p>If curvature is nonpositive, the derivative is at least its positive limiting value, so <span class="equation">\(f\)</span> strictly increases. Otherwise it is strictly convex. Both cases are strictly quasiconvex: at an interior point between distinct strengths, the value is below the larger endpoint value. Positive normalization preserves this property. A finite maximum also preserves it: choose a branch active at the interior point and apply its strict inequality. Thus the robust objective has a unique minimizing strength on each edge.</p>
+<p><strong>Candidates.</strong> First compute endpoint oracles from zero and positive roots of the displayed derivative numerator. Then include the positive roots of</p>
+<div class="equation">\[O_h(a_{0,l}+a_{1,l}t+a_{2,l}t^2)
+-O_l(a_{0,h}+a_{1,h}t+a_{2,h}t^2)=0.\]</div>
+<p>An interior minimum either has a locally active stationary branch or equal active branches. Identical branches reduce to one function; nonzero constant, linear, repeated-root and nonreal-root cases are handled explicitly. Zero is already a boundary candidate. Algebraically equal strengths are deduplicated. Coercivity excludes infinity, completing the proof.</p>
+<h2 id="4-exact-weighted-path-example">4. Exact weighted-path example</h2>
+<p>Take the path <span class="equation">\(0-1-2\)</span> with conductances <span class="equation">\(1,2\)</span>, focus <span class="equation">\(1\)</span>, and insert the missing edge <span class="equation">\(0,2\)</span>. Direct first-step equations give</p>
+<div class="equation">\[U_\theta(t)=\frac{(4+8\theta)t^2+(24+3\theta)t+36-24\theta}{27t+18}.\]</div>
+<p>On <span class="equation">\([0,99/100]\)</span>, the certified robust optimum is the positive balance strength</p>
+<div class="equation">\[\boxed{t^*=\frac{-10617+3\sqrt{24368421}}{13934}}.\]</div>
+<p>The <a href="https://github.com/Legedith/maths/blob/codex/research-paper/evidence/kemeny-source-target/integration/check-01.json">canonical exact certificate</a> records its rational enclosing bounds and every competing candidate. This value is not selected from a sampled strength grid.</p>
+<p>At the collapsed workload <span class="equation">\(\theta=99/100\)</span>, however,</p>
+<div class="equation">\[U&#x27;&#x27;_\theta(t)=-\frac{199}{225(3t+2)^3}&lt;0.\]</div>
+<p>The objective remains strictly increasing, so the unique optimum is <span class="equation">\(t=0\)</span>: leave the graph unchanged. At <span class="equation">\(98/101\)</span> it is affine and increasing. These cases demonstrate why the uniqueness proof uses strict quasiconvexity rather than importing a strict-convexity theorem from the different iid-demand model.</p>
+<h2 id="5-implementation-and-reproducibility">5. Implementation and reproducibility</h2>
+<p>The <a href="https://github.com/Legedith/maths/blob/codex/research-paper/experiments/kemeny-source-target-proof/README.md">separate rational-input solver</a> implements this model. It returns endpoint oracles, all candidate classifications, actual objectives and conductance volumes, unique strength per edge, and all global location ties. Zero-strength labels collapse once. Exact algebraic comparisons use certified rational intervals and exact identities; unresolved comparisons raise an explicit inconclusive error instead of returning an approximate winner.</p>
+<p>From the repository root, choose a fresh output:</p>
+<pre><code class="language-sh">uv run --project experiments/kemeny-source-target-proof --frozen python experiments/kemeny-source-target-proof/verify_source_target.py --output source-target-replay.json
+</code></pre>
+<p>Python 3.12.11 and SymPy 1.14.0 are pinned. The <a href="https://github.com/Legedith/maths/blob/codex/research-paper/evidence/kemeny-source-target/README.md">evidence guide</a> records independent audits and canonical artifacts. Validation includes 30 direct grounded first-step comparisons at strengths <span class="equation">\(0,1/2,2\)</span>, three symbolic identities, seven abstract root cases and seven malformed inputs. A symmetric four-cycle checks location ties. Existing-output rejection protects prior certificates. Worker, independent reviewer and integration outputs agree byte-for-byte. Both downloaded GitHub proof runs also match that certificate exactly; the <a href="https://github.com/Legedith/maths/blob/codex/research-paper/evidence/research-paper/pr16-hosted-review/ci-review.md">separate hosted audit</a> records the verified revision and scope.</p>
+<p>These checks support the implementation; the universal proof also needs the analytic arguments above. Neither the main result nor the supplement is claimed to be formalized in Lean. Symbolic comparison may be expensive, so the documented process-tree-aware logger supplies an external time limit. No all-input termination or polynomial-time guarantee is asserted.</p>
+<h2 id="6-analytic-supplement-arbitrary-sources-and-nonattainment">6. Analytic supplement: arbitrary sources and nonattainment</h2>
+<p>The following separately audited results extend the mathematics, not the implemented uniform-source API. The public supplements contain the <a href="https://github.com/Legedith/maths/blob/codex/research-paper/evidence/research-paper/supplement/growth/author/proposal.md">growth proof and audit</a>, <a href="https://github.com/Legedith/maths/blob/codex/research-paper/evidence/research-paper/supplement/classification/author/proposal.md">structural classification</a>, and <a href="https://github.com/Legedith/maths/blob/codex/research-paper/evidence/research-paper/supplement/infimum/author/proposal.md">infimum/attainment characterization</a>; the <a href="https://github.com/Legedith/maths/blob/codex/research-paper/evidence/research-paper/README.md">evidence index</a> links their independent reviews.</p>
+<p>Fix a source <span class="equation">\(a\)</span>. When the target <span class="equation">\(b\)</span> lies outside an inserted pair <span class="equation">\(i,j\)</span>, the coefficient of linear growth in <span class="equation">\(H_{ab}(t)\)</span> is positive exactly when <span class="equation">\(a\ne b\)</span> and <span class="equation">\(a\)</span> can reach the pair without visiting <span class="equation">\(b\)</span>. It is zero for a target in the pair or a self target. Grounding <span class="equation">\(b\)</span>, let <span class="equation">\(K=L_b^{-1}\)</span>, <span class="equation">\(v=e_i-e_j\)</span>, and <span class="equation">\(w=e_i+e_j\)</span>. The coefficient is</p>
+<div class="equation">\[[Cw]_a=2C_{ai},\qquad C=K-\frac{Kvv^TK}{v^TKv}.\]</div>
+<p>The matrix <span class="equation">\(C\)</span> is the lifted Green matrix after identifying the pair. Its positive entries encode the stated target-avoiding connectivity; the factor two records both degree increments.</p>
+<p>With a positive uniform target floor, zero averaged growth occurs precisely when the contracted underlying graph is a path with endpoints <span class="equation">\(a\)</span> and the merged pair. Equivalently, the original graph is a tail from <span class="equation">\(a\)</span> to a vertex <span class="equation">\(w\)</span>, followed by two leaves <span class="equation">\(i,j\)</span> attached to <span class="equation">\(w\)</span>. The tail may be empty. Parallel conductances created by contraction are combined. There is at most one exceptional source for a fixed pair, so any fixed source law supported on at least two vertices restores coercivity for every allowed edge.</p>
+<p>For the exceptional fixed source, prong hitting times strictly decrease with strength and approach positive finite limits; other target times remain unchanged. Thus no finite strength attains the edge-ray infimum. This is not a contradiction of the uniform-source theorem. In the three-vertex example with source fixed at vertex <span class="equation">\(1\)</span>,</p>
+<div class="equation">\[U_\theta(t)=(1-\theta)\left(1+\frac8{3(3t+2)}\right),\]</div>
+<p>whose infimum <span class="equation">\(1-\theta\)</span> is unattained.</p>
+<p>For arbitrary fixed source laws, define the oracle by its <strong>infimum</strong>, preserving positive denominators. Endpoint reduction still holds. Coercive rays use the finite stationary/balance candidates; an exceptional ray contributes its limiting value, labelled infinity only as a certificate, never as a physical action. Compare all these values. The global infimum is attained exactly when a finite candidate ties the least value. A finite action may tie an exceptional limit; otherwise a uniquely winning limit means nonattainment. A fixed source has at most one exceptional pair. This characterization is algebraically effective for rational inputs, but arbitrary real probabilities require an appropriate exact representation. No new general-source implementation is claimed.</p>
+<h2 id="7-related-work-and-interpretation">7. Related work and interpretation</h2>
+<p>Electrical-network methods provide established foundations. Palacios, Gomez and Del Rio give the conductance-weighted voltage identity in Theorem 2 and simple-random-walk cutpoint, bridge and tree formulas in Corollaries 8–10 [1]. The growth supplement combines such ingredients with a limiting argument and separator classification; it is not presented as a novelty certificate.</p>
+<p>Martinez and coauthors optimize directed recommendation-walk reachability through rewiring and probability adjustment [2]. Their objective is closely related, but their intervention set differs. Static inspection of a <a href="https://github.com/alexmartinezmiguel/reachability/blob/20f35f4c28da3f40049f5b10caa64a3371905cb8/compute_SLSQP_rewirings-reweighting.py">pinned implementation</a> gives <span class="equation">\(G=U_0/(n-1)=C/n\)</span>, where <span class="equation">\(C\)</span> averages over distinct source-target pairs. It also applies teleportation, <span class="equation">\(P=0.985X+0.015J/n\)</span>, and changes directed probabilities across rows. A common positive rescaling preserves rankings and regret; a different transition matrix or action set does not.</p>
+<p>Search and navigation systems motivate asking how link choices interact with uneven destination demand. The theorem supplies an exact answer for the specified walk and intervention model. It does not establish that real users walk this way, that conductance is a calibrated resource cost, or that a mathematical improvement produces deployment gains. Establishing those connections requires workload evidence and a common feasible set before empirical comparison. Publication priority and practical value remain separate questions.</p>
+<p>The upper bound <span class="equation">\(h&lt;1\)</span> ensures a positive uniform component throughout the workload interval. Removing that condition changes the proof obligations. Likewise, a finite conductance cap or an intervention cost defines a different optimization problem: a cap introduces an additional boundary candidate, while a cost requires its own objective and regularity analysis. These distinctions should be preserved when adapting the result to another search model.</p>
+<h2 id="references">References</h2>
+<ol>
+<li>Palacios, Gomez and Del Rio. <em>Hitting Times of Walks on Graphs through Voltages</em>. Journal of Probability, article 852481, 2014. <a href="https://onlinelibrary.wiley.com/doi/pdf/10.1155/2014/852481">Official full text</a>.</li>
+<li>A. Martinez, F. Cinus, F. Bonchi and J. Vitria. <em>Optimizing Reachability in Graph-Based Recommender Systems</em>. ACM Transactions on Intelligent Systems and Technology 16(4), article 93, 2025. <a href="https://doi.org/10.1145/3744658">DOI</a>.</li>
+<li><a href="https://github.com/Legedith/maths/blob/codex/research-paper/docs/kemeny-source-target.md">Main theorem, implementation and evidence</a>; <a href="https://github.com/Legedith/maths/blob/codex/research-paper/docs/atlas-overview.md">repository research overview</a>.</li>
+</ol>
+<h2 id="repository-and-verification-record">Repository and verification record</h2>
+<p>The atlas, earlier network-design studies and learning tools remain available in the <a href="https://github.com/Legedith/maths/blob/codex/research-paper/docs/atlas-overview.md">preserved project overview</a>. The <a href="https://github.com/Legedith/maths/blob/codex/research-paper/docs/research-paper-contract.md">final release contract</a> fixes this paper’s scope. The <a href="https://github.com/Legedith/maths/blob/codex/research-paper/.codex/evidence/runs/research-paper-v1/bundle.json">typed evidence bundle</a> and independent review connect claims to proofs, code, results and sources. Independent checks were performed by separate AI agents; this is not journal peer review. The work is not claimed to map all mathematics or to establish publication priority.</p>
+<p>Generate the web edition from this README with:</p>
+<pre><code class="language-sh">uv run --project experiments/research-paper --frozen python scripts/build_research_paper.py
+</code></pre></article><footer>Research software and independently audited mathematics. Publication priority remains unresolved.</footer></main></div>
+</body></html>

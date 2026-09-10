@@ -1,0 +1,27 @@
+[
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-general-source-infimum-explore-work\\claims.json",
+    "sha256": "4313deb2b69e19420f3e4f23b3ffa1acb7dd52ce18054f6c2a848dd64e05fc5a",
+    "matches": true
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-general-source-infimum-explore-work\\plan.md",
+    "sha256": "3aa3753ecb54aa6edf42ab6cc814924dd2a05b6478d4127f9670301e312569eb",
+    "matches": true
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-general-source-infimum-explore-work\\proposal.md",
+    "sha256": "fdfaedabe166af618fdff39149755819b294a5e17a302094a4583d7ccef3971f",
+    "matches": true
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-review-work\\review.md",
+    "sha256": "4a46cdd108cae41e737d6c164e02fbbac795d37f9659bf3bf397e387814033f6",
+    "matches": true
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-zero-growth-classification-review-work\\review.md",
+    "sha256": "cd94730bfdd553565c86992256efd9093e4630bb9ebf8255e5d9d9eab9a3655a",
+    "matches": true
+  }
+]

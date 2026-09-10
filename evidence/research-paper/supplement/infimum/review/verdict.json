@@ -1,0 +1,15 @@
+{
+ "status":"pass",
+ "auditor":"astra_damage_symbolic",
+ "proposal_sha256":"fdfaedabe166af618fdff39149755819b294a5e17a302094a4583d7ccef3971f",
+ "required_corrections":[],
+ "checks":[
+  {"name":"specification_compliance","status":"pass","evidence":["review.md","../astra-general-source-infimum-explore-work/proposal.md"]},
+  {"name":"mathematical_integrity","status":"pass","evidence":["review.md","../astra-zero-growth-classification-review-work/review.md"]},
+  {"name":"methodological_integrity","status":"pass","evidence":["review.md","input-hash-check.json"]},
+  {"name":"conclusion_integrity","status":"pass","evidence":["review.md"]}
+ ],
+ "evaluators":0,
+ "new_browse":0,
+ "scope":"Analytic general-source minimax infimum and attainment characterization only. No implementation, novelty, physical or release approval."
+}

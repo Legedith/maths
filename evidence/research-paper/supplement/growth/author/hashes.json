@@ -1,0 +1,50 @@
+[
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\.python-version",
+        "Hash":  "43FD694BD564DD2215F51A6B23F6A3712834850225E629D7781C81C71076092D"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\check.py",
+        "Hash":  "ED29E17FA73DB910F39218B1626569849F45AFDDABD14356AD333EBAB808C623"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\claims.json",
+        "Hash":  "656DD13A10D06A04F45A3B85C8E3BAE0EE3C6FF893358E5216E195E6143FFC69"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\plan.md",
+        "Hash":  "B19F77E020E4DF38A98B6381173E4D6FBD4B6F7E0840BFEFC2194141E6E9C131"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\proposal.md",
+        "Hash":  "738BB72678514E1EFC4789AB8308E1CF6B38D05B07DB564B7B052FBCB80DEEEC"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\pyproject.toml",
+        "Hash":  "043135469F15A65EC3BB4106A3D6798BCCCDD0F762288DB41FD740164762445F"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\result.json",
+        "Hash":  "F3063F1EC7FFFEF435EAD55E875A793ABC89C90FA316E70FF9FAA9AD42C5E947"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\uv.lock",
+        "Hash":  "378269213EB25AE37448F6993AC983809D7BAB05D3A47434C5BABD06DC0B874D"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\logs\\attempt-growth01.json",
+        "Hash":  "829DAD73ADFF1E3DFEF4D21CF86633716D1FA6C219F40506693CFEF0BB878F27"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\logs\\attempt-growth01.stderr.bin",
+        "Hash":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\logs\\attempt-growth01.stdout.bin",
+        "Hash":  "1721F9FB25FCDA99793FDBBECCE4AF07566B69EAE6456E11F785630FC5A1814C"
+    },
+    {
+        "Path":  "D:\\CodexWorkspaces\\mathematics-atlas\\astra-hitting-growth-explore-work\\logs\\attempts.jsonl",
+        "Hash":  "74576B6F698233C3EFE1D4CEC5951C5D4244F027D55BF30269237885F961C2F9"
+    }
+]

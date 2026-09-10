@@ -1,0 +1,14 @@
+[
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-palacios-overlap-review-work\\input-hash-check.json",
+    "sha256": "c4b6a251a68066a672381d0e883035ce98fac76b1318453cbe7513d17f21dc02"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-palacios-overlap-review-work\\review.md",
+    "sha256": "311103316af66d4b777c4639c79a8a2ba23b0e883494682772ce3bd470670ae7"
+  },
+  {
+    "path": "D:\\CodexWorkspaces\\mathematics-atlas\\astra-palacios-overlap-review-work\\verdict.json",
+    "sha256": "83e9334f2118ef2933e6ecebacbaaeb77b906de9ec2bfcbaf2d557513236c6c0"
+  }
+]

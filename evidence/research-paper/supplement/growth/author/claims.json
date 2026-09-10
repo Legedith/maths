@@ -1,0 +1,10 @@
+{
+  "claims":[
+    {"id":"growth-criterion","type":"analytic-proposal","evidence":"proposal.md","claim":"Positive fixed hitting growth exactly matches target-avoiding source-to-pair connectivity when target is outside pair and nonself."},
+    {"id":"source-law","type":"analytic-proposal","evidence":"proposal.md","claim":"A positive uniform target component turns the existence of one supported positive-growth pair into uniformly positive averaged growth."},
+    {"id":"trees","type":"exact-finite-computation","evidence":["result.json","check.py","logs/attempt-growth01.json"],"claim":"The four-vertex star has zero slopes; the declared path has positive target3 slope."}
+  ],
+  "independent_gate":"pending",
+  "attempts":1,
+  "scope_limits":"No universal attainment conclusion from zero slope; no novelty or application claim."
+}

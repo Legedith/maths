@@ -1,0 +1,3 @@
+# Frozen independent review protocol
+
+One exact evaluation, cap 60 seconds, only the declared unit star and path on four vertices, inserted pair 02, sources 3 and 1 respectively. Reconstruct directed first-step equations and solve their three unknowns for each target; compare every rational function and slope, every manifest and raw stream hash. No matrix-grid expansion. Analytically audit contracted Green identity, positivity iff target-avoiding connectivity, all boundaries, arbitrary fixed source law and uniform target floor, finite-set coercivity and zero-slope limits. uv outer/child, own D environment/cache, Python 3.12.11/SymPy 1.14.0 and preflighted process-tree logger. No release/source originality approval.

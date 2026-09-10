@@ -1,0 +1,10 @@
+{
+  "claims":[
+    {"id":"voltage","type":"primary-theorem-attribution","evidence":"raw-03.json, Theorem2 equations6-7","classification":"known identity"},
+    {"id":"cutpoint","type":"primary-theorem-attribution","evidence":"raw-03.json, Corollaries8-10 equations22-26","classification":"partial overlap"},
+    {"id":"growth","type":"mathematical-inference-not-source-quotation","evidence":"source-notes.md","classification":"requires added limiting argument"},
+    {"id":"priority","type":"bounded-assessment","evidence":"source-notes.md","classification":"no novelty conclusion"}
+  ],
+  "budget":{"queries":4,"opens":4,"screenshots":0},
+  "independent_source_audit":"pending"
+}

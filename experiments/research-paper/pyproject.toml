@@ -1,0 +1,5 @@
+[project]
+name = "mathematics-research-paper"
+version = "0.1.0"
+requires-python = "==3.12.11"
+dependencies = ["Markdown==3.8.2"]
